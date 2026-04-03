@@ -1,0 +1,34 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "Blood cholesterol level classified as either 1= hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic"
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "Ordinal",
+    "variable": {
+      "cholesterol_level": {
+        "id": "cholesterol_level",
+        "value": [
+          "1",
+          "2",
+          "3"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Blood cholesterol level classified into three categories: 1 for hypercholesterolemic, 2 for borderline hypercholesterolemic, and 3 for normocholesterolemic."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "20"
+}

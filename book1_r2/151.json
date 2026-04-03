@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_080.json",
+  "input": {
+    "background": "An SRS of 18 male students at a university has an average height of 70 inches. The average height of men in the general population is 69 inches. Assume that male height is approximately Normally distributed with σ=2.8 inches.",
+    "data": "",
+    "question": "Conduct a two-sided hypothesis test to determine whether the male students are significantly taller than expected. Show all hypothesis testing steps."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "The four step procedure is used to solve the problem: A. Hypotheses. $H_0: \\mu=69$ versus $H_a: \\mu \\neq 69$ B. Test statistic. $z_{\\text {stat }}=1.52$ C. $P$-value. One-sided $P=\\operatorname{Pr}(Z \\geq 1.52)=0.0643$. Therefore, the two-sided $P= 2 \\times 0.0643=0.1286$. This is considered to be nonsignificant by usual conventions. D. Significance level (optional). Results are not significant at $\\alpha=0.10$ (retain $H_0$ ).",
+    "variable": {
+      "sample_mean_height": {
+        "id": "sample_mean_height",
+        "value": 70,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average height of the sample of 18 male students."
+      },
+      "population_mean_height": {
+        "id": "population_mean_height",
+        "value": 69,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The average height of men in the general population."
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": 2.8,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of male height in the general population."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 18,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of male students in the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.17",
+    "image": "",
+    "caption": "University men.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
+  },
+  "sample_key": "151"
+}

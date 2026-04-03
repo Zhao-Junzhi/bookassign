@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_367.json",
+  "input": {
+    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean $\\mu=170$ pounds and standard deviation $\\sigma=40$. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean.",
+    "data": "",
+    "question": "Under the null hypothesis, there is no difference in the mean body weights between then and now."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Let $\\mu$ represent the current population mean. Therefore, the null hypothesis is $H_0: \\mu=170$. Under the alternative hypothesis, the mean weight has increased. In other words, $H_{\\mathrm{a}}: \\mu>170$ pounds.",
+    "variable": {
+      "historical_mean_weight": {
+        "id": "historical_mean_weight",
+        "value": 170,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean body weight of the United States male population between 20-29 years of age in the late 1970s."
+      },
+      "historical_std_dev_weight": {
+        "id": "historical_std_dev_weight",
+        "value": 40,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of body weight of the United States male population between 20-29 years of age in the late 1970s."
+      },
+      "current_mean_weight": {
+        "id": "current_mean_weight",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean body weight of the current sample of men aged 20-29 years."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 The Null and Alternative Hypotheses",
+    "page": "176-177"
+  },
+  "sample_key": "410"
+}

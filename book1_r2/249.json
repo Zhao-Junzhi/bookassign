@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_124.json",
+  "input": {
+    "background": "Exercise 16.2 stated that seven of eight patients expressed a preference for a particular medical procedure.",
+    "data": "",
+    "question": "Use an exact procedure to calculate a 95% confidence interval for p."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "The 95% confidence interval for p by Fisher's method is 0.473 to 0.997. The 95% confidence interval for p by the Mid-P method is 0.520 to 0.994. Confidence intervals calculated with WinPepi describe.exe version 1.5.1.",
+    "variable": {
+      "number_of_patients": {
+        "id": "number_of_patients",
+        "value": 8,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of patients involved in the study."
+      },
+      "number_of_preferences": {
+        "id": "number_of_preferences",
+        "value": 7,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients who expressed a preference for the medical procedure."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level for the interval estimation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.11",
+    "image": "",
+    "caption": "Patient preference.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "366-366"
+  },
+  "sample_key": "249"
+}

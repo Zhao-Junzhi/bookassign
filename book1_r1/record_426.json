@@ -1,0 +1,30 @@
+{
+  "background": "We propose to calculate a $95 \\%$ confidence interval for the risk difference in the estrogen trial presented earlier. We've established that $a_1=751$ and $n_1=8506$ in the treatment group. In the control group, $a_2=623$ and $n_2=8102$.",
+  "task": [
+    {
+      "query": "Calculate the adjusted proportions for the treatment group and control group, including $\\tilde{p}_1$ and $\\tilde{p}_2$.",
+      "answer": "- In the treatment group, $\\tilde{a}_1=a_1+1=751+1=752$, $\\tilde{n}_1=n_1+2= 8506+2=8508$, and $\\tilde{p}_1=\\frac{752}{8508}=0.08839$.\n- In the control group, $\\bar{a}_2=a_2+1=623+1=624, \\bar{n}_2=n_2+2= 8102+2=8104$, and $\\bar{p}_2=\\frac{624}{8104}=0.07700$.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Calculate the standard error for the difference in adjusted proportions, $SE_{\\tilde{p}_1-\\tilde{p}_2}$.",
+      "answer": "$SE_{\\tilde{p}_1-\\tilde{p}_2}=\\sqrt{\\frac{\\tilde{p}_1 \\tilde{q}_1}{\\tilde{n}_1}+\\frac{\\tilde{p}_2 \\tilde{q}_2}{\\tilde{n}_2}}= \\sqrt{\\frac{(0.08839)(0.91161)}{8508}+\\frac{(0.07700)(0.92300)}{8104}}=0.004271$.",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "Calculate the $95 \\%$ confidence interval for the risk difference, $p_1-p_2$.",
+      "answer": "The $95 \\%$ confidence interval for $p_1-p_2=\\tilde{p}_1-\\tilde{p}_2 \\pm z \\cdot SE_{\\hat{p}-\\tilde{p}_2}= (0.08839-0.07700) \\pm(1.96)(0.004271)=0.01139 \\pm 0.00837 =(0.00302$ to 0.01976$)$, or approximately from $0.3 \\%$ to $2.0 \\%$.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "426",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for risk difference.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "378-379"
+  }
+}

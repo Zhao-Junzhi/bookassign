@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "The closer 7 is to 1, the stronger the linear relation between X and Y."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "False",
+    "variable": {
+      "X": {
+        "id": "X",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "independent",
+        "description": "One of the variables in the linear relationship being assessed."
+      },
+      "Y": {
+        "id": "Y",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The other variable in the linear relationship being assessed."
+      },
+      "CorrelationCoefficient": {
+        "id": "CorrelationCoefficient",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "both",
+        "description": "A measure of the strength and direction of the linear relationship between X and Y."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "235"
+}

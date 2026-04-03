@@ -1,0 +1,20 @@
+{
+  "background": "A questionnaire measures an index of risk-taking behavior in respondents. Scores are standardized so that 100 represents the population average. The questionnaire is applied to a sample of teenage boy and girls.",
+  "task": [
+    {
+      "query": "Explore group differences with side-by-side boxplots.",
+      "answer": "The girls have lower scores on average and less variability. There is one outlier in the girls.",
+      "method": "离散型-连续型变量关系"
+    }
+  ],
+  "id": "105",
+  "data": "",
+  "meta info": {
+    "index": "12.13",
+    "image": "",
+    "caption": "Risk-taking behavior in boys and girls.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "255-255"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "119",
+  "question": "The relation between FEV and SEX in the illustrative data set. Download the illustrative data set (fev.*) used in this chapter. See Table 15.1 for a codebook of variables. Examine the relationship between FEV and SEX. Then, examine the relationship between FEV and SEX while adjusting for AGE. Did AGE confound the relationship?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\
+\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\
+\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\
+\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\
+\hline SEX & $0=$ female; $1=$ male & \multicolumn{4}{|c|}{48.6\% female; 51.4\% male; none missing} \\
+\hline SMOKE & $0=\mathrm{no} ; 1=$ yes & \multicolumn{4}{|c|}{$90.1 \% \mathrm{no;} 9.9 \%$ yes; none missing} \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "meta info": {
+    "index": "15.1",
+    "image": "",
+    "caption": "The relation between FEV and SEX in the illustrative data set.",
+    "chapter": "MULTIPLE LINEAR REGRESSION",
+    "section": "“15.6 EXAMINING MULTIPLE REGRESSION CONDITIONS",
+    "page": "348-348"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_058.json",
+  "input": {
+    "background": "Heights of 10-year-old male children follow a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+    "data": "",
+    "question": "Create a sketch of a Normal curve depicting this distribution. Mark the horizontal axis with values that are one standard deviation above and below the mean. (Locate points of inflection on the curve as accurately as possible.)"
+  },
+  "output": {
+    "method": "数据可视化",
+    "answer": "X ∼ N(138 cm, 7 cm) (The drawing is not shown in this key.) Imagine a bell-shaped curve centered on 138 with inflection points at μ ± σ=138 ± 7=131 to 145.",
+    "variable": {
+      "mean_height": {
+        "id": "mean_height",
+        "value": 138,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean height of 10-year-old male children in centimeters."
+      },
+      "std_dev_height": {
+        "id": "std_dev_height",
+        "value": 7,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the height of 10-year-old male children in centimeters."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.1",
+    "image": "",
+    "caption": "Height of 10-year-olds.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1 NORMAL DISTRIBUTIONS",
+    "page": "138-139"
+  },
+  "sample_key": "103"
+}

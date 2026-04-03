@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_087.json",
+  "input": {
+    "background": "The freeware program StaTable can determine exact probabilities for t-random variables. You can also use WinPepi WhatIs.exe or Microsoft Excel's TDIST function for this purpose.",
+    "data": "",
+    "question": "Use one of these software applications to find Pr(T_{19} ≤ 2.98)"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Pr(T_{19} ≤ 2.98) = 0.9962",
+    "variable": {
+      "T_distribution": {
+        "id": "T_distribution",
+        "value": 19,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Degrees of freedom for the t-distribution."
+      },
+      "T_value": {
+        "id": "T_value",
+        "value": 2.98,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The t-value for which the cumulative probability is to be found."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "11.7",
+    "image": "",
+    "caption": "Software utility programs.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.2 STUDENT’S T DISTRIBUTIONS",
+    "page": "214-214"
+  },
+  "sample_key": "167"
+}

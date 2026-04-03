@@ -1,0 +1,20 @@
+{
+  "background": "The number of asthmatics in the asthma survey discussed in the prior illustration varies according to a binomial distribution with n=20 and p=0.04.",
+  "task": [
+    {
+      "query": "What is the cumulative probability of observing two asthmatics in a sample? We established in the prior illustration box that Pr(X=0)=0.4420, Pr(X=1)=0.3683, and Pr(X=2)=0.1458.",
+      "answer": "Pr(X ≤ 2)=Pr(X=0)+Pr(X=1)+Pr(X=2)=0.4420+0.3683+0.1458=0.9561.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "507",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Cumulative probability (Asthma survey).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS ",
+    "section": "6.4 Probability Calculators",
+    "page": "119-120"
+  }
+}

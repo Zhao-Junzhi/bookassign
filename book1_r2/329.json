@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_311.json",
+  "input": {
+    "background": "Ginkgo biloba is a commonly used herb that claims to improve memory and cognitive function. A randomized, double blind study in an elderly population was conducted to evaluate whether this claim is true. The treatment group consisted of subjects who took the active product according to the manufacturer’s recommendation. The control group received lactose gelatin capsules that looked and tasted like the ginkgo pill. The study was double blinded, with subjects and evaluators administering cognitive tests unaware of whether subjects were receiving the ginkgo or placebo.",
+    "data": "",
+    "question": "Evaluate whether Ginkgo biloba improves memory and cognitive function in an elderly population."
+  },
+  "output": {
+    "method": "实验数据",
+    "answer": "Analysis revealed no difference in any of the cognitive functions that were measured.",
+    "variable": {
+      "Group": {
+        "id": "Group",
+        "value": [
+          "Treatment",
+          "Control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Categorical variable indicating whether subjects are in the treatment group receiving Ginkgo biloba or in the control group receiving placebo."
+      },
+      "Memory_Cognitive_Score": {
+        "id": "Memory_Cognitive_Score",
+        "value": "Scores from cognitive tests administered to subjects",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Numerical variable representing the scores from cognitive tests used to evaluate memory and cognitive function."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Ginkgo and memory enhancement.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 Comparative Studies",
+    "page": "31-31"
+  },
+  "sample_key": "329"
+}

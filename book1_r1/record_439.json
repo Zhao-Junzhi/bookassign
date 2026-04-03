@@ -1,0 +1,20 @@
+{
+  "background": "In the smoking and education illustrative data, let group 1 (High school graduates) serve as the baseline group for comparisons.",
+  "task": [
+    {
+      "query": "Compare other groups to the baseline group (High school graduates) in terms of smoking behavior.",
+      "answer": "null",
+      "method": "分组异质性解读"
+    }
+  ],
+  "id": "439",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.3 Prevalences and prevalence (",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risks, R-by-2 table.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "415-415"
+  }
+}

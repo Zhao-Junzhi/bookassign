@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_395.json",
+  "input": {
+    "background": "Suppose you want to estimate \\boldsymbol{\\mu}_1-\\boldsymbol{\\mu}_2 with 95 \\% confidence for a problem similar to the cholesterol illustrative example. You want your margin of error to be no greater than 0.25 \\mathrm{mmol} / \\mathrm{L}.",
+    "data": "",
+    "question": "Now suppose that you can recruit only 20 individuals into group 1. How many individuals will you now need in group 2?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "n_2=\\frac{n n_1}{2 n_1-n}=\\frac{31 \\cdot 20}{2 \\cdot 20-31}=68.9. Round this up to 69.",
+    "variable": {
+      "mu_1": {
+        "id": "mu_1",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean cholesterol level for group 1"
+      },
+      "mu_2": {
+        "id": "mu_2",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean cholesterol level for group 2"
+      },
+      "margin_of_error": {
+        "id": "margin_of_error",
+        "value": 0.25,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Desired maximum margin of error for the confidence interval"
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Confidence level for the estimation"
+      },
+      "group_1_size": {
+        "id": "group_1_size",
+        "value": 20,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of individuals in group 1"
+      },
+      "group_2_size": {
+        "id": "group_2_size",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of individuals needed in group 2"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement for a confidence interval for $\\\\mu_1-\\\\mu_2$",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "251-251"
+  },
+  "sample_key": "474"
+}

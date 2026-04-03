@@ -1,0 +1,50 @@
+{
+  "id": "444",
+  "question": "Exercise 18.5 examined responses to treatment in 196 leprosy patients. Descriptive statistics suggested patients in the high skininfiltration group were more likely to demonstrate a favorable response (see answer key to Exercise 18.5). Table 18.13 has taken the 2-by-5 cross tabulation from Table 18.10 and transposed it into a 5-by-2 table. It also calculates odds and odds ratios, which we note become progressively smaller as we proceed down the table. We now ask whether this trend is statistically significant.",
+  "data": "\begin{table}
+\centering
+\caption{Table 18.13 Leprosy illustrative example test for trend; response to treatment based on level of skin damage at onset of observation.}
+\begin{tabular}{l|cc|c|c|}
+\cline{2-5}
+\multirow{2}{*}{\textbf{Improvement score}} & \multicolumn{2}{c|}{\textbf{Skin Infiltration}} & \multirow{2}{*}{\textbf{Odds ($\hat{o}_i$)}} & \multirow{2}{*}{\textbf{Odds ratio ($OR_i$)}} \\
+ & \textbf{High} & \textbf{Low} & & \\
+\hline
+\multicolumn{1}{|l|}{(1) Marked improvement} & 7 & 11 & 0.6364$^a$ & 1.00 (ref.) \\
+\multicolumn{1}{|l|}{(2) Moderate} & 15 & 27 & 0.5556 & 0.87$^b$ \\
+\multicolumn{1}{|l|}{(3) Slight} & 16 & 42 & 0.3810 & 0.60 \\
+\multicolumn{1}{|l|}{(4) Stationary} & 13 & 53 & 0.2453 & 0.39 \\
+\multicolumn{1}{|l|}{(5) Worse} & 1 & 11 & 0.0909 & 0.14 \\
+\hline
+\multicolumn{5}{l}{\textbf{Examples of calculations:}} \\
+\multicolumn{5}{l}{$^a \hat{o}_1 = \frac{a_1}{b_1} = \frac{7}{11} = 0.6364$} \\
+\multicolumn{5}{l}{$^b OR_2 = \frac{\hat{o}_2}{\hat{o}_1} = \frac{15/27}{7/11} = 0.87$} \\
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}
+\begin{tabular}{|l|ccccc|c|}
+\hline
+\multirow{2}{*}{\textbf{Skin infiltration}} & \multicolumn{5}{c|}{\textbf{Response to treatment}} & \multirow{2}{*}{\textbf{Total}} \\
+ & \textbf{Marked} & \textbf{Moderate} & \textbf{Slight} & \textbf{Stationary} & \textbf{Worse} & \\
+ & \textbf{improvement} & \textbf{improvement} & \textbf{improvement} & & & \\
+\hline
+High & 7 & 15 & 16 & 13 & 1 & 52 \\
+Low & 11 & 27 & 42 & 53 & 11 & 144 \\
+\hline
+Total & 18 & 42 & 58 & 66 & 12 & 196 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "A. Hypotheses. $H_0$ : no linear trend in improvement in the population versus $H_a$ : linear trend in the population.\nB. Test statistic.\n\n$$\n\\begin{aligned}\nO= & \\sum a_i s_i=(7)(1)+(15)(2)+\\ldots+(1)(5)=142 \\\\\nE= & \\frac{m_i}{N} \\sum n_i s_i=\\frac{52}{196}((18)(1)+(42)(2)+\\ldots+(12)(5))= \\\\\n159.184 & \\\\\nV= & \\frac{m_1 m_2}{N^2(N-1)}\\left[N \\sum n_i s_i^2-\\left(\\sum n_i s_i\\right)^2\\right] \\\\\n= & \\frac{(52)(144)}{196^2(196-1)}\\left[196\\left((18)\\left(1^2\\right)+(42)\\left(2^2\\right)+\\ldots+(12)\\left(5^2\\right)\\right)-\\right. \\\\\n& \\left.((18)(1)+(42)(2)+\\ldots+(12)(5))^2\\right]=44.525\n\\end{aligned}\n$$\n\n$$\nz_{\\text {stat,trend }}=\\frac{O-E}{\\sqrt{V}}=\\frac{142-159.184}{\\sqrt{44.525}}=-2.58\n$$\n\nC. $\\boldsymbol{P}$-value. The two-sided $P=0.00988$, providing strong evidence against the null hypothesis.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Test for trend in response, ordinal response variable (Leprosy treatment).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.4 TEST FOR TREND",
+    "page": "434-435"
+  }
+}

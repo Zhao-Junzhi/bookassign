@@ -1,0 +1,39 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "Religious identity coded 1= Protestant, 2= Catholic, 3= Muslim, 4= Jewish, 5= Atheist, 6= Buddhist, 7= Hindu, 8= Other"
+  },
+  "output": {
+    "method": "离散型变量分布",
+    "answer": "Categorical",
+    "variable": {
+      "religious_identity": {
+        "id": "religious_identity",
+        "value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Religious identity of individuals, coded as numerical values representing different categories."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "19"
+}

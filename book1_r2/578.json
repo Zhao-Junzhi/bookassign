@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_504.json",
+  "input": {
+    "background": "Among U. S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+    "data": "",
+    "question": "Describe the sampling distribution of p̂1-p̂2."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The sampling distribution of p̂1-p̂2 will be approximately Normal with mean μ= p1-p2=0.40-0.12=0.28 with standard deviation s_{p̂1-p̂2}=√((p1q1/n1)+(p2q2/n2)) =√((0.4)(0.6)/1000+(0.12)(0.88)/1000)=0.01859. In other words, p̂1-p̂2 ∼ N(0.28, 0.01859).",
+    "variable": {
+      "p1": {
+        "id": "p1",
+        "value": 0.4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Prevalence of smoking among American Indians/Alaska Natives"
+      },
+      "p2": {
+        "id": "p2",
+        "value": 0.12,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Prevalence of smoking among Chinese-Americans"
+      },
+      "n1": {
+        "id": "n1",
+        "value": 1000,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of American Indians/Alaska Natives"
+      },
+      "n2": {
+        "id": "n2",
+        "value": 1000,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of Chinese-Americans"
+      },
+      "p̂1-p̂2": {
+        "id": "p̂1-p̂2",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Difference in sample proportions of smoking prevalence between the two groups"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  },
+  "sample_key": "578"
+}

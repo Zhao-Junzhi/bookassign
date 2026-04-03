@@ -1,0 +1,20 @@
+{
+  "background": "Table 14.3 shows calculation of the correlation coefficient for the illustrative data. The correlation coefficient $r=0.737$ represents a strong positive correlation.",
+  "task": [
+    {
+      "query": "What does the correlation coefficient $r=0.737$ represent?",
+      "answer": "null",
+      "method": "相关系数（一维）"
+    }
+  ],
+  "id": "406",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.3 Calculation of correlation coefficient $r$, illustrative data.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{7}{|l|}{$$\n\\begin{aligned}\n& \\bar{x}=\\frac{6640}{11}=603.6364 & s_x=378.4514 \\\n& \\bar{y}=\\frac{226}{11}=20.54545  & s_y=11.725\n\\end{aligned}\n$$\n} \\\n\\hline i & Country & $x$ & $z_x=\\frac{\\boldsymbol{x}_{\\boldsymbol{i}}-\\overline{\\boldsymbol{x}}}{\\boldsymbol{s}_{\\boldsymbol{x}}}$ & $Y$ & $z_y=\\frac{y_i-y}{s_y}$ & $\\boldsymbol{z}_{\\boldsymbol{X}}{ }^{\\boldsymbol{\\prime}} \\boldsymbol{z}_{\\boldsymbol{Y}}$ \\\n\\hline 1 & US & 1300 & 1.840 & 20 & -0.047 & -0.086 \\\n\\hline 2 & Great Britain & 1100 & 1.312 & 46 & 2.171 & 2.847 \\\n\\hline 3 & Finland & 1100 & 1.312 & 35 & 1.233 & 1.617 \\\n\\hline 4 & Switzerland & 510 & -0.247 & 25 & 0.380 & -0.094 \\\n\\hline 5 & Canada & 500 & -0.274 & 15 & -0.473 & 0.130 \\\n\\hline 6 & Holland & 490 & -0.300 & 24 & 0.295 & -0.088 \\\n\\hline 7 & Australia & 480 & -0.327 & 18 & -0.217 & 0.071 \\\n\\hline 8 & Denmark & 380 & -0.591 & 17 & -0.302 & 0.179 \\\n\\hline 9 & Sweden & 300 & -0.802 & 11 & -0.814 & 0.653 \\\n\\hline 10 & Norway & 250 & -0.934 & 9 & -0.985 & 0.920 \\\n\\hline 11 & Iceland & 230 & -0.987 & 6 & -1.241 & 1.225 \\\n\\hline & Sums → & 6640 & 0 & 226 & 0 & 7.373 \\\n\\hline \\multicolumn{7}{|l|}{$r=\\frac{1}{n-1} \\sum z_x z_y=\\frac{1}{11-1} \\cdot 7.373=0.737$} \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Correlation coefficient.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "299-300"
+  }
+}

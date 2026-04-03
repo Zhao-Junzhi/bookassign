@@ -1,0 +1,90 @@
+{
+  "case_id": "book1_r1\\record_158.json",
+  "input": {
+    "background": "Exercise 19.1 considered whether participation in a follow-up survey was associated with having medical aid. Race was a confounding variable in this analysis. Table 19.5 lists both crude and race-specific cross tabulations.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|l|}\n\\hline & \\multicolumn{2}{|l|}{Table A: All subjects\n Medical Aid + Medical Aid -} & Total \\\n\\hline \\multirow[t]{2}{*}{Follow-up +\n Follow-up -} & \\multicolumn{2}{|l|}{\\multirow{2}{*}{\\begin{tabular}{|r|r|}\n\\hline 46 & 370 \\\n\\hline 195 & 979 \\\n\\hline\n\\end{tabular}}} & 416 \\\n\\hline & & & 1174 \\\n\\hline & \\multicolumn{2}{|l|}{Table B: Whites \nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}}} & 12 \\\n\\hline & & & 126 \\\n\n\\hline & \\multicolumn{2}{|l|}{Table C: Blacks\nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 36 & 368 \\\n\\hline 91 & 957 \\\n\\hline\n\\end{tabular}}} & 404 \\\n\\hline & & & 1048 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the race-specific prevalence ratios"
+  },
+  "output": {
+    "method": "contingency table",
+    "answer": "Race-specific prevalence ratios: $$ \\begin{aligned} & \\widehat{R R}_1=1.010 \\ & \\widehat{R R}_2=1.026 \\end{aligned} $$ These strata-specific relative risks are homogeneous, so interaction is absent.",
+    "variable": {
+      "Follow-up_All": {
+        "id": "Follow-up_All",
+        "value": [
+          46,
+          370,
+          195,
+          979
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Counts of follow-up participation (positive and negative) for all subjects, stratified by medical aid status."
+      },
+      "Follow-up_Whites": {
+        "id": "Follow-up_Whites",
+        "value": [
+          10,
+          2,
+          104,
+          22
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Counts of follow-up participation (positive and negative) for white subjects, stratified by medical aid status."
+      },
+      "Follow-up_Blacks": {
+        "id": "Follow-up_Blacks",
+        "value": [
+          36,
+          368,
+          91,
+          957
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Counts of follow-up participation (positive and negative) for black subjects, stratified by medical aid status."
+      },
+      "Medical_Aid_Status": {
+        "id": "Medical_Aid_Status",
+        "value": [
+          "Medical Aid +",
+          "Medical Aid -"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether a subject has medical aid (health insurance)."
+      },
+      "Race": {
+        "id": "Race",
+        "value": [
+          "All",
+          "Whites",
+          "Blacks"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Race of the subjects, used as a confounding variable in the analysis."
+      },
+      "Follow-up_Status": {
+        "id": "Follow-up_Status",
+        "value": [
+          "Follow-up +",
+          "Follow-up -"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates whether a subject participated in the follow-up survey."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "19.3",
+    "image": "",
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "478-478"
+  },
+  "sample_key": "304"
+}

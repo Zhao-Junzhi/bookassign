@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_060.json",
+  "input": {
+    "background": "We've established that heights of 10-year-old boys vary according to a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+    "data": "",
+    "question": "What proportion is between 150 and 140 centimeters?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The proportion of the population between 150 and 140 centimeters tall is 0.3423.",
+    "variable": {
+      "height": {
+        "id": "height",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The height of 10-year-old boys, which follows a Normal distribution."
+      },
+      "mean_height": {
+        "id": "mean_height",
+        "value": 138,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean height of 10-year-old boys according to the Normal distribution."
+      },
+      "std_dev_height": {
+        "id": "std_dev_height",
+        "value": 7,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the height of 10-year-old boys according to the Normal distribution."
+      },
+      "lower_bound": {
+        "id": "lower_bound",
+        "value": 140,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The lower bound of the height range to calculate the proportion."
+      },
+      "upper_bound": {
+        "id": "upper_bound",
+        "value": 150,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The upper bound of the height range to calculate the proportion."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.5",
+    "image": "",
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
+  },
+  "sample_key": "108"
+}

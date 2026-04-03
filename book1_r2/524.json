@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_420.json",
+  "input": {
+    "background": "The smoking prevalence example in this chapter $(n=57, x=17)$ estimated a population proportion of 0.30 with margin of error (assuming $95 \\%$ confidence) equal to $\\pm 0.12$.",
+    "data": "",
+    "question": "How large a sample would be needed to shrink this margin of error to plus or minus 0.03?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "$n=\\frac{1.96^2 \\cdot 0.30 \\cdot 0.70}{0.03^2}=896.4$. Use a sample of 897 observations.",
+    "variable": {
+      "sample_size_n": {
+        "id": "sample_size_n",
+        "value": 57,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The initial sample size used in the smoking prevalence example."
+      },
+      "number_of_successes_x": {
+        "id": "number_of_successes_x",
+        "value": 17,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of successes (e.g., smokers) in the initial sample."
+      },
+      "estimated_population_proportion": {
+        "id": "estimated_population_proportion",
+        "value": 0.3,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The estimated proportion of the population that smokes."
+      },
+      "initial_margin_of_error": {
+        "id": "initial_margin_of_error",
+        "value": 0.12,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The initial margin of error for the estimated population proportion with 95% confidence."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level used to calculate the margin of error."
+      },
+      "desired_margin_of_error": {
+        "id": "desired_margin_of_error",
+        "value": 0.03,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The desired margin of error for the population proportion estimate."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, confidence interval.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "367-367"
+  },
+  "sample_key": "524"
+}

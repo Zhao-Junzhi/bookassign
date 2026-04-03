@@ -1,0 +1,70 @@
+{
+  "case_id": "book1_r1\\record_306.json",
+  "input": {
+    "background": "Until 2002, postmenopausal hormone use in women was routine in the United States. Nonexperimental studies had suggested estrogen use reduced heart attack risk by about $50 \\%$. Because other risks associated with postmenopausal hormone use were small by comparison, there was a general consensus that postmenopausal hormones had an overall health benefit. Things changed following publication of an experimental trial done as part of an NIH-sponsored Women's Health Initiative (WHI) investigation. Results from the WHI trial revealed that hormone use did not reduce the risk of heart attacks. In fact, overall cardiovascular disease mortality was significantly increased in the women who were assigned hormones.",
+    "data": "",
+    "question": "How can we explain the fact that the experimental studies contradicted the nonexperimental studies and the then-current state of knowledge?"
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "null",
+    "variable": {
+      "hormone_use": {
+        "id": "hormone_use",
+        "value": [
+          "Yes",
+          "No"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Whether postmenopausal women used hormones or not."
+      },
+      "heart_attack_risk_nonexperimental": {
+        "id": "heart_attack_risk_nonexperimental",
+        "value": [
+          "~50% reduction"
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Heart attack risk reduction as suggested by nonexperimental studies."
+      },
+      "heart_attack_risk_experimental": {
+        "id": "heart_attack_risk_experimental",
+        "value": [
+          "No reduction"
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Heart attack risk reduction as observed in experimental studies."
+      },
+      "cardiovascular_disease_mortality": {
+        "id": "cardiovascular_disease_mortality",
+        "value": [
+          "Significantly increased"
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Overall cardiovascular disease mortality in women assigned hormones in experimental studies."
+      },
+      "study_type": {
+        "id": "study_type",
+        "value": [
+          "Nonexperimental",
+          "Experimental"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Type of study conducted to assess the effects of hormone use."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "WHI postmenopausal hormone use trial.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 COMPARATIVE STUDIES",
+    "page": "25-25"
+  },
+  "sample_key": "321"
+}

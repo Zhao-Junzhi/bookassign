@@ -1,0 +1,30 @@
+{
+  "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40.",
+  "task": [
+    {
+      "query": "We propose to calculate 90% confidence intervals for μ based on this information.",
+      "answer": "The 90% confidence interval for μ is x̄ ± (z_{1-.10 / 2})(SE x̄) = 183.0 ± (1.645)(1.5) = 183.0 ± 2.5 = 180.5 to 185.5 (pounds).",
+      "method": "均值检验"
+    },
+    {
+      "query": "We propose to calculate 95% confidence intervals for μ based on this information.",
+      "answer": "The 95% confidence interval for μ is x̄ ± (z_{1-.05 / 2})(SE x̄) = 183.0 ± (1.960)(1.5) = 183.0 ± 2.9 = 180.1 to 185.9 (pounds).",
+      "method": "均值检验"
+    },
+    {
+      "query": "We propose to calculate 99% confidence intervals for μ based on this information.",
+      "answer": "The 99% confidence interval for μ is x̄ ± (z_{1-.01 / 2})(SE x̄) = 183.0 ± (2.576)(1.5) = 183.0 ± 3.9 = 179.1 to 186.9 (pounds).",
+      "method": "均值检验"
+    }
+  ],
+  "id": "375",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "201-201"
+  }
+}

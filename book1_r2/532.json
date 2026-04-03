@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_426.json",
+  "input": {
+    "background": "We propose to calculate a $95 \\%$ confidence interval for the risk difference in the estrogen trial presented earlier. We've established that $a_1=751$ and $n_1=8506$ in the treatment group. In the control group, $a_2=623$ and $n_2=8102$.",
+    "data": "",
+    "question": "Calculate the $95 \\%$ confidence interval for the risk difference, $p_1-p_2$."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The $95 \\%$ confidence interval for $p_1-p_2=\\tilde{p}_1-\\tilde{p}_2 \\pm z \\cdot SE_{\\hat{p}-\\tilde{p}_2}= (0.08839-0.07700) \\pm(1.96)(0.004271)=0.01139 \\pm 0.00837 =(0.00302$ to 0.01976$)$, or approximately from $0.3 \\%$ to $2.0 \\%$.",
+    "variable": {
+      "a1": {
+        "id": "a1",
+        "value": 751,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of events in the treatment group"
+      },
+      "n1": {
+        "id": "n1",
+        "value": 8506,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of subjects in the treatment group"
+      },
+      "a2": {
+        "id": "a2",
+        "value": 623,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of events in the control group"
+      },
+      "n2": {
+        "id": "n2",
+        "value": 8102,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of subjects in the control group"
+      },
+      "risk_difference": {
+        "id": "risk_difference",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The difference in risk between the treatment and control groups"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for risk difference.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "378-379"
+  },
+  "sample_key": "532"
+}

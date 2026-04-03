@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_376.json",
+  "input": {
+    "background": "We have established that the body weights of 20-29-year-old U.S. males have σ=40 pounds.",
+    "data": "",
+    "question": "What size sample is needed to estimate μ with margin of error plus or minus 5 pounds?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "n=\\left(1.96 \\cdot \\frac{40}{5}\\right)^2=245.8. Round this to 246.",
+    "variable": {
+      "sigma": {
+        "id": "sigma",
+        "value": 40,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of body weights of 20-29-year-old U.S. males."
+      },
+      "margin_of_error": {
+        "id": "margin_of_error",
+        "value": 5,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The desired margin of error for estimating the mean body weight."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement (Body weight, 20—29-year-old  males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.3 Sample Size Requirements",
+    "page": "204-204"
+  },
+  "sample_key": "430"
+}

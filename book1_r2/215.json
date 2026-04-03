@@ -1,0 +1,74 @@
+{
+  "case_id": "book1_r1\\record_111.json",
+  "input": {
+    "background": "Exercise 13.1 presented data on birth weights of infants based on the smoking status of mothers. Table 13.3 lists the data. Descriptive statistics are shown in Table 13.10.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.10 Descriptive statistics for Exercise 13.3.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Group & $n$ & Mean & Std. Deviation \\\n\\hline 1 (nonsmoker) & 6 & 7.9153 & 1.09947 \\\n\\hline 2 (former smokers) & 5 & 7.8296 & 1.52325 \\\n\\hline 3 (< half pack) & 6 & 6.7962 & 1.10107 \\\n\\hline 4 ( $\\geq$ half pack) & 8 & 6.3024 & 0.84323 \\\n\\hline Total & 25 & 7.1135 & 1.26907 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Conduct an ANOVA on these data. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "方差分析",
+    "answer": "A. Hypotheses. $H_0: \\mu_1=\\mu_2=\\mu_3=\\mu_4$ versus $H_3$ : at least two of the $\\mu_i$ s differ B. Test statistic. ANOVA table (below), $F_{\\text {stat }}=4.096 / 1.255=3.26$ with 3 and 21 df. \n\n\\begin{tabular}{lcrc} \n\\hline & Sum of Squares & $d f$ & Mean Square \\ \nBetween Groups & 12.289 & 3 & 4.096 \\ \nWithin Groups & 26.364 & 21 & 1.255 \\ \nTotal & 38.653 & 24 & \\ \n\\hline \n\\end{tabular} \nC. $P$-value. $P<0.05$ by Table D (use the 3 and $20 d f$ column). $P=0.042$ by a software utility. Either way, this provides good evidence against the null hypothesis. \nD. Significance level (optional). The results are significant at $\\alpha=0.05$ (reject $H_0$ ) but are not significant at $\\alpha=0.01$ (retain $H_0$ ).",
+    "variable": {
+      "Group": {
+        "id": "Group",
+        "value": [
+          "1 (nonsmoker)",
+          "2 (former smokers)",
+          "3 (< half pack)",
+          "4 (≥ half pack)"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The smoking status of mothers, categorized into four groups."
+      },
+      "n": {
+        "id": "n",
+        "value": [
+          6,
+          5,
+          6,
+          8,
+          25
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of infants in each group and the total number of infants."
+      },
+      "Mean": {
+        "id": "Mean",
+        "value": [
+          7.9153,
+          7.8296,
+          6.7962,
+          6.3024,
+          7.1135
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average birth weight of infants in each group and the overall average."
+      },
+      "Std_Deviation": {
+        "id": "Std_Deviation",
+        "value": [
+          1.09947,
+          1.52325,
+          1.10107,
+          0.84323,
+          1.26907
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of birth weights in each group and the overall standard deviation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "13.3",
+    "image": "",
+    "caption": "Smoking and birth weight, ANOVA.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.3 ANALYSIS OF VARIANCE (ANOVA)",
+    "page": "276-276"
+  },
+  "sample_key": "215"
+}

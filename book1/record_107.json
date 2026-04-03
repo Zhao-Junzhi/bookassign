@@ -1,0 +1,18 @@
+{
+  "id": "107",
+  "question": " In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of $0.098 \mathrm{~g} / \mathrm{cm}^3\left(s_1=0.026 \mathrm{~g} / \mathrm{cm}^3\right)$. The 161 infants whose mothers did not smoke had a mean bone mineral content of $0.095 \mathrm{~g} / \mathrm{cm}^3\left(s_2=0.025 \mathrm{~g} / \mathrm{cm}^3\right) .
+(a) Calculate the $95 \%$ confidence interval for $\mu_1-\mu_2$.
+(b) Chapter 10 included a section on the relationship between hypothesis testing and confidence intervals. We learned that if the $(1-\alpha) 100 \%$ confidence interval excluded the value of the parameter specified under the null hypothesis, the null hypothesis would be rejected at the $\alpha$-level of significance. If the value specified.
+in the null hypothesis was included in the midst of the $(1-\alpha) 100 \%$ confidence interval, the null hypothesis would be retained at the $\alpha$ threshold. Based on the confidence interval you just calculated, would you reject or retain $H_0: \mu_1-\mu_2=0$ at $\alpha=0.05$ ?",
+  "data": "",
+  "answer": "(a) $S E=0.00356$. The $95 \% \mathrm{CI}$ for $\mu_1-\mu_2=(-0.0040$ to 0.0100$) \mathrm{g} / \mathrm{cm}^3$
+(b) You would retain $H_0$ because the $95 \%$ confidence interval includes 0 .",
+  "meta info": {
+    "index": "12.17",
+    "image": "",
+    "caption": "Bone density in newborns.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-257"
+  }
+}

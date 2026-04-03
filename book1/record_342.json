@@ -1,0 +1,14 @@
+{
+  "id": "342",
+  "question": "The probability of cat ownership $\operatorname{Pr}(A)=0.35$. The probability of dog ownership given cat ownership $\operatorname{Pr}(B \mid A)=0.4286$..",
+  "data": "",
+  "answer": " By the general rule for multiplication, the probability of owning a cat and a $\operatorname{dog} \operatorname{Pr}(A$ and $B)= \operatorname{Pr}(A) \times \operatorname{Pr}(B \mid A)=0.35 \times 0.4286=0.15$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "General rule for multiplication (Pet ownership example).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  }
+}

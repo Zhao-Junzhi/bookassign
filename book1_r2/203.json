@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_104.json",
+  "input": {
+    "background": "Would you use a one-sample, paired-sample, or independent-sample $t$ procedure in the following situations?",
+    "data": "",
+    "question": "A lab technician obtains a specimen of known concentration from a reference lab. She tests the specimen 10 times using an assay kit and compares the calculated mean to that of the known standard."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "One sample",
+    "variable": {
+      "specimen_concentration": {
+        "id": "specimen_concentration",
+        "value": "Known concentration from the reference lab",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The known concentration of the specimen provided by the reference lab."
+      },
+      "assay_results": {
+        "id": "assay_results",
+        "value": "Results of 10 tests conducted by the lab technician using the assay kit",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The calculated concentrations obtained from the lab technician's tests using the assay kit."
+      },
+      "mean_assay_results": {
+        "id": "mean_assay_results",
+        "value": "Mean concentration calculated from the 10 assay results",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average concentration calculated from the 10 assay results."
+      },
+      "known_standard_mean": {
+        "id": "known_standard_mean",
+        "value": "Mean concentration of the known standard",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean concentration of the known standard provided by the reference lab."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.11",
+    "image": "",
+    "caption": "Testing a test kit.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "254-254"
+  },
+  "sample_key": "203"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "021",
+  "question": "An environmental study looked at suspended particulate matter in air samples ( $\mu \mathrm{gms} / \mathrm{m}^3$ ) at two different sites. Data are listed here. Construct side-by-side stemplots to compare the two sites.
+
+\begin{tabular}{lllllllll} 
+Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\
+Site 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32
+\end{tabular}",
+  "data": "",
+  "answer": "Here's a stemplot with a regular stem:
+```
+Site 1| | Site 2
+------------
+    842|2|
+    862|3|2346689
+        2|4|0
+          |5|
+        8|6|
+        (x10)
+```
+
+
+Here's a stemplot with split stem values:
+
+\begin{tabular}{c} 
+Site 1 |  | Site 2 \\
+\hline 42 | 2 | \\
+             8 | 2 | \\
+             2 | $3 \mid 234$ \\
+          $86|3| 6689$ \\
+            $2|4| 0$ \\
+              $|4|$ \\
+              $|5|$ \\
+              $|5|$ \\
+             $|6|$ \\
+             $8|6|$ \\
+            $(\times 10)$
+\end{tabular}
+
+Interprtation:
+- The sites have similar central locations.
+- Site 1 exhibits greater variability.
+- A high outlier value is apparent at site 1 .",
+  "meta info": {
+    "index": "3.13",
+    "image": "",
+    "caption": "Air samples.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 ADDITIONAL FREQUENCY CHARTS",
+    "page": "61-62"
+  }
+}

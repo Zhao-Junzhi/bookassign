@@ -1,0 +1,172 @@
+{
+  "case_id": "book1_r1\\record_406.json",
+  "input": {
+    "background": "Table 14.3 shows calculation of the correlation coefficient for the illustrative data. The correlation coefficient $r=0.737$ represents a strong positive correlation.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.3 Calculation of correlation coefficient $r$, illustrative data.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{7}{|l|}{$$\n\\begin{aligned}\n& \\bar{x}=\\frac{6640}{11}=603.6364 & s_x=378.4514 \\\n& \\bar{y}=\\frac{226}{11}=20.54545  & s_y=11.725\n\\end{aligned}\n$$\n} \\\n\\hline i & Country & $x$ & $z_x=\\frac{\\boldsymbol{x}_{\\boldsymbol{i}}-\\overline{\\boldsymbol{x}}}{\\boldsymbol{s}_{\\boldsymbol{x}}}$ & $Y$ & $z_y=\\frac{y_i-y}{s_y}$ & $\\boldsymbol{z}_{\\boldsymbol{X}}{ }^{\\boldsymbol{\\prime}} \\boldsymbol{z}_{\\boldsymbol{Y}}$ \\\n\\hline 1 & US & 1300 & 1.840 & 20 & -0.047 & -0.086 \\\n\\hline 2 & Great Britain & 1100 & 1.312 & 46 & 2.171 & 2.847 \\\n\\hline 3 & Finland & 1100 & 1.312 & 35 & 1.233 & 1.617 \\\n\\hline 4 & Switzerland & 510 & -0.247 & 25 & 0.380 & -0.094 \\\n\\hline 5 & Canada & 500 & -0.274 & 15 & -0.473 & 0.130 \\\n\\hline 6 & Holland & 490 & -0.300 & 24 & 0.295 & -0.088 \\\n\\hline 7 & Australia & 480 & -0.327 & 18 & -0.217 & 0.071 \\\n\\hline 8 & Denmark & 380 & -0.591 & 17 & -0.302 & 0.179 \\\n\\hline 9 & Sweden & 300 & -0.802 & 11 & -0.814 & 0.653 \\\n\\hline 10 & Norway & 250 & -0.934 & 9 & -0.985 & 0.920 \\\n\\hline 11 & Iceland & 230 & -0.987 & 6 & -1.241 & 1.225 \\\n\\hline & Sums → & 6640 & 0 & 226 & 0 & 7.373 \\\n\\hline \\multicolumn{7}{|l|}{$r=\\frac{1}{n-1} \\sum z_x z_y=\\frac{1}{11-1} \\cdot 7.373=0.737$} \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What does the correlation coefficient $r=0.737$ represent?"
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "null",
+    "variable": {
+      "Country": {
+        "id": "Country",
+        "value": [
+          "US",
+          "Great Britain",
+          "Finland",
+          "Switzerland",
+          "Canada",
+          "Holland",
+          "Australia",
+          "Denmark",
+          "Sweden",
+          "Norway",
+          "Iceland"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The names of the countries included in the dataset."
+      },
+      "x": {
+        "id": "x",
+        "value": [
+          1300,
+          1100,
+          1100,
+          510,
+          500,
+          490,
+          480,
+          380,
+          300,
+          250,
+          230
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The independent variable representing a numerical measure (e.g., income, production, etc.) for each country."
+      },
+      "z_x": {
+        "id": "z_x",
+        "value": [
+          1.84,
+          1.312,
+          1.312,
+          -0.247,
+          -0.274,
+          -0.3,
+          -0.327,
+          -0.591,
+          -0.802,
+          -0.934,
+          -0.987
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standardized values of x calculated as (x_i - mean_x) / std_x."
+      },
+      "y": {
+        "id": "y",
+        "value": [
+          20,
+          46,
+          35,
+          25,
+          15,
+          24,
+          18,
+          17,
+          11,
+          9,
+          6
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The dependent variable representing a numerical measure (e.g., consumption, output, etc.) for each country."
+      },
+      "z_y": {
+        "id": "z_y",
+        "value": [
+          -0.047,
+          2.171,
+          1.233,
+          0.38,
+          -0.473,
+          0.295,
+          -0.217,
+          -0.302,
+          -0.814,
+          -0.985,
+          -1.241
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standardized values of y calculated as (y_i - mean_y) / std_y."
+      },
+      "z_x_prime_z_y": {
+        "id": "z_x_prime_z_y",
+        "value": [
+          -0.086,
+          2.847,
+          1.617,
+          -0.094,
+          0.13,
+          -0.088,
+          0.071,
+          0.179,
+          0.653,
+          0.92,
+          1.225
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The product of standardized values z_x and z_y for each country."
+      },
+      "mean_x": {
+        "id": "mean_x",
+        "value": 603.6364,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean value of the variable x."
+      },
+      "std_x": {
+        "id": "std_x",
+        "value": 378.4514,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the variable x."
+      },
+      "mean_y": {
+        "id": "mean_y",
+        "value": 20.54545,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean value of the variable y."
+      },
+      "std_y": {
+        "id": "std_y",
+        "value": 11.725,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the variable y."
+      },
+      "r": {
+        "id": "r",
+        "value": 0.737,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The correlation coefficient representing the strength and direction of the linear relationship between x and y."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Correlation coefficient.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "299-300"
+  },
+  "sample_key": "497"
+}

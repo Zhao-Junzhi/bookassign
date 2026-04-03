@@ -1,0 +1,14 @@
+{
+  "id": "092",
+  "question": "A $t$ test calculates $t_{\\text {stat }}=6.60$. Assuming the study had more than just a few observations, you do not need a $t$ table or software utility to draw a conclusion about the test. What is this conclusion, and why is a look-up table unnecessary?",
+  "data": "",
+  "answer": "When the sample contains more than just a few observations, the associated $t$ statistic will have more than a few $d f$ and will look very much like a Standard Normal 2 distribution. Based on the 68-95-99.7 rule, we would almost never get a test statistic that is 6.6 standard deviations away from the 0 . Therefore, we can say that the $t$ test statistic is in the far right-hand tail of the sampling distribution and the $P$-value will be very, very small (e.g.. less than 0.01 ).",
+  "meta info": {
+    "index": "11.17",
+    "image": "",
+    "caption": "Large t statistic.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "143",
+  "question": " In 1954, the prominent statistician W. G. Cochran (1909-1980) published an important article on the analysis of cross-tabulated counts. On page 435 of the article, techniques were illustrated with an example from a study on the treatment of leprosy. Table $\mathbf{1 8 . 1 0}$ lists the cross-tabulated results. The row variable in this table classifies patients according to their initial degree of skin damage. The column variable classifies overall response to therapy. Address whether patients with high levels of skin damage progressed differently than those with low levels of skin damage by calculating the conditional percents of improvement in the two groups. Comment on these findings.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\
+\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\
+\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\
+\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "Here are the relevant conditional distributions:
+
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline Skin infiltration & Marked improvement & Marked improvement & Slight improvement & Stationary & Worse & Total \\
+\hline High & 13\%* & 29\% & 31\% & 25\% & 2\% & 100\% \\
+\hline Low & 8\% & 19\% & 29\% & 37\% & 8\% & 100\% \\
+\hline
+\end{tabular}
+*Example of calculation: $7 / 52 \times 100 \%=13 \%$.
+
+These distributions show that patients with high skin darnage were more likely to show improvement than those with low skin infiltration.",
+  "meta info": {
+    "index": "18.5",
+    "image": "",
+    "caption": "Response to leprosy treatment.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "420-421"
+  }
+}

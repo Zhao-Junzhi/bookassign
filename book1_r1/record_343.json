@@ -1,0 +1,20 @@
+{
+  "background": "Recall that event A is cat ownership and event B is dog ownership. We have established Pr(B | A)= 0.4286, Pr(Ā)=1-Pr(A)=1-0.35=0.65, and Pr(B and Ā)=0.15.",
+  "task": [
+    {
+      "query": "By conditional probability, Pr(B | Ā)=Pr(B and Ā)/Pr(Ā)=0.15/0.65=0.2308.",
+      "answer": "By the total probability rule, Pr(B)=[Pr(B | A) * Pr(A)]+[Pr(B | Ā) * Pr(Ā)]= [0.4286 * 0.35]+[0.2308 * 0.65]=0.15+0.15=0.30",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "343",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Total probability rule (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  }
+}

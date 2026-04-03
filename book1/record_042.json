@@ -1,0 +1,20 @@
+{
+  "id": "042",
+  "question": "A small data set $(n=9)$ has the following values $\\{3.5,8.1,7.4,4.0,0.7,4.9,8.4,7.0,5.5\\}$. Plot the data as a stemplot and then report an appropriate measures of central location and spread for the data.",
+  "data": "",
+  "answer": "The stemplot is mound shaped and symmetrical. (Symmetry is confirmed by the fact that both $\bar{x}$ and the median are equal to 5.5.) Therefore, the mean and standard deviation should do a good job summarizing this distribution.
+$0 * \mid 0$
+$0 t \mid 3$
+Of|445
+0s|77
+$0 . \mid 88$
+$\times 1$",
+  "meta info": {
+    "index": "4.19",
+    "image": "",
+    "caption": "What would you report?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "87-87"
+  }
+}

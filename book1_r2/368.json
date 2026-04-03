@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_342.json",
+  "input": {
+    "background": "The probability of cat ownership Pr(A)=0.35. The probability of dog ownership given cat ownership Pr(B | A)=0.4286.",
+    "data": "",
+    "question": "Calculate the probability of owning both a cat and a dog."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "By the general rule for multiplication, the probability of owning a cat and a dog Pr(A and B) = Pr(A) × Pr(B | A) = 0.35 × 0.4286 = 0.15",
+    "variable": {
+      "Pr(A)": {
+        "id": "Pr(A)",
+        "value": 0.35,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of cat ownership."
+      },
+      "Pr(B | A)": {
+        "id": "Pr(B | A)",
+        "value": 0.4286,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of dog ownership given cat ownership."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "General rule for multiplication (Pet ownership example).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  },
+  "sample_key": "368"
+}

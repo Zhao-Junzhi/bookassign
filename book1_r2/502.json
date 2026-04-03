@@ -1,0 +1,33 @@
+{
+  "case_id": "book1_r1\\record_408.json",
+  "input": {
+    "background": "We have calculated a correlation coefficient of 0.737 for the ecological association between smoking and lung cancer mortality using the data in Table 14.1. We now test this correlation for statistical significance.",
+    "data": "",
+    "question": "Is the correlation coefficient statistically significant at a significance level of 0.01?"
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "The correlation coefficient is significant at $\\alpha=0.01$ (reject $H_0$ at $\\alpha=0.01$).",
+    "variable": {
+      "correlation_coefficient": {
+        "id": "correlation_coefficient",
+        "value": 0.737,
+        "class": "numerical",
+        "role": "both",
+        "description": "The calculated correlation coefficient for the ecological association between smoking and lung cancer mortality."
+      },
+      "significance_level": {
+        "id": "significance_level",
+        "value": 0.01,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The significance level at which the statistical significance of the correlation coefficient is tested."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "502"
+}

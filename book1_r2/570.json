@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_501.json",
+  "input": {
+    "background": "Scores derived from a patient satisfaction survey are Normally distributed with μ=50 and σ=7.5, with high scores indicating high satisfaction. An SRS of n=36 is taken from this population.",
+    "data": "",
+    "question": "What is the SE of x̄ for these data?"
+  },
+  "output": {
+    "method": "描述性统计量",
+    "answer": "SE_x=7.5/√36=1.25",
+    "variable": {
+      "population_mean": {
+        "id": "population_mean",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean (μ) of the population's satisfaction scores, indicating the average satisfaction level."
+      },
+      "population_sd": {
+        "id": "population_sd",
+        "value": 7.5,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation (σ) of the population's satisfaction scores, indicating the variability in satisfaction levels."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 36,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size (n) of the simple random sample (SRS) taken from the population."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.3",
+    "image": "",
+    "caption": "Patient satisfaction.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "570"
+}

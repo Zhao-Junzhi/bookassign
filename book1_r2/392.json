@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_355.json",
+  "input": {
+    "background": "Gestation is the period of pregnancy from conception to delivery. Uncomplicated human gestations (without intervention) vary according to a Normal distribution with $\\mu=39$ weeks and $\\sigma=2$ weeks.",
+    "data": "",
+    "question": "According to the \" 95 part\" of the 68-95-99.7 rule, we can say that $95 \\%$ of human gestations will fall in the range $\\mu \\pm 2 \\sigma=39 \\pm 2 \\cdot 2=39 \\pm 4=35$ to 43 weeks. This leaves $5 \\%$ of the values outside of this range. Since the distribution is symmetrical, we can say that $2.5 \\%$ of gestations will be fewer than 35 weeks (in the left tail of the distribution) and $2.5 \\%$ will be more than 43 weeks (in the right tail)."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "null",
+    "variable": {
+      "mu": {
+        "id": "mu",
+        "value": 39,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean of the normal distribution representing the average gestation period in weeks."
+      },
+      "sigma": {
+        "id": "sigma",
+        "value": 2,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of the normal distribution representing the variability in gestation period in weeks."
+      },
+      "gestation_period": {
+        "id": "gestation_period",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The actual gestation period in weeks for individual pregnancies."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Tails of the Normal distribution (Gestational length).",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1  NORMAL DISTRIBUTIONS",
+    "page": "136-136"
+  },
+  "sample_key": "392"
+}

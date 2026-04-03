@@ -1,0 +1,28 @@
+{
+  "id": "153",
+  "question": "Table 18.29 displays results from a historically important methodological paper written by Frank Yates on the analysis of cross-tabulated counts.“ Explain why a chi-square statistic should not be used to test these data. Then use WinPepi > Compare2.exe > Program F1 to calculate a Fisher’s P-value for the problem. Comment on your findings.",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.29 Data for Exercise 18.25.}\n\\begin{tabular}{l|c|c}\n\\hline & \\multicolumn{1}{c}{ Normal teeth } & Malocclusion \\\\\n\\hline Breastfed & 4 & 16 \\\\\n\\hline Bottlefed & 1 & 21 \\\\\n\\hline Breastfed \\& bottlefed & 3 & 47 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Yates, F. (1934). Contingency tables involving small numbers and the $\\chi^2$ test. Supplement to the Journal of the Royal Statistical Society, 1 (2), 217-235.",
+  "answer": "Here are the expected frequencies:
+
+\begin{tabular}{lc|c}
+\hline & \multicolumn{1}{c}{ Normal teeth } & Malocclusion \\
+Breast fed & 1.739 & 18.261 \\
+Bottle fed & 1.913 & 20.087 \\
+Breast \& bottle feed & 4.348 & 45.652 \\
+\hline
+\end{tabular}
+
+You should not use a chi-square test because three table cells have expected values that are less than 5.
+
+WinPepi Compare2.exe (version 1.38) calculates a Fisher's $P$ of 0.1503 . Therefore, the evidence against $H_0$ is not significant.
+
+Notice the high rate of malocclusion: 84 of the 92 subjects $(91 \%)$ had this characteristic.",
+  "meta info": {
+    "index": "18.25",
+    "image": "",
+    "caption": "Yates, 1934 (3-by-2).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "459-459"
+  }
+}

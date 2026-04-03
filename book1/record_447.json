@@ -1,0 +1,14 @@
+{
+  "id": "447",
+  "question": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated:",
+  "data": "",
+  "answer": "- We've established $\\widehat{O R}=5.640$. Therefore, $\\ln \\widehat{O R}=1 n(5.640)$ = 1.7299 (by calculator).\n- $S E_{\\ln \\widehat{O R}}=\\sqrt{\\frac{1}{a_1}+\\frac{1}{a_2}+\\frac{1}{b_1}+\\frac{1}{b_2}}=\\sqrt{\\frac{1}{96}+\\frac{1}{104}+\\frac{1}{109}+\\frac{1}{666}}=$ 0.1752 .\n- The $90 \\%$ confidence interval for the $O R=e^{1.7299 \\pm(1.645)(0.1752)}$ $e^{1.7299} \\pm 0.2882=e^{1.4417,2.0181}=4.23$ to 7.52.\n- The $95 \\%$ confidence interval for the $O R=e^{1.7299 \\pm(1.96)(0.1752)}$ $e^{1.7299 \\pm 0.3433}=e^{1.3866,2.0732}=4.00$ to 7.95",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "439-439"
+  }
+}

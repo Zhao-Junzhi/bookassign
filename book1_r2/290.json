@@ -1,0 +1,62 @@
+{
+  "case_id": "book1_r1\\record_149.json",
+  "input": {
+    "background": "A case-control study was completed to learn about the relationship between male-pattern baldness and the risk of cardiovascular disease. Cases were men less than 55 years of age hospitalized for a heart attack. Cases were excluded if they had a prior history of serious heart problems. Controls were men with no history of heart disease admitted to the same hospitals for nonfatal, noncardiac problems. Table 18.21 cross tabulates results according to self-assessed baldness, with baldness graded on a scale of 1 (no baldness) to 5 (extreme baldness).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.21 Data for Exercise 18.17. Case-control study of baldness and myocardial infarction. Baldness was self-assessed by study subjects.}\n\\begin{tabular}{l|c|c|}\n\\hline Baldness & \\multicolumn{1}{c}{ Cases } & \\multicolumn{1}{c}{ Controls } \\\n\\hline 1 (no baldness) & 251 & 331 \\\n\\hline 2 & 165 & 221 \\\n\\hline 3 (moderate baldness) & 195 & 185 \\\n\\hline 4 & 50 & 34 \\\n\\hline 5 (extreme baldness) & 2 & 1 \\\n\\hline Total & 663 & 772 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Conduct a test for trend."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "z_stat,trend=3.39, P=0.00070. The trend is highly significant.",
+    "variable": {
+      "Baldness": {
+        "id": "Baldness",
+        "value": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Self-assessed baldness level, graded on a scale from 1 (no baldness) to 5 (extreme baldness)."
+      },
+      "Cases": {
+        "id": "Cases",
+        "value": [
+          251,
+          165,
+          195,
+          50,
+          2
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of cases (men with heart attack) for each level of baldness."
+      },
+      "Controls": {
+        "id": "Controls",
+        "value": [
+          331,
+          221,
+          185,
+          34,
+          1
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of controls (men without heart disease) for each level of baldness."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.17",
+    "image": "",
+    "caption": "Baldness and myocardial infarction, self-assessed baldness.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "444-445"
+  },
+  "sample_key": "290"
+}

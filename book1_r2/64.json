@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_028.json",
+  "input": {
+    "background": "Calculate the standard deviations of the batches of numbers provided in different units (years, months, days) and determine which batch has the greatest variability.",
+    "data": "",
+    "question": "Which batch has the greatest variability?"
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "The distributions are identical and are merely expressed in different units.",
+    "variable": {
+      "batch_years": {
+        "id": "batch_years",
+        "value": "Values of the batch provided in years (not explicitly provided in the question, assumed to be a list of numerical values)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "A batch of numbers representing data in years."
+      },
+      "batch_months": {
+        "id": "batch_months",
+        "value": "Values of the batch provided in months (not explicitly provided in the question, assumed to be a list of numerical values)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "A batch of numbers representing data in months."
+      },
+      "batch_days": {
+        "id": "batch_days",
+        "value": "Values of the batch provided in days (not explicitly provided in the question, assumed to be a list of numerical values)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "A batch of numbers representing data in days."
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": "The calculated standard deviations for each batch (years, months, days).",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The measure of variability for each batch of numbers."
+      },
+      "greatest_variability_batch": {
+        "id": "greatest_variability_batch",
+        "value": "The batch (years, months, or days) with the highest standard deviation.",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The batch with the greatest variability based on standard deviation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.11",
+    "image": "",
+    "caption": "Units of measure changes numeric values of a standard deviation.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "83-83"
+  },
+  "sample_key": "64"
+}

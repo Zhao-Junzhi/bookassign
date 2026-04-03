@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_148.json",
+  "input": {
+    "background": "An important historical case-control completed by Doll and Hill found that 647 of the 649 lung cancer cases were smokers. In contrast, 622 of 649 controls smoked.",
+    "data": "",
+    "question": "Include a $95 \\%$ confidence interval for the $O R$."
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "Determining the confidence interval for the $O R$ :\n\n$$\n\\ln (14.04)=2.6419\n$$\n$$\nS E=\\operatorname{sqrt}\\left(647^{-1}+622^{-1}+2^{-1}+27^{-1}\\right)=0.7350\n$$\n\nThe $95 \\% \\mathrm{CI}$ for $\\mathrm{OR}=e^{(2.6419 \\pm 1.96 \\times 0.7350)}=e^{(1.2013,4.0825)}=3.3$ to 59.3",
+    "variable": {
+      "lung_cancer_cases_smokers": {
+        "id": "lung_cancer_cases_smokers",
+        "value": 647,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of lung cancer cases who were smokers."
+      },
+      "lung_cancer_cases_total": {
+        "id": "lung_cancer_cases_total",
+        "value": 649,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Total number of lung cancer cases."
+      },
+      "control_smokers": {
+        "id": "control_smokers",
+        "value": 622,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of control subjects who were smokers."
+      },
+      "control_total": {
+        "id": "control_total",
+        "value": 649,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of control subjects."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.15",
+    "image": "",
+    "caption": "Doll and Hill, 1950.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "444-444"
+  },
+  "sample_key": "287"
+}

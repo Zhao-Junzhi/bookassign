@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_373.json",
+  "input": {
+    "background": "The National Health and Nutrition Examination Survey (NHANES) assesses the health and nutritional status of adults and children in the United States using data from interviews and direct physical examinations. From 1999-2002, 712 men between the ages of 20 and 29 were examined. The mean body weight in this sample ( $\\bar{x}$ ) was 183.0 pounds.",
+    "data": "",
+    "question": "What is the point estimate for the mean body weight in the population of men in this age group?"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "This is the point estimate for the mean body weight in the population of men in this age group.",
+    "variable": {
+      "sample_mean_body_weight": {
+        "id": "sample_mean_body_weight",
+        "value": 183.0,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean body weight of the sample of men aged 20 to 29 years."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 712,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of men aged 20 to 29 years in the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Point and interval estimation (Body weight, 20-29-year-old U.S. men, 2000). ",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.1 Introduction to Estimation",
+    "page": "196-197"
+  },
+  "sample_key": "421"
+}

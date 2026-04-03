@@ -1,0 +1,42 @@
+{
+  "id": "320",
+  "question": "Recall the “air samples”  illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 4.2 Data for "Air samples" illustrative example. Particulates in air samples on successive days at two sites ( $\mu \mathrm{g} / \mathrm{m}^3$ ).}
+\begin{tabular}{lllllllll}
+\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\
+Site 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "For site 1, the ordered array or data is:
+
+\begin{tabular}{cccccccc}
+22 & 24 & & 28 & 32 & & 36 & 38 & & 42 & 68 \\
+& & $\uparrow$ & & & $\uparrow$ & & & $\uparrow$ & \\
+& & Q1 & & & M & & & $\mathrm{Q3}$ &
+\end{tabular}
+
+Thus, Q1 $=$ the average of 24 and 28 (which is 26 ) and Q3 $=$ the average of 38 and 42 (which is 40 ). The $\mathrm{IQR}=40-26=14$.
+
+For site 2, the ordered array is:
+
+\begin{tabular}{cccccccc}
+32 & 33 & & 34 & 36 & & 36 & 38 & & 39 & 40 \\
+& & $\uparrow$ & & & $\uparrow$ & & & $\uparrow$ & \\
+& & Q1 & & & M & & & $\mathrm{Q3}$ &
+\end{tabular}
+$\mathrm{Q} 1=33.5$ and $\mathrm{Q} 3=38.5$. Therefore, $\mathrm{IQR}=38.5-33.5=5$.
+Data are less variable at site 2 (IQR: 14 vs. 5).
+",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "IQRs (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES ",
+    "page": "75-75"
+  }
+}

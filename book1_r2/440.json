@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_380.json",
+  "input": {
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\bar{x}=2890.5 grams and s=720.0.",
+    "data": "",
+    "question": "Confidence intervals for \\mu at 95 \\% level of confidence will be calculated."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "For 95 \\% confidence, use t_{9, .975}=2.262, so the 95 \\% confidence interval for \\mu is 2890.5 \\pm(2.262)(227.684)=2890.5 \\pm 515.1= (2375.4 to 3405.6) grams.",
+    "variable": {
+      "x_bar": {
+        "id": "x_bar",
+        "value": 2890.5,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean of birth weights in grams."
+      },
+      "s": {
+        "id": "s",
+        "value": 720.0,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample standard deviation of birth weights in grams."
+      },
+      "n": {
+        "id": "n",
+        "value": 10,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample size, representing the number of SIDS cases."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The level of confidence for the interval estimation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
+  },
+  "sample_key": "440"
+}

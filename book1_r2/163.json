@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_086.json",
+  "input": {
+    "background": "The term critical value is often used to refer to the value of a test statistic that determines statistical significance at some fixed α level for a test. For example, ±1.96 are the critical values for a two-tailed z test at α=0.05.",
+    "data": "",
+    "question": "In performing a t test based on 21 observations, what are the critical values for a one-tailed test when α=0.05? That is, what values of the t_stat will give a one-sided P-value that is less than or equal to 0.05?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "First note that df=21-1=20. For a one-sided test we get a P-value less than 0.05 when the t_stat is either less than -1.725 or more than 1.725, that is, |t_stat| ≥ 1.725.",
+    "variable": {
+      "alpha_level": {
+        "id": "alpha_level",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The significance level for the test, indicating the probability of rejecting the null hypothesis when it is true."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 21,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of observations in the sample used for the t test."
+      },
+      "degrees_of_freedom": {
+        "id": "degrees_of_freedom",
+        "value": 20,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The degrees of freedom for the t test, calculated as the sample size minus one."
+      },
+      "t_stat_critical_value": {
+        "id": "t_stat_critical_value",
+        "value": "Calculated value based on t-distribution table",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The critical value of the t statistic for a one-tailed test at the given alpha level and degrees of freedom."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "11.9",
+    "image": "",
+    "caption": "Critical values for a t statistic.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "216-216"
+  },
+  "sample_key": "163"
+}

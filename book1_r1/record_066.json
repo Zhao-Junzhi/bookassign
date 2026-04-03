@@ -1,0 +1,40 @@
+{
+  "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+  "task": [
+    {
+      "query": "There were 18,800 new cases of female breast cancer in the state of California in 2005.",
+      "answer": "18,800 is a parameter.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "A study of 1225 of these cases finds that survival varied greatly by stage of diagnosis. The average 7-year survival rate for stage I breast cancer was 92%.",
+      "answer": "92% is a statistic.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "For stage II breast cancer, the 7-year survival was 71%.",
+      "answer": "71% is a statistic.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "For stage III breast cancer, the survival was 39%.",
+      "answer": "39% is a statistic.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "For stage IV, the survival rate was 11%.",
+      "answer": "11% is a statistic.",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "066",
+  "data": "",
+  "meta info": {
+    "index": "8.1",
+    "image": "",
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
+  }
+}

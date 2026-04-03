@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_420.json",
+  "input": {
+    "background": "The smoking prevalence example in this chapter $(n=57, x=17)$ estimated a population proportion of 0.30 with margin of error (assuming $95 \\%$ confidence) equal to $\\pm 0.12$.",
+    "data": "",
+    "question": "How large a sample would be needed to derive an estimate with a margin of error of $\\pm 0.05$?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "$n=\\frac{z_1^2-p^* q^*}{m^2}=\\frac{1.96^2 \\cdot 0.30 \\cdot 0.70}{0.05^2}=322.7$. Use a sample of 323 observations.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The size of the sample needed to achieve the desired margin of error."
+      },
+      "current_sample_size": {
+        "id": "current_sample_size",
+        "value": 57,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The size of the sample used in the previous estimate."
+      },
+      "current_margin_of_error": {
+        "id": "current_margin_of_error",
+        "value": 0.12,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The margin of error in the previous estimate."
+      },
+      "desired_margin_of_error": {
+        "id": "desired_margin_of_error",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The desired margin of error for the new estimate."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level used to calculate the margin of error."
+      },
+      "estimated_proportion": {
+        "id": "estimated_proportion",
+        "value": 0.3,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The estimated population proportion from the previous sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, confidence interval.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "367-367"
+  },
+  "sample_key": "523"
+}

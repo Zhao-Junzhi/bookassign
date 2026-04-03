@@ -1,0 +1,14 @@
+{
+  "id": "374",
+  "question": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population. These samples derive $\\bar{x}_1=183, \\bar{x}_2=180$, and $\\bar{x}_3=184$. Calculate $95 \\%$ confidence intervals for $\\mu$ based on each of these samples. ",
+  "data": "",
+  "answer": "In each sample; $S E_{\\bar{x}}=\\frac{40 \\text { pounds }}{\\sqrt{712}}=1.5$ pounds and $m \\approx 2 \\cdot S E=2 \\cdot 1.5 =3$ pounds .- For sample 1 , the confidence interval is $\\bar{x}_1 \\pm m=183 \\pm 3=180$ to 186 (pounds).\n- For sample 2 , the confidence interval is $\\bar{x}_2 \\pm m=180 \\pm 3=177$ to 183 (pounds).\n- For sample 3, the confidence interval is $\\bar{x}_3 \\pm m=184 \\pm 3=181$ to 187 (pounds).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": " 95 % confidence intervals for $\mu, \sigma$ known (Body weight, 20-29-year-old males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "200-200"
+  }
+}

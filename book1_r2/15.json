@@ -1,0 +1,33 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "Presence of type II diabetes mellitus (yes or no)"
+  },
+  "output": {
+    "method": "离散型变量分布",
+    "answer": "Categorical",
+    "variable": {
+      "diabetes_presence": {
+        "id": "diabetes_presence",
+        "value": [
+          "yes",
+          "no"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates the presence or absence of type II diabetes mellitus."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "15"
+}

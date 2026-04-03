@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_069.json",
+  "input": {
+    "background": "Suppose that asthma affects 1 in 20 children in a population. You take an SRS of 50 children from this population.",
+    "data": "",
+    "question": "Can the Normal approximation to the binomial be applied under these conditions?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$n p q=(50)(0.05)(0.95)=2.375$. Therefore, the sample is too small to apply the Normal approximation.",
+    "variable": {
+      "asthma_prevalence": {
+        "id": "asthma_prevalence",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The prevalence of asthma in the population, which is 1 in 20 children."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the simple random sample (SRS) taken from the population."
+      },
+      "normal_approximation_applicability": {
+        "id": "normal_approximation_applicability",
+        "value": null,
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Whether the Normal approximation to the binomial distribution can be applied under the given conditions."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.9",
+    "image": "",
+    "caption": "Pediatric asthma survey, n = 50.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
+  },
+  "sample_key": "129"
+}

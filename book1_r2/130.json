@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_069.json",
+  "input": {
+    "background": "Suppose that asthma affects 1 in 20 children in a population. You take an SRS of 50 children from this population.",
+    "data": "",
+    "question": "If not, what probability model can be used to describe the sampling variability of the number of asthmatics?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The binomial function $X \\sim \\mathrm{~b}(50,0.05)$ can be applied to random variable $X$.",
+    "variable": {
+      "asthma_prevalence": {
+        "id": "asthma_prevalence",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The prevalence of asthma in the population, which is 1 in 20 children or 5%."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the simple random sample (SRS) taken from the population."
+      },
+      "number_of_asthmatics": {
+        "id": "number_of_asthmatics",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of children with asthma in the sample, which is the variable of interest."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.9",
+    "image": "",
+    "caption": "Pediatric asthma survey, n = 50.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
+  },
+  "sample_key": "130"
+}

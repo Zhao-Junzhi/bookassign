@@ -1,0 +1,14 @@
+{
+  "id": "128",
+  "question": "You are planning a study that wants to estimate a population proportion with 95% confidence. How many individuals do you need to study to achieve a margin of error of no greater than 6%? A reasonable estimate for the population proportions is not available before the study, so assume p* = 0.50 to ensure adequate precision.",
+  "data": "",
+  "answer": "n=267",
+  "meta info": {
+    "index": "16.19",
+    "image": "",
+    "caption": "Sample-size requirement.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  }
+}

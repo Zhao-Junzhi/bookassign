@@ -1,0 +1,53 @@
+{
+  "case_id": "book1_r1\\record_010.json",
+  "input": {
+    "background": "The Stanford Five-City Project is a comprehensive community health education study of five moderately sized Northern California towns. Multiple-risk factor intervention strategies were randomly applied to two of the communities. The other three cities served as controls.",
+    "data": "",
+    "question": "Outline the design of this study in schematic form."
+  },
+  "output": {
+    "method": "实验设计",
+    "answer": "The study is a randomized controlled trial (RCT) design. Two cities were randomly assigned to receive multiple-risk factor intervention strategies, while the other three cities served as controls. The intervention and control groups were then compared to evaluate the effectiveness of the intervention strategies.",
+    "variable": {
+      "community": {
+        "id": "community",
+        "value": [
+          "City A",
+          "City B",
+          "City C",
+          "City D",
+          "City E"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The five Northern California towns involved in the study."
+      },
+      "intervention_status": {
+        "id": "intervention_status",
+        "value": [
+          "Intervention",
+          "Control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Whether a community received the intervention or served as a control."
+      },
+      "risk_factors": {
+        "id": "risk_factors",
+        "value": "Multiple-risk factors targeted by the intervention strategies",
+        "class": "categorical",
+        "role": "independent",
+        "description": "The health risk factors targeted by the intervention strategies."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "2.7",
+    "image": "",
+    "caption": "Five-City Project.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 COMPARATIVE STUDIES",
+    "page": "27-27"
+  },
+  "sample_key": "33"
+}

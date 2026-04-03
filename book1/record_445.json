@@ -1,0 +1,14 @@
+{
+  "id": "445",
+  "question": "Data for this example come from a case-control study on esophageal cancer. Cases were men diagnosed with esophageal cancer from a region in France. Controls were selected at random from electoral lists from the same geographic region. ",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.15 Alcohol and esophageal cancer illustrative casecontrol data.}\n\\begin{tabular}{cc|c}\n\\hline Alcohol & \\multicolumn{2}{c}{ Esophageal cancer } \\\\\ngrams/day & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n\\hline$\\geq 80$ & 96 & 109 \\\\\n\\hline 80 & 104 & 666 \\\\\n\\hline Total & 200 & 775 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "answer": "Table $\\mathbf{1 8 . 1 5}$ cross tabulates the data for cases and controls based on daily alcohol consumption dichotomized at 80 grams $/$ day .",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Case-control data (Alcohol and esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "437-437"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "319",
+  "question": "What is the five-point summary and IQR of this small data set?\n1.47\n2.06\n2.36\n3.43\n3.74\n3.78\n3.94",
+  "data": "",
+  "answer": "- The median is 3.43 .
+- The low group consisting of $\{1.47,2.06,2.36,3.43\}$ has a middle value between 2.06 and 2.36 . We average these to calculate
+
+$$
+\mathrm{Q} 1=\frac{2.06+2.36}{2}=2.21
+$$
+
+- The high group consisting of $\{3.43,3.74,3.78,3.94\}$ has a middle value between 3.74 and 3.78 , so $\mathrm{Q} 3=\frac{3.74+3.78}{2}=3.76$.
+- The five-point summary is $1.47,2.21,3.43,3.76,3.94$.
+- The $\mathrm{IQR}=3.76-2.21=1.55$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "JQR (n = 7).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "74-74"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "091",
+  "question": "A study looked at the number of cavity-free children per 100 in 16 North American cities BEFORE and AFTER public\nwater fluoridation projects. Table 11.2 lists the data.(a) Calculate DELTA values for each city. Then construct a stemplot of these differences. Interpret your plot.(b) What percentage of cities showed an improvement in their cavityfree rate?(c) Estimate the mean change with 95% confidence.",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.2 Cavity-free children per 100 in 16 North American cities before and after public water fluoridation projects.}\n\\begin{tabular}{|l|l|}\n\\hline AFTER & BEFORE \\\\\n\\hline 49.2 & 18.2 \\\\\n\\hline 30.0 & 21.9 \\\\\n\\hline 16.0 & 5.2 \\\\\n\\hline 47.8 & 20.4 \\\\\n\\hline 3.4 & 2.8 \\\\\n\\hline 16.8 & 21.0 \\\\\n\\hline 10.7 & 11.3 \\\\\n\\hline 5.7 & 6.1 \\\\\n\\hline 23.0 & 25.0 \\\\\n\\hline 17.0 & 13.0 \\\\\n\\hline 79.0 & 76.0 \\\\\n\\hline 66.0 & 59.0 \\\\\n\\hline 46.8 & 25.6 \\\\\n\\hline 84.9 & 50.4 \\\\\n\\hline 65.2 & 41.2 \\\\\n\\hline 52.0 & 21.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "answer": "(a) DELTA values:
+
+\begin{tabular}{|l|l|l|}
+\hline AFTER & BEFORE & DELTA \\
+\hline 49.2 & 18.2 & 31.0 \\
+\hline 30.0 & 21.9 & 8.1 \\
+\hline 16.0 & 5.2 & 10.8 \\
+\hline 47.8 & 20.4 & 27.4 \\
+\hline 3.4 & 2.8 & 0.6 \\
+\hline 16.8 & 21.0 & -4.2 \\
+\hline 10.7 & 11.3 & -0.6 \\
+\hline 5.7 & 6.1 & -0.4 \\
+\hline 23.0 & 25.0 & -2.0 \\
+\hline 17.0 & 13.0 & 4.0 \\
+\hline 79.0 & 76.0 & 3.0 \\
+\hline 66.0 & 59.0 & 7.0 \\
+\hline 46.8 & 25.6 & 21.2 \\
+\hline 84.9 & 50.4 & 34.5 \\
+\hline 65.2 & 41.2 & 24.0 \\
+\hline 52.0 & 21.0 & 31.0 \\
+\hline
+\end{tabular}
+
+Stemplot of DELTA values:
+```
+-0|0024
+    0|034\underline{78}
+    1|0
+    2|147
+    3|114
+X10 (change in cavity-free rate per 100 children)
+```
+
+
+Interpretation:
+- Data spread from -4 to 34 .
+- The median is about 7.5 (taken from the stemplot).
+- The shape of the distribution is difficult to assess because of the small sample size. There are no prominent outliers.
+(b) All but 4 of the 16 cities ( $25 \%$ ) showed improvement.
+(c)
+
+$$
+\begin{aligned}
+& n=16 \\
+& \hat{x}_d=12.21 \\
+& s_d=13.62 \\
+& S E=\frac{13.62}{\sqrt{16}}=3.405 \\
+& d f=16-1=15 \\
+& t_{15.975}=2.131 \\
+& 95 \% \text { CI for } \mu_d=12.21 \pm(2.131)(3.405)=12.21 \pm 7.26=(4.95 \text { to } 19.47) \text { additional cavity-free children per } 100 .
+\end{aligned}
+$$",
+  "meta info": {
+    "index": "11.15",
+    "image": "",
+    "caption": "Water fluoridation.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "223-223"
+  }
+}

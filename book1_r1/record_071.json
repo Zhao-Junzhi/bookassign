@@ -1,0 +1,30 @@
+{
+  "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution. When the sample is large, the number of successes will vary according to a Normal distribution. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed.",
+  "task": [
+    {
+      "query": "The count of successes in the sample will vary according to a (a) $\\_\\_\\_\\_$ probability distribution with parameters $n$ and (b) $\\_\\_\\_\\_$. What is the probability distribution and its parameters?",
+      "answer": "(a) binomial (b) $p$",
+      "method": "数据分布建模"
+    },
+    {
+      "query": "When the sample is large, the number of successes will vary according to a Normal distribution with $\\mu=(c)$ $\\_\\_\\_\\_$ and $\\sigma=(d)$ $\\_\\_\\_\\_$. What are the mean and standard deviation of this Normal distribution?",
+      "answer": "(c) $n p$ (d) $\\sqrt{n p q}$",
+      "method": "数据分布建模"
+    },
+    {
+      "query": "The sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed with mean $p$ and standard deviation equal to (e) $\\_\\_\\_\\_$. What is the standard deviation of the sampling distribution of $\\hat{p}$?",
+      "answer": "(e) $\\sqrt{\\frac{p q}{n}}$",
+      "method": "数据分布建模"
+    }
+  ],
+  "id": "071",
+  "data": "",
+  "meta info": {
+    "index": "8.13",
+    "image": "",
+    "caption": "Fill in the blanks.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
+  }
+}

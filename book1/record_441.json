@@ -1,0 +1,45 @@
+{
+  "id": "441",
+  "question": " A randomized, double-blind, placebo-controlled trial evaluated the efficacy of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in children. Each time a subject had an upper respiratory tract infection, treatment with either echinacea or a placebo was taken for the duration of illness. The severity of the illness was rated by parents of subjects as mild, moderate, or severe. Table 18.6A shows the results. Table 18.6B shows the row percents of responses in the groups. Approximately $46 \%$ of the cases were rated "mild" in both groups.",
+  "data": "
+\begin{table}[h!]
+\centering
+\caption{Efficacy of echinacea illustrative data. Parental assessments of the severity of illness.}
+\begin{tabular}{|l|ccc|c|}
+\hline
+\multicolumn{5}{|c|}{\textbf{(A) Cross-tabulated counts}} \\
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{\textbf{Parental assessment}} & \multirow{2}{*}{\textbf{Total}} \\
+                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\
+\hline
+Echinacea        & 153           & 128               & 48              & 329 \\
+Placebo          & 170           & 157               & 40              & 367 \\
+\hline
+Total            & 323           & 285               & 88              & 696 \\
+\hline
+\multicolumn{5}{c}{} \\
+\hline
+\multicolumn{5}{|c|}{\textbf{(B) Conditional distributions (row percents)}} \\
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{\textbf{Parental assessment}} & \multirow{2}{*}{\textbf{Total}} \\
+                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\
+\hline
+Echinacea        & 46.5          & 38.9              & 14.6            & 100.0 \\
+Placebo          & 46.3          & 42.8              & 10.9            & 100.0 \\
+\hline
+Total            & 46.4          & 40.9              & 12.6            & 100.0 \\
+\hline
+\end{tabular}
+\end{table}
+
+",
+  "answer": "A slightly higher percentage of the treatment group experienced severe illness ( $14.6 \%$ vs. $10.9 \%$ ), suggesting that echinacea is ineffective in treating upper respiratory tract illness in children.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Categorical response with more than two levels  (Efficacy of echinacea).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "417-418"
+  }
+}

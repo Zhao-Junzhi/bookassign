@@ -1,0 +1,59 @@
+{
+  "id": "022",
+  "question": "This exercise will demonstrate how the mean is the balancing point of a set of numbers.
+(a) Distribution $\boldsymbol{A}$. The values 1 and 5 are marked as " Xs " on the following number line. Calculate the mean and mark its location on the number line.
+
+\begin{array}{lr}
+X & & & X \\
+1----2----3----4----5
+\end{array}
+(b) Distribution $B$. The values 1,5, and 5 are shown on the number line. Calculate the mean and show its location on the number line. Notice how the extra 5 pulls the mean to the right.
+\begin{array}{lr} 
+& & & & X \\
+X & & &X \\
+1---2----3---4---5
+\end{array}
+ (c) Distribution $\boldsymbol{C}$. Calculate and show the location of the mean for the data points $2.75,3.00$, and 3.25 on the following number line:
+\begin{gathered}
+\mathrm{XXX} \\
+1----2----3----4----5
+\end{gathered}
+(d) Distribution D. Caiculate and show the mean of these three points:
+\begin{tabular}{cr}
+& & $X$ & \\
+& & $X$ & $X$ \\
+$1----2----3----4----5$
+\end{tabular}",
+  "data": "",
+  "answer": "Locations of means are shown with a
+(a) $\bar{x}=3$
+\begin{array}{lr}
+X & & & X \\
+1----2----3----4----5
+\end{array}
+(b) $\bar{x}=3.7$
+\begin{array}{lr} 
+& & & & X \\
+X & & &X \\
+1---2----3---4---5
+\end{array}
+(c) $\bar{x}=3$
+\begin{gathered}
+\mathrm{XXX} \\
+1----2----3----4----5
+\end{gathered}
+(d) $\bar{x}=3.7$
+\begin{tabular}{cr}
+& & $X$ & \\
+& & $X$ & $X$ \\
+$1----2----3----4---5$
+\end{tabular}",
+  "meta info": {
+    "index": "4.1",
+    "image": "",
+    "caption": "Gravitational center.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.1 CENTRAL LOCATION: MEAN",
+    "page": "65-66"
+  }
+}

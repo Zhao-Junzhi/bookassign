@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_094.json",
+  "input": {
+    "background": "An SRS of n = 26 boys between the ages of 13 and 14 has a mean height of 63.8 inches with a standard deviation 3.1 inches.",
+    "data": "",
+    "question": "Calculate a 95% confidence interval for the mean height of the population."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "$\\begin{aligned} & S E=\\frac{3.1}{\\sqrt{26}}=0.608 \\\\ & d f=26-1=25 \\\\ & t_{25，. 975}=2.060 \\\\ & 95 \\% \\text { CI for } \\mu=63.8 \\pm(2.060)(0.608)=63.8 \\pm 1.3=(62.5 \\text { to } 65.1) \\text { inches. }\\end{aligned}$",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 26,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of boys in the sample."
+      },
+      "mean_height": {
+        "id": "mean_height",
+        "value": 63.8,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean height of the sample of boys."
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": 3.1,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the heights in the sample."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The confidence level for the interval estimation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "11.21",
+    "image": "",
+    "caption": "Boy height.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
+  },
+  "sample_key": "178"
+}

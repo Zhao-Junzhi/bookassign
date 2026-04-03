@@ -1,0 +1,20 @@
+{
+  "background": "Could the number",
+  "task": [
+    {
+      "query": "Could the number",
+      "answer": "Four zeros in a row would occur 1 in every 10,000 four-tuples.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "014",
+  "data": "",
+  "meta info": {
+    "index": "2.15",
+    "image": "",
+    "caption": "Four-naughts.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "34-34"
+  }
+}

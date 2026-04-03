@@ -1,0 +1,18 @@
+{
+  "id": "063",
+  "question": "An inmate on death row in the state of Illinois has a WAIS of 51. What percentage of people have a score below this level?",
+  "data": "",
+  "answer": "Again, the four-step procedure is used:
+1. Statel $X \sim N(100,15)$. We want to determine $\operatorname{Pr}(X<51)$
+2. Standardize: $z=\frac{51-100}{15}=-3.27$
+3. Sketch: not shown
+4. Table B: $\operatorname{Pr}(Z \leq-3.27)=0.0005$ (about $0.05 \%$ ) ",
+  "meta info": {
+    "index": "7.11",
+    "image": "",
+    "caption": "Death row inmate.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.3 FINDING VALUES THAT CORRESPOND",
+    "page": "147-147"
+  }
+}

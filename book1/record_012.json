@@ -1,0 +1,17 @@
+{
+  "id": "012",
+  "question": "A researcher conducts a survey to learn about the sexual behavior of college students on a particular campus. A list of the undergraduates at the university is used to select participants. The investigator sends out 500 surveys but only 136 are returned.
+(a) Consider how the low response rate could bias the results of this study.
+(b) Speculate on potential limitations in the quality of information the researcher will receive on questionnaires that are returned.",
+  "data": "",
+  "answer": "(a) The high nonresponse rate hinders our ability to make generalizations about the population; the distribution of behaviors in responders may not randomly reflect behaviors in the campus populations.
+(b) The information on the questionnaires is of uncertain quality. What people say about their behavior often does not match how they behave.",
+  "meta info": {
+    "index": "2.11",
+    "image": "",
+    "caption": "Campus survey.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "33-33"
+  }
+}

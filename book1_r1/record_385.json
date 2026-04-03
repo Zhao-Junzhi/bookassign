@@ -1,0 +1,20 @@
+{
+  "background": "The oat bran illustrative example calculated a 95% confidence interval for μ that had a margin of error of 0.2753 mmol/L.",
+  "task": [
+    {
+      "query": "How large a study is needed to achieve a margin of error 0.2 with 95% confidence? We will use the sample standard deviation from the study as our estimate of σ.",
+      "answer": "n=(z_{1-\\frac{\\alpha}{2}} \\frac{\\sigma}{m})^2=(1.96 \\frac{0.4335}{0.2})^2=18.50. Round this up to the next integer, so n=19. Because this number is less than 30, apply adjustment factor f=(df+3) /(df+1)=(18+3) /(18+1)=1.105 to the final result. Therefore, use n=1.105 \\times 19=21.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "385",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size, confidence interval.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "226-226"
+  }
+}

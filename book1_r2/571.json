@@ -1,0 +1,73 @@
+{
+  "case_id": "book1_r1\\record_501.json",
+  "input": {
+    "background": "Scores derived from a patient satisfaction survey are Normally distributed with μ=50 and σ=7.5, with high scores indicating high satisfaction. An SRS of n=36 is taken from this population.",
+    "data": "",
+    "question": "We seek evidence against the hypothesis that a particular group of patients come from a population in which μ=50. Sketch the curve that describes the sampling distribution of x̄ under the null hypothesis. Mark the horizontal axis with values that are ±1, ±2, and ±3 standard errors above and below the mean."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The sketch of x̄ ∼ N(50,1.25) is not shown in this key. Note that the curve should be centered on μ=50 with points of inflection at 48.75 and 51.25. The standard deviation landmarks starting 2 standard errors below the mean are at 47.5,48.75, 50.0,51.25, and 52.5.",
+    "variable": {
+      "mean_population": {
+        "id": "mean_population",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The population mean (μ) of patient satisfaction scores under the null hypothesis."
+      },
+      "standard_deviation_population": {
+        "id": "standard_deviation_population",
+        "value": 7.5,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The population standard deviation (σ) of patient satisfaction scores."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 36,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the simple random sample (n) taken from the population."
+      },
+      "sampling_distribution_mean": {
+        "id": "sampling_distribution_mean",
+        "value": 50,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean of the sampling distribution of the sample mean (x̄) under the null hypothesis."
+      },
+      "sampling_distribution_standard_error": {
+        "id": "sampling_distribution_standard_error",
+        "value": 1.25,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The standard error of the sampling distribution of the sample mean (x̄), calculated as σ/√n."
+      },
+      "horizontal_axis_values": {
+        "id": "horizontal_axis_values",
+        "value": [
+          46.25,
+          47.5,
+          48.75,
+          50,
+          51.25,
+          52.5,
+          53.75
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Values on the horizontal axis representing ±1, ±2, and ±3 standard errors above and below the mean of the sampling distribution."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.3",
+    "image": "",
+    "caption": "Patient satisfaction.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "571"
+}

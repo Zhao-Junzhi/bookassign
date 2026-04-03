@@ -1,0 +1,49 @@
+{
+  "case_id": "book1_r1\\record_068.json",
+  "input": {
+    "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
+    "data": "",
+    "question": "Explain to a lay person the advantage of reporting the average of four measurements rather than using a single measurement."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Assuming the measurements are unbiased, the average is more likely to reflect the true value of μ than is a single measurement.",
+    "variable": {
+      "measurement": {
+        "id": "measurement",
+        "value": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The individual measurements taken by the lab technician using the kit."
+      },
+      "sigma": {
+        "id": "sigma",
+        "value": 1,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the kit's results as stated by the laboratory kit."
+      },
+      "average_measurement": {
+        "id": "average_measurement",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average of the four measurements taken by the lab technician."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.7",
+    "image": "",
+    "caption": "Repeated lab measurements.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-167"
+  },
+  "sample_key": "127"
+}

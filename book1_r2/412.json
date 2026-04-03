@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_368.json",
+  "input": {
+    "background": "We have established a test of $H_0: \\mu=170$ versus $H_{\\mathrm{a}}: \\mu>170$ in a population with $\\sigma=40$ pounds. A simple random sample of $n=64$ is associated with $S E_{\\bar{x}}=\\frac{40}{\\sqrt{64}}=5$.",
+    "data": "",
+    "question": "Sample 1. What is the $z$-statistic for a sample in which $\\bar{x}=173$?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{173-170}{5}=0.6",
+    "variable": {
+      "mu_0": {
+        "id": "mu_0",
+        "value": 170,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The null hypothesis population mean."
+      },
+      "sigma": {
+        "id": "sigma",
+        "value": 40,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The population standard deviation."
+      },
+      "n": {
+        "id": "n",
+        "value": 64,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The sample size."
+      },
+      "SE_x_bar": {
+        "id": "SE_x_bar",
+        "value": 5,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard error of the sample mean."
+      },
+      "x_bar": {
+        "id": "x_bar",
+        "value": 173,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The sample mean."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "z-statistic (Body weight of 20-29-year-old men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "412"
+}

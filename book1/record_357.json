@@ -1,0 +1,14 @@
+{
+  "id": "357",
+  "question": "Recall that Wechsler Adult Intelligence Scores vary according to a Normal distribution with $\mu=100$ and $\sigma=15$. What is the $z$-score of a score of 95 ?",
+  "data": "",
+  "answer": "$z=\frac{95-100}{15}=-0.33$. This indicates the score is 0.33 standard deviations below the mean.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Standardization (WAIS).",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "140-140"
+  }
+}

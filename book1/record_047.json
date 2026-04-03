@@ -1,0 +1,30 @@
+{
+  "id": "047",
+  "question": " A lottery offers a grand prize of $\$ 10$ million. The probability of winning this grand prize is 1 in 55 million $\left(\approx 1.8 \times 10^{-8}\right)$. There are no other prizes, so the probability of winning nothing $=1-(1.8 \times \left.10^8\right)=0.999999982$. Table 5.5 shows the probability mass function for the problem.
+
+(a) What is the expected value of a lottery ticket?
+(b) Fifty-five million lottery tickets will be sold. How much does the proprietor of the lottery need to charge per ticket to make a profit?",
+  "data": "\begin{array}{lcc}
+\hline \text { Winnings }(X) & 0 & \$ 10 \times 10^6 \\
+\operatorname{Pr}\left(X=x_j\right) & 0.999999982 & 1.8 \times 10^{-8} \\
+\hline
+\end{array}",
+  "answer": "(a)
+
+$$
+\begin{aligned}
+& \mu=\Sigma x_i \cdot \operatorname{Pr}\left(X=x_i\right)=(0 \cdot 0.999999982)+(10,000,000 \cdot 0.000000018)= \\
+& 0+0.18=0.18
+\end{aligned}
+$$
+
+(b) 19 cents",
+  "meta info": {
+    "index": "5.9",
+    "image": "",
+    "caption": "Lottery.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3 DISCRETE RANDOM VARIABLES",
+    "page": "98-99"
+  }
+}

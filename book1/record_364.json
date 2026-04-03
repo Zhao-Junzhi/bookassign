@@ -1,0 +1,14 @@
+{
+  "id": "364",
+  "question": "What effect does increasing the sample size have on the precision of a mean? We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with $\\mu=100$ and $\\sigma=$ 15. Let us consider the standard errors of means for SRSs of WAISs with $n=1, n=4$, and $n=16$.",
+  "data": "",
+  "answer": "- The standard error of the mean when $n=1$ is $S E_{\\bar{x}}=\\frac{\\sigma}{n}=\\frac{15}{\\sqrt{1}}=15$.\n- The standard error of the mean when $n=4$ is $S E_{\\bar{x}}=\\frac{15}{\\sqrt{4}}=7.5$.\n- The standard error of the mean based when $n=16$ is $S E_{\\bar{x}}=\\frac{15}{\\sqrt{16}}=3.75$.\n\nEach time, quadrupling the sample size cuts the $S E_{\\bar{x}}$ in half.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Standard error of the mean and sample size (WAIS).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "164-164"
+  }
+}

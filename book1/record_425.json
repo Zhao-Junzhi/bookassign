@@ -1,0 +1,27 @@
+{
+  "id": "425",
+  "question": "One of the difficult parts about statistical inference is using our imagination to understand the theoretical sampling distributions of an estimator. To exercise our imagination, let us consider the sampling distribution of a hypothetical situation in which two groups, each composed of 1000 individuals, come from populations with risks of $10 \%$ for a particular outcome. In studying 1000 individuals per group, the sampling distribution of the risk difference is approximately Normal with expected value 0 and standard deviation
+
+$$
+$\sigma_{\hat{p}_1 - \hat{p}_2}$=\sqrt{\frac{p_1 q_1}{n_1}+\frac{p_2 q_2}{n_2}}=\sqrt{\frac{(0.1)(1-0.1)}{1000}+\frac{(0.1)(1-0.1)}{1000}}=0.0134
+$$
+
+
+Using the notation for Normal random variables established in prior chapters, $\hat{p}_1-\hat{p}_2 \sim \mathrm{~N}(\mu=0, \sigma=0.0134)$.
+
+Application of the 68-95-99.7 rule allows us to say that 68\% of the sample risk difference based in these conditions will fall in the range $0 \pm 0.0134,95 \%$ will fall in the range $0 \pm(2)(0.0134)=0 \pm 0.0268$ (and so on). In addition, we can use this sampling distribution to determine the probability of a given range of observations. To do this, standardize the observed risk difference and determine the probability of the range under the assumed sampling distribution. ",
+  "data": "",
+  "answer": "For example, the probability of observing a risk difference of 0.02 or greater under the stated conditions is
+
+$$
+\operatorname{Pr}\left(\hat{p}_1-\hat{p}_2 \geq 0.02\right)=\operatorname{Pr}\left(Z \geq \frac{0.02-0}{0.0134}\right)=\operatorname{Pr}(Z \geq 1.49)=0.0681 .
+$$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sampling distribution of a risk difference (Hypothetical).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "376-377"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_099.json",
+  "input": {
+    "background": "Identify whether the studies described here are based on single samples, paired samples, or independent samples.",
+    "data": "",
+    "question": "Cardiovascular disease risk factors are compared in husbands and wives."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Paired samples",
+    "variable": {
+      "risk_factors": {
+        "id": "risk_factors",
+        "value": "Cardiovascular disease risk factors",
+        "class": "categorical",
+        "role": "both",
+        "description": "Risk factors associated with cardiovascular disease being compared between husbands and wives."
+      },
+      "husbands": {
+        "id": "husbands",
+        "value": "Husbands in the study",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Group of male participants whose cardiovascular disease risk factors are being compared."
+      },
+      "wives": {
+        "id": "wives",
+        "value": "Wives in the study",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Group of female participants whose cardiovascular disease risk factors are being compared."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.1",
+    "image": "",
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
+  },
+  "sample_key": "190"
+}

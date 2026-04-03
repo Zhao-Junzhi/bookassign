@@ -1,0 +1,28 @@
+{
+  "id": "429",
+  "question": "We calculate $90 \%$ and $95 \%$ confidence intervals for the $R R$ for the estrogen trial illustrative data. Table $\mathbf{1 7 . 3}$ shows the data. We established that $\widehat{R R}=\frac{\hat{p}_1}{\hat{p}_2}=\frac{0.08829}{0.07689}=1.1483$.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 17.3 Women's Health Initiative estrogen trial data in 2-by-2 format.}
+\begin{tabular}{lc|c|}
+\hline & \multicolumn{1}{c}{ Cases } & Noncases & Total\\
+Estrogen + & 751 & 7755  & 8506\\
+\cline { 2 - 4} Estrogen - & 623 & 7479 & 8102 \\
+\cline { 2 - 4 } Total & 1374 & 15234 & 16608 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "
+- $\ln (\widehat{R R})=\ln (1.1483)=0.1382$
+- $S E_{\ln \overparen{R R}}=\sqrt{\frac{1}{a_1}-\frac{1}{n_1}+\frac{1}{a_2}-\frac{1}{n_2}}=\sqrt{\frac{1}{751}-\frac{1}{8506}+\frac{1}{623}-\frac{1}{8102}} =0.051920$
+- The $90 \%$ confidence interval for $\ln R R=\ln \widehat{R R} \pm z_{1-\alpha / 2} \cdot S E_{\ln \widehat{R R}}= 0.1382 \pm(1.645)(0.05192)=0.1382 \pm 0.0854=(0.0528,0.2236)$. Therefore, the $90 \%$ confidence interval of $R R=e^{0.0528,0.2236}=(1.05$ to 1.25).
+- The $95 \%$ confidence interval for $\ln R R=0.1382 \pm(1.96)(0.05192) =0.1382 \pm 0.1018=(0.03644,0.2400)$. Therefore, the $95 \%$ confidence interval of $R R=e^{0.03644,0.2400}=(1.04$ to 1.27$)$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the relative risk (Estrogen  trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-392"
+  }
+}

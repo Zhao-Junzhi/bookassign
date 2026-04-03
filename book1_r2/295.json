@@ -1,0 +1,53 @@
+{
+  "case_id": "book1_r1\\record_154.json",
+  "input": {
+    "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor, with tobacco use dichotomized at 20 grams/day.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.30 Data for Exercise 18.27.}\n\\begin{tabular}{l|r|c}\n\\cline { 2 - 3 } Tobacco & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n$20+\\mathrm{g} /$ day & 64 & 150 \\\\\n$0-19 \\mathrm{~g} /$ day & 136 & 625 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Tuyns, A. J., Pequignot, G., \\& Jensen, O. M. (1977). [Esophageal cancer in Ille-et-Vilaine in relation to levels of alcohol and tobacco consumption. ]. Bulletin du Cancer, 64(1), 45-60. Data set are stored online in the file BD1.* as variables TOB2 and CASE.",
+    "question": "Interpret the results."
+  },
+  "output": {
+    "method": "回归系数显著性与方向解读",
+    "answer": "The point estimate suggests that there is 96% increase in risk associated with this level of tobacco use.",
+    "variable": {
+      "Tobacco_use": {
+        "id": "Tobacco_use",
+        "value": [
+          "20+ g/day",
+          "0-19 g/day"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Tobacco use categorized by daily consumption in grams."
+      },
+      "Cases": {
+        "id": "Cases",
+        "value": [
+          64,
+          136
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of esophageal cancer cases."
+      },
+      "Noncases": {
+        "id": "Noncases",
+        "value": [
+          150,
+          625
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of non-cases (controls) in the study."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.27",
+    "image": "",
+    "caption": "Esophageal cancer and tobacco use.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "459-460"
+  },
+  "sample_key": "295"
+}

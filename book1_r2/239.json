@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "The value of r changes when the units of measure are changed."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "False",
+    "variable": {
+      "r": {
+        "id": "r",
+        "value": "correlation coefficient",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The correlation coefficient, which measures the strength and direction of a linear relationship between two variables."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "239"
+}

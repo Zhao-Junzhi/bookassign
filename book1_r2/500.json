@@ -1,0 +1,26 @@
+{
+  "case_id": "book1_r1\\record_408.json",
+  "input": {
+    "background": "We have calculated a correlation coefficient of 0.737 for the ecological association between smoking and lung cancer mortality using the data in Table 14.1. We now test this correlation for statistical significance.",
+    "data": "",
+    "question": "What is the test statistic for the correlation coefficient and how is it calculated?"
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "The standard error of the correlation coefficient is calculated as $SE_r=\\sqrt{\\frac{1-r^2}{n-2}}=\\sqrt{\\frac{1-0.737^2}{11-2}}=0.2253$. The test statistic is $t_{\\mathrm{stat}}=\\frac{r}{SE_r}=\\frac{0.737}{0.2253}=3.27$ with $df=n-2=11-2=9$.",
+    "variable": {
+      "correlation_coefficient": {
+        "id": "correlation_coefficient",
+        "value": 0.737,
+        "class": "numerical",
+        "role": "both",
+        "description": "The correlation coefficient representing the ecological association between smoking and lung cancer mortality."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "500"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "318",
+  "question": "Consider this small ordered array $(n=10)$ :
+\begin{tabular}{llllllllll}
+5 & 11 & 21 & 24 & 27& & 28 & 30 & 42 & 50 & 52 \\
+& & $\uparrow$ & & & $\uparrow$ & & & $\uparrow$ & & \\
+& & Q1 & & &  M & & & Q3 & &
+\end{tabular}",
+  "data": "",
+  "answer": "The low group is $\{5,11,21,24,27\}$, so $Q 1=21$. The high group is $\{28$, $30,42,50,52\}$, so $\mathrm{Q} 3=42$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Quartiles.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES",
+    "page": "73-73"
+  }
+}

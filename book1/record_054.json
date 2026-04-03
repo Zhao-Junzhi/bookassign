@@ -1,0 +1,44 @@
+{
+  "id": "054",
+  "question": " The prevalence of a condition in a population is 10\%. You take a simple random sample of 15 people from this population. Let $X$ represent the number of individuals in the sample with the condition.
+(a) Describe the distribution $X$.
+(b) What is the probability of seeing no cases in a sample?
+(c) What is the probability of seeing one case?
+(d) What is the probability of seeing one or fewer cases?
+(e) What is the probability of at least two cases?
+(f) At what number of cases would you start to believe the assumed prevalence in the population is greater than $10 \%$ ? Use this table to help organize your calculations:
+
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline Number of successes ( $x$ ) & 0 & 1 & 2 & 3 & 4 & 5 \\
+\hline $\operatorname{Pr}(X=x)$ & & & & & & \\
+\hline $\operatorname{Pr}(X \leq x)$ & & & & & & \\
+\hline $\operatorname{Pr}(X>x)^*$ & & & & & & \\
+\hline
+\end{tabular}
+${ }^* \operatorname{Pr}(X>x)=1-\operatorname{Pr}(X \leq x)$",
+  "data": "",
+  "answer": "(a) $X \sim \mathrm{~b}(15,0.10)$
+(b) $\operatorname{Pr}(X=0)=0.2059$
+(c) $\operatorname{Pr}(X=1)=0.3432$
+(d) $\operatorname{Pr}(X \leq 1)=\operatorname{Pr}(X=0)+\operatorname{Pr}(X=1)=0.2059+0.3432=0.5491$
+(e) $\operatorname{Pr}(X \geq 2)=1 \times \operatorname{Pr}(X \leq 1)=1-0.5491=0.4509$.
+(f) Probabilities:
+
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline No. of Successes $(x)$ & 0 & 1 & 2 & 3 & 4 & 5 \\
+\hline $\operatorname{Pr}(X=x)$ & 0.2059 & 0.3432 & 0.2669 & 0.1285 & 0.0428 & 0.0105 \\
+\hline $\operatorname{Pr}(X \leq x)$ & 0.2059 & 0.5490 & 0.8159 & 0.9444 & 0.9873 & 0.9978 \\
+\hline $\operatorname{Pr}(X>x)$ & 0.7941 & 0.4510 & 0.1841 & 0.0556 & $\mathbf{0 . 0 1 2 7}$ & 0.0022 \\
+\hline
+\end{tabular}
+
+The probability for "at least 4 successes" is highlighted. Because this probability is low, a value of 4 or greater would raise suspicion that the population prevalence $p$ is only $10 \%$.",
+  "meta info": {
+    "index": "6.11",
+    "image": "",
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
+  }
+}

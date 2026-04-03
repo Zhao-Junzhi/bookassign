@@ -1,0 +1,22 @@
+{
+  "id": "118",
+  "question": "\\dentify which of these statements are true and which are false.
+(a) Correlation coefficient r quantifies the relationship between quantitative variables X and Y.
+(b) Correlation coefficient r quantifies the linear relation between quantitative variables X and Y.
+(c) The closer 7 is to 1, the stronger the linear relation between X and Y.
+(d) The closer ris to —1 or 1, the stronger the linear relation between X and.
+(e) If ris close to zero, X and Y are unrelated.
+(f) Ifris close to zero, Xand Yare not related in a linear way.
+(g) The value of r changes when the units of measure are changed.
+(h) The value of 6 changes when the units of measure are changed.",
+  "data": "",
+  "answer": "(a), (c), (e), and (g) are false. The others are true.",
+  "meta info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  }
+}

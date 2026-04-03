@@ -1,0 +1,39 @@
+{
+  "case_id": "book1_r1\\record_320.json",
+  "input": {
+    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "For site 2, calculate Q1, Q3, and IQR based on the ordered array of data: 32, 33, 34, 36, 36, 38, 39, 40."
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "Q1 = 33.5, Q3 = 38.5, IQR = 5 (38.5 - 33.5).",
+    "variable": {
+      "site_2_data": {
+        "id": "site_2_data",
+        "value": [
+          32,
+          33,
+          34,
+          36,
+          36,
+          38,
+          39,
+          40
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Ordered array of particulate matter data for site 2"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "IQRs (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES ",
+    "page": "75-75"
+  },
+  "sample_key": "346"
+}

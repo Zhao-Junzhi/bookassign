@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "If r is close to zero, X and Y are unrelated."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "False",
+    "variable": {
+      "r": {
+        "id": "r",
+        "value": "close to zero",
+        "class": "numerical",
+        "role": "both",
+        "description": "The correlation coefficient indicating the strength and direction of a linear relationship between variables X and Y."
+      },
+      "X": {
+        "id": "X",
+        "value": "N/A",
+        "class": "NR",
+        "role": "independent",
+        "description": "A variable whose relationship with Y is being analyzed."
+      },
+      "Y": {
+        "id": "Y",
+        "value": "N/A",
+        "class": "NR",
+        "role": "dependent",
+        "description": "A variable whose relationship with X is being analyzed."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "237"
+}

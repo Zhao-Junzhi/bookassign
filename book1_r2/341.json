@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_318.json",
+  "input": {
+    "background": "Consider this small ordered array $(n=10)$ :",
+    "data": "",
+    "question": "Identify the first quartile (Q1) from the array."
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "The low group is {5,11,21,24,27}, so Q1=21.",
+    "variable": {
+      "array": {
+        "id": "array",
+        "value": "List of numerical values in the ordered array",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The ordered array of numerical values from which the first quartile (Q1) is to be identified."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Quartiles.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES",
+    "page": "73-73"
+  },
+  "sample_key": "341"
+}

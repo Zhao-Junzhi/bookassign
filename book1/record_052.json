@@ -1,0 +1,14 @@
+{
+  "id": "052",
+  "question": "A telephone survey uses a random digit dialing machine to call subjects. The random digit dialing machine is expected to reach a live person 15% of the time. In eight attempts, what is the probability of achieving exactly two successful calls?",
+  "data": "",
+  "answer": "$\begin{aligned} & X \sim b(8,0.15) \\ & \operatorname{Pr}(X=2)=0.237604\end{aligned}$",
+  "meta info": {
+    "index": "6.5",
+    "image": "",
+    "caption": "Telephone survey.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.4 Probability Calculators",
+    "page": "122-122"
+  }
+}

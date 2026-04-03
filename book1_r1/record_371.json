@@ -1,0 +1,20 @@
+{
+  "background": "A study of n=16 retains H_0: μ=170 at an α of 0.05 (two sided). Based on prior study, the standard deviation of this variable is 40.",
+  "task": [
+    {
+      "query": "What was the power of the test to identify a population mean of 190?",
+      "answer": "1-β=Φ(-z_{1-α/2}+|μ_0-μ_a|√n/σ)=Φ(-1.96+|170-190|√16/40)=Φ(0.04)=0.5160 [From Table B]. The test had about a 50/50 chance of rejecting the H_0 under the stated conditions. This is low. Hypothesis tests should strive for at least 80% power.",
+      "method": "均值检验"
+    }
+  ],
+  "id": "371",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of a z test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 Power and Sample Size",
+    "page": "189-189"
+  }
+}

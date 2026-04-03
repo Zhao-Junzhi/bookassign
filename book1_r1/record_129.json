@@ -1,0 +1,20 @@
+{
+  "background": "According to an April 29, 1998, New York Times article, a nationwide telephone survey conducted for a managed alternative care company found that of 1500 adults interviewed, 660 said they would use alternative medicine if traditional medical care failed to produce the desired results.",
+  "task": [
+    {
+      "query": "Compute the confidence interval for the proportion of adults who would use alternative medicine if traditional medical care failed.",
+      "answer": "The $95 \\%$ confidence interval for $p$ by Wilson's (computed with WinPepi describe.exe 1.5 .1 ) is 0.415 to 0.465. The plus-four method should produce similar results.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "129",
+  "data": "",
+  "meta info": {
+    "index": "16.21",
+    "image": "",
+    "caption": "Alternative medicine.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  }
+}

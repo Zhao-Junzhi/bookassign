@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_506.json",
+  "input": {
+    "background": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases.",
+    "data": "",
+    "question": "Let $D$ represent thromboembolic diseases and $E$ represent exposure to early oral contraceptives. Suppose $\\operatorname{Pr}(D \\mid E)=0.00040$ and $\\operatorname{Pr}(D \\mid \\bar{E})=0.00010$. Therefore, $R R=\\frac{0.0004}{0.0001}=4.0$. Exposure quadrupled risk."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "null",
+    "variable": {
+      "D": {
+        "id": "D",
+        "value": "thromboembolic diseases",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates whether thromboembolic diseases occurred."
+      },
+      "E": {
+        "id": "E",
+        "value": "exposure to early oral contraceptives",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether there was exposure to early oral contraceptives."
+      },
+      "Pr(D|E)": {
+        "id": "Pr(D|E)",
+        "value": 0.0004,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The probability of thromboembolic diseases given exposure to early oral contraceptives."
+      },
+      "Pr(D|¬E)": {
+        "id": "Pr(D|¬E)",
+        "value": 0.0001,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The probability of thromboembolic diseases given no exposure to early oral contraceptives."
+      },
+      "RR": {
+        "id": "RR",
+        "value": 4.0,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The relative risk of thromboembolic diseases due to exposure to early oral contraceptives."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risk (Older formulation oral contraceptives).",
+    "chapter": "Probability Concepts",
+    "section": "5.5 More Rules and Properties of Probability",
+    "page": "109-109"
+  },
+  "sample_key": "584"
+}

@@ -1,0 +1,55 @@
+{
+  "background": "Identify which of these statements are true and which are false.",
+  "task": [
+    {
+      "query": "Correlation coefficient r quantifies the relationship between quantitative variables X and Y.",
+      "answer": "False",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "Correlation coefficient r quantifies the linear relation between quantitative variables X and Y.",
+      "answer": "True",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "The closer 7 is to 1, the stronger the linear relation between X and Y.",
+      "answer": "False",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "The closer r is to —1 or 1, the stronger the linear relation between X and Y.",
+      "answer": "True",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "If r is close to zero, X and Y are unrelated.",
+      "answer": "False",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "If r is close to zero, X and Y are not related in a linear way.",
+      "answer": "True",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "The value of r changes when the units of measure are changed.",
+      "answer": "False",
+      "method": "相关系数（一维）"
+    },
+    {
+      "query": "The value of 6 changes when the units of measure are changed.",
+      "answer": "True",
+      "method": "相关系数（一维）"
+    }
+  ],
+  "id": "118",
+  "data": "",
+  "meta info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_503.json",
+  "input": {
+    "background": "Say whether each of the boldface numbers is a parameter or a statistic.",
+    "data": "",
+    "question": "Insured? A data set based on 168 hospital discharge summaries shows that 20% of patients were uninsured. (The review takes place in a large referral hospital.)"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Statistic",
+    "variable": {
+      "uninsured_percentage": {
+        "id": "uninsured_percentage",
+        "value": 20,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of patients who were uninsured in the data set."
+      },
+      "total_patients": {
+        "id": "total_patients",
+        "value": 168,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of patients in the hospital discharge summaries data set."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.3",
+    "image": "",
+    "caption": "Parameter or statistic?",
+    "chapter": "Introduction to Statistical Inference",
+    "section": "8.1 Concepts",
+    "page": "158-158"
+  },
+  "sample_key": "575"
+}

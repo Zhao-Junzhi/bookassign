@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_065.json",
+  "input": {
+    "background": "Find the following $z$ percentiles.",
+    "data": "",
+    "question": "(e) $z_{.999}$"
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "$z_{.999}=3.09$",
+    "variable": {
+      "z_percentile": {
+        "id": "z_percentile",
+        "value": 0.999,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentile value for which the corresponding z-score needs to be found."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.15",
+    "image": "",
+    "caption": "Z percentiles.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
+  },
+  "sample_key": "117"
+}

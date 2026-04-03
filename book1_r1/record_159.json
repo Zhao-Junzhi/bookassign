@@ -1,0 +1,50 @@
+{
+  "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+  "task": [
+    {
+      "query": "Table 19.10 A cross tabulates acceptance by gender for both majors combined. What proportion of male applicants were accepted? What proportion of female applicants were accepted? What is your initial impression?",
+      "answer": "Crude analysis: P_males = 534 / 1198 = 0.4457 or about 45%; P_females = 113 / 449 = 0.2517 or about 25%; RR = 0.4457 / 0.2517 = 1.77",
+      "method": "contingency table"
+    },
+    {
+      "query": "Table 19.10B cross tabulates data for major 1. Did males fare better than females in this major?",
+      "answer": "Applicants for major 1: P_males = 512 / 825 = 0.6206 about 62%; P_females = 89 / 108 = 0.8241 about 82%. Major 1 favors female applicants.",
+      "method": "contingency table"
+    },
+    {
+      "query": "Table 19.10 C cross tabulates data for major 2 . What is the experience in this stratum?",
+      "answer": "Applicants for major 2: P_males = 22 / 373 = 0.0590 or about 6%; P_females = 24 / 341 = 0.070 or about 7%. Major 2 favors female applicants.",
+      "method": "contingency table"
+    },
+    {
+      "query": "Was there sex bias in graduate school admissions? Did it favor male or female applicants?",
+      "answer": "There is a slight bias for female applicants.",
+      "method": "contingency table"
+    },
+    {
+      "query": "Explain why the crude analysis (part a) produced a faulty conclusion.",
+      "answer": "The initial analysis was confounded because males tended to apply to major 1. Major 1 had a high acceptance rate (601 of 933 = 64%), while major 2 had a low acceptance rate (46 of 714 = 6%).",
+      "method": "contingency table"
+    },
+    {
+      "query": "Calculate the relative incidence of acceptance for males by major.",
+      "answer": "Relative incidence of acceptance for males by major: RR_1 = 0.753; RR_2 = 0.838. Test for interaction: Hypotheses: H_0: RR_1 = RR_2 (no interaction) versus H_2: RR_1 ≠ RR_2 (interaction). Test statistic: X^2_sat.int = 0.136 with df = 1. P-value: P = 0.713 (no significant difference in strata-specific relative risk estimates; no significant interaction).",
+      "method": "contingency table"
+    },
+    {
+      "query": "After adjusting for major, what is the relative incidence of acceptance for male applicants compared to female applicants?",
+      "answer": "RR_MH = 0.77. After adjusting for major, male applicants were 23% less likely to be accepted than female applicants.",
+      "method": "contingency table"
+    }
+  ],
+  "id": "159",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "19.5",
+    "image": "",
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
+  }
+}

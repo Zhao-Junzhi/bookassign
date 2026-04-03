@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_380.json",
+  "input": {
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\bar{x}=2890.5 grams and s=720.0.",
+    "data": "",
+    "question": "Confidence intervals for \\mu at 90 \\% level of confidence will be calculated."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "The standard error of the mean SE_{\\bar{x}}=\\frac{720}{\\sqrt{10}}=227.684. df=10-1=9. For 90 \\% confidence, use t_{9,95}=1.833 [Table C], so the 90 \\% confidence interval for \\mu is \\bar{x} \\pm\\left(t_{n-1,1-\\xi}\\right)\\left(SE_{\\bar{x}}\\right)=2890.5 \\pm (1.833)(227.684)=2890.5 \\pm 417.3=(2473.2 to 3307.8) grams.",
+    "variable": {
+      "x_bar": {
+        "id": "x_bar",
+        "value": 2890.5,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean of birth weight in grams."
+      },
+      "s": {
+        "id": "s",
+        "value": 720.0,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample standard deviation of birth weight in grams."
+      },
+      "n": {
+        "id": "n",
+        "value": 10,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample size, representing the number of SIDS cases."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.9,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level for the interval estimation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
+  },
+  "sample_key": "439"
+}

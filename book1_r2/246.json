@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_121.json",
+  "input": {
+    "background": "Exercises 16.1 and 16.3 considered a survey in which 170 of 2,673 individuals (6.4%) reported having two or more sexual partners in the prior 12 months. This study was completed in the early 1990s. Suppose an earlier study (completed in the 1970s) suggested that the prevalence of this attribute in the population was 7.5%.",
+    "data": "",
+    "question": "Is the observed proportion significantly different than the prior prevalence? Use a two-sided alternative hypothesis. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "A. Hypotheses. $H_0: p=0.075$ versus $H_a: p \\neq 0.075$\nB. Test statistic. We start by checking the $n p q$ rule: $n p_0 q_0=2673(0.075)(0.925)=$ 185. Therefore, the sample is large enough to use the $z$ test.\n\n$$\n\\begin{aligned}\n& S E_p=\\sqrt{\\frac{0.075 \\cdot 0.925}{2673}}=0.005095 \\\\\n& z_{\\text {stat }}=\\frac{0.063598-0.075}{0.005095}=-2.24\n\\end{aligned}\n$$\n\nC. $\\boldsymbol{P}$-value. $P=0.025$ via Table F in the Appendix (good evidence against $H_0$ )\nD. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=$ 0.05 (reject $H_0$ ) but is not significant at $\\alpha=0.01$ (retain $H_0$ ).",
+    "variable": {
+      "observed_proportion": {
+        "id": "observed_proportion",
+        "value": 0.064,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The observed proportion of individuals reporting having two or more sexual partners in the prior 12 months from the 1990s study."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 2673,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of individuals surveyed in the 1990s study."
+      },
+      "prior_prevalence": {
+        "id": "prior_prevalence",
+        "value": 0.075,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The prevalence of having two or more sexual partners in the population as suggested by an earlier study from the 1970s."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.5",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.3 HYPOTHESIS TEST, NORMAL APPROXIMATION",
+    "page": "357-357"
+  },
+  "sample_key": "246"
+}

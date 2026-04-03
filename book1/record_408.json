@@ -1,0 +1,25 @@
+{
+  "id": "408",
+  "question": "We have calculated a correlation coefficient of 0.737 for the ecological association between smoking and lung cancer mortality using the data in Table 14.1. We now test this correlation for statistical significance.",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0: \rho=0$ versus $H_{\mathrm{a}}: \rho \neq 0$
+B. Test statistics. The standard error of the correlation coefficient
+
+$$
+\begin{aligned}
+& S E_r=\sqrt{\frac{1-r^2}{n-2}}=\sqrt{\frac{1-0.737^2}{11-2}}=0.2253 . \text { The test statistic } \\
+& t_{\mathrm{stat}}=\frac{r}{S E_r}=\frac{0.737}{0.2253}=3.27 \text { with } d f=n-2=11-2=9
+\end{aligned}
+$$
+
+C. $\boldsymbol{P}$-value. Using Table $\mathrm{C}, 0.005<P<0.01$. Using statistical software, $P=0.0097$. The evidence against $H_0$ is strong.
+D. Significance level (optional). The correlation coefficient is significant at $\alpha=0.01$ (reject $H_0$ at $\alpha=0.01$ ).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Hypothesis test of $\\boldsymbol{\\rho}$.",
+    "chapter": "Correlation and Regression",
+    "section": "14.3 Correlation",
+    "page": "307-307"
+  }
+}

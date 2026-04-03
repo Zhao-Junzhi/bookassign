@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_045.json",
+  "input": {
+    "background": "Suppose a population has 26 members identified with the letters A through Z.",
+    "data": "",
+    "question": "Assume person A gets selected on the initial draw and you sample again without replacement. What is the probability of drawing person A on the second draw?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "0",
+    "variable": {
+      "population_size": {
+        "id": "population_size",
+        "value": 26,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of members in the population."
+      },
+      "initial_draw": {
+        "id": "initial_draw",
+        "value": "A",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The person selected on the initial draw."
+      },
+      "second_draw_probability": {
+        "id": "second_draw_probability",
+        "value": 0,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The probability of drawing person A on the second draw without replacement."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "5.5",
+    "image": "",
+    "caption": "N = 26.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-92"
+  },
+  "sample_key": "79"
+}

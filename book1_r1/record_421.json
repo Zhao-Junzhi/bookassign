@@ -1,0 +1,20 @@
+{
+  "background": "A prior illustrative example in this chapter had us conduct a two-sided test of $H_0: p=$ 0.21 using a sample of $n=57$.",
+  "task": [
+    {
+      "query": "How large a sample is needed to detect a proportion of 0.31 in the population (i.e., $p_1=0.31$ ) at $\\alpha=0.05$ (two sided) with $90 \\%$ power?",
+      "answer": "\\begin{aligned} &n=\\left(\\frac{z_{1-\\alpha / 2} \\sqrt{p_0 q_0}+z_{1-\\beta }\\sqrt{p_1 q_1}}{p_1-p_0}\\right)^2=\\left(\\frac{1.96 \\sqrt{(0.21)(0.79)}+1.28 \\sqrt{(0.31)(0.69)}}{0.31-0.21}=\\right)^2=193.3 .\\ &\\text { The sample should include } 194 \\text { observations. } \\end{aligned}",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "421",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, hypothesis test.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "368-368"
+  }
+}

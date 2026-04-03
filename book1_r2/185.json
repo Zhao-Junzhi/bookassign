@@ -1,0 +1,68 @@
+{
+  "case_id": "book1_r1\\record_096.json",
+  "input": {
+    "background": "Two trials looked at red wine consumption in lowering cholesterol levels in hypercholesterolemic men. In each trial, 25 men consumed 8 ounces of red wine for 14 days.",
+    "data": "",
+    "question": "Is it reasonable to come to different conclusions for trial A and trial B?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "It is not reasonable to derive different conclusions because the observed mean changes are identical and the $P$-values are nearly identical, both providing tairh strong evidence against the null hypothesis.",
+    "variable": {
+      "trial": {
+        "id": "trial",
+        "value": [
+          "A",
+          "B"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The identifier for the two trials conducted to study the effect of red wine consumption on cholesterol levels."
+      },
+      "participants": {
+        "id": "participants",
+        "value": [
+          25,
+          25
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of participants in each trial who consumed red wine."
+      },
+      "red_wine_consumption": {
+        "id": "red_wine_consumption",
+        "value": [
+          8
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The amount of red wine consumed daily by participants during the trials, measured in ounces."
+      },
+      "duration": {
+        "id": "duration",
+        "value": [
+          14
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The duration of the trials, measured in days."
+      },
+      "cholesterol_levels": {
+        "id": "cholesterol_levels",
+        "value": "Unknown, to be measured in the trials",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The cholesterol levels of participants, which are the outcome variable being studied to determine the effect of red wine consumption."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "11.25",
+    "image": "",
+    "caption": "Beware $\\alpha=0.05$.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "230-231"
+  },
+  "sample_key": "185"
+}

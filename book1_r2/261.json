@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_133.json",
+  "input": {
+    "background": "Joseph Lister (1827-1912) demonstrated that postoperative mortality dropped from 16 fatalities in 35 procedures to 6 fatalities in 40 procedures after adopting antiseptic surgical techniques.",
+    "data": "",
+    "question": "Determine the risks of postoperative mortality in each group."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$\n\\begin{aligned}\n& \\hat{p}_1=0.1500 \\\\\n& \\hat{p}_2=0.457143\n\\end{aligned}\n$$",
+    "variable": {
+      "initial_procedures": {
+        "id": "initial_procedures",
+        "value": 35,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of surgical procedures performed before adopting antiseptic techniques."
+      },
+      "initial_fatalities": {
+        "id": "initial_fatalities",
+        "value": 16,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of fatalities in the initial group before adopting antiseptic techniques."
+      },
+      "post_antiseptic_procedures": {
+        "id": "post_antiseptic_procedures",
+        "value": 40,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of surgical procedures performed after adopting antiseptic techniques."
+      },
+      "post_antiseptic_fatalities": {
+        "id": "post_antiseptic_fatalities",
+        "value": 6,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of fatalities in the group after adopting antiseptic techniques."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.5",
+    "image": "",
+    "caption": "Joseph Lister and antiseptic surgery.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.3 Hypothesis Test",
+    "page": "388-388"
+  },
+  "sample_key": "261"
+}

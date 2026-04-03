@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_362.json",
+  "input": {
+    "background": "The Youth Risk Behavior Surveillance System monitors six categories of health behaviors in U.S. youth and adolescents. Many types of behaviors that contribute to adverse health consequences are monitored.",
+    "data": "",
+    "question": "As examples, the proportion of high school students who had ridden with a driver who had been drinking alcohol during the preceding 30-day period was $30.2 \\%$, the proportion who had smoked cigarettes was $21.9 \\%$, and the proportion who were overweight was $13.5 \\%$. These values are statistical estimates of population parameters."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "null",
+    "variable": {
+      "Proportion of students who rode with a driver who had been drinking": {
+        "id": "Proportion of students who rode with a driver who had been drinking",
+        "value": 30.2,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of high school students who rode with a driver who had been drinking alcohol during the preceding 30-day period."
+      },
+      "Proportion of students who smoked cigarettes": {
+        "id": "Proportion of students who smoked cigarettes",
+        "value": 21.9,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of high school students who smoked cigarettes during the preceding 30-day period."
+      },
+      "Proportion of students who were overweight": {
+        "id": "Proportion of students who were overweight",
+        "value": 13.5,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of high school students who were considered overweight."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Parameters and statistics (Youth risk behavior).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1  CONCEPTS",
+    "page": "157-157"
+  },
+  "sample_key": "400"
+}

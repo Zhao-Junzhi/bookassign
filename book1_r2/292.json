@@ -1,0 +1,73 @@
+{
+  "case_id": "book1_r1\\record_151.json",
+  "input": {
+    "background": "A 1970s case-control study on cerebrovascular disease (stroke) and oral contraceptive use in young women matched cases to controls according to neighborhood, age, sex, and race. Table 18.26 displays data from this study for thrombotic stroke.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.26 Matched-case control data on thrombotic stroke and oral contraceptive use in women between 14- to 44-years of age.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Matched pairs & Case exposed & Case not exposed & Total \\\n\\hline Control exposed & 2 & 5 & 7 \\\n\\hline Control not exposed & 44 & 55 & 99 \\\n\\hline Total & 46 & 60 & 106 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the odds ratio for these data. Briefly, interpret this results in narrative form."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "(a) \\(\\widehat{OR}=\\frac{44}{5}=8.8\\)",
+    "variable": {
+      "Matched_pairs": {
+        "id": "Matched_pairs",
+        "value": [
+          "Control exposed",
+          "Control not exposed"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Categories of matched pairs based on control exposure status."
+      },
+      "Case_exposed": {
+        "id": "Case_exposed",
+        "value": [
+          2,
+          44
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of cases exposed to oral contraceptives."
+      },
+      "Case_not_exposed": {
+        "id": "Case_not_exposed",
+        "value": [
+          5,
+          55
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of cases not exposed to oral contraceptives."
+      },
+      "Control_exposed": {
+        "id": "Control_exposed",
+        "value": [
+          2,
+          5
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of controls exposed to oral contraceptives."
+      },
+      "Control_not_exposed": {
+        "id": "Control_not_exposed",
+        "value": [
+          44,
+          55
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of controls not exposed to oral contraceptives."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.21",
+    "image": "",
+    "caption": "Thrombotic stoke in young women.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "456-457"
+  },
+  "sample_key": "292"
+}

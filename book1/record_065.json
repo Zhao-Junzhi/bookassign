@@ -1,0 +1,23 @@
+{
+  "id": "065",
+  "question": "Find the following $z$ percentiles:
+(a) $z_{.10}$
+(b) $z_{.35}$
+(c) $z_{.74}$
+(d) $z_{.85}$
+(e) $z_{.999}$",
+  "data": "",
+  "answer": "(a) $z_{.10}=-1.28$ (The 10 th percentile on a Standard Normal curve is 1.28 .)
+(b) $z_{.35}=-0.39$
+(c) $z_{.74}=0.64$
+(d) $z_{.85}=1.04$
+(e) $z_{.999}=3.09$",
+  "meta info": {
+    "index": "7.15",
+    "image": "",
+    "caption": "Z percentiles.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
+  }
+}

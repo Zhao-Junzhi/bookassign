@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_347.json",
+  "input": {
+    "background": "Three examples of ${ }_n C_x=\\frac{n!}{x!(n-x)!}$ are presented.",
+    "data": "",
+    "question": "How many ways can we choose two items out of four?"
+  },
+  "output": {
+    "method": "概率空间相关（如状态数）",
+    "answer": "${ }_4 C_2=\\frac{4!}{2!(4-2)!}=\\frac{4 \\cdot 3 \\cdot 2 \\cdot 1}{(2 \\cdot 1)(2 \\cdot 1)}=6",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The total number of items to choose from."
+      },
+      "x": {
+        "id": "x",
+        "value": 2,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of items to choose."
+      },
+      "combinations": {
+        "id": "combinations",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of ways to choose x items out of n."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial coefficients.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-117"
+  },
+  "sample_key": "374"
+}

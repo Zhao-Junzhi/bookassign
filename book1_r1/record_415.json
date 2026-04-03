@@ -1,0 +1,20 @@
+{
+  "background": "A random-digit dialing technique is used to select 57 individuals from a community.",
+  "task": [
+    {
+      "query": "Seventeen of 57 individuals in the sample are classified as smokers.",
+      "answer": "Therefore, the proportion of smokers in the sample \\( \\hat{p}=\\frac{x}{n}=\\frac{17}{57}=0.298 \\). Assuming the sample is an SRS and the information is properly classified, this is an unbiased estimate of the prevalence of smoking in the population.",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "415",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Prevalence of smoking in a community).",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.1 Proportions",
+    "page": "349-350"
+  }
+}

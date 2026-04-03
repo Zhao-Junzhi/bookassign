@@ -1,0 +1,57 @@
+{
+  "case_id": "book1_r1\\record_135.json",
+  "input": {
+    "background": "An early publication from the Framingham Heart Study identified 51 incidences of coronary disease among 424 men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period. Among 454 men with lower cholesterol (less than 210 mg per 100 mL), there were 16 incident cases.",
+    "data": "",
+    "question": "Determine the 95% confidence interval for the estimated relative risk (RR)."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The $95 \\%$ confidence interval for the $\\widehat{R R}$ is 1.98 to 5.89.",
+    "variable": {
+      "serum_cholesterol_high": {
+        "id": "serum_cholesterol_high",
+        "value": [
+          51,
+          424
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of coronary disease cases and total number of men with high serum cholesterol (245 mg per 100 mL and above)."
+      },
+      "serum_cholesterol_low": {
+        "id": "serum_cholesterol_low",
+        "value": [
+          16,
+          454
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of coronary disease cases and total number of men with lower serum cholesterol (less than 210 mg per 100 mL)."
+      },
+      "relative_risk": {
+        "id": "relative_risk",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The estimated relative risk (RR) of coronary disease between men with high serum cholesterol and men with lower serum cholesterol."
+      },
+      "confidence_interval": {
+        "id": "confidence_interval",
+        "value": 95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level (95%) for the interval estimation of the relative risk."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.9",
+    "image": "",
+    "caption": "Framingham Heart Study.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-293"
+  },
+  "sample_key": "266"
+}

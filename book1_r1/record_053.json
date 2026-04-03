@@ -1,0 +1,30 @@
+{
+  "background": "The prevalence of a trait is 76.8%.",
+  "task": [
+    {
+      "query": "In a simple random sample of $n=5$, how many individuals are expected to exhibit this characteristic?",
+      "answer": "$\\mu=(5)(0.768)=3.84$",
+      "method": "期望"
+    },
+    {
+      "query": "How many would you expect to see with this characteristic in a simple random sample of $n=10$?",
+      "answer": "$\\mu=(10)(0.768)=7.68$",
+      "method": "期望"
+    },
+    {
+      "query": "What is the probability of seeing nine or more individuals with this characteristic in an SRS of $n=10$?",
+      "answer": "$\\operatorname{Pr}(X \\geq 9)=\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10)=0.2156+0.0714=0.28710$",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "053",
+  "data": "",
+  "meta info": {
+    "index": "6.9",
+    "image": "",
+    "caption": "Prevalence 76.8 %.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "127-127"
+  }
+}

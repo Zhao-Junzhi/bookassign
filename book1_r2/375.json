@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_347.json",
+  "input": {
+    "background": "Three examples of ${ }_n C_x=\\frac{n!}{x!(n-x)!}$ are presented.",
+    "data": "",
+    "question": "How many ways can we choose five items out of seven?"
+  },
+  "output": {
+    "method": "概率空间相关（如状态数）",
+    "answer": "${ }_7 C_5=\\frac{7!}{5!(7-5)!}=\\frac{7 \\cdot 6 \\cdot 5!}{5!\\cdot 2!}=21 .",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 7,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of items to choose from."
+      },
+      "x": {
+        "id": "x",
+        "value": 5,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of items to be chosen."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial coefficients.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-117"
+  },
+  "sample_key": "375"
+}

@@ -1,0 +1,31 @@
+{
+  "background": "We have calculated a correlation coefficient of 0.737 for the ecological association between smoking and lung cancer mortality using the data in Table 14.1. We now test this correlation for statistical significance.",
+  "task": [
+    {
+      "query": "What are the hypotheses for testing the correlation coefficient?",
+      "answer": "$H_0: \\rho=0$ versus $H_{\\mathrm{a}}: \\rho \\neq 0$",
+      "method": "假设检验"
+    },
+    {
+      "query": "What is the test statistic for the correlation coefficient and how is it calculated?",
+      "answer": "The standard error of the correlation coefficient is calculated as $SE_r=\\sqrt{\\frac{1-r^2}{n-2}}=\\sqrt{\\frac{1-0.737^2}{11-2}}=0.2253$. The test statistic is $t_{\\mathrm{stat}}=\\frac{r}{SE_r}=\\frac{0.737}{0.2253}=3.27$ with $df=n-2=11-2=9$.",
+      "method": "假设检验"
+    },
+    {
+      "query": "What is the P-value for the test, and what does it indicate?",
+      "answer": "Using Table C, $0.005<P<0.01$. Using statistical software, $P=0.0097$. The evidence against $H_0$ is strong.",
+      "method": "假设检验"
+    },
+    {
+      "query": "Is the correlation coefficient statistically significant at a significance level of 0.01?",
+      "answer": "The correlation coefficient is significant at $\\alpha=0.01$ (reject $H_0$ at $\\alpha=0.01$).",
+      "method": "假设检验"
+    }
+  ],
+  "id": "408",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": ""
+  }
+}

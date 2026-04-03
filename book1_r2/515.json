@@ -1,0 +1,79 @@
+{
+  "case_id": "book1_r1\\record_414.json",
+  "input": {
+    "background": "Our illustrative data comes from a health survey done in adolescents. The illustrative data set includes information on 654 individuals between $3-19$ years of age. Table 15.1 is a code book for the variables in the data set. The response variable is a measure of respiratory function called forced expiratory volume (variable name FEV) that measures respiratory capacity in liters/second units. High values represent high respiratory capacity.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\\n\\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\\n\\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\\n\\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\\n\\hline SEX & $0=$ female; $1=$ male & \\multicolumn{4}{|c|}{$48.6 \\%$ female; $51.4 \\%$ male; none missing} \\\n\\hline SMOKE & $0=\\mathrm{no} ; 1=$ yes & \\multicolumn{4}{|c|}{$90.1 \\%$ no; 9.9\\% yes; none missing} \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "We will consider the effects of two explanatory variables: SMOKE (coded 0 for ..."
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "null",
+    "variable": {
+      "AGE": {
+        "id": "AGE",
+        "value": [
+          3,
+          19,
+          9.93,
+          2.954
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Age of the individuals in years."
+      },
+      "FEV": {
+        "id": "FEV",
+        "value": [
+          0.791,
+          5.793,
+          2.6368,
+          0.86706
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Forced expiratory volume in liters/second, a measure of respiratory capacity."
+      },
+      "HEIGHT": {
+        "id": "HEIGHT",
+        "value": [
+          46.0,
+          74.0,
+          61.14,
+          5.704
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Height of the individuals in inches."
+      },
+      "SEX": {
+        "id": "SEX",
+        "value": [
+          "48.6% female",
+          "51.4% male"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Gender of the individuals, coded as 0 for female and 1 for male."
+      },
+      "SMOKE": {
+        "id": "SMOKE",
+        "value": [
+          "90.1% no",
+          "9.9% yes"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Smoking status of the individuals, coded as 0 for no and 1 for yes."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Forced expiratory volumes).",
+    "chapter": "MULTIPLE LINEAR REGRESSION",
+    "section": "15.2 THE MULTIPLE LINEAR REGRESSION MODEL",
+    "page": "336-337"
+  },
+  "sample_key": "515"
+}

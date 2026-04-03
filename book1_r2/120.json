@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_066.json",
+  "input": {
+    "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+    "data": "",
+    "question": "For stage II breast cancer, the 7-year survival was 71%."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "71% is a statistic.",
+    "variable": {
+      "Stage": {
+        "id": "Stage",
+        "value": "II",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The stage of breast cancer being analyzed."
+      },
+      "Survival Rate": {
+        "id": "Survival Rate",
+        "value": "71%",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The 7-year survival rate for stage II breast cancer."
+      },
+      "Time Period": {
+        "id": "Time Period",
+        "value": "7 years",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The time period over which the survival rate is measured."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.1",
+    "image": "",
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
+  },
+  "sample_key": "120"
+}

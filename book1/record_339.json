@@ -1,0 +1,14 @@
+{
+  "id": "339",
+  "question": "If cat ownership and dog ownership were independent, then $\\operatorname{Pr}(A$ and $B)$ would equal $\\operatorname{Pr}(A) \\times \\operatorname{Pr}(B)=0.35 \\times 0.30=0.105$. However, in our example, $\\operatorname{Pr}(A$ and $B)=0.15$. ",
+  "data": "",
+  "answer": "Therefore, these events are not independent.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Independence (Pet ownership example).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  More RULES AND PROPERTIES OF PROBABILITY",
+    "page": "106-106"
+  }
+}

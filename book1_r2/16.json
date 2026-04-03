@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "Body weight (kilograms)"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Quantitative",
+    "variable": {
+      "body_weight": {
+        "id": "body_weight",
+        "value": "Not explicitly provided in the question, but refers to body weight measurements in kilograms.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Body weight of individuals measured in kilograms."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "16"
+}

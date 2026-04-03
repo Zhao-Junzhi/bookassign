@@ -1,0 +1,17 @@
+{
+  "id": "502",
+  "question": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple $(X \sim b(3,0.25))$. What is the expected value and variance of this random variable?",
+  "data": "",
+  "answer": "\begin{aligned}
+& \mu=n p=(3)(0.25)=0.75 \\
+& \sigma^2=n p q=(3)(0.25)(0.75)=0.5625
+\end{aligned}",
+  "meta info": {
+    "index": "6.7",
+    "image": "",
+    "caption": "Tay-Sachs.",
+    "chapter": "6.5 Expected Value and Variance",
+    "section": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "page": "124-124"
+  }
+}

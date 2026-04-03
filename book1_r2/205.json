@@ -1,0 +1,47 @@
+{
+  "case_id": "book1_r1\\record_105.json",
+  "input": {
+    "background": "A questionnaire measures an index of risk-taking behavior in respondents. Scores are standardized so that 100 represents the population average. The questionnaire is applied to a sample of teenage boy and girls.",
+    "data": "",
+    "question": "Explore group differences with side-by-side boxplots."
+  },
+  "output": {
+    "method": "离散型-连续型变量关系",
+    "answer": "The girls have lower scores on average and less variability. There is one outlier in the girls.",
+    "variable": {
+      "risk_score": {
+        "id": "risk_score",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Standardized index score of risk-taking behavior for each respondent (mean of population = 100)."
+      },
+      "gender": {
+        "id": "gender",
+        "value": [
+          "boy",
+          "girl"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Gender group of each teenage respondent, used to compare risk-taking scores."
+      },
+      "answer": {
+        "id": "answer",
+        "value": "Use gender as the grouping variable and risk_score as the outcome. Create side-by-side boxplots of risk_score by gender (one box for boys, one for girls) to visually compare the central tendency, spread, and potential outliers of risk-taking behavior between the two groups.",
+        "class": "NR",
+        "role": "NR",
+        "description": "Procedure for exploring group differences using side-by-side boxplots."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.13",
+    "image": "",
+    "caption": "Risk-taking behavior in boys and girls.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "255-255"
+  },
+  "sample_key": "205"
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_066.json",
+  "input": {
+    "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+    "data": "",
+    "question": "There were 18,800 new cases of female breast cancer in the state of California in 2005."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "18,800 is a parameter.",
+    "variable": {
+      "new_cases": {
+        "id": "new_cases",
+        "value": 18800,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of new female breast cancer cases in California in 2005."
+      },
+      "state": {
+        "id": "state",
+        "value": "California",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The state where the study on breast cancer cases was conducted."
+      },
+      "year": {
+        "id": "year",
+        "value": 2005,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The year in which the breast cancer cases were recorded."
+      },
+      "gender": {
+        "id": "gender",
+        "value": "female",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The gender of the population being studied for breast cancer cases."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.1",
+    "image": "",
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
+  },
+  "sample_key": "118"
+}

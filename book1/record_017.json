@@ -1,0 +1,43 @@
+{
+  "id": "017",
+  "question": "In Exercise 3.2, you created a stemplot of lengths of hospital stays for 25 patients. Table 3.6 lists the data.
+(a) Construct a frequency table for these data using 5-day class intervals. Include columns for the frequency counts, relative frequencies, and cumulative frequencies.
+(b) What percentage of hospital stays were less than 5 days?
+(c) What percentage were less than 15 days?
+(d) What percentage of hospital stays were at least 15 days in length?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 3.6 Duration of hospitalization (days), $n=25$.}
+\begin{tabular}{rrrrrrrrrr}
+\hline 5 & 10 & 6 & 11 & 5 & 14 & 30 & 11 & 17 & 3 \\
+9 & 3 & 8 & 8 & 5 & 5 & 7 & 4 & 3 & 7 \\
+9 & 11 & 11 & 9 & 4 & & & & & \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "(a) Frequency table
+
+\begin{tabular}{|l|l|l|l|}
+\hline Duration (days) & Frequency & Relative Frequency (\%) & Cumulative Frequency (\%) \\
+\hline 0-4 & 5 & 20.0\% & 20\% \\
+\hline 5-9 & 12 & 48.0 & 68 \\
+\hline 10-14 & 6 & 24.0 & 92 \\
+\hline 15-19 & 1 & 4.0 & 96 \\
+\hline 20-24 & 0 & 0.0 & 96 \\
+\hline 25-29 & 0 & 0.0 & 96 \\
+\hline 30-34 & 1 & 4.0 & 100\% \\
+\hline Total & 25 & 100\% & - \\
+\hline
+\end{tabular}
+(b) Five of $25(20.0 \%)$ were less than 5 days.
+(c) Ninety-two percent were less than 15 days (see Cumulative Frequency column).
+(d) Two of $25(8 \%)$ were at least 15 days in length.",
+  "meta info": {
+    "index": "3.5",
+    "image": "",
+    "caption": "Hospital stay duration.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "50-57"
+  }
+}

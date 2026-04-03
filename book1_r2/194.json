@@ -1,0 +1,97 @@
+{
+  "case_id": "book1_r1\\record_100.json",
+  "input": {
+    "background": "Imagine a study of six monkeys that compares two treatments. Group 1 receives Monkey Tonic while group 2 receives Applied Monkey Training (AMT). Table lists results performance scores BEFORE and AFTER these interventions.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.4 Data for Exercise 12.3.\nVariables are:\nID Identification number\ngroup $1=$ Tonic; $2=$ Training\nBEFORE Performance score before intervention\nAFTER Performance score after intervention}\n\\begin{tabular}{|l|l|l|l|}\n\\hline ID & GROUP & BEFORE & AFTER \\\\\n\\hline 1 & 1 & 100 & 104 \\\\\n\\hline 2 & 1 & 88 & 93 \\\\\n\\hline 3 & 1 & 106 & 109 \\\\\n\\hline 4 & 2 & 116 & 117 \\\\\n\\hline 5 & 2 & 102 & 104 \\\\\n\\hline 6 & 2 & 106 & 106 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n[Data are facetious.]",
+    "question": "Within group 2 (individuals 4 through 6), calculate changes in scores (AFTER minus BEFORE). What is the mean difference in these scores?"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "The mean change in group 2 is equal to 1. This mean difference is based on paired samples.",
+    "variable": {
+      "ID": {
+        "id": "ID",
+        "value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Identification number for each monkey."
+      },
+      "GROUP": {
+        "id": "GROUP",
+        "value": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Group assignment: 1 represents Monkey Tonic, 2 represents Applied Monkey Training (AMT)."
+      },
+      "BEFORE": {
+        "id": "BEFORE",
+        "value": [
+          100,
+          88,
+          106,
+          116,
+          102,
+          106
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Performance scores before the intervention."
+      },
+      "AFTER": {
+        "id": "AFTER",
+        "value": [
+          104,
+          93,
+          109,
+          117,
+          104,
+          106
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Performance scores after the intervention."
+      },
+      "CHANGE_GROUP_2": {
+        "id": "CHANGE_GROUP_2",
+        "value": [
+          1,
+          2,
+          0
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Changes in performance scores (AFTER minus BEFORE) for individuals in group 2 (ID 4, 5, 6)."
+      },
+      "MEAN_DIFFERENCE_GROUP_2": {
+        "id": "MEAN_DIFFERENCE_GROUP_2",
+        "value": 1,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Mean difference in performance scores (AFTER minus BEFORE) for individuals in group 2."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.3",
+    "image": "",
+    "caption": "Facetious data.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-239"
+  },
+  "sample_key": "194"
+}

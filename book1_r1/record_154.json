@@ -1,0 +1,25 @@
+{
+  "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor, with tobacco use dichotomized at 20 grams/day.",
+  "task": [
+    {
+      "query": "Calculate the odds ratio and 95% confidence interval for these data.",
+      "answer": "Odds ratio = 1.96, 95% confidence for the OR = (1.39 to 2.77)",
+      "method": "独立性检验"
+    },
+    {
+      "query": "Interpret the results.",
+      "answer": "The point estimate suggests that there is 96% increase in risk associated with this level of tobacco use.",
+      "method": "回归系数显著性与方向解读"
+    }
+  ],
+  "id": "154",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.30 Data for Exercise 18.27.}\n\\begin{tabular}{l|r|c}\n\\cline { 2 - 3 } Tobacco & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n$20+\\mathrm{g} /$ day & 64 & 150 \\\\\n$0-19 \\mathrm{~g} /$ day & 136 & 625 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Tuyns, A. J., Pequignot, G., \\& Jensen, O. M. (1977). [Esophageal cancer in Ille-et-Vilaine in relation to levels of alcohol and tobacco consumption. ]. Bulletin du Cancer, 64(1), 45-60. Data set are stored online in the file BD1.* as variables TOB2 and CASE.",
+  "meta info": {
+    "index": "18.27",
+    "image": "",
+    "caption": "Esophageal cancer and tobacco use.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "459-460"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_348.json",
+  "input": {
+    "background": "We have established a scenario in which four patients are treated with an intervention that is successful 75% of the time. The number of patients who respond to treatment is a binomial random variable with parameters n = 4 and p = 0.75. It follows that probability of a failureg = 1 - p=1 - 0.75= 0.25.",
+    "data": "",
+    "question": "What is the probability of one success?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$\\begin{aligned}& \\operatorname{Pr}(X=1)={ }_n C_x \\cdot p^x \\cdot q^{n-x}={ }_4 C_1 \\cdot 0.75^1 \\cdot 0.25^{4-1}=4 \\cdot 0.75 \\cdot \\ 25=0.0469 . \\end{aligned}$$",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of trials or patients treated in the binomial experiment."
+      },
+      "p": {
+        "id": "p",
+        "value": 0.75,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of success for each trial in the binomial experiment."
+      },
+      "failure_prob": {
+        "id": "failure_prob",
+        "value": 0.25,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The probability of failure for each trial, calculated as 1 - p."
+      },
+      "success_count": {
+        "id": "success_count",
+        "value": 1,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of successes for which the probability is being calculated."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial probabilities (Four patients).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-118"
+  },
+  "sample_key": "377"
+}

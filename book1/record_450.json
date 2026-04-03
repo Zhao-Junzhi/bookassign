@@ -1,0 +1,28 @@
+{
+  "id": "450",
+  "question": "A trial tests a treatment at two separate clinics. Upon completion of the study, cross tabulation of results from both clinics combined is:
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.1 Both clinics combined.}
+\begin{tabular}{lc|rr}
+\hline Group & \multicolumn{1}{c}{ Success } & \multicolumn{1}{c}{ Failure } & Total \\
+1 (Treatment) & 1095 & 9005 & 10,100 \\
+2 (Control) & 5050 & 5950 & 11,000 \\
+\hline Total & 6145 & 14,955 & 21,000 \\
+\hline
+\end{tabular}
+\end{table}
+
+The incidence proportion of success in the treatment group $\hat{p}_1=1095 / 10,100=11 \%$. The incidence proportion in the control group $\hat{p}_2=5050 / 11,100=46 \%$. Therefore, the relative incidence ("relative risk" ) of success associated with the treatment is $11 \% / 46 \%=0.25$. The treatment appears to be $75 \%$ less effective than the alternative.",
+  "data": "",
+  "answer": "null",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Simpson’s paradox (Effectiveness of a treatment).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.2 SIMPSON’S PARADOX",
+    "page": "466-467"
+  }
+}

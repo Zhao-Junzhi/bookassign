@@ -1,0 +1,23 @@
+
+
+
+  "id": "062",
+  "question": "Recall that Wechsler Adult Intelligence Scores (WAISs) are calibrated to vary according to a Normal distribution with $\mu=100$ and $\sigma=15$. What Wechsler scores cover the middle $50 \%$ of the population? In other words, identify the 25 th percentile and 75th percentile of the population.",
+  "data": "",
+  "answer": "1. State: $X \sim \mathrm{~N}(100,15)$. We want to find the range for the middle 50 percent of values, that is, from the 25th percentile to the 75th percentile.
+2. Table B: The $z$ scores for these percentiles are $z_{.25}=-0.67$ and $z_{.75}=0.67$
+3. Sketch: not shown
+4. Unstandardize using the formula $x=\mu+\left(z_p\right)(\sigma)$
+
+The 25th percentile is $x=100+(-0.67)(15)=100-10.05=89.95 \approx 90$.
+The 75 th percentile is $x=100+(0.67)(15)=100+10.05 \approx 110$.
+The range 90 to 110 captures the middle 50 percent of values.",
+  "meta info": {
+    "index": "7.9",
+    "image": "",
+    "caption": "Middle 50 percent of WAISs.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.3 FINDING VALUES THAT CORRESPOND",
+    "page": "147-147"
+  }
+}

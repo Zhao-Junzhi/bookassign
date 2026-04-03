@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_305.json",
+  "input": {
+    "background": "The Multiple Risk Factor Intervention Trial (MRFIT is pronounced Mister Fit) was conducted in the late 1970s and early 1980s to test the effectiveness of coronary disease prevention programs. Study subjects were randomly assigned to either a treatment group that received special interventions intended to reduce the risk of heart disease or a control group that received their usual sources of health care.",
+    "data": "",
+    "question": "What was the outcome of the study?"
+  },
+  "output": {
+    "method": "实验数据",
+    "answer": "The study found that heart disease mortality declined significantly in both groups.",
+    "variable": {
+      "group_assignment": {
+        "id": "group_assignment",
+        "value": [
+          "treatment",
+          "control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether the study subject was assigned to the treatment group or the control group."
+      },
+      "outcome": {
+        "id": "outcome",
+        "value": "unknown",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The result or effect of the intervention on the study subjects, specifically related to coronary disease prevention."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Multiple Risk Factor Intervention Trail (MRFIT).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 Comparative Studies",
+    "page": "24-24"
+  },
+  "sample_key": "319"
+}

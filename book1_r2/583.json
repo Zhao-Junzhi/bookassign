@@ -1,0 +1,21 @@
+{
+  "case_id": "book1_r1\\record_505.json",
+  "input": {
+    "background": "Air samples were collected on eight successive days at two different sites. Particulate matter was measured in these samples as an index of environmental quality.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "Identify any particular readings that stand out at site 1."
+  },
+  "output": {
+    "method": "异常值处理",
+    "answer": "One particular reading at site 1 was very high (68 μg/m³), indicating a very high variability."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Importance of spread (Air samples).",
+    "chapter": "Summary Statistics",
+    "section": "4.5 Spread: Quartiles",
+    "page": "71-72"
+  },
+  "sample_key": "583"
+}

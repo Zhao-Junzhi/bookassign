@@ -1,0 +1,64 @@
+{
+  "case_id": "book1_r1\\record_381.json",
+  "input": {
+    "background": "A cross-over trial sought to learn whether oat bran cereal lowered low-density lipoprotein (LDL) cholesterol in hypercholesterolemic men. Twelve subjects completed the study. Half were randomly assigned a diet that included oat bran cereal. The other half were assigned a diet that included corn flakes. Dietary interventions were applied for 2 weeks, after which LDL levels (mmol/L) were recorded. Subjects were then crossed-over to the alternative diet for 2 weeks. LDL was once again measured. Table 11.1 lists data from the study.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.1 ",
+    "question": "Paired samples are analyzed by creating a new variable to hold within pair differences. Call this new variable DELTA. Table 11.1 lists DELTA values created by subtracting each oat bran value from each corn flake value for each individual. Positive DELTA values reflect lower LDL on the oat bran diet."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": null,
+    "variable": {
+      "subject_id": {
+        "id": "subject_id",
+        "value": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Unique identifier for each subject in the study."
+      },
+      "LDL_oat_bran": {
+        "id": "LDL_oat_bran",
+        "value": "Values of LDL cholesterol (mmol/L) measured after the oat bran diet for each subject.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "LDL cholesterol levels measured after the oat bran diet intervention."
+      },
+      "LDL_corn_flakes": {
+        "id": "LDL_corn_flakes",
+        "value": "Values of LDL cholesterol (mmol/L) measured after the corn flakes diet for each subject.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "LDL cholesterol levels measured after the corn flakes diet intervention."
+      },
+      "DELTA": {
+        "id": "DELTA",
+        "value": "Values calculated by subtracting LDL_oat_bran from LDL_corn_flakes for each subject.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Within-pair differences in LDL cholesterol levels between the corn flakes and oat bran diets for each subject."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Oat bran and LDL cholesterol).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "219-220"
+  },
+  "sample_key": "442"
+}

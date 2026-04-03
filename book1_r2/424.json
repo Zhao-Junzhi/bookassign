@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_374.json",
+  "input": {
+    "background": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population.",
+    "data": "",
+    "question": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the second sample with $\\bar{x}_2=180$."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "For sample 2, the confidence interval is $\\bar{x}_2 \\pm m=180 \\pm 3=177$ to 183 (pounds).",
+    "variable": {
+      "sigma": {
+        "id": "sigma",
+        "value": 40,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of the log-Normal distribution of body weight in the population."
+      },
+      "n": {
+        "id": "n",
+        "value": 712,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for each of the three independent simple random samples (SRS)."
+      },
+      "x_bar_2": {
+        "id": "x_bar_2",
+        "value": 180,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean of the second sample."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Confidence level for the interval estimation of the population mean."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": " 95 % confidence intervals for $\\mu, \\sigma$ known (Body weight, 20-29-year-old males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\\\mu$ When $\\\\sigma$ Is Known",
+    "page": "200-200"
+  },
+  "sample_key": "424"
+}

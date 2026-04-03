@@ -1,0 +1,14 @@
+{
+  "id": "411",
+  "question": "We have established for the smoking and lung cancer illustrative example that $n=11, b=0.02284$, $s_{\\left.Y\\right|_X}=8.349$, and $s_X=378.451$. Let us calculate a $95 \\%$ confidence for slope parameter $\\beta$.",
+  "data": "",
+  "answer": "- $S E_b=\\frac{s_{Y \\mid x}}{\\sqrt{n-1} \\cdot s_X}=\\frac{8.349}{\\sqrt{11-1} \\cdot 378.451}=0.006976$\n- For $95 \\%$ confidence, use $t_{n-2,1-(\\alpha / 2)}=t_{9,975}=2.262$\n- The $95 \\%$ confidence interval for $\\beta=b \\pm t_{n-1,1-9} \\cdot S E_b=0.02884 \\pm (2.262)(0.006976)=0.02884 \\pm 0.01578=(0.00706$ to 0.03862$)$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\boldsymbol{\\beta}$.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "319-319"
+  }
+}

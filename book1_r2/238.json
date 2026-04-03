@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "If r is close to zero, X and Y are not related in a linear way."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "True",
+    "variable": {
+      "X": {
+        "id": "X",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "independent",
+        "description": "A numerical variable representing one of the two variables whose linear relationship with Y is being analyzed."
+      },
+      "Y": {
+        "id": "Y",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "A numerical variable representing one of the two variables whose linear relationship with X is being analyzed."
+      },
+      "r": {
+        "id": "r",
+        "value": "Close to zero",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The correlation coefficient indicating the strength and direction of the linear relationship between X and Y."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "238"
+}

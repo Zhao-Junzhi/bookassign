@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_067.json",
+  "input": {
+    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation =1.65). Based on this information, say whether each of the following statements is true or false. Explain your reasoning in each instance.",
+    "data": "",
+    "question": "(c) It is reasonable to assume that the sampling distribution of the mean will vary according to a Normal distribution."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "True. Because \\(n\\) is large, we can count on the central limit theorem to make the sampling distribution of \\(\\bar{x}\\) fairly Normal.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 500,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of people in the sample."
+      },
+      "population_size": {
+        "id": "population_size",
+        "value": 55000,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of people in the town."
+      },
+      "average_health_problems": {
+        "id": "average_health_problems",
+        "value": 2.3,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average number of health problems per person in the sample."
+      },
+      "standard_deviation_health_problems": {
+        "id": "standard_deviation_health_problems",
+        "value": 1.65,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of health problems per person in the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.5",
+    "image": "",
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
+  },
+  "sample_key": "125"
+}

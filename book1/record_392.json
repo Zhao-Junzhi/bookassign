@@ -1,0 +1,33 @@
+{
+  "id": "392",
+  "question": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+  "data": "Table 12.5 "Cholesterol illustrative data." This is the primary illustrative data set in this chapter. Values are plasma cholesterol levels (mmol/L) in two independent groups.
+
+\begin{tabular}{lllllllllllll}
+\hline Group 1 & 6.0 & 6.4 & 7.0 & 5.8 & 6.0 & 5.8 & 5.9 & 6.7 & 6.1 & 6.5 & 6.3 & 5.8 \\
+Group 2 & 6.4 & 5.4 & 5.6 & 5.0 & 5.0 & 4.5 & 6.0 & & & & & \\
+\hline
+\end{tabular}",
+  "answer": "- $\bar{x}_1-\bar{x}_2=6.192-5.414=0.777(\mathrm{mmol} / \mathrm{L})$
+- $S E_{\bar{x}_1-\bar{x}_2}=\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}=\sqrt{\frac{0.3919^2}{12}+\frac{0.6492^2}{7}}=0.2702(\mathrm{mmol} / \mathrm{L})$.
+- Using the conservative method to calculate the $d f, d f_1=12-1=11$ and $d f_2=7-1=6$. Therefore, $d f_{\text {conserv }}=6$. For $95 \%$ confidence, use $t_{6, .975}=2.447$. The $95 \%$ confidence interval for $\mu_1-\mu_2$ is $\left(\bar{x}_1-\bar{x}_2\right) \pm t_{d f, 1-\frac{\alpha}{2}}\left(S E_{\bar{x}_1-\bar{x}_2}\right)=(0.777) \pm(2.447)(0.2702)=0.777 \pm 0.661=0.116$ to $1.438(\mathrm{mmol} / \mathrm{L})$.
+- To derive $d f$ by the Welch method, note that $S E_{\bar{x}_1}=\frac{s_1}{\sqrt{n_1}}=$
+
+$$
+\begin{aligned}
+& \frac{0.3919}{\sqrt{12}}=0.11313 S E_{\bar{x}_2}=\frac{s_2}{\sqrt{n_2}}=\frac{0.6492}{\sqrt{7}}=0.24537 \text { and } \\
+& d f_{\text {Welch }}=\frac{\left(S E_{\bar{x}_1}^2+S E_{\bar{x}_2}^2\right)^2}{\frac{S E_{\bar{x}_1}^4}{n_1-1}+\frac{S E_{\bar{x}_2}^4}{n_2-1}}=\frac{\left(0.11313^2+0.24537^2\right)^2}{\frac{0.11313^4}{12-1}+\frac{0.24537^4}{7-1}}=8.61
+\end{aligned}
+$$
+
+
+The value of $t_{8.61, .975}$ via a software utility is 2.306 . The $95 \%$ confidence interval is $\left(\bar{x}_1-\bar{x}_2\right) \pm\left(t_{8.61, .975}\right)\left(S E_{\bar{x}_1 2 \bar{x}_2}\right)=(0.777) \pm (2.306)(0.2702)=0.777 \pm 0.623=0.154$ to $1.400(\mathrm{mmol} / \mathrm{L})$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\mu_1-\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  }
+}

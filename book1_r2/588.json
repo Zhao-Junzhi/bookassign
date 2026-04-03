@@ -1,0 +1,47 @@
+{
+  "case_id": "book1_r1\\record_508.json",
+  "input": {
+    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "data": "",
+    "question": "(c) Comparison C: Group 1 | Group 2"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Group 1: x̄=50 and s=31.6. Group 2: x̄=70 and s=15.8. How statistics relate to what we see: Smaller central location and greater spread in Group 1.",
+    "variable": {
+      "Group_1_values": {
+        "id": "Group_1_values",
+        "value": "Values of Group 1 extracted from the stemplot (not explicitly provided in the problem, but assumed to be numerical data from the stemplot)",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Numerical values representing the data points for Group 1 in the stemplot."
+      },
+      "Group_2_values": {
+        "id": "Group_2_values",
+        "value": "Values of Group 2 extracted from the stemplot (not explicitly provided in the problem, but assumed to be numerical data from the stemplot)",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Numerical values representing the data points for Group 2 in the stemplot."
+      },
+      "Group": {
+        "id": "Group",
+        "value": [
+          "Group 1",
+          "Group 2"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Categorical variable indicating the group membership of the data points."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.15",
+    "image": "",
+    "caption": "Leaves on stems.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "85-86"
+  },
+  "sample_key": "588"
+}

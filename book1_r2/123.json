@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_067.json",
+  "input": {
+    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation =1.65). Based on this information, say whether each of the following statements is true or false. Explain your reasoning in each instance.",
+    "data": "",
+    "question": "(a) The standard deviation of the sample mean is 0.074."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "True. The standard deviation of \\(\\bar{x}\\) = the standard error of the mean \\(= \\frac{1.65}{\\sqrt{500}}=0.0740\\).",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 500,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of people selected in the simple random sample (SRS)."
+      },
+      "population_size": {
+        "id": "population_size",
+        "value": 55000,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of people in the town from which the sample was drawn."
+      },
+      "sample_mean_health_problems": {
+        "id": "sample_mean_health_problems",
+        "value": 2.3,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average number of health problems per person in the sample."
+      },
+      "sample_standard_deviation": {
+        "id": "sample_standard_deviation",
+        "value": 1.65,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the number of health problems per person in the sample."
+      },
+      "standard_error": {
+        "id": "standard_error",
+        "value": 0.074,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The standard deviation of the sample mean, also known as the standard error."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.5",
+    "image": "",
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
+  },
+  "sample_key": "123"
+}

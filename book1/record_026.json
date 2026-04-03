@@ -1,0 +1,19 @@
+{
+  "id": "026",
+  "question": "Each of the following batches of numbers has a mean of 100.Which has the most variability? (Arithmetic ot required.) 
+\begin{array}{lrllll}
+\text { Batch A: } & 0 & 50 & 100 & 150 & 200 \\
+\text { Batch B: } & 50 & 75 & 100 & 125 & 150 \\
+\text { Batch C: } & 75 & 88 & 100 & 113 & 125
+\end{array}",
+  "data": "",
+  "answer": "Batch A has the greatest variability.",
+  "meta info": {
+    "index": "4.7",
+    "image": "",
+    "caption": "Spread.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "81-82"
+  }
+}

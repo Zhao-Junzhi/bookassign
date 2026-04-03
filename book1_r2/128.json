@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_068.json",
+  "input": {
+    "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
+    "data": "",
+    "question": "How many times must we repeat the measurement before we obtain a standard deviation of the mean measurement of 0.2 units?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "SE_x = σ/√n. Therefore, n = (σ/SE_x̄)^2. To achieve a standard error of 0.2, use n = (1/0.2)^2 = 25.",
+    "variable": {
+      "sigma": {
+        "id": "sigma",
+        "value": 1,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the laboratory kit results."
+      },
+      "desired_standard_deviation": {
+        "id": "desired_standard_deviation",
+        "value": 0.2,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The target standard deviation of the mean measurement."
+      },
+      "n": {
+        "id": "n",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of measurements needed to achieve the desired standard deviation of the mean."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.7",
+    "image": "",
+    "caption": "Repeated lab measurements.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-167"
+  },
+  "sample_key": "128"
+}

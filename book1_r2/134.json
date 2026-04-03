@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_071.json",
+  "input": {
+    "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution. When the sample is large, the number of successes will vary according to a Normal distribution. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed.",
+    "data": "",
+    "question": "When the sample is large, the number of successes will vary according to a Normal distribution with $\\mu=(c)$ $\\_\\_\\_\\_$ and $\\sigma=(d)$ $\\_\\_\\_\\_$. What are the mean and standard deviation of this Normal distribution?"
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "(c) $n p$ (d) $\\sqrt{n p q}$",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": "n",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the random sample used to calculate the sample proportion."
+      },
+      "success_count": {
+        "id": "success_count",
+        "value": "Count of successes in the sample",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of successes observed in the sample, which follows a probability distribution."
+      },
+      "sample_proportion": {
+        "id": "sample_proportion",
+        "value": "p̂ (hat p)",
+        "class": "numerical",
+        "role": "both",
+        "description": "The proportion of successes in the sample, which follows a Normal distribution in large samples."
+      },
+      "mean_of_normal_distribution": {
+        "id": "mean_of_normal_distribution",
+        "value": "μ = np",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean of the Normal distribution for the number of successes in the sample."
+      },
+      "std_dev_of_normal_distribution": {
+        "id": "std_dev_of_normal_distribution",
+        "value": "σ = √(np(1-p))",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The standard deviation of the Normal distribution for the number of successes in the sample."
+      },
+      "population_proportion": {
+        "id": "population_proportion",
+        "value": "p",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The true proportion of successes in the population, used to calculate the mean and standard deviation of the Normal distribution."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.13",
+    "image": "",
+    "caption": "Fill in the blanks.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
+  },
+  "sample_key": "134"
+}

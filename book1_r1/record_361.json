@@ -1,0 +1,20 @@
+{
+  "background": "The prevalence of being overweight and obese has increased in the United States. The National Health Exam Survey in the 1960s estimated that the average body weight of men was about 166.3 pounds. About 30 years later, the National Health and Nutrition Exam Survey estimated an average weight of 189.8. Both surveys were based on samples of between three and four thousand men. The numbers 166.3 and 189.8 are statistics because they are based on a sample of the population. These statistics estimate population means (parameters) at the time they were taken, but the actual values of the parameters are not truly known.",
+  "task": [
+    {
+      "query": "Estimate population means (parameters) based on sample statistics.",
+      "answer": "null",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "361",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Parameters and statistics (Body weight).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1  CONCEPTS",
+    "page": "156-156"
+  }
+}

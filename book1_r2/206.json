@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_106.json",
+  "input": {
+    "background": "Refer to the previous exercise. The mean survival time in the IDX-treated group was 116 days (SE1=5.6). The mean survival time in the control group was 88.5 (SE2=1.9).",
+    "data": "",
+    "question": "Test H0: μ1=μ2."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "A. Hypotheses. H0: μ1=μ2 versus Ha: μ1 ≠ μ2\nB. Test statistic. SE=√(SE1^2+SE2^2)=√(5.6^2+1.9^2)=5.91 and t_stat=(116-88.5)/5.91=-4.65. Since n1=10 and n2=10, df_conserv=10-1=9.\nC. P-value. The one-sided P-value is between 0.0005 and 0.001 (via Appendix Table C). Therefore, the two-sided P-value is between 0.001 and 0.002. Using www.cytel.com/Products/StaTable/, the two-sided P-value=0.0012. The evidence against the null hypothesis is highly significant.\nD. Significance level (optional). The evidence against the null hypothesis is significant at α=0.01.",
+    "variable": {
+      "mean_survival_IDX": {
+        "id": "mean_survival_IDX",
+        "value": 116,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean survival time in the IDX-treated group."
+      },
+      "SE_IDX": {
+        "id": "SE_IDX",
+        "value": 5.6,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Standard error of the mean survival time in the IDX-treated group."
+      },
+      "mean_survival_control": {
+        "id": "mean_survival_control",
+        "value": 88.5,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean survival time in the control group."
+      },
+      "SE_control": {
+        "id": "SE_control",
+        "value": 1.9,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Standard error of the mean survival time in the control group."
+      },
+      "H0": {
+        "id": "H0",
+        "value": "μ1=μ2",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Null hypothesis stating that the mean survival times in the two groups are equal."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.15",
+    "image": "",
+    "caption": "Scrapie treatment, delay of death.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-256"
+  },
+  "sample_key": "206"
+}

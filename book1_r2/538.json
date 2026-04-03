@@ -1,0 +1,50 @@
+{
+  "case_id": "book1_r1\\record_430.json",
+  "input": {
+    "background": "The large estrogen trial (experimental study) discussed earlier in this chapter was preceded in time by many nonexperimental studies on the same topic. Whereas the experimental study found that postmenopausal estrogen supplementation increased the risk of several serious adverse health outcomes, the earlier nonexperimental studies found just the opposite.",
+    "data": "",
+    "question": "The nonexperimental studies had even adjusted for potentially confounding variables using advanced mathematical methods. How do we explain these discrepant results?"
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "The most plausible explanation is that the nonexperimental studies did not sufficiently control for confounding variables.",
+    "variable": {
+      "study_type": {
+        "id": "study_type",
+        "value": [
+          "experimental",
+          "nonexperimental"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Type of study conducted, either experimental or nonexperimental."
+      },
+      "health_outcome_risk": {
+        "id": "health_outcome_risk",
+        "value": [
+          "increased",
+          "decreased"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Risk of serious adverse health outcomes associated with postmenopausal estrogen supplementation."
+      },
+      "adjustment_methods": {
+        "id": "adjustment_methods",
+        "value": "advanced mathematical methods",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Methods used to adjust for potentially confounding variables in nonexperimental studies."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confounding.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.5 SYSTEMATIC SOURCES OF ERROR",
+    "page": "393-394"
+  },
+  "sample_key": "538"
+}

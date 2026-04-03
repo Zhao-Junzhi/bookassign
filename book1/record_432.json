@@ -1,0 +1,38 @@
+{
+  "id": "432",
+  "question": "(a)Determine the sample size required for conducting a two-sided test of $\\mathrm{H}_0$ : $p_1=p_2$ with an equal number of subjects in each group, $\\alpha=0.05 \\left(z_{1-(.05 / 2)}=1.96\\right), 1-\\beta=0.90\\left(z_{.90}=1.282\\right), p_1=0.10$, and $p_2=0.05$.
+(b)How many individuals should be studied if we want to incorporate a continuity correction into our test statistic?",
+  "data": "",
+  "answer": "(a)$$
+\bar{p}=\frac{p_1+p_2}{2}=\frac{0.10+0.05}{2}=0.075 ; \bar{q}=1-\bar{p}=1-0.075=0.925
+$$
+
+$$
+\begin{aligned}
+n & =\left(\frac{z_{1-1} \sqrt{2 \bar{p} \bar{q}}+z_1-\beta \sqrt{p_1 q_1+p_2 q_2}}{\left|p_1-p_2\right|}\right)^2 \\
+& =\left(\frac{1.96 \sqrt{2(0.075)(0.925)}+1.282 \sqrt{(0.10)(0.90)+(0.05)(0.95)}}{|0.10-0.05|}\right)^2 \\
+& =581.26
+\end{aligned}
+$$
+
+
+Resolve to use 582 per group.
+(b)$$
+\text { Solution: } \begin{aligned}
+n^{\prime} & =\frac{n}{4}\left(1+\sqrt{1+\frac{4}{n\left|p_1-p_2\right|}}\right)^2 \\
+& =\frac{581.26}{4}\left(1+\sqrt{1+\frac{4}{581.26|0.10-0.05|}}\right)^2 \\
+& =620.6
+\end{aligned}
+$$
+
+
+Therefore, resolve to study 621 observations per group.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, equal sample sizes.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "396-397"
+  }
+}

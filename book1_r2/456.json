@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_389.json",
+  "input": {
+    "background": "What is the probability a study with n=10 will detect a mean difference of 300 grams in birth weight in the SIDS population compared to the general population?",
+    "data": "",
+    "question": "Let us assume σ=720 and use a two-sided α-level of 0.05."
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "1-β=Φ(-z_1-0.05/2+|Δ|√n/σ)=Φ(-1.96+|300|√10/720)=Φ(-0.64)=0.2611. The power of this test is about 26%.",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 10,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of the study."
+      },
+      "mean_difference": {
+        "id": "mean_difference",
+        "value": 300,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean difference in birth weight between the SIDS population and the general population."
+      },
+      "sigma": {
+        "id": "sigma",
+        "value": 720,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of birth weight in the population."
+      },
+      "alpha": {
+        "id": "alpha",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Significance level for the two-sided test."
+      },
+      "power": {
+        "id": "power",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Probability of detecting the specified mean difference in birth weight."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "228-228"
+  },
+  "sample_key": "456"
+}

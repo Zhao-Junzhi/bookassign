@@ -1,0 +1,33 @@
+{
+  "case_id": "book1_r1\\record_022.json",
+  "input": {
+    "background": "This exercise will demonstrate how the mean is the balancing point of a set of numbers.",
+    "data": "",
+    "question": "Distribution A. The values 1 and 5 are marked as"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "(a) \\(\\bar{x}=3\\) \n\\begin{array}{lr} X & & & X \\ 1----2----3----4----5 \\end{array}",
+    "variable": {
+      "value_set": {
+        "id": "value_set",
+        "value": [
+          1,
+          5
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "A set of values used to demonstrate the concept of mean as a balancing point."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.1",
+    "image": "",
+    "caption": "Gravitational center.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.1 CENTRAL LOCATION: MEAN",
+    "page": "65-66"
+  },
+  "sample_key": "53"
+}

@@ -1,0 +1,30 @@
+{
+  "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that $H_0$ is true in a statistical hypothesis test. Other analogies exist.",
+  "task": [
+    {
+      "query": "To make these connections, fill in the cells of the following table with the labels: (a) Acquittal of an innocent person; (b) Conviction of an innocent person; (c) Acquittal of a guilty person; (d) Declaring a criminal guilty.",
+      "answer": "\\begin{tabular}{r|c|c|}\\multicolumn{2}{c}{ TRUTH } \\DECISION OF JURY & \\multicolumn{1}{c|}{ Did not do crime } & Did crime \\Not Guilty & (a) & (c) \\Guilty & (b) & (d) \\\\ \\hline\\end{tabular}",
+      "method": "假设检验"
+    },
+    {
+      "query": "Which type of decision is analogous to a type I error?",
+      "answer": "Declaring an innocent person guilty (b) is analogous to a type I error.",
+      "method": "假设检验"
+    },
+    {
+      "query": "Which is analogous to a type II error?",
+      "answer": "Declaring a criminal not guilty (c) is analogous to a type II error.",
+      "method": "假设检验"
+    }
+  ],
+  "id": "081",
+  "data": "",
+  "meta info": {
+    "index": "9.19",
+    "image": "",
+    "caption": "The criminal justice analogy.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "195-195"
+  }
+}

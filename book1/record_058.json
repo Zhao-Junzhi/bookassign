@@ -1,0 +1,15 @@
+{
+  "id": "58",
+  "question": "Heights of 10-year-old male children follow a Normal distribution with $\mu=138$ centimeters and $\sigma=7$ centimeters.  Create a sketch of a Normal curve depicting this distribution. Mark the horizontal axis with values that are one standard deviation above and below the mean. (Locate points of inflection on the curve as accurately as possible.) Then, use the 68-95—99.7 rule to determine the middle 68% of values. What percent of values fall below this range? What percent fall above this range?",
+  "data": "",
+  "answer": "$X \sim \mathrm{~N}(138 \mathrm{~cm}, 7 \mathrm{~cm})$
+(The drawing is not shown in this key.) Imagine a bell-shaped curve centered on 138 with inflection points at $\mu \pm \sigma=138 \pm 7=131$ to 145 . According to the 68 part of the $68- 95-99.7$ rule, $68 \%$ of values will fall in this range. The remaining $32 \%$ fall outside of this range, with an equal number at either extreme because of symmetry; $16 \%$ of values will fall below 131 and $16 \%$ will be above 145 .",
+  "meta info": {
+    "index": "7.1",
+    "image": "",
+    "caption": "Height of 10-year-olds.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1 NORMAL DISTRIBUTIONS",
+    "page": "138-139"
+  }
+}

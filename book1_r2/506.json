@@ -1,0 +1,100 @@
+{
+  "case_id": "book1_r1\\record_410.json",
+  "input": {
+    "background": "For the illustrative data, we have established \\(\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725\\) and \\(r=0.737\\).",
+    "data": "",
+    "question": "Establish the regression model \\(\\hat{y}\\)."
+  },
+  "output": {
+    "method": "获取模型参数估计值",
+    "answer": "The regression model is \\(\\hat{y}=6.76+0.0228 x\\).",
+    "variable": {
+      "X": {
+        "id": "X",
+        "value": [],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Original predictor variable whose sample mean is x̄ = 603.64 and sample standard deviation is s_X = 378.451."
+      },
+      "Y": {
+        "id": "Y",
+        "value": [],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Response variable to be predicted; its sample mean is ȳ = 20.55 and sample standard deviation is s_Y = 11.725."
+      },
+      "x_bar": {
+        "id": "x_bar",
+        "value": 603.64,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample mean of X used to compute the intercept of the regression line."
+      },
+      "y_bar": {
+        "id": "y_bar",
+        "value": 20.55,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean of Y used to compute the intercept of the regression line."
+      },
+      "s_X": {
+        "id": "s_X",
+        "value": 378.451,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample standard deviation of X used to compute the slope of the regression line."
+      },
+      "s_Y": {
+        "id": "s_Y",
+        "value": 11.725,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample standard deviation of Y used to compute the slope of the regression line."
+      },
+      "r": {
+        "id": "r",
+        "value": 0.737,
+        "class": "numerical",
+        "role": "both",
+        "description": "Sample correlation coefficient between X and Y used to compute the slope of the regression line."
+      },
+      "y_hat": {
+        "id": "y_hat",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Fitted value of Y from the simple linear regression model ŷ = a + bX."
+      },
+      "regression_slope_b": {
+        "id": "regression_slope_b",
+        "value": null,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Slope of the regression line, computed as b = r * (s_Y / s_X)."
+      },
+      "regression_intercept_a": {
+        "id": "regression_intercept_a",
+        "value": null,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Intercept of the regression line, computed as a = ȳ − b * x̄."
+      },
+      "answer": {
+        "id": "answer",
+        "value": "Use the given summary statistics to construct the simple linear regression model of Y on X. First compute the slope b = r * (s_Y / s_X) using r = 0.737, s_Y = 11.725, and s_X = 378.451. Then compute the intercept a = ȳ − b * x̄ using x̄ = 603.64 and ȳ = 20.55. Finally, write the regression model as ŷ = a + bX.",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Step-by-step procedure to establish the regression model ŷ using the provided summary statistics."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Regression coefficients.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "313-314"
+  },
+  "sample_key": "506"
+}

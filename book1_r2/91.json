@@ -1,0 +1,47 @@
+{
+  "case_id": "book1_r1\\record_050.json",
+  "input": {
+    "background": "Yay-Sachs is a metabolic disorder that is inherited as an autosomal recessive trait. Both recessive alleles are necessary for expression of the disease. Therefore, when each parent is a carrier, there is a one in four chance of transmitting the genetic disorder to each offspring.",
+    "data": "",
+    "question": "A carrier couple is unaware of their carrier state. Let X represent the number of children conceived before an affected offspring is encountered. Is X is a binomial random variable? Explain."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "This is not a binomial because the number of trials $n$ is not fixed.",
+    "variable": {
+      "X": {
+        "id": "X",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of children conceived before an affected offspring is encountered."
+      },
+      "CarrierState": {
+        "id": "CarrierState",
+        "value": [
+          "Carrier",
+          "Non-carrier"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The carrier state of the parents, which affects the probability of offspring being affected."
+      },
+      "AffectedOffspringProbability": {
+        "id": "AffectedOffspringProbability",
+        "value": 0.25,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Probability of an offspring being affected when both parents are carriers."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "6.1",
+    "image": "",
+    "caption": "Tay-Sachs.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.1 Binomial Random Variables",
+    "page": "116-116"
+  },
+  "sample_key": "91"
+}

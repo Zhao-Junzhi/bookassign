@@ -1,0 +1,61 @@
+{
+  "case_id": "book1_r1\\record_134.json",
+  "input": {
+    "background": "Meconium staining during childbirth may be a sign of fetal distress. A randomized trial was conducted to see if induction of labor (by pitocin and other drugs delivered near term) would reduce the risk of meconium staining. The treatment group (n1=111) had elective inductions at 39 to 40 weeks of pregnancy. One delivery in the treatment group experienced meconium staining. In contrast, 13 of 117 pregnancies in the more conservatively managed group experienced meconium staining.",
+    "data": "",
+    "question": "Test the proportions for a difference with an exact procedure. Use a computer program such as WinPepi Compare2.exe Program B for calculations."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "(a) Hypothesis test\nA. Hypotheses. \\( H_0: p_1 = p_2 \\) versus \\( H_a: p_1 \\neq p_2 \\)\nB. Test statistic. The test is based on these observed counts:\n\n\\[\n\\begin{array}{l|c|c|}\n& \\text{+} & \\text{-} \\\\\n\\text{Treatment group} & 1 & 110 \\\\\n\\hline \\text{Control group} & 13 & 104 \\\\\n\\hline\n\\end{array}\n\\]\n\nC. P-value. Here are the results calculated by WinPepi Compare2.exe (version 1.38):\nExact tests:\nFisher's P:\n\\[\n\\begin{aligned}\n& \\text{One-tailed: } P = 0.001 \\text{ [9.4E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [1.4E-3]} \\\\\n& \\text{Double one-tailed: } P = 0.002 \\text{ [1.9E-3]}\n\\end{aligned}\n\\]\n\nMid-P:\n\\[\n\\begin{aligned}\n& \\text{One-tailed: } P = 0.000 \\text{ [5.0E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [9.7E-4]} \\\\\n& \\text{Double one-tailed: } P = 0.001 \\text{ [9.9E-4]} \\\\\n& \\text{Overall's continuity-corrected } P: \\\\\n& \\text{One-tailed: } P = 0.000 \\text{ [4.9E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [7.2E-4]} \\\\\n& \\text{Double one-tailed: } P = 0.001 \\text{ [9.7E-4]}\n\\end{aligned}\n\\]\n\nD. Significance level. The evidence against \\( H_0 \\) is significant at \\( \\alpha = 0.01 \\).",
+    "variable": {
+      "treatment_group_size": {
+        "id": "treatment_group_size",
+        "value": 111,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of participants in the treatment group."
+      },
+      "treatment_group_meconium_staining": {
+        "id": "treatment_group_meconium_staining",
+        "value": 1,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases with meconium staining in the treatment group."
+      },
+      "control_group_size": {
+        "id": "control_group_size",
+        "value": 117,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of participants in the control group."
+      },
+      "control_group_meconium_staining": {
+        "id": "control_group_meconium_staining",
+        "value": 13,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases with meconium staining in the control group."
+      },
+      "induction_of_labor": {
+        "id": "induction_of_labor",
+        "value": [
+          "treatment",
+          "control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The type of labor induction, either treatment (induced) or control (not induced)."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.7",
+    "image": "",
+    "caption": "Induction of labor and meconium staining.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.3 Hypothesis Test",
+    "page": "389-389"
+  },
+  "sample_key": "264"
+}

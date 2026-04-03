@@ -1,0 +1,35 @@
+{
+  "background": "Eight junior high school students were taken to a shopping mall. The number of socially inappropriate behaviors (faux pas) by each student was counted. The students were then enrolled in a program designed to promote social skills. After completing the programs, the subjects were again taken to the shopping mall and the number of social faux pas was again counted.",
+  "task": [
+    {
+      "query": "Calculate the change in the number of faux pas within individuals (i.e., calculate DELTA for each observation).",
+      "answer": "Data\n\nVISIT1 | VISIT2 | DELTA\n5 | 4 | -1\n13 | 11 | -2\n17 | 12 | -5\n3 | 3 | 0\n20 | 14 | -6\n18 | 14 | -4\n8 | 10 | 2\n15 | 9 | -6",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Plot the differences as a stemplot. Comment on the results.",
+      "answer": "The stemplot is:\n\n-0 | 566\n-0 | 124\n0 | 02\n\n- Six of the eight students (75%) showed a decline in the number of faux pas.\n- Data range from -6 to 2 (spread).\n- The median is -3 (location).\n- The distribution is mound shaped with no apparent outliers, and shows no dramatic departures from Normality.",
+      "method": "stem-and-leaf plot"
+    },
+    {
+      "query": "Would you use t procedures on these data?",
+      "answer": "Yes, a t procedure can be used (no major departures from Normality).",
+      "method": "均值检验"
+    },
+    {
+      "query": "Test the mean decline for statistical significance. Use a two-sided test. Show all hypothesis-testing steps.",
+      "answer": "Hypothesis test.\n\nThe four step procedure is applied:\nA. Hypotheses. H0: μd=0 versus Ha: μd ≠ 0\nB. Test statistic. n=8, x̄d=-2.75, sd=2.964, SE=2.4(x-4)/√8=1.048 t_stat=(2.70-0)/1.048=2.62 with df=8-1=7.\nC. P-value. P=0.034 (via www.cytel.com/Products/StaTable/). Using Table C, 0.025<P<0.05. These P-value provide good evidence against H0.\nD. Significance level (optional). The difference is significant at α=0.05 but not at α=0.01.",
+      "method": "均值检验"
+    }
+  ],
+  "id": "095",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.3 Data for Exercise 11.23. Number of faux pas before and after an intervention.}\n\\begin{tabular}{|l|l|l|}\n\\hline Obs. & VISIT1 & VISIT2 \\\\\n\\hline 1 & 5 & 4 \\\\\n\\hline 2 & 13 & 11 \\\\\n\\hline 3 & 17 & 12 \\\\\n\\hline 4 & 3 & 3 \\\\\n\\hline 5 & 20 & 14 \\\\\n\\hline 6 & 18 & 14 \\\\\n\\hline 7 & 8 & 10 \\\\\n\\hline 8 & 15 & 9 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData are fictitious. Data file $=$ FAUXPAS.SAV.",
+  "meta info": {
+    "index": "11.23",
+    "image": "",
+    "caption": "Faux pas.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "230-230"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "106",
+  "question": "Refer to the previous exercise. The mean survival time in the IDX-treated group was 116 days $\left(S E_1=5.6\right)$. The mean survival time in the control group was $88.5\left(S E_2=1.9\right)$. Test $H_0: \mu_1=\mu_2$.",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0: \mu_1=\mu_2$ versus $H_{\mathrm{a}}: \mu_1 \neq \mu_2$
+B. Test statistic. $S E=\sqrt{S E_1^2+S E_2^2}=\sqrt{5.6^2+1.9^2}=5.91$ and $t_{\text {stat }}=(116- 88.5) / 5.91=-4.65$. Since $n_1=10$ and $n_2=10, d f_{\text {conserv }}=10-1=9$.
+C. $\boldsymbol{P}$-value. The one-sided $P$-value is between 0.0005 and 0.001 (via Appendix Table C). Therefore, the two-sided $P$-value is between 0.001 and 0.002 . Using www.cytel.com/Products/StaTable/, the two-sided $P$-value $=0.0012$. The evidence against the null hypothesis is highly significant.
+D. Significance level (optional). The evidence against the null hypothesis is significant at $\alpha=0.01$.",
+  "meta info": {
+    "index": "12.15",
+    "image": "",
+    "caption": "Scrapie treatment, delay of death.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-256"
+  }
+}

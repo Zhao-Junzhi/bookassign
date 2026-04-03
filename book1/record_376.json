@@ -1,0 +1,21 @@
+{
+  "id": "376",
+  "question": " (a)We have established that the body weights of 20-29-year-old U.S. males have $\sigma=40$ pounds. How many observations do we need in order to estimate mean body weight $\mu$ with $95 \%$ confidence and a margin of error of plus or minus 10 pounds?
+(b)What size sample is needed to estimate $\mu$ with margin of error plus or minus 5 pounds?
+(c)What size sample is needed to cut the margin down to 1 pound?
+",
+  "data": "",
+  "answer": "
+(a) Recall that for $95 \%$ confidence, $z_{1-\frac{9}{2}}=z_{1-\frac{\beta}{2}}=z_{.975}=1.96$ (from Table $B$ ). Therefore, the required sample size is $n=\left(z_1-\frac{\sigma}{m}\right)^2= \left(1.96 \cdot \frac{40}{10}\right)^2=61.4$. Round this up to 62.
+(b) $n=\left(1.96 \cdot \frac{40}{5}\right)^2=245.8$. Round this to 246 .
+(c)$n=\left(1.96 \cdot \frac{40}{1}\right)^2=6146.6$. Round this up to $6147 . \overline{\text { mo }}$
+",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement (Body weight, 20—29-year-old  males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.3 Sample Size Requirements",
+    "page": "204-204"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_450.json",
+  "input": {
+    "background": "A trial tests a treatment at two separate clinics. Upon completion of the study, cross tabulation of results from both clinics combined is provided.",
+    "data": "",
+    "question": "The incidence proportion of success in the treatment group $\\hat{p}_1=1095 / 10,100=11 \\%$. The incidence proportion in the control group $\\hat{p}_2=5050 / 11,100=46 \\%$. Therefore, the relative incidence."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "null",
+    "variable": {
+      "treatment_success_count": {
+        "id": "treatment_success_count",
+        "value": 1095,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of successes in the treatment group."
+      },
+      "treatment_total_count": {
+        "id": "treatment_total_count",
+        "value": 10100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the treatment group."
+      },
+      "control_success_count": {
+        "id": "control_success_count",
+        "value": 5050,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of successes in the control group."
+      },
+      "control_total_count": {
+        "id": "control_total_count",
+        "value": 11100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the control group."
+      },
+      "incidence_proportion_treatment": {
+        "id": "incidence_proportion_treatment",
+        "value": 0.11,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Incidence proportion of success in the treatment group."
+      },
+      "incidence_proportion_control": {
+        "id": "incidence_proportion_control",
+        "value": 0.46,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Incidence proportion of success in the control group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Simpson’s paradox (Effectiveness of a treatment).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.2 SIMPSON’S PARADOX",
+    "page": "466-467"
+  },
+  "sample_key": "567"
+}

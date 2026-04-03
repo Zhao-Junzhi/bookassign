@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_070.json",
+  "input": {
+    "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250.",
+    "data": "",
+    "question": "Can we use the Normal approximation to the binomial in this instance?"
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "$n p q=(250)(0.05)(0.95)=11.875$. Therefore, the Normal approximation to the binomial can be applied.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 250,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of observations or trials in the survey."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.11",
+    "image": "",
+    "caption": "Pediatric asthma survey, n = 250.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
+  },
+  "sample_key": "131"
+}

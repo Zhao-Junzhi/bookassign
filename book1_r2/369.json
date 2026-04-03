@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_343.json",
+  "input": {
+    "background": "Recall that event A is cat ownership and event B is dog ownership. We have established Pr(B | A)= 0.4286, Pr(Ā)=1-Pr(A)=1-0.35=0.65, and Pr(B and Ā)=0.15.",
+    "data": "",
+    "question": "By conditional probability, Pr(B | Ā)=Pr(B and Ā)/Pr(Ā)=0.15/0.65=0.2308."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "By the total probability rule, Pr(B)=[Pr(B | A) * Pr(A)]+[Pr(B | Ā) * Pr(Ā)]= [0.4286 * 0.35]+[0.2308 * 0.65]=0.15+0.15=0.30",
+    "variable": {
+      "Pr(A)": {
+        "id": "Pr(A)",
+        "value": 0.35,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of event A, which represents cat ownership."
+      },
+      "Pr(Ā)": {
+        "id": "Pr(Ā)",
+        "value": 0.65,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of the complement of event A, which represents not owning a cat."
+      },
+      "Pr(B | A)": {
+        "id": "Pr(B | A)",
+        "value": 0.4286,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The conditional probability of event B (dog ownership) given event A (cat ownership)."
+      },
+      "Pr(B and Ā)": {
+        "id": "Pr(B and Ā)",
+        "value": 0.15,
+        "class": "numerical",
+        "role": "both",
+        "description": "The joint probability of event B (dog ownership) and the complement of event A (not owning a cat)."
+      },
+      "Pr(B | Ā)": {
+        "id": "Pr(B | Ā)",
+        "value": 0.2308,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The conditional probability of event B (dog ownership) given the complement of event A (not owning a cat)."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Total probability rule (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  },
+  "sample_key": "369"
+}

@@ -1,0 +1,20 @@
+{
+  "background": "A cross-over trial sought to learn whether oat bran cereal lowered low-density lipoprotein (LDL) cholesterol in hypercholesterolemic men. Twelve subjects completed the study. Half were randomly assigned a diet that included oat bran cereal. The other half were assigned a diet that included corn flakes. Dietary interventions were applied for 2 weeks, after which LDL levels (mmol/L) were recorded. Subjects were then crossed-over to the alternative diet for 2 weeks. LDL was once again measured. Table 11.1 lists data from the study.",
+  "task": [
+    {
+      "query": "Paired samples are analyzed by creating a new variable to hold within pair differences. Call this new variable DELTA. Table 11.1 lists DELTA values created by subtracting each oat bran value from each corn flake value for each individual. Positive DELTA values reflect lower LDL on the oat bran diet.",
+      "answer": null,
+      "method": "均值检验"
+    }
+  ],
+  "id": "381",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.1 ",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Oat bran and LDL cholesterol).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "219-220"
+  }
+}

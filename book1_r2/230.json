@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_117.json",
+  "input": {
+    "background": "Another way to look at the data presented in Exercise 14.6 is to restrict the analysis to a range that can be described with a straight line. This is called a range restriction.",
+    "data": "",
+    "question": "Use the scatterplot you drew in Exercise 14.6(a) to determine if there is a range of FLUORIDE in which the relationship between FLOURIDE and CARIES is fairly straight. Restrict the data to this range. Then determine the least squares line for this segment of the data. Interpret $b$."
+  },
+  "output": {
+    "method": "回归系数显著性与方向解读",
+    "answer": "The range below 1 ppm fluoride demonstrates a fairly straight relationship. The least squares regression line for this range have these coefficients:\n\n$$\n\\begin{aligned}\n& a=780.34 \\\n& b=-528.07\n\\end{aligned}\n$$\n\nTherefore, regression line for this range is $\\hat{y}=780.34+(-528.07) X$. The slope in this range predicts a decline of 528 caries per ppm of fluoride (equivalently, 52.8 fewer caries per 0.1 ppm fluoride).",
+    "variable": {
+      "FLUORIDE": {
+        "id": "FLUORIDE",
+        "value": "Values not provided in the problem statement",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The concentration of fluoride, which is the independent variable in the analysis to determine its relationship with caries."
+      },
+      "CARIES": {
+        "id": "CARIES",
+        "value": "Values not provided in the problem statement",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of caries, which is the dependent variable affected by the fluoride concentration."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.7",
+    "image": "",
+    "caption": "Domestic water and dental cavities, range restriction.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "328-329"
+  },
+  "sample_key": "230"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "084",
+  "question": "A sample of 49 sudden infant death syndrome (SIDS) cases had a mean birth weight of 2998 grams. Based on other births in the county, we will assume $\sigma=800$ grams. Calculate the $95 \%$ confidence interval for the mean birth weight of SIDS cases in the county. Interpret your results.",
+  "data": "",
+  "answer": "The $95 \%$ confidence interval for $\mu=2998 \pm(1.96) \frac{800}{\sqrt{49}}=2998 \pm 224=(2774$ to 3222).
+
+Interpret your results. Based on this sample, we have $95 \%$ confidence the population mean $\mu$ is between 2764 and 3212.",
+  "meta info": {
+    "index": "10.5",
+    "image": "",
+    "caption": "SIDS.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\mu$ When $\sigma$ Is Known",
+    "page": "203-203"
+  }
+}

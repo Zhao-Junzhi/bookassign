@@ -1,0 +1,41 @@
+{
+  "case_id": "book1_r1\\record_066.json",
+  "input": {
+    "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+    "data": "",
+    "question": "For stage IV, the survival rate was 11%."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "11% is a statistic.",
+    "variable": {
+      "Stage": {
+        "id": "Stage",
+        "value": [
+          "IV"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The stage of breast cancer cases being studied."
+      },
+      "Survival Rate": {
+        "id": "Survival Rate",
+        "value": [
+          11
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The survival rate for stage IV breast cancer cases."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.1",
+    "image": "",
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
+  },
+  "sample_key": "122"
+}

@@ -1,0 +1,20 @@
+{
+  "background": "One of the difficult parts about statistical inference is using our imagination to understand the theoretical sampling distributions of an estimator. To exercise our imagination, let us consider the sampling distribution of a hypothetical situation in which two groups, each composed of 1000 individuals, come from populations with risks of 10% for a particular outcome. In studying 1000 individuals per group, the sampling distribution of the risk difference is approximately Normal with expected value 0 and standard deviation.",
+  "task": [
+    {
+      "query": "Application of the 68-95-99.7 rule allows us to say that 68% of the sample risk difference based in these conditions will fall in the range 0 ± 0.0134, 95% will fall in the range 0 ±(2)(0.0134)=0 ± 0.0268 (and so on).",
+      "answer": "For example, the probability of observing a risk difference of 0.02 or greater under the stated conditions is Pr(𝑝̂1−𝑝̂2≥0.02)=Pr(Z≥1.49)=0.0681.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "425",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sampling distribution of a risk difference (Hypothetical).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "376-377"
+  }
+}

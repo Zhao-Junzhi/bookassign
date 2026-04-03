@@ -1,0 +1,30 @@
+{
+  "background": "Among U. S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+  "task": [
+    {
+      "query": "Describe the sampling distribution of p̂1-p̂2.",
+      "answer": "The sampling distribution of p̂1-p̂2 will be approximately Normal with mean μ= p1-p2=0.40-0.12=0.28 with standard deviation s_{p̂1-p̂2}=√((p1q1/n1)+(p2q2/n2)) =√((0.4)(0.6)/1000+(0.12)(0.88)/1000)=0.01859. In other words, p̂1-p̂2 ∼ N(0.28, 0.01859).",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What is the probability a sample will show a prevalence difference of 0.26 or less?",
+      "answer": "Pr(p̂1-p̂2 ≤ 0.26)=Pr(Z ≤[(0.26-0.28) / 0.01859])=Pr(Z ≤-1.08)= 0.1400 (from Table B in the Appendix).",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "How likely is it for a sample to show no difference in prevalences?",
+      "answer": "Pr(p̂1-p̂2 ≤ 0)=Pr(Z ≤[(0.00-0.28) / 0.01859])=Pr(Z ≤-15.06)= 0.0000.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "504",
+  "data": "",
+  "meta info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  }
+}

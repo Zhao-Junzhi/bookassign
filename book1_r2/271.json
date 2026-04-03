@@ -1,0 +1,63 @@
+{
+  "case_id": "book1_r1\\record_138.json",
+  "input": {
+    "background": "The study described in Exercise 17.14 also kept tabs of whether leaving advanced messages increased the likelihood of ultimately completing the interview. Data for this outcome are tallied in Table 17.8.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.8 Data for Exercise 17.15. Response to telephone survey according to whether an advanced message was left.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Completed Survey } & \\multicolumn{1}{c}{ Did not complete survey }& \\multicolumn{1}{c}{Households } \\\n\\cline { 2 - 4 } Message & 134 & 157 & 291 \\\n\\cline { 2 - 4 } No message & 33 & 67 & 100 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: same as Table 17.5.",
+    "question": "To what extent did the advanced messages increase the response rate?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Hypothesis test\nA. Hypotheses. $H_0: p_1=p_2$ versus $H_2: p_1 \\neq p_2$\nB. Test statistic.\n\n$$\n\\begin{aligned}\n& \\bar{p}=0.4271 \\\n& S E=0.05734 \\\n& z_{\\text {stat }}=2.28\n\\end{aligned}$$\n\nC. $\\boldsymbol{P}$-value. $P=0.0226$ (significant evidence against the null hypothesis)\nD. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=$ 0.05 but is not significant at $\\alpha=0.01$.\n\nEffect size:\n\n$$\n\\hat{p}_1-\\hat{p}_2=0.4605-0.3300=0.1305 \\text { (about } 13 \\% \\text { ) }\n$$\n\nThe $95 \\%$ confidence interval for $p_1-p_2$ is 0.0196 to 0.2352 , or about $2 \\%$ to $24 \\%$.\nTo what extent did the advanced messages increase the response rate? The $95 \\%$ confidence interval suggests that the response rate improved from between $2 \\%$ to $24 \\%$. A larger sample is needed to more precisely estimate the size of the effect.",
+    "variable": {
+      "Message": {
+        "id": "Message",
+        "value": [
+          "Message",
+          "No message"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Whether an advanced message was left before the survey."
+      },
+      "Completed_Survey": {
+        "id": "Completed_Survey",
+        "value": [
+          134,
+          33
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of households that completed the survey for each message condition."
+      },
+      "Did_not_complete_survey": {
+        "id": "Did_not_complete_survey",
+        "value": [
+          157,
+          67
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of households that did not complete the survey for each message condition."
+      },
+      "Households": {
+        "id": "Households",
+        "value": [
+          291,
+          100
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of households in each message condition."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.15",
+    "image": "",
+    "caption": "Telephone survey response rates.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "404-405"
+  },
+  "sample_key": "271"
+}

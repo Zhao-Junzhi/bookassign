@@ -1,0 +1,19 @@
+{
+  "id": "053",
+  "question": "The prevalence of a trait is 76.8\%.
+(a) In a simple random sample of $n=5$, how many individuals are expected to exhibit this characteristic?
+(b) How many would you expect to see with this characteristic in a simple random sample of $n=10$ ?
+(c) What is the probability of seeing nine or more individuals with this characteristic in an SRS of $n=10$ ?",
+  "data": "",
+  "answer": "(a) $\mu=(5)(0.768)=3.84$
+(b) $\mu=(10)(0.768)=7.68$
+(c) $\operatorname{Pr}(X \geq 9)=\operatorname{Pr}(X=9)+\operatorname{Pr}(X=10)=0.2156+0.0714=0.28710$",
+  "meta info": {
+    "index": "6.9",
+    "image": "",
+    "caption": "Prevalence 76.8 %.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "127-127"
+  }
+}

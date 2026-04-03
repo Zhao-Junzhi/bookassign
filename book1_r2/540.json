@@ -1,0 +1,54 @@
+{
+  "case_id": "book1_r1\\record_431.json",
+  "input": {
+    "background": "In the spring of 1989, physicians and pharmacists at the University of Wisconsin Hospital clinics became aware of an increase in the frequency an adverse reaction (cerebellar toxicity) to a drug used in bone marrow transplant patients. This association became apparent after the hospital switched from the original formulation of the drug to a generic equivalent. The U.S. Food and Drug Administration was contacted, and a team of investigators was sent to look into the problem. A subsequent record review confirmed the increased frequency of this serious adverse reaction.",
+    "data": "",
+    "question": "Although this particular hospital experienced much greater toxicity with the generic formulation, there is difficulty in interpreting these results. This hospital was selected for study just because of its high rate of occurrence. No other institution reported a similar problem. Somewhere, there might be a hospital where the generic formulation proved safer. Thus, there is no way of knowing whether the identified problem represents a random cluster of events or a true increase in occurrence."
+  },
+  "output": {
+    "method": "随机性",
+    "answer": "null",
+    "variable": {
+      "hospital": {
+        "id": "hospital",
+        "value": "University of Wisconsin Hospital",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The hospital where the increased frequency of cerebellar toxicity was observed."
+      },
+      "drug_formulation": {
+        "id": "drug_formulation",
+        "value": [
+          "original",
+          "generic"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The formulation of the drug used in bone marrow transplant patients."
+      },
+      "toxicity_frequency": {
+        "id": "toxicity_frequency",
+        "value": "increased frequency",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The frequency of cerebellar toxicity observed in patients."
+      },
+      "institution": {
+        "id": "institution",
+        "value": "other institutions",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Other institutions that did not report similar problems with the generic formulation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "After-the-fact identification of a cluster.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.5 SYSTEMATIC SOURCES OF ERROR",
+    "page": "395-395"
+  },
+  "sample_key": "540"
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_428.json",
+  "input": {
+    "background": "The relative risk of the combined index outcome in the estrogen trial illustrative example is calculated.",
+    "data": "",
+    "question": "What is the relative risk (RR) in the estrogen trial illustrative example?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "null",
+    "variable": {
+      "relative_risk": {
+        "id": "relative_risk",
+        "value": "unknown",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The relative risk (RR) in the estrogen trial illustrative example."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risk (Estrogen trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 Proportion Ratio (Relative Risk)",
+    "page": "389-389"
+  },
+  "sample_key": "533"
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_070.json",
+  "input": {
+    "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250.",
+    "data": "",
+    "question": "What is the probability of seeing at least 25 cases in a sample?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Note that $\\mu=250 \\cdot 0.05=12.5$ and $\\sigma=\\sqrt{250 \\cdot 0.05 \\cdot 0.95}=$ 3.446, that is, $X \\sim \\mathrm{~N}(12.5,3.446)$. 1. State: We want to determine $\\operatorname{Pr}(X \\geq 25)$ 2. Standardize: $z=\\frac{25-12.5}{3.446}=3.63$ 3. Sketch (optional): not shown 4. Use Table B: $\\operatorname{Pr}(z \\geq 3.63) \\approx 0.000$",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 250,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The sample size used in the survey."
+      },
+      "cases": {
+        "id": "cases",
+        "value": 25,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases observed in the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.11",
+    "image": "",
+    "caption": "Pediatric asthma survey, n = 250.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
+  },
+  "sample_key": "132"
+}

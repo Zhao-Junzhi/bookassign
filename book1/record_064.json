@@ -1,0 +1,17 @@
+{
+  "id": "064",
+  "question": "The weight of brains from Alzheimer cadavers varies according to a Normal distribution with mean 1077 grams and standard deviation 106 grams. The weight of an Alzheimer-free brain averages 1250 grams. What proportion of brains with Alzheimer disease will weigh more than 1250 grams?",
+  "data": "",
+  "answer": "1. State: $X \sim \mathrm{~N}(1077,106)$. We want to determine $\operatorname{Pr}(X \geq 1250)$
+2. Standardize: $z=\frac{1250-1077}{106}=1.63$
+3. Sketch: not shown
+4. Use Table B: $\operatorname{Pr}(Z \geq 1.63)=1-.9484=0.0516$",
+  "meta info": {
+    "index": "7.13",
+    "image": "",
+    "caption": "Alzheimer brains.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "background": "How large a sample is needed to test the SIDS data presented earlier in this chapter with 90% power at alpha=0.05 two sided? We want to detect a mean difference in birth weight (Delta) of 300 grams (about 2/3 pound). Let us use sample standard deviation s(720.0) as a reasonable estimate of sigma.",
+  "task": [
+    {
+      "query": "Calculate the sample size needed to detect a mean difference in birth weight of 300 grams with 90% power at alpha=0.05 two sided.",
+      "answer": "n=60.46. Round up to 61 to ensure adequate power. Because the sample size exceeds 30, there is no need to apply adjustment factor f.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "386",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement, one-sample t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "227-227"
+  }
+}

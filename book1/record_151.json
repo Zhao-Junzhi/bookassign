@@ -1,0 +1,27 @@
+{
+  "id": "151",
+  "question": "A 1970s case-control study on cerebrovascular disease (stroke) and oral contraceptive use in young women matched cases to controls according to neighborhood, age, sex, and race.  Table 18.26 displays data from this study for thrombotic stroke.(a) Calculate the odds ratio for these data. Briefly, interpret this results in narrative form.
+(b) Suppose the match was broken and investigators analyzed the data as if derived from independent samples. Rearrange the infor
+mation in Table 18.26 to show how it would appear in a 2-by-2 table of unmatched counts. Because the matched-pair table (Table 18.26) includes 106 pairs, your new table should total 212 individuals. Calculate the odds ratio for the data with the match broken. How does this compare to that of the (proper) matchedpair odds ratio?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.26 Matched-case control data on thrombotic stroke and oral contraceptive use in women between 14- to 44-years of age.}
+\begin{tabular}{|l|l|l|l|}
+\hline Matched pairs & Case exposed & Case not exposed & Total \\
+\hline Control exposed & 2 & 5 & 7 \\
+\hline Control not exposed & 44 & 55 & 99 \\
+\hline Total & 46 & 60 & 106 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "(a) $\\widehat{O R}=\\frac{44}{5}=8.8$\n(b) Here are the data with the match broken:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Match broken & Case & Control & Total \\\\\n\\hline \\multirow{3}{*}{Exposed Non-exposed Total} & \\begin{tabular}{l}\n□ \\\\\n46\n\\end{tabular} & 7 & 53 \\\\\n\\hline & 60 & 99 & 159 \\\\\n\\hline & 106 & 106 & 212 \\\\\n\\hline\n\\end{tabular}\n\nThe odd ratio with the match broken is $=(46)(99) /(7)(60)=10.8$, overestimating the more appropriate matched-pair odds ratio.",
+  "meta info": {
+    "index": "18.21",
+    "image": "",
+    "caption": "Thrombotic stoke in young women.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "456-457"
+  }
+}

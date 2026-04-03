@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_044.json",
+  "input": {
+    "background": "What is the probability of being born on specific dates in February?",
+    "data": "",
+    "question": "What is the probability of being born on February 28 or February 29?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Feb 28 or Feb 29 occur 5 times every four years. Therefore, Pr(Feb 28 or Feb 29) = 5 / (365 + 365 + 365 + 366) = 0.003422313.",
+    "variable": {
+      "Specific Dates in February": {
+        "id": "Specific Dates in February",
+        "value": [
+          "February 28",
+          "February 29"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The specific dates in February for which the probability of being born is calculated."
+      },
+      "Probability of Birth": {
+        "id": "Probability of Birth",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The probability of being born on the specified dates in February."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "5.3",
+    "image": "",
+    "caption": "February birthdays.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
+  },
+  "sample_key": "76"
+}

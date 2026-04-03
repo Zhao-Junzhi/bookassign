@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_082.json",
+  "input": {
+    "background": "A pharmacist reads that a $95 \\%$ confidence interval for the average price of a particular prescription drug is $\\$ 30.50$ to $\\$ 35.50$.",
+    "data": "",
+    "question": "Asked to explain the meaning of this, the pharmacist says"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The pharmacist is incorrect. The confidence interval applies to the population mean $\\mu$; it does not apply to the distribution of individual observations.",
+    "variable": {
+      "confidence_interval_lower_bound": {
+        "id": "confidence_interval_lower_bound",
+        "value": 30.5,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The lower bound of the 95% confidence interval for the average price of the prescription drug."
+      },
+      "confidence_interval_upper_bound": {
+        "id": "confidence_interval_upper_bound",
+        "value": 35.5,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The upper bound of the 95% confidence interval for the average price of the prescription drug."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level associated with the confidence interval."
+      },
+      "average_price": {
+        "id": "average_price",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The average price of the prescription drug, which is being estimated by the confidence interval."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "10.1",
+    "image": "",
+    "caption": "Misinterpreting a confidence interval.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "202-202"
+  },
+  "sample_key": "155"
+}

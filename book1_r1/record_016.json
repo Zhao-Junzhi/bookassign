@@ -1,0 +1,30 @@
+{
+  "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
+  "task": [
+    {
+      "query": "(a) Comparison A: Group 1: 90, 70, 50, 30, 10; Group 2: 70, 60, 50, 40",
+      "answer": "Comparison A. Groups have the same central locations; group 1 has greater variability (spread).",
+      "method": "stem-and-leaf plot"
+    },
+    {
+      "query": "(b) Comparison B: Group 1: 90, 80, 70, 60, 50; Group 2: 70, 60, 50, 40",
+      "answer": "Comparison B. Group 1 has larger values on average; groups have the same variability.",
+      "method": "stem-and-leaf plot"
+    },
+    {
+      "query": "(c) Comparison C: Group 1: 90, 70, 50, 30; Group 2: 90, 80, 70, 60",
+      "answer": "Comparison C. Group 1 has a lower average and greater spread.",
+      "method": "stem-and-leaf plot"
+    }
+  ],
+  "id": "016",
+  "data": "",
+  "meta info": {
+    "index": "3.3",
+    "image": "",
+    "caption": "Leaves on a common stem.",
+    "chapter": "Frequency Distributions",
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
+  }
+}

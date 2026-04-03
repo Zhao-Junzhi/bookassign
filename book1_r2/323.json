@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_307.json",
+  "input": {
+    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "data": "",
+    "question": "Why was the protocol altered in the WHI trial?"
+  },
+  "output": {
+    "method": "实验设计",
+    "answer": "The protocol was altered because unopposed estrogen was contraindicated in postmenopausal women with intact uteri.",
+    "variable": {
+      "postmenopausal_hormone_use": {
+        "id": "postmenopausal_hormone_use",
+        "value": [
+          "unopposed estrogen",
+          "estrogen plus progestin",
+          "placebo"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The primary study factor in the WHI trial, initially including three treatments."
+      },
+      "unopposed_estrogen_contraindication": {
+        "id": "unopposed_estrogen_contraindication",
+        "value": "contraindicated in postmenopausal women with intact uteri",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The reason for altering the protocol to exclude unopposed estrogen."
+      },
+      "protocol_alteration": {
+        "id": "protocol_alteration",
+        "value": [
+          "estrogen with progestin",
+          "placebo"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The altered protocol excluding unopposed estrogen."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "WHI postmenopausal hormone use trial.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 Comparative Studies",
+    "page": "27-27"
+  },
+  "sample_key": "323"
+}

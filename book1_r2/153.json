@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_081.json",
+  "input": {
+    "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that $H_0$ is true in a statistical hypothesis test. Other analogies exist.",
+    "data": "",
+    "question": "Which type of decision is analogous to a type I error?"
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "Declaring an innocent person guilty (b) is analogous to a type I error.",
+    "variable": {
+      "presumption_of_innocence": {
+        "id": "presumption_of_innocence",
+        "value": "Presumption that the defendant is not guilty",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The initial assumption that the defendant is innocent, analogous to the null hypothesis being true in hypothesis testing."
+      },
+      "type_I_error": {
+        "id": "type_I_error",
+        "value": "Convicting an innocent person",
+        "class": "categorical",
+        "role": "NR",
+        "description": "A type I error occurs when the null hypothesis is true but is rejected, analogous to convicting an innocent person in a jury trial."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.19",
+    "image": "",
+    "caption": "The criminal justice analogy.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "195-195"
+  },
+  "sample_key": "153"
+}

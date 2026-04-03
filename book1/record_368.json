@@ -1,0 +1,17 @@
+{
+  "id": "368",
+  "question": "We have established a test of $H_0: \mu=170$ versus $H_{\mathrm{a}}: \mu>170$ in a population with $\sigma=40$ pounds. A simple random sample of $n=64$ is associated with $S E_{\bar{x}}=\frac{40}{\sqrt{64}}=5$. 
+(a)Sample 1. What is the $z$-statistic for a sample in which $\bar{x}=173$ ?
+(b)Sample 2. What is the $z$-statistic in a sample with $\bar{x}=185$ ? ?",
+  "data": "",
+  "answer": "(a)  $z_{\text {stat }}=\frac{\bar{x}-\mu_0}{S E_{\bar{x}}}=\frac{173-170}{5}=0.6$
+(b) $z_{\text {stat }}=\frac{\bar{x}-\mu_0}{S E_{\bar{x}}}=\frac{185-170}{5}=3.0$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "z-statistic (Body weight of 20-29-year-old men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  }
+}

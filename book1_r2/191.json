@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_099.json",
+  "input": {
+    "background": "Identify whether the studies described here are based on single samples, paired samples, or independent samples.",
+    "data": "",
+    "question": "A nutritional exam is applied to a random sample of individuals. Results are compared to expected means and proportions."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Single sample",
+    "variable": {
+      "individuals_sample": {
+        "id": "individuals_sample",
+        "value": "A random sample of individuals",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The group of individuals who were part of the nutritional exam."
+      },
+      "expected_means": {
+        "id": "expected_means",
+        "value": "Expected means for the nutritional exam",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The expected mean values that the nutritional exam results are compared against."
+      },
+      "expected_proportions": {
+        "id": "expected_proportions",
+        "value": "Expected proportions for the nutritional exam",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The expected proportion values that the nutritional exam results are compared against."
+      },
+      "exam_results": {
+        "id": "exam_results",
+        "value": "Results of the nutritional exam",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The actual results obtained from the nutritional exam applied to the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.1",
+    "image": "",
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
+  },
+  "sample_key": "191"
+}

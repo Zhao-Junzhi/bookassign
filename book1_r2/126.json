@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_068.json",
+  "input": {
+    "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
+    "data": "",
+    "question": "What is value of the standard deviation of the x̄ of the four measurements taken with this kit?"
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "The standard deviation of the mean of four measurements = σ/√n = 1/√4 = 0.5.",
+    "variable": {
+      "sigma": {
+        "id": "sigma",
+        "value": 1,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the results as stated by the laboratory kit."
+      },
+      "n": {
+        "id": "n",
+        "value": 4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of measurements taken by the lab technician."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.7",
+    "image": "",
+    "caption": "Repeated lab measurements.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-167"
+  },
+  "sample_key": "126"
+}

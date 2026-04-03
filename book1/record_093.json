@@ -1,0 +1,18 @@
+{
+  "id": "093",
+  "question": "A study of vector control in an African village found that the mean sprayable surface area was 249 square feet with standard deviation 39.82 square feet in a simple random sample of $n=100$ homes.
+(a) Calculate a $95 \%$ confidence interval for $\mu$.
+(b) Would it be correct to say that $95 \%$ of all the homes in the village have sprayable surfaces between the lower confidence limit and upper confidence limit? Explain.",
+  "data": "",
+  "answer": "(a) $S E=\frac{39.82}{\sqrt{100}}=3.982 t_{100-1,1-(.05 / 2)}=t_{99, .975}=1.984$ (via www.cytel.com/Products/StaTable/). If a computer program is not available, you can make use of the fact that program $t_{99 . .975} \approx t_{100, .975}=1.984$
+$95 \%$ CI for $\mu=249 \pm(1.984)(3.982)=249 \pm 7.9=(241.1$ to 256.9$)$ square feet.
+(b) It would not be correct to make this statement. The confidence interval applies to population mean $\mu$, not to individual observations.",
+  "meta info": {
+    "index": "11.19",
+    "image": "",
+    "caption": "Vector control in an African village",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
+  }
+}

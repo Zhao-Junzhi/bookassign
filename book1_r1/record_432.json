@@ -1,0 +1,25 @@
+{
+  "background": "Determine the sample size required for conducting a two-sided test of H0: p1=p2 with an equal number of subjects in each group, α=0.05 (z1-(.05 / 2)=1.96), 1-β=0.90 (z.90=1.282), p1=0.10, and p2=0.05.",
+  "task": [
+    {
+      "query": "Determine the sample size required for conducting a two-sided test of H0: p1=p2 with an equal number of subjects in each group.",
+      "answer": "n = (1.96 √(2(0.075)(0.925)) + 1.282 √((0.10)(0.90)+(0.05)(0.95)) / |0.10-0.05|)^2 = 581.26. Resolve to use 582 per group.",
+      "method": "达到指定概率所需的最小样本量"
+    },
+    {
+      "query": "How many individuals should be studied if we want to incorporate a continuity correction into our test statistic?",
+      "answer": "n′ = (581.26 / 4)(1 + √(1 + 4 / (581.26 |0.10-0.05|)))^2 = 620.6. Therefore, resolve to study 621 observations per group.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "432",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, equal sample sizes.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "396-397"
+  }
+}

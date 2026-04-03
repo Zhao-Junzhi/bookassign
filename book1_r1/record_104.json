@@ -1,0 +1,25 @@
+{
+  "background": "Would you use a one-sample, paired-sample, or independent-sample $t$ procedure in the following situations?",
+  "task": [
+    {
+      "query": "A lab technician obtains a specimen of known concentration from a reference lab. She tests the specimen 10 times using an assay kit and compares the calculated mean to that of the known standard.",
+      "answer": "One sample",
+      "method": "均值检验"
+    },
+    {
+      "query": "A different technician compares the concentration of ten specimens using two different assay kits. Ten measurements are taken with each kit. Results are then compared.",
+      "answer": "Paired samples",
+      "method": "均值检验"
+    }
+  ],
+  "id": "104",
+  "data": "",
+  "meta info": {
+    "index": "12.11",
+    "image": "",
+    "caption": "Testing a test kit.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "254-254"
+  }
+}

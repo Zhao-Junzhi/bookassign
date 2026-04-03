@@ -1,0 +1,41 @@
+{
+  "id": "006",
+  "question": " Here is more practice in classifying variables as quantitative, ordinal, or categorical.
+(a) White blood cells per deciliter of whole blood
+(b) Leukemia rates in geographic regions (cases per 100,000 people)
+(c) Presence of type II diabetes mellitus (yes or no)
+(d) Body weight (kilograms)
+(e) Low-density lipoprotein level ( $\mathrm{mg} / \mathrm{dl}$ )
+(f) Grade in a course coded: A, B, C, D, or F
+(g) Religious identity coded $1=$ Protestant, $2=$ Catholic, $3=$ Muslim, $4=$ Jewish, $5=$ Atheist, $6=$ Buddhist, $7=$ Hindu, $8=$ Other
+(h) Blood cholesterol level classified as either $1=$ hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic
+(i) Course credit (pass or fail)
+(j) Ambient temperature (degrees Fahrenheit)
+(k) Type of life insurance policy: $1=$ none, $2=$ term, $3=$ endowment, $4=$ straight life, $5=$ other
+(l) Satisfaction: $1=$ very satisfied, $2=$ satisfied, $3=$ neutral, $4=$ unsatisfied, $5=$ very unsatisfied
+(m) Movie review rating: 1 star, $1 \frac{1}{2}$ stars, 2 stars, $2 \frac{1}{2}$ stars, 3 stars, $3 \frac{1}{2}$ stars, 4 stars
+(n) Treatment group: $1=$ active treatment, $2=$ placebo",
+  "data": "",
+  "answer": "(a) Quantitative
+(b) Quantitative
+(c) Categorical
+(d) Quantitative
+(e) Quantitative
+(f) Ordina
+(g) Categorical
+(h) Ordinal
+(i) Categorical
+(j) Quantitative
+(k) Categorical
+(l) Ordinal
+(m) Ordinal
+(n) Categorical",
+  "meta info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  }
+}

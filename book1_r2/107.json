@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_060.json",
+  "input": {
+    "background": "We've established that heights of 10-year-old boys vary according to a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+    "data": "",
+    "question": "What proportion is less than 140 centimeters in height?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The proportion of the population less than 140 centimeters tall is 0.6141.",
+    "variable": {
+      "height": {
+        "id": "height",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The height of 10-year-old boys, which follows a Normal distribution."
+      },
+      "mean_height": {
+        "id": "mean_height",
+        "value": 138,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean height of 10-year-old boys, which is 138 centimeters."
+      },
+      "std_dev_height": {
+        "id": "std_dev_height",
+        "value": 7,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the height of 10-year-old boys, which is 7 centimeters."
+      },
+      "threshold_height": {
+        "id": "threshold_height",
+        "value": 140,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The threshold height to determine the proportion of boys shorter than this height."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.5",
+    "image": "",
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
+  },
+  "sample_key": "107"
+}

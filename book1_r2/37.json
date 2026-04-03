@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_013.json",
+  "input": {
+    "background": "Telephone surveys may use a telephone directory to identify individuals for study.",
+    "data": "",
+    "question": "Speculate on the type of household that would be undercovered by using this sampling frame."
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "This sampling frame omits households which lack land telephones lines. It also excludes those with unlisted numbers and double counts those with more than one phone line.",
+    "variable": {
+      "household_type": {
+        "id": "household_type",
+        "value": null,
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The type of household that may be undercovered by using a telephone directory as a sampling frame."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "2.13",
+    "image": "",
+    "caption": "Telephone book sampling frame.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "33-33"
+  },
+  "sample_key": "37"
+}

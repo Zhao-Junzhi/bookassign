@@ -1,0 +1,58 @@
+{
+  "id": "134",
+  "question": "Meconium staining during childbirth may be a sign of fetal distress. A randomized trial was conducted to see if induction of labor (by pitocin and other drugs delivered near term) would reduce the risk of meconium staining. The treatment group ( $n_1=111$ ) had elective inductions at 39 to 40 weeks of pregnancy. One delivery in the treatment group experienced meconium staining. In contrast, 13 of 117 pregnancies in the more conservatively managed group experienced meconium staining. 
+(a) Determine the risks of meconium staining in each group.
+(b) Test the proportions for a difference with an exact procedure. Use a computer program such as WinPepi Compare2.exe Program B for calculations.",
+  "data": "",
+  "answer": "(a) Estimates
+
+$$
+\begin{aligned}
+& \hat{p}_1=1 / 111=0.0090 \\
+& \hat{p}_2=13 / 117=0.1111
+\end{aligned}
+$$
+
+(b) Hypothesis test
+A. Hypotheses. $H_0: p_1=p_2$ versus $H_{\mathrm{a}}: p_1 \neq p_2$
+B. Test statistic. The test is based on these observed counts:
+
+\begin{tabular}{l|c|c|} 
+& \multicolumn{1}{c}{+} & - \\
++ & 1 & 110 \\
+\hline — & 13 & 104 \\
+\hline
+\end{tabular}
+
+C. P-value. Here are the results calculated by WinPepi Compare2.exe (version 1.38).
+Exact tests：
+Fisher's P:
+
+\begin{tabular}{ll} 
+Onc-tailed: & $\mathrm{P}=0.001[9.4 \mathrm{E}-4]$ or 1.000 \\
+\hline Two-tailed: & $\mathrm{P}=0.001[1.4 \mathrm{E}-3]$ \\
+\hline Double one-tailed: & $\mathrm{P}=0.002[1.9 \mathrm{E}-3]$
+\end{tabular}
+
+Mid-P:
+
+\begin{tabular}{ll}
+\hline Onc-tailed: & $P=0.000$ [5.0E-4]  or 1.000 \\
+\hline Two-tailed: & $\mathrm{P}=0.001$ [9.7E-4] \\
+\hline Double one-tailed: & $\mathrm{P}=0.001[9.9 \mathrm{~F}-4]$ \\
+\hline Overall's continuity-corrected $P$ : & \\
+\hline One-railed: & $\mathrm{P}=0.000[4.9 \mathrm{E}-4]$ or 1.000 \\
+\hline Two-tailed: & $\mathrm{P}=0.001$ [7.2E-4] \\
+\hline Double one-tailed: & $\mathrm{P}=0.001|9.7 \mathrm{E}-4|$ \\
+\hline
+\end{tabular}
+\text { D. Significance level. The evidence against } H_0 \text { is significant at } \alpha=0.01 \text {. }“， 
+ "meta info": {
+    "index": "17.7",
+    "image": "",
+    "caption": "Induction of labor and meconium staining.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.3 Hypothesis Test",
+    "page": "389-389"
+  }
+}

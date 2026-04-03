@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_113.json",
+  "input": {
+    "background": "Exercises 13.1, 13.3, and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against $H_0 (P=0.042)$. Now apply a Kruskal-Wallis test. Show all hypothesis-testing steps. Are the Kruskal-Wallis results consistent with the ANOVA results?",
+    "data": "",
+    "question": "Are the Kruskal-Wallis results consistent with the ANOVA results?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The Kruskal-Wallis test results ($P=0.063$) are not consistent with the ANOVA results ($P=0.042$), as the Kruskal-Wallis test does not find significant evidence against $H_0$.",
+    "variable": {
+      "birth_weight": {
+        "id": "birth_weight",
+        "value": "Values of birth weight from the four groups of mothers",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The birth weight of infants, which is the dependent variable being analyzed across different groups of mothers."
+      },
+      "mother_group": {
+        "id": "mother_group",
+        "value": "Four groups of mothers",
+        "class": "categorical",
+        "role": "independent",
+        "description": "The categorical variable representing the four different groups of mothers, which serves as the independent variable in the analysis."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "13.7",
+    "image": "",
+    "caption": "Smoking and birth weight, Kruskal-Wallis test.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.6 INTRODUCTION TO NONPARAMETRIC TESTS",
+    "page": "292-292"
+  },
+  "sample_key": "220"
+}

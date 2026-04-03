@@ -1,0 +1,72 @@
+{
+  "id": "508",
+  "question": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.\begin{aligned}
+&\text { (a) Comparison A: }\\
+&\begin{gathered}
+\text { Group } 1 \mid \text { Group } 2 \\
+\hline 0|1| \\
+|2| \\
+0|3| 0 \\
+|4| 0 \\
+0|5| 0 \\
+|6| 0 \\
+0|7| 0 \\
+|8| \\
+0|9| \\
+\times 10
+\end{gathered}
+\end{aligned}
+(b) Comparison B:
+
+\begin{tabular}{c} 
+Group $1 \mid$ |Group 2 \\
+\hline $11 \mid$ \\
+$|2|$ \\
+$|3| 0$ \\
+$|4| 0$ \\
+$0|5| 0$ \\
+$0|6| 0$ \\
+$0|7| 0$ \\
+$0|8|$ \\
+$0|9|$ \\
+$\times 10$
+\end{tabular}
+(c) Comparison C:
+
+\begin{tabular}{c} 
+Group 1 | Group 2 \\
+\hline $0|1|$ \\
+$|2|$ \\
+$0|3|$ \\
+$|4|$ \\
+$0|5| 0$ \\
+$|6| 0$ \\
+$0|7| 0$ \\
+$|8| 0$ \\
+$0|9| 0$ \\
+$\times 10$
+\end{tabular}",
+  "data": "",
+  "answer": "(a) Comparison A
+
+Group 1: $\bar{x}=50$ and $s=31.6$.
+Group 2: $\bar{x}=50$ and $s=15.8$.
+How statistics relate to what we see: Same central locations; greater spread is Group 1.
+(b) Comparison B
+
+Group 1: $\bar{x}=70$ and $s=15.8$.
+Group 2: $\bar{x}=50$ and $s=15.8$.
+How statistics relate to what we see: Higher central location in Group 1; equal group spreads.
+(c) Comparison C
+Group 1: $\bar{x}=50$ and $s=31.6$.
+Group 2: $\bar{x}=70$ and $s=15.8$.
+How statistics relate to what we see: Smaller central location and greater spread in Group 1.",
+  "meta info": {
+    "index": "4.15",
+    "image": "",
+    "caption": "Leaves on stems.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "85-86"
+  }
+}

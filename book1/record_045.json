@@ -1,0 +1,19 @@
+{
+  "id": "045",
+  "question": " Suppose a population has 26 members identified with the letters A through Z.
+ (a) You select one individual at random from this population. What is the probability of selecting individual A?  
+(b) Assume person A gets selected on an initial draw, you replace person A into the sampling frame, and then take a second random draw. What is the probability of drawing person A on the second draw?
+ (c) Assume person A gets selected on the initial draw and you sample again without replacement. What is the probability of drawing person A on the second draw?",
+  "data": "",
+  "answer": "(a) 1 in $26=0.0385$
+(b) 1 in $26=0.0385$
+(c) 0",
+  "meta info": {
+    "index": "5.5",
+    "image": "",
+    "caption": "N = 26.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-92"
+  }
+}

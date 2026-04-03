@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_136.json",
+  "input": {
+    "background": "It is important to develop a detailed plan of study early in the development of an investigation. One part of the plan is to assure adequacy of the sample size.",
+    "data": "",
+    "question": "Consider a test of $H_0: p_1=p_2$ against $H_{\\mathrm{a}}: p_1 \\neq p_2$ at $\\alpha=0.05$ with a power that is equal to 0.80. We predict that $20 \\%$ of group 1 and $30 \\%$ of group 2 will experience the outcome. If we recruit an equal number of individuals in each of the groups, how many individuals do we need to study?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "Without continuity-correction, $n_1=n_2=294$ (588 total). With continuity-correction, $n_1=n_2=313$ (626 total).",
+    "variable": {
+      "alpha": {
+        "id": "alpha",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Significance level for the hypothesis test."
+      },
+      "power": {
+        "id": "power",
+        "value": 0.8,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of correctly rejecting the null hypothesis when it is false."
+      },
+      "p1": {
+        "id": "p1",
+        "value": 0.2,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Proportion of individuals in group 1 expected to experience the outcome."
+      },
+      "p2": {
+        "id": "p2",
+        "value": 0.3,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Proportion of individuals in group 2 expected to experience the outcome."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": "to be calculated",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The total number of individuals needed in the study to achieve the specified power and significance level."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.11",
+    "image": "",
+    "caption": "Sample-size plan.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
+  },
+  "sample_key": "267"
+}

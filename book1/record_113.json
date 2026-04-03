@@ -1,0 +1,17 @@
+{
+  "id": "113",
+  "question": " Exercises 13.1, 13.3 , and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against $H_0 (P=0.042)$. Now apply a Kruskal-Wallis test. Show all hypothesistesting steps. Are the Kruskal-Wallis results consistent with the ANOVA results?",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0$ : birth weight distributions in the four populations are equal in location versus $H_2$ : the birth weight in at least one of the populations differs
+B. Test statistic. Chi-square $=7.305$ with $3 d f$ (Calculated with SPSS, Rel. 11.0.1. 2001. Chicago: SPSS Inc.)
+C. $\boldsymbol{P}$-value. $P=0.063$ ("marginal significance")
+D. Significance level (optional). The results are significant at $\alpha=0.10$ (reject $H_0$ ) but are not significant at $\alpha=0.05$ (retain $H_0$ ).",
+  "meta info": {
+    "index": "13.7",
+    "image": "",
+    "caption": "Smoking and birth weight, Kruskal-Wallis test.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.6 INTRODUCTION TO NONPARAMETRIC TESTS",
+    "page": "292-292"
+  }
+}

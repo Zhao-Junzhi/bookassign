@@ -1,0 +1,35 @@
+{
+  "background": "Test the slope in the smoking and lung cancer illustrative data for statistical significance. There are 11 bivariate observations. Established values are $b=0.02284$ and $S E_b=0.006976$.",
+  "task": [
+    {
+      "query": "What are the hypotheses for testing the slope?",
+      "answer": "$H_0: \\beta=0$ versus $H_a: \\beta \\neq 0$",
+      "method": "假设检验"
+    },
+    {
+      "query": "What is the test statistic and its calculation?",
+      "answer": "$t_{\\text{stat}}=\\frac{b}{S E_b}=\\frac{0.02284}{0.006976}=3.27$ with $d f=n-2=11-2=9$",
+      "method": "假设检验"
+    },
+    {
+      "query": "What is the P-value and its interpretation?",
+      "answer": "$P=0.0096$, providing good evidence against $H_0$.",
+      "method": "假设检验"
+    },
+    {
+      "query": "What is the significance level and conclusion?",
+      "answer": "The association is significant at $\\alpha=0.01$.",
+      "method": "假设检验"
+    }
+  ],
+  "id": "412",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "t statistic.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "320-320"
+  }
+}

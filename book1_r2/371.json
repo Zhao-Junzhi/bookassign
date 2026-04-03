@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_345.json",
+  "input": {
+    "background": "Four patients are treated with an intervention that is successful 75% of the time.",
+    "data": "",
+    "question": "What is the random number of successes for this intervention?"
+  },
+  "output": {
+    "method": "从指定分布中抽样",
+    "answer": "The random number of successes is a binomial random variable with parameters n=4 and p=0.75.",
+    "variable": {
+      "success_rate": {
+        "id": "success_rate",
+        "value": 0.75,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of the intervention being successful."
+      },
+      "number_of_patients": {
+        "id": "number_of_patients",
+        "value": 4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The total number of patients treated with the intervention."
+      },
+      "number_of_successes": {
+        "id": "number_of_successes",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The random number of successful interventions among the patients."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Four patients binomial example.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.1 Binomial Random Variables",
+    "page": "116-116"
+  },
+  "sample_key": "371"
+}

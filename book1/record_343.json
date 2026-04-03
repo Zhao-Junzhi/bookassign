@@ -1,0 +1,14 @@
+{
+  "id": "343",
+  "question": " Recall that event $A$ is cat ownership and event $B$ is dog ownership. We have established $\operatorname{Pr}(B \mid A)= 0.4286, \operatorname{Pr}(\bar{A})=1-\operatorname{Pr}(A)=1-0.35=0.65$, and $\operatorname{Pr}(B$ and $\bar{A})=0.15$. By conditional probability, $\operatorname{Pr}(B \mid \bar{A})=\frac{\operatorname{Pr}(B \text { and } \bar{A})}{\operatorname{Pr}(\bar{A})}=\frac{.15}{.65}=0.2308$.",
+  "data": "",
+  "answer": "By the total probability rule, $\operatorname{Pr}(B)=[\operatorname{Pr}(B \mid A) \times \operatorname{Pr}(A)]+[\operatorname{Pr}(B \mid \bar{A}) \times \operatorname{Pr}(\bar{A})]= [0.4286 \times 0.35]+[0.2308 \times 0.65]=0.15+0.15=0.30$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Total probability rule (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  }
+}

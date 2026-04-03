@@ -1,0 +1,30 @@
+{
+  "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
+  "task": [
+    {
+      "query": "Describe the population to which inferences will be made. What population parameter will be estimated? Calculate the prevalence of multiple sexual partners in the sample.",
+      "answer": "The population to which inference will be made is U.S. adult heterosexuals at the time of the survey. The parameter of interest is the proportion of individuals with multiple sexual partners. The sample proportion \\(\\hat{p}=170 / 2673=0.063598 \\approx\\) 0.064 or \\(6.4 \\%\\).",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Practical problems of bias can pose a threat to the validity of a study of this type. What specific types of selection biases might evolve from the sampling method used by this study?",
+      "answer": "Examples of selection biases that may be pertinent: (1) Specific high risk groups (for example, homeless, intravenous drug users) may not have permanent telephone lines and may be underrepresented in the sample. (2) Nonresponse should be scrutinized.",
+      "method": "观测数据"
+    },
+    {
+      "query": "This study relied on the truthfulness of responses. Although the investigators tried their best to make respondents feel comfortable, they could not be assured information was fully accurate. If an information bias existed in responses, hypothesize whether it would tend to overestimate or underestimate the prevalence of the risk factor.",
+      "answer": "Without a specific validation study to address this issue, it is difficult to determine the accuracy of responses. However, we may hypothesize that data might underestimate true prevalence because respondents may underreport sexual behavior out of fear of embarrassment or reprisal.",
+      "method": "观测数据"
+    }
+  ],
+  "id": "120",
+  "data": "",
+  "meta info": {
+    "index": "16.1",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.1 PROPORTIONS",
+    "page": "351-352"
+  }
+}

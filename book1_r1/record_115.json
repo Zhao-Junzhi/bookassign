@@ -1,0 +1,35 @@
+{
+  "background": "Exercise 14.1 introduced data for a cross-sectional survey of bicycle helmet use in Northern California. Table 14.5 lists the data. Exercise 14.1(a) revealed that observation 13 (Los Arboles) was an outlier.",
+  "task": [
+    {
+      "query": "After eliminating the outlier from the data set ( $n$ is now equal to 12), calculate least squares regression coefficients $a$ and $b$. Interpret these statistics.",
+      "answer": "Regression coefficients\n\n$$\n\\begin{aligned}\n& a=47.490 \\\n& b=-0.539\n\\end{aligned}\n$$\n\nInterpretation of $b$: For each additional",
+      "method": "获取模型参数估计值"
+    },
+    {
+      "query": "Calculate the $95 \\%$ confidence interval for slope parameter $\\beta$.",
+      "answer": "",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "Use the $95 \\%$ confidence interval to predict whether the slope is significant at $\\alpha=0.05$.",
+      "answer": "",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "Optional: Determine the residuals for each of the 12 data points in the analysis. Plot these residuals as a stemplot. Check for major departures from Normality.",
+      "answer": "",
+      "method": "残差分析"
+    }
+  ],
+  "id": "115",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+  "meta info": {
+    "index": "14.3",
+    "image": "",
+    "caption": "Bicycle helmet use, n = 12.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "325-326"
+  }
+}

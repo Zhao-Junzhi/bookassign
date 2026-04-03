@@ -1,0 +1,21 @@
+{
+  "case_id": "book1_r1\\record_012.json",
+  "input": {
+    "background": "A researcher conducts a survey to learn about the sexual behavior of college students on a particular campus. A list of the undergraduates at the university is used to select participants. The investigator sends out 500 surveys but only 136 are returned.",
+    "data": "",
+    "question": "Speculate on potential limitations in the quality of information the researcher will receive on questionnaires that are returned."
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "The information on the questionnaires is of uncertain quality. What people say about their behavior often does not match how they behave."
+  },
+  "meta_info": {
+    "index": "2.11",
+    "image": "",
+    "caption": "Campus survey.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "33-33"
+  },
+  "sample_key": "36"
+}

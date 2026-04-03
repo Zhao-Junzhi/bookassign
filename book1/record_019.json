@@ -1,0 +1,32 @@
+{
+  "id": "019",
+  "question": "A study examined the induction time between bacterial meningitis and the onset of seizures in 13 cases (months). Data are shown here. Construct a stemplot of these data and describe what you see. [Suggestion: Use a stem multiplier of $\times 10$ so that the value 0.10 is truncated to 00 and is plotted as " $0 \mid 0$ ".]
+
+\begin{tabular}{llllllllll}
+0.10 & 0.25 & 0.5 & 4 & 12 & 12 & 24 & 24 & 31 & 36 \\
+42 & 55 & 96 & & & & & & &
+\end{tabular}}",
+  "data": "",
+  "answer": "\begin{aligned}
+& 0 \mid 0004 \\
+& 1 \mid 22 \\
+& 2 \mid 44 \\
+& 3 \mid 16 \\
+& 4 \mid 2 \\
+& 5 \mid 5 \\
+& 6 \mid \\
+& 7 \mid \\
+& 8 \mid \\
+& 9 \mid 6 \\
+& \times 10 \text { (months) }
+\end{aligned}
+Data have a pronounced positive skew and a high outlier (shape). The median is 24 (location). Induction times are highly variable, ranging from 0.1 to 96 months (spread).",
+  "meta info": {
+    "index": "3.9",
+    "image": "",
+    "caption": "Seizures following bacterial meningitis.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "60-60"
+  }
+}

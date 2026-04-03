@@ -1,0 +1,62 @@
+{
+  "case_id": "book1_r1\\record_026.json",
+  "input": {
+    "background": "Each of the following batches of numbers has a mean of 100. The task is to determine which batch has the most variability without performing arithmetic calculations.",
+    "data": "",
+    "question": "Which batch (A, B, or C) has the most variability?"
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "Batch A has the greatest variability.",
+    "variable": {
+      "batch_A_values": {
+        "id": "batch_A_values",
+        "value": "Values of batch A (not explicitly provided in the problem, assumed to be part of the data if available)",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The numerical values in batch A."
+      },
+      "batch_B_values": {
+        "id": "batch_B_values",
+        "value": "Values of batch B (not explicitly provided in the problem, assumed to be part of the data if available)",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The numerical values in batch B."
+      },
+      "batch_C_values": {
+        "id": "batch_C_values",
+        "value": "Values of batch C (not explicitly provided in the problem, assumed to be part of the data if available)",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The numerical values in batch C."
+      },
+      "batch_labels": {
+        "id": "batch_labels",
+        "value": [
+          "A",
+          "B",
+          "C"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Labels for the three batches."
+      },
+      "mean_value": {
+        "id": "mean_value",
+        "value": 100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean value of each batch, which is given as 100."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.7",
+    "image": "",
+    "caption": "Spread.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "81-82"
+  },
+  "sample_key": "61"
+}

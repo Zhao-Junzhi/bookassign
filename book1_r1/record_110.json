@@ -1,0 +1,25 @@
+{
+  "background": "Table 13.3 lists birth weights of infants based on the smoking status of mothers.",
+  "task": [
+    {
+      "query": "Outline this study's design using a sketch of the type presented in $\\$ 2.2$ (see Figure 2.1) to depict this study's design.",
+      "answer": "This study is nonexperimental (\"observational\") because the investigator did not assign the explanatory factor (smoking) to study participants.",
+      "method": "观测数据"
+    },
+    {
+      "query": "Figure 13.5 shows side-by-side boxplots of the response variable in the four groups. Interpret this plot.",
+      "answer": "Location: Nonsmokers and ex-smokers have higher average birth weights than smokers. Spread: It is difficult to evaluate variability in such small samples. However, hingelengths (IRQs) seem comparable. Shape: The samples are too small (6 to 8 in each group) to make definitive statements about their shapes; there is an outside value in group 2.",
+      "method": "离散型-连续型变量关系"
+    }
+  ],
+  "id": "110",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.3 Birth weights of infants in four groups of mothers. Data for Exercises 13.1, 13.3, 13.5, and 13.7.}\n\\begin{tabular}{llllllll}\n\\hline Group 1 (nonsmokers) & 8.56 & 8.47 & 6.39 & 9.26 & 7.98 & 6.84 & \\\nGroup 2 (ex-smokers) & 7.39 & 8.64 & 8.54 & 5.37 & 9.21 & & \\\nGroup $3(<1 / 2$ pack/day $)$ & 5.97 & 6.77 & 7.26 & 5.74 & 8.74 & 6.30 & \\\nGroup $4(\\geq 1 / 2$ pack/day) & 7.03 & 5.24 & 6.14 & 6.74 & 6.62 & 7.37 & 4.94 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData were generated with the RV.NORMAL function in SPSS as follows: $X_1 \\sim N(7.5,1), X_2 \\sim N(7.5$, $1), X_3 \\sim N(7.0,1), X_4 \\sim N(6.5,1)$.\nData are stored online in the file SMOK_BW.*..",
+  "meta info": {
+    "index": "13.1",
+    "image": "",
+    "caption": "Birth weight, exploration.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "TSP IDESGRIPTIVESSTATISTICS",
+    "page": "263-263"
+  }
+}

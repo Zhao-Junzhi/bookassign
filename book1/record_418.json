@@ -1,0 +1,14 @@
+{
+  "id": "418",
+  "question": "Recall the survey that found 17 smokers in an SRS on $n=57$ in a particular community. What is the $95 \\%$ confidence interval for the prevalence of smoking in this population?",
+  "data": "",
+  "answer": "- $\\tilde{n}=n+4=57+4=61$\n- $\\tilde{x}=x+2=17+2=19$\n- $\\tilde{p}=\\frac{\\tilde{x}}{\\tilde{n}}=\\frac{19}{61}=0.3115$\n- $\\tilde{q}=1-\\tilde{p}=1-0.3115=0.6885$\n- $S E_{\\tilde{p}}=\\sqrt{\\frac{(0.3115)(0.6885)}{61}}=0.0593$\n- The $95 \\%$ confidence interval for $p=0.3115 \\pm(1.96)(0.0593)= 0.3115 \\pm 0.1162=(0.1953$ to 0.4277$)$ or about $(20 \\%$ to $43 \\%)$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for population proportion, plus-four  method (Smoking prevalence).",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "363-364"
+  }
+}

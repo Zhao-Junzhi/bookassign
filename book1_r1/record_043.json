@@ -1,0 +1,20 @@
+{
+  "background": "A patient newly diagnosed with a serious ailment is told he has a 60% probability of surviving 5 or more years.",
+  "task": [
+    {
+      "query": "Explain the meaning of this statement to someone with no statistical background in terms he or she will understand.",
+      "answer": "We can not say for certain whether this particular patient will survive, but we can say that in a large number of patients with identical characteristics, 60% will survive at least five years and 40% will not.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "043",
+  "data": "",
+  "meta info": {
+    "index": "5.1",
+    "image": "",
+    "caption": "Explaining probability.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
+  }
+}

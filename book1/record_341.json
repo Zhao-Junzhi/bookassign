@@ -1,0 +1,14 @@
+{
+  "id": "341",
+  "question": "Suppose you know a household owns a cat. What is the probability that it also owns a dog? In other words, what is the probability of dog ownership given cat ownership?",
+  "data": "",
+  "answer": " $\\operatorname{Pr}(B \\mid A)=\\frac{\\operatorname{Pr}(A \\text { and } B)}{\\operatorname{Pr}(A)}=\\frac{0.15}{0.35}=0.4286$. The probability of owing a dog given cat ownership is about $43 \\%$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Conditional probability (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5 MORE RULES AND PROPERTIES OF Probability ",
+    "page": "108-109"
+  }
+}

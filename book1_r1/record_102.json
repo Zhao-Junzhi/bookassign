@@ -1,0 +1,30 @@
+{
+  "background": "The air quality data in Exercise 12.5 (Table 12.9) are associated with the summary statistics reported in Table 12.12.",
+  "task": [
+    {
+      "query": "Calculate the standard error of the mean difference without assuming equal variance.",
+      "answer": "$S E_{\\bar{x}_1-\\bar{x}_2}=\\sqrt{\\frac{14.558^2}{8}+\\frac{2.878^2}{8}}=5.247$",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "Calculate a $95 \\%$ confidence interval for $\\mu_1-\\mu_2$, again without assuming equal variance. Use the conservative degrees of freedom to help calculate the confidence interval.",
+      "answer": "$d f_{\\text {conserv }}=7 ; t_{7, .975}=2.365$\n\nThe $95 \\%$ CI for $\\mu_1-\\mu_2=(36.25-36.00) \\pm(2.365)(5.247)=0.25 \\pm 12.41=$ ( -12.16 to 12.66 ) $\\mu \\mathrm{gms} / \\mathrm{m}^3$",
+      "method": "均值检验"
+    },
+    {
+      "query": "Determine the two-sided $P$-value for testing $H_0: \\mu_1=\\mu_2$.",
+      "answer": "$t_{\\text {stat }}=\\frac{36.25-36.00}{5.247}=0.05$. The one-side $P$-value (by Table $C$ in the Appendix) is greater 0.25 . Therefore, the two-tailed $P>0.50$. Using a software utility (www.cytel.com/Products/StaTable/),$P=0.96$. There is no significant difference in means.",
+      "method": "均值检验"
+    }
+  ],
+  "id": "102",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.12 Means and standard deviations for Exercise 12.7.}\n\\begin{tabular}{lccc}\n\\multicolumn{4}{l}{ Particulate matter in air samples $\\left(\\mu \\mathrm{gms} / \\mathrm{m}^3\\\right)$} \\\\\nSite & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n& & & \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "12.7",
+    "image": "",
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.5 CONDITIONS FOR INFERENCE",
+    "page": "249-249"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "145",
+  "question": "Exercise 18.3 found that 43\\% of CMV+ patients experienced arterial restenosis within 6 months of atherectomy. In contrast, $8 \\%$ of CMV-patients experienced a similar outcome. Table 18.8 contains observed counts.
+(a) Use a chi-square statistic to test the association for statistical significance.
+(b) Repeat the test with a $z$-statistic $(\\$ 17.3)$. Show the relation between the chi-square statistic and the $z$-statistic.",
+  "data": "Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.
+
+\begin{tabular}{lc|c|}
+\hline & \multicolumn{1}{c}{ Restenosed } & \multicolumn{1}{c}{ Did not restenose } & \multicolumn{1}{c}{ Total }\\
+\hline
+\hline CMV + & 21 & 28 & 49 \\
+\hline CMV- & 2 & 24 & 26 \\
+\hline Total & 23 & 49 & 75 \\
+\hline
+\end{tabular}
+",
+  "answer": "(a) $X_{\\text {stat }}^2=9.879, d f=1, P=0.0017$\n\nWith continuity-correction, $X^2$ stat, $c=8.294, d f=1, P=0.0040$\n(b) $z_{\\text {stat }}=3.14, P=0.0017$. Note that $z^2{ }_{\\text {stat }}=3.14^2=9.86 \\approx X^2$ stat With continuity-correction, $z^2$ stat., $c=2.88^2=8.30 \\approx X^2$ stat, c",
+  "meta info": {
+    "index": "18.9",
+    "image": "",
+    "caption": "Cytomegalovirus infection and coronary restenosis.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "431-431"
+  }
+}

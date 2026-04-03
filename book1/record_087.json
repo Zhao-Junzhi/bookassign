@@ -1,0 +1,19 @@
+{
+  "id": "087",
+  "question": "The freeware program StaTable can determine exact probabilities for $t$-random variables. You can also use WinPepi WhatIs.exe or Microsoft Excel's TDIST function for this purpose. Use one of these software applications to find:
+(a) $\operatorname{Pr}\left(T_8 \geq 2.65\right)$
+(b) $\operatorname{Pr}\left(T_8 \geq 2.98\right)$
+(c) $\operatorname{Pr}\left(T_{19} \leq 2.98\right)$",
+  "data": "",
+  "answer": "(a) $\operatorname{Pr}\left(T_8 \geq 2.65\right)=0.0150$
+(b) $\operatorname{Pr}\left(T_8 \geq 2.98\right)=0.0088$
+(c) $\operatorname{Pr}\left(T_{19} \leq 2.98\right)=0.9962$",
+  "meta info": {
+    "index": "11.7",
+    "image": "",
+    "caption": "Software utility programs.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.2 STUDENT’S T DISTRIBUTIONS",
+    "page": "214-214"
+  }
+}

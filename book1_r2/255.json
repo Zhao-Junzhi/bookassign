@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_131.json",
+  "input": {
+    "background": "Of 75 patients in a follow-up study, 20 showed spontaneous improvement within a month.",
+    "data": "",
+    "question": "Calculate the 1-month incidence proportion of improvement."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Incidence \\( \\hat{p}=\\frac{20}{75}=0.2667 \\) (about \\( 27 \\% \\) )",
+    "variable": {
+      "total_patients": {
+        "id": "total_patients",
+        "value": 75,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of patients in the follow-up study."
+      },
+      "improved_patients": {
+        "id": "improved_patients",
+        "value": 20,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of patients who showed spontaneous improvement within a month."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.25",
+    "image": "",
+    "caption": "Incidence of improvement.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "372-372"
+  },
+  "sample_key": "255"
+}

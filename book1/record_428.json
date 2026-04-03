@@ -1,0 +1,14 @@
+{
+  "id": "428",
+  "question": "The relative risk of the combined index outcome in the estrogen trial illustrative example is $\widehat{R R}=\frac{\hat{p}_1}{\hat{p}_2}=\frac{0.08829}{0.07689}=1.1483 \cong 1.15$.",
+  "data": "",
+  "answer": "null",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risk (Estrogen trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 Proportion Ratio (Relative Risk)",
+    "page": "389-389"
+  }
+}

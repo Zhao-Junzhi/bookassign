@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_104.json",
+  "input": {
+    "background": "Would you use a one-sample, paired-sample, or independent-sample $t$ procedure in the following situations?",
+    "data": "",
+    "question": "A different technician compares the concentration of ten specimens using two different assay kits. Ten measurements are taken with each kit. Results are then compared."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Paired samples",
+    "variable": {
+      "Specimen_Concentration_Kit1": {
+        "id": "Specimen_Concentration_Kit1",
+        "value": "Concentration measurements from assay kit 1 for ten specimens",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Concentration values measured using the first assay kit for each of the ten specimens."
+      },
+      "Specimen_Concentration_Kit2": {
+        "id": "Specimen_Concentration_Kit2",
+        "value": "Concentration measurements from assay kit 2 for ten specimens",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Concentration values measured using the second assay kit for each of the ten specimens."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.11",
+    "image": "",
+    "caption": "Testing a test kit.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "254-254"
+  },
+  "sample_key": "204"
+}

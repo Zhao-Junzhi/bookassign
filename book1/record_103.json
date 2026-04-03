@@ -1,0 +1,14 @@
+{
+  "id": "103",
+  "question": "We wish to detect a mean difference of 0.25 for a variable that has a standard deviation of 0.67 . How large a sample is needed to detect this mean differences with $90 \\%$ power at $\\alpha=0.05$ (two-sided)?",
+  "data": "",
+  "answer": "$n=(2)\\left(0.67^2\\right)(1.28+1.96)^2 / 0.25^2=150.79$. Round up to 151 (per group).",
+  "meta info": {
+    "index": "12.9",
+    "image": "",
+    "caption": "Sample size calculation.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "253-253"
+  }
+}

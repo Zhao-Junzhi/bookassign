@@ -1,0 +1,41 @@
+{
+  "id": "315",
+  "question": "Table 3.3 lists body weights of 53 students.How would we plot this data in a way that is most revealing? ",
+  "data": "\begin{tabular}{|l|l|l|l|l|l|}
+\hline \multicolumn{6}{|l|}{Table 3.3 Body weight (pounds) of students in a class, $n=53$.} \\
+\hline 192 & 110 & 195 & 180 & 170 & 215 \\
+\hline 152 & 120 & 170 & 130 & 130 & 125 \\
+\hline 135 & 185 & 120 & 155 & 101 & 194 \\
+\hline 110 & 165 & 185 & 220 & 180 & \\
+\hline 128 & 212 & 175 & 140 & 187 & \\
+\hline 180 & 119 & 203 & 157 & 148 & \\
+\hline 260 & 165 & 185 & 150 & 106 & \\
+\hline 170 & 210 & 123 & 172 & 180 & \\
+\hline 165 & 186 & 139 & 175 & 127 & \\
+\hline 150 & 100 & 106 & 133 & 124 & \\
+\hline
+\end{tabular}
+",
+  "answer": "First notice that values range from 100 to 260 pounds. Using a multiplier of $\times 100$ would result in only two stem values (100-199 and 200-299). Splitting stem values with the $\times 100$ in two would help, but would still result in only four stem values: 100-149, 150-199, 200-249, and 250299. Using quintuple-split stem values produces this nice plot:
+```
+1*|0000111
+1T |2222222233333
+1F |4455555
+1S |\underline{6}66777777
+1. |888888888999
+2*|0111
+2T |2
+2F|
+2S|6
+X100
+```
+This plot has a positive skew and high outlier. The location of its median is underlined (median $=160$ ), and data spread from 100 to 260 .",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Student weights.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "47-48"
+  }
+}

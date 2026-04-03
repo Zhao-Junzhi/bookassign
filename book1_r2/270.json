@@ -1,0 +1,63 @@
+{
+  "case_id": "book1_r1\\record_138.json",
+  "input": {
+    "background": "The study described in Exercise 17.14 also kept tabs of whether leaving advanced messages increased the likelihood of ultimately completing the interview. Data for this outcome are tallied in Table 17.8.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.8 Data for Exercise 17.15. Response to telephone survey according to whether an advanced message was left.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Completed Survey } & \\multicolumn{1}{c}{ Did not complete survey }& \\multicolumn{1}{c}{Households } \\\n\\cline { 2 - 4 } Message & 134 & 157 & 291 \\\n\\cline { 2 - 4 } No message & 33 & 67 & 100 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: same as Table 17.5.",
+    "question": "Perform analyses similar to those requested in the prior exercise."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Descriptive statistics\n\n$$\n\\begin{aligned}\n& \\hat{p}_1=134 / 291=0.4605 \\\n& \\hat{p}_2=33 / 100=0.3300\n\\end{aligned}$$",
+    "variable": {
+      "Message": {
+        "id": "Message",
+        "value": [
+          "Yes",
+          "No"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether an advanced message was left for the household."
+      },
+      "Completed_Survey": {
+        "id": "Completed_Survey",
+        "value": [
+          134,
+          33
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of households that completed the survey."
+      },
+      "Did_Not_Complete_Survey": {
+        "id": "Did_Not_Complete_Survey",
+        "value": [
+          157,
+          67
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of households that did not complete the survey."
+      },
+      "Households": {
+        "id": "Households",
+        "value": [
+          291,
+          100
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of households in each group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.15",
+    "image": "",
+    "caption": "Telephone survey response rates.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "404-405"
+  },
+  "sample_key": "270"
+}

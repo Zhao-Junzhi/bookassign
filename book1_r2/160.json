@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_084.json",
+  "input": {
+    "background": "A sample of 49 sudden infant death syndrome (SIDS) cases had a mean birth weight of 2998 grams. Based on other births in the county, we will assume σ=800 grams.",
+    "data": "",
+    "question": "Interpret your results."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Based on this sample, we have 95% confidence the population mean μ is between 2764 and 3212.",
+    "variable": {
+      "sample_mean_birth_weight": {
+        "id": "sample_mean_birth_weight",
+        "value": 2998,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean birth weight of the sample of 49 sudden infant death syndrome (SIDS) cases."
+      },
+      "population_std_dev": {
+        "id": "population_std_dev",
+        "value": 800,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The assumed population standard deviation of birth weights based on other births in the county."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 49,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the sample of sudden infant death syndrome (SIDS) cases."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "10.5",
+    "image": "",
+    "caption": "SIDS.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "203-203"
+  },
+  "sample_key": "160"
+}

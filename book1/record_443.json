@@ -1,0 +1,38 @@
+{
+  "id": "443",
+  "question": "Chapter 17 considered results from the estrogen trial of the Women's Health Initiative study. The incidence of the combined morbidity index in the treatment group was 751 per 8506 $(8.83 \\%)$. The incidence in the control group was 623 of $8102(7.69 \\%) .$ The test of $H_0: p_1=p_2$ yielded $z_{\\text {stat }}=2.66, P=0.0078$ (two sided). We propose to test the same information with a chi-square statistic.",
+  "data": "Observed frequencies
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.12 Observed and expected frequencies for the estrogen trial illustrative example.}
+\begin{tabular}{|l|l|l|l|}
+\hline \multirow{4}{*}{\begin{tabular}{l}
+Treatment group \\
+Control group
+\end{tabular}} & Cases & Noncases & \multirow[b]{4}{*}{\begin{tabular}{l}
+8506 \\
+8102 \\
+16,608
+\end{tabular}} \\
+\hline & 751 & 7755 & \\
+\hline & 623 & 7479 & \\
+\hline & 1374 & 15,234 & \\
+\hline \multicolumn{4}{|l|}{Expected frequencies} \\
+\hline & Cases & Noncases & Total \\
+\hline Treatment group & 703.712 & 7802.288 & 8506 \\
+\hline Control group & 670.288 & 7431.712 & 8102 \\
+\hline Total & 1374 & 15,234 & 16,608 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "A. Hypotheses. $H_0$ : no association in source population is equivalent to $H_0: p_1=p_2 \\cdot H_2$ : association in source population is equivalent to $H_{\\mathrm{a}}: p_1 \\neq p_2$.\nB. Test statistic. Table 18.12 lists observed and expected frequencies for the problem.\n$$\n\\begin{aligned}\n& X_{\\text {stat }}^2=\\sum\\left[\\frac{\\left(O_i-E_i\\right)^2}{E_i}\\right] \\\\\n& =\\frac{(751-703.712)^2}{703.712}+\\frac{(7755-7802.288)^2}{7802.288}+ \\\\\n& \\quad \\frac{(623-670.288)^2}{670.288}+\\frac{(7479-7431.712)^2}{7431.712} \\\\\n& =\\quad 3.178+0.287 \\quad 3.336+0.301 \\\\\n& =7.101\n\\end{aligned}\n$$\n\n\nThis chi-square statistic has $d f=(R-1) \\times(C-1)=(2-1) \\times (2-1)=1$.\nNotice that $\\sqrt{X_{\\text {stat }}^2}=\\sqrt{7.101}=2.66=z_{\\text {stat }}$.\nC. $\\boldsymbol{P}$-value. The $X_{\\text {stat }}^2$ of 7.101 with $1 d f$ converts to $P=0.0077$, producing the same results as the $z$ test (except for rounding error).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "(Estrogen trial).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "429-430"
+  }
+}

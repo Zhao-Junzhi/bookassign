@@ -1,0 +1,30 @@
+{
+  "background": "Air samples were collected on eight successive days at two different sites. Particulate matter was measured in these samples as an index of environmental quality.",
+  "task": [
+    {
+      "query": "Calculate the mean particulate matter for both sites.",
+      "answer": "To the nearest unit, both sites have means of 36 μg/m³.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Analyze the variability of readings at both sites using stemplots.",
+      "answer": "Side-by-side stemplots reveal different pictures, with much greater variability of readings at site 1.",
+      "method": "stem-and-leaf plot"
+    },
+    {
+      "query": "Identify any particular readings that stand out at site 1.",
+      "answer": "One particular reading at site 1 was very high (68 μg/m³), indicating a very high variability.",
+      "method": "异常值处理"
+    }
+  ],
+  "id": "505",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Importance of spread (Air samples).",
+    "chapter": "Summary Statistics",
+    "section": "4.5 Spread: Quartiles",
+    "page": "71-72"
+  }
+}

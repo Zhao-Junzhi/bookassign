@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_426.json",
+  "input": {
+    "background": "We propose to calculate a $95 \\%$ confidence interval for the risk difference in the estrogen trial presented earlier. We've established that $a_1=751$ and $n_1=8506$ in the treatment group. In the control group, $a_2=623$ and $n_2=8102$.",
+    "data": "",
+    "question": "Calculate the standard error for the difference in adjusted proportions, $SE_{\\tilde{p}_1-\\tilde{p}_2}$."
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "$SE_{\\tilde{p}_1-\\tilde{p}_2}=\\sqrt{\\frac{\\tilde{p}_1 \\tilde{q}_1}{\\tilde{n}_1}+\\frac{\\tilde{p}_2 \\tilde{q}_2}{\\tilde{n}_2}}= \\sqrt{\\frac{(0.08839)(0.91161)}{8508}+\\frac{(0.07700)(0.92300)}{8104}}=0.004271$.",
+    "variable": {
+      "a1": {
+        "id": "a1",
+        "value": 751,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of events in the treatment group"
+      },
+      "n1": {
+        "id": "n1",
+        "value": 8506,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of participants in the treatment group"
+      },
+      "a2": {
+        "id": "a2",
+        "value": 623,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of events in the control group"
+      },
+      "n2": {
+        "id": "n2",
+        "value": 8102,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of participants in the control group"
+      },
+      "SE_p1_p2": {
+        "id": "SE_p1_p2",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Standard error for the difference in adjusted proportions"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for risk difference.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "378-379"
+  },
+  "sample_key": "531"
+}

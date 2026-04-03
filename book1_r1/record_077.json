@@ -1,0 +1,20 @@
+{
+  "background": "Studies in the general population suggest that the gestational length of uncomplicated pregnancies varies according to a Normal distribution with μ=39 weeks with σ=2 weeks. A sample of 22 middle-class African American women demonstrates an average gestation length (x̄) of 38.5 weeks.",
+  "task": [
+    {
+      "query": "Test whether the mean gestation period in the African American women is significantly different from the expected value of 39 weeks. Use a two-sided alternative hypothesis. Show all hypothesis testing steps.",
+      "answer": "The four-step procedure is used to solve the problem: A. Hypotheses. H0: μ=39 versus Ha: μ≠39 B. Test statistic. SE_x̄=2/√22=0.4264 and z_stat=(38.5-39)/0.4264=-1.17 C. P-value. One-sided P=Pr(Z≥1.17)=0.1210 [from Table B] and two-sided P=2×0.1210=0.2420. The evidence against H0 is nonsignificant by usual conventions. D. Significance level (optional). The results are not significant at α=0.10 (retain H0).",
+      "method": "均值检验"
+    }
+  ],
+  "id": "077",
+  "data": "",
+  "meta info": {
+    "index": "9.11",
+    "image": "",
+    "caption": "Gestational length，African American women, hypothesis test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "192-193"
+  }
+}

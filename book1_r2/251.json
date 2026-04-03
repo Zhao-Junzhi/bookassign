@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_126.json",
+  "input": {
+    "background": "Twenty-six cancer deaths were observed in a cohort of 556 insulation workers. Based on national statistics, a cohort of this size and age distribution was expected to experience 14.4 incident cases during the observation period. Therefore, under the null hypothesis, $p_0=14.4 / 556=0.02590$.",
+    "data": "",
+    "question": "Test whether the observed incidence is significantly greater than expected. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "A. Hypotheses. $H_0: p=0.0259$ versus $H_2: p \\neq 0.0259$ B. Test statistic. First check whether the Normal approximation can be used: $n p_0 q_0=(556)(0.02590)(1-0.0259)=14.0$. Therefore, the Normal ( $z$ statistic) method is OK.\n\n$$\n\\begin{aligned}\n& S E_{\\hat{p}}=\\sqrt{\\frac{0.02590 \\cdot(1-0.02590)}{556}}=0.00674 \\\n& z_{\\text {stat }}=(0.0468-0.0259) /(0.00674)=3.10\n\\end{aligned}\n$$\n\nC. $P$-value. $P=0.0020$",
+    "variable": {
+      "observed_deaths": {
+        "id": "observed_deaths",
+        "value": 26,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cancer deaths observed in the cohort of insulation workers."
+      },
+      "expected_incident_cases": {
+        "id": "expected_incident_cases",
+        "value": 14.4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The expected number of cancer incident cases based on national statistics for a cohort of this size and age distribution."
+      },
+      "cohort_size": {
+        "id": "cohort_size",
+        "value": 556,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The size of the cohort of insulation workers."
+      },
+      "null_hypothesis_proportion": {
+        "id": "null_hypothesis_proportion",
+        "value": 0.0259,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The proportion of incident cases under the null hypothesis, calculated as expected cases divided by cohort size."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.15",
+    "image": "",
+    "caption": "Insulation workers.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-371"
+  },
+  "sample_key": "251"
+}

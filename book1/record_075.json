@@ -1,0 +1,22 @@
+{
+  "id": "075",
+  "question": "In Exercise 9.3, you tested $H_0: \mu=50$ based on a sample of $n=36$ showing $\bar{x}=48.8$. The population had standard deviation $\sigma=7.5$.
+(a) What is the one-sided alternative hypothesis for this test?
+(b) Calculate the $z$-statistic for the test.
+(c) Convert the $z_{\text {stat }}$ to a $P$-value, and interpret the results.",
+  "data": "Patient satisfaction. Scores derived from a patient satisfaction survey are Normally distributed with $\mu=50$ and $\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.
+(a) What is the $S E$ of $\\bar{x}$ for these data?
+(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\mu=50$. Sketch the curve that describes the sampling distribution of $\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\pm 1, \pm 2$, and $\pm 3$ standard errors above and below the mean.
+(c) Suppose a sample of $n=36$ finds an $\bar{x}$ of 48.8 . Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
+  "answer": "(a) $H_a: \mu<50$
+(b) $z_{\text {stat }}=\frac{48.8-50}{1.25}=-0.96$
+(c) $P=\operatorname{Pr}(Z<-0.96)=0.1685$. Interpretation: If $H_0$ were correct, results this extreme or more extreme would occur about $17 \%$ of the time (that is, would not be that unusual).",
+  "meta info": {
+    "index": "9.7",
+    "image": "",
+    "caption": "Patient satisfaction (sample mean of 48.8).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_347.json",
+  "input": {
+    "background": "Three examples of ${ }_n C_x=\\frac{n!}{x!(n-x)!}$ are presented.",
+    "data": "",
+    "question": "How many ways can you choose two items out of three?"
+  },
+  "output": {
+    "method": "概率空间相关（如状态数）",
+    "answer": "${ }_3 C_2=\\frac{3!}{2!(3-2)!}=\\frac{3 \\cdot 2 \\cdot 1}{2 \\cdot 1(1)}=\\frac{6}{2}=3$. This means that you can choose two items out of three three different ways-label items $A, B$, and $C$. You can choose \\{A, B\\},\\{A, C\\}, or \\{B, C\\}.",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 3,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Total number of items to choose from."
+      },
+      "x": {
+        "id": "x",
+        "value": 2,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of items to be chosen."
+      },
+      "combination": {
+        "id": "combination",
+        "value": 3,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of ways to choose x items from n items."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial coefficients.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-117"
+  },
+  "sample_key": "373"
+}

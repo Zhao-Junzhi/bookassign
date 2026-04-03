@@ -1,0 +1,38 @@
+{
+  "case_id": "book1_r1\\record_319.json",
+  "input": {
+    "background": "What is the five-point summary and IQR of this small data set? 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94",
+    "data": "",
+    "question": "What is the IQR of the data set?"
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "The IQR = 3.76 - 2.21 = 1.55.",
+    "variable": {
+      "data_set": {
+        "id": "data_set",
+        "value": [
+          1.47,
+          2.06,
+          2.36,
+          3.43,
+          3.74,
+          3.78,
+          3.94
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The small data set for which the five-point summary and IQR are to be calculated."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "JQR (n = 7).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "74-74"
+  },
+  "sample_key": "344"
+}

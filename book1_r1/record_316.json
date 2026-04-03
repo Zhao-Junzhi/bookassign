@@ -1,0 +1,20 @@
+{
+  "background": "Table 3.4 lists fasting cholesterol values (mg/dl) for two groups of men.",
+  "task": [
+    {
+      "query": "Create a back-to-back stemplot of the data using quintuple-split stem values.",
+      "answer": "Here is the back-to-back stemplot of the data using quintuple-split stem values:\n\\begin{gathered}\n\\text{ Group } 1 \\text{ | |Group } 2 \\\\ \\hline|1 \\mathrm{t}| 3 \\\\ |1 \\mathrm{f}| 45 \\\\ |1 \\mathrm{~s}| 67 \\\\ 98|1 .| 8889 \\\\ 110|2 *| 011 \\\\ 33332|2 \\mathrm{t}| 22 \\\\ 55544|2 \\mathrm{f}| 4455 \\\\ 76|2 \\mathrm{~s}| 6 \\\\ 9 \\mid 2 . |\\\\ 1|3 *| \\\\ 2|3 \\mathrm{t}| \\\\ |3 \\mathrm{f}| 4 \\\\ (\\times 100)\n\\end{gathered}\nNotice that the distribution of group 1 is shifted down the axis toward the higher values on the stem showing it to have higher values on average.",
+      "method": "stem-and-leaf plot"
+    }
+  ],
+  "id": "316",
+  "data": "Group 1:\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.4 Fasting cholesterol values (mg/dl) in two groups of men. Group 1 men were classified as type A personalities.}\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline 233 & 291 & 312 & 250 & 246 & 197 & 268 & 224 & 239 & 239 \\\n\\hline 254 & 276 & 234 & 181 & 248 & 252 & 202 & 218 & 212 & 325 \\\n\\hline \\multicolumn{10}{|l|}{Group 2:} \\\n\\hline 344 & 185 & 263 & 246 & 224 & 212 & 188 & 250 & 148 & 169 \\\n\\hline 226 & 175 & 242 & 252 & 153 & 183 & 137 & 202 & 194 & 213 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Back-to-back stemplots.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "49-49"
+  }
+}

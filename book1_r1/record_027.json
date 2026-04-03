@@ -1,0 +1,20 @@
+{
+  "background": "In practice, we normally use statistical calculators or computers to calculate standard deviations.",
+  "task": [
+    {
+      "query": "Using your statistical calculator or computer, calculate the standard deviations and variances for the air samples data originally presented in Table 4.2. Make certain results agree with prior hand-calculations.",
+      "answer": "N/A",
+      "method": "分散程度测度"
+    }
+  ],
+  "id": "027",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+  "meta info": {
+    "index": "4.9",
+    "image": "",
+    "caption": "Standard deviation via technology.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "82-82"
+  }
+}

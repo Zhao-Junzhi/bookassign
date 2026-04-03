@@ -1,0 +1,58 @@
+{
+  "id": "138",
+  "question": "The study described in Exercise 17.14 also kept tabs of whether leaving advanced messages increased the likelihood of ultimately completing the interview. Data for this outcome are tallied in Table 17.8. Perform analyses similar to those requested in the prior exercise. To what extent did the advanced messages increase the response rate?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 17.8 Data for Exercise 17.15. Response to telephone survey according to whether an advanced message was left.}
+\begin{tabular}{lc|c|}
+\hline & \multicolumn{1}{c}{ Completed Survey } & \multicolumn{1}{c}{ Did not complete survey }& \multicolumn{1}{c}{Households } \\
+\cline { 2 - 4 } Message & 134 & 157 & 291 \\
+\cline { 2 - 4 } No message & 33 & 67 & 100 \\
+\hline
+\end{tabular}
+\end{table}
+
+Source: same as Table 17.5.",
+  "answer": "Descriptive statistics
+
+$$
+\begin{aligned}
+& \hat{p}_1=134 / 291=0.4605 \\
+& \hat{p}_2=33 / 100=0.3300
+\end{aligned}
+$$
+
+
+Hypothesis test
+A. Hypotheses. $H_0: p_1=p_2$ versus $H_2: p_1 \neq p_2$
+B. Test statistic.
+
+$$
+\begin{aligned}
+& \bar{p}=0.4271 \\
+& S E=0.05734 \\
+& z_{\text {stat }}=2.28
+\end{aligned}
+$$
+
+C. $\boldsymbol{P}$-value. $P=0.0226$ (significant evidence against the null hypothesis)
+D. Significance level (optional). The evidence against $H_0$ is significant at $\alpha=$ 0.05 but is not significant at $\alpha=0.01$.
+
+Effect size:
+
+$$
+\hat{p}_1-\hat{p}_2=0.4605-0.3300=0.1305 \text { (about } 13 \% \text { ) }
+$$
+
+
+The $95 \%$ confidence interval for $p_1-p_2$ is 0.0196 to 0.2352 , or about $2 \%$ to $24 \%$.
+To what extent did the advanced messages increase the response rate? The $95 \%$ confidence interval suggests that the response rate improved from between $2 \%$ to $24 \%$. A larger sample is needed to more precisely estimate the size of the effect.",
+  "meta info": {
+    "index": "17.15",
+    "image": "",
+    "caption": "Telephone survey response rates.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "404-405"
+  }
+}

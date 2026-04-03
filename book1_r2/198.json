@@ -1,0 +1,55 @@
+{
+  "case_id": "book1_r1\\record_101.json",
+  "input": {
+    "background": "A study of environmental air quality measured suspended particulate matter in air samples at two sites.",
+    "data": "Table 12.9 \"Air samples data\" for Exercises 12.5 and 12.7. Data are suspended particulate matter in air samples ( $\\mu \\mathrm{gms} / \\mathrm{m}^3$ ).\n\n\\begin{tabular}{lllllllll}\n\\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\\\\nSite 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\\\\n\\hline\n\\end{tabular}\n\nData are fictitious and are stored online in the file AIRSAMPLES.SAV.",
+    "question": "Summarize your graphical and numerical findings."
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "The summary statistics confirm that the distributions have similar central locations and that Site 1 has much greater variability.",
+    "variable": {
+      "Site1_ParticulateMatter": {
+        "id": "Site1_ParticulateMatter",
+        "value": [
+          68,
+          22,
+          36,
+          32,
+          42,
+          24,
+          28,
+          38
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Suspended particulate matter measurements from air samples at Site 1."
+      },
+      "Site2_ParticulateMatter": {
+        "id": "Site2_ParticulateMatter",
+        "value": [
+          36,
+          38,
+          39,
+          40,
+          36,
+          34,
+          33,
+          32
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Suspended particulate matter measurements from air samples at Site 2."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.5",
+    "image": "",
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.2 EXPLORATORY AND DESCRIPTIVE STATISTICS",
+    "page": "243-243"
+  },
+  "sample_key": "198"
+}

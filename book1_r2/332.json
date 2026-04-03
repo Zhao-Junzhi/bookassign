@@ -1,0 +1,39 @@
+{
+  "case_id": "book1_r1\\record_312.json",
+  "input": {
+    "background": "Consider these eight data points: 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94, 4.42. Data have three significant digits although only two are needed for plotting.",
+    "data": "",
+    "question": "Determine the spread of the data."
+  },
+  "output": {
+    "method": "分布范围测度",
+    "answer": "Spread: Data spread from about 1.4 to 4.4.",
+    "variable": {
+      "data_points": {
+        "id": "data_points",
+        "value": [
+          1.47,
+          2.06,
+          2.36,
+          3.43,
+          3.74,
+          3.78,
+          3.94,
+          4.42
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "A set of numerical data points used to determine the spread of the data."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Truncating leaf values.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "42-43"
+  },
+  "sample_key": "332"
+}

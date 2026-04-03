@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_351.json",
+  "input": {
+    "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
+    "data": "",
+    "question": "Calculate the expected value of the binomial random variable."
+  },
+  "output": {
+    "method": "期望",
+    "answer": "The expected value of this random variable μ=n p=20 ⋅ 0.04=0.8.",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": 20,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of trials in the binomial distribution."
+      },
+      "p": {
+        "id": "p",
+        "value": 0.04,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Probability of success on each trial in the binomial distribution."
+      },
+      "q": {
+        "id": "q",
+        "value": 0.96,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Probability of failure on each trial in the binomial distribution, calculated as 1-p."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.5  EXPECTED VALUE AND VARIANCE",
+    "page": "123-124"
+  },
+  "sample_key": "382"
+}

@@ -1,0 +1,20 @@
+{
+  "background": "Each of the following batches of numbers has a mean of 100. The task is to determine which batch has the most variability without performing arithmetic calculations.",
+  "task": [
+    {
+      "query": "Which batch (A, B, or C) has the most variability?",
+      "answer": "Batch A has the greatest variability.",
+      "method": "分散程度测度"
+    }
+  ],
+  "id": "026",
+  "data": "",
+  "meta info": {
+    "index": "4.7",
+    "image": "",
+    "caption": "Spread.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "81-82"
+  }
+}

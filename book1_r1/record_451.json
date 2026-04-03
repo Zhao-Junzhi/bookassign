@@ -1,0 +1,25 @@
+{
+  "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
+  "task": [
+    {
+      "query": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk.",
+      "answer": "Therefore, a statistical interaction is said to exist.",
+      "method": "分类或发生概率影响因素解读"
+    },
+    {
+      "query": "Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated.",
+      "answer": "Instead, strata-specific statistics should be reported.",
+      "method": "假设检验"
+    }
+  ],
+  "id": "451",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "475-476"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "028",
+  "question": " Calculate the standard deviations of the batches of numbers here. Which batch has the greatest variability?
+
+\begin{tabular}{llll} 
+Batch A: & 0 years & 1 year & 2 years \\
+Batch B: & 0 months & 12 months & 24 months \\
+Batch C: & 0 days & 365 days & 730 days
+\end{tabular}",
+  "data": "",
+  "answer": "The distributions are identical and are merely expressed in different units. The standard deviations are $s_1=1$ year, $s_2=12$ months, and $s_3=365$ days, respectively.",
+  "meta info": {
+    "index": "4.11",
+    "image": "",
+    "caption": "Units of measure changes numeric values of a standard deviation.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "83-83"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_504.json",
+  "input": {
+    "background": "Among U. S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+    "data": "",
+    "question": "What is the probability a sample will show a prevalence difference of 0.26 or less?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Pr(p̂1-p̂2 ≤ 0.26)=Pr(Z ≤[(0.26-0.28) / 0.01859])=Pr(Z ≤-1.08)= 0.1400 (from Table B in the Appendix).",
+    "variable": {
+      "p1": {
+        "id": "p1",
+        "value": 0.4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Prevalence of smoking among American Indians/Alaska Natives"
+      },
+      "p2": {
+        "id": "p2",
+        "value": 0.12,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Prevalence of smoking among Chinese-Americans"
+      },
+      "n1": {
+        "id": "n1",
+        "value": 1000,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample size of American Indians/Alaska Natives"
+      },
+      "n2": {
+        "id": "n2",
+        "value": 1000,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample size of Chinese-Americans"
+      },
+      "prevalence_difference": {
+        "id": "prevalence_difference",
+        "value": 0.26,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The observed difference in smoking prevalence between the two groups"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  },
+  "sample_key": "579"
+}

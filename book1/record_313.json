@@ -1,0 +1,42 @@
+{
+  "id": "313",
+  "question": "The Irish Department of Health recommends a reading level of 12 to 14 years of age for health information leaflets aimed at the public. Table 3.1 lists reading levels for n = 46 lrish health care Web sites.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 3.1. Reading levels for Irish healthcare web sites ( $n=46$ ).}
+\begin{tabular}{llllllllll}
+\hline 08 & 10 & 11 & 11 & 12 & 13 & 13 & 13 & 13 & 14 \\
+14 & 15 & 15 & 15 & 15 & 15 & 15 & 15 & 16 & 16 \\
+16 & 14 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 \\
+17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 \\
+17 & 17 & 17 & 17 & 17 & 17 & & & & \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "If we imagine that each data point has an invisible " 0 ", plotting these zeros makes this revealing plot:
+```
+08|0
+09|
+10|0
+11|00
+12|0
+13|0000
+14|000
+15|0000000
+16|0
+17|\underline{00}000000000000000000000
+\times1
+```
+
+
+This distribution has a negative skew and a low outlier of 8.0 (shape). The median is 17 (location).  Data range from 8 to 17 (spread).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Irish health care web sites.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "43-44"
+  }
+}

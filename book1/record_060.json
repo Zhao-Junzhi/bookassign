@@ -1,0 +1,39 @@
+{
+  "id": "060",
+  "question": " We've established that heights of 10-yearold boys vary according to a Normal distribution with $\mu=138$ centimeters and $\sigma=7$ centimeters.
+(a) What proportion of this population is less than 150 centimeters tall?
+(b) What proportion is less than 140 centimeters in height?
+(c) What proportion is between 150 and 140 centimeters?",
+  "data": "",
+  "answer": "$$
+X \sim \mathrm{~N}(138,7)
+$$
+
+(a) What proportion of the population is less than 150 centimeters tall?
+
+The four step solution is:
+1. State: We want to determine $\operatorname{Pr}(X<150)$
+2. Standardize: $z=\frac{150-138}{7}=1.71$
+3. Sketch (optional): not shown
+4. Use Table B: $\operatorname{Pr}(Z<1.71)=0.9564$
+(b) What proportion of the population is less than 140 centimeters tall?
+1. State: $\operatorname{Pr}(X<140)$
+2. Standardize: $z=\frac{140-138}{7}=0.29$
+3. Sketch (optional): not shown
+4. Use Table B: $\operatorname{Pr}(Z<0.29)=0.6141$
+(c) What proportion is between 150 and 140 centimeters?
+
+Make use of the fact demonstrated in Figure 7.12 (page 142): $\operatorname{Pr}(140 \leq X \leq 150)=$
+
+$$
+\operatorname{Pr}(X \leq 150)-\operatorname{Pr}(X \leq 140)=0.9564-0.6141=0.3423
+$$",
+  "meta info": {
+    "index": "7.5",
+    "image": "",
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
+  }
+}

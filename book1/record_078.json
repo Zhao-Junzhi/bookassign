@@ -1,0 +1,14 @@
+{
+  "id": "078",
+  "question": "Let us return to the conditions specified in the previous exercise. How large a sample would be needed to detect the proposed difference in gestational lengths with $90 \%$ power at $\alpha=0.05$ (two sided)?",
+  "data": "",
+  "answer": "$n=\frac{\sigma^2\left(z_{1-\beta}+z_{1-\vartheta}\right)^2}{\left(\mu_0-\mu_\alpha\right)^2}=\frac{2^2(1.28+1.96)^2}{(38.5-39)^2}=167.96$. Round this up to 168.",
+  "meta info": {
+    "index": "9.13",
+    "image": "",
+    "caption": "Gestational length, African American women, sample size.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "193-193"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "375",
+  "question": " We select an SRS of $n=712$ from a population of 20-29-year-old men and calculate $\bar{x}=183$ pounds. The population standard deviation ( $\sigma$ ) is 40 . We propose to calculate $90 \%$, $95 \%$, and $99 \%$ confidence intervals for $\mu$ based on this information.",
+  "data": "",
+  "answer": "In each instance, $S E_{\bar{x}}=\frac{\sigma}{\sqrt{n}}=\frac{40}{\sqrt{712}}=1.50$.
+- The $90 \%$ confidence interval for $\mu$ is $\bar{x} \pm\left(z_{1-.10 / 2}\right)(S E \bar{x})=183.0 \pm (1.645)(1.5)=183.0 \pm 2.5=180.5$ to 185.5 (pounds).
+- The $95 \%$ confidence interval for $\mu$ is $\bar{x} \pm\left(z_{1-.05 / 2}\right)(S E \bar{x})=183.0 \pm (1.960)(1.5)=183.0 \pm 2.9=180.1$ to 185.9 (pounds).
+- The $99 \%$ confidence interval for $\mu$ is $\bar{x} \pm\left(z_{1-.01 / 2}\right)($ SE $\bar{x})=183.0 \pm (2.576)(1.5)=183.0 \pm 3.9=179.1$ to 186.9 (pounds).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\mu$ When $\sigma$ Is Known",
+    "page": "201-201"
+  }
+}

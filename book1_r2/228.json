@@ -1,0 +1,86 @@
+{
+  "case_id": "book1_r1\\record_115.json",
+  "input": {
+    "background": "Exercise 14.1 introduced data for a cross-sectional survey of bicycle helmet use in Northern California. Table 14.5 lists the data. Exercise 14.1(a) revealed that observation 13 (Los Arboles) was an outlier.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Use the $95 \\%$ confidence interval to predict whether the slope is significant at $\\alpha=0.05$."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "",
+    "variable": {
+      "P_RFM": {
+        "id": "P_RFM",
+        "value": [
+          50,
+          11,
+          2,
+          19,
+          26,
+          73,
+          81,
+          51,
+          11,
+          2,
+          19,
+          25,
+          84
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "Percent of school children receiving free or reduced-fee lunches at school."
+      },
+      "P_HELM": {
+        "id": "P_HELM",
+        "value": [
+          22.1,
+          35.9,
+          57.9,
+          22.2,
+          42.4,
+          5.8,
+          3.6,
+          21.4,
+          55.2,
+          33.3,
+          32.4,
+          38.4,
+          46.6
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Percent of bicycle riders wearing a helmet."
+      },
+      "School": {
+        "id": "School",
+        "value": [
+          "Fair Oaks",
+          "Strandwood",
+          "Walnut Acres",
+          "Discov. Bay",
+          "Belshaw",
+          "Kennedy",
+          "Cassell",
+          "Miner",
+          "Sedgewick",
+          "Sakamoto",
+          "Toyon",
+          "Lietz",
+          "Los Arboles"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Name of the school where data was collected."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.3",
+    "image": "",
+    "caption": "Bicycle helmet use, n = 12.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "325-326"
+  },
+  "sample_key": "228"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "136",
+  "question": "It is important to develop a detailed plan of study early in the development of an investigation. One part of the plan is to assure adequacy of the sample size. Consider a test of $H_0: p_1=p_2$ against $H_{\mathrm{a}}: p_1 \neq p_2$ at $\alpha=0.05$ with a power that is equal to 0.80 . We predict that $20 \%$ of group 1 and $30 \%$ of group 2 will experience the outcome. If we recruit an equal number of individuals in each of the groups, how many individuals do we need to study?",
+  "data": "",
+  "answer": "Without continuity-correction, $n_1=n_2=294$ (588 total).
+With continuity-correction, $n_1=n_2=313$ (626 total).",
+  "meta info": {
+    "index": "17.11",
+    "image": "",
+    "caption": "Sample-size plan.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
+  }
+}

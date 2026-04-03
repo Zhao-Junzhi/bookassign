@@ -1,0 +1,30 @@
+{
+  "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+  "task": [
+    {
+      "query": "What is wrong with the hypothesis statement $H_0: \\mu=100$ vs. $H_a: \\mu \\neq 110$?",
+      "answer": "The null and alternative hypotheses must be set up so that either $H_0$ or $H_a$ is true. Here, it is possible for neither to be true.",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "What is wrong with the hypothesis statement $H_0: \\bar{x}=100$ vs. $H_a: \\bar{x}<100$?",
+      "answer": "Hypotheses must address the parameter (for example, $\\mu$ ), not the statistic (for example, $\\bar{x}$ ).",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "What is wrong with the hypothesis statement $H_0: \\hat{p}=0.50$ vs. $H_a: \\hat{p} \\neq 0.50$?",
+      "answer": "Same problem as we identified in (b). These hypothesis statements address sample statistic $\\hat{p}$. They should address population parameter $p$.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "073",
+  "data": "",
+  "meta info": {
+    "index": "9.1",
+    "image": "",
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
+  }
+}

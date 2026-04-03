@@ -1,0 +1,61 @@
+{
+  "case_id": "book1_r1\\record_140.json",
+  "input": {
+    "background": "A double-blind randomized trial compared cefaclor to amoxicillin in the treatment of acute otitis media in children. There was no difference in clinical failure rates (all but four children in each group had a good clinical response), but after 14 days, 59 (55.7%) of 106 cefaclor treated subjects had effusion-free ears compared to 40 of the 97 amoxicillin treated subjects.",
+    "data": "",
+    "question": "Determine whether the effusion-free rates differed significantly in the groups. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "A. Hypotheses. H_0: p_1=p_2 versus H_a: p_1 ≠ p_2 B. Test statistic. z_{ext {stat }}=2.054 C. P-value. P=0.040 (good evidence against H_0 ) D. Significance level (optional). The evidence against the null hypothesis is significant at α=0.05.",
+    "variable": {
+      "treatment_group": {
+        "id": "treatment_group",
+        "value": [
+          "cefaclor",
+          "amoxicillin"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The treatment group to which the subjects were assigned, either cefaclor or amoxicillin."
+      },
+      "effusion_free_count_cefaclor": {
+        "id": "effusion_free_count_cefaclor",
+        "value": 59,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of subjects in the cefaclor group who had effusion-free ears after 14 days."
+      },
+      "total_cefaclor": {
+        "id": "total_cefaclor",
+        "value": 106,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of subjects in the cefaclor group."
+      },
+      "effusion_free_count_amoxicillin": {
+        "id": "effusion_free_count_amoxicillin",
+        "value": 40,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of subjects in the amoxicillin group who had effusion-free ears after 14 days."
+      },
+      "total_amoxicillin": {
+        "id": "total_amoxicillin",
+        "value": 97,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of subjects in the amoxicillin group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.19",
+    "image": "",
+    "caption": "Acute otitis media.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
+  },
+  "sample_key": "274"
+}

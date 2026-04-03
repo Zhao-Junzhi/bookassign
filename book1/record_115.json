@@ -1,0 +1,66 @@
+{
+  "id": "115",
+  "question": "Exercise 14.1 introduced data for a crosssectional survey of bicycle helmet use in Northern California. Table 14.5 lists the data. Exercise 14.1(a) revealed that observation 13 (Los Arboles) was an outlier.
+(a) After eliminating the outlier from the data set ( $n$ is now equal to 12), calculate least squares regression coefficients $a$ and $b$. Interpret these statistics.
+(b) Calculate the $95 \%$ confidence interval for slope parameter $\beta$.
+(c) Use the $95 \%$ confidence interval to predict whether the slope is significant at $\alpha=0.05$.
+(d) Optional: Determine the residuals for each of the 12 data points in the analysis. Plot these residuals as a stemplot. Check for major departures from Normality.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}
+\begin{tabular}{|l|l|l|l|}
+\hline i & School & P_RFM & P_HELM \\
+\hline 1 & Fair Oaks & 50 & 22.1 \\
+\hline 2 & Strandwood & 11 & 35.9 \\
+\hline 3 & Walnut Acres & 2 & 57.9 \\
+\hline 4 & Discov. Bay & 19 & 22.2 \\
+\hline 5 & Belshaw & 26 & 42.4 \\
+\hline 6 & Kennedy & 73 & 5.8 \\
+\hline 7 & Cassell & 81 & 3.6 \\
+\hline 8 & Miner & 51 & 21.4 \\
+\hline 9 & Sedgewick & 11 & 55.2 \\
+\hline 10 & Sakamoto & 2 & 33.3 \\
+\hline 11 & Toyon & 19 & 32.4 \\
+\hline 12 & Lietz & 25 & 38.4 \\
+\hline 13 & Los Arboles & 84 & 46.6 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "(a) Regression coefficients
+
+$$
+\begin{aligned}
+& a=47.490 \\
+& b=-0.539
+\end{aligned}
+$$
+
+
+Interpretation of $b$ : For each additional "percent children receiving reduced-fee or free meals," the model predicts a 0.5 percent decline in bicycle helmet use.
+Interpretation of $a$ : This is where the regression line would cross the $Y$ axis, that is, where $x=0$.
+(b) The $95 \% \mathrm{CI}$ for $\beta=(-0.775$ to -0.303$)$.
+(c) The slope is significant at $\alpha=0.05$ because the $95 \%$ confidence interval does not include 0 .
+(d) Here is the stemplot of residuals:
+
+$$
+\begin{aligned}
+& -1 \mid 35 \\
+& -0 \mid 0245 \\
+& 0 \mid 1148 \\
+& 1 \mid 13 \\
+& \times 10
+\end{aligned}
+$$
+
+
+There are no major departure from Normality.",
+  "meta info": {
+    "index": "14.3",
+    "image": "",
+    "caption": "Bicycle helmet use, n = 12.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "325-326"
+  }
+}

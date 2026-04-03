@@ -1,0 +1,30 @@
+{
+  "background": "Identify whether the studies described here are based on single samples, paired samples, or independent samples.",
+  "task": [
+    {
+      "query": "An investigator compares vaccination histories in 30 autistic schoolchildren to an SRS of nonautistic children from the same school district.",
+      "answer": "Independent samples",
+      "method": "独立性检验"
+    },
+    {
+      "query": "Cardiovascular disease risk factors are compared in husbands and wives.",
+      "answer": "Paired samples",
+      "method": "均值检验"
+    },
+    {
+      "query": "A nutritional exam is applied to a random sample of individuals. Results are compared to expected means and proportions.",
+      "answer": "Single sample",
+      "method": "均值检验"
+    }
+  ],
+  "id": "099",
+  "data": "",
+  "meta info": {
+    "index": "12.1",
+    "image": "",
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "303",
+  "question": "Suppose a high school population has 600 students and you want to choose three students at random from this population. To select an SRS of n = 3:",
+  "data": "",
+  "answer": "1. Get a roster of the school. Assign each student a unique identifier 1 through 600.
+2. Enter Table $A$ at (say) line 15. Line 15 starts with these digits:
+
+$$
+\begin{array}{lllll}
+76931 & 95289 & 55809 & 19381 & 56686
+\end{array}
+$$
+
+3. The first six triplets of numbers in this line are: $769,319,528,955$, 809, and 193.
+4. The first triplet (769) is excluded because there is no individual with that number in the population. The next two triplets ( 319 and 528) identify the first two students to enter the sample. The next two triplets $(955,809)$ are not relevant. The last student to enter the sample is student 193.
+
+The final sample is composed of students with the IDs 319,528, and 193.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Selecting a simple random sample.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "17-18"
+  }
+}

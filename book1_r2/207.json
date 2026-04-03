@@ -1,0 +1,79 @@
+{
+  "case_id": "book1_r1\\record_107.json",
+  "input": {
+    "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3(s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3(s2=0.025 g/cm^3).",
+    "data": "",
+    "question": "Calculate the 95% confidence interval for μ1−μ2."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "SE=0.00356. The 95% CI for μ1−μ2=(-0.0040 to 0.0100) g/cm^3",
+    "variable": {
+      "mean_smoking": {
+        "id": "mean_smoking",
+        "value": 0.098,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean bone mineral content (g/cm^3) for infants of mothers who smoked."
+      },
+      "sd_smoking": {
+        "id": "sd_smoking",
+        "value": 0.026,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of bone mineral content (g/cm^3) for infants of mothers who smoked."
+      },
+      "n_smoking": {
+        "id": "n_smoking",
+        "value": 77,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of infants whose mothers smoked."
+      },
+      "mean_non_smoking": {
+        "id": "mean_non_smoking",
+        "value": 0.095,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean bone mineral content (g/cm^3) for infants of mothers who did not smoke."
+      },
+      "sd_non_smoking": {
+        "id": "sd_non_smoking",
+        "value": 0.025,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of bone mineral content (g/cm^3) for infants of mothers who did not smoke."
+      },
+      "n_non_smoking": {
+        "id": "n_non_smoking",
+        "value": 161,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of infants whose mothers did not smoke."
+      },
+      "mean_difference": {
+        "id": "mean_difference",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Difference in mean bone mineral content (μ1−μ2) between infants of mothers who smoked and those who did not smoke."
+      },
+      "confidence_interval": {
+        "id": "confidence_interval",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "95% confidence interval for the difference in mean bone mineral content (μ1−μ2)."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.17",
+    "image": "",
+    "caption": "Bone density in newborns.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-257"
+  },
+  "sample_key": "207"
+}

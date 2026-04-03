@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_052.json",
+  "input": {
+    "background": "A telephone survey uses a random digit dialing machine to call subjects. The random digit dialing machine is expected to reach a live person 15% of the time.",
+    "data": "",
+    "question": "In eight attempts, what is the probability of achieving exactly two successful calls?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$\\begin{aligned} & X \\sim b(8,0.15) \\\\ & \\operatorname{Pr}(X=2)=0.237604\\end{aligned}$",
+    "variable": {
+      "success_probability": {
+        "id": "success_probability",
+        "value": 0.15,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The probability of reaching a live person in a single call attempt."
+      },
+      "total_attempts": {
+        "id": "total_attempts",
+        "value": 8,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The total number of call attempts made."
+      },
+      "successful_calls": {
+        "id": "successful_calls",
+        "value": 2,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of successful calls where a live person is reached."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "6.5",
+    "image": "",
+    "caption": "Telephone survey.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.4 Probability Calculators",
+    "page": "122-122"
+  },
+  "sample_key": "93"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "123",
+  "question": " Use the plus-four method to calculate a $95 \%$ confidence interval for the prevalence of multiple sexual partners in adult heterosexuals using the information in Exercise 16.1. Recall that 170 of the 2,673 subjects reported this behavior.",
+  "data": "16.1 AIDS-related risk factor. A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months. 
+(a) Describe the population to which inferences will be made. What population parameter will be estimated? Calculate the prevalence of multiple sexual partners in the sample.
+(b) Practical problems of bias can pose a threat to the validity of a study of this type. What specific types of selection biases might evolve from the sampling method used by this study?
+(c) This study relied on the truthfulness of responses. Although the investigators tried their best to make respondents feel comfortable, they could not be assured information was fully accurate. If an information bias existed in responses, hypothesize whether it would tend to overestimate or underestimate the prevalence of the risk factor.",
+  "answer": "$$
+\begin{aligned}
+& \tilde{n}=2677 \\
+& p=\frac{172}{2677}=0.0643 \\
+& \tilde{q}=1-\tilde{p}=1-0.0643=0.9357
+\end{aligned}
+$$
+
+
+$$
+S E_{\tilde{p}}=\sqrt{\frac{(0.0643)(0.9357)}{2677}}=0.004739
+$$
+
+
+The $95 \%$ confidence interval for $p=0.0643 \pm(1.96)(0.0047)=0.0643 \pm 0.0093=$ (0.055 to 0.074 ) or $(5.5 \%$ to $7.4 \%)$.",
+  "meta info": {
+    "index": "16.9",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "366-366"
+  }
+}

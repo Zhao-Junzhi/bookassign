@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_113.json",
+  "input": {
+    "background": "Exercises 13.1, 13.3, and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against $H_0 (P=0.042)$. Now apply a Kruskal-Wallis test. Show all hypothesis-testing steps. Are the Kruskal-Wallis results consistent with the ANOVA results?",
+    "data": "",
+    "question": "Apply a Kruskal-Wallis test and show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "A. Hypotheses. $H_0$ : birth weight distributions in the four populations are equal in location versus $H_2$ : the birth weight in at least one of the populations differs\nB. Test statistic. Chi-square $=7.305$ with $3 d f$ (Calculated with SPSS, Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\nC. $\boldsymbol{P}$-value. $P=0.063$",
+    "variable": {
+      "birth_weight": {
+        "id": "birth_weight",
+        "value": "Values of birth weights from four groups of mothers",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Birth weight of infants categorized by the group of mothers"
+      },
+      "mother_group": {
+        "id": "mother_group",
+        "value": "Four groups of mothers",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Categorical variable indicating the group of mothers"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "13.7",
+    "image": "",
+    "caption": "Smoking and birth weight, Kruskal-Wallis test.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.6 INTRODUCTION TO NONPARAMETRIC TESTS",
+    "page": "292-292"
+  },
+  "sample_key": "219"
+}

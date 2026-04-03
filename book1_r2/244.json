@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_120.json",
+  "input": {
+    "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
+    "data": "",
+    "question": "Practical problems of bias can pose a threat to the validity of a study of this type. What specific types of selection biases might evolve from the sampling method used by this study?"
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "Examples of selection biases that may be pertinent: (1) Specific high risk groups (for example, homeless, intravenous drug users) may not have permanent telephone lines and may be underrepresented in the sample. (2) Nonresponse should be scrutinized.",
+    "variable": {
+      "Sample_Size": {
+        "id": "Sample_Size",
+        "value": 2673,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of heterosexual adults in the sample."
+      },
+      "Multiple_Partners": {
+        "id": "Multiple_Partners",
+        "value": 170,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of participants who reported having two or more sexual partners in the past 12 months."
+      },
+      "Sampling_Method": {
+        "id": "Sampling_Method",
+        "value": "random-digit dialing",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The method used to contact study participants."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.1",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.1 PROPORTIONS",
+    "page": "351-352"
+  },
+  "sample_key": "244"
+}

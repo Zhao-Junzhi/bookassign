@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_053.json",
+  "input": {
+    "background": "The prevalence of a trait is 76.8%.",
+    "data": "",
+    "question": "What is the probability of seeing nine or more individuals with this characteristic in an SRS of $n=10$?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$\\operatorname{Pr}(X \\geq 9)=\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10)=0.2156+0.0714=0.28710$",
+    "variable": {
+      "prevalence": {
+        "id": "prevalence",
+        "value": 0.768,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The proportion of individuals in the population with the characteristic."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 10,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the simple random sample (SRS)."
+      },
+      "threshold": {
+        "id": "threshold",
+        "value": 9,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The minimum number of individuals with the characteristic in the sample for the probability calculation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "6.9",
+    "image": "",
+    "caption": "Prevalence 76.8 %.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "127-127"
+  },
+  "sample_key": "96"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "159",
+  "question": " Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.
+(a) Table 19.10 A cross tabulates acceptance by gender for both majors combined. What proportion of male applicants were accepted? What proportion of female applicants were accepted? What is your initial impression?
+(b) Table 19.10B cross tabulates data for major 1. Did males fare better than females in this major?
+(c) Table 19.10 C cross tabulates data for major 2 . What is the experience in this stratum?
+(d) Was there sex bias in graduate school admissions? Did it favor male or female applicants?
+(e) Explain why the crude analysis (part a) produced a faulty conclusion.
+(f) Calculate the relative incidence ("relative risk") of acceptance by gender in major 1. Do the same for major 2. Test these relative risks for heterogeneity. Show all hypothesis-testing steps. Was an interaction present?
+(g) Calculate the Mantel-Haenszel summary relative risk for acceptance by gender adjusting for major. In relative terms, to what extent were male applicants less likely to be accepted?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}
+\begin{tabular}{|l|l|l|l|}
+\hline \multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\
+\hline & + & - & Total \\
+\hline Male & 534  & 664 & 1198 \\
+\hline Female & 113 & 336 & 449 \\
+\hline \multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\
+\hline & + & - & Total \\
+\hline Male & 512 & 313 & 825 \\
+\hline Female & 89 & 19 & 108 \\
+\hline \multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\
+\hline & + & - & Total \\
+\hline Male & 22 & 351 & 373 \\
+\hline Female & 24 & 317 & 341 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "(a) Crude analysis
+
+$$
+\begin{aligned}
+& \hat{P}_{\text {males }}=534 / 1198=0.4457 \text { or about } 45 \% \\
+& \hat{P}_{\text {errales }}=113 / 449=0.2517 \text { or about } 25 \% \\
+& \widehat{R R}=\frac{0.4457}{0.2517}=1.77
+\end{aligned}
+$$
+
+(b) Applicants for major 1
+
+$$
+\begin{aligned}
+& \hat{P}_{\text {males }}=512 / 825=0.6206 \text { about } 62 \% \\
+& \hat{P}_{\text {females }}=89 / 108=0.8241 \text { about } 82 \%
+\end{aligned}
+$$
+
+
+Major 1 favors female applicants
+
+(c) Applicants for major 2
+
+$$
+\begin{aligned}
+& \hat{P}_{\text {males }}=22 / 373=0.0590 \text { or about } 6 \% \\
+& \hat{P}_{\text {lemales }}=24 / 341=0.070 \text { or about } 7 \%
+\end{aligned}
+$$
+
+
+Major 2 favors female applicants.
+(d) There is a slight bias for female applicants.
+(e) The initial analysis was confounded because males tended to apply to major 1. Major 1 had a high acceptance rate ( 601 of $933=64 \%$ ), while major 2 had a low acceptance rate ( 46 of $714=6 \%$ ).
+(f) Relative incidence of acceptance for males by major
+
+$$
+\begin{aligned}
+& \widehat{R R}_1=0.753 \\
+& \widehat{R R}_2=0.838
+\end{aligned}
+$$
+
+
+Test for interaction
+A. Hypotheses. $H_0: R R_1=R R_2$ (no interaction) versus $H_2: R R_1 \neq R R_2$ (interaction)
+B. Test statistic. $X^2{ }_{\text {sat.int }}=0.136$ with $d f=1$
+C. $P$-value. $P=0.713$ (no significant difference in strata-specific relative risk estimates; no significant interaction).
+(g) $\widehat{R R}_{\text {MH }}=0.77$. After adjusting for major, male applicants were $23 \%$ less likely to be accepted than female applicants.",
+  "meta info": {
+    "index": "19.5",
+    "image": "",
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
+  }
+}

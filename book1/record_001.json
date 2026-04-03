@@ -1,0 +1,32 @@
+{
+  "id": "001",
+  "question": "In Table 1.2, what is the value of the LUNGCA variable for the seventh observation? What is the value of the COUNTRY variable for the eleventh observation?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 1.2 Per capita cigarette consumption in 1930 (CIG1930) and lung cancer cases per 100,000 in 1950 (lungca) in 11 countries.}
+\begin{tabular}{|l|l|l|}
+\hline COUNTRY & CIG1930 & LUNGCA \\
+\hline USA & 1300 & 20 \\
+\hline Great Britain & 1100 & 46 \\
+\hline Finland & 1100 & 35 \\
+\hline Switzerland & 510 & 25 \\
+\hline Canada & 500 & 15 \\
+\hline Holland & 490 & 24 \\
+\hline Australia & 480 & 18 \\
+\hline Denmark & 380 & 17 \\
+\hline Sweden & 300 & 11 \\
+\hline Norway & 250 & 9 \\
+\hline Iceland & 230 & 6 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "The value of LUNGCA for the seventh observation is 18 . The value of COUNTRY for the 11th observation is Iceland.",
+  "meta info": {
+    "index": "1.1",
+    "image": "",
+    "caption": "Value, variable, observation.",
+    "chapter": "Measurement",
+    "section": "1.2 Organization of Data",
+    "page": "4-4"
+  }
+}

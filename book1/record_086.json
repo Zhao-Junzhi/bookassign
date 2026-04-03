@@ -1,0 +1,14 @@
+{
+  "id": "086",
+  "question": "The term critical value is often used to refer to the value of a test statistic that determines statistical significance at some fixed $\alpha$ level for a test. For example, $\pm 1.96$ are the critical values for a two-tailed $z$ test at $\alpha=0.05$. In performing a $t$ test based on 21 observations, what are the critical values for a one-tailed test when $\alpha=0.05$ ? That is, what values of the $t_{\text {stat }}$ will give a onesided $P$-value that is less than or equal to 0.05 ? What are the critical values for a two-tailed test at $\alpha=0.05$ ?",
+  "data": "",
+  "answer": "First note that $d f=21-1=20$. For a one-sided test we get a $P$-value less than 0.05 when the $t_{\\text {stat }}$ is either less than -1.725 or more than 1.725 , that is, $\\left|t_{\\text {stat }}\\right| \\geq 1.725$. For a two-tailed test, we get a $P$-value less than 0.05 when the $t_{\\text {stat }}$ is either less than -2.086 or more than 2.086, that is, $\\left|t_{\\text {stat }}\\right| \\geq 2.086$.",
+  "meta info": {
+    "index": "11.9",
+    "image": "",
+    "caption": "Critical values for a t statistic.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "216-216"
+  }
+}

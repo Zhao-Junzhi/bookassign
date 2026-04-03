@@ -1,0 +1,54 @@
+{
+  "case_id": "book1_r1\\record_125.json",
+  "input": {
+    "background": "In a case-controlled study on cerebral tumors and cell phone use, tumors occurred more frequently on the same side of the head where cellular telephones had been used in 26 of 41 cases.",
+    "data": "",
+    "question": "Test the hypothesis that there is an equal distribution of contralateral and ipsilateral tumors in the population. Use a two-sided alternative. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "A. Hypotheses. $H_0: p=1 / 2$ against $H_2: p \\neq 1 / 2$\n\nB.\n$$\n\\begin{aligned}\n& \\text{Test statistic. } SE=\\sqrt{\\frac{0.5 \\cdot 0.5}{41}} \\\\\n& \\hat{p}=\\frac{26}{41}=0.6341 \\\\\n& z_{\\text{stat }}=\\frac{0.6341-0.5}{0.078087}=1.72\n\\end{aligned}\n$$\n\nC. $P$-value. $P=0.085$ via Table $F$ in the Appendix. Results suggest that evidence against $H_0$ is marginally significant (by usual conventions).\n\nD. Significance level (optional). The results are significant at $\\alpha=0.10$ (reject $H_0$) but not significant at $\\alpha=0.05$ (retain $H_0$).",
+    "variable": {
+      "tumor_side": {
+        "id": "tumor_side",
+        "value": [
+          "contralateral",
+          "ipsilateral"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The side of the head where the tumor occurred, categorized as contralateral or ipsilateral relative to cell phone use."
+      },
+      "tumor_count_ipsilateral": {
+        "id": "tumor_count_ipsilateral",
+        "value": 26,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases where the tumor occurred on the same side of the head as cell phone use (ipsilateral)."
+      },
+      "tumor_count_contralateral": {
+        "id": "tumor_count_contralateral",
+        "value": 15,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases where the tumor occurred on the opposite side of the head as cell phone use (contralateral)."
+      },
+      "total_cases": {
+        "id": "total_cases",
+        "value": 41,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of cases included in the study."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.13",
+    "image": "",
+    "caption": "Cerebral tumors and cell phone use.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-370"
+  },
+  "sample_key": "250"
+}

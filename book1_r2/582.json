@@ -1,0 +1,56 @@
+{
+  "case_id": "book1_r1\\record_505.json",
+  "input": {
+    "background": "Air samples were collected on eight successive days at two different sites. Particulate matter was measured in these samples as an index of environmental quality.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "Analyze the variability of readings at both sites using stemplots."
+  },
+  "output": {
+    "method": "stem-and-leaf plot",
+    "answer": "Side-by-side stemplots reveal different pictures, with much greater variability of readings at site 1.",
+    "variable": {
+      "Day": {
+        "id": "Day",
+        "value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The sequence of days on which air samples were collected."
+      },
+      "Site": {
+        "id": "Site",
+        "value": [
+          "Site 1",
+          "Site 2"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The locations where air samples were collected."
+      },
+      "Particulate Matter": {
+        "id": "Particulate Matter",
+        "value": "Values for particulate matter measurements at each site for each day",
+        "class": "numerical",
+        "role": "both",
+        "description": "The measured particulate matter in air samples, used as an index of environmental quality."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Importance of spread (Air samples).",
+    "chapter": "Summary Statistics",
+    "section": "4.5 Spread: Quartiles",
+    "page": "71-72"
+  },
+  "sample_key": "582"
+}

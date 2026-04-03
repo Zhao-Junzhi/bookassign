@@ -1,0 +1,20 @@
+{
+  "background": "Suppose you want to test $H_0: \\mu_1=\\mu_2$ for the cholesterol illustrative example at $\\alpha=$ 0.05 (two-sided) with $90 \\%$ power. You are looking for a mean difference of $1 \\mathrm{mmol} / \\mathrm{L}$ and will use the pooled estimate of variance (about 0.25 ) as a reasonable estimate of $\\sigma^2$.",
+  "task": [
+    {
+      "query": "How many individuals must be studied to achieve these conditions?",
+      "answer": "For $90 \\%$ power, $z_{1-\\beta}=z_{.90}=1.282$. For a two-sided test at $\\alpha= 0.05, z_{1-(\\alpha / 2)}=z_{.975}=1.96$ [Appendix Table B]. Given these conditions, $$ n=\\frac{2 \\sigma^2\\left(z_{1-\\beta}+z_{1-\\frac{\\alpha}{2}}\\right)^2}{\\Delta^2}=\\frac{2 \\cdot 0.25 \\cdot(1.282+1.96)^2}{1^2}=5.26 . \\text { Because } n $$ is small, apply correction factor $f=(d f+3) /(d f+1)$ to this result. With 5.26 per group, $d f_1$ and $d f_2=4.26$. Therefore, $d f=d f_1+d f_2=4.26+ 4.26=8.52$ and adjustment factor $f=(8.52+3) /(8.52+1)=1.21$. Applying the correction derives $n=1.21 \\times 5.26=6.36$. Round this up to seven and resolve to use a minimum of seven individuals per group.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "396",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement for hypothesis test.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "252-252"
+  }
+}

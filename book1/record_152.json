@@ -1,0 +1,25 @@
+{
+  "id": "152",
+  "question": "Consider a study in which 40 of 320 individuals (12.5%) in the treatment group experience an outcome. In contrast, 26 of 336 (7.7%) of the individuals in the control group experience the outcome. Table 18.28 displays the data in crosstabulated form. Calculate chi-square statistics and P-values for this problem using both the Pearson’s and continuity-corrected (Yates’) chi-square statistics. (If your instructor allows, consider using a software program such as WinPepi's Compare2.exe program to calculate results.) Interpret the results of the tests. Is it reasonable to derive different conclusions from these different test statistics?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.28 Data for Exercise 18.23.}
+\begin{tabular}{|l|l|l|l|}
+\hline \multirow{2}{*}{} & \multicolumn{2}{|l|}{Adverse event} & \multirow[b]{2}{*}{Total} \\
+\hline & Yes & No & \\
+\hline Treatment & 40 & 280 & 320 \\
+\hline Control & 26 & 310 & 336 \\
+\hline Total & 66 & 590 & 656 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "Without continuity-correction: $X^2{ }_{\\text {stat }}=4.107, d f=1, P=0.043$\nWith continuity-correction: $X^2{ }_{\\text {stat, } \\mathrm{c}}=3.598, d f=1, P=0.058$\n\n\nIt would not be reasonable to derive different conclusions. Data are identical, and there is nothing sacred about $\\alpha=0.05$.",
+  "meta info": {
+    "index": "18.23",
+    "image": "",
+    "caption": "Don’t sweat the small stuff.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "458-458"
+  }
+}

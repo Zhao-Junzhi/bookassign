@@ -1,0 +1,38 @@
+{
+  "id": "505",
+  "question": "Air samples were collected on eight successive days at two different sites. Particulate matter was measured in these samples $\left(\mu \mathrm{g} / \mathrm{m}^3\right)$ as an index of environmental quality. Table 4.2 lists the data for the two sites.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 4.2 Data for "Air samples" illustrative example. Particulates in air samples on successive days at two sites $\left(\mu \mathrm{g} / \mathrm{m}^3\right)$.}
+\begin{tabular}{lllllllll}
+\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\
+Site 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "To the nearest unit, both sites have means of $36 \mu \mathrm{~g} / \mathrm{m}^3$. However, side-by-side stemplots reveal different pictures:
+
+Site 1| |Site 2
+    42 |2|
+        8|2|
+        2 |3 |234
+    86 |3 6689
+        2 |4|0
+            |4|
+            |5|
+            |5|
+            |6|
+        8|6|
+            \times10
+
+
+Notice how there is much greater variability of readings at site 1 . One particular reading at site 1 was very high ( $68 \mu \mathrm{~g} / \mathrm{m}^3$ ), indicating a very "dirty" day. It is this type of occurrence that can be hazardous, especially for individuals with compromised cardiorespiratory function.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Importance of spread (Air samples).",
+    "chapter": "Summary Statistics",
+    "section": "4.5 Spread: Quartiles",
+    "page": "71-72"
+  }
+}

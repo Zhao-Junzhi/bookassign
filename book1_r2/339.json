@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_317.json",
+  "input": {
+    "background": "The duration of 15 complex surgical procedures is presented in a stemplot format.",
+    "data": "",
+    "question": "What is the median of the distribution shown in the stemplot?"
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "The median of this distribution is 2.8 (underlined).",
+    "variable": {
+      "surgical_procedure_duration": {
+        "id": "surgical_procedure_duration",
+        "value": "The durations of 15 complex surgical procedures as shown in the stemplot (specific values are not explicitly provided in the problem statement, but they are implied to be numerical data extracted from the stemplot).",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The durations of 15 complex surgical procedures, which are the primary data of interest for calculating the median."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Comparison of mean, median, and mode.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.2  CENTRAL LOCATION: MEDIAN",
+    "page": "69-69"
+  },
+  "sample_key": "339"
+}

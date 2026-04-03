@@ -1,0 +1,21 @@
+{
+  "case_id": "book1_r1\\record_320.json",
+  "input": {
+    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "Compare the variability of data between site 1 and site 2 using IQR."
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "Data are less variable at site 2 (IQR: 14 vs. 5)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "IQRs (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES ",
+    "page": "75-75"
+  },
+  "sample_key": "347"
+}

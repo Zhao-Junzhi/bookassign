@@ -1,0 +1,30 @@
+{
+  "background": "For the illustrative data, we have established \\(\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725\\) and \\(r=0.737\\).",
+  "task": [
+    {
+      "query": "Calculate the slope coefficient \\(b\\) using the correlation \\(r\\) and standard deviations \\(s_Y\\) and \\(s_X\\).",
+      "answer": "The slope coefficient \\(b=r \\frac{s_Y}{s_X}=0.737 \\cdot \\frac{11.725}{378.451}=0.02284\\).",
+      "method": "获取模型参数估计值"
+    },
+    {
+      "query": "Calculate the intercept coefficient \\(a\\) using the slope \\(b\\) and means \\(\\bar{x}\\) and \\(\\bar{y}\\).",
+      "answer": "The intercept coefficient \\(a=\\bar{y}-b \\bar{x}=20.55-(0.02284)(603.64)=6.76\\).",
+      "method": "获取模型参数估计值"
+    },
+    {
+      "query": "Establish the regression model \\(\\hat{y}\\).",
+      "answer": "The regression model is \\(\\hat{y}=6.76+0.0228 x\\).",
+      "method": "获取模型参数估计值"
+    }
+  ],
+  "id": "410",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Regression coefficients.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "313-314"
+  }
+}

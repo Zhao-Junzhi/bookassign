@@ -1,0 +1,25 @@
+{
+  "background": "Exercise 17.4 considered a randomized trial of smoking cessation in which treatment with bupropion in combination with a nicotine patch was compared to use of a nicotine patch alone. The treatment group had success in 87 of 245 participants. The control group had successes in 40 of 244 participants.",
+  "task": [
+    {
+      "query": "Calculate the difference in proportions and a $95 \\%$ confidence interval for $p_1- p_2$.",
+      "answer": "$$\\begin{aligned} & \\hat{p}_1=87 / 245=0.3551 \\ & \\hat{p}_2=40 / 244=0.1639 \\ & \\hat{p}_1-\\hat{p}_2=0.1912 \\end{aligned}$$\n\nConfidence interval by the plus-four method:\n\n$$\\begin{aligned} & \\ilde{p}_1=0.3563 \\ & \\bar{q}_1=0.6437 \\ & \\ilde{n}_1=247 \\ & \\ilde{p}_2=0.1667 \\ & \\bar{q}_2=0.8333 \\ & \\bar{n}_2=246 \\ & S E=0.03864 \\ & 95 \\% \\text { CI for } p_1-p_2=(0.3563-0.1167) \\pm(1.96)(0.03864)=0.1896 \\pm 0.0758= \\ & (0.1138,0.2654) . \\end{aligned}$$",
+      "method": "均值检验"
+    },
+    {
+      "query": "Why is this confidence interval more useful than the hypothesis test results calculated in Exercise 17.4?",
+      "answer": "What useful information do these statistics add...? The size of the effect is estimated. (The hypothesis test merely addressed chance as an explanation for any effect.)",
+      "method": "均值检验"
+    }
+  ],
+  "id": "137",
+  "data": "",
+  "meta info": {
+    "index": "17.13",
+    "image": "",
+    "caption": "Smoking cessation trial.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
+  }
+}

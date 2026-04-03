@@ -1,0 +1,61 @@
+{
+  "case_id": "book1_r1\\record_058.json",
+  "input": {
+    "background": "Heights of 10-year-old male children follow a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+    "data": "",
+    "question": "Use the 68-95—99.7 rule to determine the middle 68% of values. What percent of values fall below this range? What percent fall above this range?"
+  },
+  "output": {
+    "method": "数学计算",
+    "answer": "According to the 68 part of the 68-95-99.7 rule, 68% of values will fall in this range. The remaining 32% fall outside of this range, with an equal number at either extreme because of symmetry; 16% of values will fall below 131 and 16% will be above 145.",
+    "variable": {
+      "mean_height": {
+        "id": "mean_height",
+        "value": 138,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean height of 10-year-old male children in centimeters."
+      },
+      "std_dev_height": {
+        "id": "std_dev_height",
+        "value": 7,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the height of 10-year-old male children in centimeters."
+      },
+      "middle_68_percent_range": {
+        "id": "middle_68_percent_range",
+        "value": [
+          131,
+          145
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The range of heights that includes the middle 68% of values based on the 68-95-99.7 rule."
+      },
+      "percent_below_range": {
+        "id": "percent_below_range",
+        "value": 16,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of values that fall below the middle 68% range."
+      },
+      "percent_above_range": {
+        "id": "percent_above_range",
+        "value": 16,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of values that fall above the middle 68% range."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.1",
+    "image": "",
+    "caption": "Height of 10-year-olds.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1 NORMAL DISTRIBUTIONS",
+    "page": "138-139"
+  },
+  "sample_key": "104"
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_042.json",
+  "input": {
+    "background": "A small data set $(n=9)$ has the following values $\\{3.5,8.1,7.4,4.0,0.7,4.9,8.4,7.0,5.5\\}$.",
+    "data": "",
+    "question": "Plot the data as a stemplot."
+  },
+  "output": {
+    "method": "stem-and-leaf plot",
+    "answer": "The stemplot is mound shaped and symmetrical.",
+    "variable": {
+      "data_values": {
+        "id": "data_values",
+        "value": [
+          3.5,
+          8.1,
+          7.4,
+          4.0,
+          0.7,
+          4.9,
+          8.4,
+          7.0,
+          5.5
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "A small data set consisting of 9 numerical values."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.19",
+    "image": "",
+    "caption": "What would you report?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "87-87"
+  },
+  "sample_key": "71"
+}

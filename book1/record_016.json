@@ -1,0 +1,78 @@
+{
+  "id": "016",
+  "question": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.
+\begin{array}{llllll}
+\text { (a) } & \text { Comparison A } & & & & \\
+& \text { Group 1: } 90 & 70 & 50 & 30 & 10 \\
+& \text { Group 2: } & 70 & 60 & 50 & 40 \\
+& \text { Comparison B } & & & & 30 \\
+\text { (b) } & \text { Group 1: } 90 & 80 & 70 & 60 & 50 \\
+& \text { Group 2: } & 70 & 60 & 50 & 40 \\
+\text { (c) } & \text { Comparison C } & & & & 30 \\
+& \text { Group 1: } & 90 & 70 & 50 & 30 \\
+& \text { Group 2: } & 90 & 80 & 70 & 60
+\end{array}",
+  "data": "",
+  "answer": "(a) Comparison A. Groups have the same central locations; group 1 has greater variability (spread).
+
+Group 1 | |Group 2
+
+$$
+\begin{aligned}
+0 \mid & 1 \mid \\
+\mid & 2 \mid \\
+0 \mid & 3 \mid 0 \\
+\mid & 4 \mid 0 \\
+0 \mid & 5 \mid 0 \\
+\mid & 6\mid  0 \\
+0 \mid & 7 \mid 0 \\
+\mid & 8 \mid \\
+0 \mid & 9 \mid \\
+\times & 10
+\end{aligned}
+$$
+(b) Comparison B. Group 1 has larger values on average; groups have the same variability:
+
+Group 1 | |Group 2
+
+$$
+\begin{aligned}
+& |1| \\
+& |2| \\
+& |3| 0 \\
+& |4| 0 \\
+0 & |5| 0 \\
+0 & |6| 0 \\
+0 & |7| 0 \\
+0 & |8| \\
+0 & |9| \\
+& \times 10
+\end{aligned}
+$$
+(c) Comparison C. Group 1 has a lower average and greater spread.
+
+Group 1 | |Group 2
+
+$$
+\begin{aligned}
+0 & |1| \\
+& |2| \\
+0 & |3|  \\
+& |4|  \\
+0 & |5| 0 \\
+& |6| 0 \\
+0 & |7| 0 \\
+& |8| 0\\
+0 & |9| 0 \\
+& \times 10
+\end{aligned}
+$$",
+  "meta info": {
+    "index": "3.3",
+    "image": "",
+    "caption": "Leaves on a common stem.",
+    "chapter": "Frequency Distributions",
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
+  }
+}

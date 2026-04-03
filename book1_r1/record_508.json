@@ -1,0 +1,30 @@
+{
+  "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+  "task": [
+    {
+      "query": "(a) Comparison A: Group 1 | Group 2",
+      "answer": "Group 1: x̄=50 and s=31.6. Group 2: x̄=50 and s=15.8. How statistics relate to what we see: Same central locations; greater spread is Group 1.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "(b) Comparison B: Group 1 | Group 2",
+      "answer": "Group 1: x̄=70 and s=15.8. Group 2: x̄=50 and s=15.8. How statistics relate to what we see: Higher central location in Group 1; equal group spreads.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "(c) Comparison C: Group 1 | Group 2",
+      "answer": "Group 1: x̄=50 and s=31.6. Group 2: x̄=70 and s=15.8. How statistics relate to what we see: Smaller central location and greater spread in Group 1.",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "508",
+  "data": "",
+  "meta info": {
+    "index": "4.15",
+    "image": "",
+    "caption": "Leaves on stems.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "85-86"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "338",
+  "question": "Let A represent cat ownership and B represent dog ownership. Suppose 35% of households in a population own cats, 30% own dogs, and 15% own both a cat and a dog. In selecting a household at random:",
+  "data": "",
+  "answer": "- $\operatorname{Pr}(A)=0.35$
+- $\operatorname{Pr}(B)=0.30$
+- $\operatorname{Pr}(A$ and $B)=0.15$
+
+Let us keep these probabilities in mind for future illustrations.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Pet ownership illustration.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  More RULES AND PROPERTIES OF PROBABILITY",
+    "page": "105-105"
+  }
+}

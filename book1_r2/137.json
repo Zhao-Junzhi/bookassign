@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_073.json",
+  "input": {
+    "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+    "data": "",
+    "question": "What is wrong with the hypothesis statement $H_0: \\mu=100$ vs. $H_a: \\mu \\neq 110$?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The null and alternative hypotheses must be set up so that either $H_0$ or $H_a$ is true. Here, it is possible for neither to be true.",
+    "variable": {
+      "mu_null": {
+        "id": "mu_null",
+        "value": 100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The hypothesized population mean under the null hypothesis."
+      },
+      "mu_alternative": {
+        "id": "mu_alternative",
+        "value": 110,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The hypothesized population mean under the alternative hypothesis."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.1",
+    "image": "",
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
+  },
+  "sample_key": "137"
+}

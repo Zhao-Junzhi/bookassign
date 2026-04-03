@@ -1,0 +1,30 @@
+{
+  "background": "Say whether each of the boldface numbers is a parameter or a statistic.",
+  "task": [
+    {
+      "query": "Insured? A data set based on 168 hospital discharge summaries shows that 20% of patients were uninsured. (The review takes place in a large referral hospital.)",
+      "answer": "Statistic",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Percent African American. Data from a standard metropolitan area (SMA) indicate that 12% of the inhabitants are African American. A telephone survey that was based on a random-digit-dialing machine found that 8% of respondents were African American.",
+      "answer": "The number 12% is a parameter. The number 8% is a statistic.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Cost of antihypertensive medication. Data from 10 online pharmacies reveal that the average cost of a 1-month supply of a particular medication is $31.20 with standard deviation $7.75. Data from 10 community pharmacies shows an average cost of $33.18 with standard deviation $7.88.",
+      "answer": "All are statistics. (These statistics will be used to infer costs at online and community pharmacies, respectively.)",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "503",
+  "data": "",
+  "meta info": {
+    "index": "8.3",
+    "image": "",
+    "caption": "Parameter or statistic?",
+    "chapter": "Introduction to Statistical Inference",
+    "section": "8.1 Concepts",
+    "page": "158-158"
+  }
+}

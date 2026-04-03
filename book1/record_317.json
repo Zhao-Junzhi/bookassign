@@ -1,0 +1,23 @@
+{
+  "id": "317",
+  "question": "The duration of 15 complex surgical procedures are shown in this stemplot:
+
+$1 \mid 8$
+$2 \mid 134556\underline{8}$
+$3 \mid 01158$
+$4 \mid$
+$5 \mid$
+$6 \mid 5$
+$7 \mid 0$
+$\times 1$",
+  "data": "",
+  "answer": "The median of this distribution is 2.8 (underlined). The mean is about 3.3.The mean has been "pulled up" by the two high outliers (6.5 and 7.0).",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Comparison of mean, median, and mode.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.2  CENTRAL LOCATION: MEDIAN",
+    "page": "69-69"
+  }
+}

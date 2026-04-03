@@ -1,0 +1,47 @@
+{
+  "case_id": "book1_r1\\record_016.json",
+  "input": {
+    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
+    "data": "",
+    "question": "(c) Comparison C: Group 1: 90, 70, 50, 30; Group 2: 90, 80, 70, 60"
+  },
+  "output": {
+    "method": "stem-and-leaf plot",
+    "answer": "Comparison C. Group 1 has a lower average and greater spread.",
+    "variable": {
+      "Group1": {
+        "id": "Group1",
+        "value": [
+          90,
+          70,
+          50,
+          30
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Values for Group 1 in Comparison C"
+      },
+      "Group2": {
+        "id": "Group2",
+        "value": [
+          90,
+          80,
+          70,
+          60
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Values for Group 2 in Comparison C"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "3.3",
+    "image": "",
+    "caption": "Leaves on a common stem.",
+    "chapter": "Frequency Distributions",
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
+  },
+  "sample_key": "43"
+}

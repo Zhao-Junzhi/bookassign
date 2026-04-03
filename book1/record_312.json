@@ -1,0 +1,38 @@
+{
+  "id": "312",
+  "question": "Consider these eight data points:
+
+$$
+\begin{array}{llllllll}
+1.47 & 2.06 & 2.36 & 3.43 & 3.74 & 3.78 & 3.94 & 4.42
+\end{array}
+$$
+
+
+Data have three significant digits although only two are needed for plotting. Our rule will be to "prune" the leaves by truncating extra digits before plotting. For example, the value 1.47 is truncated to 1.4 , the value 2.06 is truncated to 2.0 , and so on. We also drop the decimal point before plotting. For example, " 1.47 " appears as " $1 \mid 4$ ".
+
+Here is the stemplot:
+
+$$
+\begin{aligned}
+& 1 \mid 4 \\
+& 2 \mid 03 \\
+& 3 \mid \underline{47}79 \\
+& 4 \mid 4 \\
+& \times 1
+\end{aligned}
+$$
+How do we interpret this plot? As always, consider its shape, location, and spread.",
+  "data": "",
+  "answer": "- Shape: A mound shape with no apparent outliers. (With such a small data set, little else can be said about shape.)
+- Location: Because there are $n=8$ data points, the median has a depth of $\frac{8+1}{2}=4.5$. Count to a depth of $4 \frac{1}{2}$ to see that the median falls between 3.4 and 3.7 (underlined in the stemplot). Average these values; the median is about 3.55 .
+- Spread: Data spread from about 1.4 to 4.4 .",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Truncating leaf values.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "42-43"
+  }
+}

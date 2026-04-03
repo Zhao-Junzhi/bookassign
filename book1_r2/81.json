@@ -1,0 +1,41 @@
+{
+  "case_id": "book1_r1\\record_046.json",
+  "input": {
+    "background": "The probability associated with a proposition can be used to quantify the confidence in a judgment. At one extreme, a probability statement of 0 represents the personal belief that the proposition can never happen. At the other extreme, a probability statement of 1 represents the personal belief that the proposition will always occur. Probabilities between these two extremes represent shades of gray.",
+    "data": "",
+    "question": "Match the percentage 20% with the narrative statement that most closely reflects its meaning: This event is infrequent; it is unlikely."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "20%",
+    "variable": {
+      "percentage": {
+        "id": "percentage",
+        "value": [
+          20
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The percentage value representing the probability of an event occurring."
+      },
+      "narrative_statement": {
+        "id": "narrative_statement",
+        "value": [
+          "This event is infrequent; it is unlikely."
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The narrative statement describing the likelihood of the event based on the given probability."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "5.7",
+    "image": "",
+    "caption": "Personal expressions of probability.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "92-92"
+  },
+  "sample_key": "81"
+}

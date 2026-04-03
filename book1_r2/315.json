@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_302.json",
+  "input": {
+    "background": "The Youth Risk Behavior Surveillance System monitors health behaviors in youth and young adults in the United States. Six categories of health-risk behaviors are monitored. These include: (1) behaviors that contribute to unintentional injuries and violence; (2) tobacco use; (3) alcohol and drug use; (4) sexual behaviors; (5) unhealthy dietary behaviors; and (6) physical activity levels and body weight. The 2003 report used information from 15,240 questionnaires completed at 158 schools to infer health-risk behaviors for the public and private school student populations of the United States and District of Columbia. The 15,240 students who completed the questionnaires comprise the sample. This information is used to infer the characteristics of the several million public and private school students in the United States for the period in question.",
+    "data": "",
+    "question": "What is the sample size used in the 2003 report to infer health-risk behaviors for the public and private school student populations of the United States and District of Columbia?"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "15,240 students who completed the questionnaires.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 15240,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of students who completed the questionnaires in the 2003 report."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Youth Risk Behavior Surveillance (YRBS).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "16-16"
+  },
+  "sample_key": "315"
+}

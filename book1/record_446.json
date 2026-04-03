@@ -1,0 +1,14 @@
+{
+  "id": "446",
+  "question": "The odds ratio for the case-control data in Table 18.15 is $\\widehat{O R}=\\frac{96 \\cdot 666}{104 \\cdot 109}=5.64$.",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.15 Alcohol and esophageal cancer illustrative casecontrol data.}\n\\begin{tabular}{cc|c}\n\\hline Alcohol & \\multicolumn{2}{c}{ Esophageal cancer } \\\\\ngrams/day & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n\\hline$\\geq 80$ & 96 & 109 \\\\\n\\hline 80 & 104 & 666 \\\\\n\\hline Total & 200 & 775 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "answer": "This suggests that high-alcohol consumers have 5.6 times the rate of esophageal cancer compared to low-alcohol consumers.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Odds ratio (Alcohol and esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "438-438"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_307.json",
+  "input": {
+    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "data": "",
+    "question": "How were treatments assigned to subjects in the WHI trial?"
+  },
+  "output": {
+    "method": "实验设计",
+    "answer": "Treatments were randomized to subjects in approximately equal proportions.",
+    "variable": {
+      "treatment": {
+        "id": "treatment",
+        "value": [
+          "estrogen with progestin",
+          "placebo"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The type of treatment assigned to subjects in the WHI trial."
+      },
+      "subject": {
+        "id": "subject",
+        "value": "N/A",
+        "class": "NR",
+        "role": "NR",
+        "description": "The individual participants in the WHI trial to whom treatments were assigned."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "WHI postmenopausal hormone use trial.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 Comparative Studies",
+    "page": "27-27"
+  },
+  "sample_key": "325"
+}

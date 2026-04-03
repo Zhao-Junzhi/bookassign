@@ -1,0 +1,20 @@
+{
+  "background": "A trial tests a treatment at two separate clinics. Upon completion of the study, cross tabulation of results from both clinics combined is provided.",
+  "task": [
+    {
+      "query": "The incidence proportion of success in the treatment group $\\hat{p}_1=1095 / 10,100=11 \\%$. The incidence proportion in the control group $\\hat{p}_2=5050 / 11,100=46 \\%$. Therefore, the relative incidence.",
+      "answer": "null",
+      "method": "独立性检验"
+    }
+  ],
+  "id": "450",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Simpson’s paradox (Effectiveness of a treatment).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.2 SIMPSON’S PARADOX",
+    "page": "466-467"
+  }
+}

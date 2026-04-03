@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_447.json",
+  "input": {
+    "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
+    "data": "",
+    "question": "Calculate the standard error of the natural logarithm of the estimated odds ratio (OR)."
+  },
+  "output": {
+    "method": "获取模型参数估计值",
+    "answer": "\\(SE_{\\ln \\widehat{OR}}=\\sqrt{\\frac{1}{a_1}+\\frac{1}{a_2}+\\frac{1}{b_1}+\\frac{1}{b_2}}=\\sqrt{\\frac{1}{96}+\\frac{1}{104}+\\frac{1}{109}+\\frac{1}{666}}=\\) 0.1752.",
+    "variable": {
+      "alcohol": {
+        "id": "alcohol",
+        "value": "Ninety and 95 percent confidence intervals for the alcohol",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Categorical variable indicating alcohol consumption levels."
+      },
+      "esophageal_cancer": {
+        "id": "esophageal_cancer",
+        "value": "esophageal cancer illustrative case-control data",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Categorical variable indicating the presence or absence of esophageal cancer."
+      },
+      "odds_ratio": {
+        "id": "odds_ratio",
+        "value": "Estimated odds ratio for alcohol and esophageal cancer",
+        "class": "numerical",
+        "role": "both",
+        "description": "Numerical variable representing the estimated odds ratio between alcohol consumption and esophageal cancer."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "439-439"
+  },
+  "sample_key": "564"
+}

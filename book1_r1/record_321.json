@@ -1,0 +1,30 @@
+{
+  "background": "We propose to draw boxplots for the air sample data presented in prior illustrations (see Table 4.2).",
+  "task": [
+    {
+      "query": "Draw a boxplot for site 1 data: 22, 24, 28, 32, 36, 38, 42, 68.",
+      "answer": "1. The five-point summary is: 22, 26, 34, 40, 68. Therefore, the box extends from 26 to 40. A line for the median is drawn in the box at 34. 2. IQR=40-26=14. Therefore, Fence Lower=26-(1.5)(14)=5 and Fence Upper=40+(1.5)(14)=61. 3. There are no values below the lower fence. There is one value (68) above the upper fence. The upper outside value of 68 is plotted as a separate point above the box. 4. The smallest value still inside the fence (lower inside value) is 22. A whisker is drawn from Q1 to this inside value. The upper inside value is 42. A whisker is drawn from Q3 to this inside value.",
+      "method": "连续型变量分布"
+    },
+    {
+      "query": "Draw a boxplot for site 2 data: 32, 33, 34, 36, 36, 38, 39, 40.",
+      "answer": "1. The five-point summary is 32, 33.5, 36, 38.5, 40. The box extends from 33.5 to 38.5. A line for the median is drawn inside the box at 36. 2. IQR=38.5-33.5=5. Fence Lower=33.5-(1.5)(5)=26. Fence Upper=38.5+(1.5)(5)=46. 3. There are no outside values in this group. 4. The lower inside value is 32. A whisker is drawn from Q1 to this lower inside value. The upper inside value is 42. A whisker is drawn from Q3 to this upper inside value.",
+      "method": "连续型变量分布"
+    },
+    {
+      "query": "Compare the side-by-side boxplots for site 1 and site 2.",
+      "answer": "The side-by-side boxplots in this figure show site 1 and site 2 have similar central locations but different spreads.",
+      "method": "离散型-连续型变量关系"
+    }
+  ],
+  "id": "321",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Boxplots (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "76-77"
+  }
+}

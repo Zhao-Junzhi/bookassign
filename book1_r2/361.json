@@ -1,0 +1,49 @@
+{
+  "case_id": "book1_r1\\record_336.json",
+  "input": {
+    "background": "The problem involves calculating the mean and variance of a probability mass function (pmf) for four patients as presented in Table 5.1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What are the mean and variance of the four patients illustrative pmf, as presented in Table 5.1?"
+  },
+  "output": {
+    "method": "期望",
+    "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run.",
+    "variable": {
+      "number_of_success": {
+        "id": "number_of_success",
+        "value": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of successes observed in the probability mass function."
+      },
+      "probability": {
+        "id": "probability",
+        "value": [
+          0.0039,
+          0.0469,
+          0.2109,
+          0.4219,
+          0.3164
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The probability associated with each number of successes in the probability mass function."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Expectation and variance.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "96-97"
+  },
+  "sample_key": "361"
+}

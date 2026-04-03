@@ -1,0 +1,25 @@
+{
+  "background": "Exercise 11.11 calculated the mean length of menstrual cycles in an SRS of $n=9$ women. The data revealed $\\bar{x}=27.78$ days with standard deviation $s=2.906$ days.",
+  "task": [
+    {
+      "query": "Calculate a $95 \\%$ confidence interval for the mean menstrual cycle length.",
+      "answer": "The confidence interval can be calculated using the formula $\\bar{x} \\pm t^* \\cdot \\frac{s}{\\sqrt{n}}$, where $t^*$ is the critical value from the t-distribution for $df=n-1$ at $95 \\%$ confidence level.",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "Based on the confidence interval you just calculated, is the mean menstrual cycle length significantly different from 28.5 days at $\\alpha=0.05$ (two sided)? Is it significantly different from $\\mu=30$ days at the same $\\alpha$-level? Explain your reasoning.",
+      "answer": "To test significance, check if 28.5 or 30 falls within the calculated confidence interval. If either value falls outside the interval, it is significantly different at $\\alpha=0.05$ level.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "090",
+  "data": " Exercise 11.11 ：Menstrual cycle lengths (days) in an SRS of nine women are as follows: $\\{31,28,26,24,29,33,25,26,28\\}$. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
+  "meta info": {
+    "index": "11.13",
+    "image": "",
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\mu$",
+    "page": "218-218"
+  }
+}

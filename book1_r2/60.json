@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_025.json",
+  "input": {
+    "background": "The following stemplot has 18 observations.",
+    "data": "",
+    "question": "Prove that the value 152 in this data set is an outside value."
+  },
+  "output": {
+    "method": "分布范围测度",
+    "answer": "5-point summary: $88,101,114,120,152$\n\n$$\n\\begin{aligned}\n& \\mathrm{IQR}=120-101=19 \\\n& \\text { Fence }_{\\text {Upper }}=120+(1.5)(19)=148.5\n\\end{aligned}\n$$\n\nThe value 152 is outside the upper fence.",
+    "variable": {
+      "observations": {
+        "id": "observations",
+        "value": 18,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of observations in the data set."
+      },
+      "value_152": {
+        "id": "value_152",
+        "value": 152,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The specific value in the data set that needs to be proven as an outlier."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.5",
+    "image": "",
+    "caption": "Outside?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "77-78"
+  },
+  "sample_key": "60"
+}

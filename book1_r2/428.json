@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_375.json",
+  "input": {
+    "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40.",
+    "data": "",
+    "question": "We propose to calculate 99% confidence intervals for μ based on this information."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "The 99% confidence interval for μ is x̄ ± (z_{1-.01 / 2})(SE x̄) = 183.0 ± (2.576)(1.5) = 183.0 ± 3.9 = 179.1 to 186.9 (pounds).",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 712,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the simple random sample (SRS) selected from the population."
+      },
+      "population_mean": {
+        "id": "population_mean",
+        "value": 183,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The sample mean weight calculated from the SRS."
+      },
+      "population_standard_deviation": {
+        "id": "population_standard_deviation",
+        "value": 40,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The population standard deviation of weights."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 99,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level for the interval estimation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "201-201"
+  },
+  "sample_key": "428"
+}

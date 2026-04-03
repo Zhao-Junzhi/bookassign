@@ -1,0 +1,96 @@
+============================================================
+变量提取处理报告
+============================================================
+处理时间: 2026-03-30 22:41:54
+总耗时: 701.49 秒
+总文件数: 588
+成功处理: 573
+处理失败: 15
+成功率: 97.45%
+
+失败文件列表:
+------------------------------------------------------------
+  - 38.json: 无法从模型输出中解析JSON: 你的问题似乎不完整，尤其是"background"和"data"字段没有提供足够的信息，而"question"字段也没有明确的内容。为了帮助你更好地解决问题，请提供完整的统计学习题，包括背景信息、数据（如果有的话），以及清晰的问题描述。
+
+如果你能补充完整的信息，我将能够提取相关变量并生成所需的JSON格式描述。...
+  - 224.json: Expecting value: line 1 column 1 (char 0)
+  - 14.json: Expecting value: line 1 column 1 (char 0)
+  - 32.json: 无法从模型输出中解析JSON: Based on the given task, we need to identify any variables that might be relevant to the problem described. However, the provided text does not contain any explicit data or variables. The problem is m...
+  - 581.json: 无法从模型输出中解析JSON: To solve the problem, we need to extract the relevant variables from the given data and question. Here's the JSON representation of the variables involved:
+
+```json
+{
+    "Day": {
+        "id": "Day",...
+  - 583.json: 无法从模型输出中解析JSON: ```json
+{
+  "day": {
+    "id": "day",
+    "value": [1, 2, 3, 4, 5, 6, 7, 8],
+    "class": "numerical",
+    "role": "NR",
+    "description": "The day on which the air sample was collected."
+  },
+  "sit...
+  - 62.json: 无法从模型输出中解析JSON: To extract the necessary data variables from the given statistical problem, we need to focus on the data presented in Table 4.2, as well as the task of calculating standard deviations and variances. S...
+  - 34.json: 无法从模型输出中解析JSON: ```json
+{
+    "city_id": {
+        "id": "city_id",
+        "value": [1, 2, 3, 4, 5],
+        "class": "categorical",
+        "role": "NR",
+        "description": "Identifier for each of the five citi...
+  - 347.json: 无法从模型输出中解析JSON: ```json
+{
+    "Site": {
+        "id": "Site",
+        "value": ["Site 1", "Site 2"],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The location where air samples are ta...
+  - 351.json: 无法从模型输出中解析JSON: ```json
+{
+    "particulate_matter_concentration_site_2": {
+        "id": "particulate_matter_concentration_site_2",
+        "value": [],  // Assuming the table data is missing, this should be filled w...
+  - 353.json: 无法从模型输出中解析JSON: ```json
+{
+  "sample_size": {
+    "id": "sample_size",
+    "value": [0, 1, 2, ..., 10000],
+    "class": "numerical",
+    "role": "independent",
+    "description": "The number of individuals included in...
+  - 354.json: 无法从模型输出中解析JSON: ```json
+{
+  "sample_size": {
+    "id": "sample_size",
+    "value": [0, 1, 2, ..., 10000],
+    "class": "numerical",
+    "role": "independent",
+    "description": "The size of the sample drawn from the...
+  - 187.json: 无法从模型输出中解析JSON: ```json
+{
+    "CorrectIdentifications": {
+        "id": "CorrectIdentifications",
+        "value": [],  // This would be filled with the actual data values if provided
+        "class": "numerical",
+  ...
+  - 36.json: 无法从模型输出中解析JSON: ```json
+{
+    "total_surveys_sent": {
+        "id": "total_surveys_sent",
+        "value": 500,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of surveys ...
+  - 276.json: 无法从模型输出中解析JSON: ```json
+{
+  "Group": {
+    "id": "Group",
+    "value": ["Non-Hisp.White", "Non-Hisp.Black", "Hispanic"],
+    "class": "categorical",
+    "role": "NR",
+    "description": "Racial/ethnic group classific...
+============================================================

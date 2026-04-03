@@ -1,0 +1,14 @@
+{
+  "id": "423",
+  "question": "One component of the NIHsponsored Women's Health Initiative study was a trial in which postmenopausal women were randomly assigned either estrogen or an identicallooking placebo. The estrogen-exposed group comprised $n_1=8506$ subjects. The placebo group had $n_2=8102$. Incidents of a combined index outcome (consisting of coronary disease, stroke, pulmonary embolism, breast cancer, endometrial cancer, colorectal cancer, hip fracture, and death due to other causes) were tallied in the groups. After a mean 5.2 years of follow-up, the estrogen-exposed group had 751 incidents and the control group had 623 incidents.",
+  "data": "",
+  "answer": "Therefore, cumulative incidence proportions were $\\hat{p}_1=\\frac{a_1}{n_1}=\\frac{751}{8506}=0.08829$ and $\\hat{p}_2=\\frac{a_2}{n_2}=\\frac{623}{8102}=0.07689$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Estrogen trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.1 Data",
+    "page": "374-374"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_073.json",
+  "input": {
+    "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+    "data": "",
+    "question": "What is wrong with the hypothesis statement $H_0: \\bar{x}=100$ vs. $H_a: \\bar{x}<100$?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "Hypotheses must address the parameter (for example, $\\mu$ ), not the statistic (for example, $\\bar{x}$ ).",
+    "variable": {
+      "x_bar": {
+        "id": "x_bar",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean, which is the subject of the hypothesis test."
+      },
+      "hypothesis_statements": {
+        "id": "hypothesis_statements",
+        "value": [
+          "H_0: \\bar{x}=100",
+          "H_a: \\bar{x}<100"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The null and alternative hypothesis statements being evaluated."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.1",
+    "image": "",
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
+  },
+  "sample_key": "138"
+}

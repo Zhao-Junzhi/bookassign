@@ -1,0 +1,14 @@
+{
+  "id": "355",
+  "question": "Gestation is the period of pregnancy from conception to delivery.  Uncomplicated human gestations (without intervention) vary according to a Normal distribution with $\\mu=39$ weeks and $\\sigma=2$ weeks.According to the \" 95 part\" of the 68-95-99.7 rule, we can say that $95 \\%$ of human gestations will fall in the range $\\mu \\pm 2 \\sigma=39 \\pm 2 \\cdot 2=39 \\pm 4=35$ to 43 weeks. This leaves $5 \\%$ of the values outside of this range. Since the distribution is symmetrical, we can say that $2.5 \\%$ of gestations will be fewer than 35 weeks (in the left tail of the distribution) and $2.5 \\%$ will be more than 43 weeks (in the right tail).",
+  "data": "",
+  "answer": "null",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Tails of the Normal distribution (Gestational length).",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1  NORMAL DISTRIBUTIONS",
+    "page": "136-136"
+  }
+}

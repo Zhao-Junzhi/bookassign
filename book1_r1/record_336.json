@@ -1,0 +1,20 @@
+{
+  "background": "The problem involves calculating the mean and variance of a probability mass function (pmf) for four patients as presented in Table 5.1.",
+  "task": [
+    {
+      "query": "What are the mean and variance of the four patients illustrative pmf, as presented in Table 5.1?",
+      "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run.",
+      "method": "期望"
+    }
+  ],
+  "id": "336",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Expectation and variance.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "96-97"
+  }
+}

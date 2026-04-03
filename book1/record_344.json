@@ -1,0 +1,22 @@
+{
+  "id": "344",
+  "question": " Suppose a screening test has a sensitivity of 0.98 and a false-positive rate of 0.01 . The test is used in a population that has a disease prevalence of 0.001 . ",
+  "data": "",
+  "answer": "We can use Bayes' theorem to determine the predictive value of a positive test under these circumstances as follows
+
+$$
+\begin{aligned}
+\operatorname{Pr}(D \mid T) & =\frac{\text { sensitivity × prevalence }}{[\text { sensitivity × prevalence }]+[\text { false positive rate } \times(1-\text { prevalence })]} \\
+& =\frac{0.98 \times 0.001}{[0.98 \times 0.001]+[0.01 \times(1-0.001)]}=0.0893
+\end{aligned}
+$$
+The probability of having disease given a positive test result is $8.93 \%$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Predictive value positive.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "112-112"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "case_id": "book1_r1\\record_157.json",
+  "input": {
+    "background": "A South African study compared whether participating in a 5-year follow-up interview was associated with having medical aid (similar to health insurance).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|}\n\\hline & Table A: All subjects Medical Aid + Medical Aid - & Total \\\n\\hline Follow-up + & 46 & - 416 \\\n\\hline Follow-up - & 195 & 1174 \\\n\\hline \\multicolumn{2}{|c|}{} & Total \\\n\\hline & \\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular} & 12 126 \\\n\\hline Follow-up + Follow-up - & & \\\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{Table C: Blacks Medical Aid + Medical Aid -}} & \\\n\\hline & & Total \\\n\\hline Follow-up + & 36 & 404 \\\n\\hline Follow-up - & 91 & 1048 \\\n\\hline \\multicolumn{3}{|l|}{Source: Morrell, C. H. (1999). Simpson's paradox: An example from a longitudinal study in South Africa. Journal of Statistical Education, 7(3). Available at www,amstat.org/publications/jse/secure/v7n3/datasets .morrell.cfm.} \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the prevalence of medical aid in the group that was followed up and the group that was lost to follow up. Describe the relationship between follow up and having medical aid."
+  },
+  "output": {
+    "method": "描述性统计量",
+    "answer": "Among the 416 children who were followed-up, 46(11.1%) had medical aid. In contrast, 195 of 1174(16.6%) who were not followed-up had medical aid. Therefore, there is a negative association between follow-up and having medical aid.",
+    "variable": {
+      "Follow-up Status": {
+        "id": "Follow-up Status",
+        "value": [
+          "Follow-up +",
+          "Follow-up -"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether a participant was followed up or lost to follow-up."
+      },
+      "Medical Aid Status": {
+        "id": "Medical Aid Status",
+        "value": [
+          "Medical Aid +",
+          "Medical Aid -"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether a participant has medical aid (health insurance) or not."
+      },
+      "Follow-up + with Medical Aid": {
+        "id": "Follow-up + with Medical Aid",
+        "value": 46,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of participants who were followed up and have medical aid."
+      },
+      "Follow-up + without Medical Aid": {
+        "id": "Follow-up + without Medical Aid",
+        "value": 416,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of participants who were followed up and do not have medical aid."
+      },
+      "Follow-up - with Medical Aid": {
+        "id": "Follow-up - with Medical Aid",
+        "value": 195,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of participants who were lost to follow-up and have medical aid."
+      },
+      "Follow-up - without Medical Aid": {
+        "id": "Follow-up - without Medical Aid",
+        "value": 1174,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of participants who were lost to follow-up and do not have medical aid."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "19.1",
+    "image": "",
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.3 MANTEL-HAENSZEL METHODS",
+    "page": "473-474"
+  },
+  "sample_key": "301"
+}

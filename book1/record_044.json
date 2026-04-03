@@ -1,0 +1,29 @@
+{
+  "id": "044",
+  "question": " What is the probability of being born on . . .
+(a) . . . February 28?
+(b) . . . February 29?
+(c) . . . February 28 or February 29?",
+  "data": "",
+  "answer": "(a) Feb 28 occurs 4 times every 4 years. Three of the years have 365 days, and every fourth year (leap year) has 366 days. Therefore, $\operatorname{Pr}(\mathrm{Feb} 28)=$
+
+$$
+\frac{4}{365+365} \frac{4}{+365+366}=0.0027378
+$$
+
+(b) Feb 29 occurs once every 4 years. Therefore, $\operatorname{Pr}(\mathrm{Feb} 29)=$
+
+$$
+\frac{1}{365+365+365+366}=0.0006845
+$$
+
+Feb 28 ar Feb 29 occur 5 times every four years. Therefore. $\operatorname{Pr}(Feb 28$ or $Feb 29)= \frac{5}{365+365+365+366}=0.003422313$.",
+  "meta info": {
+    "index": "5.3",
+    "image": "",
+    "caption": "February birthdays.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
+  }
+}

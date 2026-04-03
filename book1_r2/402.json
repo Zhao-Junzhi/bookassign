@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_364.json",
+  "input": {
+    "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15.",
+    "data": "",
+    "question": "What effect does increasing the sample size have on the precision of a mean?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "Each time, quadrupling the sample size cuts the SE_{\\bar{x}} in half.",
+    "variable": {
+      "WAIS_mean": {
+        "id": "WAIS_mean",
+        "value": 100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean of the Wechsler Adult Intelligence Scores (WAIS) distribution."
+      },
+      "WAIS_std_dev": {
+        "id": "WAIS_std_dev",
+        "value": 15,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the Wechsler Adult Intelligence Scores (WAIS) distribution."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": "varies",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The size of the sample drawn from the WAIS distribution."
+      },
+      "precision_of_mean": {
+        "id": "precision_of_mean",
+        "value": "varies",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The precision of the sample mean, which is affected by the sample size."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Standard error of the mean and sample size (WAIS).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "164-164"
+  },
+  "sample_key": "402"
+}

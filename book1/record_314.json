@@ -1,0 +1,81 @@
+{
+  "id": "314",
+  "question": "A U.S. Census Bureau report looked at health insurance coverage in the United States for the period 2002 to 2004. Table 3.2 lists the average percentage of people without health insurance coverage by state for this period.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 3.2 Percentage of residents without health insurance by state, U.S., 2004, $n=51$.}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline State & \% & State & \% & State & \% \\
+\hline Alabama & 13.5 & Kentucky & 13.9 & N. Dakota & 11.0 \\
+\hline Alaska & 18.2 & Louisiana & 18.8 & Ohio & 11.8 \\
+\hline Arizona & 17.0 & Maine & 10.6 & Oklahoma & 19.2 \\
+\hline Arkansas & 16.7 & Maryland & 14.0 & Oregon & 16.1 \\
+\hline California & 18.4 & Massachusetts & 10.8 & Pennsylvania & 11.5 \\
+\hline Colorado & 16.8 & Michigan & 11.4 & Rhode Is. & 10.5 \\
+\hline Connecticut & 10.9 & Minnesota & 08.5 & S. Carolina & 13.8 \\
+\hline Delaware & 11.8 & Mississippi & 17.2 & S. Dakota & 11.9 \\
+\hline Dist. Col. & 13.5 & Missouri & 11.7 & Tennessee & 12.7 \\
+\hline Florida & 18.5 & Montana & 17.9 & Texas & 25.1 \\
+\hline Georgia & 16.6 & Nebraska & 11.0 & Utah & 13.4 \\
+\hline Hawaii & 09.9 & Nevada & 19.1 & Vermont & 10.5 \\
+\hline Idaho & 17.3 & N. Hamp. & 10.6 & Virginia & 13.6 \\
+\hline Illinois & 14.2 & N. Jersey & 14.4 & Washington & 14.2 \\
+\hline Indiana & 13.7 & N. Mexico & 21.4 & W. Virginia & 15.9 \\
+\hline Iowa & 10.1 & New York & 15.0 & Wisconsin & 10.4 \\
+\hline Kansas & 10.8 & N. Carolina & 16.6 & Wyoming & 15.9 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "The stemplot with single stem values looks like this:
+
+$$
+\begin{aligned}
+& 0 \mid 89 \\
+& 1 \mid 00000000011111111233333334444555666667777888899 \\
+& 2 \mid 15 \\
+& \times 10
+\end{aligned}
+$$
+
+
+This plot is too squished, so we split the stem values to come up with the following plot:$$
+\begin{aligned}
+& 0 \mid 89 \\
+& 1 \mid 00000000011111111233333334444 \\
+& 1 \mid 555666667777888899 \\
+& 2 \mid 1 \\
+& 2 \mid 5 \\
+& \times 10
+\end{aligned}
+$$
+
+
+This plot is improved, but still seems too compressed. Let's try a quintuple split of stem values:
+
+$$
+\begin{aligned}
+& 0 . \mid 89 \\
+& 1 * \mid 00000000011111111 \\
+& \mathrm{~T} \mid 23333333 \\
+& \mathrm{~F} \mid 4444555 \\
+& \mathrm{~S} \mid 666667777 \\
+& \cdot \mid 888899 \\
+& 2 * \mid 1 \\
+& \mathrm{~T} \mid \\
+& \mathrm{F} \mid 5 \\
+& \times 10
+\end{aligned}
+$$
+
+
+This plot reveals a positive skew and high outlier.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Health insurance coverage.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "46-47"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "157",
+  "question": " A South African study compared whether participating in a 5 -year follow-up interview was associated with having medical aid (similar to health insurance).
+(a) Table 19.5A tabulates the results for all subjects combined. Calculate the prevalence of medical aid in the group that was followed up and the group that was lost to follow up. Describe the relationship between follow up and having medical aid.
+(b) Subjects were subclassified by race. Table 19.5B shows the results for white participants. Describe the relationship in this stratum.
+(c) Data for black participants are shown in Table 19.5C. Analyze the results for this stratum.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}
+\begin{tabular}{|l|l|l|}
+\hline & Table A: All subjects Medical Aid + Medical Aid - & Total \\
+\hline Follow-up + & 46 & - 416 \\
+\hline Follow-up - & 195 & 1174 \\
+\hline \multicolumn{2}{|c|}{} & Total \\
+\hline & \begin{tabular}{|r|r|}
+\hline 10 & 2 \\
+\hline 104 & 22 \\
+\hline
+\end{tabular}
+\begin{tabular}{|r|r|}
+\hline 10 & 2 \\
+\hline 104 & 22 \\
+\hline
+\end{tabular} & 12 126 \\
+\hline Follow-up + Follow-up - & & \\
+\hline \multicolumn{2}{|c|}{\multirow{2}{*}{Table C: Blacks Medical Aid + Medical Aid -}} & \\
+\hline & & Total \\
+\hline Follow-up + & 36 & 404 \\
+\hline Follow-up - & 91 & 1048 \\
+\hline \multicolumn{3}{|l|}{Source: Morrell, C. H. (1999). Simpson's paradox: An example from a longitudinal study in South Africa. Journal of Statistical Education, 7(3). Available at www,amstat.org/publications/jse/secure/v7n3/datasets .morrell.cfm.} \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "(a) Among the 416 children who were followed-up, $46(11.1 \%)$ had medical aid. In contrast, 195 of $1174(16.6 \%)$ who were not followed-up had medical aid. Therefore, there is a negative association between follow-up and having medical aid.
+(b) Among the white participants, 10 of $12(83 \%)$ who were followed-up had medical aid. One-hundred and four of the 126 white subjects who were not followed-up $(83 \%)$ had medical aid. Therefore, there is no association between follow-up and having medical aid in this stratum.
+(c) Nine percent of both groups had medical aid. Therefore, there is no association between follow-up and having medical aid in this stratum.
+(d) Race is associated with follow-up and medical aid coverage. Therefore, race confounded the crude analysis in part (a).",
+  "meta info": {
+    "index": "19.1",
+    "image": "",
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.3 MANTEL-HAENSZEL METHODS",
+    "page": "473-474"
+  }
+}

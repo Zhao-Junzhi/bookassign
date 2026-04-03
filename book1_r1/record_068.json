@@ -1,0 +1,30 @@
+{
+  "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
+  "task": [
+    {
+      "query": "What is value of the standard deviation of the x̄ of the four measurements taken with this kit?",
+      "answer": "The standard deviation of the mean of four measurements = σ/√n = 1/√4 = 0.5.",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "Explain to a lay person the advantage of reporting the average of four measurements rather than using a single measurement.",
+      "answer": "Assuming the measurements are unbiased, the average is more likely to reflect the true value of μ than is a single measurement.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "How many times must we repeat the measurement before we obtain a standard deviation of the mean measurement of 0.2 units?",
+      "answer": "SE_x = σ/√n. Therefore, n = (σ/SE_x̄)^2. To achieve a standard error of 0.2, use n = (1/0.2)^2 = 25.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "068",
+  "data": "",
+  "meta info": {
+    "index": "8.7",
+    "image": "",
+    "caption": "Repeated lab measurements.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-167"
+  }
+}

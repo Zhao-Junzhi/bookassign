@@ -1,0 +1,57 @@
+{
+  "case_id": "book1_r1\\record_047.json",
+  "input": {
+    "background": "A lottery offers a grand prize of $10 million. The probability of winning this grand prize is 1 in 55 million (≈ 1.8 × 10^-8). There are no other prizes, so the probability of winning nothing = 1 - (1.8 × 10^-8) = 0.999999982. Table 5.5 shows the probability mass function for the problem.",
+    "data": "\\begin{array}{lcc}\n\\hline \text { Winnings }(X) & 0 & \\$ 10 \times 10^6 \\\n\\operatorname{Pr}\\left(X=x_j\right) & 0.999999982 & 1.8 \times 10^{-8} \\\n\\hline\n\\end{array}",
+    "question": "Fifty-five million lottery tickets will be sold. How much does the proprietor of the lottery need to charge per ticket to make a profit?"
+  },
+  "output": {
+    "method": "期望",
+    "answer": "19 cents",
+    "variable": {
+      "Winnings": {
+        "id": "Winnings",
+        "value": [
+          0,
+          10000000
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The monetary winnings for a lottery ticket, either $0 or $10 million."
+      },
+      "Probability": {
+        "id": "Probability",
+        "value": [
+          0.999999982,
+          1.8e-08
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The probability of each corresponding winnings value."
+      },
+      "Tickets_Sold": {
+        "id": "Tickets_Sold",
+        "value": 55000000,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The total number of lottery tickets sold."
+      },
+      "Ticket_Price": {
+        "id": "Ticket_Price",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The price charged per lottery ticket, which needs to be determined to ensure profitability."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "5.9",
+    "image": "",
+    "caption": "Lottery.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3 DISCRETE RANDOM VARIABLES",
+    "page": "98-99"
+  },
+  "sample_key": "86"
+}

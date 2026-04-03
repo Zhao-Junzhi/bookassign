@@ -1,0 +1,86 @@
+{
+  "case_id": "book1_r1\\record_429.json",
+  "input": {
+    "background": "We calculate $90 \\%$ and $95 \\%$ confidence intervals for the $R R$ for the estrogen trial illustrative data. Table $\\mathbf{1 7 . 3}$ shows the data. We established that $\\widehat{R R}=\\frac{\\hat{p}_1}{\\hat{p}_2}=\\frac{0.08829}{0.07689}=1.1483$.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.3 Women's Health Initiative estrogen trial data in 2-by-2 format.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Cases } & Noncases & Total\\\nEstrogen + & 751 & 7755  & 8506\\\n\\cline { 2 - 4} Estrogen - & 623 & 7479 & 8102 \\\n\\cline { 2 - 4 } Total & 1374 & 15234 & 16608 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the $90 \\%$ confidence interval for $\\ln(\\widehat{R R})$ and transform it to the confidence interval for $R R$."
+  },
+  "output": {
+    "method": "假设检验与区间估计 -> 均值检验",
+    "answer": "The $90 \\%$ confidence interval for $\\ln R R=\\ln \\widehat{R R} \\pm z_{1-\\alpha / 2} \\cdot S E_{\\ln \\widehat{R R}}= 0.1382 \\pm(1.645)(0.05192)=0.1382 \\pm 0.0854=(0.0528,0.2236)$. Therefore, the $90 \\%$ confidence interval of $R R=e^{0.0528,0.2236}=(1.05$ to 1.25).",
+    "variable": {
+      "Cases_Estrogen_Plus": {
+        "id": "Cases_Estrogen_Plus",
+        "value": [
+          751
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of cases in the Estrogen+ group."
+      },
+      "Noncases_Estrogen_Plus": {
+        "id": "Noncases_Estrogen_Plus",
+        "value": [
+          7755
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of non-cases in the Estrogen+ group."
+      },
+      "Total_Estrogen_Plus": {
+        "id": "Total_Estrogen_Plus",
+        "value": [
+          8506
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the Estrogen+ group."
+      },
+      "Cases_Estrogen_Minus": {
+        "id": "Cases_Estrogen_Minus",
+        "value": [
+          623
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of cases in the Estrogen- group."
+      },
+      "Noncases_Estrogen_Minus": {
+        "id": "Noncases_Estrogen_Minus",
+        "value": [
+          7479
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Number of non-cases in the Estrogen- group."
+      },
+      "Total_Estrogen_Minus": {
+        "id": "Total_Estrogen_Minus",
+        "value": [
+          8102
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the Estrogen- group."
+      },
+      "Estimated_RR": {
+        "id": "Estimated_RR",
+        "value": [
+          1.1483
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Estimated relative risk (RR) calculated as the ratio of the probability of cases in the Estrogen+ group to the Estrogen- group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the relative risk (Estrogen  trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-392"
+  },
+  "sample_key": "536"
+}

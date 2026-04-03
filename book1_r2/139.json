@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_073.json",
+  "input": {
+    "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+    "data": "",
+    "question": "What is wrong with the hypothesis statement $H_0: \\hat{p}=0.50$ vs. $H_a: \\hat{p} \\neq 0.50$?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "Same problem as we identified in (b). These hypothesis statements address sample statistic $\\hat{p}$. They should address population parameter $p$.",
+    "variable": {
+      "hypothesis_statement": {
+        "id": "hypothesis_statement",
+        "value": [
+          "H_0: \\hat{p}=0.50",
+          "H_a: \\hat{p} \\neq 0.50"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The hypothesis statements being evaluated for correctness."
+      },
+      "proportion_estimate": {
+        "id": "proportion_estimate",
+        "value": "0.50",
+        "class": "numerical",
+        "role": "both",
+        "description": "The estimated proportion value used in the hypothesis statement."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.1",
+    "image": "",
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
+  },
+  "sample_key": "139"
+}

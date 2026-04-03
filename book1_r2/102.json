@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_054.json",
+  "input": {
+    "background": "The prevalence of a condition in a population is 10%. You take a simple random sample of 15 people from this population. Let X represent the number of individuals in the sample with the condition.",
+    "data": "",
+    "question": "At what number of cases would you start to believe the assumed prevalence in the population is greater than 10%?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Probabilities: No. of Successes (x) & 0 & 1 & 2 & 3 & 4 & 5 \n Pr(X=x) & 0.2059 & 0.3432 & 0.2669 & 0.1285 & 0.0428 & 0.0105 \n Pr(X ≤ x) & 0.2059 & 0.5490 & 0.8159 & 0.9444 & 0.9873 & 0.9978 \n Pr(X>x) & 0.7941 & 0.4510 & 0.1841 & 0.0556 & 0.0127 & 0.0022",
+    "variable": {
+      "prevalence": {
+        "id": "prevalence",
+        "value": 0.1,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The assumed prevalence of the condition in the population."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 15,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of individuals in the random sample taken from the population."
+      },
+      "X": {
+        "id": "X",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of individuals in the sample with the condition."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "6.11",
+    "image": "",
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
+  },
+  "sample_key": "102"
+}

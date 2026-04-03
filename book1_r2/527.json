@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_423.json",
+  "input": {
+    "background": "One component of the NIH-sponsored Women's Health Initiative study was a trial in which postmenopausal women were randomly assigned either estrogen or an identical-looking placebo. The estrogen-exposed group comprised n1=8506 subjects. The placebo group had n2=8102. Incidents of a combined index outcome (consisting of coronary disease, stroke, pulmonary embolism, breast cancer, endometrial cancer, colorectal cancer, hip fracture, and death due to other causes) were tallied in the groups. After a mean 5.2 years of follow-up, the estrogen-exposed group had 751 incidents and the control group had 623 incidents.",
+    "data": "",
+    "question": "Calculate the cumulative incidence proportions for the estrogen-exposed group and the control group."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Therefore, cumulative incidence proportions were p̂1=a1/n1=751/8506=0.08829 and p̂2=a2/n2=623/8102=0.07689.",
+    "variable": {
+      "estrogen_exposed_group_size": {
+        "id": "estrogen_exposed_group_size",
+        "value": 8506,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of subjects in the estrogen-exposed group."
+      },
+      "placebo_group_size": {
+        "id": "placebo_group_size",
+        "value": 8102,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of subjects in the placebo group."
+      },
+      "estrogen_exposed_incidents": {
+        "id": "estrogen_exposed_incidents",
+        "value": 751,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of incidents in the estrogen-exposed group after follow-up."
+      },
+      "placebo_incidents": {
+        "id": "placebo_incidents",
+        "value": 623,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of incidents in the placebo group after follow-up."
+      },
+      "follow_up_years": {
+        "id": "follow_up_years",
+        "value": 5.2,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean number of years of follow-up for the study."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Estrogen trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.1 Data",
+    "page": "374-374"
+  },
+  "sample_key": "527"
+}

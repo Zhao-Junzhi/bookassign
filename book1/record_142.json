@@ -1,0 +1,39 @@
+{
+  "id": "142",
+  "question": "Table 18.8 contains results from the cytomegalovirus (CMV) and restenosis study considered as an illustrative example of naturalistic samples in §18.1. The occurrence of coronary restenosis within 6 months of surgery is cross tabulated according to CMV status.
+(a) Calculate the prevalence of CMV in the patient population as a whole.
+(b) Calculate the incidence of restenosis in the patient population as a whole. 
+(c) What percent of CMV+ patients experienced restenosis? What percent of CMV — patients restenosed? What type of conditional\npercents are these?
+(d) Calculate the relative risk of restenosis associated with CMV.
+(e) Calculate the odds ratio of restenosis associated with CMV exposure. Why is this OR larger than the RR calculated in part
+(d) of the exercise?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.}
+\begin{tabular}{lc|c|}
+\hline & \multicolumn{1}{c}{ Restenosed } & \multicolumn{1}{c}{ Did not restenose }& \multicolumn{1}{c}{ Total } \\
+\hline CMV + &21 & 28 & 49 \\
+\hline CMV- & 23 & 52 & 26 \\
+\hline Total &23 & 52 & 75\\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "(a) Prevalence of CMV in both groups combined $=49 / 75=0.653$
+(b) Incidence of restenosis overall $=23 / 75=0.307$
+(c) The proportion of the CMV+group experiencing restenosis $\hat{p}_1=21 / 49=0.4286 =43 \%$.
+The proportion of the CMV - group experiencing restenosis $\dot{p}_2=2 / 26=0.0769=8 \%$.
+These are row percents.
+(d) $R R=\frac{0.4286}{0.0769}=5.57$
+(e) $O R=\frac{21 / 28}{2 / 24}=9.00$
+
+This $O R$ is larger than the $R R$ because the outcome is common.",
+  "meta info": {
+    "index": "18.3",
+    "image": "",
+    "caption": "Cytomegalovirus infection and coronary restenosis.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "419-420"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "124",
+  "question": "Exercise 16.2 stated that seven of eight patients expressed a preference for a particular medical procedure. Use an exact procedure to calculate a 95% confidence interval for p.",
+  "data": "",
+  "answer": "The $95 \\%$ confidence interval for $p$ by Fisher's method is 0.473 to 0.997 . The $95 \\%$ confidence interval for $p$ by the Mid-P method is 0.520 to 0.994 . Confidence intervals calculated with WinPepi describe.exe version 1.5.1.",
+  "meta info": {
+    "index": "16.11",
+    "image": "",
+    "caption": "Patient preference.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "366-366"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "background": "A randomized, double-blind, placebo-controlled trial evaluated the efficacy of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in children. Each time a subject had an upper respiratory tract infection, treatment with either echinacea or a placebo was taken for the duration of illness. The severity of the illness was rated by parents of subjects as mild, moderate, or severe. Table 18.6A shows the results. Table 18.6B shows the row percents of responses in the groups.",
+  "task": [
+    {
+      "query": "Approximately $46 \\%$ of the cases were rated.",
+      "answer": "A slightly higher percentage of the treatment group experienced severe illness ( $14.6 \\%$ vs. $10.9 \\%$ ), suggesting that echinacea is ineffective in treating upper respiratory tract illness in children.",
+      "method": "实验设计"
+    }
+  ],
+  "id": "441",
+  "data": "\n\\begin{table}[h!]\n\\centering\n\\caption{Efficacy of echinacea illustrative data. Parental assessments of the severity of illness.}\n\\begin{tabular}{|l|ccc|c|}\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(A) Cross-tabulated counts}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 153           & 128               & 48              & 329 \\\nPlacebo          & 170           & 157               & 40              & 367 \\\n\\hline\nTotal            & 323           & 285               & 88              & 696 \\\n\\hline\n\\multicolumn{5}{c}{} \\\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(B) Conditional distributions (row percents)}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 46.5          & 38.9              & 14.6            & 100.0 \\\nPlacebo          & 46.3          & 42.8              & 10.9            & 100.0 \\\n\\hline\nTotal            & 46.4          & 40.9              & 12.6            & 100.0 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Categorical response with more than two levels  (Efficacy of echinacea).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "417-418"
+  }
+}

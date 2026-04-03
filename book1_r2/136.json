@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_072.json",
+  "input": {
+    "background": "Ten people are given a choice of two treatments. Let $p$ represent the proportion of patients in the patient population who prefer treatment A.",
+    "data": "",
+    "question": "Among the 10 patients asked, 7 preferred method A. Assuming there is no preference in the patient population (i.e., $p= 0.5)$, calculate $\\operatorname{Pr}(X \\geq 7)$."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "We start by assuming $X \\sim \\mathrm{~b}(10,0.5)$. $$ \\begin{aligned} & \\operatorname{Pr}(X \\geq 7) \\\\ & =\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)+\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10) \\\\ & =0.117188+0.043945+0.009766+0.000977 \\\\ & =0.1719 \\end{aligned} $$",
+    "variable": {
+      "number_of_patients": {
+        "id": "number_of_patients",
+        "value": 10,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of patients surveyed."
+      },
+      "patients_preferring_A": {
+        "id": "patients_preferring_A",
+        "value": 7,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of patients who preferred treatment A."
+      },
+      "proportion_p": {
+        "id": "proportion_p",
+        "value": 0.5,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The assumed proportion of the patient population that prefers treatment A."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.15",
+    "image": "",
+    "caption": "Patient preference.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
+  },
+  "sample_key": "136"
+}

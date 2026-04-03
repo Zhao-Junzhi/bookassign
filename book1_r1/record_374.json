@@ -1,0 +1,30 @@
+{
+  "background": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population.",
+  "task": [
+    {
+      "query": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the first sample with $\\bar{x}_1=183$.",
+      "answer": "For sample 1, the confidence interval is $\\bar{x}_1 \\pm m=183 \\pm 3=180$ to 186 (pounds).",
+      "method": "均值检验"
+    },
+    {
+      "query": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the second sample with $\\bar{x}_2=180$.",
+      "answer": "For sample 2, the confidence interval is $\\bar{x}_2 \\pm m=180 \\pm 3=177$ to 183 (pounds).",
+      "method": "均值检验"
+    },
+    {
+      "query": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the third sample with $\\bar{x}_3=184$.",
+      "answer": "For sample 3, the confidence interval is $\\bar{x}_3 \\pm m=184 \\pm 3=181$ to 187 (pounds).",
+      "method": "均值检验"
+    }
+  ],
+  "id": "374",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": " 95 % confidence intervals for $\\mu, \\sigma$ known (Body weight, 20-29-year-old males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\\\mu$ When $\\\\sigma$ Is Known",
+    "page": "200-200"
+  }
+}

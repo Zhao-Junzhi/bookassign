@@ -1,0 +1,16 @@
+{
+  "id": "395",
+  "question": " Suppose you want to estimate $\\boldsymbol{\\mu}_1-\\boldsymbol{\\mu}_2$ with $95 \\%$ confidence for a problem similar to the cholesterol illustrative example. You want your margin of error to be no greater than $0.25 \\mathrm{mmol} / \\mathrm{L}$. 
+(a)We have established that $s^2{ }_{\\text {pooled }}=0.24813$, and will use this as a reasonable estimate of $\\sigma^2$.
+（b）Now suppose that you can recruit only 20 individuals into group 1 . How many individuals will you now need in group 2?",
+  "data": "",
+  "answer": " (a)For 95% confidence, use $z_{1-(0.05 / 2)}=1.96$. The sample size required per group is $n=\\frac{2 \\sigma^2 z^2}{m^2}=\\frac{2 \\cdot 0.24813 \\cdot 1.96^2}{0.25^2}=30.5$. Round this up to the next integer and resolve to use 31 individuals per group.\n(b) $n_2=\\frac{n n_1}{2 n_1-n}=\\frac{31 \\cdot 20}{2 \\cdot 20-31}=68.9$. Round this up to 69 .",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement for a confidence interval for $\\mu_1-\\mu_2$",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "251-251"
+  }
+}

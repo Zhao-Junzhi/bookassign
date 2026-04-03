@@ -1,0 +1,49 @@
+{
+  "case_id": "book1_r1\\record_335.json",
+  "input": {
+    "background": "Table 5.1 lists the probability mass function for the four patients illustrative pmf. Notice that: - Property 1. All probabilities in the pmf are between 0 and 1. - Property 2. Probabilities in the sample space sum to exactly 1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Verify that the probabilities in the sample space sum to exactly 1."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)+\\operatorname{Pr}(X=2)+\\operatorname{Pr}(X=3)+\\operatorname{Pr}(X=4)= 0.0039+0.0469+0.2109+0.4219=0.3164=1.000$$",
+    "variable": {
+      "Number_of_success": {
+        "id": "Number_of_success",
+        "value": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of successes in the probability mass function."
+      },
+      "Probability": {
+        "id": "Probability",
+        "value": [
+          0.0039,
+          0.0469,
+          0.2109,
+          0.4219,
+          0.3164
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The probability associated with each number of successes."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Properties of probabilities.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "95-95"
+  },
+  "sample_key": "359"
+}

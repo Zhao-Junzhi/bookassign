@@ -1,0 +1,57 @@
+{
+  "case_id": "book1_r1\\record_447.json",
+  "input": {
+    "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
+    "data": "",
+    "question": "Calculate the natural logarithm of the estimated odds ratio (OR)."
+  },
+  "output": {
+    "method": "获取模型参数估计值",
+    "answer": "We've established \\(\\widehat{OR}=5.640\\). Therefore, \\(\\ln \\widehat{OR}=\\ln(5.640)\\) = 1.7299 (by calculator).",
+    "variable": {
+      "case_status": {
+        "id": "case_status",
+        "value": [
+          "case",
+          "control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether the individual is a case (esophageal cancer) or a control (no esophageal cancer)."
+      },
+      "alcohol_exposure": {
+        "id": "alcohol_exposure",
+        "value": [
+          "exposed",
+          "not_exposed"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether the individual has been exposed to alcohol consumption or not."
+      },
+      "odds_ratio": {
+        "id": "odds_ratio",
+        "value": "Estimated odds ratio calculated from case-control data.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The odds ratio quantifies the association between alcohol exposure and esophageal cancer."
+      },
+      "log_odds_ratio": {
+        "id": "log_odds_ratio",
+        "value": "Natural logarithm of the estimated odds ratio.",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The natural logarithm of the odds ratio, used for statistical analysis and interpretation."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "439-439"
+  },
+  "sample_key": "563"
+}

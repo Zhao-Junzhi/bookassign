@@ -1,0 +1,25 @@
+{
+  "background": "The smoking prevalence example in this chapter $(n=57, x=17)$ estimated a population proportion of 0.30 with margin of error (assuming $95 \\%$ confidence) equal to $\\pm 0.12$.",
+  "task": [
+    {
+      "query": "How large a sample would be needed to derive an estimate with a margin of error of $\\pm 0.05$?",
+      "answer": "$n=\\frac{z_1^2-p^* q^*}{m^2}=\\frac{1.96^2 \\cdot 0.30 \\cdot 0.70}{0.05^2}=322.7$. Use a sample of 323 observations.",
+      "method": "达到指定概率所需的最小样本量"
+    },
+    {
+      "query": "How large a sample would be needed to shrink this margin of error to plus or minus 0.03?",
+      "answer": "$n=\\frac{1.96^2 \\cdot 0.30 \\cdot 0.70}{0.03^2}=896.4$. Use a sample of 897 observations.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "420",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, confidence interval.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "367-367"
+  }
+}

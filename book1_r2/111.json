@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_063.json",
+  "input": {
+    "background": "An inmate on death row in the state of Illinois has a WAIS of 51.",
+    "data": "",
+    "question": "What percentage of people have a score below this level?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "Again, the four-step procedure is used: 1. Statel $X \\sim N(100,15)$. We want to determine $\\operatorname{Pr}(X<51)$ 2. Standardize: $z=\\frac{51-100}{15}=-3.27$ 3. Sketch: not shown 4. Table B: $\\operatorname{Pr}(Z \\leq-3.27)=0.0005$ (about $0.05 \\%$ )",
+    "variable": {
+      "WAIS_score": {
+        "id": "WAIS_score",
+        "value": 51,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The WAIS (Wechsler Adult Intelligence Scale) score of the inmate."
+      },
+      "percentage_below_score": {
+        "id": "percentage_below_score",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The percentage of people who have a WAIS score below 51."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "7.11",
+    "image": "",
+    "caption": "Death row inmate.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.3 FINDING VALUES THAT CORRESPOND",
+    "page": "147-147"
+  },
+  "sample_key": "111"
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "book1_r1\\record_147.json",
+  "input": {
+    "background": "A case-control study examined the relationship between cellular telephone use and intracranial tumors. The study (completed between 1994 and 1998) included 782 cases with various types of intracranial tumors and 799 controls with a variety of nonmalignant conditions. Subjects were considered to be \"exposed\" if they reported cellular telephone use for more than 100 hours. The odds ratios (and $95 \\%$ confidence intervals) for various tumor types were: for glioma 0.9 ( 0.5 to 1.6 ), for meningioma 0.7 ( 0.3 to 1.7 ), for acoustic neuroma 1.4 ( 0.6 to 3.5 ), for all tumor types combined 1.0 ( 0.6 to 1.5 ).",
+    "data": "",
+    "question": "Comment on these findings."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "Results fail to support an association between cell phone use and brain tumors. The odds ratios for glioma and meningioma show small negative associations. The odds ratio for acoustic neuroma shows a small positive association. All confidence interval are consistent with no association.",
+    "variable": {
+      "tumor_type": {
+        "id": "tumor_type",
+        "value": [
+          "glioma",
+          "meningioma",
+          "acoustic neuroma",
+          "all tumor types combined"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The type of intracranial tumor being studied."
+      },
+      "odds_ratio": {
+        "id": "odds_ratio",
+        "value": [
+          0.9,
+          0.7,
+          1.4,
+          1.0
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The odds ratio for each tumor type associated with cellular telephone use."
+      },
+      "confidence_interval": {
+        "id": "confidence_interval",
+        "value": [
+          "0.5 to 1.6",
+          "0.3 to 1.7",
+          "0.6 to 3.5",
+          "0.6 to 1.5"
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The 95% confidence interval for the odds ratio of each tumor type."
+      },
+      "exposure_status": {
+        "id": "exposure_status",
+        "value": [
+          "exposed",
+          "not exposed"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Whether the subject reported cellular telephone use for more than 100 hours."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.13",
+    "image": "",
+    "caption": "Cell phones and brain tumors, study 1.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "443-443"
+  },
+  "sample_key": "283"
+}

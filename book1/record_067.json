@@ -1,0 +1,19 @@
+{
+  "id": "067",
+  "question": " A survey selects an SRS of $n=500$ people from a town of 55,000 . The sample shows an average of 2.30 health problems per person (standard deviation $=1.65$ ). Based on this information, say whether each of the following statements is true or false. Explain your reasoning in each instance.
+(a) The standard deviation of the sample mean is 0.074 .
+(b) It is reasonable to assume that the number of health problems per person will vary according to a Normal distribution.
+(c) It is reasonable to assume that the sampling distribution of the mean will vary according to a Normal distribution.",
+  "data": "",
+  "answer": "(a) True. The standard deviation of $\bar{x}=$ the standard error of the mean $= \frac{1.65}{\sqrt{500}}=0.0740$.
+(b) False. It is not reasonable to assume that the number of health problems per person is Normal. Most people will have 0 or 1 health problem and a small number will have 2,3,4, or more problems; the distribution is likely to have a positive skew.
+(c) True. Because $n$ is large, we can count on the central limit theorem to make the sampling distribution of $\bar{x}$ fairly Normal.",
+  "meta info": {
+    "index": "8.5",
+    "image": "",
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
+  }
+}

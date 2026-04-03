@@ -1,0 +1,14 @@
+{
+  "id": "367",
+  "question": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean $\\mu=170$ pounds and standard deviation $\\sigma=40 .To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean. Under the null hypothesis, there is no difference in the mean body weights between then and now. .",
+  "data": "",
+  "answer": "Let $\\mu$ represent the current population mean. Therefore, the null hypothesis is $H_0: \\mu=170$. Under the alternative hypothesis, the mean weight has increased. In other words, $H_{\\mathrm{a}}: \\mu>170$ pounds.This alternative hypothesis is one-sided, looking only for values larger than the stated population mean. However, we may also consider a twosided alternative that looks for both higher- and lower-than-expected population means. For this example, the two-sided alternative hypothesis would be $H_{\\mathrm{a}}: \\mu \\neq 170$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 The Null and Alternative Hypotheses",
+    "page": "176-177"
+  }
+}

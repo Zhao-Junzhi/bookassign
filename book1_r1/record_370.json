@@ -1,0 +1,35 @@
+{
+  "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116,128,125,119,89,99,105,116,118}. Thus, x̄=(116+128+⋯+118)/9=112.8.",
+  "task": [
+    {
+      "query": "Does this sample provide statistically significant evidence in support of the citizen's claim?",
+      "answer": "A. Hypotheses. Since 100 represents the expected population average if no difference were to exist, H0: μ=100. The one-sided alternative hypothesis is Ha: μ>100. The two-sided alternative is Ha: μ≠100.",
+      "method": "均值检验"
+    },
+    {
+      "query": "Test statistic.",
+      "answer": "The SE_x̄=σ/√n=15/√9=5 and the z_stat=(x̄-μ)/SE_x̄=(112.8-100)/5=2.56. Figure 9.6 is a schematic of the sampling distribution of x̄ and the z_stat under H0.",
+      "method": "均值检验"
+    },
+    {
+      "query": "P-value.",
+      "answer": "Using Table B, we find that the area to the left of the z_stat of 2.56 is 0.9948. Therefore, the area to the right is 1-0.9948=0.0052. This is the one-sided P-value. The two-sided P-value=2×0.0052=0.0104.",
+      "method": "均值检验"
+    },
+    {
+      "query": "Significance.",
+      "answer": "The two-sided P-value provides significant evidence against the null hypothesis (reject H0 at α=0.05 but not at α=0.01).",
+      "method": "均值检验"
+    }
+  ],
+  "id": "370",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "z test (“Lake Wobegon”).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5  ONE-SAMPLE Z TEST",
+    "page": "185-186"
+  }
+}

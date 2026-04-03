@@ -1,0 +1,81 @@
+{
+  "id": "336",
+  "question": "What are the mean and variance of the four patients illustrative pmf, as presented in Table 5.1?",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}
+\begin{tabular}{lccccc}
+\hline No. of success & 0 & 1 & 2 & 3 & 4 \\
+Probability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \cdot \operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\mu=3.00$. We expect three successes over the long run.
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 5.2 Calculation of expected value for the "Four patients" illustration example.}
+\begin{tabular}{lccccc}
+\hline$x$ & 0 & 1 & 2 & 3 & 4 \\
+$\operatorname{Pr}(X=x)$ & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\
+$x \cdot \operatorname{Pr}(X=x)$ & $0.0000^a$ & $0.0469^b$ & $0.4218^c$ & 1.2657 & 1.2656 \\
+\hline
+\end{tabular}
+\end{table}
+
+Examples of calculations:
+
+$$
+\begin{aligned}
+& { }^a x \cdot \operatorname{Pr}(X=0)=0 \cdot 0.0039=0.0000 \\
+& { }^b x \cdot \operatorname{Pr}(X=1)=1 \cdot 0.0469=0.0469 \\
+& { }^c x \cdot \operatorname{Pr}(X=2)=2 \cdot 0.2109=0.4218
+\end{aligned}
+$$
+
+
+Calculation of the expected value:
+
+$$
+\mu=\Sigma x \cdot \operatorname{Pr}(X=x)=0.0000+0.0469+0.4218+1.2657+1.2656=3.00
+$$
+
+
+Table 5.3 restates the pmf with an additional row listing values for $(x-\mu)^2 \cdot \operatorname{Pr}(X=x)$. The variance of the model is calculated below the table revealing $\sigma^2=0.75$. This is a measure of the random variable's variability.
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 5.3 Calculation of variance for the Four patients illustrative example.}
+\begin{tabular}{lccccc}
+\hline$x$ & 0 & 1 & 2 & 3 & 4 \\
+$\operatorname{Pr}(X=x)$ & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\
+$(x-\mu)^2 \cdot \operatorname{Pr}(X=x)$ & $0.0351^a$ & $0.1876^b$ & $0.2109^c$ & 0.0000 & 0.3164 \\
+\hline
+\end{tabular}
+\end{table}
+
+Recall that $\mu=3$.
+**Examples of calculations:
+
+$$
+\begin{aligned}
+& { }^a(x-\mu)^2 \cdot \operatorname{Pr}(X=x)=(0 \cdot 3)^2 \cdot 0.0039=0.0351 \\
+& { }^b(x-\mu)^2 \cdot \operatorname{Pr}(X=x)=(1 \cdot 3)^2 \cdot 0.0469=0.1876 \\
+& { }^c(x-\mu)^2 \cdot \operatorname{Pr}(X=x)=(2 \cdot 3)^2 \cdot 0.2109=0.2109
+\end{aligned}
+$$
+
+
+Calculation of variance:
+
+$$
+\sigma^2=\Sigma(x-\mu)^2 \cdot \operatorname{Pr}(X=x)=0.0351+0.1876+0.2109+0.0000+0.3164=0.75
+$$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Expectation and variance.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "96-97"
+  }
+}

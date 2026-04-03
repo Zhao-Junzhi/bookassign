@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_501.json",
+  "input": {
+    "background": "Scores derived from a patient satisfaction survey are Normally distributed with μ=50 and σ=7.5, with high scores indicating high satisfaction. An SRS of n=36 is taken from this population.",
+    "data": "",
+    "question": "Suppose a sample of n=36 finds an x̄ of 48.8. Mark this finding on the horizontal axis of your sketch. Then calculate the z_stat for the result. Does this observation provide strong evidence against H_0?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "Notice that z_stat=(48.8-50)/1.25=-0.96. Therefore, 48.8 is a little less than 1 standard deviation below μ_0. This would not be unusual and would not provide strong evidence against H_0.",
+    "variable": {
+      "mu": {
+        "id": "mu",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Population mean of the patient satisfaction scores."
+      },
+      "sigma": {
+        "id": "sigma",
+        "value": 7.5,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Population standard deviation of the patient satisfaction scores."
+      },
+      "n": {
+        "id": "n",
+        "value": 36,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size taken from the population."
+      },
+      "x_bar": {
+        "id": "x_bar",
+        "value": 48.8,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean of the patient satisfaction scores."
+      },
+      "z_stat": {
+        "id": "z_stat",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Z-statistic calculated from the sample mean and population parameters."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.3",
+    "image": "",
+    "caption": "Patient satisfaction.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "572"
+}

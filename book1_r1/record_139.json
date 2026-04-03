@@ -1,0 +1,25 @@
+{
+  "background": "The Scandinavian simvastatin survival study (4S) was a randomized clinical trial designed to evaluate the effects of the cholesterol-lowering agent simvastatin in patients with coronary heart disease. Over 5.4 years of follow-up, the treatment group consisting of 2221 individuals experienced 111 fatal heart attacks. The placebo group of 2223 individuals experienced 189 such events.",
+  "task": [
+    {
+      "query": "Calculate the risks in the groups and test the difference for significance.",
+      "answer": "$$\n\\begin{aligned}\n& \\hat{p}_1=111 / 2221=0.049977 \\\n& \\hat{p}_2=189 / 2223=0.085020\n\\end{aligned}$$\n\nA. Hypotheses. $H_0: p_1=p_2$ versus $H_{\\mathrm{a}}: p_1 \\neq p_2$\nB. Test statistic. $z_{\\text {stat }}=4.66$\nC. $P$-value. $P$ (two-tailed) $=0.0000032$ (highly significant)\nD. Significance level (optional). The evidence against the null hypothesis is significant at $\\alpha=0.01$.",
+      "method": "均值检验"
+    },
+    {
+      "query": "In relative terms, how much did simvastatin lower heart attack mortality?",
+      "answer": "The easiest way to address this question is to first calculate the relative risk: $\\widehat{R R}=\\frac{0.049977}{0.085020}=0.59$. The relative reduction in risk $=1-0.59=0.41$, or $41 \\%$.",
+      "method": "分类或发生概率影响因素解读"
+    }
+  ],
+  "id": "139",
+  "data": "",
+  "meta info": {
+    "index": "17.17",
+    "image": "",
+    "caption": "4S coronary mortality.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
+  }
+}

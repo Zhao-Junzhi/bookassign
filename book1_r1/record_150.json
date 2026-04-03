@@ -1,0 +1,20 @@
+{
+  "background": "Recall the illustrative example concerning a matched case-control study of adenomatous colon polyps and diet.",
+  "task": [
+    {
+      "query": "Test the association for significance. Show all hypothesis-testing steps.",
+      "answer": "A. Hypotheses. $H_0$ : no association between fruit and vegetable consumption and colon polyps in the population versus $H_2: H_0$ false. B. Test statistic. $z_{\\mathrm{McN}}=\\operatorname{sqrt}\\left[(45-24)^2 /(45+24)\\right]=2.528$ C. $P$-value. $P=0.011$ (significant evidence) D. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.05$ and is almost significant at $\\alpha=0.01$.",
+      "method": "独立性检验"
+    }
+  ],
+  "id": "150",
+  "data": "",
+  "meta info": {
+    "index": "18.19",
+    "image": "",
+    "caption": "Diet and adenomatous polyps.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "455-455"
+  }
+}

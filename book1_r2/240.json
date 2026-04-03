@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "The value of 6 changes when the units of measure are changed."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "True",
+    "variable": {
+      "value_of_6": {
+        "id": "value_of_6",
+        "value": "6",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The numerical value being analyzed to determine how it changes with different units of measure."
+      },
+      "units_of_measure": {
+        "id": "units_of_measure",
+        "value": "Different units of measurement (not explicitly provided in the question)",
+        "class": "categorical",
+        "role": "independent",
+        "description": "The units of measurement that influence the interpretation or representation of the value of 6."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "240"
+}

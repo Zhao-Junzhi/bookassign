@@ -1,0 +1,26 @@
+{
+  "id": "133",
+  "question": "Joseph Lister (1827-1912) demonstrated that postoperative mortality dropped from 16 fatalities in 35 procedures to 6 fatalities in 40 procedures after adopting antiseptic surgical techniques. Determine the risks of postoperative mortality in each group. Then, test the proportions for inequality.",
+  "data": "",
+  "answer": "$$
+\begin{aligned}
+& \hat{p}_1=0.1500 \\
+& \hat{p}_2=0.457143
+\end{aligned}
+$$
+
+
+Hypothesis test
+A. Hypotheses. $H_0: p_1=p_2$ versus $H_{\mathrm{a}}: p_1 \neq p_2$
+B. Test statistic. $z_{\text {stat }}=2.91$
+C. $P$-value. $P=0.0036$, providing highly significant evidence against the null hypothesis.
+D. Significance level (optional). The evidence against $H_0$ is significant at $\alpha=0.01$ (reject $H_0$ ).",
+  "meta info": {
+    "index": "17.5",
+    "image": "",
+    "caption": "Joseph Lister and antiseptic surgery.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.3 Hypothesis Test",
+    "page": "388-388"
+  }
+}

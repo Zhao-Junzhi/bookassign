@@ -1,0 +1,25 @@
+{
+  "background": "In Table 1.2, we are tasked with finding specific values for given observations.",
+  "task": [
+    {
+      "query": "What is the value of the LUNGCA variable for the seventh observation?",
+      "answer": "The value of LUNGCA for the seventh observation is 18.",
+      "method": "其它（如 reliability）"
+    },
+    {
+      "query": "What is the value of the COUNTRY variable for the eleventh observation?",
+      "answer": "The value of COUNTRY for the 11th observation is Iceland.",
+      "method": "其它（如 reliability）"
+    }
+  ],
+  "id": "001",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 1.2 Per capita cigarette consumption in 1930 (CIG1930) and lung cancer cases per 100,000 in 1950 (lungca) in 11 countries.}\n\\begin{tabular}{|l|l|l|}\n\\hline COUNTRY & CIG1930 & LUNGCA \\\n\\hline USA & 1300 & 20 \\\n\\hline Great Britain & 1100 & 46 \\\n\\hline Finland & 1100 & 35 \\\n\\hline Switzerland & 510 & 25 \\\n\\hline Canada & 500 & 15 \\\n\\hline Holland & 490 & 24 \\\n\\hline Australia & 480 & 18 \\\n\\hline Denmark & 380 & 17 \\\n\\hline Sweden & 300 & 11 \\\n\\hline Norway & 250 & 9 \\\n\\hline Iceland & 230 & 6 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "1.1",
+    "image": "",
+    "caption": "Value, variable, observation.",
+    "chapter": "Measurement",
+    "section": "1.2 Organization of Data",
+    "page": "4-4"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_148.json",
+  "input": {
+    "background": "An important historical case-control completed by Doll and Hill found that 647 of the 649 lung cancer cases were smokers. In contrast, 622 of 649 controls smoked.",
+    "data": "",
+    "question": "Calculate the odds ratio associated with smoking."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "$$\n\\widehat{O R}-\\frac{647 \\cdot 27}{622 \\cdot 2}=14.04\n$$\n\nThis suggests that the smokers had 14 times the risk of nonsmokers.",
+    "variable": {
+      "lung_cancer_cases": {
+        "id": "lung_cancer_cases",
+        "value": 649,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of lung cancer cases in the study."
+      },
+      "smokers_with_lung_cancer": {
+        "id": "smokers_with_lung_cancer",
+        "value": 647,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of smokers among the lung cancer cases."
+      },
+      "controls": {
+        "id": "controls",
+        "value": 649,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of control cases in the study."
+      },
+      "smokers_in_controls": {
+        "id": "smokers_in_controls",
+        "value": 622,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Number of smokers among the control cases."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.15",
+    "image": "",
+    "caption": "Doll and Hill, 1950.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "444-444"
+  },
+  "sample_key": "286"
+}

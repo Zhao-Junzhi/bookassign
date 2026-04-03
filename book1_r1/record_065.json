@@ -1,0 +1,40 @@
+{
+  "background": "Find the following $z$ percentiles.",
+  "task": [
+    {
+      "query": "(a) $z_{.10}$",
+      "answer": "$z_{.10}=-1.28$ (The 10th percentile on a Standard Normal curve is -1.28.)",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "(b) $z_{.35}$",
+      "answer": "$z_{.35}=-0.39$",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "(c) $z_{.74}$",
+      "answer": "$z_{.74}=0.64$",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "(d) $z_{.85}$",
+      "answer": "$z_{.85}=1.04$",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "(e) $z_{.999}$",
+      "answer": "$z_{.999}=3.09$",
+      "method": "分位数/百分位数"
+    }
+  ],
+  "id": "065",
+  "data": "",
+  "meta info": {
+    "index": "7.15",
+    "image": "",
+    "caption": "Z percentiles.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
+  }
+}

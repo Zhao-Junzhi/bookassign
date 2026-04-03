@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_373.json",
+  "input": {
+    "background": "The National Health and Nutrition Examination Survey (NHANES) assesses the health and nutritional status of adults and children in the United States using data from interviews and direct physical examinations. From 1999-2002, 712 men between the ages of 20 and 29 were examined. The mean body weight in this sample ( $\\bar{x}$ ) was 183.0 pounds.",
+    "data": "",
+    "question": "What is the margin of error associated with this estimate for $95 \\%$ confidence, and what is the $95 \\%$ confidence interval for $\\mu$?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The margin of error associated with this estimate for $95 \\%$ confidence was $\\pm 3$ pounds. Therefore, the $95 \\%$ confidence interval for $\\mu$ is 183 pounds $\\pm 3$ pounds $=180$ to 186 pounds.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 712,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of men in the sample, aged between 20 and 29, examined in the survey."
+      },
+      "mean_body_weight": {
+        "id": "mean_body_weight",
+        "value": 183.0,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean body weight of the sample in pounds."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level used to calculate the margin of error and confidence interval."
+      },
+      "population_mean": {
+        "id": "population_mean",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The true mean body weight of the population, which is being estimated."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Point and interval estimation (Body weight, 20-29-year-old U.S. men, 2000). ",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.1 Introduction to Estimation",
+    "page": "196-197"
+  },
+  "sample_key": "422"
+}

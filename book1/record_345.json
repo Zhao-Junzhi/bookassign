@@ -1,0 +1,14 @@
+{
+  "id": "345",
+  "question": "Four patients are treated with an intervention that is successful 75% of the time.  ",
+  "data": "",
+  "answer": "The random number of successes is a binomial random variable with parameters n=4 and p=0.75.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Four patients binomial example.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.1 Binomial Random Variables",
+    "page": "116-116"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "371",
+  "question": "A study of $n=16$ retains $H_0: \mu=$ 170 at an $\alpha$ of 0.05 (two sided). Based on prior study, the standard deviation of this variable is 40 . What was the power of the test to identify a population mean of $190 ?$",
+  "data": "",
+  "answer": "\begin{aligned}
+& 1-\beta=\Phi\left(-z_{1-\frac{\alpha}{2}}+\frac{\left|\mu_0-\mu_a\right| \sqrt{n}}{\sigma}\right) \\
+& =\Phi\left(-1.96+\frac{|170-190| \sqrt{16}}{40}\right) \\
+& =\Phi(0.04)=0.5160 \text { [From Table B] }
+\end{aligned}
+The test had about a 50/50 chance of rejecting the $H_0$ under the stated conditions. This is low. Hypothesis tests should strive for at least $80 \%$ power. ",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of a z test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 Power and Sample Size",
+    "page": "189-189"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "424",
+  "question": "What is the risk difference for the combined outcome in the estrogen trial alluded to earlier? We established 5.2-year risks of $\\hat{p}_1=0.08829$ in the treatment group and $\\hat{p}_2=0.07689$ in the control group.",
+  "data": "",
+  "answer": " $\\hat{p}_1-\\hat{p}_2=0.08829-0.07689=0.0114$. This is equivalent to 11.4 additional cases per 1000 exposed individuals over the 5.2 -year period.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Risk difference.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "375-375"
+  }
+}

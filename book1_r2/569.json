@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_451.json",
+  "input": {
+    "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
+    "data": "",
+    "question": "Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated."
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "Instead, strata-specific statistics should be reported.",
+    "variable": {
+      "asbestos_exposure": {
+        "id": "asbestos_exposure",
+        "value": "Presence or absence of asbestos exposure (categorical values such as 'exposed' or 'not exposed')",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether an individual was exposed to asbestos."
+      },
+      "lung_cancer_status": {
+        "id": "lung_cancer_status",
+        "value": "Presence or absence of lung cancer (categorical values such as 'case' or 'control')",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates whether an individual has lung cancer (case) or not (control)."
+      },
+      "smoking_status": {
+        "id": "smoking_status",
+        "value": "Smoking behavior of individuals (categorical values such as 'smoker' or 'non-smoker')",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether an individual is a smoker or a non-smoker."
+      },
+      "odds_ratios": {
+        "id": "odds_ratios",
+        "value": "Odds ratios calculated for the association between asbestos exposure, smoking, and lung cancer",
+        "class": "numerical",
+        "role": "NR",
+        "description": "Odds ratios used to measure the strength of association between variables in the case-control study."
+      },
+      "statistical_interaction": {
+        "id": "statistical_interaction",
+        "value": "Existence or absence of interaction effects between asbestos exposure and smoking on lung cancer risk",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Indicates whether there is a statistical interaction between asbestos exposure and smoking in their effect on lung cancer."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "475-476"
+  },
+  "sample_key": "569"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "385",
+  "question": "The oat bran illustrative example calculated a $95 \%$ confidence interval for $\mu$ that had a margin of error of $0.2753 \mathrm{mmol} / \mathrm{L}$. How large a study is needed to achieve a margin of error 0.2 with $95 \%$ confidence? We will use the sample standard deviation from the study as our estimate of $\sigma$.",
+  "data": "",
+  "answer": " $n=\left(z_{1-\frac{\alpha}{2}} \frac{\sigma}{m}\right)^2=\left(1.96 \frac{0.4335}{0.2}\right)^2=18.50$. Round this up to the next integer, so $n=19$. Because this number is less than 30, apply adjustment factor $f=(d f+3) /(d f+1)=(18+3) /(18+1)=1.105$ to the final result. Therefore, use $n=1.105 \times 19=21$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size, confidence interval.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "226-226"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "135",
+  "question": "An early publication from the Framingham Heart Study identified 51 incidences of coronary disease among 424 men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period. Among 454 men with lower cholesterol (less than 210 mg per 100 mL), there were 16 incident cases." Calculate the relative risk of coronary disease associated with\nhigh cholesterol. Include a 95% confidence interval for the RR.",
+  "data": "",
+  "answer": "$$
+\begin{aligned}
+& \hat{p}_1=\frac{51}{424}=0.1203 \\
+& \hat{p}_2=\frac{16}{454}=0.0352 \\
+& \widehat{R R}=\frac{0.1203}{0.0352}=3.41
+\end{aligned}
+$$
+
+
+The $95 \%$ confidence interval for the $\widehat{R R}$ is 1.98 to 5.89 .",
+  "meta info": {
+    "index": "17.9",
+    "image": "",
+    "caption": "Framingham Heart Study.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-293"
+  }
+}

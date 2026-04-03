@@ -1,0 +1,25 @@
+{
+  "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
+  "task": [
+    {
+      "query": "Calculate the expected value of the binomial random variable.",
+      "answer": "The expected value of this random variable μ=n p=20 ⋅ 0.04=0.8.",
+      "method": "期望"
+    },
+    {
+      "query": "Calculate the variance and standard deviation of the binomial random variable.",
+      "answer": "It has variance σ²=n p q= 20 ⋅ 0.04 ⋅ 0.96=0.768 and standard deviation σ=√(n p q)= √(20 ⋅ 0.04 ⋅ 0.96)=0.8764.",
+      "method": "分散程度测度"
+    }
+  ],
+  "id": "351",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.5  EXPECTED VALUE AND VARIANCE",
+    "page": "123-124"
+  }
+}

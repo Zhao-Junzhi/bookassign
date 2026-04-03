@@ -1,0 +1,25 @@
+{
+  "background": "Consider this small ordered array $(n=10)$ :",
+  "task": [
+    {
+      "query": "Identify the first quartile (Q1) from the array.",
+      "answer": "The low group is {5,11,21,24,27}, so Q1=21.",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "Identify the third quartile (Q3) from the array.",
+      "answer": "The high group is {28, 30,42,50,52}, so Q3=42.",
+      "method": "分位数/百分位数"
+    }
+  ],
+  "id": "318",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Quartiles.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES",
+    "page": "73-73"
+  }
+}

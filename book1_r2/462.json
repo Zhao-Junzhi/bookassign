@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "Calculate the standard error of the difference between the sample means: $S E_{\\bar{x}_1-\\bar{x}_2}=\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}$."
+  },
+  "output": {
+    "method": "分散程度测度",
+    "answer": "$S E_{\\bar{x}_1-\\bar{x}_2}=0.2702(\\mathrm{mmol} / \\mathrm{L})$",
+    "variable": {
+      "s1_squared": {
+        "id": "s1_squared",
+        "value": "Variance of sample 1",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The variance of the first sample, used in the calculation of the standard error."
+      },
+      "n1": {
+        "id": "n1",
+        "value": "Sample size of sample 1",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of observations in the first sample, used in the calculation of the standard error."
+      },
+      "s2_squared": {
+        "id": "s2_squared",
+        "value": "Variance of sample 2",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The variance of the second sample, used in the calculation of the standard error."
+      },
+      "n2": {
+        "id": "n2",
+        "value": "Sample size of sample 2",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of observations in the second sample, used in the calculation of the standard error."
+      },
+      "SE_difference": {
+        "id": "SE_difference",
+        "value": "Standard error of the difference between sample means",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The standard error calculated from the variances and sample sizes of two samples, representing the uncertainty of the difference between sample means."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "462"
+}

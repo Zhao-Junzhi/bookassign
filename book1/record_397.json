@@ -1,0 +1,14 @@
+{
+  "id": "397",
+  "question": "What is the minimal detectable difference when using $n=30$ per group in the cholesterol illustrative example? Assume $\alpha=0.05$ (two-sided) and power $=0.90$. We have established 0.25 as a reasonable estimate for $\sigma^2$.",
+  "data": "",
+  "answer": " $\Delta=\sqrt{\frac{2 \cdot\sigma^2}{n}}\left(z_{1-\beta}+z_{1-\frac{\alpha}{2}}\right)=\sqrt{\frac{2 \cdot 0.25}{30}}(1.282+1.96)=$ 0.42 . This study will be able to detect a mean difference of $0.42 \mathrm{mmol} / \mathrm{L}$ under the stated conditions.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Minimal detectable difference.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "252-253"
+  }
+}

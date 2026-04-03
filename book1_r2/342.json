@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_318.json",
+  "input": {
+    "background": "Consider this small ordered array $(n=10)$ :",
+    "data": "",
+    "question": "Identify the third quartile (Q3) from the array."
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "The high group is {28, 30,42,50,52}, so Q3=42.",
+    "variable": {
+      "array": {
+        "id": "array",
+        "value": "A small ordered array of size n=10",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The ordered array from which we need to identify the third quartile (Q3)."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Quartiles.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES",
+    "page": "73-73"
+  },
+  "sample_key": "342"
+}

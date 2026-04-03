@@ -1,0 +1,34 @@
+{
+  "id": "335",
+  "question": " Table 5.1 lists the probability mass function for the four patients illustrative pmf. Notice that:
+- Property 1. All probabilities in the pmf are between 0 and 1.
+- Property 2. Probabilities in the sample space sum to exactly 1.
+
+$$
+\begin{aligned}
+& \operatorname{Pr}(X=0)+\operatorname{Pr}(X=1)+\operatorname{Pr}(X=2)+\operatorname{Pr}(X=3)+\operatorname{Pr}(X=4)= \\
+& 0.0039+0.0469+0.2109+0.4219=0.3164=1.000
+\end{aligned}
+$$
+
+- Property 3. The probability of a complement is equal to 1 minus the probability of the event. As an example, let $A$ represent "all four treatments are successful." Its complement $\bar{A}$ is "not all 4 are successful." Since $\operatorname{Pr}(A)=\operatorname{Pr}(X=4)=0.3164$, then $\operatorname{Pr}(\bar{A})=1-\operatorname{Pr}(A)= 1-0.3164=0.6836$.
+- Property 4. Zero successes and 1 success are disjoint events. ",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}
+\begin{tabular}{lccccc}
+\hline No. of success & 0 & 1 & 2 & 3 & 4 \\
+Probability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "Therefore, $\operatorname{Pr}(X=0$ or $X=1)=\operatorname{Pr}(X=0)+\operatorname{Pr}(X=1)=0.0039+ 0.0469=0.0508$",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Properties of probabilities.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "95-95"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "117",
+  "question": "Another way to look at the data presented in Exercise 14.6 is to restrict the analysis to a range that can be described with a straight line. This is called a range restriction. 
+(a) Use the scatterplot you drew in Exercise 14.6(a) to determine if there is a range of FLUORIDE in which the relationship between FLOURIDE and CARIES is fairly straight. Restrict the data to this range. Then determine the least squares line for this segment of the data. Interpret $b$. 
+(b) Calculate $r^2$ for this range restricted model. Which model has a better fit, this model for the ln-ln transformed model from the previous exercise?
+(c) Which model do you prefer, this model or the one created in Exercise 14.6? Explain your reasoning.",
+  "data": "",
+  "answer": "(a) The range below 1 ppm fluoride demonstrates a fairly straight relationship. The least squares regression line for this range have these coefficients:
+
+$$
+\begin{aligned}
+& a=780.34 \\
+& b=-528.07
+\end{aligned}
+$$
+
+
+Therefore, regression line for this range is $\hat{y}=780.34+(-528.07) X$
+The slope in this range predicts a decline of 528 caries per ppm of fluoride (equivalently, 52.8 fewer caries per 0.1 ppm fluoride).
+(b) $r^2=0.856$. The fit of this model is not as good as the $\ln -\ln$ model calculated in Exercise 14.6, in which $r^2=0.947$.
+(c) Opinions on this matter will differ. I prefer this model. Although its fit is not as good as the $\ln -\ln$ model (Exercise 14.6), this model is (a) easier to interpret and (b) addresses a useful biological range. The major declines in caries occur in the 0 to 0.8 range. Since higher levels have only modest benefits, and other sources suggest toxicity with high fluoride, it seems reasonable to restrict the analysis to this biologically relevant range.",
+  "meta info": {
+    "index": "14.7",
+    "image": "",
+    "caption": "Domestic water and dental cavities, range restriction.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "328-329"
+  }
+}

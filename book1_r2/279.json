@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_144.json",
+  "input": {
+    "background": "Use Table E to find the approximate area under the curve to the right of 5.22 on a chi-square distribution with 3 degrees of freedom.",
+    "data": "",
+    "question": "Draw the chi-square curve showing 5.22 on the horizontal axis. Shade the area to the right of 5.22. Bracket the shaded region with critical value landmarks from Table E."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The area under the curve is between the chi-square landmarks of 4.64 (right-tail 0.20) and 5.32 (right-tail 4.15). Therefore 4.15-10-0.20. The precise area computed with a software utility is 0.1564.",
+    "variable": {
+      "chi_square_value": {
+        "id": "chi_square_value",
+        "value": 5.22,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The specific value on the chi-square distribution for which the area to the right is to be calculated."
+      },
+      "degrees_of_freedom": {
+        "id": "degrees_of_freedom",
+        "value": 3,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The degrees of freedom for the chi-square distribution."
+      },
+      "area_to_right": {
+        "id": "area_to_right",
+        "value": "approximate area under the curve to the right of 5.22",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The area under the chi-square distribution curve to the right of the value 5.22, which needs to be determined."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.7",
+    "image": "",
+    "caption": "Chi-square approximation.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "431-431"
+  },
+  "sample_key": "279"
+}

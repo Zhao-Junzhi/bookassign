@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_451.json",
+  "input": {
+    "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
+    "data": "",
+    "question": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk."
+  },
+  "output": {
+    "method": "分类或发生概率影响因素解读",
+    "answer": "Therefore, a statistical interaction is said to exist.",
+    "variable": {
+      "asbestos": {
+        "id": "asbestos",
+        "value": "Presence or absence of asbestos exposure",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates whether an individual has been exposed to asbestos."
+      },
+      "smoking": {
+        "id": "smoking",
+        "value": "Smoking status (e.g., smoker or non-smoker)",
+        "class": "categorical",
+        "role": "independent",
+        "description": "Indicates the smoking status of an individual."
+      },
+      "lung_cancer": {
+        "id": "lung_cancer",
+        "value": "Presence or absence of lung cancer",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates whether an individual has been diagnosed with lung cancer."
+      },
+      "odds_ratios": {
+        "id": "odds_ratios",
+        "value": "Odds ratios from the case-control study",
+        "class": "numerical",
+        "role": "NR",
+        "description": "Odds ratios calculated from the case-control study for different groups."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "475-476"
+  },
+  "sample_key": "568"
+}

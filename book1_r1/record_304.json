@@ -1,0 +1,20 @@
+{
+  "background": "The population (\"sampling frame\") for the YRBS consisted of all public and private schools with students in grades 9-12 in the 50 United States plus the District of Columbia. This sampling frame was divided into 1262 primary sampling units, which consisted of counties, areas of large counties, or groups of small counties. From these 1262 primary units, 57 were selected at random with probability proportional to overall school enrollments. The next stage of sampling selected 195 schools at random with probability proportional to the school enrollment size. The third sampling stage consisted of randomly selecting one or two intact classes from each grade from within the chosen school. All students in the selected classes were then eligible to participate in the survey.",
+  "task": [
+    {
+      "query": "Here's a schematic representation of the three stages of sampling used by the YRBS: 1262 primary sampling units (counties or other large areas) | Stage 1 random sample ↓ 57 primary sampling units | Stage 2 random sample ↓ 195 schools | Stage 3 random sample | Unstated number of classrooms ↓ 15,240 questionnaires",
+      "answer": "null",
+      "method": "获取模型参数估计值"
+    }
+  ],
+  "id": "304",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Youth Risk Behavior Survey (YRBS).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "20-20"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_117.json",
+  "input": {
+    "background": "Another way to look at the data presented in Exercise 14.6 is to restrict the analysis to a range that can be described with a straight line. This is called a range restriction.",
+    "data": "",
+    "question": "Which model do you prefer, this model or the one created in Exercise 14.6? Explain your reasoning."
+  },
+  "output": {
+    "method": "回归效应大小解读",
+    "answer": "Opinions on this matter will differ. I prefer this model. Although its fit is not as good as the $\\ln -\\ln$ model (Exercise 14.6), this model is (a) easier to interpret and (b) addresses a useful biological range. The major declines in caries occur in the 0 to 0.8 range. Since higher levels have only modest benefits, and other sources suggest toxicity with high fluoride, it seems reasonable to restrict the analysis to this biologically relevant range.",
+    "variable": {
+      "range_restriction": {
+        "id": "range_restriction",
+        "value": "A range that can be described with a straight line",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The concept of restricting analysis to a linear range"
+      },
+      "model_preference": {
+        "id": "model_preference",
+        "value": "Preference between the current model and the model from Exercise 14.6",
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The choice of model based on reasoning"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.7",
+    "image": "",
+    "caption": "Domestic water and dental cavities, range restriction.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "328-329"
+  },
+  "sample_key": "232"
+}

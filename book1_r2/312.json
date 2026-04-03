@@ -1,0 +1,119 @@
+{
+  "case_id": "book1_r1\\record_159.json",
+  "input": {
+    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "After adjusting for major, what is the relative incidence of acceptance for male applicants compared to female applicants?"
+  },
+  "output": {
+    "method": "contingency table",
+    "answer": "RR_MH = 0.77. After adjusting for major, male applicants were 23% less likely to be accepted than female applicants.",
+    "variable": {
+      "gender": {
+        "id": "gender",
+        "value": [
+          "Male",
+          "Female"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The gender of the applicants (male or female)."
+      },
+      "acceptance_status": {
+        "id": "acceptance_status",
+        "value": [
+          "+",
+          "-"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The acceptance status of the applicants ('+' for accepted, '-' for not accepted)."
+      },
+      "major": {
+        "id": "major",
+        "value": [
+          "Major 1",
+          "Major 2"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The graduate program major applied to by the applicants."
+      },
+      "male_acceptance_major_1": {
+        "id": "male_acceptance_major_1",
+        "value": [
+          512,
+          313,
+          825
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of male applicants to Major 1, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      },
+      "female_acceptance_major_1": {
+        "id": "female_acceptance_major_1",
+        "value": [
+          89,
+          19,
+          108
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of female applicants to Major 1, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      },
+      "male_acceptance_major_2": {
+        "id": "male_acceptance_major_2",
+        "value": [
+          22,
+          351,
+          373
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of male applicants to Major 2, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      },
+      "female_acceptance_major_2": {
+        "id": "female_acceptance_major_2",
+        "value": [
+          24,
+          317,
+          341
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of female applicants to Major 2, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      },
+      "male_acceptance_combined": {
+        "id": "male_acceptance_combined",
+        "value": [
+          534,
+          664,
+          1198
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of male applicants to both majors combined, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      },
+      "female_acceptance_combined": {
+        "id": "female_acceptance_combined",
+        "value": [
+          113,
+          336,
+          449
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of female applicants to both majors combined, categorized by acceptance status ('+' for accepted, '-' for not accepted, and total)."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "19.5",
+    "image": "",
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
+  },
+  "sample_key": "312"
+}

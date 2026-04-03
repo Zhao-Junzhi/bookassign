@@ -1,0 +1,30 @@
+{
+  "case_id": "book1_r1\\record_317.json",
+  "input": {
+    "background": "The duration of 15 complex surgical procedures is presented in a stemplot format.",
+    "data": "",
+    "question": "What is the mean of the distribution shown in the stemplot?"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "The mean is about 3.3.",
+    "variable": {
+      "duration": {
+        "id": "duration",
+        "value": "List of durations extracted from the stemplot (e.g., [value1, value2, ..., value15])",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The duration of 15 complex surgical procedures."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Comparison of mean, median, and mode.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.2  CENTRAL LOCATION: MEDIAN",
+    "page": "69-69"
+  },
+  "sample_key": "340"
+}

@@ -1,0 +1,25 @@
+{
+  "background": "Suppose that asthma affects 1 in 20 children in a population. You take an SRS of 50 children from this population.",
+  "task": [
+    {
+      "query": "Can the Normal approximation to the binomial be applied under these conditions?",
+      "answer": "$n p q=(50)(0.05)(0.95)=2.375$. Therefore, the sample is too small to apply the Normal approximation.",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "If not, what probability model can be used to describe the sampling variability of the number of asthmatics?",
+      "answer": "The binomial function $X \\sim \\mathrm{~b}(50,0.05)$ can be applied to random variable $X$.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "069",
+  "data": "",
+  "meta info": {
+    "index": "8.9",
+    "image": "",
+    "caption": "Pediatric asthma survey, n = 50.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
+  }
+}

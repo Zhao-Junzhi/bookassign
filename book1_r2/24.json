@@ -1,0 +1,36 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "Satisfaction: 1= very satisfied, 2= satisfied, 3= neutral, 4= unsatisfied, 5= very unsatisfied"
+  },
+  "output": {
+    "method": "分位数/百分位数",
+    "answer": "Ordinal",
+    "variable": {
+      "Satisfaction": {
+        "id": "Satisfaction",
+        "value": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "class": "ordinal",
+        "role": "dependent",
+        "description": "A variable representing satisfaction levels, where 1= very satisfied, 2= satisfied, 3= neutral, 4= unsatisfied, and 5= very unsatisfied."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "24"
+}

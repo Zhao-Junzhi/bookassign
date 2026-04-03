@@ -1,0 +1,14 @@
+{
+  "id": "412",
+  "question": "Let us test the slope in the smoking and lung cancer illustrative data for statistical significance. There are 11 bivariate observations. We have established $b=0.02284$ and $S E_b=0.006976$.",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0: \\beta=0$ versus $H_a: \\beta \\neq 0$\nB. Test statistic. $t_{\\text {stat }}=\\frac{b}{S E_b}=\\frac{0.02284}{0.006976}=3.27$ with $d f=n-2=11-2=9$\nC. $\\boldsymbol{P}$-value. $\\boldsymbol{P}=0.0096$, providing good evidence against $H_0$.\nD. Significance level (optional). The association is significant at $\\alpha=0.01$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "t statistic.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "320-320"
+  }
+}

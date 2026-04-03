@@ -1,0 +1,35 @@
+{
+  "id": "025",
+  "question": "The following stemplot has 18 observations. Prove that the value 152 in this data set is an outside value.
+\begin{aligned}
+& 08 \text { | } 8 \\
+& 09 \text { | } 59 \\
+& 10 \text { | } 0147 \\
+& 11 \text { | } 444679 \\
+& 12 \text { | } 0145 \\
+& 13 \text { | } \\
+& 14 \text { | } \\
+& 15 \text { | } 2 \\
+& \times 10
+\end{aligned}",
+  "data": "",
+  "answer": "5 -point summary: $88,101,114,120,152$
+
+$$
+\begin{aligned}
+& \mathrm{IQR}=120-101=19 \\
+& \text { Fence }_{\text {Upper }}=120+(1.5)(19)=148.5
+\end{aligned}
+$$
+
+
+The value 152 is outside the upper fence.",
+  "meta info": {
+    "index": "4.5",
+    "image": "",
+    "caption": "Outside?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "77-78"
+  }
+}

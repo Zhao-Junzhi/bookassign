@@ -1,0 +1,71 @@
+{
+  "case_id": "book1_r1\\record_045.json",
+  "input": {
+    "background": "Suppose a population has 26 members identified with the letters A through Z.",
+    "data": "",
+    "question": "Assume person A gets selected on an initial draw, you replace person A into the sampling frame, and then take a second random draw. What is the probability of drawing person A on the second draw?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "1 in $26=0.0385$",
+    "variable": {
+      "population": {
+        "id": "population",
+        "value": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "class": "categorical",
+        "role": "NR",
+        "description": "The set of all members in the population, identified by letters A through Z."
+      },
+      "initial_draw": {
+        "id": "initial_draw",
+        "value": "A",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The person selected in the initial draw."
+      },
+      "second_draw_probability": {
+        "id": "second_draw_probability",
+        "value": "1/26",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The probability of drawing person A on the second draw."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "5.5",
+    "image": "",
+    "caption": "N = 26.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-92"
+  },
+  "sample_key": "78"
+}

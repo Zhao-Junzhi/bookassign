@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_137.json",
+  "input": {
+    "background": "Exercise 17.4 considered a randomized trial of smoking cessation in which treatment with bupropion in combination with a nicotine patch was compared to use of a nicotine patch alone. The treatment group had success in 87 of 245 participants. The control group had successes in 40 of 244 participants.",
+    "data": "",
+    "question": "Why is this confidence interval more useful than the hypothesis test results calculated in Exercise 17.4?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "What useful information do these statistics add...? The size of the effect is estimated. (The hypothesis test merely addressed chance as an explanation for any effect.)",
+    "variable": {
+      "treatment_success_count": {
+        "id": "treatment_success_count",
+        "value": 87,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of successful smoking cessation cases in the treatment group."
+      },
+      "treatment_total_count": {
+        "id": "treatment_total_count",
+        "value": 245,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the treatment group."
+      },
+      "control_success_count": {
+        "id": "control_success_count",
+        "value": 40,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of successful smoking cessation cases in the control group."
+      },
+      "control_total_count": {
+        "id": "control_total_count",
+        "value": 244,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of participants in the control group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.13",
+    "image": "",
+    "caption": "Smoking cessation trial.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
+  },
+  "sample_key": "269"
+}

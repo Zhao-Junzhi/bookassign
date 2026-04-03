@@ -1,0 +1,61 @@
+{
+  "case_id": "book1_r1\\record_134.json",
+  "input": {
+    "background": "Meconium staining during childbirth may be a sign of fetal distress. A randomized trial was conducted to see if induction of labor (by pitocin and other drugs delivered near term) would reduce the risk of meconium staining. The treatment group (n1=111) had elective inductions at 39 to 40 weeks of pregnancy. One delivery in the treatment group experienced meconium staining. In contrast, 13 of 117 pregnancies in the more conservatively managed group experienced meconium staining.",
+    "data": "",
+    "question": "Determine the risks of meconium staining in each group."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Estimates\n\n\\( \\hat{p}_1 = 1 / 111 = 0.0090 \\)\n\\( \\hat{p}_2 = 13 / 117 = 0.1111 \\)",
+    "variable": {
+      "group": {
+        "id": "group",
+        "value": [
+          "treatment",
+          "control"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The group to which the subjects belong: treatment group with elective inductions or control group with conservative management."
+      },
+      "treatment_group_size": {
+        "id": "treatment_group_size",
+        "value": 111,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of subjects in the treatment group."
+      },
+      "control_group_size": {
+        "id": "control_group_size",
+        "value": 117,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of subjects in the control group."
+      },
+      "meconium_staining_treatment": {
+        "id": "meconium_staining_treatment",
+        "value": 1,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases with meconium staining in the treatment group."
+      },
+      "meconium_staining_control": {
+        "id": "meconium_staining_control",
+        "value": 13,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of cases with meconium staining in the control group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.7",
+    "image": "",
+    "caption": "Induction of labor and meconium staining.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.3 Hypothesis Test",
+    "page": "389-389"
+  },
+  "sample_key": "263"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "089",
+  "question": "Menstrual cycle lengths (days) in an SRS of\nnine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0: \mu=29.5$ days versus $H_{\mathrm{a}}: \mu \neq 29.5$ days
+B. Test statistic.
+
+$$
+\begin{aligned}
+& n=9 \\
+& \bar{x}=27.78 \\
+& \quad s=2.906 \\
+& S E_{\bar{x}}=\frac{s}{\sqrt{n}}=\frac{2.906}{\sqrt{9}}=0.96877 \\
+& t_{\text {stat }}=\frac{\bar{x}_d-\mu_0}{S E_{\bar{x}_d}}=\frac{27.78-29.5}{0.9687}=-1.77 \\
+& \quad d f=9-1=8
+\end{aligned}
+$$
+
+C. $\boldsymbol{P}$-value. Use Table C to determine that $t_{8.90}=1.40$ (right tail $=0.10$ ) and $t_{8.95}=$ 1.86 (right tail $=0.05$ ). Therefore, the one-sided $P$-value is between 0.05 and 0.10 and the two-tailed $P$-value is $0.10<P<0.20$. Using a utility program, $P=0.11$.
+D. Significance level (optional). The evidence against $H_0$ is not significantly at $\alpha =0.10$ (retain $H_0$ ).",
+  "meta info": {
+    "index": "11.11",
+    "image": "",
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "217-217"
+  }
+}

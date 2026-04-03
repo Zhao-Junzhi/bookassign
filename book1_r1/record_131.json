@@ -1,0 +1,25 @@
+{
+  "background": "Of 75 patients in a follow-up study, 20 showed spontaneous improvement within a month.",
+  "task": [
+    {
+      "query": "Calculate the 1-month incidence proportion of improvement.",
+      "answer": "Incidence \\( \\hat{p}=\\frac{20}{75}=0.2667 \\) (about \\( 27 \\% \\) )",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Include a 95% confidence interval for the proportion.",
+      "answer": "Confidence interval for \\( p \\) by the plus-four method: \\( \\bar{n}=79 \\), \\( \\bar{x}=22 \\), \\( \\bar{p}=0.2785 \\), \\( SE_{\\bar{p}}=\\sqrt{\\frac{0.2785)(0.7215)}{79}}=0.0504 \\). \\( 95 \\% \\) confidence interval for \\( p=0.2785 \\pm(1.96)(0.0504)=0.2785 \\pm 0.0988= \\) 0.1797 to 0.3773 or about \\( 18 \\% \\) to \\( 38 \\% \\).",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "131",
+  "data": "",
+  "meta info": {
+    "index": "16.25",
+    "image": "",
+    "caption": "Incidence of improvement.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "372-372"
+  }
+}

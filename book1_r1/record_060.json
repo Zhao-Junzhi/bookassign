@@ -1,0 +1,30 @@
+{
+  "background": "We've established that heights of 10-year-old boys vary according to a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+  "task": [
+    {
+      "query": "What proportion of this population is less than 150 centimeters tall?",
+      "answer": "The proportion of the population less than 150 centimeters tall is 0.9564.",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What proportion is less than 140 centimeters in height?",
+      "answer": "The proportion of the population less than 140 centimeters tall is 0.6141.",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What proportion is between 150 and 140 centimeters?",
+      "answer": "The proportion of the population between 150 and 140 centimeters tall is 0.3423.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "060",
+  "data": "",
+  "meta info": {
+    "index": "7.5",
+    "image": "",
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
+  }
+}

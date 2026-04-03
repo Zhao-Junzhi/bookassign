@@ -1,0 +1,14 @@
+{
+  "id": "506",
+  "question": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases. Let $D$ represent thromboembolic diseases and $E$ represent exposure to early oral contraceptives. Suppose $\operatorname{Pr}(D \mid E)=0.00040$ and $\operatorname{Pr}(D \mid \bar{E})=0.00010$. Therefore, $R R=\frac{0.0004}{0.0001}=4.0$. Exposure quadrupled risk.",
+  "data": "",
+  "answer": " null",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risk (Older formulation oral contraceptives).",
+    "chapter": "Probability Concepts",
+    "section": "5.5 More Rules and Properties of Probability",
+    "page": "109-109"
+  }
+}

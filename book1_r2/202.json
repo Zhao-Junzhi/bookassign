@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_103.json",
+  "input": {
+    "background": "We wish to detect a mean difference of 0.25 for a variable that has a standard deviation of 0.67.",
+    "data": "",
+    "question": "How large a sample is needed to detect this mean differences with 90% power at alpha=0.05 (two-sided)?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "n=(2)(0.67^2)(1.28+1.96)^2 / 0.25^2=150.79. Round up to 151 (per group).",
+    "variable": {
+      "mean_difference": {
+        "id": "mean_difference",
+        "value": 0.25,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean difference we wish to detect."
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": 0.67,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of the variable."
+      },
+      "power": {
+        "id": "power",
+        "value": 0.9,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The statistical power desired for the test."
+      },
+      "alpha": {
+        "id": "alpha",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The significance level for the two-sided test."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The sample size needed to detect the mean difference with the specified power and alpha."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "12.9",
+    "image": "",
+    "caption": "Sample size calculation.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "253-253"
+  },
+  "sample_key": "202"
+}

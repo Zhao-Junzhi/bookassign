@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_075.json",
+  "input": {
+    "background": "In Exercise 9.3, you tested $H_0: \\mu=50$ based on a sample of $n=36$ showing $\\bar{x}=48.8$. The population had standard deviation $\\sigma=7.5$.",
+    "data": "Patient satisfaction. Scores derived from a patient satisfaction survey are Normally distributed with $\\mu=50$ and $\\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.\n(a) What is the $S E$ of $\\bar{x}$ for these data?\n(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\\mu=50$. Sketch the curve that describes the sampling distribution of $\\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\\pm 1, \\pm 2$, and $\\pm 3$ standard errors above and below the mean.\n(c) Suppose a sample of $n=36$ finds an $\\bar{x}$ of 48.8 . Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
+    "question": "What is the one-sided alternative hypothesis for this test?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "$H_a: \\mu<50$",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 36,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of observations in the sample."
+      },
+      "sample_mean": {
+        "id": "sample_mean",
+        "value": 48.8,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean of the sample observations."
+      },
+      "population_mean": {
+        "id": "population_mean",
+        "value": 50,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean of the population under the null hypothesis."
+      },
+      "population_std_dev": {
+        "id": "population_std_dev",
+        "value": 7.5,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the population."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "9.7",
+    "image": "",
+    "caption": "Patient satisfaction (sample mean of 48.8).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
+  },
+  "sample_key": "142"
+}

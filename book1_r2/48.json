@@ -1,0 +1,49 @@
+{
+  "case_id": "book1_r1\\record_018.json",
+  "input": {
+    "background": "Body weights of 18 diabetics expressed as a percentage of ideal (defined as body weight ÷ ideal body weight × 100) are shown here.",
+    "data": "",
+    "question": "Construct a stem-and-leaf plot of these data and interpret your findings."
+  },
+  "output": {
+    "method": "stem-and-leaf plot",
+    "answer": "```\n08|8\n09|59\n10|0147\n11|4\\underline{4}4679\n12|0145\n13|\n14|\n15|2\n```\n\n- Shape: The distribution has a negative skew and high outlier.\n- Location: The median is 114 (underlined).\n- Spread: Data range from 88 to 152.",
+    "variable": {
+      "body_weight_percentage": {
+        "id": "body_weight_percentage",
+        "value": [
+          85,
+          90,
+          92,
+          95,
+          100,
+          102,
+          105,
+          110,
+          112,
+          115,
+          118,
+          120,
+          122,
+          125,
+          128,
+          130,
+          135,
+          140
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Body weights of 18 diabetics expressed as a percentage of their ideal body weight."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "3.7",
+    "image": "",
+    "caption": "Body weight expressed as a percentage of ideal.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "59-60"
+  },
+  "sample_key": "48"
+}

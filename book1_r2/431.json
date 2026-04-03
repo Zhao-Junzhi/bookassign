@@ -1,0 +1,37 @@
+{
+  "case_id": "book1_r1\\record_376.json",
+  "input": {
+    "background": "We have established that the body weights of 20-29-year-old U.S. males have σ=40 pounds.",
+    "data": "",
+    "question": "What size sample is needed to cut the margin down to 1 pound?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "n=\\left(1.96 \\cdot \\frac{40}{1}\\right)^2=6146.6. Round this up to 6147.",
+    "variable": {
+      "sigma": {
+        "id": "sigma",
+        "value": 40,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of body weights for 20-29-year-old U.S. males, measured in pounds."
+      },
+      "margin_of_error": {
+        "id": "margin_of_error",
+        "value": 1,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The desired margin of error for the sample mean, measured in pounds."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement (Body weight, 20—29-year-old  males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.3 Sample Size Requirements",
+    "page": "204-204"
+  },
+  "sample_key": "431"
+}

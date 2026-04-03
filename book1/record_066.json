@@ -1,0 +1,14 @@
+{
+  "id": "066",
+  "question": "Say whether each of the boldface numbers in this exercise is a parameter or a statistic. There were $\mathbf{1 8 , 8 0 0}$ new cases of female breast cancer in the state of California in 2005. A study of 1225 of these cases finds that survival varied greatly by stage of diagnosis. The average 7 -year survival rate for stage I breast cancer was $\mathbf{9 2} \boldsymbol{\%}$. For stage II breast cancer, the 7 -year survival was $71 \%$. For stage III breast cancer, the survival was $39 \%$. For stage IV, the survival rate was $11 \%$.",
+  "data": "",
+  "answer": "18,800 is a parameter. All the other numbers are statistics.",
+  "meta info": {
+    "index": "8.1",
+    "image": "",
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
+  }
+}

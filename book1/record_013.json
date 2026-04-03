@@ -1,0 +1,14 @@
+{
+  "id": "013",
+  "question": "Telephone surveys may use a telephone directory to identify individuals for study. Speculate on the type of household that would be undercovered by using this sampling frame.",
+  "data": "",
+  "answer": "This sampling frame omits households which lack land telephones lines. It also excludes those with unlisted numbers and double counts those with more than one phone line.",
+  "meta info": {
+    "index": "2.13",
+    "image": "",
+    "caption": "Telephone book sampling frame.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "33-33"
+  }
+}

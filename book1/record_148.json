@@ -1,0 +1,37 @@
+{
+  "id": "148",
+  "question": "An important historical case-control completed by Doll and Hill found that 647 of the 649 lung cancer cases were smokers. In contrast, 622 of 649 controls smoked.Display these data as a 2 -by- 2 table and calculate the odds ratio associated with smoking. Include a $95 \%$ confidence interval for the $O R$.",
+  "data": "",
+  "answer": "\begin{tabular}{r|r|r|r}
+\hline Smoke & Cases & Non-cases &Total\\
+\cline { 1 - 4 }+ & 647 & 622 & 1269 \\
+\cline { 1 - 4 } Total & 22 & 27 & 29 \\
+\cline { 1 - 4 } Total & 649 & 649 & 1298 \\
+\hline
+\end{tabular}
+$$
+\widehat{O R}-\frac{647 \cdot 27}{622 \cdot 2}=14.04
+$$
+
+
+This suggests that the smokers had 14 times the risk of nonsmokers.
+Determining the confidence interval for the $O R$ :
+
+$$
+\ln (14.04)=2.6419
+$$
+$$
+S E=\operatorname{sqrt}\left(647^{-1}+622^{-1}+2^{-1}+27^{-1}\right)=0.7350
+$$
+
+
+The $95 \% \mathrm{CI}$ for $\mathrm{OR}=e^{(2.6419 \pm 1.96 \times 0.7350)}=e^{(1.2013,4.0825)}=3.3$ to 59.3",
+  "meta info": {
+    "index": "18.15",
+    "image": "",
+    "caption": "Doll and Hill, 1950.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "444-444"
+  }
+}

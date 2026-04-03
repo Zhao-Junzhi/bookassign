@@ -1,0 +1,124 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "Using the conservative method to calculate the degrees of freedom and the $95 \\%$ confidence interval."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "For $95 \\%$ confidence, use $t_{6, .975}=2.447$. The $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ is $0.116$ to $1.438(\\mathrm{mmol} / \\mathrm{L})$.",
+    "variable": {
+      "mu1": {
+        "id": "mu1",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Population mean cholesterol level for group 1"
+      },
+      "mu2": {
+        "id": "mu2",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Population mean cholesterol level for group 2"
+      },
+      "xbar1": {
+        "id": "xbar1",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean cholesterol level for group 1 used to estimate mu1"
+      },
+      "xbar2": {
+        "id": "xbar2",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Sample mean cholesterol level for group 2 used to estimate mu2"
+      },
+      "s1": {
+        "id": "s1",
+        "value": null,
+        "class": "numerical",
+        "role": "both",
+        "description": "Sample standard deviation of cholesterol in group 1"
+      },
+      "s2": {
+        "id": "s2",
+        "value": null,
+        "class": "numerical",
+        "role": "both",
+        "description": "Sample standard deviation of cholesterol in group 2"
+      },
+      "n1": {
+        "id": "n1",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of group 1"
+      },
+      "n2": {
+        "id": "n2",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size of group 2"
+      },
+      "mu1_minus_mu2": {
+        "id": "mu1_minus_mu2",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Difference in population mean cholesterol levels between group 1 and group 2 (mu1 - mu2) for which the 95% confidence interval is constructed"
+      },
+      "t_critical_95": {
+        "id": "t_critical_95",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Critical value from the t distribution for a 95% confidence interval using the conservative degrees of freedom"
+      },
+      "df_conservative": {
+        "id": "df_conservative",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Conservative degrees of freedom, typically min(n1 - 1, n2 - 1), used for the two-sample t confidence interval"
+      },
+      "group": {
+        "id": "group",
+        "value": [
+          "group1",
+          "group2"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Group indicator for the two cholesterol populations being compared"
+      },
+      "cholesterol": {
+        "id": "cholesterol",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Individual cholesterol measurements for subjects in both groups as listed in Table 12.5"
+      },
+      "answer": {
+        "id": "answer",
+        "value": "Use the individual cholesterol data from Table 12.5 to compute the sample means xbar1 and xbar2, sample standard deviations s1 and s2, and sample sizes n1 and n2 for the two groups. Define the parameter of interest as mu1_minus_mu2 = mu1 - mu2. Compute the conservative degrees of freedom df_conservative = min(n1 - 1, n2 - 1). Calculate the standard error of the difference in means as SE = sqrt(s1^2 / n1 + s2^2 / n2). Obtain the t_critical_95 value from the t distribution with df_conservative degrees of freedom for a two-sided 95% confidence level. Form the 95% confidence interval for mu1_minus_mu2 as (xbar1 - xbar2) ± t_critical_95 * SE.",
+        "class": "NR",
+        "role": "NR",
+        "description": "Step-by-step procedure to compute the conservative 95% confidence interval for mu1 - mu2 using the two-sample t method"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "463"
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_321.json",
+  "input": {
+    "background": "We propose to draw boxplots for the air sample data presented in prior illustrations (see Table 4.2).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "Compare the side-by-side boxplots for site 1 and site 2."
+  },
+  "output": {
+    "method": "离散型-连续型变量关系",
+    "answer": "The side-by-side boxplots in this figure show site 1 and site 2 have similar central locations but different spreads.",
+    "variable": {
+      "site": {
+        "id": "site",
+        "value": [
+          "site 1",
+          "site 2"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The location where the air samples were collected."
+      },
+      "air_sample_data": {
+        "id": "air_sample_data",
+        "value": "Values from Table 4.2 corresponding to air sample measurements for each site",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The air sample measurements collected at each site."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Boxplots (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "76-77"
+  },
+  "sample_key": "350"
+}

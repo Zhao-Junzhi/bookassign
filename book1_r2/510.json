@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_412.json",
+  "input": {
+    "background": "Test the slope in the smoking and lung cancer illustrative data for statistical significance. There are 11 bivariate observations. Established values are $b=0.02284$ and $S E_b=0.006976$.",
+    "data": "",
+    "question": "What is the P-value and its interpretation?"
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "$P=0.0096$, providing good evidence against $H_0$.",
+    "variable": {
+      "b": {
+        "id": "b",
+        "value": 0.02284,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The estimated slope of the relationship between smoking and lung cancer."
+      },
+      "SE_b": {
+        "id": "SE_b",
+        "value": 0.006976,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard error of the estimated slope b."
+      },
+      "n": {
+        "id": "n",
+        "value": 11,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of bivariate observations in the data set."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "t statistic.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "320-320"
+  },
+  "sample_key": "510"
+}

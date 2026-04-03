@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_139.json",
+  "input": {
+    "background": "The Scandinavian simvastatin survival study (4S) was a randomized clinical trial designed to evaluate the effects of the cholesterol-lowering agent simvastatin in patients with coronary heart disease. Over 5.4 years of follow-up, the treatment group consisting of 2221 individuals experienced 111 fatal heart attacks. The placebo group of 2223 individuals experienced 189 such events.",
+    "data": "",
+    "question": "In relative terms, how much did simvastatin lower heart attack mortality?"
+  },
+  "output": {
+    "method": "分类或发生概率影响因素解读",
+    "answer": "The easiest way to address this question is to first calculate the relative risk: $\\widehat{R R}=\\frac{0.049977}{0.085020}=0.59$. The relative reduction in risk $=1-0.59=0.41$, or $41 \\%$.",
+    "variable": {
+      "treatment_group_size": {
+        "id": "treatment_group_size",
+        "value": 2221,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of individuals in the treatment group who received simvastatin."
+      },
+      "placebo_group_size": {
+        "id": "placebo_group_size",
+        "value": 2223,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of individuals in the placebo group who did not receive simvastatin."
+      },
+      "fatal_heart_attacks_treatment": {
+        "id": "fatal_heart_attacks_treatment",
+        "value": 111,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of fatal heart attacks observed in the treatment group."
+      },
+      "fatal_heart_attacks_placebo": {
+        "id": "fatal_heart_attacks_placebo",
+        "value": 189,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The number of fatal heart attacks observed in the placebo group."
+      },
+      "simvastatin_effect": {
+        "id": "simvastatin_effect",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The effect of simvastatin on heart attack mortality, to be calculated as the relative reduction in fatal heart attacks."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "17.17",
+    "image": "",
+    "caption": "4S coronary mortality.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
+  },
+  "sample_key": "273"
+}

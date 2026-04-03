@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_093.json",
+  "input": {
+    "background": "A study of vector control in an African village found that the mean sprayable surface area was 249 square feet with standard deviation 39.82 square feet in a simple random sample of n=100 homes.",
+    "data": "",
+    "question": "Calculate a 95% confidence interval for μ."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "SE=39.82/√100=3.982 t_{100-1,1-(.05/2)}=t_{99, .975}=1.984 (via www.cytel.com/Products/StaTable/). If a computer program is not available, you can make use of the fact that program t_{99 .975} ≈ t_{100, .975}=1.984. 95% CI for μ=249 ±(1.984)(3.982)=249 ± 7.9=(241.1 to 256.9) square feet.",
+    "variable": {
+      "sample_mean": {
+        "id": "sample_mean",
+        "value": 249,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean sprayable surface area in the sample of homes."
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": 39.82,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the sprayable surface area in the sample."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": 100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of homes in the sample."
+      },
+      "confidence_level": {
+        "id": "confidence_level",
+        "value": 0.95,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The confidence level for the interval."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "11.19",
+    "image": "",
+    "caption": "Vector control in an African village",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
+  },
+  "sample_key": "176"
+}

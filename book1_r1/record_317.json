@@ -1,0 +1,25 @@
+{
+  "background": "The duration of 15 complex surgical procedures is presented in a stemplot format.",
+  "task": [
+    {
+      "query": "What is the median of the distribution shown in the stemplot?",
+      "answer": "The median of this distribution is 2.8 (underlined).",
+      "method": "分位数/百分位数"
+    },
+    {
+      "query": "What is the mean of the distribution shown in the stemplot?",
+      "answer": "The mean is about 3.3.",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "317",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Comparison of mean, median, and mode.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.2  CENTRAL LOCATION: MEDIAN",
+    "page": "69-69"
+  }
+}

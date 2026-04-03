@@ -1,0 +1,19 @@
+{
+  "id": "099",
+  "question": "Identify whether the studies described here are based on (1) single samples, (2) paired samples, or (3) independent samples.
+(a) An investigator compares vaccination histories in 30 autistic schoolchildren to an SRS of nonautistic children from the same school district.
+(b) Cardiovascular disease risk factors are compared in husbands and wives.
+(c) A nutritional exam is applied to a random sample of individuals. Results are compared to expected means and proportions.",
+  "data": "",
+  "answer": "(a) Independent samples
+(b) Paired samples
+(c) Single sample",
+  "meta info": {
+    "index": "12.1",
+    "image": "",
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
+  }
+}

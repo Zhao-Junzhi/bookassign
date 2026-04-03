@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_508.json",
+  "input": {
+    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "data": "",
+    "question": "(b) Comparison B: Group 1 | Group 2"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "Group 1: x̄=70 and s=15.8. Group 2: x̄=50 and s=15.8. How statistics relate to what we see: Higher central location in Group 1; equal group spreads.",
+    "variable": {
+      "Group 1": {
+        "id": "Group 1",
+        "value": "Values from the stemplot for Group 1",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Numerical data values for Group 1 from the stemplot."
+      },
+      "Group 2": {
+        "id": "Group 2",
+        "value": "Values from the stemplot for Group 2",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Numerical data values for Group 2 from the stemplot."
+      },
+      "mean_Group1": {
+        "id": "mean_Group1",
+        "value": "Calculated mean of Group 1",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Mean of the numerical data values for Group 1."
+      },
+      "stddev_Group1": {
+        "id": "stddev_Group1",
+        "value": "Calculated standard deviation of Group 1",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Standard deviation of the numerical data values for Group 1."
+      },
+      "mean_Group2": {
+        "id": "mean_Group2",
+        "value": "Calculated mean of Group 2",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Mean of the numerical data values for Group 2."
+      },
+      "stddev_Group2": {
+        "id": "stddev_Group2",
+        "value": "Calculated standard deviation of Group 2",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Standard deviation of the numerical data values for Group 2."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.15",
+    "image": "",
+    "caption": "Leaves on stems.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "85-86"
+  },
+  "sample_key": "587"
+}

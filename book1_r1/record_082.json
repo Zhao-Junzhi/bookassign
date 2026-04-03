@@ -1,0 +1,20 @@
+{
+  "background": "A pharmacist reads that a $95 \\%$ confidence interval for the average price of a particular prescription drug is $\\$ 30.50$ to $\\$ 35.50$.",
+  "task": [
+    {
+      "query": "Asked to explain the meaning of this, the pharmacist says",
+      "answer": "The pharmacist is incorrect. The confidence interval applies to the population mean $\\mu$; it does not apply to the distribution of individual observations.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "082",
+  "data": "",
+  "meta info": {
+    "index": "10.1",
+    "image": "",
+    "caption": "Misinterpreting a confidence interval.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "202-202"
+  }
+}

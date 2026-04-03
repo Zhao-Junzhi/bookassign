@@ -1,0 +1,14 @@
+{
+  "id": "389",
+  "question": "What is the probability a study with $n=10$ will detect a mean difference of 300 grams in birth weight in the SIDS population compared to the general population? Let us assume $\sigma=720$ and use a two-sided $\alpha$-level of 0.05 .",
+  "data": "",
+  "answer": "$1-\beta=\Phi\left(-z_1-\frac{.05}{2}+\frac{|\Delta| \sqrt{n}}{\sigma}\right)= \Phi\left(-1.96+\frac{|300| \sqrt{10}}{720}\right)=\Phi(-0.64)=0.2611$. The power of this test is about $26 \%$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "228-228"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "book1_r1\\record_435.json",
+  "input": {
+    "background": "Investigators prospectively studied 75 consecutive patients undergoing coronary atherectomy for symptomatic coronary artery disease. Before atherectomy was performed, blood levels of anticytomegalovirus (CMV) antibodies were measured. Forty-nine patients were seropositive for CMV, and 26 patients were seronegative. Subjects were then followed for 6 months after atherectomy to determine incidents of restenosis.",
+    "data": "",
+    "question": "If we make the simplifying assumption that the sample represents a simple random sample of like patients, we can view this as a naturalistic sample of $N=75$ in which $n_1=49$ are seropositive and $n_2=26$ are seronegatives for CMV."
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "null",
+    "variable": {
+      "N": {
+        "id": "N",
+        "value": 75,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The total number of patients in the study."
+      },
+      "n1": {
+        "id": "n1",
+        "value": 49,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of patients who are seropositive for CMV."
+      },
+      "n2": {
+        "id": "n2",
+        "value": 26,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of patients who are seronegative for CMV."
+      },
+      "CMV_status": {
+        "id": "CMV_status",
+        "value": [
+          "seropositive",
+          "seronegative"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The CMV antibody status of the patients (seropositive or seronegative)."
+      },
+      "restenosis_incident": {
+        "id": "restenosis_incident",
+        "value": [
+          "yes",
+          "no"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Whether the patient experienced restenosis within 6 months after atherectomy."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Naturalistic sample (Cytomegalovirus and coronary  restenosis).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.1 Types of Samples",
+    "page": "408-408"
+  },
+  "sample_key": "546"
+}

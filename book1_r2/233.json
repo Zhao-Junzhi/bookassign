@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_118.json",
+  "input": {
+    "background": "Identify which of these statements are true and which are false.",
+    "data": "",
+    "question": "Correlation coefficient r quantifies the relationship between quantitative variables X and Y."
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "False",
+    "variable": {
+      "X": {
+        "id": "X",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "independent",
+        "description": "A quantitative variable used to determine the correlation with variable Y."
+      },
+      "Y": {
+        "id": "Y",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "A quantitative variable used to determine the correlation with variable X."
+      },
+      "r": {
+        "id": "r",
+        "value": "Not specified",
+        "class": "numerical",
+        "role": "both",
+        "description": "The correlation coefficient quantifying the relationship between variables X and Y."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "14.9",
+    "image": "",
+    "caption": "True or false?",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "330-330"
+  },
+  "sample_key": "233"
+}

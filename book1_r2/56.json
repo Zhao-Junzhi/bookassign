@@ -1,0 +1,40 @@
+{
+  "case_id": "book1_r1\\record_022.json",
+  "input": {
+    "background": "This exercise will demonstrate how the mean is the balancing point of a set of numbers.",
+    "data": "",
+    "question": "Distribution D. The values 3 and 4 are marked as"
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "(d) \\(\\bar{x}=3.7\\) \n\\begin{tabular}{cr} & & $X$ & \\ & & $X$ & $X$ \\ $1----2----3----4---5$ \\end{tabular}",
+    "variable": {
+      "values": {
+        "id": "values",
+        "value": [
+          3,
+          4
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The specific values marked in Distribution D for analysis."
+      },
+      "distribution": {
+        "id": "distribution",
+        "value": "D",
+        "class": "categorical",
+        "role": "NR",
+        "description": "The distribution being analyzed to demonstrate the mean as a balancing point."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "4.1",
+    "image": "",
+    "caption": "Gravitational center.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.1 CENTRAL LOCATION: MEAN",
+    "page": "65-66"
+  },
+  "sample_key": "56"
+}

@@ -1,0 +1,25 @@
+{
+  "background": "Calculate the standard deviations of the batches of numbers provided in different units (years, months, days) and determine which batch has the greatest variability.",
+  "task": [
+    {
+      "query": "Calculate the standard deviations of the batches of numbers here.",
+      "answer": "The standard deviations are $s_1=1$ year, $s_2=12$ months, and $s_3=365$ days, respectively.",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "Which batch has the greatest variability?",
+      "answer": "The distributions are identical and are merely expressed in different units.",
+      "method": "分散程度测度"
+    }
+  ],
+  "id": "028",
+  "data": "",
+  "meta info": {
+    "index": "4.11",
+    "image": "",
+    "caption": "Units of measure changes numeric values of a standard deviation.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "83-83"
+  }
+}

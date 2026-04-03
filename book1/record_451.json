@@ -1,0 +1,49 @@
+{
+  "id": "451",
+  "question": "This fictitious but realistic example considers odds ratios from a casecontrol study on asbestos and lung cancer while considering the concurrent effects of smoking. 
+",
+data": "Data for all subjects (smokers and nonsmokers) are:
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.6 Smokers and nonsmokers combined.}
+\begin{tabular}{l|c|c|}
+\multicolumn{3}{c} \\
+\cline { 2 - 3 }&{ Lung CA +} & Lung CA - &$\widehat{O R}=\frac{80 \cdot 152}{38 \cdot 15}=21.3$\\
+\cline { 2 - 3 } Asbestos + & 80 & 38 \\
+Asbestos - & 15 & 152 \\
+\end{tabular}
+\end{table}.
+Within smokers, however, we find a much stronger association:
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.7 Stratum 1 (Smokers). }
+\begin{tabular}{l|c|c|}
+\multicolumn{3}{c} \\
+\cline { 2 - 3 }&{ Lung CA +} & Lung CA - &$\widehat{O R_{1}}=\frac{75 \cdot 80}{20 \cdot 5}=60.00$\\
+\cline { 2 - 3 } Asbestos + & 75 & 20 \\
+Asbestos - & 5 & 80 \\
+\end{tabular}
+\end{table}.
+For nonsmokers, cross tabulation reveals a much weaker association:
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 19.7 Stratum 2 (Nonsmokers). }
+\begin{tabular}{l|c|c|}
+\multicolumn{3}{c} \\
+\cline { 2 - 3 }&{ Lung CA +} & Lung CA - &$\widehat{O R_{1}}=\frac{5 \cdot 72}{18 \cdot 10}=2.00$\\
+\cline { 2 - 3 } Asbestos + & 5 & 18 \\
+Asbestos - & 10 & 72 \\
+\end{tabular}
+\end{table}.",
+  "answer": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk. Therefore, a statistical interaction is said to exist. Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated. Instead, strata-specific statistics should be reported.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "475-476"
+  }
+}

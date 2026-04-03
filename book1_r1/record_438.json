@@ -1,0 +1,20 @@
+{
+  "background": "We want to learn about the relationship between education and the prevalence of smoking in a particular community. A sample of 585 adult individuals with at least a high school degree is selected from a certain high socioeconomic status neighborhood. Educational level is classified by highest degree received, as follows: (1) High school graduate, (2) associate degree, (3) some college, (4) undergraduate degree, or (5) graduate degree. Individuals are classified as smokers if they had smoked at least 100 cigarettes during their lifetime and currently smoke every day or nearly every day (binary response variable). The explanatory variable is education, with five categorical levels. The data may be viewed as a naturalistic sample of a particular high socioeconomic community.",
+  "task": [
+    {
+      "query": "Determine the relationship between education level and smoking prevalence using the given data.",
+      "answer": "Table 18.1 shows cross-tabulated results.",
+      "method": "contingency table"
+    }
+  ],
+  "id": "438",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.1 Education level and smoking illustrative data.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Current Smoker} \\\n\\hline Highest educational degree & 1 (Yes) & 2 (No) & Total \\\n\\hline 1 (High school graduate) & 12 & 38 & 50 \\\n\\hline 2 (Associate degree) & 18 & 67 & 85 \\\n\\hline 3 (Some college) & 27 & 95 & 122 \\\n\\hline 4 (Undergraduate degree) & 32 & 239 & 271 \\\n\\hline 5 (Graduate degree) & 5 & 52 & 57 \\\n\\hline Total & 94 & 491 & 585 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Education level and smoking).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 Describing Naturalistic and Cohort  Samples",
+    "page": "409-410"
+  }
+}

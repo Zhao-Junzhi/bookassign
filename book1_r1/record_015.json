@@ -1,0 +1,25 @@
+{
+  "background": "Table 3.5 lists the percentage of people living below the poverty line in the 26 states east of the Mississippi River for the year 2000.",
+  "task": [
+    {
+      "query": "Make a stemplot of these values.",
+      "answer": "Percent of people living below the poverty line by state.\n\n$7 \\mid 346$\n$8 \\mid 1128$\n$9 \\mid 889$\n$10 \\mid 01\\underline{22}5$\n$11 \\mid 19$\n$12 \\mid 156$\n$13 \\mid 23$\n$14 \\mid 67$\n$15 \\mid 58$\n$\\times 1$",
+      "method": "stem-and-leaf plot"
+    },
+    {
+      "query": "Describe the distribution's shape, location, and spread. Are there any outliers? Which states straddle the median?",
+      "answer": "- Shape: The distribution has a mild positive skew. There are no apparent outliers.\n- Location: The median (underlined) has a depth of $(26+1) / 2=13.5$ and a value of 10.2. Michigan and Massachusetts are the",
+      "method": "集中趋势测度"
+    }
+  ],
+  "id": "015",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.5 Percentage of people living below the poverty line in each of the 26 States east of the Mississippi River for the year 2000.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Alabama & 14.6 & Maryland & 07.3 & Pennsylvania & 09.9 \\\n\\hline Connecticut & 07.6 & Massachusetts & 10.2 & Rhode ls. & 10.0 \\\n\\hline Delaware & 09.8 & Michigan & 10.2 & S. Carolina & 11.9 \\\n\\hline Florida & 12.1 & Mississippi & 15.5 & Tennessee & 13.3 \\\n\\hline Georgia & 12.6 & New Hamp. & 07.4 & Vermont & 10.1 \\\n\\hline Illinois & 10.5 & New Jersey & 08.1 & Virginia & 08.1 \\\n\\hline Indiana & 08.2 & New York & 14.7 & West Virginia & 15.8 \\\n\\hline Kentucky & 12.5 & N. Carolina & 13.2 & Wisconsin & 08.8 \\\n\\hline Maine & 09.8 & Ohio & 11.1 & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta info": {
+    "index": "3.1",
+    "image": "",
+    "caption": "Poverty in eastern states, 2000.",
+    "chapter": "Frequency Distributions",
+    "section": "3.1 Stemplots",
+    "page": "50-50"
+  }
+}

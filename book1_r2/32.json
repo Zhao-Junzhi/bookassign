@@ -1,0 +1,21 @@
+{
+  "case_id": "book1_r1\\record_009.json",
+  "input": {
+    "background": "Determine whether each of the studies described in Exercises 2.4 are experimental or nonexperimental.",
+    "data": " ",
+    "question": "Explain your reasoning for study (c)."
+  },
+  "output": {
+    "method": "实验数据",
+    "answer": "Experimental"
+  },
+  "meta_info": {
+    "index": "2.5",
+    "image": "",
+    "caption": "Experimental or nonexperimental?",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "25-25"
+  },
+  "sample_key": "32"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "409",
+  "question": "We have established the following statistics for the illustrative example: $r=0.737, n=11$, and $d f=9$. The $95 \\%$ confidence interval for $\\rho$ based on this information uses the following information:",
+  "data": "",
+  "answer": "- For $95 \%$ confidence, use $t_{9,975}=2.262$; therefore $t^2{ }_{9,975}= 2.262^2=5.117$
+- $\varpi=\sqrt{\frac{2.262^2}{2.262^2+9}}=0.602$
+- $L C L=\frac{0.737-0.602}{1-(0.737)(0.6 .2)}=0.243$
+- $U C L=\frac{0.737+0.602}{1+(0.737)(0.602)}=0.927$
+
+This allows us to say with $95 \%$ confidence that population correlation $\rho$ is in the interval 0.243 to 0.927 .",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\rho$.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 Correlation",
+    "page": "308-308"
+  }
+}

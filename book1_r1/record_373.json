@@ -1,0 +1,25 @@
+{
+  "background": "The National Health and Nutrition Examination Survey (NHANES) assesses the health and nutritional status of adults and children in the United States using data from interviews and direct physical examinations. From 1999-2002, 712 men between the ages of 20 and 29 were examined. The mean body weight in this sample ( $\\bar{x}$ ) was 183.0 pounds.",
+  "task": [
+    {
+      "query": "What is the point estimate for the mean body weight in the population of men in this age group?",
+      "answer": "This is the point estimate for the mean body weight in the population of men in this age group.",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "What is the margin of error associated with this estimate for $95 \\%$ confidence, and what is the $95 \\%$ confidence interval for $\\mu$?",
+      "answer": "The margin of error associated with this estimate for $95 \\%$ confidence was $\\pm 3$ pounds. Therefore, the $95 \\%$ confidence interval for $\\mu$ is 183 pounds $\\pm 3$ pounds $=180$ to 186 pounds.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "373",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Point and interval estimation (Body weight, 20-29-year-old U.S. men, 2000). ",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.1 Introduction to Estimation",
+    "page": "196-197"
+  }
+}

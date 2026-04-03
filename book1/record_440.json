@@ -1,0 +1,34 @@
+{
+  "id": "440",
+  "question": "Table 18.4 illustrates calculation of the following odds ratios for the education and smoking illustrative data: $\widehat{O R}_1=1.00$ (reference), $\widehat{O R}_2=0.85$, $\widehat{O R}_3=0.90, \widehat{O R}_4=0.42$, and $\widehat{O R}_5=0.30$.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.4 Odds ratios, education, and smoking illustrative data.}
+\begin{tabular}{|l|l|l|l|l|}
+\hline Education group & \multicolumn{2}{|r|}{\begin{tabular}{l}
+Current Smoker\\ 1 (Yes) &2 (No)
+\end{tabular}} & Odds (o) & Odds ratio $\left.(\widehat{O R})_i\right)$ \\
+\hline 1 (High school graduate) & \begin{tabular}{l}
+12 \end{tabular} & 38 & $0.3158{ }^{\text {a }}$ & 1.00 \\
+\hline 2 (Associate degree) & 18 & 67 & $0.2687{ }^b$ & $0.85{ }^{\text {c }}$ \\
+\hline 3 (Some college) & 27 & 95 & 0.2842 & 0.90 \\
+\hline 4 (Undergraduate degree) & 32 & 239 & 0.1339 & 0.42 \\
+\hline 5 (Graduate degree) & 5 & 52 & 0.0962 & 0.30 \\
+\hline
+\end{tabular}
+\end{table}
+
+Examples of calculations:
+${ }^a$ Odds of smoking in group 1: $\hat{o}_1=\frac{a_1}{b_1}=\frac{12}{38}=0.3158$
+${ }^b$ Odds of smoking in group 2: $\hat{o}_2=\frac{a_2}{b_2}=\frac{18}{67}=0.2687$
+${ }^c$ Odds ratio in group 2: $\widehat{O R}_2=\frac{\hat{o}_2}{\hat{o}_1}=\frac{0.2687}{0.3158}=0.85$",
+  "answer": "null",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Odds ratios, R-by-2 table (Education and smoking).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "416-416"
+  }
+}

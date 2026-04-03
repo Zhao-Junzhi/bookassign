@@ -1,0 +1,68 @@
+{
+  "case_id": "book1_r1\\record_370.json",
+  "input": {
+    "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116,128,125,119,89,99,105,116,118}. Thus, x̄=(116+128+⋯+118)/9=112.8.",
+    "data": "",
+    "question": "Does this sample provide statistically significant evidence in support of the citizen's claim?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "A. Hypotheses. Since 100 represents the expected population average if no difference were to exist, H0: μ=100. The one-sided alternative hypothesis is Ha: μ>100. The two-sided alternative is Ha: μ≠100.",
+    "variable": {
+      "sample_size": {
+        "id": "sample_size",
+        "value": 9,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The size of the random sample selected from the population."
+      },
+      "sample_scores": {
+        "id": "sample_scores",
+        "value": [
+          116,
+          128,
+          125,
+          119,
+          89,
+          99,
+          105,
+          116,
+          118
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The intelligence test scores of the sampled children."
+      },
+      "sample_mean": {
+        "id": "sample_mean",
+        "value": 112.8,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean intelligence test score of the sampled children."
+      },
+      "population_mean": {
+        "id": "population_mean",
+        "value": 100,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean intelligence test score of the population under the null hypothesis."
+      },
+      "population_sd": {
+        "id": "population_sd",
+        "value": 15,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The standard deviation of intelligence test scores in the population."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "z test (“Lake Wobegon”).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5  ONE-SAMPLE Z TEST",
+    "page": "185-186"
+  },
+  "sample_key": "416"
+}

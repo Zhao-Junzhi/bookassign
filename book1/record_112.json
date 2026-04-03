@@ -1,0 +1,63 @@
+{
+  "id": "112",
+  "question": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers ( $P=$ 0.042 ). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.
+(a) Conduct post hoc comparisons using the LSD method. Summarize these results in concise narrative form.
+(b) Incorporate Bonferroni's correction into each of the $P$-value calculated in part (a).
+(c) Calculate $95 \%$ confidence intervals for all possible mean differences incorporating a Bonferroni adjustment..",
+  "data": "",
+  "answer": "(a) Least squared difference (LSD) tests
+
+\begin{tabular}{|l|l|l|l|}
+\hline Null hypothesis & $\bar{x}_i-\bar{x}_j$ & SE & $P$-value (2-sided) \\
+\hline $H_0: \mu_1-\mu_2=0$ & 0.0857 & 0.67848 & 0.901 \\
+\hline $H_0: \mu_1-\mu_3=0$ & 1.1191 & 0.64690 & 0.098 \\
+\hline $H_0: \mu_1-\mu_4=0$ & 1.6129 & 0.60512 & 0.014 \\
+\hline $H_0: \mu_2-\mu_3=0$ & 1.0334 & 0.67848 & 0.143 \\
+\hline $H_0: \mu_2-\mu_4=0$ & 1.5272 & 0.63876 & 0.026 \\
+\hline $H_0: \mu_3-\mu_4=0$ & 0.4938 & 0.60512 & 0.424 \\
+\hline
+\end{tabular}
+
+Calculated by SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)
+
+Summary in concise narrative form: Differences between group 1 and group 4 and between group 2 and group 4 are statistically significant. The difference between group 1 and group 3 is marginally significant.
+(b) Bonferroni's method tests
+
+\begin{tabular}{|l|l|l|l|}
+\hline Null hypothesis & $\bar{x}_i-\bar{x}_j$ & SE & $P$-value (2-sided) \\
+\hline $H_0: \mu_1-\mu_2=0$ & 0.0857 & 0.67848 & 1.000 \\
+\hline $H_0: \mu_1-\mu_3=0$ & 1.1191 & 0.64690 & 0.590 \\
+\hline $H_0: \mu_1-\mu_4=0$ & 1.6129 & 0.60512 & 0.087 \\
+\hline $H_0: \mu_2-\mu_3=0$ & 1.0334 & 0.67848 & 0.856 \\
+\hline $H_0: \mu_2-\mu_4=0$ & 1.5272 & 0.63876 & 0.158 \\
+\hline $H_0: \mu_3-\mu_4=0$ & 0.4938 & 0.60512 & 1.000 \\
+\hline
+\end{tabular}
+
+Calculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)
+
+Summary in concise narrative form: The difference between group 1 and group 4 is marginally significant. All other differences are not statistically significant.
+(c) Post hoc confidence intervals incorporating Bonferroni's correction
+
+\begin{tabular}{|l|l|l|l|l|}
+\hline \multirow{2}{*}{Parameter} & \multirow[b]{2}{*}{$\bar{x}_i-\bar{x}_j$} & \multirow[b]{2}{*}{SE} & \multicolumn{2}{|c|}{95\% confidence interval} \\
+\hline & & & LCL & UCL \\
+\hline $\mu_1-\mu_2$ & 0.0857 & 0.67848 & -1.8901 & 2.0615 \\
+\hline $\mu_1-\mu_3$ & 1.1191 & 0.64690 & -0.7647 & 3.0030 \\
+\hline $\mu_1-\mu_4$ & 1.6129 & 0.60512 & -0.1492 & 3.3751 \\
+\hline $\mu_2-\mu_3$ & 1.0334 & 0.67848 & -0.9424 & 3.0092 \\
+\hline $\mu_2-\mu_4$ & 1.5272 & 0.63876 & -0.3329 & 3.3873 \\
+\hline $\mu_3-\mu_4$ & 0.4938 & 0.60512 & -1.2684 & 2.2559 \\
+\hline
+\end{tabular}
+
+Calculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)",
+  "meta info": {
+    "index": "13.5",
+    "image": "",
+    "caption": "Smoking and birth weight, post hoc comparisons.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.4 Post Hoc COMPARISONS",
+    "page": "281-281"
+  }
+}

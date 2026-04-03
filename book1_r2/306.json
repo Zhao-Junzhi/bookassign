@@ -1,0 +1,63 @@
+{
+  "case_id": "book1_r1\\record_159.json",
+  "input": {
+    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Table 19.10 A cross tabulates acceptance by gender for both majors combined. What proportion of male applicants were accepted? What proportion of female applicants were accepted? What is your initial impression?"
+  },
+  "output": {
+    "method": "contingency table",
+    "answer": "Crude analysis: P_males = 534 / 1198 = 0.4457 or about 45%; P_females = 113 / 449 = 0.2517 or about 25%; RR = 0.4457 / 0.2517 = 1.77",
+    "variable": {
+      "gender": {
+        "id": "gender",
+        "value": [
+          "Male",
+          "Female"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The gender of the applicants."
+      },
+      "acceptance_combined_male": {
+        "id": "acceptance_combined_male",
+        "value": [
+          534,
+          664
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of male applicants accepted and not accepted for both majors combined."
+      },
+      "acceptance_combined_female": {
+        "id": "acceptance_combined_female",
+        "value": [
+          113,
+          336
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of female applicants accepted and not accepted for both majors combined."
+      },
+      "total_applicants_combined": {
+        "id": "total_applicants_combined",
+        "value": [
+          1198,
+          449
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of applicants for both majors combined, by gender."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "19.5",
+    "image": "",
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
+  },
+  "sample_key": "306"
+}

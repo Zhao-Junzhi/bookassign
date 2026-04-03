@@ -1,0 +1,25 @@
+{
+  "background": "In the spring of 1989, physicians and pharmacists at the University of Wisconsin Hospital clinics became aware of an increase in the frequency an adverse reaction (cerebellar toxicity) to a drug used in bone marrow transplant patients. This association became apparent after the hospital switched from the original formulation of the drug to a generic equivalent. The U.S. Food and Drug Administration was contacted, and a team of investigators was sent to look into the problem. A subsequent record review confirmed the increased frequency of this serious adverse reaction.",
+  "task": [
+    {
+      "query": "Of the 25 patients treated with the generic form of the drug, 11(44%) experienced cerebellar toxicity. In comparison, 3(8.8%) of 34 individuals treated with the brandname product experienced toxicity. Thus, the relative risk associated with the generic drug was 44.0%/8.8%=5.0(P=0.002).",
+      "answer": "null",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Although this particular hospital experienced much greater toxicity with the generic formulation, there is difficulty in interpreting these results. This hospital was selected for study just because of its high rate of occurrence. No other institution reported a similar problem. Somewhere, there might be a hospital where the generic formulation proved safer. Thus, there is no way of knowing whether the identified problem represents a random cluster of events or a true increase in occurrence.",
+      "answer": "null",
+      "method": "随机性"
+    }
+  ],
+  "id": "431",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "After-the-fact identification of a cluster.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.5 SYSTEMATIC SOURCES OF ERROR",
+    "page": "395-395"
+  }
+}

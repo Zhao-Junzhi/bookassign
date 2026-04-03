@@ -1,0 +1,45 @@
+{
+  "background": "The prevalence of a condition in a population is 10%. You take a simple random sample of 15 people from this population. Let X represent the number of individuals in the sample with the condition.",
+  "task": [
+    {
+      "query": "Describe the distribution X.",
+      "answer": "X ~ b(15,0.10)",
+      "method": "从指定分布中抽样"
+    },
+    {
+      "query": "What is the probability of seeing no cases in a sample?",
+      "answer": "Pr(X=0)=0.2059",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What is the probability of seeing one case?",
+      "answer": "Pr(X=1)=0.3432",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What is the probability of seeing one or fewer cases?",
+      "answer": "Pr(X ≤ 1)=Pr(X=0)+Pr(X=1)=0.2059+0.3432=0.5491",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "What is the probability of at least two cases?",
+      "answer": "Pr(X ≥ 2)=1 - Pr(X ≤ 1)=1-0.5491=0.4509",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "At what number of cases would you start to believe the assumed prevalence in the population is greater than 10%?",
+      "answer": "Probabilities: No. of Successes (x) & 0 & 1 & 2 & 3 & 4 & 5 \n Pr(X=x) & 0.2059 & 0.3432 & 0.2669 & 0.1285 & 0.0428 & 0.0105 \n Pr(X ≤ x) & 0.2059 & 0.5490 & 0.8159 & 0.9444 & 0.9873 & 0.9978 \n Pr(X>x) & 0.7941 & 0.4510 & 0.1841 & 0.0556 & 0.0127 & 0.0022",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "054",
+  "data": "",
+  "meta info": {
+    "index": "6.11",
+    "image": "",
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
+  }
+}

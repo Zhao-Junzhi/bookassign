@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_421.json",
+  "input": {
+    "background": "A prior illustrative example in this chapter had us conduct a two-sided test of $H_0: p=$ 0.21 using a sample of $n=57$.",
+    "data": "",
+    "question": "How large a sample is needed to detect a proportion of 0.31 in the population (i.e., $p_1=0.31$ ) at $\\alpha=0.05$ (two sided) with $90 \\%$ power?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "\\begin{aligned} &n=\\left(\\frac{z_{1-\\alpha / 2} \\sqrt{p_0 q_0}+z_{1-\\beta }\\sqrt{p_1 q_1}}{p_1-p_0}\\right)^2=\\left(\\frac{1.96 \\sqrt{(0.21)(0.79)}+1.28 \\sqrt{(0.31)(0.69)}}{0.31-0.21}=\\right)^2=193.3 .\\ &\\text { The sample should include } 194 \\text { observations. } \\end{aligned}",
+    "variable": {
+      "p0": {
+        "id": "p0",
+        "value": "0.21",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The null hypothesis proportion in the population."
+      },
+      "p1": {
+        "id": "p1",
+        "value": "0.31",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The alternative hypothesis proportion in the population that we want to detect."
+      },
+      "alpha": {
+        "id": "alpha",
+        "value": "0.05",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The significance level for the two-sided test."
+      },
+      "power": {
+        "id": "power",
+        "value": "0.90",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The desired power of the test to detect the effect."
+      },
+      "n": {
+        "id": "n",
+        "value": "57",
+        "class": "numerical",
+        "role": "NR",
+        "description": "The sample size used in the prior example."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, hypothesis test.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "368-368"
+  },
+  "sample_key": "525"
+}

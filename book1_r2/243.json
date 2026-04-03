@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_120.json",
+  "input": {
+    "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
+    "data": "",
+    "question": "Describe the population to which inferences will be made. What population parameter will be estimated? Calculate the prevalence of multiple sexual partners in the sample."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "The population to which inference will be made is U.S. adult heterosexuals at the time of the survey. The parameter of interest is the proportion of individuals with multiple sexual partners. The sample proportion \\(\\hat{p}=170 / 2673=0.063598 \\approx\\) 0.064 or \\(6.4 \\%\\).",
+    "variable": {
+      "total_participants": {
+        "id": "total_participants",
+        "value": 2673,
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of heterosexual adults in the sample."
+      },
+      "multiple_partners": {
+        "id": "multiple_partners",
+        "value": 170,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of participants who reported two or more sexual partners in the past 12 months."
+      },
+      "prevalence_multiple_partners": {
+        "id": "prevalence_multiple_partners",
+        "value": "170/2673",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Calculated prevalence of multiple sexual partners in the sample."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "16.1",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.1 PROPORTIONS",
+    "page": "351-352"
+  },
+  "sample_key": "243"
+}

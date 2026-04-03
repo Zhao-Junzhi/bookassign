@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_397.json",
+  "input": {
+    "background": "In the cholesterol illustrative example, we aim to determine the minimal detectable difference using a sample size of n=30 per group, with a significance level of α=0.05 (two-sided) and a power of 0.90. A reasonable estimate for σ² has been established as 0.25.",
+    "data": "",
+    "question": "What is the minimal detectable difference?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "Δ=√(2⋅σ²/n)(z₁₋β+z₁₋α/₂)=√(2⋅0.25/30)(1.282+1.96)=0.42. This study will be able to detect a mean difference of 0.42 mmol/L under the stated conditions.",
+    "variable": {
+      "sample_size_per_group": {
+        "id": "sample_size_per_group",
+        "value": 30,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of samples in each group."
+      },
+      "significance_level": {
+        "id": "significance_level",
+        "value": 0.05,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The significance level (alpha) for the hypothesis test, two-sided."
+      },
+      "power": {
+        "id": "power",
+        "value": 0.9,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The power of the test, representing the probability of correctly rejecting the null hypothesis."
+      },
+      "variance_estimate": {
+        "id": "variance_estimate",
+        "value": 0.25,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The estimated variance (σ²) used for calculations."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Minimal detectable difference.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "252-253"
+  },
+  "sample_key": "476"
+}

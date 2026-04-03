@@ -1,0 +1,19 @@
+{
+  "id": "501",
+  "question": " Scores derived from a patient satisfaction survey are Normally distributed with $\mu=50$ and $\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.
+(a) What is the $S E$ of $\bar{x}$ for these data?
+(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\mu=50$. Sketch the curve that describes the sampling distribution of $\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\pm 1, \pm 2$, and $\pm 3$ standard errors above and below the mean.
+(c) Suppose a sample of $n=36$ finds an $\bar{x}$ of 48.8. Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
+  "data": "",
+  "answer": "(a) $S E_x=\frac{7.5}{\sqrt{36}}=1.25$
+(b) The sketch of $\bar{x} \sim \mathrm{~N}(50,1.25)$ is not shown in this key. Note that the curve should be centered on $\mu=50$ with points of inflection at 48.75 and 51.25. The standard deviation landmarks starting 2 standard errors below the mean are at $47.5,48.75$, $50.0,51.25$, and 52.5 .
+(c) Notice that $z_{\text {stat }}=\frac{48.8-50}{1.25}=-0.96$. Therefore, 48.8 is a little less than 1 standard deviation below $\mu_0$. This would not be unusual and would not provide strong evidence against $H_0$.",
+  "meta info": {
+    "index": "9.3",
+    "image": "",
+    "caption": "Patient satisfaction.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  }
+}

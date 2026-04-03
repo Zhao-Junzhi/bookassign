@@ -1,0 +1,93 @@
+{
+  "case_id": "book1_r1\\record_143.json",
+  "input": {
+    "background": "In 1954, the prominent statistician W. G. Cochran (1909-1980) published an important article on the analysis of cross-tabulated counts. On page 435 of the article, techniques were illustrated with an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable in this table classifies patients according to their initial degree of skin damage. The column variable classifies overall response to therapy.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Address whether patients with high levels of skin damage progressed differently than those with low levels of skin damage by calculating the conditional percents of improvement in the two groups."
+  },
+  "output": {
+    "method": "contingency table",
+    "answer": "Here are the relevant conditional distributions:\n\nSkin infiltration:\n- High: 13% marked improvement, 29% slight improvement, 31% stationary, 25% worse, 2% total.\n- Low: 8% marked improvement, 19% slight improvement, 29% stationary, 37% worse, 8% total.\n\nThese distributions show that patients with high skin damage were more likely to show improvement than those with low skin infiltration.",
+    "variable": {
+      "Skin infiltration": {
+        "id": "Skin infiltration",
+        "value": [
+          "High",
+          "Low"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The initial degree of skin damage in patients."
+      },
+      "Marked improvement": {
+        "id": "Marked improvement",
+        "value": [
+          7,
+          11
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients showing marked improvement in response to therapy."
+      },
+      "Moderate improvement": {
+        "id": "Moderate improvement",
+        "value": [
+          15,
+          27
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients showing moderate improvement in response to therapy."
+      },
+      "Slight improvement": {
+        "id": "Slight improvement",
+        "value": [
+          16,
+          42
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients showing slight improvement in response to therapy."
+      },
+      "Stationary": {
+        "id": "Stationary",
+        "value": [
+          13,
+          53
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients whose condition remained stationary."
+      },
+      "Worse": {
+        "id": "Worse",
+        "value": [
+          1,
+          11
+        ],
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Number of patients whose condition worsened."
+      },
+      "Total": {
+        "id": "Total",
+        "value": [
+          52,
+          144
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Total number of patients in each skin infiltration group."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.5",
+    "image": "",
+    "caption": "Response to leprosy treatment.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "420-421"
+  },
+  "sample_key": "277"
+}

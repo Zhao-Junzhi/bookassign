@@ -1,0 +1,16 @@
+{
+  "id": "410",
+  "question": "For the illustrative data, we have established $\bar{x}=603.64, \bar{y}=20.55, s_X=378.451, s_Y=11.725$ and $r=0.737$.",
+  "data": "",
+  "answer": "The slope coefficient $b=r \frac{s_Y}{s_X}=0.737 \cdot \frac{11.725}{378.451}=0.02284$.
+The intercept coefficient $a=\bar{y}-b \bar{x}=20.55-(0.02284)(603.64)=6.76$.
+The regression model is $\hat{y}=6.76+0.0228 x$.",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Regression coefficients.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "313-314"
+  }
+}

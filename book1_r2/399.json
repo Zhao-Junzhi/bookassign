@@ -1,0 +1,57 @@
+{
+  "case_id": "book1_r1\\record_361.json",
+  "input": {
+    "background": "The prevalence of being overweight and obese has increased in the United States. The National Health Exam Survey in the 1960s estimated that the average body weight of men was about 166.3 pounds. About 30 years later, the National Health and Nutrition Exam Survey estimated an average weight of 189.8. Both surveys were based on samples of between three and four thousand men. The numbers 166.3 and 189.8 are statistics because they are based on a sample of the population. These statistics estimate population means (parameters) at the time they were taken, but the actual values of the parameters are not truly known.",
+    "data": "",
+    "question": "Estimate population means (parameters) based on sample statistics."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "null",
+    "variable": {
+      "average_weight_1960s": {
+        "id": "average_weight_1960s",
+        "value": 166.3,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Average body weight of men in the 1960s based on sample statistics."
+      },
+      "average_weight_1990s": {
+        "id": "average_weight_1990s",
+        "value": 189.8,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Average body weight of men in the 1990s based on sample statistics."
+      },
+      "time_period": {
+        "id": "time_period",
+        "value": [
+          "1960s",
+          "1990s"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "Time periods during which the surveys were conducted."
+      },
+      "sample_size": {
+        "id": "sample_size",
+        "value": [
+          3000,
+          4000
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "Sample sizes for the surveys conducted in the 1960s and 1990s."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Parameters and statistics (Body weight).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1  CONCEPTS",
+    "page": "156-156"
+  },
+  "sample_key": "399"
+}

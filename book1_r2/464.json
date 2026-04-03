@@ -1,0 +1,79 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "Derive degrees of freedom by the Welch method and calculate the $95 \\%$ confidence interval."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "The value of $t_{8.61, .975}$ via a software utility is 2.306. The $95 \\%$ confidence interval is $0.154$ to $1.400(\\mathrm{mmol} / \\mathrm{L})$.",
+    "variable": {
+      "mu_1": {
+        "id": "mu_1",
+        "value": "Mean cholesterol level for group 1 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean cholesterol level for the first group in the illustrative data."
+      },
+      "mu_2": {
+        "id": "mu_2",
+        "value": "Mean cholesterol level for group 2 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Mean cholesterol level for the second group in the illustrative data."
+      },
+      "s_1": {
+        "id": "s_1",
+        "value": "Standard deviation of cholesterol levels for group 1 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of cholesterol levels for the first group in the illustrative data."
+      },
+      "s_2": {
+        "id": "s_2",
+        "value": "Standard deviation of cholesterol levels for group 2 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Standard deviation of cholesterol levels for the second group in the illustrative data."
+      },
+      "n_1": {
+        "id": "n_1",
+        "value": "Sample size for group 1 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for the first group in the illustrative data."
+      },
+      "n_2": {
+        "id": "n_2",
+        "value": "Sample size for group 2 (specific values not provided in the problem)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for the second group in the illustrative data."
+      },
+      "degrees_of_freedom": {
+        "id": "degrees_of_freedom",
+        "value": "Calculated using the Welch method (formula depends on s_1, s_2, n_1, n_2)",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "Degrees of freedom derived using the Welch method for comparing two groups."
+      },
+      "confidence_interval": {
+        "id": "confidence_interval",
+        "value": "95% confidence interval for mu_1 - mu_2 (calculated using degrees_of_freedom, s_1, s_2, n_1, n_2)",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The range within which the true difference in mean cholesterol levels between the two groups is expected to lie with 95% confidence."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "464"
+}

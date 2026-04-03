@@ -1,0 +1,37 @@
+{
+  "id": "111",
+  "question": "Exercise 13.1 presented data on birth weights of infants based on the smoking status of mothers. Table 13.3 lists the data. Descriptive statistics are shown in Table 13.10. Conduct an ANOVA on these data. Show all hypothesistesting steps.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 13.10 Descriptive statistics for Exercise 13.3.}
+\begin{tabular}{|l|l|l|l|}
+\hline Group & $n$ & Mean & Std. Deviation \\
+\hline 1 (nonsmoker) & 6 & 7.9153 & 1.09947 \\
+\hline 2 (former smokers) & 5 & 7.8296 & 1.52325 \\
+\hline 3 (< half pack) & 6 & 6.7962 & 1.10107 \\
+\hline 4 ( $\geq$ half pack) & 8 & 6.3024 & 0.84323 \\
+\hline Total & 25 & 7.1135 & 1.26907 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": "A. Hypotheses. $H_0: \mu_1=\mu_2=\mu_3=\mu_4$ versus $H_3$ : at least two of the $\mu_i$ s differ
+B. Test statistic. ANOVA table (below), $F_{\text {tat }}=4.096 / 1.255=3.26$ with 3 and 21 df.
+
+\begin{tabular}{lcrc}
+\hline & Sum of Squares & $d f$ & Mean Square \\
+Between Groups & 12.289 & 3 & 4.096 \\
+Within Groups & 26.364 & 21 & 1.255 \\
+Total & 38.653 & 24 & \\
+\hline
+\end{tabular}
+C. $P$-value. $P<0.05$ by Table D (use the 3 and $20 d f$ column). $P=0.042$ by a software utility. Either way, this provides good evidence against the null hypothesis.
+D. Significance level (optional). The results are significant at $\alpha=0.05$ (reject $H_0$ ) but are not significant at $\alpha=0.01$ (retain $H_0$ ).",
+  "meta info": {
+    "index": "13.3",
+    "image": "",
+    "caption": "Smoking and birth weight, ANOVA.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.3 ANALYSIS OF VARIANCE (ANOVA)",
+    "page": "276-276"
+  }
+}

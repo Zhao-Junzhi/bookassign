@@ -1,0 +1,58 @@
+{
+  "case_id": "book1_r1\\record_364.json",
+  "input": {
+    "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15.",
+    "data": "",
+    "question": "Let us consider the standard errors of means for SRSs of WAISs with n=1, n=4, and n=16."
+  },
+  "output": {
+    "method": "集中趋势测度",
+    "answer": "- The standard error of the mean when n=1 is SE_{\\bar{x}}=\\frac{\\sigma}{n}=\\frac{15}{\\sqrt{1}}=15.\n- The standard error of the mean when n=4 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{4}}=7.5.\n- The standard error of the mean based when n=16 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{16}}=3.75.",
+    "variable": {
+      "WAIS_mean": {
+        "id": "WAIS_mean",
+        "value": 100,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The mean of the Wechsler Adult Intelligence Scores (WAISs) distribution."
+      },
+      "WAIS_std_dev": {
+        "id": "WAIS_std_dev",
+        "value": 15,
+        "class": "numerical",
+        "role": "NR",
+        "description": "The standard deviation of the Wechsler Adult Intelligence Scores (WAISs) distribution."
+      },
+      "sample_size_n1": {
+        "id": "sample_size_n1",
+        "value": 1,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for the first simple random sample (SRS) of WAISs."
+      },
+      "sample_size_n4": {
+        "id": "sample_size_n4",
+        "value": 4,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for the second simple random sample (SRS) of WAISs."
+      },
+      "sample_size_n16": {
+        "id": "sample_size_n16",
+        "value": 16,
+        "class": "numerical",
+        "role": "independent",
+        "description": "Sample size for the third simple random sample (SRS) of WAISs."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Standard error of the mean and sample size (WAIS).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "164-164"
+  },
+  "sample_key": "403"
+}

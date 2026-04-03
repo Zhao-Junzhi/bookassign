@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_071.json",
+  "input": {
+    "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution. When the sample is large, the number of successes will vary according to a Normal distribution. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed.",
+    "data": "",
+    "question": "The sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed with mean $p$ and standard deviation equal to (e) $\\_\\_\\_\\_$. What is the standard deviation of the sampling distribution of $\\hat{p}$?"
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "(e) $\\sqrt{\\frac{p q}{n}}$",
+    "variable": {
+      "n": {
+        "id": "n",
+        "value": "Sample size, not explicitly given",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The number of observations in the sample"
+      },
+      "p": {
+        "id": "p",
+        "value": "Population proportion, not explicitly given",
+        "class": "numerical",
+        "role": "independent",
+        "description": "The true proportion of successes in the population"
+      },
+      "hat_p": {
+        "id": "hat_p",
+        "value": "Sample proportion, not explicitly given",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The proportion of successes in the sample"
+      },
+      "standard_deviation": {
+        "id": "standard_deviation",
+        "value": "sqrt(p(1-p)/n)",
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The standard deviation of the sampling distribution of the sample proportion"
+      }
+    }
+  },
+  "meta_info": {
+    "index": "8.13",
+    "image": "",
+    "caption": "Fill in the blanks.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
+  },
+  "sample_key": "135"
+}

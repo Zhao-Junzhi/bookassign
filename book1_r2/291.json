@@ -1,0 +1,47 @@
+{
+  "case_id": "book1_r1\\record_150.json",
+  "input": {
+    "background": "Recall the illustrative example concerning a matched case-control study of adenomatous colon polyps and diet.",
+    "data": "",
+    "question": "Test the association for significance. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "method": "独立性检验",
+    "answer": "A. Hypotheses. $H_0$ : no association between fruit and vegetable consumption and colon polyps in the population versus $H_2: H_0$ false. B. Test statistic. $z_{\\mathrm{McN}}=\\operatorname{sqrt}\\left[(45-24)^2 /(45+24)\\right]=2.528$ C. $P$-value. $P=0.011$ (significant evidence) D. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.05$ and is almost significant at $\\alpha=0.01$.",
+    "variable": {
+      "case_control_status": {
+        "id": "case_control_status",
+        "value": [
+          "case",
+          "control"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "Indicates whether the subject is a case (with adenomatous colon polyps) or a control (without adenomatous colon polyps)."
+      },
+      "dietary_factor": {
+        "id": "dietary_factor",
+        "value": "Various dietary factors (e.g., fiber intake, fat intake)",
+        "class": "numerical",
+        "role": "independent",
+        "description": "Represents the dietary factors being studied for their association with adenomatous colon polyps."
+      },
+      "matching_variable": {
+        "id": "matching_variable",
+        "value": "Variables used for matching cases and controls (e.g., age, sex)",
+        "class": "categorical",
+        "role": "NR",
+        "description": "Variables used to match cases and controls to reduce confounding."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "18.19",
+    "image": "",
+    "caption": "Diet and adenomatous polyps.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "455-455"
+  },
+  "sample_key": "291"
+}

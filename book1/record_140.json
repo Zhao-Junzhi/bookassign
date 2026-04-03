@@ -1,0 +1,17 @@
+{
+  "id": "140",
+  "question": " A double-blind randomized trial compared cefaclor to amoxicillin in the treatment of acute otitis media in children. There was no difference in clinical failure rates (all but four children in each group had a good clinical response), but after 14 days, 59 $(55.7 \%)$ of 106 cefaclor treated subjects had effusion-free ears compared to 40 of the 97 amoxicillin treated subjects. Determine whether the effusion-free rates differed significantly in the groups. Show all hypothesis-testing steps.",
+  "data": "",
+  "answer": "A. Hypotheses. $H_0: p_1=p_2$ versus $H_a: p_1 \neq p_2$
+B. Test statistic. $z_{\text {stat }}=2.054$
+C. $P$-value. $P=0.040$ (good evidence against $H_0$ )
+D. Significance level (optional). The evidence against the null hypothesis is significant at $\alpha=0.05$.",
+  "meta info": {
+    "index": "17.19",
+    "image": "",
+    "caption": "Acute otitis media.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "book1_r1\\record_410.json",
+  "input": {
+    "background": "For the illustrative data, we have established \\(\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725\\) and \\(r=0.737\\).",
+    "data": "",
+    "question": "Calculate the intercept coefficient \\(a\\) using the slope \\(b\\) and means \\(\\bar{x}\\) and \\(\\bar{y}\\)."
+  },
+  "output": {
+    "method": "获取模型参数估计值",
+    "answer": "The intercept coefficient \\(a=\\bar{y}-b \\bar{x}=20.55-(0.02284)(603.64)=6.76\\).",
+    "variable": {
+      "mean_x": {
+        "id": "mean_x",
+        "value": 603.64,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The mean value of variable x."
+      },
+      "mean_y": {
+        "id": "mean_y",
+        "value": 20.55,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The mean value of variable y."
+      },
+      "slope_b": {
+        "id": "slope_b",
+        "value": null,
+        "class": "numerical",
+        "role": "independent",
+        "description": "The slope of the regression line, which is needed to calculate the intercept."
+      },
+      "intercept_a": {
+        "id": "intercept_a",
+        "value": null,
+        "class": "numerical",
+        "role": "dependent",
+        "description": "The intercept of the regression line to be calculated."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Regression coefficients.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "313-314"
+  },
+  "sample_key": "505"
+}

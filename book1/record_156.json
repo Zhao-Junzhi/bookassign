@@ -1,0 +1,28 @@
+{
+  "id": "156",
+  "question": "Calculate a chi-square test of association statistic and P-value for the case-control data in Table 18.21. Justify that it is acceptable to use a chi-square statistic in this situation even\nthough two of the cells have small numbers.",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.33 Data for Exercise 18.30. Case-control data on longterm smoking habit and lung cancer.}
+\begin{tabular}{|l|l|l|}
+\hline Smoking level* & Cases & Noncases \\
+\hline 1 Nonsmoker (<1 cigarette per day) & 8 & 115 \\
+\hline 2 Light smoker ( $1-9 \mathrm{cig}$ per day) & 14 & 82 \\
+\hline 3 Moderate ( $10-15$ cigs per day) & 61 & 147 \\
+\hline 4 Heavy ( $16-20$ cigs per day) & 213 & 274 \\
+\hline 5 Excessive (21-34 cigs per day) & 186 & 98 \\
+\hline 6 Chain (35 of more cigs per day) & 123 & 64 \\
+\hline Total & 605 & 780 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "meta info": {
+    "index": "18.31",
+    "image": "",
+    "caption": "Practice with chi-square.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "462-462"
+  }
+}

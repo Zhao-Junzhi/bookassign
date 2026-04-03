@@ -1,0 +1,65 @@
+{
+  "case_id": "book1_r1\\record_159.json",
+  "input": {
+    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Table 19.10 C cross tabulates data for major 2 . What is the experience in this stratum?"
+  },
+  "output": {
+    "method": "contingency table",
+    "answer": "Applicants for major 2: P_males = 22 / 373 = 0.0590 or about 6%; P_females = 24 / 341 = 0.070 or about 7%. Major 2 favors female applicants.",
+    "variable": {
+      "Gender": {
+        "id": "Gender",
+        "value": [
+          "Male",
+          "Female"
+        ],
+        "class": "categorical",
+        "role": "independent",
+        "description": "The gender of applicants to UC Berkeley graduate programs."
+      },
+      "Acceptance_Status": {
+        "id": "Acceptance_Status",
+        "value": [
+          "+",
+          "-"
+        ],
+        "class": "categorical",
+        "role": "dependent",
+        "description": "The acceptance status of applicants, where '+' indicates accepted and '-' indicates not accepted."
+      },
+      "Applicants_Major_2_Male": {
+        "id": "Applicants_Major_2_Male",
+        "value": [
+          22,
+          351,
+          373
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of male applicants to Major 2, categorized by acceptance status and total."
+      },
+      "Applicants_Major_2_Female": {
+        "id": "Applicants_Major_2_Female",
+        "value": [
+          24,
+          317,
+          341
+        ],
+        "class": "numerical",
+        "role": "NR",
+        "description": "The number of female applicants to Major 2, categorized by acceptance status and total."
+      }
+    }
+  },
+  "meta_info": {
+    "index": "19.5",
+    "image": "",
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
+  },
+  "sample_key": "308"
+}

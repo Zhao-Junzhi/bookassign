@@ -1,0 +1,35 @@
+{
+  "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+  "task": [
+    {
+      "query": "Calculate the difference between the sample means: $\\bar{x}_1-\\bar{x}_2=6.192-5.414$.",
+      "answer": "$\\bar{x}_1-\\bar{x}_2=0.777(\\mathrm{mmol} / \\mathrm{L})$",
+      "method": "集中趋势测度"
+    },
+    {
+      "query": "Calculate the standard error of the difference between the sample means: $S E_{\\bar{x}_1-\\bar{x}_2}=\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}$.",
+      "answer": "$S E_{\\bar{x}_1-\\bar{x}_2}=0.2702(\\mathrm{mmol} / \\mathrm{L})$",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "Using the conservative method to calculate the degrees of freedom and the $95 \\%$ confidence interval.",
+      "answer": "For $95 \\%$ confidence, use $t_{6, .975}=2.447$. The $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ is $0.116$ to $1.438(\\mathrm{mmol} / \\mathrm{L})$.",
+      "method": "均值检验"
+    },
+    {
+      "query": "Derive degrees of freedom by the Welch method and calculate the $95 \\%$ confidence interval.",
+      "answer": "The value of $t_{8.61, .975}$ via a software utility is 2.306. The $95 \\%$ confidence interval is $0.154$ to $1.400(\\mathrm{mmol} / \\mathrm{L})$.",
+      "method": "均值检验"
+    }
+  ],
+  "id": "392",
+  "data": "Table 12.5 ",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  }
+}

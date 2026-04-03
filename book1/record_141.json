@@ -1,0 +1,36 @@
+{
+  "id": "141",
+  "question": "Table 18.7 is based on results from the Youth Risk Behavior Surveillance (YRBS) system. The number of adolescents who had been in a car or other vehicle when the driver had been drinking alcohol is cross tabulated according to racial/ethnic group classifications. Calculate prevalences proportions for each of the groups. Then, determine the margin of error for each proportion according to this formula:
+
+$$
+m \approx 2 \cdot S E_{p_i}
+$$
+
+where $S E_{\hat{p}_i}==\sqrt{\frac{\hat{p}_i \hat{q}_i}{n_i}}$",
+  "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 18.7 Data for Exercise 18.1 and Exercise 18.8. Drove or rode in a car other vehicle when driver was drinking alcohol within past 30 days by racial/ethnic group.}
+\begin{tabular}{l|r|r|}
+\hline Group & \multicolumn{1}{c}{+} & \multicolumn{1}{c}{ - }& \multicolumn{1}{c}{ Total } \\
+1 (Non-Hisp.White) & 243 & 1911 & 2154 \\
+\hline 2 (Non-Hisp. Black) & 25 & 483 & 508 \\
+\hline 3 (Hispanic) & 55 & 471 & 526 \\
+\hline Total & 323 & 2864 & 3187 \\
+\hline
+\end{tabular}
+\end{table}
+",
+  "answer": "\begin{aligned}
+& \hat{P}_1=243 / 2154=0.113 ; S E=0.00682 ; m=0.013 \\
+& \hat{P}_2=25 / 508=0.049 ; S E=0.00958 ; m=0.019 \\
+& \hat{p}_3=55 / 526=0.105 ; S E=0.01337 ; m=0.026
+\end{aligned}",
+  "meta info": {
+    "index": "18.1",
+    "image": "",
+    "caption": "YRBS, prevalence proportions.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "418-419"
+  }
+}

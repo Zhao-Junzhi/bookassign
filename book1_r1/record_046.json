@@ -1,0 +1,40 @@
+{
+  "background": "The probability associated with a proposition can be used to quantify the confidence in a judgment. At one extreme, a probability statement of 0 represents the personal belief that the proposition can never happen. At the other extreme, a probability statement of 1 represents the personal belief that the proposition will always occur. Probabilities between these two extremes represent shades of gray.",
+  "task": [
+    {
+      "query": "Match the percentage 5% with the narrative statement that most closely reflects its meaning: This seldom happens. It has a very low chance of occurring.",
+      "answer": "5%",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Match the percentage 20% with the narrative statement that most closely reflects its meaning: This event is infrequent; it is unlikely.",
+      "answer": "20%",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Match the percentage 50% with the narrative statement that most closely reflects its meaning: This happens as often as not; chances are even.",
+      "answer": "50%",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Match the percentage 80% with the narrative statement that most closely reflects its meaning: This is very frequent and occurs with high probability.",
+      "answer": "80%",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Match the percentage 95% with the narrative statement that most closely reflects its meaning: This event almost always occurs; it has a very high probability of occurrence.",
+      "answer": "95%",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "046",
+  "data": "",
+  "meta info": {
+    "index": "5.7",
+    "image": "",
+    "caption": "Personal expressions of probability.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "92-92"
+  }
+}

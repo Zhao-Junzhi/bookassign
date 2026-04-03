@@ -1,0 +1,25 @@
+{
+  "background": "For the illustrative example, we have established that when \\bar{x}=173 (pounds), P=0.27. This P-value indicates that 173 is not significantly different from 170 at conventional levels of \\alpha (retain H_0). In contrast, when \\bar{x}=185, P=0.0013, thus providing highly significant evidence against H_0 (reject H_0).",
+  "task": [
+    {
+      "query": "When \\bar{x}=173, is the P-value significant at conventional levels of \\alpha?",
+      "answer": "The P-value of 0.27 indicates that 173 is not significantly different from 170 at conventional levels of \\alpha (retain H_0).",
+      "method": "均值检验"
+    },
+    {
+      "query": "When \\bar{x}=185, is there significant evidence against H_0?",
+      "answer": "The P-value of 0.0013 provides highly significant evidence against H_0 (reject H_0).",
+      "method": "均值检验"
+    }
+  ],
+  "id": "369",
+  "data": "",
+  "meta info": {
+    "index": "",
+    "image": "",
+    "caption": "Statistical significance (Body weight of 20-29-year-old  men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.4 SIGNIFICANCE LEVEL",
+    "page": "183-183"
+  }
+}
