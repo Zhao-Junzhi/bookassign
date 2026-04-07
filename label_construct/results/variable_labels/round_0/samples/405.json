@@ -1,0 +1,22 @@
+{
+  "sample_key": "405",
+  "case_id": "book1_r1\\record_365.json",
+  "source_path": "book1_r2/405.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size used in the binomial distribution."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of smokers in the population used in the binomial distribution."
+    }
+  }
+}

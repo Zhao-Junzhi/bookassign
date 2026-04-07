@@ -1,0 +1,15 @@
+{
+  "sample_key": "319",
+  "case_id": "book1_r1\\record_305.json",
+  "source_path": "book1_r2/319.json",
+  "round": 0,
+  "variables": {
+    "heart_disease_mortality": {
+      "id": "heart_disease_mortality",
+      "value": "heart disease mortality declined significantly in both groups",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Outcome variable representing the mortality rate due to heart disease in the study."
+    }
+  }
+}

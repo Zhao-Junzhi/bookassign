@@ -1,0 +1,16 @@
+2026-04-05 15:46:12,082 - INFO - 方法审阅开始: 样本=0, 缓存命中=0, 待处理=0
+2026-04-05 15:46:12,083 - INFO - 方法审阅结果已写入 label_construct/results/method_review/method_review.csv
+2026-04-05 15:58:02,553 - INFO - 方法审阅开始: 样本=10, 缓存命中=0, 待处理=10
+2026-04-05 15:58:11,199 - INFO - 方法审阅进度: 10/10
+2026-04-05 15:58:11,201 - INFO - 方法审阅结果已写入 label_construct/results/method_review/method_review.csv
+2026-04-05 16:24:16,223 - INFO - 方法审阅开始: 样本=10, 缓存命中=0, 待处理=10
+2026-04-05 16:24:26,176 - INFO - 方法审阅进度: 10/10
+2026-04-05 16:24:26,179 - INFO - 方法审阅结果已写入 label_construct/results/method_review/method_review.csv
+2026-04-05 16:41:08,900 - INFO - 方法审阅开始: 样本=10, 缓存命中=0, 待处理=10
+2026-04-05 16:41:14,141 - ERROR - 方法审阅失败 490.json: 无法从模型输出中解析JSON: ```json\n{\n  "is_consistent": 0,\n  "current_method": "方差分析",\n  "suggested_method": "假设检验与区间估计-方差分析",\n  "needs_new_category": 0,\n  "proposed_new_category": "",\n  "reason": "...
+2026-04-05 16:41:19,420 - INFO - 方法审阅进度: 10/10
+2026-04-05 16:41:19,422 - INFO - 方法审阅结果已写入 label_construct/results/method_review/method_review.csv
+2026-04-05 16:54:04,390 - INFO - 方法审阅开始: 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 16:54:14,034 - INFO - 方法审阅进度: 10/20
+2026-04-05 16:54:25,756 - INFO - 方法审阅进度: 20/20
+2026-04-05 16:54:25,764 - INFO - 方法审阅结果已写入 label_construct/results/method_review/method_review.csv

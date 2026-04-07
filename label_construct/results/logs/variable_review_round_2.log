@@ -1,0 +1,14 @@
+2026-04-05 19:10:18,927 - INFO - 变量审阅开始: round=2, 样本=1, 缓存命中=0, 待处理=1
+2026-04-05 19:10:21,761 - INFO - 变量审阅进度: round=2, 1/1
+2026-04-05 19:10:21,763 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_2/review.csv
+2026-04-05 19:31:30,393 - INFO - 变量审阅开始: round=2, 样本=1, 缓存命中=0, 待处理=1
+2026-04-05 19:31:32,597 - INFO - 变量审阅进度: round=2, 1/1
+2026-04-05 19:31:32,598 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_2/review.csv
+2026-04-05 20:23:24,060 - INFO - 变量审阅开始: round=2, 样本=1, 缓存命中=1, 待处理=0
+2026-04-05 20:23:24,061 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_2/review.csv
+2026-04-05 20:38:50,185 - INFO - 变量审阅开始: round=2, 样本=2, 缓存命中=0, 待处理=2
+2026-04-05 20:38:52,656 - INFO - 变量审阅进度: round=2, 2/2
+2026-04-05 20:38:52,658 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_2/review.csv
+2026-04-05 20:44:59,809 - INFO - 变量审阅开始: round=2, 样本=1, 缓存命中=0, 待处理=1
+2026-04-05 20:45:05,991 - INFO - 变量审阅进度: round=2, 1/1
+2026-04-05 20:45:05,992 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_2/review.csv

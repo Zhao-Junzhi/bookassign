@@ -1,0 +1,36 @@
+{
+  "sample_key": "469",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/469.json",
+  "round": 0,
+  "variables": {
+    "n1": {
+      "id": "n1",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 1."
+    },
+    "s1": {
+      "id": "s1",
+      "value": 0.3919,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation for group 1."
+    },
+    "n2": {
+      "id": "n2",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 2."
+    },
+    "s2": {
+      "id": "s2",
+      "value": 0.6492,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation for group 2."
+    }
+  }
+}

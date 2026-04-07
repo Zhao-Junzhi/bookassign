@@ -1,0 +1,28 @@
+2026-04-05 17:08:35,802 - INFO - 变量修正开始: round=1, 样本=6, 缓存命中=0, 待处理=6
+2026-04-05 17:08:39,902 - ERROR - 变量修正失败 446.json round=1: 变量 n_d 的 role 不合法: parameter
+2026-04-05 17:08:41,988 - INFO - 变量修正进度: round=1, 6/6
+2026-04-05 17:08:41,988 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1
+2026-04-05 19:10:08,931 - INFO - 变量修正开始: round=1, 样本=2, 缓存命中=0, 待处理=2
+2026-04-05 19:10:12,271 - INFO - 变量修正进度: round=1, 2/2
+2026-04-05 19:10:12,272 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 19:31:20,123 - INFO - 变量修正开始: round=1, 样本=2, 缓存命中=0, 待处理=2
+2026-04-05 19:31:23,910 - INFO - 变量修正进度: round=1, 2/2
+2026-04-05 19:31:23,910 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:23:24,058 - INFO - 变量修正开始: round=1, 样本=2, 缓存命中=2, 待处理=0
+2026-04-05 20:23:24,058 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:24:22,636 - INFO - 变量修正开始: round=1, 样本=1, 缓存命中=0, 待处理=1
+2026-04-05 20:24:25,143 - INFO - 变量修正进度: round=1, 1/1
+2026-04-05 20:24:25,143 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:27:08,330 - INFO - 变量修正开始: round=1, 样本=2, 缓存命中=0, 待处理=2
+2026-04-05 20:27:12,187 - INFO - 变量修正进度: round=1, 2/2
+2026-04-05 20:27:12,188 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:38:35,510 - INFO - 变量修正开始: round=1, 样本=5, 缓存命中=0, 待处理=5
+2026-04-05 20:38:40,727 - INFO - 变量修正进度: round=1, 5/5
+2026-04-05 20:38:40,728 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:44:48,400 - INFO - 变量修正开始: round=1, 样本=4, 缓存命中=0, 待处理=4
+2026-04-05 20:44:52,704 - INFO - 变量修正进度: round=1, 4/4
+2026-04-05 20:44:52,704 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples
+2026-04-05 20:51:42,680 - INFO - 变量修正开始: round=1, 样本=5, 缓存命中=0, 待处理=5
+2026-04-05 20:51:45,934 - ERROR - 变量修正失败 522.json round=1: 变量 confidence_interval_95_mid_p 的 class 不合法: others
+2026-04-05 20:51:47,572 - INFO - 变量修正进度: round=1, 5/5
+2026-04-05 20:51:47,572 - INFO - 变量修正结果目录: label_construct/results/variable_labels/round_1/samples

@@ -1,0 +1,21 @@
+﻿sample_key,round,is_accurate,missing_variables,redundant_variables,incorrect_fields,reason,revision_advice
+51,0,1,[],[],[],变量提取结果准确，所有实际使用的变量均已包含，且未包含冗余变量。字段 class、role、description 和 value 均符合题目和答案的要求。,无
+84,0,1,[],[],[],Answer does not involve any variable objects from the question or background. The extracted variables are correctly empty.,无
+114,0,1,[],[],[],题目中没有涉及任何具体的变量对象，answer中也没有使用任何变量对象。,无
+126,0,1,[],[],[],Answer 中未实际使用任何变量对象，因此变量集合为空，符合要求。,无
+151,0,1,[],[],[],所有变量均与 answer 的实际推理和计算过程一致，未遗漏或冗余变量，且字段内容正确。,无
+180,1,1,[],[],[],所有变量均准确反映了 answer 中实际使用的变量对象，且字段信息完整、正确。,无
+210,1,1,[],[],[],所有变量均与 answer 实际使用一致，未遗漏或冗余，字段内容准确。,无
+211,0,1,[],[],[],"The extracted variables align with the answer's actual usage. The variables 'GROUP' and 'DELTA mm Hg' are correctly identified as the independent and dependent variables, respectively, and their attributes (class, role, value, and description) are accurate and consistent with the data and the answer's analysis.",无
+238,0,1,[],[],[],题目和答案中未涉及任何具体的变量对象，符合要求。,无
+272,0,1,[],[],[],所有变量均与 answer 的实际推理和计算过程一致，未遗漏或冗余变量，字段内容准确无误。,无
+319,0,1,[],[],[],所有变量均符合审稿要求，未遗漏实际使用的变量，也未包含冗余变量。字段定义正确，数据结构无误。,无
+346,0,1,[],[],[],所有变量均与 answer 的实际推理和计算过程一致，未遗漏或冗余变量，字段信息准确无误。,无
+361,0,1,[],[],[],所有变量均与 answer 的实际推理和计算过程一致，未遗漏或冗余变量，字段信息准确无误。,无
+405,1,1,[],[],[],answer 为 null，未实际使用任何变量对象，当前变量抽取结果为空 JSON，符合所有给定规则。,无
+446,0,1,[],[],[],题目和答案中没有涉及任何具体的变量对象。,无
+468,0,1,[],[],[],所有变量均与 answer 的实际推理和计算过程一致，未遗漏或冗余变量，字段信息准确无误。,无
+469,0,1,[],[],[],"给定样本中，answer 只用到了 n1, s1, n2, s2 四个变量，变量列表与之完全一致，没有遗漏或多余；各变量的数值与题干一致，类型均为数值型，角色设为 NR 也符合“仅用于计算汇总量”的情形，描述准确。",无
+473,1,1,[],[],[],所有变量均被正确识别并标注，且没有冗余变量。,无
+522,0,0,"[{""id"": ""confidence_interval_95_mid_p"", ""value"": {""lower_bound"": 0.388, ""upper_bound"": 0.956}, ""class"": ""others"", ""role"": ""NR"", ""description"": ""The 95% confidence interval calculated using the Mid-P method.""}]","[{""id"": ""trials"", ""reason"": ""The number of trials is not directly used in the answer.""}, {""id"": ""successful_trials"", ""reason"": ""The number of successful trials is not directly used in the answer.""}]",[],"The answer specifically discusses the 95% confidence interval using the Mid-P method, which is not included in the variables. The variables 'trials' and 'successful_trials' are not directly used in the answer.",Remove the 'trials' and 'successful_trials' variables as they are not used in the answer. Add a new variable for the 95% confidence interval using the Mid-P method.
+548,0,1,[],[],[],Answer 中未实际使用任何变量对象，因此变量集合为空，符合要求。,无

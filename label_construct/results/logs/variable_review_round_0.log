@@ -1,0 +1,35 @@
+2026-04-05 19:10:04,250 - ERROR - 变量审阅跳过 361.json: 缺少当前轮变量标签 label_construct/results/variable_labels/round_0/samples/361.json
+2026-04-05 19:10:04,251 - ERROR - 变量审阅跳过 522.json: 缺少当前轮变量标签 label_construct/results/variable_labels/round_0/samples/522.json
+2026-04-05 19:10:04,251 - ERROR - 变量审阅跳过 114.json: 缺少当前轮变量标签 label_construct/results/variable_labels/round_0/samples/114.json
+2026-04-05 19:10:04,252 - ERROR - 变量审阅跳过 548.json: 缺少当前轮变量标签 label_construct/results/variable_labels/round_0/samples/548.json
+2026-04-05 19:10:04,252 - INFO - 变量审阅开始: round=0, 样本=10, 缓存命中=0, 待处理=6
+2026-04-05 19:10:08,922 - ERROR - 变量审阅失败 468.json round=0: 无法从模型输出中解析JSON: 请提供具体的题目背景、数据、问题和答案内容，以便进行审稿。...
+2026-04-05 19:10:08,925 - INFO - 变量审阅进度: round=0, 6/6
+2026-04-05 19:10:08,929 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 19:31:07,489 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 19:31:15,152 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 19:31:20,117 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 19:31:20,121 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:23:24,056 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=20, 待处理=0
+2026-04-05 20:23:24,057 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:24:10,659 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 20:24:17,366 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 20:24:22,633 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 20:24:22,635 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:26:56,700 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 20:27:01,827 - WARNING - 变量审阅失败 126.json round=0，已回退为不准确: 无法从模型输出中解析JSON: 请提供题目、数据、问题和答案，以便进行审稿。...
+2026-04-05 20:27:03,184 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 20:27:08,323 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 20:27:08,327 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:38:22,237 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 20:38:29,110 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 20:38:35,504 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 20:38:35,508 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:44:33,225 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 20:44:41,002 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 20:44:48,394 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 20:44:48,398 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv
+2026-04-05 20:51:29,987 - INFO - 变量审阅开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-05 20:51:37,017 - INFO - 变量审阅进度: round=0, 10/20
+2026-04-05 20:51:42,673 - INFO - 变量审阅进度: round=0, 20/20
+2026-04-05 20:51:42,678 - INFO - 变量审阅结果已写入 label_construct/results/variable_labels/round_0/review.csv

@@ -1,0 +1,15 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 0,
+  "variables": {
+    "s^2_{\\text {pooled }}": {
+      "id": "s^2_{\\text {pooled }}",
+      "value": 0.24813,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pooled variance used as an estimate of \\sigma^2 in the sample size calculation."
+    }
+  }
+}

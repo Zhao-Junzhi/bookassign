@@ -1,0 +1,24 @@
+{
+  "sample_key": "346",
+  "case_id": "book1_r1\\record_320.json",
+  "source_path": "book1_r2/346.json",
+  "round": 0,
+  "variables": {
+    "site_2_data": {
+      "id": "site_2_data",
+      "value": [
+        32,
+        33,
+        34,
+        36,
+        36,
+        38,
+        39,
+        40
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Ordered array of data for site 2 used to calculate Q1, Q3, and IQR."
+    }
+  }
+}

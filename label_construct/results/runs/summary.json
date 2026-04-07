@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-04-05T20:51:16",
+  "stages": [
+    "variable_extract",
+    "variable_iterate"
+  ],
+  "limit": 20,
+  "max_rounds": 2,
+  "force": false,
+  "sample_count": 20,
+  "sample_keys": [
+    "151",
+    "473",
+    "468",
+    "180",
+    "405",
+    "361",
+    "446",
+    "522",
+    "114",
+    "548",
+    "126",
+    "84",
+    "469",
+    "272",
+    "51",
+    "211",
+    "346",
+    "238",
+    "319",
+    "210"
+  ],
+  "variable_extract": {
+    "round": 0,
+    "output_dir": "label_construct/results/variable_labels/round_0/samples",
+    "selected_samples": 20,
+    "processed_samples": 20,
+    "cached_samples": 0,
+    "success_count": 20,
+    "fallback_count": 2,
+    "fallback_samples": [
+      {
+        "sample_key": "114",
+        "reason": "变量 background 的值必须是JSON对象"
+      },
+      {
+        "sample_key": "126",
+        "reason": "无法从模型输出中解析JSON: 请提供具体的题目输入和参考答案，以便我为您提取“answer 在实际求解中真正使用到的变量对象”。..."
+      }
+    ],
+    "failed_count": 0,
+    "failures": []
+  },
+  "variable_iterate": [
+    {
+      "round": 0,
+      "review": {
+        "round": 0,
+        "output_csv": "label_construct/results/variable_labels/round_0/review.csv",
+        "selected_samples": 20,
+        "processed_samples": 20,
+        "cached_samples": 0,
+        "accurate_count": 15,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": []
+      },
+      "inaccurate_sample_keys": [
+        "180",
+        "210",
+        "405",
+        "473",
+        "522"
+      ],
+      "refine": {
+        "round": 1,
+        "output_dir": "label_construct/results/variable_labels/round_1/samples",
+        "selected_samples": 5,
+        "processed_samples": 5,
+        "cached_samples": 0,
+        "success_count": 4,
+        "success_sample_keys": [
+          "180",
+          "210",
+          "405",
+          "473"
+        ],
+        "failed_count": 1,
+        "failures": [
+          {
+            "sample_key": "522",
+            "error": "变量 confidence_interval_95_mid_p 的 class 不合法: others"
+          }
+        ]
+      },
+      "dropped_sample_keys": [
+        "522"
+      ]
+    },
+    {
+      "round": 1,
+      "review": {
+        "round": 1,
+        "output_csv": "label_construct/results/variable_labels/round_1/review.csv",
+        "selected_samples": 4,
+        "processed_samples": 4,
+        "cached_samples": 0,
+        "accurate_count": 4,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": []
+      },
+      "inaccurate_sample_keys": []
+    }
+  ],
+  "final_outputs": {
+    "output_dir": "label_construct/results/variable_labels/final",
+    "samples_dir": "label_construct/results/variable_labels/final/samples",
+    "review_csv": "label_construct/results/variable_labels/final/review.csv",
+    "copied_count": 20,
+    "missing_sample_keys": [],
+    "review_row_count": 20,
+    "missing_review_sample_keys": [],
+    "final_rounds": {
+      "151": 0,
+      "473": 1,
+      "468": 0,
+      "180": 1,
+      "405": 1,
+      "361": 0,
+      "446": 0,
+      "522": 0,
+      "114": 0,
+      "548": 0,
+      "126": 0,
+      "84": 0,
+      "469": 0,
+      "272": 0,
+      "51": 0,
+      "211": 0,
+      "346": 0,
+      "238": 0,
+      "319": 0,
+      "210": 1
+    }
+  }
+}

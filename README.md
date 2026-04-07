@@ -4,6 +4,7 @@
 
 ```
 bookassign/
+├── label_construct/    # v1 标签构建与审阅流水线
 ├── book1/              # 原始JSON文件目录
 ├── book1_r1/           # 处理后的JSON文件目录
 ├── book1_r2/           # 分割后的JSON文件目录
@@ -15,6 +16,8 @@ bookassign/
 ├── split_json.py       # 分割JSON文件的脚本
 └── README.md           # 项目说明文件
 ```
+
+`label_construct/` 下的新流程会把“代码”和“结果”分离管理，不再回写 `book1_r2/*.json`。运行后生成的结果默认落在 `label_construct/results/`。
 
 ## 环境要求
 
@@ -69,6 +72,27 @@ python judge_exercises.py
 python process_book1.py
 ```
 
+### 5. v1 标签构建与审阅流水线
+
+对 `book1_r2` 中的样本运行方法审阅、变量抽取、变量审阅与多轮修正：
+
+```bash
+python3 label_construct/run_pipeline.py --limit 20
+```
+
+只跑部分阶段：
+
+```bash
+python3 label_construct/run_pipeline.py --stages method_review,variable_extract --limit 10
+```
+
+常用参数：
+
+- `--limit N`：按样本编号升序只处理前 `N` 条样本，适合小规模调试。
+- `--max-rounds 3`：变量修正最大轮数，默认 3。
+- `--stages ...`：可选 `method_review`、`variable_extract`、`variable_iterate`。
+- `--force`：忽略已有结果，强制重跑。
+
 ## 输出说明
 
 1. **分割后的文件**：保存在 `book1_r2` 目录中，每个文件对应一个习题
@@ -85,6 +109,17 @@ python process_book1.py
    - `explanation`：判断理由
 
 4. **处理报告**：生成各种处理报告，如 `variables_processing_report.txt` 和 `exercise_judgment_report.txt`
+
+5. **v1 标签流水线结果**：默认保存在 `label_construct/results/`，主要包括：
+   - `method_review/method_review.csv`
+   - `variable_labels/round_0/samples/*.json`
+   - `variable_labels/round_0/review.csv`
+   - `variable_labels/round_1/samples/*.json`
+   - `variable_labels/round_1/review.csv`
+   - `variable_labels/final/samples/*.json`
+   - `variable_labels/final/review.csv`
+   - `runs/summary.json`
+   - `logs/*.log`
 
 
 ## 示例输出

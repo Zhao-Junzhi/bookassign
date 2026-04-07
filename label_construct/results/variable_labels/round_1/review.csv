@@ -1,0 +1,5 @@
+﻿sample_key,round,is_accurate,missing_variables,redundant_variables,incorrect_fields,reason,revision_advice
+180,1,1,[],[],[],所有变量均准确反映了 answer 中实际使用的变量对象，且字段信息完整、正确。,无
+210,1,1,[],[],[],所有变量均与 answer 实际使用一致，未遗漏或冗余，字段内容准确。,无
+405,1,1,[],[],[],answer 为 null，未实际使用任何变量对象，当前变量抽取结果为空 JSON，符合所有给定规则。,无
+473,1,1,[],[],[],所有变量均被正确识别并标注，且没有冗余变量。,无

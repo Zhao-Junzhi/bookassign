@@ -1,0 +1,22 @@
+{
+  "sample_key": "522",
+  "case_id": "book1_r1\\record_419.json",
+  "source_path": "book1_r2/522.json",
+  "round": 0,
+  "variables": {
+    "trials": {
+      "id": "trials",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of trials conducted in the tea-tasting challenge."
+    },
+    "successful_trials": {
+      "id": "successful_trials",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successful trials where the taster predicted correctly."
+    }
+  }
+}

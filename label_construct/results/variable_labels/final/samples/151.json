@@ -1,0 +1,36 @@
+{
+  "sample_key": "151",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r2/151.json",
+  "round": 0,
+  "variables": {
+    "average_height_students": {
+      "id": "average_height_students",
+      "value": 70,
+      "class": "numerical",
+      "role": "Y",
+      "description": "The average height of the sample of male students at the university."
+    },
+    "average_height_population": {
+      "id": "average_height_population",
+      "value": 69,
+      "class": "numerical",
+      "role": "X",
+      "description": "The average height of men in the general population."
+    },
+    "standard_deviation_population": {
+      "id": "standard_deviation_population",
+      "value": 2.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The standard deviation of male height in the general population."
+    },
+    "sample_size_students": {
+      "id": "sample_size_students",
+      "value": 18,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The sample size of male students at the university."
+    }
+  }
+}

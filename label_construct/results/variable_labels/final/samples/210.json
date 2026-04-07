@@ -1,0 +1,28 @@
+{
+  "sample_key": "210",
+  "case_id": "book1_r1\\record_108.json",
+  "source_path": "book1_r2/210.json",
+  "round": 1,
+  "variables": {
+    "peak_severity_echinacea": {
+      "id": "peak_severity_echinacea",
+      "value": {
+        "mean": 6.0,
+        "standard_deviation": 2.3
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Mean and standard deviation of peak severity of symptoms in the echinacea group."
+    },
+    "peak_severity_placebo": {
+      "id": "peak_severity_placebo",
+      "value": {
+        "mean": 6.1,
+        "standard_deviation": 2.4
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Mean and standard deviation of peak severity of symptoms in the placebo group."
+    }
+  }
+}

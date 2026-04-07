@@ -1,0 +1,29 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 1,
+  "variables": {
+    "s^2_{\\text {pooled }}": {
+      "id": "s^2_{\\text {pooled }}",
+      "value": 0.24813,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pooled variance used as an estimate of \\sigma^2 in the sample size calculation."
+    },
+    "z_{1-(0.05 / 2)}": {
+      "id": "z_{1-(0.05 / 2)}",
+      "value": 1.96,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Z-score for 95% confidence level used in the sample size calculation."
+    },
+    "m": {
+      "id": "m",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Margin of error used in the sample size calculation."
+    }
+  }
+}

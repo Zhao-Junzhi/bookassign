@@ -1,0 +1,64 @@
+2026-04-05 15:46:12,082 - INFO - 流水线开始: stages=['method_review', 'variable_extract', 'variable_iterate'], sample_count=0, force=False
+2026-04-05 15:46:12,084 - INFO - 变量迭代提前结束: 没有待修正样本
+2026-04-05 15:46:12,085 - INFO - final 标签同步完成: copied=0, missing=0
+2026-04-05 15:46:12,085 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 15:58:02,552 - INFO - 流水线开始: stages=['method_review'], sample_count=10, force=False
+2026-04-05 15:58:11,202 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 16:24:16,222 - INFO - 流水线开始: stages=['method_review'], sample_count=10, force=False
+2026-04-05 16:24:26,180 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 16:41:08,899 - INFO - 流水线开始: stages=['method_review'], sample_count=10, force=False
+2026-04-05 16:41:19,423 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 16:54:04,389 - INFO - 流水线开始: stages=['method_review'], sample_count=20, force=False
+2026-04-05 16:54:25,765 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 17:00:09,554 - INFO - 流水线开始: stages=['variable_extract'], sample_count=10, force=False
+2026-04-05 17:02:15,063 - INFO - final 标签同步完成: copied=10, missing=0
+2026-04-05 17:02:15,063 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 17:08:25,477 - INFO - 流水线开始: stages=['variable_iterate'], sample_count=10, force=False
+2026-04-05 17:15:25,649 - INFO - 流水线开始: stages=['variable_iterate'], sample_count=0, force=False
+2026-04-05 17:15:25,651 - INFO - 变量迭代提前结束: 没有待修正样本
+2026-04-05 17:15:25,651 - INFO - final 标签同步完成: copied=0, missing=0
+2026-04-05 17:15:25,652 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 19:02:10,983 - INFO - 流水线开始: stages=['variable_extract'], sample_count=0, force=True
+2026-04-05 19:02:10,983 - INFO - 流水线开始: stages=['variable_iterate'], sample_count=0, force=True
+2026-04-05 19:02:10,985 - INFO - 变量迭代提前结束: 没有待修正样本
+2026-04-05 19:02:10,986 - INFO - final 汇总完成: copied=0, missing_samples=0, review_rows=0, missing_reviews=0
+2026-04-05 19:02:10,986 - INFO - final 汇总完成: copied=0, missing_samples=0, review_rows=0, missing_reviews=0
+2026-04-05 19:02:10,986 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 19:02:10,987 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 19:09:56,001 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=10, force=False
+2026-04-05 19:10:21,764 - INFO - 变量迭代在 round 2 的审阅后停止: 当前样本均准确
+2026-04-05 19:10:21,773 - INFO - final 汇总完成: copied=6, missing_samples=4, review_rows=5, missing_reviews=1
+2026-04-05 19:10:21,775 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 19:26:10,352 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=0, force=True
+2026-04-05 19:26:10,354 - INFO - 变量迭代提前结束: 没有待修正样本
+2026-04-05 19:26:10,355 - INFO - final 汇总完成: copied=0, missing_samples=0, review_rows=0, missing_reviews=0
+2026-04-05 19:26:10,356 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 19:30:53,698 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 19:31:32,599 - INFO - 变量迭代在 round 2 的审阅后停止: 当前样本均准确
+2026-04-05 19:31:32,617 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 19:31:32,618 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:23:24,055 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:23:24,061 - INFO - 变量迭代在 round 2 的审阅后停止: 当前样本均准确
+2026-04-05 20:23:24,075 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:23:24,075 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:23:58,255 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:24:36,060 - INFO - 变量迭代在 round 1 的审阅后停止: 当前样本均准确
+2026-04-05 20:24:36,075 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:24:36,076 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:26:43,040 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:27:14,676 - INFO - 变量迭代在 round 1 的审阅后停止: 当前样本均准确
+2026-04-05 20:27:14,700 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:27:14,701 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:38:08,031 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:38:52,659 - INFO - 变量迭代在 round 2 的审阅后停止: 当前样本均准确
+2026-04-05 20:38:52,685 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:38:52,687 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:44:21,222 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:45:05,992 - INFO - 变量迭代在 round 2 的审阅后停止: 已达到最大修正轮数
+2026-04-05 20:45:06,018 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:45:06,020 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
+2026-04-05 20:51:16,113 - INFO - 流水线开始: stages=['variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-05 20:51:47,573 - WARNING - 以下样本在 round=1 修正失败，已从后续审阅中跳过: 522
+2026-04-05 20:51:51,913 - INFO - 变量迭代在 round 1 的审阅后停止: 当前样本均准确
+2026-04-05 20:51:51,937 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-05 20:51:51,938 - INFO - 流水线摘要已写入 label_construct/results/runs/summary.json
