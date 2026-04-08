@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\013.json",
+  "input": {
+    "background": "A researcher wished to see if women who have taken the oral contraceptive pill have an earlier or later menopause than other women. He decided to study a group of women born in 1930 as these would be young enough for some to have taken the pill but old enough for some to have reached the menopause. He obtained the names of all 132 women in one general practice who were born in 1930, using the practice's age-sex register. Women claiming to have had the menopause were checked by measuring their follicle stimulating hormone (FSH) levels. Of the 132 women, 101 were excluded from the study for the following reasons: 22 not available (21 not contactable, 1 refusal), 60 premenopausal, 14 hysterectomy, 1 radium-induced menopause, 2 unmarried, 2 FSH < 30 IU/I.",
+    "data": "\\begin{tabular}{lccc}\n\\hline & & \\multicolumn{2}{c}{ Age at menopause (years) } \\\n& $n$ & $n e a n$ & SD \\\n\\hline Pill users & 12 & 47.2 & 2.1 \\\nNon pill users & 19 & 47.5 & 2.1 \\\n\\hline\n\\end{tabular}",
+    "question": "(b) Is the sample of 31 women representative of the population of interest?"
+  },
+  "output": {
+    "method": "实验设计",
+    "answer": "If the population of interest is taken as all menopausal British women, then the representativeness of this general practice is relevant. We have no information about this, although it does not seem unreasonable to carry out this type of study in a single practice. All 132 women born in 1930 were investigated, so there was no selection bias. However, we are assuming that the register of patients is accurate and complete, and the fact that 21/132 were not contactable casts some doubt on this. Of these 132 women, only 31 were actually studied, for the various reasons stated. Most of the exclusions are reasonable, although it is not clear why the unmarried women were excluded. The sample appears reasonably representative."
+  },
+  "meta_info": {
+    "index": "5.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "105-105"
+  },
+  "sample_key": "31"
+}

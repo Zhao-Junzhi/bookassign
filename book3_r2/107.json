@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\30.json",
+  "input": {
+    "background": "The probability of failure of a medical device when it is tested is equal to 0.05. Assume independence of tests.",
+    "data": null,
+    "question": "What is the probability that failure occurs in less than 15 tests?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The required probability that failure occurs in less than 15 tests is $$\\begin{aligned} P(N \\leq 14) & =1-(1-p)^{14} \\\\ & =1-(0.95)^{14} \\\\ & =0.5123 \\end{aligned}$$"
+  },
+  "meta_info": {
+    "index": "2.14",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "83-83"
+  },
+  "sample_key": "107"
+}

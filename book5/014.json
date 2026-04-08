@@ -1,0 +1,16 @@
+{
+  "id": "014",
+  "question": "Halpern and Coren (1988) wished to see if there was a difference in longevity between left-handed and right-handed people. One of the few sources of handedness of individuals is a baseball encyclopaedia. From an encyclopaedia they recorded the dates of birth and death of 1472 right-handed and 236 left-handed players.\n(a) Was this a representative sample of the population?\n(b) The authors did not state the time span of the data, but as they note deaths up to age 99 it is likely to cover the whole of the twentieth century. How might the long time span bias the comparison of left- and right-handers?\n(c) They compared the mean age at death in the two groups. Why is this a misleading comparison?\n(d) What would be a better design to answer this question, assuming that handedness data were more widely available?",
+  "data": null,
+  "answer": "(a) Baseball players are clearly not truly representative of the population, but it is impossible to assess whether it matters in this particular case. However, it appears that there might have been a higher proportion of left-handers $(14 \\%)$ than we would expect in the population.\n(b) If the prevalence of left-handedness had increased during the twentieth century, or if the prevalence within different social groups (with different mortality rates) had changed. Both of these are likely.\n(c) The analysis would be biased towards including those born a long time ago as most recent players would still be alive. It is likely that left-handedness was less common earlier in the century than it is now. These two facts mean that the analysis would be biased towards earlier death among left-handers. Further, it is misleading to analyse mean age at death excluding those still alive. The correct analysis of survival data, which takes account of data for survivors too, is described in Chapter 13.\n(d) It would be desirable to take a cohort of people born at about the same time, for example all those in the same year at school. In order to get a reasonable proportion of deaths, the survivors would need to be at least 70 . It is most unlikely that such data are available and a prospective study would take a very long time! The baseball data would yield a more valid answer if analysed using an appropriate method, and if year of birth was considered in the analysis.",
+  "meta_info": {
+    "index": "5.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "105-106"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "background": "A system is composed of 15 identical active power supplies, at least 14 of the power supplies are required for the system to function. In other words, when 2 of the 15 power supplies fail, the system fails. When all 15 power supplies are operating, each has a constant failure rate $\\lambda_a$ per hour. If one power supply fails, each remaining power supply has a failure rate $\\lambda_b$ per hour where $\\lambda_a \\leq \\lambda_b$. We assume that a failed power supply can be repaired with a constant rate $\\mu$ per hour. The system reliability function, $R(t)$, is defined as the probability that the system continues to function throughout the interval $(0, t)$.",
+  "task": [
+    {
+      "query": "(a) Determine the system mean time to failure (MTTF).",
+      "answer": "$M T T F=\\frac{\\mu+15 \\lambda_a+14 \\lambda_b}{210 \\lambda_a \\lambda_b}$.",
+      "method": "期望"
+    },
+    {
+      "query": "(b) Given $\\lambda_a=0.0003, \\lambda_b=0.005$, and $\\mu=0.6$, calculate the system MTTF.",
+      "answer": "$\\mathrm{MTTF}=2141.25 \\mathrm{~h}$.",
+      "method": "期望"
+    }
+  ],
+  "id": "143",
+  "data": null,
+  "meta_info": {
+    "index": "6.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 6： Stochastic Processes",
+    "section": "6.4 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "400-400"
+  }
+}

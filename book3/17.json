@@ -1,0 +1,16 @@
+{
+  "id": "17",
+  "question": "Suppose that 15 units are tested over a 72-h period. Five units failed\nwith one unit each failing after 5, 15, 20, 50, and 68 h. The remaining 10 units have\nsurvived at the end of the 72-h test period. Estimate the constant failure rate.",
+  "data": null,
+  "answer": "The total unit operating hours, $T_{\\text {total }}$, are:\n\n$$\nT_{\\text {total }}=(5+15+20+50+68)+10(72)=878 .\n$$\n\n\nThus,\n\n$$\n\\lambda=\\frac{5 \\text { failures }}{878 \\text { unit operating hours }}=0.0057 \\text { failures per hour. }\n$$\n\n\nIn other words, on the average about $0.57 \\%$ of the units would be expected to fail in a one-hour period. Furthermore, over a $72-\\mathrm{h}$ period, about $(0.0057 * 72)=0.41$ or $41 \\%$ of the units would be expected to fail. In the actual test given above, only $33.33 \\%$ failed (i.e., $(5)(100) / 15=33.33$ ).\n\nThe hazard rate function is, sometimes referred to as the failure rate function, defined as the limit of the failure rate as the interval approaches zero. Thus, the hazard rate function $h(t)$ is the instantaneous failure rate, and is defined by\n\n$$\n\\begin{aligned}\nh(t) & =\\lim _{\\Delta t \\rightarrow 0} \\frac{R(t)-R(t+\\Delta t)}{\\Delta t R(t)} \\\\\n& =\\frac{1}{R(t)}\\left[-\\frac{d}{d t} R(t)\\right] \\\\\n& =\\frac{f(t)}{R(t)}\n\\end{aligned}\n$$\nThe quantity h(t)dt represents the probability that a device of age t will fail in the\nsmall interval of time t to (t + dt). Equivalently, the function h(t) can be defined as the\nprobability density of failure at time t, given survival up to that time. In other words,\nthe failure rate function h(t) can be defined as the probability that a device, which\nhas survived of age t, will fail in the small time interval (t, t + dt). The importance\nof the hazard rate function is that it indicates the change in the failure rate over the\nlife of a population of components by plotting their hazard rate functions on a single\naxis. For example, two designs may provide the same reliability at a specific point\nin time, but the failure rates up to this point in time can differ.\n  The death rate, in statistical theory, is analogous to the failure rate as the force\nof mortality is analogous to the hazard rate function. Therefore, the hazard rate\nfunction or failure rate function is the ratio of the probability density function (pdf)\nto the reliability function. In reliability engineering, the survival function is often\nreferred to as the reliability function. In actuarial science, the hazard function is\nknown as the force of mortality.\nBy defintion, a mathematical reliability function is the probability that a system\nwill be successful in the interval from time 0 to time t, given by\n$$\nR(t)=\\int_t^{\\infty} f(s) d s=e^{-\\int_0^t h(s) d s}\n$$\nwhere f (s) and h(s) are, respectively, the failure time density and failure rate function.",
+  "meta_info": {
+    "index": "1.37",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.7 Reliability Concepts",
+    "book": "Statistical Reliability Engineering",
+    "page": "44-45"
+  }
+}

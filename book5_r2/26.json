@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\012.json",
+  "input": {
+    "background": "In 1978–79 a random sample of 1007 residents of the Lothian region were surveyed about their alcohol consumption in the previous seven days. In 1981, a follow-up survey was conducted among 676 'regular drinkers' from the original sample to study changes in alcohol consumption after an increase in alcohol prices. The follow-up survey reported a reduction in alcohol consumption and adverse effects, attributing the changes to the rise in alcohol prices.",
+    "data": null,
+    "question": "If the data showed a reduction in alcohol consumption among the 463 reinterviewed subjects, could the authors reasonably conclude that it was due to the rise in excise duty on alcohol?"
+  },
+  "output": {
+    "method": "观测数据",
+    "answer": "No. First, we cannot necessarily interpret two simultaneous changes over time as being causally related. Second, we would expect them to have found a reduction in the reported alcohol consumption, because the sample was biased to include only those drinking in the first study. If they had re-interviewed only those not drinking in the first study, we would expect them to have found an increase. This is one form of the phenomenon known as 'regression to the mean', and occurs when we remeasure a quantity on a sample selected by a restricted range of the same quantity on a previous occasion. Thus even when there has been no change over time, this study would be expected to have shown a decrease in alcohol consumption."
+  },
+  "meta_info": {
+    "index": "5.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "103-104"
+  },
+  "sample_key": "26"
+}

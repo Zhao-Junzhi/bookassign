@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-将data0_book1.json中的每个条目保存为单独的JSON文件
+将data0_book12345.json中的每个条目保存为单独的JSON文件
 """
 
 import json
@@ -9,8 +9,8 @@ import os
 from pathlib import Path
 
 # 配置参数
-INPUT_FILE = Path(r'd:\place\study\bookassign\data0_book1.json')
-OUTPUT_DIR = Path(r'd:\place\study\bookassign\book1_r2')
+INPUT_FILE = Path(r'd:\place\study\bookassign\data0_book5.json')
+OUTPUT_DIR = Path(r'd:\place\study\bookassign\book5_r2')
 
 # 确保输出目录存在
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

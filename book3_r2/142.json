@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\57.json",
+  "input": {
+    "background": "Continuing with Example 3.34, find an 80% one-sided confidence limit on p.",
+    "data": null,
+    "question": "Find an 80% one-sided confidence limit on p."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "We now can set the top equation to 0.20 and solve for $p_L$. It is easy to obtain $p_L=0.211$ and $P[p>0.211]=0.80$. Let us define $\\bar{p}=k / n$, the number of successes divided by the number of trials. For large values of $n$ and if $n p>5$ and $n(1 -p)>5$, and from the central limit theorem (Feller 1966, 1968), the statistic\n\n$$\nZ=\\frac{(\\bar{p}-p)}{\\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}}\n$$\n\napproximates to the standard normal distribution. Hence,\n\n$$\nP\\left[-z_{\\frac{\\alpha}{2}}<Z<z_{\\frac{\\alpha}{2}}\\right]=1-\\alpha\n$$\n$$\n\\begin{aligned}\n&\\text { Then }\\\\\n&P\\left[\\bar{p}-z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}<p<\\bar{p}+z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}\\right]=1-\\alpha\n\\end{aligned}\n$$"
+  },
+  "meta_info": {
+    "index": "3.35",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.11 Interval Estimation",
+    "book": "Statistical Reliability Engineering",
+    "page": "188-189"
+  },
+  "sample_key": "142"
+}

@@ -1,0 +1,27 @@
+{
+  "background": "The scheduled length of a management meeting is $b$ (in minutes). It is unlikely that the meeting will end before $a$ (minutes), and it is impossible that it will last more than $L$ since another meeting is scheduled in the same room. Assume that the cumulative distribution function $F$ of the life time $X$ (duration of the meeting), corresponding to the above restrictions, is given by:\n\n$$\nF(x)= \\begin{cases}0 & \\text { for } 0 \\leq x \\leq a \\\\ \\beta\\left(\\frac{x-a}{b-a}\\right)^2 & \\text { for } a \\leq x \\leq b \\\\ \\left(\\frac{1-\\beta}{L-b}\\right) x+\\frac{\\beta L-b}{L-b} & \\text { for } b \\leq x \\leq L \\\\ 1 & \\text { for } L \\leq x<\\infty\\end{cases}\n$$\n\nwhere $0<\\beta<1$.",
+  "task": [
+    {
+      "query": "Calculate the expected length of the meeting, $\\mathrm{E}(X)$.",
+      "answer": "The expected length of the meeting is calculated using the given cumulative distribution function $F(x)$.",
+      "method": "期望"
+    },
+    {
+      "query": "Given $a=40, b=50, \\mathrm{~L}=60$, and $\\beta=0.8$. Compute $\\mathrm{E}(X)$.",
+      "answer": "The expected length of the meeting is $48.333$.",
+      "method": "期望"
+    }
+  ],
+  "id": "99",
+  "data": null,
+  "meta_info": {
+    "index": "1.47",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "65-65"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "background": "A randomized placebo-controlled trial was carried out to investigate the capacity of aspirin to prevent pregnancy-induced hypertension and preeclamptic toxaemia. The study was carried out on women at high risk of these conditions.",
+  "task": [
+    {
+      "query": "How many patients would have been needed to have a 80% power of detecting as significant (P<0.05) a reduction of one-third in the risk of hypertension from 30% to 20%?",
+      "answer": "The sample size needed for 80% power to detect a reduction in risk from 30% to 20% is calculated using statistical power formulas for proportions.",
+      "method": "达到指定概率所需的最小样本量"
+    },
+    {
+      "query": "The actual sample size was 65. What was the power of the study to detect the difference considered in (a)?",
+      "answer": "The power of the study with a sample size of 65 to detect the difference considered in (a) can be calculated using power analysis methods for proportions.",
+      "method": "达到指定概率所需的最小样本量"
+    },
+    {
+      "query": "What reduction in risk of hypertension did the study have an 80% power to detect?",
+      "answer": "The reduction in risk of hypertension that the study had 80% power to detect can be calculated using statistical power formulas.",
+      "method": "达到指定概率所需的最小样本量"
+    },
+    {
+      "query": "The observed rates of hypertension were 11/31 (36%) in the placebo group and 4/34 (12%) in the aspirin group; the authors quoted P=0.024 for this difference. They also quoted a relative risk (RR) of hypertension of 0.33 among the aspirin group. Calculate a 95% confidence interval for the RR, and comment on the authors' conclusion that large scale clinical trials are needed.",
+      "answer": "The 95% confidence interval for the relative risk (RR) can be calculated using standard formulas for confidence intervals of ratios. The authors' conclusion regarding the need for large-scale clinical trials can be assessed based on the width of the confidence interval and the observed effect size.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "061",
+  "data": null,
+  "meta_info": {
+    "index": "15.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Clinical trials",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "475-476"
+  }
+}

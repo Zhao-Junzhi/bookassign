@@ -1,0 +1,16 @@
+{
+  "id": "107",
+  "question": "A class consists of 10 girls and 12 boys. The teacher selects 6 children at\nrandom for group projects. Is it more likely that she chooses 3 girls and 3 boys\nor that she chooses 2 girls and 4 boys?",
+  "data": null,
+  "answer": "Let $X$ denote the number of girls in the selected number of children.\n\n$$\nP(X=2)=\\frac{\\binom{10}{2}\\binom{12}{4}}{\\binom{22}{6}}=0.2986\n$$\n\nand\n\n$$\nP(X=3)=\\frac{\\binom{10}{3}\\binom{12}{3}}{\\binom{22}{6}}=0.3538 .\n$$",
+  "meta_info": {
+    "index": "2.29",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "132-132"
+  }
+}

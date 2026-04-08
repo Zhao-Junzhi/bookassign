@@ -1,0 +1,30 @@
+{
+  "id": "051",
+  "question": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model:
+
+\begin{tabular}{lcl}
+\hline Variable & Regression coefficient & Standard error \\
+\hline GvHD $(0=$ No, $1=$ Yes $)$ & 2.306 & 0.5898 \\
+CML $(0=$ No, $1=$ Yes $)$ & -2.508 & 0.8095 \\
+\hline
+\end{tabular}
+(a) What is the interpretation of the opposite signs for the regression coefficients?
+(b) Calculate the relative risks of dying (hazard ratio) for the following patients relative to non-GvHD non-CML patients:
+(i) with GvHD but not CML,
+(ii) CML but without GvHD,
+(iii) CML and GvHD .
+(c) Calculate the $95 \%$ confidence interval for the hazard ratio associated with GvHD
+(d) Comment on the reliability of the Cox regression model in view of the sample size (37) and number of deaths (18).",
+  "data": null,
+  "answer": "(a) The opposite signs mean that high values of one variable and low values of the other variable are associated with an increased risk of dying. A positive regression coefficient means that high values of that variable are associated with worse survival, and conversely for a negative coefficient. Thus the model predicts that survival is worse for non-CML patients and those with GvHD.\n(b) We need to calculate the prognostic index for each group of patients. These are as follows:\n\\begin{tabular}{rrc} \n& & PI \\\\\nnon-GvHD & non-CML & 0.000 \\\\\nnon-GvHD & CML & -2.508 \\\\\nGvHD & non-CML & 2.306 \\\\\nGvHD & CML & $-0.202(=-2.508+2.306)$\n\\end{tabular}\n\nThe relative risk of dying relative to the non-GvHD non-CML group is simply $\\mathrm{e}^{\\mathrm{PI}}$ as the PI for that group is zero. Thus the risks of dying in the other groups relative to non-GvHD non-CML patients are\n\n\\begin{tabular}{rrr} \nnon-GvHD & CML & 0.08 \\\\\nGvHD & non-CML & 10.03 \\\\\nGvHD & CML & 0.82\n\\end{tabular}\n(c) The $95 \\% \\mathrm{CI}$ is given by the range $\\mathrm{e}^{2.306-1.96 \\times 0.5898}$ to $\\mathrm{e}^{2.306+1.96 \\times 0.5898}$, or 3.16 to 31.9 .\n(d) A Cox model based on such a small sample would be extremely unreliable, as is indicated by the wide CI given above. It is the number of 'events', here deaths, that determines the power of a Cox analysis, not the number of subjects.",
+  "meta_info": {
+    "index": "13.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Analysis of survival times",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "395-395"
+  }
+}

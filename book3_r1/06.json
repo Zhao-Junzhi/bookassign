@@ -1,0 +1,27 @@
+{
+  "background": "Suppose that 3 people are chosen randomly from among 10 to form a committee.",
+  "task": [
+    {
+      "query": "In how many ways can such a committee be formed?",
+      "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$",
+      "method": "概率空间相关（如状态数）"
+    },
+    {
+      "query": "In general, the number of ways in which $N$ distinct objects can be divided into $\\mathrm{n}_{\\mathrm{i}}$ of type i (objects) such that $\\sum_{i=1}^k n_i=N$ is given by $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$ This is also called the multinomial coefficients.",
+      "answer": "The solution is to calculate the multinomial coefficients using the formula $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$.",
+      "method": "概率空间相关（如状态数）"
+    }
+  ],
+  "id": "06",
+  "data": null,
+  "meta_info": {
+    "index": "1.13",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.2 Probability Axioms",
+    "book": "Statistical Reliability Engineering",
+    "page": "11-12"
+  }
+}

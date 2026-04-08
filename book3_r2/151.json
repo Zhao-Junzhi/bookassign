@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\60.json",
+  "input": {
+    "background": "Consider a communication system with three independent units such as transmitting unit, receiving unit and a processing unit. Assume that the transmitter has a constant failure rate of λ_T=0.002 per hour, the receiver has a constant failure rate of λ_R=0.005 per hour, and the processor has a constant failure rate of λ_P=0.008 per hour.",
+    "data": null,
+    "question": "Obtain the overall system reliability for a mission of 25 h."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The reliability of this communication system is given by R(25)=(0.9512)*(0.8825)*(0.8187)=0.6872."
+  },
+  "meta_info": {
+    "index": "4.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.2 Series Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "225-225"
+  },
+  "sample_key": "151"
+}

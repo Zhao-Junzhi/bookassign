@@ -1,0 +1,33 @@
+{
+  "id": "059",
+  "question": "Thirteen patients with chronic skin disorders were studied in an open trial to assess the effect of aspirin on pruritis. No treatment was given on nights one or two, aspirin ( 900 mg ) was given on the third and fourth nights, and no treatment was given on the fifth and sixth nights. On each night scratching was measured by a limb movement meter, and an assessment of itching was made by the patient the following morning using a 10 cm linear analogue scale. For each patient the data were averaged over each two day period. The results were presented in the paper (Daly and Shuster, 1986) as means (SE):
+The complete comment on this table was as follows: There was interindividual and intraindividual variation in itch and scratch throughout the study, but no consistent change in either measurement was recorded during aspirin treatment.'
+(a) Comment on the design of this study.
+(b) What can you say about the distribution across patients of the nocturnal limb movements score?
+(c) How were the data analysed? How should the data have been analysed?
+(d) How should the results have been presented?
+(e) The authors stated: We found no effect of oral aspirin... We can therefore exclude the possibility that therapeutic doses of aspirin have a central effect on pruritis.' Why is this conclusion incorrect?",
+  "data":"\begin{table}[ht]
+\centering
+\begin{tabular}{lccc}
+& Before treatment & During treatment & After treatment \\
+Linear analogue scale (cm) & 3.5 (0.5) & 3.3 (0.4) & 3.1 (0.5) \\
+Nocturnal limb movements & 46.3 (10.0) & 38.8 (7.4) & 38.7 (5.5) \\
+\end{tabular}
+\end{table}",
+  "answer": "(a) This was an uncontrolled trial, which is not a proper way to evaluate a treatment. Another very poor feature of this study was that the study was 'open', so that the patients knew when they were taking aspirin. Further, the study was extremely small, especially bearing in mind that the measurements were highly variable.
+(b) The standard deviations are obtained as $\mathrm{SE} \times \sqrt{13}$, or 36.1, 26.7 and 19.8 for the three sets of observations. The data are thus skewed, especially before treatment, because the SD is more than half the mean.
+(c) The paper gives no indication about how the data were analysed (if at all). An appropriate analysis would be a paired Wilcoxon test to compare any two sets of data, or a paired $t$ test if the differences were reasonably Normal. Two way analysis of variance could be used to compare all three groups simultaneously. As noted, however, these analyses would be of limited value because there was no comparison group.
+(d) The mean and SD (or SE) of the within-subject changes would be valuable, as would a CI for the changes.
+(e) For the reasons already given, the design of this study was inappropriate to answer the question. The data do in fact show some improvement, although it is implied that this was not statistically significant. Confidence intervals would be very wide. It is totally wrong to suggest that on the basis of this small study the possibility of an effect of aspirin can be excluded.",
+  "meta_info": {
+    "index": "15.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Clinical trials",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "474-475"
+  }
+}

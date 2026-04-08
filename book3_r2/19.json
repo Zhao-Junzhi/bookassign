@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\101.json",
+  "input": {
+    "background": "Phone calls arrive at a business randomly throughout the day according to the Poisson model at the rate of 0.5 calls per minute.",
+    "data": null,
+    "question": "What is the probability that in a given five minute period not more than three calls arrive?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$ 0.758$$"
+  },
+  "meta_info": {
+    "index": "2.16",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "130-130"
+  },
+  "sample_key": "19"
+}

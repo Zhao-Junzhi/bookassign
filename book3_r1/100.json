@@ -1,0 +1,22 @@
+{
+  "background": "A physician treats 10 patients with elevated blood pressures. The drug administered has a probability of 0.9 of lowering the blood pressure in an individual patient.",
+  "task": [
+    {
+      "query": "What is the probability that at least 8 of the 10 patients respond successfully to treatment?",
+      "answer": "$$0.9298$$",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "100",
+  "data": null,
+  "meta_info": {
+    "index": "2.15",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "130-130"
+  }
+}

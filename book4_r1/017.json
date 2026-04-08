@@ -1,0 +1,42 @@
+{
+  "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF).",
+  "task": [
+    {
+      "query": "Arrange the data in a 3 × 2 contingency table (including row, column and grand totals).",
+      "answer": "Pre-thicket | Thicket | High forest | Row totals\nPresent: 7 | 10 | 5 | 22\nAbsent: 5 | 1 | 8 | 14\nColumn totals: 12 | 11 | 13 | Grand total: 36",
+      "method": "contingency table"
+    },
+    {
+      "query": "Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values.",
+      "answer": "Pre-thicket | Thicket | High forest | Row totals\nPresent: 7.333 | 6.722 | 7.944 | 22\nAbsent: 4.667 | 4.278 | 5.056 | 14\nColumn totals: 12 | 11 | 13 | Grand total: 36",
+      "method": "contingency table"
+    },
+    {
+      "query": "Calculate the individual X^2 components and place them in a table.",
+      "answer": "Pre-thicket | Thicket | High forest\nPresent: 0.0151 | 1.5983 | 1.0913\nAbsent: 0.0238 | 2.5115 | 1.7149",
+      "method": "独立性检验"
+    },
+    {
+      "query": "Calculate the total X^2, df and P values.",
+      "answer": "X^2=6.9549, df=2, P<0.05(=0.0309)",
+      "method": "独立性检验"
+    },
+    {
+      "query": "What do you conclude regarding the distribution of long-tailed tits in the different types of woodland?",
+      "answer": "There is a significant association between forest type and the presence or absence of long-tailed tits, with tits being more likely to be present in thickets (and absent from high forests).",
+      "method": "独立性检验"
+    }
+  ],
+  "id": "017",
+  "data": null,
+  "meta_info": {
+    "index": "6.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Analysing frequency data",
+    "section": "Questions",
+    "book": "Using Statistics to Understand the Environment",
+    "page": "122-123"
+  }
+}

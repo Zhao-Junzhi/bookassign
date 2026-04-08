@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\120.json",
+  "input": {
+    "background": "Independent observations from a population with a given probability density function.",
+    "data": null,
+    "question": "Find the maximum likelihood estimator of $\\theta$ if $\\mathrm{t}_1, \\mathrm{t}_2, \\ldots, \\mathrm{t}_{\\mathrm{n}}$ are independent observations from a population with the following probability density function $$f(t ; \\theta)=\\frac{\\theta}{t^{\\theta+1}} \\text { for } t \\geq 1, \\theta>0$$."
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "0.1819"
+  },
+  "meta_info": {
+    "index": "3.18",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "218-218"
+  },
+  "sample_key": "43"
+}

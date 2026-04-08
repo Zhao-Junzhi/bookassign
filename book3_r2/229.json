@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\86.json",
+  "input": {
+    "background": "Claim amounts for wind damage to insured homes are independent random variables with a common density function.",
+    "data": "",
+    "question": "What is the expected value of the largest of the three claims?"
+  },
+  "output": {
+    "method": "期望",
+    "answer": "$$ \\quad 2025 .$$"
+  },
+  "meta_info": {},
+  "sample_key": "229"
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\47.json",
+  "input": {
+    "background": "Consider a sequence of 25 Bernoulli trials (binomial situation) where each trial results in either success or failure. From the 25 trials, 6 failures and 19 successes result. Let p be the probability of success, and 1-p the probability of failure.",
+    "data": null,
+    "question": "Find the estimator of p, \\hat{p}, which maximizes that particular outcome."
+  },
+  "output": {
+    "method": "数据分布建模",
+    "answer": "The sample density function can be written as $$ g(19)=\\binom{25}{19} p^{19}(1-p)^6 $$ The maximum of $$ g(19) $$ occurs when $$ p=\\hat{p}=\\frac{19}{25} $$ so that $$ g\\left(19 \\left\\lvert\\, p=\\frac{19}{25}\\right.\\right) \\geq g\\left(19 \\left\\lvert\\, p \\neq \\frac{19}{25}\\right.\\right) $$ Now $$ \\mathrm{g}(19) $$ is the probability or 'likelihood' of 6 failures in a sequence of 25 trials. Select $$ p=\\hat{p}=\\frac{19}{25} $$ as the probability or likelihood maximum value and, hence, $$ \\hat{p} $$ is referred to as the maximum likelihood estimate."
+  },
+  "meta_info": {
+    "index": "3.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.3 Parameter Estimation",
+    "book": "Statistical Reliability Engineering",
+    "page": "142-145"
+  },
+  "sample_key": "131"
+}

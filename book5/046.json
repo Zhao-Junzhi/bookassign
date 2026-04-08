@@ -1,0 +1,75 @@
+{
+  "id": "046",
+  "question": "Data from 37 patients receiving a non-depleted allogeneic bone marrow transplant were examined to see which variables were associated with the development of acute graft-versus-host disease (GvHD) (Bagot et al., 1988). The table below shows separately for the groups who did not and did develop GvHD, the age of the recipient and donor, the type of leukaemia, whether or not the donor had been pregnant and an index of mixed epidermal cell-lymphocyte reactions. Donor pregnancy (Preg) is coded 0 for No and 1 for Yes. Type of leukaemia is coded 1 (acute myeloid leukaemia - AML), 2 (acute lymphocytic leukaemia - ALL) or 3 (chronic myeloid leukaemia CML). Each group is ordered by their index values. (Also shown is the survival time, which is not used here.)\n(a) Use appropriate tests to compare the first five variables in the two groups. Which variables are significantly associated with the development of graft versus host disease ( $\\mathrm{P}<0.05$ )?\n(b) Use multiple logistic regression to see which variables are significantly related to GvHD (with $\\mathrm{P}<0.05$ ). (Hint: Create two new 'dummy' variables indicating disease groups 2 and 3, and use log transformed index values.)\n(c) Calculate the odds ratio for the risk of GvHD in relation to each binary variable in the model, with a $90 \\%$ confidence interval.",
+  "data": "\\documentclass{article}\n\\usepackage{booktabs,multirow}\n\\begin{document}\n\\begin{table}[htbp]\n  \\centering\n  \\begin{tabular}{lcccccc}\n    Patient & Recipient age & Donor age & Type & Preg & Index & Survival time (days) \\\\\n    \\midrule\n    \\multicolumn{7}{l}{Patients without GvHD} \\\\\n    1  & 27 & 23 & 2 & 0 & 0.27 & 95 \\\\\n    2  & 13 & 18 & 2 & 0 & 0.31 & 1385* \\\\\n    3  & 19 & 19 & 1 & 0 & 0.39 & 465 \\\\\n    4  & 21 & 22 & 2 & 0 & 0.48 & 810 \\\\\n    5  & 28 & 38 & 2 & 0 & 0.49 & 1497* \\\\\n    6  & 22 & 20 & 2 & 0 & 0.50 & 1181 \\\\\n    7  & 19 & 19 & 2 & 0 & 0.81 & 993* \\\\\n    8  & 20 & 23 & 2 & 0 & 0.82 & 138 \\\\\n    9  & 33 & 36 & 1 & 0 & 0.86 & 266 \\\\\n    10 & 18 & 19 & 1 & 0 & 0.92 & 579* \\\\\n    11 & 17 & 20 & 2 & 0 & 1.10 & 600* \\\\\n    12 & 31 & 21 & 3 & 0 & 1.52 & 1182* \\\\\n    13 & 23 & 38 & 2 & 0 & 1.88 & 841* \\\\\n    14 & 17 & 15 & 2 & 0 & 2.01 & 1364* \\\\\n    15 & 26 & 16 & 2 & 0 & 2.40 & 695* \\\\\n    16 & 28 & 25 & 1 & 0 & 2.45 & 1378* \\\\\n    17 & 24 & 21 & 1 & 1 & 2.60 & 736* \\\\\n    18 & 18 & 20 & 2 & 0 & 2.64 & 1504* \\\\\n    19 & 24 & 25 & 1 & 1 & 3.78 & 849 \\\\\n    20 & 20 & 24 & 3 & 0 & 4.72 & 1266* \\\\\n    \\midrule\n    \\multicolumn{7}{l}{Patients with GvHD} \\\\\n    21 & 23 & 35 & 1 & 1 & 1.10 & 186 \\\\\n    22 & 21 & 35 & 2 & 1 & 1.16 & 41 \\\\\n    23 & 21 & 23 & 3 & 0 & 1.45 & 667* \\\\\n    24 & 33 & 43 & 3 & 0 & 1.50 & 112 \\\\\n    25 & 29 & 24 & 3 & 1 & 1.85 & 572* \\\\\n    26 & 42 & 35 & 2 & 1 & 2.30 & 45 \\\\\n    27 & 27 & 31 & 3 & 0 & 2.34 & 1019* \\\\\n    28 & 43 & 29 & 2 & 1 & 2.44 & 479 \\\\\n    29 & 22 & 20 & 1 & 0 & 3.70 & 190 \\\\\n    30 & 35 & 39 & 1 & 1 & 3.73 & 100 \\\\\n    31 & 16 & 14 & 1 & 0 & 4.13 & 177 \\\\\n  \\end{tabular}\n\\end{table}\n\n\\begin{table}[htbp]\n  \\centering\n  \\caption{Exercises 363}\n  \\vspace{5pt}\n  \\begin{tabular}{lcccccc}\n    Patient & Recipient age & Donor age & Type & Preg & Index & Survival time (days) \\\\\n    32 & 39 & 35 & 2 & 1 & 4.52 & 80 \\\\\n    33 & 28 & 25 & 3 & 1 & 4.52 & 142 \\\\\n    34 & 29 & 32 & 3 & 0 & 4.71 & 1105* \\\\\n    35 & 23 & 19 & 3 & 0 & 5.07 & 803* \\\\\n    36 & 33 & 34 & 3 & 0 & 9.00 & 1126* \\\\\n    37 & 19 & 20 & 1 & 0 & 10.11 & 114 \\\\\n  \n  \\end{tabular}\n\\end{table}\n\n\\end{document}",
+  "answer": "(a) Recipient and donor ages can be compared by two sample $t$ tests, as can the log index values (the raw index values are skewed). The results of these are
+
+\begin{tabular}{lllllll}
+\hline & \multicolumn{2}{c}{ No GvHD } & \multicolumn{2}{c}{ GvHD } & & \\
+& Mean & SD & Mean & SD & $t$ & P \\
+\hline Recip age & 22.4 & 5.18 & 28.4 & 8.10 & 2.73 & 0.01 \\
+Donor age & 23.1 & 6.69 & 29.0 & 8.07 & 2.43 & 0.02 \\
+Log index & 0.111 & 0.860 & 1.115 & 0.662 & 3.92 & 0.0006 \\
+\hline
+\end{tabular}
+
+The type of leukaemia and whether the donor had been pregnant can be related to GvHD by Chi squared tests:
+
+\begin{tabular}{clcllcc}
+\hline & \multicolumn{3}{c}{ Type of leukaemia } & & \multicolumn{3}{c}{ Donorpregnancy } \\
+\hline & AML & ALL & CML & & No & Yes \\
+No GvHD & 6 & 12 & 2 & No GvHD & 18 & 2 \\
+GvHD & 5 & 4 & 8 & GvHD & 9 & 8 \\
+\hline
+\end{tabular}
+
+$$
+X^2=7.497 \text { on } 2 \text { df }(\mathrm{P}=0.02) \quad X^2=4.66 \text { on } 1 \text { df }(\mathrm{P}=0.03)
+$$
+
+
+Thus all five variables are significantly different between the groups of patients who did and did not develop GvHD. This suggests that it might be possible to find a logistic regression model that discriminates usefully between the groups.
+(b) The results given here relate to backward stepwise multiple logistic regression with the following potential explanatory variables: recipient's age, donor's age, donor pregnancy, log index, and two dummy variables indicating whether the patient did (1) or did not (0) have ALL and CML. Using the $5 \%$ level of statistical significance to decide whether to retain a variable in the analysis, the following model is obtained:
+\begin{tabular}{lllll}
+\hline Variable & Coefficient & SE & $z$ & P \\
+\hline CML & 2.251 & 1.106 & 2.035 & 0.04 \\
+Pregnancy & 2.496 & 1.101 & 2.266 & 0.02 \\
+Log index & 1.488 & 0.720 & 2.067 & 0.04 \\
+\hline
+\end{tabular}
+
+562
+
+Answers to exercises
+All three variables in this model are only moderately significant.
+For each patient we can calculate the probability of GvHD on the basis of this model, and relate these to what actually happened. The probability $p$ is obtained from the logistic regression model:
+
+$$
+\begin{aligned}
+l & =\operatorname{logit}(p) \\
+& =2.251 \times C M L+2.496 \times \text { pregnancy }+1.488 \times \log \text { index }
+\end{aligned}
+$$
+
+or
+
+$$
+p=\exp (l) /[1+\exp (l)] .
+$$
+
+
+It should be remembered that the assessment of a model using the same data that were used to derive the model will give a slightly optimistic picture. It is best to use new data to test a model.
+(c) For a binary variable in a logistic regression model, the odds ratio is given by $\mathrm{e}^b$ where $b$ is the estimated regression coefficient. This corresponds to the increased odds associated with being in the group coded 1 compared to the group coded 0 .
+
+For CML we have $\mathrm{OR}=\mathrm{e}^{2.251}=9.5$ and for pregnancy we have $\mathrm{OR}=\mathrm{e}^{2.496}=12.1 .90 \%$ CIs are obtained as $\mathrm{e}^{b \pm 1.645 \mathrm{SE}(b)}$. For CML these values are 1.54 and 58.6; for pregnancy they are 1.98 and 74.2. Both CIs are extremely wide, showing that precise estimates cannot be obtained from a sample this small.",
+  "meta_info": {
+    "index": "12.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Relation between several variables",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "361-363"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "33",
+  "question": "Suppose the life of a certain security alarm system is exponential\ndistribution with constant failure rate λ = 0.00008 failures per hour.\n(a) What is the probability that a security system will last at least 10,000 h?\n(b) What is the probability that a security system will last at least 10,000 h given\nthat it has already survived 5,000 h?",
+  "data": null,
+  "answer": "(a) The probability that a security system will last at least $10,000 \\mathrm{~h}$ is\n\n$$\nP\\{T \\geq 10,000\\}=e^{-\\lambda t} e^{-(0.00008)(10,000)}=e^{-0.8}=0.4493\n$$\n\n(b) The probability that a security system will last at least $10,000 \\mathrm{~h}$ given that it has already survived $5,000 \\mathrm{~h}$ is\n\n$$\n\\begin{aligned}\nP\\{T \\geq 10,000 \\mid T \\geq 5,000\\} & =P\\{T \\geq 5,000\\} \\\\\n& =e^{-\\lambda t}=e^{-(0.00008)(5,000)}=0.6703\n\\end{aligned}\n$$",
+  "meta_info": {
+    "index": "2.17",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "90-90"
+  }
+}

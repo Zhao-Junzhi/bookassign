@@ -1,0 +1,22 @@
+{
+  "background": "Suppose there are 100 items in the lot and their manufacturer claims that no more than 2% are defective. When the shipment is received at an assembly plant, a quality control manager asks his staff to take a random sample of size 10 from it without replacement and will accept the lot if there are at most 1 defective item in the sample.",
+  "task": [
+    {
+      "query": "If let say 2% are defective in the entire lot, then it consists of 2 defective items. What is the probability that the manager will accept the lot?",
+      "answer": "$$0.990909$$",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "113",
+  "data": null,
+  "meta_info": {
+    "index": "2.36",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "133-133"
+  }
+}

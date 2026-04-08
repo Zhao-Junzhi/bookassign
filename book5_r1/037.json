@@ -1,0 +1,22 @@
+{
+  "background": "Sixty-five pregnant women at a high risk of pregnancy-induced hypertension participated in a randomized controlled trial comparing 100 mg of aspirin daily and a matching placebo during the third trimester of pregnancy (Schiff et al., 1989). The observed rates of hypertension are shown in the following table:\n\n\\begin{tabular}{lcll}\n\\hline & Aspirin treated & Placebo treated & Total \\\\\n\\hline Hypertension & 4 & 11 & 15 \\\\\nNo hypertension & 30 & 20 & 50 \\\\\nTotal & 34 & 31 & 65 \\\\\n\\hline\n\\end{tabular}",
+  "task": [
+    {
+      "query": "Do these data suggest that daily aspirin reduces the risk of hypertension in the last trimester of pregnancy?",
+      "answer": "The proportions of women developing hypertension were 0.1176 $(4 / 34)$ in the aspirin group and $0.3548(11 / 31)$ in the placebo group. The difference is 0.24 with a wide $95 \\% \\mathrm{CI}$ from 0.04 to 0.44 . The Chi squared test with Yates' correction gives $X^2=3.89(\\mathrm{P}=0.049)$. There is thus a suggestion that aspirin may reduce the risk of hypertension among pregnant women, but the wide CI points to considerable uncertainty about the magnitude of the effect.",
+      "method": "独立性检验"
+    }
+  ],
+  "id": "037",
+  "data": null,
+  "meta_info": {
+    "index": "10.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "275-275"
+  }
+}

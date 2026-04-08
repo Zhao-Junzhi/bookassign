@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\17.json",
+  "input": {
+    "background": "Suppose that 15 units are tested over a 72-h period. Five units failed with one unit each failing after 5, 15, 20, 50, and 68 h. The remaining 10 units have survived at the end of the 72-h test period.",
+    "data": null,
+    "question": "Define the hazard rate function and explain its importance."
+  },
+  "output": {
+    "method": "数学计算",
+    "answer": "The hazard rate function is, sometimes referred to as the failure rate function, defined as the limit of the failure rate as the interval approaches zero. Thus, the hazard rate function $h(t)$ is the instantaneous failure rate, and is defined by\n\n$$\n\\begin{aligned}\nh(t) & =\\lim _{\\Delta t \\rightarrow 0} \\frac{R(t)-R(t+\\Delta t)}{\\Delta t R(t)} \\\\\n& =\\frac{1}{R(t)}\\left[-\\frac{d}{d t} R(t)\\right] \\\\\n& =\\frac{f(t)}{R(t)}\n\\end{aligned}\n$$\n\nThe quantity h(t)dt represents the probability that a device of age t will fail in the small interval of time t to (t + dt). Equivalently, the function h(t) can be defined as the probability density of failure at time t, given survival up to that time. In other words, the failure rate function h(t) can be defined as the probability that a device, which has survived of age t, will fail in the small time interval (t, t + dt). The importance of the hazard rate function is that it indicates the change in the failure rate over the life of a population of components by plotting their hazard rate functions on a single axis. For example, two designs may provide the same reliability at a specific point in time, but the failure rates up to this point in time can differ."
+  },
+  "meta_info": {
+    "index": "1.37",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.7 Reliability Concepts",
+    "book": "Statistical Reliability Engineering",
+    "page": "44-45"
+  },
+  "sample_key": "88"
+}

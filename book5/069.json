@@ -1,0 +1,16 @@
+{
+  "id": "069",
+  "question": "In response to the criticism of the analysis of a crossover clinical trial of bran biscuits versus placebo biscuits in the diet of patients with irritable bowel syndrome, the first author wrote:\n'In studies such as ours, however, given the relatively small numbers, a confidence interval ... is likely to contain zero, be fairly wide and include both positive and negative values. Therefore this is not an appropriate setting for this form of analysis as the result always will be too diffuse to be meaningful' (Lucey, 1987).\nIs this a reasonable argument?",
+  "data": null,
+  "answer": "No, this is not a reasonable argument. It is true that the confidence interval will be wide. This is not meaningless, but rather indicates that the study was too small to enable precise conclusions to be drawn.",
+  "meta_info": {
+    "index": "16.8",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "504-504"
+  }
+}

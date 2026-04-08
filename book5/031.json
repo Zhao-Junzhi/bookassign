@@ -1,0 +1,16 @@
+{
+  "id": "031",
+  "question": "A study was carried out to see if patients whose skin did not respond to dinitrochlorobenzene (DNCB), a contact allergen, would show an equally negative response to croton oil, a skin irritant (Roth et al., 1975). The following table shows the results of simultaneous skin reaction tests to DNCB and croton oil in 173 patients with skin cancer.\n\n\\begin{tabular}{llclc}\n\\hline & & \\multicolumn{2}{c}{ DNCB } \\\\\n& & +ve & -ve & Total \\\\\n\\hline Croton oil & +ve & 81 & 48 & 129 \\\\\n& -ve & 23 & 21 & 44 \\\\\n& Total & 104 & 69 & 173 \\\\\n\\hline\n\\end{tabular}\n(a) The authors reported 'no correlation' between the two tests. Carry out an analysis appropriate to the clinical question posed.\n(b) The results of the DNCB test were compared for patients with different stages of cancer, as shown in the following table.\n\n\\begin{tabular}{lllccc}\n\\hline & & \\multicolumn{4}{c}{ Stage of skin cancer } \\\\\n& & I & II & III & Total \\\\\n\\hline DNCB & +ve & 39 & 39 & 26 & 104 \\\\\nreaction & -ve & 13 & 19 & 37 & 69 \\\\\n& Total & 52 & 58 & 63 & 173 \\\\\n\\hline\n\\end{tabular}\n\nIs DNCB reactivity related to stage of cancer in these patients?",
+  "data": null,
+  "answer": "(a) It is essential to use an analysis appropriate for paired data. The proportions negative to croton oil and DNCB were $44 / 173=25.4 \\%$ and $69 / 173=39.9 \\%$ respectively. A $95 \\%$ CI for the difference between these proportions, using the method given in section 10.4, is from $5 \\%$ to $24 \\%$. The hypothesis test that the proportions of patients negative to the two skin tests are the same is evaluated by calculating\n\n$$\nz=\\frac{48-23}{\\sqrt{48+23}}=2.97\n$$\n\nwhich, from Table B2, corresponds to $\\mathrm{P}=0.003$. There is thus strong evidence that fewer of these patients show negative reactions to croton oil than DNCB.\n(b) The proportions of patients with a positive reaction to DNCB are $75 \\%, 67 \\%$ and $41 \\%$ for stages I, II and III respectively. The Chi squared test for trend gives $X_{\\text {trend }}^2=14.04$ on 1 degree of freedom ( $\\mathrm{P}=0.0002$ ). There is strong evidence therefore that DNCB reactivity is related to stage of cancer.",
+  "meta_info": {
+    "index": "10.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "272-272"
+  }
+}

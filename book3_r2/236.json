@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\90.json",
+  "input": {
+    "background": "Claim amounts for wind damage to insured homes are independent random variables with a common probability density function $$f(x)= \\begin{cases}3 x^{-4} & \\text { for } x \\geq 1 \\\\ 0 & \\text { otherwise }\\end{cases}$$ where $x$ is the amount of a claim in thousands. Suppose 3 such claims will be made.",
+    "data": "",
+    "question": "What is the expected value of the smallest of the three claims?"
+  },
+  "output": {
+    "method": "期望",
+    "answer": "The expected value of the smallest of the three claims is $1125$."
+  },
+  "meta_info": {},
+  "sample_key": "236"
+}

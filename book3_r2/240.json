@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\94.json",
+  "input": {
+    "background": "A certain simulation experiment is to be performed until a successful result is obtained. The trials are independent and the cost of performing the experiment is $\\$ 25,000$; however, if a failure results, it costs $\\$ 5,000$ to \"set up\" for the next trial. The experimenter would like to know the expected cost of the project. If $Y$ is the number of trials required to obtain a successful experiment, then the cost function would be $$C(Y)=\\$ 25,000 Y+\\$ 5,000(Y-1)$$.",
+    "data": "",
+    "question": "Determine the expected cost of the project."
+  },
+  "output": {
+    "method": "期望",
+    "answer": "The expected cost of the project is: $E(C(Y))=30,000\\left(\\frac{1}{p}\\right)-5,000$"
+  },
+  "meta_info": {},
+  "sample_key": "240"
+}

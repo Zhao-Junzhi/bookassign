@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\94.json",
+  "input": {
+    "background": "A certain simulation experiment is to be performed until a successful result is obtained. The trials are independent and the cost of performing the experiment is $\\$ 25,000$; however, if a failure results, it costs $\\$ 5,000$ to \"set up\" for the next trial. The experimenter would like to know the expected cost of the project. If $Y$ is the number of trials required to obtain a successful experiment, then the cost function would be $$C(Y)=\\$ 25,000 Y+\\$ 5,000(Y-1)$$.",
+    "data": "",
+    "question": "Assume the probability of success on a single trial is 0.25. Suppose that the experimenter has a maximum of $\\$ 500,000$. What is the probability that the experimental work would cost more than $\\$ 500,000$?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "0.01"
+  },
+  "meta_info": {},
+  "sample_key": "241"
+}

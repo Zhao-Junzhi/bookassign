@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\97.json",
+  "input": {
+    "background": "The completion time $X$ for a project has cumulative distribution function.",
+    "data": "",
+    "question": "Calculate the expected completion time."
+  },
+  "output": {
+    "method": "期望",
+    "answer": "The expected completion time is: 1.213"
+  },
+  "meta_info": {},
+  "sample_key": "245"
+}

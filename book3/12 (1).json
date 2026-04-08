@@ -1,0 +1,16 @@
+{
+  "id": "12",
+  "question": "Let mean range $\bar{w}=25.7$ and $n=4$. Obtain an estimate of the standard deviation $\sigma$ using the mean range.",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table A.5 Range values $\\mathrm{d}_{\\mathrm{n}}$ for average value of $w$}\n\\begin{tabular}{|l|l|}\n\\hline n (number in sample) & $\\mathrm{d}_{\\mathrm{n}}$ \\\\\n\\hline 2 & 1.128 \\\\\n\\hline 3 & 1.693 \\\\\n\\hline 4 & 2.059 \\\\\n\\hline 5 & 2.326 \\\\\n\\hline 6 & 2.534 \\\\\n\\hline 7 & 2.704 \\\\\n\\hline 8 & 2.847 \\\\\n\\hline 9 & 2.970 \\\\\n\\hline 10 & 3.078 \\\\\n\\hline 11 & 3.173 \\\\\n\\hline 12 & 3.258 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "answer": "From the Table A.5, $\\mathrm{d}_n=2.059$, the estimate of $\\sigma$ is\n\n$$\nS=\\frac{25.7}{2.059}=12.4818\n$$\n\n\nThe skewness coefficient of a random variable $X$ is a measure of the symmetry of the distribution of $X$ about its mean value $\\mu$, and is defined as\n\n$$\nS_c=\\frac{E(X-\\mu)^3}{\\sigma^3}\n$$\n\n\nA distribution will not in general be completely symmetrical; the frequency may fall away more rapidly on one side of the mode than on the other. When this is the case the distribution is said to be skew. Skewness is zero for a symmetric distribution, negative for a left-tailed distribution, and positive for a right-tailed distribution. In other words, skewness means lack of symmetry and measures of skewness show the extent to which the distribution departs from symmetry.\n\nSimilarly, the kurtosis coefficient of a random variable $X$ is a measure of how much of the mass of the distribution is contained in the tails, and is defined as\n\n$$\nK_c=\\frac{E(X-\\mu)^4}{\\sigma^4}\n$$\n\n\nObviously, kurtosis is always positive, however, larger values represent heavier tails of the distribution. The measure of kurtosis serves to differentiate between a flat distribution curve and a sharply peaked curve.\n\nIf the data are arranged in order of magnitude, the median is the central point of the series, i.e., there are equal numbers of observations greater than and less than the medians. In case if $n$ (the total number of observations) is even, it is usual to take the mean of the two central values as the median.",
+  "meta_info": {
+    "index": "1.20",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.3 Basic Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "20-20"
+  }
+}

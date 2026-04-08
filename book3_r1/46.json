@@ -1,0 +1,27 @@
+{
+  "background": "Assume $\\hat{\\theta}_1$ and $\\hat{\\theta}_2$ are the two estimators of parameter $\\theta$. Suppose that $E\\left(\\hat{\\theta}_1\\right)=0.9 \\theta, E\\left(\\hat{\\theta}_2\\right)=\\theta, \\operatorname{var}\\left(\\hat{\\theta}_1\\right)=2$, and $\\operatorname{var}\\left(\\hat{\\theta}_2\\right)=3$.",
+  "task": [
+    {
+      "query": "Which estimator would you prefer?",
+      "answer": "We have\n$$\n\\begin{gathered}\nM S E \\text { of } \\theta_1=\\operatorname{var}(\\hat{\\theta})+(\\text { bias })^2=2+0.01 \\theta^2 . \\\\\nM S E \\text { of } \\theta_2=\\operatorname{var}(\\hat{\\theta})+(\\text { bias })^2=3+0=3 .\n\\end{gathered}\n$$\n\nThus, if $|\\theta|<10$ then $\\hat{\\theta}_1$ would be preferred. If $|\\theta|>10$ then $\\hat{\\theta}_2$ is preferred.",
+      "method": "获取模型参数估计值"
+    },
+    {
+      "query": "We will later discuss how to establish a lower bound on the variance using an inequality known as the Cramér-Rao inequality.",
+      "answer": "We now discuss some basic methods of parameter estimation.",
+      "method": "获取模型参数估计值"
+    }
+  ],
+  "id": "46",
+  "data": null,
+  "meta_info": {
+    "index": "3.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.2 Statistical Inference",
+    "book": "Statistical Reliability Engineering",
+    "page": "139-139"
+  }
+}

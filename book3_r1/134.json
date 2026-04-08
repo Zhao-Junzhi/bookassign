@@ -1,0 +1,22 @@
+{
+  "background": "System XYZ consists of five water pumps for cooling a reactor. We assume that the pumps function independently and the reliability of each pump, over a period of 100,000 h, is 0.995. The system XYZ functions if at least four pumps must function.",
+  "task": [
+    {
+      "query": "What is the reliability of the system?",
+      "answer": "The system reliability is 0.99975",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "134",
+  "data": null,
+  "meta_info": {
+    "index": "4.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "299-299"
+  }
+}

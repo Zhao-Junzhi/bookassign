@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\18.json",
+  "input": {
+    "background": "A manufacturer has observed that over the course of 10 months, the numbers of products demanded were $T_1, T_2, \\ldots, T_{10}$, respectively. If we assume that these are i.i.d. observations of demand.",
+    "data": null,
+    "question": "What bound can be put on the probability that their average $\\bar{T}=\\frac{\\sum_{i=1}^{10} T_i}{10}$ is more than $3 \\sigma$ products from the average demand $\\mu$?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "We obtain\n\n$$\nE(\\bar{T})=\\mu, \\quad \\operatorname{Var}(\\bar{T})=\\frac{\\sigma^2}{10}\n$$\n\nFrom the Chebyshev's inequality,\n\n$$\nP\\{|\\bar{T}-\\mu| \\geq 3 \\sigma\\}=P\\left\\{\\left|\\frac{\\bar{T}-\\mu}{\\sigma / \\sqrt{10}}\\right| \\geq 3 \\sqrt{10}\\right\\} \\leq \\frac{1}{(3 \\sqrt{10})^2}=\\frac{1}{90}\n$$"
+  },
+  "meta_info": {
+    "index": "1.41",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.11 Probability and Moment Inequalities",
+    "book": "Statistical Reliability Engineering",
+    "page": "53-54"
+  },
+  "sample_key": "90"
+}

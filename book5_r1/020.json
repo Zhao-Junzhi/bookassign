@@ -1,0 +1,27 @@
+{
+  "background": "Eight diabetic patients had plasma glucose levels (mmol/l) measured before and one hour after oral administration of 100 g glucose, with the following results: Patient, Before, After, Change.",
+  "task": [
+    {
+      "query": "Calculate the standard error of the mean change in plasma glucose.",
+      "answer": "The SE of the mean is SD / sqrt(n), which is 2.3629 / sqrt(8) = 0.8354.",
+      "method": "分散程度测度"
+    },
+    {
+      "query": "On the basis of these data, how many diabetic patients would need to be studied so that the width of the 95% confidence interval for the mean change in plasma glucose level was 0.5 mmol/l? (Assume that the Normal distribution is the appropriate sampling distribution for the change in plasma glucose.)",
+      "answer": "The 95% CI for the mean is the range from mean -1.96 SE to mean +1.96 SE, so the width of the CI is 2 × 1.96 × SE. For this to be equal to 0.5 mmol/l we need SE = 0.5 / (2 × 1.96) = 0.1276. Assuming that we still have SD = 2.3629, then we would have 2.3629 / sqrt(N) = 0.1276 which gives N = (2.3629 / 0.1276)^2 = 343.",
+      "method": "达到指定概率所需的最小样本量"
+    }
+  ],
+  "id": "020",
+  "data": null,
+  "meta_info": {
+    "index": "8.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Principles of statistical analysis",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "177-178"
+  }
+}

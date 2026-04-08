@@ -1,0 +1,18 @@
+{
+  "id": "75",
+  "question": "A group of 100 boys and 100 girls is divided into two equal groups. Find the\nprobability p that each group will be equally divided into boys and girls.",
+  "data": null,
+  "answer": "$$
+p=\frac{\binom{100}{50}\binom{100}{50}}{\binom{200}{100}}=0.1132
+$$",
+  "meta_info": {
+    "index": "1.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "58-58"
+  }
+}

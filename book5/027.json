@@ -1,0 +1,16 @@
+{
+  "id": "027",
+  "question": "Urinary cotinine excretion was measured in nonsmokers who lived with smokers. The following table shows the summary of findings given in the paper (Matsukura et al., 1984).\n\n\\begin{tabular}{|l|l|l|}\n\\hline Cigarettes smoked per day by smoker & $n$ & Urinary cotinine excretion ( $\\mu \\mathrm{g} / \\mathrm{mg}$ of creatinine) mean (se) \\\\\n\\hline 1-9 & 25 & 0.31 (0.08) \\\\\n\\hline 10-19 & 57 & 0.42 (0.10) \\\\\n\\hline 20-29 & 99 & 0.87 (0.19) \\\\\n\\hline 30-39 & 38 & 1.03 (0.25) \\\\\n\\hline > 40 & 28 & 1.56 (0.57) \\\\\n\\hline Unspecified & 25 & 0.56 (0.16) \\\\\n\\hline\n\\end{tabular}\n(a) What can you say about the shape of the distribution of urinary cotinine in these nonsmokers?\n(b) What would be an appropriate analysis to see if there was a systematic relation between number of cigarettes and urinary cotinine levels?\n(c) Does it matter that the standard errors vary greatly among the groups?\n(d) The authors used multiple $t$ tests to compare pairs of groups with a correction for multiple testing. Comment on the appropriateness of their analysis.",
+  "data": null,
+  "answer": "(a) The SDs can be calculated by multiplying the SEs by $\\sqrt{n}$ to give\n\n\\begin{tabular}{clll}\n\\hline Cigarettes & $n$ & Mean & SD \\\\\n\\hline $1-9$ & 25 & 0.31 & 0.40 \\\\\n$10-19$ & 57 & 0.42 & 0.75 \\\\\n$20-29$ & 99 & 0.87 & 1.89 \\\\\n$30-39$ & 38 & 1.03 & 1.54 \\\\\n$>40$ & 28 & 1.56 & 3.02 \\\\\nUnspecified & 25 & 0.56 & 0.80 \\\\\n\\hline\n\\end{tabular}\n\nAs in all cases the SD is greater than the mean (and negative values are impossible), the urinary cotinine excretion values are highly skewed to the right.\n(b) Some form of analysis of trend, such as within a one way analysis of variance.\n(c) If the data are to be analysed by analysis of variance then we require standard deviations to be similar (in theory the groups are samples from populations with the same standard deviation). There is no such requirement for standard errors, which are partly dependent on sample size. As shown above, the data do not meet this requirement. If log transformation would yield similar SDs and reasonably Normal distributions, then a linear trend could be applied in a one way analysis of variance. The 'unspecified' group would have to be excluded. The simplest approach would be to calculate the rank correlation between number of cigarettes smoked and urinary cotinine level.\n(d) There are three reasons why this analysis is not valid:\n(i) the data are highly skewed within each group;\n(ii) the SDs vary enormously;\n(iii) the use of multiple comparisons of pairs of groups is an inferior method of assessing whether there is a relation betweensmoking and urinary cotinine levels as it takes no account of the ordering of the groups. ",
+  "meta_info": {
+    "index": "9.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups – continuous data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "226-226"
+  }
+}

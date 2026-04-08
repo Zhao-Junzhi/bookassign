@@ -1,0 +1,55 @@
+{
+  "id": "59",
+  "question": "Given a gamma prior with $n=2$ and $\beta=0.0001$ and current data as before (i.e., 1000 h of test with one failure), the posterior density becomes.",
+  "data": null,
+  "answer": "
+
+$$
+g(\lambda \mid A)=\frac{\lambda^2 e^{-\lambda(11,000)}(11,000)^2}{2}
+$$
+
+converting to $\chi^2$ via the transformation $\lambda^{\prime}=2 \lambda(11,000)$ and
+
+$$
+h\left(\lambda^{\prime} \mid A\right)=\frac{\left(\lambda^{\prime}\right)^{\frac{6}{2}-1} e^{-\frac{\lambda^{\prime}}{2}}}{\left[\frac{6}{2}-1\right]!2^{\frac{6}{2}}}
+$$
+
+which is $\chi^2$ with six degrees of freedom. Choosing $\alpha=0.1$ then
+
+$$
+\chi_{6,1-\alpha}^2=\chi_{6,0.9}^2=10.6
+$$
+
+and
+
+$$
+p\left[\lambda^{\prime}<10.6\right]=0.9
+$$
+
+
+But $\lambda^{\prime}=2 \lambda(11,000)$, hence,
+
+$$
+p\left[\lambda^{\prime}=2 \lambda(11,000)<10.6\right]=0.9
+$$
+
+or
+
+$$
+p[\lambda<0.0005]=0.9
+$$
+
+
+The latter limit conforms to 0.0039 derived without the use of a prior density, i.e., an approximate eight fold improvement. The examples above involved the development of tighter confidence limits where a prior density of the parameter could be utilized.
+In general, for legitimate applications and where prior data are available, employment of Bayesian methods can reduce cost or give results with less risk for the same dollar value (Pham 2000).",
+  "meta_info": {
+    "index": "3.42",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.14 Bayesian Methods",
+    "book": "Statistical Reliability Engineering",
+    "page": "205-205"
+  }
+}

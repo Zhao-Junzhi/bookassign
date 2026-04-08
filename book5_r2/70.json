@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\032.json",
+  "input": {
+    "background": "A survey was carried out to test the hypothesis that men with deep singing voices are likely to have higher levels of testosterone than men with higher voices (Lyster, 1984). Professional and student male singers were asked how many brothers and sisters they had. The results for the 195 singers with siblings are shown in the table provided. The author of the report performed a Chi-squared test and made several interpretations and analyses.",
+    "data": null,
+    "question": "(a) The $\\chi^2$ test ignoring the ordering of the voice groups gives $X^2=9.84$ on $5 \\mathrm{df}, \\mathrm{P}=0.08$. Comment on the author's interpretation."
+  },
+  "output": {
+    "method": "假设检验",
+    "answer": "The author seems to have concluded that $\\mathrm{P}>0.05$ means that there is no effect present. However, the P value is 0.08 and so only slightly greater than 0.05."
+  },
+  "meta_info": {
+    "index": "10.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "273-273"
+  },
+  "sample_key": "70"
+}

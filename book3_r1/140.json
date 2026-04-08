@@ -1,0 +1,27 @@
+{
+  "background": "Calculate the reliability and MTTF of $k$-out-of-$(2k-1)$ systems when $d=3$, with given failure rates and repair rates for various values of $k$ and time $t$.",
+  "task": [
+    {
+      "query": "Calculate the reliability of $k$-out-of-$(2k-1)$ systems when $d=3$, for $k=1,2,3,4,5$ and various time $t$.",
+      "answer": "Using Eqs. (42) and (43)), one can obtain the results.",
+      "method": "其它（如 reliability）"
+    },
+    {
+      "query": "Calculate the MTTF of $k$-out-of-$(2k-1)$ systems when $d=3$, for $k=1,2,3,4,5$ and various time $t$.",
+      "answer": "Using Eqs. (42) and (43)), one can obtain the results.",
+      "method": "其它（如 reliability）"
+    }
+  ],
+  "id": "140",
+  "data": null,
+  "meta_info": {
+    "index": "6.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 6： Stochastic Processes",
+    "section": "6.4 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "399-399"
+  }
+}

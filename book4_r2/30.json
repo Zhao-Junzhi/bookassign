@@ -1,0 +1,23 @@
+{
+  "case_id": "book4_r1\\009.json",
+  "input": {
+    "background": "Two sources of sediment in rivers are construction sites (which are likely to be urban in origin) and agricultural land (rural in origin). To investigate whether there was a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected (each river was only used once, i.e. the data are independent). The river sections were otherwise similar in size, flow rate, altitude etc. The following sediment loads (in milligrams per litre) were obtained.",
+    "data": null,
+    "question": "The above data have been examined and appear to be normally distributed. Use a $t$ test on the data, and record the following: Mean suspended sediment, Standard deviation, $t$ value, df, Probability."
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "Mean suspended sediment: Rural = $55.2 \\mathrm{mg} \\mathrm{1}^{-l}$, Urban = $75.5 \\mathrm{mg} \\mathrm{1}^{-l}$; Standard deviation: Rural = $17.58 \\mathrm{mg} \\mathrm{1}^{-l}$, Urban = $21.28 \\mathrm{mg} \\mathrm{1}^{-l}$; $t=2.326$, $\\mathrm{df}=18$, $P<0.05(=0.0319)$."
+  },
+  "meta_info": {
+    "index": "4.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Differences between two samples",
+    "section": "Questions",
+    "book": "Using Statistics to Understand the Environment",
+    "page": "77-78"
+  },
+  "sample_key": "30"
+}

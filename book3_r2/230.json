@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\87.json",
+  "input": {
+    "background": "A filling station is supplied with gasoline once a week. If its weekly volume of sales in thousands of gallons is a random variable with probability density function $$f(x)= \\begin{cases}5(1-x)^4 & 0<x<1 \\\\ 0 & \\text { otherwise }\\end{cases}$$",
+    "data": "",
+    "question": "What need the capacity of the tank be so that the probability of the supplies being completely used up in a given week is no more than 0.01?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "$a=0.602$"
+  },
+  "meta_info": {},
+  "sample_key": "230"
+}

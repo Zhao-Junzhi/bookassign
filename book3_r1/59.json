@@ -1,0 +1,37 @@
+{
+  "background": "Given a gamma prior with $n=2$ and $\\beta=0.0001$ and current data as before (i.e., 1000 h of test with one failure), the posterior density becomes.",
+  "task": [
+    {
+      "query": "Convert the posterior density to $\\chi^2$ via the transformation $\\lambda^{\\prime}=2 \\lambda(11,000)$ and derive the corresponding $\\chi^2$ distribution.",
+      "answer": "$$h\\left(\\lambda^{\\prime} \\mid A\\right)=\\frac{\\left(\\lambda^{\\prime}\\right)^{\\frac{6}{2}-1} e^{-\\frac{\\lambda^{\\prime}}{2}}}{\\left[\\frac{6}{2}-1\\right]!2^{\\frac{6}{2}}}$$ which is $\\chi^2$ with six degrees of freedom.",
+      "method": "贝叶斯"
+    },
+    {
+      "query": "Choose $\\alpha=0.1$ and calculate $\\chi_{6,1-\\alpha}^2=\\chi_{6,0.9}^2$ and the corresponding probability.",
+      "answer": "$$\\chi_{6,1-\\alpha}^2=\\chi_{6,0.9}^2=10.6$$ and $$p\\left[\\lambda^{\\prime}<10.6\\right]=0.9$$",
+      "method": "贝叶斯"
+    },
+    {
+      "query": "Transform back to $\\lambda$ and calculate the probability $p[\\lambda<0.0005]$.",
+      "answer": "$$p[\\lambda<0.0005]=0.9$$",
+      "method": "贝叶斯"
+    },
+    {
+      "query": "Discuss the improvement in confidence limits using Bayesian methods compared to the case without prior density.",
+      "answer": "The latter limit conforms to 0.0039 derived without the use of a prior density, i.e., an approximate eight fold improvement. Bayesian methods can reduce cost or give results with less risk for the same dollar value (Pham 2000).",
+      "method": "贝叶斯"
+    }
+  ],
+  "id": "59",
+  "data": null,
+  "meta_info": {
+    "index": "3.42",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.14 Bayesian Methods",
+    "book": "Statistical Reliability Engineering",
+    "page": "205-205"
+  }
+}

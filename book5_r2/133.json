@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\055.json",
+  "input": {
+    "background": "Acute lower respiratory tract infection is one of the commonest causes of death among infants and under-5s in developing countries. A simple test is needed to identify those infants with acute respiratory infection who have lower respiratory tract infection (LRI) and should receive antibiotics from those with upper respiratory tract infection (URI). The following data come from a study of the usefulness of the respiratory rate for this purpose in infants (Cherian et al., 1988).",
+    "data": "\n\n\\begin{tabular}{|l|l|l|}\n\\hline Respiratory rate (breaths/min) & Number of children (\\%) \\\\\n\\hline & LRI & URI \\\\\n\\hline 0-30 & 1 (1\\%) & 16 (11\\%) \\\\\n\\hline 31-40 & 4 (3\\%) & 77 (51\\%) \\\\\n\\hline 41-50 & 10 (7\\%) & 46 (30\\%) \\\\\n\\hline 51-60 & 41 (29\\%) & 9 (6\\%) \\\\\n\\hline 61+ & 86 (61\\%) & 3 (2\\%) \\\\\n\\hline Total & 142 (100\\%) & 151 (100\\%) \\\\\n\\hline\n\\end{tabular}",
+    "question": "If a respiratory rate of $>50$ breaths $/ \\mathrm{min}$ is taken as an indication of LRI and all such children are treated with antibiotics, what proportion of treated infants will have been treated unnecessarily? What proportion of LRI infants would not get antibiotics?"
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The PPV is the proportion of those infants with respiratory rate $>50$ who have LRI, which is $26 \\%$. Thus if all infants with a respiratory rate above the cut-off are treated with antibiotics, $74 \\%$ of them will have been treated 'unnecessarily'. The sensitivity is $89 \\%$ at this cut-off, which means that $89 \\%$ of LRI infants would receive antibiotics. Thus $11 \\%$ would not get antibiotics. At the lower cut-off of 40 breaths/min the proportion with LRI treated with antibiotics would be rather higher ($96 \\%$) but only $7 \\%$ of those treated would have LRI. It should be clear that the choice of cut-off must be made on non-statistical considerations."
+  },
+  "meta_info": {
+    "index": "14.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Some common problems in medical research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "438-438"
+  },
+  "sample_key": "133"
+}

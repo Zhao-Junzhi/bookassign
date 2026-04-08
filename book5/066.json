@@ -1,0 +1,44 @@
+{
+  "id": "066",
+  "question": "The following table shows the percentage of five year olds with five or more decayed, missing or filled teeth (\% dmft) by social class, separately for children who had lived continuously in either an area with fluoridated water or in a nearby non-fluoridated area (Carmichael et al., 1989).
+
+\begin{tabular}{llc}
+\hline & & \%dmft \\
+ Social class & Fluoridated & Non-fluoridated\\
+\hline I-II & 10 & 21 \\
+III & 15 & 33 \\
+IV-V & 21 & 45 \\
+Unclassified & 20 & 47 \\
+\hline
+\end{tabular}
+(a) Is it reasonable to use a Chi squared test to compare \% dmft by social class in the two areas?
+(b) The actual numbers of children were as follows:
+
+\begin{tabular}{llc}
+\hline & & dmft \\
+ Social class & Fluoridated & Non-fluoridated\\
+\hline I-II & $12 / 117$ & $12 / 56$ \\
+III & $26 / 170$ & $48 / 146$ \\
+IV-V & $11 / 52$ & $29 / 64$ \\
+Unclassified & $24 / 118$ & $49 / 104$ \\
+\hline Total & $73 / 457$ & $138 / 370$ \\
+\hline
+\end{tabular}
+
+Calculate a $95 \%$ confidence interval for the difference in $\% \mathrm{dmft}$ in the total groups of children in the two areas.
+(c) Is there a significant relation between \% dmft and social class within each of the two areas?
+(d) How might we assess whether the relation is stronger in the non-fluoridated than the fluoridated area?
+(e) What is the name for such an effect?",
+  "data": null,
+  "answer": "(a) No, because the figures are percentages. Although it is a method of comparing proportions (or percentages) the Chi squared test must be performed on frequencies.\n(b) The percentages are $73 / 457=16.0 \\%$ and $138 / 370=37.3 \\%$, so the difference is $21 \\%$. The $95 \\%$ confidence interval is $15 \\%$ to $27 \\%$. Because the sample is large the interval is quite narrow.\n(c) The simplest way to assess a trend is to use the Chi squared test for trend. It is reasonable to give equally spaced scores to the three social class groups (such as $-1,0$ and 1 ). Those children whose social class was unclassified must be excluded. The proportions being compared were shown at the beginning of the problem. The Chi squared tests give $X_{\\text {trend }}^2=3.64(\\mathrm{P}=0.06)$ and $X_{\\text {trend }}^2=7.69 (\\mathrm{P}=0.006)$.\n(d) Although the trend is significant (at the $5 \\%$ level) in one group but not the other, we should not infer that the relation is present only within the non-fluoridated area. The simplest way to compare the trends is to use the regression approach to estimate the change in $\\% \\mathrm{dmft}$ for each change in social class category (section 11.15.2) and compare the slopes (section 11.12.1). Alternatively, all the data could be analysed at once in a complicated logistic regression analysis.\n(e) The technical term for such a heterogeneity of effect is 'interaction'.",
+  "meta_info": {
+    "index": "16.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "500-501"
+  }
+}

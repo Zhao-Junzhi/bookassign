@@ -1,0 +1,16 @@
+{
+  "id": "010",
+  "question": "A researcher plans to measure blood pressure in a number of subjects. He proposes to take three measurements, but intends to discard the third measurement as unreliable if it does not fall between the first two measurements. Assuming that the subjects' blood pressure stays constant during the measuring, what is the probability that for a given subject the third value will not lie between the other two? (Hint: the answer does not depend upon the variability of blood pressure measurements.) Comment on the researcher's proposal.",
+  "data": null,
+  "answer": "If there is no change in the true blood pressure, each of a sequence of three measurements is equally likely to be in between the other two. The probability that the third measurement will not fall between the first two is thus two thirds $(0.67)$, discounting the possibility of equal measurements. There is no reason to expect the third measurement to be between the first two and no reason to discard measurements as unreliable if they do not. If the intention is to use the average of the three readings in an analysis, the averages would be less well estimated for those with only two values.",
+  "meta_info": {
+    "index": "4.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Theoretical distributions",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "72-73"
+  }
+}
