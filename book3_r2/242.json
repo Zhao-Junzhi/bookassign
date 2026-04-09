@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\95.json",
+  "input": {
+    "background": "Assume that the product failures from an assembly line are 5%. Suppose that if a product that is defective, a diagnostic test indicates that it is defective 92% of the time, and if the product is good, the test indicates that it is good 96% of the time.",
+    "data": "",
+    "question": "Calculate the probability that the test will indicate that the product is defective?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$ 0.084$$"
+  },
+  "meta_info": {},
+  "sample_key": "242"
+}

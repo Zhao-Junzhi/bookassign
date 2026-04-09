@@ -1,0 +1,70 @@
+{
+  "id": "53",
+  "question": "A random sample of 395 people were surveyed. Each person was asked their interest in riding a bicycle (Variable A) and their age (Variable B). The data that resulted from the survey is summarized in Table 3.10.
+
+Is there evidence to conclude, at the 0.05 level, that the desire to ride a bicycle depends on age? In other words, is age independent of the desire to ride a bicycle?",
+  "data": "
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 3.10 A random sample of 395 people}
+\begin{tabular}{l|l|l|l|l|l|l}
+\hline & \multicolumn{5}{|l|}{ Variable B } & \\
+\hline VarA/VarB & Observed & $15-20$ & $21-30$ & $31-40$ & $41-65$ & Total \\
+\hline & Yes & 60 & 54 & 46 & 41 & 201 \\
+\hline Variable A & No & 40 & 44 & 53 & 57 & 194 \\
+\hline & Total & 100 & 98 & 99 & 98 & 395 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 3.11 The expected values}
+\begin{tabular}{l|l|l|l|l|l|l}
+\hline & \multicolumn{6}{|l}{ Variable B } \\
+\hline VarA/VarB & Expected & $15-20$ & $21-30$ & $31-40$ & $41-65$ & Total \\
+\hline & Yes & 50.8861 & 49.8684 & 50.3772 & 49.8684 & 201 \\
+\hline Variable A & No & 49.1139 & 48.1316 & 48.6228 & 48.1316 & 194 \\
+\hline & Total & 100 & 98 & 99 & 98 & 395 \\
+\hline
+\end{tabular}
+\end{table}",
+  "answer": " Here $r=2$ and $c=4$. The expected number in each cell can be obtained as shown in Table 3.11:
+
+$$
+\begin{aligned}
+& E_{11}=\frac{1}{395}\left(\sum_{i=1}^2 O_{i 1}\right)\left(\sum_{j=1}^4 O_{1 j}\right)=\frac{1}{395}(100)(201)=50.8861 \\
+& E_{12}=\frac{1}{395}\left(\sum_{i=1}^2 O_{i 2}\right)\left(\sum_{j=1}^4 O_{1 j}\right)=\frac{1}{395}(98)(201)=49.8684 \\
+& E_{13}=\frac{1}{395}(99)(201)=50.3772 \\
+& \ldots \\
+& E_{23}=\frac{1}{395}(99)(194)=48.6228 \\
+& E_{24}=\frac{1}{395}(98)(194)=48.1316
+\end{aligned}
+$$
+
+
+The test statistic value
+
+$$
+\lambda_{v a l u e}^2=\sum_{i=1}^2 \sum_{j=1}^4 \frac{\left(O_{i j}-E_{i j}\right)^2}{E_{i j}}
+$$
+$$
+\begin{aligned}
+& =\frac{(60-50.8861)^2}{50.8861}+\frac{(54-49.8684)^2}{49.8684}+\ldots+\frac{(57-48.1316)^2}{48.1316} \\
+& =8.0062
+\end{aligned}
+$$
+
+
+Here $\alpha=0.05$. So $\chi_{0.05,(2-1)(4-1)}^2=\chi_{0.05,3}^2=7.815$. Since $\chi_{\text {value }}^2=8.0062>$ 7.815 we, therefore, reject the null hypothesis. That is, there is sufficient evidence, at the 0.05 level, to conclude that the desire to ride a bicycle depends on age.",
+  "meta_info": {
+    "index": "3.28",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.8 Test for Independence",
+    "book": "Statistical Reliability Engineering",
+    "page": "176-177"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "background": "Acute lower respiratory tract infection is one of the commonest causes of death among infants and under-5s in developing countries. A simple test is needed to identify those infants with acute respiratory infection who have lower respiratory tract infection (LRI) and should receive antibiotics from those with upper respiratory tract infection (URI). The following data come from a study of the usefulness of the respiratory rate for this purpose in infants (Cherian et al., 1988).",
+  "task": [
+    {
+      "query": "Construct $2 \\times 2$ tables for each of the four cut-offs 30, 40, 50 and 60 breaths $/ \\mathrm{min}$ relating low and high respiratory rate to the correct classification (LRI or URI). Which cut-off gives the best balance of sensitivity and specificity? (This is where their sum is a maximum.)",
+      "answer": "Taking the cut-off as respiratory rates less than or equal to 30, 40, 50 or 60 breaths $/ \\mathrm{min}$ gives:\n\n\\begin{tabular}{lrr}\n\\hline Cut-off &  Sensitivity  &  Specificity  \\\\\n\\hline 30 & $141 / 142=99 \\%$ & $16 / 151=11 \\%$ \\\\\n40 & $137 / 142=96 \\%$ & $93 / 151=62 \\%$ \\\\\n50 & $127 / 142=89 \\%$ & $139 / 151=92 \\%$ \\\\\n60 & $86 / 142=61 \\%$ & $148 / 151=98 \\%$ \\\\\n\\hline\n\\end{tabular}\n\nThe best cut-off is 50 breaths $/ \\mathrm{min}$, with an overall correct assessment for $266 / 293=91 \\%$ of infants.",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "The authors of the report estimated that the prevalence of LRI among all infants with acute respiratory infection in a developing country is $3 \\%$. Which cut-off gives the best balance of positive and negative predictive values when the prevalence is $3 \\%$?",
+      "answer": "Using the formulae for the positive and negative predictive values (PPV and NPV) given in section 14.4.5, the required values are:\n\n\\begin{tabular}{lcc}\n\\hline Cut-off & PPV & NPV \\\\\n\\hline 30 & $3.3 \\%$ & $99.8 \\%$ \\\\\n40 & $7 \\%$ & $99.8 \\%$ \\\\\n50 & $26 \\%$ & $99.6 \\%$ \\\\\n60 & $49 \\%$ & $98.8 \\%$ \\\\\n\\hline\n\\end{tabular}\n\nWith low prevalence, as here, the NPV is usually not helpful. The PPV increases as the cut-off level rises, so the 'best' choice to maximize correct predictions is a cut-off of 60 breaths $/ \\mathrm{min}$. However, as we have seen, with this cut-off nearly half of the infants with LRI would be missed. A cut-off of 50 breaths $/ \\mathrm{min}$ would mean that nearly all infants with LRI would be identified, but that more of the infants identified by the test would not have LRI (false positives) compared with a cut-off of 60 breaths $/ \\mathrm{min}$. Note that about half of the study sample had LRI - they were inpatients and thus unrepresentative of the general population of infants with acute respiratory infection where the prevalence of LRI is much lower.",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "If a respiratory rate of $>50$ breaths $/ \\mathrm{min}$ is taken as an indication of LRI and all such children are treated with antibiotics, what proportion of treated infants will have been treated unnecessarily? What proportion of LRI infants would not get antibiotics?",
+      "answer": "The PPV is the proportion of those infants with respiratory rate $>50$ who have LRI, which is $26 \\%$. Thus if all infants with a respiratory rate above the cut-off are treated with antibiotics, $74 \\%$ of them will have been treated 'unnecessarily'. The sensitivity is $89 \\%$ at this cut-off, which means that $89 \\%$ of LRI infants would receive antibiotics. Thus $11 \\%$ would not get antibiotics. At the lower cut-off of 40 breaths/min the proportion with LRI treated with antibiotics would be rather higher ($96 \\%$) but only $7 \\%$ of those treated would have LRI. It should be clear that the choice of cut-off must be made on non-statistical considerations.",
+      "method": "假设检验与区间估计"
+    },
+    {
+      "query": "At present general practitioners cannot tell which infants have LRI and about $80 \\%$ of infants with respiratory tract infection (LRI or URI) receive antibiotics. What would be the effect on the amount of antibiotics used of the policy suggested in (c)?",
+      "answer": "If all infants above the cut-off are treated then $89 \\%$ of LRI infants and $8 \\%$ of URI infants would be treated. Taking the proportion with LRI as $3 \\%$, the proportion treated would be $0.89 \\times 0.03+0.08 \\times 0.97=0.10$. Thus only $10 \\%$ of infants would be treated with antibiotics, representing an enormous saving in cost. Even using a cutoff of 40 breaths/min the proportion treated would be $0.96 \\times 0.03+0.38 \\times 0.97=0.40$, which would cost half as much as the existing policy.",
+      "method": "假设检验与区间估计"
+    }
+  ],
+  "id": "055",
+  "data": "\n\n\\begin{tabular}{|l|l|l|}\n\\hline Respiratory rate (breaths/min) & Number of children (\\%) \\\\\n\\hline & LRI & URI \\\\\n\\hline 0-30 & 1 (1\\%) & 16 (11\\%) \\\\\n\\hline 31-40 & 4 (3\\%) & 77 (51\\%) \\\\\n\\hline 41-50 & 10 (7\\%) & 46 (30\\%) \\\\\n\\hline 51-60 & 41 (29\\%) & 9 (6\\%) \\\\\n\\hline 61+ & 86 (61\\%) & 3 (2\\%) \\\\\n\\hline Total & 142 (100\\%) & 151 (100\\%) \\\\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "14.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Some common problems in medical research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "438-438"
+  }
+}

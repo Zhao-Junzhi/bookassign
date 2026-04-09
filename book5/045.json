@@ -1,0 +1,16 @@
+{
+  "id": "045",
+  "question": "Using the data in Table 12.11, find a suitable multiple regression model to predict functional residual capacity (FRC) from age, sex, height, weight and $\\mathrm{FEV}_1$. Check that the residuals from this model have a nearly Normal distribution.",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.11 Data for 25 patients with cystic fibrosis (O'Neill et al., 1983)}\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}\n\\hline Sub & Age & Sex & Height & Weight & BMP & $\\mathrm{FEV}_1$ & RV & FRC & TLC & PEmax \\\\\n\\hline 1 & 7 & 0 & 109 & 13.1 & 68 & 32 & 258 & 183 & 137 & 95 \\\\\n\\hline 2 & 7 & 1 & 112 & 12.9 & 65 & 19 & 449 & 245 & 134 & 85 \\\\\n\\hline 3 & 8 & 0 & 124 & 14.1 & 64 & 22 & 441 & 268 & 147 & 100 \\\\\n\\hline 4 & 8 & 1 & 125 & 16.2 & 67 & 41 & 234 & 146 & 124 & 85 \\\\\n\\hline 5 & 8 & 0 & 127 & 21.5 & 93 & 52 & 202 & 131 & 104 & 95 \\\\\n\\hline 6 & 9 & 0 & 130 & 17.5 & 68 & 44 & 308 & 155 & 118 & 80 \\\\\n\\hline 7 & 11 & 1 & 139 & 30.7 & 89 & 28 & 305 & 179 & 119 & 65 \\\\\n\\hline 8 & 12 & 1 & 150 & 28.4 & 69 & 18 & 369 & 198 & 103 & 110 \\\\\n\\hline 9 & 12 & 0 & 146 & 25.1 & 67 & 24 & 312 & 194 & 128 & 70 \\\\\n\\hline 10 & 13 & 1 & 155 & 31.5 & 68 & 23 & 413 & 225 & 136 & 95 \\\\\n\\hline 11 & 13 & 0 & 156 & 39.9 & 89 & 39 & 206 & 142 & 95 & 110 \\\\\n\\hline 12 & 14 & 1 & 153 & 42.1 & 90 & 26 & 253 & 191 & 121 & 90 \\\\\n\\hline 13 & 14 & 0 & 160 & 45.6 & 93 & 45 & 174 & 139 & 108 & 100 \\\\\n\\hline 14 & 15 & 1 & 158 & 51.2 & 93 & 45 & 158 & 124 & 90 & 80 \\\\\n\\hline 15 & 16 & 1 & 160 & 35.9 & 66 & 31 & 302 & 133 & 101 & 134 \\\\\n\\hline 16 & 17 & 1 & 153 & 34.8 & 70 & 29 & 204 & 118 & 120 & 134 \\\\\n\\hline 17 & 17 & 0 & 174 & 44.7 & 70 & 49 & 187 & 104 & 103 & 165 \\\\\n\\hline 18 & 17 & 1 & 176 & 60.1 & 92 & 29 & 188 & 129 & 130 & 120 \\\\\n\\hline 19 & 17 & 0 & 171 & 42.6 & 69 & 38 & 172 & 130 & 103 & 130 \\\\\n\\hline 20 & 19 & 1 & 156 & 37.2 & 72 & 21 & 216 & 119 & 81 & 85 \\\\\n\\hline 21 & 19 & 0 & 174 & 54.6 & 86 & 37 & 184 & 118 & 101 & 85 \\\\\n\\hline 22 & 20 & 0 & 178 & 64.0 & 86 & 34 & 225 & 148 & 135 & 160 \\\\\n\\hline 23 & 23 & 0 & 180 & 73.8 & 97 & 57 & 171 & 108 & 98 & 165 \\\\\n\\hline 24 & 23 & 0 & 175 & 51.1 & 71 & 33 & 224 & 131 & 113 & 95 \\\\\n\\hline 25 & 23 & 0 & 179 & 71.5 & 95 & 52 & 225 & 127 & 101 & 195 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "answer": "Backwards stepwise multiple regression yields the following model\n\n$$\n\\mathrm{FRC}=286.94-4.1965 \\times \\text { age }-2.0386 \\times \\mathrm{FEV}_1 .\n$$\n\n\nThe residual SD is 26.7 , compared with the SD of the raw FRC\n\nvalues which was 43.7, indicating that the model explains a good proportion of the variability in FRC. The value of $R^2$ is $66 \\%$.\n\nA test of Normality of the residuals gives $W^{\\prime}=0.966, \\mathrm{P}>0.2$, indicating that the residuals have a closely Normal distribution.",
+  "meta_info": {
+    "index": "12.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Relation between several variables",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "361-361"
+  }
+}

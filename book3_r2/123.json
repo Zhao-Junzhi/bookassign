@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\41.json",
+  "input": {
+    "background": "The time to failure of a component has a gamma distribution with $\\alpha =3$ and $\\beta=5$.",
+    "data": null,
+    "question": "Provide the mean, variance, reliability, and coefficient of skewness for the gamma random variable."
+  },
+  "output": {
+    "method": "描述性统计量",
+    "answer": "The mean, variance and reliability of the gamma random variable are, respectively $$ \\begin{gathered} \\ \\text { Mean (MTTF) } \\quad E(T)=\\frac{\\alpha}{\\beta} \\\\ \\ \\text { Variance } \\quad V(T)=\\frac{\\alpha}{\\beta^2} \\\\ \\ \\text { Reliability } \\quad R(t)=\\int_t^{\\infty} \\frac{\\beta^\\alpha x^{\\alpha-1}}{\\Gamma(\\alpha)} e^{-x \\beta} d x \\end{gathered} $$ The coefficient of skewness of this gamma distribution is given by $$ S_c=\\frac{2}{\\sqrt{\\alpha}} $$"
+  },
+  "meta_info": {
+    "index": "2.25",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "111-111"
+  },
+  "sample_key": "123"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\96.json",
+  "input": {
+    "background": "A filling station is supplied with gasoline once a week. Its weekly volume of sales in thousands of gallons is a random variable with probability density function $$ f(x)= \\begin{cases}\\frac{3}{2}\\left(1-x^2\\right) & 0 \\leq x \\leq 1 \\\\ 0 & \\text { otherwise }\\end{cases} $$.",
+    "data": "",
+    "question": "What is the expected volume of sales in a given week? Show your work."
+  },
+  "output": {
+    "method": "期望",
+    "answer": "$375$"
+  },
+  "meta_info": {},
+  "sample_key": "244"
+}

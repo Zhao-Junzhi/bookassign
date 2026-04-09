@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\51 (1).json",
+  "input": {
+    "background": "Can the data given in Table 3.4 be represented by the Poisson distribution with a significance level of $\\alpha$ using KS test?",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.4 Sample observations in each cell boundary ( $N=33$ )}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Number of defective & Observed frequency $f_i$ & Expected frequency $E_i$ & Total number of defectives \\\\\n\\hline 0 & 6 & 6.04 & 0 \\\\\n\\hline 1 & 8 & 10.26 & 8 \\\\\n\\hline 2 & 12 & 8.71 & 24 \\\\\n\\hline 3 & 4 & 4.92 & 12 \\\\\n\\hline 4 or more & 3 & 3.07 & 12 \\\\\n\\hline Total & 33 & & 56 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.6 KS test calculations ( $N=33$ )}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Number of defective & Observed frequency & Cum. observed frequency & $\\mathrm{F}_{\\mathrm{n}}(\\mathrm{x})$ & $\\mathrm{F}_0(\\mathrm{x})$ & $\\left|\\mathrm{F}_{\\mathrm{n}}(\\mathrm{x})-\\mathrm{F}_0(\\mathrm{x})\\\right|$ \\\\\n\\hline 0 & 6 & 6 & 0.182 & 0.183 & 0.001 \\\\\n\\hline 1 & 8 & 14 & 0.424 & 0.494 & 0.07 \\\\\n\\hline 2 & 12 & 26 & 0.788 & 0.758 & 0.03 \\\\\n\\hline 3 & 4 & 30 & 0.909 & 0.907 & 0.002 \\\\\n\\hline 4 or more & 3 & 33 & 1.000 & 1.000 & 0.000 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table A.4 Critical values $\\mathrm{d}_{\\mathrm{n}}, \\alpha$ of the maximum absolute difference between sample and population cumulative distribtuions for the Kolmogorov-Smirnov (KS) test (Smirnov 1948)}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline $n \\backslash \\alpha$ & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 \\\\\n\\hline 1 & 0.900 & 0.950 & 0.975 & 0.990 & 0.995 \\\\\n\\hline 2 & 0.684 & 0.776 & 0.842 & 0.900 & 0.929 \\\\\n\\hline 3 & 0.565 & 0.636 & 0.708 & 0.785 & 0.829 \\\\\n\\hline 4 & 0.493 & 0.565 & 0.624 & 0.689 & 0.734 \\\\\n\\hline 5 & 0.447 & 0.509 & 0.563 & 0.627 & 0.669 \\\\\n\\hline 6 & 0.410 & 0.468 & 0.519 & 0.577 & 0.617 \\\\\n\\hline 7 & 0.381 & 0.436 & 0.483 & 0.538 & 0.576 \\\\\n\\hline 8 & 0.358 & 0.410 & 0.454 & 0.507 & 0.542 \\\\\n\\hline 9 & 0.339 & 0.387 & 0.430 & 0.480 & 0.513 \\\\\n\\hline 10 & 0.323 & 0.369 & 0.409 & 0.457 & 0.489 \\\\\n\\hline 11 & 0.308 & 0.352 & 0.391 & 0.437 & 0.468 \\\\\n\\hline 12 & 0.296 & 0.338 & 0.375 & 0.419 & 0.449 \\\\\n\\hline 13 & 0.285 & 0.325 & 0.361 & 0.404 & 0.432 \\\\\n\\hline 14 & 0.275 & 0.314 & 0.349 & 0.390 & 0.418 \\\\\n\\hline 15 & 0.266 & 0.304 & 0.338 & 0.377 & 0.404 \\\\\n\\hline 16 & 0.258 & 0.295 & 0.327 & 0.366 & 0.392 \\\\\n\\hline 17 & 0.250 & 0.286 & 0.318 & 0.355 & 0.381 \\\\\n\\hline 18 & 0.244 & 0.279 & 0.309 & 0.346 & 0.371 \\\\\n\\hline 19 & 0.237 & 0.271 & 0.301 & 0.337 & 0.361 \\\\\n\\hline 20 & 0.232 & 0.265 & 0.294 & 0.329 & 0.352 \\\\\n\\hline 21 & 0.226 & 0.259 & 0.287 & 0.321 & 0.344 \\\\\n\\hline 22 & 0.221 & 0.253 & 0.281 & 0.314 & 0.337 \\\\\n\\hline 23 & 0.216 & 0.247 & 0.275 & 0.307 & 0.330 \\\\\n\\hline 24 & 0.212 & 0.242 & 0.264 & 0.301 & 0.323 \\\\\n\\hline 25 & 0.208 & 0.238 & 0.264 & 0.295 & 0.317 \\\\\n\\hline 26 & 0.204 & 0.233 & 0.259 & 0.290 & 0.311 \\\\\n\\hline 27 & 0.200 & 0.229 & 0.254 & 0.284 & 0.305 \\\\\n\\hline 28 & 0.197 & 0.225 & 0.250 & 0.279 & 0.300 \\\\\n\\hline 29 & 0.193 & 0.221 & 0.246 & 0.275 & 0.295 \\\\\n\\hline 30 & 0.190 & 0.218 & 0.242 & 0.270 & 0.281 \\\\\n\\hline 35 & 0.180 & 0.210 & 0.230 & 0.265 & 0.270 \\\\\n\\hline Over 35 & $1.07 / \\sqrt{n}$ & $1.22 / \\sqrt{n}$ & $1.36 / \\sqrt{n}$ & $1.56 / \\sqrt{n}$ & $1.63 / \\sqrt{n}$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Compare $D_n$ with the critical value $d_{n, \\alpha}$ obtained from Table A.4 in Appendix A, where $N=33$ and $\\alpha=10\\%$. Determine whether the hypothesis of the Poisson model is accepted."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "From Table A.4, $d_{n, \\alpha}=0.21$. Since $0.070<0.21\\left(D_n \\leq d_{n, \\alpha}\\right)$, the hypothesis of the Poisson model is accepted."
+  },
+  "meta_info": {
+    "index": "3.26",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.7 Goodness of Fit Tests",
+    "book": "Statistics for Business and Economics",
+    "page": "173-174"
+  },
+  "sample_key": "136"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "79",
+  "question": "A 18-month guarantee is given based on the assumption that no more than 5%\nof new cars will be returned.\n(a) The time to failure T of a car has a constant failure rate. What is the\nmaximum failure rate that can be tolerated?\n(b) Determine the probability that a new car will fail within three years\nassuming that the car was functioning at 18 months.",
+  "data": null,
+  "answer": "(a) $\\lambda \\leq 0.0342$.\n(b) $\\mathrm{P}(\\mathrm{T} \\leq 3 \\mid \\mathrm{T} \\geq 1.5)=0.0015$.",
+  "meta_info": {
+    "index": "1.19",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "60-60"
+  }
+}

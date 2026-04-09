@@ -1,0 +1,17 @@
+{
+  "id": "133",
+  "question": "Consider a high-voltage load-sharing system consisting of a power supply and two transmitters, say A and B, using mechanically tuned magnetrons (Pham 1992a). Two transmitters are used, each tuning one-half the desired frequency range; however, if one transmitter fails, the other can tune the entire range with a resultant change in the expected time to failure. Suppose that for this system to work, the power supply and at least one of the transmitters must work. The transmitters operate independently when both are functional. An undetected fault in either of the transmitters causes the system to fail.
+Suppose that transmitter A has constant failure rate $\lambda_A$ if transmitter B is operating and failure rate $\lambda_A^{\prime}$ if transmitter B has failed. Similarly, suppose that transmitter B has constant failure rate $\lambda_B$ if transmitter A is operating and failure rate $\lambda_B^{\prime}$ if transmitter A has failed. Denote $\lambda_P$ and $\lambda_C$ be the constant failure rate of power supply and fault coverage, respectively. Obtain the reliability and MTTF of the high-voltage load-sharing system with dependent failures.",
+  "data": null,
+  "answer": "The reliability and the MTTF function of the high-voltage load-sharing system\nare given as follows:\n$$\n\\begin{aligned}\n&\\begin{aligned}\nR(t)= & e^{-\\left(\\lambda_A+\\lambda_B+\\lambda_P\\right) t}+\\frac{\\lambda_A e^{-\\left(\\lambda_P+\\lambda_B^{\\prime}\\right) t}}{\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_B^{\\prime}\\right)}\\left(1-e^{-\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_B^{\\prime}\\right) t}\\right) \\\\\n& +\\frac{\\lambda_B e^{-\\left(\\lambda_P+\\lambda_A^{\\prime}\\right) t}}{\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_A^{\\prime}\\right)}\\left(1-e^{-\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_A^{\\prime}\\right) t}\\right)\n\\end{aligned}\\\\\n&\\text { The system MTTF is }\\\\\n&\\begin{aligned}\n\\operatorname{MTTF}= & \\frac{1}{\\lambda_A+\\lambda_B+\\lambda_P}+\\frac{\\lambda_A}{\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_B^{\\prime}\\right)} \\\\\n& \\left(\\frac{1}{\\lambda_P+\\lambda_B^{\\prime}}-\\frac{1}{\\lambda_A+\\lambda_B+\\lambda_C+\\lambda_P}\\right)\n\\end{aligned}\\\\\n&+\\frac{\\lambda_B}{\\left(\\lambda_A+\\lambda_B+\\lambda_C-\\lambda_A^{\\prime}\\right)}\\left(\\frac{1}{\\lambda_P+\\lambda_A^{\\prime}}-\\frac{1}{\\lambda_A+\\lambda_B+\\lambda_C+\\lambda_P}\\right)\n\\end{aligned}\n$$",
+  "meta_info": {
+    "index": "4.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "299-299"
+  }
+}

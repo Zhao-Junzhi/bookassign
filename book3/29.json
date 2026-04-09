@@ -1,0 +1,42 @@
+{
+  "id": "29",
+  "question": "At busy time a telephone exchange is very near capacity, so callers have difficult placing their calls. It may be of interest to know the number of attempts necessary in order to gain a connection. Suppose that we let $p=0.05$ be the probability of a connection during busy time. We are interested in knowing the probability that 4 attempts are necessary for a successful call. What is the expected number of calls necessary to make a connection?",
+  "data": null,
+  "answer": "The probability that four attempts are necessary for a successful call is:
+
+$$
+P(X=4)=p(1-p)^3=(0.05)(1-0.05)^3=0.0429
+$$
+
+
+The expected number of calls necessary to make a connection is
+
+$$
+E(X)=\frac{1}{p}=\frac{1}{0.05}=20
+$$
+
+
+Application-Software Debugging: Suppose we have to test a complex software program for the purpose of detecting and correcting errors. During debugging, we load specific data into the program and force the program to run along the prescribed path. If after several attempts, the program run correctly then it is considered as debugged. But programmers know that almost all large programs are not free of errors. Let the program to be debugged contain a fault. How long does it take to detect this error? Suppose that the probability of detecting the error during any attempt is equal to $p$. Let $X_i$ be the time needed to obtain the ith output for given inputs. Given that all $X_i$ are i.i.d. random variable, the total debugging time $T$ can be defined as
+
+$$
+T=Y_N=\sum_{i=1}^N X_i
+$$
+
+where $N$ is a geometric random variable such that
+
+$$
+P(N=n)=p(1-p)^{n-1} \quad n=1,2, \ldots
+$$
+
+and the desired time $T$ can be represented as a geometric sum.",
+  "meta_info": {
+    "index": "2.13",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "82-83"
+  }
+}

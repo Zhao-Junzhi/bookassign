@@ -1,0 +1,24 @@
+{
+  "id": "036",
+\begin{tabular}{|l|l|l|l|}
+\hline \multirow[b]{2}{*}{Habit} & \multicolumn{3}{|c|}{Intra oral subsite} \\
+\hline & Tongue ( $n=175$ ) & Buccal mucosa ( $n=300$ ) & Other ( $n=156$ ) \\
+\hline Chewing & 146 & 267 & 121 \\
+\hline Smoking & 71 & 166 & 102 \\
+\hline Alcohol & 51 & 71 & 46 \\
+\hline None of these & 17 & 12 & 6 \\
+\hline
+\end{tabular}
+  "data": null,
+  "answer": "It is clear from the table that some patients had more than one of the three habits, as would be expected. It is incorrect, therefore, to calculate $X^2$ for the full $4 \\times 3$ table. If we knew each patient's habits, then a complex regression analysis could be performed, using methods described in Chapter 12. From the available data we could construct $3 \\times 2$ tables for each habit and calculate the test statistic $X^2$ on 2 degrees of freedom.",
+  "meta_info": {
+    "index": "10.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "275-275"
+  }
+}

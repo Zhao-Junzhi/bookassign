@@ -1,0 +1,16 @@
+{
+  "id": "55",
+  "question": "Consider a normal distribution with unknown mean $\\mu$ and unknown standard deviation $\\sigma$. Suppose we draw a random sample of size $\\mathrm{n}=16$ from this population, and the sample values are:\n$$\n\\begin{array}{l|l|l|l}\n\\hline 16.16 & 9.33 & 12.96 & 11.49 \\\\\n\\hline 12.31 & 8.93 & 6.02 & 10.66 \\\\\n\\hline 7.75 & 15.55 & 3.58 & 11.34 \\\\\n\\hline 11.38 & 6.53 & 9.75 & 9.47 \\\\\n\\hline\n\\end{array}\n$$\nCompute the confidence interval for the mean $\\mu$ and at confidence level $1-\\alpha=$ 0.95.",
+  "data": null,
+  "answer": "A C.I. for $\\mu$ at confidence level 0.95 when $\\sigma$ is unknown is obtained from the corresponding t-test. The C.I is\n\n$$\n\\bar{X}-t_{1-\\frac{\\alpha}{2}, n-1} \\frac{S}{\\sqrt{n}} \\leq \\mu \\leq \\bar{X}+t_{1-\\frac{\\alpha}{2}, n-1} \\frac{S}{\\sqrt{n}}\n$$\n\n\nThe sample mean and sample variance, respectively, are:\n\n$$\n\\bar{X}=10.20 \\text { and } S^2=10.977\n$$\n\n\nThe sample standard deviation is: $S=3.313$. Also, $t_{1-\\frac{\\alpha}{2}, n-1}=t_{0.975,15}=2.131$.\nThe 95\\% C.I. for $\\mu$ is\n\n$$\n10.20-2.131 \\frac{3.313}{\\sqrt{16}} \\leq \\mu \\leq 10.20+2.131 \\frac{3.313}{\\sqrt{16}}\n$$\n\nor\n\n$$\n8.435 \\leq \\mu \\leq 11.965\n$$",
+  "meta_info": {
+    "index": "3.31",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.11 Interval Estimation",
+    "book": "Statistical Reliability Engineering",
+    "page": "184-185"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\051.json",
+  "input": {
+    "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model.",
+    "data": null,
+    "question": "Calculate the relative risks of dying (hazard ratio) for the following patients relative to non-GvHD non-CML patients: (i) with GvHD but not CML, (ii) CML but without GvHD, (iii) CML and GvHD."
+  },
+  "output": {
+    "method": "分类或发生概率影响因素解读",
+    "answer": "We need to calculate the prognostic index for each group of patients. These are as follows:\nnon-GvHD non-CML: PI = 0.000\nnon-GvHD CML: PI = -2.508\nGvHD non-CML: PI = 2.306\nGvHD CML: PI = -0.202 (=-2.508+2.306)\n\nThe relative risk of dying relative to the non-GvHD non-CML group is simply e^PI as the PI for that group is zero. Thus the risks of dying in the other groups relative to non-GvHD non-CML patients are:\nnon-GvHD CML: 0.08\nGvHD non-CML: 10.03\nGvHD CML: 0.82"
+  },
+  "meta_info": {
+    "index": "13.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Analysis of survival times",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "395-395"
+  },
+  "sample_key": "119"
+}

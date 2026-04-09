@@ -1,0 +1,16 @@
+{
+  "id": "37",
+  "question": "The failure time of a certain component is log normal distributed\nwith μ = 5 and σ = 1. Find the reliability of the component and the hazard rate for\na life of 50 time units.",
+  "data": null,
+  "answer": "Substituting the numerical values ofμ, σ, and t into Eq. (2.61), we compute\n$$\n\\begin{aligned}\nR(50) & =P\\left(Z>\\frac{\\ln 50-5}{1}\\right)=P(Z>-1.09) \\\\\n& =0.8621\n\\end{aligned}\n$$\n\n\nSimilarly, the hazard function is given by\n\n$$\nh(50)=\\frac{\\Phi\\left(\\frac{\\ln 50-5}{1}\\right)}{50(1)(0.8621)}=0.032 \\text { failures/unit. }\n$$\n\n\nThus, values for the log normal distribution are easily computed by using the standard normal tables.",
+  "meta_info": {
+    "index": "2.21",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "100-100"
+  }
+}

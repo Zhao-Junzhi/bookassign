@@ -1,0 +1,32 @@
+{
+  "background": "Suppose that $\\mathrm{X}_1, \\mathrm{X}_2, \\ldots, \\mathrm{X}_{\\mathrm{n}}$ are independent random variables, each with the following probability density function:\n\n$$\nf(x, \\alpha, \\beta)= \\begin{cases}0 & \\text { if } x<\\alpha \\\\ \\frac{1}{\\beta} e^{-\\frac{(x-\\alpha)}{\\beta}} & \\text { if } x \\geq \\alpha\\end{cases}\n$$\n\nwhere $-\\infty<\\alpha<\\infty$ and $0<\\beta<\\infty$ are both unknown.",
+  "task": [
+    {
+      "query": "(a) Find the maximum likelihood estimators (MLE) of $\\alpha$ and $\\beta$, say $\\hat{\\alpha}$ and $\\hat{\\beta}$, respectively.",
+      "answer": "The MLE of $\\alpha$ and $\\beta$ are derived based on the likelihood function.",
+      "method": "数据分布建模"
+    },
+    {
+      "query": "(b) Find $E(\\hat{\\alpha})$ and $E(\\hat{\\beta})$.",
+      "answer": "$E(\\hat{\\beta})=(\\alpha+\\beta)-\\left(\\alpha+\\frac{\\beta}{n}\\right)=\\beta\\left(1-\\frac{1}{n}\\right)$ and $E(\\hat{\\alpha})=\\alpha+\\frac{\\beta}{n}$.",
+      "method": "数据分布建模"
+    },
+    {
+      "query": "(c) If $\\mathrm{n}=7$ and $\\mathrm{x}_1=5.3, \\mathrm{x}_2=3.2, \\mathrm{x}_3=2.4, \\mathrm{x}_4=3.8, \\mathrm{x}_5=4.2, \\mathrm{x}_6=3.4, \\mathrm{x}_7=$ 2.9, find the MLE of $\\alpha$ and $\\beta$.",
+      "answer": "$\\hat{\\alpha}=2.4$ and $\\hat{\\beta}=1.2$.",
+      "method": "数据分布建模"
+    }
+  ],
+  "id": "122",
+  "data": null,
+  "meta_info": {
+    "index": "3.20",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "218-218"
+  }
+}

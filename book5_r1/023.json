@@ -1,0 +1,37 @@
+{
+  "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights. On a voluntary basis, 17 astronauts consumed large quantities of salt and fluid prior to landing as a countermeasure to space deconditioning, while 9 did not. The study compared supine heart rates (beats/minute) before and after flights in the space shuttle.",
+  "task": [
+    {
+      "query": "Compare the pre- and post-flight measurements in the countermeasure group using both a parametric and a non-parametric method. Which analysis is preferable?",
+      "answer": "If the changes have a reasonably Normal distribution, then a CI could be obtained using the $t$ distribution as described in sections 9.4.1 and 9.5.1, and a paired $t$ test could be used (or, equivalently, a one sample $t$ test of the differences). A Wilcoxon test for matched data could be used if the differences had a reasonably symmetric but non-Normal distribution.\n\nA Normal plot of the changes is quite straight, and the $W^{\\prime}$ test gives $W^{\\prime}=0.98, \\mathrm{P}=0.96$, so either of the above methods is appropriate. Because the changes have a nearly Normal distribution they will give very similar results. Using the parametric approach, the $95 \\%$ confidence interval for the mean change in supine heart rate in the countermeasure group is 1.38 to 12.38 beats $/ \\mathrm{min}$. The paired $t$ test gives $t=2.65(\\mathrm{P}=0.017)$. The data thus appear to show that the countermeasure has reduced heart rate, but the correct approach is to compare this group with a group who did not adopt the countermeasure, as discussed below.",
+      "method": "均值检验"
+    },
+    {
+      "query": "In the light of the answer to (a), perform a suitable analysis to compare the changes in heart rate in the two groups. What conclusion can be made about the effectiveness of the countermeasure?",
+      "answer": "The changes in heart rate in the group not adopting the countermeasure were not significantly non-Normal ( $W^{\\prime}=0.865, \\mathrm{P}=0.10$ ), and the SDs in the two groups were very similar, so we can use a two sample $t$ test to compare the changes in heart rate in the two groups. The difference between the mean changes is 10.56 and the $95 \\%$ CI is 1.62 to 19.50 , giving some evidence in support of the effectiveness of the countermeasure. The two sample $t$ test gives $t=2.44(\\mathrm{P}=0.023)$.",
+      "method": "均值检验"
+    },
+    {
+      "query": "Two astronauts each flew on two missions and are thus represented twice in the data set. Does this matter?",
+      "answer": "It is incorrect to analyse multiple observations on the same individuals as if they were from different people. Here the effect is likely to be minimal as only two astronauts were included twice. The duplicate data were not identified in the paper.",
+      "method": "其它（如 reliability）"
+    },
+    {
+      "query": "Comment on the voluntary aspect of the study, and how it might affect the interpretation of the results.",
+      "answer": "In clinical research it is highly undesirable to let subjects choose their own treatments. No clinical trial conducted in this way would have credibility. Ideally (from the research point of view) the astronauts should have been randomized to receive the dietary countermeasure, but this was not set up as a prospective study. The likely homogeneity of the astronauts, for example with respect to fitness, would probably lessen the volunteer effect. Clearly the pre-flight heart rates in the two groups were very similar, which strengthens the findings. In the end the validity of the results is a matter of judgement.",
+      "method": "观测数据"
+    }
+  ],
+  "id": "023",
+  "data": null,
+  "meta_info": {
+    "index": "9.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups – continuous data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "223-224"
+  }
+}

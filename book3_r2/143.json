@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\58.json",
+  "input": {
+    "background": "The following data were drawn one observation at a time in the order records: gbggbgbgbggbgbg. where $b$ denotes a defective item and $g$ denotes a good item. The experiment was performed to test the following hypothesis: $$ \\mathrm{H}_0: \\mathrm{p}=\\mathrm{p}_0=0.10 \\text { versus } \\mathrm{H}_1: \\mathrm{p}=\\mathrm{p}_1=0.2 $$ where $p$ denotes the proportion defective items in the population. It is desired to reject $\\mathrm{H}_0$ when it is true with probability 0.05 and to accept $\\mathrm{H}_0$ when $\\mathrm{H}_1$ is true with probability 0.20. Using the sequential testing plan, we wish to determine whether we would accept or reject a lot on the basis of the observations above.",
+    "data": "$$\n\\mathrm{s}_{\\mathrm{b}} n+b_1<d_n<\\mathrm{s}_{\\mathrm{b}} n+b_0\n$$\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.13 The sampling procedure}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline $n$ & $x_n$ & $d_n$ & Acceptance \\# & Rejection \\# \\\\\n\\hline 1 & 0 & 0 & - & - \\\\\n\\hline 2 & 1 & 1 & - & - \\\\\n\\hline 3 & 0 & 1 & - & - \\\\\n\\hline 4 & 0 & 1 & - & - \\\\\n\\hline 5 & 1 & 2 & - & 5 \\\\\n\\hline 6 & 0 & 2 & - & 5 \\\\\n\\hline 7 & 1 & 3 & - & 5 \\\\\n\\hline 8 & 0 & 3 & - & 5 \\\\\n\\hline 9 & 1 & 4 & - & 5 \\\\\n\\hline 10 & 0 & 4 & - & 5 \\\\\n\\hline 11 & 0 & 4 & - & 6 \\\\\n\\hline 12 & 1 & 5 & - & 6 \\\\\n\\hline 13 & 0 & 5 & - & 6 \\\\\n\\hline 14 & 1 & 6 & 0 & 6 \\\\\n\\hline 15 & 0 & 6 & 0 & 6 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Using the sequential testing plan, determine whether we would accept or reject a lot on the basis of the observations above."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "Given $p_0=0.10, p_1=0.20, \\alpha=0.05, \\beta=0.20$. From Eq. (3.88) we have $$ \\begin{gathered} s_b=-\\frac{\\ln \\left(\\frac{1-p_1}{1-p_0}\\right)}{\\ln \\left(\\frac{p_1\\left(1-p_0\\right)}{p_0\\left(1-p_1\\right)}\\right)}=-\\frac{\\ln \\left(\\frac{1-0.20}{1-0.10}\\right)}{\\ln \\left(\\frac{0.2(1-0.10)}{0.10(1-0.20)}\\right)}=0.1452 \\\\ b_1=\\frac{\\ln \\left(\\frac{\\beta}{1-\\alpha}\\right)}{\\ln \\left(\\frac{p_1\\left(1-p_0\\right)}{p_0\\left(1-p_1\\right)}\\right)}=\\frac{\\ln \\left(\\frac{0.2}{1-0.05}\\right)}{\\ln \\left(\\frac{0.2(1-0.1)}{0.1(1-0.2)}\\right)}=-1.9214, \\\\ b_0=\\frac{\\ln \\left(\\frac{1-\\beta}{\\alpha}\\right)}{\\ln \\left(\\frac{p_1\\left(1-p_0\\right)}{p_0\\left(1-p_1\\right)}\\right)}=\\frac{\\ln \\left(\\frac{1-0.2}{0.05}\\right)}{\\ln \\left(\\frac{0.2(1-0.1)}{0.1(1-0.2)}\\right)}=3.4190, \\end{gathered} $$ Thus, $$ s_b n+b_1<d_n<s_b n+b_0 $$ $$ 0.1452 n-1.9214<d_n<0.1452 n+3.4190 $$ The acceptance line is: $0.1452 n-1.9214$. The rejection line is: $0.1452 n+3.4190$. From Table 3.13, the cumulative number of defective units $\\mathrm{d}_{14}=6$ falls above the rejection line when $n=14$. Therefore, the sampling is stopped at the 14th observation and that the lot would be rejected. That is, reject the hypothesis $\\mathrm{H}_0: \\mathrm{p}=0.10$."
+  },
+  "meta_info": {
+    "index": "3.41",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.13 Sequential Sampling",
+    "book": "Statistical Reliability Engineering",
+    "page": "198-199"
+  },
+  "sample_key": "143"
+}

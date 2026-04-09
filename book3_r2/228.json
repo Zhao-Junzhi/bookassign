@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\85.json",
+  "input": {
+    "background": "The probability density function of the lifetime of an electric motor is given by $$f(t)=0.25 t e^{-0.5 t} \\quad t>0$$ where $t$ is in years.",
+    "data": "",
+    "question": "If no more than $3 \\%$ of the motors are to require warranty services, what is the maximum number of days for which the motor can be warranted?"
+  },
+  "output": {
+    "method": "达到指定概率所需的最小样本量",
+    "answer": "The maximum number of days for which the motor can be warranted is 195.3 days."
+  },
+  "meta_info": {},
+  "sample_key": "228"
+}

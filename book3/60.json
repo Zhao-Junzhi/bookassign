@@ -1,0 +1,41 @@
+{
+  "id": "60",
+  "question": "Consider a communication system with three independent units such as transmitting unit, receiving unit and a processing unit. Assume that the transmitter has a constant failure rate of $\lambda_T=0.002$ per hour, the receiver has a constant failure rate of $\lambda_R=0.005$ per hour, and the processor has a constant failure rate of $\lambda_P=0.008$ per hour. Obtain the system reliability for a mission of 25 h .",
+  "data": null,
+  "answer": "The reliability of transmitting unit is given by
+
+$$
+R_T(25)=e^{-0.002(25)}=0.9512
+$$
+
+
+The reliability of receiving unit is
+
+$$
+R_R(25)=e^{-0.005(25)}=0.8825
+$$
+
+
+The reliability of processing unit is
+
+$$
+R_P(25)=e^{-0.008(25)}=0.8187
+$$
+
+
+The reliability of this communication system is given by
+
+$$
+R(25)=(0.9512) *(0.8825) *(0.8187)=0.6872
+$$",
+  "meta_info": {
+    "index": "4.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.2 Series Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "225-225"
+  }
+}

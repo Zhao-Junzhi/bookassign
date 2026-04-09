@@ -1,0 +1,32 @@
+{
+  "background": "The table describes patients' habits, where some patients had more than one of the three habits. The problem involves analyzing the table and determining the appropriate statistical methods.",
+  "task": [
+    {
+      "query": "Why is it incorrect to calculate $X^2$ for the full $4 \\times 3$ table?",
+      "answer": "It is clear from the table that some patients had more than one of the three habits, as would be expected. It is incorrect, therefore, to calculate $X^2$ for the full $4 \\times 3$ table.",
+      "method": "独立性检验"
+    },
+    {
+      "query": "How can we analyze each patient's habits using regression analysis?",
+      "answer": "If we knew each patient's habits, then a complex regression analysis could be performed, using methods described in Chapter 12.",
+      "method": "回归系数显著性与方向解读"
+    },
+    {
+      "query": "What can be done with the available data to calculate the test statistic $X^2$?",
+      "answer": "From the available data we could construct $3 \\times 2$ tables for each habit and calculate the test statistic $X^2$ on 2 degrees of freedom.",
+      "method": "独立性检验"
+    }
+  ],
+  "id": "036",
+  "data": null,
+  "meta_info": {
+    "index": "10.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "275-275"
+  }
+}

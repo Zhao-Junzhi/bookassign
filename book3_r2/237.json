@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\91.json",
+  "input": {
+    "background": "Claim amounts for wind damage to insured homes are independent random variables with a common probability density function.",
+    "data": "",
+    "question": "What is the expected value of the smallest of the five claims?"
+  },
+  "output": {
+    "method": "期望",
+    "answer": "The expected value of the smallest of the five claims is 1071.4."
+  },
+  "meta_info": {},
+  "sample_key": "237"
+}

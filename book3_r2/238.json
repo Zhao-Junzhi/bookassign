@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\92.json",
+  "input": {
+    "background": "A system consisting of one original unit plus a spare can function for a random amount of time $X$. The density of $X$ is given (in units of months) by $f(x)= \\begin{cases}C x e^{-\\frac{x}{2}} & \\text { for } x>0 \\\\ 0 & \\text { or } x \\leq 0\\end{cases}$, where C is a constant.",
+    "data": "",
+    "question": "What is the probability that the system functions for at least 5 months?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The probability that the system functions for at least 5 months is 0.2873."
+  },
+  "meta_info": {},
+  "sample_key": "238"
+}

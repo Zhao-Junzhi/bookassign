@@ -1,0 +1,16 @@
+{
+  "id": "22",
+  "question": "Assume there are 10 identical units to place on test at the same time t\n= 0 where each unit has an exponential life distribution with a mean time to failure\nMTTF μ = 5 h and that the units operate independently.\n(a) Determine the expected and the variance of number of failures during the first\nhour, i.e. interval [0, 1).\n(b) What is the expected and the variance of the number of failures during the\ninterval [1, 2).",
+  "data": null,
+  "answer": "(a) Let $N_1$ be the number of failures during the first hour, in the time interval $[0$, 1). The probability of failure of a unit in the time interval $[0,1)$ is\n\n$$\nq_1=1-e^{-\\frac{1}{5}}=0.1813\n$$\n\n\nThe distribution of $N_1$ that the probability of exactly $i$ failures in $[0,1)$ is\n\n$$\nP\\left(N_1=i\\right)=\\binom{10}{i}(0.1813)^i(0.8187)^{10-i}\n$$\n\n\nThe expected number of failures $\\left(N_1\\right)$ during the first hour is\n\n$$\nE\\left(N_1\\right)=n q_1=10(0.1813)=1.813\n$$\n\n\nThe variance of $N_1$ is\n\n$$\n\\begin{aligned}\nV\\left(N_1\\right) & =n q_1\\left(1-q_1\\right) \\\\\n& =10(0.1813)(0.8187)=1.4843\n\\end{aligned}\n$$\n\n\nSimilarly, let $N_2$ be the number of failures during the second hour, in the time interval $[1,2)$. Assume that the unit will not fail during the first hour, the probability of failure of a unit in the time interval $[1,2)$ is\n\n$$\n\\begin{aligned}\nq_2 & =P(1<T \\leq 2)=P(T \\leq 2)-P(T \\leq 1) \\\\\n& =\\left(1-e^{-\\frac{2}{5}}\\right)-\\left(1-e^{-\\frac{1}{5}}\\right)=0.1484\n\\end{aligned}\n$$\n\n\nThe distribution of $N_2$ that the probability of exactly $i$ failures during the time interval $[1,2)$ is\n\n$$\nP\\left(N_2=i\\right)=\\binom{10}{i}(0.1484)^i(0.8516)^{10-i}\n$$\nThe expected number of failures $\\left(N_2\\right)$ during the interval $[1,2)$ is\n\n$$\nE\\left(N_2\\right)=n q_2=10(0.1484)=1.484\n$$\n\n\nThe variance of $\\mathrm{N}_2$ is\n\n\n$$\n\\begin{aligned}\nV\\left(N_2\\right) & =n q_2\\left(1-q_2\\right) \\\\\n& =10(0.1484)(0.8516)=1.2638\n\\end{aligned}\n$$\n\n(b) Similarly, one can easily obtain the distribution of the number of failures and expected number of failures during the third hour, the fourth hour (see Problem 22 in Chap. 1).",
+  "meta_info": {
+    "index": "2.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "70-72"
+  }
+}

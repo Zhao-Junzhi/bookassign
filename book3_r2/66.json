@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\135.json",
+  "input": {
+    "background": "An instrument which consists of $k$ units operates for a time $t$. The reliability of each unit during the time $t$ is $p$. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. He needs a time $s$ to replace one unit.",
+    "data": null,
+    "question": "Calculate (a) when $p=0.9$ and $k=10$."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$\\mathrm{R}=0.9298$."
+  },
+  "meta_info": {
+    "index": "4.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "299-299"
+  },
+  "sample_key": "66"
+}

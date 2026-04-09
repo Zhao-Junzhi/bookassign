@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\84.json",
+  "input": {
+    "background": "Determine the number of ways to form a sequence of 10 letters from given counts of letters, with constraints on minimum occurrences.",
+    "data": "",
+    "question": "How many ways are there to form a sequence of 10 letters from 4 a's, 4 b's, 4 c's and 4 d's if each letter must appear at least twice?"
+  },
+  "output": {
+    "method": "概率空间相关（如状态数）",
+    "answer": "$$ 226,800 \\text { ways. }$$"
+  },
+  "meta_info": {},
+  "sample_key": "225"
+}

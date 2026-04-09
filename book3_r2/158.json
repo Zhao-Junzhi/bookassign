@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\61.json",
+  "input": {
+    "background": "If a parallel system consists of 3 independent components, each having 0.95 reliability, then the system reliability is given by R=1-(1-0.95)^3=0.9999.",
+    "data": null,
+    "question": "The mean time to failure of the system can be obtained M_tbf=∫_0^∞ R(t) dt=∫_0^∞ (1-∏_{i=1}^n (1-e^(-λ_i t))) dt."
+  },
+  "output": {
+    "method": "数学计算 - 期望",
+    "answer": "M_tbf=∫_0^∞ R(t) dt=∫_0^∞ (1-∏_{i=1}^n (1-e^(-λ_i t))) dt."
+  },
+  "meta_info": {
+    "index": "4.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.3 Parallel Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "227-228"
+  },
+  "sample_key": "158"
+}

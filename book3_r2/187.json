@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\79.json",
+  "input": {
+    "background": "A 18-month guarantee is given based on the assumption that no more than 5% of new cars will be returned.",
+    "data": null,
+    "question": "Determine the probability that a new car will fail within three years assuming that the car was functioning at 18 months."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$\\mathrm{P}(\\mathrm{T} \\leq 3 \\mid \\mathrm{T} \\geq 1.5)=0.0015$."
+  },
+  "meta_info": {
+    "index": "1.19",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "60-60"
+  },
+  "sample_key": "187"
+}

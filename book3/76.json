@@ -1,0 +1,22 @@
+{
+  "id": "76",
+"question": "A fax machine with constant failure rate $\lambda$ will survive for a period of 720 h without failure, with probability 0.80 .
+(a) Determine the failure rate $\lambda$.
+(b) Determine the probability that the machine, which is functioning after 600 h , will still function after 800 h .
+(c) Find the probability that the machine will fail within 900 h , given that the machine was functioning at 720 h .",
+  "data": null,
+  "answer": "(a) $\lambda=0.00031$
+(b) $\mathrm{P}(\mathrm{T}>800 \mid \mathrm{T}>600)=0.9399$
+(c) $\mathrm{P}(\mathrm{T} \leq 900 \mid \mathrm{T} \geq 720)=0.0543$",
+  "meta_info": {
+  "meta_info": {
+    "index": "1.16",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "59-59"
+  }
+}

@@ -41,22 +41,25 @@ def parse_json_like_file(file_path: Path) -> Optional[Dict]:
         if question_match:
             result['question'] = question_match.group(1)
         
-        # 提取 data 字段（可能包含复杂的LaTeX代码和换行）
-        data_match = re.search(r'"data"\s*:\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
+        # 提取 data 字段（可能包含复杂的LaTeX代码、换行或null值）
+        data_match = re.search(r'"data"\s*:\s*(null|"((?:[^"\\]|\\.)*)")', content, re.DOTALL)
         if data_match:
-            # 处理转义字符
-            data_content = data_match.group(1)
-            # 将 \\n 转换为实际换行符
-            data_content = data_content.replace('\\n', '\n')
-            # 将 \\t 转换为制表符
-            data_content = data_content.replace('\\t', '\t')
-            # 将 \\r 转换为回车符
-            data_content = data_content.replace('\\r', '\r')
-            # 将 \\" 转换为引号
-            data_content = data_content.replace('\\"', '"')
-            # 将 \\\\ 转换为反斜杠
-            data_content = data_content.replace('\\\\', '\\')
-            result['data'] = data_content
+            if data_match.group(1) == 'null':
+                result['data'] = None
+            else:
+                # 处理转义字符
+                data_content = data_match.group(2)
+                # 将 \\n 转换为实际换行符
+                data_content = data_content.replace('\\n', '\n')
+                # 将 \\t 转换为制表符
+                data_content = data_content.replace('\\t', '\t')
+                # 将 \\r 转换为回车符
+                data_content = data_content.replace('\\r', '\r')
+                # 将 \" 转换为引号
+                data_content = data_content.replace('\\"', '"')
+                # 将 \\\\ 转换为反斜杠
+                data_content = data_content.replace('\\\\', '\\')
+                result['data'] = data_content
         
         # 提取 answer 字段
         answer_match = re.search(r'"answer"\s*:\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
@@ -70,7 +73,7 @@ def parse_json_like_file(file_path: Path) -> Optional[Dict]:
             result['answer'] = answer_content
         
         # 提取 meta info 字段（嵌套对象）
-        meta_match = re.search(r'"meta info"\s*:\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}', content, re.DOTALL)
+        meta_match = re.search(r'"meta_info"\s*:\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}', content, re.DOTALL)
         if meta_match:
             meta_content = meta_match.group(0)
             # 解析meta info中的各个字段
@@ -81,15 +84,29 @@ def parse_json_like_file(file_path: Path) -> Optional[Dict]:
             if index_match:
                 meta_info['index'] = index_match.group(1)
             
-            # 提取 image
-            image_match = re.search(r'"image"\s*:\s*"([^"]*)"', meta_content)
-            if image_match:
-                meta_info['image'] = image_match.group(1)
+            # 提取 img_in_question
+            img_in_question_match = re.search(r'"img_in_question"\s*:\s*(null|"([^"]*)")', meta_content)
+            if img_in_question_match:
+                if img_in_question_match.group(1) == 'null':
+                    meta_info['img_in_question'] = None
+                else:
+                    meta_info['img_in_question'] = img_in_question_match.group(2)
+            
+            # 提取 img_in_answer
+            img_in_answer_match = re.search(r'"img_in_answer"\s*:\s*(null|"([^"]*)")', meta_content)
+            if img_in_answer_match:
+                if img_in_answer_match.group(1) == 'null':
+                    meta_info['img_in_answer'] = None
+                else:
+                    meta_info['img_in_answer'] = img_in_answer_match.group(2)
             
             # 提取 caption
-            caption_match = re.search(r'"caption"\s*:\s*"([^"]*)"', meta_content)
+            caption_match = re.search(r'"caption"\s*:\s*(null|"([^"]*)")', meta_content)
             if caption_match:
-                meta_info['caption'] = caption_match.group(1)
+                if caption_match.group(1) == 'null':
+                    meta_info['caption'] = None
+                else:
+                    meta_info['caption'] = caption_match.group(2)
             
             # 提取 chapter
             chapter_match = re.search(r'"chapter"\s*:\s*"([^"]*)"', meta_content)
@@ -101,12 +118,17 @@ def parse_json_like_file(file_path: Path) -> Optional[Dict]:
             if section_match:
                 meta_info['section'] = section_match.group(1)
             
+            # 提取 book
+            book_match = re.search(r'"book"\s*:\s*"([^"]*)"', meta_content)
+            if book_match:
+                meta_info['book'] = book_match.group(1)
+            
             # 提取 page
             page_match = re.search(r'"page"\s*:\s*"([^"]*)"', meta_content)
             if page_match:
                 meta_info['page'] = page_match.group(1)
             
-            result['meta info'] = meta_info
+            result['meta_info'] = meta_info
         
         return result
         
@@ -129,18 +151,20 @@ def test_parse_file(file_path: Path):
         print(f"ID: {result.get('id', 'N/A')}")
         print(f"Question: {result.get('question', 'N/A')[:80]}...")
         print(f"Answer: {result.get('answer', 'N/A')[:80]}...")
-        print(f"Data长度: {len(result.get('data', ''))} 字符")
-        print(f"Meta info keys: {list(result.get('meta info', {}).keys())}")
+        print(f"Data: {result.get('data', 'N/A')}")
+        print(f"Meta info keys: {list(result.get('meta_info', {}).keys())}")
         
-        # 显示data字段的前100字符
-        data = result.get('data', '')
-        print(f"\nData字段前100字符:")
-        print(repr(data[:100]))
+        # 显示meta info详情
+        meta_info = result.get('meta_info', {})
+        if meta_info:
+            print("\nMeta info详情:")
+            for key, value in meta_info.items():
+                print(f"  {key}: {value}")
     else:
         print("解析失败!")
 
 
 if __name__ == "__main__":
-    # 测试解析record_001.json
-    test_file = Path(r'd:\place\study\bookassign\book1\record_001.json')
+    # 测试解析02.json
+    test_file = Path(r'd:\place\study\bookassign\book3\02.json')
     test_parse_file(test_file)

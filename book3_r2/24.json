@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\105.json",
+  "input": {
+    "background": "There are n workers in an assembly line factory and it is known that the number of workers independently reporting for work on a given day is binomially distributed with parameters n and p where p is the probability of an individual who presents for work.",
+    "data": null,
+    "question": "Determine this probability when p = 0.95 and n = 20."
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "$$P(Y \\geq 2)=\\sum_{y=2}^{20}\\binom{20}{y}(0.05)^y(0.95)^{20-y}=0.000001 .$$"
+  },
+  "meta_info": {
+    "index": "2.25",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "131-131"
+  },
+  "sample_key": "24"
+}

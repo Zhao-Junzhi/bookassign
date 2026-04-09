@@ -1,0 +1,16 @@
+{
+  "id": "034",
+  "question": "The following table shows the number of hours spent in bed by 14 year old boys and girls (Macgregor and Balding, 1988). Times were rounded up to the next half hour.\n(a) Which methods of analysis could be used to compare the distributions for boys and girls?\n(b) Is there any difference between boys and girls?",
+  "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline  & \\multicolumn{9}{|c|}{Time spent in bed (hours)} \\\\\n\\hline & $\\leqslant 7.0$ & 7.5 & 8.0 & 8.5 & 9.0 & 9.5 & 10.0 & > 10.0 & Total \\\\\n\\hline Boys & 88 & 109 & 210 & 324 & 359 & 313 & 182 & 85 & 1670 \\\\\n\\hline Girls & 92 & 108 & 217 & 349 & 436 & 334 & 198 & 65 & 1799 \\\\\n\\hline Total & 180 & 217 & 427 & 673 & 795 & 647 & 380 & 150 & 3469 \\\\\n\\hline\n\\end{tabular}",
+  "answer": "(a) The Mann-Whitney test or the Chi squared test for trend could be used. Each would require scores to be given to each column. These could reasonably be equally spaced; most obviously the values 1 to 8 could be used.\n(b) The Mann-Whitney test is hard to apply when the samples are so large (most computer programs cannot perform the test on a table, but would require data for the 3469 children). The Chi squared test can be applied equally easily regardless of sample size. The overall comparison of the eight groups gives $X^2=7.83$ on 7 degrees of freedom ( $\\mathrm{P}=0.35$ ), and the trend test gives $X_{\\text {trend }}^2=0.04$ on 1 degree of freedom $(\\mathrm{P}=0.84)$. These figures indicate that the variation seen is likely to be due to chance and not to a tendency for boys to sleep longer than girls or vice versa.",
+  "meta_info": {
+    "index": "10.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups - categorical data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "274-274"
+  }
+}

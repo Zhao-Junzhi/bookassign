@@ -1,0 +1,16 @@
+{
+  "id": "020",
+  "question": "Eight diabetic patients had plasma glucose levels ( $\\mathrm{mmol} / \\mathrm{l}$ ) measured before and one hour after oral administration of 100 g glucose (Feingold et al., 1989), with the following results\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline  \\multicolumn{4}{|c|}{Plasma glucose (mmol/l)} \\\\\n\\hline Patient & Before & After & Change \\\\\n\\hline 1 & 4.67 & 5.44 & 0.77 \\\\\n\\hline 2 & 4.97 & 10.11 & 5.14 \\\\\n\\hline 3 & 5.11 & 8.49 & 3.38 \\\\\n\\hline 4 & 5.17 & 6.61 & 1.44 \\\\\n\\hline 5 & 5.33 & 10.67 & 5.34 \\\\\n\\hline 6 & 6.22 & 5.67 & -0.55 \\\\\n\\hline 7 & 6.50 & 5.78 & -0.72 \\\\\n\\hline 8 & 7.00 & 9.89 & 2.89 \\\\\n\\hline\n\\end{tabular}\n(a) Calculate the standard error of the mean change in plasma glucose.\n(b) On the basis of these data, how many diabetic patients would need to be studied so that the width of the $95 \\%$ confidence interval for the mean change in plasma glucose level was $0.5 \\mathrm{mmol} / 1$ ? (Assume that the Normal distribution is the appropriate sampling distribution for the change in plasma glucose.)",
+  "data": null,
+  "answer": "(a) The SE of the mean is $\\mathrm{SD} / \\sqrt{n}$, which is $2.3629 / \\sqrt{8}=0.8354$.\n(b) The $95 \\% \\mathrm{CI}$ for the mean is the range from mean -1.96 SE to mean +1.96 SE , so the width of the CI is $2 \\times 1.96 \\times \\mathrm{SE}$. For this to be equal to $0.5 \\mathrm{mmol} / 1$ we need $\\mathrm{SE}=\\frac{0.5}{2 \\times 1.96}=0.1276$. Assuming that we still have SD $=2.3629$, then we would have $2.3629 / \\sqrt{N}=0.1276$ which gives $N=(2.3629 / 0.1276)^2=343$.",
+  "meta_info": {
+    "index": "8.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Principles of statistical analysis",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "177-178"
+  }
+}

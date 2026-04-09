@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\029.json",
+  "input": {
+    "background": "The effect of gestrinone on patients with asymptomatic endometriosis was evaluated in a randomized double-blind placebo controlled trial. Before treatment, each patient was given a score on a scale derived by the American Fertility Society, and this was repeated after 24 weeks' treatment. High scores indicate more serious disease.",
+    "data": "\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline  & \\multicolumn{2}{|c|}{Placebo group} & \\multicolumn{3}{|c|}{Gestrinone group} \\\\\n\\hline & Before treatment & After treatment & & Before treatment & After treatment \\\\\n\\hline 1 & 1 & 0 & 1 & 1 & 0 \\\\\n\\hline 2 & 1 & 1 & 2 & 1 & 0 \\\\\n\\hline 3 & 1 & 2 & 3 & 1 & 0 \\\\\n\\hline 4 & 2 & 0 & 4 & 1 & 0 \\\\\n\\hline 5 & 2 & 0 & 5 & 1 & 0 \\\\\n\\hline 6 & 2 & 2 & 6 & 1 & 1 \\\\\n\\hline 7 & 2 & 3 & 7 & 1 & 1 \\\\\n\\hline 8 & 3 & 3 & 8 & 2 & 0 \\\\\n\\hline 9 & 3 & 5 & 9 & 2 & 0 \\\\\n\\hline 10 & 3 & 5 & 10 & 2 & 0 \\\\\n\\hline 11 & 3 & 5 & 11 & 2 & 0 \\\\\n\\hline 12 & 3 & 9 & 12 & 2 & 1 \\\\\n\\hline 13 & 5 & 1 & 13 & 2 & 2 \\\\\n\\hline 14 & 5 & 5 & 14 & 3 & 1 \\\\\n\\hline 15 & 6 & 4 & 15 & 3 & 2 \\\\\n\\hline 16 & 6 & 10 & 16 & 3 & 2 \\\\\n\\hline 17 & 6 & 12 & 17 & 4 & 1 \\\\\n\\hline & & & 18 & 5 & 1 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Identify and carry out a suitable comparison of the scores after treatment."
+  },
+  "output": {
+    "method": "假设检验与区间估计",
+    "answer": "The post-treatment scores should be compared by the Mann-Whitney test because the data are not suitable for the $t$ test. This analysis gives $z=3.22(\\mathrm{P}=0.001)$, strong evidence that gestrinone is more effective than placebo in improving the scores of these patients."
+  },
+  "meta_info": {
+    "index": "9.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups – continuous data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "227-228"
+  },
+  "sample_key": "64"
+}

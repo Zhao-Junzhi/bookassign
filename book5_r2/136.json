@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\056.json",
+  "input": {
+    "background": "A study of observer variation was performed using radiographic diagnosis of caries on 3869 molars and premolars (Espeland and Handelman, 1989). The following table shows the results for three dentists. Teeth were diagnosed as sound (S) or carious (C).",
+    "data": null,
+    "question": "Is this a good level of agreement?"
+  },
+  "output": {
+    "method": "相关系数（一维）",
+    "answer": "A kappa value of 0.46 is not usually considered to be especially good agreement, but dentists 1 and 2 agreed about $97 \\%$ of the teeth examined. This discrepancy is because they both considered the large majority of teeth to be sound. Among the 619 teeth which at least one of dentists 1 and 2 considered carious, they agreed on only 216 $(35 \\%)$. Good agreement depends upon circumstances, not upon the kappa value (and certainly not upon the P value - because of the huge sample size, all the above kappa values are highly statistically significant)."
+  },
+  "meta_info": {
+    "index": "14.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Some common problems in medical research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "438-439"
+  },
+  "sample_key": "136"
+}

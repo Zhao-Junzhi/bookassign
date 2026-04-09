@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\023.json",
+  "input": {
+    "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights. On a voluntary basis, 17 astronauts consumed large quantities of salt and fluid prior to landing as a countermeasure to space deconditioning, while 9 did not. The study compared supine heart rates (beats/minute) before and after flights in the space shuttle.",
+    "data": null,
+    "question": "Compare the pre- and post-flight measurements in the countermeasure group using both a parametric and a non-parametric method. Which analysis is preferable?"
+  },
+  "output": {
+    "method": "均值检验",
+    "answer": "If the changes have a reasonably Normal distribution, then a CI could be obtained using the $t$ distribution as described in sections 9.4.1 and 9.5.1, and a paired $t$ test could be used (or, equivalently, a one sample $t$ test of the differences). A Wilcoxon test for matched data could be used if the differences had a reasonably symmetric but non-Normal distribution.\n\nA Normal plot of the changes is quite straight, and the $W^{\\prime}$ test gives $W^{\\prime}=0.98, \\mathrm{P}=0.96$, so either of the above methods is appropriate. Because the changes have a nearly Normal distribution they will give very similar results. Using the parametric approach, the $95 \\%$ confidence interval for the mean change in supine heart rate in the countermeasure group is 1.38 to 12.38 beats $/ \\mathrm{min}$. The paired $t$ test gives $t=2.65(\\mathrm{P}=0.017)$. The data thus appear to show that the countermeasure has reduced heart rate, but the correct approach is to compare this group with a group who did not adopt the countermeasure, as discussed below."
+  },
+  "meta_info": {
+    "index": "9.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups – continuous data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "223-224"
+  },
+  "sample_key": "48"
+}

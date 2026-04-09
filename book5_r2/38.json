@@ -1,0 +1,23 @@
+{
+  "case_id": "book5_r1\\017.json",
+  "input": {
+    "background": "Analyze the terminal digits of three variables (Age, SA, SI) presented in a table to assess digit preference or anomalies.",
+    "data": "\\begin{tabular}{|l|l|l|}\n\\hline Patient & Ejection fraction (\\%) & Wedge pressure (mm Hg) \\\n\\hline 1 & 28 & 15 \\\n\\hline 2 & 26 & 14 \\\n\\hline 3 & 42 & 15 \\\n\\hline 4 & 29 & 12 \\\n\\hline 5 & 16 & 37 \\\n\\hline 6 & 21 & 30 \\\n\\hline 7 & 25 & 7 \\\n\\hline 8 & 35 & 14 \\\n\\hline 9 & 30 & 28 \\\n\\hline 10 & 36 & 13 \\\n\\hline 11 & 37 & 5 \\\n\\hline 12 & 41 & 13 \\\n\\hline 13 & 20 & 24 \\\n\\hline 14 & 26 & 8 \\\n\\hline 15 & 38 & 13 \\\n\\hline 16 & 26 & 17 \\\n\\hline 17 & 10 & 27 \\\n\\hline 18 & 18 & 29 \\\n\\hline 19 & 10 & 8 \\\n\\hline 20 & 31 & 5 \\\n\\hline\n\\end{tabular}",
+    "question": "Comment on the terminal digits of SA, as shown in the table in Exercise 3.1."
+  },
+  "output": {
+    "method": "描述性统计量",
+    "answer": "The terminal digits for SA are distributed as follows: 0 (2), 1 (24), 2 (0), 3 (6), 4 (0), 5 (10), 6 (20), 7 (0), 8 (0), 9 (3), with a total of 65 observations. SA shows dramatic digit preference, which is peculiar, especially as it represents the sum of doses given over at least six months."
+  },
+  "meta_info": {
+    "index": "7.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Preparing to analyse data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "150-150"
+  },
+  "sample_key": "38"
+}

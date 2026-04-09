@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\89.json",
+  "input": {
+    "background": "You have two light bulbs for a particular lamp. Let $X=$ the lifetime of the first bulb, and $Y=$ the lifetime of the second bulb. Suppose that $X$ and $Y$ are independent and that each has an exponential distribution with constant failure rate parameter $\\lambda=0.001$ per hour.",
+    "data": "",
+    "question": "What is the probability that each bulb lasts at most 1000 h?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "0.3996"
+  },
+  "meta_info": {},
+  "sample_key": "233"
+}

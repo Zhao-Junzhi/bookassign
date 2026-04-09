@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-处理book1目录下的JSON文件，使用GPT-4o进行统计学教材习题重新编排
+处理book12345目录下的JSON文件，使用GPT-4o进行统计学教材习题重新编排
 """
 
 import os
@@ -39,9 +39,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 配置参数
-INPUT_DIR = Path(r'd:\place\study\bookassign\book1')
-OUTPUT_DIR = Path(r'd:\place\study\bookassign\book1_r1')
-MAX_WORKERS = 5  # 并行处理的线程数
+INPUT_DIR = Path(r'd:\place\study\bookassign\book5')
+OUTPUT_DIR = Path(r'd:\place\study\bookassign\book5_r1')
+MAX_WORKERS = 8  # 并行处理的线程数
 API_RATE_LIMIT = 0.5  # API调用间隔（秒）
 MAX_RETRIES = 3  # 最大重试次数
 
@@ -94,17 +94,20 @@ def read_json_file(file_path: Path) -> Optional[Dict]:
         if question_match:
             result['question'] = question_match.group(1)
         
-        # 提取 data 字段（可能包含复杂的LaTeX代码和换行）
-        data_match = re.search(r'"data"\s*:\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
+        # 提取 data 字段（可能包含复杂的LaTeX代码、换行或null值）
+        data_match = re.search(r'"data"\s*:\s*(null|"((?:[^"\\]|\\.)*)")', content, re.DOTALL)
         if data_match:
-            data_content = data_match.group(1)
-            # 处理转义字符
-            data_content = data_content.replace('\\n', '\n')
-            data_content = data_content.replace('\\t', '\t')
-            data_content = data_content.replace('\\r', '\r')
-            data_content = data_content.replace('\\"', '"')
-            data_content = data_content.replace('\\\\', '\\')
-            result['data'] = data_content
+            if data_match.group(1) == 'null':
+                result['data'] = None
+            else:
+                data_content = data_match.group(2)
+                # 处理转义字符
+                data_content = data_content.replace('\\n', '\n')
+                data_content = data_content.replace('\\t', '\t')
+                data_content = data_content.replace('\\r', '\r')
+                data_content = data_content.replace('\\"', '"')
+                data_content = data_content.replace('\\\\', '\\')
+                result['data'] = data_content
         
         # 提取 answer 字段
         answer_match = re.search(r'"answer"\s*:\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
@@ -118,7 +121,7 @@ def read_json_file(file_path: Path) -> Optional[Dict]:
             result['answer'] = answer_content
         
         # 提取 meta info 字段（嵌套对象）
-        meta_match = re.search(r'"meta info"\s*:\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}', content, re.DOTALL)
+        meta_match = re.search(r'"meta_info"\s*:\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}', content, re.DOTALL)
         if meta_match:
             meta_content = meta_match.group(0)
             meta_info = {}
@@ -128,15 +131,29 @@ def read_json_file(file_path: Path) -> Optional[Dict]:
             if index_match:
                 meta_info['index'] = index_match.group(1)
             
-            # 提取 image
-            image_match = re.search(r'"image"\s*:\s*"([^"]*)"', meta_content)
-            if image_match:
-                meta_info['image'] = image_match.group(1)
+            # 提取 img_in_question
+            img_in_question_match = re.search(r'"img_in_question"\s*:\s*(null|"([^"]*)")', meta_content)
+            if img_in_question_match:
+                if img_in_question_match.group(1) == 'null':
+                    meta_info['img_in_question'] = None
+                else:
+                    meta_info['img_in_question'] = img_in_question_match.group(2)
+            
+            # 提取 img_in_answer
+            img_in_answer_match = re.search(r'"img_in_answer"\s*:\s*(null|"([^"]*)")', meta_content)
+            if img_in_answer_match:
+                if img_in_answer_match.group(1) == 'null':
+                    meta_info['img_in_answer'] = None
+                else:
+                    meta_info['img_in_answer'] = img_in_answer_match.group(2)
             
             # 提取 caption
-            caption_match = re.search(r'"caption"\s*:\s*"([^"]*)"', meta_content)
+            caption_match = re.search(r'"caption"\s*:\s*(null|"([^"]*)")', meta_content)
             if caption_match:
-                meta_info['caption'] = caption_match.group(1)
+                if caption_match.group(1) == 'null':
+                    meta_info['caption'] = None
+                else:
+                    meta_info['caption'] = caption_match.group(2)
             
             # 提取 chapter
             chapter_match = re.search(r'"chapter"\s*:\s*"([^"]*)"', meta_content)
@@ -148,12 +165,17 @@ def read_json_file(file_path: Path) -> Optional[Dict]:
             if section_match:
                 meta_info['section'] = section_match.group(1)
             
+            # 提取 book
+            book_match = re.search(r'"book"\s*:\s*"([^"]*)"', meta_content)
+            if book_match:
+                meta_info['book'] = book_match.group(1)
+            
             # 提取 page
             page_match = re.search(r'"page"\s*:\s*"([^"]*)"', meta_content)
             if page_match:
                 meta_info['page'] = page_match.group(1)
             
-            result['meta info'] = meta_info
+            result['meta_info'] = meta_info
         
         return result
         
@@ -179,7 +201,7 @@ def extract_fields(data: Dict) -> Tuple[str, str, Dict]:
     original_fields = {
         'id': data.get('id', ''),
         'data': data.get('data', ''),
-        'meta info': data.get('meta info', {})
+        'meta_info': data.get('meta_info', {})
     }
     
     if not question:
@@ -317,7 +339,7 @@ def merge_output(model_output: Dict, original_fields: Dict) -> Dict:
     # 添加原始字段
     result['id'] = original_fields['id']
     result['data'] = original_fields['data']
-    result['meta info'] = original_fields['meta info']
+    result['meta_info'] = original_fields['meta_info']
     
     return result
 

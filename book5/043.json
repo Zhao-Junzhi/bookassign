@@ -1,0 +1,60 @@
+{
+  "id": "043",
+  "question": "Digoxin is a drug that is largely eliminated unchanged in the urine. Its renal clearance was said to be (a) correlated with creatinine clearance and (b) independent of urine flow. The following table shows measurements of these three variables from 35 consecutive inpatients being treated with digoxin for congestive heart failure (Halkin et al., 1975).\nDo these data support statements (a) and (b) above?",
+  "data": "\begin{tabular}{|l|l|l|l|}
+\hline & \multicolumn{2}{|c|}{Clearances ( $\mathrm{ml} / \min / 1.73 \mathrm{~m}^2$ )} & \multirow{2}{*}{Urine flow (ml/min)} \\
+\hline Patient & Creatinine & Digoxin & \\\hline 1 & 19.5 & 17.5 & 0.74 \\
+\hline 2 & 24.7 & 34.8 & 0.43 \\
+\hline 3 & 26.5 & 11.4 & 0.11 \\
+\hline 4 & 31.1 & 29.3 & 1.48 \\
+\hline 5 & 31.3 & 13.9 & 0.97 \\
+\hline 6 & 31.8 & 31.6 & 1.12 \\
+\hline
+\end{tabular}
+
+\begin{tabular}{|l|l|l|l|}
+\hline & \multicolumn{2}{|c|}{Clearances ( $\mathrm{ml} / \min / 1.73 \mathrm{~m}^2$ )} & \multirow{2}{*}{Urine flow (ml/min)} \\
+\hline Patient & Creatinine & Digoxin &\\
+\hline 7 & 34.1 & 20.7 & 1.77 \\
+\hline 8 & 36.6 & 34.1 & 0.70 \\
+\hline 9 & 42.4 & 25.0 & 0.93 \\
+\hline 10 & 42.8 & 47.4 & 2.50 \\
+\hline 11 & 44.2 & 31.8 & 0.89 \\
+\hline 12 & $49.7^{\circ}$ & 36.1 & 0.52 \\
+\hline 13 & 51.3 & 22.7 & 0.33 \\
+\hline 14 & 55.0 & 30.7 & 0.80 \\
+\hline 15 & 55.9 & 42.5 & 1.02 \\
+\hline 16 & 61.2 & 42.4 & 0.56 \\
+\hline 17 & 63.1 & 61.1 & 0.93 \\
+\hline 18 & 63.7 & 38.2 & 0.44 \\
+\hline 19 & 66.8 & 37.5 & 0.50 \\
+\hline 20 & 72.4 & 50.1 & 0.97 \\
+\hline 21 & 80.9 & 50.2 & 1.02 \\
+\hline 22 & 82.0 & 50.0 & 0.95 \\
+\hline 23 & 82.7 & 31.8 & 0.76 \\
+\hline 24 & 87.9 & 55.4 & 1.06 \\
+\hline 25 & 101.5 & 110.6 & 1.38 \\
+\hline 26 & 105.0 & 114.4 & 1.85 \\
+\hline 27 & 110.5 & 69.3 & 2.25 \\
+\hline 28 & 114.2 & 84.8 & 1.76 \\
+\hline 29 & 117.8 & 63.9 & 1.60 \\
+\hline 30 & 122.6 & 76.1 & 0.88 \\
+\hline 31 & 127.9 & 112.8 & 1.70 \\
+\hline 32 & 135.6 & 82.2 & 0.98 \\
+\hline 33 & 136.0 & 46.8 & 0.94 \\
+\hline 34 & 153.5 & 137.7 & 1.76 \\
+\hline 35 & 201.1 & 76.1 & 0.87 \\
+\hline
+\end{tabular}",
+  "answer": "The correlations between log creatinine clearance (CC), log digoxin clearance (DC) and urine flow are:\n\n\\begin{tabular}{llc}\n\\hline & $r$ & P \\\\\n\\hline DC CC & 0.838 & $<0.0001$ \\\\\nDC flow & 0.515 & 0.002 \\\\\nCC flow & 0.322 & 0.06 \\\\\n\\hline\n\\end{tabular}\n\nThese figures support the first statement but do not appear to support the second. A better answer is obtained by considering all three variables at once, by calculating the partial correlation coefficients. The partial correlation coefficient between DC and CC adjusting for urine flow is $0.83(\\mathrm{P}<0.0001)$, and that between DC and flow adjusting for CC is $0.47(0.005)$, hardly different from the simple correlation coefficients. The data thus support the first but not the second of the statements about digoxin clearance.",
+  "meta_info": {
+    "index": "11.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Relation between two continuous variables",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "323-324"
+  }
+}

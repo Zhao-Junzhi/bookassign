@@ -1,0 +1,14 @@
+{
+  "case_id": "book3_r1\\85.json",
+  "input": {
+    "background": "The probability density function of the lifetime of an electric motor is given by $$f(t)=0.25 t e^{-0.5 t} \\quad t>0$$ where $t$ is in years.",
+    "data": "",
+    "question": "What is the probability of the motor's lasting at least 3 years?"
+  },
+  "output": {
+    "method": "事件发生概率及独立性",
+    "answer": "The probability of the motor's lasting at least 3 years: $R(t=3)=0.5578$."
+  },
+  "meta_info": {},
+  "sample_key": "227"
+}

@@ -1,0 +1,22 @@
+{
+  "background": "The probability of being blood group B is 0.08. We are interested in the probability that fewer than three pints of group B blood will be obtained if one pint of blood is taken from each of 100 unrelated blood donors.",
+  "task": [
+    {
+      "query": "What is the probability that fewer than three pints of group B blood will be obtained from 100 unrelated blood donors?",
+      "answer": "Following the method given in section 4.9.1, we need to calculate the probabilities of obtaining 0, 1, or 2 pints of group B blood. We thus need to calculate the number of ways of choosing these numbers from a sample of 100, which are:\n\n$$\n\\begin{aligned}\n& {\\left[\\begin{array}{l} 0 \\\\ 0 \\end{array}\\right]=1} \\\\\n& {\\left[\\begin{array}{l} 0 \\\\ 1 \\end{array}\\right]=\\left[\\begin{array}{l} 0 \\\\ 0 \\end{array}\\right] \\times 100 / 1=100} \\\\\n& {\\left[\\begin{array}{l} 0 \\\\ 2 \\end{array}\\right]=\\left[\\begin{array}{l} 0 \\\\ 1 \\end{array}\\right] \\times 99 / 2=4950}\n\\end{aligned}\n$$\n\nUsing the formula in section 4.9.1, the required probability is\n\n$$\n\\begin{aligned}\n& (0.08)^0(0.92)^{100}+100(0.08)^1(0.92)^{99}+4950(0.08)^2(0.92)^{98} \\\\\n& =0.00024+0.00208+0.00895=0.0113\n\\end{aligned}\n$$\n\nThe probability of getting fewer than three pints of group B blood is about 1 in 100, or 0.01.",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "005",
+  "data": null,
+  "meta_info": {
+    "index": "4.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Theoretical distributions",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "71-71"
+  }
+}

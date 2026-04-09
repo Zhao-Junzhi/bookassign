@@ -1,0 +1,16 @@
+{
+  "id": "64",
+  "question": "Consider a standby system with two identical valves each with constant failure rate $\\lambda=10^{-5}$ failures/hours. The probability $\\mathrm{p}_{\\mathrm{s}}$ that the switch $S$ will activate the standby valve is 0.995 . What is the reliability of the system at time $\\mathrm{t}=8760 \\mathrm{~h}$ (or one year)?",
+  "data": null,
+  "answer": "Here $p_s=0.995$, from Eq. (4.48) the reliability that the system will survive one year is,\n\n$$\n\\begin{aligned}\nR(8760) & =\\left(1+p_s \\lambda t\\right) e^{-\\lambda t} \\\\\n& =\\left(1+(0.995)\\left(10^{-5}\\right) 8760\\right) e^{-\\left(10^{-5}\\right) 8760} \\\\\n& =0.9960\n\\end{aligned}\n$$\n\n\nThe system MTTF is\n\n$$\n\\begin{aligned}\nM T T F & =\\frac{1+p_s}{\\lambda} \\\\\n& =\\frac{1+0.995}{10^{-5}}=199,500 \\text { hours }\n\\end{aligned}\n$$\nNon-identical components. Let us assume that the component 1 (active unit) and component 2 (standby unit) have constant rate $\\lambda_1$ and $\\lambda_2$, respectively. Let $p_{\\mathrm{s}}$ is the probability that the switching is successful. This implies that the switch $S$ will activate the standby unit with probability $p_{\\mathrm{s}}$. From Eq. (4.45), we have\n\n$$\n\\begin{aligned}\nR(t) & =e^{-\\lambda_1 t}+p_s \\int_0^t \\lambda_1 e^{-\\lambda_1 \\tau} e^{-\\lambda_2(t-\\tau)} d \\tau \\\\\n& =e^{-\\lambda_1 t}+\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_2 t}-\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_1 t}\n\\end{aligned}\n$$\n\n\nThe system MTTF is given by\n\n$$\n\\begin{aligned}\nM T T F & =\\int_0^{\\infty} R(t) d t=\\int_0^{\\infty}\\left(e^{-\\lambda t}+\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_2 t}-\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_1 t}\\right) d t \\\\\n& =\\frac{1}{\\lambda_1}+\\frac{p_s}{\\lambda_2}\n\\end{aligned}\n$$",
+  "meta_info": {
+    "index": "4.8",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.8 Standby Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "244-244"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "background": "An instrument which consists of $k$ units operates for a time $t$. The reliability (the probability of failure-free performance) of each unit during the time $t$ is $p$. Units fail independently of one another. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. He needs a time $s$ to replace one unit.",
+  "task": [
+    {
+      "query": "Find the probability $P$ that in the time $2 s$ after the stop the instrument will be ready for work.",
+      "answer": "$P=p^k+k(1-p) p^{k-1}+\frac{k(k-1)}{2}(1-p)^2 p^{k-2}$",
+      "method": "事件发生概率及独立性"
+    },
+    {
+      "query": "Calculate $P$ when $k=10, p=0.9, t=25 \\mathrm{~h}$, and $s=20 \\mathrm{~min}$.",
+      "answer": "0.9298092",
+      "method": "事件发生概率及独立性"
+    }
+  ],
+  "id": "111",
+  "data": null,
+  "meta_info": {
+    "index": "2.33",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.5 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "132-132"
+  }
+}

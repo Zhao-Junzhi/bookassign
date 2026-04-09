@@ -1,0 +1,23 @@
+{
+  "case_id": "book3_r1\\124.json",
+  "input": {
+    "background": "Let $X$ denote the proportion of allotted time that a randomly selected engineer spends working on a certain project, and suppose that the probability density function of $X$ is\n\n$$\nf(x)=\\left\\{\\begin{array}{cl}\n(\\theta+1) x^\\theta & \\text { for } 0 \\leq x \\leq 1 \\\\\n0 & \\text { otherwise }\n\\end{array} .\\right.\n$$\n\nwhere $\\theta>-1$. A random sample of 10 engineers yielded data\n\n$$\n\\begin{aligned}\n& x_1=0.92, x_2=0.79, x_3=0.90, x_4=0.65, x_5=0.86 \\\\\n& x_6=0.47, x_7=0.73, x_8=0.97, x_9=0.94, x_{10}=0.77\n\\end{aligned}\n$$",
+    "data": null,
+    "question": "Obtain the maximum likelihood estimator of $\\theta$, and then compute the estimate for the given data."
+  },
+  "output": {
+    "method": "获取模型参数估计值",
+    "answer": "$\\hat{\\theta}=3.116$."
+  },
+  "meta_info": {
+    "index": "3.23",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "219-219"
+  },
+  "sample_key": "51"
+}

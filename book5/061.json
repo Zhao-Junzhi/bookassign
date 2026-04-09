@@ -1,0 +1,36 @@
+{
+  "id": "061",
+  "question": "A randomized placebo-controlled trial was carried out to investigate the capacity of aspirin to prevent pregnancy-induced hypertension and preeclamptic toxaemia (Schiff et al., 1989). The study was carried out on women at high risk of these conditions.
+(a) How many patients would have been needed to have a $80 \%$ power of detecting as significant $(\mathrm{P}<0.05)$ a reduction of onethird in the risk of hypertension from $30 \%$ to $20 \%$ ?
+(b) The actual sample size was 65 . What was the power of the study to detect the difference considered in (a)?
+(c) What reduction in risk of hypertension did the study have an $80 \%$ power to detect?
+(d) The observed rates of hypertension were $\frac{11}{31}(36 \%)$ in the placebo group and $\frac{4}{34}(12 \%)$ in the aspirin group; the authors quoted $\mathrm{P}=0.024$ for this difference. They also quoted a relative risk (RR) of hypertension of 0.33 among the aspirin group. Calculate a $95 \%$ confidence interval for the RR , and comment on the authors' conclusion that large scale clinical trials are needed. (See also problem 10.7.)",
+  "data": null,
+  "answer": (a) As described in section 15.3, the standardized difference here is
+
+$$
+\frac{0.3-0.2}{\sqrt{0.25 \times 0.75}}=0.23
+$$
+
+
+Using the nomogram in Figure 15.2, the required sample size is 600 (300 per group).
+(b) About $15 \%$.
+(c) A standardized difference of 0.7 gives $80 \%$ power with a sample of size 65. Taking the risk of hypertension in the placebo group as 0.3 , we have
+
+$$
+\frac{0.3-p_{\mathrm{a}}}{\sqrt{\bar{p}(1-\bar{p})}}=0.7
+$$
+
+where $p_{\mathrm{a}}$ is the proportion developing hypertension in the aspirin group and $\bar{p}$ is the average of 0.3 and $p_{\mathrm{a}}$. This equation can be solved mathematically or by trial and error; the answer is $p_{\mathrm{a}}=0.04$. The trial was clearly too small to have a good chance of detecting all but a very large benefit of treatment.
+(d) The Chi squared test with Yates' correction gives $X^2=3.89 (\mathrm{P}=0.049)$. The P value quoted is one-sided, although there is no comment to that effect in the paper. The result is thus only marginally significant. The RR of 0.33 has a very wide $95 \% \mathrm{CI}$ from 0.12 to 0.93 . The authors are right to interpret their findings cautiously, and to suggest that a larger trial would be needed to confirm (or not) the benefit of aspirin in this setting.",
+  "meta_info": {
+    "index": "15.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Clinical trials",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "475-476"
+  }
+}
