@@ -7,25 +7,29 @@ import argparse
 import asyncio
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 if __package__ in (None, ""):
     import sys
 
     sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+from label_construct.client import LLMClient
 from label_construct.io_utils import (
-    RUNS_DIR,
-    VARIABLE_LABELS_DIR,
     build_logger,
     copy_json_file,
     ensure_results_tree,
     get_final_review_path,
     get_final_samples_dir,
+    get_results_dir,
+    get_runs_dir,
     get_variable_review_path,
     get_selected_sample_map,
     iter_sample_paths,
     latest_existing_label_path,
     latest_review_round,
+    results_dir_name_for_model,
+    set_results_root_for_model,
     load_csv_rows,
     normalize_flag,
     to_project_relative,
@@ -40,6 +44,7 @@ from label_construct.variable_review import run_variable_review
 
 
 ALLOWED_STAGES = {"method_review", "variable_extract", "variable_iterate"}
+DEFAULT_MODEL = "gpt-4o"
 
 
 def parse_stages(raw: str) -> list[str]:
@@ -75,8 +80,25 @@ def _next_pending_paths(
     return next_paths, dropped_keys
 
 
+def parse_models(raw_models: list[str] | None) -> list[str]:
+    if not raw_models:
+        return [DEFAULT_MODEL]
+    models: list[str] = []
+    for item in raw_models:
+        for model_name in item.split(","):
+            cleaned = model_name.strip()
+            if cleaned:
+                models.append(cleaned)
+    return models or [DEFAULT_MODEL]
+
+
+async def verify_model_access(model: str, logger) -> None:
+    client = LLMClient(model=model, logger=logger)
+    await client.chat('只返回严格 JSON：{"ok":1}')
+
+
 def sync_final_outputs(sample_paths: list[Path], max_rounds: int, logger) -> dict[str, object]:
-    final_dir = VARIABLE_LABELS_DIR / "final"
+    final_dir = get_results_dir() / "variable_labels" / "final"
     final_samples_dir = get_final_samples_dir()
     final_samples_dir.mkdir(parents=True, exist_ok=True)
 
@@ -136,7 +158,8 @@ def sync_final_outputs(sample_paths: list[Path], max_rounds: int, logger) -> dic
     }
 
 
-async def run_pipeline(args) -> dict[str, object]:
+async def run_pipeline_for_model(args, model: str) -> dict[str, object]:
+    set_results_root_for_model(model, default_model=DEFAULT_MODEL)
     ensure_results_tree()
     logger = build_logger("run_pipeline")
     stages = parse_stages(args.stages)
@@ -145,6 +168,8 @@ async def run_pipeline(args) -> dict[str, object]:
 
     summary: dict[str, object] = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "model": model,
+        "results_dir": to_project_relative(get_results_dir()),
         "stages": stages,
         "limit": args.limit,
         "max_rounds": args.max_rounds,
@@ -153,11 +178,22 @@ async def run_pipeline(args) -> dict[str, object]:
         "sample_keys": list(selected_map.keys()),
     }
 
-    logger.info("流水线开始: stages=%s, sample_count=%s, force=%s", stages, len(sample_paths), args.force)
+    logger.info(
+        "流水线开始: model=%s, results_dir=%s, stages=%s, sample_count=%s, force=%s",
+        model,
+        results_dir_name_for_model(model, DEFAULT_MODEL),
+        stages,
+        len(sample_paths),
+        args.force,
+    )
+
+    if sample_paths:
+        await verify_model_access(model, logger)
 
     if "method_review" in stages:
         summary["method_review"] = await run_method_review(
             sample_paths=sample_paths,
+            model=model,
             force=args.force,
             max_workers=args.max_workers,
         )
@@ -166,6 +202,7 @@ async def run_pipeline(args) -> dict[str, object]:
     if needs_variable_base:
         summary["variable_extract"] = await run_variable_extraction(
             sample_paths=sample_paths,
+            model=model,
             round_index=0,
             force=args.force,
             max_workers=args.max_workers,
@@ -183,6 +220,7 @@ async def run_pipeline(args) -> dict[str, object]:
 
             review_summary = await run_variable_review(
                 sample_paths=pending_paths,
+                model=model,
                 round_index=current_round,
                 force=args.force,
                 max_workers=args.max_workers,
@@ -209,6 +247,7 @@ async def run_pipeline(args) -> dict[str, object]:
             pending_paths = [selected_map[key] for key in inaccurate_keys]
             refine_summary = await run_variable_refine(
                 sample_paths=pending_paths,
+                model=model,
                 target_round=next_round,
                 force=args.force,
                 max_workers=args.max_workers,
@@ -230,10 +269,38 @@ async def run_pipeline(args) -> dict[str, object]:
     if needs_variable_base:
         summary["final_outputs"] = sync_final_outputs(sample_paths, args.max_rounds, logger)
 
-    summary_path = RUNS_DIR / "summary.json"
+    summary_path = get_runs_dir() / "summary.json"
     write_json(summary_path, summary)
     logger.info("流水线摘要已写入 %s", to_project_relative(summary_path))
     return summary
+
+
+async def run_all_models(args) -> dict[str, Any]:
+    models = parse_models(args.model)
+    overall = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "models": models,
+        "results": [],
+        "failures": [],
+    }
+
+    for model in models:
+        try:
+            summary = await run_pipeline_for_model(args, model)
+            overall["results"].append(
+                {
+                    "model": model,
+                    "results_dir": summary.get("results_dir"),
+                    "summary_path": summary.get("results_dir", "") + "/runs/summary.json",
+                }
+            )
+        except Exception as exc:
+            error_message = str(exc)
+            print(f"[ERROR] model={model} 运行失败: {error_message}")
+            overall["failures"].append({"model": model, "error": error_message})
+            continue
+
+    return overall
 
 
 def main() -> None:
@@ -246,11 +313,17 @@ def main() -> None:
         default="method_review,variable_extract,variable_iterate",
         help="Comma-separated stages: method_review,variable_extract,variable_iterate",
     )
+    parser.add_argument(
+        "--model",
+        nargs="+",
+        default=[DEFAULT_MODEL],
+        help="One or more model names. Multiple values will be processed sequentially.",
+    )
     parser.add_argument("--force", action="store_true", help="Recompute outputs even if existing results are found.")
     parser.add_argument("--max-workers", type=int, default=5, help="Concurrent request count.")
     args = parser.parse_args()
 
-    asyncio.run(run_pipeline(args))
+    asyncio.run(run_all_models(args))
 
 
 if __name__ == "__main__":

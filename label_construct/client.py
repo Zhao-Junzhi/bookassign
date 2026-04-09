@@ -6,6 +6,7 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import re
 import time
 from typing import Any
 
@@ -47,6 +48,13 @@ def extract_json_from_text(content: str) -> Any:
         except json.JSONDecodeError:
             pass
 
+        repaired_candidate = repair_json_like_text(candidate)
+        if repaired_candidate != candidate:
+            try:
+                return json.loads(repaired_candidate)
+            except json.JSONDecodeError:
+                pass
+
         for pos, char in enumerate(candidate):
             if char not in "{[":
                 continue
@@ -59,8 +67,112 @@ def extract_json_from_text(content: str) -> Any:
             except json.JSONDecodeError:
                 continue
 
+        for pos, char in enumerate(repaired_candidate):
+            if char not in "{[":
+                continue
+            try:
+                parsed, end = decoder.raw_decode(repaired_candidate[pos:])
+                trailing = repaired_candidate[pos + end :].strip()
+                if trailing and not trailing.startswith("```"):
+                    continue
+                return parsed
+            except json.JSONDecodeError:
+                continue
+
     preview = text[:200].replace("\n", "\\n")
     raise ValueError(f"无法从模型输出中解析JSON: {preview}...")
+
+
+def repair_json_like_text(text: str) -> str:
+    """Best-effort repair for common model JSON formatting mistakes."""
+    if not text:
+        return text
+
+    repaired = text.strip()
+
+    # Remove code fence language headers accidentally preserved in slices.
+    if repaired.startswith("json\n"):
+        repaired = repaired[5:]
+
+    # Remove trailing commas before object/array close.
+    repaired = re.sub(r",(\s*[}\]])", r"\1", repaired)
+
+    chars: list[str] = []
+    in_string = False
+    escaped = False
+    expecting_key = False
+    stack: list[str] = []
+
+    def next_non_space(index: int) -> str:
+        cursor = index + 1
+        while cursor < len(repaired) and repaired[cursor].isspace():
+            cursor += 1
+        if cursor >= len(repaired):
+            return ""
+        return repaired[cursor]
+
+    for index, char in enumerate(repaired):
+        if not in_string:
+            chars.append(char)
+            if char == "{":
+                stack.append("{")
+                expecting_key = True
+            elif char == "[":
+                stack.append("[")
+                expecting_key = False
+            elif char == "}":
+                if stack:
+                    stack.pop()
+                expecting_key = False
+            elif char == "]":
+                if stack:
+                    stack.pop()
+                expecting_key = False
+            elif char == ",":
+                expecting_key = bool(stack and stack[-1] == "{")
+            elif char == ":":
+                expecting_key = False
+            elif char == "\"":
+                in_string = True
+            continue
+
+        if escaped:
+            chars.append(char)
+            escaped = False
+            continue
+
+        if char == "\\":
+            chars.append(char)
+            escaped = True
+            continue
+
+        if char == "\"":
+            following = next_non_space(index)
+            is_closing_quote = following in {",", "}", "]", ":", ""}
+            if is_closing_quote:
+                chars.append(char)
+                in_string = False
+                if expecting_key and following == ":":
+                    expecting_key = False
+            else:
+                chars.append("\\\"")
+            continue
+
+        if char == "\n":
+            chars.append("\\n")
+            continue
+
+        if char == "\r":
+            chars.append("\\r")
+            continue
+
+        if char == "\t":
+            chars.append("\\t")
+            continue
+
+        chars.append(char)
+
+    return "".join(chars)
 
 
 class LLMClient:
@@ -132,4 +244,3 @@ class LLMClient:
     async def generate_json(self, prompt: str) -> Any:
         content = await self.chat(prompt)
         return extract_json_from_text(content)
-

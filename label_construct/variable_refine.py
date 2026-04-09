@@ -79,6 +79,7 @@ async def _process_sample(
 
 async def run_variable_refine(
     sample_paths: list[Path],
+    model: str,
     target_round: int,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
@@ -119,7 +120,7 @@ async def run_variable_refine(
 
     if pending_paths:
         semaphore = asyncio.Semaphore(max_workers)
-        client = LLMClient(logger=logger)
+        client = LLMClient(model=model, logger=logger)
         tasks = [
             _process_sample(path, target_round, review_rows[path.stem], semaphore, client, logger)
             for path in pending_paths
@@ -162,6 +163,7 @@ async def run_variable_refine(
 def main() -> None:
     parser = argparse.ArgumentParser(description="Refine extracted variables using review feedback.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
+    parser.add_argument("--model", type=str, default="gpt-4o", help="Model name to use for this stage.")
     parser.add_argument("--round", type=int, required=True, dest="target_round", help="Write refined labels into round_N.")
     parser.add_argument("--force", action="store_true", help="Recompute JSON outputs even if they already exist.")
     parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Concurrent request count.")
@@ -171,6 +173,7 @@ def main() -> None:
     asyncio.run(
         run_variable_refine(
             sample_paths=sample_paths,
+            model=args.model,
             target_round=args.target_round,
             force=args.force,
             max_workers=args.max_workers,

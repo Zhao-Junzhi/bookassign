@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import json
 import logging
+import re
 import shutil
 from pathlib import Path
 from typing import Any, Iterable
@@ -14,7 +15,8 @@ import random
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = PROJECT_ROOT / "book1_r2"
-RESULTS_DIR = PROJECT_ROOT / "label_construct" / "results"
+DEFAULT_RESULTS_DIR = PROJECT_ROOT / "label_construct" / "results"
+RESULTS_DIR = DEFAULT_RESULTS_DIR
 METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
 VARIABLE_LABELS_DIR = RESULTS_DIR / "variable_labels"
 RUNS_DIR = RESULTS_DIR / "runs"
@@ -81,6 +83,41 @@ def ensure_results_tree() -> None:
         LOGS_DIR,
     ):
         path.mkdir(parents=True, exist_ok=True)
+
+
+def results_dir_name_for_model(model_name: str, default_model: str = "gpt-4o") -> str:
+    safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", model_name).strip("._-")
+    if not safe_name:
+        safe_name = "custom_model"
+    return f"results/{safe_name}"
+
+
+def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    global RESULTS_DIR, METHOD_REVIEW_DIR, VARIABLE_LABELS_DIR, RUNS_DIR, LOGS_DIR
+
+    RESULTS_DIR = PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model)
+    METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
+    VARIABLE_LABELS_DIR = RESULTS_DIR / "variable_labels"
+    RUNS_DIR = RESULTS_DIR / "runs"
+    LOGS_DIR = RESULTS_DIR / "logs"
+    ensure_results_tree()
+    return RESULTS_DIR
+
+
+def get_results_dir() -> Path:
+    return RESULTS_DIR
+
+
+def get_method_review_dir() -> Path:
+    return METHOD_REVIEW_DIR
+
+
+def get_runs_dir() -> Path:
+    return RUNS_DIR
+
+
+def get_logs_dir() -> Path:
+    return LOGS_DIR
 
 
 def build_logger(name: str) -> logging.Logger:

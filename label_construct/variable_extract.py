@@ -53,6 +53,7 @@ async def _process_sample(
 
 async def run_variable_extraction(
     sample_paths: list[Path],
+    model: str,
     round_index: int = 0,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
@@ -82,7 +83,7 @@ async def run_variable_extraction(
 
     if pending_paths:
         semaphore = asyncio.Semaphore(max_workers)
-        client = LLMClient(logger=logger)
+        client = LLMClient(model=model, logger=logger)
         tasks = [_process_sample(path, round_index, semaphore, client, logger) for path in pending_paths]
 
         for index, coro in enumerate(asyncio.as_completed(tasks), start=1):
@@ -115,6 +116,7 @@ async def run_variable_extraction(
 def main() -> None:
     parser = argparse.ArgumentParser(description="Extract variables used by the answer for book1_r2 samples.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
+    parser.add_argument("--model", type=str, default="gpt-4o", help="Model name to use for this stage.")
     parser.add_argument("--round", type=int, default=0, dest="round_index", help="Label round index.")
     parser.add_argument("--force", action="store_true", help="Recompute JSON outputs even if they already exist.")
     parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Concurrent request count.")
@@ -124,6 +126,7 @@ def main() -> None:
     asyncio.run(
         run_variable_extraction(
             sample_paths=sample_paths,
+            model=args.model,
             round_index=args.round_index,
             force=args.force,
             max_workers=args.max_workers,

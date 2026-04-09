@@ -35,6 +35,20 @@ class LabelConstructTests(unittest.TestCase):
 
             paths = io_utils.iter_sample_paths(sample_dir=temp_root)
             self.assertEqual([path.name for path in paths], ["1.json", "2.json", "10.json"])
+            limited_paths = io_utils.iter_sample_paths(sample_dir=temp_root, limit=2)
+            self.assertEqual([path.name for path in limited_paths], ["1.json", "2.json"])
+
+    def test_results_dir_name_for_model(self) -> None:
+        self.assertEqual(io_utils.results_dir_name_for_model("gpt-4o"), "results")
+        self.assertEqual(io_utils.results_dir_name_for_model("gpt-5.2"), "results(gpt-5.2)")
+        self.assertEqual(
+            io_utils.results_dir_name_for_model("gemini 3/pro preview"),
+            "results(gemini_3_pro_preview)",
+        )
+
+    def test_parse_models_supports_multiple_inputs(self) -> None:
+        models = pipeline_module.parse_models(["gpt-4o", "gpt-5.2,claude-sonnet-4-6"])
+        self.assertEqual(models, ["gpt-4o", "gpt-5.2", "claude-sonnet-4-6"])
 
     def test_validate_variable_payload_accepts_expected_schema(self) -> None:
         payload = {
@@ -105,14 +119,12 @@ class LabelConstructTests(unittest.TestCase):
     def test_sync_final_outputs_collect_latest_samples_and_reviews(self) -> None:
         old_project_root = io_utils.PROJECT_ROOT
         old_variable_labels_dir = io_utils.VARIABLE_LABELS_DIR
-        old_pipeline_variable_labels_dir = pipeline_module.VARIABLE_LABELS_DIR
 
         try:
             with tempfile.TemporaryDirectory() as tmpdir:
                 temp_root = Path(tmpdir)
                 io_utils.PROJECT_ROOT = temp_root
                 io_utils.VARIABLE_LABELS_DIR = temp_root / "variable_labels"
-                pipeline_module.VARIABLE_LABELS_DIR = io_utils.VARIABLE_LABELS_DIR
 
                 sample_path = temp_root / "book1_r2" / "1.json"
                 sample_path.parent.mkdir(parents=True, exist_ok=True)
@@ -156,7 +168,6 @@ class LabelConstructTests(unittest.TestCase):
         finally:
             io_utils.PROJECT_ROOT = old_project_root
             io_utils.VARIABLE_LABELS_DIR = old_variable_labels_dir
-            pipeline_module.VARIABLE_LABELS_DIR = old_pipeline_variable_labels_dir
 
 
 if __name__ == "__main__":

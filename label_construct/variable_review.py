@@ -32,6 +32,13 @@ from label_construct.prompts import build_variable_review_prompt
 
 
 DEFAULT_MAX_WORKERS = 5
+MISSING_INPUT_PATTERNS = (
+    "未提供",
+    "请提供",
+    "缺少输入",
+    "缺少原始输入",
+    "待审稿的具体内容",
+)
 
 
 def build_fallback_review_row(sample_key: str, round_index: int, reason: str) -> dict[str, Any]:
@@ -45,6 +52,18 @@ def build_fallback_review_row(sample_key: str, round_index: int, reason: str) ->
         "reason": reason,
         "revision_advice": "审阅阶段未能产出可解析结果。请重新检查该样本的变量提取结果，并根据 answer 补全或修正变量。",
     }
+
+
+def _has_sufficient_review_context(sample: dict[str, Any], variable_record: dict[str, Any]) -> bool:
+    question = sample.get("input", {}).get("question", "")
+    answer = sample.get("output", {}).get("answer", "")
+    variables = variable_record.get("variables", {})
+    return bool(question and answer and isinstance(variables, dict))
+
+
+def _looks_like_missing_input_claim(reason: str) -> bool:
+    text = (reason or "").strip()
+    return any(pattern in text for pattern in MISSING_INPUT_PATTERNS)
 
 
 def _sort_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -65,6 +84,20 @@ async def _process_sample(
             variable_path = get_variable_label_path(sample_key, round_index)
             variable_record = load_json(variable_path)
             result = await client.generate_json(build_variable_review_prompt(sample, variable_record, round_index))
+            if (
+                isinstance(result, dict)
+                and _has_sufficient_review_context(sample, variable_record)
+                and _looks_like_missing_input_claim(str(result.get("reason", "")))
+            ):
+                logger.warning(
+                    "变量审阅返回了疑似误判的“缺少输入”理由，自动重试一次: %s round=%s",
+                    sample_path.name,
+                    round_index,
+                )
+                retry_prompt = (
+                    build_variable_review_prompt(sample, variable_record, round_index)
+                )
+                result = await client.generate_json(retry_prompt)
             if not isinstance(result, dict):
                 raise ValueError("变量审阅输出必须是JSON对象")
 
@@ -87,6 +120,7 @@ async def _process_sample(
 
 async def run_variable_review(
     sample_paths: list[Path],
+    model: str,
     round_index: int,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
@@ -134,7 +168,7 @@ async def run_variable_review(
     failures = []
     if pending_paths:
         semaphore = asyncio.Semaphore(max_workers)
-        client = LLMClient(logger=logger)
+        client = LLMClient(model=model, logger=logger)
         tasks = [_process_sample(path, round_index, semaphore, client, logger) for path in pending_paths]
 
         for index, coro in enumerate(asyncio.as_completed(tasks), start=1):
@@ -171,6 +205,7 @@ async def run_variable_review(
 def main() -> None:
     parser = argparse.ArgumentParser(description="Review extracted variables for book1_r2 samples.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
+    parser.add_argument("--model", type=str, default="gpt-4o", help="Model name to use for this stage.")
     parser.add_argument("--round", type=int, required=True, dest="round_index", help="Review the labels stored under round_N.")
     parser.add_argument("--force", action="store_true", help="Recompute CSV rows even if they already exist.")
     parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Concurrent request count.")
@@ -180,6 +215,7 @@ def main() -> None:
     asyncio.run(
         run_variable_review(
             sample_paths=sample_paths,
+            model=args.model,
             round_index=args.round_index,
             force=args.force,
             max_workers=args.max_workers,
