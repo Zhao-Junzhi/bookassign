@@ -13,7 +13,7 @@ if __package__ in (None, ""):
 
     sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from label_construct.client import LLMClient
+from label_construct.client import LLMClient, merge_usage
 from label_construct.io_utils import (
     build_logger,
     build_variable_label_record,
@@ -26,9 +26,29 @@ from label_construct.io_utils import (
     write_json,
 )
 from label_construct.prompts import build_variable_extract_prompt
+from label_construct.prompts import build_variable_extract_retry_prompt
 
 
 DEFAULT_MAX_WORKERS = 5
+MISSING_INPUT_PATTERNS = (
+    "未提供",
+    "请提供",
+    "缺少输入",
+    "缺少原始输入",
+    "待审稿的具体内容",
+    "please provide",
+    "cannot proceed without",
+    "share the specific problem",
+    "share the specific question",
+    "input is missing",
+    "missing input",
+    "reference answer",
+)
+
+
+def _looks_like_missing_input_claim(text: str) -> bool:
+    lowered = (text or "").strip().lower()
+    return any(pattern in lowered for pattern in MISSING_INPUT_PATTERNS)
 
 
 async def _process_sample(
@@ -37,18 +57,38 @@ async def _process_sample(
     semaphore: asyncio.Semaphore,
     client: LLMClient,
     logger,
-) -> tuple[str, dict[str, Any], bool, str | None]:
+) -> tuple[str, dict[str, Any] | None, str | None, dict[str, int] | None]:
     async with semaphore:
-        sample = load_json(sample_path)
+        sample: dict[str, Any] | None = None
+        usage_summary = merge_usage()
         try:
-            variables = await client.generate_json(build_variable_extract_prompt(sample))
+            sample = load_json(sample_path)
+            variables, usage = await client.generate_json_with_usage(build_variable_extract_prompt(sample))
+            usage_summary = merge_usage(usage_summary, usage)
             variables = validate_variable_payload(variables)
             record = build_variable_label_record(sample, sample_path, round_index, variables)
-            return sample_path.stem, record, False, None
+            return sample_path.stem, record, None, usage_summary
         except Exception as exc:
-            logger.warning("变量抽取失败 %s，已回退为 {}: %s", sample_path.name, exc)
-            fallback_record = build_variable_label_record(sample, sample_path, round_index, {})
-            return sample_path.stem, fallback_record, True, str(exc)
+            if sample is not None and _looks_like_missing_input_claim(str(exc)):
+                try:
+                    variables, retry_usage = await client.generate_json_with_usage(
+                        build_variable_extract_retry_prompt(sample)
+                    )
+                    usage_summary = merge_usage(usage_summary, retry_usage)
+                    variables = validate_variable_payload(variables)
+                    record = build_variable_label_record(sample, sample_path, round_index, variables)
+                    return sample_path.stem, record, None, usage_summary
+                except Exception as retry_exc:
+                    merged_usage = merge_usage(
+                        usage_summary,
+                        getattr(exc, "usage", None),
+                        getattr(retry_exc, "usage", None),
+                    )
+                    logger.warning("变量抽取跳过样本 %s: %s", sample_path.name, retry_exc)
+                    return sample_path.stem, None, str(retry_exc), merged_usage
+
+            logger.warning("变量抽取跳过样本 %s: %s", sample_path.name, exc)
+            return sample_path.stem, None, str(exc), getattr(exc, "usage", None)
 
 
 async def run_variable_extraction(
@@ -79,7 +119,8 @@ async def run_variable_extraction(
     )
 
     successes = 0
-    fallback_samples = []
+    failures = []
+    usage_summary = merge_usage()
 
     if pending_paths:
         semaphore = asyncio.Semaphore(max_workers)
@@ -87,11 +128,13 @@ async def run_variable_extraction(
         tasks = [_process_sample(path, round_index, semaphore, client, logger) for path in pending_paths]
 
         for index, coro in enumerate(asyncio.as_completed(tasks), start=1):
-            sample_key, record, used_fallback, error = await coro
-            write_json(get_variable_label_path(sample_key, round_index), record)
-            successes += 1
-            if used_fallback:
-                fallback_samples.append({"sample_key": sample_key, "reason": error})
+            sample_key, record, error, usage = await coro
+            if record is not None:
+                write_json(get_variable_label_path(sample_key, round_index), record)
+                successes += 1
+                usage_summary = merge_usage(usage_summary, usage)
+            else:
+                failures.append({"sample_key": sample_key, "error": error})
 
             if index % 10 == 0 or index == len(tasks):
                 logger.info("变量抽取进度: round=%s, %s/%s", round_index, index, len(tasks))
@@ -106,10 +149,11 @@ async def run_variable_extraction(
         "processed_samples": len(pending_paths),
         "cached_samples": cached_samples,
         "success_count": cached_samples + successes,
-        "fallback_count": len(fallback_samples),
-        "fallback_samples": fallback_samples,
-        "failed_count": 0,
-        "failures": [],
+        "fallback_count": 0,
+        "fallback_samples": [],
+        "failed_count": len(failures),
+        "failures": failures,
+        "token_usage": usage_summary,
     }
 
 

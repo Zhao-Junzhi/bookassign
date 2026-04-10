@@ -8,6 +8,7 @@ import json
 import logging
 import re
 import time
+from dataclasses import dataclass
 from typing import Any
 
 import openai
@@ -20,6 +21,62 @@ DEFAULT_MODEL = "gpt-4o"
 
 class APIError(RuntimeError):
     """Raised when the LLM request fails after retries."""
+
+
+class LLMResponseFormatError(ValueError):
+    """Raised when model output cannot be parsed while preserving usage."""
+
+    def __init__(self, message: str, usage: dict[str, int]) -> None:
+        super().__init__(message)
+        self.usage = usage
+
+
+@dataclass
+class LLMUsage:
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+    request_count: int = 0
+
+    def to_dict(self) -> dict[str, int]:
+        return {
+            "prompt_tokens": self.prompt_tokens,
+            "completion_tokens": self.completion_tokens,
+            "total_tokens": self.total_tokens,
+            "request_count": self.request_count,
+        }
+
+
+def _coerce_int(value: Any) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
+
+
+def extract_usage(response: Any) -> LLMUsage:
+    usage = getattr(response, "usage", None)
+    if usage is None:
+        return LLMUsage()
+    return LLMUsage(
+        prompt_tokens=_coerce_int(getattr(usage, "prompt_tokens", 0)),
+        completion_tokens=_coerce_int(getattr(usage, "completion_tokens", 0)),
+        total_tokens=_coerce_int(getattr(usage, "total_tokens", 0)),
+        request_count=1,
+    )
+
+
+def merge_usage(*usage_items: dict[str, Any] | LLMUsage | None) -> dict[str, int]:
+    merged = LLMUsage()
+    for item in usage_items:
+        if item is None:
+            continue
+        current = item.to_dict() if isinstance(item, LLMUsage) else item
+        merged.prompt_tokens += _coerce_int(current.get("prompt_tokens"))
+        merged.completion_tokens += _coerce_int(current.get("completion_tokens"))
+        merged.total_tokens += _coerce_int(current.get("total_tokens"))
+        merged.request_count += _coerce_int(current.get("request_count"))
+    return merged.to_dict()
 
 
 def extract_json_from_text(content: str) -> Any:
@@ -208,7 +265,7 @@ class LLMClient:
                 await asyncio.sleep(delay)
             self._last_call_started_at = time.monotonic()
 
-    async def chat(self, prompt: str) -> str:
+    async def chat_with_usage(self, prompt: str) -> tuple[str, dict[str, int]]:
         for attempt in range(self.max_retries):
             try:
                 await self._wait_for_rate_limit()
@@ -221,7 +278,7 @@ class LLMClient:
                 content = response.choices[0].message.content
                 if content is None:
                     raise APIError("模型返回为空")
-                return content
+                return content, extract_usage(response).to_dict()
             except Exception as exc:  # pragma: no cover - exercised in integration only
                 message = str(exc)
                 if "rate limit" in message.lower():
@@ -241,6 +298,17 @@ class LLMClient:
 
         raise APIError("超过最大重试次数")
 
+    async def chat(self, prompt: str) -> str:
+        content, _ = await self.chat_with_usage(prompt)
+        return content
+
+    async def generate_json_with_usage(self, prompt: str) -> tuple[Any, dict[str, int]]:
+        content, usage = await self.chat_with_usage(prompt)
+        try:
+            return extract_json_from_text(content), usage
+        except ValueError as exc:
+            raise LLMResponseFormatError(str(exc), usage) from exc
+
     async def generate_json(self, prompt: str) -> Any:
-        content = await self.chat(prompt)
-        return extract_json_from_text(content)
+        result, _ = await self.generate_json_with_usage(prompt)
+        return result
