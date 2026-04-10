@@ -1,0 +1,4 @@
+2026-04-09 22:27:53,627 - INFO - 流水线开始: model=gpt-5.4, results_dir=results/gpt-5.4, stages=['method_review', 'variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-09 22:32:05,464 - INFO - 变量迭代在 round 1 的审阅后停止: 当前样本均准确
+2026-04-09 22:32:05,489 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-09 22:32:05,490 - INFO - 流水线摘要已写入 label_construct/results/gpt-5.4/runs/summary.json

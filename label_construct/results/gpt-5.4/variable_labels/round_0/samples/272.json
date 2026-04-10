@@ -1,0 +1,38 @@
+{
+  "sample_key": "272",
+  "case_id": "book1_r1\\record_139.json",
+  "source_path": "book1_r2/272.json",
+  "round": 0,
+  "variables": {
+    "treatment": {
+      "id": "treatment",
+      "value": [
+        "simvastatin",
+        "placebo"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment group indicator for the two groups whose risks were compared."
+    },
+    "fatal_heart_attack_events": {
+      "id": "fatal_heart_attack_events",
+      "value": [
+        111,
+        189
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of fatal heart attacks in each group, in the order: simvastatin, placebo."
+    },
+    "group_sample_size": {
+      "id": "group_sample_size",
+      "value": [
+        2221,
+        2223
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Sample size in each group used as denominators for the risk calculations, in the order: simvastatin, placebo."
+    }
+  }
+}

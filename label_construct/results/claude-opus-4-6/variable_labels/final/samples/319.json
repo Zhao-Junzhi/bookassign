@@ -1,0 +1,25 @@
+{
+  "sample_key": "319",
+  "case_id": "book1_r1\\record_305.json",
+  "source_path": "book1_r2/319.json",
+  "round": 0,
+  "variables": {
+    "Group": {
+      "id": "Group",
+      "value": [
+        "treatment (special intervention)",
+        "control (usual care)"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Group assignment in the MRFIT study: treatment group receiving special interventions vs. control group receiving usual health care."
+    },
+    "Heart disease mortality": {
+      "id": "Heart disease mortality",
+      "value": "Declined significantly in both groups (specific values not provided)",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Heart disease mortality rate, the primary outcome measure referenced in the answer as having declined significantly in both groups."
+    }
+  }
+}

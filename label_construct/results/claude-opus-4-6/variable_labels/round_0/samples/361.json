@@ -1,0 +1,34 @@
+{
+  "sample_key": "361",
+  "case_id": "book1_r1\\record_336.json",
+  "source_path": "book1_r2/361.json",
+  "round": 0,
+  "variables": {
+    "No_of_success": {
+      "id": "No_of_success",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes (possible values of the random variable X) in the four patients example."
+    },
+    "Probability": {
+      "id": "Probability",
+      "value": [
+        0.0039,
+        0.0469,
+        0.2109,
+        0.4219,
+        0.3164
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability mass function values Pr(X=x) corresponding to each number of successes."
+    }
+  }
+}

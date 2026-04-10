@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-04-09T22:20:37",
+  "model": "gemini-3.1-pro-preview",
+  "results_dir": "label_construct/results/gemini-3.1-pro-preview",
+  "stages": [
+    "method_review",
+    "variable_extract",
+    "variable_iterate"
+  ],
+  "limit": 20,
+  "max_rounds": 3,
+  "force": false,
+  "sample_count": 20,
+  "sample_keys": [
+    "151",
+    "473",
+    "468",
+    "180",
+    "405",
+    "361",
+    "446",
+    "522",
+    "114",
+    "548",
+    "126",
+    "84",
+    "469",
+    "272",
+    "51",
+    "211",
+    "346",
+    "238",
+    "319",
+    "210"
+  ],
+  "method_review": {
+    "output_csv": "label_construct/results/gemini-3.1-pro-preview/method_review/method_review.csv",
+    "selected_samples": 20,
+    "processed_samples": 20,
+    "cached_samples": 0,
+    "success_count": 20,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 86414,
+      "completion_tokens": 19352,
+      "total_tokens": 105766,
+      "request_count": 20
+    }
+  },
+  "variable_extract": {
+    "round": 0,
+    "output_dir": "label_construct/results/gemini-3.1-pro-preview/variable_labels/round_0/samples",
+    "selected_samples": 20,
+    "processed_samples": 20,
+    "cached_samples": 0,
+    "success_count": 20,
+    "fallback_count": 0,
+    "fallback_samples": [],
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 25228,
+      "completion_tokens": 28703,
+      "total_tokens": 53931,
+      "request_count": 20
+    }
+  },
+  "variable_iterate": [
+    {
+      "round": 0,
+      "review": {
+        "round": 0,
+        "output_csv": "label_construct/results/gemini-3.1-pro-preview/variable_labels/round_0/review.csv",
+        "selected_samples": 20,
+        "processed_samples": 20,
+        "cached_samples": 0,
+        "accurate_count": 19,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": [],
+        "token_usage": {
+          "prompt_tokens": 30378,
+          "completion_tokens": 14633,
+          "total_tokens": 45011,
+          "request_count": 20
+        }
+      },
+      "inaccurate_sample_keys": [
+        "272"
+      ],
+      "refine": {
+        "round": 1,
+        "output_dir": "label_construct/results/gemini-3.1-pro-preview/variable_labels/round_1/samples",
+        "selected_samples": 1,
+        "processed_samples": 1,
+        "cached_samples": 0,
+        "success_count": 1,
+        "success_sample_keys": [
+          "272"
+        ],
+        "failed_count": 0,
+        "failures": []
+      }
+    },
+    {
+      "round": 1,
+      "review": {
+        "round": 1,
+        "output_csv": "label_construct/results/gemini-3.1-pro-preview/variable_labels/round_1/review.csv",
+        "selected_samples": 1,
+        "processed_samples": 1,
+        "cached_samples": 0,
+        "accurate_count": 1,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": [],
+        "token_usage": {
+          "prompt_tokens": 1730,
+          "completion_tokens": 2442,
+          "total_tokens": 4172,
+          "request_count": 1
+        }
+      },
+      "inaccurate_sample_keys": []
+    }
+  ],
+  "final_outputs": {
+    "output_dir": "label_construct/results/gemini-3.1-pro-preview/variable_labels/final",
+    "samples_dir": "label_construct/results/gemini-3.1-pro-preview/variable_labels/final/samples",
+    "review_csv": "label_construct/results/gemini-3.1-pro-preview/variable_labels/final/review.csv",
+    "copied_count": 20,
+    "missing_sample_keys": [],
+    "review_row_count": 20,
+    "missing_review_sample_keys": [],
+    "final_rounds": {
+      "151": 0,
+      "473": 0,
+      "468": 0,
+      "180": 0,
+      "405": 0,
+      "361": 0,
+      "446": 0,
+      "522": 0,
+      "114": 0,
+      "548": 0,
+      "126": 0,
+      "84": 0,
+      "469": 0,
+      "272": 1,
+      "51": 0,
+      "211": 0,
+      "346": 0,
+      "238": 0,
+      "319": 0,
+      "210": 0
+    }
+  },
+  "status": "completed",
+  "token_usage": {
+    "method_review": {
+      "prompt_tokens": 86414,
+      "completion_tokens": 19352,
+      "total_tokens": 105766,
+      "request_count": 20
+    },
+    "variable_extract_round_0": {
+      "prompt_tokens": 25228,
+      "completion_tokens": 28703,
+      "total_tokens": 53931,
+      "request_count": 20
+    },
+    "variable_review_round_0": {
+      "prompt_tokens": 30378,
+      "completion_tokens": 14633,
+      "total_tokens": 45011,
+      "request_count": 20
+    },
+    "first_pass_total": {
+      "prompt_tokens": 142020,
+      "completion_tokens": 62688,
+      "total_tokens": 204708,
+      "request_count": 60
+    }
+  }
+}

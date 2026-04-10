@@ -1,0 +1,28 @@
+{
+  "sample_key": "469",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/469.json",
+  "round": 0,
+  "variables": {
+    "group1_summary": {
+      "id": "group1_summary",
+      "value": {
+        "n1": 12,
+        "s1": 0.3919
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Summary statistics for group 1 actually used in calculating the pooled variance: sample size and sample standard deviation."
+    },
+    "group2_summary": {
+      "id": "group2_summary",
+      "value": {
+        "n2": 7,
+        "s2": 0.6492
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Summary statistics for group 2 actually used in calculating the pooled variance: sample size and sample standard deviation."
+    }
+  }
+}

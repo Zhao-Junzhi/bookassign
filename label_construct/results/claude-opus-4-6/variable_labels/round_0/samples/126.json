@@ -1,0 +1,26 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": 0,
+  "variables": {
+    "σ": {
+      "id": "σ",
+      "value": {
+        "标准差": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "实验试剂盒测量结果的总体标准差，已知为1"
+    },
+    "n": {
+      "id": "n",
+      "value": {
+        "样本量": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "实验技术员使用试剂盒进行的测量次数（样本量）"
+    }
+  }
+}

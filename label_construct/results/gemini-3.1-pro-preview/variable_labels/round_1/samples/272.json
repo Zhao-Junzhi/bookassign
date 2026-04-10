@@ -1,0 +1,36 @@
+{
+  "sample_key": "272",
+  "case_id": "book1_r1\\record_139.json",
+  "source_path": "book1_r2/272.json",
+  "round": 1,
+  "variables": {
+    "Treatment group sample size": {
+      "id": "Treatment group sample size",
+      "value": 2221,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the treatment group."
+    },
+    "Treatment group fatal heart attacks": {
+      "id": "Treatment group fatal heart attacks",
+      "value": 111,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of fatal heart attacks in the treatment group."
+    },
+    "Placebo group sample size": {
+      "id": "Placebo group sample size",
+      "value": 2223,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the placebo group."
+    },
+    "Placebo group fatal heart attacks": {
+      "id": "Placebo group fatal heart attacks",
+      "value": 189,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of fatal heart attacks in the placebo group."
+    }
+  }
+}

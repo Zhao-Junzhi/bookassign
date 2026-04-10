@@ -1,0 +1,26 @@
+{
+  "sample_key": "522",
+  "case_id": "book1_r1\\record_419.json",
+  "source_path": "book1_r2/522.json",
+  "round": 0,
+  "variables": {
+    "成功次数": {
+      "id": "成功次数",
+      "value": {
+        "成功次数": 6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "品茶者在8次试验中正确判断的次数，用于计算正确预测比例的置信区间。"
+    },
+    "试验次数": {
+      "id": "试验次数",
+      "value": {
+        "试验次数": 8
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "品茶挑战的总试验次数（样本量），用于计算正确预测比例的置信区间。"
+    }
+  }
+}

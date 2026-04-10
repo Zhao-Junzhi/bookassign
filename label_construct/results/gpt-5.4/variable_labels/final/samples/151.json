@@ -1,0 +1,28 @@
+{
+  "sample_key": "151",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r2/151.json",
+  "round": 0,
+  "variables": {
+    "male_student_height_summary": {
+      "id": "male_student_height_summary",
+      "value": {
+        "sample_size": 18,
+        "sample_mean_inches": 70
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample summary of male students' heights used to compute the one-sample z test."
+    },
+    "general_population_height_reference": {
+      "id": "general_population_height_reference",
+      "value": {
+        "reference_mean_inches": 69,
+        "population_sd_inches": 2.8
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reference population mean and known population standard deviation for male height used in the hypothesis test."
+    }
+  }
+}

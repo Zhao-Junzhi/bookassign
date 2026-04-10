@@ -1,0 +1,2 @@
+﻿sample_key,round,is_accurate,missing_variables,redundant_variables,incorrect_fields,reason,revision_advice
+522,1,1,[],[],[],抽取结果仅保留了 answer 实际使用的 95% Mid-P 置信区间这一对象，未包含未使用的其他置信水平或方法；其 value 结构完整，class 设为 numerical 合理，role 设为 NR 合理，description 与题意一致。,无

@@ -1,0 +1,40 @@
+{
+  "sample_key": "180",
+  "case_id": "book1_r1\\record_095.json",
+  "source_path": "book1_r2/180.json",
+  "round": 0,
+  "variables": {
+    "VISIT1": {
+      "id": "VISIT1",
+      "value": [
+        5,
+        13,
+        17,
+        3,
+        20,
+        18,
+        8,
+        15
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of socially inappropriate behaviors (faux pas) during the first visit (before the intervention), used to compute the differences plotted in the stemplot."
+    },
+    "VISIT2": {
+      "id": "VISIT2",
+      "value": [
+        4,
+        11,
+        12,
+        3,
+        14,
+        14,
+        10,
+        9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of socially inappropriate behaviors (faux pas) during the second visit (after the intervention), used to compute the differences plotted in the stemplot."
+    }
+  }
+}

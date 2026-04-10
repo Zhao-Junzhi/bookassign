@@ -1,0 +1,26 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": 0,
+  "variables": {
+    "standard_deviation": {
+      "id": "standard_deviation",
+      "value": {
+        "\\sigma": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The expected standard deviation of the laboratory kit results."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": {
+        "n": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of measurements taken by the lab technician."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sample_key": "522",
+  "case_id": "book1_r1\\record_419.json",
+  "source_path": "book1_r2/522.json",
+  "round": 1,
+  "variables": {
+    "95%_Mid-P_confidence_interval": {
+      "id": "95%_Mid-P_confidence_interval",
+      "value": {
+        "lower": 0.388,
+        "upper": 0.956
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Figure 16.10 中 Mid-P 方法对应的 95% 置信区间。"
+    }
+  }
+}

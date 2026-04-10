@@ -1,0 +1,22 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 0,
+  "variables": {
+    "margin_of_error": {
+      "id": "margin_of_error",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The desired margin of error for estimating the difference between two means."
+    },
+    "pooled_variance": {
+      "id": "pooled_variance",
+      "value": 0.24813,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The pooled variance used as an estimate of the population variance."
+    }
+  }
+}

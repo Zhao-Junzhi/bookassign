@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-04-09T22:27:53",
+  "model": "gpt-5.4",
+  "results_dir": "label_construct/results/gpt-5.4",
+  "stages": [
+    "method_review",
+    "variable_extract",
+    "variable_iterate"
+  ],
+  "limit": 20,
+  "max_rounds": 3,
+  "force": false,
+  "sample_count": 20,
+  "sample_keys": [
+    "151",
+    "473",
+    "468",
+    "180",
+    "405",
+    "361",
+    "446",
+    "522",
+    "114",
+    "548",
+    "126",
+    "84",
+    "469",
+    "272",
+    "51",
+    "211",
+    "346",
+    "238",
+    "319",
+    "210"
+  ],
+  "method_review": {
+    "output_csv": "label_construct/results/gpt-5.4/method_review/method_review.csv",
+    "selected_samples": 20,
+    "processed_samples": 20,
+    "cached_samples": 0,
+    "success_count": 20,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 94815,
+      "completion_tokens": 5514,
+      "total_tokens": 100329,
+      "request_count": 20
+    }
+  },
+  "variable_extract": {
+    "round": 0,
+    "output_dir": "label_construct/results/gpt-5.4/variable_labels/round_0/samples",
+    "selected_samples": 20,
+    "processed_samples": 20,
+    "cached_samples": 0,
+    "success_count": 20,
+    "fallback_count": 0,
+    "fallback_samples": [],
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 26724,
+      "completion_tokens": 5421,
+      "total_tokens": 32145,
+      "request_count": 20
+    }
+  },
+  "variable_iterate": [
+    {
+      "round": 0,
+      "review": {
+        "round": 0,
+        "output_csv": "label_construct/results/gpt-5.4/variable_labels/round_0/review.csv",
+        "selected_samples": 20,
+        "processed_samples": 20,
+        "cached_samples": 0,
+        "accurate_count": 19,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": [],
+        "token_usage": {
+          "prompt_tokens": 33622,
+          "completion_tokens": 4655,
+          "total_tokens": 38277,
+          "request_count": 21
+        }
+      },
+      "inaccurate_sample_keys": [
+        "522"
+      ],
+      "refine": {
+        "round": 1,
+        "output_dir": "label_construct/results/gpt-5.4/variable_labels/round_1/samples",
+        "selected_samples": 1,
+        "processed_samples": 1,
+        "cached_samples": 0,
+        "success_count": 1,
+        "success_sample_keys": [
+          "522"
+        ],
+        "failed_count": 0,
+        "failures": []
+      }
+    },
+    {
+      "round": 1,
+      "review": {
+        "round": 1,
+        "output_csv": "label_construct/results/gpt-5.4/variable_labels/round_1/review.csv",
+        "selected_samples": 1,
+        "processed_samples": 1,
+        "cached_samples": 0,
+        "accurate_count": 1,
+        "fallback_count": 0,
+        "failed_count": 0,
+        "failures": [],
+        "token_usage": {
+          "prompt_tokens": 1477,
+          "completion_tokens": 305,
+          "total_tokens": 1782,
+          "request_count": 1
+        }
+      },
+      "inaccurate_sample_keys": []
+    }
+  ],
+  "final_outputs": {
+    "output_dir": "label_construct/results/gpt-5.4/variable_labels/final",
+    "samples_dir": "label_construct/results/gpt-5.4/variable_labels/final/samples",
+    "review_csv": "label_construct/results/gpt-5.4/variable_labels/final/review.csv",
+    "copied_count": 20,
+    "missing_sample_keys": [],
+    "review_row_count": 20,
+    "missing_review_sample_keys": [],
+    "final_rounds": {
+      "151": 0,
+      "473": 0,
+      "468": 0,
+      "180": 0,
+      "405": 0,
+      "361": 0,
+      "446": 0,
+      "522": 1,
+      "114": 0,
+      "548": 0,
+      "126": 0,
+      "84": 0,
+      "469": 0,
+      "272": 0,
+      "51": 0,
+      "211": 0,
+      "346": 0,
+      "238": 0,
+      "319": 0,
+      "210": 0
+    }
+  },
+  "status": "completed",
+  "token_usage": {
+    "method_review": {
+      "prompt_tokens": 94815,
+      "completion_tokens": 5514,
+      "total_tokens": 100329,
+      "request_count": 20
+    },
+    "variable_extract_round_0": {
+      "prompt_tokens": 26724,
+      "completion_tokens": 5421,
+      "total_tokens": 32145,
+      "request_count": 20
+    },
+    "variable_review_round_0": {
+      "prompt_tokens": 33622,
+      "completion_tokens": 4655,
+      "total_tokens": 38277,
+      "request_count": 21
+    },
+    "first_pass_total": {
+      "prompt_tokens": 155161,
+      "completion_tokens": 15590,
+      "total_tokens": 170751,
+      "request_count": 61
+    }
+  }
+}

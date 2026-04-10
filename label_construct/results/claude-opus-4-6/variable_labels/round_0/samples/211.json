@@ -1,0 +1,66 @@
+{
+  "sample_key": "211",
+  "case_id": "book1_r1\\record_109.json",
+  "source_path": "book1_r2/211.json",
+  "round": 0,
+  "variables": {
+    "GROUP": {
+      "id": "GROUP",
+      "value": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Group assignment: 1 = treatment (calcium supplementation), 2 = placebo."
+    },
+    "DELTA": {
+      "id": "DELTA",
+      "value": [
+        7,
+        -4,
+        18,
+        17,
+        -3,
+        -5,
+        1,
+        10,
+        11,
+        -2,
+        -1,
+        12,
+        -1,
+        -3,
+        3,
+        -5,
+        5,
+        2,
+        -11,
+        -1,
+        -3
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Change in systolic blood pressure (BEFORE minus AFTER) in mm Hg."
+    }
+  }
+}

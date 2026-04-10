@@ -1,0 +1,2 @@
+﻿sample_key,round,is_accurate,missing_variables,redundant_variables,incorrect_fields,reason,revision_advice
+272,1,1,[],[],[],变量抽取完整且准确，包含了 answer 中实际使用的所有分组样本量和成功次数。各变量的 class、role 和 description 均符合规范，value 与题面数据完全一致。,无

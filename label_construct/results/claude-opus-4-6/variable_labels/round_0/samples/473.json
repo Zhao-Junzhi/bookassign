@@ -1,0 +1,17 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 0,
+  "variables": {
+    "s²_pooled": {
+      "id": "s²_pooled",
+      "value": {
+        "pooled variance": 0.24813
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pooled sample variance from the cholesterol illustrative example, used as an estimate of σ² for computing the required sample size per group."
+    }
+  }
+}

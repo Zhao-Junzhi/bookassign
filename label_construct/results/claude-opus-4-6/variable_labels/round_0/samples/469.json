@@ -1,0 +1,28 @@
+{
+  "sample_key": "469",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/469.json",
+  "round": 0,
+  "variables": {
+    "cholesterol_group1": {
+      "id": "cholesterol_group1",
+      "value": {
+        "n": 12,
+        "s": 0.3919
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Cholesterol measurements for group 1, summarized by sample size and standard deviation, used in pooled variance calculation."
+    },
+    "cholesterol_group2": {
+      "id": "cholesterol_group2",
+      "value": {
+        "n": 7,
+        "s": 0.6492
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Cholesterol measurements for group 2, summarized by sample size and standard deviation, used in pooled variance calculation."
+    }
+  }
+}
