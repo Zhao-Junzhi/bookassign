@@ -1,0 +1,4 @@
+2026-04-09 22:20:37,509 - INFO - 流水线开始: model=gemini-3.1-pro-preview, results_dir=results/gemini-3.1-pro-preview, stages=['method_review', 'variable_extract', 'variable_iterate'], sample_count=20, force=False
+2026-04-09 22:24:56,332 - INFO - 变量迭代在 round 1 的审阅后停止: 当前样本均准确
+2026-04-09 22:24:56,356 - INFO - final 汇总完成: copied=20, missing_samples=0, review_rows=20, missing_reviews=0
+2026-04-09 22:24:56,357 - INFO - 流水线摘要已写入 label_construct/results/gemini-3.1-pro-preview/runs/summary.json

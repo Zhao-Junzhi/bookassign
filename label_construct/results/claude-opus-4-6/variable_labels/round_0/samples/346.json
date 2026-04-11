@@ -1,0 +1,24 @@
+{
+  "sample_key": "346",
+  "case_id": "book1_r1\\record_320.json",
+  "source_path": "book1_r2/346.json",
+  "round": 0,
+  "variables": {
+    "Site 2 Particulates": {
+      "id": "Site 2 Particulates",
+      "value": [
+        32,
+        33,
+        34,
+        36,
+        36,
+        38,
+        39,
+        40
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Particulate matter measurements (μg/m³) in air samples on successive days at Site 2, used to calculate Q1, Q3, and IQR."
+    }
+  }
+}

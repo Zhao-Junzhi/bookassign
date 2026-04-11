@@ -1,0 +1,4 @@
+2026-04-09 22:21:38,245 - INFO - 变量抽取开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-09 22:22:13,387 - INFO - 变量抽取进度: round=0, 10/20
+2026-04-09 22:23:21,346 - INFO - 变量抽取进度: round=0, 20/20
+2026-04-09 22:23:21,348 - INFO - 变量抽取结果目录: label_construct/results/gemini-3.1-pro-preview/variable_labels/round_0/samples

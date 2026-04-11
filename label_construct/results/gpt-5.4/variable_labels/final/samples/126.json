@@ -1,0 +1,26 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": 0,
+  "variables": {
+    "σ": {
+      "id": "σ",
+      "value": {
+        "standard_deviation": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation of individual kit measurement results used in the calculation."
+    },
+    "n": {
+      "id": "n",
+      "value": {
+        "sample_size": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of measurements used to compute the standard deviation of the sample mean."
+    }
+  }
+}

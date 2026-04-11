@@ -7,25 +7,29 @@ import argparse
 import asyncio
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 if __package__ in (None, ""):
     import sys
 
     sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+from label_construct.client import LLMClient, merge_usage
 from label_construct.io_utils import (
-    RUNS_DIR,
-    VARIABLE_LABELS_DIR,
     build_logger,
     copy_json_file,
     ensure_results_tree,
     get_final_review_path,
     get_final_samples_dir,
+    get_results_dir,
+    get_runs_dir,
     get_variable_review_path,
     get_selected_sample_map,
     iter_sample_paths,
     latest_existing_label_path,
     latest_review_round,
+    results_dir_name_for_model,
+    set_results_root_for_model,
     load_csv_rows,
     normalize_flag,
     to_project_relative,
@@ -40,6 +44,8 @@ from label_construct.variable_review import run_variable_review
 
 
 ALLOWED_STAGES = {"method_review", "variable_extract", "variable_iterate"}
+DEFAULT_MODEL = "gpt-4o"
+TOKEN_IN_MILLION = 1_000_000
 
 
 def parse_stages(raw: str) -> list[str]:
@@ -75,8 +81,90 @@ def _next_pending_paths(
     return next_paths, dropped_keys
 
 
+def parse_models(raw_models: list[str] | None) -> list[str]:
+    if not raw_models:
+        return [DEFAULT_MODEL]
+    models: list[str] = []
+    for item in raw_models:
+        for model_name in item.split(","):
+            cleaned = model_name.strip()
+            if cleaned:
+                models.append(cleaned)
+    return models or [DEFAULT_MODEL]
+
+
+async def verify_model_access(model: str, logger) -> None:
+    client = LLMClient(model=model, logger=logger)
+    await client.chat('只返回严格 JSON：{"ok":1}')
+
+
+def _extract_stage_usage(stage_summary: dict[str, Any] | None) -> dict[str, int]:
+    if not isinstance(stage_summary, dict):
+        return merge_usage()
+    return merge_usage(stage_summary.get("token_usage"))
+
+
+def build_pipeline_token_usage(summary: dict[str, Any]) -> dict[str, Any]:
+    method_review_usage = _extract_stage_usage(summary.get("method_review"))
+    variable_extract_usage = _extract_stage_usage(summary.get("variable_extract"))
+
+    first_round_review_usage = merge_usage()
+    variable_iterate = summary.get("variable_iterate")
+    if isinstance(variable_iterate, list):
+        for round_entry in variable_iterate:
+            if round_entry.get("round") == 0:
+                first_round_review_usage = _extract_stage_usage(round_entry.get("review"))
+                break
+
+    first_pass_usage = merge_usage(
+        method_review_usage,
+        variable_extract_usage,
+        first_round_review_usage,
+    )
+
+    return {
+        "method_review": method_review_usage,
+        "variable_extract_round_0": variable_extract_usage,
+        "variable_review_round_0": first_round_review_usage,
+        "first_pass_total": first_pass_usage,
+    }
+
+
+def _format_tokens_in_millions(value: Any) -> str:
+    try:
+        token_count = int(value)
+    except (TypeError, ValueError):
+        token_count = 0
+    return f"{token_count / TOKEN_IN_MILLION:.6f}M"
+
+
+def emit_pipeline_token_usage(summary: dict[str, Any]) -> None:
+    model = str(summary.get("model", "unknown"))
+    token_usage = summary.get("token_usage")
+    if not isinstance(token_usage, dict):
+        return
+
+    stage_labels = {
+        "method_review": "run_method_review",
+        "variable_extract_round_0": "run_variable_extraction_round_0",
+        "variable_review_round_0": "run_variable_review_round_0",
+        "first_pass_total": "first_pass_total",
+    }
+
+    for stage_key, stage_name in stage_labels.items():
+        stage_usage = token_usage.get(stage_key)
+        if not isinstance(stage_usage, dict):
+            continue
+        print(
+            f"{stage_name}（{model}）："
+            f"prompt_tokens={_format_tokens_in_millions(stage_usage.get('prompt_tokens'))}, "
+            f"total_tokens={_format_tokens_in_millions(stage_usage.get('total_tokens'))}, "
+            f"request_count={int(stage_usage.get('request_count', 0) or 0)}"
+        )
+
+
 def sync_final_outputs(sample_paths: list[Path], max_rounds: int, logger) -> dict[str, object]:
-    final_dir = VARIABLE_LABELS_DIR / "final"
+    final_dir = get_results_dir() / "variable_labels" / "final"
     final_samples_dir = get_final_samples_dir()
     final_samples_dir.mkdir(parents=True, exist_ok=True)
 
@@ -136,7 +224,8 @@ def sync_final_outputs(sample_paths: list[Path], max_rounds: int, logger) -> dic
     }
 
 
-async def run_pipeline(args) -> dict[str, object]:
+async def run_pipeline_for_model(args, model: str) -> dict[str, object]:
+    set_results_root_for_model(model, default_model=DEFAULT_MODEL)
     ensure_results_tree()
     logger = build_logger("run_pipeline")
     stages = parse_stages(args.stages)
@@ -145,6 +234,8 @@ async def run_pipeline(args) -> dict[str, object]:
 
     summary: dict[str, object] = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "model": model,
+        "results_dir": to_project_relative(get_results_dir()),
         "stages": stages,
         "limit": args.limit,
         "max_rounds": args.max_rounds,
@@ -153,87 +244,138 @@ async def run_pipeline(args) -> dict[str, object]:
         "sample_keys": list(selected_map.keys()),
     }
 
-    logger.info("流水线开始: stages=%s, sample_count=%s, force=%s", stages, len(sample_paths), args.force)
-
-    if "method_review" in stages:
-        summary["method_review"] = await run_method_review(
-            sample_paths=sample_paths,
-            force=args.force,
-            max_workers=args.max_workers,
-        )
+    logger.info(
+        "流水线开始: model=%s, results_dir=%s, stages=%s, sample_count=%s, force=%s",
+        model,
+        results_dir_name_for_model(model, DEFAULT_MODEL),
+        stages,
+        len(sample_paths),
+        args.force,
+    )
 
     needs_variable_base = "variable_extract" in stages or "variable_iterate" in stages
-    if needs_variable_base:
-        summary["variable_extract"] = await run_variable_extraction(
-            sample_paths=sample_paths,
-            round_index=0,
-            force=args.force,
-            max_workers=args.max_workers,
-        )
+    summary_path = get_runs_dir() / "summary.json"
 
-    if "variable_iterate" in stages:
-        pending_paths = list(sample_paths)
-        round_summaries = []
-        current_round = 0
+    try:
+        if sample_paths:
+            await verify_model_access(model, logger)
 
-        while True:
-            if not pending_paths:
-                logger.info("变量迭代提前结束: 没有待修正样本")
-                break
-
-            review_summary = await run_variable_review(
-                sample_paths=pending_paths,
-                round_index=current_round,
+        if "method_review" in stages:
+            summary["method_review"] = await run_method_review(
+                sample_paths=sample_paths,
+                model=model,
                 force=args.force,
                 max_workers=args.max_workers,
             )
 
-            inaccurate_keys = _load_inaccurate_keys(current_round, selected_map)
-            round_entry: dict[str, object] = {
-                "round": current_round,
-                "review": review_summary,
-                "inaccurate_sample_keys": inaccurate_keys,
-            }
-
-            if not inaccurate_keys:
-                round_summaries.append(round_entry)
-                logger.info("变量迭代在 round %s 的审阅后停止: 当前样本均准确", current_round)
-                break
-
-            if current_round >= args.max_rounds:
-                round_summaries.append(round_entry)
-                logger.info("变量迭代在 round %s 的审阅后停止: 已达到最大修正轮数", current_round)
-                break
-
-            next_round = current_round + 1
-            pending_paths = [selected_map[key] for key in inaccurate_keys]
-            refine_summary = await run_variable_refine(
-                sample_paths=pending_paths,
-                target_round=next_round,
+        if needs_variable_base:
+            summary["variable_extract"] = await run_variable_extraction(
+                sample_paths=sample_paths,
+                model=model,
+                round_index=0,
                 force=args.force,
                 max_workers=args.max_workers,
             )
-            round_entry["refine"] = refine_summary
-            pending_paths, dropped_keys = _next_pending_paths(inaccurate_keys, refine_summary, selected_map)
-            if dropped_keys:
-                logger.warning(
-                    "以下样本在 round=%s 修正失败，已从后续审阅中跳过: %s",
-                    next_round,
-                    ",".join(dropped_keys),
+
+        if "variable_iterate" in stages:
+            pending_paths = list(sample_paths)
+            round_summaries = []
+            current_round = 0
+
+            while True:
+                if not pending_paths:
+                    logger.info("变量迭代提前结束: 没有待修正样本")
+                    break
+
+                review_summary = await run_variable_review(
+                    sample_paths=pending_paths,
+                    model=model,
+                    round_index=current_round,
+                    force=args.force,
+                    max_workers=args.max_workers,
                 )
-                round_entry["dropped_sample_keys"] = dropped_keys
-            round_summaries.append(round_entry)
-            current_round = next_round
 
-        summary["variable_iterate"] = round_summaries
+                inaccurate_keys = _load_inaccurate_keys(current_round, selected_map)
+                round_entry: dict[str, object] = {
+                    "round": current_round,
+                    "review": review_summary,
+                    "inaccurate_sample_keys": inaccurate_keys,
+                }
 
-    if needs_variable_base:
-        summary["final_outputs"] = sync_final_outputs(sample_paths, args.max_rounds, logger)
+                if not inaccurate_keys:
+                    round_summaries.append(round_entry)
+                    logger.info("变量迭代在 round %s 的审阅后停止: 当前样本均准确", current_round)
+                    break
 
-    summary_path = RUNS_DIR / "summary.json"
-    write_json(summary_path, summary)
-    logger.info("流水线摘要已写入 %s", to_project_relative(summary_path))
+                if current_round >= args.max_rounds:
+                    round_summaries.append(round_entry)
+                    logger.info("变量迭代在 round %s 的审阅后停止: 已达到最大修正轮数", current_round)
+                    break
+
+                next_round = current_round + 1
+                pending_paths = [selected_map[key] for key in inaccurate_keys]
+                refine_summary = await run_variable_refine(
+                    sample_paths=pending_paths,
+                    model=model,
+                    target_round=next_round,
+                    force=args.force,
+                    max_workers=args.max_workers,
+                )
+                round_entry["refine"] = refine_summary
+                pending_paths, dropped_keys = _next_pending_paths(inaccurate_keys, refine_summary, selected_map)
+                if dropped_keys:
+                    logger.warning(
+                        "以下样本在 round=%s 修正失败，已从后续审阅中跳过: %s",
+                        next_round,
+                        ",".join(dropped_keys),
+                    )
+                    round_entry["dropped_sample_keys"] = dropped_keys
+                round_summaries.append(round_entry)
+                current_round = next_round
+
+            summary["variable_iterate"] = round_summaries
+
+        if needs_variable_base:
+            summary["final_outputs"] = sync_final_outputs(sample_paths, args.max_rounds, logger)
+
+        summary["status"] = "completed"
+    except Exception as exc:
+        summary["status"] = "failed"
+        summary["error"] = str(exc)
+        logger.exception("流水线执行失败: model=%s", model)
+    finally:
+        summary["token_usage"] = build_pipeline_token_usage(summary)
+        write_json(summary_path, summary)
+        logger.info("流水线摘要已写入 %s", to_project_relative(summary_path))
     return summary
+
+
+async def run_all_models(args) -> dict[str, Any]:
+    models = parse_models(args.model)
+    overall = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "models": models,
+        "results": [],
+        "failures": [],
+    }
+
+    for model in models:
+        summary = await run_pipeline_for_model(args, model)
+        emit_pipeline_token_usage(summary)
+        if summary.get("status") == "completed":
+            overall["results"].append(
+                {
+                    "model": model,
+                    "results_dir": summary.get("results_dir"),
+                    "summary_path": summary.get("results_dir", "") + "/runs/summary.json",
+                }
+            )
+        else:
+            error_message = str(summary.get("error", "unknown error"))
+            print(f"[ERROR] model={model} 运行失败: {error_message}")
+            overall["failures"].append({"model": model, "error": error_message})
+
+    return overall
 
 
 def main() -> None:
@@ -246,11 +388,17 @@ def main() -> None:
         default="method_review,variable_extract,variable_iterate",
         help="Comma-separated stages: method_review,variable_extract,variable_iterate",
     )
+    parser.add_argument(
+        "--model",
+        nargs="+",
+        default=[DEFAULT_MODEL],
+        help="One or more model names. Multiple values will be processed sequentially.",
+    )
     parser.add_argument("--force", action="store_true", help="Recompute outputs even if existing results are found.")
     parser.add_argument("--max-workers", type=int, default=5, help="Concurrent request count.")
     args = parser.parse_args()
 
-    asyncio.run(run_pipeline(args))
+    asyncio.run(run_all_models(args))
 
 
 if __name__ == "__main__":

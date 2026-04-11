@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import json
 import logging
+import re
 import shutil
 from pathlib import Path
 from typing import Any, Iterable
@@ -14,7 +15,8 @@ import random
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = PROJECT_ROOT / "book1_r2"
-RESULTS_DIR = PROJECT_ROOT / "label_construct" / "results"
+DEFAULT_RESULTS_DIR = PROJECT_ROOT / "label_construct" / "results"
+RESULTS_DIR = DEFAULT_RESULTS_DIR
 METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
 VARIABLE_LABELS_DIR = RESULTS_DIR / "variable_labels"
 RUNS_DIR = RESULTS_DIR / "runs"
@@ -83,6 +85,41 @@ def ensure_results_tree() -> None:
         path.mkdir(parents=True, exist_ok=True)
 
 
+def results_dir_name_for_model(model_name: str, default_model: str = "gpt-4o") -> str:
+    safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", model_name).strip("._-")
+    if not safe_name:
+        safe_name = "custom_model"
+    return f"results/{safe_name}"
+
+
+def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    global RESULTS_DIR, METHOD_REVIEW_DIR, VARIABLE_LABELS_DIR, RUNS_DIR, LOGS_DIR
+
+    RESULTS_DIR = PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model)
+    METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
+    VARIABLE_LABELS_DIR = RESULTS_DIR / "variable_labels"
+    RUNS_DIR = RESULTS_DIR / "runs"
+    LOGS_DIR = RESULTS_DIR / "logs"
+    ensure_results_tree()
+    return RESULTS_DIR
+
+
+def get_results_dir() -> Path:
+    return RESULTS_DIR
+
+
+def get_method_review_dir() -> Path:
+    return METHOD_REVIEW_DIR
+
+
+def get_runs_dir() -> Path:
+    return RUNS_DIR
+
+
+def get_logs_dir() -> Path:
+    return LOGS_DIR
+
+
 def build_logger(name: str) -> logging.Logger:
     ensure_results_tree()
     logger = logging.getLogger(name)
@@ -122,7 +159,117 @@ def iter_sample_paths(sample_dir: Path | None = None, limit: int | None = None) 
 
 def load_json(path: Path) -> Any:
     with open(path, "r", encoding="utf-8") as handle:
-        return json.load(handle)
+        content = handle.read()
+
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        repaired = repair_json_like_text(content)
+        if repaired != content:
+            return json.loads(repaired)
+        raise
+
+
+def repair_json_like_text(text: str) -> str:
+    if not text:
+        return text
+
+    repaired = text.strip()
+    repaired = re.sub(r",(\s*[}\]])", r"\1", repaired)
+
+    chars: list[str] = []
+    in_string = False
+    expecting_key = False
+    stack: list[str] = []
+    index = 0
+
+    def next_non_space(cursor: int) -> str:
+        cursor += 1
+        while cursor < len(repaired) and repaired[cursor].isspace():
+            cursor += 1
+        if cursor >= len(repaired):
+            return ""
+        return repaired[cursor]
+
+    while index < len(repaired):
+        char = repaired[index]
+
+        if not in_string:
+            chars.append(char)
+            if char == "{":
+                stack.append("{")
+                expecting_key = True
+            elif char == "[":
+                stack.append("[")
+                expecting_key = False
+            elif char == "}":
+                if stack:
+                    stack.pop()
+                expecting_key = False
+            elif char == "]":
+                if stack:
+                    stack.pop()
+                expecting_key = False
+            elif char == ",":
+                expecting_key = bool(stack and stack[-1] == "{")
+            elif char == ":":
+                expecting_key = False
+            elif char == "\"":
+                in_string = True
+            index += 1
+            continue
+
+        if char == "\\":
+            next_char = repaired[index + 1] if index + 1 < len(repaired) else ""
+            if next_char in {"\"", "\\", "/"}:
+                chars.append(char)
+                chars.append(next_char)
+                index += 2
+                continue
+            if next_char == "u" and index + 5 < len(repaired):
+                hex_part = repaired[index + 2 : index + 6]
+                if re.fullmatch(r"[0-9a-fA-F]{4}", hex_part):
+                    chars.append(char)
+                    chars.append("u")
+                    chars.extend(hex_part)
+                    index += 6
+                    continue
+            chars.append("\\\\")
+            index += 1
+            continue
+
+        if char == "\"":
+            following = next_non_space(index)
+            is_closing_quote = following in {",", "}", "]", ":", ""}
+            if is_closing_quote:
+                chars.append(char)
+                in_string = False
+                if expecting_key and following == ":":
+                    expecting_key = False
+            else:
+                chars.append("\\\"")
+            index += 1
+            continue
+
+        if char == "\n":
+            chars.append("\\n")
+            index += 1
+            continue
+
+        if char == "\r":
+            chars.append("\\r")
+            index += 1
+            continue
+
+        if char == "\t":
+            chars.append("\\t")
+            index += 1
+            continue
+
+        chars.append(char)
+        index += 1
+
+    return "".join(chars)
 
 
 def write_json(path: Path, data: Any) -> None:

@@ -1,0 +1,25 @@
+{
+  "sample_key": "319",
+  "case_id": "book1_r1\\record_305.json",
+  "source_path": "book1_r2/319.json",
+  "round": 0,
+  "variables": {
+    "group": {
+      "id": "group",
+      "value": [
+        "treatment group",
+        "control group"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Study group assignment used to compare outcomes between intervention and control subjects."
+    },
+    "heart_disease_mortality": {
+      "id": "heart_disease_mortality",
+      "value": "heart disease mortality",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Outcome variable reported in the answer as declining significantly in both groups."
+    }
+  }
+}

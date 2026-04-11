@@ -1,0 +1,28 @@
+{
+  "sample_key": "469",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/469.json",
+  "round": 0,
+  "variables": {
+    "Group 1 cholesterol": {
+      "id": "Group 1 cholesterol",
+      "value": {
+        "n": 12,
+        "s": 0.3919
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size and standard deviation of cholesterol for group 1."
+    },
+    "Group 2 cholesterol": {
+      "id": "Group 2 cholesterol",
+      "value": {
+        "n": 7,
+        "s": 0.6492
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size and standard deviation of cholesterol for group 2."
+    }
+  }
+}

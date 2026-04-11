@@ -1,0 +1,4 @@
+2026-04-09 22:20:42,795 - INFO - 方法审阅开始: 样本=20, 缓存命中=0, 待处理=20
+2026-04-09 22:21:15,350 - INFO - 方法审阅进度: 10/20
+2026-04-09 22:21:38,239 - INFO - 方法审阅进度: 20/20
+2026-04-09 22:21:38,244 - INFO - 方法审阅结果已写入 label_construct/results/gemini-3.1-pro-preview/method_review/method_review.csv

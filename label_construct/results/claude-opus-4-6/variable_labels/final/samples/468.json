@@ -1,0 +1,26 @@
+{
+  "sample_key": "468",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/468.json",
+  "round": 0,
+  "variables": {
+    "n_1": {
+      "id": "n_1",
+      "value": {
+        "样本量": 12
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 1 in the cholesterol study."
+    },
+    "n_2": {
+      "id": "n_2",
+      "value": {
+        "样本量": 7
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 2 in the cholesterol study."
+    }
+  }
+}

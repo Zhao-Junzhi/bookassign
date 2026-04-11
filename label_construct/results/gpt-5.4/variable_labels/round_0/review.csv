@@ -1,0 +1,21 @@
+﻿sample_key,round,is_accurate,missing_variables,redundant_variables,incorrect_fields,reason,revision_advice
+51,0,1,[],[],[],answer 仅使用了各州的 Percent 数值来构造双分茎叶图，未实际使用 State 变量；当前变量抽取只保留了 Percent，且其 class、role、description 与 value 均与题面和 answer 的实际使用一致。,无
+84,0,1,[],[],[],answer 仅直接给出匹配结果“95%”，未实际调用任何题面中的数据对象、变量列、汇总统计量或其他需抽取的变量，因此空 JSON 符合要求。,无
+114,0,1,[],[],[],answer 仅给出标准正态分位数结果，未实际调用任何题面数据变量或统计量对象，因此输出空 JSON 是正确的。,无
+126,0,1,[],[],[],answer 实际只使用了总体标准差 σ=1 和测量次数 n=4 来计算样本均值的标准差；当前变量集合完整且无冗余。两者的 value 与题面/answer 一致，class 与 role 标注合理，description 也准确。,无
+151,0,1,[],[],[],answer 实际使用的变量对象只有样本量、样本均值、参考总体均值和已知总体标准差；给定结果完整覆盖且无冗余。各变量均为数值型汇总量，本题不涉及明确的自变量/因变量方向，设为 NR 合适；value 与题面一致，结构也符合要求。,无
+180,0,1,[],[],[],Answer实际使用了两列原始数据VISIT1和VISIT2来计算配对差值并作茎叶图，未额外依赖其他变量对象。当前抽取没有遗漏或冗余；两列均为数值型，作为同一结果变量在干预前后的测量，标为Y可接受；value与题面一致，description也符合answer中的实际用途。,无
+210,0,1,[],[],[],answer 实际是在比较 echinacea 与 placebo 两组的平均 peak severity of symptoms 是否存在显著差异，因此确实使用了治疗分组变量和结局变量的分组汇总统计量（n、mean、sd）。当前变量集合无遗漏、无冗余，class、role、description 与 value 均匹配题面且结构合理。,无
+211,0,1,[],[],[],answer 实际使用的是按 GROUP 分组比较血压变化，并据此做并列箱线图；对应变量正是 GROUP 和 DELTA mm Hg。未实际调用 SUBJECT ID、BEFORE、AFTER，因此不应保留。现有两个变量的 class、role、description 与题意及 answer 的实际使用一致，value 也与题面数据一致。,无
+238,0,1,[],[],[],answer 仅对统计概念陈述进行真假判断，未实际调用任何题面数据对象或变量取值进行计算或推理，因此输出空变量集合是正确的。,无
+272,0,1,[],[],[],抽取结果完整覆盖了 answer 实际使用的变量对象：两组标识、各组事件数、各组样本量。未包含 answer 未使用的冗余变量。各变量的 value 与题面一致，class、role 和 description 也均可接受。,无
+319,0,1,[],[],[],answer实际使用了两个变量对象：研究分组（treatment/control）和心脏病死亡率。当前抽取未遗漏、无冗余；group作为自变量、heart_disease_mortality作为因变量的角色划分合理，value也与题面可获得信息一致。,无
+346,0,1,[],[],[],answer 实际只使用了 Site 2 的有序颗粒物数据来计算 Q1、Q3 和 IQR。所提取变量无遗漏、无冗余；class 为 numerical 合适；该问题仅为描述性统计，role 设为 NR 合适；value 与题目中给出的有序数据一致。,无
+361,0,1,[],[],[],answer 实际只用到了 pmf 中的随机变量取值（No. of success）及其对应概率（Probability）来计算期望；未实际使用其他变量对象。当前抽取无遗漏、无冗余，value 与题面一致，class 与 role 也合理。,无
+405,0,1,[],[],[],answer 为 null，未实际使用任何变量对象。按要求应输出空 JSON，当前 variables 为 {}，符合要求。,无
+446,0,1,[],[],[],answer 仅陈述在两个显著性水平下的结论，未实际调用任何数据变量对象或样本统计量进行推理计算；按要求应输出空 JSON，当前 variables 为 {} 正确。,无
+468,0,1,[],[],[],answer 实际只使用了两个样本量变量 n_1 和 n_2 来计算各组自由度及合并自由度；未使用均值和标准差。当前变量抽取无遗漏、无冗余，且各字段设置合理。,无
+469,0,1,[],[],[],answer 实际只使用了两组的样本量和样本标准差来计算 pooled variance；已正确保留 group1_summary 与 group2_summary，且未保留未使用的均值。各变量的 class、role、description 与 value 均合理且与题面一致。,无
+473,0,1,[],[],[],answer 实际使用的数据对象只有题目中给出的 pooled variance estimate（s_pooled^2=0.24813），其余如 95% 置信水平、z=1.96、误差限 0.25 和计算得到的样本量属于设定条件、方法常数或计算结果，不属于此处应保留的数据变量对象。现有变量的 class、role、description 与 value 均合理。,无
+522,0,0,"[""95%_Mid-P_confidence_interval""]","[""correct_trials"", ""total_trials""]",[],answer 实际只调用了图中给出的 95% Mid-P 置信区间（0.388 到 0.956），并未使用 6 次正确、8 次试验这两个原始计数来推理或计算。依据“以 answer 的实际推理和计算过程为最高优先级”，当前变量集遗漏了被直接使用的区间结果，同时保留了未被 answer 实际使用的冗余变量。,"删除 correct_trials 和 total_trials；补充一个被 answer 直接使用的变量对象，如“95%_Mid-P_confidence_interval”，value 可写为 {""lower"": 0.388, ""upper"": 0.956}，class 建议为 numerical，role 建议为 NR，description 写为“Figure 16.10 中 Mid-P 方法对应的 95% 置信区间”。"
+548,0,1,[],[],[],answer 为 null，未实际使用任何变量对象，因此输出空变量 JSON 是符合要求的。,无

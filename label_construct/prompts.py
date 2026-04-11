@@ -16,10 +16,12 @@ VARIABLE_REQUIREMENTS_TEXT = '''
 关键要求：
 1. 以 `answer` 的实际推理和计算过程为最高优先级；题面中出现但 answer 未实际使用的变量不要保留。
 2. 变量对象可以是原始数据列、分组统计量、列联表、样本量、成功次数、时间变量，或任何被 answer 明确调用的数据对象。请注意，当 answer 中利用了题目中的多个变量构造了一个新的变量时，应当只保留并且全部保留这些原始变量，而不需要单独构造一个新的变量对象。
+2.1 如果题目没有给出显式数据表或 `data` 为空，但 `question` / `answer` 中已经出现了符号变量、统计量或逻辑判断对象（如 `X`、`Y`、`r`、某个事件、某个统计量），仍然需要据此抽取变量；这不属于“缺少输入”。
 3. 若 answer 只使用了数据中的部分列，只输出这些列。
 4. 若 answer 没有实际使用任何变量对象，输出空 JSON：{{}}。
-5. 输出必须是严格 JSON，顶层以变量 id 为 key，不要输出额外文字。
-6. 变量特指question中为了研究目标问题所采集的数据对象及其统计量（如样本量、均值、标准差等），不包括模型参数、与特定统计模型/分布相关的统计量（例如z score、p值）以及与特定统计方法相关的统计量（例如t值、F值）。
+5. 样本已经完整提供。无论 `background`、`data` 是否为空，都禁止回复“请提供题目/答案/输入/上下文”等索要补充信息的话；若信息不足以支持任何变量，直接输出空 JSON：{{}}。
+6. 输出必须是严格 JSON，顶层以变量 id 为 key，不要输出额外文字。
+7. 变量特指question中为了研究目标问题所采集的数据对象及其统计量（如样本量、均值、标准差等），不包括模型参数、与特定统计模型/分布相关的统计量（例如z score、p值）以及与特定统计方法相关的统计量（例如t值、F值）。
 
 字段规范：
 - 顶端key: "变量名（提取自题目或自行指定合适的变量名）"。
@@ -112,6 +114,16 @@ def build_variable_extract_prompt(sample: dict[str, Any]) -> str:
   }}
 }}
 """.strip()
+
+
+def build_variable_extract_retry_prompt(sample: dict[str, Any]) -> str:
+    return (
+        build_variable_extract_prompt(sample)
+        + "\n\n补充要求：你已经拿到了完整样本。"
+        + " 不允许回答“Please provide ...”或“请提供 ...”。"
+        + " 若 `data` 为空，请直接根据 `question` 和 `answer` 中出现的符号、统计量或判断对象抽取变量；"
+        + " 若确实不存在应抽取的变量，只返回 {}。"
+    )
 
 
 def build_variable_review_prompt(sample: dict[str, Any], variable_record: dict[str, Any], review_round: int) -> str:

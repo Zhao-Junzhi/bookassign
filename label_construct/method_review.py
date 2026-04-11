@@ -13,12 +13,12 @@ if __package__ in (None, ""):
 
     sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from label_construct.client import LLMClient
+from label_construct.client import LLMClient, merge_usage
 from label_construct.io_utils import (
-    METHOD_REVIEW_DIR,
     METHOD_REVIEW_FIELDNAMES,
     build_logger,
     ensure_results_tree,
+    get_method_review_dir,
     iter_sample_paths,
     load_existing_rows_by_key,
     load_json,
@@ -42,11 +42,11 @@ async def _process_sample(
     semaphore: asyncio.Semaphore,
     client: LLMClient,
     logger,
-) -> tuple[str, dict[str, Any] | None, str | None]:
+) -> tuple[str, dict[str, Any] | None, str | None, dict[str, int] | None]:
     async with semaphore:
         try:
             sample = load_json(sample_path)
-            result = await client.generate_json(build_method_review_prompt(sample))
+            result, usage = await client.generate_json_with_usage(build_method_review_prompt(sample))
             if not isinstance(result, dict):
                 raise ValueError("方法审阅输出必须是JSON对象")
 
@@ -66,20 +66,21 @@ async def _process_sample(
                 "proposed_new_category": result.get("proposed_new_category", ""),
                 "reason": result.get("reason", ""),
             }
-            return sample_path.stem, row, None
+            return sample_path.stem, row, None, usage
         except Exception as exc:
-            logger.error("方法审阅失败 %s: %s", sample_path.name, exc)
-            return sample_path.stem, None, str(exc)
+            logger.warning("方法审阅跳过样本 %s: %s", sample_path.name, exc)
+            return sample_path.stem, None, str(exc), getattr(exc, "usage", None)
 
 
 async def run_method_review(
     sample_paths: list[Path],
+    model: str,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
 ) -> dict[str, Any]:
     ensure_results_tree()
     logger = build_logger("method_review")
-    output_path = METHOD_REVIEW_DIR / "method_review.csv"
+    output_path = get_method_review_dir() / "method_review.csv"
     existing_rows = {} if force else load_existing_rows_by_key(output_path)
 
     cached_rows = []
@@ -95,16 +96,18 @@ async def run_method_review(
 
     results = list(cached_rows)
     failures = []
+    usage_summary = merge_usage()
 
     if pending_paths:
         semaphore = asyncio.Semaphore(max_workers)
-        client = LLMClient(logger=logger)
+        client = LLMClient(model=model, logger=logger)
         tasks = [_process_sample(path, semaphore, client, logger) for path in pending_paths]
 
         for index, coro in enumerate(asyncio.as_completed(tasks), start=1):
-            sample_key, row, error = await coro
+            sample_key, row, error, usage = await coro
             if row is not None:
                 results.append(row)
+                usage_summary = merge_usage(usage_summary, usage)
             else:
                 failures.append({"sample_key": sample_key, "error": error})
 
@@ -123,20 +126,21 @@ async def run_method_review(
         "success_count": len(merged_rows),
         "failed_count": len(failures),
         "failures": failures,
+        "token_usage": usage_summary,
     }
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Review output.method consistency for book1_r2 samples.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
+    parser.add_argument("--model", type=str, default="gpt-4o", help="Model name to use for this stage.")
     parser.add_argument("--force", action="store_true", help="Recompute rows even if the CSV already contains them.")
     parser.add_argument("--max-workers", type=int, default=DEFAULT_MAX_WORKERS, help="Concurrent request count.")
     args = parser.parse_args()
 
     sample_paths = iter_sample_paths(limit=args.limit)
-    asyncio.run(run_method_review(sample_paths=sample_paths, force=args.force, max_workers=args.max_workers))
+    asyncio.run(run_method_review(sample_paths=sample_paths, model=args.model, force=args.force, max_workers=args.max_workers))
 
 
 if __name__ == "__main__":
     main()
-
