@@ -1,40 +1,53 @@
 {
-  "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+  "background": "Determine whether the boldface numbers in the exercise represent a parameter or a statistic. The context involves new cases of female breast cancer in California in 2005 and their survival rates by stage of diagnosis.",
   "task": [
     {
-      "query": "There were 18,800 new cases of female breast cancer in the state of California in 2005.",
-      "answer": "18,800 is a parameter.",
-      "method": "集中趋势测度"
+      "query": "Is 18,800 a parameter or a statistic?",
+      "answer": "18,800 is a parameter."
     },
     {
-      "query": "A study of 1225 of these cases finds that survival varied greatly by stage of diagnosis. The average 7-year survival rate for stage I breast cancer was 92%.",
-      "answer": "92% is a statistic.",
-      "method": "集中趋势测度"
+      "query": "Is 92% (the 7-year survival rate for stage I breast cancer) a parameter or a statistic?",
+      "answer": "92% is a statistic."
     },
     {
-      "query": "For stage II breast cancer, the 7-year survival was 71%.",
-      "answer": "71% is a statistic.",
-      "method": "集中趋势测度"
+      "query": "Is 71% (the 7-year survival rate for stage II breast cancer) a parameter or a statistic?",
+      "answer": "71% is a statistic."
     },
     {
-      "query": "For stage III breast cancer, the survival was 39%.",
-      "answer": "39% is a statistic.",
-      "method": "集中趋势测度"
+      "query": "Is 39% (the 7-year survival rate for stage III breast cancer) a parameter or a statistic?",
+      "answer": "39% is a statistic."
     },
     {
-      "query": "For stage IV, the survival rate was 11%.",
-      "answer": "11% is a statistic.",
-      "method": "集中趋势测度"
+      "query": "Is 11% (the 7-year survival rate for stage IV breast cancer) a parameter or a statistic?",
+      "answer": "11% is a statistic."
     }
   ],
   "id": "066",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "8.1",
     "image": "",
     "caption": "Breast cancer survival.",
     "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
     "section": "8.1 CONCEPTS",
     "page": "157-157"
+  },
+  "token_usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 454,
+    "total_tokens": 730,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,30 +1,49 @@
 {
-  "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40.",
+  "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40. We propose to calculate 90%, 95%, and 99% confidence intervals for μ based on this information.",
   "task": [
     {
-      "query": "We propose to calculate 90% confidence intervals for μ based on this information.",
-      "answer": "The 90% confidence interval for μ is x̄ ± (z_{1-.10 / 2})(SE x̄) = 183.0 ± (1.645)(1.5) = 183.0 ± 2.5 = 180.5 to 185.5 (pounds).",
-      "method": "均值检验"
+      "query": "Calculate the standard error of the sample mean (SE_x̄).",
+      "answer": "SE_x̄ = σ / √n = 40 / √712 = 1.50."
     },
     {
-      "query": "We propose to calculate 95% confidence intervals for μ based on this information.",
-      "answer": "The 95% confidence interval for μ is x̄ ± (z_{1-.05 / 2})(SE x̄) = 183.0 ± (1.960)(1.5) = 183.0 ± 2.9 = 180.1 to 185.9 (pounds).",
-      "method": "均值检验"
+      "query": "Calculate the 90% confidence interval for μ.",
+      "answer": "The 90% confidence interval for μ is x̄ ± (z_(1-0.10/2))(SE_x̄) = 183.0 ± (1.645)(1.5) = 183.0 ± 2.5 = 180.5 to 185.5 (pounds)."
     },
     {
-      "query": "We propose to calculate 99% confidence intervals for μ based on this information.",
-      "answer": "The 99% confidence interval for μ is x̄ ± (z_{1-.01 / 2})(SE x̄) = 183.0 ± (2.576)(1.5) = 183.0 ± 3.9 = 179.1 to 186.9 (pounds).",
-      "method": "均值检验"
+      "query": "Calculate the 95% confidence interval for μ.",
+      "answer": "The 95% confidence interval for μ is x̄ ± (z_(1-0.05/2))(SE_x̄) = 183.0 ± (1.960)(1.5) = 183.0 ± 2.9 = 180.1 to 185.9 (pounds)."
+    },
+    {
+      "query": "Calculate the 99% confidence interval for μ.",
+      "answer": "The 99% confidence interval for μ is x̄ ± (z_(1-0.01/2))(SE_x̄) = 183.0 ± (2.576)(1.5) = 183.0 ± 3.9 = 179.1 to 186.9 (pounds)."
     }
   ],
   "id": "375",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
     "chapter": "BASICS OF CONFIDENCE INTERVALS",
     "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
     "page": "201-201"
+  },
+  "token_usage": {
+    "completion_tokens": 427,
+    "prompt_tokens": 641,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

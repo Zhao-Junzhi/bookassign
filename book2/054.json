@@ -1,0 +1,16 @@
+{
+  "id": "054",
+  "question": "Refer to Example 3.5. Recall that USA Today found that of all U.S. firms that use diversity training, 38\\% state that their primary reason for using it is to stay competitive.\na. What is the probability that in a sample of two firms that use diversity training, both primarily use it to stay competitive?\nb. What is the probability that in a sample of 10 firms that use diversity training, all 10 primarily use it to stay competitive?",
+  "data": null,
+  "answer": "a. Let $C_1$ represent the event that firm 1 gives \"stay competitive\" as the primary reason for using diversity training. Define $C_2$ similarly for firm 2. The event that both firms give \"stay competitive\" as their primary reason is the intersection of the two events, $C_1 \\cap C_2$. Based on the survey that found that $38 \\%$ of U.S. firms use diversity training to stay competitive, we could reasonably conclude that $P\\left(C_1\\right)=.38$ and $P\\left(C_2\\right)=.38$. However, in order to compute the probability of $C_1 \\cap C_2$ from the multiplicative rule, we must make the assumption that the two events are independent. Because the classification of any firm using diversity training is not likely to affect the classification of another firm, this assumption is reasonable. Assuming independence, we have\n\n$$\nP\\left(C_1 \\cap C_2\\right)=P\\left(C_1\\right) P\\left(C_2\\right)=(.38)(.38)=.1444\n$$\n\nb. To see how to compute the probability that 10 of 10 firms will give \"stay competitive\" as their primary reason, first consider the event that 3 of 3 firms give \"stay competitive\" as the primary reason. Using the notation defined earlier, we want to compute the probability of the intersection $C_1 \\cap C_2 \\cap C_3$. Again assuming independence of the classifications, we have\n\n$$\nP\\left(C_1 \\cap C_2 \\cap C_3\\right)=P\\left(C_1\\right) P\\left(C_2\\right) P\\left(C_3\\right)=(.38)(.38)(.38)=.054872\n$$\n\n\nSimilar reasoning leads us to the conclusion that the intersection of 10 such events can be calculated as follows:\n\n$$\nP\\left(C_1 \\cap C_2 \\cap C_3 \\cap \\ldots \\cap C_{10}\\right)=P\\left(C_1\\right) P\\left(C_2\\right) \\ldots P\\left(C_{10}\\right)=(.38)^{10}=.0000628\n$$\n\n\nThus, the probability that 10 of 10 firms all give \"stay competitive\" as their primary reason for using diversity training is about 63 in 1 million, assuming the events (stated reasons for using diversity training) are independent.",
+  "meta_info": {
+    "index": "3.21",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Probability of Independent Events Occurring Simultaneously-Diversity Training Study",
+    "chapter": "Probability",
+    "section": "3.6 The Multiplicative Rule and Independent Events",
+    "book": "Statistics for Business and Economics",
+    "page": "108-109"
+  }
+}

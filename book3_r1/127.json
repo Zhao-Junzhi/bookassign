@@ -1,10 +1,9 @@
 {
-  "background": "At time $x=0$, twenty identical units are put on test. Suppose that the lifetime probability density function of each unit with parameter $\\lambda$ is given by $f(x)=\\lambda e^{-\\lambda x}$ for $x \\geq 0, \\lambda>0$. The quality manager then leaves the test facility unmonitored. On his return 24 h later, the manager immediately terminates the test after noticing that $y=15$ of the 20 units are still in operation (so five have failed).",
+  "background": "At time $x=0$, twenty identical units are put on test. The lifetime probability density function of each unit with parameter $\\lambda$ is given by $f(x)=\\lambda e^{-\\lambda x}$ for $x \\geq 0, \\lambda>0$. The quality manager leaves the test facility unmonitored and returns 24 hours later. Upon return, the manager observes that $y=15$ of the 20 units are still in operation (5 have failed) and terminates the test.",
   "task": [
     {
-      "query": "Determine the maximum likelihood estimate of $\\lambda$.",
-      "answer": "The maximum likelihood estimate of $\\lambda=0.012$.",
-      "method": "最大似然估计（MLE）"
+      "query": "Determine the maximum likelihood estimate of $\\lambda$ given that $y=15$ units are still in operation after 24 hours.",
+      "answer": "The maximum likelihood estimate of $\\lambda=0.012$."
     }
   ],
   "id": "127",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "220-220"
+  },
+  "token_usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 437,
+    "total_tokens": 615,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

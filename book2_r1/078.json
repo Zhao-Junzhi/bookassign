@@ -1,0 +1,37 @@
+{
+  "background": "Find the value of z, denoted as z_0, in the standard normal distribution such that only 10% of the distribution exceeds z_0. This involves determining the z-value corresponding to a given probability.",
+  "task": [
+    {
+      "query": "What is the value of z_0 such that P(z ≥ z_0) = 0.10 in the standard normal distribution?",
+      "answer": "To find z_0, we know that the area to the right of z_0 is 0.10, which means the area between z = 0 and z_0 is 0.5 - 0.1 = 0.4. Using Table II, we look up the area 0.4000 and find the corresponding z-value to be approximately z_0 = 1.28. This means that the point 1.28 standard deviations above the mean is the 90th percentile of a normal distribution."
+    },
+    {
+      "query": "How can statistical software, such as Minitab, be used to verify the value of z_0?",
+      "answer": "Using statistical software like Minitab, we can use the inverse cumulative distribution function for a normal random variable and specify the cumulative probability P(z ≤ z_0) = 0.9. The software will output the value of z_0, which agrees with the solution derived using the normal table (z_0 = 1.28)."
+    }
+  ],
+  "id": "078",
+  "data": null,
+  "meta_info": {
+    "index": "4.22",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 319,
+    "prompt_tokens": 712,
+    "total_tokens": 1031,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

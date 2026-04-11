@@ -1,0 +1,16 @@
+{
+  "id": "003",
+  "question": "Refer to Example 1.2, in which the cola preferences of 1,000 consumers were indicated in a taste test. Describe how the reliability of an inference concerning the preferences of all cola consumers in the Pepsi bottler's marketing region could be measured.",
+  "data": null,
+  "answer": "When the preferences of 1,000 consumers are used to estimate the preferences of all consumers in the region, the estimate will not exactly mirror the preferences of the population. For example, if the taste test shows that $56 \\\\%$ of the 1,000 consumers chose Pepsi, it does not follow (nor is it likely) that exactly $56 \\\\%$ of all cola drinkers in the region prefer Pepsi. Nevertheless, we can use sound statistical reasoning (which is presented later in the text) to ensure that our sampling procedure will generate estimates that are almost certainly within a specified limit of the true percentage of all consumers who prefer Pepsi. For example, such reasoning might assure us that the estimate of the preference for Pepsi from the sample is almost certainly within $5 \\\\%$ of the actual population preference. The implication is that the actual preference for Pepsi is between $51 \\\\%$ [i.e., $(56-5) \\\\%$ ] and $61 \\\\%$ [i.e., $(56+5) \\\\%$ ]-that is, $(56 \\\\pm 5) \\\\%$. This interval represents a measure of reliability for the inference.",
+  "meta_info": {
+    "index": "1.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Reliability of an Inference-Pepsi vs. Coca-Cola",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.3 Fundamental Elements of Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "9-9"
+  }
+}

@@ -1,20 +1,37 @@
 {
-  "background": "We have established that uncomplicated human pregnancies have a gestation period that is approximately Normal with $\\mu=39$ weeks and $\\sigma=2$ weeks.",
+  "background": "We have established that uncomplicated human pregnancies have a gestation period that is approximately Normal with μ=39 weeks and σ=2 weeks.",
   "task": [
     {
-      "query": "What is the $z$-score for a pregnancy that lasts 36 weeks?",
-      "answer": "A pregnancy that is 36 weeks in length corresponds to $z= \\frac{36-39}{2}=-1.5$. This gestation is 1.5 standard deviations below average.",
-      "method": "标准化"
+      "query": "What is the z-score for a pregnancy that lasts 36 weeks?",
+      "answer": "A pregnancy that is 36 weeks in length corresponds to z= (36-39)/2 = -1.5. This gestation is 1.5 standard deviations below average."
     }
   ],
   "id": "358",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Standardization (Gestational length).",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.2 DETERMINING NORMAL PROBABILITIES",
     "page": "140-140"
+  },
+  "token_usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 387,
+    "total_tokens": 511,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

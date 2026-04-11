@@ -1,25 +1,57 @@
 {
-  "background": "We have established a scenario in which four patients are treated with an intervention that is successful 75% of the time. The number of patients who respond to treatment is a binomial random variable with parameters n = 4 and p = 0.75. It follows that probability of a failureg = 1 - p=1 - 0.75= 0.25.",
+  "background": "We have established a scenario in which four patients are treated with an intervention that is successful 75% of the time. The number of patients who respond to treatment is a binomial random variable with parameters n = 4 and p = 0.75. It follows that probability of a failure = 1 - p = 1 - 0.75 = 0.25.",
   "task": [
     {
       "query": "What is the probability of observing no successes among the four treatments?",
-      "answer": "$$\\begin{aligned}& \\operatorname{Pr}(X=0)={ }_n C_x \\cdot p^x \\cdot q^{n-x}={ }_4 C_0 \\cdot 0.75^0 \\cdot 0.25^{4-0}=1 \\cdot 1 \\cdot \\ 0.0039=0.0039 \\end{aligned}$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$\n\\begin{aligned}\n& \\operatorname{Pr}(X=0)={ }_n C_x \\cdot p^x \\cdot q^{n-x}={ }_4 C_0 \\cdot 0.75^0 \\cdot 0.25^{4-0}=1 \\cdot 1 \\cdot \\\n& 0.0039=0.0039\n\\end{aligned}\n$$"
     },
     {
       "query": "What is the probability of one success?",
-      "answer": "$$\\begin{aligned}& \\operatorname{Pr}(X=1)={ }_n C_x \\cdot p^x \\cdot q^{n-x}={ }_4 C_1 \\cdot 0.75^1 \\cdot 0.25^{4-1}=4 \\cdot 0.75 \\cdot \\ 25=0.0469 . \\end{aligned}$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$\n\\begin{aligned}\n& \\operatorname{Pr}(X=1)={ }_n C_x \\cdot p^x \\cdot q^{n-x}={ }_4 C_1 \\cdot 0.75^1 \\cdot 0.25^{4-1}=4 \\cdot 0.75 \\cdot \\\n& 25=0.0469 .\n\\end{aligned}\n$$"
+    },
+    {
+      "query": "What is the probability of two successes?",
+      "answer": "$$\n\\operatorname{Pr}(X=2)={ }_4 C_2 \\cdot 0.75^2 \\cdot 0.25^{4-2}=6 \\cdot 0.5625 \\cdot 0.0625=0.2109\n$$"
+    },
+    {
+      "query": "What is the probability of three successes?",
+      "answer": "$$\n\\operatorname{Pr}(X=3)={ }_4 C_3 \\cdot 0.75^3 \\cdot .25^{4-3}=4 \\cdot 0.4219 \\cdot 0.25=0.4219\n$$"
+    },
+    {
+      "query": "What is the probability of four successes?",
+      "answer": "$$\n\\operatorname{Pr}(X=4)={ }_4 C_4 \\cdot 0.75^4 \\cdot 0.25^{4-4}=1 \\cdot 0.3164 \\cdot 1=0.3164\n$$"
+    },
+    {
+      "query": "What is the probability mass function (pmf) for X ~ b(4, 0.75) in tabular form?",
+      "answer": "Table 6.1 lists this pmf in tabular form:\n\n\\begin{tabular}{lccccc}\n\\hline \\multicolumn{6}{l}{ Table 6.1. Probability mass function for $X \\sim b(4,0.75)$ in tabular form. } \\\n\\hline No. of successes $(x)$ & 0 & 1 & 2 & 3 & 4 \\\n$\\operatorname{Pr}(X=x)$ & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}"
     }
   ],
   "id": "348",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Binomial probabilities (Four patients).",
     "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
     "page": "117-118"
+  },
+  "token_usage": {
+    "completion_tokens": 812,
+    "prompt_tokens": 951,
+    "total_tokens": 1763,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,10 +1,9 @@
 {
-  "background": "A life insurance company is interested to predict in the coming year on the number of claims that it may receive on a particular town due to the severe weather such as floods. All of the policies in the town are written on floods. There are currently 250 active policies in the town. The company estimates that the probability of any flood occurs in the coming year is 0.002.",
+  "background": "A life insurance company wants to predict the number of claims it may receive in the coming year in a particular town due to severe weather such as floods. There are currently 250 active flood insurance policies in the town, and the company estimates the probability of any flood occurring in the coming year is 0.002. The claims are assumed to be independent.",
   "task": [
     {
       "query": "Determine the probability that the insurance company receives more than 4 claims in this town out of 250 active policies assuming that the claims are independent.",
-      "answer": "Let $N$ be the number of claims in the coming year. Then $N \\sim$ binomial $(250, p=0.002)$. Then the desired probability is given by $$ P(N>4)=1-\\sum_{n=0}^4\\binom{250}{n}(0.002)^n(0.998)^{250-n}=1.6664*10^{-4} $$",
-      "method": "事件发生概率及独立性"
+      "answer": "Let $N$ be the number of claims in the coming year. Then $N \\sim$ binomial $(250, p=0.002)$. Then the desired probability is given by\n\n$$\nP(N>4)=1-\\sum_{n=0}^4\\binom{250}{n}(0.002)^n(0.998)^{250-n}=1.6664*10^{-4}\n$$"
     }
   ],
   "id": "21",
@@ -18,5 +17,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "70-70"
+  },
+  "token_usage": {
+    "completion_tokens": 223,
+    "prompt_tokens": 492,
+    "total_tokens": 715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

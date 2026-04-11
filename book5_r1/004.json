@@ -1,10 +1,9 @@
 {
-  "background": "Assuming that the height of adult males has a Normal distribution.",
+  "background": "The problem assumes that the height of adult males follows a Normal distribution.",
   "task": [
     {
       "query": "What proportion of males will be more than two standard deviations above the mean height?",
-      "answer": "0.023 or $2.3 \\%$ (from Table B1).",
-      "method": "事件发生概率及独立性"
+      "answer": "0.023 or $2.3 \\%$ (from Table B1)."
     }
   ],
   "id": "004",
@@ -18,5 +17,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "71-71"
+  },
+  "token_usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 342,
+    "total_tokens": 420,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

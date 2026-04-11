@@ -2,29 +2,44 @@
   "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
   "task": [
     {
-      "query": "For site 1, calculate Q1, Q3, and IQR based on the ordered array of data: 22, 24, 28, 32, 36, 38, 42, 68.",
-      "answer": "Q1 = 26 (average of 24 and 28), Q3 = 40 (average of 38 and 42), IQR = 14 (40 - 26).",
-      "method": "分位数/百分位数"
+      "query": "What is the ordered array, Q1, Q3, and IQR for site 1?",
+      "answer": "For site 1, the ordered array or data is: 22, 24, 28, 32, 36, 38, 42, 68. Q1 = the average of 24 and 28 (which is 26), Q3 = the average of 38 and 42 (which is 40). The IQR = 40 - 26 = 14."
     },
     {
-      "query": "For site 2, calculate Q1, Q3, and IQR based on the ordered array of data: 32, 33, 34, 36, 36, 38, 39, 40.",
-      "answer": "Q1 = 33.5, Q3 = 38.5, IQR = 5 (38.5 - 33.5).",
-      "method": "分位数/百分位数"
+      "query": "What is the ordered array, Q1, Q3, and IQR for site 2?",
+      "answer": "For site 2, the ordered array is: 32, 33, 34, 36, 36, 38, 39, 40. Q1 = 33.5, Q3 = 38.5. Therefore, IQR = 38.5 - 33.5 = 5."
     },
     {
-      "query": "Compare the variability of data between site 1 and site 2 using IQR.",
-      "answer": "Data are less variable at site 2 (IQR: 14 vs. 5).",
-      "method": "分散程度测度"
+      "query": "How does the variability of data compare between site 1 and site 2?",
+      "answer": "Data are less variable at site 2 (IQR: 14 vs. 5)."
     }
   ],
   "id": "320",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "IQRs (Air samples data).",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.5 SPREAD: QUARTILES ",
     "page": "75-75"
+  },
+  "token_usage": {
+    "completion_tokens": 327,
+    "prompt_tokens": 626,
+    "total_tokens": 953,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

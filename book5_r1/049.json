@@ -1,15 +1,17 @@
 {
-  "background": "In view of the comment in section 13.4.8, compare the motion sickness data in Tables 13.2 and 13.3, taking an event (failure) as either vomiting or stopping before 120 minutes.",
+  "background": "Carry out a logrank test to compare the motion sickness data in Tables 13.2 and 13.3, taking an event (failure) as either vomiting or stopping before 120 minutes. Compare the results with those given in section 13.3.1.",
   "task": [
     {
-      "query": "Carry out a logrank test to compare the motion sickness data in Tables 13.2 and 13.3.",
-      "answer": "If we take the three values censored before the end of the experiment as events, we get $$ O_1=7 ; \\quad E_1=10.2339 ; \\quad O_2=15 ; \\quad E_2=11.7661 $$ giving $X^2=1.91, \\mathrm{P}=0.17$. The evidence for a difference is now much weaker.",
-      "method": "假设检验"
+      "query": "What are the observed and expected values (O1, E1, O2, E2) when taking the three values censored before the end of the experiment as events?",
+      "answer": "If we take the three values censored before the end of the experiment as events, we get O1=7, E1=10.2339, O2=15, E2=11.7661."
     },
     {
-      "query": "Compare the results with those given in section 13.3.1.",
-      "answer": "The evidence for a difference is now much weaker.",
-      "method": "假设检验"
+      "query": "What is the chi-squared statistic (X^2) and p-value (P) for the logrank test under these conditions?",
+      "answer": "The chi-squared statistic is X^2=1.91, and the p-value is P=0.17."
+    },
+    {
+      "query": "How does the evidence for a difference compare to the results given in section 13.3.1?",
+      "answer": "The evidence for a difference is now much weaker."
     }
   ],
   "id": "049",
@@ -23,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "394-394"
+  },
+  "token_usage": {
+    "completion_tokens": 277,
+    "prompt_tokens": 454,
+    "total_tokens": 731,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

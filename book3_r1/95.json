@@ -1,10 +1,9 @@
 {
-  "background": "Assume that the product failures from an assembly line are 5%. Suppose that if a product that is defective, a diagnostic test indicates that it is defective 92% of the time, and if the product is good, the test indicates that it is good 96% of the time.",
+  "background": "Assume that the product failures from an assembly line are 5%. Suppose that if a product is defective, a diagnostic test indicates that it is defective 92% of the time, and if the product is good, the test indicates that it is good 96% of the time.",
   "task": [
     {
       "query": "Calculate the probability that the test will indicate that the product is defective?",
-      "answer": "$$ 0.084$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$ 0.084$$"
     }
   ],
   "id": "95",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "64-64"
+  },
+  "token_usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 380,
+    "total_tokens": 489,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

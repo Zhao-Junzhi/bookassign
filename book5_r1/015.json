@@ -1,10 +1,9 @@
 {
-  "background": "The table overleaf shows data from a study of 20 patients with chronic congestive heart failure (Caruana et al., 1988). Two measurements are shown - ejection fraction, which is a measure of left ventricular dysfunction, and pulmonary arterial wedge pressure.",
+  "background": "The table overleaf shows data from a study of 20 patients with chronic congestive heart failure (Caruana et al., 1988). Two measurements are shown - ejection fraction, which is a measure of left ventricular dysfunction, and pulmonary arterial wedge pressure. One value has been mistranscribed from the paper.",
   "task": [
     {
-      "query": "One value has been mistranscribed from the paper. Which patient's data is most likely to be wrong?",
-      "answer": "Figure A7.1 shows a scatter diagram of the data. The point that is most distant from the general trend is in the bottom left-hand corner, corresponding to patient 19. This patient's wedge pressure was actually 28 mm Hg.",
-      "method": "异常值处理"
+      "query": "Which patient's data is most likely to be wrong?",
+      "answer": "Figure A7.1 shows a scatter diagram of the data. The point that is most distant from the general trend is in the bottom left-hand corner, corresponding to patient 19. This patient's wedge pressure was actually 28 mm Hg."
     }
   ],
   "id": "015",
@@ -18,5 +17,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "149-150"
+  },
+  "token_usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 419,
+    "total_tokens": 571,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

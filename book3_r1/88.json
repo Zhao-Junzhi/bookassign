@@ -1,10 +1,21 @@
 {
-  "background": "Liquid waste produced by a factory is removed once a week. The weekly volume of waste in thousands of gallons is a continuous random variable with probability density function $$f(x)= \\begin{cases}105 x^4(1-x)^2 & \\text { for } 0<x<1 \\\\ 0 & \\text { otherwise } .\\end{cases}$$. Assume that the storage tank has a capacity of 0.9 expressed in thousands of gallons. The cost of removing $x>0$ units of waste at the end of the week is: $(1.25+0.5 x)$. Additional costs $(5+10 z)$ are incurred when the capacity of the storage tank is not sufficient and an overflow of $z>0$ units of waste occurs during the week.",
+  "background": "Liquid waste produced by a factory is removed once a week. The weekly volume of waste in thousands of gallons is a continuous random variable with a given probability density function. The storage tank has a capacity of 0.9 (in thousands of gallons), and costs are incurred for waste removal and overflow when the tank's capacity is exceeded.",
   "task": [
     {
+      "query": "What is the probability density function (PDF) of the weekly volume of waste in thousands of gallons?",
+      "answer": "The probability density function is:\n$$\nf(x)= \\begin{cases}105 x^4(1-x)^2 & \\text { for } 0<x<1 \\\\ 0 & \\text { otherwise } .\\end{cases}\n$$"
+    },
+    {
+      "query": "What is the cost of removing $x > 0$ units of waste at the end of the week?",
+      "answer": "The cost of removing $x > 0$ units of waste is: $(1.25 + 0.5x)$."
+    },
+    {
+      "query": "What are the additional costs incurred when the storage tank's capacity is exceeded, resulting in an overflow of $z > 0$ units of waste?",
+      "answer": "The additional costs incurred are: $(5 + 10z)$."
+    },
+    {
       "query": "What is the expected value of the weekly costs?",
-      "answer": "The expected value of the weekly costs is: $$1.6975$$.",
-      "method": "期望"
+      "answer": "The expected value of the weekly costs is: $$\n\\text{1.6975.}$$"
     }
   ],
   "id": "88",
@@ -18,5 +29,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "63-63"
+  },
+  "token_usage": {
+    "completion_tokens": 342,
+    "prompt_tokens": 508,
+    "total_tokens": 850,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

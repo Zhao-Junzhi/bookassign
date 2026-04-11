@@ -1,0 +1,47 @@
+{
+  "background": "Electric wheelchairs are difficult to maneuver for many disabled people. Researchers applied Bayes's Rule to evaluate an 'intelligent' robotic controller that captures the intent of the wheelchair user and aids in navigation. From a certain location in a room, a wheelchair user will either (1) turn sharply to the left and navigate through a door, (2) proceed straight to the other side of the room, or (3) turn slightly right and stop at a table. These events are denoted as $D$ (door), $S$ (straight), and $T$ (table). Based on previous trips, $P(D)=.5$, $P(S)=.2$, and $P(T)=.3$. The wheelchair is installed with a robot-controlled joystick. When the user intends to go through the door, he points the joystick straight $30\\%$ of the time; when the user intends to go straight, he points the joystick straight $40\\%$ of the time; and when the user intends to go to the table, he points the joystick straight $5\\%$ of the time.",
+  "task": [
+    {
+      "query": "What are the conditional probabilities of the joystick being pointed straight for each destination, i.e., $P(J \\mid D)$, $P(J \\mid S)$, and $P(J \\mid T)$?",
+      "answer": "$P(J \\mid D)=.3$, $P(J \\mid S)=.4$, and $P(J \\mid T)=.05$."
+    },
+    {
+      "query": "What are the posterior probabilities $P(D \\mid J)$, $P(S \\mid J)$, and $P(T \\mid J)$ given that the joystick is pointed straight?",
+      "answer": "$P(D \\mid J)=.612$, $P(S \\mid J)=.327$, and $P(T \\mid J)=.061$."
+    },
+    {
+      "query": "Where is the wheelchair user most likely headed if the joystick is pointed straight?",
+      "answer": "The largest conditional probability is $P(D \\mid J)=.612$. Thus, if the joystick is pointed straight, the wheelchair user is most likely headed through the door."
+    }
+  ],
+  "id": "056",
+  "data": null,
+  "meta_info": {
+    "index": "3.23",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Bayes's Rule Application- Wheelchair Control",
+    "chapter": "Probability",
+    "section": "3.7 Bayes's Rule",
+    "book": "Statistics for Business and Economics",
+    "page": "112-112"
+  },
+  "token_usage": {
+    "completion_tokens": 476,
+    "prompt_tokens": 1064,
+    "total_tokens": 1540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

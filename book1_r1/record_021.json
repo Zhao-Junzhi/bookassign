@@ -1,0 +1,41 @@
+{
+  "background": "An environmental study looked at suspended particulate matter in air samples (μgms/m³) at two different sites. Data are listed here: Site 1: 68, 22, 36, 32, 42, 24, 28, 38; Site 2: 36, 38, 39, 40, 36, 34, 33, 32.",
+  "task": [
+    {
+      "query": "Construct side-by-side stemplots to compare the two sites.",
+      "answer": "Here's a stemplot with a regular stem:\n```\nSite 1| | Site 2\n------------\n    842|2|\n    862|3|2346689\n        2|4|0\n          |5|\n        8|6|\n        (x10)\n```\n\nHere's a stemplot with split stem values:\n```\nSite 1 |  | Site 2\n------------------\n42 | 2 |\n8 | 2 |\n2 | 3 | 234\n86 | 3 | 6689\n2 | 4 | 0\n  | 4 |\n  | 5 |\n  | 5 |\n  | 6 |\n8 | 6 |\n(x10)\n```"
+    },
+    {
+      "query": "Interpret the stemplots to compare the two sites.",
+      "answer": "- The sites have similar central locations.\n- Site 1 exhibits greater variability.\n- A high outlier value is apparent at site 1."
+    }
+  ],
+  "id": "021",
+  "data": "",
+  "meta_info": {
+    "index": "3.13",
+    "image": "",
+    "caption": "Air samples.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 ADDITIONAL FREQUENCY CHARTS",
+    "page": "61-62"
+  },
+  "token_usage": {
+    "completion_tokens": 380,
+    "prompt_tokens": 650,
+    "total_tokens": 1030,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

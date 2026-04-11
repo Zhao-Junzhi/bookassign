@@ -2,19 +2,36 @@
   "background": "Four percent of the children in a large school population have asthma.",
   "task": [
     {
-      "query": "The number of asthmatics in a simple random sample of n = 20 from this population is a binomial random variable with n = 20 and p = 0.04.",
-      "answer": "The number of asthmatics in a simple random sample of n = 20 from this population is a binomial random variable with n = 20 and p = 0.04.",
-      "method": "从指定分布中抽样"
+      "query": "What is the distribution of the number of asthmatics in a simple random sample of n = 20 from this population?",
+      "answer": "The number of asthmatics in a simple random sample of n = 20 from this population is a binomial random variable with n = 20 and p = 0.04."
     }
   ],
   "id": "346",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Asthma survey binomial example.",
     "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "section": "6.1 Binomial Random Variables",
     "page": "116-116"
+  },
+  "token_usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 348,
+    "total_tokens": 474,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

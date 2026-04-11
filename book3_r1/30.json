@@ -3,13 +3,15 @@
   "task": [
     {
       "query": "What is the probability that failure occurs in less than 15 tests?",
-      "answer": "The required probability that failure occurs in less than 15 tests is $$\\begin{aligned} P(N \\leq 14) & =1-(1-p)^{14} \\\\ & =1-(0.95)^{14} \\\\ & =0.5123 \\end{aligned}$$",
-      "method": "事件发生概率及独立性"
+      "answer": "The required probability that failure occurs in less than 15 tests is $$\\begin{aligned} P(N \\leq 14) & =1-(1-p)^{14} \\\\ & =1-(0.95)^{14} \\\\ & =0.5123 \\end{aligned}$$"
     },
     {
-      "query": "What is the memoryless property of the geometric distribution?",
-      "answer": "It should be noted that the geometric distribution is the only discrete distribution having the memoryless property. In other words, mathematically, it is $$P(N \\geq(n+s) \\mid N>s)=P(N \\geq n) \\quad n=1,2, \\ldots$$ This memoryless property can be shown as follows. We know that $$P(N>n)=P(N \\geq n+1)=(1-p)^n$$ Thus, $$\\begin{aligned} P(N \\geq(n+s) \\mid N>s) & =\\frac{P(N \\geq n+s)}{P(N>s)} \\\\ & =\\frac{(1-p)^{n+s-1}}{(1-p)^s} \\\\ & =(1-p)^{n-1} \\\\ & =P(N \\geq n) \\end{aligned}$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the memoryless property of the geometric distribution, and how is it mathematically expressed?",
+      "answer": "It should be noted that the geometric distribution is the only discrete distribution having the memoryless property. In other words, mathematically, it is $$P(N \\geq(n+s) \\mid N>s)=P(N \\geq n) \\quad n=1,2, \\ldots$$"
+    },
+    {
+      "query": "How can the memoryless property of the geometric distribution be shown?",
+      "answer": "This memoryless property can be shown as follows. We know that $$P(N>n)=P(N \\geq n+1)=(1-p)^n$$ Thus, $$\\begin{aligned} P(N \\geq(n+s) \\mid N>s) & =\\frac{P(N \\geq n+s)}{P(N>s)} \\\\ & =\\frac{(1-p)^{n+s-1}}{(1-p)^s} \\\\ & =(1-p)^{n-1} \\\\ & =P(N \\geq n) \\end{aligned}$$"
     }
   ],
   "id": "30",
@@ -23,5 +25,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "83-83"
+  },
+  "token_usage": {
+    "completion_tokens": 388,
+    "prompt_tokens": 604,
+    "total_tokens": 992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

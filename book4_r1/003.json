@@ -1,30 +1,25 @@
 {
-  "background": "Identify which of the variables below are derived.",
+  "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
   "task": [
     {
-      "query": "Determine whether 'pH of soil' is a derived variable.",
-      "answer": "pH is the logarithm of the reciprocal of the hydrogen ion concentration and so is effectively derived from the hydrogen ion concentration despite usually being measured directly.",
-      "method": "集中趋势测度"
+      "query": "Is the pH of soil a derived variable or not derived?",
+      "answer": "Derived. pH is the logarithm of the reciprocal of the hydrogen ion concentration and so is effectively derived from the hydrogen ion concentration despite usually being measured directly."
     },
     {
-      "query": "Determine whether 'Number of households that own a car' is a derived variable.",
-      "answer": "Not derived.",
-      "method": "集中趋势测度"
+      "query": "Is the number of households that own a car a derived variable or not derived?",
+      "answer": "Not derived."
     },
     {
-      "query": "Determine whether 'Percentage of tree canopy cover in a woodland' is a derived variable.",
-      "answer": "Derived.",
-      "method": "集中趋势测度"
+      "query": "Is the percentage of tree canopy cover in a woodland a derived variable or not derived?",
+      "answer": "Derived."
     },
     {
-      "query": "Determine whether 'Estimate of tree canopy cover in a woodland (open, intermediate, closed)' is a derived variable.",
-      "answer": "Not derived.",
-      "method": "离散型变量分布"
+      "query": "Is the estimate of tree canopy cover in a woodland (open, intermediate, closed) a derived variable or not derived?",
+      "answer": "Not derived."
     },
     {
-      "query": "Determine whether 'Type of soil (designated as clay, loam or sandy)' is a derived variable.",
-      "answer": "Not derived.",
-      "method": "离散型变量分布"
+      "query": "Is the type of soil (designated as clay, loam or sandy) a derived variable or not derived?",
+      "answer": "Not derived."
     }
   ],
   "id": "003",
@@ -38,5 +33,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "20-20"
+  },
+  "token_usage": {
+    "completion_tokens": 278,
+    "prompt_tokens": 648,
+    "total_tokens": 926,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,15 +1,13 @@
 {
-  "background": "The failure rate for a hydraulic component $$h(t)=\\frac{t}{t+1} \\quad t>0$$where $t$ is in years.",
+  "background": "The failure rate for a hydraulic component is given as $$h(t)=\\frac{t}{t+1} \\quad t>0$$ where $t$ is in years.",
   "task": [
     {
       "query": "Determine the reliability function $R(t)$.",
-      "answer": "$R(t)=(t+1) e^{-t}$",
-      "method": "数据分布建模"
+      "answer": "$R(t)=(t+1) e^{-t}$"
     },
     {
       "query": "Determine the MTTF of the component.",
-      "answer": "The system MTTF is $M T T F=2$.",
-      "method": "描述性统计量"
+      "answer": "The system MTTF is $M T T F=2$."
     }
   ],
   "id": "78",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "60-60"
+  },
+  "token_usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 386,
+    "total_tokens": 512,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

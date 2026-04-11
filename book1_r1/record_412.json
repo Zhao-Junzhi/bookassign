@@ -1,35 +1,49 @@
 {
-  "background": "Test the slope in the smoking and lung cancer illustrative data for statistical significance. There are 11 bivariate observations. Established values are $b=0.02284$ and $S E_b=0.006976$.",
+  "background": "Test the slope in the smoking and lung cancer illustrative data for statistical significance. There are 11 bivariate observations. We have established b=0.02284 and SE_b=0.006976.",
   "task": [
     {
-      "query": "What are the hypotheses for testing the slope?",
-      "answer": "$H_0: \\beta=0$ versus $H_a: \\beta \\neq 0$",
-      "method": "假设检验"
+      "query": "What are the null and alternative hypotheses for testing the slope?",
+      "answer": "H_0: β=0 versus H_a: β≠0"
     },
     {
-      "query": "What is the test statistic and its calculation?",
-      "answer": "$t_{\\text{stat}}=\\frac{b}{S E_b}=\\frac{0.02284}{0.006976}=3.27$ with $d f=n-2=11-2=9$",
-      "method": "假设检验"
+      "query": "What is the test statistic for the slope, and how is it calculated?",
+      "answer": "t_stat = b / SE_b = 0.02284 / 0.006976 = 3.27 with df = n-2 = 11-2 = 9"
     },
     {
-      "query": "What is the P-value and its interpretation?",
-      "answer": "$P=0.0096$, providing good evidence against $H_0$.",
-      "method": "假设检验"
+      "query": "What is the P-value for the test, and what does it indicate?",
+      "answer": "P = 0.0096, providing good evidence against H_0."
     },
     {
-      "query": "What is the significance level and conclusion?",
-      "answer": "The association is significant at $\\alpha=0.01$.",
-      "method": "假设检验"
+      "query": "Is the association significant at a significance level of α=0.01?",
+      "answer": "The association is significant at α=0.01."
     }
   ],
   "id": "412",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "t statistic.",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.4 REGRESSION",
     "page": "320-320"
+  },
+  "token_usage": {
+    "completion_tokens": 265,
+    "prompt_tokens": 478,
+    "total_tokens": 743,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,18 +3,15 @@
   "task": [
     {
       "query": "For lichens occurring on the north, east, south and west sides of trees, use the external hypothesis that lichen orientation is random, and display in a table the observed and expected number of lichens and the component $X^2$ values in a goodness of fit test.",
-      "answer": "Observed and expected values along with $X^2$ components are:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline & Observed & Expected & $X^2$ \\\\\n\\hline North & 36 & 40 & 0.4 \\\\\n\\hline East & 50 & 40 & 2.5 \\\\\n\\hline South & 29 & 40 & 3.025 \\\\\n\\hline West & 45 & 40 & 0.625 \\\\\n\\hline\n\\end{tabular}",
-      "method": "假设检验与区间估计"
+      "answer": "\n\\begin{tabular}{|l|l|l|l|}\n\\hline & Observed & Expected & $X^2$ \\\\\n\\hline North & 36 & 40 & 0.4 \\\\\n\\hline East & 50 & 40 & 2.5 \\\\\n\\hline South & 29 & 40 & 3.025 \\\\\n\\hline West & 45 & 40 & 0.625 \\\\\n\\hline\n\\end{tabular}"
     },
     {
       "query": "Calculate the total $X^2, \\mathrm{df}$ and $P$ values to complete the goodness of fit test.",
-      "answer": "Total $X^2=6.55$, $\\mathrm{df}=3$, $P>0.05(=0.088)$",
-      "method": "假设检验与区间估计"
+      "answer": "total $X^2=6.55 \\quad \\mathrm{df}=3 \\quad P>0.05(=0.088)$"
     },
     {
       "query": "What can you conclude about the distribution of lichens on trees?",
-      "answer": "There is no significant departure from random orientation in lichens.",
-      "method": "假设检验与区间估计"
+      "answer": "There is no significant departure from random orientation in lichens."
     }
   ],
   "id": "018",
@@ -28,5 +25,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "123-123"
+  },
+  "token_usage": {
+    "completion_tokens": 382,
+    "prompt_tokens": 631,
+    "total_tokens": 1013,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

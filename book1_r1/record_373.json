@@ -3,23 +3,43 @@
   "task": [
     {
       "query": "What is the point estimate for the mean body weight in the population of men in this age group?",
-      "answer": "This is the point estimate for the mean body weight in the population of men in this age group.",
-      "method": "集中趋势测度"
+      "answer": "This is the point estimate for the mean body weight in the population of men in this age group."
     },
     {
-      "query": "What is the margin of error associated with this estimate for $95 \\%$ confidence, and what is the $95 \\%$ confidence interval for $\\mu$?",
-      "answer": "The margin of error associated with this estimate for $95 \\%$ confidence was $\\pm 3$ pounds. Therefore, the $95 \\%$ confidence interval for $\\mu$ is 183 pounds $\\pm 3$ pounds $=180$ to 186 pounds.",
-      "method": "假设检验与区间估计"
+      "query": "What is the margin of error associated with this estimate for $95 \\%$ confidence?",
+      "answer": "The margin of error associated with this estimate for $95 \\%$ confidence was $\\pm 3$ pounds."
+    },
+    {
+      "query": "What is the $95 \\%$ confidence interval for $\\mu$?",
+      "answer": "The $95 \\%$ confidence interval for $\\mu$ is 183 pounds $\\pm 3$ pounds $=180$ to 186 pounds."
     }
   ],
   "id": "373",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Point and interval estimation (Body weight, 20-29-year-old U.S. men, 2000). ",
     "chapter": "BASICS OF CONFIDENCE INTERVALS",
     "section": "10.1 Introduction to Estimation",
     "page": "196-197"
+  },
+  "token_usage": {
+    "completion_tokens": 284,
+    "prompt_tokens": 452,
+    "total_tokens": 736,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

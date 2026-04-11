@@ -1,25 +1,45 @@
 {
-  "background": "In 1954, the prominent statistician W. G. Cochran (1909-1980) published an important article on the analysis of cross-tabulated counts. On page 435 of the article, techniques were illustrated with an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable in this table classifies patients according to their initial degree of skin damage. The column variable classifies overall response to therapy.",
+  "background": "In 1954, the prominent statistician W. G. Cochran published an article on the analysis of cross-tabulated counts. The article included an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable classifies patients by their initial degree of skin damage, and the column variable classifies overall response to therapy.",
   "task": [
     {
-      "query": "Address whether patients with high levels of skin damage progressed differently than those with low levels of skin damage by calculating the conditional percents of improvement in the two groups.",
-      "answer": "Here are the relevant conditional distributions:\n\nSkin infiltration:\n- High: 13% marked improvement, 29% slight improvement, 31% stationary, 25% worse, 2% total.\n- Low: 8% marked improvement, 19% slight improvement, 29% stationary, 37% worse, 8% total.\n\nThese distributions show that patients with high skin damage were more likely to show improvement than those with low skin infiltration.",
-      "method": "contingency table"
+      "query": "Calculate the conditional percents of improvement for patients with high levels of skin damage.",
+      "answer": "For patients with high skin damage: Marked improvement = 13%, Slight improvement = 29%, Stationary = 31%, Worse = 25%, Total = 100%. Example calculation: 7 / 52 × 100% = 13%."
     },
     {
-      "query": "Comment on these findings.",
-      "answer": "These distributions show that patients with high skin damage were more likely to show improvement than those with low skin infiltration.",
-      "method": "contingency table"
+      "query": "Calculate the conditional percents of improvement for patients with low levels of skin damage.",
+      "answer": "For patients with low skin damage: Marked improvement = 8%, Slight improvement = 19%, Stationary = 29%, Worse = 37%, Total = 100%."
+    },
+    {
+      "query": "Comment on whether patients with high levels of skin damage progressed differently than those with low levels of skin damage.",
+      "answer": "Patients with high skin damage were more likely to show improvement than those with low skin infiltration."
     }
   ],
   "id": "143",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "18.5",
     "image": "",
     "caption": "Response to leprosy treatment.",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
     "page": "420-421"
+  },
+  "token_usage": {
+    "completion_tokens": 311,
+    "prompt_tokens": 620,
+    "total_tokens": 931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

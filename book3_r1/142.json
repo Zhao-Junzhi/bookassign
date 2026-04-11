@@ -1,15 +1,13 @@
 {
-  "background": "A system is composed of 20 identical active power supplies, at least 19 of the power supplies are required for the system to function. In other words, when 2 of the 20 power supplies fail, the system fails. When all 20 power supplies are operating, each has a constant failure rate $\\lambda_a$ per hour. If one power supply fails, each remaining power supply has a failure rate $\\lambda_b$ per hour where $\\lambda_a \\leq \\lambda_b$. We assume that a failed power supply can be repaired with a constant rate $\\mu$ per hour. The system reliability function, $R(t)$, is defined as the probability that the system continues to function throughout the interval $(0, t)$.",
+  "background": "A system is composed of 20 identical active power supplies, and at least 19 of the power supplies are required for the system to function. When 2 of the 20 power supplies fail, the system fails. When all 20 power supplies are operating, each has a constant failure rate \\(\\lambda_a\\) per hour. If one power supply fails, each remaining power supply has a failure rate \\(\\lambda_b\\) per hour where \\(\\lambda_a \\leq \\lambda_b\\). A failed power supply can be repaired with a constant rate \\(\\mu\\) per hour. The system reliability function, \\(R(t)\\), is defined as the probability that the system continues to function throughout the interval \\((0, t)\\).",
   "task": [
     {
       "query": "Determine the system mean time to failure (MTTF).",
-      "answer": "$M T T F=\\frac{\\mu+20 \\lambda_a+19 \\lambda_b}{380 \\lambda_a \\lambda_b}$.",
-      "method": "期望"
+      "answer": "$M T T F=\\frac{\\mu+20 \\lambda_a+19 \\lambda_b}{380 \\lambda_a \\lambda_b}$."
     },
     {
-      "query": "Given $\\lambda_a=0.0005, \\lambda_b=0.004$, and $\\mu=0.5$, calculate the system MTTF.",
-      "answer": "$M T T F=683.5526 \\mathrm{~h}$.",
-      "method": "期望"
+      "query": "Given \\(\\lambda_a=0.0005, \\lambda_b=0.004\\), and \\(\\mu=0.5\\), calculate the system MTTF.",
+      "answer": "$M T T F=683.5526 \\mathrm{~h}$."
     }
   ],
   "id": "142",
@@ -23,5 +21,23 @@
     "section": "6.4 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "400-400"
+  },
+  "token_usage": {
+    "completion_tokens": 302,
+    "prompt_tokens": 555,
+    "total_tokens": 857,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

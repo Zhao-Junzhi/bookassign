@@ -1,20 +1,17 @@
 {
-  "background": "An environmental pressure group contacted backbench MPs from two political parties (neither of which were in government), just before and immediately after a general election, and asked them for their views on environmental issues. The responses were analysed using content analysis. The number of positive words in each politician's statements were recorded and analysed.",
+  "background": "An environmental pressure group contacted backbench MPs from two political parties (Beige and Grey, neither of which were in government) just before and immediately after a general election. They asked for their views on environmental issues, and the responses were analyzed using content analysis. The number of positive words in each politician's statements was recorded. Assume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election, ensuring the data are independent.",
   "task": [
     {
-      "query": "Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election) or an interaction between the two.",
-      "answer": "Party: F = 0.7389, P > 0.05; Timing: F = 10.545, P < 0.01 (0.0016); Interaction: F = 0.992, P > 0.05.",
-      "method": "方差分析"
+      "query": "Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election), or an interaction between the two.",
+      "answer": "Party: df = 1, SS = 99.225, F = 0.7389, P > 0.05. Timing: df = 1, SS = 1416.1, F = 10.545, P < 0.01 (0.0016). Interaction: df = 1, SS = 133.25, F = 0.992, P > 0.05. Within: df = 36, SS = 3588.95. Total: df = 39, SS = 5237.525, MS = 134.29555."
     },
     {
       "query": "Plot the rank means on an interaction line plot.",
-      "answer": "Rank means for number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election.",
-      "method": "数据可视化"
+      "answer": "Rank means for the number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election, should be plotted on an interaction line plot."
     },
     {
       "query": "Using multiple comparison tests where appropriate, what can you conclude from these results?",
-      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. (Multiple comparisons are not necessary, because there is no interaction and only two categories in the significant factor.)",
-      "method": "方差分析"
+      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. Multiple comparisons are not necessary because there is no interaction and only two categories in the significant factor."
     }
   ],
   "id": "023",
@@ -28,5 +25,23 @@
     "section": "Questions",
     "book": "Statistics for Business and Economics",
     "page": "175-176"
+  },
+  "token_usage": {
+    "completion_tokens": 454,
+    "prompt_tokens": 1116,
+    "total_tokens": 1570,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

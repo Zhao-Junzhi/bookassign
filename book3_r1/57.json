@@ -2,9 +2,20 @@
   "background": "Continuing with Example 3.34, find an 80% one-sided confidence limit on p.",
   "task": [
     {
-      "query": "Find an 80% one-sided confidence limit on p.",
-      "answer": "We now can set the top equation to 0.20 and solve for $p_L$. It is easy to obtain $p_L=0.211$ and $P[p>0.211]=0.80$. Let us define $\\bar{p}=k / n$, the number of successes divided by the number of trials. For large values of $n$ and if $n p>5$ and $n(1 -p)>5$, and from the central limit theorem (Feller 1966, 1968), the statistic\n\n$$\nZ=\\frac{(\\bar{p}-p)}{\\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}}\n$$\n\napproximates to the standard normal distribution. Hence,\n\n$$\nP\\left[-z_{\\frac{\\alpha}{2}}<Z<z_{\\frac{\\alpha}{2}}\\right]=1-\\alpha\n$$\n$$\n\\begin{aligned}\n&\\text { Then }\\\\\n&P\\left[\\bar{p}-z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}<p<\\bar{p}+z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}\\right]=1-\\alpha\n\\end{aligned}\n$$",
-      "method": "假设检验与区间估计"
+      "query": "Set the top equation to 0.20 and solve for p_L.",
+      "answer": "It is easy to obtain p_L=0.211 and P[p>0.211]=0.80."
+    },
+    {
+      "query": "Define the statistic for large values of n and conditions n*p>5 and n(1-p)>5.",
+      "answer": "Let us define \\bar{p}=k / n, the number of successes divided by the number of trials. For large values of n and if n*p>5 and n(1-p)>5, and from the central limit theorem (Feller 1966, 1968), the statistic Z=(\\bar{p}-p)/\\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}} approximates to the standard normal distribution."
+    },
+    {
+      "query": "Write the probability expression for the standard normal distribution approximation.",
+      "answer": "P[-z_{\\frac{\\alpha}{2}}<Z<z_{\\frac{\\alpha}{2}}]=1-\\alpha."
+    },
+    {
+      "query": "Derive the confidence interval expression for p.",
+      "answer": "P[\\bar{p}-z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}<p<\\bar{p}+z_{\\frac{\\alpha}{2}} \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}]=1-\\alpha."
     }
   ],
   "id": "57",
@@ -18,5 +29,23 @@
     "section": "3.11 Interval Estimation",
     "book": "Statistical Reliability Engineering",
     "page": "188-189"
+  },
+  "token_usage": {
+    "completion_tokens": 386,
+    "prompt_tokens": 626,
+    "total_tokens": 1012,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

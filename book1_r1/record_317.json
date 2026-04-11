@@ -1,25 +1,41 @@
 {
-  "background": "The duration of 15 complex surgical procedures is presented in a stemplot format.",
+  "background": "The duration of 15 complex surgical procedures are shown in this stemplot:\n\n$1 \\mid 8$\n$2 \\mid 134556\\underline{8}$\n$3 \\mid 01158$\n$4 \\mid$\n$5 \\mid$\n$6 \\mid 5$\n$7 \\mid 0$\n$\\times 1$",
   "task": [
     {
-      "query": "What is the median of the distribution shown in the stemplot?",
-      "answer": "The median of this distribution is 2.8 (underlined).",
-      "method": "分位数/百分位数"
+      "query": "What is the median of this distribution?",
+      "answer": "The median of this distribution is 2.8 (underlined)."
     },
     {
-      "query": "What is the mean of the distribution shown in the stemplot?",
-      "answer": "The mean is about 3.3.",
-      "method": "集中趋势测度"
+      "query": "What is the mean of this distribution?",
+      "answer": "The mean is about 3.3."
     }
   ],
   "id": "317",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Comparison of mean, median, and mode.",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.2  CENTRAL LOCATION: MEDIAN",
     "page": "69-69"
+  },
+  "token_usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 396,
+    "total_tokens": 586,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,10 +1,9 @@
 {
-  "background": "The data in Table 11.2 is being examined for irregularities.",
+  "background": "Analyze the data presented in Table 11.2 to identify any irregularities or unusual patterns.",
   "task": [
     {
       "query": "What is odd about the data in Table 11.2?",
-      "answer": "The values for the last two subjects are identical, suggesting a transcription error or the inadvertent inclusion of the same patient twice.",
-      "method": "异常值处理"
+      "answer": "The values for the last two subjects are identical, suggesting a transcription error or the inadvertent inclusion of the same patient twice."
     }
   ],
   "id": "042",
@@ -18,5 +17,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "323-323"
+  },
+  "token_usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 334,
+    "total_tokens": 421,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

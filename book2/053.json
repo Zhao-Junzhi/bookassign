@@ -1,0 +1,16 @@
+{
+  "id": "053",
+  "question": "Refer to the consumer product complaint study in Example 3.16. The percentages of complaints of various types during and after the guarantee period are shown in Table 3.6. Define the following events:\n\nA: {Cause of complaint is product appearance.}\nB: {Complaint occurred during the guarantee term.}\nAre $A$ and $B$ independent events?",
+  "data": null,
+  "answer": "Events $A$ and $B$ are independent if $P(A \\mid B)=P(A)$. We calculated $P(A \\mid B)$ in Example 3.16 to be .51 , and from Table 3.6 we see that\n\n$$\nP(A)=.32+.03=.35\n$$\n\n\nTherefore, $P(A \\mid B)$ is not equal to $P(A)$, and $A$ and $B$ are dependent events.",
+  "meta_info": {
+    "index": "3.20",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Checking for IndependenceConsumer Product Complaint Study",
+    "chapter": "Probability",
+    "section": "3.6 The Multiplicative Rule and Independent Events",
+    "book": "Statistics for Business and Economics",
+    "page": "107-107"
+  }
+}

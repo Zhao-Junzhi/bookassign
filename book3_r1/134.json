@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "What is the reliability of the system?",
-      "answer": "The system reliability is 0.99975",
-      "method": "事件发生概率及独立性"
+      "answer": "The system reliability is 0.99975"
     }
   ],
   "id": "134",
@@ -18,5 +17,23 @@
     "section": "4.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "299-299"
+  },
+  "token_usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 371,
+    "total_tokens": 473,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

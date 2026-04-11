@@ -2,19 +2,48 @@
   "background": "A double-blind randomized trial compared cefaclor to amoxicillin in the treatment of acute otitis media in children. There was no difference in clinical failure rates (all but four children in each group had a good clinical response), but after 14 days, 59 (55.7%) of 106 cefaclor treated subjects had effusion-free ears compared to 40 of the 97 amoxicillin treated subjects.",
   "task": [
     {
-      "query": "Determine whether the effusion-free rates differed significantly in the groups. Show all hypothesis-testing steps.",
-      "answer": "A. Hypotheses. H_0: p_1=p_2 versus H_a: p_1 ≠ p_2 B. Test statistic. z_{ext {stat }}=2.054 C. P-value. P=0.040 (good evidence against H_0 ) D. Significance level (optional). The evidence against the null hypothesis is significant at α=0.05.",
-      "method": "独立性检验"
+      "query": "Determine whether the effusion-free rates differed significantly in the groups. State the null and alternative hypotheses.",
+      "answer": "$H_0: p_1=p_2$ versus $H_a: p_1 \\neq p_2$"
+    },
+    {
+      "query": "Calculate the test statistic for the hypothesis test.",
+      "answer": "$z_{\\text {stat }}=2.054$"
+    },
+    {
+      "query": "Determine the p-value for the test statistic.",
+      "answer": "$P=0.040$ (good evidence against $H_0$)"
+    },
+    {
+      "query": "Interpret the significance level and evidence against the null hypothesis.",
+      "answer": "The evidence against the null hypothesis is significant at $\\alpha=0.05$."
     }
   ],
   "id": "140",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "17.19",
     "image": "",
     "caption": "Acute otitis media.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.6 POWER AND SAMPLE SIZE",
     "page": "405-405"
+  },
+  "token_usage": {
+    "completion_tokens": 294,
+    "prompt_tokens": 505,
+    "total_tokens": 799,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

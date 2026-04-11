@@ -1,15 +1,13 @@
 {
-  "background": "Estimate the parameter θ using the given formula and calculate the value of θ when the sample mean is 0.6.",
+  "background": "The problem involves estimating a parameter theta using a given formula and then calculating its value based on a specific sample mean.",
   "task": [
     {
-      "query": "Derive the formula for estimating θ based on the given information.",
-      "answer": "$\\hat{\\theta}=\\frac{2 \\bar{x}-1}{1-\\bar{x}}$",
-      "method": "获取模型参数估计值"
+      "query": "Derive the estimator for theta (θ) based on the given formula.",
+      "answer": "$\\hat{\\theta}=\\frac{2 \\bar{x}-1}{1-\\bar{x}}$"
     },
     {
-      "query": "Calculate the value of θ when the sample mean is 0.6.",
-      "answer": "$\\hat{\\theta}=\\frac{2(0.6)-1}{1-0.6}=0.5$",
-      "method": "获取模型参数估计值"
+      "query": "Calculate the value of theta (θ) when the sample mean (\\bar{x}) is 0.6.",
+      "answer": "$\\hat{\\theta}=\\frac{2(0.6)-1}{1-0.6}=0.5$"
     }
   ],
   "id": "126",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "220-220"
+  },
+  "token_usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 351,
+    "total_tokens": 508,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,35 +1,49 @@
 {
-  "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116,128,125,119,89,99,105,116,118}. Thus, x̄=(116+128+⋯+118)/9=112.8.",
+  "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116, 128, 125, 119, 89, 99, 105, 116, 118}. Thus, x̄=(116+128+...+118)/9=112.8. Does this sample provide statistically significant evidence in support of the citizen's claim?",
   "task": [
     {
-      "query": "Does this sample provide statistically significant evidence in support of the citizen's claim?",
-      "answer": "A. Hypotheses. Since 100 represents the expected population average if no difference were to exist, H0: μ=100. The one-sided alternative hypothesis is Ha: μ>100. The two-sided alternative is Ha: μ≠100.",
-      "method": "均值检验"
+      "query": "What are the null and alternative hypotheses for this test?",
+      "answer": "Since 100 represents the expected population average if no difference were to exist, H0: μ=100. The one-sided alternative hypothesis is Ha: μ>100. The two-sided alternative is Ha: μ≠100."
     },
     {
-      "query": "Test statistic.",
-      "answer": "The SE_x̄=σ/√n=15/√9=5 and the z_stat=(x̄-μ)/SE_x̄=(112.8-100)/5=2.56. Figure 9.6 is a schematic of the sampling distribution of x̄ and the z_stat under H0.",
-      "method": "均值检验"
+      "query": "How is the test statistic calculated, and what is its value?",
+      "answer": "The SE_x̄=σ/√n=15/√9=5 and the z_stat=(x̄−μ)/SE_x̄=(112.8−100)/5=2.56. Figure 9.6 is a schematic of the sampling distribution of x̄ and the z_stat under H0."
     },
     {
-      "query": "P-value.",
-      "answer": "Using Table B, we find that the area to the left of the z_stat of 2.56 is 0.9948. Therefore, the area to the right is 1-0.9948=0.0052. This is the one-sided P-value. The two-sided P-value=2×0.0052=0.0104.",
-      "method": "均值检验"
+      "query": "What is the P-value for this test, and how is it determined?",
+      "answer": "Using Table B, we find that the area to the left of the z_stat of 2.56 is 0.9948. Therefore, the area to the right is 1−0.9948=0.0052. This is the one-sided P-value. The two-sided P-value=2×0.0052=0.0104."
     },
     {
-      "query": "Significance.",
-      "answer": "The two-sided P-value provides significant evidence against the null hypothesis (reject H0 at α=0.05 but not at α=0.01).",
-      "method": "均值检验"
+      "query": "What is the conclusion of the test based on the significance level?",
+      "answer": "The two-sided P-value provides significant evidence against the null hypothesis (reject H0 at α=0.05 but not at α=0.01)."
     }
   ],
   "id": "370",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "z test (“Lake Wobegon”).",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.5  ONE-SAMPLE Z TEST",
     "page": "185-186"
+  },
+  "token_usage": {
+    "completion_tokens": 497,
+    "prompt_tokens": 758,
+    "total_tokens": 1255,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

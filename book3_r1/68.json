@@ -1,15 +1,13 @@
 {
-  "background": "The probability of having various numbers of children in a family in a certain community is given by Number of children: 0, 1, 2, 3; Probability: 0.20, 0.50, 0.25, 0.05. Assume a 50–50 chance that a child born will be a boy or girl.",
+  "background": "The probability of having various numbers of children in a family in a certain community is given by a table of probabilities. Assume a 50–50 chance that a child born will be a boy or girl.",
   "task": [
     {
       "query": "Find the probability that the family has only one boy.",
-      "answer": "$P\\{1$ boy $\\}=\\sum_{i=0}^3 P\\{1$ boy $\\mid i\\} P\\{i\\}=0.3938$.",
-      "method": "事件发生概率及独立性"
+      "answer": "$P\\{1$ boy $\\}=\\sum_{i=0}^3 P\\{1$ boy $\\mid i\\} P\\{i\\}=0.3938$."
     },
     {
       "query": "What is the probability that there are two children in the family given the family has one boy?",
-      "answer": "$P\\{A \\mid B\\}=\\frac{P\\{A \\cap B\\}}{P\\{B\\}}=\\frac{(0.5)(0.25)}{0.3938}=0.317$.",
-      "method": "事件发生概率及独立性"
+      "answer": "Let A denote the event that there are two children in the family and B the event that the family has one boy. $$ P\\{A \\mid B\\}=\\frac{P\\{A \\cap B\\}}{P\\{B\\}}=\\frac{(0.5)(0.25)}{0.3938}=0.317 $$"
     }
   ],
   "id": "68",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "57-57"
+  },
+  "token_usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 568,
+    "total_tokens": 802,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

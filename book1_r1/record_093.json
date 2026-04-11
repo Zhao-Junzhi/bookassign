@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Calculate a 95% confidence interval for μ.",
-      "answer": "SE=39.82/√100=3.982 t_{100-1,1-(.05/2)}=t_{99, .975}=1.984 (via www.cytel.com/Products/StaTable/). If a computer program is not available, you can make use of the fact that program t_{99 .975} ≈ t_{100, .975}=1.984. 95% CI for μ=249 ±(1.984)(3.982)=249 ± 7.9=(241.1 to 256.9) square feet.",
-      "method": "均值检验"
+      "answer": "SE = 39.82 / sqrt(100) = 3.982; t_{100-1,1-(.05/2)} = t_{99, .975} = 1.984 (via www.cytel.com/Products/StaTable/). If a computer program is not available, you can make use of the fact that t_{99, .975} ≈ t_{100, .975} = 1.984. 95% CI for μ = 249 ± (1.984)(3.982) = 249 ± 7.9 = (241.1 to 256.9) square feet."
     },
     {
       "query": "Would it be correct to say that 95% of all the homes in the village have sprayable surfaces between the lower confidence limit and upper confidence limit? Explain.",
-      "answer": "It would not be correct to make this statement. The confidence interval applies to population mean μ, not to individual observations.",
-      "method": "均值检验"
+      "answer": "It would not be correct to make this statement. The confidence interval applies to population mean μ, not to individual observations."
     }
   ],
   "id": "093",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "11.19",
     "image": "",
     "caption": "Vector control in an African village",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "229-229"
+  },
+  "token_usage": {
+    "completion_tokens": 312,
+    "prompt_tokens": 564,
+    "total_tokens": 876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

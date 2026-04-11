@@ -1,0 +1,49 @@
+{
+  "background": "An oncologist treats 40 kidney cancer cases. Sixteen of the cases survive at least 5 years. Historically, one in five cases were expected to survive this long. Test whether there has been a significant improvement in survival.",
+  "task": [
+    {
+      "query": "State the null and alternative hypotheses for this test.",
+      "answer": "$H_0: p=0.2$ versus $H_{\\mathrm{a}}: p \\neq 0.2$"
+    },
+    {
+      "query": "Determine the test statistic and explain why the $z$ test can be used.",
+      "answer": "The $z$ test can be used because $n p_0 q_0=(40)(0.2)(0.8)=6.4$. The observed proportion $\\hat{p}=16 / 40=0.4$. The $z_{\\text {stat }}=\\frac{0.4-0.2}{\\sqrt{\\frac{0.2 \\cdot 0.8}{40}}}=3.16$."
+    },
+    {
+      "query": "Calculate the $P$-value and interpret its significance.",
+      "answer": "$P=0.00158$ by Table F, providing highly significant evidence against $H_0$."
+    },
+    {
+      "query": "State the significance level and the conclusion of the test.",
+      "answer": "The evidence against $H_0$ is significant at $\\alpha=0.01$ (reject $H_0$)."
+    }
+  ],
+  "id": "127",
+  "data": "",
+  "meta_info": {
+    "index": "16.17",
+    "image": "",
+    "caption": "Kidney cancer survival.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  },
+  "token_usage": {
+    "completion_tokens": 355,
+    "prompt_tokens": 538,
+    "total_tokens": 893,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

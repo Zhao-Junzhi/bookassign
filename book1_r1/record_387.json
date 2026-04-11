@@ -1,20 +1,41 @@
 {
-  "background": "How large a sample is needed to test the oat bran data presented earlier in the chapter with $80 \\%$ power at $\\alpha=0.05$ two sided?",
+  "background": "How large a sample is needed to test the oat bran data presented earlier in the chapter with 80% power at α=0.05 two sided? We want to detect a mean change of 0.2 mmol/L and will assume a standard deviation of 0.4 mmol/L.",
   "task": [
     {
-      "query": "We want to detect a mean change of $0.2 \\mathrm{mmol} / \\mathrm{L}$ and will assume a standard deviation of $0.4 \\mathrm{mmol} / \\mathrm{L}$.",
-      "answer": "$n=\\frac{\\sigma^2\\left(z_{.8}+z_{.975}\\right)^2}{300^2}=\\frac{0.4^2(0.84+1.96)^2}{300^2}=31.36$. Round up to 32 to ensure adequate power. Because the sample size exceeds 30, there is no need to apply adjustment factor $f$.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "Calculate the required sample size using the given parameters: mean change of 0.2 mmol/L, standard deviation of 0.4 mmol/L, power of 80%, and α=0.05 (two-sided).",
+      "answer": "n=σ²(z₀.₈+z₀.₉₇₅)²/300²=0.4²(0.84+1.96)²/300²=31.36. Round up to 32 to ensure adequate power."
+    },
+    {
+      "query": "Determine if an adjustment factor f is needed when the sample size exceeds 30.",
+      "answer": "Because the sample size exceeds 30, there is no need to apply adjustment factor f."
     }
   ],
   "id": "387",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Sample size requirement, paired-t test (Oat bran).",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "227-227"
+  },
+  "token_usage": {
+    "completion_tokens": 261,
+    "prompt_tokens": 464,
+    "total_tokens": 725,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

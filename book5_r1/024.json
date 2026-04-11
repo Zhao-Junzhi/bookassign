@@ -2,14 +2,12 @@
   "background": "The table below shows concentrations of antibody to Type III Group B Streptococcus (GBS) in 20 volunteers before and after immunization (Baker et al., 1980).",
   "task": [
     {
-      "query": "The comparison of the antibody levels was summarized in the report of this study as ' $t=1.8 ; \\mathrm{P}>0.05$ '. Comment on this result.",
-      "answer": "The paired $t$ test gives $t=1.85, \\mathrm{P}=0.08$. However, the test assumes that the differences have a reasonably Normal distribution, which is clearly not the case here.",
-      "method": "均值检验"
+      "query": "The comparison of the antibody levels was summarized in the report of this study as 't=1.8; P>0.05'. Comment on this result.",
+      "answer": "The paired t test gives t=1.85, P=0.08. However, the test assumes that the differences have a reasonably Normal distribution, which is clearly not the case here."
     },
     {
       "query": "What method would be more appropriate to analyse these data? Analyse the data with the appropriate method and comment on the result.",
-      "answer": "Even after log transformation of the original data the differences between the log values have a skewed distribution. Although the paired $t$ test gives $t=2.77, \\mathrm{P}=0.01$, it is better to use the Wilcoxon matched pairs signed ranks test, which gives $z=2.91, \\mathrm{P}=0.004$.",
-      "method": "均值检验"
+      "answer": "Even after log transformation of the original data the differences between the log values have a skewed distribution. Although the paired t test gives t=2.77, P=0.01, it is better to use the Wilcoxon matched pairs signed ranks test, which gives z=2.91, P=0.004."
     }
   ],
   "id": "024",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "224-225"
+  },
+  "token_usage": {
+    "completion_tokens": 245,
+    "prompt_tokens": 530,
+    "total_tokens": 775,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

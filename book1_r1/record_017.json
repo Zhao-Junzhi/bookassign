@@ -3,33 +3,47 @@
   "task": [
     {
       "query": "Construct a frequency table for these data using 5-day class intervals. Include columns for the frequency counts, relative frequencies, and cumulative frequencies.",
-      "answer": "Frequency table\n\n\\begin{tabular}{|l|l|l|l|}\\hline Duration (days) & Frequency & Relative Frequency (\\%) & Cumulative Frequency (\\%) \\\\ \\hline 0-4 & 5 & 20.0\\% & 20\\% \\\\ \\hline 5-9 & 12 & 48.0 & 68 \\\\ \\hline 10-14 & 6 & 24.0 & 92 \\\\ \\hline 15-19 & 1 & 4.0 & 96 \\\\ \\hline 20-24 & 0 & 0.0 & 96 \\\\ \\hline 25-29 & 0 & 0.0 & 96 \\\\ \\hline 30-34 & 1 & 4.0 & 100\\% \\\\ \\hline Total & 25 & 100\\% & - \\\\ \\hline \\end{tabular}",
-      "method": "离散型变量分布"
+      "answer": "Frequency table\n\n| Duration (days) | Frequency | Relative Frequency (%) | Cumulative Frequency (%) |\n|-----------------|-----------|-------------------------|---------------------------|\n| 0-4             | 5         | 20.0%                  | 20%                       |\n| 5-9             | 12        | 48.0%                  | 68%                       |\n| 10-14           | 6         | 24.0%                  | 92%                       |\n| 15-19           | 1         | 4.0%                   | 96%                       |\n| 20-24           | 0         | 0.0%                   | 96%                       |\n| 25-29           | 0         | 0.0%                   | 96%                       |\n| 30-34           | 1         | 4.0%                   | 100%                      |\n| Total           | 25        | 100%                   | -                         |"
     },
     {
       "query": "What percentage of hospital stays were less than 5 days?",
-      "answer": "Five of $25(20.0 \\%)$ were less than 5 days.",
-      "method": "分位数/百分位数"
+      "answer": "Five of 25 (20.0%) were less than 5 days."
     },
     {
       "query": "What percentage were less than 15 days?",
-      "answer": "Ninety-two percent were less than 15 days (see Cumulative Frequency column).",
-      "method": "分位数/百分位数"
+      "answer": "Ninety-two percent were less than 15 days (see Cumulative Frequency column)."
     },
     {
       "query": "What percentage of hospital stays were at least 15 days in length?",
-      "answer": "Two of $25(8 \\%)$ were at least 15 days in length.",
-      "method": "分位数/百分位数"
+      "answer": "Two of 25 (8%) were at least 15 days in length."
     }
   ],
   "id": "017",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.6 Duration of hospitalization (days), $n=25$.}\n\\begin{tabular}{rrrrrrrrrr}\n\\hline 5 & 10 & 6 & 11 & 5 & 14 & 30 & 11 & 17 & 3 \\\n9 & 3 & 8 & 8 & 5 & 5 & 7 & 4 & 3 & 7 \\\n9 & 11 & 11 & 9 & 4 & & & & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
-  "meta info": {
+  "meta_info": {
     "index": "3.5",
     "image": "",
     "caption": "Hospital stay duration.",
     "chapter": "Frequency Distributions",
     "section": "3.3 Additional Frequency Charts",
     "page": "50-57"
+  },
+  "token_usage": {
+    "completion_tokens": 459,
+    "prompt_tokens": 664,
+    "total_tokens": 1123,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

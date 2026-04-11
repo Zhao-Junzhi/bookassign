@@ -1,40 +1,53 @@
 {
-  "background": "Find the following $z$ percentiles.",
+  "background": "Find the following $z$ percentiles on a Standard Normal curve.",
   "task": [
     {
-      "query": "(a) $z_{.10}$",
-      "answer": "$z_{.10}=-1.28$ (The 10th percentile on a Standard Normal curve is -1.28.)",
-      "method": "分位数/百分位数"
+      "query": "What is $z_{.10}$?",
+      "answer": "$z_{.10}=-1.28$ (The 10th percentile on a Standard Normal curve is -1.28.)"
     },
     {
-      "query": "(b) $z_{.35}$",
-      "answer": "$z_{.35}=-0.39$",
-      "method": "分位数/百分位数"
+      "query": "What is $z_{.35}$?",
+      "answer": "$z_{.35}=-0.39$"
     },
     {
-      "query": "(c) $z_{.74}$",
-      "answer": "$z_{.74}=0.64$",
-      "method": "分位数/百分位数"
+      "query": "What is $z_{.74}$?",
+      "answer": "$z_{.74}=0.64$"
     },
     {
-      "query": "(d) $z_{.85}$",
-      "answer": "$z_{.85}=1.04$",
-      "method": "分位数/百分位数"
+      "query": "What is $z_{.85}$?",
+      "answer": "$z_{.85}=1.04$"
     },
     {
-      "query": "(e) $z_{.999}$",
-      "answer": "$z_{.999}=3.09$",
-      "method": "分位数/百分位数"
+      "query": "What is $z_{.999}$?",
+      "answer": "$z_{.999}=3.09$"
     }
   ],
   "id": "065",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "7.15",
     "image": "",
     "caption": "Z percentiles.",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
     "page": "153-153"
+  },
+  "token_usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 431,
+    "total_tokens": 667,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

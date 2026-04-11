@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "What is the probability that a battery will last more than 5,000 h?",
-      "answer": "0.6065",
-      "method": "事件发生概率及独立性"
+      "answer": "0.6065"
     },
     {
       "query": "What is the probability that a battery will last more than 5,000 h given that it has already survived 3,000 h?",
-      "answer": "0.8187",
-      "method": "事件发生概率及独立性"
+      "answer": "0.8187"
     }
   ],
   "id": "108",
@@ -23,5 +21,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "132-132"
+  },
+  "token_usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 391,
+    "total_tokens": 516,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

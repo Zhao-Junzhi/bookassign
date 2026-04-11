@@ -1,0 +1,16 @@
+{
+  "id": "067",
+  "question": "A machine that produces stampings for automobile engines is malfunctioning and producing $10 \\%$ defectives. The defective and nondefective stampings proceed from the machine in a random manner. If the next five stampings are tested, find the probability that three of them are defective.",
+  "data": null,
+  "answer": "Let $x$ equal the number of defectives in $n=5$ trials. Then $x$ is a binomial random variable with $p$, the probability that a single stamping will be defective, equal to . 1 , and $q=1-p=1-.1=.9$. The probability distribution for $x$ is given by the expression\n\n$$\n\\begin{aligned}\np(x) & =\\binom{n}{x} p^x q^{n-x}=\\binom{5}{x}(.1)^x(.9)^{5-x} \\\\\n& =\\frac{5!}{x!(5-x)!}(.1)^x(.9)^{5-x} \\quad(x=0,1,2,3,4,5)\n\\end{aligned}\n$$\n\nTo find the probability of observing $x=3$ defectives in a sample of $n=5$, substitute $x=3$ into the formula for $p(x)$ to obtain\n\n$$\n\\begin{aligned}\np(3) & =\\frac{5!}{3!(5-3)!}(.1)^3(.9)^{5-3}=\\frac{5!}{3!2!}(.1)^3(.9)^2 \\\\\n& =\\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1}{(3 \\cdot 2 \\cdot 1)(2 \\cdot 1)}(.1)^3(.9)^2=10(.1)^3(.9)^2 \\\\\n& =.0081\n\\end{aligned}\n$$",
+  "meta_info": {
+    "index": "4.11",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Binomial Distribution-Manufacture of Automobiles",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.3 The Binomial Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "129-130"
+  }
+}

@@ -2,19 +2,40 @@
   "background": "Use Table E to find the approximate area under the curve to the right of 5.22 on a chi-square distribution with 3 degrees of freedom.",
   "task": [
     {
-      "query": "Draw the chi-square curve showing 5.22 on the horizontal axis. Shade the area to the right of 5.22. Bracket the shaded region with critical value landmarks from Table E.",
-      "answer": "The area under the curve is between the chi-square landmarks of 4.64 (right-tail 0.20) and 5.32 (right-tail 4.15). Therefore 4.15-10-0.20. The precise area computed with a software utility is 0.1564.",
-      "method": "事件发生概率及独立性"
+      "query": "Draw the chi-square curve showing 5.22 on the horizontal axis. Shade the area to the right of 5.22.",
+      "answer": "The area under the curve is between the chi-square landmarks of 4.64 (right-tail 0.20) and 5.32 (right-tail 4.15)."
+    },
+    {
+      "query": "Bracket the shaded region with critical value landmarks from Table E.",
+      "answer": "The precise area computed with a software utility is 0.1564."
     }
   ],
   "id": "144",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "18.7",
     "image": "",
     "caption": "Chi-square approximation.",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
     "page": "431-431"
+  },
+  "token_usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 438,
+    "total_tokens": 621,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

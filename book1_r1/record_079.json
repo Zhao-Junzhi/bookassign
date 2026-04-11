@@ -1,35 +1,49 @@
 {
-  "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ= 85,100(σ=10,000).",
+  "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
   "task": [
     {
       "query": "What conditions (assumptions) are needed to perform a z test to address this question?",
-      "answer": "Conditions for the test: Data represent an SRS of female executives. The distribution of x̄ is approximately Normal.",
-      "method": "均值检验"
+      "answer": "Conditions for the test: Data represent an SRS of female executives. The distribution of 𝑥̄ is approximately Normal."
     },
     {
-      "query": "Sketch the sampling distribution of x̄ based on an SRS of n=20. Assume μ=85,100 and σ= 10,000. Mark the horizontal axis with landmarks that are ±1 and ±2 standard errors around μ. Locate x̄= 80,900 on the horizontal axis of the curve.",
-      "answer": "First note that SE_x̄=10000/√20=2236. Under the null hypothesis x̄ ∼ N(85100, 2236). The sketch of x̄ ∼ N(85100,2236) is not shown in this key. The sampling distribution of x̄ should be Normal with landmarks on the curve starting 2 standard errors below the mean at 80,628,82,864,85,100,87,336, and 89,572.",
-      "method": "均值检验"
+      "query": "Sketch the sampling distribution of 𝑥̄ based on an SRS of n=20. Assume μ=85,100 and σ=10,000. Mark the horizontal axis with landmarks that are ±1 and ±2 standard errors around μ. Locate 𝑥̄=80,900 on the horizontal axis of the curve.",
+      "answer": "First note that SE𝑥̄ = 10,000 / √20 = 2,236. Under the null hypothesis 𝑥̄ ~ N(85,100, 2,236). The sketch of 𝑥̄ ~ N(85,100, 2,236) is not shown in this key. The sampling distribution of 𝑥̄ should be Normal with landmarks on the curve starting 2 standard errors below the mean at 80,628, 82,864, 85,100, 87,336, and 89,572."
     },
     {
-      "query": "Calculate the z_stat and P-value for an observed x̄ of 80,900.",
-      "answer": "z_stat=(80900-85100)/2236=-1.88\n\nOne-sided P=Pr(Z ≤ -1.88)=0.0301\nTwo-sided P=2 × 0.0301=0.0602",
-      "method": "均值检验"
+      "query": "Calculate the 𝑧_stat and 𝑃-value for an observed 𝑥̄ of 80,900.",
+      "answer": "𝑧_stat = (80,900 - 85,100) / 2,236 = -1.88\n\nOne-sided 𝑃 = Pr(Z ≤ -1.88) = 0.0301\nTwo-sided 𝑃 = 2 × 0.0301 = 0.0602"
     },
     {
       "query": "Come up with four explanations for the lower-than-expected observed sample mean.",
-      "answer": "Explanations for the observed difference:\n1) Chance (P=0.0602)\n2) Selection bias: The sample is not an SRS of female executives.\n3) Confounding: An extraneous variable is lurking in the background. For example, these executives may be younger and/or less experienced on average than the population.\n4) Gender bias.",
-      "method": "均值检验"
+      "answer": "1) Chance (𝑃 = 0.0602)\n2) Selection bias: The sample is not an SRS of female executives.\n3) Confounding: An extraneous variable is lurking in the background. For example, these executives may be younger and/or less experienced on average than the population.\n4) Gender bias."
     }
   ],
   "id": "079",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "9.15",
     "image": "",
     "caption": "Female administrators.",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.6 POWER AND SAMPLE SIZE",
     "page": "194-194"
+  },
+  "token_usage": {
+    "completion_tokens": 579,
+    "prompt_tokens": 805,
+    "total_tokens": 1384,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

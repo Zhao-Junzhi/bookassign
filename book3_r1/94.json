@@ -1,15 +1,13 @@
 {
-  "background": "A certain simulation experiment is to be performed until a successful result is obtained. The trials are independent and the cost of performing the experiment is $\\$ 25,000$; however, if a failure results, it costs $\\$ 5,000$ to \"set up\" for the next trial. The experimenter would like to know the expected cost of the project. If $Y$ is the number of trials required to obtain a successful experiment, then the cost function would be $$C(Y)=\\$ 25,000 Y+\\$ 5,000(Y-1)$$",
+  "background": "A certain simulation experiment is to be performed until a successful result is obtained. The trials are independent and the cost of performing the experiment is $25,000; however, if a failure results, it costs $5,000 to 'set up' for the next trial. The experimenter would like to know the expected cost of the project. If Y is the number of trials required to obtain a successful experiment, then the cost function is given as C(Y) = $25,000 Y + $5,000(Y-1).",
   "task": [
     {
       "query": "Determine the expected cost of the project.",
-      "answer": "The expected cost of the project is: $E(C(Y))=30,000\\left(\\frac{1}{p}\\right)-5,000$",
-      "method": "期望"
+      "answer": "The expected cost of the project is: E(C(Y)) = 30,000(1/p) - 5,000."
     },
     {
-      "query": "Assume the probability of success on a single trial is 0.25. Suppose that the experimenter has a maximum of $\\$ 500,000$. What is the probability that the experimental work would cost more than $\\$ 500,000$?",
-      "answer": "0.01",
-      "method": "事件发生概率及独立性"
+      "query": "Assume the probability of success on a single trial is 0.25. Suppose that the experimenter has a maximum of $500,000. What is the probability that the experimental work would cost more than $500,000?",
+      "answer": "0.01."
     }
   ],
   "id": "94",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "64-64"
+  },
+  "token_usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 534,
+    "total_tokens": 772,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

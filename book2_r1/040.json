@@ -1,0 +1,39 @@
+{
+  "background": "Refer to Example 3.6, where we selected two ventures from four in which to invest.",
+  "task": [
+    {
+      "query": "Use the combinations rule to determine how many different selections can be made.",
+      "answer": "For this example, $N=4, n=2$, and\n\n$$\n\\binom{4}{2}=\\frac{4!}{2!2!}=\\frac{4 \\cdot 3 \\cdot 2 \\cdot 1}{(2 \\cdot 1)(2 \\cdot 1)}=\\frac{4 \\cdot 3}{2 \\cdot 1}=\\frac{12}{2}=6\n$$"
+    }
+  ],
+  "id": "040",
+  "data": null,
+  "meta_info": {
+    "index": "3.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Using the Combinations Rule-Selecting 2 Investments from 4",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "92-92"
+  },
+  "token_usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 429,
+    "total_tokens": 594,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

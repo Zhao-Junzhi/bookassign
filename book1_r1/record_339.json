@@ -1,20 +1,37 @@
 {
-  "background": "If cat ownership and dog ownership were independent, then \\operatorname{Pr}(A$ and $B)$ would equal \\operatorname{Pr}(A) \\times \\operatorname{Pr}(B)=0.35 \\times 0.30=0.105.",
+  "background": "If cat ownership and dog ownership were independent, then \\operatorname{Pr}(A and B) would equal \\operatorname{Pr}(A) \\times \\operatorname{Pr}(B)=0.35 \\times 0.30=0.105. However, in our example, \\operatorname{Pr}(A and B)=0.15.",
   "task": [
     {
-      "query": "However, in our example, \\operatorname{Pr}(A$ and $B)=0.15.",
-      "answer": "Therefore, these events are not independent.",
-      "method": "事件发生概率及独立性"
+      "query": "Determine whether cat ownership and dog ownership are independent based on the given probabilities.",
+      "answer": "Therefore, these events are not independent."
     }
   ],
   "id": "339",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Independence (Pet ownership example).",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.5  More RULES AND PROPERTIES OF PROBABILITY",
     "page": "106-106"
+  },
+  "token_usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 386,
+    "total_tokens": 532,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

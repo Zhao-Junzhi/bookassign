@@ -2,29 +2,44 @@
   "background": "The prevalence of a trait is 76.8%.",
   "task": [
     {
-      "query": "In a simple random sample of $n=5$, how many individuals are expected to exhibit this characteristic?",
-      "answer": "$\\mu=(5)(0.768)=3.84$",
-      "method": "期望"
+      "query": "In a simple random sample of n=5, how many individuals are expected to exhibit this characteristic?",
+      "answer": "μ=(5)(0.768)=3.84"
     },
     {
-      "query": "How many would you expect to see with this characteristic in a simple random sample of $n=10$?",
-      "answer": "$\\mu=(10)(0.768)=7.68$",
-      "method": "期望"
+      "query": "How many would you expect to see with this characteristic in a simple random sample of n=10?",
+      "answer": "μ=(10)(0.768)=7.68"
     },
     {
-      "query": "What is the probability of seeing nine or more individuals with this characteristic in an SRS of $n=10$?",
-      "answer": "$\\operatorname{Pr}(X \\geq 9)=\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10)=0.2156+0.0714=0.28710$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability of seeing nine or more individuals with this characteristic in an SRS of n=10?",
+      "answer": "Pr(X ≥ 9)=Pr(X=9)+Pr(X=10)=0.2156+0.0714=0.28710"
     }
   ],
   "id": "053",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "6.9",
     "image": "",
     "caption": "Prevalence 76.8 %.",
     "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
     "page": "127-127"
+  },
+  "token_usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 462,
+    "total_tokens": 671,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Consider how the low response rate could bias the results of this study.",
-      "answer": "The high nonresponse rate hinders our ability to make generalizations about the population; the distribution of behaviors in responders may not randomly reflect behaviors in the campus populations.",
-      "method": "观测数据"
+      "answer": "The high nonresponse rate hinders our ability to make generalizations about the population; the distribution of behaviors in responders may not randomly reflect behaviors in the campus populations."
     },
     {
       "query": "Speculate on potential limitations in the quality of information the researcher will receive on questionnaires that are returned.",
-      "answer": "The information on the questionnaires is of uncertain quality. What people say about their behavior often does not match how they behave.",
-      "method": "观测数据"
+      "answer": "The information on the questionnaires is of uncertain quality. What people say about their behavior often does not match how they behave."
     }
   ],
   "id": "012",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "2.11",
     "image": "",
     "caption": "Campus survey.",
     "chapter": "Types of Studies",
     "section": "2.2 Comparative Studies",
     "page": "33-33"
+  },
+  "token_usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 444,
+    "total_tokens": 630,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

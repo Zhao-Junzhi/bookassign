@@ -1,20 +1,17 @@
 {
-  "background": "In Britain the commonest autosomal recessive disorder is cystic fibrosis, with about one in 2000 live births being affected. If both parents are heterozygous for the abnormal gene there is a 1 in 4 chance of their child having cystic fibrosis.",
+  "background": "In Britain, the most common autosomal recessive disorder is cystic fibrosis, affecting about 1 in 2000 live births. If both parents are heterozygous for the abnormal gene, there is a 1 in 4 chance of their child having cystic fibrosis.",
   "task": [
     {
       "query": "What is the probability that a couple who are both heterozygous will have two unaffected children?",
-      "answer": "The probability of each child being unaffected is 0.75. The probability of two children being unaffected is $0.75^2=0.56$, as these are independent events.",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability of each child being unaffected is 0.75. The probability of two children being unaffected is $0.75^2=0.56$, as these are independent events."
     },
     {
       "query": "If they have four unaffected children, what is the probability that their fifth child would be unaffected?",
-      "answer": "The probability is 0.75. Each child has the same probability, regardless of the outcome for previous children.",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability is 0.75. Each child has the same probability, regardless of the outcome for previous children."
     },
     {
       "query": "About one in 22 people is heterozygous for cystic fibrosis. In a hospital where there are 3500 births a year, what is the expected number of babies per year affected by cystic fibrosis (assuming that there is no genetic counselling)?",
-      "answer": "The probability of both parents being heterozygous for the abnormal gene is $\\frac{1}{22} \\times \\frac{1}{22}=0.0021$. The expected number of babies with cystic fibrosis per year is thus $0.25 \\times 3500 \\times 0.0021$, which is about 2.",
-      "method": "期望"
+      "answer": "The probability of both parents being heterozygous for the abnormal gene is $\frac{1}{22} \times \frac{1}{22}=0.0021$. The expected number of babies with cystic fibrosis per year is thus $0.25 \times 3500 \times 0.0021$, which is about 2."
     }
   ],
   "id": "011",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "73-73"
+  },
+  "token_usage": {
+    "completion_tokens": 340,
+    "prompt_tokens": 592,
+    "total_tokens": 932,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

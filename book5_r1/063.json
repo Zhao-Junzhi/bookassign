@@ -1,10 +1,25 @@
 {
-  "background": "If two identical studies yield P<0.001 and P=0.2, what are the possible explanations for the large difference?",
+  "background": "Two identical studies yield different P-values: P < 0.001 and P = 0.2. The task is to explore the possible explanations for this large difference.",
   "task": [
     {
-      "query": "What are the possible explanations for the large difference in P-values between two identical studies?",
-      "answer": "If we do not consider 'identical' to refer to sample size, then one reason could be variation in the numbers of patients studied. Two identical studies of the same size would not be expected to yield exactly the same results. The observed effects (and P values) would tend to be closer if the studies were large than if they were small. Dramatically different results for large studies may mean that the studies were not as 'identical' as claimed. For example, there may be differences between patients in different countries or between laboratories.",
-      "method": "假设检验"
+      "query": "What could be a reason for the large difference in P-values if 'identical' does not refer to sample size?",
+      "answer": "One reason could be variation in the numbers of patients studied."
+    },
+    {
+      "query": "Would two identical studies of the same size yield exactly the same results?",
+      "answer": "No, two identical studies of the same size would not be expected to yield exactly the same results."
+    },
+    {
+      "query": "How does study size affect the observed effects and P-values?",
+      "answer": "The observed effects (and P-values) would tend to be closer if the studies were large than if they were small."
+    },
+    {
+      "query": "What might dramatically different results for large studies indicate?",
+      "answer": "Dramatically different results for large studies may mean that the studies were not as 'identical' as claimed."
+    },
+    {
+      "query": "What are some factors that could make studies not truly identical?",
+      "answer": "For example, there may be differences between patients in different countries or between laboratories."
     }
   ],
   "id": "063",
@@ -18,5 +33,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "499-499"
+  },
+  "token_usage": {
+    "completion_tokens": 287,
+    "prompt_tokens": 441,
+    "total_tokens": 728,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -2,19 +2,48 @@
   "background": "Suppose a high school population has 600 students and you want to choose three students at random from this population.",
   "task": [
     {
-      "query": "To select an SRS of n = 3:",
-      "answer": "1. Get a roster of the school. Assign each student a unique identifier 1 through 600.\n2. Enter Table $A$ at (say) line 15. Line 15 starts with these digits:\n\n$$\n\\begin{array}{lllll}\n76931 & 95289 & 55809 & 19381 & 56686\n\\end{array}\n$$\n\n3. The first six triplets of numbers in this line are: $769,319,528,955$, 809, and 193.\n4. The first triplet (769) is excluded because there is no individual with that number in the population. The next two triplets (319 and 528) identify the first two students to enter the sample. The next two triplets $(955,809)$ are not relevant. The last student to enter the sample is student 193.\n\nThe final sample is composed of students with the IDs 319,528, and 193.",
-      "method": "概率空间相关（如状态数）"
+      "query": "How do you assign unique identifiers to the students in the population?",
+      "answer": "Get a roster of the school. Assign each student a unique identifier 1 through 600."
+    },
+    {
+      "query": "How do you use Table A to select random numbers for the sample?",
+      "answer": "Enter Table $A$ at (say) line 15. Line 15 starts with these digits: $$ \\begin{array}{lllll} 76931 & 95289 & 55809 & 19381 & 56686 \\end{array} $$"
+    },
+    {
+      "query": "How do you interpret the triplets of numbers from Table A?",
+      "answer": "The first six triplets of numbers in this line are: $769,319,528,955$, 809, and 193. The first triplet (769) is excluded because there is no individual with that number in the population. The next two triplets (319 and 528) identify the first two students to enter the sample. The next two triplets $(955,809)$ are not relevant. The last student to enter the sample is student 193."
+    },
+    {
+      "query": "What is the final sample of students selected?",
+      "answer": "The final sample is composed of students with the IDs 319,528, and 193."
     }
   ],
   "id": "303",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Selecting a simple random sample.",
     "chapter": "TYPES OF STUDIES",
     "section": "2.1 Surveys",
     "page": "17-18"
+  },
+  "token_usage": {
+    "completion_tokens": 347,
+    "prompt_tokens": 530,
+    "total_tokens": 877,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

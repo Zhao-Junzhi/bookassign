@@ -1,20 +1,37 @@
 {
-  "background": "Recall that event A is cat ownership and event B is dog ownership. We have established Pr(B | A)= 0.4286, Pr(Ā)=1-Pr(A)=1-0.35=0.65, and Pr(B and Ā)=0.15.",
+  "background": "Event A represents cat ownership and event B represents dog ownership. We know that Pr(B | A) = 0.4286, Pr(¬A) = 1 - Pr(A) = 1 - 0.35 = 0.65, and Pr(B and ¬A) = 0.15. Using conditional probability, Pr(B | ¬A) = Pr(B and ¬A) / Pr(¬A) = 0.15 / 0.65 = 0.2308.",
   "task": [
     {
-      "query": "By conditional probability, Pr(B | Ā)=Pr(B and Ā)/Pr(Ā)=0.15/0.65=0.2308.",
-      "answer": "By the total probability rule, Pr(B)=[Pr(B | A) * Pr(A)]+[Pr(B | Ā) * Pr(Ā)]= [0.4286 * 0.35]+[0.2308 * 0.65]=0.15+0.15=0.30",
-      "method": "事件发生概率及独立性"
+      "query": "Using the total probability rule, calculate Pr(B).",
+      "answer": "Pr(B) = [Pr(B | A) × Pr(A)] + [Pr(B | ¬A) × Pr(¬A)] = [0.4286 × 0.35] + [0.2308 × 0.65] = 0.15 + 0.15 = 0.30"
     }
   ],
   "id": "343",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Total probability rule (Pet ownership).",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
     "page": "110-110"
+  },
+  "token_usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 556,
+    "total_tokens": 792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

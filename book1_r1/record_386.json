@@ -1,20 +1,41 @@
 {
-  "background": "How large a sample is needed to test the SIDS data presented earlier in this chapter with 90% power at alpha=0.05 two sided? We want to detect a mean difference in birth weight (Delta) of 300 grams (about 2/3 pound). Let us use sample standard deviation s(720.0) as a reasonable estimate of sigma.",
+  "background": "We want to determine the required sample size to test the SIDS data with 90% power at α=0.05 (two-sided). The goal is to detect a mean difference in birth weight (Δ) of 300 grams, using a sample standard deviation (s) of 720.0 as an estimate of σ.",
   "task": [
     {
-      "query": "Calculate the sample size needed to detect a mean difference in birth weight of 300 grams with 90% power at alpha=0.05 two sided.",
-      "answer": "n=60.46. Round up to 61 to ensure adequate power. Because the sample size exceeds 30, there is no need to apply adjustment factor f.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "How large a sample is needed to test the SIDS data with 90% power at α=0.05 (two-sided), given a mean difference in birth weight (Δ) of 300 grams and a sample standard deviation (s) of 720.0?",
+      "answer": "n=σ²(z₀.₉+z₀.₉₇₅)²/Δ² = 720²(1.28+1.96)²/300² = 60.46. Round up to 61 to ensure adequate power."
+    },
+    {
+      "query": "Why is there no need to apply the adjustment factor f for the sample size?",
+      "answer": "Because the sample size exceeds 30, there is no need to apply the adjustment factor f."
     }
   ],
   "id": "386",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Sample size requirement, one-sample t test (SIDS).",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "227-227"
+  },
+  "token_usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 465,
+    "total_tokens": 741,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

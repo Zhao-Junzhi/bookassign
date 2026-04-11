@@ -1,0 +1,51 @@
+{
+  "background": "Consider a standby system with two identical valves each with constant failure rate $\\lambda=10^{-5}$ failures/hours. The probability $\\mathrm{p}_{\\mathrm{s}}$ that the switch $S$ will activate the standby valve is 0.995.",
+  "task": [
+    {
+      "query": "What is the reliability of the system at time $\\mathrm{t}=8760 \\mathrm{~h}$ (or one year)?",
+      "answer": "Here $p_s=0.995$, from Eq. (4.48) the reliability that the system will survive one year is, $$\\begin{aligned} R(8760) & =\\left(1+p_s \\lambda t\\right) e^{-\\lambda t} \\\\ & =\\left(1+(0.995)\\left(10^{-5}\\right) 8760\\right) e^{-\\left(10^{-5}\\right) 8760} \\\\ & =0.9960 \\end{aligned}$$"
+    },
+    {
+      "query": "What is the system MTTF (Mean Time To Failure) for the identical valves scenario?",
+      "answer": "The system MTTF is $$\\begin{aligned} M T T F & =\\frac{1+p_s}{\\lambda} \\\\ & =\\frac{1+0.995}{10^{-5}}=199,500 \\ \\text { hours } \\end{aligned}$$"
+    },
+    {
+      "query": "What is the reliability of the system when the components are non-identical, with component 1 (active unit) and component 2 (standby unit) having constant failure rates $\\lambda_1$ and $\\lambda_2$, respectively, and $p_s$ being the probability of successful switching?",
+      "answer": "From Eq. (4.45), the reliability is $$\\begin{aligned} R(t) & =e^{-\\lambda_1 t}+p_s \\int_0^t \\lambda_1 e^{-\\lambda_1 \\ \\tau} e^{-\\lambda_2(t-\\ \\tau)} d \\ \\tau \\\\ & =e^{-\\lambda_1 t}+\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_2 t}-\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_1 t} \\end{aligned}$$"
+    },
+    {
+      "query": "What is the system MTTF (Mean Time To Failure) for the non-identical components scenario?",
+      "answer": "The system MTTF is given by $$\\begin{aligned} M T T F & =\\int_0^{\\infty} R(t) d t=\\int_0^{\\infty}\\left(e^{-\\lambda t}+\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_2 t}-\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_1 t}\\right) d t \\\\ & =\\frac{1}{\\lambda_1}+\\frac{p_s}{\\lambda_2} \\end{aligned}$$"
+    }
+  ],
+  "id": "64",
+  "data": null,
+  "meta_info": {
+    "index": "4.8",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.8 Standby Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "244-244"
+  },
+  "token_usage": {
+    "completion_tokens": 729,
+    "prompt_tokens": 925,
+    "total_tokens": 1654,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "background": "Behavioral researchers have developed an index designed to measure managerial success. The index (measured on a 100-point scale) is based on the manager's length of time in the organization and their level within the firm. A researcher wants to compare the average success index for two groups of managers at a large manufacturing plant. Group 1 managers engage in a high volume of interactions with people outside their work unit, while Group 2 managers rarely interact with people outside their work unit. Independent random samples of 12 and 15 managers are selected from Groups 1 and 2, respectively, and the success index of each is recorded. The results of the study are given in Table 8.2.",
+  "task": [
+    {
+      "query": "Use the data in the table to estimate the true mean difference between the success indexes of managers in the two groups. Use a 95% confidence interval.",
+      "answer": "For this experiment, let μ1 and μ2 represent the mean success index of Group 1 and Group 2 managers, respectively. The objective is to obtain a 95% confidence interval for (μ1−μ2). Summary statistics are: x̄1 = 65.33, s1 = 6.61, x̄2 = 49.47, and s2 = 9.33. The pooled estimate of variance is calculated as sp² = 67.97. Using tα/2 = 2.06 (based on 25 degrees of freedom), the 95% confidence interval for (μ1−μ2) is: (x̄1−x̄2) ± tα/2 √[sp²(1/n1 + 1/n2)] = 15.86 ± (2.06)(3.19) = 15.86 ± 6.58, or (9.28, 22.44)."
+    },
+    {
+      "query": "Interpret the confidence interval obtained in part a.",
+      "answer": "The confidence interval includes positive differences only. Consequently, we are 95% confident that (μ1−μ2) exceeds 0. We estimate the mean success index, μ1, for managers with a high volume of outsider interaction (Group 1) to be anywhere between 9.28 and 22.44 points higher than the mean success index, μ2, of managers with few interactions (Group 2)."
+    },
+    {
+      "query": "What assumptions must be made so that the estimate is valid? Are they reasonably satisfied?",
+      "answer": "To properly use the small-sample confidence interval, the following assumptions must be satisfied: 1. The samples of managers are randomly and independently selected from the populations of Group 1 and Group 2 managers. 2. The success indexes are normally distributed for both groups of managers. 3. The variance of the success indexes is the same for the two populations (i.e., σ1² = σ2²). The first assumption is satisfied based on the sampling procedure described. For the second assumption, normal probability plots (Figure 8.8) show near straight-line trends, indicating that the success index distributions are approximately normal. For the third assumption, box plots (Figure 8.9) show similar spreads, suggesting that the variances are approximately equal."
+    }
+  ],
+  "id": "125",
+  "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{Table 8.2} & \\multicolumn{10}{|c|}{Managerial Success Indexes for Two Groups of Managers} \\\\\n\\hline \\multicolumn{6}{|c|}{Group 1} & \\multicolumn{6}{|c|}{Group 2} \\\\\n\\hline \\multicolumn{6}{|c|}{Interaction with Outsiders} & \\multicolumn{6}{|c|}{Few Interactions} \\\\\n\\hline 65 & 58 & 78 & 60 & 68 & 69 & 62 & 53 & 36 & 34 & 56 & 50 \\\\\n\\hline 66 & 70 & 53 & 71 & 63 & 63 & 42 & 57 & 46 & 68 & 48 & 42 \\\\\n\\hline & & & & & & 52 & 53 & 43 & & & \\\\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "8.4",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 704,
+    "prompt_tokens": 1546,
+    "total_tokens": 2250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

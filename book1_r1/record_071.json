@@ -1,30 +1,49 @@
 {
-  "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution. When the sample is large, the number of successes will vary according to a Normal distribution. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed.",
+  "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution with parameters $n$ and $p$. When the sample is large, the number of successes will vary according to a Normal distribution with mean and standard deviation. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed with mean $p$ and standard deviation.",
   "task": [
     {
-      "query": "The count of successes in the sample will vary according to a (a) $\\_\\_\\_\\_$ probability distribution with parameters $n$ and (b) $\\_\\_\\_\\_$. What is the probability distribution and its parameters?",
-      "answer": "(a) binomial (b) $p$",
-      "method": "数据分布建模"
+      "query": "What type of probability distribution does the count of successes in the sample follow, and what are its parameters?",
+      "answer": "(a) binomial, (b) $p$"
     },
     {
-      "query": "When the sample is large, the number of successes will vary according to a Normal distribution with $\\mu=(c)$ $\\_\\_\\_\\_$ and $\\sigma=(d)$ $\\_\\_\\_\\_$. What are the mean and standard deviation of this Normal distribution?",
-      "answer": "(c) $n p$ (d) $\\sqrt{n p q}$",
-      "method": "数据分布建模"
+      "query": "When the sample is large, what is the mean ($\\mu$) of the Normal distribution for the number of successes?",
+      "answer": "(c) $n p$"
     },
     {
-      "query": "The sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed with mean $p$ and standard deviation equal to (e) $\\_\\_\\_\\_$. What is the standard deviation of the sampling distribution of $\\hat{p}$?",
-      "answer": "(e) $\\sqrt{\\frac{p q}{n}}$",
-      "method": "数据分布建模"
+      "query": "When the sample is large, what is the standard deviation ($\\sigma$) of the Normal distribution for the number of successes?",
+      "answer": "(d) $\\sqrt{n p q}$"
+    },
+    {
+      "query": "What is the standard deviation of the sampling distribution of the proportion $\\hat{p}$ in large samples?",
+      "answer": "(e) $\\sqrt{\\frac{p q}{n}}$"
     }
   ],
   "id": "071",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "8.13",
     "image": "",
     "caption": "Fill in the blanks.",
     "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
     "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
     "page": "173-173"
+  },
+  "token_usage": {
+    "completion_tokens": 330,
+    "prompt_tokens": 494,
+    "total_tokens": 824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

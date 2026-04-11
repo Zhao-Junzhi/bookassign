@@ -1,0 +1,26 @@
+{
+  "id": "101",
+  "question": "A food-products company conducted a market study by randomly sampling and interviewing 1,000 consumers to determine which brand of breakfast cereal they prefer. Suppose 313 consumers were found to prefer the company's brand. How would you estimate the true fraction of all consumers who prefer the company's cereal brand?",
+  "data": null,
+  "answer": "In this study, consumers are asked which brand of breakfast cereal they prefer. Note that "brand" is a qualitative variable and that what we are asking is how you would estimate the probability $p$ of success in a binomial experiment, where $p$ is the probability that a chosen consumer prefers the company's brand. One logical method of estimating $p$ for the population is to use the proportion of successes in the sample-that is, we can estimate $p$ by calculating
+
+$$
+\hat{p}=\frac{\text { Number of consumers sampled who prefer the company's brand }}{\text { Number of consumers sampled }}
+$$
+
+where $\hat{p}$ is read " $p$ hat." Thus, in this case,
+
+$$
+\hat{p}=\frac{313}{1,000}=.313
+$$",
+  "meta_info": {
+    "index": "6.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Estimating a Population Proportion-Preference for Breakfast Cereal",
+    "chapter": "Inferences Based on a Single Sample",
+    "section": "6.4 Large-Sample Confidence Interval for a Population Proportion",
+    "book": "Statistics for Business and Economics",
+    "page": "202-203"
+  }
+}

@@ -1,20 +1,41 @@
 {
-  "background": "A random-digit dialing technique is used to select 57 individuals from a community.",
+  "background": "A random-digit dialing technique is used to select 57 individuals from a community. Seventeen of 57 individuals in the sample are classified as smokers.",
   "task": [
     {
-      "query": "Seventeen of 57 individuals in the sample are classified as smokers.",
-      "answer": "Therefore, the proportion of smokers in the sample \\( \\hat{p}=\\frac{x}{n}=\\frac{17}{57}=0.298 \\). Assuming the sample is an SRS and the information is properly classified, this is an unbiased estimate of the prevalence of smoking in the population.",
-      "method": "集中趋势测度"
+      "query": "What is the proportion of smokers in the sample?",
+      "answer": "The proportion of smokers in the sample $hat{p}=frac{x}{n}=frac{17}{57}=0.298$."
+    },
+    {
+      "query": "What assumptions are made about the sample and the information provided?",
+      "answer": "Assuming the sample is an SRS and the information is properly classified, this is an unbiased estimate of the prevalence of smoking in the population."
     }
   ],
   "id": "415",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Data (Prevalence of smoking in a community).",
     "chapter": "INFERENCE ABOUT A PROPORTION",
     "section": "16.1 Proportions",
     "page": "349-350"
+  },
+  "token_usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 387,
+    "total_tokens": 551,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

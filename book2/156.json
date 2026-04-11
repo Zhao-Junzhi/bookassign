@@ -1,0 +1,21 @@
+{
+  "id": "156",
+  "question": "Refer to the first-order model for auction price $(y)$ considered in Example 12.1. Interpret the estimates of the $\beta$ parameters in the model.",
+  "data": null,
+  "answer": "The least squares prediction equation, as given in Example 12.1, is $\hat{y}=-1,339+ 12.74 x_1+85.95 x_2$. We know that with first-order models, $\beta_1$ represents the slope of the line relating $y$ to $x_1$ for fixed $x_2$. That is, $\beta_1$ measures the change in $E(y)$ for every 1-unit increase in $x_1$ when the other independent variable in the model is held fixed. A similar
+statement can be made about $\beta_2: \beta_2$ measures the change in $E(y)$ for every 1-unit increase in $x_2$ when the other $x$ in the model is held fixed. Consequently, we obtain the following interpretations:
+$\hat{\beta}_1=12.74$ : We estimate the mean auction price $E(y)$ of an antique clock to increase $\$ 12.74$ for every 1-year increase in age ( $x_1$ ) when the number of bidders ( $x_2$ ) is held fixed.
+$\hat{\beta}_2=85.95$ : We estimate the mean auction price $E(y)$ of an antique clock to increase $\$ 85.95$ for every 1-bidder increase in the number of bidders ( $x_2$ ) when age $\left(x_1\right)$ is held fixed.
+The value $\hat{\beta}_0=-1,339$ does not have a meaningful interpretation in this example. To see this, note that $\hat{y}=\hat{\beta}_0$ when $x_1=x_2=0$. Thus, $\hat{\beta}_0=-1,339$ represents the estimated mean auction price when the values of all the independent variables are set equal to 0 . Because an antique clock with these characteristics - an age of 0 years and 0 bidders on the clock-is not practical, the value of $\hat{\beta}_0$ has no meaningful interpretation.
+",
+  "meta_info": {
+    "index": "12.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\beta$ Estimates: Clock Auction Price Model",
+    "chapter": "Multiple Regression and Model Building",
+    "section": "12.2 Estimating and Making Inferences about the $\\boldsymbol{\\beta}$ Parameters",
+    "book": "Statistics for Business and Economics",
+    "page": "407-408"
+  }
+}

@@ -1,20 +1,45 @@
 {
-  "background": "An inmate on death row in the state of Illinois has a WAIS of 51.",
+  "background": "An inmate on death row in the state of Illinois has a WAIS of 51. The task is to determine the percentage of people who have a score below this level.",
   "task": [
     {
-      "query": "What percentage of people have a score below this level?",
-      "answer": "Again, the four-step procedure is used: 1. Statel $X \\sim N(100,15)$. We want to determine $\\operatorname{Pr}(X<51)$ 2. Standardize: $z=\\frac{51-100}{15}=-3.27$ 3. Sketch: not shown 4. Table B: $\\operatorname{Pr}(Z \\leq-3.27)=0.0005$ (about $0.05 \\%$ )",
-      "method": "事件发生概率及独立性"
+      "query": "What is the distribution of the WAIS scores, and what is the probability we are trying to determine?",
+      "answer": "$X \\sim N(100,15)$. We want to determine $\\operatorname{Pr}(X<51)$."
+    },
+    {
+      "query": "How do you standardize the given WAIS score?",
+      "answer": "$z=\\frac{51-100}{15}=-3.27$."
+    },
+    {
+      "query": "What is the probability corresponding to the standardized z-score?",
+      "answer": "Using Table B, $\\operatorname{Pr}(Z \\leq-3.27)=0.0005$ (about $0.05 \\%$)."
     }
   ],
   "id": "063",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "7.11",
     "image": "",
     "caption": "Death row inmate.",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.3 FINDING VALUES THAT CORRESPOND",
     "page": "147-147"
+  },
+  "token_usage": {
+    "completion_tokens": 231,
+    "prompt_tokens": 428,
+    "total_tokens": 659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

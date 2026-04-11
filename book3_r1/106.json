@@ -1,10 +1,9 @@
 {
-  "background": "An entrepreneur of a start-up company calls potential customers to sell a new product. Assume that the outcomes of consecutive calls are independent and that on each call he has a 20% chance of making a sale. His daily goal is to make 5 sales and he can make only 25 calls in a day.",
+  "background": "An entrepreneur of a start-up company calls potential customers to sell a new product. Assume that the outcomes of consecutive calls are independent and that on each call he has a 20% chance of making a sale. His daily goal is to make 5 sales, and he can make only 25 calls in a day.",
   "task": [
     {
       "query": "What is the probability that he achieves his goal in between 15 and 20 trials?",
-      "answer": "Let $Y$ be the number of trials up to and including the 5th success. $P(15 \\leq Y \\leq$ 20) $=0.2405$.",
-      "method": "事件发生概率及独立性"
+      "answer": "Let $Y$ be the number of trials up to and including the 5th success. $P(15 \\leq Y \\leq 20) = 0.2405$."
     }
   ],
   "id": "106",
@@ -18,5 +17,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "132-132"
+  },
+  "token_usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 422,
+    "total_tokens": 575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

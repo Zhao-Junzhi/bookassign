@@ -1,10 +1,9 @@
 {
-  "background": "Two types of coins are produced at a factory: a fair coin and a biased one that comes up heads 55 percent of the time. A quality manager has one of these coins but does not know whether it is a fair coin or a biased one. In order to ascertain which type of coin he has, he shall perform the following statistical test: He shall toss the coin 1000 times.",
+  "background": "Two types of coins are produced at a factory: a fair coin and a biased one that comes up heads 55 percent of the time. A quality manager has one of these coins but does not know whether it is a fair coin or a biased one. In order to ascertain which type of coin he has, he shall perform the following statistical test: He shall toss the coin 1000 times. If the coin lands on heads 525 or more times, then he shall conclude that it is a biased coin, whereas, if it lands heads less than 525 times, then he shall conclude that it is the fair coin.",
   "task": [
     {
-      "query": "If the coin lands on heads 525 or more times, then he shall conclude that it is a biased coin, whereas, if it lands heads less than 525 times, then he shall conclude that it is the fair coin. If the coin is actually fair, use the Normal approximation to find the probability that he shall reach a false conclusion?",
-      "answer": "The probability that he shall reach a false conclusion is 0.057.",
-      "method": "事件发生概率及独立性"
+      "query": "If the coin is actually fair, use the Normal approximation to find the probability that he shall reach a false conclusion?",
+      "answer": "$$ \\text{The probability that he shall reach a false conclusion is } 0.057 \\text{.} $$"
     }
   ],
   "id": "112",
@@ -18,5 +17,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "132-132"
+  },
+  "token_usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 472,
+    "total_tokens": 677,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

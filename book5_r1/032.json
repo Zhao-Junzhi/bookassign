@@ -1,35 +1,29 @@
 {
-  "background": "A survey was carried out to test the hypothesis that men with deep singing voices are likely to have higher levels of testosterone than men with higher voices (Lyster, 1984). Professional and student male singers were asked how many brothers and sisters they had. The results for the 195 singers with siblings are shown in the table provided. The author of the report performed a Chi-squared test and made several interpretations and analyses.",
+  "background": "A survey was conducted to test the hypothesis that men with deep singing voices are likely to have higher levels of testosterone than men with higher voices. Professional and student male singers were asked about the number of brothers and sisters they had. The results for 195 singers with siblings are presented in a table. The author of the report performed a Chi-squared test and drew conclusions about the relationship between voice groups and sibling sex ratios.",
   "task": [
     {
-      "query": "(a) The $\\chi^2$ test ignoring the ordering of the voice groups gives $X^2=9.84$ on $5 \\mathrm{df}, \\mathrm{P}=0.08$. Comment on the author's interpretation.",
-      "answer": "The author seems to have concluded that $\\mathrm{P}>0.05$ means that there is no effect present. However, the P value is 0.08 and so only slightly greater than 0.05.",
-      "method": "假设检验"
+      "query": "Comment on the author's interpretation of the Chi-squared test result, which gives $X^2=9.84$ on $5 \\mathrm{df}, \\mathrm{P}=0.08$.",
+      "answer": "The author seems to have concluded that $\\mathrm{P}>0.05$ means that there is no effect present. However, the P value is 0.08 and so only slightly greater than 0.05."
     },
     {
-      "query": "(b) Why is this test not appropriate to the aim of the study? Perform an appropriate analysis and interpret the answers.",
-      "answer": "The test considered in (a) is not appropriate because it ignored the fact that the groups were ordered. The aim of the study was explicitly to study the relation between testosterone level (examined by the proxy measure of the sex ratio of siblings) and level of singing voice, so the Chi squared test for trend should be used. The test gives $X^2=8.92$ on 1 degree of freedom, which is highly significant $(\\mathrm{P}=0.003)$. We can therefore infer that there is a relation between level of singing voice and sex ratio of siblings, assuming that the test is a valid one (but see below). This does not, of course, directly answer the question about testosterone levels as they were not measured on this sample.",
-      "method": "假设检验"
+      "query": "Why is the Chi-squared test ignoring the ordering of the voice groups not appropriate to the aim of the study? Perform an appropriate analysis and interpret the answers.",
+      "answer": "The test considered in (a) is not appropriate because it ignored the fact that the groups were ordered. The aim of the study was explicitly to study the relation between testosterone level (examined by the proxy measure of the sex ratio of siblings) and level of singing voice, so the Chi squared test for trend should be used. The test gives $X^2=8.92$ on 1 degree of freedom, which is highly significant $(\\mathrm{P}=0.003)$. We can therefore infer that there is a relation between level of singing voice and sex ratio of siblings, assuming that the test is a valid one (but see below). This does not, of course, directly answer the question about testosterone levels as they were not measured on this sample."
     },
     {
-      "query": "(c) The author performed a second analysis involving just three groups. Why is this analysis invalid?",
-      "answer": "It was chosen after inspecting the data, so the P value is not valid. In any case, it is not sensible to ignore the ordering - the trend test is far preferable.",
-      "method": "假设检验"
+      "query": "Why is the second analysis involving just three voice groups invalid?",
+      "answer": "It was chosen after inspecting the data, so the P value is not valid. In any case, it is not sensible to ignore the ordering - the trend test is far preferable."
     },
     {
-      "query": "(d) Why is his quoted value of $X^2$ of 11.27 clearly wrong?",
-      "answer": "The value of $X^2$ for part of the table cannot exceed the value for the whole table. The correct value for this comparison is $X^2=9.44$ on 2 degrees of freedom.",
-      "method": "假设检验"
+      "query": "Why is the quoted value of $X^2$ of 11.27 clearly wrong?",
+      "answer": "The value of $X^2$ for part of the table cannot exceed the value for the whole table. The correct value for this comparison is $X^2=9.44$ on 2 degrees of freedom."
     },
     {
-      "query": "(e) What feature of the data breaks a fundamental assumption of all Chi squared tests?",
-      "answer": "The observations are not independent, as the 422 siblings related to only 195 singers. Large families will carry more influence than small ones.",
-      "method": "假设检验"
+      "query": "What feature of the data breaks a fundamental assumption of all Chi-squared tests?",
+      "answer": "The observations are not independent, as the 422 siblings related to only 195 singers. Large families will carry more influence than small ones."
     },
     {
-      "query": "(f) How important is this problem, and what can we do about it? (This is rather difficult!)",
-      "answer": "It is not easy to say how important the non-independence is. If this is considered to be a preliminary study, leading to a study with direct analysis of testosterone levels if the results look suggestive (as they do), then it is probably not too important. In any case, there is no simple statistical way round the problem. We could study only singers with one sibling; choose one sibling at random for each singer; take each singer's oldest sibling, none of which would be very satisfactory. A completely valid statistical analysis would be highly complex.",
-      "method": "假设检验"
+      "query": "How important is the problem of non-independence in this study, and what can be done about it?",
+      "answer": "It is not easy to say how important the non-independence is. If this is considered to be a preliminary study, leading to a study with direct analysis of testosterone levels if the results look suggestive (as they do), then it is probably not too important. In any case, there is no simple statistical way round the problem. We could study only singers with one sibling; choose one sibling at random for each singer; take each singer's oldest sibling, none of which would be very satisfactory. A completely valid statistical analysis would be highly complex."
     }
   ],
   "id": "032",
@@ -43,5 +37,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "273-273"
+  },
+  "token_usage": {
+    "completion_tokens": 749,
+    "prompt_tokens": 1273,
+    "total_tokens": 2022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

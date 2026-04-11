@@ -1,0 +1,48 @@
+{
+  "background": "Refer to the first-order model for auction price $(y)$ considered in Example 12.1.",
+  "task": [
+    {
+      "query": "Interpret the estimates of the $\beta$ parameters in the model.",
+      "answer": "The least squares prediction equation, as given in Example 12.1, is $\u0001\text{hat}{y}=-1,339+ 12.74 x_1+85.95 x_2$. We know that with first-order models, $\beta_1$ represents the slope of the line relating $y$ to $x_1$ for fixed $x_2$. That is, $\beta_1$ measures the change in $E(y)$ for every 1-unit increase in $x_1$ when the other independent variable in the model is held fixed. A similar statement can be made about $\beta_2: \beta_2$ measures the change in $E(y)$ for every 1-unit increase in $x_2$ when the other $x$ in the model is held fixed."
+    },
+    {
+      "query": "Provide the interpretation of $\u0001\text{hat}{\beta}_1$.",
+      "answer": "$\u0001\text{hat}{\beta}_1=12.74$ : We estimate the mean auction price $E(y)$ of an antique clock to increase $\u0001$ 12.74$ for every 1-year increase in age ( $x_1$ ) when the number of bidders ( $x_2$ ) is held fixed."
+    },
+    {
+      "query": "Provide the interpretation of $\u0001\text{hat}{\beta}_2$.",
+      "answer": "$\u0001\text{hat}{\beta}_2=85.95$ : We estimate the mean auction price $E(y)$ of an antique clock to increase $\u0001$ 85.95$ for every 1-bidder increase in the number of bidders ( $x_2$ ) when age $\u0001\text{left(x_1\right}$ is held fixed."
+    },
+    {
+      "query": "Explain why $\u0001\text{hat}{\beta}_0$ does not have a meaningful interpretation in this example.",
+      "answer": "The value $\u0001\text{hat}{\beta}_0=-1,339$ does not have a meaningful interpretation in this example. To see this, note that $\u0001\text{hat}{y}=\u0001\text{hat}{\beta}_0$ when $x_1=x_2=0$. Thus, $\u0001\text{hat}{\beta}_0=-1,339$ represents the estimated mean auction price when the values of all the independent variables are set equal to 0. Because an antique clock with these characteristics - an age of 0 years and 0 bidders on the clock-is not practical, the value of $\u0001\text{hat}{\beta}_0$ has no meaningful interpretation."
+    }
+  ],
+  "id": "156",
+  "data": null,
+  "meta_info": {
+    "index": "12.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\\beta$ Estimates: Clock Auction Price Model",
+    "chapter": "Multiple Regression and Model Building"
+  },
+  "token_usage": {
+    "completion_tokens": 663,
+    "prompt_tokens": 766,
+    "total_tokens": 1429,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

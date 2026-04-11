@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Obtain the reliability of the component at 1,900 h.",
-      "answer": "Note that the reliability function is related to the standard normal deviate z by\n$$\nR(t)=P\\left(Z>\\frac{t-\\mu}{\\sigma}\\right)\n$$\nwhere the distribution function for Z is given by Eq. (2.47). For this particular\napplication,\n$$\n\\begin{aligned}\n&R(1,900)=P\\left(Z>\\frac{1,900-2,000}{100}\\right)=P(Z>-1) .\\\\\n&\\ \\text { From the standard normal table in Table A. } 1 \\ \\text { in Appendix A, we obtain }\\\\\n&R(1,900)=1-\\Phi(-1)=0.8413\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "answer": "Note that the reliability function is related to the standard normal deviate z by\n$$\nR(t)=P\\left(Z>\\frac{t-\\mu}{\\sigma}\\right)\n$$\nwhere the distribution function for Z is given by Eq. (2.47). For this particular\napplication,\n$$\n\\begin{aligned}\n&R(1,900)=P\\left(Z>\\frac{1,900-2,000}{100}\\right)=P(Z>-1) .\\\\\n&\\ \\text { From the standard normal table in Table A. } 1 \\ \\text { in Appendix A, we obtain }\\\\\n&R(1,900)=1-\\Phi(-1)=0.8413\n\\end{aligned}\n$$"
     }
   ],
   "id": "35",
@@ -18,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistics for Business and Economics",
     "page": "96-97"
+  },
+  "token_usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 489,
+    "total_tokens": 725,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

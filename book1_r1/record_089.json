@@ -2,19 +2,48 @@
   "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
   "task": [
     {
-      "query": "Show all hypothesis-testing steps.",
-      "answer": "A. Hypotheses. $H_0: \\mu=29.5$ days versus $H_{\\mathrm{a}}: \\mu \\neq 29.5$ days\nB. Test statistic.\n\n$$\n\\begin{aligned}\n& n=9 \\\n& \\bar{x}=27.78 \\\n& \\quad s=2.906 \\\n& S E_{\\bar{x}}=\\frac{s}{\\sqrt{n}}=\\frac{2.906}{\\sqrt{9}}=0.96877 \\\n& t_{\\text {stat }}=\\frac{\\bar{x}_d-\\mu_0}{S E_{\\bar{x}_d}}=\\frac{27.78-29.5}{0.9687}=-1.77 \\\n& \\quad d f=9-1=8\n\\end{aligned}\n$$\n\nC. $\\boldsymbol{P}$-value. Use Table C to determine that $t_{8.90}=1.40$ (right tail $=0.10$ ) and $t_{8.95}=$ 1.86 (right tail $=0.05$ ). Therefore, the one-sided $P$-value is between 0.05 and 0.10 and the two-tailed $P$-value is $0.10<P<0.20$. Using a utility program, $P=0.11$.\nD. Significance level (optional). The evidence against $H_0$ is not significantly at $\\alpha =0.10$ (retain $H_0$ ).",
-      "method": "均值检验"
+      "query": "State the null and alternative hypotheses for the test.",
+      "answer": "$H_0: \\mu=29.5$ days versus $H_{\\mathrm{a}}: \\mu \\neq 29.5$ days"
+    },
+    {
+      "query": "Calculate the test statistic for the hypothesis test.",
+      "answer": "$$\\begin{aligned} & n=9 \\\\ & \\bar{x}=27.78 \\\\ & \\quad s=2.906 \\\\ & S E_{\\bar{x}}=\\frac{s}{\\sqrt{n}}=\\frac{2.906}{\\sqrt{9}}=0.96877 \\\\ & t_{\\text {stat }}=\\frac{\\bar{x}_d-\\mu_0}{S E_{\\bar{x}_d}}=\\frac{27.78-29.5}{0.9687}=-1.77 \\\\ & \\quad d f=9-1=8 \\end{aligned}$$"
+    },
+    {
+      "query": "Determine the P-value for the test statistic.",
+      "answer": "Use Table C to determine that $t_{8.90}=1.40$ (right tail $=0.10$ ) and $t_{8.95}=$ 1.86 (right tail $=0.05$ ). Therefore, the one-sided $P$-value is between 0.05 and 0.10 and the two-tailed $P$-value is $0.10<P<0.20$. Using a utility program, $P=0.11$."
+    },
+    {
+      "query": "State the conclusion of the hypothesis test at a significance level of $\\alpha = 0.10$.",
+      "answer": "The evidence against $H_0$ is not significant at $\\alpha =0.10$ (retain $H_0$)."
     }
   ],
   "id": "089",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "11.11",
     "image": "",
     "caption": "Menstrual cycle length.",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.3 ONE-SAMPLE T TEST",
     "page": "217-217"
+  },
+  "token_usage": {
+    "completion_tokens": 546,
+    "prompt_tokens": 720,
+    "total_tokens": 1266,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

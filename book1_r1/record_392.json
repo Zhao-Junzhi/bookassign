@@ -1,35 +1,57 @@
 {
-  "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
+  "background": "We calculate the 95% confidence interval for μ1−μ2 for the cholesterol illustrative data (see Table 12.5).",
   "task": [
     {
-      "query": "Calculate the difference between the sample means: $\\bar{x}_1-\\bar{x}_2=6.192-5.414$.",
-      "answer": "$\\bar{x}_1-\\bar{x}_2=0.777(\\mathrm{mmol} / \\mathrm{L})$",
-      "method": "集中趋势测度"
+      "query": "What is the difference between the sample means (x̄1−x̄2)?",
+      "answer": "x̄1−x̄2 = 6.192−5.414 = 0.777 (mmol/L)"
     },
     {
-      "query": "Calculate the standard error of the difference between the sample means: $S E_{\\bar{x}_1-\\bar{x}_2}=\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}$.",
-      "answer": "$S E_{\\bar{x}_1-\\bar{x}_2}=0.2702(\\mathrm{mmol} / \\mathrm{L})$",
-      "method": "分散程度测度"
+      "query": "How is the standard error (SE) of the difference between the sample means calculated?",
+      "answer": "SE(x̄1−x̄2) = √(s1²/n1 + s2²/n2) = √(0.3919²/12 + 0.6492²/7) = 0.2702 (mmol/L)"
     },
     {
-      "query": "Using the conservative method to calculate the degrees of freedom and the $95 \\%$ confidence interval.",
-      "answer": "For $95 \\%$ confidence, use $t_{6, .975}=2.447$. The $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ is $0.116$ to $1.438(\\mathrm{mmol} / \\mathrm{L})$.",
-      "method": "均值检验"
+      "query": "How is the degrees of freedom (df) calculated using the conservative method, and what is the corresponding t-value for 95% confidence?",
+      "answer": "Using the conservative method: df1 = 12−1 = 11, df2 = 7−1 = 6, so df_conserv = 6. For 95% confidence, t6,0.975 = 2.447."
     },
     {
-      "query": "Derive degrees of freedom by the Welch method and calculate the $95 \\%$ confidence interval.",
-      "answer": "The value of $t_{8.61, .975}$ via a software utility is 2.306. The $95 \\%$ confidence interval is $0.154$ to $1.400(\\mathrm{mmol} / \\mathrm{L})$.",
-      "method": "均值检验"
+      "query": "What is the 95% confidence interval for μ1−μ2 using the conservative method?",
+      "answer": "The 95% confidence interval is (x̄1−x̄2) ± t(df, 1−α/2)(SE(x̄1−x̄2)) = 0.777 ± (2.447)(0.2702) = 0.777 ± 0.661 = 0.116 to 1.438 (mmol/L)."
+    },
+    {
+      "query": "How is the degrees of freedom (df) calculated using the Welch method?",
+      "answer": "Using the Welch method: SE(x̄1) = s1/√n1 = 0.3919/√12 = 0.11313, SE(x̄2) = s2/√n2 = 0.6492/√7 = 0.24537. df_Welch = [(SE(x̄1)² + SE(x̄2)²)²] / [(SE(x̄1)⁴/(n1−1)) + (SE(x̄2)⁴/(n2−1))] = [(0.11313² + 0.24537²)²] / [(0.11313⁴/11) + (0.24537⁴/6)] = 8.61."
+    },
+    {
+      "query": "What is the 95% confidence interval for μ1−μ2 using the Welch method?",
+      "answer": "The value of t8.61,0.975 via a software utility is 2.306. The 95% confidence interval is (x̄1−x̄2) ± (t8.61,0.975)(SE(x̄1−x̄2)) = 0.777 ± (2.306)(0.2702) = 0.777 ± 0.623 = 0.154 to 1.400 (mmol/L)."
     }
   ],
   "id": "392",
   "data": "Table 12.5 ",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
     "page": "244-245"
+  },
+  "token_usage": {
+    "completion_tokens": 748,
+    "prompt_tokens": 1024,
+    "total_tokens": 1772,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

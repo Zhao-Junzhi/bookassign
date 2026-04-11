@@ -1,15 +1,13 @@
 {
-  "background": "A 18-month guarantee is given based on the assumption that no more than 5% of new cars will be returned.",
+  "background": "A 18-month guarantee is given based on the assumption that no more than 5% of new cars will be returned. The time to failure T of a car has a constant failure rate.",
   "task": [
     {
-      "query": "The time to failure T of a car has a constant failure rate. What is the maximum failure rate that can be tolerated?",
-      "answer": "$\\lambda \\leq 0.0342$.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "What is the maximum failure rate that can be tolerated?",
+      "answer": "$\\lambda \\leq 0.0342$."
     },
     {
       "query": "Determine the probability that a new car will fail within three years assuming that the car was functioning at 18 months.",
-      "answer": "$\\mathrm{P}(\\mathrm{T} \\leq 3 \\mid \\mathrm{T} \\geq 1.5)=0.0015$.",
-      "method": "事件发生概率及独立性"
+      "answer": "$\\mathrm{P}(\\mathrm{T} \\leq 3 \\mid \\mathrm{T} \\geq 1.5)=0.0015$."
     }
   ],
   "id": "79",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "60-60"
+  },
+  "token_usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 430,
+    "total_tokens": 594,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

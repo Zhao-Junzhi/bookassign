@@ -3,28 +3,43 @@
   "task": [
     {
       "query": "What proportion of this population is less than 150 centimeters tall?",
-      "answer": "The proportion of the population less than 150 centimeters tall is 0.9564.",
-      "method": "事件发生概率及独立性"
+      "answer": "1. State: We want to determine Pr(X<150)\n2. Standardize: z=(150-138)/7=1.71\n3. Sketch (optional): not shown\n4. Use Table B: Pr(Z<1.71)=0.9564"
     },
     {
       "query": "What proportion is less than 140 centimeters in height?",
-      "answer": "The proportion of the population less than 140 centimeters tall is 0.6141.",
-      "method": "事件发生概率及独立性"
+      "answer": "1. State: Pr(X<140)\n2. Standardize: z=(140-138)/7=0.29\n3. Sketch (optional): not shown\n4. Use Table B: Pr(Z<0.29)=0.6141"
     },
     {
       "query": "What proportion is between 150 and 140 centimeters?",
-      "answer": "The proportion of the population between 150 and 140 centimeters tall is 0.3423.",
-      "method": "事件发生概率及独立性"
+      "answer": "Make use of the fact demonstrated in Figure 7.12 (page 142): Pr(140 ≤ X ≤ 150) = Pr(X ≤ 150) - Pr(X ≤ 140) = 0.9564 - 0.6141 = 0.3423"
     }
   ],
   "id": "060",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "7.5",
     "image": "",
     "caption": "Heights of 10-year-old boys.",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.2 DETERMINING NORMAL PROBABILITIES",
     "page": "143-143"
+  },
+  "token_usage": {
+    "completion_tokens": 458,
+    "prompt_tokens": 654,
+    "total_tokens": 1112,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

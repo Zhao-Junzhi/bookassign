@@ -1,0 +1,18 @@
+{
+  "id": "109",
+  "question": "A metal lathe is checked periodically by quality-control inspectors to determine whether it is producing machine bearings with a mean diameter of .5 inch. If the mean diameter of the bearings is larger or smaller than .5 inch, then the process is out of control and must be adjusted. Formulate the null and alternative hypotheses for a test to determine whether the bearing production process is out of control.",
+  "data": null,
+  "answer": "The hypotheses must be stated in terms of a population parameter. Here, we define $\mu$ as the true mean diameter (in inches) of all bearings produced by the metal lathe. If either $\mu>.5$ or $\mu<.5$, then the lathe's production process is out of control. Because the inspectors want to be able to detect either possibility (indicating that the process is in need of adjustment), these values of $\mu$ represent the alternative (or research) hypothesis. Alternatively, because $\mu=.5$ represents an in-control process (the status quo), this represents the null hypothesis. Therefore, we want to conduct the two-tailed test:
+$H_0: \mu=.5$ (i.e., the process is in control)
+$H_{\mathrm{a}}: \mu \neq .5$ (i.e., the process is out of control)",
+  "meta_info": {
+    "index": "7.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Formulating $\boldsymbol{H}_0$ and $\boldsymbol{H}_a$ for a Test of a Population Mean-Quality Control",
+    "chapter": "Inferences Based on a Single Sample",
+    "section": "7.2 Formulating Hypotheses and Setting Up the Rejection Region",
+    "book": "Statistics for Business and Economics",
+    "page": "226-226"
+  }
+}

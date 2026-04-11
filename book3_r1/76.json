@@ -1,0 +1,47 @@
+{
+  "background": "A fax machine with a constant failure rate λ will survive for a period of 720 hours without failure, with a probability of 0.80.",
+  "task": [
+    {
+      "query": "Determine the failure rate λ.",
+      "answer": "λ = 0.00031"
+    },
+    {
+      "query": "Determine the probability that the machine, which is functioning after 600 hours, will still function after 800 hours.",
+      "answer": "P(T > 800 | T > 600) = 0.9399"
+    },
+    {
+      "query": "Find the probability that the machine will fail within 900 hours, given that the machine was functioning at 720 hours.",
+      "answer": "P(T ≤ 900 | T ≥ 720) = 0.0543"
+    }
+  ],
+  "id": "76",
+  "data": null,
+  "meta_info": {
+    "index": "1.16",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "59-59"
+  },
+  "token_usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 459,
+    "total_tokens": 644,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

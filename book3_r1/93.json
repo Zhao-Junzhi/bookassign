@@ -1,10 +1,9 @@
 {
-  "background": "Claim amounts for wind damage to insured homes are independent random variables with a common probability density function $$f(x)=3 e^{-3 x} \\text { for } x>0$$, where $x$ is the amount of a claim in thousands. Suppose 4 such claims will be made.",
+  "background": "Claim amounts for wind damage to insured homes are independent random variables with a common probability density function f(x) = 3e^(-3x) for x > 0, where x is the amount of a claim in thousands. Suppose 4 such claims will be made.",
   "task": [
     {
       "query": "What is the expected value of the smallest of the four claims?",
-      "answer": "The expected value of the smallest of the four claims is $83.333",
-      "method": "期望"
+      "answer": "The expected value of the smallest of the four claims is $83.333."
     }
   ],
   "id": "93",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "64-64"
+  },
+  "token_usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 391,
+    "total_tokens": 506,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -2,24 +2,44 @@
   "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
   "task": [
     {
-      "query": "Calculate the expected value of the binomial random variable.",
-      "answer": "The expected value of this random variable μ=n p=20 ⋅ 0.04=0.8.",
-      "method": "期望"
+      "query": "What is the expected value of the binomial random variable?",
+      "answer": "The expected value of this random variable μ=n p=20 · 0.04=0.8."
     },
     {
-      "query": "Calculate the variance and standard deviation of the binomial random variable.",
-      "answer": "It has variance σ²=n p q= 20 ⋅ 0.04 ⋅ 0.96=0.768 and standard deviation σ=√(n p q)= √(20 ⋅ 0.04 ⋅ 0.96)=0.8764.",
-      "method": "分散程度测度"
+      "query": "What is the variance of the binomial random variable?",
+      "answer": "The variance of this random variable σ²=n p q= 20 · 0.04 · 0.96=0.768."
+    },
+    {
+      "query": "What is the standard deviation of the binomial random variable?",
+      "answer": "The standard deviation of this random variable σ=√(n p q)= √(20 · 0.04 · 0.96)=0.8764."
     }
   ],
   "id": "351",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
     "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "section": "6.5  EXPECTED VALUE AND VARIANCE",
     "page": "123-124"
+  },
+  "token_usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 435,
+    "total_tokens": 653,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

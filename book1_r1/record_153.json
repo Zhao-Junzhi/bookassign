@@ -1,0 +1,45 @@
+{
+  "background": "Table 18.29 displays results from a historically important methodological paper written by Frank Yates on the analysis of cross-tabulated counts.",
+  "task": [
+    {
+      "query": "Explain why a chi-square statistic should not be used to test these data.",
+      "answer": "You should not use a chi-square test because three table cells have expected values that are less than 5."
+    },
+    {
+      "query": "Use WinPepi > Compare2.exe > Program F1 to calculate a Fisher’s P-value for the problem.",
+      "answer": "WinPepi Compare2.exe (version 1.38) calculates a Fisher's $P$ of 0.1503. Therefore, the evidence against $H_0$ is not significant."
+    },
+    {
+      "query": "Comment on your findings.",
+      "answer": "Notice the high rate of malocclusion: 84 of the 92 subjects $(91 \\\\%)$ had this characteristic."
+    }
+  ],
+  "id": "153",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.29 Data for Exercise 18.25.}\n\\begin{tabular}{l|c|c}\n\\hline & \\multicolumn{1}{c}{ Normal teeth } & Malocclusion \\\\\n\\hline Breastfed & 4 & 16 \\\\\n\\hline Bottlefed & 1 & 21 \\\\\n\\hline Breastfed \\& bottlefed & 3 & 47 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Yates, F. (1934). Contingency tables involving small numbers and the $\\chi^2$ test. Supplement to the Journal of the Royal Statistical Society, 1 (2), 217-235.",
+  "meta_info": {
+    "index": "18.25",
+    "image": "",
+    "caption": "Yates, 1934 (3-by-2).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "459-459"
+  },
+  "token_usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 546,
+    "total_tokens": 764,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

@@ -1,10 +1,13 @@
 {
-  "background": "A controlled trial was performed to compare the corticosteroid prednisolone and placebo in patients with chronic active hepatitis positive for hepatitis B surface antigen. In response to a letter criticizing the analysis, the author justified the use of a one-tailed test by citing previous analyses where major complications were significantly more frequent in the steroid-treated group.",
+  "background": "A controlled trial was conducted to compare the corticosteroid prednisolone and placebo in patients with chronic active hepatitis positive for hepatitis B surface antigen. In response to criticism, the author stated that a one-tailed test was used because a previous analysis showed significantly more major complications in the steroid-treated group. This information was not included in the original paper.",
   "task": [
     {
-      "query": "Is this a valid justification for performing one-tailed tests? If not, why not?",
-      "answer": "The use of a one-tailed test should always be specified and justified. The justification, which I believe is rarely appropriate, is that the experimenters are only interested in a difference in a particular direction. Results of previous analyses are not an adequate justification for performing a one-tailed test.",
-      "method": "假设检验"
+      "query": "Is the justification provided for performing one-tailed tests valid?",
+      "answer": "The use of a one-tailed test should always be specified and justified. The justification, which I believe is rarely appropriate, is that the experimenters are only interested in a difference in a particular direction."
+    },
+    {
+      "query": "If the justification is not valid, why is it not valid?",
+      "answer": "Results of previous analyses are not an adequate justification for performing a one-tailed test."
     }
   ],
   "id": "022",
@@ -18,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "178-178"
+  },
+  "token_usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 471,
+    "total_tokens": 666,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

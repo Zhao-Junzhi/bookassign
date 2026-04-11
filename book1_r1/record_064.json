@@ -3,18 +3,52 @@
   "task": [
     {
       "query": "What proportion of brains with Alzheimer disease will weigh more than 1250 grams?",
-      "answer": "1. State: $X \\sim \\mathrm{~N}(1077,106)$. We want to determine $\\operatorname{Pr}(X \\geq 1250)$\n2. Standardize: $z=\\frac{1250-1077}{106}=1.63$\n3. Sketch: not shown\n4. Use Table B: $\\operatorname{Pr}(Z \\geq 1.63)=1-.9484=0.0516$",
-      "method": "事件发生概率及独立性"
+      "answer": [
+        {
+          "step": "State",
+          "description": "$X \\sim \\mathrm{~N}(1077,106)$. We want to determine $\\operatorname{Pr}(X \\geq 1250)$"
+        },
+        {
+          "step": "Standardize",
+          "description": "$z=\\frac{1250-1077}{106}=1.63$"
+        },
+        {
+          "step": "Sketch",
+          "description": "not shown"
+        },
+        {
+          "step": "Use Table B",
+          "description": "$\\operatorname{Pr}(Z \\geq 1.63)=1-.9484=0.0516$"
+        }
+      ]
     }
   ],
   "id": "064",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "7.13",
     "image": "",
     "caption": "Alzheimer brains.",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
     "page": "153-153"
+  },
+  "token_usage": {
+    "completion_tokens": 348,
+    "prompt_tokens": 452,
+    "total_tokens": 800,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

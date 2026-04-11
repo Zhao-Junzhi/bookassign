@@ -3,28 +3,43 @@
   "task": [
     {
       "query": "You select one individual at random from this population. What is the probability of selecting individual A?",
-      "answer": "1 in $26=0.0385$",
-      "method": "事件发生概率及独立性"
+      "answer": "1 in $26=0.0385$"
     },
     {
       "query": "Assume person A gets selected on an initial draw, you replace person A into the sampling frame, and then take a second random draw. What is the probability of drawing person A on the second draw?",
-      "answer": "1 in $26=0.0385$",
-      "method": "事件发生概率及独立性"
+      "answer": "1 in $26=0.0385$"
     },
     {
       "query": "Assume person A gets selected on the initial draw and you sample again without replacement. What is the probability of drawing person A on the second draw?",
-      "answer": "0",
-      "method": "事件发生概率及独立性"
+      "answer": "0"
     }
   ],
   "id": "045",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "5.5",
     "image": "",
     "caption": "N = 26.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.1 WHat Is PROBABILITY?",
     "page": "91-92"
+  },
+  "token_usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 441,
+    "total_tokens": 648,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

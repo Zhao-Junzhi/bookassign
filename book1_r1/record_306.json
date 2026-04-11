@@ -1,20 +1,37 @@
 {
-  "background": "Until 2002, postmenopausal hormone use in women was routine in the United States. Nonexperimental studies had suggested estrogen use reduced heart attack risk by about $50 \\%$. Because other risks associated with postmenopausal hormone use were small by comparison, there was a general consensus that postmenopausal hormones had an overall health benefit. Things changed following publication of an experimental trial done as part of an NIH-sponsored Women's Health Initiative (WHI) investigation. Results from the WHI trial revealed that hormone use did not reduce the risk of heart attacks. In fact, overall cardiovascular disease mortality was significantly increased in the women who were assigned hormones.",
+  "background": "Until 2002, postmenopausal hormone use in women was routine in the United States. Nonexperimental studies had suggested estrogen use reduced heart attack risk by about 50%. Because other risks associated with postmenopausal hormone use were small by comparison, there was a general consensus that postmenopausal hormones had an overall health benefit. Things changed following publication of an experimental trial done as part of an NIH-sponsored Women's Health Initiative (WHI) investigation. Results from the WHI trial revealed that hormone use did not reduce the risk of heart attacks. In fact, overall cardiovascular disease mortality was significantly increased in the women who were assigned hormones.",
   "task": [
     {
       "query": "How can we explain the fact that the experimental studies contradicted the nonexperimental studies and the then-current state of knowledge?",
-      "answer": "null",
-      "method": "观测数据"
+      "answer": "null"
     }
   ],
   "id": "306",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "WHI postmenopausal hormone use trial.",
     "chapter": "TYPES OF STUDIES",
     "section": "2.2 COMPARATIVE STUDIES",
     "page": "25-25"
+  },
+  "token_usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 455,
+    "total_tokens": 657,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

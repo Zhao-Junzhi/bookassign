@@ -1,0 +1,37 @@
+{
+  "background": "Recall the experiment of tossing two coins and let $x$ be the number of heads observed. Assume the two coins are fair.",
+  "task": [
+    {
+      "query": "Find the probability associated with each value of the random variable $x$ (0, 1, 2).",
+      "answer": "The probability associated with each of the four sample points is $\\frac{1}{4}$. Identifying the probabilities of the sample points associated with each of these values of $x$, we have:\n\n$$\n\\begin{aligned}\nP(x=0)=P(T T) & =\\frac{1}{4} \\\\\nP(x=1)=P(T H)+P(H T) & =\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2} \\\\\nP(x=2)=P(H H) & =\\frac{1}{4}\n\\end{aligned}\n$$"
+    },
+    {
+      "query": "Display the probability distribution for the random variable $x$ in a table or graph.",
+      "answer": "The values the random variable can assume are $(0,1,2)$, and the probability distribution is $\\left(\\frac{1}{4}, \\frac{1}{2}, \\frac{1}{4}\\right)$. This is referred to as the probability distribution, denoted by the symbol $p(x)$. The probability distribution for the coin-toss example is shown in tabular form in Table 4.1 and in graphical form in Figure 4.3. The graph in Figure 4.3a represents the probabilities as the heights of vertical lines over the corresponding values of $x$. The histogram representation in Figure 4.3b is less precise but useful for approximating probabilities of certain discrete random variables."
+    }
+  ],
+  "id": "060",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.1\nProbability Distribution for Coin-Toss Experiment: Tabular Form}\n\\begin{tabular}{cc}\n$x$ & $p(x)$ \\\\\n\\hline 0 & $\\frac{1}{4}$ \\\\\n1 & $\\frac{1}{2}$ \\\\\n2 & $\\frac{1}{4}$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta_info": {
+    "index": "4.4",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 401,
+    "prompt_tokens": 735,
+    "total_tokens": 1136,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

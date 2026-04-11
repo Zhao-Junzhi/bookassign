@@ -1,10 +1,9 @@
 {
-  "background": "Suppose that a die is rolled 120 times and the number of times each face comes up is recorded. The following results are obtained: Face: 1, 2, 3, 4, 5, 6; Observed frequencies: 15, 21, 20, 15, 26, 23. Test whether the die is fair at the 5% level of significance using the Chi-square test.",
+  "background": "Suppose that a die is rolled 120 times and the number of times each face comes up is recorded. The following results are obtained:\n$$\n\\begin{array}{l|l|l|l|l|l|l}\n\\hline \\text { Face } & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\hline \\mathrm{n}_{\\mathrm{i}} & 15 & 21 & 20 & 15 & 26 & 23 \\\\\n\\hline\n\\end{array}\n$$",
   "task": [
     {
       "query": "Test whether the die is fair at the 5% level of significance using the Chi-square test.",
-      "answer": "We cannot reject the null hypothesis.",
-      "method": "独立性检验"
+      "answer": "We cannot reject the null hypothesis."
     }
   ],
   "id": "118",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "216-216"
+  },
+  "token_usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 462,
+    "total_tokens": 644,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

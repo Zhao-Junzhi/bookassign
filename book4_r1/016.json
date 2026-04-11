@@ -1,30 +1,25 @@
 {
-  "background": "For several makes of car, data for engine size and fuel economy are provided. The goal is to analyze the relationship between engine size and fuel economy using regression analysis.",
+  "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
   "task": [
     {
-      "query": "To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following: R^2, Regression equation, F, df, and P.",
-      "answer": "R^2=69.4%, Regression equation: Economy=22.39-5.862 Engine size (or y=22.39-5.862x), F=49.961, df=1 and 22.",
-      "method": "获取模型参数估计值"
+      "query": "(i) To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following: R^2, Regression equation, F, df, and P.",
+      "answer": "R^2=69.4%, Regression equation: Economy=22.39-5.862 Engine size (or y=22.39-5.862x), F=49.961, df=1 and 22."
     },
     {
-      "query": "Plot these data with the regression line.",
-      "answer": "Negative relationship between engine size and fuel economy.",
-      "method": "连续型-连续型变量关系"
+      "query": "(ii) Plot these data with the regression line.",
+      "answer": "Negative relationship between engine size and fuel economy."
     },
     {
-      "query": "Plot the residuals against either the independent variable or the fitted values of y.",
-      "answer": "Residuals plotted against the independent variable or fitted values of y.",
-      "method": "残差分析"
+      "query": "(iii) Plot the residuals against either the independent variable or the fitted values of y.",
+      "answer": "Residuals plotted against the independent variable or fitted values of y."
     },
     {
-      "query": "Does the distribution of the residuals meet with the assumptions of regression?",
-      "answer": "The residuals appear randomly distributed (although there are too few observations for the engine size of 1.8 litres to be completely sure of the distribution at that point). The distribution of the residuals therefore satisfies the assumptions of regression.",
-      "method": "假设检验"
+      "query": "(iv) Does the distribution of the residuals meet with the assumptions of regression?",
+      "answer": "The residuals appear randomly distributed (although there are too few observations for the engine size of 1.8 litres to be completely sure of the distribution at that point). The distribution of the residuals therefore satisfies the assumptions of regression."
     },
     {
-      "query": "What do you conclude about the relationship between engine size and fuel economy?",
-      "answer": "There is a significant negative relationship between engine size and fuel economy: as engine size increases, fuel economy decreases.",
-      "method": "回归系数显著性与方向解读"
+      "query": "(v) What do you conclude about the relationship between engine size and fuel economy?",
+      "answer": "There is a significant negative relationship between engine size and fuel economy: as engine size increases, fuel economy decreases."
     }
   ],
   "id": "016",
@@ -38,5 +33,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "107-108"
+  },
+  "token_usage": {
+    "completion_tokens": 359,
+    "prompt_tokens": 1088,
+    "total_tokens": 1447,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

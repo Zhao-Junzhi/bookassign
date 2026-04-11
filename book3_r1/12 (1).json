@@ -1,0 +1,51 @@
+{
+  "background": "The problem involves estimating the standard deviation using the mean range, understanding the skewness and kurtosis coefficients of a random variable, and the concept of the median in a dataset. Skewness measures the symmetry of a distribution, while kurtosis measures the heaviness of the tails of the distribution. The median is the central value in an ordered dataset.",
+  "task": [
+    {
+      "query": "Given the mean range \\( \\bar{w}=25.7 \\) and \\( n=4 \\), estimate the standard deviation \\( \\sigma \\) using the mean range.",
+      "answer": "From the Table A.5, \\( \\mathrm{d}_n=2.059 \\), the estimate of \\( \\sigma \\) is \\( S=\\frac{25.7}{2.059}=12.4818 \\)."
+    },
+    {
+      "query": "Define the skewness coefficient \\( S_c \\) of a random variable \\( X \\) and explain its significance.",
+      "answer": "The skewness coefficient of a random variable \\( X \\) is a measure of the symmetry of the distribution of \\( X \\) about its mean value \\( \\mu \\), and is defined as \\( S_c=\\frac{E(X-\\mu)^3}{\\sigma^3} \\). Skewness is zero for a symmetric distribution, negative for a left-tailed distribution, and positive for a right-tailed distribution. It measures the extent to which the distribution departs from symmetry."
+    },
+    {
+      "query": "Define the kurtosis coefficient \\( K_c \\) of a random variable \\( X \\) and explain its significance.",
+      "answer": "The kurtosis coefficient of a random variable \\( X \\) is a measure of how much of the mass of the distribution is contained in the tails, and is defined as \\( K_c=\\frac{E(X-\\mu)^4}{\\sigma^4} \\). Kurtosis is always positive, and larger values represent heavier tails of the distribution. It serves to differentiate between a flat distribution curve and a sharply peaked curve."
+    },
+    {
+      "query": "Explain the concept of the median in a dataset and how it is calculated when \\( n \\) (the total number of observations) is even.",
+      "answer": "The median is the central point of a series when the data are arranged in order of magnitude, i.e., there are equal numbers of observations greater than and less than the median. When \\( n \\) is even, it is usual to take the mean of the two central values as the median."
+    }
+  ],
+  "id": "12",
+  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table A.5 Range values $\\mathrm{d}_{\\mathrm{n}}$ for average value of $w$}\n\\begin{tabular}{|l|l|}\n\\hline n (number in sample) & $\\mathrm{d}_{\\mathrm{n}}$ \\\\\n\\hline 2 & 1.128 \\\\\n\\hline 3 & 1.693 \\\\\n\\hline 4 & 2.059 \\\\\n\\hline 5 & 2.326 \\\\\n\\hline 6 & 2.534 \\\\\n\\hline 7 & 2.704 \\\\\n\\hline 8 & 2.847 \\\\\n\\hline 9 & 2.970 \\\\\n\\hline 10 & 3.078 \\\\\n\\hline 11 & 3.173 \\\\\n\\hline 12 & 3.258 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "meta_info": {
+    "index": "1.20",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.3 Basic Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "20-20"
+  },
+  "token_usage": {
+    "completion_tokens": 569,
+    "prompt_tokens": 693,
+    "total_tokens": 1262,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

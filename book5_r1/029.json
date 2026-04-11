@@ -1,15 +1,13 @@
 {
-  "background": "The effect of gestrinone on patients with asymptomatic endometriosis was evaluated in a randomized double-blind placebo controlled trial. Before treatment, each patient was given a score on a scale derived by the American Fertility Society, and this was repeated after 24 weeks' treatment. High scores indicate more serious disease.",
+  "background": "The effect of gestrinone on patients with asymptomatic endometriosis was evaluated in a randomized double-blind placebo-controlled trial. Before treatment, each patient was given a score on a scale derived by the American Fertility Society, and this was repeated after 24 weeks' treatment. High scores indicate more serious disease.",
   "task": [
     {
       "query": "Identify and carry out a suitable comparison of the scores after treatment.",
-      "answer": "The post-treatment scores should be compared by the Mann-Whitney test because the data are not suitable for the $t$ test. This analysis gives $z=3.22(\\mathrm{P}=0.001)$, strong evidence that gestrinone is more effective than placebo in improving the scores of these patients.",
-      "method": "假设检验与区间估计"
+      "answer": "The post-treatment scores should be compared by the Mann-Whitney test because the data are not suitable for the $t$ test. This analysis gives $z=3.22(mathrm{P}=0.001)$, strong evidence that gestrinone is more effective than placebo in improving the scores of these patients."
     },
     {
       "query": "The pre-treatment scores were somewhat different in the two groups, with five of the six highest scores being in the placebo group. A simple way to allow for this difference is to consider the change in scores over the period of the trial. Identify and carry out a suitable comparison of the changes in scores in the two groups.",
-      "answer": "The same method can be applied to the changes in scores. This analysis gives $z=2.71(\\mathrm{P}=0.007)$, a result which is only slightly weaker. Alternatively the sign test could be used to compare the groups with respect to positive or negative changes.",
-      "method": "假设检验与区间估计"
+      "answer": "The same method can be applied to the changes in scores. This analysis gives $z=2.71(mathrm{P}=0.007)$, a result which is only slightly weaker. Alternatively, the sign test could be used to compare the groups with respect to positive or negative changes."
     }
   ],
   "id": "029",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "227-228"
+  },
+  "token_usage": {
+    "completion_tokens": 314,
+    "prompt_tokens": 585,
+    "total_tokens": 899,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

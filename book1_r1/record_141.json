@@ -2,24 +2,40 @@
   "background": "Table 18.7 is based on results from the Youth Risk Behavior Surveillance (YRBS) system. The number of adolescents who had been in a car or other vehicle when the driver had been drinking alcohol is cross tabulated according to racial/ethnic group classifications.",
   "task": [
     {
-      "query": "Calculate prevalences proportions for each of the groups.",
-      "answer": "π̂_1=243 / 2154=0.113; π̂_2=25 / 508=0.049; π̂_3=55 / 526=0.105",
-      "method": "集中趋势测度"
+      "query": "Calculate prevalence proportions for each of the groups.",
+      "answer": "P1 = 243 / 2154 = 0.113, P2 = 25 / 508 = 0.049, P3 = 55 / 526 = 0.105"
     },
     {
-      "query": "Determine the margin of error for each proportion according to this formula: m ≈ 2 ⋅ SE_{p_i}, where SE_{̂{p}_i}=√{̂{p}_i ̂{q}_i/n_i}",
-      "answer": "SE=0.00682; m=0.013; SE=0.00958; m=0.019; SE=0.01337; m=0.026",
-      "method": "分散程度测度"
+      "query": "Determine the margin of error for each proportion using the formula: m ≈ 2 * SE_p_i, where SE_p_i = sqrt((p_i * q_i) / n_i).",
+      "answer": "SE1 = 0.00682, m1 = 0.013; SE2 = 0.00958, m2 = 0.019; SE3 = 0.01337, m3 = 0.026"
     }
   ],
   "id": "141",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.7 Data for Exercise 18.1 and Exercise 18.8. Drove or rode in a car other vehicle when driver was drinking alcohol within past 30 days by racial/ethnic group.}\n\\begin{tabular}{l|r|r|}\n\\hline Group & \\multicolumn{1}{c}{+} & \\multicolumn{1}{c}{ - }& \\multicolumn{1}{c}{ Total } \\\n1 (Non-Hisp.White) & 243 & 1911 & 2154 \\\n\\hline 2 (Non-Hisp. Black) & 25 & 483 & 508 \\\n\\hline 3 (Hispanic) & 55 & 471 & 526 \\\n\\hline Total & 323 & 2864 & 3187 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "18.1",
     "image": "",
     "caption": "YRBS, prevalence proportions.",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
     "page": "418-419"
+  },
+  "token_usage": {
+    "completion_tokens": 262,
+    "prompt_tokens": 530,
+    "total_tokens": 792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

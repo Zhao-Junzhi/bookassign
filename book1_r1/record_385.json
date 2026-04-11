@@ -1,20 +1,45 @@
 {
-  "background": "The oat bran illustrative example calculated a 95% confidence interval for μ that had a margin of error of 0.2753 mmol/L.",
+  "background": "The oat bran illustrative example calculated a 95% confidence interval for μ that had a margin of error of 0.2753 mmol/L. The task is to determine how large a study is needed to achieve a margin of error 0.2 with 95% confidence, using the sample standard deviation from the study as an estimate of σ.",
   "task": [
     {
-      "query": "How large a study is needed to achieve a margin of error 0.2 with 95% confidence? We will use the sample standard deviation from the study as our estimate of σ.",
-      "answer": "n=(z_{1-\\frac{\\alpha}{2}} \\frac{\\sigma}{m})^2=(1.96 \\frac{0.4335}{0.2})^2=18.50. Round this up to the next integer, so n=19. Because this number is less than 30, apply adjustment factor f=(df+3) /(df+1)=(18+3) /(18+1)=1.105 to the final result. Therefore, use n=1.105 \\times 19=21.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "How large a study is needed to achieve a margin of error 0.2 with 95% confidence?",
+      "answer": "n=(z_{1-α/2} * σ/m)^2=(1.96 * 0.4335/0.2)^2=18.50. Round this up to the next integer, so n=19."
+    },
+    {
+      "query": "What adjustment factor should be applied if the sample size is less than 30?",
+      "answer": "Apply adjustment factor f=(df+3)/(df+1)=(18+3)/(18+1)=1.105."
+    },
+    {
+      "query": "What is the final adjusted sample size?",
+      "answer": "Use n=1.105 * 19=21."
     }
   ],
   "id": "385",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Sample size, confidence interval.",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "226-226"
+  },
+  "token_usage": {
+    "completion_tokens": 274,
+    "prompt_tokens": 509,
+    "total_tokens": 783,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

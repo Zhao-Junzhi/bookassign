@@ -2,9 +2,8 @@
   "background": "Suppose an experiment of a new product can result in exactly m possible outcomes and their corresponding probabilities are s1, …, sm and p1, …, pm, respectively. Suppose the experiment is, independently, repeated n times and let Xi be the number of outcomes of type si for i = 1, 2, …, m.",
   "task": [
     {
-      "query": "What is the probability distribution of the outcomes when the experiment is repeated n times?",
-      "answer": "then it has the multinomial distribution as follows\n$$\n\\begin{aligned}\n&P\\left[X_1=s_1, X_2=s_2, \\ldots, X_k=s_m\\right]=\\left\\{\\begin{array}{l}\n\\frac{n!}{s_{1}!s_{2}!\\ldots s_{m}!} p_1^{s_1} p_2^{s_2} \\ldots p_m^{s_k} \\\\\n0 \\quad \\ \\text { otherwise }\n\\end{array}\\right.\\\\\n&\\ \\text { where } s_i=0,1, \\ldots, n \\ \\text { and } \\sum_{i=1}^m s_i=n .\n\\end{aligned}\n$$",
-      "method": "从指定分布中抽样"
+      "query": "What is the probability distribution of the outcomes when the experiment is repeated n times independently?",
+      "answer": "It has the multinomial distribution as follows: $$\\begin{aligned} &P\\left[X_1=s_1, X_2=s_2, \\ldots, X_k=s_m\\right]=\\left\\{\\begin{array}{l} \\frac{n!}{s_{1}!s_{2}!\\ldots s_{m}!} p_1^{s_1} p_2^{s_2} \\ldots p_m^{s_k} \\\\ 0 \\quad \\ \\text { otherwise } \\end{array}\\right.\\\\ &\\ \\text { where } s_i=0,1, \\ldots, n \\ \\text { and } \\sum_{i=1}^m s_i=n . \\end{aligned}$$"
     }
   ],
   "id": "25",
@@ -18,5 +17,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "76-76"
+  },
+  "token_usage": {
+    "completion_tokens": 285,
+    "prompt_tokens": 536,
+    "total_tokens": 821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

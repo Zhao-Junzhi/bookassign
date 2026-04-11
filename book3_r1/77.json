@@ -1,20 +1,17 @@
 {
-  "background": "A diesel is known to have an operating life (in hours) that fits the following pdf: $$f(t)=\\frac{2 a}{(t+b)^2} \\quad t \\geq 0$$",
+  "background": "A diesel engine is known to have an operating life (in hours) that follows a probability density function (pdf): $$f(t)=\\frac{2 a}{(t+b)^2} \\quad t \\geq 0$$.",
   "task": [
     {
-      "query": "Determine a and b.",
-      "answer": "$\\mathrm{a}=\\frac{\\mathrm{b}}{2}$.",
-      "method": "获取模型参数估计值"
+      "query": "Determine the values of a and b.",
+      "answer": "$\\mathrm{a}=\\frac{\\mathrm{b}}{2}$."
     },
     {
-      "query": "Determine the probability that the diesel will not fail during the first 6000 operating-hours where a = 500.",
-      "answer": "$R(t=6000)=0.1429$.",
-      "method": "事件发生概率及独立性"
+      "query": "Determine the probability that the diesel will not fail during the first 6000 operating hours where a = 500.",
+      "answer": "$R(t=6000)=0.1429$."
     },
     {
       "query": "If the manufacturer wants no more than 10% of the diesels returned for warranty service, how long should the warranty be?",
-      "answer": "The warranty period should be no more than 111.1 h.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "The warranty period should be no more than 111.1 h."
     }
   ],
   "id": "77",
@@ -28,5 +25,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "59-59"
+  },
+  "token_usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 460,
+    "total_tokens": 667,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

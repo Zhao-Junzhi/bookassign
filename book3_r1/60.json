@@ -1,25 +1,21 @@
 {
-  "background": "Consider a communication system with three independent units such as transmitting unit, receiving unit and a processing unit. Assume that the transmitter has a constant failure rate of λ_T=0.002 per hour, the receiver has a constant failure rate of λ_R=0.005 per hour, and the processor has a constant failure rate of λ_P=0.008 per hour.",
+  "background": "Consider a communication system with three independent units such as transmitting unit, receiving unit, and a processing unit. Assume that the transmitter has a constant failure rate of λ_T=0.002 per hour, the receiver has a constant failure rate of λ_R=0.005 per hour, and the processor has a constant failure rate of λ_P=0.008 per hour. Obtain the system reliability for a mission of 25 h.",
   "task": [
     {
-      "query": "Obtain the reliability of the transmitting unit for a mission of 25 h.",
-      "answer": "The reliability of transmitting unit is given by R_T(25)=e^{-0.002(25)}=0.9512.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the reliability of the transmitting unit for a mission of 25 hours.",
+      "answer": "The reliability of transmitting unit is given by $$ R_T(25)=e^{-0.002(25)}=0.9512 $$"
     },
     {
-      "query": "Obtain the reliability of the receiving unit for a mission of 25 h.",
-      "answer": "The reliability of receiving unit is given by R_R(25)=e^{-0.005(25)}=0.8825.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the reliability of the receiving unit for a mission of 25 hours.",
+      "answer": "The reliability of receiving unit is $$ R_R(25)=e^{-0.005(25)}=0.8825 $$"
     },
     {
-      "query": "Obtain the reliability of the processing unit for a mission of 25 h.",
-      "answer": "The reliability of processing unit is given by R_P(25)=e^{-0.008(25)}=0.8187.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the reliability of the processing unit for a mission of 25 hours.",
+      "answer": "The reliability of processing unit is $$ R_P(25)=e^{-0.008(25)}=0.8187 $$"
     },
     {
-      "query": "Obtain the overall system reliability for a mission of 25 h.",
-      "answer": "The reliability of this communication system is given by R(25)=(0.9512)*(0.8825)*(0.8187)=0.6872.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the overall reliability of the communication system for a mission of 25 hours.",
+      "answer": "The reliability of this communication system is given by $$ R(25)=(0.9512) *(0.8825) *(0.8187)=0.6872 $$"
     }
   ],
   "id": "60",
@@ -33,5 +29,23 @@
     "section": "4.2 Series Systems",
     "book": "Statistical Reliability Engineering",
     "page": "225-225"
+  },
+  "token_usage": {
+    "completion_tokens": 341,
+    "prompt_tokens": 521,
+    "total_tokens": 862,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

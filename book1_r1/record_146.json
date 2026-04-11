@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "Apply a test of trend to these data. Show all hypothesis-testing steps.",
-      "answer": "A. Hypotheses. $H_{t_j}$; no trend between anger-trait and hard coronary events in the source population",
-      "method": "假设检验"
+      "answer": "A. Hypotheses. $H_{t_j}$; no trend between anger-trait and hard coronary events in the source population"
     }
   ],
   "id": "146",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.9 Data for Exercise 18.4 and Exercise 18.10. Coronary heart disease (CHD) incidents according to anger-trait category.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Anger-level & CHD+ & CHD- & Total \\\n\\hline Low & 31 & 3079 & 3110 \\\n\\hline Moderate & 63 & 4668 & 4731 \\\n\\hline High & 18 & 615 & 633 \\\n\\hline Total & 112 & 8362 & 8474 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "18.11",
     "image": "",
     "caption": "Anger and heart disease.",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.4 Test for Trend",
     "page": "435-435"
+  },
+  "token_usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 391,
+    "total_tokens": 537,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

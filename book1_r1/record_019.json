@@ -1,20 +1,41 @@
 {
-  "background": "A study examined the induction time between bacterial meningitis and the onset of seizures in 13 cases (months).",
+  "background": "A study examined the induction time between bacterial meningitis and the onset of seizures in 13 cases (months). Data are shown here.",
   "task": [
     {
-      "query": "Construct a stemplot of these data and describe what you see.",
-      "answer": "0 | 0004\n1 | 22\n2 | 44\n3 | 16\n4 | 2\n5 | 5\n6 |\n7 |\n8 |\n9 | 6\n× 10 (months)\nData have a pronounced positive skew and a high outlier (shape). The median is 24 (location). Induction times are highly variable, ranging from 0.1 to 96 months (spread).",
-      "method": "stem-and-leaf plot"
+      "query": "Construct a stemplot of these data using a stem multiplier of ×10 so that the value 0.10 is truncated to 00 and is plotted as.",
+      "answer": "0 | 0004 \n1 | 22 \n2 | 44 \n3 | 16 \n4 | 2 \n5 | 5 \n6 | \n7 | \n8 | \n9 | 6 \n×10 (months)"
+    },
+    {
+      "query": "Describe what you see in the stemplot.",
+      "answer": "Data have a pronounced positive skew and a high outlier (shape). The median is 24 (location). Induction times are highly variable, ranging from 0.1 to 96 months (spread)."
     }
   ],
   "id": "019",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "3.9",
     "image": "",
     "caption": "Seizures following bacterial meningitis.",
     "chapter": "Frequency Distributions",
     "section": "3.3 Additional Frequency Charts",
     "page": "60-60"
+  },
+  "token_usage": {
+    "completion_tokens": 230,
+    "prompt_tokens": 509,
+    "total_tokens": 739,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

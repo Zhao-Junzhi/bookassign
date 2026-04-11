@@ -1,30 +1,25 @@
 {
-  "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF).",
+  "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
   "task": [
     {
-      "query": "Arrange the data in a 3 × 2 contingency table (including row, column and grand totals).",
-      "answer": "Pre-thicket | Thicket | High forest | Row totals\nPresent: 7 | 10 | 5 | 22\nAbsent: 5 | 1 | 8 | 14\nColumn totals: 12 | 11 | 13 | Grand total: 36",
-      "method": "contingency table"
+      "query": "(i) Arrange the data in a 3 × 2 contingency table (including row, column and grand totals).",
+      "answer": "Pre-thicket: Present=7, Absent=5; Thicket: Present=10, Absent=1; High forest: Present=5, Absent=8; Row totals: Present=22, Absent=14; Column totals: Pre-thicket=12, Thicket=11, High forest=13; Grand total=36."
     },
     {
-      "query": "Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values.",
-      "answer": "Pre-thicket | Thicket | High forest | Row totals\nPresent: 7.333 | 6.722 | 7.944 | 22\nAbsent: 4.667 | 4.278 | 5.056 | 14\nColumn totals: 12 | 11 | 13 | Grand total: 36",
-      "method": "contingency table"
+      "query": "(ii) Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values.",
+      "answer": "Expected frequencies: Pre-thicket: Present=7.333, Absent=4.667; Thicket: Present=6.722, Absent=4.278; High forest: Present=7.944, Absent=5.056; Row totals: Present=22, Absent=14; Column totals: Pre-thicket=12, Thicket=11, High forest=13; Grand total=36."
     },
     {
-      "query": "Calculate the individual X^2 components and place them in a table.",
-      "answer": "Pre-thicket | Thicket | High forest\nPresent: 0.0151 | 1.5983 | 1.0913\nAbsent: 0.0238 | 2.5115 | 1.7149",
-      "method": "独立性检验"
+      "query": "(iii) Calculate the individual X^2 components and place them in a table.",
+      "answer": "X^2 components: Pre-thicket: Present=0.0151, Absent=0.0238; Thicket: Present=1.5983, Absent=2.5115; High forest: Present=1.0913, Absent=1.7149."
     },
     {
-      "query": "Calculate the total X^2, df and P values.",
-      "answer": "X^2=6.9549, df=2, P<0.05(=0.0309)",
-      "method": "独立性检验"
+      "query": "(iv) Calculate the total X^2, df and P values.",
+      "answer": "Total X^2=6.9549, df=2, P<0.05 (P=0.0309)."
     },
     {
-      "query": "What do you conclude regarding the distribution of long-tailed tits in the different types of woodland?",
-      "answer": "There is a significant association between forest type and the presence or absence of long-tailed tits, with tits being more likely to be present in thickets (and absent from high forests).",
-      "method": "独立性检验"
+      "query": "(v) What do you conclude regarding the distribution of long-tailed tits in the different types of woodland?",
+      "answer": "There is a significant association between forest type and the presence or absence of long-tailed tits, with tits being more likely to be present in thickets (and absent from high forests)."
     }
   ],
   "id": "017",
@@ -38,5 +33,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "122-123"
+  },
+  "token_usage": {
+    "completion_tokens": 563,
+    "prompt_tokens": 1341,
+    "total_tokens": 1904,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

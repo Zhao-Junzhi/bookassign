@@ -1,15 +1,17 @@
 {
-  "background": "Using the data in Table 12.11, find a suitable multiple regression model to predict functional residual capacity (FRC) from age, sex, height, weight and $\\mathrm{FEV}_1$.",
+  "background": "Using the data in Table 12.11, the task is to find a suitable multiple regression model to predict functional residual capacity (FRC) from age, sex, height, weight, and $\\mathrm{FEV}_1$. Additionally, the residuals from this model need to be checked for a nearly Normal distribution.",
   "task": [
     {
-      "query": "Find a suitable multiple regression model to predict functional residual capacity (FRC) from age, sex, height, weight and $\\mathrm{FEV}_1$.",
-      "answer": "Backwards stepwise multiple regression yields the following model\n\n$$\n\\mathrm{FRC}=286.94-4.1965 \\times \\text{age}-2.0386 \\times \\mathrm{FEV}_1.\n$$",
-      "method": "获取模型参数估计值"
+      "query": "Find a suitable multiple regression model to predict functional residual capacity (FRC) from age, sex, height, weight, and $\\mathrm{FEV}_1$.",
+      "answer": "Backwards stepwise multiple regression yields the following model: $$\\mathrm{FRC}=286.94-4.1965 \\times \\text{age}-2.0386 \\times \\mathrm{FEV}_1.$$"
     },
     {
-      "query": "Check that the residuals from this model have a nearly Normal distribution.",
-      "answer": "The residual SD is 26.7, compared with the SD of the raw FRC values which was 43.7, indicating that the model explains a good proportion of the variability in FRC. The value of $R^2$ is $66\\%$. A test of Normality of the residuals gives $W^{\\prime}=0.966, \\mathrm{P}>0.2$, indicating that the residuals have a closely Normal distribution.",
-      "method": "残差分析"
+      "query": "Evaluate the residual standard deviation (SD) and compare it to the SD of the raw FRC values to assess the model's explanatory power.",
+      "answer": "The residual SD is 26.7, compared with the SD of the raw FRC values which was 43.7, indicating that the model explains a good proportion of the variability in FRC. The value of $R^2$ is $66\\%$."
+    },
+    {
+      "query": "Check if the residuals from the model have a nearly Normal distribution.",
+      "answer": "A test of Normality of the residuals gives $W^{\\prime}=0.966, \\mathrm{P}>0.2$, indicating that the residuals have a closely Normal distribution."
     }
   ],
   "id": "045",
@@ -23,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "361-361"
+  },
+  "token_usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 504,
+    "total_tokens": 849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

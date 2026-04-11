@@ -3,23 +3,19 @@
   "task": [
     {
       "query": "Perform linear regression analysis of RMR on body weight.",
-      "answer": "The linear regression equation is RMR = 811.23 + 7.0595 * weight and the residual SD is 157.91 kcal/24 hr.",
-      "method": "获取模型参数估计值"
+      "answer": "The linear regression equation is RMR = 811.23 + 7.0595 × weight and the residual SD is 157.91 kcal/24 hr."
     },
     {
       "query": "Examine the distribution of residuals. Is the analysis valid?",
-      "answer": "A scatter diagram shows no obvious relation between the residuals and weight. The test of Normality of the residuals gives W' = 0.955, P > 0.05. The distribution is reasonably Normal - the largest residual relates to the woman with the highest RMR. Overall, there is no reason to reject the validity of the analysis.",
-      "method": "残差分析"
+      "answer": "A scatter diagram shows no obvious relation between the residuals and weight. The test of Normality of the residuals gives W' = 0.955, P > 0.05. The distribution is reasonably Normal - the largest residual relates to the woman with the highest RMR. Overall, there is no reason to reject the validity of the analysis."
     },
     {
       "query": "Obtain a 95% confidence interval for the slope of the line.",
-      "answer": "The SE of the slope of the regression line is 0.9776 kcal/24 hr, so the 95% CI is 7.0595 - 2.018 * 0.9776 to 7.0595 + 2.018 * 0.9776 or 5.09 to 9.03 kcal/24 hr.",
-      "method": "假设检验与区间估计"
+      "answer": "The SE of the slope of the regression line is 0.9776 kcal/24 hr, so the 95% CI is 7.0595 - 2.018 × 0.9776 to 7.0595 + 2.018 × 0.9776 or 5.09 to 9.03 kcal/24 hr."
     },
     {
       "query": "Is it possible to use an individual's weight to predict their RMR to within 250 kcal/24 hr?",
-      "answer": "The SD of the residuals is 157.91 kcal/24 hr, so the narrowest prediction interval (at the mean value of body weight) is about twice this amount either side of the predicted value. Thus it is not possible to predict RMR from body weight to within 250 kcal/24 hr.",
-      "method": "连续值预测"
+      "answer": "The SD of the residuals is 157.91 kcal/24 hr, so the narrowest prediction interval (at the mean value of body weight) is about twice this amount either side of the predicted value. Thus it is not possible to predict RMR from body weight to within 250 kcal/24 hr."
     }
   ],
   "id": "040",
@@ -33,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "322-323"
+  },
+  "token_usage": {
+    "completion_tokens": 416,
+    "prompt_tokens": 758,
+    "total_tokens": 1174,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

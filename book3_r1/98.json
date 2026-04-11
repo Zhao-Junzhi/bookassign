@@ -1,10 +1,9 @@
 {
-  "background": "Claim amounts for wind damage to insured homes are independent random variables with a common density function.",
+  "background": "Claim amounts for wind damage to insured homes are independent random variables with a common density function f(x) = 0.5 x^2 e^{-x} for x > 0, where x is the amount of a claim in thousands.",
   "task": [
     {
       "query": "What is the expected amount of the claims?",
-      "answer": "3",
-      "method": "期望"
+      "answer": "3"
     }
   ],
   "id": "98",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "65-65"
+  },
+  "token_usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 368,
+    "total_tokens": 458,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

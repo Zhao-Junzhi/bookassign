@@ -1,0 +1,37 @@
+{
+  "background": "A cross-over trial compared serum cholesterol in 13 subjects while on moderate-fiber diets and while on high-fiber diets. The study concluded that the high-fiber diet reduced very-low-density lipoprotein cholesterol by 12.5% (P=0.01). A dietician criticizes the study by saying that very-low-density lipoproteins vary greatly from day to day and that the results could merely reflect random variation.",
+  "task": [
+    {
+      "query": "Explain how the P-value of 0.01 addresses the dietician's objection.",
+      "answer": "The P-value lets you know that the observed difference (or one more extreme) could occur 1 in 100 observations if there was no reduction in the population. Because this is unlikely, the results are considered to be statistically significant."
+    }
+  ],
+  "id": "076",
+  "data": "",
+  "meta_info": {
+    "index": "9.9",
+    "image": "",
+    "caption": "LDL and fiber.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
+  },
+  "token_usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 452,
+    "total_tokens": 649,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

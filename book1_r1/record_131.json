@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Calculate the 1-month incidence proportion of improvement.",
-      "answer": "Incidence \\( \\hat{p}=\\frac{20}{75}=0.2667 \\) (about \\( 27 \\% \\) )",
-      "method": "集中趋势测度"
+      "answer": "Incidence \\( \\hat{p}=\\frac{20}{75}=0.2667 \\) (about \\( 27 \\% \\))"
     },
     {
       "query": "Include a 95% confidence interval for the proportion.",
-      "answer": "Confidence interval for \\( p \\) by the plus-four method: \\( \\bar{n}=79 \\), \\( \\bar{x}=22 \\), \\( \\bar{p}=0.2785 \\), \\( SE_{\\bar{p}}=\\sqrt{\\frac{0.2785)(0.7215)}{79}}=0.0504 \\). \\( 95 \\% \\) confidence interval for \\( p=0.2785 \\pm(1.96)(0.0504)=0.2785 \\pm 0.0988= \\) 0.1797 to 0.3773 or about \\( 18 \\% \\) to \\( 38 \\% \\).",
-      "method": "假设检验与区间估计"
+      "answer": "Confidence interval for \\( p \\) by the plus-four method:\n\n\\[\n\\begin{aligned}\n& \\bar{n}=79 \\\\\n& \\bar{x}=22 \\\\\n& \\bar{p}=0.2785 \\\\\n& S E_{\\bar{p}}=\\sqrt{\\frac{(0.2785)(0.7215)}{79}}=0.0504\n\\end{aligned}\n\\]\n\n\\( 95 \\% \\) confidence interval for \\( p=0.2785 \\pm(1.96)(0.0504)=0.2785 \\pm 0.0988= \\) 0.1797 to 0.3773 or about \\( 18 \\% \\) to \\( 38 \\% \\)."
     }
   ],
   "id": "131",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "16.25",
     "image": "",
     "caption": "Incidence of improvement.",
     "chapter": "INFERENCE ABOUT A PROPORTION",
     "section": "16.6 SAMPLE SIZE AND POWER",
     "page": "372-372"
+  },
+  "token_usage": {
+    "completion_tokens": 450,
+    "prompt_tokens": 511,
+    "total_tokens": 961,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,25 +1,45 @@
 {
-  "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor, with tobacco use dichotomized at 20 grams/day.",
+  "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor. Table 18.30 shows data from the study with tobacco use dichotomized at 20 grams/day.",
   "task": [
     {
-      "query": "Calculate the odds ratio and 95% confidence interval for these data.",
-      "answer": "Odds ratio = 1.96, 95% confidence for the OR = (1.39 to 2.77)",
-      "method": "独立性检验"
+      "query": "Calculate the odds ratio for the data provided.",
+      "answer": "Odds ratio = 1.96"
     },
     {
-      "query": "Interpret the results.",
-      "answer": "The point estimate suggests that there is 96% increase in risk associated with this level of tobacco use.",
-      "method": "回归系数显著性与方向解读"
+      "query": "Calculate the 95% confidence interval for the odds ratio.",
+      "answer": "95% confidence for the OR = (1.39 to 2.77)"
+    },
+    {
+      "query": "Interpret the results of the odds ratio and confidence interval.",
+      "answer": "The point estimate suggests that there is 96% increase in risk associated with this level of tobacco use."
     }
   ],
   "id": "154",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.30 Data for Exercise 18.27.}\n\\begin{tabular}{l|r|c}\n\\cline { 2 - 3 } Tobacco & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n$20+\\mathrm{g} /$ day & 64 & 150 \\\\\n$0-19 \\mathrm{~g} /$ day & 136 & 625 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Tuyns, A. J., Pequignot, G., \\& Jensen, O. M. (1977). [Esophageal cancer in Ille-et-Vilaine in relation to levels of alcohol and tobacco consumption. ]. Bulletin du Cancer, 64(1), 45-60. Data set are stored online in the file BD1.* as variables TOB2 and CASE.",
-  "meta info": {
+  "meta_info": {
     "index": "18.27",
     "image": "",
     "caption": "Esophageal cancer and tobacco use.",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.6 MATCHED PAIRS",
     "page": "459-460"
+  },
+  "token_usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 425,
+    "total_tokens": 619,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "001",
+  "question": "According to Variety (Aug. 10, 2010), the average age of viewers of television programs broadcast on CBS, NBC, and ABC is 51 years. Suppose a rival network (e.g., FOX ) executive hypothesizes that the average age of FOX viewers is less than 51. To test her hypothesis, she samples 200 FOX viewers and determines the age of each.\na. Describe the population.\nb. Describe the variable of interest.\nc. Describe the sample.\nd. Describe the inference.",
+  "data": null,
+  "answer": "a. The population is the set of units of interest to the TV executive, which is the set of all FOX viewers.\nb. The age (in years) of each viewer is the variable of interest.\nc. The sample must be a subset of the population. In this case, it is the 200 FOX viewers selected by the executive.\nd. The inference of interest involves the generalization of the information contained in the sample of 200 viewers to the population of all FOX viewers. \nIn particular, the executive wants to estimate the average age of the viewers in order to determine whether it is less than 51 years. She might accomplish this by calculating the average age in the sample and using the sample average to estimate the population average.",
+  "meta_info": {
+    "index": "1.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Key Elements of a Statistical Problem-Ages of TV Viewers",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.3 Fundamental Elements of Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "7-7"
+  }
+}

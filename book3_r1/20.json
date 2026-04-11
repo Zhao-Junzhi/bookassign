@@ -1,10 +1,9 @@
 {
-  "background": "Suppose in the production of lightbulbs, 90% are good. In a random sample of 20 lightbulbs.",
+  "background": "Suppose in the production of lightbulbs, 90% are good. In a random sample of 20 lightbulbs, we are interested in the probability of obtaining a specific number of good lightbulbs.",
   "task": [
     {
-      "query": "What is the probability of obtaining at least 18 good lightbulbs?",
-      "answer": "$$\n\\begin{aligned}\n&\\text { The probability of obtaining at least } 18 \\text { good lightbulbs is given by }\\\\\n&R(18)=\\sum_{x=18}^{20}\\binom{20}{x}(0.9)^x(0.1)^{20-x}=0.667\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability of obtaining at least 18 good lightbulbs in a random sample of 20 lightbulbs?",
+      "answer": "$$\n\\begin{aligned}\n&\\ \\text { The probability of obtaining at least } 18 \\ \\text { good lightbulbs is given by }\\\\\n&R(18)=\\sum_{x=18}^{20}\\binom{20}{x}(0.9)^x(0.1)^{20-x}=0.667\n\\end{aligned}\n$$"
     }
   ],
   "id": "20",
@@ -18,5 +17,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "70-70"
+  },
+  "token_usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 419,
+    "total_tokens": 601,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,15 +1,13 @@
 {
-  "background": "An urn contains one white, one black, one red, and one green sphere all of equal size. Three spheres are drawn at random.",
+  "background": "An urn contains one white, one black, one red, and one green sphere all of equal size. Three spheres are drawn at random. We want to determine the number of ways this can be done based on whether the order of selection is relevant or irrelevant.",
   "task": [
     {
-      "query": "In how many ways can this be done if the order in which the choice are made is relevant?",
-      "answer": "The number of permutations of three objects from a set of four objects (order is relevant) is $$P(4,3)=\\frac{4!}{(4-3)!}=24$$",
-      "method": "概率空间相关（如状态数）"
+      "query": "In how many ways can three spheres be drawn if the order in which the choices are made is relevant?",
+      "answer": "The number of permutations of three objects from a set of four objects (order is relevant) is $$P(4,3)=\\frac{4!}{(4-3)!}=24$$"
     },
     {
-      "query": "In how many ways can this be done if the order in which the choice are made is irrelevant?",
-      "answer": "The number of combinations of three objects from a set of four objects (order is irrelevant) is $$C(4,3)=\\frac{4!}{3!(4-3)!}=4$$",
-      "method": "概率空间相关（如状态数）"
+      "query": "In how many ways can three spheres be drawn if the order in which the choices are made is irrelevant?",
+      "answer": "The number of combinations of three objects from a set of four objects (order is irrelevant) is $$C(4,3)=\\frac{4!}{3!(4-3)!}=4$$"
     }
   ],
   "id": "05",
@@ -23,5 +21,23 @@
     "section": "1.2 Probability Axioms",
     "book": "Statistical Reliability Engineering",
     "page": "11-11"
+  },
+  "token_usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 488,
+    "total_tokens": 709,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,30 +1,45 @@
 {
-  "background": "What is the probability of being born on specific dates in February?",
+  "background": "What is the probability of being born on specific dates in February, considering both regular years and leap years?",
   "task": [
     {
       "query": "What is the probability of being born on February 28?",
-      "answer": "Feb 28 occurs 4 times every 4 years. Three of the years have 365 days, and every fourth year (leap year) has 366 days. Therefore, Pr(Feb 28) = 4 / (365 + 365 + 365 + 366) = 0.0027378.",
-      "method": "事件发生概率及独立性"
+      "answer": "Feb 28 occurs 4 times every 4 years. Three of the years have 365 days, and every fourth year (leap year) has 366 days. Therefore, Pr(Feb 28) = (4 / (365 + 365 + 365 + 366)) = 0.0027378."
     },
     {
       "query": "What is the probability of being born on February 29?",
-      "answer": "Feb 29 occurs once every 4 years. Therefore, Pr(Feb 29) = 1 / (365 + 365 + 365 + 366) = 0.0006845.",
-      "method": "事件发生概率及独立性"
+      "answer": "Feb 29 occurs once every 4 years. Therefore, Pr(Feb 29) = (1 / (365 + 365 + 365 + 366)) = 0.0006845."
     },
     {
       "query": "What is the probability of being born on February 28 or February 29?",
-      "answer": "Feb 28 or Feb 29 occur 5 times every four years. Therefore, Pr(Feb 28 or Feb 29) = 5 / (365 + 365 + 365 + 366) = 0.003422313.",
-      "method": "事件发生概率及独立性"
+      "answer": "Feb 28 or Feb 29 occur 5 times every four years. Therefore, Pr(Feb 28 or Feb 29) = (5 / (365 + 365 + 365 + 366)) = 0.003422313."
     }
   ],
   "id": "044",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "5.3",
     "image": "",
     "caption": "February birthdays.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.1 WHat Is PROBABILITY?",
     "page": "91-91"
+  },
+  "token_usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 530,
+    "total_tokens": 831,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

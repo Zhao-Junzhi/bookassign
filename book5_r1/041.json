@@ -1,20 +1,17 @@
 {
-  "background": "In the worked example of regression analysis (section 11.10.1) the $W^{\\prime}$ test for non-Normality of the residuals gave $\\mathrm{P}=0.03$.",
+  "background": "In the worked example of regression analysis (section 11.10.1), the $W^{\\prime}$ test for non-Normality of the residuals gave $\\mathrm{P}=0.03$. Using the data in Table 11.6, analyze the relationship between $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ and blood glucose, assess the Normality of residuals, and compare prediction intervals for a diabetic patient with a fasting blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$.",
   "task": [
     {
-      "query": "Using the data in Table 11.6, carry out a regression of $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ on blood glucose.",
-      "answer": "The regression of $\\log _{\\mathrm{e}} V c f$ on blood glucose gives the equation\n\n$$\n\\log _e \\mathrm{Vcf}=0.115+0.0148 \\times \\text { blood glucose } .\n$$\n\nThe residual SD is 0.2167.",
-      "method": "获取模型参数估计值"
+      "query": "Carry out a regression of $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ on blood glucose using the data in Table 11.6.",
+      "answer": "The regression of $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ on blood glucose gives the equation $$ \\log _e \\mathrm{Vcf}=0.115+0.0148 \\times \\text{blood glucose} . $$ The residual SD is 0.2167."
     },
     {
       "query": "Are the residuals from this analysis more nearly Normal?",
-      "answer": "The test of Normality of the residuals from this regression line gives $W^{\\prime}=0.936, \\mathrm{P}>0.1$. The residuals after log transformation are thus more nearly Normal than those from the analysis of the raw data.",
-      "method": "假设检验"
+      "answer": "The test of Normality of the residuals from this regression line gives $W^{\\prime}=0.936, \\mathrm{P}>0.1$. The residuals after log transformation are thus more nearly Normal than those from the analysis of the raw data."
     },
     {
       "query": "Compare the predicted Vcf and $95 \\%$ prediction intervals derived from the two models for a diabetic patient with a fasting blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$.",
-      "answer": "From the regression equation using the raw values of Vcf (Table $11.6)$ the predicted Vcf is $1.10+0.0220 \\times 16=1.45 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $1.45 \\pm 2.080 \\times 0.229$ or 0.97 to $1.93 \\% / \\mathrm{sec}$. From the above regression equation using log transformed Vcf, the predicted Vcf is $\\exp (0.115+0.0148 \\times 16)=\\mathrm{e}^{0.352}=1.42 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $\\exp (0.352 \\pm 2.080 \\times 0.164)$ or 1.01 to $2.00 \\% / \\mathrm{sec}$. The two equations thus give similar answers for someone with a blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$.",
-      "method": "获取模型参数估计值"
+      "answer": "From the regression equation using the raw values of Vcf (Table $11.6)$, the predicted Vcf is $1.10+0.0220 \\times 16=1.45 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $1.45 \\pm 2.080 \\times 0.229$ or 0.97 to $1.93 \\% / \\mathrm{sec}$. From the above regression equation using log transformed Vcf, the predicted Vcf is $\\exp (0.115+0.0148 \\times 16)=\\mathrm{e}^{0.352}=1.42 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $\\exp (0.352 \\pm 2.080 \\times 0.164)$ or 1.01 to $2.00 \\% / \\mathrm{sec}$. The two equations thus give similar answers for someone with a blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$."
     }
   ],
   "id": "041",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "323-323"
+  },
+  "token_usage": {
+    "completion_tokens": 607,
+    "prompt_tokens": 786,
+    "total_tokens": 1393,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

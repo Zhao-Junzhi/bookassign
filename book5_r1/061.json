@@ -1,25 +1,21 @@
 {
-  "background": "A randomized placebo-controlled trial was carried out to investigate the capacity of aspirin to prevent pregnancy-induced hypertension and preeclamptic toxaemia. The study was carried out on women at high risk of these conditions.",
+  "background": "A randomized placebo-controlled trial was carried out to investigate the capacity of aspirin to prevent pregnancy-induced hypertension and preeclamptic toxaemia (Schiff et al., 1989). The study was conducted on women at high risk of these conditions.",
   "task": [
     {
       "query": "How many patients would have been needed to have a 80% power of detecting as significant (P<0.05) a reduction of one-third in the risk of hypertension from 30% to 20%?",
-      "answer": "The sample size needed for 80% power to detect a reduction in risk from 30% to 20% is calculated using statistical power formulas for proportions.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "Provide the calculation or reference for determining the required sample size for an 80% power to detect the specified reduction in risk."
     },
     {
       "query": "The actual sample size was 65. What was the power of the study to detect the difference considered in (a)?",
-      "answer": "The power of the study with a sample size of 65 to detect the difference considered in (a) can be calculated using power analysis methods for proportions.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "Provide the calculation or reference for determining the power of the study with a sample size of 65 to detect the specified difference in risk."
     },
     {
       "query": "What reduction in risk of hypertension did the study have an 80% power to detect?",
-      "answer": "The reduction in risk of hypertension that the study had 80% power to detect can be calculated using statistical power formulas.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "Provide the calculation or reference for determining the reduction in risk that the study could detect with 80% power."
     },
     {
       "query": "The observed rates of hypertension were 11/31 (36%) in the placebo group and 4/34 (12%) in the aspirin group; the authors quoted P=0.024 for this difference. They also quoted a relative risk (RR) of hypertension of 0.33 among the aspirin group. Calculate a 95% confidence interval for the RR, and comment on the authors' conclusion that large scale clinical trials are needed.",
-      "answer": "The 95% confidence interval for the relative risk (RR) can be calculated using standard formulas for confidence intervals of ratios. The authors' conclusion regarding the need for large-scale clinical trials can be assessed based on the width of the confidence interval and the observed effect size.",
-      "method": "假设检验与区间估计"
+      "answer": "Provide the calculation for the 95% confidence interval for the relative risk (RR) and discuss the implications of the authors' conclusion regarding the need for large-scale clinical trials."
     }
   ],
   "id": "061",
@@ -33,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "475-476"
+  },
+  "token_usage": {
+    "completion_tokens": 406,
+    "prompt_tokens": 566,
+    "total_tokens": 972,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Explore the changes in blood pressure in the two groups with side-by-side boxplots.",
-      "answer": "Here are the side-by-side boxplots: The plot shows that the calcium treated group had a greater average decline in blood pressure. They also exhibited greater variability. There is a high outside value in the placebo group.",
-      "method": "数据可视化"
+      "answer": "Here are the side-by-side boxplots: The plot shows that the calcium treated group had a greater average decline in blood pressure. They also exhibited greater variability. There is a high outside value in the placebo group."
     },
     {
       "query": "Discuss your findings.",
-      "answer": "The plot shows that the calcium treated group had a greater average decline in blood pressure. They also exhibited greater variability. There is a high outside value in the placebo group.",
-      "method": "描述性统计量"
+      "answer": "The plot shows that the calcium treated group had a greater average decline in blood pressure. They also exhibited greater variability. There is a high outside value in the placebo group."
     }
   ],
   "id": "109",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.3 Effect of calcium supplementation on blood pressure.}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline \\multirow[b]{2}{*}{SUBJECT ID No.} & \\multirow{2}{*}{\\begin{tabular}{l}\nGROUP \\\n1 = treatment 2 = placebo\n\\end{tabular}} & \\multirow[b]{2}{*}{BEFORE mm Hg} & \\multirow[b]{2}{*}{AFTER mm Hg} & \\multirow[b]{2}{*}{DELTA mm Hg} \\\n\\hline & & & & \\\n\\hline 1 & 1 & 107 & 100 & 7 \\\n\\hline 2 & 1 & 110 & 114 & -4 \\\n\\hline 3 & 1 & 123 & 105 & 18 \\\n\\hline 4 & 1 & 129 & 112 & 17 \\\n\\hline 5 & 1 & 112 & 115 & -3 \\\n\\hline 6 & 1 & 111 & 116 & -5 \\\n\\hline 7 & 1 & 107 & 106 & 1 \\\n\\hline 8 & 1 & 112 & 102 & 10 \\\n\\hline 9 & 1 & 136 & 125 & 11 \\\n\\hline 10 & 1 & 102 & 104 & -2 \\\n\\hline 11 & 2 & 123 & 124 & -1 \\\n\\hline 12 & 2 & 109 & 97 & 12 \\\n\\hline 13 & 2 & 112 & 113 & -1 \\\n\\hline 14 & 2 & 102 & 105 & -3 \\\n\\hline 15 & 2 & 98 & 95 & 3 \\\n\\hline 16 & 2 & 114 & 119 & -5 \\\n\\hline 17 & 2 & 119 & 114 & 5 \\\n\\hline 18 & 2 & 114 & 112 & 2 \\\n\\hline 19 & 2 & 110 & 121 & -11 \\\n\\hline 20 & 2 & 117 & 118 & -1 \\\n\\hline 21 & 2 & 130 & 133 & -3 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-  "meta info": {
+  "meta_info": {
     "index": "12.21",
     "image": "",
     "caption": "Calcium supplementation and blood pressure, exploration.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.6 SAMPLE SIZE AND POWER",
     "page": "258-258"
+  },
+  "token_usage": {
+    "completion_tokens": 251,
+    "prompt_tokens": 467,
+    "total_tokens": 718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,15 +1,13 @@
 {
-  "background": "Let $X$ represent a random variable of service time at a certain facility, and suppose that the probability density function of $X$ is $$f(x)=0.5 \\lambda^3 x^2 e^{-\\lambda x} \\quad \\text { for } x>0, \\lambda>0$$. A random sample of 5 customers yielded data $$x_1=20, x_2=16, x_3=15, x_4=18, x_5=25$$.",
+  "background": "Let $X$ represent a random variable of service time at a certain facility, and suppose that the probability density function of $X$ is given as $f(x)=0.5 \\lambda^3 x^2 e^{-\\lambda x}$ for $x>0, \\lambda>0$. A random sample of 5 customers yielded data: $x_1=20, x_2=16, x_3=15, x_4=18, x_5=25$.",
   "task": [
     {
       "query": "Use the method of moments to obtain an estimator of $\\lambda$.",
-      "answer": "$\\hat{\\lambda}=\\frac{3}{\\bar{X}}$.",
-      "method": "获取模型参数估计值"
+      "answer": "$\\hat{\\lambda}=\\frac{3}{\\bar{X}}$."
     },
     {
-      "query": "Compute the estimate for this data.",
-      "answer": "$\\hat{\\lambda}=0.1595745$.",
-      "method": "获取模型参数估计值"
+      "query": "Compute the estimate for $\\lambda$ using the given data: $x_1=20, x_2=16, x_3=15, x_4=18, x_5=25$.",
+      "answer": "$\\hat{\\lambda}=0.1595745$."
     }
   ],
   "id": "131",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "221-221"
+  },
+  "token_usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 472,
+    "total_tokens": 710,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

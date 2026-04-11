@@ -1,20 +1,37 @@
 {
-  "background": "A patient newly diagnosed with a serious ailment is told he has a 60% probability of surviving 5 or more years.",
+  "background": "A patient newly diagnosed with a serious ailment is told he has a 60% probability of surviving 5 or more years. Let's assume this statement is accurate.",
   "task": [
     {
       "query": "Explain the meaning of this statement to someone with no statistical background in terms he or she will understand.",
-      "answer": "We can not say for certain whether this particular patient will survive, but we can say that in a large number of patients with identical characteristics, 60% will survive at least five years and 40% will not.",
-      "method": "事件发生概率及独立性"
+      "answer": "We can not say for certain whether this particular patient will survive, but we can say that in a large number of patients with identical characteristics, 60% will survive at least five years and 40% will not."
     }
   ],
   "id": "043",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "5.1",
     "image": "",
     "caption": "Explaining probability.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.1 WHat Is PROBABILITY?",
     "page": "91-91"
+  },
+  "token_usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 396,
+    "total_tokens": 538,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,20 +1,17 @@
 {
-  "background": "Suppose that $\\mathrm{X}_1, \\mathrm{X}_2, \\ldots, \\mathrm{X}_{\\mathrm{n}}$ are independent random variables, each with the following probability density function:\n\n$$\nf(x, \\alpha, \\beta)= \\begin{cases}0 & \\text { if } x<\\alpha \\\\ \\frac{1}{\\beta} e^{-\\frac{(x-\\alpha)}{\\beta}} & \\text { if } x \\geq \\alpha\\end{cases}\n$$\n\nwhere $-\\infty<\\alpha<\\infty$ and $0<\\beta<\\infty$ are both unknown.",
+  "background": "Suppose that X1, X2, ..., Xn are independent random variables, each with the given probability density function:\n\nf(x, α, β) =\n  0, if x < α\n  (1/β) * exp(-(x - α)/β), if x ≥ α\n\nwhere -∞ < α < ∞ and 0 < β < ∞ are both unknown.",
   "task": [
     {
-      "query": "(a) Find the maximum likelihood estimators (MLE) of $\\alpha$ and $\\beta$, say $\\hat{\\alpha}$ and $\\hat{\\beta}$, respectively.",
-      "answer": "The MLE of $\\alpha$ and $\\beta$ are derived based on the likelihood function.",
-      "method": "数据分布建模"
+      "query": "Find the maximum likelihood estimators (MLE) of α and β, say α̂ and β̂, respectively.",
+      "answer": "Not provided in the original answer."
     },
     {
-      "query": "(b) Find $E(\\hat{\\alpha})$ and $E(\\hat{\\beta})$.",
-      "answer": "$E(\\hat{\\beta})=(\\alpha+\\beta)-\\left(\\alpha+\\frac{\\beta}{n}\\right)=\\beta\\left(1-\\frac{1}{n}\\right)$ and $E(\\hat{\\alpha})=\\alpha+\\frac{\\beta}{n}$.",
-      "method": "数据分布建模"
+      "query": "Find E(α̂) and E(β̂).",
+      "answer": "E(β̂) = (α + β) - (α + β/n) = β(1 - 1/n) and E(α̂) = α + β/n."
     },
     {
-      "query": "(c) If $\\mathrm{n}=7$ and $\\mathrm{x}_1=5.3, \\mathrm{x}_2=3.2, \\mathrm{x}_3=2.4, \\mathrm{x}_4=3.8, \\mathrm{x}_5=4.2, \\mathrm{x}_6=3.4, \\mathrm{x}_7=$ 2.9, find the MLE of $\\alpha$ and $\\beta$.",
-      "answer": "$\\hat{\\alpha}=2.4$ and $\\hat{\\beta}=1.2$.",
-      "method": "数据分布建模"
+      "query": "If n = 7 and x1 = 5.3, x2 = 3.2, x3 = 2.4, x4 = 3.8, x5 = 4.2, x6 = 3.4, x7 = 2.9, find the MLE of α and β.",
+      "answer": "α̂ = 2.4 and β̂ = 1.2."
     }
   ],
   "id": "122",
@@ -28,5 +25,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "218-218"
+  },
+  "token_usage": {
+    "completion_tokens": 314,
+    "prompt_tokens": 693,
+    "total_tokens": 1007,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,20 +1,17 @@
 {
-  "background": "For several African countries, the number of physicians (per 10000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1000 live births) are recorded. The data includes information for multiple countries, such as the number of physicians and the infant mortality rate.",
+  "background": "For several African countries, data on the number of physicians (per 10,000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1,000 live births) are recorded. The data is presented in a table format for countries A to Q.",
   "task": [
     {
       "query": "Draw a scatterplot of the data.",
-      "answer": "Negative relationship between infant mortality rate and the number of physicians in African countries",
-      "method": "数据可视化"
+      "answer": "Negative relationship between infant mortality rate and the number of physicians in African countries."
     },
     {
-      "query": "Carry out Pearson's product moment correlation analysis on the data and record the following: Pearson's r, df, P.",
-      "answer": "Pearson's r=-0.714, df=15, P<0.01 (=0.0008)",
-      "method": "关联分析"
+      "query": "Carry out Pearson's product moment correlation analysis on the data and record the following: Pearson's r, degrees of freedom (df), and P-value.",
+      "answer": "Pearson's r = -0.714, df = 15, P < 0.01 (= 0.0008)."
     },
     {
       "query": "What do you conclude about the relationship between the number of physicians and the infant mortality rate?",
-      "answer": "There is a highly significant negative relationship between the number of physicians and the infant mortality rate: the more physicians there are, the lower the infant mortality rate. Note that we are not assuming a cause and effect relationship.",
-      "method": "模型解读"
+      "answer": "There is a highly significant negative relationship between the number of physicians and the infant mortality rate: the more physicians there are, the lower the infant mortality rate. Note that we are not assuming a cause and effect relationship."
     }
   ],
   "id": "014",
@@ -28,5 +25,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "107-108"
+  },
+  "token_usage": {
+    "completion_tokens": 260,
+    "prompt_tokens": 823,
+    "total_tokens": 1083,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

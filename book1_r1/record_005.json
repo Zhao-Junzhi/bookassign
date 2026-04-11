@@ -2,19 +2,40 @@
   "background": "Prospective studies on nutrition often require subjects to keep detailed daily dietary logs. In contrast, retrospective studies often rely on recall.",
   "task": [
     {
-      "query": "Which method-dietary logs or retrospective recall-do you believe is more likely to achieve accurate results? Explain your response.",
-      "answer": "Prospective dietary logs are more accurate than retrospective recall. Memory tends to be unreliable.",
-      "method": "观测数据"
+      "query": "Which method—dietary logs or retrospective recall—do you believe is more likely to achieve accurate results?",
+      "answer": "Prospective dietary logs are more accurate than retrospective recall."
+    },
+    {
+      "query": "Explain your response.",
+      "answer": "Memory tends to be unreliable."
     }
   ],
   "id": "005",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "1.9",
     "image": "",
     "caption": "Dietary histories.",
     "chapter": "Measurement",
     "section": "1.4 Data Quality",
     "page": "11-11"
+  },
+  "token_usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 362,
+    "total_tokens": 488,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

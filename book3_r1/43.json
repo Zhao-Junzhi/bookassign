@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "What is the probability that communication failure will last more than $45 \\min$?",
-      "answer": "This problem can be formulated using a gamma distribution (see Eq. 2.77) with $\\alpha=10$ and $\\beta=19$. Thus (45 min is same as 0.75 h), $$\\begin{aligned} P(T>0.75) & =1-P(T \\leq 0.75) \\\\ & =1-\\int_0^{.75} \\frac{(19)^{10} t^9}{(10-1)!} e^{-19 t} d t \\approx 0.11 \\end{aligned}$$",
-      "method": "从指定分布中抽样"
+      "answer": "This problem can be formulated using a gamma distribution (see Eq. 2.77) with $\\alpha=10$ and $\\beta=19$. Thus ( 45 min is same as 0.75 h ),\n\n$$\n\\begin{aligned}\nP(T>0.75) & =1-P(T \\leq 0.75) \\\\\n& =1-\\int_0^{.75} \\frac{(19)^{10} t^9}{(10-1)!} e^{-19 t} d t \\approx 0.11\n\\end{aligned}\n$$"
     },
     {
-      "query": "What is the common use of the gamma lifetime model?",
-      "answer": "The gamma model is a flexible lifetime model that may offer a good fit to some sets of failure data. It is not, however, widely used as a lifetime distribution model for common failure mechanisms. A common use of the gamma lifetime model occurs in Bayesian reliability applications.",
-      "method": "贝叶斯"
+      "query": "What is the gamma model and its common applications?",
+      "answer": "The gamma model is a flexible lifetime model that may offer a good fit to some sets of failure data. It is not, however, widely used as a lifetime distribution model for common failure mechanisms. A common use of the gamma lifetime model occurs in Bayesian reliability applications."
     }
   ],
   "id": "43",
@@ -23,5 +21,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "112-112"
+  },
+  "token_usage": {
+    "completion_tokens": 313,
+    "prompt_tokens": 545,
+    "total_tokens": 858,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

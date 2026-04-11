@@ -1,0 +1,45 @@
+{
+  "background": "Recall the illustrative data in which smoking-discordant monozygotic twins were studied to see which twin first succumbed to death. In 17 twin sets, the smoking twins died first. In 5 twin sets, the nonsmoking twin died first (\\widehat{\\sigma R}=3.4). The test of association follows.",
+  "task": [
+    {
+      "query": "What are the hypotheses for testing the association between smoking and earlier mortality in the population?",
+      "answer": "$H_{t_j}$ : no association between smoking and earlier mortality in population $(O R=1)$ vs. $H_{\\mathrm{a}}$ : \"association\" $(O R \\neq 1)$."
+    },
+    {
+      "query": "What is the test statistic for the McNemar test?",
+      "answer": "$z_{\\text {stat }, \\mathrm{McN}}=\\sqrt{\\frac{(c-b)^2}{c+b}}=\\sqrt{\\frac{(17-5)^2}{17+5}}=2.56$"
+    },
+    {
+      "query": "What is the P-value for the test statistic, and what is the result with continuity correction?",
+      "answer": "$P=0.01047$ [from Table $F$ ]. With continuity correction, $z_{\\text {stat }, M c N, c}=\\sqrt{\\frac{(|c-b|-1)^2}{c+b}}=\\sqrt{\\frac{(|17-5|-1)^2}{17+5}}=2.35$ and $P=0.019$. By convention, the association is said to be significant."
+    }
+  ],
+  "id": "448",
+  "data": "",
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Hypothesis test for matched pairs, Normal approxima-  tion (Smoking and mortality in identical twins).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "453-453"
+  },
+  "token_usage": {
+    "completion_tokens": 384,
+    "prompt_tokens": 582,
+    "total_tokens": 966,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

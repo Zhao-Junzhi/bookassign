@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Find the maximum likelihood estimator $\\hat{\\lambda}$ of $\\lambda$.",
-      "answer": "$$\\text { see (Pham 2000a, page 330) }$$",
-      "method": "最大似然估计（MLE）"
+      "answer": "$$\\text{see (Pham 2000a, page 330)}$$"
     }
   ],
   "id": "115",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "214-214"
+  },
+  "token_usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 406,
+    "total_tokens": 550,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

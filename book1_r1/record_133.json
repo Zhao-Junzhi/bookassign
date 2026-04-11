@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Determine the risks of postoperative mortality in each group.",
-      "answer": "$$\n\\begin{aligned}\n& \\hat{p}_1=0.1500 \\\\\n& \\hat{p}_2=0.457143\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$\\begin{aligned} & \\hat{p}_1=0.457143 \\\\ & \\hat{p}_2=0.1500 \\end{aligned}$$"
     },
     {
       "query": "Test the proportions for inequality.",
-      "answer": "Hypothesis test\nA. Hypotheses. $H_0: p_1=p_2$ versus $H_{\\mathrm{a}}: p_1 \\neq p_2$\nB. Test statistic. $z_{\\text {stat }}=2.91$\nC. $P$-value. $P=0.0036$, providing highly significant evidence against the null hypothesis.\nD. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.01$ (reject $H_0$ ).",
-      "method": "独立性检验"
+      "answer": "Hypothesis test\nA. Hypotheses. $H_0: p_1=p_2$ versus $H_{\\mathrm{a}}: p_1 \\neq p_2$\nB. Test statistic. $z_{\\text {stat }}=2.91$\nC. $P$-value. $P=0.0036$, providing highly significant evidence against the null hypothesis.\nD. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.01$ (reject $H_0$ )."
     }
   ],
   "id": "133",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "17.5",
     "image": "",
     "caption": "Joseph Lister and antiseptic surgery.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.3 Hypothesis Test",
     "page": "388-388"
+  },
+  "token_usage": {
+    "completion_tokens": 283,
+    "prompt_tokens": 509,
+    "total_tokens": 792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,49 @@
+{
+  "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+  "task": [
+    {
+      "query": "State the null and alternative hypotheses for testing whether $\\sigma<.1$. Why must the hypotheses be stated in terms of $\\sigma^2$ rather than $\\sigma$?",
+      "answer": "The null hypothesis is $H_0: \\sigma^2 = (.1)^2 = .01$ (Fill variance equals $.01-$ i.e., process specifications are not met). The alternative hypothesis is $H_a: \\sigma^2 < .01$ (Fill variance is less than $.01-$ i.e., process specifications are met). The hypotheses must be stated in terms of $\\sigma^2$ because the chi-square test for variance is based on the variance ($\\sigma^2$) rather than the standard deviation ($\\sigma$)."
+    },
+    {
+      "query": "What is the test statistic for this hypothesis test, and what assumptions are required for its use?",
+      "answer": "The test statistic is $\\chi^2 = \\frac{(n-1) s^2}{\\sigma^2}$. The assumption required for its use is that the distribution of the amounts of fill is approximately normal."
+    },
+    {
+      "query": "What is the rejection region for this test at $\\alpha = .05$ with $(n-1) = 9$ degrees of freedom?",
+      "answer": "The rejection region is for 'small values' of the test statistic. Specifically, we reject $H_0$ if $\\chi^2 < 3.32511$. This value is obtained from Table IV for $\\chi_{.95}^2$ with 9 degrees of freedom."
+    },
+    {
+      "query": "How is the test statistic calculated using the sample data, and what is its value?",
+      "answer": "The test statistic is calculated as $\\chi^2 = \\frac{(n-1) s^2}{\\sigma^2}$. Substituting the values $n = 10$, $s = .0412$, and $\\sigma^2 = .01$, we have $\\chi^2 = \\frac{9(.0412)^2}{.01} = 1.53$."
+    },
+    {
+      "query": "What conclusion can be drawn from the test statistic, and what does it imply about the variance of the population?",
+      "answer": "Since the test statistic $\\chi^2 = 1.53$ falls into the rejection region ($\\chi^2 < 3.32511$), we reject $H_0$ in favor of $H_a$. This implies that the variance $\\sigma^2$ of the population of all amounts of fill is less than $.01$ ($\\sigma < .1$) with a probability of a Type I error equal to $\\alpha = .05$. The quality-control supervisor can confidently conclude that the cannery is operating within the desired limits of variability."
+    }
+  ],
+  "id": "120",
+  "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 692,
+    "prompt_tokens": 944,
+    "total_tokens": 1636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

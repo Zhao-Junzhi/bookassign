@@ -1,0 +1,16 @@
+{
+  "id": "130",
+ "question": " A production supervisor suspects a difference exists between the proportions $p_1$ and $p_2$ of defective items produced by two different machines. Experience has shown that the proportion defective for each of the two machines is in the neighborhood of .03 . If the supervisor wants to estimate the difference in the proportions to within .005 using a $95 \\%$ confidence interval, how many items must be randomly sampled from the production of each machine? (Assume that the supervisor wants $n_1=n_2=n$.)",
+    "data": "null",
+    "answer": "In this sampling problem, the margin of error is $\\mathrm{ME}=.005$, and for the specified level of reliability, $(1-\\alpha)=.95, z_{\\alpha / 2}=z_{.025}=1.96$. Then, letting $p_1=p_2=.03$ and $n_1=n_2=n$, we find the required sample size per machine by solving the following equation for $n$ :\n\n$$\nz_{\\alpha / 2} \\sigma_{\\left(\\hat{p}_1-\\hat{p}_2\\right)}=\\mathrm{ME}\n$$\n\nor\n\n$$\n\\begin{aligned}\nz_{\\alpha / 2} \\sqrt{\\frac{p_1 q_1}{n_1}+\\frac{p_2 q_2}{n_2}} & =\\mathrm{ME} \\\\\n1.96 \\sqrt{\\frac{(.03)(.97)}{n}+\\frac{(.03)(.97)}{n}} & =.005 \\\\\n1.96 \\sqrt{\\frac{2(.03)(.97)}{n}} & =.005 \\\\\nn & =8,943.2\n\\end{aligned}\n$$",
+  "meta_info": {
+    "index": "8.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding the Sample Sizes for Estimating ( $\\boldsymbol{p}_{\\mathbf{1}}-\\boldsymbol{p}_{\\mathbf{2}}$ )Comparing Defect Rates of Two Machines",
+    "chapter": "Inferences Based on Two Samples",
+    "section": "8.5 Determining the Required Sample Size",
+    "book": "Statistics for Business and Economics",
+    "page": "283-283"
+  }
+}

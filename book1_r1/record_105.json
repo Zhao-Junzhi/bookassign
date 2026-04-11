@@ -1,20 +1,37 @@
 {
-  "background": "A questionnaire measures an index of risk-taking behavior in respondents. Scores are standardized so that 100 represents the population average. The questionnaire is applied to a sample of teenage boy and girls.",
+  "background": "A questionnaire measures an index of risk-taking behavior in respondents. Scores are standardized so that 100 represents the population average. The questionnaire is applied to a sample of teenage boys and girls. Data are provided for both groups.",
   "task": [
     {
       "query": "Explore group differences with side-by-side boxplots.",
-      "answer": "The girls have lower scores on average and less variability. There is one outlier in the girls.",
-      "method": "离散型-连续型变量关系"
+      "answer": "The boxplots is: The girls have lower scores on average and less variability. There is one outlier in the girls."
     }
   ],
   "id": "105",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "12.13",
     "image": "",
     "caption": "Risk-taking behavior in boys and girls.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.6 SAMPLE SIZE AND POWER",
     "page": "255-255"
+  },
+  "token_usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 463,
+    "total_tokens": 588,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

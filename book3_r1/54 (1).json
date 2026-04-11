@@ -1,10 +1,13 @@
 {
-  "background": "A problem on the variability of a new product was encountered. An experiment was run using a sample of size $n=25$; the sample mean was found to be $\\bar{X}=50$ and the variance $\\sigma^2=16$. From Table A. 2 in Appendix A, $t_{\\frac{\\alpha}{2}, n-1}=t_{.975,24}=2.064$.",
+  "background": "A problem on the variability of a new product was encountered. An experiment was run using a sample of size $n=25$; the sample mean was found to be $\\bar{X}=50$ and the variance $\\sigma^2=16$. From Table A.2 in Appendix A, $t_{\\frac{\\alpha}{2}, n-1}=t_{.975,24}=2.064$.",
   "task": [
     {
-      "query": "A $95 \\%$ confidence limit for $\\mu$ is given by.",
-      "answer": "$$\n\\begin{aligned}\n&\\begin{aligned}\n& P\\left[50-2.064 \\sqrt{\\frac{16}{25}}<\\mu<50+2.064 \\sqrt{\\frac{16}{25}}\\right]=0.95 \\\\\n& P[48.349<\\mu<51.651]=0.95\n\\end{aligned}\\\\\n&\\text { Note that, for one-sided limits, choose } t_\\alpha \\text {, or } t_{1-\\alpha} \\text {. }\n\\end{aligned}\n$$",
-      "method": "假设检验与区间估计"
+      "query": "Determine the $95\\%$ confidence limit for $\\mu$ based on the given sample statistics.",
+      "answer": "$$\\begin{aligned}&\\begin{aligned}& P\\left[50-2.064 \\sqrt{\\frac{16}{25}}<\\mu<50+2.064 \\sqrt{\\frac{16}{25}}\\right]=0.95 \\\\& P[48.349<\\mu<51.651]=0.95\\end{aligned}\\end{aligned}$$"
+    },
+    {
+      "query": "Explain how to choose $t$ values for one-sided limits.",
+      "answer": "Note that, for one-sided limits, choose $t_\\alpha$, or $t_{1-\\alpha}$."
     }
   ],
   "id": "54",
@@ -18,5 +21,23 @@
     "section": "3.11 Interval Estimation",
     "book": "Statistics for Business and Economics",
     "page": "184-184"
+  },
+  "token_usage": {
+    "completion_tokens": 278,
+    "prompt_tokens": 526,
+    "total_tokens": 804,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

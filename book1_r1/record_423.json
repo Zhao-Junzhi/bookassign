@@ -2,19 +2,40 @@
   "background": "One component of the NIH-sponsored Women's Health Initiative study was a trial in which postmenopausal women were randomly assigned either estrogen or an identical-looking placebo. The estrogen-exposed group comprised n1=8506 subjects. The placebo group had n2=8102. Incidents of a combined index outcome (consisting of coronary disease, stroke, pulmonary embolism, breast cancer, endometrial cancer, colorectal cancer, hip fracture, and death due to other causes) were tallied in the groups. After a mean 5.2 years of follow-up, the estrogen-exposed group had 751 incidents and the control group had 623 incidents.",
   "task": [
     {
-      "query": "Calculate the cumulative incidence proportions for the estrogen-exposed group and the control group.",
-      "answer": "Therefore, cumulative incidence proportions were p̂1=a1/n1=751/8506=0.08829 and p̂2=a2/n2=623/8102=0.07689.",
-      "method": "集中趋势测度"
+      "query": "What is the cumulative incidence proportion for the estrogen-exposed group?",
+      "answer": "The cumulative incidence proportion for the estrogen-exposed group is p̂1 = a1/n1 = 751/8506 = 0.08829."
+    },
+    {
+      "query": "What is the cumulative incidence proportion for the placebo group?",
+      "answer": "The cumulative incidence proportion for the placebo group is p̂2 = a2/n2 = 623/8102 = 0.07689."
     }
   ],
   "id": "423",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Data (Estrogen trial).",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.1 Data",
     "page": "374-374"
+  },
+  "token_usage": {
+    "completion_tokens": 284,
+    "prompt_tokens": 504,
+    "total_tokens": 788,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

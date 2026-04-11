@@ -1,30 +1,25 @@
 {
-  "background": "Identify the data types represented by these variables.",
+  "background": "Identify the data types represented by various variables in a given table.",
   "task": [
     {
-      "query": "Ratio of a tree's breadth to its height.",
-      "answer": "Interval/ratio.",
-      "method": "集中趋势测度"
+      "query": "What is the data type of the variable 'Ratio of a tree's breadth to its height'?",
+      "answer": "Interval/ratio"
     },
     {
-      "query": "Level of trampling on a footpath (low, medium or high).",
-      "answer": "Ordinal.",
-      "method": "分位数/百分位数"
+      "query": "What is the data type of the variable 'Level of trampling on a footpath (low, medium or high)'?",
+      "answer": "Ordinal"
     },
     {
-      "query": "Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating).",
-      "answer": "Interval/ratio.",
-      "method": "集中趋势测度"
+      "query": "What is the data type of the variable 'Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating)'?",
+      "answer": "Interval/ratio"
     },
     {
-      "query": "Number of lorries passing a census point within one hour.",
-      "answer": "Interval/ratio.",
-      "method": "集中趋势测度"
+      "query": "What is the data type of the variable 'Number of lorries passing a census point within one hour'?",
+      "answer": "Interval/ratio"
     },
     {
-      "query": "Footpath construction (concrete, gravel, none).",
-      "answer": "Nominal.",
-      "method": "离散型变量分布"
+      "query": "What is the data type of the variable 'Footpath construction (concrete, gravel, none)'?",
+      "answer": "Nominal"
     }
   ],
   "id": "001",
@@ -38,5 +33,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "20-20"
+  },
+  "token_usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 614,
+    "total_tokens": 849,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

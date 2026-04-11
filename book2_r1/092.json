@@ -1,0 +1,37 @@
+{
+  "background": "Suppose we have selected a random sample of n=36 observations from a population with mean equal to 80 and standard deviation equal to 6. It is known that the population is not extremely skewed.",
+  "task": [
+    {
+      "query": "Sketch the relative frequency distributions for the population and for the sampling distribution of the sample mean, x̄.",
+      "answer": "We do not know the exact shape of the population relative frequency distribution, but we do know that it should be centered about μ=80, its spread should be measured by σ=6, and it is not highly skewed. One possibility is shown in Figure 5.11a. From the Central Limit Theorem, we know that the sampling distribution of x̄ will be approximately normal because the sampled population distribution is not extremely skewed. We also know that the sampling distribution will have mean and standard deviation μx̄=μ=80 and σx̄=σ/√n=6/√36=1. The sampling distribution of x̄ is shown in Figure 5.11b."
+    },
+    {
+      "query": "Find the probability that x̄ will be larger than 82.",
+      "answer": "The probability that x̄ will exceed 82 is equal to the darker shaded area in Figure 5.12. To find this area, we need to find the z-value corresponding to x̄=82. Recall that the standard normal random variable z is the difference between any normally distributed random variable and its mean, expressed in units of its standard deviation. Because x̄ is approximately a normally distributed random variable with mean μx̄=μ and σx̄=σ/√n, it follows that the standard normal z-value corresponding to the sample mean, x̄, is z=(Normal random variable - Mean)/(Standard deviation)=(x̄-μx̄)/σx̄. Therefore, for x̄=82, we have z=(x̄-μx̄)/σx̄=(82-80)/1=2. The area A in Figure 5.12 corresponding to z=2 is given in the table of areas under the normal curve (see Table II in Appendix D: Tables) as 0.4772. Therefore, the tail area corresponding to the probability that x̄ exceeds 82 is P(x̄>82)=P(z>2)=0.5-0.4772=0.0228."
+    }
+  ],
+  "id": "092",
+  "data": null,
+  "meta_info": {
+    "index": "5.7",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 536,
+    "prompt_tokens": 890,
+    "total_tokens": 1426,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

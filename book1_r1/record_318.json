@@ -1,25 +1,41 @@
 {
-  "background": "Consider this small ordered array $(n=10)$ :",
+  "background": "Consider this small ordered array (n=10): 5, 11, 21, 24, 27, 28, 30, 42, 50, 52. The positions of Q1, M, and Q3 are marked in the array.",
   "task": [
     {
-      "query": "Identify the first quartile (Q1) from the array.",
-      "answer": "The low group is {5,11,21,24,27}, so Q1=21.",
-      "method": "分位数/百分位数"
+      "query": "What is the low group and the value of Q1?",
+      "answer": "The low group is {5, 11, 21, 24, 27}, so Q1 = 21."
     },
     {
-      "query": "Identify the third quartile (Q3) from the array.",
-      "answer": "The high group is {28, 30,42,50,52}, so Q3=42.",
-      "method": "分位数/百分位数"
+      "query": "What is the high group and the value of Q3?",
+      "answer": "The high group is {28, 30, 42, 50, 52}, so Q3 = 42."
     }
   ],
   "id": "318",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Quartiles.",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.5 SPREAD: QUARTILES",
     "page": "73-73"
+  },
+  "token_usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 450,
+    "total_tokens": 646,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

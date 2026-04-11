@@ -1,25 +1,21 @@
 {
-  "background": "The following table shows red cell volume measured simultaneously in 19 patients using radioactive (51Cr) and non-radioactive (biotin) cell labels. The authors compared the two sets of data using the Wilcoxon matched pairs rank sum test and concluded that there was no consistent clinically significant difference between the two methods.",
+  "background": "The following table shows red cell volume measured simultaneously in 19 patients using radioactive ( ${ }^{51} \\mathrm{Cr}$ ) and non-radioactive (biotin) cell labels (Cavill et al., 1988). The authors compared the two sets of data by the Wilcoxon matched pairs rank sum test, for which they got $\\mathrm{P}>0.05$. They concluded that the comparison of methods 'showed no consistent clinically significant difference between the two'.",
   "task": [
     {
       "query": "Comment on their analysis and interpretation.",
-      "answer": "The Wilcoxon test (or the t test) assesses whether the values obtained by the two methods differ on average. It is essential also to consider how well they agree for individual patients, which cannot be done by a hypothesis test.",
-      "method": "假设检验"
+      "answer": "The Wilcoxon test (or the $t$ test) assesses whether the values obtained by the two methods differ on average. It is essential also to consider how well they agree for individual patients, which cannot be done by a hypothesis test."
     },
     {
       "query": "Carry out a better analysis.",
-      "answer": "A simple analysis is based on calculating the 95% limits of agreement from the mean and SD of the differences between the two methods, and by plotting the differences against the average of the two values. The mean and SD of the differences (51Cr-biotin) are -85.0 and 221.9 ml respectively, so the 95% limits of agreement are -529 to +359 ml. This very wide range is completely disguised by the non-significant Wilcoxon test. Figure A14.1 shows the differences plotted against the average of the two values. There is no evidence that the magnitude of the differences varies with red cell volume. The 95% limits of agreement are shown as solid lines.",
-      "method": "描述性统计量"
+      "answer": "A simple analysis is based on calculating the $95 \\%$ limits of agreement from the mean and SD of the differences between the two methods, and by plotting the differences against the average of the two values. The mean and SD of the differences ( ${ }^{51} \\mathrm{Cr}$-biotin) are -85.0 and 221.9 ml respectively, so the $95 \\%$ limits of agreement are -529 to +359 ml. This very wide range is completely disguised by the non-significant Wilcoxon test. Figure A14.1 shows the differences plotted against the average of the two values. There is no evidence that the magnitude of the differences varies with red cell volume. The $95 \\%$ limits of agreement are shown as solid lines."
     },
     {
-      "query": "What is the relevance of the fact that the patients had all been referred for the measurement of red cell volume.",
-      "answer": "The red cell volumes of these patients may be systematically different from those in the healthy population. It does not necessarily follow that the methods would agree equally badly (or equally well) in a different population with a different range of red cell volumes.",
-      "method": "因果推断"
+      "query": "What is the relevance of the fact that the patients had all been referred for the measurement of red cell volume?",
+      "answer": "The red cell volumes of these patients may be systematically different from those in the healthy population. It does not necessarily follow that the methods would agree equally badly (or equally well) in a different population with a different range of red cell volumes."
     },
     {
       "query": "The largest differences between the methods are those for subjects 1 and 18. The biotin method is affected by prior consumption of eggs, and the authors note that 'at least one of these patients had had an egg for breakfast'. Should the analysis take account of this information?",
-      "answer": "If one method is affected by consumption of eggs then it would be advisable to exclude patients who had eaten eggs. In contrast, it would be completely invalid to omit some patients simply because their data were discrepant. The authors' comment is curious, as they do not say which of the patients had eaten an egg. If the two patients with suspect values are excluded, the mean and SD of the between method differences become -20.2 and 112.2 ml, a considerable improvement. The revised limits of agreement are shown in Figure A14.1 as dashed lines.",
-      "method": "数据预处理"
+      "answer": "If one method is affected by consumption of eggs then it would be advisable to exclude patients who had eaten eggs. In contrast, it would be completely invalid to omit some patients simply because their data were discrepant. The authors' comment is curious, as they do not say which of the patients had eaten an egg. If the two patients with suspect values are excluded, the mean and SD of the between method differences become -20.2 and 112.2 ml, a considerable improvement. The revised limits of agreement are shown in Figure A14.1 as dashed lines."
     }
   ],
   "id": "052",
@@ -33,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "435-436"
+  },
+  "token_usage": {
+    "completion_tokens": 636,
+    "prompt_tokens": 882,
+    "total_tokens": 1518,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

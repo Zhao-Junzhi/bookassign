@@ -1,15 +1,13 @@
 {
-  "background": "The question involves analyzing aviation accident rates among different groups of pilots, based on data from Booze (1977). The data includes accident rates per 100000 hours of recent flight time and a figure (Figure 3.1) showing the distribution of accidents among groups.",
+  "background": "The question involves analyzing data from Figure 3.1 and a table showing aviation accident rates per 100,000 hours of recent flight time. The goal is to determine whether professional pilots are more likely to have aviation accidents and to compare accident rates across different groups of pilots.",
   "task": [
     {
       "query": "Does Figure 3.1 indicate that professional pilots are more likely to have an aviation accident than other groups?",
-      "answer": "The answer depends upon the interpretation of 'more likely'. The Figure shows that more accidents involve professional pilots than any other group, but gives no information of the risk per individual.",
-      "method": "数据可视化"
+      "answer": "The answer depends upon the interpretation of 'more likely'. The Figure shows that more accidents involve professional pilots than any other group, but gives no information of the risk per individual."
     },
     {
-      "query": "The rates per 100000 hours can also be made into a bar diagram. From such a diagram, or from the figures shown in the table, which two groups of pilots had most accidents? Why do the two sets of figures give different answers?",
-      "answer": "When the figures are adjusted for the amount of flying in each group it is clear that professional pilots had much the lowest risk. The highest risks were among housewives and students. The different answers are explained by the strong negative relation between the amount of flying and the risk of an accident.",
-      "method": "数据可视化"
+      "query": "The rates per 100,000 hours can also be made into a bar diagram. From such a diagram, or from the figures shown in the table, which two groups of pilots had most accidents? Why do the two sets of figures give different answers?",
+      "answer": "When the figures are adjusted for the amount of flying in each group it is clear that professional pilots had much the lowest risk. The highest risks were among housewives and students. The different answers are explained by the strong negative relation between the amount of flying and the risk of an accident."
     }
   ],
   "id": "002",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "47-47"
+  },
+  "token_usage": {
+    "completion_tokens": 263,
+    "prompt_tokens": 527,
+    "total_tokens": 790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,30 +1,45 @@
 {
-  "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P=0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
+  "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P = 0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
   "task": [
     {
       "query": "Conduct post hoc comparisons using the LSD method. Summarize these results in concise narrative form.",
-      "answer": "Least squared difference (LSD) tests\n\n| Null hypothesis | x̄i-x̄j | SE | P-value (2-sided) |\n|-----------------|---------|------|-----------------|\n| H0: μ1-μ2=0 | 0.0857 | 0.67848 | 0.901 |\n| H0: μ1-μ3=0 | 1.1191 | 0.64690 | 0.098 |\n| H0: μ1-μ4=0 | 1.6129 | 0.60512 | 0.014 |\n| H0: μ2-μ3=0 | 1.0334 | 0.67848 | 0.143 |\n| H0: μ2-μ4=0 | 1.5272 | 0.63876 | 0.026 |\n| H0: μ3-μ4=0 | 0.4938 | 0.60512 | 0.424 |\n\nCalculated by SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: Differences between group 1 and group 4 and between group 2 and group 4 are statistically significant. The difference between group 1 and group 3 is marginally significant.",
-      "method": "方差分析"
+      "answer": "(a) Least squared difference (LSD) tests\n\n| Null hypothesis          | x̄_i - x̄_j | SE      | P-value (2-sided) |\n|--------------------------|------------|---------|-------------------|\n| H₀: μ₁ - μ₂ = 0         | 0.0857     | 0.67848 | 0.901             |\n| H₀: μ₁ - μ₃ = 0         | 1.1191     | 0.64690 | 0.098             |\n| H₀: μ₁ - μ₄ = 0         | 1.6129     | 0.60512 | 0.014             |\n| H₀: μ₂ - μ₃ = 0         | 1.0334     | 0.67848 | 0.143             |\n| H₀: μ₂ - μ₄ = 0         | 1.5272     | 0.63876 | 0.026             |\n| H₀: μ₃ - μ₄ = 0         | 0.4938     | 0.60512 | 0.424             |\n\nCalculated by SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: Differences between group 1 and group 4 and between group 2 and group 4 are statistically significant. The difference between group 1 and group 3 is marginally significant."
     },
     {
       "query": "Incorporate Bonferroni's correction into each of the P-value calculated in part (a).",
-      "answer": "Bonferroni's method tests\n\n| Null hypothesis | x̄i-x̄j | SE | P-value (2-sided) |\n|-----------------|---------|------|-----------------|\n| H0: μ1-μ2=0 | 0.0857 | 0.67848 | 1.000 |\n| H0: μ1-μ3=0 | 1.1191 | 0.64690 | 0.590 |\n| H0: μ1-μ4=0 | 1.6129 | 0.60512 | 0.087 |\n| H0: μ2-μ3=0 | 1.0334 | 0.67848 | 0.856 |\n| H0: μ2-μ4=0 | 1.5272 | 0.63876 | 0.158 |\n| H0: μ3-μ4=0 | 0.4938 | 0.60512 | 1.000 |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: The difference between group 1 and group 4 is marginally significant. All other differences are not statistically significant.",
-      "method": "方差分析"
+      "answer": "(b) Bonferroni's method tests\n\n| Null hypothesis          | x̄_i - x̄_j | SE      | P-value (2-sided) |\n|--------------------------|------------|---------|-------------------|\n| H₀: μ₁ - μ₂ = 0         | 0.0857     | 0.67848 | 1.000             |\n| H₀: μ₁ - μ₃ = 0         | 1.1191     | 0.64690 | 0.590             |\n| H₀: μ₁ - μ₄ = 0         | 1.6129     | 0.60512 | 0.087             |\n| H₀: μ₂ - μ₃ = 0         | 1.0334     | 0.67848 | 0.856             |\n| H₀: μ₂ - μ₄ = 0         | 1.5272     | 0.63876 | 0.158             |\n| H₀: μ₃ - μ₄ = 0         | 0.4938     | 0.60512 | 1.000             |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: The difference between group 1 and group 4 is marginally significant. All other differences are not statistically significant."
     },
     {
       "query": "Calculate 95% confidence intervals for all possible mean differences incorporating a Bonferroni adjustment.",
-      "answer": "Post hoc confidence intervals incorporating Bonferroni's correction\n\n| Parameter | x̄i-x̄j | SE | 95% confidence interval |\n|-----------|---------|------|-------------------------|\n| μ1-μ2 | 0.0857 | 0.67848 | -1.8901 to 2.0615 |\n| μ1-μ3 | 1.1191 | 0.64690 | -0.7647 to 3.0030 |\n| μ1-μ4 | 1.6129 | 0.60512 | -0.1492 to 3.3751 |\n| μ2-μ3 | 1.0334 | 0.67848 | -0.9424 to 3.0092 |\n| μ2-μ4 | 1.5272 | 0.63876 | -0.3329 to 3.3873 |\n| μ3-μ4 | 0.4938 | 0.60512 | -1.2684 to 2.2559 |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)",
-      "method": "方差分析"
+      "answer": "(c) Post hoc confidence intervals incorporating Bonferroni's correction\n\n| Parameter     | x̄_i - x̄_j | SE      | 95% confidence interval |\n|---------------|------------|---------|-------------------------|\n|               |            |         | LCL         | UCL       |\n| μ₁ - μ₂       | 0.0857     | 0.67848 | -1.8901     | 2.0615    |\n| μ₁ - μ₃       | 1.1191     | 0.64690 | -0.7647     | 3.0030    |\n| μ₁ - μ₄       | 1.6129     | 0.60512 | -0.1492     | 3.3751    |\n| μ₂ - μ₃       | 1.0334     | 0.67848 | -0.9424     | 3.0092    |\n| μ₂ - μ₄       | 1.5272     | 0.63876 | -0.3329     | 3.3873    |\n| μ₃ - μ₄       | 0.4938     | 0.60512 | -1.2684     | 2.2559    |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)"
     }
   ],
   "id": "112",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "13.5",
     "image": "",
     "caption": "Smoking and birth weight, post hoc comparisons.",
     "chapter": "COMPARING SEVERAL MEANS",
     "section": "13.4 Post Hoc COMPARISONS",
     "page": "281-281"
+  },
+  "token_usage": {
+    "completion_tokens": 1175,
+    "prompt_tokens": 1489,
+    "total_tokens": 2664,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

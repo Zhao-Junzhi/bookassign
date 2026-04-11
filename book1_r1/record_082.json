@@ -1,20 +1,41 @@
 {
-  "background": "A pharmacist reads that a $95 \\%$ confidence interval for the average price of a particular prescription drug is $\\$ 30.50$ to $\\$ 35.50$.",
+  "background": "A pharmacist reads that a 95% confidence interval for the average price of a particular prescription drug is $30.50 to $35.50. The pharmacist is asked to explain the meaning of this.",
   "task": [
     {
-      "query": "Asked to explain the meaning of this, the pharmacist says",
-      "answer": "The pharmacist is incorrect. The confidence interval applies to the population mean $\\mu$; it does not apply to the distribution of individual observations.",
-      "method": "假设检验与区间估计"
+      "query": "Is the pharmacist's explanation correct?",
+      "answer": "The pharmacist is incorrect."
+    },
+    {
+      "query": "What does the confidence interval apply to?",
+      "answer": "The confidence interval applies to the population mean μ; it does not apply to the distribution of individual observations."
     }
   ],
   "id": "082",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "10.1",
     "image": "",
     "caption": "Misinterpreting a confidence interval.",
     "chapter": "BASICS OF CONFIDENCE INTERVALS",
     "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
     "page": "202-202"
+  },
+  "token_usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 374,
+    "total_tokens": 513,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

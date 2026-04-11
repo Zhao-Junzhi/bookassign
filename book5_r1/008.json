@@ -1,15 +1,13 @@
 {
-  "background": "If an infection is present in a school it would be expected to spread to $10 \\%$ of the children.",
+  "background": "If an infection is present in a school, it would be expected to spread to 10% of the children.",
   "task": [
     {
-      "query": "How many children should be tested to have a probability of 0.95 ( $95 \\%$ ) of detecting the infection if it is there? (Hint: consider the probability of all the children in the sample being negative to the test if the infection is present in the school.)",
-      "answer": "The question can be reversed, so that we wish to evaluate the necessary sample size so that the probability of all the children being negative to the test is $<0.05$. In mathematics, we require the sample size $m$, such that $0.9^m<0.05$. It is simple to show, by trial and error, that we need $m=29$. (If your maths is good, you might have evaluated $m$ as the smallest integer greater than $\\log (0.05) / \\log (0.9)$.)",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "How many children should be tested to have a probability of 0.95 (95%) of detecting the infection if it is there? (Hint: consider the probability of all the children in the sample being negative to the test if the infection is present in the school.)",
+      "answer": "The question can be reversed, so that we wish to evaluate the necessary sample size so that the probability of all the children being negative to the test is <0.05. In mathematics, we require the sample size m, such that 0.9^m<0.05. It is simple to show, by trial and error, that we need m=29. (If your maths is good, you might have evaluated m as the smallest integer greater than log(0.05) / log(0.9).)"
     },
     {
       "query": "What is the effect of the number of children in the school on this calculation?",
-      "answer": "It has no effect.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "It has no effect."
     }
   ],
   "id": "008",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "72-72"
+  },
+  "token_usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 524,
+    "total_tokens": 774,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

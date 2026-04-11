@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "What is the reliability of a capacitor at 1000 h?",
-      "answer": "The reliability of a capacitor at 1000 h is\n\n$$\nR(t=1000)=e^{-\\lambda t}=e^{-3\\left(10^{-6}\\right)(1000)}=0.997\n$$\n\nThe resulting reliability plot is shown in Fig. 2.2.",
-      "method": "期望"
+      "answer": "The reliability of a capacitor at 1000 h is $$R(t=1000)=e^{-\\lambda t}=e^{-3\\left(10^{-6}\\right)(1000)}=0.997$$"
     }
   ],
   "id": "34",
@@ -18,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "91-91"
+  },
+  "token_usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 406,
+    "total_tokens": 529,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

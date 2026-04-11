@@ -1,25 +1,53 @@
 {
-  "background": "What is the five-point summary and IQR of this small data set? 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94",
+  "background": "Determine the five-point summary and IQR for the given small data set: 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94.",
   "task": [
     {
-      "query": "What is the five-point summary of the data set?",
-      "answer": "The five-point summary is 1.47, 2.21, 3.43, 3.76, 3.94.",
-      "method": "分布范围测度"
+      "query": "What is the median of the data set?",
+      "answer": "The median is 3.43."
     },
     {
-      "query": "What is the IQR of the data set?",
-      "answer": "The IQR = 3.76 - 2.21 = 1.55.",
-      "method": "分位数/百分位数"
+      "query": "What is Q1 (the first quartile) of the data set?",
+      "answer": "The low group consisting of {1.47, 2.06, 2.36, 3.43} has a middle value between 2.06 and 2.36. We average these to calculate Q1 = (2.06 + 2.36) / 2 = 2.21."
+    },
+    {
+      "query": "What is Q3 (the third quartile) of the data set?",
+      "answer": "The high group consisting of {3.43, 3.74, 3.78, 3.94} has a middle value between 3.74 and 3.78, so Q3 = (3.74 + 3.78) / 2 = 3.76."
+    },
+    {
+      "query": "What is the five-point summary of the data set?",
+      "answer": "The five-point summary is 1.47, 2.21, 3.43, 3.76, 3.94."
+    },
+    {
+      "query": "What is the interquartile range (IQR) of the data set?",
+      "answer": "The IQR = Q3 - Q1 = 3.76 - 2.21 = 1.55."
     }
   ],
   "id": "319",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "JQR (n = 7).",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.6 BOXPLOTS",
     "page": "74-74"
+  },
+  "token_usage": {
+    "completion_tokens": 411,
+    "prompt_tokens": 538,
+    "total_tokens": 949,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

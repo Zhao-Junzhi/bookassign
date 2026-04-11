@@ -1,20 +1,53 @@
 {
-  "background": "We have established the following statistics for the illustrative example: $r=0.737, n=11$, and $d f=9$. The $95 \\%$ confidence interval for $\\rho$ based on this information uses the following information:",
+  "background": "We have established the following statistics for the illustrative example: r=0.737, n=11, and df=9. The 95% confidence interval for ρ is to be calculated based on this information.",
   "task": [
     {
-      "query": "What is the $95 \\%$ confidence interval for the population correlation $\\rho$ based on the given statistics?",
-      "answer": "- For $95 \\%$ confidence, use $t_{9,975}=2.262$; therefore $t^2{ }_{9,975}= 2.262^2=5.117$\n- $\\varpi=\\sqrt{\\frac{2.262^2}{2.262^2+9}}=0.602$\n- $L C L=\\frac{0.737-0.602}{1-(0.737)(0.6 .2)}=0.243$\n- $U C L=\\frac{0.737+0.602}{1+(0.737)(0.602)}=0.927$\n\nThis allows us to say with $95 \\%$ confidence that population correlation $\\rho$ is in the interval 0.243 to 0.927.",
-      "method": "假设检验与区间估计"
+      "query": "What is the value of t^2 for 95% confidence using t_{9,975}?",
+      "answer": "For 95% confidence, use t_{9,975}=2.262; therefore t^2_{9,975}= 2.262^2=5.117."
+    },
+    {
+      "query": "How is the value of ω calculated based on t^2 and df?",
+      "answer": "ω=√(2.262^2 / (2.262^2 + 9))=0.602."
+    },
+    {
+      "query": "How is the lower confidence limit (LCL) for ρ calculated?",
+      "answer": "LCL=(0.737 - 0.602) / (1 - (0.737)(0.602))=0.243."
+    },
+    {
+      "query": "How is the upper confidence limit (UCL) for ρ calculated?",
+      "answer": "UCL=(0.737 + 0.602) / (1 + (0.737)(0.602))=0.927."
+    },
+    {
+      "query": "What is the 95% confidence interval for the population correlation ρ?",
+      "answer": "The 95% confidence interval for ρ is 0.243 to 0.927."
     }
   ],
   "id": "409",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Confidence interval for $\\\\rho$.",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.3 Correlation",
     "page": "308-308"
+  },
+  "token_usage": {
+    "completion_tokens": 366,
+    "prompt_tokens": 516,
+    "total_tokens": 882,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

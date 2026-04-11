@@ -1,15 +1,13 @@
 {
-  "background": "The lifetime of a communication system (hours) has the pdf $$ f(t)=\\frac{2 e^t}{\\left(\\mathrm{e}^{\\mathrm{t}}+1\\right)^2} \\quad \\mathrm{t}>0 $$ A random sample of $n=30$ units from this density function is tested at the same time $\\mathrm{t}=0$ and that the units operate independently.",
+  "background": "The lifetime of a communication system (hours) has the pdf $$f(t)=\\frac{2 e^t}{\\left(\\mathrm{e}^{\\mathrm{t}}+1\\right)^2} \\quad \\mathrm{t}>0$$. A random sample of $n=30$ units from this density function is tested at the same time $\\mathrm{t}=0$ and the units operate independently.",
   "task": [
     {
       "query": "What is the probability that at least 2 units will fail within the first hour? Determine the expected, and the variance of the, number of failures during the first hour.",
-      "answer": "Mean $=13.863$, Variance $=7.457$",
-      "method": "数学计算 - 期望"
+      "answer": "Mean $=13.863$, Variance $=7.457$"
     },
     {
       "query": "What is the probability that a unit will fail during the second hour of testing, given that it has survived the first hour?",
-      "answer": "$P(T \\leq 2 \\mid T>1)=\\frac{F(2)-F(1)}{1-F(1)}=0.5568$",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "answer": "$P(T \\leq 2 \\mid T>1)=\\frac{F(2)-F(1)}{1-F(1)}=0.5568$"
     }
   ],
   "id": "80",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "60-61"
+  },
+  "token_usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 514,
+    "total_tokens": 758,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,10 +1,9 @@
 {
-  "background": "An airport limousine can accommodate up to four passengers on any one trip. The company will accept a maximum of six reservations for a trip and a passenger must have a reservation. From previous records, 30% of all those making reservations do not appear for the trip. Assume that passengers make reservations independently of one another.",
+  "background": "An airport limousine can accommodate up to four passengers on any one trip. The company will accept a maximum of six reservations for a trip, and a passenger must have a reservation. From previous records, 30% of all those making reservations do not appear for the trip. Passengers make reservations independently of one another.",
   "task": [
     {
       "query": "If six reservations are made, what is the probability that at least one individual with a reservation cannot be accommodated on the trip?",
-      "answer": "$$0.420175$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$0.420175$$"
     }
   ],
   "id": "114",
@@ -18,5 +17,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "133-133"
+  },
+  "token_usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 401,
+    "total_tokens": 526,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

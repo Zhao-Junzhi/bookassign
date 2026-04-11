@@ -1,25 +1,41 @@
 {
-  "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3(s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3(s2=0.025 g/cm^3).",
+  "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3 (s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3 (s2=0.025 g/cm^3).",
   "task": [
     {
       "query": "Calculate the 95% confidence interval for μ1−μ2.",
-      "answer": "SE=0.00356. The 95% CI for μ1−μ2=(-0.0040 to 0.0100) g/cm^3",
-      "method": "均值检验"
+      "answer": "SE=0.00356. The 95% CI for μ1−μ2=(-0.0040 to 0.0100) g/cm^3."
     },
     {
       "query": "Based on the confidence interval you just calculated, would you reject or retain H0: μ1−μ2=0 at α=0.05?",
-      "answer": "You would retain H0 because the 95% confidence interval includes 0.",
-      "method": "均值检验"
+      "answer": "You would retain H0 because the 95% confidence interval includes 0."
     }
   ],
   "id": "107",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "12.17",
     "image": "",
     "caption": "Bone density in newborns.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.6 SAMPLE SIZE AND POWER",
     "page": "256-257"
+  },
+  "token_usage": {
+    "completion_tokens": 241,
+    "prompt_tokens": 679,
+    "total_tokens": 920,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "Which hospital is more likely to have a set of twins delivered on any day?",
-      "answer": "The larger hospital, simply because there are more births.",
-      "method": "事件发生概率及独立性"
+      "answer": "The larger hospital, simply because there are more births."
     },
     {
       "query": "Which hospital is more likely to have more than 60% of babies being boys on any day?",
-      "answer": "The day to day variation in the proportion of boys will be greater in the smaller hospital, so it is more likely to have more than 60% of babies being boys on any day.",
-      "method": "事件发生概率及独立性"
+      "answer": "The day to day variation in the proportion of boys will be greater in the smaller hospital, so it is more likely to have more than 60% of babies being boys on any day."
     }
   ],
   "id": "019",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "177-177"
+  },
+  "token_usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 443,
+    "total_tokens": 628,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

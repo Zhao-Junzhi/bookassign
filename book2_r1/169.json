@@ -1,0 +1,41 @@
+{
+  "background": "The data in Table 12.7 are the salaries, $y$, and years of experience, $x$, for a sample of 50 social workers. The first-order model $E(y)=\\beta_0+\\beta_1 x$ was fitted to the data using SPSS. The SPSS printout is shown in Figure 12.37, followed by a plot of the residuals versus $\\hat{y}$ in Figure 12.38.",
+  "task": [
+    {
+      "query": "Interpret the results of the SPSS printout (Figure 12.37) and the residuals plot (Figure 12.38).",
+      "answer": "The SPSS printout, Figure 12.37, suggests that the first-order model provides an adequate fit to the data. The $R^2$-value indicates that the model explains $78.7 \\\\%$ of the sample variation in salaries. The $t$-value for testing $\\\\beta_1, 13.31$, is highly significant ($p$-value $\\\\approx 0$) and indicates that the model contributes information for the prediction of $y$."
+    },
+    {
+      "query": "Examine the residuals plotted against $\\hat{y}$ (Figure 12.38) and identify any potential problems.",
+      "answer": "An examination of the residuals plotted against $\\hat{y}$ (Figure 12.38) reveals a potential problem."
+    },
+    {
+      "query": "Make model modifications, if necessary, based on the residuals plot.",
+      "answer": "Note the potential problem in the residuals plot, which may suggest the need for model modifications. However, specific modifications are not detailed in the provided answer."
+    }
+  ],
+  "id": "169",
+  "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 12.7 & \\multicolumn{5}{|c|}{Salary Data for Example 12.15} \\\\\n\\hline Years of Experience, $x$ & Salary, $y$ & Years of Experience, $x$ & Salary, y & Years of Experience, x & Salary, $y$ \\\\\n\\hline 7 & \\$26,075 & 21 & \\$43,628 & 28 & \\$99,139 \\\\\n\\hline 28 & 79,370 & 4 & 16,105 & 23 & 52,624 \\\\\n\\hline 23 & 65,726 & 24 & 65,644 & 17 & 50,594 \\\\\n\\hline 18 & 41,983 & 20 & 63,022 & 25 & 53,272 \\\\\n\\hline 19 & 62,308 & 20 & 47,780 & 26 & 65,343 \\\\\n\\hline 15 & 41,154 & 15 & 38,853 & 19 & 46,216 \\\\\n\\hline 24 & 53,610 & 25 & 66,537 & 16 & 54,288 \\\\\n\\hline 13 & 33,697 & 25 & 67,447 & 3 & 20,844 \\\\\n\\hline 2 & 22,444 & 28 & 64,785 & 12 & 32,586 \\\\\n\\hline 8 & 32,562 & 26 & 61,581 & 23 & 71,235 \\\\\n\\hline 20 & 43,076 & 27 & 70,678 & 20 & 36,530 \\\\\n\\hline 21 & 56,000 & 20 & 51,301 & 19 & 52,745 \\\\\n\\hline 18 & 58,667 & 18 & 39,346 & 27 & 67,282 \\\\\n\\hline 7 & 22,210 & 1 & 24,833 & 25 & 80,931 \\\\\n\\hline 2 & 20,521 & 26 & 65,929 & 12 & 32,303 \\\\\n\\hline 18 & 49,727 & 20 & 41,721 & 11 & 38,371 \\\\\n\\hline 11 & 33,233 & 26 & 82,641 & & \\\\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "12.15",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 384,
+    "prompt_tokens": 533,
+    "total_tokens": 917,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

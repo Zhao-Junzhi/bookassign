@@ -1,10 +1,17 @@
 {
-  "background": "Determine whether the following failure data (in days) of a system:\n\n$$\n10.50,1.75,6.10,1.30,15.00,8.20,0.50,20.50,11.05,4.60 .\n$$\n\nbe represented as a sample from an exponential population distribution with constant rate $\\lambda=0.20$ failures per day at the $(\\alpha=) 5 \\%$ level of the significance using KS test?",
+  "background": "Determine whether the given failure data (in days) of a system can be represented as a sample from an exponential population distribution with constant rate $\\lambda=0.20$ failures per day at the $\\alpha=5\\%$ level of significance using the KS test.",
   "task": [
     {
-      "query": "Test whether the failure times follow an exponential distribution with constant rate $\\lambda=0.20$ using the KS test at the $5 \\%$ significance level.",
-      "answer": "Under the hypothesis that failure times are exponential distribution, so the theoretical pdf and cdf are given by:\n\n$$\nf(x)=0.2 e^{-0.2 x} \\text { for } x>0\n$$\n\nand\n\n$$\nF(x)=1-e^{-0.2 x}\n$$\n\nrespectively. From Table 3.8, the maximum difference $D_n$ is 0.2061 . From Table A. 4 in Appendix A, here $\\mathrm{n}=10$ and $\\alpha=5 \\%$ then we obtain the critical value $d_{n, \\alpha}=0.409$. Since $D_n \\leq d_{n, \\alpha}$ therefore, the null hypothesis, that failure times are exponentially distributed with constant rate $\\lambda=0.20$, cannot be rejected at the $5 \\%$ level of significance.",
-      "method": "假设检验与区间估计"
+      "query": "What are the theoretical pdf and cdf under the hypothesis that failure times are exponentially distributed?",
+      "answer": "The theoretical pdf and cdf are given by:\n\n$$\nf(x)=0.2 e^{-0.2 x} \\text{ for } x>0\n$$\n\nand\n\n$$\nF(x)=1-e^{-0.2 x}\n$$\nrespectively."
+    },
+    {
+      "query": "What is the maximum difference $D_n$ and the critical value $d_{n, \\alpha}$ at $\\alpha=5\\%$ level of significance?",
+      "answer": "From Table 3.8, the maximum difference $D_n$ is 0.2061. From Table A.4 in Appendix A, with $n=10$ and $\\alpha=5\\%$, the critical value $d_{n, \\alpha}$ is 0.409."
+    },
+    {
+      "query": "Can the null hypothesis that failure times are exponentially distributed with constant rate $\\lambda=0.20$ be rejected at the $5\\%$ level of significance?",
+      "answer": "Since $D_n \\leq d_{n, \\alpha}$, the null hypothesis cannot be rejected at the $5\\%$ level of significance."
     }
   ],
   "id": "52",
@@ -18,5 +25,23 @@
     "section": "3.7 Goodness of Fit Tests",
     "book": "Statistics for Business and Economics",
     "page": "174-174"
+  },
+  "token_usage": {
+    "completion_tokens": 357,
+    "prompt_tokens": 588,
+    "total_tokens": 945,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

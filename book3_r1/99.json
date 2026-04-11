@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "Calculate the expected length of the meeting, $\\mathrm{E}(X)$.",
-      "answer": "The expected length of the meeting is calculated using the given cumulative distribution function $F(x)$.",
-      "method": "期望"
+      "answer": "The expected length of the meeting, $\\mathrm{E}(X)$, is calculated based on the given cumulative distribution function $F(x)$."
     },
     {
-      "query": "Given $a=40, b=50, \\mathrm{~L}=60$, and $\\beta=0.8$. Compute $\\mathrm{E}(X)$.",
-      "answer": "The expected length of the meeting is $48.333$.",
-      "method": "期望"
+      "query": "Given $a=40, b=50, \\mathrm{~L}=60$, and $\\beta=0.8$, compute $\\mathrm{E}(X)$.",
+      "answer": "48.333"
     }
   ],
   "id": "99",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "65-65"
+  },
+  "token_usage": {
+    "completion_tokens": 368,
+    "prompt_tokens": 633,
+    "total_tokens": 1001,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

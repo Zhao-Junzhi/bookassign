@@ -3,28 +3,43 @@
   "task": [
     {
       "query": "What is the SE of x̄ for these data?",
-      "answer": "SE_x=7.5/√36=1.25",
-      "method": "描述性统计量"
+      "answer": "SE_x = 7.5 / √36 = 1.25"
     },
     {
       "query": "We seek evidence against the hypothesis that a particular group of patients come from a population in which μ=50. Sketch the curve that describes the sampling distribution of x̄ under the null hypothesis. Mark the horizontal axis with values that are ±1, ±2, and ±3 standard errors above and below the mean.",
-      "answer": "The sketch of x̄ ∼ N(50,1.25) is not shown in this key. Note that the curve should be centered on μ=50 with points of inflection at 48.75 and 51.25. The standard deviation landmarks starting 2 standard errors below the mean are at 47.5,48.75, 50.0,51.25, and 52.5.",
-      "method": "假设检验与区间估计"
+      "answer": "The sketch of x̄ ~ N(50, 1.25) is not shown in this key. Note that the curve should be centered on μ=50 with points of inflection at 48.75 and 51.25. The standard deviation landmarks starting 2 standard errors below the mean are at 47.5, 48.75, 50.0, 51.25, and 52.5."
     },
     {
-      "query": "Suppose a sample of n=36 finds an x̄ of 48.8. Mark this finding on the horizontal axis of your sketch. Then calculate the z_stat for the result. Does this observation provide strong evidence against H_0?",
-      "answer": "Notice that z_stat=(48.8-50)/1.25=-0.96. Therefore, 48.8 is a little less than 1 standard deviation below μ_0. This would not be unusual and would not provide strong evidence against H_0.",
-      "method": "假设检验与区间估计"
+      "query": "Suppose a sample of n=36 finds an x̄ of 48.8. Mark this finding on the horizontal axis of your sketch. Then calculate the z_stat for the result. Does this observation provide strong evidence against H₀?",
+      "answer": "Notice that z_stat = (48.8 - 50) / 1.25 = -0.96. Therefore, 48.8 is a little less than 1 standard deviation below μ₀. This would not be unusual and would not provide strong evidence against H₀."
     }
   ],
   "id": "501",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "9.3",
     "image": "",
     "caption": "Patient satisfaction.",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.2 TEST STATISTICS",
     "page": "180-180"
+  },
+  "token_usage": {
+    "completion_tokens": 404,
+    "prompt_tokens": 688,
+    "total_tokens": 1092,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

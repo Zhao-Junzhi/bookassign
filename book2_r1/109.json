@@ -1,0 +1,38 @@
+{
+  "background": "A metal lathe is checked periodically by quality-control inspectors to determine whether it is producing machine bearings with a mean diameter of .5 inch. If the mean diameter of the bearings is larger or smaller than .5 inch, then the process is out of control and must be adjusted.",
+  "task": [
+    {
+      "query": "Formulate the null hypothesis for a test to determine whether the bearing production process is out of control.",
+      "answer": "$H_0: \\mu=.5$ (i.e., the process is in control)"
+    },
+    {
+      "query": "Formulate the alternative hypothesis for a test to determine whether the bearing production process is out of control.",
+      "answer": "$H_{\\mathrm{a}}: \\mu \\neq .5$ (i.e., the process is out of control)"
+    }
+  ],
+  "id": "109",
+  "data": null,
+  "meta_info": {
+    "index": "7.1",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "token_usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 558,
+    "total_tokens": 742,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

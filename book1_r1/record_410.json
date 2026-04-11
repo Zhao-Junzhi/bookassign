@@ -1,30 +1,45 @@
 {
-  "background": "For the illustrative data, we have established \\(\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725\\) and \\(r=0.737\\).",
+  "background": "For the illustrative data, we have established $\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725$ and $r=0.737$.",
   "task": [
     {
-      "query": "Calculate the slope coefficient \\(b\\) using the correlation \\(r\\) and standard deviations \\(s_Y\\) and \\(s_X\\).",
-      "answer": "The slope coefficient \\(b=r \\frac{s_Y}{s_X}=0.737 \\cdot \\frac{11.725}{378.451}=0.02284\\).",
-      "method": "获取模型参数估计值"
+      "query": "Calculate the slope coefficient $b$ using the formula $b=r \\frac{s_Y}{s_X}$.",
+      "answer": "The slope coefficient $b=r \\frac{s_Y}{s_X}=0.737 \\cdot \\frac{11.725}{378.451}=0.02284$."
     },
     {
-      "query": "Calculate the intercept coefficient \\(a\\) using the slope \\(b\\) and means \\(\\bar{x}\\) and \\(\\bar{y}\\).",
-      "answer": "The intercept coefficient \\(a=\\bar{y}-b \\bar{x}=20.55-(0.02284)(603.64)=6.76\\).",
-      "method": "获取模型参数估计值"
+      "query": "Calculate the intercept coefficient $a$ using the formula $a=\\bar{y}-b \\bar{x}$.",
+      "answer": "The intercept coefficient $a=\\bar{y}-b \\bar{x}=20.55-(0.02284)(603.64)=6.76$."
     },
     {
-      "query": "Establish the regression model \\(\\hat{y}\\).",
-      "answer": "The regression model is \\(\\hat{y}=6.76+0.0228 x\\).",
-      "method": "获取模型参数估计值"
+      "query": "Write the regression model equation using the calculated coefficients.",
+      "answer": "The regression model is $\\hat{y}=6.76+0.0228 x$."
     }
   ],
   "id": "410",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Regression coefficients.",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.4 REGRESSION",
     "page": "313-314"
+  },
+  "token_usage": {
+    "completion_tokens": 260,
+    "prompt_tokens": 434,
+    "total_tokens": 694,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

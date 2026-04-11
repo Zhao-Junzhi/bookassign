@@ -1,10 +1,9 @@
 {
-  "background": "A fair coin is tossed until for the first time heads occur.",
+  "background": "A fair coin is tossed until heads occur for the first time.",
   "task": [
     {
       "query": "Find the probability that the experiment ends on or before the sixth toss.",
-      "answer": "$$\n\\frac{63}{64}\n$$",
-      "method": "事件发生概率及独立性"
+      "answer": "$$\n\\frac{63}{64}\n$$"
     }
   ],
   "id": "72",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "58-58"
+  },
+  "token_usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 335,
+    "total_tokens": 404,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

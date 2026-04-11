@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Test the null hypothesis that the expected numbers of customers per day were the same on the five days at the 5% level of significance using the Chi-square test.",
-      "answer": "The number of customers who enter the restaurant per day were not the same on the five days at the $5 \\%$ level of significance.",
-      "method": "独立性检验"
+      "answer": "The number of customers who enter the restaurant per day were not the same on the five days at the $5 \\%$ level of significance."
     }
   ],
   "id": "117",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "216-216"
+  },
+  "token_usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 399,
+    "total_tokens": 529,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

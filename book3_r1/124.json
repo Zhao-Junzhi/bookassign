@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "Use the method of moments to obtain an estimator of $\\theta$, and then compute the estimate for this data.",
-      "answer": "$\\hat{\\theta}=3$.",
-      "method": "获取模型参数估计值"
+      "answer": "$\\hat{\\theta}=3$."
     },
     {
       "query": "Obtain the maximum likelihood estimator of $\\theta$, and then compute the estimate for the given data.",
-      "answer": "$\\hat{\\theta}=3.116$.",
-      "method": "获取模型参数估计值"
+      "answer": "$\\hat{\\theta}=3.116$."
     }
   ],
   "id": "124",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "219-219"
+  },
+  "token_usage": {
+    "completion_tokens": 331,
+    "prompt_tokens": 596,
+    "total_tokens": 927,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

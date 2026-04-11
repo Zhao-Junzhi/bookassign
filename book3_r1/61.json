@@ -1,50 +1,41 @@
 {
-  "background": "If a parallel system consists of 3 independent components, each having 0.95 reliability, then the system reliability is given by R=1-(1-0.95)^3=0.9999.",
+  "background": "A parallel system consists of 3 independent components, each having 0.95 reliability. The system reliability is calculated using the formula $$R=1-(1-0.95)^3=0.9999$$.",
   "task": [
     {
-      "query": "If the i th component has failure time T_i for i=1,2,...,n and the parallel system will fail only upon failure of all of its components, thus, the system failure time is T_P=max_{1 ≤ i ≤ n} T_i.",
-      "answer": "T_P=max_{1 ≤ i ≤ n} T_i.",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "What is the failure time of the parallel system when the ith component has failure time $T_i$?",
+      "answer": "The parallel system will fail only upon failure of all its components, and the system failure time is $$T_P=\\max _{1 \\leq i \\leq n} T_i$$."
     },
     {
-      "query": "Let us define f_i(t), F_i(t), and R_i(t) are, respectively, the failure time density, failure time distribution function and reliability function of the ith component. The failure time distribution function of the system is F(t)=P(T_P ≤ t)=∏_{i=1}^n F_i(t).",
-      "answer": "F(t)=P(T_P ≤ t)=∏_{i=1}^n F_i(t).",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "What is the failure time distribution function of the system?",
+      "answer": "The failure time distribution function of the system is $$F(t)=P\\left(T_P \\leq t\\right)=\\prod_{i=1}^{n} F_i(t)$$."
     },
     {
-      "query": "The system failure time density is f(t)=dF/dt=∑_{i=1}^n f_i(t) ∏_{j=1,j≠i}^n F_j(t).",
-      "answer": "f(t)=dF/dt=∑_{i=1}^n f_i(t) ∏_{j=1,j≠i}^n F_j(t).",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "What is the failure time density of the system?",
+      "answer": "The system failure time density is $$f(t)=\\frac{d F}{d t}=\\sum_{i=1}^{n} f_i(t) \\prod_{\\substack{j=1 \\\\ j \\neq i}}^{n} F_j(t)$$."
     },
     {
-      "query": "The system reliability is R(t)=1-F(t)=1-∏_{i=1}^n (1-R_i(t)).",
-      "answer": "R(t)=1-F(t)=1-∏_{i=1}^n (1-R_i(t)).",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "What is the reliability function of the system?",
+      "answer": "The system reliability is $$R(t)=1-F(t)=1-\\prod_{i=1}^{n}\\left(1-R_i(t)\\right)$$."
     },
     {
-      "query": "The system failure rate can be obtained: r(t)=f(t)/R(t)=∑_{i=1}^n f_i(t) ∏_{j=1,j≠i}^n F_j(t) / (1-∏_{j=1,j≠i} F_j(t)).",
-      "answer": "r(t)=f(t)/R(t)=∑_{i=1}^n f_i(t) ∏_{j=1,j≠i}^n F_j(t) / (1-∏_{j=1,j≠i} F_j(t)).",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "How can the system failure rate be obtained?",
+      "answer": "The system failure rate can be obtained as $$r(t)=\\frac{f(t)}{R(t)}=\\frac{\\sum_{i=1}^{n} f_i(t) \\prod_{\\substack{j=1 \\\\ j \\neq i}}^{n} F_j(t)}{1-\\prod_{\\substack{j=1 \\\\ j \\neq i}} F_j(t)}$$."
     },
     {
-      "query": "If each of the n independent components has an exponential failure time distribution with constant failure rate λ_i, that is R_i(t)=e^(-λ_i t), then the system reliability is R(t)=1-∏_{i=1}^n (1-e^(-λ_i t)).",
-      "answer": "R(t)=1-∏_{i=1}^n (1-e^(-λ_i t)).",
-      "method": "数学计算 - 事件发生概率及独立性"
+      "query": "What is the reliability function of the system when each component has an exponential failure time distribution with constant failure rate $\\lambda_i$?",
+      "answer": "If each of the $n$ independent components has an exponential failure time distribution with constant failure rate $\\lambda_i$, the system reliability is $$R(t)=1-\\prod_{i=1}^n\\left(1-e^{-\\lambda_i t}\\right)$$."
     },
     {
-      "query": "The mean time to failure of the system can be obtained M_tbf=∫_0^∞ R(t) dt=∫_0^∞ (1-∏_{i=1}^n (1-e^(-λ_i t))) dt.",
-      "answer": "M_tbf=∫_0^∞ R(t) dt=∫_0^∞ (1-∏_{i=1}^n (1-e^(-λ_i t))) dt.",
-      "method": "数学计算 - 期望"
+      "query": "How can the mean time to failure (MTTF) of the system be calculated?",
+      "answer": "The mean time to failure of the system can be obtained as $$M_{tbf}=\\int_0^{\\infty} R(t) dt=\\int_0^{\\infty}\\left(1-\\prod_{i=1}^n\\left(1-e^{-\\lambda_i t}\\right)\\right) dt$$. After simplifications, $$M_{tbf}=\\sum_{i=1}^n \\sum_{j_i=1}^n \\sum_{\\substack{j_{i-1}=1 \\\\ \\left\\{j_1>j_2>\\ldots>j_i\\right\\}}}^n \\ldots \\sum_{j_2=1}^n \\sum_{j_1=1}^n \\frac{(-1)^{i+1}}{\\left(\\sum_{k=1}^i \\lambda_{j_k}\\right)}$$."
     },
     {
-      "query": "For n=2, from the above formula we obtain the system MTTF M_tbf=1/λ_1 + 1/λ_2 - 1/(λ_1 + λ_2).",
-      "answer": "M_tbf=1/λ_1 + 1/λ_2 - 1/(λ_1 + λ_2).",
-      "method": "数学计算 - 期望"
+      "query": "What is the MTTF for a 2-component parallel system?",
+      "answer": "For $n=2$, the system MTTF is $$M_{tbf}=\\frac{1}{\\lambda_1}+\\frac{1}{\\lambda_2}-\\frac{1}{\\lambda_1+\\lambda_2}$$."
     },
     {
-      "query": "Similarly, it can be shown that for a 3-component parallel system, the system MTTF is given by M_tbf=1/λ_1 + 1/λ_2 + 1/λ_3 - 1/(λ_1 + λ_2) - 1/(λ_1 + λ_3) - 1/(λ_2 + λ_3) + 1/(λ_1 + λ_2 + λ_3).",
-      "answer": "M_tbf=1/λ_1 + 1/λ_2 + 1/λ_3 - 1/(λ_1 + λ_2) - 1/(λ_1 + λ_3) - 1/(λ_2 + λ_3) + 1/(λ_1 + λ_2 + λ_3).",
-      "method": "数学计算 - 期望"
+      "query": "What is the MTTF for a 3-component parallel system?",
+      "answer": "For a 3-component parallel system, the system MTTF is $$M_{tbf}=\\frac{1}{\\lambda_1}+\\frac{1}{\\lambda_2}+\\frac{1}{\\lambda_3}-\\frac{1}{\\lambda_1+\\lambda_2}-\\frac{1}{\\lambda_1+\\lambda_3}-\\frac{1}{\\lambda_2+\\lambda_3}+\\frac{1}{\\lambda_1+\\lambda_2+\\lambda_3}$$."
     }
   ],
   "id": "61",
@@ -58,5 +49,23 @@
     "section": "4.3 Parallel Systems",
     "book": "Statistical Reliability Engineering",
     "page": "227-228"
+  },
+  "token_usage": {
+    "completion_tokens": 1018,
+    "prompt_tokens": 1564,
+    "total_tokens": 2582,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

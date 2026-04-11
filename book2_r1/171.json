@@ -1,0 +1,41 @@
+{
+  "background": "Analyze the distribution of the residuals in the grandfather clock example, both before and after the outlier residual is removed. Determine whether the assumption of a normally distributed error term is reasonable.",
+  "task": [
+    {
+      "query": "Construct a histogram and normal probability plot for the two sets of residuals, both before and after the outlier residual is removed.",
+      "answer": "A histogram and normal probability plot for the two sets of residuals are constructed using Minitab and are shown in Figures 12.45 and 12.46."
+    },
+    {
+      "query": "Analyze the histogram and normal probability plot to determine the impact of the outlier on the distribution of residuals.",
+      "answer": "Note that the outlier appears to skew the histogram in Figure 12.45, whereas the histogram in Figure 12.46 appears to be more mound-shaped. Similarly, the pattern of residuals in the normal probability plot in Figure 12.46 (outlier deleted) is more nearly a straight line than the pattern in Figure 12.45 (outlier included)."
+    },
+    {
+      "query": "Determine whether the assumption of a normally distributed error term is reasonable after removing the outlier.",
+      "answer": "Thus, the normality assumption appears to be more plausible after the outlier is removed."
+    }
+  ],
+  "id": "171",
+  "data": "null",
+  "meta_info": {
+    "index": "12.17",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 290,
+    "prompt_tokens": 469,
+    "total_tokens": 759,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

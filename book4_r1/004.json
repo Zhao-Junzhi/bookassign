@@ -1,20 +1,17 @@
 {
-  "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
+  "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
   "task": [
     {
-      "query": "Dividing the sample area into ten 10 m blocks and taking one sample from a random coordinate within each of the blocks. Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of this method.",
-      "answer": "(i) Stratified-random.\n\nAdvantage: incorporates the advantages of both of the methods below.",
-      "method": "实验设计"
+      "query": "Identify which of the designs is random, systematic, or stratified-random for the following method: Dividing the sample area into ten 10 m blocks and taking one sample from a random coordinate within each of the blocks. State briefly any main advantages and disadvantages of this method.",
+      "answer": "(i) Stratified-random.\n\nAdvantage: incorporates the advantages of both of the methods below."
     },
     {
-      "query": "Taking random coordinates from the whole 100 × 100 m sample area. Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of this method.",
-      "answer": "(ii) Random.\n\nAdvantage: reduces the opportunity for the researcher to unconsciously bias where the quadrats are placed.\nDisadvantage: there may be areas of the meadow with different conditions that, by chance, are underrepresented.",
-      "method": "实验设计"
+      "query": "Identify which of the designs is random, systematic, or stratified-random for the following method: Taking random coordinates from the whole 100 × 100 m sample area. State briefly any main advantages and disadvantages of this method.",
+      "answer": "(ii) Random.\n\nAdvantage: reduces the opportunity for the researcher to unconsciously bias where the quadrats are placed.\nDisadvantage: there may be areas of the meadow with different conditions that, by chance, are underrepresented."
     },
     {
-      "query": "Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines. Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of this method.",
-      "answer": "(iii) Systematic.\n\nAdvantage: covers all of the meadow, taking into account the possibility that conditions across the site may differ.\nDisadvantage: there may be an underlying pattern of plant diversity that has a 10 m periodicity.",
-      "method": "实验设计"
+      "query": "Identify which of the designs is random, systematic, or stratified-random for the following method: Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines. State briefly any main advantages and disadvantages of this method.",
+      "answer": "(iii) Systematic.\n\nAdvantage: covers all of the meadow, taking into account the possibility that conditions across the site may differ.\nDisadvantage: there may be an underlying pattern of plant diversity that has a 10 m periodicity."
     }
   ],
   "id": "004",
@@ -28,5 +25,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "20-21"
+  },
+  "token_usage": {
+    "completion_tokens": 390,
+    "prompt_tokens": 583,
+    "total_tokens": 973,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

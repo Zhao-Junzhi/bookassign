@@ -1,20 +1,17 @@
 {
-  "background": "Multiple logistic regression was used to construct a prognostic index to predict significant coronary artery disease from data on 348 patients with valvular heart disease who had undergone routine coronary arteriography before valve replacement (Ramsdale et al., 1982). Forward stepwise selection was used, using P<0.01 as the criterion for including variables. The prognostic index obtained was based on a model containing seven variables.",
+  "background": "Multiple logistic regression was used to construct a prognostic index to predict significant coronary artery disease from data on 348 patients with valvular heart disease who had undergone routine coronary arteriography before valve replacement (Ramsdale et al., 1982). Forward stepwise selection was used, using P < 0.01 as the criterion for including variables. The prognostic index obtained was based on a model containing seven variables.",
   "task": [
     {
-      "query": "The regression coefficient for a family history of ischaemic heart disease (coded 0=No, 1=Yes) was 1.167. What is the estimated odds ratio for having significant coronary artery disease associated with a positive family history?",
-      "answer": "e^(1.167)=3.21",
-      "method": "分类或发生概率影响因素解读"
+      "query": "The regression coefficient for a family history of ischaemic heart disease (coded 0 = No, 1 = Yes) was 1.167. What is the estimated odds ratio for having significant coronary artery disease associated with a positive family history?",
+      "answer": "e^1.167 = 3.21"
     },
     {
       "query": "One of the variables in the model was the estimated total number of cigarettes ever smoked, calculated as the average number smoked annually × the number of years smoking. The regression coefficient was 0.0106 per 1000 cigarettes. What total number of cigarettes ever smoked carries the same risk as a family history of ischaemic heart disease? Convert this figure into years of smoking 20 cigarettes per day.",
-      "answer": "1000 × 1.167 / 0.0106=110094. Smoking 20 cigarettes per day is equal to 20 × 365=7300 per year, so a total of about 110000 cigarettes is equivalent to smoking 20 per day for about 15 years.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "1000 × 1.167 / 0.0106 = 110094. Smoking 20 cigarettes per day is equal to 20 × 365 = 7300 per year, so a total of about 110000 cigarettes is equivalent to smoking 20 per day for about 15 years."
     },
     {
       "query": "What is the odds ratio for major coronary artery disease for someone with a family history of ischaemic heart disease who had smoked 20 cigarettes a day for 30 years compared with a non-smoker with no family history?",
-      "answer": "The total number of cigarettes smoked is 20 × 365 × 30=219000, so the odds ratio is exp(1.167+219 × 0.0106)=32.7. This is ten times the odds ratio for family history in a non-smoker.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "The total number of cigarettes smoked is 20 × 365 × 30 = 219000, so the odds ratio is exp(1.167 + 219 × 0.0106) = 32.7. This is ten times the odds ratio for family history in a non-smoker."
     }
   ],
   "id": "047",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "363-363"
+  },
+  "token_usage": {
+    "completion_tokens": 455,
+    "prompt_tokens": 724,
+    "total_tokens": 1179,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }
