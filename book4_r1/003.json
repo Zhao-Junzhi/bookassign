@@ -1,0 +1,55 @@
+{
+  "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "task": [
+    {
+      "query": "Is the variable 'pH of soil' derived or not derived?",
+      "answer": "Derived. pH is the logarithm of the reciprocal of the hydrogen ion concentration and so is effectively derived from the hydrogen ion concentration despite usually being measured directly."
+    },
+    {
+      "query": "Is the variable 'Number of households that own a car' derived or not derived?",
+      "answer": "Not derived."
+    },
+    {
+      "query": "Is the variable 'Percentage of tree canopy cover in a woodland' derived or not derived?",
+      "answer": "Derived."
+    },
+    {
+      "query": "Is the variable 'Estimate of tree canopy cover in a woodland (open, intermediate, closed)' derived or not derived?",
+      "answer": "Not derived."
+    },
+    {
+      "query": "Is the variable 'Type of soil (designated as clay, loam or sandy)' derived or not derived?",
+      "answer": "Not derived."
+    }
+  ],
+  "id": "003",
+  "data": null,
+  "meta_info": {
+    "index": "1.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "PROJECT DESIGN",
+    "section": "Questions",
+    "book": "Using Statistics to Understand the Environment",
+    "page": "20-20"
+  },
+  "token_usage": {
+    "completion_tokens": 401,
+    "prompt_tokens": 684,
+    "total_tokens": 1085,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "input_tokens_details": null,
+    "output_tokens": 0
+  }
+}
