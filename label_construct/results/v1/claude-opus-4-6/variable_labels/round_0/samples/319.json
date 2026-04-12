@@ -1,0 +1,25 @@
+{
+  "sample_key": "319",
+  "case_id": "book1_r1\\record_305.json",
+  "source_path": "book1_r2/319.json",
+  "round": 0,
+  "variables": {
+    "组别": {
+      "id": "组别",
+      "value": [
+        "treatment group",
+        "control group"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "受试者被随机分配到的组别：接受特殊干预的治疗组或接受常规医疗的对照组。answer 中 'both groups' 即指此变量。"
+    },
+    "心脏病死亡率": {
+      "id": "心脏病死亡率",
+      "value": "answer 中描述为在两组中均显著下降（heart disease mortality declined significantly in both groups），未给出具体数值",
+      "class": "numerical",
+      "role": "Y",
+      "description": "心脏病死亡率，作为研究的结局变量。answer 的核心结论即围绕该变量的变化趋势展开。"
+    }
+  }
+}

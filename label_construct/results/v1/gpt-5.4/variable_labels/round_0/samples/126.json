@@ -1,0 +1,26 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": 0,
+  "variables": {
+    "sigma": {
+      "id": "sigma",
+      "value": {
+        "standard_deviation": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known standard deviation of individual kit measurements used in the formula for the standard deviation of the sample mean."
+    },
+    "n": {
+      "id": "n",
+      "value": {
+        "sample_size": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of measurements taken, used as the sample size in the denominator sqrt(n)."
+    }
+  }
+}

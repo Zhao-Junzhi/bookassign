@@ -1,0 +1,36 @@
+{
+  "sample_key": "210",
+  "case_id": "book1_r1\\record_108.json",
+  "source_path": "book1_r2/210.json",
+  "round": "final",
+  "variables": {
+    "treatment_group": {
+      "id": "treatment_group",
+      "value": [
+        "echinacea",
+        "placebo"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment assignment: echinacea or placebo"
+    },
+    "peak_severity_of_symptoms": {
+      "id": "peak_severity_of_symptoms",
+      "value": {
+        "echinacea": {
+          "n": 337,
+          "mean": 6.0,
+          "sd": 2.3
+        },
+        "placebo": {
+          "n": 370,
+          "mean": 6.1,
+          "sd": 2.4
+        }
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Peak severity of symptoms score based on a four-symptom severity scale, summarized by treatment group"
+    }
+  }
+}

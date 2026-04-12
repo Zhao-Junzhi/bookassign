@@ -1,0 +1,38 @@
+{
+  "sample_key": "272",
+  "case_id": "book1_r1\\record_139.json",
+  "source_path": "book1_r2/272.json",
+  "round": 0,
+  "variables": {
+    "treatment_group": {
+      "id": "treatment_group",
+      "value": [
+        "simvastatin",
+        "placebo"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Randomized treatment group used to compare risks between simvastatin and placebo."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": {
+        "simvastatin": 2221,
+        "placebo": 2223
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Group sample sizes used to compute the risk estimates and the two-sample proportion test."
+    },
+    "fatal_heart_attack_count": {
+      "id": "fatal_heart_attack_count",
+      "value": {
+        "simvastatin": 111,
+        "placebo": 189
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Numbers of fatal heart attacks in each group, used to calculate the group risks and test their difference."
+    }
+  }
+}

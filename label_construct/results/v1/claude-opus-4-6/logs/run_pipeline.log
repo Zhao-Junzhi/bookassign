@@ -1,0 +1,4 @@
+2026-04-10 22:19:34,348 - INFO - 流水线开始: major=claude-opus-4-6, suggest=gpt-5.4, stages=['method_review', 'variable_extract', 'variable_finalize'], sample_count=20, force=False
+2026-04-10 22:26:15,054 - INFO - 流水线摘要已写入 label_construct/results/claude-opus-4-6/runs/summary.json
+2026-04-10 22:59:23,124 - INFO - 流水线开始: major=claude-opus-4-6, suggest=gpt-5.4, stages=['method_review', 'variable_extract', 'variable_finalize'], sample_count=1, force=False
+2026-04-10 22:59:40,164 - INFO - 流水线摘要已写入 label_construct/results/claude-opus-4-6/runs/summary.json

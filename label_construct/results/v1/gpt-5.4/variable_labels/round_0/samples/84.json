@@ -1,0 +1,15 @@
+{
+  "sample_key": "84",
+  "case_id": "book1_r1\\record_046.json",
+  "source_path": "book1_r2/84.json",
+  "round": 0,
+  "variables": {
+    "95%": {
+      "id": "95%",
+      "value": 95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The percentage/probability value directly used in the answer."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "468",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/468.json",
+  "round": 0,
+  "variables": {
+    "n1": {
+      "id": "n1",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 1, used to compute df1 = n1 - 1."
+    },
+    "n2": {
+      "id": "n2",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for group 2, used to compute df2 = n2 - 1."
+    }
+  }
+}

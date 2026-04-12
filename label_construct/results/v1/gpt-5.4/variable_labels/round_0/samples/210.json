@@ -1,0 +1,42 @@
+{
+  "sample_key": "210",
+  "case_id": "book1_r1\\record_108.json",
+  "source_path": "book1_r2/210.json",
+  "round": 0,
+  "variables": {
+    "treatment_group": {
+      "id": "treatment_group",
+      "value": {
+        "levels": [
+          "echinacea",
+          "placebo"
+        ],
+        "sample_size": [
+          337,
+          370
+        ]
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment assignment groups compared in the answer."
+    },
+    "peak_severity_of_symptoms": {
+      "id": "peak_severity_of_symptoms",
+      "value": {
+        "echinacea": {
+          "mean": 6.0,
+          "sd": 2.3,
+          "n": 337
+        },
+        "placebo": {
+          "mean": 6.1,
+          "sd": 2.4,
+          "n": 370
+        }
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Outcome variable whose group means were compared to assess whether mean peak symptom severity differed between treatments."
+    }
+  }
+}

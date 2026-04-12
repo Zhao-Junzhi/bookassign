@@ -4,29 +4,29 @@
   "source_path": "book1_r2/151.json",
   "round": 0,
   "variables": {
-    "男生身高": {
-      "id": "男生身高",
+    "male_student_height": {
+      "id": "male_student_height",
       "value": {
-        "sample_mean": 70,
-        "sample_size": 18
+        "sample_size": 18,
+        "sample_mean": 70
       },
       "class": "numerical",
       "role": "NR",
-      "description": "Heights of 18 male students sampled; the answer uses the sample mean (70 inches) and sample size (18) to compute the z test statistic."
+      "description": "Heights (in inches) of the SRS of 18 male university students, represented by sample size and sample mean, used to compute the z test statistic."
     },
-    "总体均值": {
-      "id": "总体均值",
+    "population_mean_height": {
+      "id": "population_mean_height",
       "value": 69,
       "class": "numerical",
       "role": "NR",
-      "description": "Known average height of men in the general population (69 inches), used as the hypothesized value μ₀ in the z-test."
+      "description": "Known average height (in inches) of men in the general population, used as the null hypothesis value μ₀ = 69."
     },
-    "总体标准差": {
-      "id": "总体标准差",
+    "population_sd": {
+      "id": "population_sd",
       "value": 2.8,
       "class": "numerical",
       "role": "NR",
-      "description": "Known population standard deviation (σ = 2.8 inches) used in computing the z test statistic."
+      "description": "Known population standard deviation (in inches) of male height, used in the denominator of the z test statistic."
     }
   }
 }

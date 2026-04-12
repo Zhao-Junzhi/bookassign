@@ -1,0 +1,28 @@
+{
+  "sample_key": "469",
+  "case_id": "book1_r1\\record_394.json",
+  "source_path": "book1_r2/469.json",
+  "round": 0,
+  "variables": {
+    "Cholesterol_Group1": {
+      "id": "Cholesterol_Group1",
+      "value": {
+        "n": 12,
+        "s": 0.3919
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Group 1 的胆固醇测量值（mmol/L），answer 中使用了其样本量 n₁=12 和标准差 s₁=0.3919 来计算合并方差"
+    },
+    "Cholesterol_Group2": {
+      "id": "Cholesterol_Group2",
+      "value": {
+        "n": 7,
+        "s": 0.6492
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Group 2 的胆固醇测量值（mmol/L），answer 中使用了其样本量 n₂=7 和标准差 s₂=0.6492 来计算合并方差"
+    }
+  }
+}

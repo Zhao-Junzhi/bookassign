@@ -1,0 +1,17 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 0,
+  "variables": {
+    "s²_pooled": {
+      "id": "s²_pooled",
+      "value": {
+        "s²_pooled": 0.24813
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "合并方差（pooled variance），作为总体方差σ²的估计值，用于计算所需样本量。"
+    }
+  }
+}

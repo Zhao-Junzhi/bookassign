@@ -55,19 +55,16 @@ def build_method_review_prompt(sample: dict[str, Any]) -> str:
         "background": sample.get("input", {}).get("background", ""),
         "data": sample.get("input", {}).get("data", ""),
         "question": sample.get("input", {}).get("question", ""),
-        "answer": sample.get("output", {}).get("answer", ""),
-        "current_method": sample.get("output", {}).get("method", ""),
     }
     return f"""
-你是一个严格的统计学教材标注审稿人。你需要判断给定样本中的 `answer` 与现有 `method` 是否一致。具体而言，“不一致“指的是，现有 method taxonomy 中，有比现有 `method` 更适合概括当前样本的二级类别，或者你认为现有 taxonomy 中的二级类别都不适合当前样本，需要新增类别。
+你是一个严格的统计学教材方法标签标注员。请根据给定样本的 `background`、`data`、`question` 和现有 `method taxonomy`，为当前问题选择最合适的 `method` 二级类目。
 
-评审要求：
-1. `method` 的分类结果应当主要根据给定样本需要解决的是什么类型的问题来判断。`answer` 的实际求解过程、使用的统计方法和计算目标可以作为重要参考。
-2. 若现有 `method` 一致，则保持该标签。
-3. 若不一致，但能映射到现有 taxonomy 中的其它类别，则给出 `suggested_method`。
-4. 若现有 taxonomy 的类别都不合适，可将 `needs_new_category` 置为 1，并给出 `proposed_new_category`。`proposed_new_category`应当优先考虑在现有 taxonomy 框架下新增二级类别，然后再考虑新增一级类别。
-5. 理由必须具体，指出是“应改到现有哪个类别”还是“为什么需要新增类别”。
-6. 输出必须是严格 JSON，不要输出额外说明。
+要求：
+1. 如果现有 taxonomy 中，存在明确的，非常适合于描述当前问题的二级类目，请选择最贴切的，并将其写入 `suggested_method`。
+2. 如果现有 taxonomy 中所有二级类目都不是特别合适，则填写 `proposed_new_category`。当拿不准时，请倾向于建议新增，以便后续完善 taxonomy。
+3. 一旦填写 `proposed_new_category`，`suggested_method` 必须为空字符串。
+4. `reason` 必须具体说明为何该问题属于某个现有二级类目，或为何必须新增类目。
+5. 输出必须是严格 JSON，不要输出额外说明。
 
 现有 method taxonomy 如下：
 {METHOD_TAXONOMY_TEXT}
@@ -77,11 +74,8 @@ def build_method_review_prompt(sample: dict[str, Any]) -> str:
 
 请输出：
 {{
-  "is_consistent": 1,
-  "current_method": "当前方法标签",
-  "suggested_method": "若一致则与 current_method 相同；若不一致则填建议类别；若建议新增且无法映射则填空字符串",
-  "needs_new_category": 0,
-  "proposed_new_category": "若无需新增则填空字符串",
+  "suggested_method": "taxonomy 中最合适的二级类目；若建议新增则填空字符串",
+  "proposed_new_category": "若 taxonomy 中都不合适则填写建议新增类目，否则填空字符串",
   "reason": "具体理由"
 }}
 """.strip()
@@ -126,17 +120,27 @@ def build_variable_extract_retry_prompt(sample: dict[str, Any]) -> str:
     )
 
 
-def build_variable_review_prompt(sample: dict[str, Any], variable_record: dict[str, Any], review_round: int) -> str:
+def build_variable_finalize_prompt(
+    sample: dict[str, Any],
+    major_model: str,
+    major_variable_record: dict[str, Any],
+    suggest_model: str,
+    suggest_variable_record: dict[str, Any],
+) -> str:
     payload = {
-        "review_round": review_round,
         "background": sample.get("input", {}).get("background", ""),
         "data": sample.get("input", {}).get("data", ""),
         "question": sample.get("input", {}).get("question", ""),
         "answer": sample.get("output", {}).get("answer", ""),
-        "variables": variable_record.get("variables", {}),
+        "major_model": major_model,
+        "major_variables": major_variable_record.get("variables", {}),
+        "suggest_model": suggest_model,
+        "suggest_variables": suggest_variable_record.get("variables", {}),
     }
     return f"""
-你是一个严格的统计学变量标注审稿人。请检查给定变量抽取结果是否满足以下要求：
+你是一个严格的统计学变量标签终审员。现在需要你复核两个模型的变量抽取结果，但应当以 `major_model` 的结果为主导。
+
+变量标签的要求和字段规范请参考以下内容：
 {VARIABLE_REQUIREMENTS_TEXT}
 
 请只围绕以下四类问题审稿：
@@ -145,64 +149,22 @@ def build_variable_review_prompt(sample: dict[str, Any], variable_record: dict[s
 3. 每个变量的 `class`、`role`、`description` 是否正确。
 4. `value` 是否与题面数据一致，或是否存在结构问题。
 
-输出必须是严格 JSON，不要输出额外说明。格式如下：
-{{
-  "is_accurate": 1,
-  "missing_variables": [],
-  "redundant_variables": [],
-  "incorrect_fields": [
-    {{
-      "id": "变量id",
-      "field": "class/role/value/description",
-      "issue": "问题描述",
-      "suggestion": "修改建议"
-    }}
-  ],
-  "reason": "总体判断理由",
-  "revision_advice": "若不准确，给出可直接执行的修正建议；若准确则填 无"
-}}
-
-样本：
-{_pretty_json(payload)}
-""".strip()
-
-
-def build_variable_refine_prompt(
-    sample: dict[str, Any],
-    previous_variable_record: dict[str, Any],
-    review_row: dict[str, Any],
-    refine_round: int,
-) -> str:
-    payload = {
-        "refine_round": refine_round,
-        "background": sample.get("input", {}).get("background", ""),
-        "data": sample.get("input", {}).get("data", ""),
-        "question": sample.get("input", {}).get("question", ""),
-        "answer": sample.get("output", {}).get("answer", ""),
-        "previous_variables": previous_variable_record.get("variables", {}),
-        "review_feedback": {
-            "missing_variables": review_row.get("missing_variables", []),
-            "redundant_variables": review_row.get("redundant_variables", []),
-            "incorrect_fields": review_row.get("incorrect_fields", []),
-            "reason": review_row.get("reason", ""),
-            "revision_advice": review_row.get("revision_advice", ""),
-        },
-    }
-    return f"""
-你是一个负责修正统计学变量标签的标注员。请根据题目、参考答案、上一轮变量结果和审稿意见，产出修正版变量标签。
-
-变量标签的要求和字段规范请参考以下内容：
-{VARIABLE_REQUIREMENTS_TEXT}
-
-修正要求：
-1. 只保留 answer 实际使用到的变量对象。
-2. 必须解决审稿意见指出的问题。
-3. 顶层输出必须仍然是以变量 id 为 key 的严格 JSON。
-4. 每个变量对象必须包含 `id`、`value`、`class`、`role`、`description`。
-5. `class` 只能取 `numerical`、`categorical`、`ordinal`、`binary`。
-6. `role` 只能取 `X`、`Y`、`XY`、`NR`。
-7. 不要输出额外说明文字。
+终审要求：
+1. 以 `major_model` 的变量结果为主要依据。
+2. `suggest_model` 的能力弱于 `major_model`，其结果仅供参考，不能默认采纳。
+3. 如果你判断 `suggest_model` 的部分结果更合理，可以据此调整 `major_model` 的结果；但不要机械照抄，因为两个模型都可能有误。
+4. 若无需调整，返回 `modify = 0`，并将 `revised_variables` 置为空 JSON：{{}}。
+5. 若需要调整，返回 `modify = 1`，并在 `revised_variables` 中给出修订后的完整变量 JSON。
+6. `reason` 需要明确说明为何保持原结果，或为何调整以及调整依据。
+7. 输出必须是严格 JSON，不要输出额外说明。
 
 输入：
 {_pretty_json(payload)}
+
+请输出：
+{{
+  "modify": 0,
+  "reason": "具体理由",
+  "revised_variables": {{}}
+}}
 """.strip()

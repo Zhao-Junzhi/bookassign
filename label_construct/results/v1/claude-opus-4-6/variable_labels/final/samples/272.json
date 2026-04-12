@@ -1,0 +1,28 @@
+{
+  "sample_key": "272",
+  "case_id": "book1_r1\\record_139.json",
+  "source_path": "book1_r2/272.json",
+  "round": 0,
+  "variables": {
+    "Group": {
+      "id": "Group",
+      "value": {
+        "treatment": 2221,
+        "placebo": 2223
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment group assignment (simvastatin treatment vs placebo) with corresponding sample sizes."
+    },
+    "Fatal_heart_attacks": {
+      "id": "Fatal_heart_attacks",
+      "value": {
+        "treatment": 111,
+        "placebo": 189
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of fatal heart attacks observed in each group, used to compute group-specific risks (p̂₁ and p̂₂) and test their difference."
+    }
+  }
+}

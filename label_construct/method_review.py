@@ -22,7 +22,6 @@ from label_construct.io_utils import (
     iter_sample_paths,
     load_existing_rows_by_key,
     load_json,
-    normalize_flag,
     sample_sort_key,
     to_project_relative,
     write_csv,
@@ -35,6 +34,10 @@ DEFAULT_MAX_WORKERS = 5
 
 def _sort_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(rows, key=lambda row: sample_sort_key(Path(f"{row['sample_key']}.json")))
+
+
+def _is_current_method_row(row: dict[str, Any]) -> bool:
+    return "current_method" not in row and "is_consistent" not in row and "needs_new_category" not in row
 
 
 async def _process_sample(
@@ -50,21 +53,20 @@ async def _process_sample(
             if not isinstance(result, dict):
                 raise ValueError("方法审阅输出必须是JSON对象")
 
-            current_method = sample.get("output", {}).get("method", "")
-            is_consistent = normalize_flag(result.get("is_consistent", 0))
-            suggested_method = result.get("suggested_method", "")
-            if is_consistent and not suggested_method:
-                suggested_method = current_method
+            suggested_method = str(result.get("suggested_method", "") or "").strip()
+            proposed_new_category = str(result.get("proposed_new_category", "") or "").strip()
+            reason = str(result.get("reason", "") or "").strip()
+            if proposed_new_category:
+                suggested_method = ""
+            elif not suggested_method:
+                raise ValueError("方法标注结果缺少 suggested_method")
 
             row = {
                 "sample_key": str(sample.get("sample_key", sample_path.stem)),
                 "case_id": sample.get("case_id", ""),
-                "current_method": current_method,
-                "is_consistent": is_consistent,
                 "suggested_method": suggested_method,
-                "needs_new_category": normalize_flag(result.get("needs_new_category", 0)),
-                "proposed_new_category": result.get("proposed_new_category", ""),
-                "reason": result.get("reason", ""),
+                "proposed_new_category": proposed_new_category,
+                "reason": reason,
             }
             return sample_path.stem, row, None, usage
         except Exception as exc:
@@ -81,7 +83,11 @@ async def run_method_review(
     ensure_results_tree()
     logger = build_logger("method_review")
     output_path = get_method_review_dir() / "method_review.csv"
-    existing_rows = {} if force else load_existing_rows_by_key(output_path)
+    existing_rows = {} if force else {
+        sample_key: row
+        for sample_key, row in load_existing_rows_by_key(output_path).items()
+        if _is_current_method_row(row)
+    }
 
     cached_rows = []
     pending_paths = []
@@ -131,7 +137,7 @@ async def run_method_review(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Review output.method consistency for book1_r2 samples.")
+    parser = argparse.ArgumentParser(description="Select method taxonomy labels for book1_r2 samples.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
     parser.add_argument("--model", type=str, default="gpt-4o", help="Model name to use for this stage.")
     parser.add_argument("--force", action="store_true", help="Recompute rows even if the CSV already contains them.")

@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-04-10T22:59:23",
+  "model_major": "claude-opus-4-6",
+  "model_suggest": "gpt-5.4",
+  "major_results_dir": "label_construct/results/claude-opus-4-6",
+  "suggest_results_dir": "label_construct/results/gpt-5.4",
+  "stages": [
+    "method_review",
+    "variable_extract",
+    "variable_finalize"
+  ],
+  "limit": 1,
+  "force": false,
+  "sample_count": 1,
+  "sample_keys": [
+    "151"
+  ],
+  "method_review": {
+    "output_csv": "label_construct/results/claude-opus-4-6/method_review/method_review.csv",
+    "selected_samples": 1,
+    "processed_samples": 0,
+    "cached_samples": 1,
+    "success_count": 1,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  },
+  "variable_extract": {
+    "major": {
+      "round": 0,
+      "output_dir": "label_construct/results/claude-opus-4-6/variable_labels/round_0/samples",
+      "selected_samples": 1,
+      "processed_samples": 0,
+      "cached_samples": 1,
+      "success_count": 1,
+      "fallback_count": 0,
+      "fallback_samples": [],
+      "failed_count": 0,
+      "failures": [],
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "request_count": 0
+      }
+    },
+    "suggest": {
+      "round": 0,
+      "output_dir": "label_construct/results/gpt-5.4/variable_labels/round_0/samples",
+      "selected_samples": 1,
+      "processed_samples": 0,
+      "cached_samples": 1,
+      "success_count": 1,
+      "fallback_count": 0,
+      "fallback_samples": [],
+      "failed_count": 0,
+      "failures": [],
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "request_count": 0
+      }
+    }
+  },
+  "variable_finalize": {
+    "output_dir": "label_construct/results/claude-opus-4-6/variable_labels/final",
+    "samples_dir": "label_construct/results/claude-opus-4-6/variable_labels/final/samples",
+    "review_csv": "label_construct/results/claude-opus-4-6/variable_labels/final/review.csv",
+    "selected_samples": 1,
+    "processed_samples": 0,
+    "cached_samples": 1,
+    "modified_count": 1,
+    "finalized_count": 1,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  },
+  "status": "completed",
+  "token_usage": {
+    "method_review": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_extract_major_round_0": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_extract_suggest_round_0": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_finalize": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "first_pass_total": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  }
+}
