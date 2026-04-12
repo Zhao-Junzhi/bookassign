@@ -1,0 +1,2 @@
+﻿sample_key,modify,reason
+151,1,major_model的结果基本正确，变量识别、class和role均无问题。但value中存在两个小问题需要调整：(1) suggest_model将population_mean标记为hypothesized_mean，在假设检验语境下'hypothesized_mean'更准确地反映了该值的实际用途（H₀: μ=69），但population_mean也是题面原始表述（'The average height of men in the general population is 69 inches'），两种命名均可接受，此处保留major_model的population_mean命名以忠实于题面。(2) suggest_model额外加入了unit字段，unit不属于变量取值，属于描述性信息，不应放入value中。(3) major_model的population_sd命名需微调：题面明确给出的是总体标准差σ=2.8，命名为population_sd是合理的，但为与统计惯例更一致，将其调整为sigma以匹配题面符号σ。综合来看，major_model的value中key命名可以更贴合题面符号，做小幅调整。

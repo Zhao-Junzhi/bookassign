@@ -1,4 +1,3 @@
-2026-04-09 22:24:56,360 - INFO - 流水线开始: model=claude-opus-4-6, results_dir=results/claude-opus-4-6, stages=['method_review', 'variable_extract', 'variable_iterate'], sample_count=20, force=False
-2026-04-09 22:27:53,598 - INFO - 变量迭代在 round 0 的审阅后停止: 当前样本均准确
-2026-04-09 22:27:53,623 - INFO - final 汇总完成: copied=19, missing_samples=1, review_rows=19, missing_reviews=0
-2026-04-09 22:27:53,624 - INFO - 流水线摘要已写入 label_construct/results/claude-opus-4-6/runs/summary.json
+2026-04-11 10:52:09,953 - INFO - 流水线开始: major=claude-opus-4-6, suggest=None, stages=['method_review', 'variable_extract'], sample_count=1, force=False
+2026-04-11 10:54:09,002 - INFO - 未提供 suggest 模型，已将 major round_0 结果复制到 final/samples: copied=1
+2026-04-11 10:54:09,004 - INFO - 流水线摘要已写入 label_construct/results/claude-opus-4-6/runs/summary.json

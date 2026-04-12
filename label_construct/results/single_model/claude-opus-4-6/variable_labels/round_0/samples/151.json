@@ -1,0 +1,32 @@
+{
+  "sample_key": "151",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r2/151.json",
+  "round": 0,
+  "variables": {
+    "男生身高": {
+      "id": "男生身高",
+      "value": {
+        "sample_mean": 70,
+        "sample_size": 18
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights of 18 male students sampled; the answer uses the sample mean (70 inches) and sample size (18) to compute the z test statistic."
+    },
+    "总体均值": {
+      "id": "总体均值",
+      "value": 69,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known average height of men in the general population (69 inches), used as the hypothesized value μ₀ in the z-test."
+    },
+    "总体标准差": {
+      "id": "总体标准差",
+      "value": 2.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known population standard deviation (σ = 2.8 inches) used in computing the z test statistic."
+    }
+  }
+}

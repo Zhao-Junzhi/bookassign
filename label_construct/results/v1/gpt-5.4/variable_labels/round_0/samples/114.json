@@ -1,0 +1,15 @@
+{
+  "sample_key": "114",
+  "case_id": "book1_r1\\record_065.json",
+  "source_path": "book1_r2/114.json",
+  "round": 0,
+  "variables": {
+    "percentile_level": {
+      "id": "percentile_level",
+      "value": 0.35,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Cumulative probability level used to determine the requested z percentile."
+    }
+  }
+}

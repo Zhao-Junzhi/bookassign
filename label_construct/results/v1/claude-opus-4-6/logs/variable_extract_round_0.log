@@ -1,0 +1,6 @@
+2026-04-10 22:20:53,005 - INFO - 变量抽取开始: round=0, 样本=20, 缓存命中=0, 待处理=20
+2026-04-10 22:21:39,125 - INFO - 变量抽取进度: round=0, 10/20
+2026-04-10 22:23:16,919 - INFO - 变量抽取进度: round=0, 20/20
+2026-04-10 22:23:16,920 - INFO - 变量抽取结果目录: label_construct/results/claude-opus-4-6/variable_labels/round_0/samples
+2026-04-10 22:59:40,157 - INFO - 变量抽取开始: round=0, 样本=1, 缓存命中=1, 待处理=0
+2026-04-10 22:59:40,158 - INFO - 变量抽取结果目录: label_construct/results/claude-opus-4-6/variable_labels/round_0/samples

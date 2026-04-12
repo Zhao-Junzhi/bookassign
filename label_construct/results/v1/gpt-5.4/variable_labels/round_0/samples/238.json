@@ -1,0 +1,29 @@
+{
+  "sample_key": "238",
+  "case_id": "book1_r1\\record_118.json",
+  "source_path": "book1_r2/238.json",
+  "round": 0,
+  "variables": {
+    "r": {
+      "id": "r",
+      "value": "close to zero",
+      "class": "others",
+      "role": "NR",
+      "description": "Correlation coefficient used to judge the strength of the linear relationship."
+    },
+    "X": {
+      "id": "X",
+      "value": "X",
+      "class": "others",
+      "role": "XY",
+      "description": "One of the two variables whose linear relationship is being assessed."
+    },
+    "Y": {
+      "id": "Y",
+      "value": "Y",
+      "class": "others",
+      "role": "XY",
+      "description": "One of the two variables whose linear relationship is being assessed."
+    }
+  }
+}

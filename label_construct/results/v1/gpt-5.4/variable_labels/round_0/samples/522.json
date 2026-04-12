@@ -1,0 +1,26 @@
+{
+  "sample_key": "522",
+  "case_id": "book1_r1\\record_419.json",
+  "source_path": "book1_r2/522.json",
+  "round": 0,
+  "variables": {
+    "correct_trials": {
+      "id": "correct_trials",
+      "value": {
+        "count": 6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of trials in which the taster correctly identified whether milk was added before or after tea."
+    },
+    "total_trials": {
+      "id": "total_trials",
+      "value": {
+        "count": 8
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of tea-tasting trials."
+    }
+  }
+}

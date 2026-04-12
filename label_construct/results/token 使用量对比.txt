@@ -1,0 +1,5 @@
+run_method_review（gpt-5.4）：prompt_tokens=0.004485M, total_tokens=0.004690M, request_count=1
+run_method_review（claude-opus-4-6）：prompt_tokens=0.009241M, total_tokens=0.009529M, request_count=1
+
+run_variable_extraction_round_0_major（gpt-5.4）：prompt_tokens=0.001484M, total_tokens=0.002034M, request_count=1
+run_variable_extraction_round_0_major（claude-opus-4-6）：prompt_tokens=0.003044M, total_tokens=0.012208M, request_count=1

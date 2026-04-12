@@ -1,0 +1,21 @@
+{
+  "sample_key": "151",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r2/151.json",
+  "round": 0,
+  "variables": {
+    "male_height": {
+      "id": "male_height",
+      "value": {
+        "sample_size": 18,
+        "sample_mean": 70,
+        "hypothesized_mean": 69,
+        "population_sigma": 2.8,
+        "unit": "inches"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Male students' height variable, summarized by the sample size, sample mean, hypothesized population mean, and known population standard deviation used in the one-sample z test."
+    }
+  }
+}

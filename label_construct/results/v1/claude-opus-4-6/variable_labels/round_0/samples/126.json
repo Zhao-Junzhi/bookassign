@@ -1,0 +1,18 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": 0,
+  "variables": {
+    "measurements": {
+      "id": "measurements",
+      "value": {
+        "σ": 1,
+        "n": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Four measurements taken with the laboratory kit; the answer uses the known population standard deviation σ=1 and sample size n=4 to compute the standard deviation of x̄."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "126",
+  "case_id": "book1_r1\\record_068.json",
+  "source_path": "book1_r2/126.json",
+  "round": "final",
+  "variables": {
+    "σ": {
+      "id": "σ",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "实验室试剂盒结果的已知总体标准差，用于计算样本均值的标准差。"
+    },
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "实验室技术人员使用试剂盒所取的测量次数（样本量），用于计算样本均值的标准差。"
+    }
+  }
+}

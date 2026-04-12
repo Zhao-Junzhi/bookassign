@@ -1,0 +1,6 @@
+2026-04-10 22:24:37,001 - INFO - 变量终审开始: 样本=20, 缓存命中=0, 待处理=20
+2026-04-10 22:25:14,749 - INFO - 变量终审进度: 10/20
+2026-04-10 22:26:15,050 - INFO - 变量终审进度: 20/20
+2026-04-10 22:26:15,053 - INFO - 变量终审结果已写入 label_construct/results/claude-opus-4-6/variable_labels/final/review.csv
+2026-04-10 22:59:40,161 - INFO - 变量终审开始: 样本=1, 缓存命中=1, 待处理=0
+2026-04-10 22:59:40,162 - INFO - 变量终审结果已写入 label_construct/results/claude-opus-4-6/variable_labels/final/review.csv

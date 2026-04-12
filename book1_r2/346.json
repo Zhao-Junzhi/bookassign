@@ -2,7 +2,15 @@
   "case_id": "book1_r1\\record_320.json",
   "input": {
     "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "data": "\begin{table}
+\captionsetup{labelformat=empty}
+\caption{Table 4.2 Data for "Air samples" illustrative example. Particulates in air samples on successive days at two sites ( $\mu \mathrm{g} / \mathrm{m}^3$ ).}
+\begin{tabular}{lllllllll}
+\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\
+Site 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\
+\hline
+\end{tabular}
+\end{table}",
     "question": "For site 2, calculate Q1, Q3, and IQR based on the ordered array of data: 32, 33, 34, 36, 36, 38, 39, 40."
   },
   "output": {

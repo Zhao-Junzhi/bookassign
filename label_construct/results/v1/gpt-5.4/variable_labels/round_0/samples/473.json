@@ -1,0 +1,36 @@
+{
+  "sample_key": "473",
+  "case_id": "book1_r1\\record_395.json",
+  "source_path": "book1_r2/473.json",
+  "round": 0,
+  "variables": {
+    "s_pooled^2": {
+      "id": "s_pooled^2",
+      "value": {
+        "squared_pooled_variance": 0.24813
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pooled variance estimate used as a reasonable estimate of sigma^2 in the sample size formula."
+    },
+    "margin_of_error": {
+      "id": "margin_of_error",
+      "value": {
+        "m": 0.25,
+        "unit": "mmol/L"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Desired margin of error used in the denominator of the sample size formula."
+    },
+    "confidence_level": {
+      "id": "confidence_level",
+      "value": {
+        "confidence_level": 0.95
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Confidence level used to determine the critical value for the sample size calculation."
+    }
+  }
+}

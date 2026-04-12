@@ -25,10 +25,7 @@ LOGS_DIR = RESULTS_DIR / "logs"
 METHOD_REVIEW_FIELDNAMES = [
     "sample_key",
     "case_id",
-    "current_method",
-    "is_consistent",
     "suggested_method",
-    "needs_new_category",
     "proposed_new_category",
     "reason",
 ]
@@ -44,7 +41,9 @@ VARIABLE_REVIEW_FIELDNAMES = [
     "revision_advice",
 ]
 
-ALLOWED_VARIABLE_CLASSES = {"numerical", "categorical", "ordinal", "binary"}
+VARIABLE_FINAL_REVIEW_FIELDNAMES = ["sample_key", "modify", "reason"]
+
+ALLOWED_VARIABLE_CLASSES = {"numerical", "categorical", "others"}
 ALLOWED_VARIABLE_ROLES = {"X", "Y", "XY", "NR"}
 
 VARIABLE_CLASS_ALIASES = {
@@ -102,6 +101,10 @@ def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -
     LOGS_DIR = RESULTS_DIR / "logs"
     ensure_results_tree()
     return RESULTS_DIR
+
+
+def resolve_results_dir_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    return PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model)
 
 
 def get_results_dir() -> Path:
@@ -335,6 +338,21 @@ def get_variable_label_path(sample_key: str, round_index: int) -> Path:
     return get_variable_round_samples_dir(round_index) / f"{sample_key}.json"
 
 
+def get_variable_label_path_for_model(
+    model_name: str,
+    sample_key: str,
+    round_index: int,
+    default_model: str = "gpt-4o",
+) -> Path:
+    return (
+        resolve_results_dir_for_model(model_name, default_model)
+        / "variable_labels"
+        / f"round_{round_index}"
+        / "samples"
+        / f"{sample_key}.json"
+    )
+
+
 def get_variable_review_path(round_index: int) -> Path:
     return get_variable_round_dir(round_index) / "review.csv"
 
@@ -349,6 +367,14 @@ def get_final_samples_dir() -> Path:
 
 def get_final_review_path() -> Path:
     return get_final_dir() / "review.csv"
+
+
+def get_final_samples_dir_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    return resolve_results_dir_for_model(model_name, default_model) / "variable_labels" / "final" / "samples"
+
+
+def get_final_review_path_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    return resolve_results_dir_for_model(model_name, default_model) / "variable_labels" / "final" / "review.csv"
 
 
 def to_project_relative(path: Path) -> str:
