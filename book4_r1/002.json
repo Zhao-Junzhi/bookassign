@@ -1,25 +1,25 @@
 {
-  "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+  "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
   "task": [
     {
-      "query": "Is the variable 'Amount of rainfall in a day (mm)' continuous or discrete?",
-      "answer": "Continuous"
+      "query": "Determine whether 'Amount of rainfall in a day (mm)' is continuous or discrete.",
+      "answer": "Continuous: ✓, Discrete: "
     },
     {
-      "query": "Is the variable 'Number of people with an interest in environmental issues' continuous or discrete?",
-      "answer": "Discrete"
+      "query": "Determine whether 'Number of people with an interest in environmental issues' is continuous or discrete.",
+      "answer": "Continuous: , Discrete: ✓"
     },
     {
-      "query": "Is the variable 'Percentage of leaves on a tree displaying fungal infection' continuous or discrete?",
-      "answer": "Continuous"
+      "query": "Determine whether 'Percentage of leaves on a tree displaying fungal infection' is continuous or discrete.",
+      "answer": "Continuous: ✓, Discrete: "
     },
     {
-      "query": "Is the variable 'The concentration of cadmium in roadside soils' continuous or discrete?",
-      "answer": "Continuous"
+      "query": "Determine whether 'The concentration of cadmium in roadside soils' is continuous or discrete.",
+      "answer": "Continuous: ✓, Discrete: "
     },
     {
-      "query": "Is the variable 'Type of site (either reclaimed or not)' continuous or discrete?",
-      "answer": "Discrete"
+      "query": "Determine whether 'Type of site (either reclaimed or not)' is continuous or discrete.",
+      "answer": "Continuous: , Discrete: ✓"
     }
   ],
   "id": "002",
@@ -35,9 +35,9 @@
     "page": "20-20"
   },
   "token_usage": {
-    "completion_tokens": 197,
-    "prompt_tokens": 547,
-    "total_tokens": 744,
+    "completion_tokens": 345,
+    "prompt_tokens": 583,
+    "total_tokens": 928,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -49,7 +49,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

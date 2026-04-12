@@ -1,43 +1,12 @@
 {
   "case_id": "book4_r1\\021.json",
   "input": {
-    "background": "The percentages of forest lost per year in ten randomly selected countries in Central America and South East Asia are provided. The dataset includes both original and arcsine-transformed data, with half of the countries being island nations and the other half mainland nations. The arcsine-transformed data has been tested for variance homogeneity using an $F_{\\text{max}}$ test and found not significantly different.",
+    "background": "The percentages of all forest lost per year in ten randomly selected countries in each of Central America and South East Asia are given below. Half of the countries are island countries, and half are mainland countries. The arcsine-transformed data (to normalise the distributions) are given alongside the original data (the variances of the transformed data have been subjected to an $F_{\\text {max }}$ test and are not significantly different).\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline & \\multicolumn{4}{|l|}{Region} \\\\\n\\hline & \\multicolumn{2}{|l|}{Central America} & \\multicolumn{2}{|l|}{South East Asia} \\\\\n\\hline & \\% lost & arcsine-transformed & \\% lost & arcsine-transformed \\\\\n\\hline \\multirow{8}{*}{Mainland} & 3.1 & 0.177 & 1.0 & 0.100 \\\\\n\\hline 3.2 & 0.180 & 1.5 & 0.123 \\\\\n\\hline 2.0 & 0.142 & 2.5 & 0.159 \\\\\n\\hline 2.3 & 0.152 & 1.7 & 0.131 \\\\\n\\hline & 2.7 & 0.165 & 0.2 & 0.045 \\\\\n\\hline Location \\\\\n\\hline  \\multirow{8}{*}{Island} & 0.1 & 0.032 & 0.1 & 0.032 \\\\\n\\hline 0.6 & 0.078 & 0.1 & 0.032 \\\\\n\\hline 3.8 & 0.196 & 0.2 & 0.045 \\\\\n\\hline 3.0 & 0.174 & 1.5 & 0.123 \\\\\n\\hline & 0.4 & 0.063 & 0.8 & 0.090 \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "Use two-way ANOVA on the transformed data to determine whether forest loss differs depending on: (1) which region the country is in; (2) the location (i.e., whether the country is an island or on the mainland); and (3) whether there is an interaction between region and location."
+    "question": "Use two-way ANOVA on the transformed data to determine whether forest loss differs depending on: which region the country is in; the location (i.e. whether the country is an island or on the mainland); and whether there is an interaction between region and location.\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & Sums of squares & Mean squares & $F$ value & P \\\\\n\\hline Region & \\multicolumn{2}{|c|}{\\multirow{5}{*}{}} & \\multirow{5}{*}{} & \\multirow{5}{*}{} & \\multirow{5}{*}{} \\\\\n\\hline Location & & & & & \\\\\n\\hline Interaction & & & & & \\\\\n\\hline Within & & & & & \\\\\n\\hline Total & & & & & \\\\\n\\hline\n\\end{tabular}"
   },
   "output": {
-    "answer": {
-      "df": {
-        "Region": 1,
-        "Location": 1,
-        "Interaction": 1,
-        "Within": 16,
-        "Total": 19
-      },
-      "Sums of squares": {
-        "Region": 0.011,
-        "Location": 0.013,
-        "Interaction": 6.845e-05,
-        "Within": 0.036,
-        "Total": 0.06
-      },
-      "Mean squares": {
-        "Region": 0.011,
-        "Location": 0.013,
-        "Interaction": 6.845e-05,
-        "Within": 0.002
-      },
-      "F value": {
-        "Region": 5.136,
-        "Location": 5.799,
-        "Interaction": 0.031
-      },
-      "P value": {
-        "Region": "<0.05 (0.0377)",
-        "Location": "<0.05 (0.0285)",
-        "Interaction": ">0.05 (0.8632)"
-      }
-    }
+    "answer": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline  (i) & df & Sums of squares & Mean squares & $F$ & P \\\\\n\\hline Region & 1 & 0.011 & 0.011 & 5.136 & <0.05 (0.0377) \\\\\n\\hline Location & 1 & 0.013 & 0.013 & 5.799 & <0.05 (0.0285) \\\\\n\\hline Interaction & 1 & 0.00006845 & 0.00006845 & 0.031 & >0.05 (0.8632) \\\\\n\\hline Within & 16 & 0.036 & 0.002 & & \\\\\n\\hline Total & 19 & 0.060 & & & \\\\\n\\hline\n\\end{tabular}"
   },
   "meta_info": {
     "index": "7.3",

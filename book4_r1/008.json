@@ -1,5 +1,5 @@
 {
-  "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
+  "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded:\n\n102 45 19 21 55 45 81 24 48 45 98",
   "task": [
     {
       "query": "Plot the data as a frequency histogram.",
@@ -25,11 +25,11 @@
           "Radians": 0.018
         },
         "Degrees of freedom": 19,
-        "Lower 95% confidence level (L_lower)": {
+        "Lower 95% confidence level": {
           "Degrees": 11.628,
           "Radians": 0.203
         },
-        "Upper 95% confidence level (L_upper)": {
+        "Upper 95% confidence level": {
           "Degrees": 15.93,
           "Radians": 0.278
         }
@@ -57,9 +57,9 @@
     "page": "60-60"
   },
   "token_usage": {
-    "completion_tokens": 482,
-    "prompt_tokens": 839,
-    "total_tokens": 1321,
+    "completion_tokens": 464,
+    "prompt_tokens": 875,
+    "total_tokens": 1339,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -71,7 +71,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

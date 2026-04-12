@@ -1,0 +1,37 @@
+{
+  "case_id": "book4_r1\\016.json",
+  "input": {
+    "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
+    "data": null,
+    "question": "To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following:\n\n\\begin{tabular}{lll}\n$R^2:$ & Regression equation: & \\\\\n$F:$ & $\\mathrm{df}:$ & $P:$ \\\\\n\\hline\n\\end{tabular}"
+  },
+  "output": {
+    "answer": "\\begin{tabular}{ll}\n$R^2=69.4 \\%$ & Regression equation: Economy=22.39-5.862 Engine size $($ or $y=22.39-5.862 x)$ \\\\\n$F=49.961$ & $\\mathrm{df}=1$ and 22 \\\\\n\\hline\n\\end{tabular}"
+  },
+  "meta_info": {
+    "index": "5.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "RELATIONSHIPS BETWEEN VARIABLES",
+    "section": "Questions",
+    "book": "Using Statistics to Understand the Environment",
+    "page": "107-108"
+  },
+  "sample_key": "48",
+  "token_usage": {
+    "completion_tokens": 24,
+    "prompt_tokens": 985,
+    "total_tokens": 1009,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

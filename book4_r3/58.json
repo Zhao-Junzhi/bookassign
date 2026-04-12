@@ -6,7 +6,7 @@
     "question": "For lichens occurring on the north, east, south and west sides of trees, use the external hypothesis that lichen orientation is random, and display in a table the observed and expected number of lichens and the component $X^2$ values in a goodness of fit test."
   },
   "output": {
-    "answer": "\n\\begin{tabular}{|l|l|l|l|}\n\\hline & Observed & Expected & $X^2$ \\\\\n\\hline North & 36 & 40 & 0.4 \\\\\n\\hline East & 50 & 40 & 2.5 \\\\\n\\hline South & 29 & 40 & 3.025 \\\\\n\\hline West & 45 & 40 & 0.625 \\\\\n\\hline\n\\end{tabular}"
+    "answer": "\\begin{tabular}{|l|l|l|l|}\\hline & Observed & Expected & $X^2$ \\\\\\hline North & 36 & 40 & 0.4 \\\\\\hline East & 50 & 40 & 2.5 \\\\\\hline South & 29 & 40 & 3.025 \\\\\\hline West & 45 & 40 & 0.625 \\\\\\hline\\end{tabular}"
   },
   "meta_info": {
     "index": "6.2",
@@ -20,27 +20,14 @@
   },
   "sample_key": "58",
   "token_usage": {
-    "completion_tokens": 43,
-    "prompt_tokens": 1308,
-    "total_tokens": 1351,
+    "completion_tokens": 54,
+    "prompt_tokens": 601,
+    "total_tokens": 655,
     "completion_tokens_details": {
-      "audio_tokens": 0,
-      "reasoning_tokens": 0,
-      "text_tokens": 0
+      "reasoning_tokens": 31
     },
     "prompt_tokens_details": {
-      "audio_tokens": 0,
-      "cached_tokens": 0,
-      "cached_creation_tokens": 1227,
-      "text_tokens": 0,
-      "image_tokens": 0
-    },
-    "usage_semantic": "openai",
-    "usage_source": "anthropic",
-    "input_tokens": 1308,
-    "output_tokens": 0,
-    "input_tokens_details": null,
-    "claude_cache_creation_5_m_tokens": 1227,
-    "claude_cache_creation_1_h_tokens": 0
+      "cached_tokens": 0
+    }
   }
 }

@@ -1,24 +1,24 @@
 {
-  "background": "Identify the data types represented by various variables in a given table.",
+  "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
   "task": [
     {
-      "query": "What is the data type of the variable 'Ratio of a tree's breadth to its height'?",
+      "query": "What is the data type for 'Ratio of a tree's breadth to its height'?",
       "answer": "Interval/ratio"
     },
     {
-      "query": "What is the data type of the variable 'Level of trampling on a footpath (low, medium or high)'?",
+      "query": "What is the data type for 'Level of trampling on a footpath (low, medium or high)'?",
       "answer": "Ordinal"
     },
     {
-      "query": "What is the data type of the variable 'Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating)'?",
+      "query": "What is the data type for 'Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating)'?",
       "answer": "Interval/ratio"
     },
     {
-      "query": "What is the data type of the variable 'Number of lorries passing a census point within one hour'?",
+      "query": "What is the data type for 'Number of lorries passing a census point within one hour'?",
       "answer": "Interval/ratio"
     },
     {
-      "query": "What is the data type of the variable 'Footpath construction (concrete, gravel, none)'?",
+      "query": "What is the data type for 'Footpath construction (concrete, gravel, none)'?",
       "answer": "Nominal"
     }
   ],
@@ -35,9 +35,9 @@
     "page": "20-20"
   },
   "token_usage": {
-    "completion_tokens": 235,
-    "prompt_tokens": 614,
-    "total_tokens": 849,
+    "completion_tokens": 374,
+    "prompt_tokens": 650,
+    "total_tokens": 1024,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -49,7 +49,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

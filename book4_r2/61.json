@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\019.json",
   "input": {
-    "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+    "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "Check that the variances of the three samples are not significantly different using an $F_{\\text{max}}$ test."
+    "question": "Check that the variances of the three samples are not significantly different using an $F_{\\text {max }}$ test."
   },
   "output": {
-    "answer": "The highest variance is for minibuses (30.786). The lowest variance is for cars (12.982). $F_{\\max }=2.37, k=3, \\mathrm{df}=7, P>0.05$; therefore the variances are not significantly different."
+    "answer": "The highest variance is for minibuses (30.786).\n\nThe lowest variance is for cars (12.982).\n$F_{\text{max}}=2.37, k=3, \text{df}=7, P>0.05$; therefore the variances are not significantly different."
   },
   "meta_info": {
     "index": "7.1",

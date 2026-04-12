@@ -1,17 +1,17 @@
 {
-  "background": "An environmental pressure group contacted backbench MPs from two political parties (Beige and Grey, neither of which were in government) just before and immediately after a general election. They asked for their views on environmental issues, and the responses were analyzed using content analysis. The number of positive words in each politician's statements was recorded. Assume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election, ensuring the data are independent.",
+  "background": "An environmental pressure group contacted backbench MPs from two political parties (neither of which were in government), just before and immediately after a general election, and asked them for their views on environmental issues. The responses were analysed using content analysis. The number of positive words in each politician's statements were as follows:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{}} &  \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline & & Beige & Grey \\\\\n\\hline \\multirow{30}{*}{Timing} & & 9 & 9 \\\\\n\\hline & 11 & 9 \\\\\n\\hline & 11 & 11 \\\\\n\\hline & 7 & 12 \\\\\n\\hline Before & 14 & 14 \\\\\n\\hline & 12 & 11 \\\\\n\\hline & 10 & 10 \\\\\n\\hline & 8 & 7 \\\\\n\\hline & 7 & 6 \\\\\n\\hline & 8 & 9 \\\\\n\\hline & 8 & 5 \\\\\n\\hline & 6 & 6 \\\\\n\\hline & 5 & 7 \\\\\n\\hline & 8 & 4 \\\\\n\\hline After & 11 & 9 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline Beige & Grey \\\\\n\\hline 9 & 10 \\\\\n\\hline 10 & 7 \\\\\n\\hline 8 & 5 \\\\\n\\hline 7 & 7 \\\\\n\\hline 7 & 6 \\\\\n\\hline\n\\end{tabular}\n\nAssume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election (i.e. the data are independent).",
   "task": [
     {
-      "query": "Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election), or an interaction between the two.",
-      "answer": "Party: df = 1, SS = 99.225, F = 0.7389, P > 0.05. Timing: df = 1, SS = 1416.1, F = 10.545, P < 0.01 (0.0016). Interaction: df = 1, SS = 133.25, F = 0.992, P > 0.05. Within: df = 36, SS = 3588.95. Total: df = 39, SS = 5237.525, MS = 134.29555."
+      "query": "(i) Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election) or an interaction between the two.",
+      "answer": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{ (i)}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & SS & MS & F & P \\\\\n\\hline Party & 1 & 99.225 & & 0.7389 & >0.05 \\\\\n\\hline Timing & 1 & 1416.1 & & 10.545 & <0.01 (0.0016) \\\\\n\\hline Interaction & 1 & 133.25 & & 0.992 & >0.05 \\\\\n\\hline Within & 36 & 3588.95 & & & \\\\\n\\hline Total & 39 & 5237.525 & 134.29555 & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}"
     },
     {
-      "query": "Plot the rank means on an interaction line plot.",
-      "answer": "Rank means for the number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election, should be plotted on an interaction line plot."
+      "query": "(ii) Plot the rank means on an interaction line plot.",
+      "answer": "Rank means for number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election."
     },
     {
-      "query": "Using multiple comparison tests where appropriate, what can you conclude from these results?",
-      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. Multiple comparisons are not necessary because there is no interaction and only two categories in the significant factor."
+      "query": "(iii) Using multiple comparison tests where appropriate, what can you conclude from these results?",
+      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. (Multiple comparisons are not necessary, because there is no interaction and only two categories in the significant factor.)"
     }
   ],
   "id": "023",
@@ -27,9 +27,9 @@
     "page": "175-176"
   },
   "token_usage": {
-    "completion_tokens": 454,
-    "prompt_tokens": 1116,
-    "total_tokens": 1570,
+    "completion_tokens": 918,
+    "prompt_tokens": 1152,
+    "total_tokens": 2070,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -41,7 +41,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

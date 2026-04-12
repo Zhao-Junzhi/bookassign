@@ -1,21 +1,21 @@
 {
-  "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+  "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
   "task": [
     {
-      "query": "Check that the variances of the three samples are not significantly different using an $F_{\\text{max}}$ test.",
-      "answer": "The highest variance is for minibuses (30.786). The lowest variance is for cars (12.982). $F_{\\max }=2.37, k=3, \\mathrm{df}=7, P>0.05$; therefore the variances are not significantly different."
+      "query": "Check that the variances of the three samples are not significantly different using an $F_{\\text {max }}$ test.",
+      "answer": "The highest variance is for minibuses (30.786).\n\nThe lowest variance is for cars (12.982).\n$F_{\text{max}}=2.37, k=3, \text{df}=7, P>0.05$; therefore the variances are not significantly different."
     },
     {
-      "query": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table.",
-      "answer": "Vehicle type: df = 2, Sums of squares = 2629.750, Mean squares = 1314.875, F = 58.516, P < 0.0001. Within: df = 21, Sums of squares = 471.875, Mean squares = 22.470. Total: df = 23, Sums of squares = 3101.625."
+      "query": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table:\n\n\\begin{tabular}{llllll}\n\\hline & df & Sums of squares & Mean squares & F value & $P$ \\\\\n\\hline Vehicle type & & & & \\\\\nWithin & & & & \\\\\nTotal & & & & \\\\\n\\hline\n\\end{tabular}",
+      "answer": "\\begin{tabular}{llllll}\n\\hline Vehicle type & 2 & 2629.750 & 1314.875 & 58.516 & $<0.0001$ \\\\\nWithin & 21 & 471.875 & 22.470 & & \\\\\nTotal & 23 & 3101.625 & & & \\\\\n\\hline\n\\end{tabular}"
     },
     {
-      "query": "Calculate the mean $(\\bar{x})$ and standard error $(SE)$ of $\\mathrm{NO}_2$ concentration in each vehicle type.",
-      "answer": "Cars: $\\bar{x} = 68.1 \\mathrm{ppb}$, SE = 1.27 ppb. Minibuses: $\\bar{x} = 52.3 \\mathrm{ppb}$, SE = 1.96 ppb. Buses: $\\bar{x} = 42.8 \\mathrm{ppb}$, SE = 1.72 ppb."
+      "query": "Calculate the mean $(\\bar{x})$ and standard error $(SE)$ of $\\mathrm{NO}_2$ concentration in each vehicle type:",
+      "answer": "\\begin{tabular}{llllll}\n\\hline Cars & & Minibuses & & Buses & \\\\\n\\hline$\\overline{\\boldsymbol{x}}: 68.1 \\mathrm{ppb}$ & SE: 1.27 ppb & $\\overline{\\boldsymbol{x}}: 52.3 \\mathrm{ppb}$ & SE: 1.96 ppb & $\\overline{\\boldsymbol{x}}: 42.8 \\mathrm{ppb}$ & SE: 1.72 ppb \\\\\n\\hline\n\\end{tabular}"
     },
     {
       "query": "Using multiple comparison tests where appropriate, what do you conclude from your analysis of these data?",
-      "answer": "There is a significant difference between the $\\mathrm{NO}_2$ concentration in the different types of vehicle, with cars having the most and buses the least. Using Tukey's multiple comparisons: The MSD is smaller than the difference between any pair of means, therefore all the means are significantly different from each other (Cars > Minibuses > Buses; $P<0.05$)."
+      "answer": "There is a significant difference between the $\\mathrm{NO}_2$ concentration in the different types of vehicle, with cars having the most and buses the least. Using Tukey's multiple comparisons:\nThe MSD is smaller than the difference between any pair of means, therefore all the means are significantly different from each other (Cars $>$ Minibuses $>$ Buses; $P<0.05$ )."
     }
   ],
   "id": "019",
@@ -31,9 +31,9 @@
     "page": "172-173"
   },
   "token_usage": {
-    "completion_tokens": 605,
-    "prompt_tokens": 1152,
-    "total_tokens": 1757,
+    "completion_tokens": 819,
+    "prompt_tokens": 1188,
+    "total_tokens": 2007,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -45,7 +45,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

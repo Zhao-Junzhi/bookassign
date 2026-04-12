@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\019.json",
   "input": {
-    "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+    "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table."
+    "question": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table:\n\n\\begin{tabular}{llllll}\n\\hline & df & Sums of squares & Mean squares & F value & $P$ \\\\\n\\hline Vehicle type & & & & \\\\\nWithin & & & & \\\\\nTotal & & & & \\\\\n\\hline\n\\end{tabular}"
   },
   "output": {
-    "answer": "Vehicle type: df = 2, Sums of squares = 2629.750, Mean squares = 1314.875, F = 58.516, P < 0.0001. Within: df = 21, Sums of squares = 471.875, Mean squares = 22.470. Total: df = 23, Sums of squares = 3101.625."
+    "answer": "\\begin{tabular}{llllll}\n\\hline Vehicle type & 2 & 2629.750 & 1314.875 & 58.516 & $<0.0001$ \\\\\nWithin & 21 & 471.875 & 22.470 & & \\\\\nTotal & 23 & 3101.625 & & & \\\\\n\\hline\n\\end{tabular}"
   },
   "meta_info": {
     "index": "7.1",
@@ -20,27 +20,18 @@
   },
   "sample_key": "62",
   "token_usage": {
-    "completion_tokens": 43,
-    "prompt_tokens": 1190,
-    "total_tokens": 1233,
+    "completion_tokens": 24,
+    "prompt_tokens": 758,
+    "total_tokens": 782,
     "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
       "reasoning_tokens": 0,
-      "text_tokens": 0
+      "rejected_prediction_tokens": 0
     },
     "prompt_tokens_details": {
       "audio_tokens": 0,
-      "cached_tokens": 0,
-      "cached_creation_tokens": 1189,
-      "text_tokens": 0,
-      "image_tokens": 0
-    },
-    "usage_semantic": "openai",
-    "usage_source": "anthropic",
-    "input_tokens": 1190,
-    "output_tokens": 0,
-    "input_tokens_details": null,
-    "claude_cache_creation_5_m_tokens": 1189,
-    "claude_cache_creation_1_h_tokens": 0
+      "cached_tokens": 0
+    }
   }
 }

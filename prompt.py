@@ -24,7 +24,9 @@ prompt_gen_0 = '''
 ],
 }
 
-注意："background"，"query"，"answer"字段仍用英文表述。
+注意：
+- "background"，"query"，"answer"字段仍用英文表述。
+- "background"部分需要保留原question中作为所有子问题共同使用的数据表格（一般是由question中的LaTex代码表示的表格）
 下面，请按要求处理给出的统计学教材习题：
 
 '''

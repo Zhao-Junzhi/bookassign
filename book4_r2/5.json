@@ -1,9 +1,9 @@
 {
   "case_id": "book4_r1\\001.json",
   "input": {
-    "background": "Identify the data types represented by various variables in a given table.",
+    "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "What is the data type of the variable 'Footpath construction (concrete, gravel, none)'?"
+    "question": "What is the data type for 'Footpath construction (concrete, gravel, none)'?"
   },
   "output": {
     "answer": "Nominal"

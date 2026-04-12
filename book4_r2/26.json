@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\007.json",
   "input": {
-    "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were provided in tabular format.",
+    "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were:\n\n\\begin{tabular}{lllllllllllllllllllll} \nGenetically modified food & 5 & 1 & 1 & 4 & 3 & 3 & 4 & 5 & 2 & 3 & 5 & 4 & 3 & 2 & 1 & 5 & 1 & 2 & 2 & 3 \\\\\nIntensive pesticide use & 2 & 1 & 2 & 1 & 1 & 2 & 3 & 1 & 2 & 3 & 3 & 1 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 2 \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "Illustrate the data using box and whisker plots for the level of public concern regarding genetically modified food and intensive pesticide use."
+    "question": "(ii) Illustrate the data using box and whisker plots."
   },
   "output": {
-    "answer": "The level of public concern regarding the genetically modified food and intensive pesticide use (n=20 in each case)."
+    "answer": "(ii) The level of public concern regarding the genetically modified food and intensive pesticide use ( $n-20$ in each case)"
   },
   "meta_info": {
     "index": "2.2",

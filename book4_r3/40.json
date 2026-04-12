@@ -1,9 +1,9 @@
 {
   "case_id": "book4_r1\\013.json",
   "input": {
-    "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+    "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
     "data": null,
-    "question": "Which statistical test would you employ if the investigators had measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month?"
+    "question": "Measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month. Which test would you employ to identify differences between the central tendency of the samples?"
   },
   "output": {
     "answer": "A Mann-Whitney $U$ test would be appropriate for this unpaired comparison of ranked scores."
@@ -20,27 +20,14 @@
   },
   "sample_key": "40",
   "token_usage": {
-    "completion_tokens": 43,
-    "prompt_tokens": 1028,
-    "total_tokens": 1071,
+    "completion_tokens": 105,
+    "prompt_tokens": 538,
+    "total_tokens": 643,
     "completion_tokens_details": {
-      "audio_tokens": 0,
-      "reasoning_tokens": 0,
-      "text_tokens": 0
+      "reasoning_tokens": 82
     },
     "prompt_tokens_details": {
-      "audio_tokens": 0,
-      "cached_tokens": 0,
-      "cached_creation_tokens": 1027,
-      "text_tokens": 0,
-      "image_tokens": 0
-    },
-    "usage_semantic": "openai",
-    "usage_source": "anthropic",
-    "input_tokens": 1028,
-    "output_tokens": 0,
-    "input_tokens_details": null,
-    "claude_cache_creation_5_m_tokens": 1027,
-    "claude_cache_creation_1_h_tokens": 0
+      "cached_tokens": 0
+    }
   }
 }

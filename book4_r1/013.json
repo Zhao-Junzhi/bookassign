@@ -1,20 +1,20 @@
 {
-  "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+  "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
   "task": [
     {
-      "query": "Which statistical test would you employ if the investigators had measured the lung capacity (in cubic metres) of the non-smokers before smoking was banned, and on the same staff a month after a ban on smoking had been enforced?",
+      "query": "Measured the lung capacity (in cubic metres) of the non-smokers before smoking was banned, and on the same staff a month after a ban on smoking had been enforced. Which test would you employ to identify differences between the central tendency of the samples?",
       "answer": "Ideally a paired $t$ test would be employed (a Wilcoxon test could be used, but is more conservative when data are likely to be normally distributed)."
     },
     {
-      "query": "Which statistical test would you employ if the investigators had measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month?",
+      "query": "Measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month. Which test would you employ to identify differences between the central tendency of the samples?",
       "answer": "A Mann-Whitney $U$ test would be appropriate for this unpaired comparison of ranked scores."
     },
     {
-      "query": "Which statistical test would you employ if the investigators had measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of the non-smoking office staff before smoking was banned, and on the same staff a month after a ban on smoking had been enforced?",
+      "query": "Measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of the nonsmoking office staff before smoking was banned, and on the same staff a month after a ban on smoking had been enforced. Which test would you employ to identify differences between the central tendency of the samples?",
       "answer": "A Wilcoxon matched-pairs test would be suitable for these paired samples of ranked scores."
     },
     {
-      "query": "Which statistical test would you employ if the investigators had measured the lung capacity (in cubic metres) of non-smoking staff in an office where smoking was allowed and similarly of non-smoking staff in an adjacent office where smoking had been banned for a month?",
+      "query": "Measured the lung capacity (in cubic metres) of non-smoking staff in an office where smoking was allowed and similarly of non-smoking staff in an adjacent office where smoking had been banned for a month. Which test would you employ to identify differences between the central tendency of the samples?",
       "answer": "Ideally a $t$ test would be employed (a Mann-Whitney $U$ test could be used, but is more conservative when data are likely to be normally distributed)."
     }
   ],
@@ -31,9 +31,9 @@
     "page": "79-79"
   },
   "token_usage": {
-    "completion_tokens": 454,
-    "prompt_tokens": 691,
-    "total_tokens": 1145,
+    "completion_tokens": 509,
+    "prompt_tokens": 727,
+    "total_tokens": 1236,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -45,7 +45,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

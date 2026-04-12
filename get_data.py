@@ -22,7 +22,7 @@ def get_json_files_relative(subdir):
     return json_files
 
 # 使用示例
-json_files = get_json_files_relative('book5_r1')
+json_files = get_json_files_relative('book4_r1')
 this_dic={}
 num=0
 
@@ -55,10 +55,10 @@ for file_path in json_files:
             "meta_info":data["meta_info"]
         }
 
-with open('data0_book5.json', 'w', encoding='utf-8') as f:
+with open('data0_book4.json', 'w', encoding='utf-8') as f:
     json.dump(this_dic, f, ensure_ascii=False, indent=2)
 
 import pickle
 
-with open('data0_book5.pkl', 'wb') as f:  # 'wb'表示以二进制写入模式
+with open('data0_book4.pkl', 'wb') as f:  # 'wb'表示以二进制写入模式
     pickle.dump(this_dic, f)

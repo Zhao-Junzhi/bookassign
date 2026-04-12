@@ -1,9 +1,9 @@
 {
   "case_id": "book4_r1\\004.json",
   "input": {
-    "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
+    "background": "An environmental researcher wishes to measure the plant diversity in an area of $100 \\times 100 \\mathrm{~m}$ in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
     "data": null,
-    "question": "Identify which of the designs is random, systematic, or stratified-random for the following method: Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines. State briefly any main advantages and disadvantages of this method."
+    "question": "Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of the method: (iii) Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines."
   },
   "output": {
     "answer": "(iii) Systematic.\n\nAdvantage: covers all of the meadow, taking into account the possibility that conditions across the site may differ.\nDisadvantage: there may be an underlying pattern of plant diversity that has a 10 m periodicity."

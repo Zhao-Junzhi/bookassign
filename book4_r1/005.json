@@ -1,8 +1,8 @@
 {
-  "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+  "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
   "task": [
     {
-      "query": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars and from each of 20 small cars?",
+      "query": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars, and from each of 20 small cars?",
       "answer": "He should take a single reading from each of 20 different large cars and from each of 20 different small cars."
     },
     {
@@ -23,9 +23,9 @@
     "page": "20-21"
   },
   "token_usage": {
-    "completion_tokens": 204,
-    "prompt_tokens": 453,
-    "total_tokens": 657,
+    "completion_tokens": 205,
+    "prompt_tokens": 489,
+    "total_tokens": 694,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -37,7 +37,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

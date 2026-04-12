@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\002.json",
   "input": {
-    "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+    "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
     "data": null,
-    "question": "Is the variable 'Percentage of leaves on a tree displaying fungal infection' continuous or discrete?"
+    "question": "Determine whether 'Percentage of leaves on a tree displaying fungal infection' is continuous or discrete."
   },
   "output": {
-    "answer": "Continuous"
+    "answer": "Continuous: ✓, Discrete: "
   },
   "meta_info": {
     "index": "1.2",

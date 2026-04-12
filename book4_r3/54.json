@@ -1,0 +1,33 @@
+{
+  "case_id": "book4_r1\\017.json",
+  "input": {
+    "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
+    "data": null,
+    "question": "Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values."
+  },
+  "output": {
+    "answer": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline (ii) & Pre-thicket & Thicket & High forest & Row totals \\\\ \n\\hline Present & 7.333 & 6.722 & 7.944 & 22 \\\\ \n\\hline Absent & 4.667 & 4.278 & 5.056 & 14 \\\\ \n\\hline & & & & Grand total: \\\\ \n\\hline Column totals & 12 & 11 & 13 & \\\\ \n\\hline\n\\end{tabular}"
+  },
+  "meta_info": {
+    "index": "6.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Analysing frequency data",
+    "section": "Questions",
+    "book": "Using Statistics to Understand the Environment",
+    "page": "122-123"
+  },
+  "sample_key": "54",
+  "token_usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 1085,
+    "total_tokens": 1141,
+    "completion_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  }
+}

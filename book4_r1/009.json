@@ -1,9 +1,9 @@
 {
-  "background": "Two sources of sediment in rivers are construction sites (urban origin) and agricultural land (rural origin). To investigate whether there is a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected. The river sections were otherwise similar in size, flow rate, altitude, etc. Sediment loads (in milligrams per litre) were recorded for both rural and urban areas, and the data were examined to be normally distributed.",
+  "background": "Two sources of sediment in rivers are construction sites (which are likely to be urban in origin) and agricultural land (rural in origin). To investigate whether there was a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected (each river was only used once, i.e. the data are independent). The river sections were otherwise similar in size, flow rate, altitude etc. The following sediment loads (in milligrams per litre) were obtained:\n\\begin{tabular}{lllllllllll} \nRural & 82 & 55 & 50 & 34 & 50 & 44 & 29 & 77 & 60 & 71 \\\\\nUrban & 95 & 111 & 39 & 78 & 56 & 62 & 82 & 93 & 77 & 62 \\\\\n\\hline\n\\end{tabular}",
   "task": [
     {
-      "query": "Use a t-test on the given data and record the following: Mean suspended sediment for rural and urban rivers, standard deviation for rural and urban rivers, t value, degrees of freedom (df), and probability (P).",
-      "answer": "Mean suspended sediment: Rural = 55.2 mg l^-1, Urban = 75.5 mg l^-1; Standard deviation: Rural = 17.58 mg l^-1, Urban = 21.28 mg l^-1; t = 2.326, df = 18, P < 0.05 (= 0.0319)."
+      "query": "The above data have been examined and appear to be normally distributed. Use a $t$ test on the data, and record the following:\n\\begin{tabular}{|l|l|l|}\n\\hline & Rural & Urban \\\\\n\\hline Mean suspended sediment & & \\\\\n\\hline Standard deviation & & \\\\\n\\hline $t$ value & & \\\\\n\\hline df & & \\\\\n\\hline Probability & & \\\\\n\\hline\n\\end{tabular}",
+      "answer": "\\begin{tabular}{lll}\n\\hline & Rural & Urban \\\\\n\\hline Mean suspended sediment & $55.2 \\mathrm{mg} \\mathrm{1}^{-l}$ & $75.5 \\mathrm{mg} \\mathrm{1}^{-l}$ \\\\\nStandard deviation & $17.58 \\mathrm{mg} \\mathrm{1}^{-l}$ & $21.28 \\mathrm{mg} \\mathrm{1}^{-l}$ \\\\\n$t=2.326$ & $\\mathrm{df}=18$ & $P<0.05(=0.0319)$ \\\\\n\\hline\n\\end{tabular}"
     },
     {
       "query": "What can you conclude about the suspended sediment levels in rural and urban rivers?",
@@ -23,9 +23,9 @@
     "page": "77-78"
   },
   "token_usage": {
-    "completion_tokens": 295,
-    "prompt_tokens": 785,
-    "total_tokens": 1080,
+    "completion_tokens": 530,
+    "prompt_tokens": 821,
+    "total_tokens": 1351,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
@@ -37,7 +37,7 @@
       "cached_tokens": 0
     },
     "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": null
+    "input_tokens_details": null,
+    "output_tokens": 0
   }
 }

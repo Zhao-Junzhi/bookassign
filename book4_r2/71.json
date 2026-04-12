@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\022.json",
   "input": {
-    "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes). The data is presented for different regions (Atlantic, North Sea East Coast, North Sea Channel, Celtic Sea, Irish Sea). The goal is to analyze whether there is a difference in nitrogen input based on the route (rivers vs. direct) and among regions using a two-way ANOVA, assuming no interaction between input route and region. Additionally, multiple comparison tests are used to draw conclusions.",
+    "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes):\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & & \\multicolumn{5}{|l|}{Region} \\\\\n\\hline & & Atlantic & North Sea (East coast) & North Sea (Channel) & Celtic Sea & Irish Sea \\\\\n\\hline Route & Rivers & 28 & 93 & 17 & 30 & 42 \\\\\n\\hline & Direct & 10 & 77 & 12 & 11 & 6 \\\\\n\\hline\n\\end{tabular}",
     "data": null,
     "question": "Using multiple comparison tests where appropriate, what can you conclude from these results?"
   },
   "output": {
-    "answer": "River input is significantly higher than direct input (River = 42; Direct = 23.2), and there is a significant difference among regions. Tukey's multiple comparisons reveal that the North Sea East Coast has significantly higher nitrogen input than all the other regions (P < 0.05). None of the other regions differ from each other: North Sea East Coast > (Irish Sea, Celtic Sea, Atlantic, North Sea Channel)."
+    "answer": "(ii) River input is significantly higher than direct input (River $=42$; Direct $=23.2$), and there is a significant difference among regions. Tukey's multiple comparisons reveal that the North Sea East Coast has significantly higher nitrogen input than all the other regions ($P<0.05$). None of the other regions differ from each other: North Sea East Coast $>$ (Irish Sea, Celtic Sea, Atlantic, North Sea Channel)."
   },
   "meta_info": {
     "index": "7.4",

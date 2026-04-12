@@ -1,9 +1,9 @@
 {
   "case_id": "book4_r1\\005.json",
   "input": {
-    "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+    "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
     "data": null,
-    "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars and from each of 20 small cars?"
+    "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars, and from each of 20 small cars?"
   },
   "output": {
     "answer": "He should take a single reading from each of 20 different large cars and from each of 20 different small cars."
@@ -20,27 +20,18 @@
   },
   "sample_key": "19",
   "token_usage": {
-    "completion_tokens": 43,
-    "prompt_tokens": 1007,
-    "total_tokens": 1050,
+    "completion_tokens": 24,
+    "prompt_tokens": 482,
+    "total_tokens": 506,
     "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
       "reasoning_tokens": 0,
-      "text_tokens": 0
+      "rejected_prediction_tokens": 0
     },
     "prompt_tokens_details": {
       "audio_tokens": 0,
-      "cached_tokens": 0,
-      "cached_creation_tokens": 1006,
-      "text_tokens": 0,
-      "image_tokens": 0
-    },
-    "usage_semantic": "openai",
-    "usage_source": "anthropic",
-    "input_tokens": 1007,
-    "output_tokens": 0,
-    "input_tokens_details": null,
-    "claude_cache_creation_5_m_tokens": 1006,
-    "claude_cache_creation_1_h_tokens": 0
+      "cached_tokens": 0
+    }
   }
 }
