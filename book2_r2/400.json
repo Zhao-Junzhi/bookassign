@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\150.json",
+  "input": {
+    "background": "Refer to the simple linear regression analysis of the advertising-sales data, Examples 11.1 and 11.2. The objective is to determine if sales revenue (y) is linearly related to advertising expenditure (x) using a hypothesis test at significance level α = 0.05.",
+    "data": null,
+    "question": "What is the null hypothesis (H0) and alternative hypothesis (Ha) for this test?"
+  },
+  "output": {
+    "answer": "The null hypothesis is $H_0: \\beta_1 = 0$, and the alternative hypothesis is $H_a: \\beta_1 \\neq 0$."
+  },
+  "meta_info": {
+    "index": "11.3",
+    "img_in_question": null
+  },
+  "sample_key": "400"
+}

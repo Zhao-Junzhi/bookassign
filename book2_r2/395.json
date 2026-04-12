@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\148.json",
+  "input": {
+    "background": "Refer to the advertising-monthly-sales data presented in Table 11.1. Consider the straight-line model, $E(y)=\\beta_0+\\beta_1 x$, where $y=$ sales revenue (thousands of dollars) and $x=$ advertising expenditure (hundreds of dollars).",
+    "data": null,
+    "question": "Predict the sales revenue when advertising expenditure is $\\$ 200$ (i.e., when $x=2$)."
+  },
+  "output": {
+    "answer": "The predicted value of $y$ for a given value of $x$ can be obtained by substituting into the formula for the least squares line. Substituting $x=2$ into the least squares equation yields\n\n$$\n\\hat{y}=-.1+.7 x=-.1+.7(2)=1.3\n$$\n\nThus, when advertising expenditure is $\\$ 200$, we predict monthly sales revenue to be $\\$ 1,300$. We show how to find a prediction interval for $y$ in Section 11.6."
+  },
+  "meta_info": {
+    "index": "11.1",
+    "img_in_question": null
+  },
+  "sample_key": "395"
+}

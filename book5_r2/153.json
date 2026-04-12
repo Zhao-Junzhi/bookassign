@@ -1,23 +1,16 @@
 {
-  "case_id": "book5_r1\\062.json",
+  "case_id": "book5_r1\\053.json",
   "input": {
-    "background": "If two studies' results yield $\\mathrm{P}<0.001$ and $\\mathrm{P}=0.02$, why is it not necessarily true, as noted in section 16.3.6, that the former has found a stronger effect than the latter?",
-    "data": null,
-    "question": "Why might two clinical trials of different sizes yield the same treatment effect but different P values?"
+    "background": "Furst and Paulus (1975) conducted a study to compare the metabolism of clonixin in 12 patients with rheumatoid arthritis and 12 normal controls. Clonixin, an anti-inflammatory analgesic, was administered as three 250 mg tablets, and serum clonixin levels were measured at 0, 0.5, 1, 2, 4, 6, and 8 hours after administration. The authors did not report the initial (0 hour) values, but the remaining data were analyzed.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hlinePatients with rheumatoid arthritis:\\\\\n\\hline & \\multicolumn{6}{|c|}{Clonixin levels ( $\\mu \\mathrm{g} / \\mathrm{ml}$ )} \\\\\n\\hline Patient & \\multicolumn{5}{|c|}{Time (hours)}\\\\\n\\hline & 0.5 & 1 & 2 & 4 & 6 & 8 \\\\\n\\hline 1 & 12.70 & 32.20 & 42.00 & 19.80 & 7.09 & 2.10 \\\\\n\\hline 2 & 18.48 & 40.24 & 45.87 & 15.61 & 5.58 & 3.25 \\\\\n\\hline 3 & 6.70 & 20.60 & 27.70 & 11.49 & 2.48 & 0.56 \\\\\n\\hline\n\\end{tabular}\n\\captionsetup{labelformat=empty}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & \\multicolumn{6}{|c|}{Clonixin levels ( $\\mu \\mathrm{g} / \\mathrm{ml}$ )} \\\\\n\\hline Patient & \\multicolumn{5}{|c|}{Time (hours)} & \\\\\n\\hline & 0.5 & 1 & 2 & 4 & 6 & 8 \\\\\n\\hline 4 & 24.20 & 16.20 & 7.84 & 5.30 & 0.38 & 0.00 \\\\\n\\hline 5 & 14.70 & 28.30 & 31.90 & 16.08 & 9.20 & 3.60 \\\\\n\\hline 6 & 6.55 & 29.17 & 33.30 & 15.17 & 3.17 & 0.00 \\\\\n\\hline 7 & 41.70 & 29.40 & 16.90 & 7.04 & 3.48 & 2.56 \\\\\n\\hline 8 & 1.49 & 47.26 & 32.78 & 15.89 & 4.72 & 2.61 \\\\\n\\hline 9 & 13.04 & 19.08 & 39.47 & 12.42 & 4.91 & 2.86 \\\\\n\\hline 10 & 29.28 & 44.94 & 45.72 & 12.71 & 4.43 & 1.67 \\\\\n\\hline 11 & 8.61 & 20.34 & 44.33 & 6.74 & 2.15 & 1.11 \\\\\n\\hline 12 & 28.10 & 56.10 & 36.68 & 19.10 & 5.62 & 1.82 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nControl subjects:\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & \\multicolumn{6}{|c|}{Clonixin levels ( $\\mu \\mathrm{g} / \\mathrm{ml}$ )} \\\\\n\\hline Patient & \\multicolumn{5}{|c|}{Time (hours)}\\\\\n\\hline & 0.5 & 1 & 2 & 4 & 6 & 8 \\\\\n\\hline 13 & 58.10 & 65.90 & 46.89 & 17.50 & 5.40 & 1.67 \\\\\n\\hline 14 & 19.20 & 22.20 & 36.50 & 10.70 & 2.74 & 0.94 \\\\\n\\hline 15 & 14.21 & 22.35 & 32.50 & 16.49 & 5.44 & 2.42 \\\\\n\\hline 16 & 5.25 & 11.13 & 29.13 & 7.84 & 2.21 & 1.19 \\\\\n\\hline 17 & 4.44 & 43.74 & 38.22 & 12.10 & 2.78 & 0.02 \\\\\n\\hline 18 & 21.20 & 41.20 & 46.30 & 21.70 & 9.46 & 4.31 \\\\\n\\hline 19 & 31.60 & 32.80 & 53.00 & 39.50 & 17.88 & 6.90 \\\\\n\\hline 20 & 0.58 & 2.68 & 4.01 & 51.90 & 21.80 & 7.64 \\\\\n\\hline 21 & 40.90 & 49.00 & 38.24 & 11.09 & 4.57 & 0.80 \\\\\n\\hline 22 & 31.70 & 44.20 & 58.10 & 24.10 & 12.60 & 5.30 \\\\\n\\hline 23 & 36.35 & 47.12 & 30.96 & 7.45 & 2.42 & 1.75 \\\\\n\\hline 24 & 17.57 & 34.01 & 40.20 & 23.80 & 10.80 & 7.80 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Plot the mean levels in each group."
   },
   "output": {
-    "method": "假设检验",
-    "answer": "Two clinical trials of different sizes may yield the same treatment effect but different P values."
+    "answer": "The means are plotted in Figure A14.2. The means for the two groups show a very similar pattern."
   },
   "meta_info": {
-    "index": "16.1",
-    "img_in_question": null,
-    "img_in_answer": null,
-    "caption": null,
-    "chapter": "The medical literature",
-    "section": "EXERCISES",
-    "book": "Practical statistics for medical research",
-    "page": "499-499"
+    "index": "14.2",
+    "img_in_question": null
   },
   "sample_key": "153"
 }

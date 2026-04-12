@@ -1,0 +1,19 @@
+{
+  "case_id": "book2_r1\\156.json",
+  "input": {
+    "background": "Refer to the first-order model for auction price $(y)$ considered in Example 12.1.",
+    "data": null,
+    "question": "Interpret the estimates of the $\beta$ parameters in the model."
+  },
+  "output": {
+    "answer": "The least squares prediction equation, as given in Example 12.1, is $\u0001\text{hat}{y}=-1,339+ 12.74 x_1+85.95 x_2$. We know that with first-order models, $\beta_1$ represents the slope of the line relating $y$ to $x_1$ for fixed $x_2$. That is, $\beta_1$ measures the change in $E(y)$ for every 1-unit increase in $x_1$ when the other independent variable in the model is held fixed. A similar statement can be made about $\beta_2: \beta_2$ measures the change in $E(y)$ for every 1-unit increase in $x_2$ when the other $x$ in the model is held fixed."
+  },
+  "meta_info": {
+    "index": "12.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\\beta$ Estimates: Clock Auction Price Model",
+    "chapter": "Multiple Regression and Model Building"
+  },
+  "sample_key": "419"
+}

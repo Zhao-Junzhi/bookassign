@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_104.json",
+  "input": {
+    "background": "Determine whether to use a one-sample, paired-sample, or independent-sample $t$ procedure in different experimental scenarios.",
+    "data": "",
+    "question": "A different technician compares the concentration of ten specimens using two different assay kits. Ten measurements are taken with each kit. Results are then compared."
+  },
+  "output": {
+    "answer": "Paired samples"
+  },
+  "meta_info": {
+    "index": "12.11",
+    "image": "",
+    "caption": "Testing a test kit.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "254-254"
+  },
+  "sample_key": "247",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 983,
+    "total_tokens": 1026,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 910,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 983,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 910,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

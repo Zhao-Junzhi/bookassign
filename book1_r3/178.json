@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_079.json",
+  "input": {
+    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
+    "data": "",
+    "question": "Sketch the sampling distribution of 𝑥̄ based on an SRS of n=20. Assume μ=85,100 and σ=10,000. Mark the horizontal axis with landmarks that are ±1 and ±2 standard errors around μ. Locate 𝑥̄=80,900 on the horizontal axis of the curve."
+  },
+  "output": {
+    "answer": "First note that SE𝑥̄ = 10,000 / √20 = 2,236. Under the null hypothesis 𝑥̄ ~ N(85,100, 2,236). The sketch of 𝑥̄ ~ N(85,100, 2,236) is not shown in this key. The sampling distribution of 𝑥̄ should be Normal with landmarks on the curve starting 2 standard errors below the mean at 80,628, 82,864, 85,100, 87,336, and 89,572."
+  },
+  "meta_info": {
+    "index": "9.15",
+    "image": "",
+    "caption": "Female administrators.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
+  },
+  "sample_key": "178",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1291,
+    "total_tokens": 1334,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1245,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1291,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1245,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

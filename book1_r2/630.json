@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_396.json",
+  "input": {
+    "background": "Suppose you want to test $H_0: \\mu_1=\\mu_2$ for the cholesterol illustrative example at $\\alpha=$ 0.05 (two-sided) with $90 \\%$ power. You are looking for a mean difference of $1 \\mathrm{mmol} / \\mathrm{L}$ and will use the pooled estimate of variance (about 0.25) as a reasonable estimate of $\\sigma^2$. How many individuals must be studied to achieve these conditions?",
+    "data": "",
+    "question": "Calculate the sample size $n$ using the formula $n=\\frac{2 \\sigma^2\\left(z_{1-\\beta}+z_{1-\\frac{\\alpha}{2}}\\right)^2}{\\Delta^2}$ given $\\sigma^2=0.25$, $z_{1-\\beta}=1.282$, $z_{1-(\\alpha / 2)}=1.96$, and $\\Delta=1$."
+  },
+  "output": {
+    "answer": "$n=\\frac{2 \\cdot 0.25 \\cdot(1.282+1.96)^2}{1^2}=5.26$."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement for hypothesis test.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "252-252"
+  },
+  "sample_key": "630"
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_081.json",
+  "input": {
+    "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that H0 is true in a statistical hypothesis test. Other analogies exist.",
+    "data": "",
+    "question": "Which type of decision is analogous to a type II error?"
+  },
+  "output": {
+    "answer": "Declaring a criminal not guilty (c) is analogous to a type II error."
+  },
+  "meta_info": {
+    "index": "9.19",
+    "image": "",
+    "caption": "The criminal justice analogy.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "195-195"
+  },
+  "sample_key": "187",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1033,
+    "total_tokens": 1076,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 994,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1033,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 994,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

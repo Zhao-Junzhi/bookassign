@@ -1,71 +1,20 @@
 {
-  "case_id": "book1_r1\\record_132.json",
+  "case_id": "book1_r1\\record_109.json",
   "input": {
-    "background": "Each year, cardiologists surgically repair thousands of clogged coronary arteries only to have many of these arteries narrow again (restenose) soon after surgery. A study sponsored by the NIH was conducted to help determine whether infection with a common type of virus, cytomegalovirus (CMY), contributed to coronary restenosis. Forty-nine of the subjects showed serological evidence of CMV infection, while 26 showed no such evidence. In the CMV+ group, 21 individuals restenosed within 6 months of atherectomy. In the CMV — group, 2 individuals restenosed.",
-    "data": "",
-    "question": "Explain the confidence interval in lay terms."
+    "background": "Table 12.3 contains data from a randomized, double-blind, placebo-controlled trial that examined the effects of calcium supplementation on blood pressure in normotensive men. After establishing a baseline blood pressure measurement, subjects were assigned to either a treatment group or placebo control group. The treatment group was supplemented with 1500 milligrams of calcium per day for a 12-week period. The control group received an identical-looking placebo. Systolic blood pressure measurements were taken at the beginning and end of a 12-week period.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.3 Effect of calcium supplementation on blood pressure.}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline \\multirow[b]{2}{*}{SUBJECT ID No.} & \\multirow{2}{*}{\\begin{tabular}{l}\nGROUP \\\n1 = treatment 2 = placebo\n\\end{tabular}} & \\multirow[b]{2}{*}{BEFORE mm Hg} & \\multirow[b]{2}{*}{AFTER mm Hg} & \\multirow[b]{2}{*}{DELTA mm Hg} \\\n\\hline & & & & \\\n\\hline 1 & 1 & 107 & 100 & 7 \\\n\\hline 2 & 1 & 110 & 114 & -4 \\\n\\hline 3 & 1 & 123 & 105 & 18 \\\n\\hline 4 & 1 & 129 & 112 & 17 \\\n\\hline 5 & 1 & 112 & 115 & -3 \\\n\\hline 6 & 1 & 111 & 116 & -5 \\\n\\hline 7 & 1 & 107 & 106 & 1 \\\n\\hline 8 & 1 & 112 & 102 & 10 \\\n\\hline 9 & 1 & 136 & 125 & 11 \\\n\\hline 10 & 1 & 102 & 104 & -2 \\\n\\hline 11 & 2 & 123 & 124 & -1 \\\n\\hline 12 & 2 & 109 & 97 & 12 \\\n\\hline 13 & 2 & 112 & 113 & -1 \\\n\\hline 14 & 2 & 102 & 105 & -3 \\\n\\hline 15 & 2 & 98 & 95 & 3 \\\n\\hline 16 & 2 & 114 & 119 & -5 \\\n\\hline 17 & 2 & 119 & 114 & 5 \\\n\\hline 18 & 2 & 114 & 112 & 2 \\\n\\hline 19 & 2 & 110 & 121 & -11 \\\n\\hline 20 & 2 & 117 & 118 & -1 \\\n\\hline 21 & 2 & 130 & 133 & -3 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Explore the changes in blood pressure in the two groups with side-by-side boxplots."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "We have 95% confidence in the technique used to calculate the confidence interval. The technique says that CMV increases the risk of restenosis by between 14.7% and 50.2%.",
-    "variable": {
-      "CMV_infection_status": {
-        "id": "CMV_infection_status",
-        "value": [
-          "CMV+",
-          "CMV-"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates whether the subject showed serological evidence of CMV infection."
-      },
-      "restenosis_within_6_months": {
-        "id": "restenosis_within_6_months",
-        "value": [
-          "Yes",
-          "No"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates whether the subject experienced restenosis within 6 months of atherectomy."
-      },
-      "number_of_subjects_CMV_positive": {
-        "id": "number_of_subjects_CMV_positive",
-        "value": 49,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects who showed serological evidence of CMV infection."
-      },
-      "number_of_subjects_CMV_negative": {
-        "id": "number_of_subjects_CMV_negative",
-        "value": 26,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects who showed no serological evidence of CMV infection."
-      },
-      "number_of_restenosis_CMV_positive": {
-        "id": "number_of_restenosis_CMV_positive",
-        "value": 21,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects in the CMV+ group who experienced restenosis within 6 months."
-      },
-      "number_of_restenosis_CMV_negative": {
-        "id": "number_of_restenosis_CMV_negative",
-        "value": 2,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects in the CMV- group who experienced restenosis within 6 months."
-      }
-    }
+    "answer": "Here are the side-by-side boxplots: The plot shows that the calcium treated group had a greater average decline in blood pressure. They also exhibited greater variability. There is a high outside value in the placebo group."
   },
   "meta_info": {
-    "index": "17.3",
+    "index": "12.21",
     "image": "",
-    "caption": "Cytomegalovirus and coronary restenosis.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
-    "page": "379-379"
+    "caption": "Calcium supplementation and blood pressure, exploration.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "258-258"
   },
   "sample_key": "259"
 }

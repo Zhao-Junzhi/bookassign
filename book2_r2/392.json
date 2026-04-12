@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\147.json",
+  "input": {
+    "background": "A large brokerage firm wants to determine whether the service it provides to affluent clients differs from the service it provides to lower-income clients. A sample of 500 clients is selected, and each client is asked to rate his or her broker. The results are shown in Table 10.7.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 10.7 Survey Results (Observed Clients), Example 10.3}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{} & \\multicolumn{3}{|c|}{Client's Income} & \\\n\\hline & & Under \\$30,000 & \\$30,000-\\$60,000 & Over \\$60,000 & Totals \\\n\\hline Broker Rating & Outstanding & 48 & 64 & 41 & 153 \\\n\\hline & Average & 98 & 120 & 50 & 268 \\\n\\hline & Poor & 30 & 33 & 16 & 79 \\\n\\hline & Totals & 176 & 217 & 107 & 500 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Test to determine whether there is evidence that broker rating and customer income are dependent. Use α = 0.05."
+  },
+  "output": {
+    "answer": "The first step is to obtain estimated expected cell frequencies under the assumption that the classifications are independent. Rather than compute these values by hand, we resort to statistical software. The Excel/XLSTAT printout of the analysis of Table 10.7 is displayed in Figure 10.5. Each cell in the ..."
+  },
+  "meta_info": {
+    "index": "10.3",
+    "img_in_question": null
+  },
+  "sample_key": "392"
+}

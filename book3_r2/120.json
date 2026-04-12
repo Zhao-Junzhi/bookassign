@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\41.json",
+  "case_id": "book3_r1\\19.json",
   "input": {
-    "background": "The time to failure of a component has a gamma distribution with $\\alpha =3$ and $\\beta=5$.",
+    "background": "A vending machine usually provides snacks including soft drinks, coffee, and cookies upon the insertion of a coin. Over time, it is observed that the machine fails to work on average three times out of every thousand uses. The random variable $X$ is defined such that $x=1$ if the machine works and $x=0$ if it fails to work.",
     "data": null,
-    "question": "Determine the reliability of the component at 10 time-units."
+    "question": "What is the probability distribution of the random variable $X$ where $x=1$ represents the machine working and $x=0$ represents the machine failing?"
   },
   "output": {
-    "method": "生存分析",
-    "answer": "Using Eq. (2.75), we compute $$ R(10)=e^{-\frac{10}{5}} \\sum_{i=0}^2 \\frac{\\left(\\frac{10}{5}\\right)^i}{i!}=0.6767 $$"
+    "answer": "P(X=x)= \\begin{cases}0.997 & \\text{ for } x=1 \\\\ 0.003 & \\text{ for } x=0\\end{cases}"
   },
   "meta_info": {
-    "index": "2.25",
+    "index": "2.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.2 Continuous Distributions",
+    "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
-    "page": "111-111"
+    "page": "69-69"
   },
   "sample_key": "120"
 }

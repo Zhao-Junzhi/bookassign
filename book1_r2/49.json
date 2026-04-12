@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_019.json",
+  "case_id": "book1_r1\\record_016.json",
   "input": {
-    "background": "A study examined the induction time between bacterial meningitis and the onset of seizures in 13 cases (months).",
+    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
     "data": "",
-    "question": "Construct a stemplot of these data and describe what you see."
+    "question": "(c) Comparison C: Group 1: 90, 70, 50, 30; Group 2: 90, 80, 70, 60. Plot the data as back-to-back stemplots and compare group locations and spreads."
   },
   "output": {
-    "method": "stem-and-leaf plot",
-    "answer": "0 | 0004\n1 | 22\n2 | 44\n3 | 16\n4 | 2\n5 | 5\n6 |\n7 |\n8 |\n9 | 6\n× 10 (months)\nData have a pronounced positive skew and a high outlier (shape). The median is 24 (location). Induction times are highly variable, ranging from 0.1 to 96 months (spread).",
-    "variable": {
-      "induction_time": {
-        "id": "induction_time",
-        "value": [
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The induction time between bacterial meningitis and the onset of seizures in months for 13 cases."
-      }
-    }
+    "answer": "Comparison C. Group 1 has a lower average and greater spread.\n\nGroup 1 | | Group 2\n\n$$\n\\begin{aligned}\n0 & |1| \\\n& |2| \\\n0 & |3|  \\\n& |4|  \\\n0 & |5| 0 \\\n& |6| 0 \\\n0 & |7| 0 \\\n& |8| 0 \\\n0 & |9| 0 \\\n& \\times 10\n\\end{aligned}\n$$"
   },
   "meta_info": {
-    "index": "3.9",
+    "index": "3.3",
     "image": "",
-    "caption": "Seizures following bacterial meningitis.",
+    "caption": "Leaves on a common stem.",
     "chapter": "Frequency Distributions",
-    "section": "3.3 Additional Frequency Charts",
-    "page": "60-60"
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
   },
   "sample_key": "49"
 }

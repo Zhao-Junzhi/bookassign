@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_371.json",
+  "case_id": "book1_r1\\record_304.json",
   "input": {
-    "background": "A study of n=16 retains H_0: μ=170 at an α of 0.05 (two sided). Based on prior study, the standard deviation of this variable is 40.",
+    "background": "The population ('sampling frame') for the YRBS consisted of all public and private schools with students in grades 9-12 in the 50 United States plus the District of Columbia. The sampling frame was divided into 1262 primary sampling units, which consisted of counties, areas of large counties, or groups of small counties. From these 1262 primary units, 57 were selected at random with probability proportional to overall school enrollments. The next stage of sampling selected 195 schools at random with probability proportional to the school enrollment size. The third sampling stage consisted of randomly selecting one or two intact classes from each grade from within the chosen school. All students in the selected classes were then eligible to participate in the survey.",
     "data": "",
-    "question": "What was the power of the test to identify a population mean of 190?"
+    "question": "How many primary sampling units were in the sampling frame, and how were they defined?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "1-β=Φ(-z_{1-α/2}+|μ_0-μ_a|√n/σ)=Φ(-1.96+|170-190|√16/40)=Φ(0.04)=0.5160 [From Table B]. The test had about a 50/50 chance of rejecting the H_0 under the stated conditions. This is low. Hypothesis tests should strive for at least 80% power.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 16,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of observations in the study."
-      },
-      "null_hypothesis_mean": {
-        "id": "null_hypothesis_mean",
-        "value": 170,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean value under the null hypothesis."
-      },
-      "alpha": {
-        "id": "alpha",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The significance level of the test."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 40,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the variable based on prior study."
-      },
-      "alternative_hypothesis_mean": {
-        "id": "alternative_hypothesis_mean",
-        "value": 190,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean value under the alternative hypothesis."
-      }
-    }
+    "answer": "There were 1262 primary sampling units, which consisted of counties, areas of large counties, or groups of small counties."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Power of a z test.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 Power and Sample Size",
-    "page": "189-189"
+    "caption": "Youth Risk Behavior Survey (YRBS).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "20-20"
   },
   "sample_key": "420"
 }

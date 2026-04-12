@@ -3,20 +3,10 @@
   "input": {
     "background": "Classify each variable depicted in Figure 1.1 as either quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "VAR2 - What type of variable is VAR2?"
+    "question": "What is the classification of VAR2?"
   },
   "output": {
-    "method": "类别变量分类",
-    "answer": "Categorical",
-    "variable": {
-      "VAR2": {
-        "id": "VAR2",
-        "value": "Not specified",
-        "class": "NR",
-        "role": "NR",
-        "description": "The type of variable VAR2 needs to be determined based on Figure 1.1."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
     "index": "1.5",

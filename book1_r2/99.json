@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_054.json",
+  "case_id": "book1_r1\\record_045.json",
   "input": {
-    "background": "The prevalence of a condition in a population is 10%. You take a simple random sample of 15 people from this population. Let X represent the number of individuals in the sample with the condition.",
+    "background": "Suppose a population has 26 members identified with the letters A through Z.",
     "data": "",
-    "question": "What is the probability of seeing one case?"
+    "question": "Assume person A gets selected on an initial draw, you replace person A into the sampling frame, and then take a second random draw. What is the probability of drawing person A on the second draw?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Pr(X=1)=0.3432",
-    "variable": {
-      "prevalence": {
-        "id": "prevalence",
-        "value": 0.1,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The prevalence of the condition in the population."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 15,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the simple random sample taken from the population."
-      },
-      "X": {
-        "id": "X",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of individuals in the sample with the condition."
-      },
-      "one_case": {
-        "id": "one_case",
-        "value": 1,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The specific number of cases (one) for which the probability is being calculated."
-      }
-    }
+    "answer": "1 in $26=0.0385$"
   },
   "meta_info": {
-    "index": "6.11",
+    "index": "5.5",
     "image": "",
-    "caption": "Prevalence 10%.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
-    "page": "128-128"
+    "caption": "N = 26.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-92"
   },
   "sample_key": "99"
 }

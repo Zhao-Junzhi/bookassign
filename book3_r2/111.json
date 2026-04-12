@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\32.json",
+  "case_id": "book3_r1\\16.json",
   "input": {
-    "background": "A certain manufacturing plant has five production lines, all making use of a specific bulk product. The amount of product used in one day can be modeled as having an exponential distribution with a mean of 6 (measurements in thousands), for each of the five lines. If the lines operate independently.",
-    "data": null,
-    "question": "Find the probability that exactly three of the five lines use more than 6 thousands on a given day."
+    "background": "A computer system has an exponential failure time density function: $$f(t)=\\frac{1}{9,000} e^{-\\frac{t}{9,000}}, t \\geq 0$$. The problem asks about the probability of failure within a specific time interval.",
+    "data": "$$\nR(t)=P(T>t) \\quad t \\geq 0 .\n$$",
+    "question": "What is the reliability function for an exponential failure time density function?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "P(exactly 3 use more than 6) = C(5,3) * (0.3679)^3 * (1-0.3679)^2 = 0.199"
+    "answer": "If the time to failure is described by an exponential failure time density function, then $$f(t) = \\frac{1}{\\theta} e^{-\\frac{t}{\\theta}}, \\quad t \\geq 0, \\theta > 0$$, and this will lead to the reliability function $$R(t) = \\int_{t}^{\\infty} \\frac{1}{\\theta} e^{-\\frac{s}{\\theta}} ds = e^{-\\frac{t}{\\theta}}, \\quad t \\geq 0$$."
   },
   "meta_info": {
-    "index": "2.16",
+    "index": "1.34",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.1 Discrete Distributions",
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.7 Reliability Concepts",
     "book": "Statistical Reliability Engineering",
-    "page": "89-90"
+    "page": "39-40"
   },
   "sample_key": "111"
 }

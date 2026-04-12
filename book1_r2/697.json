@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_418.json",
+  "input": {
+    "background": "A survey found 17 smokers in a simple random sample (SRS) of size n=57 in a particular community. The task is to compute the 95% confidence interval for the prevalence of smoking in this population.",
+    "data": "",
+    "question": "What is the 95% confidence interval for the prevalence of smoking in the population?"
+  },
+  "output": {
+    "answer": "The 95% confidence interval is p̃ ± (1.96 * SE_p̃) = 0.3115 ± 0.1162 = (0.1953 to 0.4277) or approximately (20% to 43%)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for population proportion, plus-four  method (Smoking prevalence).",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "363-364"
+  },
+  "sample_key": "697"
+}

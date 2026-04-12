@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_154.json",
+  "input": {
+    "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor. Table 18.30 shows data from the study with tobacco use dichotomized at 20 grams/day.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.30 Data for Exercise 18.27.}\n\\begin{tabular}{l|r|c}\n\\cline { 2 - 3 } Tobacco & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n$20+\\mathrm{g} /$ day & 64 & 150 \\\\\n$0-19 \\mathrm{~g} /$ day & 136 & 625 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Tuyns, A. J., Pequignot, G., \\& Jensen, O. M. (1977). [Esophageal cancer in Ille-et-Vilaine in relation to levels of alcohol and tobacco consumption. ]. Bulletin du Cancer, 64(1), 45-60. Data set are stored online in the file BD1.* as variables TOB2 and CASE.",
+    "question": "Calculate the odds ratio for the data provided."
+  },
+  "output": {
+    "answer": "Odds ratio = 1.96"
+  },
+  "meta_info": {
+    "index": "18.27",
+    "image": "",
+    "caption": "Esophageal cancer and tobacco use.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "459-460"
+  },
+  "sample_key": "388",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1310,
+    "total_tokens": 1353,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1309,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1310,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1309,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

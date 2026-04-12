@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\065.json",
+  "input": {
+    "background": "Decide whether $x$ is a binomial random variable for the given scenarios.",
+    "data": null,
+    "question": "Before marketing a new product on a large scale, many companies will conduct a consumer preference survey to determine whether the product is likely to be successful. Suppose a company develops a new diet soda and then conducts a taste preference survey in which 100 randomly chosen consumers state their preferences among the new soda and the two leading sellers. Let $x$ be the number of the 100 who choose the new brand over the two others."
+  },
+  "output": {
+    "answer": "Surveys that produce dichotomous responses and use random sampling techniques are classic examples of binomial experiments. In our example, each randomly selected consumer either states a preference for the new diet soda or does not. The sample of 100 consumers is a very small proportion of the totality of potential consumers, so the response of one would be, for all practical purposes, independent of another. Thus, $x$ is a binomial random variable."
+  },
+  "meta_info": {
+    "index": "4.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Assessing Whether $x$ Is Binomial-Business Problems",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.3 The Binomial Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "125-126"
+  },
+  "sample_key": "148"
+}

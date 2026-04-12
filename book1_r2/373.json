@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_347.json",
+  "case_id": "book1_r1\\record_149.json",
   "input": {
-    "background": "Three examples of ${ }_n C_x=\\frac{n!}{x!(n-x)!}$ are presented.",
-    "data": "",
-    "question": "How many ways can you choose two items out of three?"
+    "background": "A case-control study was completed to learn about the relationship between male-pattern baldness and the risk of cardiovascular disease. Cases were men less than 55 years of age hospitalized for a heart attack. Cases were excluded if they had a prior history of serious heart problems. Controls were men with no history of heart disease admitted to the same hospitals for nonfatal, noncardiac problems. Table 18.21 cross tabulates results according to self-assessed baldness, with baldness graded on a scale of 1 (no baldness) to 5 (extreme baldness).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.21 Data for Exercise 18.17. Case-control study of baldness and myocardial infarction. Baldness was self-assessed by study subjects.}\n\\begin{tabular}{l|c|c|}\n\\hline Baldness & \\multicolumn{1}{c}{ Cases } & \\multicolumn{1}{c}{ Controls } \\\n\\hline 1 (no baldness) & 251 & 331 \\\n\\hline 2 & 165 & 221 \\\n\\hline 3 (moderate baldness) & 195 & 185 \\\n\\hline 4 & 50 & 34 \\\n\\hline 5 (extreme baldness) & 2 & 1 \\\n\\hline Total & 663 & 772 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the odds ratios associated with each level of baldness. Interpret your results."
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "${ }_3 C_2=\\frac{3!}{2!(3-2)!}=\\frac{3 \\cdot 2 \\cdot 1}{2 \\cdot 1(1)}=\\frac{6}{2}=3$. This means that you can choose two items out of three three different ways-label items $A, B$, and $C$. You can choose \\{A, B\\},\\{A, C\\}, or \\{B, C\\}.",
-    "variable": {
-      "n": {
-        "id": "n",
-        "value": 3,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Total number of items to choose from."
-      },
-      "x": {
-        "id": "x",
-        "value": 2,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Number of items to be chosen."
-      },
-      "combination": {
-        "id": "combination",
-        "value": 3,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of ways to choose x items from n items."
-      }
-    }
+    "answer": "OR1 = 1.00 (reference), OR2 = 0.98, OR3 = 1.39, OR4 = 1.94, OR5 = 2.64. This reveals a positive trend in odds ratios after baldness level 2."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.17",
     "image": "",
-    "caption": "Binomial coefficients.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
-    "page": "117-117"
+    "caption": "Baldness and myocardial infarction, self-assessed baldness.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "444-445"
   },
   "sample_key": "373"
 }

@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\043.json",
+  "input": {
+    "background": "Many firms undertake direct marketing campaigns to promote their products. The campaigns typically involve mailing information to millions of households. The response rates are carefully monitored to determine the demographic characteristics of respondents. By studying tendencies to respond, the firms can better target future mailings to those segments of the population most likely to purchase their products. Suppose a distributor of mail-order tools is analyzing the results of a recent mailing. The probability of response is believed to be related to income and age. The percentages of the total number of respondents to the mailing are given by income and age classification in Table 3.4. This table is called a two-way table because responses are classified according to two variables, income (columns) and age (rows). Define the following events: A: {A respondent's income is more than $50,000.} B: {A respondent's age is 30 or more.}",
+    "data": "\\begin{tabular}{|l|l|l|l|}\n\\hline Table 3.4 & \\multicolumn{3}{|l|}{Two-Way Table with Percentage of Respondents in Age-Income Classes} \\\n\\hline & \\multicolumn{3}{|c|}{Income} \\\n\\hline Age & < \\$25,000 & \\$25,000-\\$50,000 & > \\$50,000 \\\n\\hline $<30 \\mathrm{yrs}$ & 5\\% & 12\\% & 10\\% \\\n\\hline $30-50 \\mathrm{yrs}$ & $14 \\%$ & 22\\% & 16\\% \\\n\\hline $>50 \\mathrm{yrs}$ & (B) $8 \\%$ & 10\\% & 3\\% \\\n\\hline & & & (A) \\\n\\hline\n\\end{tabular}",
+    "question": "Find P(A ∩ B)."
+  },
+  "output": {
+    "answer": "The intersection of events A and B, A ∩ B, consists of all sample points in both A and B. In Table 3.4, this is any sample point found in the third column and the last two rows. Thus, P(A ∩ B) = 0.16 + 0.03 = 0.19."
+  },
+  "meta_info": {
+    "index": "3.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding Probabilities in a Two-Way Table-Income vs. age",
+    "chapter": "Probability",
+    "section": "3.2 Unions and Intersections",
+    "book": "Statistics for Business and Economics",
+    "page": "94-96"
+  },
+  "sample_key": "102",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1562,
+    "total_tokens": 1605,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1561,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1562,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1561,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

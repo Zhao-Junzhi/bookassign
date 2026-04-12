@@ -1,65 +1,20 @@
 {
-  "case_id": "book1_r1\\record_398.json",
+  "case_id": "book1_r1\\record_336.json",
   "input": {
-    "background": "Reconsider the conditions of the illustrative example that compared cholesterol in the two groups.",
-    "data": "",
-    "question": "What is the power of a test of $H_0: \\mu_1=\\mu_2$ when $\\alpha=0.05$ (two-sided), $n=30$ per group, $\\mu_1-\\mu_2=0.25$, and $\\sigma^2=0.25$?"
+    "background": "The question asks to calculate the mean and variance of the pmf for four patients, as presented in Table 5.1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What is the variance of the four patients illustrative pmf?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "1-\\beta=\\Phi\\left(-z_{1-\\frac{-}{2}}+\\frac{\\Delta}{\\sqrt{\\frac{2 \\sigma^2}{n}}}\\right)= \\Phi\\left(-1.96+\\frac{0.25}{\\sqrt{\\frac{2(0.25)}{30}}}\\right)=\\Phi(-0.02)=0.4920(\\text { about } 50 / 50).",
-    "variable": {
-      "group_mean_difference": {
-        "id": "group_mean_difference",
-        "value": 0.25,
-        "class": "numerical",
-        "role": "independent",
-        "description": "True difference between the population means of the two groups (mu1 - mu2)."
-      },
-      "population_variance": {
-        "id": "population_variance",
-        "value": 0.25,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Common population variance of the outcome in each group (sigma^2)."
-      },
-      "group_sample_size": {
-        "id": "group_sample_size",
-        "value": 30,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size per group in the two-sample comparison."
-      },
-      "significance_level": {
-        "id": "significance_level",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Two-sided Type I error rate alpha for the hypothesis test."
-      },
-      "test_power": {
-        "id": "test_power",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Power of the two-sided test of H0: mu1 = mu2 under the specified alternative and parameters."
-      },
-      "answer": {
-        "id": "answer",
-        "value": "Use the specified mean difference, variance, sample size, and significance level to compute the noncentrality parameter for a two-sample z or t test of equality of means, then obtain the power as the probability of rejecting H0 under the alternative distribution.",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Text description of the analysis process to compute the test power."
-      }
-    }
+    "answer": "The variance calculation is not explicitly provided in the answer. Additional details may be required to compute the variance based on the pmf."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Power.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "253-253"
+    "caption": "Expectation and variance.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "96-97"
   },
   "sample_key": "477"
 }

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_125.json",
+  "input": {
+    "background": "In a case-controlled study on cerebral tumors and cell phone use, tumors occurred more frequently on the same side of the head where cellular telephones had been used in 26 of 41 cases.",
+    "data": "",
+    "question": "Calculate the test statistic for the hypothesis test."
+  },
+  "output": {
+    "answer": "$SE=\\sqrt{\\frac{0.5 \\cdot 0.5}{41}}$, $\\hat{p}=\\frac{26}{41}=0.6341$, $z_{stat}=\\frac{0.6341-0.5}{0.078087}=1.72$"
+  },
+  "meta_info": {
+    "index": "16.13",
+    "image": "",
+    "caption": "Cerebral tumors and cell phone use.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-370"
+  },
+  "sample_key": "313",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1054,
+    "total_tokens": 1097,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1015,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1054,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1015,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

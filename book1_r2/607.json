@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_387.json",
+  "input": {
+    "background": "How large a sample is needed to test the oat bran data presented earlier in the chapter with 80% power at α=0.05 two sided? We want to detect a mean change of 0.2 mmol/L and will assume a standard deviation of 0.4 mmol/L.",
+    "data": "",
+    "question": "Determine if an adjustment factor f is needed when the sample size exceeds 30."
+  },
+  "output": {
+    "answer": "Because the sample size exceeds 30, there is no need to apply adjustment factor f."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement, paired-t test (Oat bran).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "227-227"
+  },
+  "sample_key": "607"
+}

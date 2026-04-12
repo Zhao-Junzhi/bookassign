@@ -1,39 +1,20 @@
 {
-  "case_id": "book1_r1\\record_321.json",
+  "case_id": "book1_r1\\record_139.json",
   "input": {
-    "background": "We propose to draw boxplots for the air sample data presented in prior illustrations (see Table 4.2).",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
-    "question": "Draw a boxplot for site 1 data: 22, 24, 28, 32, 36, 38, 42, 68."
+    "background": "The Scandinavian simvastatin survival study (4S) was a randomized clinical trial designed to evaluate the effects of the cholesterol-lowering agent simvastatin in patients with coronary heart disease. Over 5.4 years of follow-up, the treatment group consisting of 2221 individuals experienced 111 fatal heart attacks. The placebo group of 2223 individuals experienced 189 such events.",
+    "data": "",
+    "question": "In relative terms, how much did simvastatin lower heart attack mortality?"
   },
   "output": {
-    "method": "连续型变量分布",
-    "answer": "1. The five-point summary is: 22, 26, 34, 40, 68. Therefore, the box extends from 26 to 40. A line for the median is drawn in the box at 34. 2. IQR=40-26=14. Therefore, Fence Lower=26-(1.5)(14)=5 and Fence Upper=40+(1.5)(14)=61. 3. There are no values below the lower fence. There is one value (68) above the upper fence. The upper outside value of 68 is plotted as a separate point above the box. 4. The smallest value still inside the fence (lower inside value) is 22. A whisker is drawn from Q1 to this inside value. The upper inside value is 42. A whisker is drawn from Q3 to this inside value.",
-    "variable": {
-      "site_1_data": {
-        "id": "site_1_data",
-        "value": [
-          22,
-          24,
-          28,
-          32,
-          36,
-          38,
-          42,
-          68
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Air sample data from site 1 to be used for creating a boxplot."
-      }
-    }
+    "answer": "The easiest way to address this question is to first calculate the relative risk: $\\widehat{R R}=\\frac{0.049977}{0.085020}=0.59$. The relative reduction in risk $=1-0.59=0.41$, or $41 \\%$."
   },
   "meta_info": {
-    "index": "",
+    "index": "17.17",
     "image": "",
-    "caption": "Boxplots (Air samples data).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.6 BOXPLOTS",
-    "page": "76-77"
+    "caption": "4S coronary mortality.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
   },
   "sample_key": "348"
 }

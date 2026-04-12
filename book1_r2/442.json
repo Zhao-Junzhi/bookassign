@@ -1,64 +1,20 @@
 {
-  "case_id": "book1_r1\\record_381.json",
+  "case_id": "book1_r1\\record_314.json",
   "input": {
-    "background": "A cross-over trial sought to learn whether oat bran cereal lowered low-density lipoprotein (LDL) cholesterol in hypercholesterolemic men. Twelve subjects completed the study. Half were randomly assigned a diet that included oat bran cereal. The other half were assigned a diet that included corn flakes. Dietary interventions were applied for 2 weeks, after which LDL levels (mmol/L) were recorded. Subjects were then crossed-over to the alternative diet for 2 weeks. LDL was once again measured. Table 11.1 lists data from the study.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.1 ",
-    "question": "Paired samples are analyzed by creating a new variable to hold within pair differences. Call this new variable DELTA. Table 11.1 lists DELTA values created by subtracting each oat bran value from each corn flake value for each individual. Positive DELTA values reflect lower LDL on the oat bran diet."
+    "background": "A U.S. Census Bureau report looked at health insurance coverage in the United States for the period 2002 to 2004. Table 3.2 lists the average percentage of people without health insurance coverage by state for this period.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.2 Percentage of residents without health insurance by state, U.S., 2004, $n=51$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline State & \\% & State & \\% & State & \\% \\\n\\hline Alabama & 13.5 & Kentucky & 13.9 & N. Dakota & 11.0 \\\n\\hline Alaska & 18.2 & Louisiana & 18.8 & Ohio & 11.8 \\\n\\hline Arizona & 17.0 & Maine & 10.6 & Oklahoma & 19.2 \\\n\\hline Arkansas & 16.7 & Maryland & 14.0 & Oregon & 16.1 \\\n\\hline California & 18.4 & Massachusetts & 10.8 & Pennsylvania & 11.5 \\\n\\hline Colorado & 16.8 & Michigan & 11.4 & Rhode Is. & 10.5 \\\n\\hline Connecticut & 10.9 & Minnesota & 08.5 & S. Carolina & 13.8 \\\n\\hline Delaware & 11.8 & Mississippi & 17.2 & S. Dakota & 11.9 \\\n\\hline Dist. Col. & 13.5 & Missouri & 11.7 & Tennessee & 12.7 \\\n\\hline Florida & 18.5 & Montana & 17.9 & Texas & 25.1 \\\n\\hline Georgia & 16.6 & Nebraska & 11.0 & Utah & 13.4 \\\n\\hline Hawaii & 09.9 & Nevada & 19.1 & Vermont & 10.5 \\\n\\hline Idaho & 17.3 & N. Hamp. & 10.6 & Virginia & 13.6 \\\n\\hline Illinois & 14.2 & N. Jersey & 14.4 & Washington & 14.2 \\\n\\hline Indiana & 13.7 & N. Mexico & 21.4 & W. Virginia & 15.9 \\\n\\hline Iowa & 10.1 & New York & 15.0 & Wisconsin & 10.4 \\\n\\hline Kansas & 10.8 & N. Carolina & 16.6 & Wyoming & 15.9 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Describe the shape of the distribution based on the final stemplot."
   },
   "output": {
-    "method": "均值检验",
-    "answer": null,
-    "variable": {
-      "subject_id": {
-        "id": "subject_id",
-        "value": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Unique identifier for each subject in the study."
-      },
-      "LDL_oat_bran": {
-        "id": "LDL_oat_bran",
-        "value": "Values of LDL cholesterol (mmol/L) measured after the oat bran diet for each subject.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "LDL cholesterol levels measured after the oat bran diet intervention."
-      },
-      "LDL_corn_flakes": {
-        "id": "LDL_corn_flakes",
-        "value": "Values of LDL cholesterol (mmol/L) measured after the corn flakes diet for each subject.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "LDL cholesterol levels measured after the corn flakes diet intervention."
-      },
-      "DELTA": {
-        "id": "DELTA",
-        "value": "Values calculated by subtracting LDL_oat_bran from LDL_corn_flakes for each subject.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Within-pair differences in LDL cholesterol levels between the corn flakes and oat bran diets for each subject."
-      }
-    }
+    "answer": "This plot reveals a positive skew and high outlier."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Data (Oat bran and LDL cholesterol).",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.5 PAIRED SAMPLES",
-    "page": "219-220"
+    "caption": "Health insurance coverage.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "46-47"
   },
   "sample_key": "442"
 }

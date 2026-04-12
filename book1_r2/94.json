@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_053.json",
+  "case_id": "book1_r1\\record_043.json",
   "input": {
-    "background": "The prevalence of a trait is 76.8%.",
+    "background": "A patient newly diagnosed with a serious ailment is told he has a 60% probability of surviving 5 or more years. Let's assume this statement is accurate.",
     "data": "",
-    "question": "In a simple random sample of $n=5$, how many individuals are expected to exhibit this characteristic?"
+    "question": "Explain the meaning of this statement to someone with no statistical background in terms he or she will understand."
   },
   "output": {
-    "method": "期望",
-    "answer": "$\\mu=(5)(0.768)=3.84$",
-    "variable": {
-      "prevalence": {
-        "id": "prevalence",
-        "value": 0.768,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The prevalence of the trait in the population."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 5,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The size of the simple random sample."
-      },
-      "expected_count": {
-        "id": "expected_count",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The expected number of individuals in the sample exhibiting the trait."
-      }
-    }
+    "answer": "We can not say for certain whether this particular patient will survive, but we can say that in a large number of patients with identical characteristics, 60% will survive at least five years and 40% will not."
   },
   "meta_info": {
-    "index": "6.9",
+    "index": "5.1",
     "image": "",
-    "caption": "Prevalence 76.8 %.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
-    "page": "127-127"
+    "caption": "Explaining probability.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
   },
   "sample_key": "94"
 }

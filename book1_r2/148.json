@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_079.json",
+  "case_id": "book1_r1\\record_067.json",
   "input": {
-    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ= 85,100(σ=10,000).",
+    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation = 1.65).",
     "data": "",
-    "question": "Sketch the sampling distribution of x̄ based on an SRS of n=20. Assume μ=85,100 and σ= 10,000. Mark the horizontal axis with landmarks that are ±1 and ±2 standard errors around μ. Locate x̄= 80,900 on the horizontal axis of the curve."
+    "question": "Is the statement 'The standard deviation of the sample mean is 0.074' true or false? Explain your reasoning."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "First note that SE_x̄=10000/√20=2236. Under the null hypothesis x̄ ∼ N(85100, 2236). The sketch of x̄ ∼ N(85100,2236) is not shown in this key. The sampling distribution of x̄ should be Normal with landmarks on the curve starting 2 standard errors below the mean at 80,628,82,864,85,100,87,336, and 89,572.",
-    "variable": {
-      "sample_mean": {
-        "id": "sample_mean",
-        "value": 80900,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The sample mean salary of 20 female hospital administrators."
-      },
-      "population_mean": {
-        "id": "population_mean",
-        "value": 85100,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The population mean salary of hospital administrators."
-      },
-      "population_standard_deviation": {
-        "id": "population_standard_deviation",
-        "value": 10000,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The population standard deviation of hospital administrators' salaries."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 20,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the sample of female hospital administrators."
-      }
-    }
+    "answer": "True. The standard deviation of \\( \\bar{x} \\) = the standard error of the mean \\( = \\frac{1.65}{\\sqrt{500}} = 0.0740 \\)."
   },
   "meta_info": {
-    "index": "9.15",
+    "index": "8.5",
     "image": "",
-    "caption": "Female administrators.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 POWER AND SAMPLE SIZE",
-    "page": "194-194"
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
   },
   "sample_key": "148"
 }

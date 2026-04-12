@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\038.json",
+  "input": {
+    "background": "Diversity training of employees is the latest trend in U.S. business. USA Today reported on the primary reasons businesses give for making diversity training part of their strategic planning process. Assume that one business is selected at random from all U.S. businesses that use diversity training, and the primary reason is determined.",
+    "data": "\\begin{tabular}{|l|l|}\n\\hline Table 3.2 Primary Reasons for Diversity Training & \\\\\n\\hline Reason & Percentage \\\\\n\\hline Comply with personnel policies (CPP) & 7 \\\\\n\\hline Increase productivity (IP) & 47 \\\\\n\\hline Stay competitive (SC) & 38 \\\\\n\\hline Social responsibility (SR) & 4 \\\\\n\\hline Other (O) & 4 \\\\\n\\hline Total & 100 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|lc|}\n\\hline Table 3.3 \\\\\n\\hline \\multicolumn{2}{|l|}{ Sample Point Probabilities } \\\\\n\\multicolumn{2}{|l|}{ for Diversity Training Survey } \\\\\n\\hline Sample Point & Probability \\\\\n\\hline CPP & .07 \\\\\nIP & .47 \\\\\nSC & .38 \\\\\nSR & .04 \\\\\nO & .04 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What is the probability that the primary reason for diversity training is business related, that is, related to competition or productivity?"
+  },
+  "output": {
+    "answer": "Let the symbol $B$ represent the event that the primary reason for diversity training is business related. $B$ is not a sample point because it consists of more than one of the response classifications (the sample points). In fact, as shown in Figure $3.6, B$ consists of two sample points, IP and SC. The probability of $B$ is defined to be the sum of the probabilities of the sample points in $B$: $$ P(B)=P(\text{IP})+P(\text{SC})=.47+.38=.85 $$"
+  },
+  "meta_info": {
+    "index": "3.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Five Steps to Find a ProbabilityDiversity Training",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "89-90"
+  },
+  "sample_key": "92",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1523,
+    "total_tokens": 1566,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1522,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1523,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1522,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

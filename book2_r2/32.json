@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\012.json",
+  "input": {
+    "background": "A group of cardiac physicians in southwest Florida have been studying a new drug designed to reduce blood loss in coronary artery bypass operations. Blood loss data for 114 coronary artery bypass patients (some who received a dosage of the drug and others who did not) are saved in the BLOOD file. Although the drug shows promise in reducing blood loss, the physicians are concerned about possible side effects and complications. Their data set includes the qualitative variable, DRUG, which indicates whether or not the patient received the drug, and the qualitative variable, COMP, which specifies the type (if any) of complication experienced by the patient. The four values of COMP recorded are (1) redo surgery, (2) post-op infection, (3) both, or (4) none.",
+    "data": null,
+    "question": "Interpret the Minitab output shown in Figure 2.6 and the SPSS output shown in Figure 2.7."
+  },
+  "output": {
+    "answer": "Figure 2.6 is a Minitab side-by-side bar graph for the data. The four bars on the left represent the frequencies of COMP for the 57 patients who did not receive the drug; the four bars on the right represent the frequencies of COMP for the 57 patients who did receive a dosage of the drug. The graph clearly shows that patients who did not get the drug suffered fewer complications. The exact percentages are displayed in the SPSS summary tables of Figure 2.7. About 56 % of the patients who got the drug had no complications, compared to about 83 % for the patients who did not get the drug."
+  },
+  "meta_info": {
+    "index": "2.1",
+    "img_in_question": null
+  },
+  "sample_key": "32"
+}

@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_044.json",
+  "case_id": "book1_r1\\record_026.json",
   "input": {
-    "background": "What is the probability of being born on specific dates in February?",
+    "background": "Each of the following batches of numbers has a mean of 100. Determine which batch has the most variability. (Arithmetic not required.)",
     "data": "",
-    "question": "What is the probability of being born on February 28 or February 29?"
+    "question": "Which batch has the most variability among Batch A: 0, 50, 100, 150, 200?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Feb 28 or Feb 29 occur 5 times every four years. Therefore, Pr(Feb 28 or Feb 29) = 5 / (365 + 365 + 365 + 366) = 0.003422313.",
-    "variable": {
-      "Specific Dates in February": {
-        "id": "Specific Dates in February",
-        "value": [
-          "February 28",
-          "February 29"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The specific dates in February for which the probability of being born is calculated."
-      },
-      "Probability of Birth": {
-        "id": "Probability of Birth",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability of being born on the specified dates in February."
-      }
-    }
+    "answer": "Batch A has the greatest variability."
   },
   "meta_info": {
-    "index": "5.3",
+    "index": "4.7",
     "image": "",
-    "caption": "February birthdays.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.1 WHat Is PROBABILITY?",
-    "page": "91-91"
+    "caption": "Spread.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "81-82"
   },
   "sample_key": "76"
 }

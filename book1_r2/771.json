@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_504.json",
+  "input": {
+    "background": "Among U.S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+    "data": "",
+    "question": "Describe the sampling distribution of p̂1 - p̂2."
+  },
+  "output": {
+    "answer": "The sampling distribution of p̂1 - p̂2 will be approximately Normal with mean μ = p1 - p2 = 0.40 - 0.12 = 0.28 with standard deviation s_{p̂1 - p̂2} = sqrt[(p1 * q1 / n1) + (p2 * q2 / n2)] = sqrt[(0.4 * 0.6 / 1000) + (0.12 * 0.88 / 1000)] = 0.01859. In other words, p̂1 - p̂2 ~ N(0.28, 0.01859)."
+  },
+  "meta_info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  },
+  "sample_key": "771"
+}

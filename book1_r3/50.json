@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_017.json",
+  "input": {
+    "background": "In Exercise 3.2, you created a stemplot of lengths of hospital stays for 25 patients. Table 3.6 lists the data.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.6 Duration of hospitalization (days), $n=25$.}\n\\begin{tabular}{rrrrrrrrrr}\n\\hline 5 & 10 & 6 & 11 & 5 & 14 & 30 & 11 & 17 & 3 \\\n9 & 3 & 8 & 8 & 5 & 5 & 7 & 4 & 3 & 7 \\\n9 & 11 & 11 & 9 & 4 & & & & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Construct a frequency table for these data using 5-day class intervals. Include columns for the frequency counts, relative frequencies, and cumulative frequencies."
+  },
+  "output": {
+    "answer": "Frequency table\n\n| Duration (days) | Frequency | Relative Frequency (%) | Cumulative Frequency (%) |\n|-----------------|-----------|-------------------------|---------------------------|\n| 0-4             | 5         | 20.0%                  | 20%                       |\n| 5-9             | 12        | 48.0%                  | 68%                       |\n| 10-14           | 6         | 24.0%                  | 92%                       |\n| 15-19           | 1         | 4.0%                   | 96%                       |\n| 20-24           | 0         | 0.0%                   | 96%                       |\n| 25-29           | 0         | 0.0%                   | 96%                       |\n| 30-34           | 1         | 4.0%                   | 100%                      |\n| Total           | 25        | 100%                   | -                         |"
+  },
+  "meta_info": {
+    "index": "3.5",
+    "image": "",
+    "caption": "Hospital stay duration.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "50-57"
+  },
+  "sample_key": "50",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1609,
+    "total_tokens": 1652,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1566,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1609,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1566,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\83.json",
+  "case_id": "book3_r1\\53.json",
   "input": {
-    "background": "A committee of k people is to be chosen from a set of 7 women and 4 men.",
-    "data": null,
-    "question": "How many ways are there to form the committee if the committee has 4 people, two of each sex, and Mr. and Mrs. Good cannot both be on the committee?"
+    "background": "A random sample of 395 people were surveyed. Each person was asked their interest in riding a bicycle (Variable A) and their age (Variable B). The data that resulted from the survey is summarized in Table 3.10.",
+    "data": "\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.10 A random sample of 395 people}\n\\begin{tabular}{l|l|l|l|l|l|l}\n\\hline & \\multicolumn{5}{|l|}{ Variable B } & \\\n\\hline VarA/VarB & Observed & $15-20$ & $21-30$ & $31-40$ & $41-65$ & Total \\\n\\hline & Yes & 60 & 54 & 46 & 41 & 201 \\\n\\hline Variable A & No & 40 & 44 & 53 & 57 & 194 \\\n\\hline & Total & 100 & 98 & 99 & 98 & 395 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.11 The expected values}\n\\begin{tabular}{l|l|l|l|l|l|l}\n\\hline & \\multicolumn{6}{|l}{ Variable B } \\\n\\hline VarA/VarB & Expected & $15-20$ & $21-30$ & $31-40$ & $41-65$ & Total \\\n\\hline & Yes & 50.8861 & 49.8684 & 50.3772 & 49.8684 & 201 \\\n\\hline Variable A & No & 49.1139 & 48.1316 & 48.6228 & 48.1316 & 194 \\\n\\hline & Total & 100 & 98 & 99 & 98 & 395 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Is there evidence to conclude, at the 0.05 level, that the desire to ride a bicycle depends on age? In other words, is age independent of the desire to ride a bicycle?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "108 ways"
+    "answer": "Here $r=2$ and $c=4$. The expected number in each cell can be obtained as shown in Table 3.11:\n\n$$\n\\begin{aligned}\n& E_{11}=\\frac{1}{395}\\left(\\sum_{i=1}^2 O_{i 1}\\right)\\left(\\sum_{j=1}^4 O_{1 j}\\right)=\\frac{1}{395}(100)(201)=50.8861 \\\n& E_{12}=\\frac{1}{395}\\left(\\sum_{i=1}^2 O_{i 2}\\right)\\left(\\sum_{j=1}^4 O_{1 j}\\right)=\\frac{1}{395}(98)(201)=49.8684 \\\n& E_{13}=\\frac{1}{395}(99)(201)=50.3772 \\\n& \\ldots \\\n& E_{23}=\\frac{1}{395}(99)(194)=48.6228 \\\n& E_{24}=\\frac{1}{395}(98)(194)=48.1316\n\\end{aligned}\n$$\n\nThe test statistic value\n\n$$\n\\lambda_{v a l u e}^2=\\sum_{i=1}^2 \\sum_{j=1}^4 \\frac{\\left(O_{i j}-E_{i j}\\right)^2}{E_{i j}}\n$$\n$$\n\\begin{aligned}\n& =\\frac{(60-50.8861)^2}{50.8861}+\\frac{(54-49.8684)^2}{49.8684}+\\ldots+\\frac{(57-48.1316)^2}{48.1316} \\\n& =8.0062\n\\end{aligned}\n$$\n\nHere $\\alpha=0.05$. So $\\chi_{0.05,(2-1)(4-1)}^2=\\chi_{0.05,3}^2=7.815$. Since $\\chi_{\\text {value }}^2=8.0062>$ 7.815 we, therefore, reject the null hypothesis. That is, there is sufficient evidence, at the 0.05 level, to conclude that the desire to ride a bicycle depends on age."
   },
   "meta_info": {
-    "index": "1.30",
+    "index": "3.28",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
-    "section": "1.13 Problems",
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.8 Test for Independence",
     "book": "Statistical Reliability Engineering",
-    "page": "62-62"
+    "page": "176-177"
   },
   "sample_key": "196"
 }

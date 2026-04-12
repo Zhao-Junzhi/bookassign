@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_069.json",
+  "case_id": "book1_r1\\record_060.json",
   "input": {
-    "background": "Suppose that asthma affects 1 in 20 children in a population. You take an SRS of 50 children from this population.",
+    "background": "We've established that heights of 10-year-old boys vary according to a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
     "data": "",
-    "question": "If not, what probability model can be used to describe the sampling variability of the number of asthmatics?"
+    "question": "What proportion is less than 140 centimeters in height?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The binomial function $X \\sim \\mathrm{~b}(50,0.05)$ can be applied to random variable $X$.",
-    "variable": {
-      "asthma_prevalence": {
-        "id": "asthma_prevalence",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The prevalence of asthma in the population, which is 1 in 20 children or 5%."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 50,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the simple random sample (SRS) taken from the population."
-      },
-      "number_of_asthmatics": {
-        "id": "number_of_asthmatics",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of children with asthma in the sample, which is the variable of interest."
-      }
-    }
+    "answer": "1. State: Pr(X<140)\n2. Standardize: z=(140-138)/7=0.29\n3. Sketch (optional): not shown\n4. Use Table B: Pr(Z<0.29)=0.6141"
   },
   "meta_info": {
-    "index": "8.9",
+    "index": "7.5",
     "image": "",
-    "caption": "Pediatric asthma survey, n = 50.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
-    "page": "172-172"
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
   },
   "sample_key": "130"
 }

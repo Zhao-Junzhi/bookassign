@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_348.json",
+  "input": {
+    "background": "We have established a scenario in which four patients are treated with an intervention that is successful 75% of the time. The number of patients who respond to treatment is a binomial random variable with parameters n = 4 and p = 0.75. It follows that probability of a failure = 1 - p = 1 - 0.75 = 0.25.",
+    "data": "",
+    "question": "What is the probability of four successes?"
+  },
+  "output": {
+    "answer": "$$\n\\operatorname{Pr}(X=4)={ }_4 C_4 \\cdot 0.75^4 \\cdot 0.25^{4-4}=1 \\cdot 0.3164 \\cdot 1=0.3164\n$$"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial probabilities (Four patients).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-118"
+  },
+  "sample_key": "496",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1072,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1071,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1072,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1071,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

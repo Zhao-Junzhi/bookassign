@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_091.json",
+  "input": {
+    "background": "A study looked at the number of cavity-free children per 100 in 16 North American cities BEFORE and AFTER public water fluoridation projects. Table 11.2 lists the data.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.2 Cavity-free children per 100 in 16 North American cities before and after public water fluoridation projects.}\n\\begin{tabular}{|l|l|}\n\\hline AFTER & BEFORE \\\\\n\\hline 49.2 & 18.2 \\\\\n\\hline 30.0 & 21.9 \\\\\n\\hline 16.0 & 5.2 \\\\\n\\hline 47.8 & 20.4 \\\\\n\\hline 3.4 & 2.8 \\\\\n\\hline 16.8 & 21.0 \\\\\n\\hline 10.7 & 11.3 \\\\\n\\hline 5.7 & 6.1 \\\\\n\\hline 23.0 & 25.0 \\\\\n\\hline 17.0 & 13.0 \\\\\n\\hline 79.0 & 76.0 \\\\\n\\hline 66.0 & 59.0 \\\\\n\\hline 46.8 & 25.6 \\\\\n\\hline 84.9 & 50.4 \\\\\n\\hline 65.2 & 41.2 \\\\\n\\hline 52.0 & 21.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate DELTA values for each city. Then construct a stemplot of these differences. Interpret your plot."
+  },
+  "output": {
+    "answer": "(a) DELTA values:\n\n\\begin{tabular}{|l|l|l|}\n\\hline AFTER & BEFORE & DELTA \\\n\\hline 49.2 & 18.2 & 31.0 \\\n\\hline 30.0 & 21.9 & 8.1 \\\n\\hline 16.0 & 5.2 & 10.8 \\\n\\hline 47.8 & 20.4 & 27.4 \\\n\\hline 3.4 & 2.8 & 0.6 \\\n\\hline 16.8 & 21.0 & -4.2 \\\n\\hline 10.7 & 11.3 & -0.6 \\\n\\hline 5.7 & 6.1 & -0.4 \\\n\\hline 23.0 & 25.0 & -2.0 \\\n\\hline 17.0 & 13.0 & 4.0 \\\n\\hline 79.0 & 76.0 & 3.0 \\\n\\hline 66.0 & 59.0 & 7.0 \\\n\\hline 46.8 & 25.6 & 21.2 \\\n\\hline 84.9 & 50.4 & 34.5 \\\n\\hline 65.2 & 41.2 & 24.0 \\\n\\hline 52.0 & 21.0 & 31.0 \\\n\\hline\n\\end{tabular}\n\nStemplot of DELTA values:\n```\n-0|0024\n    0|034\\underline{78}\n    1|0\n    2|147\n    3|114\nX10 (change in cavity-free rate per 100 children)\n```\n\nInterpretation:\n- Data spread from -4 to 34.\n- The median is about 7.5 (taken from the stemplot).\n- The shape of the distribution is difficult to assess because of the small sample size. There are no prominent outliers."
+  },
+  "meta_info": {
+    "index": "11.15",
+    "image": "",
+    "caption": "Water fluoridation.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "223-223"
+  },
+  "sample_key": "211",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 2321,
+    "total_tokens": 2364,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 2320,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 2321,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 2320,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

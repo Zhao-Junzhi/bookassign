@@ -1,92 +1,20 @@
 {
-  "case_id": "book1_r1\\record_143.json",
+  "case_id": "book1_r1\\record_114.json",
   "input": {
-    "background": "In 1954, the prominent statistician W. G. Cochran (1909-1980) published an important article on the analysis of cross-tabulated counts. On page 435 of the article, techniques were illustrated with an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable in this table classifies patients according to their initial degree of skin damage. The column variable classifies overall response to therapy.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-    "question": "Comment on these findings."
+    "background": "Table 1.4.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is provided.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Conduct a hypothesis test for the correlation coefficient. State the hypotheses, test statistic, p-value, and conclusion."
   },
   "output": {
-    "method": "contingency table",
-    "answer": "These distributions show that patients with high skin damage were more likely to show improvement than those with low skin infiltration.",
-    "variable": {
-      "Skin_infiltration": {
-        "id": "Skin_infiltration",
-        "value": [
-          "High",
-          "Low"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The initial degree of skin damage in leprosy patients at the onset of treatment."
-      },
-      "Response_to_treatment": {
-        "id": "Response_to_treatment",
-        "value": [
-          "Marked improvement",
-          "Moderate improvement",
-          "Slight improvement",
-          "Stationary",
-          "Worse"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The overall response to therapy in leprosy patients."
-      },
-      "High_counts": {
-        "id": "High_counts",
-        "value": [
-          7,
-          15,
-          16,
-          13,
-          1
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Counts of patients with high skin infiltration for each response category."
-      },
-      "Low_counts": {
-        "id": "Low_counts",
-        "value": [
-          11,
-          27,
-          42,
-          53,
-          11
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Counts of patients with low skin infiltration for each response category."
-      },
-      "Total_counts": {
-        "id": "Total_counts",
-        "value": [
-          18,
-          42,
-          58,
-          66,
-          12
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total counts of patients for each response category across all skin infiltration levels."
-      },
-      "Overall_total": {
-        "id": "Overall_total",
-        "value": 196,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of patients in the study."
-      }
-    }
+    "answer": "A. Hypotheses: H0: ρ = 0 versus H2: ρ ≠ 0. B. Test statistic: t_stat = -5.08 with 10 df. C. P-value: P = 0.00048 (strong evidence against the null hypothesis). D. Significance level (optional): The evidence against H0 is significant at α = 0.01 (reject H0)."
   },
   "meta_info": {
-    "index": "18.5",
+    "index": "14.1",
     "image": "",
-    "caption": "Response to leprosy treatment.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
-    "page": "420-421"
+    "caption": "Bicycle helmet use.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "308-310"
   },
   "sample_key": "278"
 }

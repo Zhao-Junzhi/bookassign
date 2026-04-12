@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\119.json",
+  "input": {
+    "background": "In Example 7.10, it was determined that there was insufficient evidence, at the α = 0.01 level of significance, to indicate that the fraction defective p of alkaline batteries was less than p = 0.05. The task is to evaluate how strong the evidence is favoring the alternative hypothesis (Ha: p < 0.05) by finding the observed significance level for the test.",
+    "data": null,
+    "question": "What is the observed significance level for the test?"
+  },
+  "output": {
+    "answer": "The observed significance level is P(z ≤ -1.32) = 0.0934. This is calculated as follows: The area between z = 0 and z = 1.32 is given in Table II in Appendix D: Tables as 0.4066. Therefore, the observed significance level is 0.5 - 0.4066 = 0.0934."
+  },
+  "meta_info": {
+    "index": "7.11",
+    "img_in_question": null
+  },
+  "sample_key": "298"
+}

@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_451.json",
+  "case_id": "book1_r1\\record_375.json",
   "input": {
-    "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
+    "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40. We propose to calculate 90%, 95%, and 99% confidence intervals for μ based on this information.",
     "data": "",
-    "question": "Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated."
+    "question": "Calculate the 95% confidence interval for μ."
   },
   "output": {
-    "method": "假设检验",
-    "answer": "Instead, strata-specific statistics should be reported.",
-    "variable": {
-      "asbestos_exposure": {
-        "id": "asbestos_exposure",
-        "value": "Presence or absence of asbestos exposure (categorical values such as 'exposed' or 'not exposed')",
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates whether an individual was exposed to asbestos."
-      },
-      "lung_cancer_status": {
-        "id": "lung_cancer_status",
-        "value": "Presence or absence of lung cancer (categorical values such as 'case' or 'control')",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates whether an individual has lung cancer (case) or not (control)."
-      },
-      "smoking_status": {
-        "id": "smoking_status",
-        "value": "Smoking behavior of individuals (categorical values such as 'smoker' or 'non-smoker')",
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates whether an individual is a smoker or a non-smoker."
-      },
-      "odds_ratios": {
-        "id": "odds_ratios",
-        "value": "Odds ratios calculated for the association between asbestos exposure, smoking, and lung cancer",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Odds ratios used to measure the strength of association between variables in the case-control study."
-      },
-      "statistical_interaction": {
-        "id": "statistical_interaction",
-        "value": "Existence or absence of interaction effects between asbestos exposure and smoking on lung cancer risk",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Indicates whether there is a statistical interaction between asbestos exposure and smoking in their effect on lung cancer."
-      }
-    }
+    "answer": "The 95% confidence interval for μ is x̄ ± (z_(1-0.05/2))(SE_x̄) = 183.0 ± (1.960)(1.5) = 183.0 ± 2.9 = 180.1 to 185.9 (pounds)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "475-476"
+    "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "201-201"
   },
   "sample_key": "569"
 }

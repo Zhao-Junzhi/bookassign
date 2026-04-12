@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\007.json",
   "input": {
-    "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned).",
+    "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were provided in tabular format.",
     "data": null,
-    "question": "(ii) Illustrate the data using box and whisker plots."
+    "question": "Calculate the statistics below for the level of public concern regarding each topic: Median, Lower quartile, and Upper quartile for both genetically modified food and intensive pesticide use."
   },
   "output": {
-    "method": "离散型-连续型变量关系",
-    "answer": "The level of public concern regarding the genetically modified food and intensive pesticide use (n=20 in each case)."
+    "answer": "Median: Genetically modified food = 3, Intensive pesticide use = 1. Lower quartile: Genetically modified food = 2, Intensive pesticide use = 1. Upper quartile: Genetically modified food = 4, Intensive pesticide use = 2."
   },
   "meta_info": {
     "index": "2.2",

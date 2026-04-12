@@ -1,0 +1,39 @@
+{
+  "case_id": "book2_r1\\120.json",
+  "input": {
+    "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What is the rejection region for this test at $\\alpha = .05$ with $(n-1) = 9$ degrees of freedom?"
+  },
+  "output": {
+    "answer": "The rejection region is for 'small values' of the test statistic. Specifically, we reject $H_0$ if $\\chi^2 < 3.32511$. This value is obtained from Table IV for $\\chi_{.95}^2$ with 9 degrees of freedom."
+  },
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "sample_key": "302",
+  "token_usage": {
+    "completion_tokens": 378,
+    "prompt_tokens": 763,
+    "total_tokens": 1141,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 763,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

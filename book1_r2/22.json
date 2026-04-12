@@ -3,20 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Ambient temperature (degrees Fahrenheit)"
+    "question": "(i) Course credit (pass or fail)"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Quantitative",
-    "variable": {
-      "ambient_temperature": {
-        "id": "ambient_temperature",
-        "value": null,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The ambient temperature measured in degrees Fahrenheit."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
     "index": "1.11",

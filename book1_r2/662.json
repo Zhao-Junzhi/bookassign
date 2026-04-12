@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_409.json",
+  "input": {
+    "background": "We have established the following statistics for the illustrative example: r=0.737, n=11, and df=9. The 95% confidence interval for ρ is to be calculated based on this information.",
+    "data": "",
+    "question": "How is the value of ω calculated based on t^2 and df?"
+  },
+  "output": {
+    "answer": "ω=√(2.262^2 / (2.262^2 + 9))=0.602."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\rho$.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 Correlation",
+    "page": "308-308"
+  },
+  "sample_key": "662"
+}

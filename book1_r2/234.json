@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_118.json",
+  "case_id": "book1_r1\\record_099.json",
   "input": {
-    "background": "Identify which of these statements are true and which are false.",
+    "background": "Identify whether the studies described are based on single samples, paired samples, or independent samples.",
     "data": "",
-    "question": "Correlation coefficient r quantifies the linear relation between quantitative variables X and Y."
+    "question": "A nutritional exam is applied to a random sample of individuals. Results are compared to expected means and proportions."
   },
   "output": {
-    "method": "相关系数（一维）",
-    "answer": "True",
-    "variable": {
-      "X": {
-        "id": "X",
-        "value": "Not explicitly provided in the question; represents a quantitative variable",
-        "class": "numerical",
-        "role": "independent",
-        "description": "A quantitative variable used to assess its linear relationship with variable Y."
-      },
-      "Y": {
-        "id": "Y",
-        "value": "Not explicitly provided in the question; represents a quantitative variable",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "A quantitative variable used to assess its linear relationship with variable X."
-      },
-      "r": {
-        "id": "r",
-        "value": "Not explicitly provided in the question; represents the correlation coefficient",
-        "class": "numerical",
-        "role": "both",
-        "description": "The correlation coefficient quantifies the strength and direction of the linear relationship between variables X and Y."
-      }
-    }
+    "answer": "Single sample"
   },
   "meta_info": {
-    "index": "14.9",
+    "index": "12.1",
     "image": "",
-    "caption": "True or false?",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.4 REGRESSION",
-    "page": "330-330"
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
   },
   "sample_key": "234"
 }

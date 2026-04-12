@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\012.json",
+  "case_id": "book5_r1\\008.json",
   "input": {
-    "background": "In 1978–79 a random sample of 1007 residents of the Lothian region were surveyed about their alcohol consumption in the previous seven days. In 1981, a follow-up survey was conducted among 676 'regular drinkers' from the original sample to study changes in alcohol consumption after an increase in alcohol prices. The follow-up survey reported a reduction in alcohol consumption and adverse effects, attributing the changes to the rise in alcohol prices.",
+    "background": "If an infection is present in a school, it would be expected to spread to 10% of the children.",
     "data": null,
-    "question": "What was the response rate to the second survey? How might non-respondents differ from respondents? What is the likely effect on the interpretation of the results of the survey?"
+    "question": "What is the effect of the number of children in the school on this calculation?"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "The response rate in the second study was 69% which is rather poor. The non-responders, nearly a third of the sample, might well be atypical (this is what is usually found), and could well include heavier drinkers. For example, some may have been too ill to respond through a drink-related illness. Thus the high rate of non-response could have biased the results. The authors should have compared the characteristics of responders and non-responders with respect to their responses to the first survey. The paper does not give the response rate to the first study. If it was also around 70%, which is quite likely, then the final sample interviewed at the second survey would be even more highly selected."
+    "answer": "It has no effect."
   },
   "meta_info": {
-    "index": "5.1",
+    "index": "4.5",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Designing research",
+    "chapter": "Theoretical distributions",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "103-104"
+    "page": "72-72"
   },
   "sample_key": "24"
 }

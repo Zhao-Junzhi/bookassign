@@ -3,23 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Treatment group: 1= active treatment, 2= placebo"
+    "question": "(m) Movie review rating: 1 star, 1 1/2 stars, 2 stars, 2 1/2 stars, 3 stars, 3 1/2 stars, 4 stars"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Categorical",
-    "variable": {
-      "Treatment Group": {
-        "id": "Treatment Group",
-        "value": [
-          1,
-          2
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates the type of treatment received by the subjects, where 1 represents active treatment and 2 represents placebo."
-      }
-    }
+    "answer": "Ordinal"
   },
   "meta_info": {
     "index": "1.11",

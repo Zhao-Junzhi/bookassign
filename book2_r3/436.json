@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\161.json",
+  "input": {
+    "background": "In all-electric homes, the amount of electricity expended is of interest to consumers, builders, and groups involved with energy conservation. Suppose we wish to investigate the monthly electrical usage, y, in all-electric homes and its relationship to the size, x, of the home. Moreover, suppose we think that monthly electrical usage in all-electric homes is related to the size of the home by the quadratic model y=β0+β1x+β2x^2+ε. To fit the model, the values of y and x are collected for 15 homes during a particular month. The data are shown in Table 12.2.",
+    "data": "\\begin{tabular}{|l|l|}\n\\hline Table 12.2 & Home Size-Electrical Usage Data \\\\\n\\hline Size of Home, x (sq. ft.) & Monthly Usage, $y$ (kilowatt-hours) \\\\\n\\hline 1,290 & 1,182 \\\\\n\\hline 1,350 & 1,172 \\\\\n\\hline 1,470 & 1,264 \\\\\n\\hline 1,600 & 1,493 \\\\\n\\hline 1,710 & 1,571 \\\\\n\\hline 1,840 & 1,711 \\\\\n\\hline 1,980 & 1,804 \\\\\n\\hline 2,230 & 1,840 \\\\\n\\hline 2,400 & 1,986 \\\\\n\\hline 2,710 & 2,007 \\\\\n\\hline 2,930 & 1,984 \\\\\n\\hline 3,000 & 1,960 \\\\\n\\hline 3,210 & 2,001 \\\\\n\\hline 3,240 & 1,928 \\\\\n\\hline 3,520 & 1,945 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Interpret the β estimates."
+  },
+  "output": {
+    "answer": "The interpretation of the estimated coefficients in a quadratic model must be undertaken cautiously. First, the estimated y-intercept, β̂0, can be meaningfully interpreted only if the range of the independent variable includes zero—that is, if x=0 is included in the sampled range of x. Although β̂0=-806.7 seems to imply that the estimated electrical usage is negative when x=0, this zero point is not in the range of the sample (the lowest value of x is 1,290 square feet), and the value is nonsensical (a home with 0 square feet); thus the interpretation of β̂0 is not meaningful. The estimated coefficient of x is β̂1=1.9616, but in the presence of the quadratic term x^2, it no longer represents a slope. The estimated coefficient of the first-order term x will not, in general, have a meaningful interpretation in the quadratic model. The sign of the coefficient, β̂2=-.00034, of the quadratic term, x^2, is the indicator of whether the curve is concave downward (mound-shaped) or concave upward (bowl-shaped). A negative β̂2 implies downward concavity, as in this example (Figure 12.15), and a positive β̂2 implies upward concavity. Rather than interpreting the numerical value of β̂2 itself, we employ a graphical representation of the model, as in Figure 12.15, to describe the model. Note that Figure 12.15 implies that the estimated electrical usage is leveling off as the home sizes increase beyond 2,500 square feet. In fact, the convexity of the model would lead to decreasing usage estimates if we were to display the model out to 4,000 square feet and beyond (see Figure 12.16). However, model interpretations are not meaningful outside the range of the independent variable, which has a maximum value of 3,520 square feet in this example. Thus, although the model appears to support the hypothesis that the rate of increase per square foot decreases for home sizes near the high end of the sampled values, the conclusion that usage will actually begin to decrease for very large homes would be a misuse of the model because no homes of 3,600 square feet or more were included in the sample."
+  },
+  "meta_info": {
+    "index": "12.7",
+    "img_in_question": null
+  },
+  "sample_key": "436",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 2267,
+    "total_tokens": 2310,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 2266,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 2267,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 2266,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

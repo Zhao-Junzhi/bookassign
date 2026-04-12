@@ -1,0 +1,45 @@
+{
+  "case_id": "book5_r1\\011.json",
+  "input": {
+    "background": "In Britain, the most common autosomal recessive disorder is cystic fibrosis, affecting about 1 in 2000 live births. If both parents are heterozygous for the abnormal gene, there is a 1 in 4 chance of their child having cystic fibrosis.",
+    "data": null,
+    "question": "If they have four unaffected children, what is the probability that their fifth child would be unaffected?"
+  },
+  "output": {
+    "answer": "The probability is 0.75. Each child has the same probability, regardless of the outcome for previous children."
+  },
+  "meta_info": {
+    "index": "4.8",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Theoretical distributions",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "73-73"
+  },
+  "sample_key": "30",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 583,
+    "total_tokens": 610,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 583,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

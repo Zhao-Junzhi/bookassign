@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\020.json",
+  "input": {
+    "background": "Calculate the variance and standard deviation of the following sample: $2,3,3,3,4$.",
+    "data": null,
+    "question": "What is the variance ($s^2$) of the sample?"
+  },
+  "output": {
+    "answer": "$s^2=\\frac{\\sum_{i=1}^n(x-\\bar{x})^2}{n-1}=\\frac{2}{5-1}=\\frac{2}{4}=0.5$."
+  },
+  "meta_info": {
+    "index": "2.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Computing Measures of Variation",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.4 Numerical Measures of Variability",
+    "book": "Statistics for Business and Economics",
+    "page": "53-53"
+  },
+  "sample_key": "47",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 895,
+    "total_tokens": 938,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 894,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 895,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 894,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

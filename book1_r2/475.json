@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_396.json",
+  "case_id": "book1_r1\\record_335.json",
   "input": {
-    "background": "Suppose you want to test $H_0: \\mu_1=\\mu_2$ for the cholesterol illustrative example at $\\alpha=$ 0.05 (two-sided) with $90 \\%$ power. You are looking for a mean difference of $1 \\mathrm{mmol} / \\mathrm{L}$ and will use the pooled estimate of variance (about 0.25 ) as a reasonable estimate of $\\sigma^2$.",
-    "data": "",
-    "question": "How many individuals must be studied to achieve these conditions?"
+    "background": "Table 5.1 lists the probability mass function (pmf) for the four patients illustrative pmf. The pmf satisfies the following properties: 1) All probabilities in the pmf are between 0 and 1. 2) Probabilities in the sample space sum to exactly 1. 3) The probability of a complement is equal to 1 minus the probability of the event.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the probability of $X=0$ or $X=1$, using the property that the probability of a union of disjoint events is the sum of their probabilities."
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "For $90 \\%$ power, $z_{1-\\beta}=z_{.90}=1.282$. For a two-sided test at $\\alpha= 0.05, z_{1-(\\alpha / 2)}=z_{.975}=1.96$ [Appendix Table B]. Given these conditions, $$ n=\\frac{2 \\sigma^2\\left(z_{1-\\beta}+z_{1-\\frac{\\alpha}{2}}\\right)^2}{\\Delta^2}=\\frac{2 \\cdot 0.25 \\cdot(1.282+1.96)^2}{1^2}=5.26 . \\text { Because } n $$ is small, apply correction factor $f=(d f+3) /(d f+1)$ to this result. With 5.26 per group, $d f_1$ and $d f_2=4.26$. Therefore, $d f=d f_1+d f_2=4.26+ 4.26=8.52$ and adjustment factor $f=(8.52+3) /(8.52+1)=1.21$. Applying the correction derives $n=1.21 \\times 5.26=6.36$. Round this up to seven and resolve to use a minimum of seven individuals per group.",
-    "variable": {
-      "alpha": {
-        "id": "alpha",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Significance level of the hypothesis test."
-      },
-      "power": {
-        "id": "power",
-        "value": 0.9,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Statistical power of the test, representing the probability of correctly rejecting the null hypothesis when it is false."
-      },
-      "mean_difference": {
-        "id": "mean_difference",
-        "value": 1,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Expected mean difference between the two groups in mmol/L."
-      },
-      "pooled_variance": {
-        "id": "pooled_variance",
-        "value": 0.25,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Pooled estimate of variance, used as an estimate of the population variance (σ²)."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of individuals required to achieve the specified conditions."
-      }
-    }
+    "answer": "Therefore, $\\operatorname{Pr}(X=0$ or $X=1)=\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)=0.0039+0.0469=0.0508$."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Sample size requirement for hypothesis test.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "252-252"
+    "caption": "Properties of probabilities.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "95-95"
   },
   "sample_key": "475"
 }

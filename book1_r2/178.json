@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_094.json",
+  "case_id": "book1_r1\\record_079.json",
   "input": {
-    "background": "An SRS of n = 26 boys between the ages of 13 and 14 has a mean height of 63.8 inches with a standard deviation 3.1 inches.",
+    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
     "data": "",
-    "question": "Calculate a 95% confidence interval for the mean height of the population."
+    "question": "Sketch the sampling distribution of 𝑥̄ based on an SRS of n=20. Assume μ=85,100 and σ=10,000. Mark the horizontal axis with landmarks that are ±1 and ±2 standard errors around μ. Locate 𝑥̄=80,900 on the horizontal axis of the curve."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "$\\begin{aligned} & S E=\\frac{3.1}{\\sqrt{26}}=0.608 \\\\ & d f=26-1=25 \\\\ & t_{25，. 975}=2.060 \\\\ & 95 \\% \\text { CI for } \\mu=63.8 \\pm(2.060)(0.608)=63.8 \\pm 1.3=(62.5 \\text { to } 65.1) \\text { inches. }\\end{aligned}$",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 26,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of boys in the sample."
-      },
-      "mean_height": {
-        "id": "mean_height",
-        "value": 63.8,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean height of the sample of boys."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 3.1,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The standard deviation of the heights in the sample."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The confidence level for the interval estimation."
-      }
-    }
+    "answer": "First note that SE𝑥̄ = 10,000 / √20 = 2,236. Under the null hypothesis 𝑥̄ ~ N(85,100, 2,236). The sketch of 𝑥̄ ~ N(85,100, 2,236) is not shown in this key. The sampling distribution of 𝑥̄ should be Normal with landmarks on the curve starting 2 standard errors below the mean at 80,628, 82,864, 85,100, 87,336, and 89,572."
   },
   "meta_info": {
-    "index": "11.21",
+    "index": "9.15",
     "image": "",
-    "caption": "Boy height.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "229-229"
+    "caption": "Female administrators.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
   },
   "sample_key": "178"
 }

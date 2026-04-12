@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\085.json",
+  "input": {
+    "background": "A manufacturer of microwave ovens is trying to determine the length of warranty period it should attach to its magnetron tube, the most critical component in the oven. Preliminary testing has shown that the length of life (in years), $x$, of a magnetron tube has an exponential probability distribution with $\\theta=6.25$.",
+    "data": null,
+    "question": "Find the probability that the length of life of a magnetron tube will fall within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$."
+  },
+  "output": {
+    "answer": "We would expect the probability that the life of a magnetron tube, $x$, falls within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ to be quite large. A graph of the exponential distribution showing the interval from $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ is given in Figure 4.47. Because the point $\\mu-2 \\sigma$ lies below $x=0$, we need to find only the area between $x=0$ and $x =\\mu+2 \\sigma=6.25+2(6.25)=18.75$. This area, $P$, which is shaded in Figure 4.47, is $$P=1-P(x>18.75)=1-e^{-18.75 / \\theta}=1-e^{-18.75 / 6.25}=1-e^{-3}$$ Using a calculator, we find that $e^{-3}=.049787$. Therefore, the probability that the life $x$ of a magnetron tube will fall within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ is $$P=1-e^{-3}=1-.049787=.950213$$"
+  },
+  "meta_info": {
+    "index": "4.29",
+    "img_in_question": null
+  },
+  "sample_key": "208",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1391,
+    "total_tokens": 1434,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1390,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1391,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1390,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

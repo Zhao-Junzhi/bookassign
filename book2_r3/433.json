@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\161.json",
+  "input": {
+    "background": "In all-electric homes, the amount of electricity expended is of interest to consumers, builders, and groups involved with energy conservation. Suppose we wish to investigate the monthly electrical usage, y, in all-electric homes and its relationship to the size, x, of the home. Moreover, suppose we think that monthly electrical usage in all-electric homes is related to the size of the home by the quadratic model y=β0+β1x+β2x^2+ε. To fit the model, the values of y and x are collected for 15 homes during a particular month. The data are shown in Table 12.2.",
+    "data": "\\begin{tabular}{|l|l|}\n\\hline Table 12.2 & Home Size-Electrical Usage Data \\\\\n\\hline Size of Home, x (sq. ft.) & Monthly Usage, $y$ (kilowatt-hours) \\\\\n\\hline 1,290 & 1,182 \\\\\n\\hline 1,350 & 1,172 \\\\\n\\hline 1,470 & 1,264 \\\\\n\\hline 1,600 & 1,493 \\\\\n\\hline 1,710 & 1,571 \\\\\n\\hline 1,840 & 1,711 \\\\\n\\hline 1,980 & 1,804 \\\\\n\\hline 2,230 & 1,840 \\\\\n\\hline 2,400 & 1,986 \\\\\n\\hline 2,710 & 2,007 \\\\\n\\hline 2,930 & 1,984 \\\\\n\\hline 3,000 & 1,960 \\\\\n\\hline 3,210 & 2,001 \\\\\n\\hline 3,240 & 1,928 \\\\\n\\hline 3,520 & 1,945 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Construct a scatterplot for the data. Is there evidence to support the use of a quadratic model?"
+  },
+  "output": {
+    "answer": "A Minitab scatterplot for the data in Table 12.2 is shown in Figure 12.13. The figure illustrates that electrical usage appears to increase in a curvilinear manner with the size of the home. This provides some support for the inclusion of the quadratic term x^2 in the model."
+  },
+  "meta_info": {
+    "index": "12.7",
+    "img_in_question": null
+  },
+  "sample_key": "433",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1618,
+    "total_tokens": 1661,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1617,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1618,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1617,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

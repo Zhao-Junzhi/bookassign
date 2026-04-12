@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_397.json",
+  "case_id": "book1_r1\\record_336.json",
   "input": {
-    "background": "In the cholesterol illustrative example, we aim to determine the minimal detectable difference using a sample size of n=30 per group, with a significance level of α=0.05 (two-sided) and a power of 0.90. A reasonable estimate for σ² has been established as 0.25.",
-    "data": "",
-    "question": "What is the minimal detectable difference?"
+    "background": "The question asks to calculate the mean and variance of the pmf for four patients, as presented in Table 5.1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What is the mean of the four patients illustrative pmf?"
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "Δ=√(2⋅σ²/n)(z₁₋β+z₁₋α/₂)=√(2⋅0.25/30)(1.282+1.96)=0.42. This study will be able to detect a mean difference of 0.42 mmol/L under the stated conditions.",
-    "variable": {
-      "sample_size_per_group": {
-        "id": "sample_size_per_group",
-        "value": 30,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of samples in each group."
-      },
-      "significance_level": {
-        "id": "significance_level",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The significance level (alpha) for the hypothesis test, two-sided."
-      },
-      "power": {
-        "id": "power",
-        "value": 0.9,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The power of the test, representing the probability of correctly rejecting the null hypothesis."
-      },
-      "variance_estimate": {
-        "id": "variance_estimate",
-        "value": 0.25,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The estimated variance (σ²) used for calculations."
-      }
-    }
+    "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Minimal detectable difference.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "252-253"
+    "caption": "Expectation and variance.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "96-97"
   },
   "sample_key": "476"
 }

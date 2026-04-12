@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_106.json",
+  "input": {
+    "background": "The mean survival time in the IDX-treated group was 116 days (SE1 = 5.6). The mean survival time in the control group was 88.5 (SE2 = 1.9). Test H0: μ1 = μ2.",
+    "data": "",
+    "question": "Calculate the test statistic."
+  },
+  "output": {
+    "answer": "SE = √(SE1² + SE2²) = √(5.6² + 1.9²) = 5.91 and t_stat = (116 - 88.5) / 5.91 = -4.65. Since n1 = 10 and n2 = 10, df_conserv = 10 - 1 = 9."
+  },
+  "meta_info": {
+    "index": "12.15",
+    "image": "",
+    "caption": "Scrapie treatment, delay of death.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-256"
+  },
+  "sample_key": "250",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 670,
+    "total_tokens": 697,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 670,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

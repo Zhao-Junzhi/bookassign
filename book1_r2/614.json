@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the 95% confidence interval for μ1−μ2 for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "How is the degrees of freedom (df) calculated using the conservative method, and what is the corresponding t-value for 95% confidence?"
+  },
+  "output": {
+    "answer": "Using the conservative method: df1 = 12−1 = 11, df2 = 7−1 = 6, so df_conserv = 6. For 95% confidence, t6,0.975 = 2.447."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "614"
+}

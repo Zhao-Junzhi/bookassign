@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_073.json",
+  "case_id": "book1_r1\\record_065.json",
   "input": {
-    "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+    "background": "Find the following $z$ percentiles on a Standard Normal curve.",
     "data": "",
-    "question": "What is wrong with the hypothesis statement $H_0: \\hat{p}=0.50$ vs. $H_a: \\hat{p} \\neq 0.50$?"
+    "question": "What is $z_{.35}$?"
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "Same problem as we identified in (b). These hypothesis statements address sample statistic $\\hat{p}$. They should address population parameter $p$.",
-    "variable": {
-      "hypothesis_statement": {
-        "id": "hypothesis_statement",
-        "value": [
-          "H_0: \\hat{p}=0.50",
-          "H_a: \\hat{p} \\neq 0.50"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The hypothesis statements being evaluated for correctness."
-      },
-      "proportion_estimate": {
-        "id": "proportion_estimate",
-        "value": "0.50",
-        "class": "numerical",
-        "role": "both",
-        "description": "The estimated proportion value used in the hypothesis statement."
-      }
-    }
+    "answer": "$z_{.35}=-0.39$"
   },
   "meta_info": {
-    "index": "9.1",
+    "index": "7.15",
     "image": "",
-    "caption": "Misconceived hypotheses.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
-    "page": "177-177"
+    "caption": "Z percentiles.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
   },
   "sample_key": "139"
 }

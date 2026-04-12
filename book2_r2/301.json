@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\120.json",
+  "input": {
+    "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What is the test statistic for this hypothesis test, and what assumptions are required for its use?"
+  },
+  "output": {
+    "answer": "The test statistic is $\\chi^2 = \\frac{(n-1) s^2}{\\sigma^2}$. The assumption required for its use is that the distribution of the amounts of fill is approximately normal."
+  },
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "sample_key": "301"
+}

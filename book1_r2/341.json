@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_318.json",
+  "case_id": "book1_r1\\record_136.json",
   "input": {
-    "background": "Consider this small ordered array $(n=10)$ :",
+    "background": "It is important to develop a detailed plan of study early in the development of an investigation. One part of the plan is to assure adequacy of the sample size. Consider a test of H0: p1=p2 against Ha: p1≠p2 at α=0.05 with a power that is equal to 0.80. We predict that 20% of group 1 and 30% of group 2 will experience the outcome. If we recruit an equal number of individuals in each of the groups, how many individuals do we need to study?",
     "data": "",
-    "question": "Identify the first quartile (Q1) from the array."
+    "question": "How many individuals are needed in each group with continuity-correction?"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "The low group is {5,11,21,24,27}, so Q1=21.",
-    "variable": {
-      "array": {
-        "id": "array",
-        "value": "List of numerical values in the ordered array",
-        "class": "numerical",
-        "role": "NR",
-        "description": "The ordered array of numerical values from which the first quartile (Q1) is to be identified."
-      }
-    }
+    "answer": "n1=n2=313 (626 total)."
   },
   "meta_info": {
-    "index": "",
+    "index": "17.11",
     "image": "",
-    "caption": "Quartiles.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.5 SPREAD: QUARTILES",
-    "page": "73-73"
+    "caption": "Sample-size plan.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
   },
   "sample_key": "341"
 }

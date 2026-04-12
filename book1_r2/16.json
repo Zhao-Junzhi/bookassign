@@ -3,20 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Body weight (kilograms)"
+    "question": "(c) Presence of type II diabetes mellitus (yes or no)"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Quantitative",
-    "variable": {
-      "body_weight": {
-        "id": "body_weight",
-        "value": "Not explicitly provided in the question, but refers to body weight measurements in kilograms.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Body weight of individuals measured in kilograms."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
     "index": "1.11",

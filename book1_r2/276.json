@@ -1,21 +1,20 @@
 {
-  "case_id": "book1_r1\\record_141.json",
+  "case_id": "book1_r1\\record_114.json",
   "input": {
-    "background": "Table 18.7 is based on results from the Youth Risk Behavior Surveillance (YRBS) system. The number of adolescents who had been in a car or other vehicle when the driver had been drinking alcohol is cross tabulated according to racial/ethnic group classifications.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.7 Data for Exercise 18.1 and Exercise 18.8. Drove or rode in a car other vehicle when driver was drinking alcohol within past 30 days by racial/ethnic group.}\n\\begin{tabular}{l|r|r|}\n\\hline Group & \\multicolumn{1}{c}{+} & \\multicolumn{1}{c}{ - }& \\multicolumn{1}{c}{ Total } \\\n1 (Non-Hisp.White) & 243 & 1911 & 2154 \\\n\\hline 2 (Non-Hisp. Black) & 25 & 483 & 508 \\\n\\hline 3 (Hispanic) & 55 & 471 & 526 \\\n\\hline Total & 323 & 2864 & 3187 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-    "question": "Determine the margin of error for each proportion according to this formula: m ≈ 2 ⋅ SE_{p_i}, where SE_{̂{p}_i}=√{̂{p}_i ̂{q}_i/n_i}"
+    "background": "Table 1.4.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is provided.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Discuss the potential outlier in plain terms."
   },
   "output": {
-    "method": "分散程度测度",
-    "answer": "SE=0.00682; m=0.013; SE=0.00958; m=0.019; SE=0.01337; m=0.026"
+    "answer": "This observation had high helmet use and low socio-economic status."
   },
   "meta_info": {
-    "index": "18.1",
+    "index": "14.1",
     "image": "",
-    "caption": "YRBS, prevalence proportions.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
-    "page": "418-419"
+    "caption": "Bicycle helmet use.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "308-310"
   },
   "sample_key": "276"
 }

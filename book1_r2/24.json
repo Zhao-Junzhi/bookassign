@@ -3,26 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Satisfaction: 1= very satisfied, 2= satisfied, 3= neutral, 4= unsatisfied, 5= very unsatisfied"
+    "question": "(k) Type of life insurance policy: 1 = none, 2 = term, 3 = endowment, 4 = straight life, 5 = other"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "Ordinal",
-    "variable": {
-      "Satisfaction": {
-        "id": "Satisfaction",
-        "value": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "class": "ordinal",
-        "role": "dependent",
-        "description": "A variable representing satisfaction levels, where 1= very satisfied, 2= satisfied, 3= neutral, 4= unsatisfied, and 5= very unsatisfied."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
     "index": "1.11",

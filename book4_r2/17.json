@@ -1,12 +1,11 @@
 {
   "case_id": "book4_r1\\004.json",
   "input": {
-    "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
+    "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
     "data": null,
-    "question": "Taking random coordinates from the whole 100 × 100 m sample area. Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of this method."
+    "question": "Identify which of the designs is random, systematic, or stratified-random for the following method: Taking random coordinates from the whole 100 × 100 m sample area. State briefly any main advantages and disadvantages of this method."
   },
   "output": {
-    "method": "实验设计",
     "answer": "(ii) Random.\n\nAdvantage: reduces the opportunity for the researcher to unconsciously bias where the quadrats are placed.\nDisadvantage: there may be areas of the meadow with different conditions that, by chance, are underrepresented."
   },
   "meta_info": {

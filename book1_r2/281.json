@@ -1,106 +1,20 @@
 {
-  "case_id": "book1_r1\\record_145.json",
+  "case_id": "book1_r1\\record_115.json",
   "input": {
-    "background": "Exercise 18.3 found that 43% of CMV+ patients experienced arterial restenosis within 6 months of atherectomy. In contrast, 8% of CMV-patients experienced a similar outcome. Table 18.8 contains observed counts.",
-    "data": "Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.\n\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Restenosed } & \\multicolumn{1}{c}{ Did not restenose } & \\multicolumn{1}{c}{ Total }\\\n\\hline\n\\hline CMV + & 21 & 28 & 49 \\\n\\hline CMV- & 2 & 24 & 26 \\\n\\hline Total & 23 & 49 & 75 \\\n\\hline\n\\end{tabular}\n",
-    "question": "Repeat the test with a $z$-statistic ($\\$ 17.3). Show the relation between the chi-square statistic and the $z$-statistic."
+    "background": "Exercise 14.1 introduced data for a cross-sectional survey of bicycle helmet use in Northern California. Table 14.5 lists the data. Exercise 14.1(a) revealed that observation 13 (Los Arboles) was an outlier.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Use the 95% confidence interval to predict whether the slope is significant at α=0.05."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "$z_{\\text {stat }}=3.14, P=0.0017$. Note that $z^2_{\\text {stat }}=3.14^2=9.86 \\approx X^2$ stat\n\nWith continuity-correction, $z^2$ stat., $c=2.88^2=8.30 \\approx X^2$ stat, c",
-    "variable": {
-      "CMV_status": {
-        "id": "CMV_status",
-        "value": [
-          "CMV+",
-          "CMV-"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "CMV serological status of the patients, indicating whether they are CMV positive or negative."
-      },
-      "restenosis_status": {
-        "id": "restenosis_status",
-        "value": [
-          "Restenosed",
-          "Did not restenose"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The restenosis outcome within 6 months of angioplasty, indicating whether the artery restenosed or did not restenose."
-      },
-      "count_CMV_positive_restenosed": {
-        "id": "count_CMV_positive_restenosed",
-        "value": 21,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of CMV+ patients who experienced restenosis within 6 months."
-      },
-      "count_CMV_positive_not_restenosed": {
-        "id": "count_CMV_positive_not_restenosed",
-        "value": 28,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of CMV+ patients who did not experience restenosis within 6 months."
-      },
-      "count_CMV_negative_restenosed": {
-        "id": "count_CMV_negative_restenosed",
-        "value": 2,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of CMV- patients who experienced restenosis within 6 months."
-      },
-      "count_CMV_negative_not_restenosed": {
-        "id": "count_CMV_negative_not_restenosed",
-        "value": 24,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of CMV- patients who did not experience restenosis within 6 months."
-      },
-      "total_CMV_positive": {
-        "id": "total_CMV_positive",
-        "value": 49,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of CMV+ patients in the study."
-      },
-      "total_CMV_negative": {
-        "id": "total_CMV_negative",
-        "value": 26,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of CMV- patients in the study."
-      },
-      "total_restenosed": {
-        "id": "total_restenosed",
-        "value": 23,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of patients who experienced restenosis within 6 months."
-      },
-      "total_not_restenosed": {
-        "id": "total_not_restenosed",
-        "value": 49,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of patients who did not experience restenosis within 6 months."
-      },
-      "total_patients": {
-        "id": "total_patients",
-        "value": 75,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of patients in the study."
-      }
-    }
+    "answer": "Not provided in the original answer."
   },
   "meta_info": {
-    "index": "18.9",
+    "index": "14.3",
     "image": "",
-    "caption": "Cytomegalovirus infection and coronary restenosis.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
-    "page": "431-431"
+    "caption": "Bicycle helmet use, n = 12.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "325-326"
   },
   "sample_key": "281"
 }

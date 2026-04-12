@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\060.json",
+  "input": {
+    "background": "Recall the experiment of tossing two coins and let $x$ be the number of heads observed. Assume the two coins are fair.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.1\nProbability Distribution for Coin-Toss Experiment: Tabular Form}\n\\begin{tabular}{cc}\n$x$ & $p(x)$ \\\\\n\\hline 0 & $\\frac{1}{4}$ \\\\\n1 & $\\frac{1}{2}$ \\\\\n2 & $\\frac{1}{4}$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Find the probability associated with each value of the random variable $x$ (0, 1, 2)."
+  },
+  "output": {
+    "answer": "The probability associated with each of the four sample points is $\\frac{1}{4}$. Identifying the probabilities of the sample points associated with each of these values of $x$, we have:\n\n$$\n\\begin{aligned}\nP(x=0)=P(T T) & =\\frac{1}{4} \\\\\nP(x=1)=P(T H)+P(H T) & =\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2} \\\\\nP(x=2)=P(H H) & =\\frac{1}{4}\n\\end{aligned}\n$$"
+  },
+  "meta_info": {
+    "index": "4.4",
+    "img_in_question": null
+  },
+  "sample_key": "135"
+}

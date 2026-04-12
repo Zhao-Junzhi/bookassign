@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\116.json",
+  "input": {
+    "background": "A major car manufacturer wants to test a new engine to determine whether it meets new air pollution standards. The mean emission μ of all engines of this type must be less than 20 parts per million of carbon. Ten engines are manufactured for testing purposes, and the emission level of each is determined. The manufacturer is willing to risk a Type I error with probability α=0.01.",
+    "data": "\\begin{tabular}{|lllllllllll}\n\\hline Table 7.5 & \\multicolumn{9}{|l|}{ Emission Levels for Ten Engines } \\\\\n\\hline 15.6 & 16.2 & 22.5 & 20.5 & 16.4 & 19.4 & 19.6 & 17.9 & 12.7 & 14.9 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What are the sample mean (x̄) and sample standard deviation (s)? What is the calculated test statistic?"
+  },
+  "output": {
+    "answer": "From the Minitab printout, x̄ = 17.57 and s = 2.95. Substituting these values into the test statistic formula, we get t = (17.57 - 20) / (2.95 / √10) = -2.60."
+  },
+  "meta_info": {
+    "index": "7.8",
+    "img_in_question": null
+  },
+  "sample_key": "285",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1231,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1201,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1231,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1201,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

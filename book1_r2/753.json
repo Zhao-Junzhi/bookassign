@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_448.json",
+  "input": {
+    "background": "Recall the illustrative data in which smoking-discordant monozygotic twins were studied to see which twin first succumbed to death. In 17 twin sets, the smoking twins died first. In 5 twin sets, the nonsmoking twin died first (\\widehat{\\sigma R}=3.4). The test of association follows.",
+    "data": "",
+    "question": "What is the P-value for the test statistic, and what is the result with continuity correction?"
+  },
+  "output": {
+    "answer": "$P=0.01047$ [from Table $F$ ]. With continuity correction, $z_{\\text {stat }, M c N, c}=\\sqrt{\\frac{(|c-b|-1)^2}{c+b}}=\\sqrt{\\frac{(|17-5|-1)^2}{17+5}}=2.35$ and $P=0.019$. By convention, the association is said to be significant."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Hypothesis test for matched pairs, Normal approxima-  tion (Smoking and mortality in identical twins).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "453-453"
+  },
+  "sample_key": "753"
+}

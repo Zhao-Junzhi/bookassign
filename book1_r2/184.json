@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_096.json",
+  "case_id": "book1_r1\\record_080.json",
   "input": {
-    "background": "Two trials looked at red wine consumption in lowering cholesterol levels in hypercholesterolemic men. In each trial, 25 men consumed 8 ounces of red wine for 14 days.",
+    "background": "An SRS of 18 male students at a university has an average height of 70 inches. The average height of men in the general population is 69 inches. Assume that male height is approximately Normally distributed with σ=2.8 inches.",
     "data": "",
-    "question": "In trial B, 25 different subjects lowered their cholesterol by $5 \\%$ with standard deviation $12.2 \\%\\left(t_{\\text {stat }}=2.05\\right.$ with $\\left.24 d f\\right)$. Is this result statistically significant at $\\alpha=0.05$?"
+    "question": "State the conclusion of the hypothesis test at a significance level of α = 0.10."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "$P=0.0514 . \\mathrm{No}$, the test is not statistically significant at $\\alpha=0.05(P>\\alpha)$.",
-    "variable": {
-      "cholesterol_reduction_percentage": {
-        "id": "cholesterol_reduction_percentage",
-        "value": 5,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage by which cholesterol levels were reduced in trial B."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 12.2,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the cholesterol reduction percentages in trial B."
-      },
-      "t_statistic": {
-        "id": "t_statistic",
-        "value": 2.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The t-statistic value for the cholesterol reduction in trial B."
-      },
-      "degrees_of_freedom": {
-        "id": "degrees_of_freedom",
-        "value": 24,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The degrees of freedom for the t-test in trial B."
-      },
-      "alpha": {
-        "id": "alpha",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The significance level for the hypothesis test."
-      }
-    }
+    "answer": "Results are not significant at α = 0.10 (retain H0)."
   },
   "meta_info": {
-    "index": "11.25",
+    "index": "9.17",
     "image": "",
-    "caption": "Beware $\\alpha=0.05$.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "230-231"
+    "caption": "University men.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
   },
   "sample_key": "184"
 }

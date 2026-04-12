@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\100.json",
+  "input": {
+    "background": "Some quality-control experiments require destructive sampling (i.e., the test to determine whether the item is defective destroys the item) in order to measure some particular characteristic of the product. The cost of destructive sampling often dictates small samples. For example, suppose a manufacturer of printers for personal computers wishes to estimate the mean number of characters printed before the printhead fails. Suppose the printer manufacturer tests n=15 randomly selected printheads and records the number of characters printed until failure for each. These 15 measurements (in millions of characters) are listed in Table 6.5, followed by an XLSTAT summary statistics printout in Figure 6.10.",
+    "data": " \n\n\\begin{tabular}{rrrrr}\nTable 6.5 Number of Characters (in Millions) for $n=15$ Printhead Tests \\\n1.13 & 1.55 & 1.43 & .92 & 1.25 \\\n1.36 & 1.32 & .85 & 1.07 & 1.48 \\\n1.20 & 1.33 & 1.18 & 1.22 & 1.29\n\\end{tabular}",
+    "question": "What assumption is required for the interval, part a, to be valid? Is it reasonably satisfied?"
+  },
+  "output": {
+    "answer": "Because n is small, we must assume that the number of characters printed before printhead failure is a random variable from a normal distribution—that is, we assume that the population from which the sample of 15 measurements is selected is distributed normally. One way to check this assumption is to graph the distribution of data in Table 6.5. If the sample data are approximately normal, then the population from which the sample is selected is very likely to be normal. A Minitab stem-and-leaf plot for the sample data is displayed in Figure 6.11. The distribution is mound-shaped and nearly symmetric. Therefore, the assumption of normality appears to be reasonably satisfied."
+  },
+  "meta_info": {
+    "index": "6.5",
+    "img_in_question": null
+  },
+  "sample_key": "244"
+}

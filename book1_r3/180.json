@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_079.json",
+  "input": {
+    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
+    "data": "",
+    "question": "Come up with four explanations for the lower-than-expected observed sample mean."
+  },
+  "output": {
+    "answer": "1) Chance (𝑃 = 0.0602)\n2) Selection bias: The sample is not an SRS of female executives.\n3) Confounding: An extraneous variable is lurking in the background. For example, these executives may be younger and/or less experienced on average than the population.\n4) Gender bias."
+  },
+  "meta_info": {
+    "index": "9.15",
+    "image": "",
+    "caption": "Female administrators.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
+  },
+  "sample_key": "180",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1054,
+    "total_tokens": 1097,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1053,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1054,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1053,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

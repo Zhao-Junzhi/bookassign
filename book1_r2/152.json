@@ -1,47 +1,20 @@
 {
-  "case_id": "book1_r1\\record_081.json",
+  "case_id": "book1_r1\\record_068.json",
   "input": {
-    "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that $H_0$ is true in a statistical hypothesis test. Other analogies exist.",
+    "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
     "data": "",
-    "question": "To make these connections, fill in the cells of the following table with the labels: (a) Acquittal of an innocent person; (b) Conviction of an innocent person; (c) Acquittal of a guilty person; (d) Declaring a criminal guilty."
+    "question": "Explain to a lay person the advantage of reporting the average of four measurements rather than using a single measurement."
   },
   "output": {
-    "method": "假设检验",
-    "answer": "\\begin{tabular}{r|c|c|}\\multicolumn{2}{c}{ TRUTH } \\DECISION OF JURY & \\multicolumn{1}{c|}{ Did not do crime } & Did crime \\Not Guilty & (a) & (c) \\Guilty & (b) & (d) \\\\ \\hline\\end{tabular}",
-    "variable": {
-      "Verdict": {
-        "id": "Verdict",
-        "value": [
-          "Acquittal of an innocent person",
-          "Conviction of an innocent person",
-          "Acquittal of a guilty person",
-          "Declaring a criminal guilty"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Possible outcomes of a jury's decision in a criminal case."
-      },
-      "Hypothesis_Test_Outcome": {
-        "id": "Hypothesis_Test_Outcome",
-        "value": [
-          "True Negative",
-          "False Positive",
-          "False Negative",
-          "True Positive"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Possible outcomes of a statistical hypothesis test."
-      }
-    }
+    "answer": "Assuming the measurements are unbiased, the average is more likely to reflect the true value of μ than is a single measurement."
   },
   "meta_info": {
-    "index": "9.19",
+    "index": "8.7",
     "image": "",
-    "caption": "The criminal justice analogy.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 POWER AND SAMPLE SIZE",
-    "page": "195-195"
+    "caption": "Repeated lab measurements.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-167"
   },
   "sample_key": "152"
 }

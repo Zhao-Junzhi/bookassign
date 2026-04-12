@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\065.json",
+  "input": {
+    "background": "Decide whether $x$ is a binomial random variable for the given scenarios.",
+    "data": null,
+    "question": "You randomly select 3 bonds out of a possible 10 for an investment portfolio. Unknown to you, 8 of the 10 will maintain their present value, and the other 2 will lose value due to a change in their ratings. Let $x$ be the number of the 3 bonds you select that lose value."
+  },
+  "output": {
+    "answer": "In checking the binomial characteristics in the box, a problem arises with both characteristic 3 (probabilities remaining the same from trial to trial) and characteristic 4 (independence). The probability that the first bond you pick loses value is clearly $\\frac{2}{10}$. Now suppose the first bond you picked was 1 of the 2 that will lose value. This reduces the chance that the second bond you pick will lose value to $\\frac{1}{9}$ because now only 1 of the 9 remaining bonds are in that category. Thus, the choices you make are dependent, and therefore $x$, the number of 3 bonds you select that lose value, is not a binomial random variable."
+  },
+  "meta_info": {
+    "index": "4.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Assessing Whether $x$ Is Binomial-Business Problems",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.3 The Binomial Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "125-126"
+  },
+  "sample_key": "147",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1129,
+    "total_tokens": 1172,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1128,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1129,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1128,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

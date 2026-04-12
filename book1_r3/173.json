@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_077.json",
+  "input": {
+    "background": "Studies in the general population suggest that the gestational length of uncomplicated pregnancies varies according to a Normal distribution with μ=39 weeks with σ=2 weeks. A sample of 22 middle-class African American women demonstrates an average gestation length (x̄) of 38.5 weeks. Test whether the mean gestation period in the African American women is significantly different from the expected value of 39 weeks. Use a two-sided alternative hypothesis.",
+    "data": "",
+    "question": "Calculate the test statistic for the given data."
+  },
+  "output": {
+    "answer": "SEₓ̄=2/√22=0.4264 and z_stat=(38.5-39)/0.4264=-1.17"
+  },
+  "meta_info": {
+    "index": "9.11",
+    "image": "",
+    "caption": "Gestational length，African American women, hypothesis test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "192-193"
+  },
+  "sample_key": "173",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1096,
+    "total_tokens": 1139,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1039,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1096,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1039,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

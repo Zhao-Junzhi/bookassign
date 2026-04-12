@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\051.json",
+  "case_id": "book5_r1\\041.json",
   "input": {
-    "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model.",
+    "background": "In the worked example of regression analysis (section 11.10.1), the $W^{\\prime}$ test for non-Normality of the residuals gave $\\mathrm{P}=0.03$. Using the data in Table 11.6, analyze the relationship between $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ and blood glucose, assess the Normality of residuals, and compare prediction intervals for a diabetic patient with a fasting blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$.",
     "data": null,
-    "question": "What is the interpretation of the opposite signs for the regression coefficients?"
+    "question": "Are the residuals from this analysis more nearly Normal?"
   },
   "output": {
-    "method": "回归系数显著性与方向解读",
-    "answer": "The opposite signs mean that high values of one variable and low values of the other variable are associated with an increased risk of dying. A positive regression coefficient means that high values of that variable are associated with worse survival, and conversely for a negative coefficient. Thus the model predicts that survival is worse for non-CML patients and those with GvHD."
+    "answer": "The test of Normality of the residuals from this regression line gives $W^{\\prime}=0.936, \\mathrm{P}>0.1$. The residuals after log transformation are thus more nearly Normal than those from the analysis of the raw data."
   },
   "meta_info": {
-    "index": "13.3",
+    "index": "11.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Analysis of survival times",
+    "chapter": "Relation between two continuous variables",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "395-395"
+    "page": "323-323"
   },
   "sample_key": "118"
 }

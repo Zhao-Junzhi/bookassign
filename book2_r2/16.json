@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\005.json",
+  "input": {
+    "background": "Chemical and manufacturing plants sometimes discharge toxic-waste materials such as DDT into nearby rivers and streams. These toxins can adversely affect the plants and animals inhabiting the river and the riverbank. The U.S. Army Corps of Engineers conducted a study of fish in the Tennessee River (in Alabama) and its three tributary creeks: Flint Creek, Limestone Creek, and Spring Creek. A total of 144 fish were captured, and the following variables were measured for each: 1) River/creek where each fish was captured, 2) Species (channel catfish, largemouth bass, or smallmouth buffalo fish), 3) Length (centimeters), 4) Weight (grams), 5) DDT concentration (parts per million). These data are saved in the DDT file.",
+    "data": null,
+    "question": "Classify the variable 'weight' as quantitative or qualitative."
+  },
+  "output": {
+    "answer": "The variable weight is quantitative because it is measured on a numerical scale in grams."
+  },
+  "meta_info": {
+    "index": "1.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Types of Data-Study of a River Contaminated by a Chemical Plant",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.5 Types of Data",
+    "book": "Statistics for Business and Economics",
+    "page": "13-14"
+  },
+  "sample_key": "16"
+}

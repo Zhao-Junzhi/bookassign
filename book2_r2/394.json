@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\148.json",
+  "input": {
+    "background": "Refer to the advertising-monthly-sales data presented in Table 11.1. Consider the straight-line model, $E(y)=\\beta_0+\\beta_1 x$, where $y=$ sales revenue (thousands of dollars) and $x=$ advertising expenditure (hundreds of dollars).",
+    "data": null,
+    "question": "Use the method of least squares to estimate the values of $\\beta_0$ and $\\beta_1$."
+  },
+  "output": {
+    "answer": "We used Excel to make the preliminary computations for finding the least squares line. The Excel spreadsheet is shown in Figure 11.5. Using the values on the spreadsheet, we find\n\n$$\n\\begin{aligned}\n\\bar{x} & =\\frac{\\sum x}{5}=\\frac{15}{5}=3 \\\n\\bar{y} & =\\frac{\\sum y}{5}=\\frac{10}{5}=2 \\\n\\mathrm{SS}_{x y} & =\\sum(x-\\bar{x})(y-\\bar{y})=\\sum(x-3)(y-2)=7 \\\n\\mathrm{SS}_{x x} & =\\sum(x-\\bar{x})^2=\\sum(x-3)^2=10\n\\end{aligned}\n$$\n\nThen the slope of the least squares line is\n\n$$\n\\hat{\\beta}_1=\\frac{\\mathrm{SS}_{x y}}{\\mathrm{SS}_{x x}}=\\frac{7}{10}=.7\n$$\nand the $y$-intercept is\n\n$$\n\\hat{\\beta}_0=\\bar{y}-\\hat{\\beta}_1 \\bar{x}=2-(.7)(3)=2-2.1=-.1\n$$\n\nThe least squares line is thus\n\n$$\n\\hat{y}=\\hat{\\beta}_0+\\hat{\\beta}_1 x=-.1+.7 x\n$$\n\nThe graph of this line is shown in Figure 11.6."
+  },
+  "meta_info": {
+    "index": "11.1",
+    "img_in_question": null
+  },
+  "sample_key": "394"
+}

@@ -1,47 +1,20 @@
 {
-  "case_id": "book1_r1\\record_089.json",
+  "case_id": "book1_r1\\record_075.json",
   "input": {
-    "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
-    "data": "",
-    "question": "Show all hypothesis-testing steps."
+    "background": "In Exercise 9.3, you tested $H_0: \\mu=50$ based on a sample of $n=36$ showing $\\bar{x}=48.8$. The population had standard deviation $\\sigma=7.5$.",
+    "data": "Patient satisfaction. Scores derived from a patient satisfaction survey are Normally distributed with $\\mu=50$ and $\\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.\n(a) What is the $S E$ of $\\bar{x}$ for these data?\n(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\\mu=50$. Sketch the curve that describes the sampling distribution of $\\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\\pm 1, \\pm 2$, and $\\pm 3$ standard errors above and below the mean.\n(c) Suppose a sample of $n=36$ finds an $\\bar{x}$ of 48.8 . Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
+    "question": "Calculate the $z$-statistic for the test."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "A. Hypotheses. $H_0: \\mu=29.5$ days versus $H_{\\mathrm{a}}: \\mu \\neq 29.5$ days\nB. Test statistic.\n\n$$\n\\begin{aligned}\n& n=9 \\\n& \\bar{x}=27.78 \\\n& \\quad s=2.906 \\\n& S E_{\\bar{x}}=\\frac{s}{\\sqrt{n}}=\\frac{2.906}{\\sqrt{9}}=0.96877 \\\n& t_{\\text {stat }}=\\frac{\\bar{x}_d-\\mu_0}{S E_{\\bar{x}_d}}=\\frac{27.78-29.5}{0.9687}=-1.77 \\\n& \\quad d f=9-1=8\n\\end{aligned}\n$$\n\nC. $\\boldsymbol{P}$-value. Use Table C to determine that $t_{8.90}=1.40$ (right tail $=0.10$ ) and $t_{8.95}=$ 1.86 (right tail $=0.05$ ). Therefore, the one-sided $P$-value is between 0.05 and 0.10 and the two-tailed $P$-value is $0.10<P<0.20$. Using a utility program, $P=0.11$.\nD. Significance level (optional). The evidence against $H_0$ is not significantly at $\\alpha =0.10$ (retain $H_0$ ).",
-    "variable": {
-      "menstrual_cycle_lengths": {
-        "id": "menstrual_cycle_lengths",
-        "value": [
-          31,
-          28,
-          26,
-          24,
-          29,
-          33,
-          25,
-          26,
-          28
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Lengths of menstrual cycles (in days) for a sample of nine women."
-      },
-      "lunar_month_length": {
-        "id": "lunar_month_length",
-        "value": 29.5,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Mean length of a lunar month (in days) used as the hypothesized population mean."
-      }
-    }
+    "answer": "$z_{\\text {stat }}=\\frac{48.8-50}{1.25}=-0.96$"
   },
   "meta_info": {
-    "index": "11.11",
+    "index": "9.7",
     "image": "",
-    "caption": "Menstrual cycle length.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.3 ONE-SAMPLE T TEST",
-    "page": "217-217"
+    "caption": "Patient satisfaction (sample mean of 48.8).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
   },
   "sample_key": "169"
 }

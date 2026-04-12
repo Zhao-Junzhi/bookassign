@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_503.json",
+  "input": {
+    "background": "Determine whether the boldface numbers in the given scenarios represent a parameter or a statistic.",
+    "data": "",
+    "question": "Percent African American. Data from a standard metropolitan area (SMA) indicate that 12% of the inhabitants are African American. A telephone survey that was based on a random-digit-dialing machine found that 8% of respondents were African American. Are 12% and 8% parameters or statistics?"
+  },
+  "output": {
+    "answer": "The number 12% is a parameter. The number 8% is a statistic."
+  },
+  "meta_info": {
+    "index": "8.3",
+    "image": "",
+    "caption": "Parameter or statistic?",
+    "chapter": "Introduction to Statistical Inference",
+    "section": "8.1 Concepts",
+    "page": "158-158"
+  },
+  "sample_key": "769"
+}

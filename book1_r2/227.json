@@ -1,86 +1,20 @@
 {
-  "case_id": "book1_r1\\record_115.json",
+  "case_id": "book1_r1\\record_097.json",
   "input": {
-    "background": "Exercise 14.1 introduced data for a cross-sectional survey of bicycle helmet use in Northern California. Table 14.5 lists the data. Exercise 14.1(a) revealed that observation 13 (Los Arboles) was an outlier.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-    "question": "Calculate the $95 \\%$ confidence interval for slope parameter $\\beta$."
+    "background": "Table 11.4 contains data for maximum urine flow at baseline (MAXFLO_B) and maximum urine flow after 3 months of treatment (MAXFLO3M). The task is to test the mean difference in this outcome for statistical significance.",
+    "data": "\\documentclass{article}\n\\usepackage{booktabs} % For professional table lines\n\\usepackage{array}    % For column alignment\n\\begin{document}\n\n\noindent\n\textbf{Table 11.4 Data for Exercises 11.26 and 11.27. Variables are as follows:}\n\\vspace{0.5em}\n\\hrule\n\\vspace{0.5em}\n\\begin{itemize}\n    \\item \texttt{QOL\\_BASE} = quality of life at baseline (coded 0 = Delighted, 1 = Pleased, 2 = Mostly Satisfied, 3 = Mixed, 4 = Mostly Dissatisfied, 5 = Unhappy, 6 = Terrible)\n    \\item \texttt{QOL\\_3MO} = Quality of life after 3 months of treatment (same codes)\n    \\item \texttt{MAXFLO\\_B} = maximum urine flow at baseline (urine flow measurement scale misplaced)\n    \\item \texttt{MAXFLO3M} = maximum urine flow after 3 months of treatment\n\\end{itemize}\n\\vspace{0.5em}\n\\hrule\n\\vspace{1em}\n\n\\begin{tabular}{l c c c c c}\n\toprule\n$i$ & ID & QOL\\_BASE & QOL\\_3MO & MAXFLO\\_B & MAXFLO3M \\\n\\midrule\n1  & 1  & 2 & 1 & 7  & 5  \\\n2  & 11 & 4 & 1 & 8  & 18 \\\n3  & 21 & 3 & 1 & 8  & 13 \\\n4  & 31 & 4 & 3 & 9  & 16 \\\n5  & 41 & 5 & 2 & 11 & 8  \\\n6  & 51 & 6 & 2 & 4  & 9  \\\n7  & 61 & 4 & 2 & 9  & 12 \\\n8  & 71 & 4 & 5 & 10 & 6  \\\n9  & 81 & 3 & 3 & 8  & 14 \\\n10 & 82 & 3 & 1 & 10 & 13 \\\n\\bottomrule\n\\end{tabular}\n\n\\end{document}",
+    "question": "Calculate the test statistic, including sample size, sample mean difference, standard deviation, and degrees of freedom."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "",
-    "variable": {
-      "P_RFM": {
-        "id": "P_RFM",
-        "value": [
-          50,
-          11,
-          2,
-          19,
-          26,
-          73,
-          81,
-          51,
-          11,
-          2,
-          19,
-          25,
-          84
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Percent of school children receiving free or reduced-fee lunches at school."
-      },
-      "P_HELM": {
-        "id": "P_HELM",
-        "value": [
-          22.1,
-          35.9,
-          57.9,
-          22.2,
-          42.4,
-          5.8,
-          3.6,
-          21.4,
-          55.2,
-          33.3,
-          32.4,
-          38.4,
-          46.6
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Percent of bicycle riders wearing a helmet."
-      },
-      "School": {
-        "id": "School",
-        "value": [
-          "Fair Oaks",
-          "Strandwood",
-          "Walnut Acres",
-          "Discov. Bay",
-          "Belshaw",
-          "Kennedy",
-          "Cassell",
-          "Miner",
-          "Sedgewick",
-          "Sakamoto",
-          "Toyon",
-          "Lietz",
-          "Los Arboles"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Name of the school where data was collected."
-      }
-    }
+    "answer": "$n=10$, sample mean difference $=2.91$, $s_d=4.515$, $t_{stat}=2.035$ with $df=10-1=9$"
   },
   "meta_info": {
-    "index": "14.3",
+    "index": "11.27",
     "image": "",
-    "caption": "Bicycle helmet use, n = 12.",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.4 REGRESSION",
-    "page": "325-326"
+    "caption": "Benign prostatic hyperplasia, maximum flow.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "232-232"
   },
   "sample_key": "227"
 }

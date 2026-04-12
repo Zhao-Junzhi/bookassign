@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\118.json",
+  "input": {
+    "background": "Suppose that a die is rolled 120 times and the number of times each face comes up is recorded. The following results are obtained:\n$$\n\\begin{array}{l|l|l|l|l|l|l}\n\\hline \\text { Face } & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\hline \\mathrm{n}_{\\mathrm{i}} & 15 & 21 & 20 & 15 & 26 & 23 \\\\\n\\hline\n\\end{array}\n$$",
+    "data": null,
+    "question": "Test whether the die is fair at the 5% level of significance using the Chi-square test."
+  },
+  "output": {
+    "answer": "We cannot reject the null hypothesis."
+  },
+  "meta_info": {
+    "index": "3.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "216-216"
+  },
+  "sample_key": "48",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1019,
+    "total_tokens": 1062,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1018,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1019,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1018,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

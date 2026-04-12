@@ -1,65 +1,20 @@
 {
-  "case_id": "book1_r1\\record_302.json",
+  "case_id": "book1_r1\\record_126.json",
   "input": {
-    "background": "The Youth Risk Behavior Surveillance System monitors health behaviors in youth and young adults in the United States. Six categories of health-risk behaviors are monitored. These include: (1) behaviors that contribute to unintentional injuries and violence; (2) tobacco use; (3) alcohol and drug use; (4) sexual behaviors; (5) unhealthy dietary behaviors; and (6) physical activity levels and body weight. The 2003 report used information from 15,240 questionnaires completed at 158 schools to infer health-risk behaviors for the public and private school student populations of the United States and District of Columbia. The 15,240 students who completed the questionnaires comprise the sample. This information is used to infer the characteristics of the several million public and private school students in the United States for the period in question.",
+    "background": "Twenty-six cancer deaths were observed in a cohort of 556 insulation workers. Based on national statistics, a cohort of this size and age distribution was expected to experience 14.4 incident cases during the observation period. Therefore, under the null hypothesis, $p_0=14.4 / 556=0.02590$. Test whether the observed incidence is significantly greater than expected.",
     "data": "",
-    "question": "What is the population being inferred from the sample data in the study?"
+    "question": "State the null and alternative hypotheses."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Several million public and private school students in the United States for the period in question.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 15240,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of students who completed the questionnaires in the study."
-      },
-      "number_of_schools": {
-        "id": "number_of_schools",
-        "value": 158,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of schools from which the sample data was collected."
-      },
-      "population": {
-        "id": "population",
-        "value": "Several million public and private school students in the United States and District of Columbia",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The population being inferred from the sample data in the study."
-      },
-      "health_risk_categories": {
-        "id": "health_risk_categories",
-        "value": [
-          "Behaviors that contribute to unintentional injuries and violence",
-          "Tobacco use",
-          "Alcohol and drug use",
-          "Sexual behaviors",
-          "Unhealthy dietary behaviors",
-          "Physical activity levels and body weight"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The six categories of health-risk behaviors monitored in the study."
-      },
-      "time_period": {
-        "id": "time_period",
-        "value": "2003",
-        "class": "categorical",
-        "role": "NR",
-        "description": "The year during which the study was conducted."
-      }
-    }
+    "answer": "$H_0: p=0.0259$ versus $H_a: p \\neq 0.0259$"
   },
   "meta_info": {
-    "index": "",
+    "index": "16.15",
     "image": "",
-    "caption": "Youth Risk Behavior Surveillance (YRBS).",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.1 Surveys",
-    "page": "16-16"
+    "caption": "Insulation workers.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-371"
   },
   "sample_key": "316"
 }

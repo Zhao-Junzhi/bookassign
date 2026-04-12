@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\037.json",
+  "case_id": "book5_r1\\029.json",
   "input": {
-    "background": "Sixty-five pregnant women at a high risk of pregnancy-induced hypertension participated in a randomized controlled trial comparing 100 mg of aspirin daily and a matching placebo during the third trimester of pregnancy (Schiff et al., 1989). The observed rates of hypertension are shown in the following table:\n\n\\begin{tabular}{lcll}\n\\hline & Aspirin treated & Placebo treated & Total \\\\\n\\hline Hypertension & 4 & 11 & 15 \\\\\nNo hypertension & 30 & 20 & 50 \\\\\nTotal & 34 & 31 & 65 \\\\\n\\hline\n\\end{tabular}",
-    "data": null,
-    "question": "Do these data suggest that daily aspirin reduces the risk of hypertension in the last trimester of pregnancy?"
+    "background": "The effect of gestrinone on patients with asymptomatic endometriosis was evaluated in a randomized double-blind placebo-controlled trial. Before treatment, each patient was given a score on a scale derived by the American Fertility Society, and this was repeated after 24 weeks' treatment. High scores indicate more serious disease.",
+    "data": "\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline  & \\multicolumn{2}{|c|}{Placebo group} & \\multicolumn{3}{|c|}{Gestrinone group} \\\\\n\\hline & Before treatment & After treatment & & Before treatment & After treatment \\\\\n\\hline 1 & 1 & 0 & 1 & 1 & 0 \\\\\n\\hline 2 & 1 & 1 & 2 & 1 & 0 \\\\\n\\hline 3 & 1 & 2 & 3 & 1 & 0 \\\\\n\\hline 4 & 2 & 0 & 4 & 1 & 0 \\\\\n\\hline 5 & 2 & 0 & 5 & 1 & 0 \\\\\n\\hline 6 & 2 & 2 & 6 & 1 & 1 \\\\\n\\hline 7 & 2 & 3 & 7 & 1 & 1 \\\\\n\\hline 8 & 3 & 3 & 8 & 2 & 0 \\\\\n\\hline 9 & 3 & 5 & 9 & 2 & 0 \\\\\n\\hline 10 & 3 & 5 & 10 & 2 & 0 \\\\\n\\hline 11 & 3 & 5 & 11 & 2 & 0 \\\\\n\\hline 12 & 3 & 9 & 12 & 2 & 1 \\\\\n\\hline 13 & 5 & 1 & 13 & 2 & 2 \\\\\n\\hline 14 & 5 & 5 & 14 & 3 & 1 \\\\\n\\hline 15 & 6 & 4 & 15 & 3 & 2 \\\\\n\\hline 16 & 6 & 10 & 16 & 3 & 2 \\\\\n\\hline 17 & 6 & 12 & 17 & 4 & 1 \\\\\n\\hline & & & 18 & 5 & 1 \\\\\n\\hline\n\\end{tabular}",
+    "question": "The pre-treatment scores were somewhat different in the two groups, with five of the six highest scores being in the placebo group. A simple way to allow for this difference is to consider the change in scores over the period of the trial. Identify and carry out a suitable comparison of the changes in scores in the two groups."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "The proportions of women developing hypertension were 0.1176 $(4 / 34)$ in the aspirin group and $0.3548(11 / 31)$ in the placebo group. The difference is 0.24 with a wide $95 \\% \\mathrm{CI}$ from 0.04 to 0.44 . The Chi squared test with Yates' correction gives $X^2=3.89(\\mathrm{P}=0.049)$. There is thus a suggestion that aspirin may reduce the risk of hypertension among pregnant women, but the wide CI points to considerable uncertainty about the magnitude of the effect."
+    "answer": "The same method can be applied to the changes in scores. This analysis gives $z=2.71(mathrm{P}=0.007)$, a result which is only slightly weaker. Alternatively, the sign test could be used to compare the groups with respect to positive or negative changes."
   },
   "meta_info": {
-    "index": "10.7",
+    "index": "9.7",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Comparing groups - categorical data",
+    "chapter": "Comparing groups – continuous data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "275-275"
+    "page": "227-228"
   },
   "sample_key": "83"
 }

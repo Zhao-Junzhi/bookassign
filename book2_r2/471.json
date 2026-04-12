@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\170.json",
+  "input": {
+    "background": "Refer to Example 12.6 in which we modeled the auction price $(y)$ of a grandfather clock as a function of age ($x_1$) and number of bidders ($x_2$). The data for this example are repeated in Table 12.8, with one important difference: The auction price of the clock at the top of the sixth column has been changed from $\u0002,131$ to $\u0001,131$ (highlighted in Table 12.8). The interaction model $E(y)=\beta_0+\beta_1 x_1+\beta_2 x_2+\beta_3 x_1 x_2$ is again fit to these (modified) data, with the Minitab printout shown in Figure 12.41. The residuals are shown highlighted in the printout and then plotted against the number of bidders, $x_2$, in Figure 12.42.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 12.8 & \\multicolumn{5}{|l|}{Altered Auction Price Data} \\\\\n\\hline Age, $x_1$ (years) & Number of Bidders, $x_2$ & Auction Price, $y$ (\\$) & Age, $x_1$ (years) & Number of Bidders, $x_2$ & Auction Price, $y$ (\\$) \\\\\n\\hline 127 & 13 & 1,235 & 170 & 14 & 1,131 \\\\\n\\hline 115 & 12 & 1,080 & 182 & 8 & 1,550 \\\\\n\\hline 127 & 7 & 845 & 162 & 11 & 1,884 \\\\\n\\hline 150 & 9 & 1,522 & 184 & 10 & 2,041 \\\\\n\\hline 156 & 6 & 1,047 & 143 & 6 & 845 \\\\\n\\hline 182 & 11 & 1,979 & 159 & 9 & 1,483 \\\\\n\\hline 156 & 12 & 1,822 & 108 & 14 & 1,055 \\\\\n\\hline 132 & 10 & 1,253 & 175 & 8 & 1,545 \\\\\n\\hline 137 & 9 & 1,297 & 108 & 6 & 729 \\\\\n\\hline 113 & 9 & 946 & 179 & 9 & 1,792 \\\\\n\\hline 137 & 15 & 1,713 & 111 & 15 & 1,175 \\\\\n\\hline 117 & 11 & 1,024 & 187 & 8 & 1,593 \\\\\n\\hline 137 & 8 & 1,147 & 111 & 7 & 785 \\\\\n\\hline 153 & 6 & 1,092 & 115 & 7 & 744 \\\\\n\\hline 117 & 13 & 1,152 & 194 & 5 & 1,356 \\\\\n\\hline 126 & 10 & 1,336 & 168 & 7 & 1,262 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What do we do with outliers once we identify them?"
+  },
+  "output": {
+    "answer": "First, we try to determine the cause. Were the data entered into the computer incorrectly? Was the observation recorded incorrectly when the data were collected? If so, we correct the observation and rerun the analysis. Another possibility is that the observation is not representative of the conditions we are trying to model. For example, in this case the low price may be attributable to extreme damage to the clock or to a clock of inferior quality compared to the others. In these cases, we probably would exclude the observation from the analysis. In many cases, you may not be able to determine the cause of the outlier. Even so, you may want to rerun the regression analysis excluding the outlier in order to assess the effect of that observation on the results of the analysis."
+  },
+  "meta_info": {
+    "index": "12.16",
+    "img_in_question": null
+  },
+  "sample_key": "471"
+}

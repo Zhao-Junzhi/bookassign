@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\020.json",
+  "case_id": "book5_r1\\014.json",
   "input": {
-    "background": "Eight diabetic patients had plasma glucose levels (mmol/l) measured before and one hour after oral administration of 100 g glucose, with the following results: Patient, Before, After, Change.",
+    "background": "Halpern and Coren (1988) wished to investigate whether there was a difference in longevity between left-handed and right-handed people. They used a baseball encyclopaedia to record the dates of birth and death of 1472 right-handed and 236 left-handed players.",
     "data": null,
-    "question": "Calculate the standard error of the mean change in plasma glucose."
+    "question": "The authors did not state the time span of the data, but as they note deaths up to age 99, it is likely to cover the whole of the twentieth century. How might the long time span bias the comparison of left- and right-handers?"
   },
   "output": {
-    "method": "分散程度测度",
-    "answer": "The SE of the mean is SD / sqrt(n), which is 2.3629 / sqrt(8) = 0.8354."
+    "answer": "If the prevalence of left-handedness had increased during the twentieth century, or if the prevalence within different social groups (with different mortality rates) had changed. Both of these are likely."
   },
   "meta_info": {
-    "index": "8.2",
+    "index": "5.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Principles of statistical analysis",
+    "chapter": "Designing research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "177-178"
+    "page": "105-106"
   },
   "sample_key": "44"
 }

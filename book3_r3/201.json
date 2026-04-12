@@ -1,0 +1,45 @@
+{
+  "case_id": "book3_r1\\55.json",
+  "input": {
+    "background": "Consider a normal distribution with unknown mean $\\mu$ and unknown standard deviation $\\sigma$. Suppose we draw a random sample of size $\\mathrm{n}=16$ from this population, and the sample values are:\n$$\n\\begin{array}{l|l|l|l}\n\\hline 16.16 & 9.33 & 12.96 & 11.49 \\\\\n\\hline 12.31 & 8.93 & 6.02 & 10.66 \\\\\n\\hline 7.75 & 15.55 & 3.58 & 11.34 \\\\\n\\hline 11.38 & 6.53 & 9.75 & 9.47 \\\\\n\\hline\n\\end{array}\n$$",
+    "data": null,
+    "question": "What is the sample standard deviation and the critical t-value?"
+  },
+  "output": {
+    "answer": "The sample standard deviation is: $S=3.313$. Also, $t_{1-\\frac{\\alpha}{2}, n-1}=t_{0.975,15}=2.131$."
+  },
+  "meta_info": {
+    "index": "3.31",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.11 Interval Estimation",
+    "book": "Statistical Reliability Engineering",
+    "page": "184-185"
+  },
+  "sample_key": "201",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 730,
+    "total_tokens": 757,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 730,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

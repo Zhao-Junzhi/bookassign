@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_089.json",
+  "input": {
+    "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
+    "data": "",
+    "question": "State the conclusion of the hypothesis test at a significance level of $\\alpha = 0.10$."
+  },
+  "output": {
+    "answer": "The evidence against $H_0$ is not significant at $\\alpha =0.10$ (retain $H_0$)."
+  },
+  "meta_info": {
+    "index": "11.11",
+    "image": "",
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "217-217"
+  },
+  "sample_key": "207",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1140,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1038,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1140,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1038,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

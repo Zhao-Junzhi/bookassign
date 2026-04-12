@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_151.json",
+  "input": {
+    "background": "A 1970s case-control study on cerebrovascular disease (stroke) and oral contraceptive use in young women matched cases to controls according to neighborhood, age, sex, and race. Table 18.26 displays data from this study for thrombotic stroke.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.26 Matched-case control data on thrombotic stroke and oral contraceptive use in women between 14- to 44-years of age.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Matched pairs & Case exposed & Case not exposed & Total \\\n\\hline Control exposed & 2 & 5 & 7 \\\n\\hline Control not exposed & 44 & 55 & 99 \\\n\\hline Total & 46 & 60 & 106 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the odds ratio for these data. Briefly, interpret this result in narrative form."
+  },
+  "output": {
+    "answer": "The odds ratio is calculated as \\( \\widehat{OR} = \\frac{44}{5} = 8.8 \\)."
+  },
+  "meta_info": {
+    "index": "18.21",
+    "image": "",
+    "caption": "Thrombotic stoke in young women.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "456-457"
+  },
+  "sample_key": "380",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1312,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1246,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1312,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1246,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

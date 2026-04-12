@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_367.json",
+  "case_id": "book1_r1\\record_301.json",
   "input": {
-    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean $\\mu=170$ pounds and standard deviation $\\sigma=40$. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean.",
+    "background": "A group of 115,818 women between 30 and 55 years of age were recruited to be in a study. Individuals were free of coronary heart disease at the time of recruitment. Body weight of subjects was determined as of 1976 (WT_1976) and also as of age 18 (WT_18). From these variables, weight change (WT_CHNG = WT_1976 - WT_18) was calculated. Adult height in meters (H1) was determined and used to calculate body mass index (BMI) using the formula: BMI = weight in kilograms ÷ (height in meters)^2. BMI was determined as of age 18 (BMI_18) and at the time of recruitment in 1976 (BMI_1976). BMI was classified into quintiles, dividing a quantitative measurement into five ordered categories with an equal number of individuals in each group. The quintile cutoff points for BMI at age 18 were: ≤19.1, 19.1–20.3, 20.4–21.5, 21.6–23.2, and ≥23.3. This information was encoded into a new ordinal variable BM_18_GRP with values 1, 2, 3, 4, and 5 for each quintile. The study followed individuals over time and monitored whether they experienced adverse coronary events. A new categorical variable, CORONARY, was used to record whether a person experienced an adverse coronary event. During the first 14 years of follow-up, there were 1292 such events.",
     "data": "",
-    "question": "We may also consider a twosided alternative that looks for both higher- and lower-than-expected population means."
+    "question": "What variables were measured in the study, and how were they defined?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "For this example, the two-sided alternative hypothesis would be $H_{\\mathrm{a}}: \\mu \\neq 170$.",
-    "variable": {
-      "historical_mean_weight": {
-        "id": "historical_mean_weight",
-        "value": 170,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The historical mean body weight of the US male population aged 20-29 in the late 1970s."
-      },
-      "historical_standard_deviation": {
-        "id": "historical_standard_deviation",
-        "value": 40,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The historical standard deviation of body weight of the US male population aged 20-29 in the late 1970s."
-      },
-      "current_mean_weight": {
-        "id": "current_mean_weight",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean body weight of a simple random sample of the current US male population aged 20-29."
-      }
-    }
+    "answer": "The variables measured were: WT_1976 (body weight in 1976), WT_18 (body weight at age 18), WT_CHNG (weight change calculated as WT_1976 - WT_18), H1 (adult height in meters), BMI_18 (BMI at age 18), BMI_1976 (BMI in 1976), BM_18_GRP (ordinal variable representing BMI quintiles at age 18), and CORONARY (categorical variable indicating whether an adverse coronary event occurred)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.1 The Null and Alternative Hypotheses",
-    "page": "176-177"
+    "caption": "Weight change and coronary heart disease.",
+    "chapter": "MEASUREMENT",
+    "section": "1.3  TYPES OF MEASUREMENTS",
+    "page": "6-6"
   },
   "sample_key": "411"
 }

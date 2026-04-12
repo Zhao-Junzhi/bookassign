@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\166.json",
+  "input": {
+    "background": "The problem involves analyzing a second-order regression model for predicting auction price (y) based on two quantitative variables: age (x1) and number of bidders (x2). The analysis includes fitting the model, interpreting the coefficients, and performing a nested model F-test to determine the significance of quadratic terms.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 12.1 & \\multicolumn{5}{|c|}{Auction Price Data} \\\\\n\\hline Age, $x_1$ & Number of Bidders, $\\boldsymbol{x}_{\\mathbf{2}}$ & Auction Price, $y$ & Age, $x_1$ & Number of Bidders, $x_2$ & Auction Price, $y$ \\\\\n\\hline 127 & 13 & \\$1,235 & 170 & 14 & \\$2,131 \\\\\n\\hline 115 & 12 & 1,080 & 182 & 8 & 1,550 \\\\\n\\hline 127 & 7 & 845 & 162 & 11 & 1,884 \\\\\n\\hline 150 & 9 & 1,522 & 184 & 10 & 2,041 \\\\\n\\hline 156 & 6 & 1,047 & 143 & 6 & 845 \\\\\n\\hline 182 & 11 & 1,979 & 159 & 9 & 1,483 \\\\\n\\hline 156 & 12 & 1,822 & 108 & 14 & 1,055 \\\\\n\\hline 132 & 10 & 1,253 & 175 & 8 & 1,545 \\\\\n\\hline 137 & 9 & 1,297 & 108 & 6 & 729 \\\\\n\\hline 113 & 9 & 946 & 179 & 9 & 1,792 \\\\\n\\hline 137 & 15 & 1,713 & 111 & 15 & 1,175 \\\\\n\\hline 117 & 11 & 1,024 & 187 & 8 & 1,593 \\\\\n\\hline 137 & 8 & 1,147 & 111 & 7 & 785 \\\\\n\\hline 153 & 6 & 1,092 & 115 & 7 & 744 \\\\\n\\hline 117 & 13 & 1,152 & 194 & 5 & 1,356 \\\\\n\\hline 126 & 10 & 1,336 & 168 & 7 & 1,262 \\\\\n\\hline\n\\end{tabular}\n  ",
+    "question": "Provide the least squares prediction equation obtained by fitting the complete second-order model to the data."
+  },
+  "output": {
+    "answer": "ŷ = -332 + 3.21x1 + 14.8x2 + 1.12x1x2 - 0.003(x1)^2 - 4.18(x2)^2. The estimates of the quadratic terms, β4 and β5, are both negative, implying downward curvature in both the price-age and price-bidders relationships."
+  },
+  "meta_info": {
+    "index": "12.12",
+    "img_in_question": null
+  },
+  "sample_key": "455"
+}

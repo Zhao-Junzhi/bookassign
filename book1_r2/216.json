@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_112.json",
+  "case_id": "book1_r1\\record_093.json",
   "input": {
-    "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P=0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
+    "background": "A study of vector control in an African village found that the mean sprayable surface area was 249 square feet with standard deviation 39.82 square feet in a simple random sample of n=100 homes.",
     "data": "",
-    "question": "Conduct post hoc comparisons using the LSD method. Summarize these results in concise narrative form."
+    "question": "Calculate a 95% confidence interval for μ."
   },
   "output": {
-    "method": "方差分析",
-    "answer": "Least squared difference (LSD) tests\n\n| Null hypothesis | x̄i-x̄j | SE | P-value (2-sided) |\n|-----------------|---------|------|-----------------|\n| H0: μ1-μ2=0 | 0.0857 | 0.67848 | 0.901 |\n| H0: μ1-μ3=0 | 1.1191 | 0.64690 | 0.098 |\n| H0: μ1-μ4=0 | 1.6129 | 0.60512 | 0.014 |\n| H0: μ2-μ3=0 | 1.0334 | 0.67848 | 0.143 |\n| H0: μ2-μ4=0 | 1.5272 | 0.63876 | 0.026 |\n| H0: μ3-μ4=0 | 0.4938 | 0.60512 | 0.424 |\n\nCalculated by SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: Differences between group 1 and group 4 and between group 2 and group 4 are statistically significant. The difference between group 1 and group 3 is marginally significant.",
-    "variable": {
-      "birth_weight": {
-        "id": "birth_weight",
-        "value": "Birth weights of infants (values not explicitly provided in the problem statement, but assumed to be numerical data from Table 13.3 or the SMOK_BW.SAV file)",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The birth weight of infants, which is the dependent variable being analyzed."
-      },
-      "smoking_status": {
-        "id": "smoking_status",
-        "value": "Smoking status of mothers (categorical groups, e.g., non-smoker, light smoker, moderate smoker, heavy smoker, as implied by the problem statement)",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The smoking status of mothers, which is the independent variable used to group the infants for comparison."
-      }
-    }
+    "answer": "SE = 39.82 / sqrt(100) = 3.982; t_{100-1,1-(.05/2)} = t_{99, .975} = 1.984 (via www.cytel.com/Products/StaTable/). If a computer program is not available, you can make use of the fact that t_{99, .975} ≈ t_{100, .975} = 1.984. 95% CI for μ = 249 ± (1.984)(3.982) = 249 ± 7.9 = (241.1 to 256.9) square feet."
   },
   "meta_info": {
-    "index": "13.5",
+    "index": "11.19",
     "image": "",
-    "caption": "Smoking and birth weight, post hoc comparisons.",
-    "chapter": "COMPARING SEVERAL MEANS",
-    "section": "13.4 Post Hoc COMPARISONS",
-    "page": "281-281"
+    "caption": "Vector control in an African village",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
   },
   "sample_key": "216"
 }

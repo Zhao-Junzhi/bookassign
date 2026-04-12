@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\30.json",
+  "case_id": "book3_r1\\15.json",
   "input": {
-    "background": "The probability of failure of a medical device when it is tested is equal to 0.05. Assume independence of tests.",
+    "background": "Data representing the yearly gross income (in $\\$ 10^5$) of six workers are given as follows: $$ 0.657,0.664,0.655,0.653,0.686,0.661 $$ The 0.686 value is much higher than the other five incomes. We wish to test whether the 0.686 value is an outlier?",
     "data": null,
-    "question": "What is the probability that failure occurs in less than 15 tests?"
+    "question": "Determine the outlier ratio value and compare it to the critical level corresponding to $\\alpha=0.05$ for a sample of size 6. Conclude whether the 0.686 value is an outlier."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The required probability that failure occurs in less than 15 tests is $$\\begin{aligned} P(N \\leq 14) & =1-(1-p)^{14} \\\\ & =1-(0.95)^{14} \\\\ & =0.5123 \\end{aligned}$$"
+    "answer": "The outlier ratio value is $$ \\text{Outlier ratio value} = \\frac{|0.686-0.6627|}{0.0121} = 1.9256 $$ The critical level corresponding to $\\alpha=0.05$ for a sample of size 6 is 1.89 (see Table A.6). Since the outlier ratio value exceeds the critical value, we can conclude that the outlying observation (0.686 value) may be regarded as significant."
   },
   "meta_info": {
-    "index": "2.14",
+    "index": "1.24",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.1 Discrete Distributions",
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.3 Basic Statistics",
     "book": "Statistical Reliability Engineering",
-    "page": "83-83"
+    "page": "24-24"
   },
   "sample_key": "107"
 }

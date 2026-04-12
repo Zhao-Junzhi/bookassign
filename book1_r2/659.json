@@ -1,0 +1,16 @@
+{
+  "case_id": "book1_r1\\record_408.json",
+  "input": {
+    "background": "We have calculated a correlation coefficient of 0.737 for the ecological association between smoking and lung cancer mortality using the data in Table 14.1. We now test this correlation for statistical significance.",
+    "data": "",
+    "question": "What is the p-value and how is it interpreted?"
+  },
+  "output": {
+    "answer": "Using Table C, $0.005<P<0.01$. Using statistical software, $P=0.0097$. The evidence against $H_0$ is strong."
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "659"
+}

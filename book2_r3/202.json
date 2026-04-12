@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\083.json",
+  "input": {
+    "background": "The research department of a steel manufacturer suspects that one of the company's rolling machines is producing steel sheets with varying thickness. The thickness is modeled as a uniform random variable between 150 and 200 millimeters. Sheets with a thickness less than 160 millimeters are considered unacceptable and must be scrapped.",
+    "data": null,
+    "question": "Calculate and interpret the mean and standard deviation of $x$, the thickness of the sheets produced by this machine."
+  },
+  "output": {
+    "answer": "To calculate the mean and standard deviation for $x$, we substitute 150 and 200 millimeters for $c$ and $d$, respectively, in the formulas for uniform random variables. Thus,\n\n$$\n\\mu=\\frac{c+d}{2}=\\frac{150+200}{2}=175 \\ \\text { millimeters }\n$$\nand\n\n$$\n\\sigma=\\frac{d-c}{\\sqrt{12}}=\\frac{200-150}{\\sqrt{12}}=\\frac{50}{3.464}=14.43 \\ \\text { millimeters }\n$$\n\nOur interpretations follow:\nThe average thickness of all manufactured steel sheets is $\\mu=175$ millimeters. From Chebyshev's Rule, we know that at least $75 \\%$ of the thickness values, $x$, in the distribution will fall in the interval\n\n$$\n\\begin{aligned}\n\\mu \\pm 2 \\sigma & =175 \\pm 2(14.43) \\\\\n& =175 \\pm 28.86\n\\end{aligned}\n$$\n\nor between 146.14 and 203.86 millimeters. (This demonstrates, once again, the conservativeness of Chebyshev's Rule because we know that all values of $x$ fall between 150 and 200 millimeters.)"
+  },
+  "meta_info": {
+    "index": "4.27",
+    "img_in_question": null
+  },
+  "sample_key": "202",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1469,
+    "total_tokens": 1512,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1423,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1469,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1423,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

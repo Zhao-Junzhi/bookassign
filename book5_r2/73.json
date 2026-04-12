@@ -1,23 +1,16 @@
 {
-  "case_id": "book5_r1\\032.json",
+  "case_id": "book5_r1\\025.json",
   "input": {
-    "background": "A survey was carried out to test the hypothesis that men with deep singing voices are likely to have higher levels of testosterone than men with higher voices (Lyster, 1984). Professional and student male singers were asked how many brothers and sisters they had. The results for the 195 singers with siblings are shown in the table provided. The author of the report performed a Chi-squared test and made several interpretations and analyses.",
-    "data": null,
-    "question": "(d) Why is his quoted value of $X^2$ of 11.27 clearly wrong?"
+    "background": "Using the data in Table 9.7, calculate a 90% confidence interval for the comparison of numbers of T4 cells in Hodgkin's disease and non-Hodgkin's disease patients.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 9.7 Numbers of $T_4$ and $T_8$ cells $/ \\mathrm{mm}^3$ in blood samples from 20 patients in remission from Hodgkin's disease and 20 patients in remission from disseminated malignancies (Shapiro et al., 1986)}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline  & \\multicolumn{2}{|l|}{Hodgkin's disease} & \\multicolumn{2}{|c|}{Non-Hodgkin'sdisease} \\\\\n\\hline & $\\mathrm{T}_4$ & $\\mathrm{T}_8$ & $\\mathrm{T}_4$ & $\\mathrm{T}_8$ \\\\\n\\hline & 396 & 836 & 375 & 340 \\\\\n\\hline & 568 & 978 & 375 & 330 \\\\\n\\hline & 1212 & 1678 & 752 & 627 \\\\\n\\hline & 171 & 212 & 208 & 153 \\\\\n\\hline & 554 & 670 & 151 & 101 \\\\\n\\hline & 1104 & 1335 & 116 & 72 \\\\\n\\hline & 257 & 272 & 736 & 449 \\\\\n\\hline & 435 & 446 & 192 & 108 \\\\\n\\hline & 295 & 262 & 315 & 177 \\\\\n\\hline & 397 & 340 & 1252 & 575 \\\\\n\\hline & 288 & 236 & 675 & 318 \\\\\n\\hline & 1004 & 786 & 700 & 320 \\\\\n\\hline & 431 & 311 & 440 & 200 \\\\\n\\hline & 795 & 449 & 771 & 289 \\\\\n\\hline & 1621 & 811 & 688 & 263 \\\\\n\\hline & 1378 & 686 & 426 & 157 \\\\\n\\hline & 902 & 412 & 410 & 140 \\\\\n\\hline & 958 & 286 & 979 & 310 \\\\\n\\hline & 1283 & 336 & 377 & 108 \\\\\n\\hline & 2415 & 936 & 503 & 163 \\\\\n\\hline Mean & 823.2 & 613.9 & 522.1 & 260.0 \\\\\n\\hline SD & 566.4 & 397.9 & 293.0 & 154.7 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What is the best estimate of the ratio of T4 counts between the two groups?"
   },
   "output": {
-    "method": "假设检验",
-    "answer": "The value of $X^2$ for part of the table cannot exceed the value for the whole table. The correct value for this comparison is $X^2=9.44$ on 2 degrees of freedom."
+    "answer": "The best estimate of the ratio is exp(0.398) = 1.49."
   },
   "meta_info": {
-    "index": "10.2",
-    "img_in_question": null,
-    "img_in_answer": null,
-    "caption": null,
-    "chapter": "Comparing groups - categorical data",
-    "section": "EXERCISES",
-    "book": "Practical statistics for medical research",
-    "page": "273-273"
+    "index": "9.3",
+    "img_in_question": null
   },
   "sample_key": "73"
 }

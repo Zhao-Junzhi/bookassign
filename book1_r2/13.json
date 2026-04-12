@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_006.json",
+  "case_id": "book1_r1\\record_005.json",
   "input": {
-    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "background": "Prospective studies on nutrition often require subjects to keep detailed daily dietary logs. In contrast, retrospective studies often rely on recall.",
     "data": "",
-    "question": "White blood cells per deciliter of whole blood"
+    "question": "Explain your response."
   },
   "output": {
-    "method": "其它（如 reliability）",
-    "answer": "Quantitative",
-    "variable": {
-      "White blood cells": {
-        "id": "White blood cells",
-        "value": "per deciliter of whole blood",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The count of white blood cells measured per deciliter of whole blood."
-      }
-    }
+    "answer": "Memory tends to be unreliable."
   },
   "meta_info": {
-    "index": "1.11",
+    "index": "1.9",
     "image": "",
-    "caption": "Variable types 2.",
+    "caption": "Dietary histories.",
     "chapter": "Measurement",
     "section": "1.4 Data Quality",
-    "page": "13-14"
+    "page": "11-11"
   },
   "sample_key": "13"
 }

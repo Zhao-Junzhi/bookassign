@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_133.json",
+  "case_id": "book1_r1\\record_110.json",
   "input": {
-    "background": "Joseph Lister (1827-1912) demonstrated that postoperative mortality dropped from 16 fatalities in 35 procedures to 6 fatalities in 40 procedures after adopting antiseptic surgical techniques.",
-    "data": "",
-    "question": "Determine the risks of postoperative mortality in each group."
+    "background": "Table 13.3 lists birth weights of infants based on the smoking status of mothers.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.3 Birth weights of infants in four groups of mothers. Data for Exercises 13.1, 13.3, 13.5, and 13.7.}\n\\begin{tabular}{llllllll}\n\\hline Group 1 (nonsmokers) & 8.56 & 8.47 & 6.39 & 9.26 & 7.98 & 6.84 & \\\nGroup 2 (ex-smokers) & 7.39 & 8.64 & 8.54 & 5.37 & 9.21 & & \\\nGroup $3(<1 / 2$ pack/day $)$ & 5.97 & 6.77 & 7.26 & 5.74 & 8.74 & 6.30 & \\\nGroup $4(\\geq 1 / 2$ pack/day) & 7.03 & 5.24 & 6.14 & 6.74 & 6.62 & 7.37 & 4.94 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData were generated with the RV.NORMAL function in SPSS as follows: $X_1 \\sim N(7.5,1), X_2 \\sim N(7.5$, $1), X_3 \\sim N(7.0,1), X_4 \\sim N(6.5,1)$.\nData are stored online in the file SMOK_BW.*..",
+    "question": "Outline this study's design using a sketch of the type presented in $2.2$ (see Figure 2.1) to depict this study's design. [Comment: In contrast to the pets and stress illustrative example, these data are nonexperimental.]"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$\n\\begin{aligned}\n& \\hat{p}_1=0.1500 \\\\\n& \\hat{p}_2=0.457143\n\\end{aligned}\n$$",
-    "variable": {
-      "initial_procedures": {
-        "id": "initial_procedures",
-        "value": 35,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of surgical procedures performed before adopting antiseptic techniques."
-      },
-      "initial_fatalities": {
-        "id": "initial_fatalities",
-        "value": 16,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of fatalities in the initial group before adopting antiseptic techniques."
-      },
-      "post_antiseptic_procedures": {
-        "id": "post_antiseptic_procedures",
-        "value": 40,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of surgical procedures performed after adopting antiseptic techniques."
-      },
-      "post_antiseptic_fatalities": {
-        "id": "post_antiseptic_fatalities",
-        "value": 6,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of fatalities in the group after adopting antiseptic techniques."
-      }
-    }
+    "answer": "This study is nonexperimental (\"observational\") because the investigator did not assign the explanatory factor (smoking) to study participants."
   },
   "meta_info": {
-    "index": "17.5",
+    "index": "13.1",
     "image": "",
-    "caption": "Joseph Lister and antiseptic surgery.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.3 Hypothesis Test",
-    "page": "388-388"
+    "caption": "Birth weight, exploration.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "TSP IDESGRIPTIVESSTATISTICS",
+    "page": "263-263"
   },
   "sample_key": "261"
 }

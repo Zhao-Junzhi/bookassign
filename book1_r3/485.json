@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_343.json",
+  "input": {
+    "background": "Event A represents cat ownership and event B represents dog ownership. We know that Pr(B | A) = 0.4286, Pr(¬A) = 1 - Pr(A) = 1 - 0.35 = 0.65, and Pr(B and ¬A) = 0.15. Using conditional probability, Pr(B | ¬A) = Pr(B and ¬A) / Pr(¬A) = 0.15 / 0.65 = 0.2308.",
+    "data": "",
+    "question": "Using the total probability rule, calculate Pr(B)."
+  },
+  "output": {
+    "answer": "Pr(B) = [Pr(B | A) × Pr(A)] + [Pr(B | ¬A) × Pr(¬A)] = [0.4286 × 0.35] + [0.2308 × 0.65] = 0.15 + 0.15 = 0.30"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Total probability rule (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "110-110"
+  },
+  "sample_key": "485",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1159,
+    "total_tokens": 1202,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1158,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1159,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1158,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

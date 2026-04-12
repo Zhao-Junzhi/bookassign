@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_502.json",
+  "case_id": "book1_r1\\record_376.json",
   "input": {
-    "background": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple $(X \\sim b(3,0.25))$.",
+    "background": "We have established that the body weights of 20-29-year-old U.S. males have a standard deviation of σ=40 pounds. The goal is to estimate the mean body weight μ with 95% confidence for different margins of error.",
     "data": "",
-    "question": "What is the expected value of this random variable?"
+    "question": "What size sample is needed to cut the margin of error down to 1 pound?"
   },
   "output": {
-    "method": "期望",
-    "answer": "\\mu=n p=(3)(0.25)=0.75",
-    "variable": {
-      "X": {
-        "id": "X",
-        "value": "b(3,0.25)",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The random number of Tay-Sachs cases in three pregnancies from a carrier couple, modeled as a binomial random variable."
-      }
-    }
+    "answer": "n=(1.96 * 40 / 1)^2 = 6146.6. Round this up to 6147."
   },
   "meta_info": {
-    "index": "6.7",
+    "index": "",
     "image": "",
-    "caption": "Tay-Sachs.",
-    "chapter": "6.5 Expected Value and Variance",
-    "section": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "page": "124-124"
+    "caption": "Sample size requirement (Body weight, 20—29-year-old  males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.3 Sample Size Requirements",
+    "page": "204-204"
   },
   "sample_key": "573"
 }

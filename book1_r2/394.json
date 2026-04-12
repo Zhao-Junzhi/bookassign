@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_357.json",
+  "case_id": "book1_r1\\record_156.json",
   "input": {
-    "background": "Recall that Wechsler Adult Intelligence Scores vary according to a Normal distribution with μ=100 and σ=15.",
-    "data": "",
-    "question": "What is the z-score of a score of 95?"
+    "background": "Calculate a chi-square test of association statistic and P-value for the case-control data in Table 18.21. Additionally, evaluate whether it is acceptable to use a chi-square statistic in this situation, considering that two of the cells have small numbers.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.33 Data for Exercise 18.30. Case-control data on longterm smoking habit and lung cancer.}\n\\begin{tabular}{|l|l|l|}\n\\hline Smoking level* & Cases & Noncases \\\n\\hline 1 Nonsmoker (<1 cigarette per day) & 8 & 115 \\\n\\hline 2 Light smoker ( $1-9 \\mathrm{cig}$ per day) & 14 & 82 \\\n\\hline 3 Moderate ( $10-15$ cigs per day) & 61 & 147 \\\n\\hline 4 Heavy ( $16-20$ cigs per day) & 213 & 274 \\\n\\hline 5 Excessive (21-34 cigs per day) & 186 & 98 \\\n\\hline 6 Chain (35 of more cigs per day) & 123 & 64 \\\n\\hline Total & 605 & 780 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the chi-square test of association statistic for the case-control data in Table 18.21."
   },
   "output": {
-    "method": "标准化",
-    "answer": "z=\\frac{95-100}{15}=-0.33. This indicates the score is 0.33 standard deviations below the mean.",
-    "variable": {
-      "score": {
-        "id": "score",
-        "value": 95,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The observed score for which the z-score is to be calculated."
-      },
-      "mean": {
-        "id": "mean",
-        "value": 100,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The mean (μ) of the Wechsler Adult Intelligence Scores, which follows a Normal distribution."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 15,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The standard deviation (σ) of the Wechsler Adult Intelligence Scores, which follows a Normal distribution."
-      }
-    }
+    "answer": "Answer not provided."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.31",
     "image": "",
-    "caption": "Standardization (WAIS).",
-    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
-    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
-    "page": "140-140"
+    "caption": "Practice with chi-square.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "462-462"
   },
   "sample_key": "394"
 }

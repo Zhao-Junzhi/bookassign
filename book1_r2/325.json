@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_307.json",
+  "case_id": "book1_r1\\record_129.json",
   "input": {
-    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "background": "According to an April 29, 1998, New York Times article, a nationwide telephone survey conducted for a managed alternative care company found that of 1500 adults interviewed, 660 said they would use alternative medicine if traditional medical care failed to produce the desired results.",
     "data": "",
-    "question": "How were treatments assigned to subjects in the WHI trial?"
+    "question": "What method can be used to produce similar results for the confidence interval?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "Treatments were randomized to subjects in approximately equal proportions.",
-    "variable": {
-      "treatment": {
-        "id": "treatment",
-        "value": [
-          "estrogen with progestin",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The type of treatment assigned to subjects in the WHI trial."
-      },
-      "subject": {
-        "id": "subject",
-        "value": "N/A",
-        "class": "NR",
-        "role": "NR",
-        "description": "The individual participants in the WHI trial to whom treatments were assigned."
-      }
-    }
+    "answer": "The plus-four method should produce similar results."
   },
   "meta_info": {
-    "index": "",
+    "index": "16.21",
     "image": "",
-    "caption": "WHI postmenopausal hormone use trial.",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "27-27"
+    "caption": "Alternative medicine.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
   },
   "sample_key": "325"
 }

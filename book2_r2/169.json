@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\070.json",
+  "input": {
+    "background": "Suppose the number, $x$, of a company's employees who are absent on Mondays has (approximately) a Poisson probability distribution. Furthermore, assume that the average number of Monday absentees is 2.6.",
+    "data": null,
+    "question": "Use Minitab to find the probability that more than five employees are absent on a given Monday."
+  },
+  "output": {
+    "answer": "To find the probability that more than five employees are absent on a given Monday, we consider the complementary event: $$P(x>5) = 1 - P(x \\leq 5)$$ Setting $\\lambda=2.6$ as an option in Minitab and specifying the value '5' for a cumulative Poisson probability, we obtain: $$P(x \\leq 5) = 0.951$$ Now, we compute: $$P(x>5) = 1 - P(x \\leq 5) = 1 - 0.951 = 0.049$$"
+  },
+  "meta_info": {
+    "index": "4.14",
+    "img_in_question": null
+  },
+  "sample_key": "169"
+}

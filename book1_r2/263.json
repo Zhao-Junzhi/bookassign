@@ -1,61 +1,20 @@
 {
-  "case_id": "book1_r1\\record_134.json",
+  "case_id": "book1_r1\\record_111.json",
   "input": {
-    "background": "Meconium staining during childbirth may be a sign of fetal distress. A randomized trial was conducted to see if induction of labor (by pitocin and other drugs delivered near term) would reduce the risk of meconium staining. The treatment group (n1=111) had elective inductions at 39 to 40 weeks of pregnancy. One delivery in the treatment group experienced meconium staining. In contrast, 13 of 117 pregnancies in the more conservatively managed group experienced meconium staining.",
-    "data": "",
-    "question": "Determine the risks of meconium staining in each group."
+    "background": "Exercise 13.1 presented data on birth weights of infants based on the smoking status of mothers. Table 13.3 lists the data. Descriptive statistics are shown in Table 13.10.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.10 Descriptive statistics for Exercise 13.3.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Group & $n$ & Mean & Std. Deviation \\\n\\hline 1 (nonsmoker) & 6 & 7.9153 & 1.09947 \\\n\\hline 2 (former smokers) & 5 & 7.8296 & 1.52325 \\\n\\hline 3 (< half pack) & 6 & 6.7962 & 1.10107 \\\n\\hline 4 ( $\\geq$ half pack) & 8 & 6.3024 & 0.84323 \\\n\\hline Total & 25 & 7.1135 & 1.26907 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Conduct an ANOVA on these data. Show all hypothesis-testing steps. Step 1: State the hypotheses."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Estimates\n\n\\( \\hat{p}_1 = 1 / 111 = 0.0090 \\)\n\\( \\hat{p}_2 = 13 / 117 = 0.1111 \\)",
-    "variable": {
-      "group": {
-        "id": "group",
-        "value": [
-          "treatment",
-          "control"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The group to which the subjects belong: treatment group with elective inductions or control group with conservative management."
-      },
-      "treatment_group_size": {
-        "id": "treatment_group_size",
-        "value": 111,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects in the treatment group."
-      },
-      "control_group_size": {
-        "id": "control_group_size",
-        "value": 117,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of subjects in the control group."
-      },
-      "meconium_staining_treatment": {
-        "id": "meconium_staining_treatment",
-        "value": 1,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of cases with meconium staining in the treatment group."
-      },
-      "meconium_staining_control": {
-        "id": "meconium_staining_control",
-        "value": 13,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of cases with meconium staining in the control group."
-      }
-    }
+    "answer": "Hypotheses. $H_0: \\mu_1=\\mu_2=\\mu_3=\\mu_4$ versus $H_3$: at least two of the $\\mu_i$ s differ."
   },
   "meta_info": {
-    "index": "17.7",
+    "index": "13.3",
     "image": "",
-    "caption": "Induction of labor and meconium staining.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.3 Hypothesis Test",
-    "page": "389-389"
+    "caption": "Smoking and birth weight, ANOVA.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.3 ANALYSIS OF VARIANCE (ANOVA)",
+    "page": "276-276"
   },
   "sample_key": "263"
 }

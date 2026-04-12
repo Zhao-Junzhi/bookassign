@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_410.json",
+  "case_id": "book1_r1\\record_351.json",
   "input": {
-    "background": "For the illustrative data, we have established \\(\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725\\) and \\(r=0.737\\).",
+    "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
     "data": "",
-    "question": "Calculate the slope coefficient \\(b\\) using the correlation \\(r\\) and standard deviations \\(s_Y\\) and \\(s_X\\)."
+    "question": "What is the standard deviation of the binomial random variable?"
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "The slope coefficient \\(b=r \\frac{s_Y}{s_X}=0.737 \\cdot \\frac{11.725}{378.451}=0.02284\\).",
-    "variable": {
-      "mean_x": {
-        "id": "mean_x",
-        "value": 603.64,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean value of variable X."
-      },
-      "mean_y": {
-        "id": "mean_y",
-        "value": 20.55,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean value of variable Y."
-      },
-      "std_dev_x": {
-        "id": "std_dev_x",
-        "value": 378.451,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The standard deviation of variable X."
-      },
-      "std_dev_y": {
-        "id": "std_dev_y",
-        "value": 11.725,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The standard deviation of variable Y."
-      },
-      "correlation_r": {
-        "id": "correlation_r",
-        "value": 0.737,
-        "class": "numerical",
-        "role": "both",
-        "description": "The correlation coefficient between variables X and Y."
-      }
-    }
+    "answer": "The standard deviation of this random variable σ=√(n p q)= √(20 · 0.04 · 0.96)=0.8764."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Regression coefficients.",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.4 REGRESSION",
-    "page": "313-314"
+    "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.5  EXPECTED VALUE AND VARIANCE",
+    "page": "123-124"
   },
   "sample_key": "504"
 }

@@ -1,77 +1,20 @@
 {
-  "case_id": "book1_r1\\record_017.json",
+  "case_id": "book1_r1\\record_015.json",
   "input": {
-    "background": "In Exercise 3.2, you created a stemplot of lengths of hospital stays for 25 patients. Table 3.6 lists the data.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.6 Duration of hospitalization (days), $n=25$.}\n\\begin{tabular}{rrrrrrrrrr}\n\\hline 5 & 10 & 6 & 11 & 5 & 14 & 30 & 11 & 17 & 3 \\\n9 & 3 & 8 & 8 & 5 & 5 & 7 & 4 & 3 & 7 \\\n9 & 11 & 11 & 9 & 4 & & & & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Construct a frequency table for these data using 5-day class intervals. Include columns for the frequency counts, relative frequencies, and cumulative frequencies."
+    "background": "Table 3.5 lists the percentage of people living below the poverty line in the 26 states east of the Mississippi River for the year 2000.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.5 Percentage of people living below the poverty line in each of the 26 States east of the Mississippi River for the year 2000.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Alabama & 14.6 & Maryland & 07.3 & Pennsylvania & 09.9 \\\n\\hline Connecticut & 07.6 & Massachusetts & 10.2 & Rhode ls. & 10.0 \\\n\\hline Delaware & 09.8 & Michigan & 10.2 & S. Carolina & 11.9 \\\n\\hline Florida & 12.1 & Mississippi & 15.5 & Tennessee & 13.3 \\\n\\hline Georgia & 12.6 & New Hamp. & 07.4 & Vermont & 10.1 \\\n\\hline Illinois & 10.5 & New Jersey & 08.1 & Virginia & 08.1 \\\n\\hline Indiana & 08.2 & New York & 14.7 & West Virginia & 15.8 \\\n\\hline Kentucky & 12.5 & N. Carolina & 13.2 & Wisconsin & 08.8 \\\n\\hline Maine & 09.8 & Ohio & 11.1 & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Describe the distribution's shape, location, and spread."
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Frequency table\n\n\\begin{tabular}{|l|l|l|l|}\\hline Duration (days) & Frequency & Relative Frequency (\\%) & Cumulative Frequency (\\%) \\\\ \\hline 0-4 & 5 & 20.0\\% & 20\\% \\\\ \\hline 5-9 & 12 & 48.0 & 68 \\\\ \\hline 10-14 & 6 & 24.0 & 92 \\\\ \\hline 15-19 & 1 & 4.0 & 96 \\\\ \\hline 20-24 & 0 & 0.0 & 96 \\\\ \\hline 25-29 & 0 & 0.0 & 96 \\\\ \\hline 30-34 & 1 & 4.0 & 100\\% \\\\ \\hline Total & 25 & 100\\% & - \\\\ \\hline \\end{tabular}",
-    "variable": {
-      "hospital_stay_lengths": {
-        "id": "hospital_stay_lengths",
-        "value": [
-          5,
-          10,
-          6,
-          11,
-          5,
-          14,
-          30,
-          11,
-          17,
-          3,
-          9,
-          3,
-          8,
-          8,
-          5,
-          5,
-          7,
-          4,
-          3,
-          7,
-          9,
-          11,
-          11,
-          9,
-          4
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Lengths of hospital stays for 25 patients in days."
-      },
-      "frequency_counts": {
-        "id": "frequency_counts",
-        "value": "To be calculated based on 5-day class intervals",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Frequency counts of hospital stay lengths within 5-day class intervals."
-      },
-      "relative_frequencies": {
-        "id": "relative_frequencies",
-        "value": "To be calculated as the proportion of each frequency count to the total number of observations",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Relative frequencies of hospital stay lengths within 5-day class intervals."
-      },
-      "cumulative_frequencies": {
-        "id": "cumulative_frequencies",
-        "value": "To be calculated as the cumulative sum of frequency counts across class intervals",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Cumulative frequencies of hospital stay lengths within 5-day class intervals."
-      }
-    }
+    "answer": "- Shape: The distribution has a mild positive skew. There are no apparent outliers.\n- Location: The median (underlined) has a depth of $(26+1) / 2=13.5$ and a value of 10.2."
   },
   "meta_info": {
-    "index": "3.5",
+    "index": "3.1",
     "image": "",
-    "caption": "Hospital stay duration.",
+    "caption": "Poverty in eastern states, 2000.",
     "chapter": "Frequency Distributions",
-    "section": "3.3 Additional Frequency Charts",
-    "page": "50-57"
+    "section": "3.1 Stemplots",
+    "page": "50-50"
   },
   "sample_key": "44"
 }

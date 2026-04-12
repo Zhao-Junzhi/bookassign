@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\019.json",
+  "input": {
+    "background": "There are two hospitals in a town. On average 45 babies are born each day in the larger hospital, and 15 in the smaller. The probability of a baby being a boy is about 0.52, and the probability of twins is about 0.012.",
+    "data": null,
+    "question": "Which hospital is more likely to have a set of twins delivered on any day?"
+  },
+  "output": {
+    "answer": "The larger hospital, simply because there are more births."
+  },
+  "meta_info": {
+    "index": "8.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Principles of statistical analysis",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "177-177"
+  },
+  "sample_key": "56",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 881,
+    "total_tokens": 924,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 880,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 881,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 880,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

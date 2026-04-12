@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\125.json",
+  "input": {
+    "background": "Behavioral researchers have developed an index designed to measure managerial success. The index (measured on a 100-point scale) is based on the manager's length of time in the organization and their level within the firm. A researcher wants to compare the average success index for two groups of managers at a large manufacturing plant. Group 1 managers engage in a high volume of interactions with people outside their work unit, while Group 2 managers rarely interact with people outside their work unit. Independent random samples of 12 and 15 managers are selected from Groups 1 and 2, respectively, and the success index of each is recorded. The results of the study are given in Table 8.2.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{Table 8.2} & \\multicolumn{10}{|c|}{Managerial Success Indexes for Two Groups of Managers} \\\\\n\\hline \\multicolumn{6}{|c|}{Group 1} & \\multicolumn{6}{|c|}{Group 2} \\\\\n\\hline \\multicolumn{6}{|c|}{Interaction with Outsiders} & \\multicolumn{6}{|c|}{Few Interactions} \\\\\n\\hline 65 & 58 & 78 & 60 & 68 & 69 & 62 & 53 & 36 & 34 & 56 & 50 \\\\\n\\hline 66 & 70 & 53 & 71 & 63 & 63 & 42 & 57 & 46 & 68 & 48 & 42 \\\\\n\\hline & & & & & & 52 & 53 & 43 & & & \\\\\n\\hline\n\\end{tabular}",
+    "question": "Use the data in the table to estimate the true mean difference between the success indexes of managers in the two groups. Use a 95% confidence interval."
+  },
+  "output": {
+    "answer": "For this experiment, let μ1 and μ2 represent the mean success index of Group 1 and Group 2 managers, respectively. The objective is to obtain a 95% confidence interval for (μ1−μ2). Summary statistics are: x̄1 = 65.33, s1 = 6.61, x̄2 = 49.47, and s2 = 9.33. The pooled estimate of variance is calculated as sp² = 67.97. Using tα/2 = 2.06 (based on 25 degrees of freedom), the 95% confidence interval for (μ1−μ2) is: (x̄1−x̄2) ± tα/2 √[sp²(1/n1 + 1/n2)] = 15.86 ± (2.06)(3.19) = 15.86 ± 6.58, or (9.28, 22.44)."
+  },
+  "meta_info": {
+    "index": "8.4",
+    "img_in_question": null
+  },
+  "sample_key": "317"
+}

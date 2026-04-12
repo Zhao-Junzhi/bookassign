@@ -1,68 +1,20 @@
 {
-  "case_id": "book1_r1\\record_090.json",
+  "case_id": "book1_r1\\record_075.json",
   "input": {
-    "background": "Exercise 11.11 calculated the mean length of menstrual cycles in an SRS of $n=9$ women. The data revealed $\\bar{x}=27.78$ days with standard deviation $s=2.906$ days.",
-    "data": " Exercise 11.11 ：Menstrual cycle lengths (days) in an SRS of nine women are as follows: $\\{31,28,26,24,29,33,25,26,28\\}$. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
-    "question": "Calculate a $95 \\%$ confidence interval for the mean menstrual cycle length."
+    "background": "In Exercise 9.3, you tested $H_0: \\mu=50$ based on a sample of $n=36$ showing $\\bar{x}=48.8$. The population had standard deviation $\\sigma=7.5$.",
+    "data": "Patient satisfaction. Scores derived from a patient satisfaction survey are Normally distributed with $\\mu=50$ and $\\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.\n(a) What is the $S E$ of $\\bar{x}$ for these data?\n(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\\mu=50$. Sketch the curve that describes the sampling distribution of $\\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\\pm 1, \\pm 2$, and $\\pm 3$ standard errors above and below the mean.\n(c) Suppose a sample of $n=36$ finds an $\\bar{x}$ of 48.8 . Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
+    "question": "Convert the $z_{\\text {stat }}$ to a $P$-value, and interpret the results."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "The confidence interval can be calculated using the formula $\\bar{x} \\pm t^* \\cdot \\frac{s}{\\sqrt{n}}$, where $t^*$ is the critical value from the t-distribution for $df=n-1$ at $95 \\%$ confidence level.",
-    "variable": {
-      "menstrual_cycle_lengths": {
-        "id": "menstrual_cycle_lengths",
-        "value": [
-          31,
-          28,
-          26,
-          24,
-          29,
-          33,
-          25,
-          26,
-          28
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Lengths of menstrual cycles in days for a sample of nine women."
-      },
-      "sample_mean": {
-        "id": "sample_mean",
-        "value": 27.78,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Sample mean of the menstrual cycle lengths."
-      },
-      "sample_standard_deviation": {
-        "id": "sample_standard_deviation",
-        "value": 2.906,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Standard deviation of the menstrual cycle lengths in the sample."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 9,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of women in the sample."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Confidence level for the confidence interval calculation."
-      }
-    }
+    "answer": "$P=\\operatorname{Pr}(Z<-0.96)=0.1685$. Interpretation: If $H_0$ were correct, results this extreme or more extreme would occur about $17 \\%$ of the time (that is, would not be that unusual)."
   },
   "meta_info": {
-    "index": "11.13",
+    "index": "9.7",
     "image": "",
-    "caption": "Menstrual cycle length.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.4 Confidence Interval for $\\mu$",
-    "page": "218-218"
+    "caption": "Patient satisfaction (sample mean of 48.8).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
   },
   "sample_key": "170"
 }

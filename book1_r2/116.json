@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_065.json",
+  "case_id": "book1_r1\\record_053.json",
   "input": {
-    "background": "Find the following $z$ percentiles.",
+    "background": "The prevalence of a trait is 76.8%.",
     "data": "",
-    "question": "(d) $z_{.85}$"
+    "question": "How many would you expect to see with this characteristic in a simple random sample of n=10?"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "$z_{.85}=1.04$",
-    "variable": {
-      "z_percentile": {
-        "id": "z_percentile",
-        "value": "0.85",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The percentile value for which the z-score is to be found."
-      }
-    }
+    "answer": "μ=(10)(0.768)=7.68"
   },
   "meta_info": {
-    "index": "7.15",
+    "index": "6.9",
     "image": "",
-    "caption": "Z percentiles.",
-    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
-    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
-    "page": "153-153"
+    "caption": "Prevalence 76.8 %.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "127-127"
   },
   "sample_key": "116"
 }

@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_118.json",
+  "case_id": "book1_r1\\record_100.json",
   "input": {
-    "background": "Identify which of these statements are true and which are false.",
-    "data": "",
-    "question": "The closer 7 is to 1, the stronger the linear relation between X and Y."
+    "background": "Imagine a study of six monkeys that compares two treatments. Group 1 receives Monkey Tonic while group 2 receives Applied Monkey Training (AMT). Table 12.4 lists results performance scores BEFORE and AFTER these interventions.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.4 Data for Exercise 12.3.\nVariables are:\nID Identification number\ngroup $1=$ Tonic; $2=$ Training\nBEFORE Performance score before intervention\nAFTER Performance score after intervention}\n\\begin{tabular}{|l|l|l|l|}\n\\hline ID & GROUP & BEFORE & AFTER \\\\\n\\hline 1 & 1 & 100 & 104 \\\\\n\\hline 2 & 1 & 88 & 93 \\\\\n\\hline 3 & 1 & 106 & 109 \\\\\n\\hline 4 & 2 & 116 & 117 \\\\\n\\hline 5 & 2 & 102 & 104 \\\\\n\\hline 6 & 2 & 106 & 106 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n[Data are facetious.]",
+    "question": "Calculate mean performance scores in each group BEFORE the intervention. Then calculate the mean difference. Is this mean difference based on paired or independent samples?"
   },
   "output": {
-    "method": "相关系数（一维）",
-    "answer": "False",
-    "variable": {
-      "X": {
-        "id": "X",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "independent",
-        "description": "One of the variables in the linear relationship being assessed."
-      },
-      "Y": {
-        "id": "Y",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The other variable in the linear relationship being assessed."
-      },
-      "CorrelationCoefficient": {
-        "id": "CorrelationCoefficient",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "both",
-        "description": "A measure of the strength and direction of the linear relationship between X and Y."
-      }
-    }
+    "answer": "The mean in group 1 is 98. The mean in group 2 is 108. The mean difference is 98 - 108 = -10. This mean difference is based on independent samples."
   },
   "meta_info": {
-    "index": "14.9",
+    "index": "12.3",
     "image": "",
-    "caption": "True or false?",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.4 REGRESSION",
-    "page": "330-330"
+    "caption": "Facetious data.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-239"
   },
   "sample_key": "235"
 }

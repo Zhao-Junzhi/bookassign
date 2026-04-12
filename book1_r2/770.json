@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_503.json",
+  "input": {
+    "background": "Determine whether the boldface numbers in the given scenarios represent a parameter or a statistic.",
+    "data": "",
+    "question": "Cost of antihypertensive medication. Data from 10 online pharmacies reveal that the average cost of a 1-month supply of a particular medication is $31.20 with standard deviation $7.75. Data from 10 community pharmacies shows an average cost of $33.18 with standard deviation $7.88. Are these values parameters or statistics?"
+  },
+  "output": {
+    "answer": "All are statistics. (These statistics will be used to infer costs at online and community pharmacies, respectively.)"
+  },
+  "meta_info": {
+    "index": "8.3",
+    "image": "",
+    "caption": "Parameter or statistic?",
+    "chapter": "Introduction to Statistical Inference",
+    "section": "8.1 Concepts",
+    "page": "158-158"
+  },
+  "sample_key": "770"
+}

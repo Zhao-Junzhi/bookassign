@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\068.json",
+  "input": {
+    "background": "As part of a study of acute mountain sickness, fifteen members of a climbing expedition to East Africa had plasma aldosterone measurements taken before and after a rapid ascent to 4300 m. Measurements were taken at 09:00 at low and high altitudes over three days, along with a symptom score for acute mountain sickness (AMS), where high values indicate worse symptoms.",
+    "data": "As part of a study of acute mountain sickness fifteen members of a climbing expedition to East Africa had plasma aldosterone measurements taken before and after a rapid ascent to 4300 m (Milledge et al., 1989). The following table shows measurements taken at 09.00 at low and high altitudes over three days, together with a symptom score for acute mountain sickness (AMS) - high values mean worse symptoms.\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline Subject & AMS score& \\multicolumn{3}{|c|}{Plasma aldosterone (mmol/l)} \\\\\n\\hline & & Low Day 1 & High Day 2 & High Day 3 \\\\\n\\hline 1 & 1 & 68 & 151 & 188 \\\\\n\\hline 2 & 1 & 153 & 49 & 77 \\\\\n\\hline 3 & 7 & 110 & 141 & 95 \\\\\n\\hline 4 & 9 & 238 & 286 & 143 \\\\\n\\hline 5 , & 11 & 204 & 242 & 84 \\\\\n\\hline 6 & 11 & 141 & 263 & 63 \\\\\n\\hline 7 & 11 & 183 & 233 & 121 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline Subject & AMS score & \\multicolumn{3}{|c|}{Plasma aldosterone (mmol/l)} \\\\\n\\hline & & Low Day 1 & High Day 2 & High Day 3 \\\\\n\\hline 8 & 13 & 119 & 245 & 97 \\\\\n\\hline 9 & 13 & 272 & 275 & 115 \\\\\n\\hline 10 & 14 & 166 & 241 & 150 \\\\\n\\hline 11 & 15 & 228 & 109 & 76 \\\\\n\\hline 12 & 17 & 77 & 192 & 63 \\\\\n\\hline 13 & 18 & 114 & 46 & 43 \\\\\n\\hline 14 & 23 & 91 & 189 & 74 \\\\\n\\hline 15 & 35 & 105 & 254 & 283 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Carry out an appropriate analysis of the plasma aldosterone levels on the three days. Which pairs of days are significantly different?"
+  },
+  "output": {
+    "answer": "The data for the three days can be examined by a two-way analysis of variance. The means and SDs for the three days are:\nDay 1: Mean = 151.27, SD = 62.37\nDay 2: Mean = 194.40, SD = 78.77\nDay 3: Mean = 111.47, SD = 61.14\n\nThe comparison of the three times within the analysis of variance gives F = 7.24 on 2 and 28 degrees of freedom (P = 0.003). The Shapiro-Francia W' test of the residuals gives W' = 0.992 (P = 0.97), showing that the residuals have a distribution very close to Normal.\n\nPairwise t-tests with Bonferroni adjustment:\nDay 1 vs Day 2: Difference = 43.13, t = 1.98, P = 0.06, P* = 0.17\nDay 1 vs Day 3: Difference = -39.80, t = -1.82, P = 0.08, P* = 0.24\nDay 2 vs Day 3: Difference = -82.93, t = -3.80, P = 0.0007, P* = 0.002\n\nDays 2 and 3 are highly significantly different, even after the Bonferroni correction. The other differences are not significant, but the mean changes in plasma aldosterone are quite large."
+  },
+  "meta_info": {
+    "index": "16.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "503-504"
+  },
+  "sample_key": "203",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 2450,
+    "total_tokens": 2493,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 2449,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 2450,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 2449,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

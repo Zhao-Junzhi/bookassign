@@ -1,39 +1,20 @@
 {
-  "case_id": "book1_r1\\record_044.json",
+  "case_id": "book1_r1\\record_025.json",
   "input": {
-    "background": "What is the probability of being born on specific dates in February?",
+    "background": "The following stemplot has 18 observations. Prove that the value 152 in this data set is an outside value.",
     "data": "",
-    "question": "What is the probability of being born on February 29?"
+    "question": "Why is the value 152 considered an outside value?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Feb 29 occurs once every 4 years. Therefore, Pr(Feb 29) = 1 / (365 + 365 + 365 + 366) = 0.0006845.",
-    "variable": {
-      "date": {
-        "id": "date",
-        "value": [
-          "February 29"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The specific date for which the probability of being born is calculated."
-      },
-      "probability": {
-        "id": "probability",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability of being born on February 29."
-      }
-    }
+    "answer": "The value 152 is outside the upper fence."
   },
   "meta_info": {
-    "index": "5.3",
+    "index": "4.5",
     "image": "",
-    "caption": "February birthdays.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.1 WHat Is PROBABILITY?",
-    "page": "91-91"
+    "caption": "Outside?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "77-78"
   },
   "sample_key": "75"
 }

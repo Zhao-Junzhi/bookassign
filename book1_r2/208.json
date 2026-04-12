@@ -1,82 +1,20 @@
 {
-  "case_id": "book1_r1\\record_107.json",
+  "case_id": "book1_r1\\record_090.json",
   "input": {
-    "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3(s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3(s2=0.025 g/cm^3).",
-    "data": "",
-    "question": "Based on the confidence interval you just calculated, would you reject or retain H0: μ1−μ2=0 at α=0.05?"
+    "background": "Exercise 11.11 calculated the mean length of menstrual cycles in an SRS of n=9 women. The data revealed x̄=27.78 days with standard deviation s=2.906 days.",
+    "data": " Exercise 11.11 ：Menstrual cycle lengths (days) in an SRS of nine women are as follows: $\\{31,28,26,24,29,33,25,26,28\\}$. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
+    "question": "Calculate a 95% confidence interval for the mean menstrual cycle length."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "You would retain H0 because the 95% confidence interval includes 0.",
-    "variable": {
-      "maternal_smoking_status": {
-        "id": "maternal_smoking_status",
-        "value": [
-          "smoker",
-          "non-smoker"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The smoking status of the mothers, categorized as either smoker or non-smoker."
-      },
-      "bone_mineral_content_smokers": {
-        "id": "bone_mineral_content_smokers",
-        "value": 0.098,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Mean bone mineral content of infants whose mothers smoked."
-      },
-      "bone_mineral_content_non_smokers": {
-        "id": "bone_mineral_content_non_smokers",
-        "value": 0.095,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Mean bone mineral content of infants whose mothers did not smoke."
-      },
-      "standard_deviation_smokers": {
-        "id": "standard_deviation_smokers",
-        "value": 0.026,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Standard deviation of bone mineral content for infants whose mothers smoked."
-      },
-      "standard_deviation_non_smokers": {
-        "id": "standard_deviation_non_smokers",
-        "value": 0.025,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Standard deviation of bone mineral content for infants whose mothers did not smoke."
-      },
-      "sample_size_smokers": {
-        "id": "sample_size_smokers",
-        "value": 77,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Sample size of infants whose mothers smoked."
-      },
-      "sample_size_non_smokers": {
-        "id": "sample_size_non_smokers",
-        "value": 161,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Sample size of infants whose mothers did not smoke."
-      },
-      "alpha": {
-        "id": "alpha",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Significance level for hypothesis testing."
-      }
-    }
+    "answer": ""
   },
   "meta_info": {
-    "index": "12.17",
+    "index": "11.13",
     "image": "",
-    "caption": "Bone density in newborns.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "256-257"
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\mu$",
+    "page": "218-218"
   },
   "sample_key": "208"
 }

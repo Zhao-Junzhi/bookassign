@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_347.json",
+  "input": {
+    "background": "Three examples of the combination formula ${ }_n C_x=\\frac{n!}{x!(n-x)!}$ are presented.",
+    "data": "",
+    "question": "How many ways can we choose five items out of seven?"
+  },
+  "output": {
+    "answer": "${ }_7 C_5=\\frac{7!}{5!(7-5)!}=\\frac{7 \\cdot 6 \\cdot 5!}{5!\\cdot 2!}=21$"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial coefficients.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-117"
+  },
+  "sample_key": "491",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1087,
+    "total_tokens": 1130,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 975,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1087,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 975,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_130.json",
+  "input": {
+    "background": "Among the 33 perinatal growth failure cases discussed in the prior exercise, eight (24.2%) had very-low intelligence test scores when tested at 8 years of age. In normal birthweight babies, we'd expect 2.5% of the population to exhibit this trait.",
+    "data": "",
+    "question": "Perform a one-sided exact binomial test to address whether the observation is statistically significant. Show all hypothesis-testing steps."
+  },
+  "output": {
+    "answer": "A. Hypotheses. H0: p=0.025 versus Ha: p>0.025\nB. Test statistic, x=8\nC. P-value. P=Pr(X ≥ 8 | X ~ b(33,0.025)) ≈ 0.0000"
+  },
+  "meta_info": {
+    "index": "16.23",
+    "image": "",
+    "caption": "Perinatal growth failure.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "372-372"
+  },
+  "sample_key": "326",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1064,
+    "total_tokens": 1107,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1063,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1064,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1063,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

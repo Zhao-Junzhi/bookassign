@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\030.json",
+  "case_id": "book5_r1\\023.json",
   "input": {
-    "background": "Compare the SI values in the two groups of patients shown in Exercise 3.1.",
+    "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights to investigate the effect of consuming large quantities of salt and fluid as a countermeasure to space deconditioning. Seventeen astronauts voluntarily consumed the countermeasure, while nine did not. Supine heart rates (beats/minute) were measured before and after flights for both groups.",
     "data": null,
-    "question": "What test could be used to compare the SI values in the two groups of patients?"
+    "question": "Comment on the voluntary aspect of the study, and how it might affect the interpretation of the results."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "The Mann-Whitney test could be used. As it is a test based on ranks, the censored values recorded as $>80.0$ would all have the same rank. As there are so many ties at this value the adjustment for ties would be desirable. Also, the SI values clearly have a skewed distribution, indicating that a non-parametric method would be suitable."
+    "answer": "In clinical research it is highly undesirable to let subjects choose their own treatments. No clinical trial conducted in this way would have credibility. Ideally (from the research point of view) the astronauts should have been randomized to receive the dietary countermeasure, but this was not set up as a prospective study. The likely homogeneity of the astronauts, for example with respect to fitness, would probably lessen the volunteer effect. Clearly the pre-flight heart rates in the two groups were very similar, which strengthens the findings. In the end the validity of the results is a matter of judgement."
   },
   "meta_info": {
-    "index": "9.8",
+    "index": "9.1",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Comparing groups – continuous data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "228-228"
+    "page": "223-224"
   },
   "sample_key": "66"
 }

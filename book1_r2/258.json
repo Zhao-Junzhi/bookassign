@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_132.json",
+  "case_id": "book1_r1\\record_108.json",
   "input": {
-    "background": "Each year, cardiologists surgically repair thousands of clogged coronary arteries only to have many of these arteries narrow again (restenose) soon after surgery. A study sponsored by the NIH was conducted to help determine whether infection with a common type of virus, cytomegalovirus (CMY), contributed to coronary restenosis. Forty-nine of the subjects showed serological evidence of CMV infection, while 26 showed no such evidence. In the CMV+ group, 21 individuals restenosed within 6 months of atherectomy. In the CMV — group, 2 individuals restenosed.",
+    "background": "A randomized, double-blind, placebo-controlled study evaluated the effects of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in 2- to 11-year-olds. Each time a child had an upper respiratory tract infection, treatment with either echinacea or a placebo was given for the duration of the illness. One of the outcomes studied was 'severity of symptoms.' A severity scale based on four symptoms was monitored and recorded by the parents of subjects for each instance of upper respiratory infection. The peak severity of symptoms in the 337 cases treated with echinacea had a mean score of 6.0 (standard deviation 2.3). The peak severity of symptoms in the placebo group (n2=370) had a mean score of 6.1 (standard deviation 2.4).",
     "data": "",
-    "question": "Calculate the 95% confidence interval for the risk difference using the plus-four method."
+    "question": "Discuss your findings regarding the significance level."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "95% confidence by the plus-four method: \\( \\bar{P}_1=\\frac{22}{51}=0.4314 \\) \\( \\bar{P}_2=\\frac{3}{28}=0.1071 \\) \\( SE=0.0907 \\) 95% confidence interval for \\( p_1-p_2=(0.4314-0.1071) \\pm(1.96)(0.0907)= 0.3243 \\pm 0.1778=(0.1465,0.5021) \\)",
-    "variable": {
-      "CMV_positive_restenosis": {
-        "id": "CMV_positive_restenosis",
-        "value": 21,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of individuals with CMV infection who restenosed within 6 months."
-      },
-      "CMV_positive_total": {
-        "id": "CMV_positive_total",
-        "value": 49,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Total number of individuals with CMV infection."
-      },
-      "CMV_negative_restenosis": {
-        "id": "CMV_negative_restenosis",
-        "value": 2,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of individuals without CMV infection who restenosed within 6 months."
-      },
-      "CMV_negative_total": {
-        "id": "CMV_negative_total",
-        "value": 26,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Total number of individuals without CMV infection."
-      }
-    }
+    "answer": "D. Significance level (optional). The evidence against H0 is not significant at α = 0.10 (retain H0)."
   },
   "meta_info": {
-    "index": "17.3",
+    "index": "12.19",
     "image": "",
-    "caption": "Cytomegalovirus and coronary restenosis.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
-    "page": "379-379"
+    "caption": "Efficacy of echinacea, severity of symptoms.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "257-258"
   },
   "sample_key": "258"
 }

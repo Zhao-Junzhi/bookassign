@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_364.json",
+  "case_id": "book1_r1\\record_158.json",
   "input": {
-    "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15.",
-    "data": "",
-    "question": "What effect does increasing the sample size have on the precision of a mean?"
+    "background": "Exercise 19.1 considered whether participation in a follow-up survey was associated with having medical aid. Race was a confounding variable in this analysis. Table 19.5 lists both crude and race-specific cross tabulations.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|l|}\n\\hline & \\multicolumn{2}{|l|}{Table A: All subjects\n Medical Aid + Medical Aid -} & Total \\\n\\hline \\multirow[t]{2}{*}{Follow-up +\n Follow-up -} & \\multicolumn{2}{|l|}{\\multirow{2}{*}{\\begin{tabular}{|r|r|}\n\\hline 46 & 370 \\\n\\hline 195 & 979 \\\n\\hline\n\\end{tabular}}} & 416 \\\n\\hline & & & 1174 \\\n\\hline & \\multicolumn{2}{|l|}{Table B: Whites \nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}}} & 12 \\\n\\hline & & & 126 \\\n\n\\hline & \\multicolumn{2}{|l|}{Table C: Blacks\nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 36 & 368 \\\n\\hline 91 & 957 \\\n\\hline\n\\end{tabular}}} & 404 \\\n\\hline & & & 1048 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Conduct a hypothesis test to determine if there is interaction. State the hypotheses, calculate the test statistic, and interpret the P-value."
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "Each time, quadrupling the sample size cuts the SE_{\\bar{x}} in half.",
-    "variable": {
-      "WAIS_mean": {
-        "id": "WAIS_mean",
-        "value": 100,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean of the Wechsler Adult Intelligence Scores (WAIS) distribution."
-      },
-      "WAIS_std_dev": {
-        "id": "WAIS_std_dev",
-        "value": 15,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the Wechsler Adult Intelligence Scores (WAIS) distribution."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": "varies",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the sample drawn from the WAIS distribution."
-      },
-      "precision_of_mean": {
-        "id": "precision_of_mean",
-        "value": "varies",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The precision of the sample mean, which is affected by the sample size."
-      }
-    }
+    "answer": "A. Hypotheses. $H_0: R R_1=R R_2$ (no interaction) versus $H_2: R R_1 \\neq R R_2$ (interaction)\n\nB. Test statistic. $X^2_{\\text {stat,int }}=0.005$ with $d f=1$\n\nC. $P$-value. $P=0.944$. There is no significant difference in the strata-specific $R R$ estimates (retain $H_0$ of no statistical interaction)."
   },
   "meta_info": {
-    "index": "",
+    "index": "19.3",
     "image": "",
-    "caption": "Standard error of the mean and sample size (WAIS).",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.2 Sampling Behavior of a Mean",
-    "page": "164-164"
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "478-478"
   },
   "sample_key": "402"
 }

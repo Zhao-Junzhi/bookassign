@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\016.json",
   "input": {
-    "background": "For several makes of car, data for engine size and fuel economy are provided. The goal is to analyze the relationship between engine size and fuel economy using regression analysis.",
+    "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
     "data": null,
-    "question": "Does the distribution of the residuals meet with the assumptions of regression?"
+    "question": "(i) To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following: R^2, Regression equation, F, df, and P."
   },
   "output": {
-    "method": "假设检验",
-    "answer": "The residuals appear randomly distributed (although there are too few observations for the engine size of 1.8 litres to be completely sure of the distribution at that point). The distribution of the residuals therefore satisfies the assumptions of regression."
+    "answer": "R^2=69.4%, Regression equation: Economy=22.39-5.862 Engine size (or y=22.39-5.862x), F=49.961, df=1 and 22."
   },
   "meta_info": {
     "index": "5.3",

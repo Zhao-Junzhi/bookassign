@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_380.json",
+  "case_id": "book1_r1\\record_314.json",
   "input": {
-    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\bar{x}=2890.5 grams and s=720.0.",
-    "data": "",
-    "question": "Confidence intervals for \\mu at 99 \\% level of confidence will be calculated."
+    "background": "A U.S. Census Bureau report looked at health insurance coverage in the United States for the period 2002 to 2004. Table 3.2 lists the average percentage of people without health insurance coverage by state for this period.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.2 Percentage of residents without health insurance by state, U.S., 2004, $n=51$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline State & \\% & State & \\% & State & \\% \\\n\\hline Alabama & 13.5 & Kentucky & 13.9 & N. Dakota & 11.0 \\\n\\hline Alaska & 18.2 & Louisiana & 18.8 & Ohio & 11.8 \\\n\\hline Arizona & 17.0 & Maine & 10.6 & Oklahoma & 19.2 \\\n\\hline Arkansas & 16.7 & Maryland & 14.0 & Oregon & 16.1 \\\n\\hline California & 18.4 & Massachusetts & 10.8 & Pennsylvania & 11.5 \\\n\\hline Colorado & 16.8 & Michigan & 11.4 & Rhode Is. & 10.5 \\\n\\hline Connecticut & 10.9 & Minnesota & 08.5 & S. Carolina & 13.8 \\\n\\hline Delaware & 11.8 & Mississippi & 17.2 & S. Dakota & 11.9 \\\n\\hline Dist. Col. & 13.5 & Missouri & 11.7 & Tennessee & 12.7 \\\n\\hline Florida & 18.5 & Montana & 17.9 & Texas & 25.1 \\\n\\hline Georgia & 16.6 & Nebraska & 11.0 & Utah & 13.4 \\\n\\hline Hawaii & 09.9 & Nevada & 19.1 & Vermont & 10.5 \\\n\\hline Idaho & 17.3 & N. Hamp. & 10.6 & Virginia & 13.6 \\\n\\hline Illinois & 14.2 & N. Jersey & 14.4 & Washington & 14.2 \\\n\\hline Indiana & 13.7 & N. Mexico & 21.4 & W. Virginia & 15.9 \\\n\\hline Iowa & 10.1 & New York & 15.0 & Wisconsin & 10.4 \\\n\\hline Kansas & 10.8 & N. Carolina & 16.6 & Wyoming & 15.9 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Use a quintuple split of stem values to further improve the stemplot."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "For 99 \\% confidence, use t_{9, .995}=3.250, so the 99 \\% confidence interval for \\mu is 2890.5 \\pm(3.250)(227.7)=2890.5 \\pm 740.0= (2150.5 to 3630.5) grams.",
-    "variable": {
-      "mean_birth_weight": {
-        "id": "mean_birth_weight",
-        "value": 2890.5,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean birth weight of the sample, used to calculate the confidence interval."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 720.0,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the birth weight in the sample, used to calculate the confidence interval."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 99,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The level of confidence for the interval estimation, indicating the probability that the interval contains the true mean."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 10,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of SIDS cases in the sample, used in the calculation of the confidence interval."
-      }
-    }
+    "answer": "This plot is improved, but still seems too compressed. Let's try a quintuple split of stem values:\n$$\n\\begin{aligned}\n& 0 . \\mid 89 \\\n& 1 * \\mid 00000000011111111 \\\n& \\mathrm{~T} \\mid 23333333 \\\n& \\mathrm{~F} \\mid 4444555 \\\n& \\mathrm{~S} \\mid 666667777 \\\n& \\cdot \\mid 888899 \\\n& 2 * \\mid 1 \\\n& \\mathrm{~T} \\mid \\\n& \\mathrm{F} \\mid 5 \\\n& \\times 10\n\\end{aligned}\n$$"
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.4 Confidence Interval for $\\\\mu$",
-    "page": "217-218"
+    "caption": "Health insurance coverage.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "46-47"
   },
   "sample_key": "441"
 }

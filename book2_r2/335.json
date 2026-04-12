@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\130.json",
+  "input": {
+    "background": "A production supervisor suspects a difference exists between the proportions $p_1$ and $p_2$ of defective items produced by two different machines. Experience has shown that the proportion defective for each of the two machines is in the neighborhood of .03. The supervisor wants to estimate the difference in the proportions to within .005 using a $95 \\%$ confidence interval, assuming $n_1=n_2=n$.",
+    "data": "null",
+    "question": "What is the formula used to calculate the required sample size $n$ per machine?"
+  },
+  "output": {
+    "answer": "The formula used is $z_{\\alpha / 2} \\sigma_{(\\hat{p}_1-\\hat{p}_2)}=\\mathrm{ME}$, or equivalently, $z_{\\alpha / 2} \\sqrt{\\frac{p_1 q_1}{n_1}+\\frac{p_2 q_2}{n_2}} = \\mathrm{ME}$."
+  },
+  "meta_info": {
+    "index": "8.9",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "335"
+}

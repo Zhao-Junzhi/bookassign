@@ -1,95 +1,20 @@
 {
-  "case_id": "book1_r1\\record_091.json",
+  "case_id": "book1_r1\\record_077.json",
   "input": {
-    "background": "A study looked at the number of cavity-free children per 100 in 16 North American cities BEFORE and AFTER public water fluoridation projects. Table 11.2 lists the data.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.2 Cavity-free children per 100 in 16 North American cities before and after public water fluoridation projects.}\n\\begin{tabular}{|l|l|}\n\\hline AFTER & BEFORE \\\\\n\\hline 49.2 & 18.2 \\\\\n\\hline 30.0 & 21.9 \\\\\n\\hline 16.0 & 5.2 \\\\\n\\hline 47.8 & 20.4 \\\\\n\\hline 3.4 & 2.8 \\\\\n\\hline 16.8 & 21.0 \\\\\n\\hline 10.7 & 11.3 \\\\\n\\hline 5.7 & 6.1 \\\\\n\\hline 23.0 & 25.0 \\\\\n\\hline 17.0 & 13.0 \\\\\n\\hline 79.0 & 76.0 \\\\\n\\hline 66.0 & 59.0 \\\\\n\\hline 46.8 & 25.6 \\\\\n\\hline 84.9 & 50.4 \\\\\n\\hline 65.2 & 41.2 \\\\\n\\hline 52.0 & 21.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Estimate the mean change with 95% confidence."
+    "background": "Studies in the general population suggest that the gestational length of uncomplicated pregnancies varies according to a Normal distribution with μ=39 weeks with σ=2 weeks. A sample of 22 middle-class African American women demonstrates an average gestation length (x̄) of 38.5 weeks. Test whether the mean gestation period in the African American women is significantly different from the expected value of 39 weeks. Use a two-sided alternative hypothesis.",
+    "data": "",
+    "question": "Determine the p-value for the test statistic."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "(c)\n\n$$\n\\begin{aligned}\n& n=16 \\\\\n& \\hat{x}_d=12.21 \\\\\n& s_d=13.62 \\\\\n& S E=\\frac{13.62}{\\sqrt{16}}=3.405 \\\\\n& d f=16-1=15 \\\\\n& t_{15.975}=2.131 \\\\\n& 95 \\% \\text { CI for } \\mu_d=12.21 \\pm(2.131)(3.405)=12.21 \\pm 7.26=(4.95 \\text { to } 19.47) \\text { additional cavity-free children per } 100 .\n\\end{aligned}\n$$",
-    "variable": {
-      "AFTER": {
-        "id": "AFTER",
-        "value": [
-          49.2,
-          30.0,
-          16.0,
-          47.8,
-          3.4,
-          16.8,
-          10.7,
-          5.7,
-          23.0,
-          17.0,
-          79.0,
-          66.0,
-          46.8,
-          84.9,
-          65.2,
-          52.0
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of cavity-free children per 100 in 16 North American cities AFTER public water fluoridation projects."
-      },
-      "BEFORE": {
-        "id": "BEFORE",
-        "value": [
-          18.2,
-          21.9,
-          5.2,
-          20.4,
-          2.8,
-          21.0,
-          11.3,
-          6.1,
-          25.0,
-          13.0,
-          76.0,
-          59.0,
-          25.6,
-          50.4,
-          41.2,
-          21.0
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Number of cavity-free children per 100 in 16 North American cities BEFORE public water fluoridation projects."
-      },
-      "CHANGE": {
-        "id": "CHANGE",
-        "value": [
-          31.0,
-          8.1,
-          10.8,
-          27.4,
-          0.6,
-          -4.2,
-          -0.6,
-          -0.4,
-          -2.0,
-          4.0,
-          3.0,
-          7.0,
-          21.2,
-          34.5,
-          24.0,
-          31.0
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Change in the number of cavity-free children per 100 in 16 North American cities after subtracting BEFORE values from AFTER values."
-      }
-    }
+    "answer": "One-sided P=Pr(Z≥1.17)=0.1210 [from Table B] and two-sided P=2×0.1210=0.2420"
   },
   "meta_info": {
-    "index": "11.15",
+    "index": "9.11",
     "image": "",
-    "caption": "Water fluoridation.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.5 PAIRED SAMPLES",
-    "page": "223-223"
+    "caption": "Gestational length，African American women, hypothesis test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "192-193"
   },
   "sample_key": "174"
 }

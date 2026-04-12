@@ -1,12 +1,11 @@
 {
   "case_id": "book5_r1\\002.json",
   "input": {
-    "background": "The question involves analyzing aviation accident rates among different groups of pilots, based on data from Booze (1977). The data includes accident rates per 100000 hours of recent flight time and a figure (Figure 3.1) showing the distribution of accidents among groups.",
+    "background": "The question involves analyzing data from Figure 3.1 and a table showing aviation accident rates per 100,000 hours of recent flight time. The goal is to determine whether professional pilots are more likely to have aviation accidents and to compare accident rates across different groups of pilots.",
     "data": "\\begin{tabular}{|l|l|l|l|}\n\\hline & Number of accidents & Rate per 1000* & Rate per 100000 hr \\\\\n\\hline Professional pilots & 1302 & 15.9 & 0.2 \\\\\n\\hline Lawyers & 57 & 11.0 & 1.5 \\\\\n\\hline Farmers & 166 & 10.1 & 1.3 \\\\\n\\hline Sales representatives & 137 & 9.0 & 1.2 \\\\\n\\hline Physicians & 76 & 8.7 & 1.8 \\\\\n\\hline Mechanics and repairmen & 44 & 6.9 & 1.5 \\\\\n\\hline Policemen and detectives & 48 & 6.6 & 1.8 \\\\\n\\hline Managers and administrators & 643 & 6.0 & 0.7 \\\\\n\\hline Engineers & 125 & 4.7 & 1.1 \\\\\n\\hline Teachers & 43 & 4.2 & 1.1 \\\\\n\\hline Housewives & 29 & 3.7 & 3.2 \\\\\n\\hline Academic students & 188 & 3.2 & 3.7 \\\\\n\\hline Armed Forces Members & 111 & 1.6 & 0.7 \\\\\n\\hline\n\\end{tabular}",
     "question": "Does Figure 3.1 indicate that professional pilots are more likely to have an aviation accident than other groups?"
   },
   "output": {
-    "method": "数据可视化",
     "answer": "The answer depends upon the interpretation of 'more likely'. The Figure shows that more accidents involve professional pilots than any other group, but gives no information of the risk per individual."
   },
   "meta_info": {

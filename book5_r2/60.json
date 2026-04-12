@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\027.json",
+  "case_id": "book5_r1\\021.json",
   "input": {
-    "background": "Urinary cotinine excretion was measured in nonsmokers who lived with smokers. The following table shows the summary of findings given in the paper (Matsukura et al., 1984).",
+    "background": "In a clinical trial with 100 patients allocated to two treatments by simple randomization, the task is to analyze the probability that the difference between the numbers of patients in the two treatment groups exceeds 20.",
     "data": null,
-    "question": "(c) Does it matter that the standard errors vary greatly among the groups?"
+    "question": "Show that the probability that the difference between the numbers of patients in the two treatment groups exceeds 20 is about 5%."
   },
   "output": {
-    "method": "转换",
-    "answer": "If the data are to be analysed by analysis of variance then we require standard deviations to be similar (in theory the groups are samples from populations with the same standard deviation). There is no such requirement for standard errors, which are partly dependent on sample size. As shown above, the data do not meet this requirement. If log transformation would yield similar SDs and reasonably Normal distributions, then a linear trend could be applied in a one way analysis of variance. The 'unspecified' group would have to be excluded. The simplest approach would be to calculate the rank correlation between number of cigarettes smoked and urinary cotinine level."
+    "answer": "Another way of phrasing the question is, 'What is the probability of the number in one group being less than 40 or more than 60?'"
   },
   "meta_info": {
-    "index": "9.5",
+    "index": "8.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Comparing groups – continuous data",
+    "chapter": "Principles of statistical analysis",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "226-226"
+    "page": "178-178"
   },
   "sample_key": "60"
 }

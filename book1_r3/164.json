@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_073.json",
+  "input": {
+    "background": "Analyze the issues with the given hypothesis statements and identify what is wrong with each of them.",
+    "data": "",
+    "question": "What is wrong with the hypothesis statement: $H_0: \\bar{x}=100$ vs. $H_a: \\bar{x}<100$?"
+  },
+  "output": {
+    "answer": "Hypotheses must address the parameter (for example, $\\mu$), not the statistic (for example, $\\bar{x}$)."
+  },
+  "meta_info": {
+    "index": "9.1",
+    "image": "",
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
+  },
+  "sample_key": "164",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 601,
+    "total_tokens": 628,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 601,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

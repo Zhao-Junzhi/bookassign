@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_084.json",
+  "input": {
+    "background": "A sample of 49 sudden infant death syndrome (SIDS) cases had a mean birth weight of 2998 grams. Based on other births in the county, we will assume σ=800 grams.",
+    "data": "",
+    "question": "Calculate the 95% confidence interval for the mean birth weight of SIDS cases in the county."
+  },
+  "output": {
+    "answer": "The 95% confidence interval for μ=2998 ± (1.96) * (800 / √49) = 2998 ± 224 = (2774 to 3222)."
+  },
+  "meta_info": {
+    "index": "10.5",
+    "image": "",
+    "caption": "SIDS.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "203-203"
+  },
+  "sample_key": "194",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 994,
+    "total_tokens": 1037,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 993,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 994,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 993,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

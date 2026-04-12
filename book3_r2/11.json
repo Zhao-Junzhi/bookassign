@@ -6,8 +6,7 @@
     "question": "What is the probability that all of them are of different colors?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$\n\\begin{aligned}\n&\\ \\text { The probability that all of them are of different colors is }\\\\\n&\\frac{\\binom{5}{1}\\binom{7}{1}\\binom{2}{1}\\binom{6}{1}}{\\binom{20}{4}}=\\frac{28}{323}\n\\end{aligned}\n$$"
+    "answer": "$$\n\\begin{aligned}\n&\\text { The probability that all of them are of different colors is }\\\\\n&\\frac{\\binom{5}{1}\\binom{7}{1}\\binom{2}{1}\\binom{6}{1}}{\\binom{20}{4}}=\\frac{28}{323}\n\\end{aligned}\n$$"
   },
   "meta_info": {
     "index": "1.14",

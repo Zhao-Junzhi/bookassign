@@ -1,49 +1,20 @@
 {
-  "case_id": "book1_r1\\record_335.json",
+  "case_id": "book1_r1\\record_142.json",
   "input": {
-    "background": "Table 5.1 lists the probability mass function for the four patients illustrative pmf. Notice that: - Property 1. All probabilities in the pmf are between 0 and 1. - Property 2. Probabilities in the sample space sum to exactly 1.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Verify that the probabilities in the sample space sum to exactly 1."
+    "background": "Table 18.8 contains results from the cytomegalovirus (CMV) and restenosis study considered as an illustrative example of naturalistic samples in §18.1. The occurrence of coronary restenosis within 6 months of surgery is cross tabulated according to CMV status.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Restenosed } & \\multicolumn{1}{c}{ Did not restenose }& \\multicolumn{1}{c}{ Total } \\\n\\hline CMV + &21 & 28 & 49 \\\n\\hline CMV- & 23 & 52 & 26 \\\n\\hline Total &23 & 52 & 75\\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the odds ratio of restenosis associated with CMV exposure. Why is this OR larger than the RR calculated in part (d) of the exercise?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)+\\operatorname{Pr}(X=2)+\\operatorname{Pr}(X=3)+\\operatorname{Pr}(X=4)= 0.0039+0.0469+0.2109+0.4219=0.3164=1.000$$",
-    "variable": {
-      "Number_of_success": {
-        "id": "Number_of_success",
-        "value": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of successes in the probability mass function."
-      },
-      "Probability": {
-        "id": "Probability",
-        "value": [
-          0.0039,
-          0.0469,
-          0.2109,
-          0.4219,
-          0.3164
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability associated with each number of successes."
-      }
-    }
+    "answer": "OR = (21 / 28) / (2 / 24) = 9.00. This OR is larger than the RR because the outcome is common."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.3",
     "image": "",
-    "caption": "Properties of probabilities.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.3  DISCRETE RANDOM VARIABLES",
-    "page": "95-95"
+    "caption": "Cytomegalovirus infection and coronary restenosis.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "419-420"
   },
   "sample_key": "359"
 }

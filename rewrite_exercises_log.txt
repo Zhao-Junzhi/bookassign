@@ -1654,3 +1654,65 @@ question: "Using Table 5.1, can you tell us the average outcome and the overall 
 2026-04-09 09:32:20,697 - INFO - 进度: 100/100 (100.0%), 成功: 100, 失败: 0, 速度: 0.06 样本/秒
 2026-04-09 09:32:20,710 - INFO - 结果已保存到: d:\place\study\bookassign\rewritten_exercises.csv
 2026-04-09 09:32:20,712 - INFO - 报告已保存到: d:\place\study\bookassign\rewrite_report.txt
+2026-04-11 17:14:10,545 - INFO - ============================================================
+2026-04-11 17:14:10,545 - INFO - 开始处理exercise_judgments.csv中的样本
+2026-04-11 17:14:10,546 - INFO - API URL:  https://svip-hk.xty.app/v1 
+2026-04-11 17:14:10,546 - INFO - 并发数: 5
+2026-04-11 17:14:10,546 - INFO - API调用间隔: 0.5秒
+2026-04-11 17:14:10,546 - INFO - 处理前100个judge=1的样本
+2026-04-11 17:14:10,546 - INFO - ============================================================
+2026-04-11 17:14:10,553 - INFO - 从CSV文件中筛选出 100 个judge=1的样本
+2026-04-11 17:14:10,553 - INFO - 找到 100 个judge=1的样本待处理
+2026-04-11 17:14:10,553 - INFO - 输入CSV文件: d:\place\study\bookassign\exercise_judgments.csv
+2026-04-11 17:14:10,554 - INFO - 输出CSV文件: d:\place\study\bookassign\rewritten_exercises.csv
+2026-04-11 17:14:10,556 - INFO - 开始处理样本: Discuss the impact of the potential outlier on the...
+2026-04-11 17:14:11,500 - INFO - 开始处理样本: Hypotheses. H0 : no association in source populati...
+2026-04-11 17:14:11,889 - INFO - 开始处理样本: Construct a stem-and-leaf plot of these data and i...
+2026-04-11 17:14:12,275 - INFO - 开始处理样本: Suppose the match was broken and investigators ana...
+2026-04-11 17:14:12,669 - INFO - 开始处理样本: How many would you expect to see with this charact...
+2026-04-11 17:14:13,069 - INFO - Retrying request to /chat/completions in 0.449217 seconds
+2026-04-11 17:14:13,075 - INFO - Retrying request to /chat/completions in 0.437494 seconds
+2026-04-11 17:14:13,076 - INFO - Retrying request to /chat/completions in 0.471448 seconds
+2026-04-11 17:14:13,078 - INFO - Retrying request to /chat/completions in 0.381950 seconds
+2026-04-11 17:14:13,079 - INFO - Retrying request to /chat/completions in 0.413642 seconds
+2026-04-11 17:14:13,478 - INFO - Retrying request to /chat/completions in 0.972519 seconds
+2026-04-11 17:14:13,509 - INFO - Retrying request to /chat/completions in 0.981577 seconds
+2026-04-11 17:14:13,524 - INFO - Retrying request to /chat/completions in 0.886695 seconds
+2026-04-11 17:14:13,526 - INFO - Retrying request to /chat/completions in 0.801488 seconds
+2026-04-11 17:14:13,556 - INFO - Retrying request to /chat/completions in 0.864783 seconds
+2026-04-11 17:14:14,336 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:14,429 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:14,430 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:14,462 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:14,507 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:18,447 - INFO - Retrying request to /chat/completions in 0.478723 seconds
+2026-04-11 17:14:18,448 - INFO - Retrying request to /chat/completions in 0.383893 seconds
+2026-04-11 17:14:18,449 - INFO - Retrying request to /chat/completions in 0.439781 seconds
+2026-04-11 17:14:18,449 - INFO - Retrying request to /chat/completions in 0.399170 seconds
+2026-04-11 17:14:18,450 - INFO - Retrying request to /chat/completions in 0.497391 seconds
+2026-04-11 17:14:18,840 - INFO - Retrying request to /chat/completions in 0.945376 seconds
+2026-04-11 17:14:18,859 - INFO - Retrying request to /chat/completions in 0.838816 seconds
+2026-04-11 17:14:18,903 - INFO - Retrying request to /chat/completions in 0.995351 seconds
+2026-04-11 17:14:18,933 - INFO - Retrying request to /chat/completions in 0.793964 seconds
+2026-04-11 17:14:18,964 - INFO - Retrying request to /chat/completions in 0.957158 seconds
+2026-04-11 17:14:19,714 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:19,730 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:19,793 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:19,901 - ERROR - API调用异常: Connection error.
+2026-04-11 17:14:19,932 - ERROR - API调用异常: Connection error.
+2026-04-11 17:35:31,763 - INFO - ============================================================
+2026-04-11 17:35:31,765 - INFO - 开始处理exercise_judgments.csv中的样本
+2026-04-11 17:35:31,765 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 17:35:31,765 - INFO - 并发数: 5
+2026-04-11 17:35:31,765 - INFO - API调用间隔: 0.5秒
+2026-04-11 17:35:31,766 - INFO - 处理前100个judge=1的样本
+2026-04-11 17:35:31,766 - INFO - ============================================================
+2026-04-11 17:35:31,772 - INFO - 从CSV文件中筛选出 100 个judge=1的样本
+2026-04-11 17:35:31,773 - INFO - 找到 100 个judge=1的样本待处理
+2026-04-11 17:35:31,773 - INFO - 输入CSV文件: d:\place\study\bookassign\exercise_judgments.csv
+2026-04-11 17:35:31,773 - INFO - 输出CSV文件: d:\place\study\bookassign\rewritten_exercises.csv
+2026-04-11 17:35:31,774 - INFO - 开始处理样本: Discuss the impact of the potential outlier on the...
+2026-04-11 17:35:32,719 - INFO - 开始处理样本: Hypotheses. H0 : no association in source populati...
+2026-04-11 17:35:33,163 - INFO - 开始处理样本: Construct a stem-and-leaf plot of these data and i...
+2026-04-11 17:35:33,596 - INFO - 开始处理样本: Suppose the match was broken and investigators ana...
+2026-04-11 17:35:34,033 - INFO - 开始处理样本: How many would you expect to see with this charact...

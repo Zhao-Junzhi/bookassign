@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\086.json",
+  "input": {
+    "background": "Consider the popular casino game of craps, in which a player throws two dice and bets on the outcome (the sum total of the dots showing on the upper faces of the two dice). Let's look at the possible outcomes of a $5 wager on the first toss (called the come-out roll). If the sum total of the dice is 7 or 11, the roller wins $5; if the total is a 2, 3, or 12, the roller loses $5 (i.e., the roller 'wins' $-5); and, for any other total (4, 5, 6, 8, 9, or 10) no money is lost or won on that roll (i.e., the roller wins $0). Let x represent the result of the come-out roll wager (-$5, $0, or $5). The actual probability distribution of x is provided in the problem.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.2 All Possible Samples of $\\boldsymbol{n}=\\mathbf{3}$ Come-Out Rolls in Craps}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Possible Samples & $\\overline{\\bar{x}}$ & $m$ & Probability \\\\\n\\hline -5, -5, -5 & -5 & -5 & (1/9)(1/9)(1/9) = 1/729 \\\\\n\\hline $-5,-5,0$ & -3.33 & -5 & $(1 / 9)(1 / 9)(6 / 9)=6 / 729$ \\\\\n\\hline -5, -5, 5 & -1.67 & -5 & $(1 / 9)(1 / 9)(2 / 9)=2 / 729$ \\\\\n\\hline -5, 0, -5 & -3.33 & -5 & $(1 / 9)(6 / 9)(1 / 9)=6 / 729$ \\\\\n\\hline $-5,0,0$ & -1.67 & 0 & $(1 / 9)(6 / 9)(6 / 9)=36 / 729$ \\\\\n\\hline -5, 0,5 & 0 & 0 & $(1 / 9)(6 / 9)(2 / 9)=12 / 729$ \\\\\n\\hline -5, 5, -5 & -1.67 & -5 & $(1 / 9)(2 / 9)(1 / 9)=2 / 729$ \\\\\n\\hline $-5,5,0$ & 0 & 0 & $(1 / 9)(2 / 9)(6 / 9)=12 / 729$ \\\\\n\\hline -5, 5,5 & 1.67 & 5 & $(1 / 9)(2 / 9)(2 / 9)=4 / 729$ \\\\\n\\hline $0,-5,-5$ & -3.33 & -5 & $(6 / 9)(1 / 9)(1 / 9)=6 / 729$ \\\\\n\\hline 0, -5,0 & -1.67 & 0 & $(6 / 9)(1 / 9)(6 / 9)=36 / 729$ \\\\\n\\hline $0,-5,5$ & 0 & 0 & $(6 / 9)(1 / 9)(2 / 9)=12 / 729$ \\\\\n\\hline $0,0,-5$ & -1.67 & 0 & $(6 / 9)(6 / 9)(1 / 9)=36 / 729$ \\\\\n\\hline 0, 0,0 & 0 & 0 & $(6 / 9)(6 / 9)(6 / 9)=216 / 729$ \\\\\n\\hline 0, 0,5 & 1.67 & 0 & $(6 / 9)(6 / 9)(2 / 9)=72 / 729$ \\\\\n\\hline $0,5,-5$ & 0 & 0 & $(6 / 9)(2 / 9)(1 / 9)=12 / 729$ \\\\\n\\hline 0, 5,0 & 1.67 & 0 & $(6 / 9)(2 / 9)(6 / 9)=72 / 729$ \\\\\n\\hline 0, 5,5 & 3.33 & 5 & $(6 / 9)(2 / 9)(2 / 9)=24 / 729$ \\\\\n\\hline $5,-5,-5$ & -1.67 & -5 & $(2 / 9)(1 / 9)(1 / 9)=2 / 729$ \\\\\n\\hline 5, -5,0 & 0 & 0 & $(2 / 9)(1 / 9)(6 / 9)=12 / 729$ \\\\\n\\hline 5, -5, 5 & 1.67 & 5 & $(2 / 9)(1 / 9)(2 / 9)=4 / 729$ \\\\\n\\hline 5, $0,-5$ & 0 & 0 & $(2 / 9)(6 / 9)(1 / 9)=12 / 729$ \\\\\n\\hline 5, 0,0 & 1.67 & 0 & $(2 / 9)(6 / 9)(6 / 9)=72 / 729$ \\\\\n\\hline 5, 0,5 & 3.33 & 5 & $(2 / 9)(6 / 9)(2 / 9)=24 / 729$ \\\\\n\\hline 5, 5, -5 & 1.67 & 5 & $(2 / 9)(2 / 9)(1 / 9)=4 / 729$ \\\\\n\\hline 5, 5,0 & 3.33 & 5 & $(2 / 9)(2 / 9)(6 / 9)=24 / 729$ \\\\\n\\hline 5, 5,5 & 5 & 5 & $(2 / 9)(2 / 9)(2 / 9)=8 / 729$ \\\\\n\\hline  & & & Sum $=729 / 729=1$\\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Find the sampling distribution of the sample mean, $\\bar{x}$, for a random sample of $n=3$ come-out rolls."
+  },
+  "output": {
+    "answer": "The sampling distribution of $\\bar{x}$ is calculated as follows: From Table 5.2, $\\bar{x}$ can assume the values -5, -3.33, -1.67, 0, 1.67, 3.33, and 5. The probabilities for each value are computed based on the possible samples and their probabilities. For example, $P(\\bar{x}=-5)=\\frac{1}{729}$, $P(\\bar{x}=-3.33)=\\frac{18}{729}$, and so on. The final probability distribution is:\n\n\\begin{tabular}{llllllll}\n\\hline $\\bar{x}$ & -5 & -3.33 & -1.67 & 0 & 1.67 & 3.33 & 5 \\\\\n\\hline$p(\\bar{x})$ & $1 / 729=$ & $18 / 729=$ & $114 / 729=$ & $288 / 729=$ & $288 / 729=$ & $72 / 729=$ & $8 / 729=$ \\\\\n& .0014 & .0247 & .1564 & .3951 & .3127 & .0988 & .0110 \\\\\n\\hline\n\\end{tabular}\n\nThe most likely mean outcome after 3 randomly selected come-out rolls is $\\bar{x}=0$, which occurs with probability $0.3951$."
+  },
+  "meta_info": {
+    "index": "5.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding a Sampling Distribution-Come-Out Roll in Craps",
+    "chapter": "Sampling Distributions",
+    "section": "5.1 The Concept of a Sampling Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "168-170"
+  },
+  "sample_key": "209",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 4011,
+    "total_tokens": 4054,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 3957,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 4011,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 3957,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

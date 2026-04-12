@@ -6,7 +6,6 @@
     "question": "What is the difficulty about drawing histograms of SI in each group? What shape are the distributions?"
   },
   "output": {
-    "method": "数据可视化",
     "answer": "We do not know the upper limit of SI. The uncensored data show that the distributions are positively skewed (skewed to the right)."
   },
   "meta_info": {

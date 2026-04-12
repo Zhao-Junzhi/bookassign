@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\33.json",
+  "input": {
+    "background": "Suppose the life of a certain security alarm system follows an exponential distribution with a constant failure rate λ = 0.00008 failures per hour.",
+    "data": null,
+    "question": "What is the probability that a security system will last at least 10,000 hours?"
+  },
+  "output": {
+    "answer": "The probability that a security system will last at least $10,000 \\mathrm{~h}$ is $$ P\\{T \\geq 10,000\\}=e^{-\\lambda t} = e^{-(0.00008)(10,000)}=e^{-0.8}=0.4493 $$"
+  },
+  "meta_info": {
+    "index": "2.17",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "90-90"
+  },
+  "sample_key": "146",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 955,
+    "total_tokens": 998,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 954,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 955,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 954,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

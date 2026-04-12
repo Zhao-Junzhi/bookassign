@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_370.json",
+  "input": {
+    "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116, 128, 125, 119, 89, 99, 105, 116, 118}. Thus, x̄=(116+128+...+118)/9=112.8. Does this sample provide statistically significant evidence in support of the citizen's claim?",
+    "data": "",
+    "question": "What is the P-value for this test, and how is it determined?"
+  },
+  "output": {
+    "answer": "Using Table B, we find that the area to the left of the z_stat of 2.56 is 0.9948. Therefore, the area to the right is 1−0.9948=0.0052. This is the one-sided P-value. The two-sided P-value=2×0.0052=0.0104."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "z test (“Lake Wobegon”).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5  ONE-SAMPLE Z TEST",
+    "page": "185-186"
+  },
+  "sample_key": "555",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1171,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1170,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1171,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1170,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

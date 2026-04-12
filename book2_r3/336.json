@@ -1,0 +1,41 @@
+{
+  "case_id": "book2_r1\\130.json",
+  "input": {
+    "background": "A production supervisor suspects a difference exists between the proportions $p_1$ and $p_2$ of defective items produced by two different machines. Experience has shown that the proportion defective for each of the two machines is in the neighborhood of .03. The supervisor wants to estimate the difference in the proportions to within .005 using a $95 \\%$ confidence interval, assuming $n_1=n_2=n$.",
+    "data": "null",
+    "question": "How is the required sample size $n$ calculated when $p_1=p_2=.03$ and $n_1=n_2=n$?"
+  },
+  "output": {
+    "answer": "The calculation proceeds as follows: \n$$\n1.96 \\sqrt{\\frac{(.03)(.97)}{n}+\\frac{(.03)(.97)}{n}} = .005 \\\\\n1.96 \\sqrt{\\frac{2(.03)(.97)}{n}} = .005 \\\\\nn = 8,943.2\n$$\nThus, the required sample size per machine is approximately $n=8,943.2$."
+  },
+  "meta_info": {
+    "index": "8.9",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "336",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1126,
+    "total_tokens": 1169,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1125,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1126,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1125,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

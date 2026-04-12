@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_307.json",
+  "case_id": "book1_r1\\record_128.json",
   "input": {
-    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "background": "You are planning a study that wants to estimate a population proportion with 95% confidence. A reasonable estimate for the population proportions is not available before the study, so assume p* = 0.50 to ensure adequate precision.",
     "data": "",
-    "question": "Why was the protocol altered in the WHI trial?"
+    "question": "How many individuals do you need to study to achieve a margin of error of no greater than 6%?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "The protocol was altered because unopposed estrogen was contraindicated in postmenopausal women with intact uteri.",
-    "variable": {
-      "postmenopausal_hormone_use": {
-        "id": "postmenopausal_hormone_use",
-        "value": [
-          "unopposed estrogen",
-          "estrogen plus progestin",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The primary study factor in the WHI trial, initially including three treatments."
-      },
-      "unopposed_estrogen_contraindication": {
-        "id": "unopposed_estrogen_contraindication",
-        "value": "contraindicated in postmenopausal women with intact uteri",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The reason for altering the protocol to exclude unopposed estrogen."
-      },
-      "protocol_alteration": {
-        "id": "protocol_alteration",
-        "value": [
-          "estrogen with progestin",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The altered protocol excluding unopposed estrogen."
-      }
-    }
+    "answer": "n=267"
   },
   "meta_info": {
-    "index": "",
+    "index": "16.19",
     "image": "",
-    "caption": "WHI postmenopausal hormone use trial.",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "27-27"
+    "caption": "Sample-size requirement.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
   },
   "sample_key": "323"
 }

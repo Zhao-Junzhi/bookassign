@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\119.json",
+  "input": {
+    "background": "The proportion of components produced by a manufacturing process from last year is as follows: 3% scrapped, 6% reworked, and 91% acceptable. This year, inspection of 500 units showed that 20 units must be scrapped and 25 units can be reworked.",
+    "data": null,
+    "question": "Can we say that the results this year are consistent with the last year data at the 5% level of significance using the Chi-square test?"
+  },
+  "output": {
+    "answer": "The results of current year are consistent with the results from last year at the 5% level of significance."
+  },
+  "meta_info": {
+    "index": "3.12",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "216-216"
+  },
+  "sample_key": "49",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 929,
+    "total_tokens": 972,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 928,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 929,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 928,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

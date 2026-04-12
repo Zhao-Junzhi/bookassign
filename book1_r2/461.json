@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_392.json",
+  "case_id": "book1_r1\\record_320.json",
   "input": {
-    "background": "We calculate the $95 \\%$ confidence interval for $\\mu_1-\\mu_2$ for the cholesterol illustrative data (see Table 12.5).",
-    "data": "Table 12.5 ",
-    "question": "Calculate the difference between the sample means: $\\bar{x}_1-\\bar{x}_2=6.192-5.414$."
+    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "How does the variability of data compare between site 1 and site 2?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "$\\bar{x}_1-\\bar{x}_2=0.777(\\mathrm{mmol} / \\mathrm{L})$",
-    "variable": {
-      "mu_1": {
-        "id": "mu_1",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Population mean of the first group."
-      },
-      "mu_2": {
-        "id": "mu_2",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Population mean of the second group."
-      },
-      "x_bar_1": {
-        "id": "x_bar_1",
-        "value": 6.192,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample mean of the first group."
-      },
-      "x_bar_2": {
-        "id": "x_bar_2",
-        "value": 5.414,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample mean of the second group."
-      },
-      "difference_of_means": {
-        "id": "difference_of_means",
-        "value": 0.778,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Difference between the sample means of the two groups."
-      }
-    }
+    "answer": "Data are less variable at site 2 (IQR: 14 vs. 5)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
-    "page": "244-245"
+    "caption": "IQRs (Air samples data).",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES ",
+    "page": "75-75"
   },
   "sample_key": "461"
 }

@@ -1,12 +1,11 @@
 {
   "case_id": "book3_r1\\103.json",
   "input": {
-    "background": "A system has $m$ locations at which the same component is used, each component having an exponentially distributed failure time with mean $\\frac{1}{\\lambda}$. When a component at any location fails it is replaced by a spare. In a given mission the component at location $k$ is required to operate for time $t_k$.",
+    "background": "A system has $m$ locations at which the same component is used, each component having an exponentially distributed failure time with mean $\\frac{1}{\\lambda}$. When a component at any location fails it is replaced by a spare. In a given mission, the component at location $k$ is required to operate for time $t_k$.",
     "data": null,
-    "question": "What is the minimum number of components, $n$, (i.e., m originals and ( $n-m$ ) spares) required to ensure a successful mission with probability at least 0.96?"
+    "question": "What is the minimum number of components, $n$, (i.e., $m$ originals and $(n-m)$ spares) required to ensure a successful mission with probability at least 0.96?"
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
     "answer": "Let $n=$ the minimum number of components required to ensure a successful mission. $n=6$."
   },
   "meta_info": {

@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_067.json",
+  "case_id": "book1_r1\\record_058.json",
   "input": {
-    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation =1.65). Based on this information, say whether each of the following statements is true or false. Explain your reasoning in each instance.",
+    "background": "Heights of 10-year-old male children follow a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
     "data": "",
-    "question": "(b) It is reasonable to assume that the number of health problems per person will vary according to a Normal distribution."
+    "question": "Create a sketch of a Normal curve depicting this distribution. Mark the horizontal axis with values that are one standard deviation above and below the mean. Locate points of inflection on the curve as accurately as possible."
   },
   "output": {
-    "method": "分布范围测度",
-    "answer": "False. It is not reasonable to assume that the number of health problems per person is Normal. Most people will have 0 or 1 health problem and a small number will have 2,3,4, or more problems; the distribution is likely to have a positive skew.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 500,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of people included in the simple random sample (SRS)."
-      },
-      "population_size": {
-        "id": "population_size",
-        "value": 55000,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of people in the town from which the sample is drawn."
-      },
-      "average_health_problems": {
-        "id": "average_health_problems",
-        "value": 2.3,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average number of health problems per person in the sample."
-      },
-      "standard_deviation_health_problems": {
-        "id": "standard_deviation_health_problems",
-        "value": 1.65,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the number of health problems per person in the sample."
-      }
-    }
+    "answer": "(The drawing is not shown in this key.) Imagine a bell-shaped curve centered on 138 with inflection points at μ ± σ = 138 ± 7 = 131 to 145."
   },
   "meta_info": {
-    "index": "8.5",
+    "index": "7.1",
     "image": "",
-    "caption": "Survey of health problems.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.2 Sampling Behavior of a Mean",
-    "page": "166-166"
+    "caption": "Height of 10-year-olds.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1 NORMAL DISTRIBUTIONS",
+    "page": "138-139"
   },
   "sample_key": "124"
 }

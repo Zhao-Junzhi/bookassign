@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_422.json",
+  "input": {
+    "background": "A test of $H_0: p=0.21$ using a sample of $n=$ 57 was not significant $(P=0.103)$. Suppose the true prevalence in the population $p_1$ was 0.31. The task is to calculate the power of the test assuming a two-sided $\\alpha$-level of 0.05.",
+    "data": "",
+    "question": "What is the formula to calculate the power of the test under the given conditions?"
+  },
+  "output": {
+    "answer": "$1-\\beta=\\Phi\\left(\\frac{\\left|p_1-p_0\\right| \\sqrt{n}-z_{1-1} \\sqrt{p_0 q_0}}{\\sqrt{p_1 q_1}}\\right)$"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Power.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "369-369"
+  },
+  "sample_key": "703"
+}

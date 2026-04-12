@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\070.json",
+  "input": {
+    "background": "Suppose the number, $x$, of a company's employees who are absent on Mondays has (approximately) a Poisson probability distribution. Furthermore, assume that the average number of Monday absentees is 2.6.",
+    "data": null,
+    "question": "Use Minitab to find the probability that fewer than two employees are absent on a given Monday."
+  },
+  "output": {
+    "answer": "Here, we want to find $P(x<2)$. Since $x$ is a discrete whole number, we know that $$P(x<2) = P(x \\leq 1)$$ This probability is in the form of a cumulative probability and can be found using statistical software. Setting $\\lambda=2.6$ as an option in Minitab and specifying the value '1' for a cumulative Poisson probability, we obtain: $$P(x<2) = P(x \\leq 1) = 0.2674$$"
+  },
+  "meta_info": {
+    "index": "4.14",
+    "img_in_question": null
+  },
+  "sample_key": "168"
+}

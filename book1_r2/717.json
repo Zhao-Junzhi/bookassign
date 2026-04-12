@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_428.json",
+  "input": {
+    "background": "The relative risk of the combined index outcome in the estrogen trial illustrative example is calculated.",
+    "data": "",
+    "question": "What is the relative risk of the combined index outcome in the estrogen trial illustrative example?"
+  },
+  "output": {
+    "answer": "The relative risk is calculated as \\( \\widehat{RR} = \\frac{\\hat{p}_1}{\\hat{p}_2} = \\frac{0.08829}{0.07689} = 1.1483 \\cong 1.15 \\)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Relative risk (Estrogen trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 Proportion Ratio (Relative Risk)",
+    "page": "389-389"
+  },
+  "sample_key": "717"
+}

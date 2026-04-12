@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_362.json",
+  "case_id": "book1_r1\\record_157.json",
   "input": {
-    "background": "The Youth Risk Behavior Surveillance System monitors six categories of health behaviors in U.S. youth and adolescents. Many types of behaviors that contribute to adverse health consequences are monitored.",
-    "data": "",
-    "question": "As examples, the proportion of high school students who had ridden with a driver who had been drinking alcohol during the preceding 30-day period was $30.2 \\%$, the proportion who had smoked cigarettes was $21.9 \\%$, and the proportion who were overweight was $13.5 \\%$. These values are statistical estimates of population parameters."
+    "background": "A South African study compared whether participating in a 5-year follow-up interview was associated with having medical aid (similar to health insurance).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|}\n\\hline & Table A: All subjects Medical Aid + Medical Aid - & Total \\\n\\hline Follow-up + & 46 & - 416 \\\n\\hline Follow-up - & 195 & 1174 \\\n\\hline \\multicolumn{2}{|c|}{} & Total \\\n\\hline & \\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular} & 12 126 \\\n\\hline Follow-up + Follow-up - & & \\\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{Table C: Blacks Medical Aid + Medical Aid -}} & \\\n\\hline & & Total \\\n\\hline Follow-up + & 36 & 404 \\\n\\hline Follow-up - & 91 & 1048 \\\n\\hline \\multicolumn{3}{|l|}{Source: Morrell, C. H. (1999). Simpson's paradox: An example from a longitudinal study in South Africa. Journal of Statistical Education, 7(3). Available at www,amstat.org/publications/jse/secure/v7n3/datasets .morrell.cfm.} \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Discuss whether race confounded the crude analysis in part (a)."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "null",
-    "variable": {
-      "Proportion of students who rode with a driver who had been drinking": {
-        "id": "Proportion of students who rode with a driver who had been drinking",
-        "value": 30.2,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage of high school students who rode with a driver who had been drinking alcohol during the preceding 30-day period."
-      },
-      "Proportion of students who smoked cigarettes": {
-        "id": "Proportion of students who smoked cigarettes",
-        "value": 21.9,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage of high school students who smoked cigarettes during the preceding 30-day period."
-      },
-      "Proportion of students who were overweight": {
-        "id": "Proportion of students who were overweight",
-        "value": 13.5,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage of high school students who were considered overweight."
-      }
-    }
+    "answer": "Race is associated with follow-up and medical aid coverage. Therefore, race confounded the crude analysis in part (a)."
   },
   "meta_info": {
-    "index": "",
+    "index": "19.1",
     "image": "",
-    "caption": "Parameters and statistics (Youth risk behavior).",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.1  CONCEPTS",
-    "page": "157-157"
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.3 MANTEL-HAENSZEL METHODS",
+    "page": "473-474"
   },
   "sample_key": "400"
 }

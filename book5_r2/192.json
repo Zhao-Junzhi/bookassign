@@ -1,0 +1,22 @@
+{
+  "case_id": "book5_r1\\065.json",
+  "input": {
+    "background": "The following table shows age-specific and total annual death rates per 1000 females in England and Wales in 1931-5 and 1983 (Office of Population Censuses and Surveys Mortality Statistics). Over the fifty years there was a large decline in the death rate in every age group.",
+    "data": "\\begin{tabular}{|l|l|l|}\n\\hline Age & \\multicolumn{2}{|c|}{Annual death rates/1000} \\\\\n\\hline & 1931-5 & 1983 \\\\\n\\hline <1 & 54 & 9 \\\\\n\\hline 1-4 & 6.2 & 0.4 \\\\\n\\hline 5-9 & 2.1 & 0.2 \\\\\n\\hline 10-14 & 1.4 & 0.2 \\\\\n\\hline 15-19 & 2.2 & 0.3 \\\\\n\\hline 20-24 & 2.8 & 0.3 \\\\\n\\hline 25-34 & 3.1 & 0.5 \\\\\n\\hline 35-44 & 4.3 & 1.2 \\\\\n\\hline 45-54 & 8.0 & 3.6 \\\\\n\\hline 55-64 & 17 & 10 \\\\\n\\hline 65-74 & 43 & 24 \\\\\n\\hline 75-84 & 109 & 64 \\\\\n\\hline 85+ & 245 & 176 \\\\\n\\hline All ages & 11.4 & 11.4 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What would explain the fact that the overall death rate per 1000 women of all ages was unchanged?"
+  },
+  "output": {
+    "answer": "The age-structure of the population has changed markedly, with the proportion of older people being much higher than it was. The total death rate, which is calculated by multiplying the age-specific rates and the numbers at risk, is unchanged because the age-specific reductions in rates are counterbalanced by the greater numbers of elderly people."
+  },
+  "meta_info": {
+    "index": "16.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "499-500"
+  },
+  "sample_key": "192"
+}

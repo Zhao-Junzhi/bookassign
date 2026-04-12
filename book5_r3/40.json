@@ -1,0 +1,45 @@
+{
+  "case_id": "book5_r1\\013.json",
+  "input": {
+    "background": "A researcher aimed to investigate whether women who have taken the oral contraceptive pill experience menopause earlier or later than other women. He selected a group of women born in 1930, as they were young enough for some to have taken the pill but old enough for some to have reached menopause. Using a general practice's age-sex register, he identified 132 women born in 1930. Women who claimed to have experienced menopause were verified by measuring their follicle stimulating hormone (FSH) levels. Of the 132 women, 101 were excluded for various reasons, leaving a sample of 31 women. Among these, 12 had taken the pill, and 19 had not. The researcher concluded that taking the pill does not delay menopause.",
+    "data": "\\begin{tabular}{lccc}\n\\hline & & \\multicolumn{2}{c}{ Age at menopause (years) } \\\n& $n$ & $n e a n$ & SD \\\n\\hline Pill users & 12 & 47.2 & 2.1 \\\nNon pill users & 19 & 47.5 & 2.1 \\\n\\hline\n\\end{tabular}",
+    "question": "Is the sample of 31 women representative of the population of interest?"
+  },
+  "output": {
+    "answer": "If the population of interest is taken as all menopausal British women, then the representativeness of this general practice is relevant. We have no information about this, although it does not seem unreasonable to carry out this type of study in a single practice. All 132 women born in 1930 were investigated, so there was no selection bias. However, we are assuming that the register of patients is accurate and complete, and the fact that $21 / 132$ were not contactable casts some doubt on this. Of these 132 women, only 31 were actually studied, for the various reasons stated. Most of the exclusions are reasonable, although it is not clear why the unmarried women were excluded. The sample appears reasonably representative."
+  },
+  "meta_info": {
+    "index": "5.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "105-105"
+  },
+  "sample_key": "40",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 925,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 925,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

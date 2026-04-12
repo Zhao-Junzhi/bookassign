@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_426.json",
+  "input": {
+    "background": "We propose to calculate a 95% confidence interval for the risk difference in the estrogen trial presented earlier. We've established that a_1=751 and n_1=8506 in the treatment group. In the control group, a_2=623 and n_2=8102.",
+    "data": "",
+    "question": "What are the adjusted values for a_1, n_1, and p_1 in the treatment group?"
+  },
+  "output": {
+    "answer": "In the treatment group, ã_1=a_1+1=751+1=752, ã_n_1=n_1+2=8506+2=8508, and ã_p_1=752/8508=0.08839."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for risk difference.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "378-379"
+  },
+  "sample_key": "710"
+}

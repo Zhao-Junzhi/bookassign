@@ -1,113 +1,20 @@
 {
-  "case_id": "book1_r1\\record_097.json",
+  "case_id": "book1_r1\\record_081.json",
   "input": {
-    "background": "Table 11.4 also contains data for maximum urine flow at baseline (MAXFLO_B) and maximum urine flow after 3 months of treatment (MAXFLO3M).",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.4 Data for Exercises 11.26 and 11.27. Variables are as follows:}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline \\multicolumn{6}{|c|}{\\multirow[t]{3}{*}{QOL_BASE $=$ quality of life at baseline (coded $0=$ Delighted, $1=$ Pleased, $2=$ Mostly Satisfied, $3=$ Mixed, $4=$ Mostly Dissatisfied, $5=$ Unhappy, $6=$ Terrible) QOL_3MO = Quality of life after 3 months of treatment (same codes)}} \\\\\n\\hline & & & & & \\\\\n\\hline \\multicolumn{6}{|l|}{\\multirow{2}{*}{\\begin{tabular}{l}\nMAXFLO_B $=$ maximum urine flow at baseline (urine flow measurement scale misplaced) \\\\\nMAXFLO3M = maximum urine flow after 3 months of treatment\n\\end{tabular}}} \\\\\n\\hline & & & & & \\\\\n\\hline $i$ & ID & QOL_BASE & QOL_3MO & MAXFLO_B & MAXFLO3M \\\\\n\\hline 1 & 1 & 2 & 1 & 7 & 5 \\\\\n\\hline 2 & 11 & 4 & 1 & 8 & 18 \\\\\n\\hline 3 & 21 & 3 & 1 & 8 & 13 \\\\\n\\hline 4 & 31 & 4 & 3 & 9 & 16 \\\\\n\\hline 5 & 41 & 5 & 2 & 11 & 8 \\\\\n\\hline 6 & 51 & 6 & 2 & 4 & 9 \\\\\n\\hline 7 & 61 & 4 & 2 & 9 & 12 \\\\\n\\hline 8 & 71 & 4 & 5 & 10 & 6 \\\\\n\\hline 9 & 81 & 3 & 3 & 8 & 14 \\\\\n\\hline 10 & 82 & 3 & 1 & 10 & 13 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Simple random sample of a data set provided by student Joanne Morales. Data are stored online in BPH-SAMP.SAV.",
-    "question": "Test the mean difference in this outcome for statistical significance."
+    "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that H0 is true in a statistical hypothesis test. Other analogies exist.",
+    "data": "",
+    "question": "Which type of decision is analogous to a type I error?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "A. Hypotheses. $H_0: \\mu_d=0$ versus $H_{\\mathrm{a}}: \\mu_d \\neq 0$\nB. Test statistic. $n=10$, sample mean difference $=2.91, s_d=4.515, t_{\\text {stat }}=2.035$ with $d f=10-1=9$\nC. $\\boldsymbol{P}$-value. $P=0.072$. The evidence against $H_0$ is marginally significant.\nD. Significance level. The evidence against the null hypothesis is significant at $\\alpha=$ 0.10 but not at $\\alpha=0.05$.",
-    "variable": {
-      "QOL_BASE": {
-        "id": "QOL_BASE",
-        "value": [
-          2,
-          4,
-          3,
-          4,
-          5,
-          6,
-          4,
-          4,
-          3,
-          3
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Quality of life at baseline, coded as ordinal categories (0=Delighted, 1=Pleased, 2=Mostly Satisfied, 3=Mixed, 4=Mostly Dissatisfied, 5=Unhappy, 6=Terrible)."
-      },
-      "QOL_3MO": {
-        "id": "QOL_3MO",
-        "value": [
-          1,
-          1,
-          1,
-          3,
-          2,
-          2,
-          2,
-          5,
-          3,
-          1
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Quality of life after 3 months of treatment, coded as ordinal categories (0=Delighted, 1=Pleased, 2=Mostly Satisfied, 3=Mixed, 4=Mostly Dissatisfied, 5=Unhappy, 6=Terrible)."
-      },
-      "MAXFLO_B": {
-        "id": "MAXFLO_B",
-        "value": [
-          7,
-          8,
-          8,
-          9,
-          11,
-          4,
-          9,
-          10,
-          8,
-          10
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Maximum urine flow at baseline, measured on a urine flow measurement scale."
-      },
-      "MAXFLO3M": {
-        "id": "MAXFLO3M",
-        "value": [
-          5,
-          18,
-          13,
-          16,
-          8,
-          9,
-          12,
-          6,
-          14,
-          13
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Maximum urine flow after 3 months of treatment, measured on a urine flow measurement scale."
-      },
-      "ID": {
-        "id": "ID",
-        "value": [
-          1,
-          11,
-          21,
-          31,
-          41,
-          51,
-          61,
-          71,
-          81,
-          82
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Unique identifier for each individual in the dataset."
-      }
-    }
+    "answer": "Declaring an innocent person guilty (b) is analogous to a type I error."
   },
   "meta_info": {
-    "index": "11.27",
+    "index": "9.19",
     "image": "",
-    "caption": "Benign prostatic hyperplasia, maximum flow.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "232-232"
+    "caption": "The criminal justice analogy.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "195-195"
   },
   "sample_key": "186"
 }

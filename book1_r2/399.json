@@ -1,57 +1,20 @@
 {
-  "case_id": "book1_r1\\record_361.json",
+  "case_id": "book1_r1\\record_157.json",
   "input": {
-    "background": "The prevalence of being overweight and obese has increased in the United States. The National Health Exam Survey in the 1960s estimated that the average body weight of men was about 166.3 pounds. About 30 years later, the National Health and Nutrition Exam Survey estimated an average weight of 189.8. Both surveys were based on samples of between three and four thousand men. The numbers 166.3 and 189.8 are statistics because they are based on a sample of the population. These statistics estimate population means (parameters) at the time they were taken, but the actual values of the parameters are not truly known.",
-    "data": "",
-    "question": "Estimate population means (parameters) based on sample statistics."
+    "background": "A South African study compared whether participating in a 5-year follow-up interview was associated with having medical aid (similar to health insurance).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|}\n\\hline & Table A: All subjects Medical Aid + Medical Aid - & Total \\\n\\hline Follow-up + & 46 & - 416 \\\n\\hline Follow-up - & 195 & 1174 \\\n\\hline \\multicolumn{2}{|c|}{} & Total \\\n\\hline & \\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular} & 12 126 \\\n\\hline Follow-up + Follow-up - & & \\\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{Table C: Blacks Medical Aid + Medical Aid -}} & \\\n\\hline & & Total \\\n\\hline Follow-up + & 36 & 404 \\\n\\hline Follow-up - & 91 & 1048 \\\n\\hline \\multicolumn{3}{|l|}{Source: Morrell, C. H. (1999). Simpson's paradox: An example from a longitudinal study in South Africa. Journal of Statistical Education, 7(3). Available at www,amstat.org/publications/jse/secure/v7n3/datasets .morrell.cfm.} \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Data for black participants are shown in Table 19.5C. Analyze the results for this stratum."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "null",
-    "variable": {
-      "average_weight_1960s": {
-        "id": "average_weight_1960s",
-        "value": 166.3,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Average body weight of men in the 1960s based on sample statistics."
-      },
-      "average_weight_1990s": {
-        "id": "average_weight_1990s",
-        "value": 189.8,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Average body weight of men in the 1990s based on sample statistics."
-      },
-      "time_period": {
-        "id": "time_period",
-        "value": [
-          "1960s",
-          "1990s"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Time periods during which the surveys were conducted."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": [
-          3000,
-          4000
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Sample sizes for the surveys conducted in the 1960s and 1990s."
-      }
-    }
+    "answer": "Nine percent of both groups had medical aid. Therefore, there is no association between follow-up and having medical aid in this stratum."
   },
   "meta_info": {
-    "index": "",
+    "index": "19.1",
     "image": "",
-    "caption": "Parameters and statistics (Body weight).",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.1  CONCEPTS",
-    "page": "156-156"
+    "caption": "Is participating in a follow-up survey associated with having medical aid?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.3 MANTEL-HAENSZEL METHODS",
+    "page": "473-474"
   },
   "sample_key": "399"
 }

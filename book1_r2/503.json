@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_409.json",
+  "case_id": "book1_r1\\record_351.json",
   "input": {
-    "background": "We have established the following statistics for the illustrative example: $r=0.737, n=11$, and $d f=9$. The $95 \\%$ confidence interval for $\\rho$ based on this information uses the following information:",
+    "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
     "data": "",
-    "question": "What is the $95 \\%$ confidence interval for the population correlation $\\rho$ based on the given statistics?"
+    "question": "What is the variance of the binomial random variable?"
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "- For $95 \\%$ confidence, use $t_{9,975}=2.262$; therefore $t^2{ }_{9,975}= 2.262^2=5.117$\n- $\\varpi=\\sqrt{\\frac{2.262^2}{2.262^2+9}}=0.602$\n- $L C L=\\frac{0.737-0.602}{1-(0.737)(0.6 .2)}=0.243$\n- $U C L=\\frac{0.737+0.602}{1+(0.737)(0.602)}=0.927$\n\nThis allows us to say with $95 \\%$ confidence that population correlation $\\rho$ is in the interval 0.243 to 0.927.",
-    "variable": {
-      "correlation_coefficient": {
-        "id": "correlation_coefficient",
-        "value": 0.737,
-        "class": "numerical",
-        "role": "both",
-        "description": "The sample correlation coefficient, representing the strength and direction of a linear relationship between two variables."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 11,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of observations in the sample."
-      },
-      "degrees_of_freedom": {
-        "id": "degrees_of_freedom",
-        "value": 9,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The degrees of freedom for the statistical test, calculated as the sample size minus the number of parameters estimated."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The probability that the confidence interval contains the true population parameter."
-      }
-    }
+    "answer": "The variance of this random variable σ²=n p q= 20 · 0.04 · 0.96=0.768."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Confidence interval for $\\\\rho$.",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.3 Correlation",
-    "page": "308-308"
+    "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.5  EXPECTED VALUE AND VARIANCE",
+    "page": "123-124"
   },
   "sample_key": "503"
 }

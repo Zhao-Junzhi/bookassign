@@ -1,47 +1,20 @@
 {
-  "case_id": "book1_r1\\record_105.json",
+  "case_id": "book1_r1\\record_089.json",
   "input": {
-    "background": "A questionnaire measures an index of risk-taking behavior in respondents. Scores are standardized so that 100 represents the population average. The questionnaire is applied to a sample of teenage boy and girls.",
+    "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
     "data": "",
-    "question": "Explore group differences with side-by-side boxplots."
+    "question": "Calculate the test statistic for the hypothesis test."
   },
   "output": {
-    "method": "离散型-连续型变量关系",
-    "answer": "The girls have lower scores on average and less variability. There is one outlier in the girls.",
-    "variable": {
-      "risk_score": {
-        "id": "risk_score",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Standardized index score of risk-taking behavior for each respondent (mean of population = 100)."
-      },
-      "gender": {
-        "id": "gender",
-        "value": [
-          "boy",
-          "girl"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Gender group of each teenage respondent, used to compare risk-taking scores."
-      },
-      "answer": {
-        "id": "answer",
-        "value": "Use gender as the grouping variable and risk_score as the outcome. Create side-by-side boxplots of risk_score by gender (one box for boys, one for girls) to visually compare the central tendency, spread, and potential outliers of risk-taking behavior between the two groups.",
-        "class": "NR",
-        "role": "NR",
-        "description": "Procedure for exploring group differences using side-by-side boxplots."
-      }
-    }
+    "answer": "$$\\begin{aligned} & n=9 \\\\ & \\bar{x}=27.78 \\\\ & \\quad s=2.906 \\\\ & S E_{\\bar{x}}=\\frac{s}{\\sqrt{n}}=\\frac{2.906}{\\sqrt{9}}=0.96877 \\\\ & t_{\\text {stat }}=\\frac{\\bar{x}_d-\\mu_0}{S E_{\\bar{x}_d}}=\\frac{27.78-29.5}{0.9687}=-1.77 \\\\ & \\quad d f=9-1=8 \\end{aligned}$$"
   },
   "meta_info": {
-    "index": "12.13",
+    "index": "11.11",
     "image": "",
-    "caption": "Risk-taking behavior in boys and girls.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "255-255"
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "217-217"
   },
   "sample_key": "205"
 }

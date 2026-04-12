@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_450.json",
+  "input": {
+    "background": "A trial tests a treatment at two separate clinics. Upon completion of the study, cross tabulation of results from both clinics combined is provided in a table. The incidence proportion of success in the treatment and control groups is calculated.",
+    "data": "",
+    "question": "What is the incidence proportion of success in the treatment group?"
+  },
+  "output": {
+    "answer": "The incidence proportion of success in the treatment group is \\( \\hat{p}_1 = 1095 / 10,100 = 11\\% \\)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Simpson’s paradox (Effectiveness of a treatment).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.2 SIMPSON’S PARADOX",
+    "page": "466-467"
+  },
+  "sample_key": "755"
+}

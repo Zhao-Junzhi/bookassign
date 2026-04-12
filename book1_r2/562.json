@@ -1,60 +1,20 @@
 {
-  "case_id": "book1_r1\\record_446.json",
+  "case_id": "book1_r1\\record_373.json",
   "input": {
-    "background": "The odds ratio for the case-control data in Table 18.15 is $\\widehat{O R}=\\frac{96 \\cdot 666}{104 \\cdot 109}=5.64$.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.15 Alcohol and esophageal cancer illustrative casecontrol data.}\n\\begin{tabular}{cc|c}\n\\hline Alcohol & \\multicolumn{2}{c}{ Esophageal cancer } \\\\\ngrams/day & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n\\hline$\\geq 80$ & 96 & 109 \\\\\n\\hline 80 & 104 & 666 \\\\\n\\hline Total & 200 & 775 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Interpret the odds ratio in the context of esophageal cancer risk between high-alcohol and low-alcohol consumers."
+    "background": "The National Health and Nutrition Examination Survey (NHANES) assesses the health and nutritional status of adults and children in the United States using data from interviews and direct physical examinations. From 1999-2002, 712 men between the ages of 20 and 29 were examined. The mean body weight in this sample ( $\\bar{x}$ ) was 183.0 pounds.",
+    "data": "",
+    "question": "What is the margin of error associated with this estimate for $95 \\%$ confidence?"
   },
   "output": {
-    "method": "分类或发生概率影响因素解读",
-    "answer": "This suggests that high-alcohol consumers have 5.6 times the rate of esophageal cancer compared to low-alcohol consumers.",
-    "variable": {
-      "Alcohol_consumption": {
-        "id": "Alcohol_consumption",
-        "value": [
-          "≥ 80 grams/day",
-          "< 80 grams/day"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The level of alcohol consumption categorized as high (≥ 80 grams/day) and low (< 80 grams/day)."
-      },
-      "Esophageal_cancer_cases": {
-        "id": "Esophageal_cancer_cases",
-        "value": [
-          96,
-          104
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of esophageal cancer cases among high and low alcohol consumers."
-      },
-      "Esophageal_cancer_noncases": {
-        "id": "Esophageal_cancer_noncases",
-        "value": [
-          109,
-          666
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of non-cases of esophageal cancer among high and low alcohol consumers."
-      },
-      "Odds_Ratio": {
-        "id": "Odds_Ratio",
-        "value": 5.64,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The calculated odds ratio indicating the odds of esophageal cancer risk between high-alcohol and low-alcohol consumers."
-      }
-    }
+    "answer": "The margin of error associated with this estimate for $95 \\%$ confidence was $\\pm 3$ pounds."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Odds ratio (Alcohol and esophageal cancer).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.5 CASE-CONTROL SAMPLES",
-    "page": "438-438"
+    "caption": "Point and interval estimation (Body weight, 20-29-year-old U.S. men, 2000). ",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.1 Introduction to Estimation",
+    "page": "196-197"
   },
   "sample_key": "562"
 }

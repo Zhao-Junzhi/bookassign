@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_083.json",
+  "case_id": "book1_r1\\record_070.json",
   "input": {
-    "background": "A study takes an SRS from a population of full-term infants. The standard deviation of birth weights in this population is 2 pounds.",
+    "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250. Can we use the Normal approximation to the binomial in this instance?",
     "data": "",
-    "question": "Calculate 95% confidence intervals for μ for samples in which n=81 and \\bar{x}=6.1 pounds."
+    "question": "Can we use the Normal approximation to the binomial in this instance?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "6.1 ± (1.96) \\frac{2}{\\sqrt{81}} = 6.1 ± 0.43 = (5.7 to 6.5)",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 81,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of full-term infants in the sample."
-      },
-      "sample_mean": {
-        "id": "sample_mean",
-        "value": 6.1,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean birth weight of the sample of full-term infants."
-      },
-      "population_std_dev": {
-        "id": "population_std_dev",
-        "value": 2,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of birth weights in the population of full-term infants."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The confidence level for the confidence interval."
-      }
-    }
+    "answer": "$n p q=(250)(0.05)(0.95)=11.875$. Therefore, the Normal approximation to the binomial can be applied. Note that $\\mu=250 \\cdot 0.05=12.5$ and $\\sigma=\\sqrt{250 \\cdot 0.05 \\cdot 0.95}=$ 3.446, that is, $X \\sim \\mathrm{~N}(12.5,3.446)$."
   },
   "meta_info": {
-    "index": "10.3",
+    "index": "8.11",
     "image": "",
-    "caption": "Newborn weight.",
-    "chapter": "BASICS OF CONFIDENCE INTERVALS",
-    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
-    "page": "203-203"
+    "caption": "Pediatric asthma survey, n = 250.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "172-172"
   },
   "sample_key": "156"
 }

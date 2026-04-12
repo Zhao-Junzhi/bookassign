@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_079.json",
+  "case_id": "book1_r1\\record_067.json",
   "input": {
-    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ= 85,100(σ=10,000).",
+    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation = 1.65).",
     "data": "",
-    "question": "Come up with four explanations for the lower-than-expected observed sample mean."
+    "question": "Is it reasonable to assume that the sampling distribution of the mean will vary according to a Normal distribution? Explain your reasoning."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "Explanations for the observed difference:\n1) Chance (P=0.0602)\n2) Selection bias: The sample is not an SRS of female executives.\n3) Confounding: An extraneous variable is lurking in the background. For example, these executives may be younger and/or less experienced on average than the population.\n4) Gender bias.",
-    "variable": {
-      "female_administrators_salary": {
-        "id": "female_administrators_salary",
-        "value": 80900,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Average annual salary of 20 female hospital administrators."
-      },
-      "male_administrators_salary": {
-        "id": "male_administrators_salary",
-        "value": 85100,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Published average salary of hospital administrators, assumed to represent male administrators."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 10000,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Standard deviation of the salaries of hospital administrators."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 20,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of female hospital administrators in the sample."
-      }
-    }
+    "answer": "True. Because \\( n \\) is large, we can count on the central limit theorem to make the sampling distribution of \\( \\bar{x} \\) fairly Normal."
   },
   "meta_info": {
-    "index": "9.15",
+    "index": "8.5",
     "image": "",
-    "caption": "Female administrators.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 POWER AND SAMPLE SIZE",
-    "page": "194-194"
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
   },
   "sample_key": "150"
 }

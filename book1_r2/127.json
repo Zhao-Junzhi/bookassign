@@ -1,49 +1,20 @@
 {
-  "case_id": "book1_r1\\record_068.json",
+  "case_id": "book1_r1\\record_058.json",
   "input": {
-    "background": "A laboratory kit states that the standard deviation of its results can be expected to vary with σ=1 unit. A lab technician takes four measurements using this kit.",
+    "background": "Heights of 10-year-old male children follow a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
     "data": "",
-    "question": "Explain to a lay person the advantage of reporting the average of four measurements rather than using a single measurement."
+    "question": "What percent of values fall above this range?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Assuming the measurements are unbiased, the average is more likely to reflect the true value of μ than is a single measurement.",
-    "variable": {
-      "measurement": {
-        "id": "measurement",
-        "value": [
-          null,
-          null,
-          null,
-          null
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The individual measurements taken by the lab technician using the kit."
-      },
-      "sigma": {
-        "id": "sigma",
-        "value": 1,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the kit's results as stated by the laboratory kit."
-      },
-      "average_measurement": {
-        "id": "average_measurement",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average of the four measurements taken by the lab technician."
-      }
-    }
+    "answer": "16% of values will fall above 145."
   },
   "meta_info": {
-    "index": "8.7",
+    "index": "7.1",
     "image": "",
-    "caption": "Repeated lab measurements.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.2 Sampling Behavior of a Mean",
-    "page": "166-167"
+    "caption": "Height of 10-year-olds.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.1 NORMAL DISTRIBUTIONS",
+    "page": "138-139"
   },
   "sample_key": "127"
 }

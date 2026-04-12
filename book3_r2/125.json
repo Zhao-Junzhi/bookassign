@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\43.json",
+  "case_id": "book3_r1\\23.json",
   "input": {
-    "background": "Consider a communication network of having 10 stations where the repair time for each station, in case a station is failed, follows the exponential distribution with $\\beta=19 \\mathrm{~h}$. If 10 stations have failed simultaneously and one repair person is available.",
+    "background": "An electronic manufacturer produces air cooling units for computer systems. There is a 3% chance that any given cooling unit is defective, independent of the other units produced.",
     "data": null,
-    "question": "What is the probability that communication failure will last more than $45 \\min$?"
+    "question": "Determine the probability that more than 2 units in a shipment of 100 are defective."
   },
   "output": {
-    "method": "从指定分布中抽样",
-    "answer": "This problem can be formulated using a gamma distribution (see Eq. 2.77) with $\\alpha=10$ and $\\beta=19$. Thus (45 min is same as 0.75 h), $$\\begin{aligned} P(T>0.75) & =1-P(T \\leq 0.75) \\\\ & =1-\\int_0^{.75} \\frac{(19)^{10} t^9}{(10-1)!} e^{-19 t} d t \\approx 0.11 \\end{aligned}$$"
+    "answer": "Let X be the number of defectives in a shipment of 100, then X has a binomial distribution with n = 100 and p = 0.97, i.e., X ~ b(100, 0.97) where p is the probability of a non-defective unit. The desired probability is given by $$\\begin{aligned} P(X>2) & =1-P(X \\leq 2) \\\\ & =1-\\sum_{i=0}^2\\binom{100}{\\mathrm{i}}(0.03)^i(0.97)^{100-i} \\\\ & =0.5802 \\end{aligned}$$"
   },
   "meta_info": {
-    "index": "2.27",
+    "index": "2.6",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.2 Continuous Distributions",
+    "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
-    "page": "112-112"
+    "page": "72-72"
   },
   "sample_key": "125"
 }

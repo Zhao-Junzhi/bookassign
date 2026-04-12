@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\106.json",
+  "input": {
+    "background": "A specialty manufacturer wants to purchase remnants of sheet aluminum foil. The foil, all of which is the same thickness, is stored on 1,462 rolls, each containing a varying amount of foil. To obtain an estimate of the total number of square feet of foil on all the rolls, the manufacturer randomly sampled 100 rolls and measured the number of square feet on each roll. The sample mean was 47.4, and the sample standard deviation was 12.4.",
+    "data": "null",
+    "question": "Find an approximate 95% confidence interval for the mean amount of foil on the 1,462 rolls."
+  },
+  "output": {
+    "answer": "Each roll of foil is a sampling unit, and there are $N=1,462$ units in the population, and the sample size is $n=100$. Because $\frac{n}{N}=\frac{100}{1,462}=.068$ exceeds .05, we need to apply the finite population correction factor. We have $n=100, \bar{x}=47.4$, and $s=12.4$. Substituting these quantities, we obtain the approximate $95 \text{ % }$ confidence interval:\n\n$$\n\\begin{aligned}\n\\bar{x} \\pm 2 \\frac{s}{\\sqrt{n}} \\sqrt{\\frac{(N-n)}{N}} & =(47.4) \\pm 2 \\frac{12.4}{\\sqrt{100}} \\sqrt{\\frac{(1,462-100)}{\\cdot 1,462}} \\\\\n& =47.4 \\pm 2.39\n\\end{aligned}\n$$\nor, (45.01, 49.79)."
+  },
+  "meta_info": {
+    "index": "6.11",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Finite Population Correction Factor-Manufacture of Sheet Aluminum Foil",
+    "chapter": "Inferences Based on a Single Sample",
+    "section": "6.6 Finite Population Correction for Simple Random Sampling*",
+    "book": "Statistics for Business and Economics",
+    "page": "212-213"
+  },
+  "sample_key": "256"
+}

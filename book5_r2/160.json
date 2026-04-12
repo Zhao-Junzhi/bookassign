@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\066.json",
+  "case_id": "book5_r1\\055.json",
   "input": {
-    "background": "The following table shows the percentage of five year olds with five or more decayed, missing or filled teeth (% dmft) by social class, separately for children who had lived continuously in either an area with fluoridated water or in a nearby non-fluoridated area (Carmichael et al., 1989).",
-    "data": null,
-    "question": "Calculate a 95% confidence interval for the difference in % dmft in the total groups of children in the two areas."
+    "background": "Acute lower respiratory tract infection is a leading cause of death among infants and under-5s in developing countries. A simple test is needed to differentiate between infants with acute respiratory infection who have lower respiratory tract infection (LRI) and require antibiotics, and those with upper respiratory tract infection (URI). The study explores the usefulness of respiratory rate as a diagnostic tool for this purpose.",
+    "data": "\n\n\\begin{tabular}{|l|l|l|}\n\\hline Respiratory rate (breaths/min) & Number of children (\\%) \\\\\n\\hline & LRI & URI \\\\\n\\hline 0-30 & 1 (1\\%) & 16 (11\\%) \\\\\n\\hline 31-40 & 4 (3\\%) & 77 (51\\%) \\\\\n\\hline 41-50 & 10 (7\\%) & 46 (30\\%) \\\\\n\\hline 51-60 & 41 (29\\%) & 9 (6\\%) \\\\\n\\hline 61+ & 86 (61\\%) & 3 (2\\%) \\\\\n\\hline Total & 142 (100\\%) & 151 (100\\%) \\\\\n\\hline\n\\end{tabular}",
+    "question": "If a respiratory rate of >50 breaths/min is taken as an indication of LRI and all such children are treated with antibiotics, what proportion of treated infants will have been treated unnecessarily? What proportion of LRI infants would not get antibiotics?"
   },
   "output": {
-    "method": "假设检验与区间估计 - 均值检验",
-    "answer": "The percentages are 73 / 457=16.0% and 138 / 370=37.3%, so the difference is 21%. The 95% confidence interval is 15% to 27%. Because the sample is large the interval is quite narrow."
+    "answer": "The PPV at a cut-off of >50 breaths/min is 26%, meaning that 74% of treated infants will have been treated unnecessarily. The sensitivity at this cut-off is 89%, meaning that 89% of LRI infants would receive antibiotics, while 11% would not get antibiotics. At a lower cut-off of 40 breaths/min, the proportion of LRI infants treated with antibiotics would be higher (96%), but only 7% of those treated would have LRI. The choice of cut-off must consider non-statistical factors."
   },
   "meta_info": {
-    "index": "16.5",
+    "index": "14.4",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "The medical literature",
+    "chapter": "Some common problems in medical research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "500-501"
+    "page": "438-438"
   },
   "sample_key": "160"
 }

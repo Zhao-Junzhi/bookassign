@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\012.json",
+  "case_id": "book5_r1\\010.json",
   "input": {
-    "background": "In 1978–79 a random sample of 1007 residents of the Lothian region were surveyed about their alcohol consumption in the previous seven days. In 1981, a follow-up survey was conducted among 676 'regular drinkers' from the original sample to study changes in alcohol consumption after an increase in alcohol prices. The follow-up survey reported a reduction in alcohol consumption and adverse effects, attributing the changes to the rise in alcohol prices.",
+    "background": "A researcher plans to measure blood pressure in a number of subjects. He proposes to take three measurements, but intends to discard the third measurement as unreliable if it does not fall between the first two measurements. Assuming that the subjects' blood pressure stays constant during the measuring.",
     "data": null,
-    "question": "Were the 463 'regular drinkers' really a 'representative population'?"
+    "question": "What is the probability that for a given subject the third value will not lie between the other two? (Hint: the answer does not depend upon the variability of blood pressure measurements.)"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "No. For reasons given above, they are by no means representative. Further, they are a sample, not a population."
+    "answer": "If there is no change in the true blood pressure, each of a sequence of three measurements is equally likely to be in between the other two. The probability that the third measurement will not fall between the first two is thus two thirds $(0.67)$, discounting the possibility of equal measurements."
   },
   "meta_info": {
-    "index": "5.1",
+    "index": "4.7",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Designing research",
+    "chapter": "Theoretical distributions",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "103-104"
+    "page": "72-73"
   },
   "sample_key": "27"
 }

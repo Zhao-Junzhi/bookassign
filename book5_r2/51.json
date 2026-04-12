@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\023.json",
+  "case_id": "book5_r1\\017.json",
   "input": {
-    "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights. On a voluntary basis, 17 astronauts consumed large quantities of salt and fluid prior to landing as a countermeasure to space deconditioning, while 9 did not. The study compared supine heart rates (beats/minute) before and after flights in the space shuttle.",
-    "data": null,
-    "question": "Comment on the voluntary aspect of the study, and how it might affect the interpretation of the results."
+    "background": "Comment on the terminal digits of the three variables (Age, SA, SI) shown in the table in Exercise 3.1.",
+    "data": "\\begin{tabular}{|l|l|l|}\n\\hline Patient & Ejection fraction (\\%) & Wedge pressure (mm Hg) \\\n\\hline 1 & 28 & 15 \\\n\\hline 2 & 26 & 14 \\\n\\hline 3 & 42 & 15 \\\n\\hline 4 & 29 & 12 \\\n\\hline 5 & 16 & 37 \\\n\\hline 6 & 21 & 30 \\\n\\hline 7 & 25 & 7 \\\n\\hline 8 & 35 & 14 \\\n\\hline 9 & 30 & 28 \\\n\\hline 10 & 36 & 13 \\\n\\hline 11 & 37 & 5 \\\n\\hline 12 & 41 & 13 \\\n\\hline 13 & 20 & 24 \\\n\\hline 14 & 26 & 8 \\\n\\hline 15 & 38 & 13 \\\n\\hline 16 & 26 & 17 \\\n\\hline 17 & 10 & 27 \\\n\\hline 18 & 18 & 29 \\\n\\hline 19 & 10 & 8 \\\n\\hline 20 & 31 & 5 \\\n\\hline\n\\end{tabular}",
+    "question": "What is the distribution of terminal digits for the three variables (Age, SA, SI)?"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "In clinical research it is highly undesirable to let subjects choose their own treatments. No clinical trial conducted in this way would have credibility. Ideally (from the research point of view) the astronauts should have been randomized to receive the dietary countermeasure, but this was not set up as a prospective study. The likely homogeneity of the astronauts, for example with respect to fitness, would probably lessen the volunteer effect. Clearly the pre-flight heart rates in the two groups were very similar, which strengthens the findings. In the end the validity of the results is a matter of judgement."
+    "answer": "The terminal digits (or penultimate digits in the case of dose of SA) are distributed as follows:\n\n\\begin{tabular}{lrrrrrrrrrrc}\n\\hline & & & & \\multicolumn{8}{c}{ Digit } \\\\\n& 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & Total \\\\\n\\hline Age & 1 & 11 & 6 & 10 & 7 & 2 & 2 & 7 & 5 & 14 & 65 \\\\\nSA & 2 & 24 & 0 & 6 & 0 & 10 & 20 & 0 & 0 & 3 & 65 \\\\\nSI & 16 & 0 & 5 & 3 & 4 & 2 & 3 & 4 & 7 & 4 & 48 \\\\\n\\hline\n\\end{tabular}"
   },
   "meta_info": {
-    "index": "9.1",
+    "index": "7.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Comparing groups – continuous data",
+    "chapter": "Preparing to analyse data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "223-224"
+    "page": "150-150"
   },
   "sample_key": "51"
 }

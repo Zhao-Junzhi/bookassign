@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_508.json",
+  "input": {
+    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "data": "",
+    "question": "(c) Comparison C: Calculate the mean and standard deviation for Group 1 and Group 2 based on the stemplot. Discuss how these statistics relate to what you see."
+  },
+  "output": {
+    "answer": "Group 1: \\(\\bar{x}=50\\) and \\(s=31.6\\). Group 2: \\(\\bar{x}=70\\) and \\(s=15.8\\). How statistics relate to what we see: Smaller central location and greater spread in Group 1."
+  },
+  "meta_info": {
+    "index": "4.15",
+    "image": "",
+    "caption": "Leaves on stems.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "85-86"
+  },
+  "sample_key": "780"
+}

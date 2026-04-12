@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_343.json",
+  "case_id": "book1_r1\\record_147.json",
   "input": {
-    "background": "Recall that event A is cat ownership and event B is dog ownership. We have established Pr(B | A)= 0.4286, Pr(Ā)=1-Pr(A)=1-0.35=0.65, and Pr(B and Ā)=0.15.",
+    "background": "A case-control study examined the relationship between cellular telephone use and intracranial tumors. The study (completed between 1994 and 1998) included 782 cases with various types of intracranial tumors and 799 controls with a variety of nonmalignant conditions. Subjects were considered to be \"exposed\" if they reported cellular telephone use for more than 100 hours. The odds ratios (and 95% confidence intervals) for various tumor types were: for glioma 0.9 (0.5 to 1.6), for meningioma 0.7 (0.3 to 1.7), for acoustic neuroma 1.4 (0.6 to 3.5), for all tumor types combined 1.0 (0.6 to 1.5).",
     "data": "",
-    "question": "By conditional probability, Pr(B | Ā)=Pr(B and Ā)/Pr(Ā)=0.15/0.65=0.2308."
+    "question": "Do the results support or fail to support the theory that handheld cellular telephone use causes brain tumors?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "By the total probability rule, Pr(B)=[Pr(B | A) * Pr(A)]+[Pr(B | Ā) * Pr(Ā)]= [0.4286 * 0.35]+[0.2308 * 0.65]=0.15+0.15=0.30",
-    "variable": {
-      "Pr(A)": {
-        "id": "Pr(A)",
-        "value": 0.35,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of event A, which represents cat ownership."
-      },
-      "Pr(Ā)": {
-        "id": "Pr(Ā)",
-        "value": 0.65,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of the complement of event A, which represents not owning a cat."
-      },
-      "Pr(B | A)": {
-        "id": "Pr(B | A)",
-        "value": 0.4286,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The conditional probability of event B (dog ownership) given event A (cat ownership)."
-      },
-      "Pr(B and Ā)": {
-        "id": "Pr(B and Ā)",
-        "value": 0.15,
-        "class": "numerical",
-        "role": "both",
-        "description": "The joint probability of event B (dog ownership) and the complement of event A (not owning a cat)."
-      },
-      "Pr(B | Ā)": {
-        "id": "Pr(B | Ā)",
-        "value": 0.2308,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The conditional probability of event B (dog ownership) given the complement of event A (not owning a cat)."
-      }
-    }
+    "answer": "The point estimate for all tumor types combined is 1.0 indicating no association between recent cell phone use and intracranial tumors in general. All confidence intervals are consistent with population odds ratios of 1 (no association)."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.13",
     "image": "",
-    "caption": "Total probability rule (Pet ownership).",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
-    "page": "110-110"
+    "caption": "Cell phones and brain tumors, study 1.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "443-443"
   },
   "sample_key": "369"
 }

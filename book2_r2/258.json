@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\107.json",
+  "input": {
+    "background": "The U.S. Army Corps of Engineers conducted a study on contaminated fish in the Tennessee River. They collected data from a random sample of 144 fish contaminated with DDT, ensuring the sample included fish from various randomly selected streams and tributaries of the river. The fish weights (in grams) are stored in the DDT file. The goal is to estimate the true variation in fish weights to determine whether the fish are stable enough for further testing for DDT contamination.",
+    "data": "null",
+    "question": "Use the sample data to find a 95% confidence interval for the parameter of interest."
+  },
+  "output": {
+    "answer": "Here, the target parameter is σ², the variance of the population of weights of contaminated fish. First, we calculate the sample variance, s², using the sample standard deviation, s = 376.5 grams, as shown in the Minitab printout. Thus, s² = (376.5)² = 141,752.25.\n\nNext, we determine the critical values χ²₀.₀₂₅ and χ²₀.₉₇₅ for a chi-square distribution with degrees of freedom df = n - 1 = 143. From the chi-square table (df = 150 row, closest to 143), we find χ²₀.₀₂₅ = 185.800 and χ²₀.₉₇₅ = 117.985.\n\nSubstituting into the formula for the confidence interval:\n\n(143 × 141,752.25) / 185.800 ≤ σ² ≤ (143 × 141,752.25) / 117.985\n\nThis simplifies to:\n\n109,275 ≤ σ² ≤ 171,806\n\nThus, the Army Corps of Engineers can be 95% confident that the variance in weights of the population of contaminated fish ranges between 109,275 and 171,806."
+  },
+  "meta_info": {
+    "index": "6.12",
+    "img_in_question": null
+  },
+  "sample_key": "258"
+}

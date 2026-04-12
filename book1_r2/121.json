@@ -1,41 +1,20 @@
 {
-  "case_id": "book1_r1\\record_066.json",
+  "case_id": "book1_r1\\record_054.json",
   "input": {
-    "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+    "background": "The prevalence of a condition in a population is 10%. A simple random sample of 15 people is taken from this population. Let X represent the number of individuals in the sample with the condition.",
     "data": "",
-    "question": "For stage III breast cancer, the survival was 39%."
+    "question": "What is the probability of seeing one or fewer cases?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "39% is a statistic.",
-    "variable": {
-      "Stage": {
-        "id": "Stage",
-        "value": [
-          "III"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The stage of breast cancer being studied."
-      },
-      "SurvivalRate": {
-        "id": "SurvivalRate",
-        "value": [
-          39
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The survival rate percentage for stage III breast cancer."
-      }
-    }
+    "answer": "Pr(X ≤ 1) = Pr(X=0) + Pr(X=1) = 0.2059 + 0.3432 = 0.5491"
   },
   "meta_info": {
-    "index": "8.1",
+    "index": "6.11",
     "image": "",
-    "caption": "Breast cancer survival.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.1 CONCEPTS",
-    "page": "157-157"
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
   },
   "sample_key": "121"
 }

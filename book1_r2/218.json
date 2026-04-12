@@ -1,56 +1,20 @@
 {
-  "case_id": "book1_r1\\record_112.json",
+  "case_id": "book1_r1\\record_094.json",
   "input": {
-    "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P=0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
+    "background": "An SRS of n = 26 boys between the ages of 13 and 14 has a mean height of 63.8 inches with a standard deviation 3.1 inches.",
     "data": "",
-    "question": "Calculate 95% confidence intervals for all possible mean differences incorporating a Bonferroni adjustment."
+    "question": "Calculate a 95% confidence interval for the mean height of the population."
   },
   "output": {
-    "method": "方差分析",
-    "answer": "Post hoc confidence intervals incorporating Bonferroni's correction\n\n| Parameter | x̄i-x̄j | SE | 95% confidence interval |\n|-----------|---------|------|-------------------------|\n| μ1-μ2 | 0.0857 | 0.67848 | -1.8901 to 2.0615 |\n| μ1-μ3 | 1.1191 | 0.64690 | -0.7647 to 3.0030 |\n| μ1-μ4 | 1.6129 | 0.60512 | -0.1492 to 3.3751 |\n| μ2-μ3 | 1.0334 | 0.67848 | -0.9424 to 3.0092 |\n| μ2-μ4 | 1.5272 | 0.63876 | -0.3329 to 3.3873 |\n| μ3-μ4 | 0.4938 | 0.60512 | -1.2684 to 2.2559 |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)",
-    "variable": {
-      "smoking_status": {
-        "id": "smoking_status",
-        "value": [
-          "Non-smoker",
-          "Light smoker",
-          "Moderate smoker",
-          "Heavy smoker"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Smoking status of mothers categorized into four groups."
-      },
-      "birth_weight": {
-        "id": "birth_weight",
-        "value": "Values for birth weights of infants corresponding to each smoking status group (data not explicitly provided in the prompt).",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Birth weights of infants, measured in grams, corresponding to the smoking status of their mothers."
-      },
-      "mean_difference": {
-        "id": "mean_difference",
-        "value": "Mean differences between birth weights of infants across all pairs of smoking status groups.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Calculated mean differences in birth weights between groups based on smoking status."
-      },
-      "confidence_interval": {
-        "id": "confidence_interval",
-        "value": "95% confidence intervals for the mean differences between groups, incorporating Bonferroni adjustment.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Confidence intervals that quantify the uncertainty in the mean differences between smoking status groups."
-      }
-    }
+    "answer": "$\\begin{aligned} & S E=\\frac{3.1}{\\sqrt{26}}=0.608 \\\\ & d f=26-1=25 \\\\ & t_{25，. 975}=2.060 \\\\ & 95 \\% \\text { CI for } \\mu=63.8 \\pm(2.060)(0.608)=63.8 \\pm 1.3=(62.5 \\text { to } 65.1) \\text { inches. }\\end{aligned}$"
   },
   "meta_info": {
-    "index": "13.5",
+    "index": "11.21",
     "image": "",
-    "caption": "Smoking and birth weight, post hoc comparisons.",
-    "chapter": "COMPARING SEVERAL MEANS",
-    "section": "13.4 Post Hoc COMPARISONS",
-    "page": "281-281"
+    "caption": "Boy height.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
   },
   "sample_key": "218"
 }

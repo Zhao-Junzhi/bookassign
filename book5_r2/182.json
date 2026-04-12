@@ -1,0 +1,22 @@
+{
+  "case_id": "book5_r1\\062.json",
+  "input": {
+    "background": "Two studies report results with P-values of <0.001 and =0.02. The question explores why it is not necessarily true that the former study has found a stronger effect than the latter, as discussed in section 16.3.6.",
+    "data": null,
+    "question": "Why is it not necessarily true that a study with P<0.001 has found a stronger effect than a study with P=0.02?"
+  },
+  "output": {
+    "answer": "The P value is a measure of the strength of evidence against the null hypothesis. It does not indicate the magnitude of the observed effect."
+  },
+  "meta_info": {
+    "index": "16.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "499-499"
+  },
+  "sample_key": "182"
+}

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\033.json",
+  "case_id": "book5_r1\\027.json",
   "input": {
-    "background": "A randomized controlled clinical trial was carried out to compare the effects of a single dose of prednisolone and placebo in children with acute asthma (Storr et al., 1987). There were 73 children in the placebo group and 67 in the prednisolone group. The results section of the paper begins with the following statement: '2 patients in the placebo group (3%, 95% confidence interval -1 to 6%) and 20 in the prednisolone group (30%, 19 to 41%) were discharged at first examination (P<0.0001).' The methods section explains that this P value was derived using Fisher's exact test.",
+    "background": "Urinary cotinine excretion was measured in nonsmokers who lived with smokers. The following table shows the summary of findings given in the paper (Matsukura et al., 1984).",
     "data": null,
-    "question": "What is wrong with the confidence intervals, and what would be a better analysis?"
+    "question": "What would be an appropriate analysis to see if there was a systematic relation between number of cigarettes and urinary cotinine levels?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "The confidence intervals are based on the Normal approximation. This is not valid for the very small proportion in the placebo group, and has led to an impossible negative lower limit. More fundamentally, it is not helpful to give confidence intervals for each group separately. The 95% confidence interval for the difference in proportions is much more useful; it is 16% to 39%."
+    "answer": "Some form of analysis of trend, such as within a one way analysis of variance."
   },
   "meta_info": {
-    "index": "10.3",
+    "index": "9.5",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Comparing groups - categorical data",
+    "chapter": "Comparing groups – continuous data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "273-274"
+    "page": "226-226"
   },
   "sample_key": "77"
 }

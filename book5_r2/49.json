@@ -1,23 +1,16 @@
 {
-  "case_id": "book5_r1\\023.json",
+  "case_id": "book5_r1\\016.json",
   "input": {
-    "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights. On a voluntary basis, 17 astronauts consumed large quantities of salt and fluid prior to landing as a countermeasure to space deconditioning, while 9 did not. The study compared supine heart rates (beats/minute) before and after flights in the space shuttle.",
-    "data": null,
-    "question": "In the light of the answer to (a), perform a suitable analysis to compare the changes in heart rate in the two groups. What conclusion can be made about the effectiveness of the countermeasure?"
+    "background": "Use the method described in section 7.5.4 to construct a Normal plot of the $\\log _{\\mathrm{e}} \\mathrm{T}_4$ cell counts for 20 Hodgkin's disease patients given in the first column of Table 7.1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 7.1 Numbers of $\\mathrm{T}_4$ cells $/ \\mathrm{mm}^3$ in blood samples from 20 patients in remission from Hodgkin's disease and 20 patients in remission from disseminated malignancies (nonHodgkin's) (Shapiro et al., 1986)}\n\\begin{tabular}{|l|l|l|}\n\\hline & Hodgkin's & non-Hodgkin's \\\\\n\\hline & 171 & 116 \\\\\n\\hline & 257 & 151 \\\\\n\\hline & 288 & 192 \\\\\n\\hline & 295 & 208 \\\\\n\\hline & 396 & 315 \\\\\n\\hline & 397 & 375 \\\\\n\\hline & 431 & 375 \\\\\n\\hline & 435 & 377 \\\\\n\\hline & 554 & 410 \\\\\n\\hline & 568 & 426 \\\\\n\\hline & 795 & 440 \\\\\n\\hline & 902 & 503 \\\\\n\\hline & 958 & 675 \\\\\n\\hline & 1004 & 688 \\\\\n\\hline & 1104 & 700 \\\\\n\\hline & 1212 & 736 \\\\\n\\hline & 1283 & 752 \\\\\n\\hline & 1378 & 771 \\\\\n\\hline & 1621 & 979 \\\\\n\\hline & 2415 & 1252 \\\\\n\\hline Mean & 823.2 & 522.1 \\\\\n\\hline SD & 566.4 & 293.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Explain how to obtain the Normal scores for the data."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "The changes in heart rate in the group not adopting the countermeasure were not significantly non-Normal ( $W^{\\prime}=0.865, \\mathrm{P}=0.10$ ), and the SDs in the two groups were very similar, so we can use a two sample $t$ test to compare the changes in heart rate in the two groups. The difference between the mean changes is 10.56 and the $95 \\%$ CI is 1.62 to 19.50 , giving some evidence in support of the effectiveness of the countermeasure. The two sample $t$ test gives $t=2.44(\\mathrm{P}=0.023)$."
+    "answer": "The Normal scores can be obtained in many statistics packages. Otherwise, they can be obtained by using Table B1 'in reverse'."
   },
   "meta_info": {
-    "index": "9.1",
-    "img_in_question": null,
-    "img_in_answer": null,
-    "caption": null,
-    "chapter": "Comparing groups – continuous data",
-    "section": "EXERCISES",
-    "book": "Practical statistics for medical research",
-    "page": "223-224"
+    "index": "7.2",
+    "img_in_question": null
   },
   "sample_key": "49"
 }

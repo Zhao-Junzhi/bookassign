@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_087.json",
+  "case_id": "book1_r1\\record_073.json",
   "input": {
-    "background": "The freeware program StaTable can determine exact probabilities for t-random variables. You can also use WinPepi WhatIs.exe or Microsoft Excel's TDIST function for this purpose.",
+    "background": "Analyze the issues with the given hypothesis statements and identify what is wrong with each of them.",
     "data": "",
-    "question": "Use one of these software applications to find Pr(T_8 ≥ 2.65)"
+    "question": "What is wrong with the hypothesis statement: $H_0: \\hat{p}=0.50$ vs. $H_a: \\hat{p} \\neq 0.50$?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Pr(T_8 ≥ 2.65) = 0.0150",
-    "variable": {
-      "T_8": {
-        "id": "T_8",
-        "value": "2.65",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The value of the t-random variable with 8 degrees of freedom for which we need to find the probability Pr(T_8 ≥ 2.65)."
-      },
-      "Pr(T_8 ≥ 2.65)": {
-        "id": "Pr(T_8 ≥ 2.65)",
-        "value": "unknown",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability that the t-random variable with 8 degrees of freedom is greater than or equal to 2.65."
-      }
-    }
+    "answer": "Same problem as we identified in (b). These hypothesis statements address sample statistic $\\hat{p}$. They should address population parameter $p$."
   },
   "meta_info": {
-    "index": "11.7",
+    "index": "9.1",
     "image": "",
-    "caption": "Software utility programs.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.2 STUDENT’S T DISTRIBUTIONS",
-    "page": "214-214"
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
   },
   "sample_key": "165"
 }

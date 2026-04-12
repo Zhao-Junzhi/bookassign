@@ -1,85 +1,20 @@
 {
-  "case_id": "book1_r1\\record_159.json",
+  "case_id": "book1_r1\\record_122.json",
   "input": {
-    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Table 19.10B cross tabulates data for major 1. Did males fare better than females in this major?"
+    "background": "Exercises 16.2 and 16.4 considered a problem in which seven of eight patients expressed a preference for medical procedure A compared to medical procedure B. A Normal approximation test was precluded because of the small sample size.",
+    "data": "",
+    "question": "Interpret the significance level. Is the evidence against $H_0$ significant at $\\alpha=0.05$ and $\\alpha=0.01$?"
   },
   "output": {
-    "method": "contingency table",
-    "answer": "Applicants for major 1: P_males = 512 / 825 = 0.6206 about 62%; P_females = 89 / 108 = 0.8241 about 82%. Major 1 favors female applicants.",
-    "variable": {
-      "gender": {
-        "id": "gender",
-        "value": [
-          "Male",
-          "Female"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The gender of the applicants to the graduate program."
-      },
-      "admission_status_major1": {
-        "id": "admission_status_major1",
-        "value": [
-          "+",
-          "-"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The admission status of applicants to Major 1, where '+' indicates acceptance and '-' indicates rejection."
-      },
-      "male_admitted_major1": {
-        "id": "male_admitted_major1",
-        "value": 512,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of male applicants admitted to Major 1."
-      },
-      "male_rejected_major1": {
-        "id": "male_rejected_major1",
-        "value": 313,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of male applicants rejected from Major 1."
-      },
-      "male_total_major1": {
-        "id": "male_total_major1",
-        "value": 825,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of male applicants to Major 1."
-      },
-      "female_admitted_major1": {
-        "id": "female_admitted_major1",
-        "value": 89,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female applicants admitted to Major 1."
-      },
-      "female_rejected_major1": {
-        "id": "female_rejected_major1",
-        "value": 19,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female applicants rejected from Major 1."
-      },
-      "female_total_major1": {
-        "id": "female_total_major1",
-        "value": 108,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of female applicants to Major 1."
-      }
-    }
+    "answer": "The evidence against $H_0$ is significant at $\\alpha=0.05$ (reject $H_0$) but is not significant at $\\alpha=0.01$ (retain $H_0$)."
   },
   "meta_info": {
-    "index": "19.5",
+    "index": "16.7",
     "image": "",
-    "caption": "Sex bias in graduate school admissions?",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "480-481"
+    "caption": "Patient preference, Fisher's method.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.4 HYPOTHESIS TEST, Exact BINOMIAL TESTS",
+    "page": "362-362"
   },
   "sample_key": "307"
 }

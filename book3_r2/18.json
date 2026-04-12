@@ -6,7 +6,6 @@
     "question": "What is the probability that at least 8 of the 10 patients respond successfully to treatment?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
     "answer": "$$0.9298$$"
   },
   "meta_info": {

@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the 95% confidence interval for μ1−μ2 for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "What is the 95% confidence interval for μ1−μ2 using the Welch method?"
+  },
+  "output": {
+    "answer": "The value of t8.61,0.975 via a software utility is 2.306. The 95% confidence interval is (x̄1−x̄2) ± (t8.61,0.975)(SE(x̄1−x̄2)) = 0.777 ± (2.306)(0.2702) = 0.777 ± 0.623 = 0.154 to 1.400 (mmol/L)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "617"
+}

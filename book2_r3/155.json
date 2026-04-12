@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\067.json",
+  "input": {
+    "background": "A machine that produces stampings for automobile engines is malfunctioning and producing 10% defectives. The defective and nondefective stampings proceed from the machine in a random manner. The next five stampings are tested.",
+    "data": null,
+    "question": "Find the probability of observing x=3 defectives in a sample of n=5."
+  },
+  "output": {
+    "answer": "To find the probability of observing x=3 defectives, substitute x=3 into the formula for p(x): \n\n$$\np(3) = \\frac{5!}{3!(5-3)!}(.1)^3(.9)^{5-3} = \\frac{5!}{3!2!}(.1)^3(.9)^2 \n= \\frac{5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1}{(3 \\cdot 2 \\cdot 1)(2 \\cdot 1)}(.1)^3(.9)^2 = 10(.1)^3(.9)^2 \n= .0081\n$$"
+  },
+  "meta_info": {
+    "index": "4.11",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Binomial Distribution-Manufacture of Automobiles",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.3 The Binomial Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "129-130"
+  },
+  "sample_key": "155",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1141,
+    "total_tokens": 1184,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1140,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1141,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1140,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

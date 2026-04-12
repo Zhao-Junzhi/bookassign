@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_501.json",
+  "input": {
+    "background": "Scores derived from a patient satisfaction survey are Normally distributed with μ=50 and σ=7.5, with high scores indicating high satisfaction. An SRS of n=36 is taken from this population.",
+    "data": "",
+    "question": "Suppose a sample of n=36 finds an x̄ of 48.8. Mark this finding on the horizontal axis of your sketch. Then calculate the z_stat for the result. Does this observation provide strong evidence against H₀?"
+  },
+  "output": {
+    "answer": "Notice that z_stat = (48.8 - 50) / 1.25 = -0.96. Therefore, 48.8 is a little less than 1 standard deviation below μ₀. This would not be unusual and would not provide strong evidence against H₀."
+  },
+  "meta_info": {
+    "index": "9.3",
+    "image": "",
+    "caption": "Patient satisfaction.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "765"
+}

@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_086.json",
+  "case_id": "book1_r1\\record_073.json",
   "input": {
-    "background": "The term critical value is often used to refer to the value of a test statistic that determines statistical significance at some fixed α level for a test. For example, ±1.96 are the critical values for a two-tailed z test at α=0.05.",
+    "background": "Analyze the issues with the given hypothesis statements and identify what is wrong with each of them.",
     "data": "",
-    "question": "What are the critical values for a two-tailed test at α=0.05?"
+    "question": "What is wrong with the hypothesis statement: $H_0: \\bar{x}=100$ vs. $H_a: \\bar{x}<100$?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "For a two-tailed test, we get a P-value less than 0.05 when the t_stat is either less than -2.086 or more than 2.086, that is, |t_stat| ≥ 2.086.",
-    "variable": {
-      "alpha_level": {
-        "id": "alpha_level",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The significance level (α) used to determine the critical values for the statistical test."
-      },
-      "critical_values": {
-        "id": "critical_values",
-        "value": [
-          -1.96,
-          1.96
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The critical values for a two-tailed z test at the given significance level (α=0.05)."
-      }
-    }
+    "answer": "Hypotheses must address the parameter (for example, $\\mu$), not the statistic (for example, $\\bar{x}$)."
   },
   "meta_info": {
-    "index": "11.9",
+    "index": "9.1",
     "image": "",
-    "caption": "Critical values for a t statistic.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.3 ONE-SAMPLE T TEST",
-    "page": "216-216"
+    "caption": "Misconceived hypotheses.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
+    "page": "177-177"
   },
   "sample_key": "164"
 }

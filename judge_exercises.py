@@ -39,9 +39,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 配置参数
-INPUT_DIR = Path(r'd:\place\study\bookassign\book1_r2')
-OUTPUT_CSV = Path(r'd:\place\study\bookassign\exercise_judgments.csv')
-MAX_WORKERS = 5  # 并行处理的线程数
+BASE_DIR = Path(r'd:\place\study\bookassign')
+BOOKS = [1, 2, 3, 4, 5]  # 要处理的书的编号
+MAX_WORKERS = 8  # 并行处理的线程数
 API_RATE_LIMIT = 0.5  # API调用间隔（秒）
 MAX_RETRIES = 3  # 最大重试次数
 
@@ -54,15 +54,14 @@ class APIError(Exception):
     """API调用错误"""
     pass
 
-async def call_gpt4o_async(prompt: str) -> str:
+async def call_gpt4o_async(prompt: str) -> Tuple[str, Dict]:
     """
-    异步调用GPT-4o API
     
     Args:
         prompt: 提示词
         
     Returns:
-        API返回的内容
+        (API返回的内容, token使用量)
         
     Raises:
         APIError: API调用失败
@@ -76,14 +75,17 @@ async def call_gpt4o_async(prompt: str) -> str:
             )
             
             response = await client.chat.completions.create(
-                model="gpt-4o",
+                model="claude-sonnet-4-6",
                 messages=[
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.3,
-                timeout=120
+                timeout=120,
+                response_format={"type": "json_object"}
             )
-            return response.choices[0].message.content
+            # 获取token使用量
+            token_usage = response.usage.to_dict() if response.usage else {}
+            return response.choices[0].message.content, token_usage
             
         except Exception as e:
             # 通用异常处理
@@ -141,13 +143,14 @@ def parse_model_output(content: str) -> Dict:
     
     raise Exception(f"无法从模型输出中解析JSON: {content[:200]}...")
 
-async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore) -> Tuple[str, Dict, bool, str]:
+async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore, output_dir: Path) -> Tuple[str, Dict, bool, str]:
     """
     处理单个文件
     
     Args:
         file_path: 文件路径
         semaphore: 信号量控制并发
+        output_dir: 输出目录
         
     Returns:
         (文件名, 结果数据, 是否成功, 错误信息)
@@ -164,6 +167,8 @@ async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore) -> 
             sample_key = data.get('sample_key', '')
             case_id = data.get('case_id', '')
             input_data = data.get('input', {})
+            output_data = data.get('output', {})
+            answer = output_data.get('answer', '')
             background = input_data.get('background', '')
             data_content = input_data.get('data', '')
             question = input_data.get('question', '')
@@ -171,12 +176,18 @@ async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore) -> 
             if not input_data:
                 return file_path.name, {}, False, "input字段为空"
             
-            # 构建提示词
-            input_text = json.dumps(input_data, ensure_ascii=False)
+            # 构建标准格式的input_text，确保包含四个字段
+            standard_input = {
+                "background": background,
+                "data": data_content,
+                "question": question,
+                "answer": answer
+            }
+            input_text = json.dumps(standard_input, ensure_ascii=False)
             prompt = prompt_check_0 + input_text
             
             # 调用API
-            response_content = await call_gpt4o_async(prompt)
+            response_content, token_usage = await call_gpt4o_async(prompt)
             
             # 解析模型输出
             judgment = parse_model_output(response_content)
@@ -189,8 +200,21 @@ async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore) -> 
                 'data': data_content,
                 'question': question,
                 'judge': judgment.get('judge', ''),
-                'explanation': judgment.get('explanation', '')
+                'explanation': judgment.get('explanation', ''),
+                'token_usage': token_usage
             }
+            
+            # 如果judge为1，保存对应的JSON文件到输出目录，并添加token使用情况
+            if result.get('judge') == '1':
+                # 复制原始数据并添加token使用情况
+                output_data = data.copy()
+                output_data['token_usage'] = token_usage
+                
+                output_json_path = output_dir / file_path.name
+                with open(output_json_path, 'w', encoding='utf-8') as f:
+                    json.dump(output_data, f, ensure_ascii=False, indent=2)
+                logger.info(f"已保存judge为1的文件: {file_path.name}")
+                logger.info(f"Token使用量: {token_usage}")
             
             logger.info(f"成功处理: {file_path.name}")
             
@@ -203,17 +227,27 @@ async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore) -> 
             logger.error(f"处理失败 {file_path.name}: {e}")
             return file_path.name, {}, False, str(e)
 
-async def process_files():
+async def process_files(input_dir: Path, output_dir: Path):
     """
-    处理所有文件的主函数
+    处理指定目录中的所有文件
+    
+    Args:
+        input_dir: 输入目录
+        output_dir: 输出目录
     """
+    # 确保输出目录存在
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
     # 获取所有JSON文件
-    json_files = sorted(INPUT_DIR.glob('*.json'))
+    json_files = sorted(input_dir.glob('*.json'))
     total_files = len(json_files)
     
+    output_csv = output_dir / 'exercise_judgments.csv'
+    
     logger.info(f"找到 {total_files} 个JSON文件待处理")
-    logger.info(f"输入目录: {INPUT_DIR}")
-    logger.info(f"输出CSV文件: {OUTPUT_CSV}")
+    logger.info(f"输入目录: {input_dir}")
+    logger.info(f"输出目录: {output_dir}")
+    logger.info(f"输出CSV文件: {output_csv}")
     
     if total_files == 0:
         logger.warning("没有找到JSON文件")
@@ -229,7 +263,7 @@ async def process_files():
     
     # 创建任务列表
     tasks = [
-        process_single_file(file_path, semaphore)
+        process_single_file(file_path, semaphore, output_dir)
         for file_path in json_files
     ]
     
@@ -254,30 +288,31 @@ async def process_files():
                        f"速度: {rate:.2f} 文件/秒")
     
     # 保存结果到CSV文件
-    save_results_to_csv(results)
+    save_results_to_csv(results, output_csv)
     
     # 生成处理报告
     elapsed_time = time.time() - start_time
-    generate_report(total_files, success_count, failed_files, elapsed_time)
+    generate_report(total_files, success_count, failed_files, elapsed_time, input_dir, output_dir)
 
-def save_results_to_csv(results: List[Dict]):
+def save_results_to_csv(results: List[Dict], output_csv: Path):
     """
     将结果保存到CSV文件
     
     Args:
         results: 处理结果列表
+        output_csv: 输出CSV文件路径
     """
     try:
-        with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8-sig') as f:
-            fieldnames = ['sample_key', 'case_id', 'background', 'data', 'question', 'judge', 'explanation']
+        with open(output_csv, 'w', newline='', encoding='utf-8-sig') as f:
+            fieldnames = ['sample_key', 'case_id', 'background', 'data', 'question', 'judge', 'explanation', 'token_usage']
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)
-        logger.info(f"结果已保存到: {OUTPUT_CSV}")
+        logger.info(f"结果已保存到: {output_csv}")
     except Exception as e:
         logger.error(f"保存CSV文件失败: {e}")
 
-def generate_report(total: int, success: int, failed: List[Tuple[str, str]], elapsed: float):
+def generate_report(total: int, success: int, failed: List[Tuple[str, str]], elapsed: float, input_dir: Path, output_dir: Path):
     """
     生成处理报告
     
@@ -286,12 +321,16 @@ def generate_report(total: int, success: int, failed: List[Tuple[str, str]], ela
         success: 成功数
         failed: 失败文件列表
         elapsed: 耗时（秒）
+        input_dir: 输入目录
+        output_dir: 输出目录
     """
     report = []
     report.append("=" * 60)
     report.append("习题判断处理报告")
     report.append("=" * 60)
     report.append(f"处理时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    report.append(f"输入目录: {input_dir}")
+    report.append(f"输出目录: {output_dir}")
     report.append(f"总耗时: {elapsed:.2f} 秒")
     report.append(f"总文件数: {total}")
     report.append(f"成功处理: {success}")
@@ -318,7 +357,7 @@ def generate_report(total: int, success: int, failed: List[Tuple[str, str]], ela
         print("\n报告包含特殊字符，请查看文件中的详细内容")
     
     # 保存报告到文件
-    report_path = INPUT_DIR.parent / 'exercise_judgment_report.txt'
+    report_path = output_dir / 'exercise_judgment_report.txt'
     with open(report_path, 'w', encoding='utf-8') as f:
         f.write(report_text)
     
@@ -329,14 +368,26 @@ def main():
     主函数
     """
     logger.info("=" * 60)
-    logger.info("开始判断book1_r2目录中的所有统计学习题")
+    logger.info("开始判断目录中的所有统计学习题")
     logger.info(f"API URL: {base_url}")
     logger.info(f"并发数: {MAX_WORKERS}")
     logger.info(f"API调用间隔: {API_RATE_LIMIT}秒")
     logger.info("=" * 60)
     
-    # 运行异步处理
-    asyncio.run(process_files())
+    # 循环处理每个目录
+    for book in BOOKS:
+        input_dir = BASE_DIR / f'book{book}_r2'
+        output_dir = BASE_DIR / f'book{book}_r3'
+        
+        logger.info(f"\n处理 book{book}_r2 目录...")
+        logger.info(f"输入目录: {input_dir}")
+        logger.info(f"输出目录: {output_dir}")
+        
+        # 运行异步处理
+        asyncio.run(process_files(input_dir, output_dir))
+        
+        logger.info(f"book{book}_r2 目录处理完成！")
+        logger.info("-" * 60)
 
 if __name__ == '__main__':
     main()

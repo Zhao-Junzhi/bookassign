@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\25.json",
+  "case_id": "book3_r1\\141.json",
   "input": {
-    "background": "Suppose an experiment of a new product can result in exactly m possible outcomes and their corresponding probabilities are s1, …, sm and p1, …, pm, respectively. Suppose the experiment is, independently, repeated n times and let Xi be the number of outcomes of type si for i = 1, 2, …, m.",
+    "background": "In a nuclear power plant, there are five identical and statistically independent channels to monitor the radioactivity of air in the ventilation system. The system aims to alert reactor operators to the need for reactor shutdown when a dangerous level of radioactivity is present. When at least three channels register a dangerous level of radioactivity, the reactor automatically shuts down. Each channel contains three identical sensors, and when at least two sensors register a dangerous level of radioactivity, the channel registers the dangerous level of radioactivity. The failure rate of each sensor in any channel is 0.001 per day, and the common-cause failure rate of all sensors in a channel is 0.0005 per day.",
     "data": null,
-    "question": "What is the probability distribution of the outcomes when the experiment is repeated n times?"
+    "question": "Obtain the entire system reliability for various time t."
   },
   "output": {
-    "method": "从指定分布中抽样",
-    "answer": "then it has the multinomial distribution as follows\n$$\n\\begin{aligned}\n&P\\left[X_1=s_1, X_2=s_2, \\ldots, X_k=s_m\\right]=\\left\\{\\begin{array}{l}\n\\frac{n!}{s_{1}!s_{2}!\\ldots s_{m}!} p_1^{s_1} p_2^{s_2} \\ldots p_m^{s_k} \\\\\n0 \\quad \\ \\text { otherwise }\n\\end{array}\\right.\\\\\n&\\ \\text { where } s_i=0,1, \\ldots, n \\ \\text { and } \\sum_{i=1}^m s_i=n .\n\\end{aligned}\n$$"
+    "answer": "Time 10: 1.0000, Time 20: 1.0000, Time 30: 0.9999, Time 40: 0.9999, MTTF: 546.2"
   },
   "meta_info": {
-    "index": "2.9",
+    "index": "6.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.1 Discrete Distributions",
+    "chapter": "Chapter 6： Stochastic Processes",
+    "section": "6.4 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "76-76"
+    "page": "399-399"
   },
   "sample_key": "100"
 }

@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\051.json",
+  "input": {
+    "background": "A county welfare agency employs 10 welfare workers who interview prospective food stamp recipients. Periodically the supervisor selects, at random, the forms completed by 2 workers to audit for illegal deductions. Unknown to the supervisor, 3 of the workers have regularly been giving illegal deductions to applicants.",
+    "data": null,
+    "question": "How do we calculate $P(A)$, the probability that the first worker selected gives illegal deductions?"
+  },
+  "output": {
+    "answer": "To find $P(A)$, it is helpful to consider the experiment as selecting 1 worker from the 10. Then the sample space for the experiment contains 10 sample points (representing the 10 welfare workers), where the 3 workers giving illegal deductions are denoted by the symbol $I(I_1, I_2, I_3)$, and the 7 workers not giving illegal deductions are denoted by the symbol $N(N_1, \\ldots, N_7)$. Because the first worker is selected at random from the 10, it is reasonable to assign equal probabilities to the 10 sample points. Thus, each sample point has a probability of $\\frac{1}{10}$. The sample points in event $A$ are $\\{I_1, I_2, I_3\\}$-the 3 workers who are giving illegal deductions. Thus, $$ P(A)=P(I_1)+P(I_2)+P(I_3)=\\frac{1}{10}+\\frac{1}{10}+\\frac{1}{10}=\\frac{3}{10} $$"
+  },
+  "meta_info": {
+    "index": "3.18",
+    "img_in_question": null
+  },
+  "sample_key": "115"
+}

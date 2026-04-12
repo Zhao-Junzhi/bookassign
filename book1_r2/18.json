@@ -3,26 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Grade in a course coded: A, B, C, D, or F"
+    "question": "(e) Low-density lipoprotein level (mg/dl)"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "Ordinal",
-    "variable": {
-      "Grade": {
-        "id": "Grade",
-        "value": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "F"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The grade received in a course, coded as A, B, C, D, or F."
-      }
-    }
+    "answer": "Quantitative"
   },
   "meta_info": {
     "index": "1.11",

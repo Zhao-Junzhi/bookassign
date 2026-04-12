@@ -1,46 +1,20 @@
 {
-  "case_id": "book1_r1\\record_066.json",
+  "case_id": "book1_r1\\record_054.json",
   "input": {
-    "background": "Determine whether numbers in the exercise are parameters or statistics based on a study of breast cancer cases in California.",
+    "background": "The prevalence of a condition in a population is 10%. A simple random sample of 15 people is taken from this population. Let X represent the number of individuals in the sample with the condition.",
     "data": "",
-    "question": "A study of 1225 of these cases finds that survival varied greatly by stage of diagnosis. The average 7-year survival rate for stage I breast cancer was 92%."
+    "question": "What is the probability of seeing no cases in a sample?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "92% is a statistic.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 1225,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of breast cancer cases included in the study."
-      },
-      "stage_of_diagnosis": {
-        "id": "stage_of_diagnosis",
-        "value": [
-          "stage I"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The stage of breast cancer diagnosis being studied."
-      },
-      "survival_rate": {
-        "id": "survival_rate",
-        "value": 92,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average 7-year survival rate for stage I breast cancer, expressed as a percentage."
-      }
-    }
+    "answer": "Pr(X=0) = 0.2059"
   },
   "meta_info": {
-    "index": "8.1",
+    "index": "6.11",
     "image": "",
-    "caption": "Breast cancer survival.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.1 CONCEPTS",
-    "page": "157-157"
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
   },
   "sample_key": "119"
 }

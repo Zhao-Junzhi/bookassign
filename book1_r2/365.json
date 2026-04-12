@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_339.json",
+  "case_id": "book1_r1\\record_145.json",
   "input": {
-    "background": "If cat ownership and dog ownership were independent, then \\operatorname{Pr}(A$ and $B)$ would equal \\operatorname{Pr}(A) \\times \\operatorname{Pr}(B)=0.35 \\times 0.30=0.105.",
-    "data": "",
-    "question": "However, in our example, \\operatorname{Pr}(A$ and $B)=0.15."
+    "background": "Exercise 18.3 found that 43% of CMV+ patients experienced arterial restenosis within 6 months of atherectomy. In contrast, 8% of CMV- patients experienced a similar outcome. Table 18.8 contains observed counts.",
+    "data": "Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.\n\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Restenosed } & \\multicolumn{1}{c}{ Did not restenose } & \\multicolumn{1}{c}{ Total }\\\n\\hline\n\\hline CMV + & 21 & 28 & 49 \\\n\\hline CMV- & 2 & 24 & 26 \\\n\\hline Total & 23 & 49 & 75 \\\n\\hline\n\\end{tabular}\n",
+    "question": "Use a chi-square statistic to test the association for statistical significance."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Therefore, these events are not independent.",
-    "variable": {
-      "Pr(A)": {
-        "id": "Pr(A)",
-        "value": 0.35,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of owning a cat."
-      },
-      "Pr(B)": {
-        "id": "Pr(B)",
-        "value": 0.3,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of owning a dog."
-      },
-      "Pr(A and B)_expected": {
-        "id": "Pr(A and B)_expected",
-        "value": 0.105,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The expected probability of owning both a cat and a dog if the events are independent."
-      },
-      "Pr(A and B)_observed": {
-        "id": "Pr(A and B)_observed",
-        "value": 0.15,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The observed probability of owning both a cat and a dog."
-      }
-    }
+    "answer": "X_stat^2 = 9.879, df = 1, P = 0.0017. With continuity-correction, X^2_stat,c = 8.294, df = 1, P = 0.0040."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.9",
     "image": "",
-    "caption": "Independence (Pet ownership example).",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.5  More RULES AND PROPERTIES OF PROBABILITY",
-    "page": "106-106"
+    "caption": "Cytomegalovirus infection and coronary restenosis.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "431-431"
   },
   "sample_key": "365"
 }

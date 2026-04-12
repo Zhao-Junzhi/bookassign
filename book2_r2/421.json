@@ -1,0 +1,19 @@
+{
+  "case_id": "book2_r1\\156.json",
+  "input": {
+    "background": "Refer to the first-order model for auction price $(y)$ considered in Example 12.1.",
+    "data": null,
+    "question": "Provide the interpretation of $\u0001\text{hat}{\beta}_2$."
+  },
+  "output": {
+    "answer": "$\u0001\text{hat}{\beta}_2=85.95$ : We estimate the mean auction price $E(y)$ of an antique clock to increase $\u0001$ 85.95$ for every 1-bidder increase in the number of bidders ( $x_2$ ) when age $\u0001\text{left(x_1\right}$ is held fixed."
+  },
+  "meta_info": {
+    "index": "12.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\\beta$ Estimates: Clock Auction Price Model",
+    "chapter": "Multiple Regression and Model Building"
+  },
+  "sample_key": "421"
+}

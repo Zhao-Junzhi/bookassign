@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_414.json",
+  "input": {
+    "background": "Our illustrative data comes from a health survey done in adolescents. The illustrative data set includes information on 654 individuals between 3-19 years of age. Table 15.1 is a code book for the variables in the data set. The response variable is a measure of respiratory function called forced expiratory volume (variable name FEV) that measures respiratory capacity in liters/second units. High values represent high respiratory capacity. We will consider the effects of two explanatory variables: SMOKE (coded 0 for ...",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\\n\\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\\n\\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\\n\\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\\n\\hline SEX & $0=$ female; $1=$ male & \\multicolumn{4}{|c|}{$48.6 \\%$ female; $51.4 \\%$ male; none missing} \\\n\\hline SMOKE & $0=\\mathrm{no} ; 1=$ yes & \\multicolumn{4}{|c|}{$90.1 \\%$ no; 9.9\\% yes; none missing} \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "What is the response variable, and how is it measured?"
+  },
+  "output": {
+    "answer": "The response variable is forced expiratory volume (FEV), which measures respiratory capacity in liters/second units. High values represent high respiratory capacity."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Forced expiratory volumes).",
+    "chapter": "MULTIPLE LINEAR REGRESSION",
+    "section": "15.2 THE MULTIPLE LINEAR REGRESSION MODEL",
+    "page": "336-337"
+  },
+  "sample_key": "680"
+}

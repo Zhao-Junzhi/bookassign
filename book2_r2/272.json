@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\112.json",
+  "input": {
+    "background": "Consider the one-tailed test of hypothesis, $H_0: \\mu=100$ versus $H_{\\mathrm{a}}: \\mu>100$.",
+    "data": null,
+    "question": "Now suppose the test statistic is $z=3.01$; find the $p$-value and rejection region for the test when $\\alpha=.05$. Again, show that the conclusion using the rejection region approach will be identical to the conclusion based on the $p$-value."
+  },
+  "output": {
+    "answer": "For $z=3.01$, the observed significance level of the test is:\n\n$$\np \\text{-value }=P(z>3.01)=1-P(z<3.01)\n$$\n\nA Minitab printout giving the cumulative probability, $P(z<3.01)$, is shown in Figure 7.11.\n\nThus, we have\n\n$$\np \\text{-value }=P(z>3.01)=1-P(z<3.01)=1-.9987=.0013 .\n$$\n\nThis $p$-value is shown on Figure 7.12.\nAgain, for $\\alpha=.05$ and an upper-tailed test, the rejection region is $z>1.645$. This rejection region is also shown in Figure 7.12. Now the test statistic $(z=3.01)$ falls within the rejection region, leading us to reject $H_0$. And, $\\alpha=.05$ now exceeds the $p$-value (.0013), which also implies that we should reject $H_0$. Once again, both decision rules agree-and they always will if the same value of $\\alpha$ is used to make the decision."
+  },
+  "meta_info": {
+    "index": "7.4",
+    "img_in_question": null
+  },
+  "sample_key": "272"
+}

@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_112.json",
+  "case_id": "book1_r1\\record_093.json",
   "input": {
-    "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P=0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
+    "background": "A study of vector control in an African village found that the mean sprayable surface area was 249 square feet with standard deviation 39.82 square feet in a simple random sample of n=100 homes.",
     "data": "",
-    "question": "Incorporate Bonferroni's correction into each of the P-value calculated in part (a)."
+    "question": "Would it be correct to say that 95% of all the homes in the village have sprayable surfaces between the lower confidence limit and upper confidence limit? Explain."
   },
   "output": {
-    "method": "方差分析",
-    "answer": "Bonferroni's method tests\n\n| Null hypothesis | x̄i-x̄j | SE | P-value (2-sided) |\n|-----------------|---------|------|-----------------|\n| H0: μ1-μ2=0 | 0.0857 | 0.67848 | 1.000 |\n| H0: μ1-μ3=0 | 1.1191 | 0.64690 | 0.590 |\n| H0: μ1-μ4=0 | 1.6129 | 0.60512 | 0.087 |\n| H0: μ2-μ3=0 | 1.0334 | 0.67848 | 0.856 |\n| H0: μ2-μ4=0 | 1.5272 | 0.63876 | 0.158 |\n| H0: μ3-μ4=0 | 0.4938 | 0.60512 | 1.000 |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\n\nSummary in concise narrative form: The difference between group 1 and group 4 is marginally significant. All other differences are not statistically significant.",
-    "variable": {
-      "Smoking_Status": {
-        "id": "Smoking_Status",
-        "value": "Different categories of smoking status (e.g., non-smoker, light smoker, heavy smoker)",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The smoking status of mothers, used as a factor in ANOVA analysis."
-      },
-      "Birth_Weight": {
-        "id": "Birth_Weight",
-        "value": "Birth weights of infants",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The birth weight of infants, used as the outcome variable in ANOVA analysis."
-      }
-    }
+    "answer": "It would not be correct to make this statement. The confidence interval applies to population mean μ, not to individual observations."
   },
   "meta_info": {
-    "index": "13.5",
+    "index": "11.19",
     "image": "",
-    "caption": "Smoking and birth weight, post hoc comparisons.",
-    "chapter": "COMPARING SEVERAL MEANS",
-    "section": "13.4 Post Hoc COMPARISONS",
-    "page": "281-281"
+    "caption": "Vector control in an African village",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "229-229"
   },
   "sample_key": "217"
 }

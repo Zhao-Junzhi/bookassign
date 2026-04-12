@@ -1,71 +1,20 @@
 {
-  "case_id": "book1_r1\\record_159.json",
+  "case_id": "book1_r1\\record_124.json",
   "input": {
-    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Calculate the relative incidence of acceptance for males by major."
+    "background": "Exercise 16.2 stated that seven of eight patients expressed a preference for a particular medical procedure.",
+    "data": "",
+    "question": "Use an exact procedure to calculate a 95% confidence interval for p."
   },
   "output": {
-    "method": "contingency table",
-    "answer": "Relative incidence of acceptance for males by major: RR_1 = 0.753; RR_2 = 0.838. Test for interaction: Hypotheses: H_0: RR_1 = RR_2 (no interaction) versus H_2: RR_1 ≠ RR_2 (interaction). Test statistic: X^2_sat.int = 0.136 with df = 1. P-value: P = 0.713 (no significant difference in strata-specific relative risk estimates; no significant interaction).",
-    "variable": {
-      "gender": {
-        "id": "gender",
-        "value": [
-          "Male",
-          "Female"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The gender of the applicants."
-      },
-      "acceptance_status": {
-        "id": "acceptance_status",
-        "value": [
-          "+",
-          "-"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Indicates whether the application was accepted (+) or not (-)."
-      },
-      "total_applicants_major_1_male": {
-        "id": "total_applicants_major_1_male",
-        "value": 825,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of male applicants to Major 1."
-      },
-      "accepted_major_1_male": {
-        "id": "accepted_major_1_male",
-        "value": 512,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of male applicants accepted to Major 1."
-      },
-      "total_applicants_major_2_male": {
-        "id": "total_applicants_major_2_male",
-        "value": 373,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of male applicants to Major 2."
-      },
-      "accepted_major_2_male": {
-        "id": "accepted_major_2_male",
-        "value": 22,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of male applicants accepted to Major 2."
-      }
-    }
+    "answer": "The $95 \\%$ confidence interval for $p$ by Fisher's method is 0.473 to 0.997. The $95 \\%$ confidence interval for $p$ by the Mid-P method is 0.520 to 0.994. Confidence intervals calculated with WinPepi describe.exe version 1.5.1."
   },
   "meta_info": {
-    "index": "19.5",
+    "index": "16.11",
     "image": "",
-    "caption": "Sex bias in graduate school admissions?",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "480-481"
+    "caption": "Patient preference.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "366-366"
   },
   "sample_key": "311"
 }

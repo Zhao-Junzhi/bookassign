@@ -1,0 +1,16 @@
+{
+  "case_id": "book1_r1\\record_411.json",
+  "input": {
+    "background": "We have established for the smoking and lung cancer illustrative example that n=11, b=0.02284, s_{Y|X}=8.349, and s_X=378.451. Let us calculate a 95% confidence interval for the slope parameter β.",
+    "data": "",
+    "question": "Identify the t-value for a 95% confidence level with degrees of freedom n-2."
+  },
+  "output": {
+    "answer": "For 95% confidence, use t_{n-2,1-(α/2)} = t_{9,0.975} = 2.262"
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "670"
+}

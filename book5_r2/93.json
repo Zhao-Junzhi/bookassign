@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\041.json",
+  "case_id": "book5_r1\\032.json",
   "input": {
-    "background": "In the worked example of regression analysis (section 11.10.1) the $W^{\\prime}$ test for non-Normality of the residuals gave $\\mathrm{P}=0.03$.",
+    "background": "A survey was conducted to test the hypothesis that men with deep singing voices are likely to have higher levels of testosterone than men with higher voices. Professional and student male singers were asked about the number of brothers and sisters they had. The results for 195 singers with siblings are presented in a table. The author of the report performed a Chi-squared test and drew conclusions about the relationship between voice groups and sibling sex ratios.",
     "data": null,
-    "question": "Using the data in Table 11.6, carry out a regression of $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ on blood glucose."
+    "question": "Why is the quoted value of $X^2$ of 11.27 clearly wrong?"
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "The regression of $\\log _{\\mathrm{e}} V c f$ on blood glucose gives the equation\n\n$$\n\\log _e \\mathrm{Vcf}=0.115+0.0148 \\times \\text { blood glucose } .\n$$\n\nThe residual SD is 0.2167."
+    "answer": "The value of $X^2$ for part of the table cannot exceed the value for the whole table. The correct value for this comparison is $X^2=9.44$ on 2 degrees of freedom."
   },
   "meta_info": {
-    "index": "11.3",
+    "index": "10.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Relation between two continuous variables",
+    "chapter": "Comparing groups - categorical data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "323-323"
+    "page": "273-273"
   },
   "sample_key": "93"
 }

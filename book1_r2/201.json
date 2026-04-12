@@ -1,84 +1,20 @@
 {
-  "case_id": "book1_r1\\record_102.json",
+  "case_id": "book1_r1\\record_087.json",
   "input": {
-    "background": "The air quality data in Exercise 12.5 (Table 12.9) are associated with the summary statistics reported in Table 12.12.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.12 Means and standard deviations for Exercise 12.7.}\n\\begin{tabular}{lccc}\n\\multicolumn{4}{l}{ Particulate matter in air samples $\\left(\\mu \\mathrm{gms} / \\mathrm{m}^3\\\right)$} \\\\\nSite & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n& & & \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Determine the two-sided $P$-value for testing $H_0: \\mu_1=\\mu_2$."
+    "background": "The freeware program StaTable can determine exact probabilities for t-random variables. You can also use WinPepi WhatIs.exe or Microsoft Excel's TDIST function for this purpose.",
+    "data": "",
+    "question": "Use one of these software applications to find Pr(T_8 ≥ 2.98)."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "$t_{\\text {stat }}=\\frac{36.25-36.00}{5.247}=0.05$. The one-side $P$-value (by Table $C$ in the Appendix) is greater 0.25 . Therefore, the two-tailed $P>0.50$. Using a software utility (www.cytel.com/Products/StaTable/),$P=0.96$. There is no significant difference in means.",
-    "variable": {
-      "site": {
-        "id": "site",
-        "value": [
-          1,
-          2
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The location where air samples were collected."
-      },
-      "n": {
-        "id": "n",
-        "value": [
-          8,
-          8
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of air samples collected at each site."
-      },
-      "mean": {
-        "id": "mean",
-        "value": [
-          36.25,
-          36.0
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average particulate matter concentration at each site."
-      },
-      "std_dev": {
-        "id": "std_dev",
-        "value": [
-          14.56,
-          2.88
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of particulate matter concentration at each site."
-      },
-      "mu_1": {
-        "id": "mu_1",
-        "value": null,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The population mean of particulate matter concentration at site 1."
-      },
-      "mu_2": {
-        "id": "mu_2",
-        "value": null,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The population mean of particulate matter concentration at site 2."
-      },
-      "p_value": {
-        "id": "p_value",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The two-sided p-value for testing the null hypothesis that the population means are equal."
-      }
-    }
+    "answer": "Pr(T_8 ≥ 2.98) = 0.0088"
   },
   "meta_info": {
-    "index": "12.7",
+    "index": "11.7",
     "image": "",
-    "caption": "Air samples.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.5 CONDITIONS FOR INFERENCE",
-    "page": "249-249"
+    "caption": "Software utility programs.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.2 STUDENT’S T DISTRIBUTIONS",
+    "page": "214-214"
   },
   "sample_key": "201"
 }

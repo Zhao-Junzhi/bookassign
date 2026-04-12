@@ -1,0 +1,91 @@
+============================================================
+习题判断处理报告
+============================================================
+处理时间: 2026-04-12 01:02:37
+输入目录: d:\place\study\bookassign\book4_r2
+输出目录: d:\place\study\bookassign\book4_r3
+总耗时: 311.48 秒
+总文件数: 76
+成功处理: 0
+处理失败: 76
+成功率: 0.00%
+
+失败文件列表:
+------------------------------------------------------------
+  - 4.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657399409871158268d9d60zRlQ0gj)', 'type': 'new_api_error'}}
+  - 60.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657399472658548268d9d6qdKthHyT)', 'type': 'new_api_error'}}
+  - 13.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657425180046988268d9d6uNnbAM42)', 'type': 'new_api_error'}}
+  - 64.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657427646452968268d9d6JymOtpJe)', 'type': 'new_api_error'}}
+  - 36.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657456989063978268d9d6dztyAK5z)', 'type': 'new_api_error'}}
+  - 27.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657495852387098268d9d6mU3wye0I)', 'type': 'new_api_error'}}
+  - 54.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657523416718128268d9d6vRCIqBzV)', 'type': 'new_api_error'}}
+  - 46.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657571915777168268d9d6dd7LCSmj)', 'type': 'new_api_error'}}
+  - 50.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111657585235559468268d9d6yLUDU3Hb)', 'type': 'new_api_error'}}
+  - 67.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658056398438388268d9d6Pshq7Vf0)', 'type': 'new_api_error'}}
+  - 33.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658056556951508268d9d6WOnEyQEJ)', 'type': 'new_api_error'}}
+  - 75.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658073458229888268d9d6sz1EkUqr)', 'type': 'new_api_error'}}
+  - 20.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658093703217158268d9d6HAZMni3d)', 'type': 'new_api_error'}}
+  - 1.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165806141203088268d9d61ueKdeZy)', 'type': 'new_api_error'}}
+  - 71.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658107148950058268d9d6Vm3oAV0O)', 'type': 'new_api_error'}}
+  - 14.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658162238000658268d9d6s4UZPQoH)', 'type': 'new_api_error'}}
+  - 37.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658212921363318268d9d6sGSd0APF)', 'type': 'new_api_error'}}
+  - 68.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165821640923988268d9d6O3eBaE7V)', 'type': 'new_api_error'}}
+  - 34.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658242242120568268d9d6kPCStuPA)', 'type': 'new_api_error'}}
+  - 65.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658279496773608268d9d6q7UPut3a)', 'type': 'new_api_error'}}
+  - 63.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658289929244168268d9d6D2SlWSIW)', 'type': 'new_api_error'}}
+  - 47.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658294998765528268d9d6a40fkU7S)', 'type': 'new_api_error'}}
+  - 10.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658326479614848268d9d6jhNnKJDP)', 'type': 'new_api_error'}}
+  - 30.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658339053509548268d9d6WVubMkrH)', 'type': 'new_api_error'}}
+  - 58.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658356044756608268d9d6p0fJsQbR)', 'type': 'new_api_error'}}
+  - 61.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658391358933188268d9d6VHW6vCv8)', 'type': 'new_api_error'}}
+  - 51.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658394011734858268d9d6n42Nk5hT)', 'type': 'new_api_error'}}
+  - 55.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658395841629758268d9d6jPWi5XmF)', 'type': 'new_api_error'}}
+  - 24.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165842683512498268d9d69tNnn64I)', 'type': 'new_api_error'}}
+  - 28.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658467292000068268d9d6idcz5QIr)', 'type': 'new_api_error'}}
+  - 21.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658519181170768268d9d6DXZzN9vq)', 'type': 'new_api_error'}}
+  - 15.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658522716824128268d9d6G21wAGUD)', 'type': 'new_api_error'}}
+  - 48.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658553319316388268d9d6I88niqLm)', 'type': 'new_api_error'}}
+  - 43.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658554547269208268d9d6v22rKqgk)', 'type': 'new_api_error'}}
+  - 72.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658564950169188268d9d6PXVgqqce)', 'type': 'new_api_error'}}
+  - 18.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111658565168756438268d9d6Tddmn9b5)', 'type': 'new_api_error'}}
+  - 35.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659076274365848268d9d6t4OysHFb)', 'type': 'new_api_error'}}
+  - 62.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165908373859728268d9d6yaj9se06)', 'type': 'new_api_error'}}
+  - 11.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659094348681698268d9d6aKqgYERS)', 'type': 'new_api_error'}}
+  - 38.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659104216128558268d9d6MbuShBTa)', 'type': 'new_api_error'}}
+  - 9.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659038576232168268d9d6P9hD2f3R)', 'type': 'new_api_error'}}
+  - 69.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659096674405208268d9d6FO2fJHyh)', 'type': 'new_api_error'}}
+  - 45.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659121997711948268d9d6uzLRerQy)', 'type': 'new_api_error'}}
+  - 40.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659202092983948268d9d6kqoCLjiH)', 'type': 'new_api_error'}}
+  - 74.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659201881454858268d9d6nf4yiw2A)', 'type': 'new_api_error'}}
+  - 59.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659244772664198268d9d6GbT4VeLV)', 'type': 'new_api_error'}}
+  - 56.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165927555627268268d9d6BLyn5Kla)', 'type': 'new_api_error'}}
+  - 66.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659284116542038268d9d6os17gGt1)', 'type': 'new_api_error'}}
+  - 31.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659257919614008268d9d64rsDy97D)', 'type': 'new_api_error'}}
+  - 25.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659315662332628268d9d6duIwOoXy)', 'type': 'new_api_error'}}
+  - 52.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659344058168048268d9d6470AvuEU)', 'type': 'new_api_error'}}
+  - 42.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659356246461618268d9d6ZaAUkI1T)', 'type': 'new_api_error'}}
+  - 29.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659373609883718268d9d6Cgaxbwdx)', 'type': 'new_api_error'}}
+  - 22.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659379781863258268d9d6lW6vbSfZ)', 'type': 'new_api_error'}}
+  - 49.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659452441220718268d9d6rxWUYFWU)', 'type': 'new_api_error'}}
+  - 73.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659464285110108268d9d6HJOCJtOP)', 'type': 'new_api_error'}}
+  - 76.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659467149870438268d9d6HBnWci4I)', 'type': 'new_api_error'}}
+  - 19.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659483628865288268d9d6QQ2R2txE)', 'type': 'new_api_error'}}
+  - 44.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659507714037248268d9d6LzXMFbYF)', 'type': 'new_api_error'}}
+  - 16.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111659507485750098268d9d6oOlVg84v)', 'type': 'new_api_error'}}
+  - 41.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411165957734097818268d9d69jFzUbeH)', 'type': 'new_api_error'}}
+  - 12.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700011059167868268d9d6rW8RITc0)', 'type': 'new_api_error'}}
+  - 32.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700011084568798268d9d6YRZn23OU)', 'type': 'new_api_error'}}
+  - 3.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700012309060758268d9d67KdYMObB)', 'type': 'new_api_error'}}
+  - 7.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 20260411170003394293188268d9d6ijYLg0mD)', 'type': 'new_api_error'}}
+  - 57.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 2026041117000940645428268d9d6IgGZ4R25)', 'type': 'new_api_error'}}
+  - 26.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700129719453818268d9d6pIA5mMaM)', 'type': 'new_api_error'}}
+  - 23.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700134935983158268d9d6Gjvd2CVf)', 'type': 'new_api_error'}}
+  - 6.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700203057982548268d9d6PgsgvzPk)', 'type': 'new_api_error'}}
+  - 5.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700231782626998268d9d6IMKR2U9z)', 'type': 'new_api_error'}}
+  - 39.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700228128014658268d9d6tvowktX4)', 'type': 'new_api_error'}}
+  - 2.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700262160051648268d9d6KqiGvEv4)', 'type': 'new_api_error'}}
+  - 53.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700299666214668268d9d6yhg2Y7Es)', 'type': 'new_api_error'}}
+  - 70.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111700303344296658268d9d6RAXlWCrn)', 'type': 'new_api_error'}}
+  - 8.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111701411489506598268d9d6VJdJptcW)', 'type': 'new_api_error'}}
+  - 17.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -72757 (request id: 202604111702379225246118268d9d6TvrfCT7w)', 'type': 'new_api_error'}}
+============================================================

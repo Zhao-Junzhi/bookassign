@@ -1,58 +1,26 @@
 {
-  "case_id": "book1_r1\\record_364.json",
+  "case_id": "book1_r1\\record_159.json",
   "input": {
-    "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15.",
-    "data": "",
-    "question": "Let us consider the standard errors of means for SRSs of WAISs with n=1, n=4, and n=16."
+    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Table 19.10 A cross tabulates acceptance by gender for both majors combined. What proportion of male applicants were accepted? What proportion of female applicants were accepted? What is your initial impression?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "- The standard error of the mean when n=1 is SE_{\\bar{x}}=\\frac{\\sigma}{n}=\\frac{15}{\\sqrt{1}}=15.\n- The standard error of the mean when n=4 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{4}}=7.5.\n- The standard error of the mean based when n=16 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{16}}=3.75.",
-    "variable": {
-      "WAIS_mean": {
-        "id": "WAIS_mean",
-        "value": 100,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean of the Wechsler Adult Intelligence Scores (WAISs) distribution."
-      },
-      "WAIS_std_dev": {
-        "id": "WAIS_std_dev",
-        "value": 15,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the Wechsler Adult Intelligence Scores (WAISs) distribution."
-      },
-      "sample_size_n1": {
-        "id": "sample_size_n1",
-        "value": 1,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size for the first simple random sample (SRS) of WAISs."
-      },
-      "sample_size_n4": {
-        "id": "sample_size_n4",
-        "value": 4,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size for the second simple random sample (SRS) of WAISs."
-      },
-      "sample_size_n16": {
-        "id": "sample_size_n16",
-        "value": 16,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size for the third simple random sample (SRS) of WAISs."
+    "answer": {
+      "Crude analysis": {
+        "Proportion of males accepted": "534 / 1198 = 0.4457 or about 45%",
+        "Proportion of females accepted": "113 / 449 = 0.2517 or about 25%",
+        "Relative risk": "RR = 0.4457 / 0.2517 = 1.77"
       }
     }
   },
   "meta_info": {
-    "index": "",
+    "index": "19.5",
     "image": "",
-    "caption": "Standard error of the mean and sample size (WAIS).",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.2 Sampling Behavior of a Mean",
-    "page": "164-164"
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
   },
   "sample_key": "403"
 }

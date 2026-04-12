@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_374.json",
+  "case_id": "book1_r1\\record_305.json",
   "input": {
-    "background": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population.",
+    "background": "The Multiple Risk Factor Intervention Trial (MRFIT is pronounced Mister Fit) was conducted in the late 1970s and early 1980s to test the effectiveness of coronary disease prevention programs. Study subjects were randomly assigned to either a treatment group that received special interventions intended to reduce the risk of heart disease or a control group that received their usual sources of health care.",
     "data": "",
-    "question": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the third sample with $\\bar{x}_3=184$."
+    "question": "What did the study find regarding heart disease mortality in both groups?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "For sample 3, the confidence interval is $\\bar{x}_3 \\pm m=184 \\pm 3=181$ to 187 (pounds).",
-    "variable": {
-      "sigma": {
-        "id": "sigma",
-        "value": 40,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the log-Normal distribution of body weight."
-      },
-      "n": {
-        "id": "n",
-        "value": 712,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The sample size for each of the three independent simple random samples (SRS)."
-      },
-      "x_bar_3": {
-        "id": "x_bar_3",
-        "value": 184,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The sample mean of the third sample."
-      },
-      "mu": {
-        "id": "mu",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The population mean weight we wish to estimate."
-      }
-    }
+    "answer": "The study found that heart disease mortality declined significantly in both groups."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": " 95 % confidence intervals for $\\mu, \\sigma$ known (Body weight, 20-29-year-old males).",
-    "chapter": "BASICS OF CONFIDENCE INTERVALS",
-    "section": "10.2 Confidence Intervals for $\\\\mu$ When $\\\\sigma$ Is Known",
-    "page": "200-200"
+    "caption": "Multiple Risk Factor Intervention Trail (MRFIT).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 Comparative Studies",
+    "page": "24-24"
   },
   "sample_key": "425"
 }

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_129.json",
+  "input": {
+    "background": "According to an April 29, 1998, New York Times article, a nationwide telephone survey conducted for a managed alternative care company found that of 1500 adults interviewed, 660 said they would use alternative medicine if traditional medical care failed to produce the desired results.",
+    "data": "",
+    "question": "What is the 95% confidence interval for the proportion of adults who would use alternative medicine if traditional medical care failed?"
+  },
+  "output": {
+    "answer": "The 95% confidence interval for p by Wilson's (computed with WinPepi describe.exe 1.5.1) is 0.415 to 0.465."
+  },
+  "meta_info": {
+    "index": "16.21",
+    "image": "",
+    "caption": "Alternative medicine.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  },
+  "sample_key": "324",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1003,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1002,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1003,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1002,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

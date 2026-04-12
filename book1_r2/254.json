@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_130.json",
+  "case_id": "book1_r1\\record_107.json",
   "input": {
-    "background": "Among the 33 perinatal growth failure cases discussed in the prior exercise, eight (24.2%) had very-low intelligence test scores when tested at 8 years of age. In normal birthweight babies, we'd expect 2.5% of the population to exhibit this trait.",
+    "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3 (s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3 (s2=0.025 g/cm^3).",
     "data": "",
-    "question": "Perform a one-sided exact binomial test to address whether the observation is statistically significant. Show all hypothesis-testing steps."
+    "question": "Based on the confidence interval you just calculated, would you reject or retain H0: μ1−μ2=0 at α=0.05?"
   },
   "output": {
-    "method": "假设检验",
-    "answer": "A. Hypotheses. H_0: p=0.025 versus H_a: p>0.025\nB. Test statistic, x=8\nC. P-value. P=Pr(X >= 8 | X ~ b(33,0.025)) ≈ 0.0000",
-    "variable": {
-      "perinatal_growth_failure_cases": {
-        "id": "perinatal_growth_failure_cases",
-        "value": 33,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of perinatal growth failure cases considered in the study."
-      },
-      "very_low_intelligence_cases": {
-        "id": "very_low_intelligence_cases",
-        "value": 8,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of perinatal growth failure cases with very-low intelligence test scores at 8 years of age."
-      },
-      "expected_very_low_intelligence_rate": {
-        "id": "expected_very_low_intelligence_rate",
-        "value": 0.025,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The expected rate of very-low intelligence test scores in normal birthweight babies."
-      }
-    }
+    "answer": "You would retain H0 because the 95% confidence interval includes 0."
   },
   "meta_info": {
-    "index": "16.23",
+    "index": "12.17",
     "image": "",
-    "caption": "Perinatal growth failure.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.6 SAMPLE SIZE AND POWER",
-    "page": "372-372"
+    "caption": "Bone density in newborns.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-257"
   },
   "sample_key": "254"
 }

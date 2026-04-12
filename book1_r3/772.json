@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_504.json",
+  "input": {
+    "background": "Among U.S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+    "data": "",
+    "question": "What is the probability a sample will show a prevalence difference of 0.26 or less?"
+  },
+  "output": {
+    "answer": "Pr(p̂1 - p̂2 ≤ 0.26) = Pr(Z ≤ [(0.26 - 0.28) / 0.01859]) = Pr(Z ≤ -1.08) = 0.1400 (from Table B in the Appendix)."
+  },
+  "meta_info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  },
+  "sample_key": "772",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1108,
+    "total_tokens": 1151,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1092,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1108,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1092,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_127.json",
+  "input": {
+    "background": "An oncologist treats 40 kidney cancer cases. Sixteen of the cases survive at least 5 years. Historically, one in five cases were expected to survive this long. Test whether there has been a significant improvement in survival.",
+    "data": "",
+    "question": "Calculate the $P$-value and interpret its significance."
+  },
+  "output": {
+    "answer": "$P=0.00158$ by Table F, providing highly significant evidence against $H_0$."
+  },
+  "meta_info": {
+    "index": "16.17",
+    "image": "",
+    "caption": "Kidney cancer survival.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  },
+  "sample_key": "321",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 593,
+    "total_tokens": 620,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 593,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

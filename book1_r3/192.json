@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_083.json",
+  "input": {
+    "background": "A study takes an SRS from a population of full-term infants. The standard deviation of birth weights in this population is 2 pounds. Calculate 95% confidence intervals for μ for different sample sizes and sample means.",
+    "data": "",
+    "question": "Calculate the 95% confidence interval for μ when n=36 and \\bar{x}=7.0 pounds."
+  },
+  "output": {
+    "answer": "7.0 ± (1.96) * (2 / √36) = 7.0 ± 0.653 = (6.3 to 7.7)"
+  },
+  "meta_info": {
+    "index": "10.3",
+    "image": "",
+    "caption": "Newborn weight.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "203-203"
+  },
+  "sample_key": "192",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1114,
+    "total_tokens": 1157,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 999,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1114,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 999,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

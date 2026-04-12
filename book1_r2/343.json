@@ -1,38 +1,20 @@
 {
-  "case_id": "book1_r1\\record_319.json",
+  "case_id": "book1_r1\\record_137.json",
   "input": {
-    "background": "What is the five-point summary and IQR of this small data set? 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94",
+    "background": "Exercise 17.4 considered a randomized trial of smoking cessation in which treatment with bupropion in combination with a nicotine patch was compared to use of a nicotine patch alone. The treatment group had success in 87 of 245 participants. The control group had successes in 40 of 244 participants.",
     "data": "",
-    "question": "What is the five-point summary of the data set?"
+    "question": "Why is this confidence interval more useful than the hypothesis test results calculated in Exercise 17.4?"
   },
   "output": {
-    "method": "分布范围测度",
-    "answer": "The five-point summary is 1.47, 2.21, 3.43, 3.76, 3.94.",
-    "variable": {
-      "data_set": {
-        "id": "data_set",
-        "value": [
-          1.47,
-          2.06,
-          2.36,
-          3.43,
-          3.74,
-          3.78,
-          3.94
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The small data set for which the five-point summary and IQR are to be calculated."
-      }
-    }
+    "answer": "What useful information do these statistics add...? The size of the effect is estimated. (The hypothesis test merely addressed chance as an explanation for any effect.)"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.13",
     "image": "",
-    "caption": "JQR (n = 7).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.6 BOXPLOTS",
-    "page": "74-74"
+    "caption": "Smoking cessation trial.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "403-403"
   },
   "sample_key": "343"
 }

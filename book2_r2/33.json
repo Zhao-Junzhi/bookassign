@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\013.json",
+  "input": {
+    "background": "A manufacturer of industrial wheels suspects that profitable orders are being lost due to the long time taken to develop price quotes for potential customers. To investigate, 50 requests for price quotes were randomly selected from the set of all quotes made last year, and the processing time was determined for each quote. Each quote was classified as 'lost' or 'not lost' based on whether the customer placed an order after receiving a price quote.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline \\multicolumn{6}{|l|}{Table 2.4 Price Quote Processing Time (Days)} \\\\\n\\hline Request Number & Processing Time & Lost? & Request Number & Processing Time & Lost? \\\\\n\\hline 1 & 2.36 & No & 26 & 3.34 & No \\\\\n\\hline 2 & 5.73 & No & 27 & 6.00 & No \\\\\n\\hline 3 & 6.60 & No & 28 & 5.92 & No \\\\\n\\hline 4 & 10.05 & Yes & 29 & 7.28 & Yes \\\\\n\\hline 5 & 5.13 & No & 30 & 1.25 & No \\\\\n\\hline 6 & 1.88 & No & 31 & 4.01 & No \\\\\n\\hline 7 & 2.52 & No & 32 & 7.59 & No \\\\\n\\hline 8 & 2.00 & No & 33 & 13.42 & Yes \\\\\n\\hline 9 & 4.69 & No & 34 & 3.24 & No \\\\\n\\hline 10 & 1.91 & No & 35 & 3.37 & No \\\\\n\\hline 11 & 6.75 & Yes & 36 & 14.06 & Yes \\\\\n\\hline 12 & 3.92 & No & 37 & 5.10 & No \\\\\n\\hline 13 & 3.46 & No & 38 & 6.44 & No \\\\\n\\hline 14 & 2.64 & No & 39 & 7.76 & No \\\\\n\\hline 15 & 3.63 & No & 40 & 4.40 & No \\\\\n\\hline 16 & 3.44 & No & 41 & 5.48 & No \\\\\n\\hline 17 & 9.49 & Yes & 42 & 7.51 & No \\\\\n\\hline 18 & 4.90 & No & 43 & 6.18 & No \\\\\n\\hline 19 & 7.45 & No & 44 & 8.22 & Yes \\\\\n\\hline 20 & 20.23 & Yes & 45 & 4.37 & No \\\\\n\\hline 21 & 3.91 & No & 46 & 2.93 & No \\\\\n\\hline 22 & 1.70 & No & 47 & 9.95 & Yes \\\\\n\\hline 23 & 16.29 & Yes & 48 & 4.46 & No \\\\\n\\hline 24 & 5.52 & No & 49 & 14.32 & Yes \\\\\n\\hline 25 & 1.44 & No & 50 & 9.01 & No \\\\\n\\hline\n\\end{tabular}",
+    "question": "Use a statistical software package to create a frequency histogram for these data. Then shade the area under the histogram that corresponds to lost orders. Interpret the result."
+  },
+  "output": {
+    "answer": "We used SPSS to generate the frequency histogram in Figure 2.12. Note that 20 classes were formed by the SPSS program. The class intervals are (1.0-2.0), (2.0-3.0),..., (20.0-21.0). This histogram clearly shows the clustering of the measurements in the lower end of the distribution (between approximately 1 and 8 days), and the relatively few measurements in the upper end of the distribution (greater than 12 days). The shading of the area of the frequency histogram corresponding to lost orders (light grey bars) clearly indicates that they lie in the upper tail of the distribution."
+  },
+  "meta_info": {
+    "index": "2.2",
+    "img_in_question": null
+  },
+  "sample_key": "33"
+}

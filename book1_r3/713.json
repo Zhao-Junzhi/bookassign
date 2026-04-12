@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_426.json",
+  "input": {
+    "background": "We propose to calculate a 95% confidence interval for the risk difference in the estrogen trial presented earlier. We've established that a_1=751 and n_1=8506 in the treatment group. In the control group, a_2=623 and n_2=8102.",
+    "data": "",
+    "question": "What is the 95% confidence interval for the difference in proportions (p_1 - p_2)?"
+  },
+  "output": {
+    "answer": "The 95% confidence interval for p_1-p_2 = ã_p_1-ã_p_2 ± z * SE_{ã_p_1-ã_p_2} = (0.08839 - 0.07700) ± (1.96)(0.004271) = 0.01139 ± 0.00837 = (0.00302 to 0.01976), or approximately from 0.3% to 2.0%."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for risk difference.",
+    "chapter": "COMPARING TWo PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "378-379"
+  },
+  "sample_key": "713",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1130,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1129,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1130,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1129,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

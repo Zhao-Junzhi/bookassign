@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_395.json",
+  "input": {
+    "background": "Suppose you want to estimate μ1−μ2 with 95% confidence for a problem similar to the cholesterol illustrative example. You want your margin of error to be no greater than 0.25 mmol/L.",
+    "data": "",
+    "question": "Now suppose that you can recruit only 20 individuals into group 1. How many individuals will you now need in group 2?"
+  },
+  "output": {
+    "answer": "n2=(n * n1)/(2 * n1 - n)=(31 * 20)/(2 * 20 - 31)=68.9. Round this up to 69."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement for a confidence interval for $\\\\mu_1-\\\\mu_2$",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "251-251"
+  },
+  "sample_key": "629"
+}

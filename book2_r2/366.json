@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\138.json",
+  "input": {
+    "background": "Refer to the completely randomized design ANOVA conducted in Example 9.4. The question is whether the assumptions required for the test are approximately satisfied.",
+    "data": null,
+    "question": "How is the assumption of equal variances checked, and is it satisfied?"
+  },
+  "output": {
+    "answer": "The assumption of equal variances is checked using box plots in Figure 9.15. With the exception of a possible outlier for Brand D, the box plots show that the spread of the distance measurements is about the same for each brand. Therefore, the assumption of equal population variances for the brands is probably satisfied. However, ANOVA is not robust with respect to this assumption, but the effect is slight when sample sizes are equal, as in this experiment."
+  },
+  "meta_info": {
+    "index": "9.5",
+    "img_in_question": null
+  },
+  "sample_key": "366"
+}

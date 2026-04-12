@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_502.json",
+  "input": {
+    "background": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple (X ~ b(3, 0.25)).",
+    "data": "",
+    "question": "What is the variance of this random variable?"
+  },
+  "output": {
+    "answer": "σ² = n * p * q = (3)(0.25)(0.75) = 0.5625"
+  },
+  "meta_info": {
+    "index": "6.7",
+    "image": "",
+    "caption": "Tay-Sachs.",
+    "chapter": "6.5 Expected Value and Variance",
+    "section": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "page": "124-124"
+  },
+  "sample_key": "767",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 940,
+    "total_tokens": 983,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 939,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 940,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 939,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

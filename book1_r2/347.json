@@ -1,21 +1,20 @@
 {
-  "case_id": "book1_r1\\record_320.json",
+  "case_id": "book1_r1\\record_139.json",
   "input": {
-    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
-    "question": "Compare the variability of data between site 1 and site 2 using IQR."
+    "background": "The Scandinavian simvastatin survival study (4S) was a randomized clinical trial designed to evaluate the effects of the cholesterol-lowering agent simvastatin in patients with coronary heart disease. Over 5.4 years of follow-up, the treatment group consisting of 2221 individuals experienced 111 fatal heart attacks. The placebo group of 2223 individuals experienced 189 such events.",
+    "data": "",
+    "question": "Test the difference for significance."
   },
   "output": {
-    "method": "分散程度测度",
-    "answer": "Data are less variable at site 2 (IQR: 14 vs. 5)."
+    "answer": "A. Hypotheses. $H_0: p_1=p_2$ versus $H_{\\mathrm{a}}: p_1 \\neq p_2$ B. Test statistic. $z_{\\text {stat }}=4.66$ C. $P$-value. $P$ (two-tailed) $=0.0000032$ (highly significant) D. Significance level (optional). The evidence against the null hypothesis is significant at $\\alpha=0.01$."
   },
   "meta_info": {
-    "index": "",
+    "index": "17.17",
     "image": "",
-    "caption": "IQRs (Air samples data).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.5 SPREAD: QUARTILES ",
-    "page": "75-75"
+    "caption": "4S coronary mortality.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
   },
   "sample_key": "347"
 }

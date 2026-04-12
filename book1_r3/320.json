@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_127.json",
+  "input": {
+    "background": "An oncologist treats 40 kidney cancer cases. Sixteen of the cases survive at least 5 years. Historically, one in five cases were expected to survive this long. Test whether there has been a significant improvement in survival.",
+    "data": "",
+    "question": "Determine the test statistic and explain why the $z$ test can be used."
+  },
+  "output": {
+    "answer": "The $z$ test can be used because $n p_0 q_0=(40)(0.2)(0.8)=6.4$. The observed proportion $\\hat{p}=16 / 40=0.4$. The $z_{\\text {stat }}=\\frac{0.4-0.2}{\\sqrt{\\frac{0.2 \\cdot 0.8}{40}}}=3.16$."
+  },
+  "meta_info": {
+    "index": "16.17",
+    "image": "",
+    "caption": "Kidney cancer survival.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
+  },
+  "sample_key": "320",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1086,
+    "total_tokens": 1129,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1077,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1086,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1077,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_042.json",
+  "input": {
+    "background": "A small data set $(n=9)$ has the following values $\\{3.5,8.1,7.4,4.0,0.7,4.9,8.4,7.0,5.5\\}$.",
+    "data": "",
+    "question": "Plot the data as a stemplot."
+  },
+  "output": {
+    "answer": "The stemplot is mound shaped and symmetrical. $0 * \\mid 0$ $0 t \\mid 3$ Of|445 0s|77 $0 . \\mid 88$ $\\times 1$"
+  },
+  "meta_info": {
+    "index": "4.19",
+    "image": "",
+    "caption": "What would you report?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "87-87"
+  },
+  "sample_key": "92",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1061,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 997,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1061,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 997,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

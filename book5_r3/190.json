@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\064.json",
+  "input": {
+    "background": "The mean and standard deviation of the heights (in cm) of adult men and women in a population are as follows:\n\n|        | Mean  | SD   |\n|--------|-------|------|\n| Men    | 179.1 | 5.84 |\n| Women  | 171.7 | 5.75 |\n\nAssuming that for both sexes height has a Normal distribution.",
+    "data": null,
+    "question": "What proportion of women are above the average height of men?"
+  },
+  "output": {
+    "answer": "Assuming a Normal distribution, the average height of men can be expressed as (179.1-171.7) / 5.75 standard deviations above the mean height of women. This value is 1.287. From Table B1 the upper tail areas corresponding to standard Normal deviates of 1.25 and 1.30 are 0.1056 and 0.0968, so the required value is 0.10 or 10%."
+  },
+  "meta_info": {
+    "index": "16.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "499-499"
+  },
+  "sample_key": "190",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1076,
+    "total_tokens": 1119,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1075,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1076,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1075,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

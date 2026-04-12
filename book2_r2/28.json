@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\010.json",
+  "input": {
+    "background": "An article in the New York Times considered whether motorcyclists should be required by law to wear helmets. The editor of a magazine for Harley-Davidson bikers presented a study showing that nine states without helmet laws had a lower fatality rate (3.05 deaths per 10,000 motorcycles) than states mandating helmets (3.38). Additionally, a survey of 2,500 bikers at a rally found that 98% of respondents opposed helmet laws.",
+    "data": null,
+    "question": "Based on the provided information, do you think it is safer to ride a motorcycle without a helmet?"
+  },
+  "output": {
+    "answer": "You can use statistical thinking to critically evaluate the study. For example, before evaluating the validity of the 98% estimate, you would want to know how the data were collected. If the survey was conducted, it's possible that the 2,500 bikers in the sample were not selected at random from the target population of all bikers, but rather were 'self-selected.' (Remember, they were all attending a rally—a rally likely for bikers who oppose the law.) If the respondents were likely to have strong opinions regarding the helmet law (e.g., strongly oppose the law), the resulting estimate is probably biased high."
+  },
+  "meta_info": {
+    "index": "1.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Biased Sample-Motorcycle Helmet Law",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.7 Critical Thinking with Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "21-21"
+  },
+  "sample_key": "28"
+}

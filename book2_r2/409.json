@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\153.json",
+  "input": {
+    "background": "Refer to the sales-appraisal simple linear regression in previous examples. The task is to find a $95 \\%$ confidence interval for the mean monthly sales when the appliance store spends $\\$ 400$ on advertising.",
+    "data": "null",
+    "question": "What is the confidence interval formula for the mean monthly sales when the store spends $\\$ 400$ on advertising?"
+  },
+  "output": {
+    "answer": "The confidence interval for the mean value of $y$ is $$\\hat{y} \\pm t_{\\alpha / 2} s \\sqrt{\\frac{1}{n}+\\frac{\\left(x_{\\mathrm{p}}-\\bar{x}\\right)^2}{\\mathrm{SS}_{x x}}}=\\hat{y} \\pm t_{.025} s \\sqrt{\\frac{1}{5}+\\frac{(4-\\bar{x})^2}{\\mathrm{SS}_{x x}}}$$ where $t_{, 025}$ is based on $n-2=5-2=3$ degrees of freedom."
+  },
+  "meta_info": {
+    "index": "11.6",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "409"
+}

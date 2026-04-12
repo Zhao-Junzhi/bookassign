@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_421.json",
+  "input": {
+    "background": "A prior illustrative example in this chapter had us conduct a two-sided test of H_0: p = 0.21 using a sample of n = 57.",
+    "data": "",
+    "question": "How large a sample is needed to detect a proportion of 0.31 in the population (i.e., p_1=0.31) at α=0.05 (two sided) with 90% power?"
+  },
+  "output": {
+    "answer": "n = ( (z_{1-α/2} * sqrt(p_0 * q_0) + z_{1-β} * sqrt(p_1 * q_1)) / (p_1 - p_0) )^2 = ( (1.96 * sqrt((0.21)(0.79)) + 1.28 * sqrt((0.31)(0.69))) / (0.31 - 0.21) )^2 = 193.3. The sample should include 194 observations."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, hypothesis test.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "368-368"
+  },
+  "sample_key": "702",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1161,
+    "total_tokens": 1204,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1134,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1161,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1134,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

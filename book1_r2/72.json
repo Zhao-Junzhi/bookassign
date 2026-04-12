@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_042.json",
+  "case_id": "book1_r1\\record_025.json",
   "input": {
-    "background": "A small data set $(n=9)$ has the following values $\\{3.5,8.1,7.4,4.0,0.7,4.9,8.4,7.0,5.5\\}$.",
+    "background": "The following stemplot has 18 observations. Prove that the value 152 in this data set is an outside value.",
     "data": "",
-    "question": "Report an appropriate measures of central location and spread for the data."
+    "question": "What is the 5-point summary of the data set?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Symmetry is confirmed by the fact that both $\\bar{x}$ and the median are equal to 5.5. Therefore, the mean and standard deviation should do a good job summarizing this distribution.",
-    "variable": {
-      "data_values": {
-        "id": "data_values",
-        "value": [
-          3.5,
-          8.1,
-          7.4,
-          4.0,
-          0.7,
-          4.9,
-          8.4,
-          7.0,
-          5.5
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The set of numerical values for which measures of central location and spread are to be calculated."
-      }
-    }
+    "answer": "5-point summary: 88, 101, 114, 120, 152"
   },
   "meta_info": {
-    "index": "4.19",
+    "index": "4.5",
     "image": "",
-    "caption": "What would you report?",
+    "caption": "Outside?",
     "chapter": "SUMMARY STATISTICS",
-    "section": "4.8 SELECTING SUMMARY STATISTICS",
-    "page": "87-87"
+    "section": "4.6 BOXPLOTS",
+    "page": "77-78"
   },
   "sample_key": "72"
 }

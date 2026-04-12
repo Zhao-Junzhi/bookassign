@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\155.json",
+  "input": {
+    "background": "A collector of antique grandfather clocks sold at auction believes that the price received for the clocks depends on both the age of the clocks and the number of bidders at the auction. He hypothesizes the first-order model y = β0 + β1x1 + β2x2 + ε, where y is the auction price (dollars), x1 is the age of the clock (years), and x2 is the number of bidders. A sample of 32 auction prices of grandfather clocks, along with their age and the number of bidders, is given in Table 12.1.",
+    "data": "\\begin{table}[htbp]\n  \\centering\n  \\caption{Auction Price Data}\n  \\label{tab:auction_price}\n  \\begin{tabular}{ccc|ccc}\n    Age, $x_1$ & Number of Bidders, $x_2$ & Auction Price, $y$ & Age, $x_1$ & Number of Bidders, $x_2$ & Auction Price, $y$ \\\n    \\hline\n    127 & 13 & \\$1,235 & 170 & 14 & \\$2,131 \\\n    115 & 12 & 1,080 & 182 & 8 & 1,550 \\\n    127 & 7 & 845 & 162 & 11 & 1,884 \\\n    150 & 9 & 1,522 & 184 & 10 & 2,041 \\\n    156 & 6 & 1,047 & 143 & 6 & 845 \\\n    182 & 11 & 1,979 & 159 & 9 & 1,483 \\\n    156 & 12 & 1,822 & 108 & 14 & 1,055 \\\n    132 & 10 & 1,253 & 175 & 8 & 1,545 \\\n    137 & 9 & 1,297 & 108 & 6 & 729 \\\n    113 & 9 & 946 & 179 & 9 & 1,792 \\\n    137 & 15 & 1,713 & 111 & 15 & 1,175 \\\n    117 & 11 & 1,024 & 187 & 8 & 1,593 \\\n    137 & 8 & 1,147 & 111 & 7 & 785 \\\n    153 & 6 & 1,092 & 115 & 7 & 744 \\\n    117 & 13 & 1,152 & 194 & 5 & 1,356 \\\n    126 & 10 & 1,336 & 168 & 7 & 1,262 \\\n  \\end{tabular}\n\\end{table}",
+    "question": "Use the method of least squares to estimate the unknown parameters β0, β1, and β2 of the model."
+  },
+  "output": {
+    "answer": "The model hypothesized is fit to the data of Table 12.1 with Minitab. A portion of the printout is reproduced in Figure 12.2. The least squares estimates of the β parameters (highlighted) are β̂0 = -1339, β̂1 = 12.74, and β̂2 = 85.95. Therefore, the equation that minimizes SSE for this data set (i.e., the least squares prediction equation) is ŷ = -1339 + 12.74x1 + 85.95x2."
+  },
+  "meta_info": {
+    "index": "12.1",
+    "img_in_question": null
+  },
+  "sample_key": "415"
+}

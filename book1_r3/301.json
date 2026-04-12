@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_121.json",
+  "input": {
+    "background": "A survey in the early 1990s found that 170 of 2,673 individuals (6.4%) reported having two or more sexual partners in the prior 12 months. An earlier study from the 1970s suggested that the prevalence of this attribute in the population was 7.5%. The goal is to determine if the observed proportion is significantly different from the prior prevalence using a two-sided alternative hypothesis.",
+    "data": "",
+    "question": "Check if the sample size is large enough to use the z-test and calculate the test statistic."
+  },
+  "output": {
+    "answer": "We check the $n p q$ rule: $n p_0 q_0=2673(0.075)(0.925)=185$, which is large enough. The test statistic is calculated as follows: $$ S E_p=\\sqrt{\\frac{0.075 \\cdot 0.925}{2673}}=0.005095 $$ $$ z_{\\text {stat }}=\\frac{0.063598-0.075}{0.005095}=-2.24 $$"
+  },
+  "meta_info": {
+    "index": "16.5",
+    "image": "",
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.3 HYPOTHESIS TEST, NORMAL APPROXIMATION",
+    "page": "357-357"
+  },
+  "sample_key": "301",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1171,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1170,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1171,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1170,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

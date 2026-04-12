@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\067.json",
+  "case_id": "book5_r1\\057.json",
   "input": {
-    "background": "The systolic blood pressure (SBP) of 50 pregnant women was measured simultaneously in the same arm using intra-arterial measurement (direct) and a sphygmomanometer (indirect). Arm circumference and weight were measured because there was some suggestion that they might affect the difference between the two measurements. The data are shown in the following table.",
-    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & Age & Weight (kg) & Arm circumference (cm) & Systolic B indirect (mm Hg) & BP direct (mm Hg) & Diff (I-D) \\\\\n\\hline 1 & 32 & 78.2 & 29 & 115 & 127 & -12 \\\\\n\\hline 2 & 25 & 67.8 & 25 & 122 & 147 & -25 \\\\\n\\hline 3 & 35 & 71.7 & 26 & 118 & 144 & -26 \\\\\n\\hline 4 & 41 & 60.8 & 24 & 127 & 158 & -31 \\\\\n\\hline 5 & 30 & 78.7 & 33 & 110 & 125 & -15 \\\\\n\\hline 6 & 29 & 87.8 & 31 & 146 & 131 & 15 \\\\\n\\hline 7 & 20 & 68.9 & 26 & 127 & 127 & 0 \\\\\n\\hline 8 & 38 & 70.5 & 25 & 126 & 126 & 0 \\\\\n\\hline 9 & 31 & 68.0 & 29 & 81 & 97 & -16 \\\\\n\\hline 10 & 39 & 72.6 & 28 & 127 & 140 & -13 \\\\\n\\hline 11 & -36 & 53.3 & 31 & 127 & 132 & -5 \\\\\n\\hline 12 & 23 & 53.3 & 23 & 80 & 85 & -5 \\\\\n\\hline 13 & 25 & 46.0 & 22 & 89 & 116 & -27 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & Age & Weight (kg) & Arm circumference. (cm) & Systolic B indirect ( mm Hg ) & BP direct ( mm Hg ) & Diff (I-D) \\\\\n\\hline 14 & 35 & 65.9 & 26 & 136 & 133 & 3 \\\\\n\\hline 15 & 26 & 68.0 & 26 & 105 & 107 & -2 \\\\\n\\hline 16 & 23 & 73.0 & 29. & 99 & 121 & -22 \\\\\n\\hline 17 & 19 & 65.6 & 26 & 129 & 124 & 5 \\\\\n\\hline 18 & 21 & 59.9 & 25 & 98 & 98 & 0 \\\\\n\\hline 19 & 31 & 77.8 & 29 & 115 & 113 & 2 \\\\\n\\hline 20 & 30 & 82.0 & 31 & 169 & 165 & 4 \\\\\n\\hline 21 & 39 & 65.8 & 26 & 107 & 101 & 6 \\\\\n\\hline 22 & 30 & 63.5 & 25 & 166 & 173 & -7 \\\\\n\\hline 23 & 35 & 63.6 & 28 & 93 & 99 & -6 \\\\\n\\hline 24 & 34 & 73.6 & 27 & 115 & 122 & -7 \\\\\n\\hline 25 & 30 & 62.1 & 25 & 93 & 116 & -23 \\\\\n\\hline 26 & 26 & 81.1 & 33 & 118 & 123 & -5 \\\\\n\\hline 27 & 29 & 70.5 & 30 & 116 & 116 & 0 \\\\\n\\hline 28 & 27 & 65.8 & 26 & 111 & 114 & -3 \\\\\n\\hline 29 & 19 & 77.6 & 31 & 159 & 151 & 8 \\\\\n\\hline 30 & 21 & 58.1 & 24 & 110 & 125 & -15 \\\\\n\\hline 31 & 44 & 76.2 & 24 & 93 & 113 & -20 \\\\\n\\hline 32 & 20 & 58.4 & 25 & 93 & 111 & -18 \\\\\n\\hline 33 & 33 & 59.2 & 28 & 117 & 116 & 1 \\\\\n\\hline 34 & 41 & 59.8 & 27 & 120 & 121 & -1 \\\\\n\\hline 35 & 28 & 54.9 & 23 & 114 & 115 & -1 \\\\\n\\hline 36 & 28 & 79.4 & 28 & 132 & 116 & 16 \\\\\n\\hline 37 & 18 & 64.9 & 26 & 157 & 130 & 27 \\\\\n\\hline 38 & 18 & 67.6 & 25 & 109 & 115 & -6 \\\\\n\\hline 39 & 32 & 61.0 & 27 & 157 & 165 & -8 \\\\\n\\hline 40 & 20 & 87.0 & 43 & 126 & 134 & -8 \\\\\n\\hline 41 & 21 & 51.5 & 23 & 83 & 105 & -22 \\\\\n\\hline 42 & 31 & 81.6 & 29 & 116 & 113 & 3 \\\\\n\\hline 43 & 29 & 72.1 & 31 & 158 & 171 & -13 \\\\\n\\hline 44 & 21 & 95.3 & 31 & 118 & 112 & 6 \\\\\n\\hline 45 & 28 & 74.2 & 28 & 123 & 112 & 11 \\\\\n\\hline 46 & 22 & 79.6 & 27 & 154 & 166 & -12 \\\\\n\\hline 47 & 20 & 70.5 & 26 & 126 & 114 & 12 \\\\\n\\hline 48 & 28 & 79.5 & 26 & 119 & 117 & 2 \\\\\n\\hline 49 & 19 & 60.9 & 24 & 73 & 72 & 1 \\\\\n\\hline 50 & 20 & 77.6 & 27 & 116 & 104 & 12 \\\\\n\\hline\n\\end{tabular}",
-    "question": "Using the results from (a), for what proportion of women would the difference between the methods be expected to be within 10 mm Hg?"
+    "background": "How would you assess the comparability of the treatment groups at baseline in the trial illustrated in Table 3.5?",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.5 Details of patients in each treatment group in a study of low back pain (Gibson et al., 1985)}\n\\begin{tabular}{|l|l|l|l|}\n\\hline & \\multicolumn{3}{|c|}{Treatment group} \\\\\n\\hline & Short-wave diathermy & Osteopathy & Placebo \\\\\n\\hline Number of patients & 34 & 41 & 34 \\\\\n\\hline Sex & 16F/18M & 21F/20M & 11F/23M \\\\\n\\hline Mean age (SD) & 35 (16) & 34 (14) & 40 (16) \\\\\n\\hline Mean duration of pain in weeks (SD) & 18 (11) & 16 (14) & 17 (11) \\\\\n\\hline Median pain score at presentation (range)* & 45 (5-82) & 35 (4-90) & 48 (10-96) \\\\\n\\hline Radiological abnormalities of the spine & 12 (34\\%) & 12 (29\\%) & 11 (32\\%) \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n*Visual analogue scale",
+    "question": "What are the notable differences in Table 3.5, and how might they affect the analysis?"
   },
   "output": {
-    "method": "数学计算",
-    "answer": "The values -10 and +10 are respectively -0.42 and 1.18 SDs from the mean. Assuming that the differences come from a Normal population, the probability of a difference larger than 10 in either direction is the probability of being less than -10 plus the probability of being greater than 10, which (from Table B1) is $0.3372+0.1190=0.4562$, or about $46 \\%$. Alternatively, we can take the observed proportion as an estimate, which is $22 / 50=0.44$ or $44 \\%$. (This method is less reliable when the differences are Normal.)"
+    "answer": "In Table 3.5, the differences are trivial except perhaps for pain at presentation. As pain score was also the outcome measure for the trial, this imbalance could be important. It may therefore be reasonable to analyse the change in pain from baseline rather than the value at the end of the study. (In fact, in this study the authors noted that the baseline pain score was not prognostic.)"
   },
   "meta_info": {
-    "index": "16.6",
+    "index": "15.1",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "The medical literature",
+    "chapter": "Clinical trials",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "501-503"
+    "page": "474-474"
   },
   "sample_key": "165"
 }

@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\150.json",
+  "input": {
+    "background": "Refer to the simple linear regression analysis of the advertising-sales data, Examples 11.1 and 11.2. The objective is to determine if sales revenue (y) is linearly related to advertising expenditure (x) using a hypothesis test at significance level α = 0.05.",
+    "data": null,
+    "question": "What is the rejection region for the test at α = 0.05?"
+  },
+  "output": {
+    "answer": "The rejection region is $|t| > t_{.025} = 3.182$ for $n - 2 = 3$ degrees of freedom."
+  },
+  "meta_info": {
+    "index": "11.3",
+    "img_in_question": null
+  },
+  "sample_key": "401"
+}

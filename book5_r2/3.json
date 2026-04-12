@@ -6,7 +6,6 @@
     "question": "Give two reasons why it is preferable to calculate the median rather than the mean to describe the average SI value."
   },
   "output": {
-    "method": "分位数/百分位数",
     "answer": "The data are skewed and some values are censored."
   },
   "meta_info": {

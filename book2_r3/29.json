@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\010.json",
+  "input": {
+    "background": "An article in the New York Times considered whether motorcyclists should be required by law to wear helmets. The editor of a magazine for Harley-Davidson bikers presented a study showing that nine states without helmet laws had a lower fatality rate (3.05 deaths per 10,000 motorcycles) than states mandating helmets (3.38). Additionally, a survey of 2,500 bikers at a rally found that 98% of respondents opposed helmet laws.",
+    "data": null,
+    "question": "What further statistical information would you like to evaluate the study comparing motorcycle fatality rates in states with and without helmet laws?"
+  },
+  "output": {
+    "answer": "You would want more information about the study comparing the motorcycle fatality rate of the nine states without a helmet law to those states that mandate helmets. Were the data obtained from a published source? Were all 50 states included in the study, or were only certain states selected? That is, are you seeing sample data or population data? Furthermore, do the helmet laws vary among states? If so, can you really compare the fatality rates?"
+  },
+  "meta_info": {
+    "index": "1.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Biased Sample-Motorcycle Helmet Law",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.7 Critical Thinking with Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "21-21"
+  },
+  "sample_key": "29",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1082,
+    "total_tokens": 1125,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1081,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1082,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1081,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

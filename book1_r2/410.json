@@ -1,44 +1,23 @@
 {
-  "case_id": "book1_r1\\record_367.json",
+  "case_id": "book1_r1\\record_159.json",
   "input": {
-    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean $\\mu=170$ pounds and standard deviation $\\sigma=40$. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean.",
-    "data": "",
-    "question": "Under the null hypothesis, there is no difference in the mean body weights between then and now."
+    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the Mantel-Haenszel estimate of the relative risk after adjusting for major."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "Let $\\mu$ represent the current population mean. Therefore, the null hypothesis is $H_0: \\mu=170$. Under the alternative hypothesis, the mean weight has increased. In other words, $H_{\\mathrm{a}}: \\mu>170$ pounds.",
-    "variable": {
-      "historical_mean_weight": {
-        "id": "historical_mean_weight",
-        "value": 170,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The mean body weight of the United States male population between 20-29 years of age in the late 1970s."
-      },
-      "historical_std_dev_weight": {
-        "id": "historical_std_dev_weight",
-        "value": 40,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The standard deviation of body weight of the United States male population between 20-29 years of age in the late 1970s."
-      },
-      "current_mean_weight": {
-        "id": "current_mean_weight",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean body weight of the current sample of men aged 20-29 years."
-      }
+    "answer": {
+      "Mantel-Haenszel estimate": "RR_MH = 0.77",
+      "Conclusion": "After adjusting for major, male applicants were 23% less likely to be accepted than female applicants."
     }
   },
   "meta_info": {
-    "index": "",
+    "index": "19.5",
     "image": "",
-    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.1 The Null and Alternative Hypotheses",
-    "page": "176-177"
+    "caption": "Sex bias in graduate school admissions?",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "480-481"
   },
   "sample_key": "410"
 }

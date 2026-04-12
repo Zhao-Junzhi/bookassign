@@ -1,64 +1,20 @@
 {
-  "case_id": "book1_r1\\record_045.json",
+  "case_id": "book1_r1\\record_026.json",
   "input": {
-    "background": "Suppose a population has 26 members identified with the letters A through Z.",
+    "background": "Each of the following batches of numbers has a mean of 100. Determine which batch has the most variability. (Arithmetic not required.)",
     "data": "",
-    "question": "You select one individual at random from this population. What is the probability of selecting individual A?"
+    "question": "Which batch has the most variability among Batch B: 50, 75, 100, 125, 150?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "1 in $26=0.0385$",
-    "variable": {
-      "Population": {
-        "id": "Population",
-        "value": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E",
-          "F",
-          "G",
-          "H",
-          "I",
-          "J",
-          "K",
-          "L",
-          "M",
-          "N",
-          "O",
-          "P",
-          "Q",
-          "R",
-          "S",
-          "T",
-          "U",
-          "V",
-          "W",
-          "X",
-          "Y",
-          "Z"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The set of all individuals in the population, identified by letters A through Z."
-      },
-      "Target": {
-        "id": "Target",
-        "value": "A",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The specific individual being selected from the population."
-      }
-    }
+    "answer": "Batch A has the greatest variability."
   },
   "meta_info": {
-    "index": "5.5",
+    "index": "4.7",
     "image": "",
-    "caption": "N = 26.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.1 WHat Is PROBABILITY?",
-    "page": "91-92"
+    "caption": "Spread.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "81-82"
   },
   "sample_key": "77"
 }

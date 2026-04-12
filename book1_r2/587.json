@@ -1,65 +1,20 @@
 {
-  "case_id": "book1_r1\\record_508.json",
+  "case_id": "book1_r1\\record_380.json",
   "input": {
-    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\(\\bar{x}=2890.5\\) grams and \\(s=720.0\\). Confidence intervals for \\(\\mu\\) at \\(90 \\%, 95 \\%\\), and \\(99 \\%\\) levels of confidence will be calculated.",
     "data": "",
-    "question": "(b) Comparison B: Group 1 | Group 2"
+    "question": "Calculate the \\(95\\%\\) confidence interval for \\(\\mu\\)."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Group 1: x̄=70 and s=15.8. Group 2: x̄=50 and s=15.8. How statistics relate to what we see: Higher central location in Group 1; equal group spreads.",
-    "variable": {
-      "Group 1": {
-        "id": "Group 1",
-        "value": "Values from the stemplot for Group 1",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Numerical data values for Group 1 from the stemplot."
-      },
-      "Group 2": {
-        "id": "Group 2",
-        "value": "Values from the stemplot for Group 2",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Numerical data values for Group 2 from the stemplot."
-      },
-      "mean_Group1": {
-        "id": "mean_Group1",
-        "value": "Calculated mean of Group 1",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Mean of the numerical data values for Group 1."
-      },
-      "stddev_Group1": {
-        "id": "stddev_Group1",
-        "value": "Calculated standard deviation of Group 1",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Standard deviation of the numerical data values for Group 1."
-      },
-      "mean_Group2": {
-        "id": "mean_Group2",
-        "value": "Calculated mean of Group 2",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Mean of the numerical data values for Group 2."
-      },
-      "stddev_Group2": {
-        "id": "stddev_Group2",
-        "value": "Calculated standard deviation of Group 2",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Standard deviation of the numerical data values for Group 2."
-      }
-    }
+    "answer": "For \\(95\\%\\) confidence, use \\(t_{9,0.975}=2.262\\), so the \\(95\\%\\) confidence interval for \\(\\mu\\) is \\(2890.5 \\pm(2.262)(227.684)=2890.5 \\pm 515.1=(2375.4\\) to \\(3405.6\\)) grams."
   },
   "meta_info": {
-    "index": "4.15",
+    "index": "",
     "image": "",
-    "caption": "Leaves on stems.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.8 SELECTING SUMMARY STATISTICS",
-    "page": "85-86"
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
   },
   "sample_key": "587"
 }

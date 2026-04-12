@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_131.json",
+  "input": {
+    "background": "Of 75 patients in a follow-up study, 20 showed spontaneous improvement within a month.",
+    "data": "",
+    "question": "Include a 95% confidence interval for the proportion."
+  },
+  "output": {
+    "answer": "Confidence interval for \\( p \\) by the plus-four method:\n\n\\[\n\\begin{aligned}\n& \\bar{n}=79 \\\\\n& \\bar{x}=22 \\\\\n& \\bar{p}=0.2785 \\\\\n& S E_{\\bar{p}}=\\sqrt{\\frac{(0.2785)(0.7215)}{79}}=0.0504\n\\end{aligned}\n\\]\n\n\\( 95 \\% \\) confidence interval for \\( p=0.2785 \\pm(1.96)(0.0504)=0.2785 \\pm 0.0988= \\) 0.1797 to 0.3773 or about \\( 18 \\% \\) to \\( 38 \\% \\)."
+  },
+  "meta_info": {
+    "index": "16.25",
+    "image": "",
+    "caption": "Incidence of improvement.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "372-372"
+  },
+  "sample_key": "328",
+  "token_usage": {
+    "completion_tokens": 628,
+    "prompt_tokens": 1251,
+    "total_tokens": 1879,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1197,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1251,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1197,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

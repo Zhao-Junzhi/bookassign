@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\141.json",
+  "case_id": "book3_r1\\132.json",
   "input": {
-    "background": "In a nuclear power plant, there are five identical and statistically independent channels to monitor the radioactivity of air in the ventilation system. The system aims to alert reactor operators to the need for reactor shutdown when a dangerous level of radioactivity is present. The reactor automatically shuts down when at least three channels register a dangerous level of radioactivity. Each channel contains three identical sensors, and when at least two sensors register a dangerous level of radioactivity, the channel registers the dangerous level of radioactivity. The failure rate of each sensor in any channel is 0.001 per day, and the common-cause failure rate of all sensors in a channel is 0.0005 per day.",
-    "data": null,
-    "question": "Obtain the sensor reliability for various time t."
+    "background": "A statistical sampling process is described, where observations are taken to make a decision about rejecting or accepting a lot.",
+    "data": "Observed Pricing Policy\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline Facility conditions & Aggressive & Neutral & Nonaggressive & Total \\\n\\hline Substandard & 24 & 15 & 17 & 56 \\\n\\hline Standard & 52 & 73 & 80 & 205 \\\n\\hline Modern & 58 & 86 & 36 & 180 \\\n\\hline Total & 134 & 174 & 133 & 441 \\\n\\hline\n\\end{tabular}",
+    "question": "What decision is made based on the sampling process?"
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "Sensor reliability for varying time t: 10 days: 0.9851, 20 days: 0.9704, 30 days: 0.9506, 40 days: 0.9418."
+    "answer": "The lot would be rejected."
   },
   "meta_info": {
-    "index": "6.2",
+    "index": "3.33",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 6： Stochastic Processes",
-    "section": "6.4 Problems",
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "399-399"
+    "page": "221-222"
   },
   "sample_key": "77"
 }

@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_044.json",
+  "case_id": "book1_r1\\record_025.json",
   "input": {
-    "background": "What is the probability of being born on specific dates in February?",
+    "background": "The following stemplot has 18 observations. Prove that the value 152 in this data set is an outside value.",
     "data": "",
-    "question": "What is the probability of being born on February 28?"
+    "question": "What is the upper fence and how is it calculated?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Feb 28 occurs 4 times every 4 years. Three of the years have 365 days, and every fourth year (leap year) has 366 days. Therefore, Pr(Feb 28) = 4 / (365 + 365 + 365 + 366) = 0.0027378.",
-    "variable": {
-      "specific_date": {
-        "id": "specific_date",
-        "value": "February 28",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The specific date in February for which the probability of being born is being calculated."
-      },
-      "probability_of_birth": {
-        "id": "probability_of_birth",
-        "value": "unknown",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability of being born on the specific date, February 28."
-      }
-    }
+    "answer": "Fence_Upper = 120 + (1.5)(19) = 148.5"
   },
   "meta_info": {
-    "index": "5.3",
+    "index": "4.5",
     "image": "",
-    "caption": "February birthdays.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.1 WHat Is PROBABILITY?",
-    "page": "91-91"
+    "caption": "Outside?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.6 BOXPLOTS",
+    "page": "77-78"
   },
   "sample_key": "74"
 }

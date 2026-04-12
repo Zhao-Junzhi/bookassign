@@ -1,0 +1,41 @@
+{
+  "case_id": "book2_r1\\104.json",
+  "input": {
+    "background": "The manufacturer of official NFL footballs uses a machine to inflate its new balls to a pressure of 13.5 pounds. When the machine is properly calibrated, the mean inflation pressure is 13.5 pounds, but uncontrollable factors cause the pressures of individual footballs to vary randomly from about 13.3 to 13.7 pounds. For quality control purposes, the manufacturer wishes to estimate the mean inflation pressure to within 0.025 pound of its true value with a 99% confidence interval.",
+    "data": null,
+    "question": "What is the recommended sample size, considering the approximation of σ?"
+  },
+  "output": {
+    "answer": "We round this up to n = 107. Realizing that σ was approximated by R / 4, we might even advise that the sample size be specified as n = 110 to be more certain of attaining the objective of a 99% confidence interval with a sampling error of 0.025 pound or less."
+  },
+  "meta_info": {
+    "index": "6.9",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "252",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1052,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1051,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1052,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1051,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

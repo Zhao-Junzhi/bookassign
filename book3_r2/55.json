@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\126.json",
+  "case_id": "book3_r1\\120.json",
   "input": {
-    "background": "Estimate the parameter θ using the given formula and calculate the value of θ when the sample mean is 0.6.",
+    "background": "Independent observations t1, t2, ..., tn are drawn from a population with the probability density function f(t; θ) = θ / t^(θ+1) for t ≥ 1 and θ > 0.",
     "data": null,
-    "question": "Calculate the value of θ when the sample mean is 0.6."
+    "question": "Given the failure time data: 200, 225, 228, 245, 250, 286, 290 hours, and assuming the data follow the given probability density function, obtain the MLE of θ."
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "$\\hat{\\theta}=\\frac{2(0.6)-1}{1-0.6}=0.5$"
+    "answer": "Not provided in the original answer."
   },
   "meta_info": {
-    "index": "3.26",
+    "index": "3.18",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Chapter 3: Statistical Inference",
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "220-220"
+    "page": "218-218"
   },
   "sample_key": "55"
 }

@@ -3,23 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Course credit (pass or fail)"
+    "question": "(h) Blood cholesterol level classified as either 1 = hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Categorical",
-    "variable": {
-      "course_credit": {
-        "id": "course_credit",
-        "value": [
-          "pass",
-          "fail"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates whether the course credit was passed or failed."
-      }
-    }
+    "answer": "Ordinal"
   },
   "meta_info": {
     "index": "1.11",

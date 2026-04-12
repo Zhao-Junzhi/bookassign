@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_120.json",
+  "case_id": "book1_r1\\record_102.json",
   "input": {
-    "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
-    "data": "",
-    "question": "Describe the population to which inferences will be made. What population parameter will be estimated? Calculate the prevalence of multiple sexual partners in the sample."
+    "background": "The air quality data in Exercise 12.5 (Table 12.9) are associated with the summary statistics reported in Table 12.12.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.12 Means and standard deviations for Exercise 12.7.}\n\\begin{tabular}{lccc}\n\\multicolumn{4}{l}{ Particulate matter in air samples $\\left(\\mu \\mathrm{gms} / \\mathrm{m}^3\\\right)$} \\\\\nSite & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n& & & \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate a $95\\%$ confidence interval for $\\mu_1-\\mu_2$, again without assuming equal variance. Use the conservative degrees of freedom to help calculate the confidence interval."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "The population to which inference will be made is U.S. adult heterosexuals at the time of the survey. The parameter of interest is the proportion of individuals with multiple sexual partners. The sample proportion \\(\\hat{p}=170 / 2673=0.063598 \\approx\\) 0.064 or \\(6.4 \\%\\).",
-    "variable": {
-      "total_participants": {
-        "id": "total_participants",
-        "value": 2673,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of heterosexual adults in the sample."
-      },
-      "multiple_partners": {
-        "id": "multiple_partners",
-        "value": 170,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of participants who reported two or more sexual partners in the past 12 months."
-      },
-      "prevalence_multiple_partners": {
-        "id": "prevalence_multiple_partners",
-        "value": "170/2673",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Calculated prevalence of multiple sexual partners in the sample."
-      }
-    }
+    "answer": "$df_{\\text{conserv}}=7 ; t_{7, .975}=2.365$\n\nThe $95 \\%$ CI for $\\mu_1-\\mu_2=(36.25-36.00) \\pm(2.365)(5.247)=0.25 \\pm 12.41=$ ( -12.16 to 12.66 ) $\\mu \\mathrm{gms} / \\mathrm{m}^3$"
   },
   "meta_info": {
-    "index": "16.1",
+    "index": "12.7",
     "image": "",
-    "caption": "AIDS-related risk factor.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.1 PROPORTIONS",
-    "page": "351-352"
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.5 CONDITIONS FOR INFERENCE",
+    "page": "249-249"
   },
   "sample_key": "243"
 }

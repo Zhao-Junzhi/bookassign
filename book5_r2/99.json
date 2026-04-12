@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\044.json",
+  "case_id": "book5_r1\\034.json",
   "input": {
-    "background": "The table below shows data from an experiment to compare resting metabolic rates (kcal/min) in five volunteers each given two diets, a normal diet and an overfeeding diet which contained 50% more energy (Welle et al., 1986). Data were collected before and after eating a meal.",
-    "data": "\\begin{tabular}{|l|l|l|l|}\n\\hline Subject & Diet & Before meal & After meal \\\\\n\\hline 1 & N & 1.47 & 1.78 \\\\\n\\hline & O & 1.72 & 2.49 \\\\\n\\hline 2 & N & 1.42 & 1.68 \\\\\n\\hline & O & 1.44 & 1.87 \\\\\n\\hline 3 & N & 1.10 & 1.26 \\\\\n\\hline & O & 1.11 & 1.36 \\\\\n\\hline 4 & N & 0.84 & 1.11 \\\\\n\\hline & O & 0.90 & 1.29 \\\\\n\\hline 5 & N & 0.91 & 1.09 \\\\\n\\hline & O & 1.00 & 1.25 \\\\\n\\hline\n\\end{tabular}\n\nN : Normal diet: O : Overfed diet",
-    "question": "What methods of analysis could be used to examine the difference between the metabolic rates in relation to diet: (i) for the post-prandial data; (ii) for the change between pre- and post-prandial resting metabolic rates?"
+    "background": "The following table shows the number of hours spent in bed by 14-year-old boys and girls (Macgregor and Balding, 1988). Times were rounded up to the next half hour.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline  & \\multicolumn{9}{|c|}{Time spent in bed (hours)} \\\\\n\\hline & $\\leqslant 7.0$ & 7.5 & 8.0 & 8.5 & 9.0 & 9.5 & 10.0 & > 10.0 & Total \\\\\n\\hline Boys & 88 & 109 & 210 & 324 & 359 & 313 & 182 & 85 & 1670 \\\\\n\\hline Girls & 92 & 108 & 217 & 349 & 436 & 334 & 198 & 65 & 1799 \\\\\n\\hline Total & 180 & 217 & 427 & 673 & 795 & 647 & 380 & 150 & 3469 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Is there any difference between boys and girls?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "(i) A paired t test or, equivalently, a two way analysis of variance. (ii) Same as (i)."
+    "answer": "The Mann-Whitney test is hard to apply when the samples are so large (most computer programs cannot perform the test on a table, but would require data for the 3469 children). The Chi squared test can be applied equally easily regardless of sample size. The overall comparison of the eight groups gives $X^2=7.83$ on 7 degrees of freedom ( $mathrm{P}=0.35$ ), and the trend test gives $X_{ext {trend }}^2=0.04$ on 1 degree of freedom $(mathrm{P}=0.84)$. These figures indicate that the variation seen is likely to be due to chance and not to a tendency for boys to sleep longer than girls or vice versa."
   },
   "meta_info": {
-    "index": "12.1",
+    "index": "10.4",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Relation between several variables",
+    "chapter": "Comparing groups - categorical data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "361-361"
+    "page": "274-274"
   },
   "sample_key": "99"
 }

@@ -1,91 +1,20 @@
 {
-  "case_id": "book1_r1\\record_110.json",
+  "case_id": "book1_r1\\record_091.json",
   "input": {
-    "background": "Table 13.3 lists birth weights of infants based on the smoking status of mothers.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.3 Birth weights of infants in four groups of mothers. Data for Exercises 13.1, 13.3, 13.5, and 13.7.}\n\\begin{tabular}{llllllll}\n\\hline Group 1 (nonsmokers) & 8.56 & 8.47 & 6.39 & 9.26 & 7.98 & 6.84 & \\\nGroup 2 (ex-smokers) & 7.39 & 8.64 & 8.54 & 5.37 & 9.21 & & \\\nGroup $3(<1 / 2$ pack/day $)$ & 5.97 & 6.77 & 7.26 & 5.74 & 8.74 & 6.30 & \\\nGroup $4(\\geq 1 / 2$ pack/day) & 7.03 & 5.24 & 6.14 & 6.74 & 6.62 & 7.37 & 4.94 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData were generated with the RV.NORMAL function in SPSS as follows: $X_1 \\sim N(7.5,1), X_2 \\sim N(7.5$, $1), X_3 \\sim N(7.0,1), X_4 \\sim N(6.5,1)$.\nData are stored online in the file SMOK_BW.*..",
-    "question": "Outline this study's design using a sketch of the type presented in $\\$ 2.2$ (see Figure 2.1) to depict this study's design."
+    "background": "A study looked at the number of cavity-free children per 100 in 16 North American cities BEFORE and AFTER public water fluoridation projects. Table 11.2 lists the data.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.2 Cavity-free children per 100 in 16 North American cities before and after public water fluoridation projects.}\n\\begin{tabular}{|l|l|}\n\\hline AFTER & BEFORE \\\\\n\\hline 49.2 & 18.2 \\\\\n\\hline 30.0 & 21.9 \\\\\n\\hline 16.0 & 5.2 \\\\\n\\hline 47.8 & 20.4 \\\\\n\\hline 3.4 & 2.8 \\\\\n\\hline 16.8 & 21.0 \\\\\n\\hline 10.7 & 11.3 \\\\\n\\hline 5.7 & 6.1 \\\\\n\\hline 23.0 & 25.0 \\\\\n\\hline 17.0 & 13.0 \\\\\n\\hline 79.0 & 76.0 \\\\\n\\hline 66.0 & 59.0 \\\\\n\\hline 46.8 & 25.6 \\\\\n\\hline 84.9 & 50.4 \\\\\n\\hline 65.2 & 41.2 \\\\\n\\hline 52.0 & 21.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Estimate the mean change with 95% confidence."
   },
   "output": {
-    "method": "观测数据",
-    "answer": "This study is nonexperimental (\"observational\") because the investigator did not assign the explanatory factor (smoking) to study participants.",
-    "variable": {
-      "group_1_birth_weights": {
-        "id": "group_1_birth_weights",
-        "value": [
-          8.56,
-          8.47,
-          6.39,
-          9.26,
-          7.98,
-          6.84
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Birth weights of infants whose mothers are nonsmokers."
-      },
-      "group_2_birth_weights": {
-        "id": "group_2_birth_weights",
-        "value": [
-          7.39,
-          8.64,
-          8.54,
-          5.37,
-          9.21
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Birth weights of infants whose mothers are ex-smokers."
-      },
-      "group_3_birth_weights": {
-        "id": "group_3_birth_weights",
-        "value": [
-          5.97,
-          6.77,
-          7.26,
-          5.74,
-          8.74,
-          6.3
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Birth weights of infants whose mothers smoke less than half a pack of cigarettes per day."
-      },
-      "group_4_birth_weights": {
-        "id": "group_4_birth_weights",
-        "value": [
-          7.03,
-          5.24,
-          6.14,
-          6.74,
-          6.62,
-          7.37,
-          4.94
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Birth weights of infants whose mothers smoke half a pack or more of cigarettes per day."
-      },
-      "smoking_status": {
-        "id": "smoking_status",
-        "value": [
-          "nonsmokers",
-          "ex-smokers",
-          "<1/2 pack/day",
-          ">=1/2 pack/day"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Smoking status of the mothers categorized into four groups."
-      }
-    }
+    "answer": "$$\n\\begin{aligned}\n& n=16 \\\\\n& \\hat{x}_d=12.21 \\\\\n& s_d=13.62 \\\\\n& S E=\\frac{13.62}{\\sqrt{16}}=3.405 \\\\\n& d f=16-1=15 \\\\\n& t_{15.975}=2.131 \\\\\n& 95 \\% \\text { CI for } \\mu_d=12.21 \\pm(2.131)(3.405)=12.21 \\pm 7.26=(4.95 \\text { to } 19.47) \\text { additional cavity-free children per } 100 .\n\\end{aligned}\n$$"
   },
   "meta_info": {
-    "index": "13.1",
+    "index": "11.15",
     "image": "",
-    "caption": "Birth weight, exploration.",
-    "chapter": "COMPARING SEVERAL MEANS",
-    "section": "TSP IDESGRIPTIVESSTATISTICS",
-    "page": "263-263"
+    "caption": "Water fluoridation.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "223-223"
   },
   "sample_key": "213"
 }

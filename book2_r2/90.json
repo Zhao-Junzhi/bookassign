@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\038.json",
+  "input": {
+    "background": "Diversity training of employees is the latest trend in U.S. business. USA Today reported on the primary reasons businesses give for making diversity training part of their strategic planning process. Assume that one business is selected at random from all U.S. businesses that use diversity training, and the primary reason is determined.",
+    "data": "\\begin{tabular}{|l|l|}\n\\hline Table 3.2 Primary Reasons for Diversity Training & \\\\\n\\hline Reason & Percentage \\\\\n\\hline Comply with personnel policies (CPP) & 7 \\\\\n\\hline Increase productivity (IP) & 47 \\\\\n\\hline Stay competitive (SC) & 38 \\\\\n\\hline Social responsibility (SR) & 4 \\\\\n\\hline Other (O) & 4 \\\\\n\\hline Total & 100 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|lc|}\n\\hline Table 3.3 \\\\\n\\hline \\multicolumn{2}{|l|}{ Sample Point Probabilities } \\\\\n\\multicolumn{2}{|l|}{ for Diversity Training Survey } \\\\\n\\hline Sample Point & Probability \\\\\n\\hline CPP & .07 \\\\\nIP & .47 \\\\\nSC & .38 \\\\\nSR & .04 \\\\\nO & .04 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Define the experiment that generated the data in Table 3.2 and list the sample points."
+  },
+  "output": {
+    "answer": "The experiment is the act of determining the primary reason for diversity training of employees at a U.S. business. The sample points, the simplest outcomes of the experiment, are the five response categories listed in Table 3.2. These sample points are shown in the Venn diagram in Figure 3.6."
+  },
+  "meta_info": {
+    "index": "3.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Five Steps to Find a ProbabilityDiversity Training",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "89-90"
+  },
+  "sample_key": "90"
+}

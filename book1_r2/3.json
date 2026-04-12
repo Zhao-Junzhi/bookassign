@@ -1,22 +1,12 @@
 {
   "case_id": "book1_r1\\record_002.json",
   "input": {
-    "background": "In the form depicted in Figure 1.1,",
+    "background": "In the form depicted in Figure 1.1, information is being collected about various variables.",
     "data": "",
     "question": "What does VAR3 measure?"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "VAR3 records the gender of subjects.",
-    "variable": {
-      "VAR3": {
-        "id": "VAR3",
-        "value": "Unknown",
-        "class": "Unknown",
-        "role": "NR",
-        "description": "The variable whose measurement is being inquired about."
-      }
-    }
+    "answer": "VAR3 records the gender of subjects."
   },
   "meta_info": {
     "index": "1.3",

@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\078.json",
+  "input": {
+    "background": "Find the value of z, denoted as z_0, in the standard normal distribution such that only 10% of the distribution exceeds z_0. This involves determining the z-value corresponding to a given probability.",
+    "data": null,
+    "question": "What is the value of z_0 such that P(z ≥ z_0) = 0.10 in the standard normal distribution?"
+  },
+  "output": {
+    "answer": "To find z_0, we know that the area to the right of z_0 is 0.10, which means the area between z = 0 and z_0 is 0.5 - 0.1 = 0.4. Using Table II, we look up the area 0.4000 and find the corresponding z-value to be approximately z_0 = 1.28. This means that the point 1.28 standard deviations above the mean is the 90th percentile of a normal distribution."
+  },
+  "meta_info": {
+    "index": "4.22",
+    "img_in_question": null
+  },
+  "sample_key": "186"
+}

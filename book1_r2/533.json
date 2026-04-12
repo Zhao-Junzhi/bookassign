@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_428.json",
+  "case_id": "book1_r1\\record_364.json",
   "input": {
-    "background": "The relative risk of the combined index outcome in the estrogen trial illustrative example is calculated.",
+    "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15. Let us consider the standard errors of means for SRSs of WAISs with n=1, n=4, and n=16.",
     "data": "",
-    "question": "What is the relative risk (RR) in the estrogen trial illustrative example?"
+    "question": "What effect does increasing the sample size have on the precision of a mean?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "null",
-    "variable": {
-      "relative_risk": {
-        "id": "relative_risk",
-        "value": "unknown",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The relative risk (RR) in the estrogen trial illustrative example."
-      }
-    }
+    "answer": "Each time, quadrupling the sample size cuts the SE_x̄ in half."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Relative risk (Estrogen trial).",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.4 Proportion Ratio (Relative Risk)",
-    "page": "389-389"
+    "caption": "Standard error of the mean and sample size (WAIS).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "164-164"
   },
   "sample_key": "533"
 }

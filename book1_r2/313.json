@@ -1,78 +1,20 @@
 {
-  "case_id": "book1_r1\\record_301.json",
+  "case_id": "book1_r1\\record_125.json",
   "input": {
-    "background": "A group of 115,818 women between 30 and 55 years of age were recruited to be in a study. Individuals were free of coronary heart disease at the time of recruitment. Body weight of subjects was determined as of 1976. Let us call this variable WT 1976. Weight was also determined as of age 18. Let's call this variable WI_18. From these variables, the investigators calculated weight change for individuals (WT_CHNG = WT_1976 - WT_18). Adult height in meters was determined (H1) and was used to calculate body mass index according to the formula: BMI - weight in kilograms ÷ (height in meters)^2. BMI was determined as of age 18 (BMI_18) and at the time of recruitment in 1976 (BMI_1976). All of these variables are quantitative.",
+    "background": "In a case-controlled study on cerebral tumors and cell phone use, tumors occurred more frequently on the same side of the head where cellular telephones had been used in 26 of 41 cases.",
     "data": "",
-    "question": "BMI was classified into quintiles. This procedure divides a quantitative measurement into five ordered categories with an equal number of individuals in each group. The lowest 20% of the values are put into the first quintile, the next 20% are put into the next quintile, and so on. The quintile cutoff points for BMI at age 18 were: -19.1, 19.1-20.3, 20.4-21.5, 21.6-23.2, and ≥23.3. Let us put this information into a new variable called BM_18_GRP encoded 1, 2, 3, 4, 5 for each of the quintiles. This is an ordinal variable."
+    "question": "Calculate the test statistic for the hypothesis test."
   },
   "output": {
-    "method": "分箱",
-    "answer": "null",
-    "variable": {
-      "WT_1976": {
-        "id": "WT_1976",
-        "value": "Body weight of subjects in 1976",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Body weight of subjects as determined in 1976"
-      },
-      "WT_18": {
-        "id": "WT_18",
-        "value": "Body weight of subjects at age 18",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Body weight of subjects as determined at age 18"
-      },
-      "WT_CHNG": {
-        "id": "WT_CHNG",
-        "value": "Weight change calculated as WT_1976 - WT_18",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Weight change from age 18 to 1976"
-      },
-      "H1": {
-        "id": "H1",
-        "value": "Adult height in meters",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Adult height in meters"
-      },
-      "BMI_18": {
-        "id": "BMI_18",
-        "value": "BMI at age 18",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Body Mass Index as determined at age 18"
-      },
-      "BMI_1976": {
-        "id": "BMI_1976",
-        "value": "BMI in 1976",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Body Mass Index as determined in 1976"
-      },
-      "BM_18_GRP": {
-        "id": "BM_18_GRP",
-        "value": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "BMI at age 18 classified into quintiles"
-      }
-    }
+    "answer": "$SE=\\sqrt{\\frac{0.5 \\cdot 0.5}{41}}$, $\\hat{p}=\\frac{26}{41}=0.6341$, $z_{stat}=\\frac{0.6341-0.5}{0.078087}=1.72$"
   },
   "meta_info": {
-    "index": "",
+    "index": "16.13",
     "image": "",
-    "caption": "Weight change and coronary heart disease.",
-    "chapter": "MEASUREMENT",
-    "section": "1.3  TYPES OF MEASUREMENTS",
-    "page": "6-6"
+    "caption": "Cerebral tumors and cell phone use.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-370"
   },
   "sample_key": "313"
 }

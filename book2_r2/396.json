@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\148.json",
+  "input": {
+    "background": "Refer to the advertising-monthly-sales data presented in Table 11.1. Consider the straight-line model, $E(y)=\\beta_0+\\beta_1 x$, where $y=$ sales revenue (thousands of dollars) and $x=$ advertising expenditure (hundreds of dollars).",
+    "data": null,
+    "question": "Find SSE for the analysis."
+  },
+  "output": {
+    "answer": "The observed and predicted values of $y$, the deviations of the $y$ values about their predicted values, and the squares of these deviations are shown in the Excel spreadsheet, Figure 11.7. Note that SSE $=1.10$, and (as we would expect) this is less than the SSE $=2.0$ obtained in Table 11.2 for the visually fitted line."
+  },
+  "meta_info": {
+    "index": "11.1",
+    "img_in_question": null
+  },
+  "sample_key": "396"
+}

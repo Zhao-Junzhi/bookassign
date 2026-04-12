@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\017.json",
+  "case_id": "book5_r1\\013.json",
   "input": {
-    "background": "Analyze the terminal digits of three variables (Age, SA, SI) presented in a table to assess digit preference or anomalies.",
-    "data": "\\begin{tabular}{|l|l|l|}\n\\hline Patient & Ejection fraction (\\%) & Wedge pressure (mm Hg) \\\n\\hline 1 & 28 & 15 \\\n\\hline 2 & 26 & 14 \\\n\\hline 3 & 42 & 15 \\\n\\hline 4 & 29 & 12 \\\n\\hline 5 & 16 & 37 \\\n\\hline 6 & 21 & 30 \\\n\\hline 7 & 25 & 7 \\\n\\hline 8 & 35 & 14 \\\n\\hline 9 & 30 & 28 \\\n\\hline 10 & 36 & 13 \\\n\\hline 11 & 37 & 5 \\\n\\hline 12 & 41 & 13 \\\n\\hline 13 & 20 & 24 \\\n\\hline 14 & 26 & 8 \\\n\\hline 15 & 38 & 13 \\\n\\hline 16 & 26 & 17 \\\n\\hline 17 & 10 & 27 \\\n\\hline 18 & 18 & 29 \\\n\\hline 19 & 10 & 8 \\\n\\hline 20 & 31 & 5 \\\n\\hline\n\\end{tabular}",
-    "question": "Comment on the terminal digits of SI, as shown in the table in Exercise 3.1."
+    "background": "A researcher aimed to investigate whether women who have taken the oral contraceptive pill experience menopause earlier or later than other women. He selected a group of women born in 1930, as they were young enough for some to have taken the pill but old enough for some to have reached menopause. Using a general practice's age-sex register, he identified 132 women born in 1930. Women who claimed to have experienced menopause were verified by measuring their follicle stimulating hormone (FSH) levels. Of the 132 women, 101 were excluded for various reasons, leaving a sample of 31 women. Among these, 12 had taken the pill, and 19 had not. The researcher concluded that taking the pill does not delay menopause.",
+    "data": "\\begin{tabular}{lccc}\n\\hline & & \\multicolumn{2}{c}{ Age at menopause (years) } \\\n& $n$ & $n e a n$ & SD \\\n\\hline Pill users & 12 & 47.2 & 2.1 \\\nNon pill users & 19 & 47.5 & 2.1 \\\n\\hline\n\\end{tabular}",
+    "question": "What was the design of this study?"
   },
   "output": {
-    "method": "描述性统计量",
-    "answer": "The terminal digits for SI are distributed as follows: 0 (16), 1 (0), 2 (5), 3 (3), 4 (4), 5 (2), 6 (3), 7 (4), 8 (7), 9 (4), with a total of 48 observations. SI shows dramatic digit preference, with a surfeit of zeros suggesting imprecise recording, as SI is the ratio of two percentages."
+    "answer": "It was a cross-sectional study."
   },
   "meta_info": {
-    "index": "7.3",
+    "index": "5.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Preparing to analyse data",
+    "chapter": "Designing research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "150-150"
+    "page": "105-105"
   },
   "sample_key": "39"
 }

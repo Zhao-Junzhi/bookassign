@@ -1,96 +1,20 @@
 {
-  "case_id": "book1_r1\\record_008.json",
+  "case_id": "book1_r1\\record_007.json",
   "input": {
-    "background": "As a pilot investigation for a survey of California county health departments, you want to select four counties at random from the list of counties in Table 2.1.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 2.1 California counties.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline 01 & Alameda & 21 & Marin & 41 & San Mateo \\\n\\hline 02 & Alpine & 22 & Mariposa & 42 & Santa Barbara \\\n\\hline 03 & Amador & 23 & Mendocino & 43 & Santa Clara \\\n\\hline 04 & Butte & 24 & Merced & 44 & Santa Cruz \\\n\\hline 05 & Calaveras & 25 & Modoc & 45 & Shasta \\\n\\hline 06 & Colusa & 26 & Mono & 46 & Sierra \\\n\\hline 07 & Contra Costa & 27 & Monterey & 47 & Siskiyou \\\n\\hline 08 & Del Norte & 28 & Napa & 48 & Solano \\\n\\hline 09 & El Dorado & 29 & Nevada & 49 & Sonoma \\\n\\hline 10 & Fresno & 30 & Orange & 50 & Stanislaus \\\n\\hline 11 & Glenn & 31 & Placer & 51 & Sutter \\\n\\hline 12 & Humboldt & 32 & Plumas & 52 & Tehama \\\n\\hline 13 & Imperial & 33 & Riverside & 53 & Trinity \\\n\\hline 14 & Inyo & 34 & Sacramento & 54 & Tulare \\\n\\hline 15 & Kern & 35 & San Benito & 55 & Tuolumne \\\n\\hline 16 & Kings & 36 & San Bernardino & 56 & Ventura \\\n\\hline 17 & Lake & 37 & San Diego & 57 & Yolo \\\n\\hline 18 & Lassen & 38 & San Francisco & 58 & Yuba \\\n\\hline 19 & Los Angeles & 39 & San Joaquin & & \\\n\\hline 20 & Madera & 40 & San Luis Obispo & & \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Use the table of random digits (Table A) starting in row 33 to select your simple random sample."
+    "background": "For the scenarios presented here, identify the source population and sample as specifically as possible. If information is insufficient, do your best to provide a reasonable description of the population and sample and then suggest additional information.",
+    "data": "",
+    "question": "What is the source population and sample for scenario (b)?"
   },
   "output": {
-    "method": "从指定分布中抽样",
-    "answer": "There are 58 counties to choose from. Starting on line 33 of Table A, the first four random numbers that apply are 18, 56, 16, and 38. These numbers identify the following counties: Lassen, Ventura, Kings, and San Francisco.",
-    "variable": {
-      "county_list": {
-        "id": "county_list",
-        "value": [
-          "Alameda",
-          "Alpine",
-          "Amador",
-          "Butte",
-          "Calaveras",
-          "Colusa",
-          "Contra Costa",
-          "Del Norte",
-          "El Dorado",
-          "Fresno",
-          "Glenn",
-          "Humboldt",
-          "Imperial",
-          "Inyo",
-          "Kern",
-          "Kings",
-          "Lake",
-          "Lassen",
-          "Los Angeles",
-          "Madera",
-          "Marin",
-          "Mariposa",
-          "Mendocino",
-          "Merced",
-          "Modoc",
-          "Mono",
-          "Monterey",
-          "Napa",
-          "Nevada",
-          "Orange",
-          "Placer",
-          "Plumas",
-          "Riverside",
-          "Sacramento",
-          "San Benito",
-          "San Bernardino",
-          "San Diego",
-          "San Francisco",
-          "San Joaquin",
-          "San Luis Obispo",
-          "San Mateo",
-          "Santa Barbara",
-          "Santa Clara",
-          "Santa Cruz",
-          "Shasta",
-          "Sierra",
-          "Siskiyou",
-          "Solano",
-          "Sonoma",
-          "Stanislaus",
-          "Sutter",
-          "Tehama",
-          "Trinity",
-          "Tulare",
-          "Tuolumne",
-          "Ventura",
-          "Yolo",
-          "Yuba"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "List of California counties from which a random sample will be selected."
-      },
-      "random_digit_table": {
-        "id": "random_digit_table",
-        "value": "Table A starting in row 33",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Table of random digits used to select a simple random sample of counties."
-      }
-    }
+    "answer": "The sample consists of the 18 diabetics in the study. The population consists of 35 to 44-year old male diabetics. It would be useful to know other person, place, and time factors that define the source population."
   },
   "meta_info": {
-    "index": "2.3",
+    "index": "2.1",
     "image": "",
-    "caption": "California counties.",
+    "caption": "Sample and population",
     "chapter": "Types of Studies",
     "section": "2.2 Comparative Studies",
-    "page": "21-22"
+    "page": "21-21"
   },
   "sample_key": "29"
 }

@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\136.json",
+  "case_id": "book3_r1\\127.json",
   "input": {
-    "background": "A device consists of $m$ units of type I and $n$ units of type II. The reliability for an assigned time $t$ of each type I unit is $p_1$ and that of a type II unit is $p_2$. The units fail independently of one another. For the device to operate, no less than two out of $m$ type I units and no less than two out of $n$ type II units must operate simultaneously for time $t$.",
+    "background": "At time $x=0$, twenty identical units are put on test. The lifetime probability density function of each unit with parameter $\\lambda$ is given by $f(x)=\\lambda e^{-\\lambda x}$ for $x \\geq 0, \\lambda>0$. The quality manager leaves the test facility unmonitored and returns 24 hours later. Upon return, the manager observes that $y=15$ of the 20 units are still in operation (5 have failed) and terminates the test.",
     "data": null,
-    "question": "Calculate (a) when $m=5, p_1=0.9, n=7, p_2=0.8$."
+    "question": "Determine the maximum likelihood estimate of $\\lambda$ given that $y=15$ units are still in operation after 24 hours."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$\\mathrm{R}=0.9992$."
+    "answer": "The maximum likelihood estimate of $\\lambda=0.012$."
   },
   "meta_info": {
-    "index": "4.6",
+    "index": "3.27",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 4： System Reliability Modeling",
-    "section": "4.16 Problems",
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "299-299"
+    "page": "220-220"
   },
   "sample_key": "68"
 }

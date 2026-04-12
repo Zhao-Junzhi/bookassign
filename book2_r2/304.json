@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\120.json",
+  "input": {
+    "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What conclusion can be drawn from the test statistic, and what does it imply about the variance of the population?"
+  },
+  "output": {
+    "answer": "Since the test statistic $\\chi^2 = 1.53$ falls into the rejection region ($\\chi^2 < 3.32511$), we reject $H_0$ in favor of $H_a$. This implies that the variance $\\sigma^2$ of the population of all amounts of fill is less than $.01$ ($\\sigma < .1$) with a probability of a Type I error equal to $\\alpha = .05$. The quality-control supervisor can confidently conclude that the cannery is operating within the desired limits of variability."
+  },
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "sample_key": "304"
+}

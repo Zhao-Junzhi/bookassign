@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\051.json",
+  "case_id": "book5_r1\\041.json",
   "input": {
-    "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model.",
+    "background": "In the worked example of regression analysis (section 11.10.1), the $W^{\\prime}$ test for non-Normality of the residuals gave $\\mathrm{P}=0.03$. Using the data in Table 11.6, analyze the relationship between $\\log _{\\mathrm{e}} \\mathrm{Vcf}$ and blood glucose, assess the Normality of residuals, and compare prediction intervals for a diabetic patient with a fasting blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$.",
     "data": null,
-    "question": "Calculate the relative risks of dying (hazard ratio) for the following patients relative to non-GvHD non-CML patients: (i) with GvHD but not CML, (ii) CML but without GvHD, (iii) CML and GvHD."
+    "question": "Compare the predicted Vcf and $95 \\%$ prediction intervals derived from the two models for a diabetic patient with a fasting blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$."
   },
   "output": {
-    "method": "分类或发生概率影响因素解读",
-    "answer": "We need to calculate the prognostic index for each group of patients. These are as follows:\nnon-GvHD non-CML: PI = 0.000\nnon-GvHD CML: PI = -2.508\nGvHD non-CML: PI = 2.306\nGvHD CML: PI = -0.202 (=-2.508+2.306)\n\nThe relative risk of dying relative to the non-GvHD non-CML group is simply e^PI as the PI for that group is zero. Thus the risks of dying in the other groups relative to non-GvHD non-CML patients are:\nnon-GvHD CML: 0.08\nGvHD non-CML: 10.03\nGvHD CML: 0.82"
+    "answer": "From the regression equation using the raw values of Vcf (Table $11.6)$, the predicted Vcf is $1.10+0.0220 \\times 16=1.45 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $1.45 \\pm 2.080 \\times 0.229$ or 0.97 to $1.93 \\% / \\mathrm{sec}$. From the above regression equation using log transformed Vcf, the predicted Vcf is $\\exp (0.115+0.0148 \\times 16)=\\mathrm{e}^{0.352}=1.42 \\% / \\mathrm{sec}$. The $95 \\%$ prediction interval is $\\exp (0.352 \\pm 2.080 \\times 0.164)$ or 1.01 to $2.00 \\% / \\mathrm{sec}$. The two equations thus give similar answers for someone with a blood glucose of $16 \\mathrm{mmol} / \\mathrm{l}$."
   },
   "meta_info": {
-    "index": "13.3",
+    "index": "11.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Analysis of survival times",
+    "chapter": "Relation between two continuous variables",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "395-395"
+    "page": "323-323"
   },
   "sample_key": "119"
 }

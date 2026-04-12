@@ -6,7 +6,6 @@
     "question": "Do the data support the idea that patients experiencing adverse reactions were on average older than those without adverse reactions?"
   },
   "output": {
-    "method": "分位数/百分位数",
     "answer": "The median ages of the two groups are easily obtained from the stem-and-leaf diagrams as 52 and 53, suggesting that adverse reactions are not age-related."
   },
   "meta_info": {

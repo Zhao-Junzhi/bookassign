@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\168.json",
+  "input": {
+    "background": "The problem involves modeling the relationship between home size (x) and electrical usage (y) using data from n=15 homes. Straight-line and quadratic models are fitted to the data, and residuals are analyzed using Minitab printouts and residual plots from Figures 12.34a, 12.34b, 12.35a, and 12.35b.",
+    "data": "\\begin{tabular}{|l|l|}\n\\hline Table 12.6 & Home Size-Electrical Usage Data \\\\\n\\hline Size of Home, x (sq. ft.) & Monthly Usage, $y$ (kilowatt-hours) \\\\\n\\hline 1,290 & 1,182 \\\\\n\\hline 1,350 & 1,172 \\\\\n\\hline 1,470 & 1,264 \\\\\n\\hline 1,600 & 1,493 \\\\\n\\hline 1,710 & 1,571 \\\\\n\\hline 1,840 & 1,711 \\\\\n\\hline 1,980 & 1,804 \\\\\n\\hline 2,230 & 1,840 \\\\\n\\hline 2,400 & 1,956 \\\\\n\\hline 2,710 & 2,007 \\\\\n\\hline 2,930 & 1,984 \\\\\n\\hline 3,000 & 1,960 \\\\\n\\hline 3,210 & 2,001 \\\\\n\\hline 3,240 & 1,928 \\\\\n\\hline 3,520 & 1,945 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Analyze the residual plots."
+  },
+  "output": {
+    "answer": "The Minitab plot of the residuals for the straight-line model (Figure 12.35a) reveals a nonrandom pattern. The residuals exhibit a curved shape, with the residuals for the small values of x below the horizontal 0 (mean of the residuals) line, the residuals corresponding to the middle values of x above the 0 line, and the residuals for the largest values of x again below the 0 line. The indication is that the mean value of the random error \\varepsilon within each of these ranges of x (small, medium, large) may not be equal to 0. Such a pattern usually indicates that curvature needs to be added to the model. When the second-order term is added to the model, the nonrandom pattern disappears. In Figure 12.35b, the residuals appear to be randomly distributed around the 0 line, as expected. Note, too, that the residuals on the quadratic residual plot vary between -75 and 50, compared to between -200 and 200 on the straight-line plot. In fact, s \\approx 50 for the quadratic model is much smaller than s \\approx 155 for the straight-line model. The implication is that the quadratic model provides a considerably better model for predicting electrical usage."
+  },
+  "meta_info": {
+    "index": "12.14",
+    "img_in_question": null
+  },
+  "sample_key": "466"
+}

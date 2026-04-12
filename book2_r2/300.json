@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\120.json",
+  "input": {
+    "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+    "question": "State the null and alternative hypotheses for testing whether $\\sigma<.1$. Why must the hypotheses be stated in terms of $\\sigma^2$ rather than $\\sigma$?"
+  },
+  "output": {
+    "answer": "The null hypothesis is $H_0: \\sigma^2 = (.1)^2 = .01$ (Fill variance equals $.01-$ i.e., process specifications are not met). The alternative hypothesis is $H_a: \\sigma^2 < .01$ (Fill variance is less than $.01-$ i.e., process specifications are met). The hypotheses must be stated in terms of $\\sigma^2$ because the chi-square test for variance is based on the variance ($\\sigma^2$) rather than the standard deviation ($\\sigma$)."
+  },
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "sample_key": "300"
+}

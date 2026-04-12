@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_344.json",
+  "input": {
+    "background": "A screening test has a sensitivity of 0.98 and a false-positive rate of 0.01. The test is used in a population with a disease prevalence of 0.001.",
+    "data": "",
+    "question": "Use Bayes' theorem to determine the predictive value of a positive test under these circumstances."
+  },
+  "output": {
+    "answer": "We can use Bayes' theorem to determine the predictive value of a positive test under these circumstances as follows\n\n$$\n\\begin{aligned}\n\\operatorname{Pr}(D \\mid T) & =\\frac{\\text { sensitivity × prevalence }}{[\\text { sensitivity × prevalence }]+[\\text { false positive rate } \\times(1-\\text { prevalence })]} \\\\\n& =\\frac{0.98 \\times 0.001}{[0.98 \\times 0.001]+[0.01 \\times(1-0.001)]}=0.0893\n\\end{aligned}\n$$\nThe probability of having disease given a positive test result is $8.93 \\%$."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Predictive value positive.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5  MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "112-112"
+  },
+  "sample_key": "486",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1280,
+    "total_tokens": 1323,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1186,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1280,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1186,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

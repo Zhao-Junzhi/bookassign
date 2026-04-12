@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_451.json",
+  "case_id": "book1_r1\\record_375.json",
   "input": {
-    "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
+    "background": "We select an SRS of n=712 from a population of 20-29-year-old men and calculate x̄=183 pounds. The population standard deviation (σ) is 40. We propose to calculate 90%, 95%, and 99% confidence intervals for μ based on this information.",
     "data": "",
-    "question": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk."
+    "question": "Calculate the 90% confidence interval for μ."
   },
   "output": {
-    "method": "分类或发生概率影响因素解读",
-    "answer": "Therefore, a statistical interaction is said to exist.",
-    "variable": {
-      "asbestos": {
-        "id": "asbestos",
-        "value": "Presence or absence of asbestos exposure",
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates whether an individual has been exposed to asbestos."
-      },
-      "smoking": {
-        "id": "smoking",
-        "value": "Smoking status (e.g., smoker or non-smoker)",
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates the smoking status of an individual."
-      },
-      "lung_cancer": {
-        "id": "lung_cancer",
-        "value": "Presence or absence of lung cancer",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates whether an individual has been diagnosed with lung cancer."
-      },
-      "odds_ratios": {
-        "id": "odds_ratios",
-        "value": "Odds ratios from the case-control study",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Odds ratios calculated from the case-control study for different groups."
-      }
-    }
+    "answer": "The 90% confidence interval for μ is x̄ ± (z_(1-0.10/2))(SE_x̄) = 183.0 ± (1.645)(1.5) = 183.0 ± 2.5 = 180.5 to 185.5 (pounds)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "475-476"
+    "caption": "Confidence intervals, various levels of confidence (Body weight, 20-29-year-old U.S. males)",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "201-201"
   },
   "sample_key": "568"
 }

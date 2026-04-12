@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_351.json",
+  "case_id": "book1_r1\\record_152.json",
   "input": {
-    "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with n=20 and p=0.04. It follows that q=1-0.04=0.96.",
-    "data": "",
-    "question": "Calculate the variance and standard deviation of the binomial random variable."
+    "background": "A study compares the outcomes of a treatment group and a control group. In the treatment group, 40 out of 320 individuals (12.5%) experience an outcome, while in the control group, 26 out of 336 individuals (7.7%) experience the outcome. The data is presented in a crosstabulated form (Table 18.28). The task involves calculating chi-square statistics and P-values using both Pearson's and continuity-corrected (Yates') chi-square methods and interpreting the results.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.28 Data for Exercise 18.23.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multirow{2}{*}{} & \\multicolumn{2}{|l|}{Adverse event} & \\multirow[b]{2}{*}{Total} \\\n\\hline & Yes & No & \\\n\\hline Treatment & 40 & 280 & 320 \\\n\\hline Control & 26 & 310 & 336 \\\n\\hline Total & 66 & 590 & 656 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the chi-square statistic and P-value using the continuity-corrected (Yates') chi-square method."
   },
   "output": {
-    "method": "分散程度测度",
-    "answer": "It has variance σ²=n p q= 20 ⋅ 0.04 ⋅ 0.96=0.768 and standard deviation σ=√(n p q)= √(20 ⋅ 0.04 ⋅ 0.96)=0.8764.",
-    "variable": {
-      "n": {
-        "id": "n",
-        "value": 20,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Number of trials in the binomial distribution."
-      },
-      "p": {
-        "id": "p",
-        "value": 0.04,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Probability of success in each trial of the binomial distribution."
-      },
-      "q": {
-        "id": "q",
-        "value": 0.96,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Probability of failure in each trial of the binomial distribution, calculated as 1-p."
-      }
-    }
+    "answer": "With continuity-correction: $X^2_{\text{stat, c}}=3.598, df=1, P=0.058$"
   },
   "meta_info": {
-    "index": "",
+    "index": "18.23",
     "image": "",
-    "caption": "Expected value and variance of a binomial random vari-able (Asthma survey).",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.5  EXPECTED VALUE AND VARIANCE",
-    "page": "123-124"
+    "caption": "Don’t sweat the small stuff.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "458-458"
   },
   "sample_key": "383"
 }

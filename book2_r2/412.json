@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\153.json",
+  "input": {
+    "background": "Refer to the sales-appraisal simple linear regression in previous examples. The task is to find a $95 \\%$ confidence interval for the mean monthly sales when the appliance store spends $\\$ 400$ on advertising.",
+    "data": "null",
+    "question": "What is the interpretation of the confidence interval?"
+  },
+  "output": {
+    "answer": "When the store spends $\\$ 400$ a month on advertising, we are $95 \\%$ confident that the mean sales revenue for these months is between $\\$ 1,600$ and $\\$ 3,800$."
+  },
+  "meta_info": {
+    "index": "11.6",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "412"
+}

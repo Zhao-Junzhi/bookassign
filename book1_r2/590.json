@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_381.json",
+  "input": {
+    "background": "A cross-over trial sought to learn whether oat bran cereal lowered low-density lipoprotein (LDL) cholesterol in hypercholesterolemic men. Twelve subjects completed the study. Half were randomly assigned a diet that included oat bran cereal. The other half were assigned a diet that included corn flakes. Dietary interventions were applied for 2 weeks, after which LDL levels (mmol/L) were recorded. Subjects were then crossed-over to the alternative diet for 2 weeks. LDL was once again measured. Table 11.1 lists data from the study.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.1 ",
+    "question": "What do positive DELTA values reflect?"
+  },
+  "output": {
+    "answer": "Positive DELTA values reflect lower LDL on the oat bran diet."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Oat bran and LDL cholesterol).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.5 PAIRED SAMPLES",
+    "page": "219-220"
+  },
+  "sample_key": "590"
+}

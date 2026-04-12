@@ -1,61 +1,20 @@
 {
-  "case_id": "book1_r1\\record_140.json",
+  "case_id": "book1_r1\\record_114.json",
   "input": {
-    "background": "A double-blind randomized trial compared cefaclor to amoxicillin in the treatment of acute otitis media in children. There was no difference in clinical failure rates (all but four children in each group had a good clinical response), but after 14 days, 59 (55.7%) of 106 cefaclor treated subjects had effusion-free ears compared to 40 of the 97 amoxicillin treated subjects.",
-    "data": "",
-    "question": "Determine whether the effusion-free rates differed significantly in the groups. Show all hypothesis-testing steps."
+    "background": "Table 1.4.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is provided.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Create a scatterplot and describe the relationship between the variables."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "A. Hypotheses. H_0: p_1=p_2 versus H_a: p_1 ≠ p_2 B. Test statistic. z_{ext {stat }}=2.054 C. P-value. P=0.040 (good evidence against H_0 ) D. Significance level (optional). The evidence against the null hypothesis is significant at α=0.05.",
-    "variable": {
-      "treatment_group": {
-        "id": "treatment_group",
-        "value": [
-          "cefaclor",
-          "amoxicillin"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The treatment group to which the subjects were assigned, either cefaclor or amoxicillin."
-      },
-      "effusion_free_count_cefaclor": {
-        "id": "effusion_free_count_cefaclor",
-        "value": 59,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of subjects in the cefaclor group who had effusion-free ears after 14 days."
-      },
-      "total_cefaclor": {
-        "id": "total_cefaclor",
-        "value": 106,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of subjects in the cefaclor group."
-      },
-      "effusion_free_count_amoxicillin": {
-        "id": "effusion_free_count_amoxicillin",
-        "value": 40,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of subjects in the amoxicillin group who had effusion-free ears after 14 days."
-      },
-      "total_amoxicillin": {
-        "id": "total_amoxicillin",
-        "value": 97,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of subjects in the amoxicillin group."
-      }
-    }
+    "answer": "Here is the scatterplot: A negative linear relationship is evident. There is a possible outlier in the upper righthand quadrant (observation 13, Los Arboles)."
   },
   "meta_info": {
-    "index": "17.19",
+    "index": "14.1",
     "image": "",
-    "caption": "Acute otitis media.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.6 POWER AND SAMPLE SIZE",
-    "page": "405-405"
+    "caption": "Bicycle helmet use.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "308-310"
   },
   "sample_key": "274"
 }

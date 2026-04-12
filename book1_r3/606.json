@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_387.json",
+  "input": {
+    "background": "How large a sample is needed to test the oat bran data presented earlier in the chapter with 80% power at α=0.05 two sided? We want to detect a mean change of 0.2 mmol/L and will assume a standard deviation of 0.4 mmol/L.",
+    "data": "",
+    "question": "Calculate the required sample size using the given parameters: mean change of 0.2 mmol/L, standard deviation of 0.4 mmol/L, power of 80%, and α=0.05 (two-sided)."
+  },
+  "output": {
+    "answer": "n=σ²(z₀.₈+z₀.₉₇₅)²/300²=0.4²(0.84+1.96)²/300²=31.36. Round up to 32 to ensure adequate power."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement, paired-t test (Oat bran).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "227-227"
+  },
+  "sample_key": "606",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1094,
+    "total_tokens": 1137,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1093,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1094,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1093,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_065.json",
+  "case_id": "book1_r1\\record_052.json",
   "input": {
-    "background": "Find the following $z$ percentiles.",
+    "background": "A telephone survey uses a random digit dialing machine to call subjects. The random digit dialing machine is expected to reach a live person 15% of the time. In eight attempts, the task is to calculate probabilities related to successful calls.",
     "data": "",
-    "question": "(b) $z_{.35}$"
+    "question": "What is the probability of achieving exactly two successful calls in eight attempts?"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "$z_{.35}=-0.39$",
-    "variable": {
-      "z_percentile": {
-        "id": "z_percentile",
-        "value": 0.35,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The given percentile value (35th percentile) for which the corresponding z-score needs to be found."
-      }
-    }
+    "answer": "$\\begin{aligned} & X \\sim b(8,0.15) \\\\ & \\operatorname{Pr}(X=2)=0.237604 \\end{aligned}$"
   },
   "meta_info": {
-    "index": "7.15",
+    "index": "6.5",
     "image": "",
-    "caption": "Z percentiles.",
-    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
-    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
-    "page": "153-153"
+    "caption": "Telephone survey.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.4 Probability Calculators",
+    "page": "122-122"
   },
   "sample_key": "114"
 }

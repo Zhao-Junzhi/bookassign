@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\100.json",
+  "input": {
+    "background": "Some quality-control experiments require destructive sampling (i.e., the test to determine whether the item is defective destroys the item) in order to measure some particular characteristic of the product. The cost of destructive sampling often dictates small samples. For example, suppose a manufacturer of printers for personal computers wishes to estimate the mean number of characters printed before the printhead fails. Suppose the printer manufacturer tests n=15 randomly selected printheads and records the number of characters printed until failure for each. These 15 measurements (in millions of characters) are listed in Table 6.5, followed by an XLSTAT summary statistics printout in Figure 6.10.",
+    "data": " \n\n\\begin{tabular}{rrrrr}\nTable 6.5 Number of Characters (in Millions) for $n=15$ Printhead Tests \\\n1.13 & 1.55 & 1.43 & .92 & 1.25 \\\n1.36 & 1.32 & .85 & 1.07 & 1.48 \\\n1.20 & 1.33 & 1.18 & 1.22 & 1.29\n\\end{tabular}",
+    "question": "Form a 99% confidence interval for the mean number of characters printed before the printhead fails. Interpret the result."
+  },
+  "output": {
+    "answer": "For this small sample (n=15), we use the t-statistic to form the confidence interval. We use a confidence coefficient of .99 and n-1=14 degrees of freedom to find t_{α/2} in Table III: t_{α/2}=t_{.005}=2.977. [Note: The small sample forces us to extend the interval almost 3 standard deviations (of x̄ ) on each side of the sample mean in order to form the 99% confidence interval.] From the XLSTAT printout, Figure 6.10, we find x̄=1.239 and s=.193. Substituting these values into the confidence interval formula, we obtain x̄ ± t_{.005}(s/√n) = 1.239 ± 2.977(.193/√15) = 1.239 ± .148 or (1.091, 1.387). This interval is shown (shaded) at the bottom of the printout, Figure 6.10. Our interpretation is as follows: The manufacturer can be 99% confident that the printhead has a mean life of between 1.091 and 1.387 million characters. If the manufacturer were to advertise that the mean life of its printheads is (at least) 1 million characters, the interval would support such a claim. Our confidence is derived from the fact that 99% of the intervals formed in repeated applications of this procedure would contain μ."
+  },
+  "meta_info": {
+    "index": "6.5",
+    "img_in_question": null
+  },
+  "sample_key": "243",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1712,
+    "total_tokens": 1755,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1711,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1712,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1711,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

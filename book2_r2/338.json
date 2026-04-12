@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\131.json",
+  "input": {
+    "background": "A manufacturer of paper products wants to compare the variation in daily production levels at two paper mills. Independent random samples of days are selected from each mill, and the production levels (in units) are recorded. The data are shown in Table 8.8. The goal is to determine whether there is sufficient evidence to indicate a difference in the variability of production levels at the two paper mills. The significance level is $\\alpha=.10$.",
+    "data": "\\begin{tabular}{l|l|l|l|l|l|l|l|l}\n\\hline Table 8.8 & \\multicolumn{9}{|l}{ Production Levels at Two Paper Mills } \\\\\n\\hline Mill 1: & 34 & 18 & 28 & 21 & 40 & 23 & 29 & \\\\\n& 25 & 10 & 38 & 32 & 22 & 22 & & \\\\\n\\hline Mill 2: & 31 & 13 & 27 & 19 & 22 & 18 & 23 & 21\\\\\n& 18 & 15 & 24 & 13 & 19 & 18 & 23 & 13\\\\\n\\hline\n\\end{tabular}",
+    "question": "How is the $F$-test statistic calculated, and what is the rejection criterion for this test?"
+  },
+  "output": {
+    "answer": "The $F$-test statistic is calculated as $$F=\\frac{\\text{Larger sample variance}}{\\text{Smaller sample variance}}=\\frac{s_1^2}{s_2^2}$$. The rejection criterion for $H_0: \\sigma_1^2=\\sigma_2^2$ at $\\alpha=.10$ is when the calculated value of $F$ exceeds the tabulated value: $$F_{\\alpha / 2}=F_{05}=2.38$$."
+  },
+  "meta_info": {
+    "index": "8.10",
+    "img_in_question": null
+  },
+  "sample_key": "338"
+}

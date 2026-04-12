@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\148.json",
+  "input": {
+    "background": "Refer to the advertising-monthly-sales data presented in Table 11.1. Consider the straight-line model, $E(y)=\\beta_0+\\beta_1 x$, where $y=$ sales revenue (thousands of dollars) and $x=$ advertising expenditure (hundreds of dollars).",
+    "data": null,
+    "question": "Give practical interpretations to $\\beta_0$ and $\\beta_1$."
+  },
+  "output": {
+    "answer": "The estimated $y$-intercept, $\\hat{\\beta}_0=-.1$, appears to imply that the estimated mean sales revenue is equal to -.1 , or $-\\$ 100$, when the advertising expenditure, $x$, is equal to $\\$ 0$. Because negative sales revenues are not possible, this seems to make the model nonsensical. However, the model parameters should be interpreted only within the sampled range of the independent variable-in this case, for advertising expenditures between $\\$ 100$ and $\\$ 500$. Thus, the $y$-intercept-which is, by definition, at $x=0 ($0 advertising expenditure)-is not within the range of the sampled values of $x$ and is not subject to meaningful interpretation.\n\nThe slope of the least squares line, $\\hat{\\beta}_1=.7$, implies that for every unit increase of $x$, the mean value of $y$ is estimated to increase by .7 unit. In terms of this example, for every $\\$ 100$ increase in advertising, the mean sales revenue is estimated to increase by $\\$ 700$ over the sampled range of advertising expenditures from $\\$ 100$ to $\\$ 500$. Thus, the model does not imply that increasing the advertising expenditures from $\\$ 500$ to $\\$ 1,000$ will result in an increase in mean sales of $\\$ 3,500$, because the range of $x$ in the sample does not extend to $\\$ 1,000(x=10)$. Be careful to interpret the estimated parameters only within the sampled range of $x$."
+  },
+  "meta_info": {
+    "index": "11.1",
+    "img_in_question": null
+  },
+  "sample_key": "397"
+}

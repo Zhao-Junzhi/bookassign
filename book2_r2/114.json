@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\051.json",
+  "input": {
+    "background": "A county welfare agency employs 10 welfare workers who interview prospective food stamp recipients. Periodically the supervisor selects, at random, the forms completed by 2 workers to audit for illegal deductions. Unknown to the supervisor, 3 of the workers have regularly been giving illegal deductions to applicants.",
+    "data": null,
+    "question": "What is the probability that both of the 2 workers chosen have been giving illegal deductions?"
+  },
+  "output": {
+    "answer": "Define the following two events: A: {First worker selected gives illegal deductions} B: {Second worker selected gives illegal deductions} We want to find the probability of the event that both selected workers have been giving illegal deductions. This event can be restated as [First worker gives illegal deductions and second worker gives illegal deductions]. Thus, we want to find the probability of the intersection, $A \\cap B$. Applying the multiplicative rule, we have $$ P(A \\cap B)=P(A) P(B \\mid A) $$"
+  },
+  "meta_info": {
+    "index": "3.18",
+    "img_in_question": null
+  },
+  "sample_key": "114"
+}
