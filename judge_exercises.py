@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 
 # 配置参数
 BASE_DIR = Path(r'd:\place\study\bookassign')
-BOOKS = [1, 2, 3, 4, 5]  # 要处理的书的编号
+BOOKS = [4]  # 要处理的书的编号
 MAX_WORKERS = 8  # 并行处理的线程数
 API_RATE_LIMIT = 0.5  # API调用间隔（秒）
 MAX_RETRIES = 3  # 最大重试次数
@@ -75,7 +75,7 @@ async def call_gpt4o_async(prompt: str) -> Tuple[str, Dict]:
             )
             
             response = await client.chat.completions.create(
-                model="claude-sonnet-4-6",
+                model="gpt-5.4",
                 messages=[
                     {"role": "user", "content": prompt}
                 ],

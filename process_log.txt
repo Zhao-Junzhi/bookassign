@@ -9956,3 +9956,112 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2026-04-11 16:08:08,541 - INFO - 成功处理: 037.json
 2026-04-11 16:08:09,055 - INFO - 进度: 69/69 (100.0%), 成功: 69, 失败: 0, 速度: 0.70 文件/秒
 2026-04-11 16:08:09,057 - INFO - 报告已保存到: d:\place\study\bookassign\book5_r1\processing_report.txt
+2026-04-12 17:05:18,518 - INFO - ============================================================
+2026-04-12 17:05:18,518 - INFO - 开始处理book1目录下的JSON文件
+2026-04-12 17:05:18,519 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-12 17:05:18,519 - INFO - 并发数: 8
+2026-04-12 17:05:18,519 - INFO - API调用间隔: 0.5秒
+2026-04-12 17:05:18,519 - INFO - ============================================================
+2026-04-12 17:05:18,528 - INFO - 找到 24 个JSON文件
+2026-04-12 17:05:18,528 - INFO - 已处理 0 个文件，剩余 24 个文件待处理
+2026-04-12 17:05:18,528 - INFO - 输出目录: d:\place\study\bookassign\book4_r1
+2026-04-12 17:05:18,530 - INFO - 开始处理: 003.json
+2026-04-12 17:05:20,043 - INFO - 开始处理: 020.json
+2026-04-12 17:05:20,521 - INFO - 开始处理: 009.json
+2026-04-12 17:05:20,952 - INFO - 开始处理: 015.json
+2026-04-12 17:05:21,462 - INFO - 开始处理: 004.json
+2026-04-12 17:05:21,919 - INFO - 开始处理: 021.json
+2026-04-12 17:05:22,342 - INFO - 开始处理: 010.json
+2026-04-12 17:05:22,763 - INFO - 开始处理: 016.json
+2026-04-12 17:05:36,457 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:36,473 - INFO - 已保存: 004.json
+2026-04-12 17:05:36,474 - INFO - 成功处理: 004.json
+2026-04-12 17:05:36,475 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:36,477 - INFO - 已保存: 003.json
+2026-04-12 17:05:36,477 - INFO - 成功处理: 003.json
+2026-04-12 17:05:36,886 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:36,887 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:36,889 - INFO - 已保存: 009.json
+2026-04-12 17:05:36,889 - INFO - 成功处理: 009.json
+2026-04-12 17:05:36,890 - INFO - 已保存: 016.json
+2026-04-12 17:05:36,890 - INFO - 成功处理: 016.json
+2026-04-12 17:05:36,938 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:36,940 - INFO - 已保存: 015.json
+2026-04-12 17:05:36,940 - INFO - 成功处理: 015.json
+2026-04-12 17:05:36,980 - INFO - 开始处理: 005.json
+2026-04-12 17:05:37,399 - INFO - 开始处理: 022.json
+2026-04-12 17:05:37,824 - INFO - 开始处理: 011.json
+2026-04-12 17:05:38,252 - INFO - 开始处理: 017.json
+2026-04-12 17:05:38,695 - INFO - 开始处理: 006.json
+2026-04-12 17:05:39,144 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:39,145 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:39,148 - INFO - 已保存: 010.json
+2026-04-12 17:05:39,148 - INFO - 成功处理: 010.json
+2026-04-12 17:05:39,151 - INFO - 已保存: 020.json
+2026-04-12 17:05:39,151 - INFO - 成功处理: 020.json
+2026-04-12 17:05:39,664 - INFO - 开始处理: 023.json
+2026-04-12 17:05:40,142 - INFO - 开始处理: 012.json
+2026-04-12 17:05:51,111 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:51,113 - INFO - 已保存: 011.json
+2026-04-12 17:05:51,113 - INFO - 成功处理: 011.json
+2026-04-12 17:05:51,316 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:51,318 - INFO - 已保存: 005.json
+2026-04-12 17:05:51,318 - INFO - 成功处理: 005.json
+2026-04-12 17:05:51,624 - INFO - 开始处理: 018.json
+2026-04-12 17:05:52,017 - INFO - 开始处理: 002.json
+2026-04-12 17:05:55,309 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:55,311 - INFO - 已保存: 022.json
+2026-04-12 17:05:55,311 - INFO - 成功处理: 022.json
+2026-04-12 17:05:55,812 - INFO - 开始处理: 007.json
+2026-04-12 17:05:56,192 - INFO - 进度: 10/24 (41.7%), 成功: 10, 失败: 0, 速度: 0.27 文件/秒
+2026-04-12 17:05:57,986 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:57,989 - INFO - 已保存: 023.json
+2026-04-12 17:05:57,989 - INFO - 成功处理: 023.json
+2026-04-12 17:05:58,279 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:58,282 - INFO - 已保存: 021.json
+2026-04-12 17:05:58,283 - INFO - 成功处理: 021.json
+2026-04-12 17:05:58,502 - INFO - 开始处理: 024.json
+2026-04-12 17:05:58,932 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:05:58,934 - INFO - 已保存: 017.json
+2026-04-12 17:05:58,934 - INFO - 成功处理: 017.json
+2026-04-12 17:05:58,935 - INFO - 开始处理: 013.json
+2026-04-12 17:05:59,441 - INFO - 开始处理: 019.json
+2026-04-12 17:06:05,037 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:05,039 - INFO - 已保存: 012.json
+2026-04-12 17:06:05,039 - INFO - 成功处理: 012.json
+2026-04-12 17:06:05,345 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:05,349 - INFO - 已保存: 006.json
+2026-04-12 17:06:05,349 - INFO - 成功处理: 006.json
+2026-04-12 17:06:05,450 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:05,452 - INFO - 已保存: 002.json
+2026-04-12 17:06:05,452 - INFO - 成功处理: 002.json
+2026-04-12 17:06:05,547 - INFO - 开始处理: 001.json
+2026-04-12 17:06:05,960 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:05,960 - INFO - 开始处理: 008.json
+2026-04-12 17:06:06,367 - INFO - 开始处理: 014.json
+2026-04-12 17:06:06,797 - INFO - 已保存: 018.json
+2026-04-12 17:06:06,797 - INFO - 成功处理: 018.json
+2026-04-12 17:06:14,828 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:14,831 - INFO - 已保存: 007.json
+2026-04-12 17:06:14,832 - INFO - 成功处理: 007.json
+2026-04-12 17:06:16,668 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:16,670 - INFO - 已保存: 013.json
+2026-04-12 17:06:16,671 - INFO - 成功处理: 013.json
+2026-04-12 17:06:21,485 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:21,487 - INFO - 已保存: 024.json
+2026-04-12 17:06:21,487 - INFO - 成功处理: 024.json
+2026-04-12 17:06:21,998 - INFO - 进度: 20/24 (83.3%), 成功: 20, 失败: 0, 速度: 0.32 文件/秒
+2026-04-12 17:06:22,446 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:22,448 - INFO - 已保存: 019.json
+2026-04-12 17:06:22,448 - INFO - 成功处理: 019.json
+2026-04-12 17:06:25,518 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:25,520 - INFO - 已保存: 001.json
+2026-04-12 17:06:25,520 - INFO - 成功处理: 001.json
+2026-04-12 17:06:32,489 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:32,494 - INFO - 已保存: 008.json
+2026-04-12 17:06:32,494 - INFO - 成功处理: 008.json
+2026-04-12 17:06:33,320 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-12 17:06:33,322 - INFO - 已保存: 014.json
+2026-04-12 17:06:33,322 - INFO - 成功处理: 014.json
+2026-04-12 17:06:33,833 - INFO - 进度: 24/24 (100.0%), 成功: 24, 失败: 0, 速度: 0.32 文件/秒
+2026-04-12 17:06:33,834 - INFO - 报告已保存到: d:\place\study\bookassign\book4_r1\processing_report.txt

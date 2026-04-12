@@ -1,9 +1,9 @@
 {
   "case_id": "book4_r1\\005.json",
   "input": {
-    "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+    "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
     "data": null,
-    "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars and from each of 20 small cars?"
+    "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars, and from each of 20 small cars?"
   },
   "output": {
     "answer": "He should take a single reading from each of 20 different large cars and from each of 20 different small cars."

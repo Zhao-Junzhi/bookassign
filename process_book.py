@@ -39,8 +39,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 配置参数
-INPUT_DIR = Path(r'd:\place\study\bookassign\book5')
-OUTPUT_DIR = Path(r'd:\place\study\bookassign\book5_r1')
+INPUT_DIR = Path(r'd:\place\study\bookassign\book4')
+OUTPUT_DIR = Path(r'd:\place\study\bookassign\book4_r1')
 MAX_WORKERS = 8  # 并行处理的线程数
 API_RATE_LIMIT = 0.5  # API调用间隔（秒）
 MAX_RETRIES = 3  # 最大重试次数

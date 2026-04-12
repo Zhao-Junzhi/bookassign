@@ -1,12 +1,12 @@
 {
   "case_id": "book4_r1\\006.json",
   "input": {
-    "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained: Autumn weights: [0.91, 0.87, 0.97, 0.79, 1.09, 0.96, 0.98, 0.82, 0.84, 0.89, 1.01, 0.92, 0.70, 0.88, 0.91, 0.89, 0.79, 0.81, 0.99, 0.75]; Spring weights: [0.71, 0.55, 0.60, 0.74, 0.58, 0.49, 0.61, 0.66, 0.75, 0.85, 0.61, 0.49, 0.59, 0.83, 0.74, 0.77, 0.82, 0.57, 0.66, 0.71].",
+    "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained:\n\n\\begin{tabular}{llllllllll}\nAutumn & & & & & & & & & \\\\\n0.91 & 0.87 & 0.97 & 0.79 & 1.09 & 0.96 & 0.98 & 0.82 & 0.84 & 0.89 \\\\\n1.01 & 0.92 & 0.70 & 0.88 & 0.91 & 0.89 & 0.79 & 0.81 & 0.99 & 0.75 \\\\\nSpring & & & & & & & & & \\\\\n0.71 & 0.55 & 0.60 & 0.74 & 0.58 & 0.49 & 0.61 & 0.66 & 0.75 & 0.85 \\\\\n0.61 & 0.49 & 0.59 & 0.83 & 0.74 & 0.77 & 0.82 & 0.57 & 0.66 & 0.71 \\\\\n\\hline\n\\end{tabular}",
     "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & $t$ & \\\n\\hline $P=0.05$ & $P=0.01$ & $\\boldsymbol{P}=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
     "question": "Draw a frequency histogram of hedgehog mass in autumn."
   },
   "output": {
-    "answer": "Mass of hedgehogs in autumn (n=20)."
+    "answer": "Mass of hedgehogs in autumn ( $n=20$ )"
   },
   "meta_info": {
     "index": "2.1",

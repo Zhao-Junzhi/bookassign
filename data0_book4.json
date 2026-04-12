@@ -2,9 +2,9 @@
   "1": {
     "case_id": "book4_r1\\001.json",
     "input": {
-      "background": "Identify the data types represented by various variables in a given table.",
+      "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What is the data type of the variable 'Ratio of a tree's breadth to its height'?"
+      "question": "What is the data type for 'Ratio of a tree's breadth to its height'?"
     },
     "output": {
       "answer": "Interval/ratio"
@@ -23,9 +23,9 @@
   "2": {
     "case_id": "book4_r1\\001.json",
     "input": {
-      "background": "Identify the data types represented by various variables in a given table.",
+      "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What is the data type of the variable 'Level of trampling on a footpath (low, medium or high)'?"
+      "question": "What is the data type for 'Level of trampling on a footpath (low, medium or high)'?"
     },
     "output": {
       "answer": "Ordinal"
@@ -44,9 +44,9 @@
   "3": {
     "case_id": "book4_r1\\001.json",
     "input": {
-      "background": "Identify the data types represented by various variables in a given table.",
+      "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What is the data type of the variable 'Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating)'?"
+      "question": "What is the data type for 'Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating)'?"
     },
     "output": {
       "answer": "Interval/ratio"
@@ -65,9 +65,9 @@
   "4": {
     "case_id": "book4_r1\\001.json",
     "input": {
-      "background": "Identify the data types represented by various variables in a given table.",
+      "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What is the data type of the variable 'Number of lorries passing a census point within one hour'?"
+      "question": "What is the data type for 'Number of lorries passing a census point within one hour'?"
     },
     "output": {
       "answer": "Interval/ratio"
@@ -86,9 +86,9 @@
   "5": {
     "case_id": "book4_r1\\001.json",
     "input": {
-      "background": "Identify the data types represented by various variables in a given table.",
+      "background": "Identify the data types represented by these variables:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Variable & Nominal & Ordinal & Interval/ratio\\\\\n\\hline Ratio of a tree's breadth to its height & & \\\\\n\\hline Level of trampling on a footpath (low, medium or high) & & \\\\\n\\hline Of the invertebrates caught in a trap, the percentage that are herbivorous (plant eating) & & \\\\\n\\hline Number of lorries passing a census point within one hour & & \\\\\n\\hline Footpath construction (concrete, gravel, none) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What is the data type of the variable 'Footpath construction (concrete, gravel, none)'?"
+      "question": "What is the data type for 'Footpath construction (concrete, gravel, none)'?"
     },
     "output": {
       "answer": "Nominal"
@@ -107,12 +107,12 @@
   "6": {
     "case_id": "book4_r1\\002.json",
     "input": {
-      "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+      "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Is the variable 'Amount of rainfall in a day (mm)' continuous or discrete?"
+      "question": "Determine whether 'Amount of rainfall in a day (mm)' is continuous or discrete."
     },
     "output": {
-      "answer": "Continuous"
+      "answer": "Continuous: ✓, Discrete: "
     },
     "meta_info": {
       "index": "1.2",
@@ -128,12 +128,12 @@
   "7": {
     "case_id": "book4_r1\\002.json",
     "input": {
-      "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+      "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Is the variable 'Number of people with an interest in environmental issues' continuous or discrete?"
+      "question": "Determine whether 'Number of people with an interest in environmental issues' is continuous or discrete."
     },
     "output": {
-      "answer": "Discrete"
+      "answer": "Continuous: , Discrete: ✓"
     },
     "meta_info": {
       "index": "1.2",
@@ -149,12 +149,12 @@
   "8": {
     "case_id": "book4_r1\\002.json",
     "input": {
-      "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+      "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Is the variable 'Percentage of leaves on a tree displaying fungal infection' continuous or discrete?"
+      "question": "Determine whether 'Percentage of leaves on a tree displaying fungal infection' is continuous or discrete."
     },
     "output": {
-      "answer": "Continuous"
+      "answer": "Continuous: ✓, Discrete: "
     },
     "meta_info": {
       "index": "1.2",
@@ -170,12 +170,12 @@
   "9": {
     "case_id": "book4_r1\\002.json",
     "input": {
-      "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+      "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Is the variable 'The concentration of cadmium in roadside soils' continuous or discrete?"
+      "question": "Determine whether 'The concentration of cadmium in roadside soils' is continuous or discrete."
     },
     "output": {
-      "answer": "Continuous"
+      "answer": "Continuous: ✓, Discrete: "
     },
     "meta_info": {
       "index": "1.2",
@@ -191,12 +191,12 @@
   "10": {
     "case_id": "book4_r1\\002.json",
     "input": {
-      "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
+      "background": "Identify whether the variables below are continuous or discrete:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Continuous & Discrete \\\\\n\\hline Amount of rainfall in a day (mm) & & \\\\\n\\hline Number of people with an interest in environmental issues & & \\\\\n\\hline Percentage of leaves on a tree displaying fungal infection & & \\\\\n\\hline The concentration of cadmium in roadside soils & & \\\\\n\\hline Type of site (either reclaimed or not) & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Is the variable 'Type of site (either reclaimed or not)' continuous or discrete?"
+      "question": "Determine whether 'Type of site (either reclaimed or not)' is continuous or discrete."
     },
     "output": {
-      "answer": "Discrete"
+      "answer": "Continuous: , Discrete: ✓"
     },
     "meta_info": {
       "index": "1.2",
@@ -212,9 +212,9 @@
   "11": {
     "case_id": "book4_r1\\003.json",
     "input": {
-      "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
+      "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
       "data": null,
-      "question": "Is the pH of soil a derived variable or not derived?"
+      "question": "Is the variable 'pH of soil' derived or not derived?"
     },
     "output": {
       "answer": "Derived. pH is the logarithm of the reciprocal of the hydrogen ion concentration and so is effectively derived from the hydrogen ion concentration despite usually being measured directly."
@@ -233,9 +233,9 @@
   "12": {
     "case_id": "book4_r1\\003.json",
     "input": {
-      "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
+      "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
       "data": null,
-      "question": "Is the number of households that own a car a derived variable or not derived?"
+      "question": "Is the variable 'Number of households that own a car' derived or not derived?"
     },
     "output": {
       "answer": "Not derived."
@@ -254,9 +254,9 @@
   "13": {
     "case_id": "book4_r1\\003.json",
     "input": {
-      "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
+      "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
       "data": null,
-      "question": "Is the percentage of tree canopy cover in a woodland a derived variable or not derived?"
+      "question": "Is the variable 'Percentage of tree canopy cover in a woodland' derived or not derived?"
     },
     "output": {
       "answer": "Derived."
@@ -275,9 +275,9 @@
   "14": {
     "case_id": "book4_r1\\003.json",
     "input": {
-      "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
+      "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
       "data": null,
-      "question": "Is the estimate of tree canopy cover in a woodland (open, intermediate, closed) a derived variable or not derived?"
+      "question": "Is the variable 'Estimate of tree canopy cover in a woodland (open, intermediate, closed)' derived or not derived?"
     },
     "output": {
       "answer": "Not derived."
@@ -296,9 +296,9 @@
   "15": {
     "case_id": "book4_r1\\003.json",
     "input": {
-      "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
+      "background": "Identify which of the variables below are derived:\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{1.3 Identify which of the variables below are derived:}\n\\begin{tabular}{|l|l|l|}\n\\hline Variable & Derived & Not derived \\\\\n\\hline pH of soil & & \\\\\n\\hline Number of households that own a car & & \\\\\n\\hline Percentage of tree canopy cover in a woodland & & \\\\\n\\hline Estimate of tree canopy cover in a woodland (open, intermediate, closed) & & \\\\\n\\hline Type of soil (designated as clay, loam or sandy & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
       "data": null,
-      "question": "Is the type of soil (designated as clay, loam or sandy) a derived variable or not derived?"
+      "question": "Is the variable 'Type of soil (designated as clay, loam or sandy)' derived or not derived?"
     },
     "output": {
       "answer": "Not derived."
@@ -317,9 +317,9 @@
   "16": {
     "case_id": "book4_r1\\004.json",
     "input": {
-      "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
+      "background": "An environmental researcher wishes to measure the plant diversity in an area of $100 \\times 100 \\mathrm{~m}$ in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
       "data": null,
-      "question": "Identify which of the designs is random, systematic, or stratified-random for the following method: Dividing the sample area into ten 10 m blocks and taking one sample from a random coordinate within each of the blocks. State briefly any main advantages and disadvantages of this method."
+      "question": "Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of the method: (i) Dividing the sample area into ten 10 m blocks and taking one sample from a random coordinate within each of the blocks."
     },
     "output": {
       "answer": "(i) Stratified-random.\n\nAdvantage: incorporates the advantages of both of the methods below."
@@ -338,9 +338,9 @@
   "17": {
     "case_id": "book4_r1\\004.json",
     "input": {
-      "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
+      "background": "An environmental researcher wishes to measure the plant diversity in an area of $100 \\times 100 \\mathrm{~m}$ in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
       "data": null,
-      "question": "Identify which of the designs is random, systematic, or stratified-random for the following method: Taking random coordinates from the whole 100 × 100 m sample area. State briefly any main advantages and disadvantages of this method."
+      "question": "Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of the method: (ii) Taking random coordinates from the whole $100 \\times 100 \\mathrm{~m}$ sample area."
     },
     "output": {
       "answer": "(ii) Random.\n\nAdvantage: reduces the opportunity for the researcher to unconsciously bias where the quadrats are placed.\nDisadvantage: there may be areas of the meadow with different conditions that, by chance, are underrepresented."
@@ -359,9 +359,9 @@
   "18": {
     "case_id": "book4_r1\\004.json",
     "input": {
-      "background": "An environmental researcher wishes to measure the plant diversity in an area of 100 × 100 m in a meadow. She decides to take 100 readings using a 1 m quadrat and considers three survey designs.",
+      "background": "An environmental researcher wishes to measure the plant diversity in an area of $100 \\times 100 \\mathrm{~m}$ in a meadow. She decides to take 100 readings using a 1 m quadrat, and considers the following three survey designs.",
       "data": null,
-      "question": "Identify which of the designs is random, systematic, or stratified-random for the following method: Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines. State briefly any main advantages and disadvantages of this method."
+      "question": "Identify which of the designs is random, systematic or stratified-random, and state briefly any main advantages and disadvantages of the method: (iii) Setting up ten parallel 100 m lines of quadrats (10 m apart) across the meadow with the quadrat 10 m apart on each of the lines."
     },
     "output": {
       "answer": "(iii) Systematic.\n\nAdvantage: covers all of the meadow, taking into account the possibility that conditions across the site may differ.\nDisadvantage: there may be an underlying pattern of plant diversity that has a 10 m periodicity."
@@ -380,9 +380,9 @@
   "19": {
     "case_id": "book4_r1\\005.json",
     "input": {
-      "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+      "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
       "data": null,
-      "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars and from each of 20 small cars?"
+      "question": "Should the researcher take 20 readings from a single large car and 20 from a single small car, or should he take a single reading from each of 20 large cars, and from each of 20 small cars?"
     },
     "output": {
       "answer": "He should take a single reading from each of 20 different large cars and from each of 20 different small cars."
@@ -401,7 +401,7 @@
   "20": {
     "case_id": "book4_r1\\005.json",
     "input": {
-      "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+      "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
       "data": null,
       "question": "Why is repeatedly sampling the same car incorrect?"
     },
@@ -422,47 +422,12 @@
   "21": {
     "case_id": "book4_r1\\006.json",
     "input": {
-      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained: Autumn weights: [0.91, 0.87, 0.97, 0.79, 1.09, 0.96, 0.98, 0.82, 0.84, 0.89, 1.01, 0.92, 0.70, 0.88, 0.91, 0.89, 0.79, 0.81, 0.99, 0.75]; Spring weights: [0.71, 0.55, 0.60, 0.74, 0.58, 0.49, 0.61, 0.66, 0.75, 0.85, 0.61, 0.49, 0.59, 0.83, 0.74, 0.77, 0.82, 0.57, 0.66, 0.71].",
+      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained:\n\n\\begin{tabular}{llllllllll}\nAutumn & & & & & & & & & \\\\\n0.91 & 0.87 & 0.97 & 0.79 & 1.09 & 0.96 & 0.98 & 0.82 & 0.84 & 0.89 \\\\\n1.01 & 0.92 & 0.70 & 0.88 & 0.91 & 0.89 & 0.79 & 0.81 & 0.99 & 0.75 \\\\\nSpring & & & & & & & & & \\\\\n0.71 & 0.55 & 0.60 & 0.74 & 0.58 & 0.49 & 0.61 & 0.66 & 0.75 & 0.85 \\\\\n0.61 & 0.49 & 0.59 & 0.83 & 0.74 & 0.77 & 0.82 & 0.57 & 0.66 & 0.71 \\\\\n\\hline\n\\end{tabular}",
       "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & $t$ & \\\n\\hline $P=0.05$ & $P=0.01$ & $\\boldsymbol{P}=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Create a frequency table for the mass of hedgehogs caught in autumn."
     },
     "output": {
-      "answer": {
-        "frequency_table": [
-          {
-            "range": "0.70-0.74",
-            "frequency": 1
-          },
-          {
-            "range": "0.75-0.79",
-            "frequency": 3
-          },
-          {
-            "range": "0.80-0.84",
-            "frequency": 3
-          },
-          {
-            "range": "0.85-0.89",
-            "frequency": 4
-          },
-          {
-            "range": "0.90-0.94",
-            "frequency": 3
-          },
-          {
-            "range": "0.95-0.99",
-            "frequency": 4
-          },
-          {
-            "range": "1.00-1.04",
-            "frequency": 1
-          },
-          {
-            "range": "1.05-1.09",
-            "frequency": 1
-          }
-        ]
-      }
+      "answer": "\\begin{tabular}{|l|l|}\n\\hline X & $f$ \\\\\n\\hline 0.70-0.74 & 1 \\\\\n\\hline 0.75-0.79 & 3 \\\\\n\\hline 0.80-0.84 & 3 \\\\\n\\hline 0.85-0.89 & 4 \\\\\n\\hline 0.90-0.94 & 3 \\\\\n\\hline 0.95-0.99 & 4 \\\\\n\\hline 1.00-1.04 & 1 \\\\\n\\hline 1.05-1.09 & 1 \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "2.1",
@@ -478,12 +443,12 @@
   "22": {
     "case_id": "book4_r1\\006.json",
     "input": {
-      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained: Autumn weights: [0.91, 0.87, 0.97, 0.79, 1.09, 0.96, 0.98, 0.82, 0.84, 0.89, 1.01, 0.92, 0.70, 0.88, 0.91, 0.89, 0.79, 0.81, 0.99, 0.75]; Spring weights: [0.71, 0.55, 0.60, 0.74, 0.58, 0.49, 0.61, 0.66, 0.75, 0.85, 0.61, 0.49, 0.59, 0.83, 0.74, 0.77, 0.82, 0.57, 0.66, 0.71].",
+      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained:\n\n\\begin{tabular}{llllllllll}\nAutumn & & & & & & & & & \\\\\n0.91 & 0.87 & 0.97 & 0.79 & 1.09 & 0.96 & 0.98 & 0.82 & 0.84 & 0.89 \\\\\n1.01 & 0.92 & 0.70 & 0.88 & 0.91 & 0.89 & 0.79 & 0.81 & 0.99 & 0.75 \\\\\nSpring & & & & & & & & & \\\\\n0.71 & 0.55 & 0.60 & 0.74 & 0.58 & 0.49 & 0.61 & 0.66 & 0.75 & 0.85 \\\\\n0.61 & 0.49 & 0.59 & 0.83 & 0.74 & 0.77 & 0.82 & 0.57 & 0.66 & 0.71 \\\\\n\\hline\n\\end{tabular}",
       "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & $t$ & \\\n\\hline $P=0.05$ & $P=0.01$ & $\\boldsymbol{P}=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Draw a frequency histogram of hedgehog mass in autumn."
     },
     "output": {
-      "answer": "Mass of hedgehogs in autumn (n=20)."
+      "answer": "Mass of hedgehogs in autumn ( $n=20$ )"
     },
     "meta_info": {
       "index": "2.1",
@@ -499,29 +464,12 @@
   "23": {
     "case_id": "book4_r1\\006.json",
     "input": {
-      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained: Autumn weights: [0.91, 0.87, 0.97, 0.79, 1.09, 0.96, 0.98, 0.82, 0.84, 0.89, 1.01, 0.92, 0.70, 0.88, 0.91, 0.89, 0.79, 0.81, 0.99, 0.75]; Spring weights: [0.71, 0.55, 0.60, 0.74, 0.58, 0.49, 0.61, 0.66, 0.75, 0.85, 0.61, 0.49, 0.59, 0.83, 0.74, 0.77, 0.82, 0.57, 0.66, 0.71].",
+      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained:\n\n\\begin{tabular}{llllllllll}\nAutumn & & & & & & & & & \\\\\n0.91 & 0.87 & 0.97 & 0.79 & 1.09 & 0.96 & 0.98 & 0.82 & 0.84 & 0.89 \\\\\n1.01 & 0.92 & 0.70 & 0.88 & 0.91 & 0.89 & 0.79 & 0.81 & 0.99 & 0.75 \\\\\nSpring & & & & & & & & & \\\\\n0.71 & 0.55 & 0.60 & 0.74 & 0.58 & 0.49 & 0.61 & 0.66 & 0.75 & 0.85 \\\\\n0.61 & 0.49 & 0.59 & 0.83 & 0.74 & 0.77 & 0.82 & 0.57 & 0.66 & 0.71 \\\\\n\\hline\n\\end{tabular}",
       "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & $t$ & \\\n\\hline $P=0.05$ & $P=0.01$ & $\\boldsymbol{P}=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
-      "question": "For both spring and autumn hedgehog collections, calculate the following statistics: Mean, Standard deviation, Standard error of the mean, Degrees of freedom, and 95% confidence limits of the mean."
+      "question": "For both spring and autumn hedgehog collections, calculate the statistics indicated (mean, standard deviation, standard error of the mean, degrees of freedom, and 95% confidence limits of the mean)."
     },
     "output": {
-      "answer": {
-        "statistics": {
-          "Spring": {
-            "Mean": 0.667,
-            "Standard deviation": 0.109,
-            "Standard error of the mean": 0.0244,
-            "Degrees of freedom": 19,
-            "95% confidence limits of the mean": 0.051
-          },
-          "Autumn": {
-            "Mean": 0.889,
-            "Standard deviation": 0.0961,
-            "Standard error of the mean": 0.0215,
-            "Degrees of freedom": 19,
-            "95% confidence limits of the mean": 0.045
-          }
-        }
-      }
+      "answer": "\\begin{tabular}{|l|l|l|}\n\\hline & Spring & Autumn \\\\\n\\hline Mean & 0.667 & 0.889 \\\\\n\\hline Standard deviation & 0.1090 & 0.0961 \\\\\n\\hline Standard error of the mean & 0.0244 & 0.0215 \\\\\n\\hline Degrees of freedom & 19 & 19 \\\\\n\\hline $95 \\%$ confidence limits of the mean & 0.0510 & 0.0450 \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "2.1",
@@ -537,12 +485,12 @@
   "24": {
     "case_id": "book4_r1\\006.json",
     "input": {
-      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained: Autumn weights: [0.91, 0.87, 0.97, 0.79, 1.09, 0.96, 0.98, 0.82, 0.84, 0.89, 1.01, 0.92, 0.70, 0.88, 0.91, 0.89, 0.79, 0.81, 0.99, 0.75]; Spring weights: [0.71, 0.55, 0.60, 0.74, 0.58, 0.49, 0.61, 0.66, 0.75, 0.85, 0.61, 0.49, 0.59, 0.83, 0.74, 0.77, 0.82, 0.57, 0.66, 0.71].",
+      "background": "Twenty hedgehogs were sampled from a population in autumn (before hibernation) and weighed. In the spring, the population was again sampled and twenty hedgehogs were captured and weighed. The following data (in kilograms) were obtained:\n\n\\begin{tabular}{llllllllll}\nAutumn & & & & & & & & & \\\\\n0.91 & 0.87 & 0.97 & 0.79 & 1.09 & 0.96 & 0.98 & 0.82 & 0.84 & 0.89 \\\\\n1.01 & 0.92 & 0.70 & 0.88 & 0.91 & 0.89 & 0.79 & 0.81 & 0.99 & 0.75 \\\\\nSpring & & & & & & & & & \\\\\n0.71 & 0.55 & 0.60 & 0.74 & 0.58 & 0.49 & 0.61 & 0.66 & 0.75 & 0.85 \\\\\n0.61 & 0.49 & 0.59 & 0.83 & 0.74 & 0.77 & 0.82 & 0.57 & 0.66 & 0.71 \\\\\n\\hline\n\\end{tabular}",
       "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & $t$ & \\\n\\hline $P=0.05$ & $P=0.01$ & $\\boldsymbol{P}=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Plot the means and standard error bars of hedgehog mass in the autumn and spring collections on a bar or point chart."
     },
     "output": {
-      "answer": "Mass of hedgehogs caught in autumn and spring. Bars are standard errors (n=20 for each)."
+      "answer": "Mass of hedgehogs caught in autumn and spring. Bars are standard errors ( $n=20$ for each)\nor\nMass of hedgehogs caught in autumn and spring. Bars are standard errors ( $n=20$ for each)"
     },
     "meta_info": {
       "index": "2.1",
@@ -558,12 +506,12 @@
   "25": {
     "case_id": "book4_r1\\007.json",
     "input": {
-      "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were provided in tabular format.",
+      "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were:\n\n\\begin{tabular}{lllllllllllllllllllll} \nGenetically modified food & 5 & 1 & 1 & 4 & 3 & 3 & 4 & 5 & 2 & 3 & 5 & 4 & 3 & 2 & 1 & 5 & 1 & 2 & 2 & 3 \\\\\nIntensive pesticide use & 2 & 1 & 2 & 1 & 1 & 2 & 3 & 1 & 2 & 3 & 3 & 1 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Calculate the statistics below for the level of public concern regarding each topic: Median, Lower quartile, and Upper quartile for both genetically modified food and intensive pesticide use."
+      "question": "(i) Calculate the statistics below for the level of public concern regarding each topic:\n\n\\begin{tabular}{lll}\n\\hline & Genetically modified food & Intensive pesticide use \\\\\n\\hline Median & & \\\\\nLower quartile & & \\\\\nUpper quartile & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "Median: Genetically modified food = 3, Intensive pesticide use = 1. Lower quartile: Genetically modified food = 2, Intensive pesticide use = 1. Upper quartile: Genetically modified food = 4, Intensive pesticide use = 2."
+      "answer": "\\begin{tabular}{lll}\n\\hline & Genetically modified food & Intensive pesticide use \\\\\n\\hline Median & 3 & 1 \\\\\nLower quartile & 2 & 1 \\\\\nUpper quartile & 4 & 2 \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "2.2",
@@ -579,12 +527,12 @@
   "26": {
     "case_id": "book4_r1\\007.json",
     "input": {
-      "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were provided in tabular format.",
+      "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were:\n\n\\begin{tabular}{lllllllllllllllllllll} \nGenetically modified food & 5 & 1 & 1 & 4 & 3 & 3 & 4 & 5 & 2 & 3 & 5 & 4 & 3 & 2 & 1 & 5 & 1 & 2 & 2 & 3 \\\\\nIntensive pesticide use & 2 & 1 & 2 & 1 & 1 & 2 & 3 & 1 & 2 & 3 & 3 & 1 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Illustrate the data using box and whisker plots for the level of public concern regarding genetically modified food and intensive pesticide use."
+      "question": "(ii) Illustrate the data using box and whisker plots."
     },
     "output": {
-      "answer": "The level of public concern regarding the genetically modified food and intensive pesticide use (n=20 in each case)."
+      "answer": "(ii) The level of public concern regarding the genetically modified food and intensive pesticide use ( $n-20$ in each case)"
     },
     "meta_info": {
       "index": "2.2",
@@ -600,7 +548,7 @@
   "27": {
     "case_id": "book4_r1\\008.json",
     "input": {
-      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
+      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded:\n\n102 45 19 21 55 45 81 24 48 45 98",
       "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table D. 2 Values of t for use in calculating confidence limits and in unpaired and paired t tests. If using these values to calculate $95 \\%$ confidence limits of the mean (see Box 2.6), then the df are $\\mathrm{n}-1$. If this table is being used for an unpaired $\\mathbf{t}$ test (see Box 4.1), the df are $\\mathbf{n}_1+\\mathbf{n}_2-\\mathbf{2}$ (where $\\mathbf{n}_1$ and $\\mathbf{n}_2$ are the sizes of samples $\\mathbf{1}$ and $\\mathbf{2}$, respectively). If this table is being used for a paired $\\mathbf{t}$ test (Box 4.5), the df are $\\mathbf{n}-\\mathbf{1}$ (where $\\mathbf{n}$ is the number of data pairs). When used in t tests (paired or unpaired), the results are significant if the calculated value of t is higher than the table value}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & t & & df & \\multicolumn{2}{|l|}{$t$} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Plot the data as a frequency histogram."
     },
@@ -621,7 +569,7 @@
   "28": {
     "case_id": "book4_r1\\008.json",
     "input": {
-      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
+      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded:\n\n102 45 19 21 55 45 81 24 48 45 98",
       "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table D. 2 Values of t for use in calculating confidence limits and in unpaired and paired t tests. If using these values to calculate $95 \\%$ confidence limits of the mean (see Box 2.6), then the df are $\\mathrm{n}-1$. If this table is being used for an unpaired $\\mathbf{t}$ test (see Box 4.1), the df are $\\mathbf{n}_1+\\mathbf{n}_2-\\mathbf{2}$ (where $\\mathbf{n}_1$ and $\\mathbf{n}_2$ are the sizes of samples $\\mathbf{1}$ and $\\mathbf{2}$, respectively). If this table is being used for a paired $\\mathbf{t}$ test (Box 4.5), the df are $\\mathbf{n}-\\mathbf{1}$ (where $\\mathbf{n}$ is the number of data pairs). When used in t tests (paired or unpaired), the results are significant if the calculated value of t is higher than the table value}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & t & & df & \\multicolumn{2}{|l|}{$t$} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Arcsine-transform the data and plot the transformed data."
     },
@@ -642,7 +590,7 @@
   "29": {
     "case_id": "book4_r1\\008.json",
     "input": {
-      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
+      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded:\n\n102 45 19 21 55 45 81 24 48 45 98",
       "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table D. 2 Values of t for use in calculating confidence limits and in unpaired and paired t tests. If using these values to calculate $95 \\%$ confidence limits of the mean (see Box 2.6), then the df are $\\mathrm{n}-1$. If this table is being used for an unpaired $\\mathbf{t}$ test (see Box 4.1), the df are $\\mathbf{n}_1+\\mathbf{n}_2-\\mathbf{2}$ (where $\\mathbf{n}_1$ and $\\mathbf{n}_2$ are the sizes of samples $\\mathbf{1}$ and $\\mathbf{2}$, respectively). If this table is being used for a paired $\\mathbf{t}$ test (Box 4.5), the df are $\\mathbf{n}-\\mathbf{1}$ (where $\\mathbf{n}$ is the number of data pairs). When used in t tests (paired or unpaired), the results are significant if the calculated value of t is higher than the table value}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & t & & df & \\multicolumn{2}{|l|}{$t$} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Calculate the following statistics on the transformed data (calculations may use either degrees or radians): Mean, Standard deviation, Standard error, Degrees of freedom, Lower 95% confidence level (L_lower), Upper 95% confidence level (L_upper)."
     },
@@ -661,11 +609,11 @@
           "Radians": 0.018
         },
         "Degrees of freedom": 19,
-        "Lower 95% confidence level (L_lower)": {
+        "Lower 95% confidence level": {
           "Degrees": 11.628,
           "Radians": 0.203
         },
-        "Upper 95% confidence level (L_upper)": {
+        "Upper 95% confidence level": {
           "Degrees": 15.93,
           "Radians": 0.278
         }
@@ -685,7 +633,7 @@
   "30": {
     "case_id": "book4_r1\\008.json",
     "input": {
-      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
+      "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded:\n\n102 45 19 21 55 45 81 24 48 45 98",
       "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table D. 2 Values of t for use in calculating confidence limits and in unpaired and paired t tests. If using these values to calculate $95 \\%$ confidence limits of the mean (see Box 2.6), then the df are $\\mathrm{n}-1$. If this table is being used for an unpaired $\\mathbf{t}$ test (see Box 4.1), the df are $\\mathbf{n}_1+\\mathbf{n}_2-\\mathbf{2}$ (where $\\mathbf{n}_1$ and $\\mathbf{n}_2$ are the sizes of samples $\\mathbf{1}$ and $\\mathbf{2}$, respectively). If this table is being used for a paired $\\mathbf{t}$ test (Box 4.5), the df are $\\mathbf{n}-\\mathbf{1}$ (where $\\mathbf{n}$ is the number of data pairs). When used in t tests (paired or unpaired), the results are significant if the calculated value of t is higher than the table value}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & $t$ & & df & \\multicolumn{2}{|l|}{\\multirow[t]{2}{*}{$t$}} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 1 & 12.706 & 63.657 & 19 & 2.093 & 2.861 \\\n\\hline 2 & 4.303 & 9.925 & 20 & 2.086 & 2.845 \\\n\\hline 3 & 3.182 & 5.841 & 21 & 2.080 & 2.831 \\\n\\hline 4 & 2.776 & 4.604 & 22 & 2.074 & 2.819 \\\n\\hline 5 & 2.571 & 4.032 & 23 & 2.069 & 2.807 \\\n\\hline 6 & 2.447 & 3.707 & 24 & 2.064 & 2.797 \\\n\\hline 7 & 2.365 & 3.499 & 25 & 2.060 & 2.787 \\\n\\hline 8 & 2.306 & 3.355 & 26 & 2.056 & 2.779 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline df & t & & df & \\multicolumn{2}{|l|}{$t$} \\\n\\hline $P=0.05$ & $P=0.01$ & $P=0.05$ & $P=0.01$ & & \\\n\\hline 9 & 2.262 & 3.250 & 27 & 2.052 & 2.771 \\\n\\hline 10 & 2.228 & 3.169 & 28 & 2.048 & 2.763 \\\n\\hline 11 & 2.201 & 3.106 & 29 & 2.045 & 2.756 \\\n\\hline 12 & 2.179 & 3.055 & 30 & 2.042 & 2.750 \\\n\\hline 13 & 2.160 & 3.012 & 40 & 2.021 & 2.704 \\\n\\hline 14 & 2.145 & 2.977 & 50 & 2.009 & 2.678 \\\n\\hline 15 & 2.131 & 2.947 & 60 & 2.000 & 2.660 \\\n\\hline 16 & 2.120 & 2.921 & 100 & 1.984 & 2.626 \\\n\\hline 17 & 2.110 & 2.898 & 120 & 1.980 & 2.617 \\\n\\hline 18 & 2.101 & 2.878 & $\\infty$ & 1.960 & 2.576 \\\n\\hline\n\\end{tabular}",
       "question": "Back-transform the following statistics: Mean, Lower 95% confidence level (L_lower), Upper 95% confidence level (L_upper)."
     },
@@ -710,12 +658,12 @@
   "31": {
     "case_id": "book4_r1\\009.json",
     "input": {
-      "background": "Two sources of sediment in rivers are construction sites (urban origin) and agricultural land (rural origin). To investigate whether there is a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected. The river sections were otherwise similar in size, flow rate, altitude, etc. Sediment loads (in milligrams per litre) were recorded for both rural and urban areas, and the data were examined to be normally distributed.",
+      "background": "Two sources of sediment in rivers are construction sites (which are likely to be urban in origin) and agricultural land (rural in origin). To investigate whether there was a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected (each river was only used once, i.e. the data are independent). The river sections were otherwise similar in size, flow rate, altitude etc. The following sediment loads (in milligrams per litre) were obtained:\n\\begin{tabular}{lllllllllll} \nRural & 82 & 55 & 50 & 34 & 50 & 44 & 29 & 77 & 60 & 71 \\\\\nUrban & 95 & 111 & 39 & 78 & 56 & 62 & 82 & 93 & 77 & 62 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Use a t-test on the given data and record the following: Mean suspended sediment for rural and urban rivers, standard deviation for rural and urban rivers, t value, degrees of freedom (df), and probability (P)."
+      "question": "The above data have been examined and appear to be normally distributed. Use a $t$ test on the data, and record the following:\n\\begin{tabular}{|l|l|l|}\n\\hline & Rural & Urban \\\\\n\\hline Mean suspended sediment & & \\\\\n\\hline Standard deviation & & \\\\\n\\hline $t$ value & & \\\\\n\\hline df & & \\\\\n\\hline Probability & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "Mean suspended sediment: Rural = 55.2 mg l^-1, Urban = 75.5 mg l^-1; Standard deviation: Rural = 17.58 mg l^-1, Urban = 21.28 mg l^-1; t = 2.326, df = 18, P < 0.05 (= 0.0319)."
+      "answer": "\\begin{tabular}{lll}\n\\hline & Rural & Urban \\\\\n\\hline Mean suspended sediment & $55.2 \\mathrm{mg} \\mathrm{1}^{-l}$ & $75.5 \\mathrm{mg} \\mathrm{1}^{-l}$ \\\\\nStandard deviation & $17.58 \\mathrm{mg} \\mathrm{1}^{-l}$ & $21.28 \\mathrm{mg} \\mathrm{1}^{-l}$ \\\\\n$t=2.326$ & $\\mathrm{df}=18$ & $P<0.05(=0.0319)$ \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "4.1",
@@ -731,7 +679,7 @@
   "32": {
     "case_id": "book4_r1\\009.json",
     "input": {
-      "background": "Two sources of sediment in rivers are construction sites (urban origin) and agricultural land (rural origin). To investigate whether there is a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected. The river sections were otherwise similar in size, flow rate, altitude, etc. Sediment loads (in milligrams per litre) were recorded for both rural and urban areas, and the data were examined to be normally distributed.",
+      "background": "Two sources of sediment in rivers are construction sites (which are likely to be urban in origin) and agricultural land (rural in origin). To investigate whether there was a difference in the amount of suspended sediments in urban and rural stretches of rivers, a river section in each of ten urban and rural areas was selected (each river was only used once, i.e. the data are independent). The river sections were otherwise similar in size, flow rate, altitude etc. The following sediment loads (in milligrams per litre) were obtained:\n\\begin{tabular}{lllllllllll} \nRural & 82 & 55 & 50 & 34 & 50 & 44 & 29 & 77 & 60 & 71 \\\\\nUrban & 95 & 111 & 39 & 78 & 56 & 62 & 82 & 93 & 77 & 62 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "What can you conclude about the suspended sediment levels in rural and urban rivers?"
     },
@@ -752,23 +700,12 @@
   "33": {
     "case_id": "book4_r1\\010.json",
     "input": {
-      "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). Visibility scores for the two set types were recorded.",
+      "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). The visibility scores for the two set types are given below:\n\n\\begin{tabular}{llllllllllllllll} \nActive & 1 & 2 & 4 & 3 & 2 & 2 & 1 & 3 & 5 & 4 & 5 & 4 & 4 & 3 & 5 \\\\\nUnused & 2 & 3 & 1 & 2 & 1 & 2 & 3 & 3 & 2 & 4 & 2 & 2 & 2 & 2 & 1 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Use a Mann-Whitney U test (because the data are ordinal) on the given data, and record the following: (a) Median score for both active and not in use sets, (b) Sample size for both active and not in use sets, (c) Smaller U value, and (d) Probability."
+      "question": "Use a Mann-Whitney $U$ test (because the data are ordinal) on the above data, and record the following:\n\n\\begin{tabular}{|l|l|l|}\n\\hline & Active & Not in use \\\\\n\\hline Median score & & \\\\\n\\hline Sample size & & \\\\\n\\hline Smaller $U$ value & & \\\\\n\\hline Probability & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": {
-        "Median score": {
-          "Active": 3,
-          "Not in use": 2
-        },
-        "Sample size": {
-          "Active": 15,
-          "Not in use": 15
-        },
-        "Smaller U value": 60.5,
-        "Probability": "P<0.05 (=0.0310 or 0.0256 if corrected for ties)"
-      }
+      "answer": "\\begin{tabular}{lll}\n\\hline & Active & Not in use \\\\\n\\hline Median score & 3 & 2 \\\\\nSample size & 15 & 15 \\\\\nSmaller $U$ value $=60.5$ & $P<0.05(=0.0310$ or 0.0256 if corrected for ties $)$ & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "4.2",
@@ -784,7 +721,7 @@
   "34": {
     "case_id": "book4_r1\\010.json",
     "input": {
-      "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). Visibility scores for the two set types were recorded.",
+      "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). The visibility scores for the two set types are given below:\n\n\\begin{tabular}{llllllllllllllll} \nActive & 1 & 2 & 4 & 3 & 2 & 2 & 1 & 3 & 5 & 4 & 5 & 4 & 4 & 3 & 5 \\\\\nUnused & 2 & 3 & 1 & 2 & 1 & 2 & 3 & 3 & 2 & 4 & 2 & 2 & 2 & 2 & 1 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "What do you conclude about the effect of set visibility on whether or not a set is still active?"
     },
@@ -805,12 +742,12 @@
   "35": {
     "case_id": "book4_r1\\011.json",
     "input": {
-      "background": "In a study of copper contamination of soils in woods near a smelter, the humus layer and the soil layer of each of six woodlands (A to F) were analysed for copper, and the following concentrations of copper were obtained (in micrograms per gram):\n\nWoodland & A & B & C & D & E & F\nHumus & 155 & 48 & 25 & 24 & 22 & 15\nSoil & 150 & 24 & 19 & 19 & 15 & 14",
+      "background": "In a study of copper contamination of soils in woods near a smelter, the humus layer and the soil layer of each of six woodlands (A to F) were analysed for copper, and the following concentrations of copper were obtained (in micrograms per gram):\n\n\\begin{tabular}{lllllll} \nWoodland & A & B & C & D & E & F \\\\\nHumus & 155 & 48 & 25 & 24 & 22 & 15 \\\\\nSoil & 150 & 24 & 19 & 19 & 15 & 14 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Use a paired t-test on the above data (because the humus and soil samples are matched for each woodland) and report the following:\nMean difference (d)\nt value: df: Probability:"
+      "question": "(i) Use a paired $t$ test on the above data (because the humus and soil samples are matched for each woodland) and report the following:\n\nMean difference (d)\nt value: df: Probability:"
     },
     "output": {
-      "answer": "The mean difference (d) = 8.0 μg g⁻¹\nt = 2.419, df = 5, P > 0.05 (= 0.0602)"
+      "answer": "\\begin{tabular}{ll}\n\\hline The mean difference $(d)=8.0 \\mu g ~ g^{-1}$ \\\\\n\\hline \\multicolumn{1}{l}{$t=2.419 \\quad d f=5$} & $P>0.05(=0.0602)$ \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "4.3",
@@ -826,9 +763,9 @@
   "36": {
     "case_id": "book4_r1\\011.json",
     "input": {
-      "background": "In a study of copper contamination of soils in woods near a smelter, the humus layer and the soil layer of each of six woodlands (A to F) were analysed for copper, and the following concentrations of copper were obtained (in micrograms per gram):\n\nWoodland & A & B & C & D & E & F\nHumus & 155 & 48 & 25 & 24 & 22 & 15\nSoil & 150 & 24 & 19 & 19 & 15 & 14",
+      "background": "In a study of copper contamination of soils in woods near a smelter, the humus layer and the soil layer of each of six woodlands (A to F) were analysed for copper, and the following concentrations of copper were obtained (in micrograms per gram):\n\n\\begin{tabular}{lllllll} \nWoodland & A & B & C & D & E & F \\\\\nHumus & 155 & 48 & 25 & 24 & 22 & 15 \\\\\nSoil & 150 & 24 & 19 & 19 & 15 & 14 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "What can you conclude about the amount of copper in the humus layer and the soil layer of these six woods?"
+      "question": "(ii) What can you conclude about the amount of copper in the humus layer and the soil layer of these six woods?"
     },
     "output": {
       "answer": "There is no significant difference between the amount of copper in the humus and soil layers. Since all of the humus measurements were larger than the associated soil measurements, the lack of significant difference may reflect the small sample size involved."
@@ -847,12 +784,12 @@
   "37": {
     "case_id": "book4_r1\\012.json",
     "input": {
-      "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products and given a score for commitment (from 0 indicating no interest, to 8 indicating a high level of interest and positive activity). After the survey, the companies were sent research results showing customer attitudes towards environmentally friendly products of the type they produced. A follow-up telephone survey was conducted to reassess their enthusiasm towards improving the environmental standard of their products. The data for the two surveys were provided.",
+      "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products, and given a score for commitment (based on their statements and current efforts, from 0 indicating no interest, to 8 indicating a high level of interest and positive activity in that direction). Following this survey, the companies were each sent the results of research showing the attitudes that potential customers had towards environmentally friendly products of the type produced by their company. The companies were then each given a follow-up telephone survey, and their enthusiasm towards improving the environmental standard of their products was again assessed. The following data for the two telephone surveys were obtained.\n\n\\begin{tabular}{lllllllllllllllllllll} \nBusiness & A & B & C & D & E & F & G & H & I & J & K & L & M & N & O & P & Q & R & S & T \\\\\nBefore & 1 & 1 & 4 & 8 & 7 & 2 & 2 & 3 & 1 & 3 & 2 & 2 & 4 & 4 & 2 & 1 & 5 & 2 & 8 & 1 \\\\\nAfter & 2 & 2 & 5 & 8 & 8 & 1 & 1 & 4 & 2 & 4 & 3 & 3 & 5 & 4 & 1 & 2 & 4 & 4 & 8 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Use a Wilcoxon matched-pairs test on the provided data and report the following: T, n, and Probability."
+      "question": "Use a Wilcoxon matched-pairs test on the above data (because the answers to each survey are matched for each company) and report the following:\n$T: n:$ Probability:"
     },
     "output": {
-      "answer": "T=34, n=17, P<0.05 (=0.0442 or 0.0253 if corrected for ties)."
+      "answer": "$$\nT=34 \\quad n=17 \\quad P<0.05(=0.0442 \\text { or } 0.0253 \\text { if corrected for ties })\n$$"
     },
     "meta_info": {
       "index": "4.4",
@@ -868,7 +805,7 @@
   "38": {
     "case_id": "book4_r1\\012.json",
     "input": {
-      "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products and given a score for commitment (from 0 indicating no interest, to 8 indicating a high level of interest and positive activity). After the survey, the companies were sent research results showing customer attitudes towards environmentally friendly products of the type they produced. A follow-up telephone survey was conducted to reassess their enthusiasm towards improving the environmental standard of their products. The data for the two surveys were provided.",
+      "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products, and given a score for commitment (based on their statements and current efforts, from 0 indicating no interest, to 8 indicating a high level of interest and positive activity in that direction). Following this survey, the companies were each sent the results of research showing the attitudes that potential customers had towards environmentally friendly products of the type produced by their company. The companies were then each given a follow-up telephone survey, and their enthusiasm towards improving the environmental standard of their products was again assessed. The following data for the two telephone surveys were obtained.\n\n\\begin{tabular}{lllllllllllllllllllll} \nBusiness & A & B & C & D & E & F & G & H & I & J & K & L & M & N & O & P & Q & R & S & T \\\\\nBefore & 1 & 1 & 4 & 8 & 7 & 2 & 2 & 3 & 1 & 3 & 2 & 2 & 4 & 4 & 2 & 1 & 5 & 2 & 8 & 1 \\\\\nAfter & 2 & 2 & 5 & 8 & 8 & 1 & 1 & 4 & 2 & 4 & 3 & 3 & 5 & 4 & 1 & 2 & 4 & 4 & 8 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "What can you conclude about the attitudes of the managers of small businesses?"
     },
@@ -889,9 +826,9 @@
   "39": {
     "case_id": "book4_r1\\013.json",
     "input": {
-      "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+      "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
       "data": null,
-      "question": "Which statistical test would you employ if the investigators had measured the lung capacity (in cubic metres) of the non-smokers before smoking was banned, and on the same staff a month after a ban on smoking had been enforced?"
+      "question": "Measured the lung capacity (in cubic metres) of the non-smokers before smoking was banned, and on the same staff a month after a ban on smoking had been enforced. Which test would you employ to identify differences between the central tendency of the samples?"
     },
     "output": {
       "answer": "Ideally a paired $t$ test would be employed (a Wilcoxon test could be used, but is more conservative when data are likely to be normally distributed)."
@@ -910,9 +847,9 @@
   "40": {
     "case_id": "book4_r1\\013.json",
     "input": {
-      "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+      "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
       "data": null,
-      "question": "Which statistical test would you employ if the investigators had measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month?"
+      "question": "Measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of non-smoking staff in an office where smoking was allowed and similarly on staff in an adjacent office where smoking had been banned for a month. Which test would you employ to identify differences between the central tendency of the samples?"
     },
     "output": {
       "answer": "A Mann-Whitney $U$ test would be appropriate for this unpaired comparison of ranked scores."
@@ -931,9 +868,9 @@
   "41": {
     "case_id": "book4_r1\\013.json",
     "input": {
-      "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+      "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
       "data": null,
-      "question": "Which statistical test would you employ if the investigators had measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of the non-smoking office staff before smoking was banned, and on the same staff a month after a ban on smoking had been enforced?"
+      "question": "Measured the lung capacity on a scale of 1 to 5 (where 1 was poor and 5 was excellent) of the nonsmoking office staff before smoking was banned, and on the same staff a month after a ban on smoking had been enforced. Which test would you employ to identify differences between the central tendency of the samples?"
     },
     "output": {
       "answer": "A Wilcoxon matched-pairs test would be suitable for these paired samples of ranked scores."
@@ -952,9 +889,9 @@
   "42": {
     "case_id": "book4_r1\\013.json",
     "input": {
-      "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
+      "background": "Consider an investigation into the possible effects on non-smokers of allowing smoking in a shared office environment. The investigators measured lung capacity using different methods and scenarios to identify differences between the central tendency of the samples collected. The tests explored in this chapter include: $t$ test, Mann-Whitney $U$ test, paired $t$ test, and Wilcoxon matched-pairs test.",
       "data": null,
-      "question": "Which statistical test would you employ if the investigators had measured the lung capacity (in cubic metres) of non-smoking staff in an office where smoking was allowed and similarly of non-smoking staff in an adjacent office where smoking had been banned for a month?"
+      "question": "Measured the lung capacity (in cubic metres) of non-smoking staff in an office where smoking was allowed and similarly of non-smoking staff in an adjacent office where smoking had been banned for a month. Which test would you employ to identify differences between the central tendency of the samples?"
     },
     "output": {
       "answer": "Ideally a $t$ test would be employed (a Mann-Whitney $U$ test could be used, but is more conservative when data are likely to be normally distributed)."
@@ -973,12 +910,12 @@
   "43": {
     "case_id": "book4_r1\\014.json",
     "input": {
-      "background": "For several African countries, data on the number of physicians (per 10,000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1,000 live births) are recorded. The data is presented in a table format for countries A to Q.",
+      "background": "For several African countries, the number of physicians (per 10000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1000 live births) are recorded below:\n\n\\begin{tabular}{llllll}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline A & 0.2 & 126 & J & 0.8 & 116 \\\\\nB & 0.5 & 102 & K & 0.3 & 124\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline C & 1.3 & 65 & L & 1.3 & 96 \\\\\n\\hline D & 0.1 & 142 & M & 0.5 & 117 \\\\\n\\hline E & 1.4 & 121 & N & 0.7 & 142 \\\\\n\\hline F & 1.2 & 64 & O & 0.5 & 107 \\\\\n\\hline G & 1.1 & 79 & P & 0.8 & 85 \\\\\n\\hline H & 0.4 & 138 & Q & 1.4 & 71 \\\\\n\\hline I & 0.4 & 159 & & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "Draw a scatterplot of the data."
     },
     "output": {
-      "answer": "Negative relationship between infant mortality rate and the number of physicians in African countries."
+      "answer": "Negative relationship between infant mortality rate and the number of physicians in African countries"
     },
     "meta_info": {
       "index": "5.1",
@@ -994,12 +931,12 @@
   "44": {
     "case_id": "book4_r1\\014.json",
     "input": {
-      "background": "For several African countries, data on the number of physicians (per 10,000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1,000 live births) are recorded. The data is presented in a table format for countries A to Q.",
+      "background": "For several African countries, the number of physicians (per 10000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1000 live births) are recorded below:\n\n\\begin{tabular}{llllll}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline A & 0.2 & 126 & J & 0.8 & 116 \\\\\nB & 0.5 & 102 & K & 0.3 & 124\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline C & 1.3 & 65 & L & 1.3 & 96 \\\\\n\\hline D & 0.1 & 142 & M & 0.5 & 117 \\\\\n\\hline E & 1.4 & 121 & N & 0.7 & 142 \\\\\n\\hline F & 1.2 & 64 & O & 0.5 & 107 \\\\\n\\hline G & 1.1 & 79 & P & 0.8 & 85 \\\\\n\\hline H & 0.4 & 138 & Q & 1.4 & 71 \\\\\n\\hline I & 0.4 & 159 & & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Carry out Pearson's product moment correlation analysis on the data and record the following: Pearson's r, degrees of freedom (df), and P-value."
+      "question": "Carry out Pearson's product moment correlation analysis on the data and record the following:\n\\underline{Pearson's $r$ : df: $P$ :}"
     },
     "output": {
-      "answer": "Pearson's r = -0.714, df = 15, P < 0.01 (= 0.0008)."
+      "answer": "\\underline{Pearson's $r=-0.714 \\quad \\mathrm{df}=15 \\quad P<0.01(=0.0008)$}"
     },
     "meta_info": {
       "index": "5.1",
@@ -1015,7 +952,7 @@
   "45": {
     "case_id": "book4_r1\\014.json",
     "input": {
-      "background": "For several African countries, data on the number of physicians (per 10,000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1,000 live births) are recorded. The data is presented in a table format for countries A to Q.",
+      "background": "For several African countries, the number of physicians (per 10000 population) and the infant mortality rate (number of deaths of infants less than one year old per 1000 live births) are recorded below:\n\n\\begin{tabular}{llllll}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline A & 0.2 & 126 & J & 0.8 & 116 \\\\\nB & 0.5 & 102 & K & 0.3 & 124\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Country & Number of physicians & Infant mortality rate & Country & Number of physicians & Infant mortality rate \\\\\n\\hline C & 1.3 & 65 & L & 1.3 & 96 \\\\\n\\hline D & 0.1 & 142 & M & 0.5 & 117 \\\\\n\\hline E & 1.4 & 121 & N & 0.7 & 142 \\\\\n\\hline F & 1.2 & 64 & O & 0.5 & 107 \\\\\n\\hline G & 1.1 & 79 & P & 0.8 & 85 \\\\\n\\hline H & 0.4 & 138 & Q & 1.4 & 71 \\\\\n\\hline I & 0.4 & 159 & & & \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "What do you conclude about the relationship between the number of physicians and the infant mortality rate?"
     },
@@ -1036,12 +973,12 @@
   "46": {
     "case_id": "book4_r1\\015.json",
     "input": {
-      "background": "The management of a nature reserve conducted a visitor survey to determine opinions about admission charges. Two questions were posed: the frequency of visits to the park and the maximum amount visitors would be prepared to pay to enter. The survey results from 20 respondents were analyzed.",
+      "background": "The management conducted a visitor survey on opinions about the level of charges for admissions into a nature reserve. Two questions were posed, and the responses were coded for analysis. The survey results from questioning 20 people are summarized in the following tables:\n\nHow frequently do you visit the park?\n\n\\begin{tabular}{|l|l|}\n\\hline Choice given to respondent & Code \\\\\n\\hline more than once a week & 6 \\\\\n\\hline once a week & 5 \\\\\n\\hline once a fortnight & 4 \\\\\n\\hline once a month & 3 \\\\\n\\hline several times a year & 2 \\\\\n\\hline once a year or less & 1 \\\\\n\\hline\n\\end{tabular}\n\nWhat is the maximum you would be prepared to pay to enter this park?\n\n\\begin{tabular}{|l|l|}\n\\hline Choice given to respondent & Code \\\\\n\\hline 50 p or less & 1 \\\\\n\\hline up to 75p & 2 \\\\\n\\hline up to £1.00 & 3 \\\\\n\\hline up to £1.25 & 4 \\\\\n\\hline up to £1.50 & 5 \\\\\n\\hline up to £1.75 & 6 \\\\\n\\hline up to £2.00 & 7 \\\\\n\\hline up to £2.50 & 8 \\\\\n\\hline £2.50 or more & 9 \\\\\n\\hline\n\\end{tabular}\n\nThe results from questioning 20 people were as follows:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Person & Frequency of visit & Amount prepared to pay & Person & Frequency of visit & Amount prepared to pay \\\\\n\\hline A & 3 & 5 & K & 4 & 3 \\\\\n\\hline B & 3 & 4 & L & 2 & 7 \\\\\n\\hline C & 2 & 9 & M & 1 & 8 \\\\\n\\hline D & 4 & 1 & N & 3 & 3 \\\\\n\\hline E & 2 & 2 & O & 4 & 6 \\\\\n\\hline F & 1 & 3 & P & 2 & 8 \\\\\n\\hline G & 6 & 1 & Q & 5 & 1 \\\\\n\\hline H & 2 & 9 & R & 3 & 6 \\\\\n\\hline I & 3 & 5 & S & 4 & 5 \\\\\n\\hline J & 3 & 3 & T & 6 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Carry out Spearman's rank correlation on the data, and record the following: r_s, n, and P."
+      "question": "Carry out Spearman's rank correlation on the data, and record the following:\n$$\nr_{\\mathrm{s}}:\n$$\n\n\n$n:$\n$P$ :"
     },
     "output": {
-      "answer": "r_s = -0.482 (=-0.533 if corrected for ties), n = 20, P < 0.05 (=0.0203 if corrected for ties)."
+      "answer": "$\\mathrm{r}_{\\mathrm{s}}=-0.482(=-0.533$ if corrected for ties $) \\quad n=20 \\quad P<0.05(=0.0203$ if corrected for ties $)$"
     },
     "meta_info": {
       "index": "5.2",
@@ -1057,7 +994,7 @@
   "47": {
     "case_id": "book4_r1\\015.json",
     "input": {
-      "background": "The management of a nature reserve conducted a visitor survey to determine opinions about admission charges. Two questions were posed: the frequency of visits to the park and the maximum amount visitors would be prepared to pay to enter. The survey results from 20 respondents were analyzed.",
+      "background": "The management conducted a visitor survey on opinions about the level of charges for admissions into a nature reserve. Two questions were posed, and the responses were coded for analysis. The survey results from questioning 20 people are summarized in the following tables:\n\nHow frequently do you visit the park?\n\n\\begin{tabular}{|l|l|}\n\\hline Choice given to respondent & Code \\\\\n\\hline more than once a week & 6 \\\\\n\\hline once a week & 5 \\\\\n\\hline once a fortnight & 4 \\\\\n\\hline once a month & 3 \\\\\n\\hline several times a year & 2 \\\\\n\\hline once a year or less & 1 \\\\\n\\hline\n\\end{tabular}\n\nWhat is the maximum you would be prepared to pay to enter this park?\n\n\\begin{tabular}{|l|l|}\n\\hline Choice given to respondent & Code \\\\\n\\hline 50 p or less & 1 \\\\\n\\hline up to 75p & 2 \\\\\n\\hline up to £1.00 & 3 \\\\\n\\hline up to £1.25 & 4 \\\\\n\\hline up to £1.50 & 5 \\\\\n\\hline up to £1.75 & 6 \\\\\n\\hline up to £2.00 & 7 \\\\\n\\hline up to £2.50 & 8 \\\\\n\\hline £2.50 or more & 9 \\\\\n\\hline\n\\end{tabular}\n\nThe results from questioning 20 people were as follows:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Person & Frequency of visit & Amount prepared to pay & Person & Frequency of visit & Amount prepared to pay \\\\\n\\hline A & 3 & 5 & K & 4 & 3 \\\\\n\\hline B & 3 & 4 & L & 2 & 7 \\\\\n\\hline C & 2 & 9 & M & 1 & 8 \\\\\n\\hline D & 4 & 1 & N & 3 & 3 \\\\\n\\hline E & 2 & 2 & O & 4 & 6 \\\\\n\\hline F & 1 & 3 & P & 2 & 8 \\\\\n\\hline G & 6 & 1 & Q & 5 & 1 \\\\\n\\hline H & 2 & 9 & R & 3 & 6 \\\\\n\\hline I & 3 & 5 & S & 4 & 5 \\\\\n\\hline J & 3 & 3 & T & 6 & 2 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "What do you conclude about the relationship between the frequency of visits and the amount an individual is prepared to pay?"
     },
@@ -1078,12 +1015,12 @@
   "48": {
     "case_id": "book4_r1\\016.json",
     "input": {
-      "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
+      "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(i) To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following: R^2, Regression equation, F, df, and P."
+      "question": "To test whether fuel economy is dependent on the size of the engine, perform a regression analysis and record the following:\n\n\\begin{tabular}{lll}\n$R^2:$ & Regression equation: & \\\\\n$F:$ & $\\mathrm{df}:$ & $P:$ \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "R^2=69.4%, Regression equation: Economy=22.39-5.862 Engine size (or y=22.39-5.862x), F=49.961, df=1 and 22."
+      "answer": "\\begin{tabular}{ll}\n$R^2=69.4 \\%$ & Regression equation: Economy=22.39-5.862 Engine size $($ or $y=22.39-5.862 x)$ \\\\\n$F=49.961$ & $\\mathrm{df}=1$ and 22 \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "5.3",
@@ -1099,9 +1036,9 @@
   "49": {
     "case_id": "book4_r1\\016.json",
     "input": {
-      "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
+      "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(ii) Plot these data with the regression line."
+      "question": "Plot these data with the regression line."
     },
     "output": {
       "answer": "Negative relationship between engine size and fuel economy."
@@ -1120,12 +1057,12 @@
   "50": {
     "case_id": "book4_r1\\016.json",
     "input": {
-      "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
+      "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(iii) Plot the residuals against either the independent variable or the fitted values of y."
+      "question": "Plot the residuals against either the independent variable or the fitted values of $y$."
     },
     "output": {
-      "answer": "Residuals plotted against the independent variable or fitted values of y."
+      "answer": "Residuals plotted against or Residuals plotted against the independent variable fitted values of $y$."
     },
     "meta_info": {
       "index": "5.3",
@@ -1141,9 +1078,9 @@
   "51": {
     "case_id": "book4_r1\\016.json",
     "input": {
-      "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
+      "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(iv) Does the distribution of the residuals meet with the assumptions of regression?"
+      "question": "Does the distribution of the residuals meet with the assumptions of regression?"
     },
     "output": {
       "answer": "The residuals appear randomly distributed (although there are too few observations for the engine size of 1.8 litres to be completely sure of the distribution at that point). The distribution of the residuals therefore satisfies the assumptions of regression."
@@ -1162,9 +1099,9 @@
   "52": {
     "case_id": "book4_r1\\016.json",
     "input": {
-      "background": "For several makes of car, data for engine size and fuel economy are shown in the table. The goal is to analyze whether fuel economy is dependent on engine size using regression analysis.",
+      "background": "For several makes of car, data for engine size and fuel economy are shown below:\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|l|}\n\\hline Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size(l) & Fuel economy ( $\\mathrm{kml}^{-1}$ ) & Make & Engine size (l) & Fuel economy ( $\\mathrm{km} \\mathrm{l}^{-1}$ ) \\\\\n\\hline A & 1.0 & 14.3 & I & 1.1 & 14.9 & Q & 1.6 & 12.0 \\\\\n\\hline B & 1.0 & 16.4 & J & 1.4 & 12.7 & R & 1.6 & 12.4 \\\\\n\\hline C & 1.0 & 16.7 & K & 1.4 & 12.8 & S & 1.6 & 12.5 \\\\\n\\hline D & 1.0 & 17.2 & L & 1.4 & 13.5 & T & 1.6 & 12.8 \\\\\n\\hline E & 1.0 & 17.6 & M & 1.4 & 13.9 & U & 1.6 & 13.9 \\\\\n\\hline F & 1.0 & 17.6 & N & 1.4 & 14.5 & V & 1.6 & 14.7 \\\\\n\\hline G & 1.0 & 18.2 & O & 1.4 & 15.2 & W & 1.8 & 11.5 \\\\\n\\hline H & 1.1 & 14.9 & P & 1.4 & 15.6 & X & 1.8 & 12.8 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(v) What do you conclude about the relationship between engine size and fuel economy?"
+      "question": "What do you conclude about the relationship between engine size and fuel economy?"
     },
     "output": {
       "answer": "There is a significant negative relationship between engine size and fuel economy: as engine size increases, fuel economy decreases."
@@ -1183,12 +1120,12 @@
   "53": {
     "case_id": "book4_r1\\017.json",
     "input": {
-      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
+      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(i) Arrange the data in a 3 × 2 contingency table (including row, column and grand totals)."
+      "question": "Arrange the data in a $3 \\times 2$ contingency table (including row, column and grand totals)."
     },
     "output": {
-      "answer": "Pre-thicket: Present=7, Absent=5; Thicket: Present=10, Absent=1; High forest: Present=5, Absent=8; Row totals: Present=22, Absent=14; Column totals: Pre-thicket=12, Thicket=11, High forest=13; Grand total=36."
+      "answer": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline 6.1 (i) & Pre-thicket & Thicket & High forest & Row totals \\\\ \n\\hline Present & 7 & 10 & 5 & 22 \\\\ \n\\hline Absent & 5 & 1 & 8 & 14 \\\\ \n\\hline & & & & Grand total: \\\\ \n\\hline Column totals & 12 & 11 & 13 & 36 \\\\ \n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "6.1",
@@ -1204,12 +1141,12 @@
   "54": {
     "case_id": "book4_r1\\017.json",
     "input": {
-      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
+      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(ii) Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values."
+      "question": "Calculate the expected frequencies, place them in a table and check that the row, column and grand totals agree with those for the table of observed values."
     },
     "output": {
-      "answer": "Expected frequencies: Pre-thicket: Present=7.333, Absent=4.667; Thicket: Present=6.722, Absent=4.278; High forest: Present=7.944, Absent=5.056; Row totals: Present=22, Absent=14; Column totals: Pre-thicket=12, Thicket=11, High forest=13; Grand total=36."
+      "answer": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline (ii) & Pre-thicket & Thicket & High forest & Row totals \\\\ \n\\hline Present & 7.333 & 6.722 & 7.944 & 22 \\\\ \n\\hline Absent & 4.667 & 4.278 & 5.056 & 14 \\\\ \n\\hline & & & & Grand total: \\\\ \n\\hline Column totals & 12 & 11 & 13 & \\\\ \n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "6.1",
@@ -1225,12 +1162,12 @@
   "55": {
     "case_id": "book4_r1\\017.json",
     "input": {
-      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
+      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(iii) Calculate the individual X^2 components and place them in a table."
+      "question": "Calculate the individual $X^2$ components and place them in a table."
     },
     "output": {
-      "answer": "X^2 components: Pre-thicket: Present=0.0151, Absent=0.0238; Thicket: Present=1.5983, Absent=2.5115; High forest: Present=1.0913, Absent=1.7149."
+      "answer": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline (iii) & Pre-thicket & \\multicolumn{2}{|c|}{Thicket} & High forest \\\\ \n\\hline Present & 0.0151 & \\multicolumn{2}{|c|}{1.5983} & 1.0913 \\\\ \n\\hline Absent & 0.0238 & \\multicolumn{2}{|c|}{2.5115} & 1.7149 \\\\ \n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "6.1",
@@ -1246,12 +1183,12 @@
   "56": {
     "case_id": "book4_r1\\017.json",
     "input": {
-      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
+      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(iv) Calculate the total X^2, df and P values."
+      "question": "Calculate the total $X^2$, df and $P$ values."
     },
     "output": {
-      "answer": "Total X^2=6.9549, df=2, P<0.05 (P=0.0309)."
+      "answer": "$X^2=6.9549 \\quad \\mathrm{df}=2 \\quad P<0.05(=0.0309)$"
     },
     "meta_info": {
       "index": "6.1",
@@ -1267,9 +1204,9 @@
   "57": {
     "case_id": "book4_r1\\017.json",
     "input": {
-      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
+      "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The following data were obtained:\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 1 & PT & P & 19 & HF & A \\\\\n\\hline 2 & HF & P & 20 & T & P \\\\\n\\hline 3 & PT & A & 21 & PT & P \\\\\n\\hline 4 & PT & P & 22 & PT & P \\\\\n\\hline 5 & HF & A & 23 & HF & A \\\\\n\\hline 6 & T & P & 24 & T & P \\\\\n\\hline 7 & HF & A & 25 & PT & A \\\\\n\\hline 8 & T & P & 26 & PT & P \\\\\n\\hline 9 & HF & P & 27 & HF & P \\\\\n\\hline 10 & T & P & 28 & T & P \\\\\n\\hline 11 & PT & A & 29 & PT & A \\\\\n\\hline 12 & T & A & 30 & PT & P \\\\\n\\hline 13 & T & P & 31 & T & P \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Wood number & Wood type & Presence or absence of longtailed tits & Wood number & Wood type & Presence or absence of longtailed tits \\\\\n\\hline 14 & HF & P & 32 & HF & A \\\\\n\\hline 15 & PT & A & 33 & T & P \\\\\n\\hline 16 & T & P & 34 & HF & A \\\\\n\\hline 17 & HF & A & 35 & PT & P \\\\\n\\hline 18 & HF & P & 36 & HF & A \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(v) What do you conclude regarding the distribution of long-tailed tits in the different types of woodland?"
+      "question": "What do you conclude regarding the distribution of long-tailed tits in the different types of woodland?"
     },
     "output": {
       "answer": "There is a significant association between forest type and the presence or absence of long-tailed tits, with tits being more likely to be present in thickets (and absent from high forests)."
@@ -1293,7 +1230,7 @@
       "question": "For lichens occurring on the north, east, south and west sides of trees, use the external hypothesis that lichen orientation is random, and display in a table the observed and expected number of lichens and the component $X^2$ values in a goodness of fit test."
     },
     "output": {
-      "answer": "\n\\begin{tabular}{|l|l|l|l|}\n\\hline & Observed & Expected & $X^2$ \\\\\n\\hline North & 36 & 40 & 0.4 \\\\\n\\hline East & 50 & 40 & 2.5 \\\\\n\\hline South & 29 & 40 & 3.025 \\\\\n\\hline West & 45 & 40 & 0.625 \\\\\n\\hline\n\\end{tabular}"
+      "answer": "\\begin{tabular}{|l|l|l|l|}\\hline & Observed & Expected & $X^2$ \\\\\\hline North & 36 & 40 & 0.4 \\\\\\hline East & 50 & 40 & 2.5 \\\\\\hline South & 29 & 40 & 3.025 \\\\\\hline West & 45 & 40 & 0.625 \\\\\\hline\\end{tabular}"
     },
     "meta_info": {
       "index": "6.2",
@@ -1351,12 +1288,12 @@
   "61": {
     "case_id": "book4_r1\\019.json",
     "input": {
-      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Check that the variances of the three samples are not significantly different using an $F_{\\text{max}}$ test."
+      "question": "Check that the variances of the three samples are not significantly different using an $F_{\\text {max }}$ test."
     },
     "output": {
-      "answer": "The highest variance is for minibuses (30.786). The lowest variance is for cars (12.982). $F_{\\max }=2.37, k=3, \\mathrm{df}=7, P>0.05$; therefore the variances are not significantly different."
+      "answer": "The highest variance is for minibuses (30.786).\n\nThe lowest variance is for cars (12.982).\n$F_{\text{max}}=2.37, k=3, \text{df}=7, P>0.05$; therefore the variances are not significantly different."
     },
     "meta_info": {
       "index": "7.1",
@@ -1372,12 +1309,12 @@
   "62": {
     "case_id": "book4_r1\\019.json",
     "input": {
-      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table."
+      "question": "Calculate a one-way ANOVA on the above data and fill out an ANOVA table:\n\n\\begin{tabular}{llllll}\n\\hline & df & Sums of squares & Mean squares & F value & $P$ \\\\\n\\hline Vehicle type & & & & \\\\\nWithin & & & & \\\\\nTotal & & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "Vehicle type: df = 2, Sums of squares = 2629.750, Mean squares = 1314.875, F = 58.516, P < 0.0001. Within: df = 21, Sums of squares = 471.875, Mean squares = 22.470. Total: df = 23, Sums of squares = 3101.625."
+      "answer": "\\begin{tabular}{llllll}\n\\hline Vehicle type & 2 & 2629.750 & 1314.875 & 58.516 & $<0.0001$ \\\\\nWithin & 21 & 471.875 & 22.470 & & \\\\\nTotal & 23 & 3101.625 & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "7.1",
@@ -1393,12 +1330,12 @@
   "63": {
     "case_id": "book4_r1\\019.json",
     "input": {
-      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Calculate the mean $(\\bar{x})$ and standard error $(SE)$ of $\\mathrm{NO}_2$ concentration in each vehicle type."
+      "question": "Calculate the mean $(\\bar{x})$ and standard error $(SE)$ of $\\mathrm{NO}_2$ concentration in each vehicle type:"
     },
     "output": {
-      "answer": "Cars: $\\bar{x} = 68.1 \\mathrm{ppb}$, SE = 1.27 ppb. Minibuses: $\\bar{x} = 52.3 \\mathrm{ppb}$, SE = 1.96 ppb. Buses: $\\bar{x} = 42.8 \\mathrm{ppb}$, SE = 1.72 ppb."
+      "answer": "\\begin{tabular}{llllll}\n\\hline Cars & & Minibuses & & Buses & \\\\\n\\hline$\\overline{\\boldsymbol{x}}: 68.1 \\mathrm{ppb}$ & SE: 1.27 ppb & $\\overline{\\boldsymbol{x}}: 52.3 \\mathrm{ppb}$ & SE: 1.96 ppb & $\\overline{\\boldsymbol{x}}: 42.8 \\mathrm{ppb}$ & SE: 1.72 ppb \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "7.1",
@@ -1414,12 +1351,12 @@
   "64": {
     "case_id": "book4_r1\\019.json",
     "input": {
-      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
+      "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained:\n\n\\begin{tabular}{lll}\n\\hline Car & Minibus & Bus \\\\\n\\hline 69 & 51 & 41 \\\\\n62 & 45 & 48 \\\\\n73 & 59 & 42\n\\end{tabular}\n\\begin{tabular}{|l|l|l|}\n\\hline Car & Minibus & Bus \\\\\n\\hline 70 & 57 & 39 \\\\\n\\hline 68 & 58 & 47 \\\\\n\\hline 68 & 54 & 49 \\\\\n\\hline 64 & 46 & 35 \\\\\n\\hline 71 & 48 & 41 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "Using multiple comparison tests where appropriate, what do you conclude from your analysis of these data?"
     },
     "output": {
-      "answer": "There is a significant difference between the $\\mathrm{NO}_2$ concentration in the different types of vehicle, with cars having the most and buses the least. Using Tukey's multiple comparisons: The MSD is smaller than the difference between any pair of means, therefore all the means are significantly different from each other (Cars > Minibuses > Buses; $P<0.05$)."
+      "answer": "There is a significant difference between the $\\mathrm{NO}_2$ concentration in the different types of vehicle, with cars having the most and buses the least. Using Tukey's multiple comparisons:\nThe MSD is smaller than the difference between any pair of means, therefore all the means are significantly different from each other (Cars $>$ Minibuses $>$ Buses; $P<0.05$ )."
     },
     "meta_info": {
       "index": "7.1",
@@ -1435,12 +1372,12 @@
   "65": {
     "case_id": "book4_r1\\020.json",
     "input": {
-      "background": "A local council was considering introducing extensive recycling facilities. As part of a survey investigating the attitudes of the public towards the popularity of this initiative, the effect of age of the respondent was taken into account. Respondents were asked to score their enthusiasm towards recycling on a scale of 1 to 5 (where 5 was very enthusiastic) and their age was classed as: up to 25; from 26 to 50; or over 51 years. The following data were collected in a table format.",
+      "background": "A local council was considering introducing extensive recycling facilities. As part of a survey investigating the attitudes of the public towards the popularity of this initiative, the effect of age of the respondent was taken into account. Respondents were asked to score their enthusiasm towards recycling on a scale of 1 to 5 (where 5 was very enthusiastic) and their age was classed as: up to 25; from 26 to 50; or over 51 years. The following data were collected:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Up to 25 & 26-50 & Over 51 \\\\\n\\hline 3 & 1 & 4 \\\\\n\\hline 2 & 2 & 3 \\\\\n\\hline 4 & 3 & 3 \\\\\n\\hline 4 & 3 & 5 \\\\\n\\hline 5 & 2 & 3 \\\\\n\\hline 4 & 2 & 1 \\\\\n\\hline 3 & 1 & 4 \\\\\n\\hline 1 & 1 & 4 \\\\\n\\hline 5 & 2 & 5 \\\\\n\\hline $\\underline{4}$ & 2 & 4 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Carry out Kruskal-Wallis one-way analysis of variance using ranks on the data. Provide the rank means for each age group, degrees of freedom (df), H statistic, and P-value."
+      "question": "(i) Carry out Kruskal-Wallis one-way analysis of variance using ranks on the data:\n\\begin{tabular}{llllll}\n\\hline Rank means & & & \\multicolumn{3}{l}{ Kruskal-Wallis } \\\\\n\\hline Up to 25 & 26 to 50 & Over 51 & df: & H: & P: \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "Rank means: Up to 25 = 18.85, 26 to 50 = 8.15, Over 51 = 19.5. Degrees of freedom (df): 2. H statistic: 10.483 (corrected: 10.984). P-value: <0.01 (exact, corrected: 0.0041)."
+      "answer": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{ (i)}\n\\begin{tabular}{llllll}\n\\hline Rank means & \\multicolumn{5}{c}{ Kruskal-Wallis } \\\\\n\\hline Up to 25 & 26 to 50 & Over 51 & df: & $H:$ & $P:$ \\\\\n18.85 & 8.15 & 19.5 & 2 & 10.483 & $<0.01$ \\\\\n& & & & $($ corrected & $($ exact, corrected \\\\\n& & & & $10.984)$ & $0.0041)$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}"
     },
     "meta_info": {
       "index": "7.2",
@@ -1456,12 +1393,12 @@
   "66": {
     "case_id": "book4_r1\\020.json",
     "input": {
-      "background": "A local council was considering introducing extensive recycling facilities. As part of a survey investigating the attitudes of the public towards the popularity of this initiative, the effect of age of the respondent was taken into account. Respondents were asked to score their enthusiasm towards recycling on a scale of 1 to 5 (where 5 was very enthusiastic) and their age was classed as: up to 25; from 26 to 50; or over 51 years. The following data were collected in a table format.",
+      "background": "A local council was considering introducing extensive recycling facilities. As part of a survey investigating the attitudes of the public towards the popularity of this initiative, the effect of age of the respondent was taken into account. Respondents were asked to score their enthusiasm towards recycling on a scale of 1 to 5 (where 5 was very enthusiastic) and their age was classed as: up to 25; from 26 to 50; or over 51 years. The following data were collected:\n\n\\begin{tabular}{|l|l|l|}\n\\hline Up to 25 & 26-50 & Over 51 \\\\\n\\hline 3 & 1 & 4 \\\\\n\\hline 2 & 2 & 3 \\\\\n\\hline 4 & 3 & 3 \\\\\n\\hline 4 & 3 & 5 \\\\\n\\hline 5 & 2 & 3 \\\\\n\\hline 4 & 2 & 1 \\\\\n\\hline 3 & 1 & 4 \\\\\n\\hline 1 & 1 & 4 \\\\\n\\hline 5 & 2 & 5 \\\\\n\\hline $\\underline{4}$ & 2 & 4 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Using multiple comparison tests where appropriate, what do you conclude from this analysis?"
+      "question": "(ii) Using multiple comparison tests where appropriate, what do you conclude from this analysis?"
     },
     "output": {
-      "answer": "There is a significant difference among age groups as to enthusiasm towards recycling. Nemenyi's multiple comparisons reveal that those aged up to 25 and over 51 do not differ in their enthusiasm, but both age groups are significantly more enthusiastic than those aged 26-50 (P<0.05): (up to 25, over 51) > 26 to 50."
+      "answer": "There is a significant difference among age groups as to enthusiasm towards recycling. Nemenyi's multiple comparisons reveal that those aged up to 25 and over 51 do not differ in their enthusiasm, but both age groups are significantly more enthusiastic than those aged 26-50 $(P<0.05)$: (up to 25, over 51)>26 to 50."
     },
     "meta_info": {
       "index": "7.2",
@@ -1477,43 +1414,12 @@
   "67": {
     "case_id": "book4_r1\\021.json",
     "input": {
-      "background": "The percentages of forest lost per year in ten randomly selected countries in Central America and South East Asia are provided. The dataset includes both original and arcsine-transformed data, with half of the countries being island nations and the other half mainland nations. The arcsine-transformed data has been tested for variance homogeneity using an $F_{\\text{max}}$ test and found not significantly different.",
+      "background": "The percentages of all forest lost per year in ten randomly selected countries in each of Central America and South East Asia are given below. Half of the countries are island countries, and half are mainland countries. The arcsine-transformed data (to normalise the distributions) are given alongside the original data (the variances of the transformed data have been subjected to an $F_{\\text {max }}$ test and are not significantly different).\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline & \\multicolumn{4}{|l|}{Region} \\\\\n\\hline & \\multicolumn{2}{|l|}{Central America} & \\multicolumn{2}{|l|}{South East Asia} \\\\\n\\hline & \\% lost & arcsine-transformed & \\% lost & arcsine-transformed \\\\\n\\hline \\multirow{8}{*}{Mainland} & 3.1 & 0.177 & 1.0 & 0.100 \\\\\n\\hline 3.2 & 0.180 & 1.5 & 0.123 \\\\\n\\hline 2.0 & 0.142 & 2.5 & 0.159 \\\\\n\\hline 2.3 & 0.152 & 1.7 & 0.131 \\\\\n\\hline & 2.7 & 0.165 & 0.2 & 0.045 \\\\\n\\hline Location \\\\\n\\hline  \\multirow{8}{*}{Island} & 0.1 & 0.032 & 0.1 & 0.032 \\\\\n\\hline 0.6 & 0.078 & 0.1 & 0.032 \\\\\n\\hline 3.8 & 0.196 & 0.2 & 0.045 \\\\\n\\hline 3.0 & 0.174 & 1.5 & 0.123 \\\\\n\\hline & 0.4 & 0.063 & 0.8 & 0.090 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Use two-way ANOVA on the transformed data to determine whether forest loss differs depending on: (1) which region the country is in; (2) the location (i.e., whether the country is an island or on the mainland); and (3) whether there is an interaction between region and location."
+      "question": "Use two-way ANOVA on the transformed data to determine whether forest loss differs depending on: which region the country is in; the location (i.e. whether the country is an island or on the mainland); and whether there is an interaction between region and location.\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & Sums of squares & Mean squares & $F$ value & P \\\\\n\\hline Region & \\multicolumn{2}{|c|}{\\multirow{5}{*}{}} & \\multirow{5}{*}{} & \\multirow{5}{*}{} & \\multirow{5}{*}{} \\\\\n\\hline Location & & & & & \\\\\n\\hline Interaction & & & & & \\\\\n\\hline Within & & & & & \\\\\n\\hline Total & & & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": {
-        "df": {
-          "Region": 1,
-          "Location": 1,
-          "Interaction": 1,
-          "Within": 16,
-          "Total": 19
-        },
-        "Sums of squares": {
-          "Region": 0.011,
-          "Location": 0.013,
-          "Interaction": 6.845e-05,
-          "Within": 0.036,
-          "Total": 0.06
-        },
-        "Mean squares": {
-          "Region": 0.011,
-          "Location": 0.013,
-          "Interaction": 6.845e-05,
-          "Within": 0.002
-        },
-        "F value": {
-          "Region": 5.136,
-          "Location": 5.799,
-          "Interaction": 0.031
-        },
-        "P value": {
-          "Region": "<0.05 (0.0377)",
-          "Location": "<0.05 (0.0285)",
-          "Interaction": ">0.05 (0.8632)"
-        }
-      }
+      "answer": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline  (i) & df & Sums of squares & Mean squares & $F$ & P \\\\\n\\hline Region & 1 & 0.011 & 0.011 & 5.136 & <0.05 (0.0377) \\\\\n\\hline Location & 1 & 0.013 & 0.013 & 5.799 & <0.05 (0.0285) \\\\\n\\hline Interaction & 1 & 0.00006845 & 0.00006845 & 0.031 & >0.05 (0.8632) \\\\\n\\hline Within & 16 & 0.036 & 0.002 & & \\\\\n\\hline Total & 19 & 0.060 & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "7.3",
@@ -1529,7 +1435,7 @@
   "68": {
     "case_id": "book4_r1\\021.json",
     "input": {
-      "background": "The percentages of forest lost per year in ten randomly selected countries in Central America and South East Asia are provided. The dataset includes both original and arcsine-transformed data, with half of the countries being island nations and the other half mainland nations. The arcsine-transformed data has been tested for variance homogeneity using an $F_{\\text{max}}$ test and found not significantly different.",
+      "background": "The percentages of all forest lost per year in ten randomly selected countries in each of Central America and South East Asia are given below. Half of the countries are island countries, and half are mainland countries. The arcsine-transformed data (to normalise the distributions) are given alongside the original data (the variances of the transformed data have been subjected to an $F_{\\text {max }}$ test and are not significantly different).\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline & \\multicolumn{4}{|l|}{Region} \\\\\n\\hline & \\multicolumn{2}{|l|}{Central America} & \\multicolumn{2}{|l|}{South East Asia} \\\\\n\\hline & \\% lost & arcsine-transformed & \\% lost & arcsine-transformed \\\\\n\\hline \\multirow{8}{*}{Mainland} & 3.1 & 0.177 & 1.0 & 0.100 \\\\\n\\hline 3.2 & 0.180 & 1.5 & 0.123 \\\\\n\\hline 2.0 & 0.142 & 2.5 & 0.159 \\\\\n\\hline 2.3 & 0.152 & 1.7 & 0.131 \\\\\n\\hline & 2.7 & 0.165 & 0.2 & 0.045 \\\\\n\\hline Location \\\\\n\\hline  \\multirow{8}{*}{Island} & 0.1 & 0.032 & 0.1 & 0.032 \\\\\n\\hline 0.6 & 0.078 & 0.1 & 0.032 \\\\\n\\hline 3.8 & 0.196 & 0.2 & 0.045 \\\\\n\\hline 3.0 & 0.174 & 1.5 & 0.123 \\\\\n\\hline & 0.4 & 0.063 & 0.8 & 0.090 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "Draw a line plot of the means and standard errors of the transformed data."
     },
@@ -1550,12 +1456,12 @@
   "69": {
     "case_id": "book4_r1\\021.json",
     "input": {
-      "background": "The percentages of forest lost per year in ten randomly selected countries in Central America and South East Asia are provided. The dataset includes both original and arcsine-transformed data, with half of the countries being island nations and the other half mainland nations. The arcsine-transformed data has been tested for variance homogeneity using an $F_{\\text{max}}$ test and found not significantly different.",
+      "background": "The percentages of all forest lost per year in ten randomly selected countries in each of Central America and South East Asia are given below. Half of the countries are island countries, and half are mainland countries. The arcsine-transformed data (to normalise the distributions) are given alongside the original data (the variances of the transformed data have been subjected to an $F_{\\text {max }}$ test and are not significantly different).\n\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline & \\multicolumn{4}{|l|}{Region} \\\\\n\\hline & \\multicolumn{2}{|l|}{Central America} & \\multicolumn{2}{|l|}{South East Asia} \\\\\n\\hline & \\% lost & arcsine-transformed & \\% lost & arcsine-transformed \\\\\n\\hline \\multirow{8}{*}{Mainland} & 3.1 & 0.177 & 1.0 & 0.100 \\\\\n\\hline 3.2 & 0.180 & 1.5 & 0.123 \\\\\n\\hline 2.0 & 0.142 & 2.5 & 0.159 \\\\\n\\hline 2.3 & 0.152 & 1.7 & 0.131 \\\\\n\\hline & 2.7 & 0.165 & 0.2 & 0.045 \\\\\n\\hline Location \\\\\n\\hline  \\multirow{8}{*}{Island} & 0.1 & 0.032 & 0.1 & 0.032 \\\\\n\\hline 0.6 & 0.078 & 0.1 & 0.032 \\\\\n\\hline 3.8 & 0.196 & 0.2 & 0.045 \\\\\n\\hline 3.0 & 0.174 & 1.5 & 0.123 \\\\\n\\hline & 0.4 & 0.063 & 0.8 & 0.090 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "Using multiple comparison tests where appropriate, what do you conclude from this analysis?"
     },
     "output": {
-      "answer": "Central America has a significantly higher percentage forest loss than does South East Asia, and mainland countries have significantly higher loss than islands. There is no significant interaction between region and location, thus the effects of region (Central America or South East Asia) are independent of those of location (island or mainland). Note that multiple comparisons are not needed when only two categories are being combined at a time."
+      "answer": "Central America has a significantly higher percentage forest loss than does South East Asia and mainland countries have significantly higher loss than islands. There is no significant interaction between region and location, thus the effects of region (Central America or South East Asia) are independent of those of location (island or mainland). Note that multiple comparisons are not needed when only two categories are being combined at a time."
     },
     "meta_info": {
       "index": "7.3",
@@ -1571,12 +1477,12 @@
   "70": {
     "case_id": "book4_r1\\022.json",
     "input": {
-      "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes). The data is presented for different regions (Atlantic, North Sea East Coast, North Sea Channel, Celtic Sea, Irish Sea). The goal is to analyze whether there is a difference in nitrogen input based on the route (rivers vs. direct) and among regions using a two-way ANOVA, assuming no interaction between input route and region. Additionally, multiple comparison tests are used to draw conclusions.",
+      "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes):\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & & \\multicolumn{5}{|l|}{Region} \\\\\n\\hline & & Atlantic & North Sea (East coast) & North Sea (Channel) & Celtic Sea & Irish Sea \\\\\n\\hline Route & Rivers & 28 & 93 & 17 & 30 & 42 \\\\\n\\hline & Direct & 10 & 77 & 12 & 11 & 6 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "Perform a two-way ANOVA with single observations in each cell (assume there is no interaction between input route and region) to decide whether there is a difference in the amount of nitrogen entering coastal waters: (a) via the two routes; and (b) between regions. Note that the amount of nitrogen entering coastal waters via the two routes could be compared using a paired t-test and yield the same result, but this would not provide information on variation between regions."
+      "question": "Perform a two-way ANOVA with single observations in each cell (assume there is no interaction between input route and region) to decide whether there is a difference in the amount of nitrogen entering coastal waters: (a) via the two routes; and (b) between regions. Note that the amount of nitrogen entering coastal waters via the two routes could be compared using a paired $t$ test-and yield the same result-but this would not provide information on variation between regions.\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & SS & MS & F & P \\\\\n\\hline Route & & & & & \\\\\n\\hline Region & & & & & \\\\\n\\hline Remainder & & & & & \\\\\n\\hline Total & & & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "output": {
-      "answer": "Route: df = 1, SS = 883.600, MS = 883.600, F = 14.286, P = 0.0194. Region: df = 4, SS = 6957.400, MS = 1739.350, F = 28.122, P = 0.0035. Remainder: df = 4, SS = 247.000, MS = 61.850. Total: df = 9, SS = 8088.000."
+      "answer": "(i)\n\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & SS & MS & $F$ & $P$ \\\\\n\\hline Route & 1 & 883.600 & 883.600 & 14.286 & 0.0194 \\\\\n\\hline Region & 4 & 6957.400 & 1739.350 & 28.122 & 0.0035 \\\\\n\\hline Remainder & 4 & 247.000 & 61.850 & & \\\\\n\\hline Total & 9 & 8088.000 & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {
       "index": "7.4",
@@ -1592,12 +1498,12 @@
   "71": {
     "case_id": "book4_r1\\022.json",
     "input": {
-      "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes). The data is presented for different regions (Atlantic, North Sea East Coast, North Sea Channel, Celtic Sea, Irish Sea). The goal is to analyze whether there is a difference in nitrogen input based on the route (rivers vs. direct) and among regions using a two-way ANOVA, assuming no interaction between input route and region. Additionally, multiple comparison tests are used to draw conclusions.",
+      "background": "The amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via fresh water inputs (i.e. from rivers) is compared to that entering directly into saline waters from point sources (e.g. pipes):\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline & & \\multicolumn{5}{|l|}{Region} \\\\\n\\hline & & Atlantic & North Sea (East coast) & North Sea (Channel) & Celtic Sea & Irish Sea \\\\\n\\hline Route & Rivers & 28 & 93 & 17 & 30 & 42 \\\\\n\\hline & Direct & 10 & 77 & 12 & 11 & 6 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
       "question": "Using multiple comparison tests where appropriate, what can you conclude from these results?"
     },
     "output": {
-      "answer": "River input is significantly higher than direct input (River = 42; Direct = 23.2), and there is a significant difference among regions. Tukey's multiple comparisons reveal that the North Sea East Coast has significantly higher nitrogen input than all the other regions (P < 0.05). None of the other regions differ from each other: North Sea East Coast > (Irish Sea, Celtic Sea, Atlantic, North Sea Channel)."
+      "answer": "(ii) River input is significantly higher than direct input (River $=42$; Direct $=23.2$), and there is a significant difference among regions. Tukey's multiple comparisons reveal that the North Sea East Coast has significantly higher nitrogen input than all the other regions ($P<0.05$). None of the other regions differ from each other: North Sea East Coast $>$ (Irish Sea, Celtic Sea, Atlantic, North Sea Channel)."
     },
     "meta_info": {
       "index": "7.4",
@@ -1613,12 +1519,12 @@
   "72": {
     "case_id": "book4_r1\\023.json",
     "input": {
-      "background": "An environmental pressure group contacted backbench MPs from two political parties (Beige and Grey, neither of which were in government) just before and immediately after a general election. They asked for their views on environmental issues, and the responses were analyzed using content analysis. The number of positive words in each politician's statements was recorded. Assume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election, ensuring the data are independent.",
+      "background": "An environmental pressure group contacted backbench MPs from two political parties (neither of which were in government), just before and immediately after a general election, and asked them for their views on environmental issues. The responses were analysed using content analysis. The number of positive words in each politician's statements were as follows:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{}} &  \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline & & Beige & Grey \\\\\n\\hline \\multirow{30}{*}{Timing} & & 9 & 9 \\\\\n\\hline & 11 & 9 \\\\\n\\hline & 11 & 11 \\\\\n\\hline & 7 & 12 \\\\\n\\hline Before & 14 & 14 \\\\\n\\hline & 12 & 11 \\\\\n\\hline & 10 & 10 \\\\\n\\hline & 8 & 7 \\\\\n\\hline & 7 & 6 \\\\\n\\hline & 8 & 9 \\\\\n\\hline & 8 & 5 \\\\\n\\hline & 6 & 6 \\\\\n\\hline & 5 & 7 \\\\\n\\hline & 8 & 4 \\\\\n\\hline After & 11 & 9 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline Beige & Grey \\\\\n\\hline 9 & 10 \\\\\n\\hline 10 & 7 \\\\\n\\hline 8 & 5 \\\\\n\\hline 7 & 7 \\\\\n\\hline 7 & 6 \\\\\n\\hline\n\\end{tabular}\n\nAssume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election (i.e. the data are independent).",
       "data": null,
-      "question": "Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election), or an interaction between the two."
+      "question": "(i) Carry out a two-way analysis of variance using ranks to determine whether there is an effect of party, timing (before or after the general election) or an interaction between the two."
     },
     "output": {
-      "answer": "Party: df = 1, SS = 99.225, F = 0.7389, P > 0.05. Timing: df = 1, SS = 1416.1, F = 10.545, P < 0.01 (0.0016). Interaction: df = 1, SS = 133.25, F = 0.992, P > 0.05. Within: df = 36, SS = 3588.95. Total: df = 39, SS = 5237.525, MS = 134.29555."
+      "answer": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{ (i)}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & df & SS & MS & F & P \\\\\n\\hline Party & 1 & 99.225 & & 0.7389 & >0.05 \\\\\n\\hline Timing & 1 & 1416.1 & & 10.545 & <0.01 (0.0016) \\\\\n\\hline Interaction & 1 & 133.25 & & 0.992 & >0.05 \\\\\n\\hline Within & 36 & 3588.95 & & & \\\\\n\\hline Total & 39 & 5237.525 & 134.29555 & & \\\\\n\\hline\n\\end{tabular}\n\\end{table}"
     },
     "meta_info": {
       "index": "7.5",
@@ -1634,12 +1540,12 @@
   "73": {
     "case_id": "book4_r1\\023.json",
     "input": {
-      "background": "An environmental pressure group contacted backbench MPs from two political parties (Beige and Grey, neither of which were in government) just before and immediately after a general election. They asked for their views on environmental issues, and the responses were analyzed using content analysis. The number of positive words in each politician's statements was recorded. Assume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election, ensuring the data are independent.",
+      "background": "An environmental pressure group contacted backbench MPs from two political parties (neither of which were in government), just before and immediately after a general election, and asked them for their views on environmental issues. The responses were analysed using content analysis. The number of positive words in each politician's statements were as follows:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{}} &  \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline & & Beige & Grey \\\\\n\\hline \\multirow{30}{*}{Timing} & & 9 & 9 \\\\\n\\hline & 11 & 9 \\\\\n\\hline & 11 & 11 \\\\\n\\hline & 7 & 12 \\\\\n\\hline Before & 14 & 14 \\\\\n\\hline & 12 & 11 \\\\\n\\hline & 10 & 10 \\\\\n\\hline & 8 & 7 \\\\\n\\hline & 7 & 6 \\\\\n\\hline & 8 & 9 \\\\\n\\hline & 8 & 5 \\\\\n\\hline & 6 & 6 \\\\\n\\hline & 5 & 7 \\\\\n\\hline & 8 & 4 \\\\\n\\hline After & 11 & 9 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline Beige & Grey \\\\\n\\hline 9 & 10 \\\\\n\\hline 10 & 7 \\\\\n\\hline 8 & 5 \\\\\n\\hline 7 & 7 \\\\\n\\hline 7 & 6 \\\\\n\\hline\n\\end{tabular}\n\nAssume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election (i.e. the data are independent).",
       "data": null,
-      "question": "Plot the rank means on an interaction line plot."
+      "question": "(ii) Plot the rank means on an interaction line plot."
     },
     "output": {
-      "answer": "Rank means for the number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election, should be plotted on an interaction line plot."
+      "answer": "Rank means for number of positive words in response to questions regarding environmental issues from MPs from two political parties, before and after a general election."
     },
     "meta_info": {
       "index": "7.5",
@@ -1655,12 +1561,12 @@
   "74": {
     "case_id": "book4_r1\\023.json",
     "input": {
-      "background": "An environmental pressure group contacted backbench MPs from two political parties (Beige and Grey, neither of which were in government) just before and immediately after a general election. They asked for their views on environmental issues, and the responses were analyzed using content analysis. The number of positive words in each politician's statements was recorded. Assume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election, ensuring the data are independent.",
+      "background": "An environmental pressure group contacted backbench MPs from two political parties (neither of which were in government), just before and immediately after a general election, and asked them for their views on environmental issues. The responses were analysed using content analysis. The number of positive words in each politician's statements were as follows:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{}} &  \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline & & Beige & Grey \\\\\n\\hline \\multirow{30}{*}{Timing} & & 9 & 9 \\\\\n\\hline & 11 & 9 \\\\\n\\hline & 11 & 11 \\\\\n\\hline & 7 & 12 \\\\\n\\hline Before & 14 & 14 \\\\\n\\hline & 12 & 11 \\\\\n\\hline & 10 & 10 \\\\\n\\hline & 8 & 7 \\\\\n\\hline & 7 & 6 \\\\\n\\hline & 8 & 9 \\\\\n\\hline & 8 & 5 \\\\\n\\hline & 6 & 6 \\\\\n\\hline & 5 & 7 \\\\\n\\hline & 8 & 4 \\\\\n\\hline After & 11 & 9 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|}\n\\hline \\multicolumn{2}{|l|}{Political party} \\\\\n\\hline Beige & Grey \\\\\n\\hline 9 & 10 \\\\\n\\hline 10 & 7 \\\\\n\\hline 8 & 5 \\\\\n\\hline 7 & 7 \\\\\n\\hline 7 & 6 \\\\\n\\hline\n\\end{tabular}\n\nAssume that each MP was randomly selected before the election and, if re-elected, was omitted from the random survey after the election (i.e. the data are independent).",
       "data": null,
-      "question": "Using multiple comparison tests where appropriate, what can you conclude from these results?"
+      "question": "(iii) Using multiple comparison tests where appropriate, what can you conclude from these results?"
     },
     "output": {
-      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. Multiple comparisons are not necessary because there is no interaction and only two categories in the significant factor."
+      "answer": "There is a significant effect of timing: politicians say fewer positive words about environmental issues after the general election. There is no significant difference between the parties in the number of positive words in politicians' responses, and there is no significant interaction between timing and political party. (Multiple comparisons are not necessary, because there is no interaction and only two categories in the significant factor.)"
     },
     "meta_info": {
       "index": "7.5",
@@ -1676,24 +1582,24 @@
   "75": {
     "case_id": "book4_r1\\024.json",
     "input": {
-      "background": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries. The data are presented in a table with percentages for each group across countries (Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama). The goal is to analyze whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk, without considering differences between countries.",
+      "background": "The data below show the percentage of mammal, bird and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(i) Carry out Friedman's matched group two-way analysis of variance using ranks to determine whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk (assume that we are not interested in differences between countries)."
+      "question": "Carry out Friedman's matched group two-way analysis of variance using ranks to determine whether there is a difference between the percentage of the different groups of animals (mammals, birds and reptiles/amphibians) at risk (assume that we are not interested in differences between countries)."
     },
     "output": {
-      "answer": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{llll}\n\\hline & Rank mean & \\multicolumn{3}{l}{ Friedman's test } \\\\\n\\hline Mammals & & $\\mathrm{df}:$ & $\\mathrm{Fr}:$ & $\\mathrm{P}:$ \\\\\nBirds & & & \\\\\nReptiles/ amphibians & & & \\\\\n\\hline\n\\end{tabular}"
+      "answer": "The data below show the percentage of mammal, bird and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{llll}\n\\hline & Rank mean & \\multicolumn{3}{l}{ Friedman's test } \\\\\n\\hline Mammals & & $\\mathrm{df}:$ & $\\mathrm{Fr}:$ & $\\mathrm{P}:$ \\\\\nBirds & & & \\\\\nReptiles/ amphibians & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {}
   },
   "76": {
     "case_id": "book4_r1\\024.json",
     "input": {
-      "background": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries. The data are presented in a table with percentages for each group across countries (Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama). The goal is to analyze whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk, without considering differences between countries.",
+      "background": "The data below show the percentage of mammal, bird and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}",
       "data": null,
-      "question": "(ii) Using multiple comparison tests where appropriate, what can you conclude from these results?"
+      "question": "Using multiple comparison tests where appropriate, what can you conclude from these results?"
     },
     "output": {
-      "answer": "Using multiple comparison tests where appropriate, the results of Friedman's test can be interpreted to determine if there are significant differences between the groups (mammals, birds, and reptiles/amphibians). Specific conclusions depend on the rank means and p-values obtained from the test, which are not provided in the question. Further analysis would involve comparing the rank means to identify which groups differ significantly."
+      "answer": "The data below show the percentage of mammal, bird and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{llll}\n\\hline & Rank mean & \\multicolumn{3}{l}{ Friedman's test } \\\\\n\\hline Mammals & & $\\mathrm{df}:$ & $\\mathrm{Fr}:$ & $\\mathrm{P}:$ \\\\\nBirds & & & \\\\\nReptiles/ amphibians & & & \\\\\n\\hline\n\\end{tabular}"
     },
     "meta_info": {}
   }

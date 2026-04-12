@@ -1,7 +1,7 @@
 {
   "case_id": "book4_r1\\005.json",
   "input": {
-    "background": "A researcher wants to determine if there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He plans to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
+    "background": "A researcher wishes to know whether there is a difference in the amount of carbon monoxide emitted from the exhausts of large and small cars. He wishes to obtain 20 readings for the carbon monoxide concentrations from each size of car.",
     "data": null,
     "question": "Why is repeatedly sampling the same car incorrect?"
   },
