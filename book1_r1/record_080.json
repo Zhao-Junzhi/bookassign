@@ -2,19 +2,48 @@
   "background": "An SRS of 18 male students at a university has an average height of 70 inches. The average height of men in the general population is 69 inches. Assume that male height is approximately Normally distributed with σ=2.8 inches.",
   "task": [
     {
-      "query": "Conduct a two-sided hypothesis test to determine whether the male students are significantly taller than expected. Show all hypothesis testing steps.",
-      "answer": "The four step procedure is used to solve the problem: A. Hypotheses. $H_0: \\mu=69$ versus $H_a: \\mu \\neq 69$ B. Test statistic. $z_{\\text {stat }}=1.52$ C. $P$-value. One-sided $P=\\operatorname{Pr}(Z \\geq 1.52)=0.0643$. Therefore, the two-sided $P= 2 \\times 0.0643=0.1286$. This is considered to be nonsignificant by usual conventions. D. Significance level (optional). Results are not significant at $\\alpha=0.10$ (retain $H_0$ ).",
-      "method": "均值检验"
+      "query": "State the null and alternative hypotheses for the test.",
+      "answer": "H0: μ = 69 versus Ha: μ ≠ 69"
+    },
+    {
+      "query": "Calculate the test statistic for the hypothesis test.",
+      "answer": "z_stat = 1.52"
+    },
+    {
+      "query": "Determine the P-value for the test and interpret its significance.",
+      "answer": "One-sided P = Pr(Z ≥ 1.52) = 0.0643. Therefore, the two-sided P = 2 × 0.0643 = 0.1286. This is considered to be nonsignificant by usual conventions."
+    },
+    {
+      "query": "State the conclusion of the hypothesis test at a significance level of α = 0.10.",
+      "answer": "Results are not significant at α = 0.10 (retain H0)."
     }
   ],
   "id": "080",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "9.17",
     "image": "",
     "caption": "University men.",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.6 POWER AND SAMPLE SIZE",
     "page": "194-194"
+  },
+  "token_usage": {
+    "completion_tokens": 282,
+    "prompt_tokens": 525,
+    "total_tokens": 807,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

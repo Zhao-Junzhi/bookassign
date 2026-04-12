@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_348.json",
+  "input": {
+    "background": "We have established a scenario in which four patients are treated with an intervention that is successful 75% of the time. The number of patients who respond to treatment is a binomial random variable with parameters n = 4 and p = 0.75. It follows that probability of a failure = 1 - p = 1 - 0.75 = 0.25.",
+    "data": "",
+    "question": "What is the probability mass function (pmf) for X ~ b(4, 0.75) in tabular form?"
+  },
+  "output": {
+    "answer": "Table 6.1 lists this pmf in tabular form:\n\n\\begin{tabular}{lccccc}\n\\hline \\multicolumn{6}{l}{ Table 6.1. Probability mass function for $X \\sim b(4,0.75)$ in tabular form. } \\\n\\hline No. of successes $(x)$ & 0 & 1 & 2 & 3 & 4 \\\n$\\operatorname{Pr}(X=x)$ & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Binomial probabilities (Four patients).",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.2  CALCULATING BINOMIAL PROBABILITIES",
+    "page": "117-118"
+  },
+  "sample_key": "497",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 797,
+    "total_tokens": 824,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 797,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

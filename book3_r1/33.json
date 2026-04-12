@@ -1,15 +1,13 @@
 {
-  "background": "Suppose the life of a certain security alarm system is exponential distribution with constant failure rate λ = 0.00008 failures per hour.",
+  "background": "Suppose the life of a certain security alarm system follows an exponential distribution with a constant failure rate λ = 0.00008 failures per hour.",
   "task": [
     {
-      "query": "What is the probability that a security system will last at least 10,000 h?",
-      "answer": "The probability that a security system will last at least $10,000 \\mathrm{~h}$ is\n\n$$\nP\\{T \\geq 10,000\\}=e^{-\\lambda t} e^{-(0.00008)(10,000)}=e^{-0.8}=0.4493\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability that a security system will last at least 10,000 hours?",
+      "answer": "The probability that a security system will last at least $10,000 \\mathrm{~h}$ is $$ P\\{T \\geq 10,000\\}=e^{-\\lambda t} = e^{-(0.00008)(10,000)}=e^{-0.8}=0.4493 $$"
     },
     {
-      "query": "What is the probability that a security system will last at least 10,000 h given that it has already survived 5,000 h?",
-      "answer": "The probability that a security system will last at least $10,000 \\mathrm{~h}$ given that it has already survived $5,000 \\mathrm{~h}$ is\n\n$$\n\\begin{aligned}\nP\\{T \\geq 10,000 \\mid T \\geq 5,000\\} & =P\\{T \\geq 5,000\\} \\\\\n& =e^{-\\lambda t}=e^{-(0.00008)(5,000)}=0.6703\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability that a security system will last at least 10,000 hours given that it has already survived 5,000 hours?",
+      "answer": "The probability that a security system will last at least $10,000 \\mathrm{~h}$ given that it has already survived $5,000 \\mathrm{~h}$ is $$ \\begin{aligned} P\\{T \\geq 10,000 \\mid T \\geq 5,000\\} & = P\\{T \\geq 5,000\\} \\\\ & = e^{-\\lambda t} = e^{-(0.00008)(5,000)}=0.6703 \\end{aligned} $$"
     }
   ],
   "id": "33",
@@ -23,5 +21,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "90-90"
+  },
+  "token_usage": {
+    "completion_tokens": 304,
+    "prompt_tokens": 572,
+    "total_tokens": 876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

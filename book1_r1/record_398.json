@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "What is the power of a test of $H_0: \\mu_1=\\mu_2$ when $\\alpha=0.05$ (two-sided), $n=30$ per group, $\\mu_1-\\mu_2=0.25$, and $\\sigma^2=0.25$?",
-      "answer": "1-\\beta=\\Phi\\left(-z_{1-\\frac{-}{2}}+\\frac{\\Delta}{\\sqrt{\\frac{2 \\sigma^2}{n}}}\\right)= \\Phi\\left(-1.96+\\frac{0.25}{\\sqrt{\\frac{2(0.25)}{30}}}\\right)=\\Phi(-0.02)=0.4920(\\text { about } 50 / 50).",
-      "method": "均值检验"
+      "answer": "\\begin{aligned} & 1-\\beta=\\Phi\\left(-z_{1-\\frac{-}{2}}+\\frac{\\Delta}{\\sqrt{\\frac{2 \\sigma^2}{n}}}\\right)= \\\\ & \\Phi\\left(-1.96+\\frac{0.25}{\\sqrt{\\frac{2(0.25)}{30}}}\\right)=\\Phi(-0.02)=0.4920(\\text { about } 50 / 50) . \\end{aligned}"
     }
   ],
   "id": "398",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Power.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.6 SAMPLE SIZE AND POWER",
     "page": "253-253"
+  },
+  "token_usage": {
+    "completion_tokens": 247,
+    "prompt_tokens": 491,
+    "total_tokens": 738,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

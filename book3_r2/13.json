@@ -3,10 +3,9 @@
   "input": {
     "background": "How many ways are there to form a sequence of 10 letters from 4a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice?",
     "data": null,
-    "question": "What is the total number of ways to form a sequence of 10 letters from 4 a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice?"
+    "question": "How many total ways are there to form a sequence of 10 letters under the given conditions?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
     "answer": "It is easy to show that the total number of ways to form a sequence of 10 letters from 4 a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice is 226,800."
   },
   "meta_info": {

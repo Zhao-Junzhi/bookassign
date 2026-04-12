@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_317.json",
+  "case_id": "book1_r1\\record_135.json",
   "input": {
-    "background": "The duration of 15 complex surgical procedures is presented in a stemplot format.",
+    "background": "An early publication from the Framingham Heart Study identified 51 incidences of coronary disease among 424 men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period. Among 454 men with lower cholesterol (less than 210 mg per 100 mL), there were 16 incident cases.",
     "data": "",
-    "question": "What is the median of the distribution shown in the stemplot?"
+    "question": "Provide the 95% confidence interval for the relative risk (\\( \\widehat{R R} \\))."
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "The median of this distribution is 2.8 (underlined).",
-    "variable": {
-      "surgical_procedure_duration": {
-        "id": "surgical_procedure_duration",
-        "value": "The durations of 15 complex surgical procedures as shown in the stemplot (specific values are not explicitly provided in the problem statement, but they are implied to be numerical data extracted from the stemplot).",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The durations of 15 complex surgical procedures, which are the primary data of interest for calculating the median."
-      }
-    }
+    "answer": "The 95% confidence interval for the \\( \\widehat{R R} \\) is 1.98 to 5.89."
   },
   "meta_info": {
-    "index": "",
+    "index": "17.9",
     "image": "",
-    "caption": "Comparison of mean, median, and mode.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.2  CENTRAL LOCATION: MEDIAN",
-    "page": "69-69"
+    "caption": "Framingham Heart Study.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-293"
   },
   "sample_key": "339"
 }

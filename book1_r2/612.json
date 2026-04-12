@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the 95% confidence interval for μ1−μ2 for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "What is the difference between the sample means (x̄1−x̄2)?"
+  },
+  "output": {
+    "answer": "x̄1−x̄2 = 6.192−5.414 = 0.777 (mmol/L)"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "612"
+}

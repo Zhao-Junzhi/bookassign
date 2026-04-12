@@ -1,60 +1,20 @@
 {
-  "case_id": "book1_r1\\record_122.json",
+  "case_id": "book1_r1\\record_104.json",
   "input": {
-    "background": "Exercises 16.2 and 16.4 considered a problem in which seven of eight patients expressed a preference for medical procedure A compared to medical procedure B. A Normal approximation test was precluded because of the small sample size.",
+    "background": "Determine whether to use a one-sample, paired-sample, or independent-sample $t$ procedure in different experimental scenarios.",
     "data": "",
-    "question": "Test the hypothesis of equal preference for medical procedure A and medical procedure B with Fisher's procedure."
+    "question": "A different technician compares the concentration of ten specimens using two different assay kits. Ten measurements are taken with each kit. Results are then compared."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "A. Hypotheses. $H_0: p=0.50$ versus $H_2: p>0.50$ B. Test statistic. An exact binomial test is used because of the small sample size. Under $H_0, X \\sim \\mathrm{~b}(8,0.5)$. The observed number of success in the sample is $x=$ 7. C. $\\boldsymbol{P}$-value. $P$ (one-sided) $=\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)=0.0313+0.0039=$ 0.0352 . This provided good evidence against the null hypothesis. D. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.05$ (reject $H_0$ ) but is not significant at $\\alpha=0.01$ (retain $H_0$ ).",
-    "variable": {
-      "Patient_Preference": {
-        "id": "Patient_Preference",
-        "value": [
-          "A",
-          "A",
-          "A",
-          "A",
-          "A",
-          "A",
-          "A",
-          "B"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The preference expressed by each patient for medical procedure A or B."
-      },
-      "Total_Patients": {
-        "id": "Total_Patients",
-        "value": 8,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of patients in the study."
-      },
-      "Procedure_A_Count": {
-        "id": "Procedure_A_Count",
-        "value": 7,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of patients who expressed a preference for medical procedure A."
-      },
-      "Procedure_B_Count": {
-        "id": "Procedure_B_Count",
-        "value": 1,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of patients who expressed a preference for medical procedure B."
-      }
-    }
+    "answer": "Paired samples"
   },
   "meta_info": {
-    "index": "16.7",
+    "index": "12.11",
     "image": "",
-    "caption": "Patient preference, Fisher's method.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.4 HYPOTHESIS TEST, Exact BINOMIAL TESTS",
-    "page": "362-362"
+    "caption": "Testing a test kit.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "254-254"
   },
   "sample_key": "247"
 }

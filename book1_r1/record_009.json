@@ -2,29 +2,44 @@
   "background": "Determine whether each of the studies described in Exercises 2.4 are experimental or nonexperimental.",
   "task": [
     {
-      "query": "Explain your reasoning for study (a).",
-      "answer": "Nonexperimental",
-      "method": "观测数据"
+      "query": "Is the study described in part (a) experimental or nonexperimental? Explain your reasoning.",
+      "answer": "Nonexperimental"
     },
     {
-      "query": "Explain your reasoning for study (b).",
-      "answer": "Nonexperimental",
-      "method": "观测数据"
+      "query": "Is the study described in part (b) experimental or nonexperimental? Explain your reasoning.",
+      "answer": "Nonexperimental"
     },
     {
-      "query": "Explain your reasoning for study (c).",
-      "answer": "Experimental",
-      "method": "实验数据"
+      "query": "Is the study described in part (c) experimental or nonexperimental? Explain your reasoning.",
+      "answer": "Experimental"
     }
   ],
   "id": "009",
   "data": " ",
-  "meta info": {
+  "meta_info": {
     "index": "2.5",
     "image": "",
     "caption": "Experimental or nonexperimental?",
     "chapter": "Types of Studies",
     "section": "2.2 Comparative Studies",
     "page": "25-25"
+  },
+  "token_usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 337,
+    "total_tokens": 489,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "035",
+  "question": "Going Green is the term used to describe water conservation programs at hotels and motels. Many hotels now offer their guests the option of participating in these Going Green programs by reusing towels and bed linens. Suppose you randomly select one hotel from a registry of all hotels in Orange County, California, and check whether or not the hotel participates in a water conservation program. Show how this problem might be formulated in the framework of an experiment with sample points and a sample space. Indicate how probabilities might be assigned to the sample points.",
+  "data": null,
+  "answer": "The experiment can be defined as the selection of an Orange County hotel and the observation of whether or not a water conservation program is offered to guests at the hotel. There are two sample points in the sample space for this experiment:\n\nC: \\{The hotel offers a water conservation program.\\}\nN: \\{The hotel does not offer a water conservation program.\\}\nThe difference between this and the coin-toss experiment becomes apparent when we attempt to assign probabilities to the two sample points. What probability should we assign to sample point $C$ ? If you answer .5 , you are assuming that the events $C$ and $N$ occur with equal likelihood, just like the sample points Heads and Tails in the coin-toss experiment. But assigning sample point probabilities for the hotel water conservation experiment is not so easy. In fact, a recent report by the Orange County Water District stated that $70 \\%$ of the hotels in the county now participate in a water conservation program of some type. In that case, it might be reasonable to approximate the probability of the sample point $C$ as .7 and that of the sample point $N$ as .3 .",
+  "meta_info": {
+    "index": "3.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Sample Point Probabilities-Hotel Water Conservation",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "87-87"
+  }
+}

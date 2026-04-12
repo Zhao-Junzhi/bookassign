@@ -1,0 +1,45 @@
+{
+  "background": "Suppose the number, $x$, of a company's employees who are absent on Mondays has (approximately) a Poisson probability distribution. Furthermore, assume that the average number of Monday absentees is 2.6.",
+  "task": [
+    {
+      "query": "Find the mean and standard deviation of $x$, the number of employees absent on Monday.",
+      "answer": "The mean and variance of a Poisson random variable are both equal to $\\lambda$. Thus, for this example, $$\\mu = \\lambda = 2.6$$ $$\\sigma^2 = \\lambda = 2.6$$ Then the standard deviation of $x$ is $$\\sigma = \\sqrt{2.6} = 1.61$$ The mean measures the central tendency of the distribution and does not necessarily equal a possible value of $x$. In this example, the mean is 2.6 absences, and although there cannot be 2.6 absences on a given Monday, the average number of Monday absences is 2.6. Similarly, the standard deviation of 1.61 measures the variability of the number of absences per week. A more helpful measure is the interval $\\mu \\pm 2 \\sigma$, which in this case stretches from -0.62 to 5.82. We expect the number of absences to fall in this interval most of the time—with at least $75\\%$ relative frequency (according to Chebyshev's Rule) and probably with approximately $95\\%$ relative frequency (the Empirical Rule)."
+    },
+    {
+      "query": "Use Minitab to find the probability that exactly five employees are absent on a given Monday.",
+      "answer": "Since $x$ represents the number of employees absent on a given Monday, we want to find $P(x=5)$. Setting $\\lambda=2.6$ as an option in Minitab and specifying the value '5' for a Poisson probability, we obtain: $$P(x=5) = 0.0735$$"
+    },
+    {
+      "query": "Use Minitab to find the probability that fewer than two employees are absent on a given Monday.",
+      "answer": "Here, we want to find $P(x<2)$. Since $x$ is a discrete whole number, we know that $$P(x<2) = P(x \\leq 1)$$ This probability is in the form of a cumulative probability and can be found using statistical software. Setting $\\lambda=2.6$ as an option in Minitab and specifying the value '1' for a cumulative Poisson probability, we obtain: $$P(x<2) = P(x \\leq 1) = 0.2674$$"
+    },
+    {
+      "query": "Use Minitab to find the probability that more than five employees are absent on a given Monday.",
+      "answer": "To find the probability that more than five employees are absent on a given Monday, we consider the complementary event: $$P(x>5) = 1 - P(x \\leq 5)$$ Setting $\\lambda=2.6$ as an option in Minitab and specifying the value '5' for a cumulative Poisson probability, we obtain: $$P(x \\leq 5) = 0.951$$ Now, we compute: $$P(x>5) = 1 - P(x \\leq 5) = 1 - 0.951 = 0.049$$"
+    }
+  ],
+  "id": "070",
+  "data": null,
+  "meta_info": {
+    "index": "4.14",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 757,
+    "prompt_tokens": 1116,
+    "total_tokens": 1873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

@@ -1,47 +1,20 @@
 {
-  "case_id": "book1_r1\\record_508.json",
+  "case_id": "book1_r1\\record_380.json",
   "input": {
-    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\(\\bar{x}=2890.5\\) grams and \\(s=720.0\\). Confidence intervals for \\(\\mu\\) at \\(90 \\%, 95 \\%\\), and \\(99 \\%\\) levels of confidence will be calculated.",
     "data": "",
-    "question": "(c) Comparison C: Group 1 | Group 2"
+    "question": "Calculate the \\(99\\%\\) confidence interval for \\(\\mu\\)."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Group 1: x̄=50 and s=31.6. Group 2: x̄=70 and s=15.8. How statistics relate to what we see: Smaller central location and greater spread in Group 1.",
-    "variable": {
-      "Group_1_values": {
-        "id": "Group_1_values",
-        "value": "Values of Group 1 extracted from the stemplot (not explicitly provided in the problem, but assumed to be numerical data from the stemplot)",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Numerical values representing the data points for Group 1 in the stemplot."
-      },
-      "Group_2_values": {
-        "id": "Group_2_values",
-        "value": "Values of Group 2 extracted from the stemplot (not explicitly provided in the problem, but assumed to be numerical data from the stemplot)",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Numerical values representing the data points for Group 2 in the stemplot."
-      },
-      "Group": {
-        "id": "Group",
-        "value": [
-          "Group 1",
-          "Group 2"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Categorical variable indicating the group membership of the data points."
-      }
-    }
+    "answer": "For \\(99\\%\\) confidence, use \\(t_{9,0.995}=3.250\\), so the \\(99\\%\\) confidence interval for \\(\\mu\\) is \\(2890.5 \\pm(3.250)(227.7)=2890.5 \\pm 740.0=(2150.5\\) to \\(3630.5\\)) grams."
   },
   "meta_info": {
-    "index": "4.15",
+    "index": "",
     "image": "",
-    "caption": "Leaves on stems.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.8 SELECTING SUMMARY STATISTICS",
-    "page": "85-86"
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
   },
   "sample_key": "588"
 }

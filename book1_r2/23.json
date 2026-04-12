@@ -3,26 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Type of life insurance policy: 1= none, 2= term, 3= endowment, 4= straight life, 5= other"
+    "question": "(j) Ambient temperature (degrees Fahrenheit)"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Categorical",
-    "variable": {
-      "life_insurance_policy_type": {
-        "id": "life_insurance_policy_type",
-        "value": [
-          "none",
-          "term",
-          "endowment",
-          "straight life",
-          "other"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Type of life insurance policy, categorized into five types: none, term, endowment, straight life, and other."
-      }
-    }
+    "answer": "Quantitative"
   },
   "meta_info": {
     "index": "1.11",

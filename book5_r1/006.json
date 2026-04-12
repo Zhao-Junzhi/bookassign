@@ -1,10 +1,13 @@
 {
-  "background": "The probability of a baby being a boy is 0.52. For six women delivering consecutively in the same labour ward on one day, the likelihood of specific sequences of boys and girls is analyzed.",
+  "background": "The probability of a baby being a boy is 0.52. For six women delivering consecutively in the same labour ward on one day, the task is to determine which of the given sequences of boys (B) and girls (G) is most likely and which is least likely.",
   "task": [
     {
-      "query": "Which of the following exact sequences of boys and girls is most likely and which least likely? GBGBGB BBBGGG GBBBBB",
-      "answer": "As the probability of a boy is slightly greater than the probability of a girl, the sequence with the most boys is most likely, which is the last sequence. The other two sequences are equally likely.",
-      "method": "事件发生概率及独立性"
+      "query": "Which of the following exact sequences of boys and girls is most likely: GBGBGB, BBBGGG, GBBBBB?",
+      "answer": "As the probability of a boy is slightly greater than the probability of a girl, the sequence with the most boys is most likely, which is the last sequence (GBBBBB)."
+    },
+    {
+      "query": "Which of the following exact sequences of boys and girls is least likely: GBGBGB, BBBGGG, GBBBBB?",
+      "answer": "The other two sequences (GBGBGB and BBBGGG) are equally likely."
     }
   ],
   "id": "006",
@@ -18,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "71-72"
+  },
+  "token_usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 393,
+    "total_tokens": 599,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

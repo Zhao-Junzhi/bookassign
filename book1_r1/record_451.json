@@ -2,24 +2,40 @@
   "background": "This fictitious but realistic example considers odds ratios from a case-control study on asbestos and lung cancer while considering the concurrent effects of smoking.",
   "task": [
     {
-      "query": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk.",
-      "answer": "Therefore, a statistical interaction is said to exist.",
-      "method": "分类或发生概率影响因素解读"
+      "query": "Why would combining heterogeneous odds ratios to form a single summary odds ratio not adequately predict the joint effects of smoking and asbestos on lung cancer risk?",
+      "answer": "Combining these heterogeneous odds ratios to form a single summary odds ratio would not adequately predict the joint effects of smoking and asbestos on lung cancer risk. Therefore, a statistical interaction is said to exist."
     },
     {
-      "query": "Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated.",
-      "answer": "Instead, strata-specific statistics should be reported.",
-      "method": "假设检验"
+      "query": "What should be done whenever a statistical interaction exists instead of calculating Mantel-Haenszel summary statistics?",
+      "answer": "Whenever a statistical interaction exists, Mantel-Haenszel summary statistics should not be calculated. Instead, strata-specific statistics should be reported."
     }
   ],
   "id": "451",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Statistical interaction (Asbestos, cigarettes, and lung cancer).",
     "chapter": "STRATIFIED 2-BY-2 TABLES",
     "section": "19.4 INTERACTION",
     "page": "475-476"
+  },
+  "token_usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 390,
+    "total_tokens": 591,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

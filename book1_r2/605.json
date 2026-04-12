@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_386.json",
+  "input": {
+    "background": "We want to determine the required sample size to test the SIDS data with 90% power at α=0.05 (two-sided). The goal is to detect a mean difference in birth weight (Δ) of 300 grams, using a sample standard deviation (s) of 720.0 as an estimate of σ.",
+    "data": "",
+    "question": "Why is there no need to apply the adjustment factor f for the sample size?"
+  },
+  "output": {
+    "answer": "Because the sample size exceeds 30, there is no need to apply the adjustment factor f."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement, one-sample t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "227-227"
+  },
+  "sample_key": "605"
+}

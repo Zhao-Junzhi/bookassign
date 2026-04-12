@@ -1,15 +1,13 @@
 {
-  "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned).",
+  "background": "In a survey to identify the level of public concern regarding two environmental topics (genetically modified food and intensive pesticide use), 20 people were asked to score their level of concern on a scale from 1 (not concerned at all) to 5 (very concerned). The results obtained were provided in tabular format.",
   "task": [
     {
-      "query": "(i) Calculate the statistics below for the level of public concern regarding each topic: Median, Lower quartile, Upper quartile.",
-      "answer": "Median: Genetically modified food = 3, Intensive pesticide use = 1; Lower quartile: Genetically modified food = 2, Intensive pesticide use = 1; Upper quartile: Genetically modified food = 4, Intensive pesticide use = 2.",
-      "method": "分位数/百分位数"
+      "query": "Calculate the statistics below for the level of public concern regarding each topic: Median, Lower quartile, and Upper quartile for both genetically modified food and intensive pesticide use.",
+      "answer": "Median: Genetically modified food = 3, Intensive pesticide use = 1. Lower quartile: Genetically modified food = 2, Intensive pesticide use = 1. Upper quartile: Genetically modified food = 4, Intensive pesticide use = 2."
     },
     {
-      "query": "(ii) Illustrate the data using box and whisker plots.",
-      "answer": "The level of public concern regarding the genetically modified food and intensive pesticide use (n=20 in each case).",
-      "method": "离散型-连续型变量关系"
+      "query": "Illustrate the data using box and whisker plots for the level of public concern regarding genetically modified food and intensive pesticide use.",
+      "answer": "The level of public concern regarding the genetically modified food and intensive pesticide use (n=20 in each case)."
     }
   ],
   "id": "007",
@@ -23,5 +21,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "45-45"
+  },
+  "token_usage": {
+    "completion_tokens": 249,
+    "prompt_tokens": 698,
+    "total_tokens": 947,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

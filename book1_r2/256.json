@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_131.json",
+  "case_id": "book1_r1\\record_108.json",
   "input": {
-    "background": "Of 75 patients in a follow-up study, 20 showed spontaneous improvement within a month.",
+    "background": "A randomized, double-blind, placebo-controlled study evaluated the effects of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in 2- to 11-year-olds. Each time a child had an upper respiratory tract infection, treatment with either echinacea or a placebo was given for the duration of the illness. One of the outcomes studied was 'severity of symptoms.' A severity scale based on four symptoms was monitored and recorded by the parents of subjects for each instance of upper respiratory infection. The peak severity of symptoms in the 337 cases treated with echinacea had a mean score of 6.0 (standard deviation 2.3). The peak severity of symptoms in the placebo group (n2=370) had a mean score of 6.1 (standard deviation 2.4).",
     "data": "",
-    "question": "Include a 95% confidence interval for the proportion."
+    "question": "What is the test statistic?"
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "Confidence interval for \\( p \\) by the plus-four method: \\( \\bar{n}=79 \\), \\( \\bar{x}=22 \\), \\( \\bar{p}=0.2785 \\), \\( SE_{\\bar{p}}=\\sqrt{\\frac{0.2785)(0.7215)}{79}}=0.0504 \\). \\( 95 \\% \\) confidence interval for \\( p=0.2785 \\pm(1.96)(0.0504)=0.2785 \\pm 0.0988= \\) 0.1797 to 0.3773 or about \\( 18 \\% \\) to \\( 38 \\% \\).",
-    "variable": {
-      "number_of_patients": {
-        "id": "number_of_patients",
-        "value": 75,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of patients in the follow-up study."
-      },
-      "number_of_improvements": {
-        "id": "number_of_improvements",
-        "value": 20,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of patients who showed spontaneous improvement within a month."
-      },
-      "proportion_of_improvements": {
-        "id": "proportion_of_improvements",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The proportion of patients who showed spontaneous improvement, which is the parameter of interest for the confidence interval."
-      }
-    }
+    "answer": "B. Test statistic. t_stat = -0.5656 with df_Welch = 703.2"
   },
   "meta_info": {
-    "index": "16.25",
+    "index": "12.19",
     "image": "",
-    "caption": "Incidence of improvement.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.6 SAMPLE SIZE AND POWER",
-    "page": "372-372"
+    "caption": "Efficacy of echinacea, severity of symptoms.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "257-258"
   },
   "sample_key": "256"
 }

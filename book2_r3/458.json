@@ -1,0 +1,39 @@
+{
+  "case_id": "book2_r1\\166.json",
+  "input": {
+    "background": "The problem involves analyzing a second-order regression model for predicting auction price (y) based on two quantitative variables: age (x1) and number of bidders (x2). The analysis includes fitting the model, interpreting the coefficients, and performing a nested model F-test to determine the significance of quadratic terms.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 12.1 & \\multicolumn{5}{|c|}{Auction Price Data} \\\\\n\\hline Age, $x_1$ & Number of Bidders, $\\boldsymbol{x}_{\\mathbf{2}}$ & Auction Price, $y$ & Age, $x_1$ & Number of Bidders, $x_2$ & Auction Price, $y$ \\\\\n\\hline 127 & 13 & \\$1,235 & 170 & 14 & \\$2,131 \\\\\n\\hline 115 & 12 & 1,080 & 182 & 8 & 1,550 \\\\\n\\hline 127 & 7 & 845 & 162 & 11 & 1,884 \\\\\n\\hline 150 & 9 & 1,522 & 184 & 10 & 2,041 \\\\\n\\hline 156 & 6 & 1,047 & 143 & 6 & 845 \\\\\n\\hline 182 & 11 & 1,979 & 159 & 9 & 1,483 \\\\\n\\hline 156 & 12 & 1,822 & 108 & 14 & 1,055 \\\\\n\\hline 132 & 10 & 1,253 & 175 & 8 & 1,545 \\\\\n\\hline 137 & 9 & 1,297 & 108 & 6 & 729 \\\\\n\\hline 113 & 9 & 946 & 179 & 9 & 1,792 \\\\\n\\hline 137 & 15 & 1,713 & 111 & 15 & 1,175 \\\\\n\\hline 117 & 11 & 1,024 & 187 & 8 & 1,593 \\\\\n\\hline 137 & 8 & 1,147 & 111 & 7 & 785 \\\\\n\\hline 153 & 6 & 1,092 & 115 & 7 & 744 \\\\\n\\hline 117 & 13 & 1,152 & 194 & 5 & 1,356 \\\\\n\\hline 126 & 10 & 1,336 & 168 & 7 & 1,262 \\\\\n\\hline\n\\end{tabular}\n  ",
+    "question": "Perform a nested model F-test to determine whether the quadratic terms are useful for predicting auction price (y). Include the test statistic, critical value, and conclusion."
+  },
+  "output": {
+    "answer": "Test statistic: F = [(SSE_R - SSE_C) / (k - g)] / MSE_C = [(221,362 - 192,752) / 2] / 7,414 = 1.93. Critical value: F_0.05 = 3.37 (with u1 = 2 numerator df and u2 = 26 denominator df). Rejection region: F > 3.37. Conclusion: Since F = 1.93 falls outside the rejection region, we fail to reject H0. There is insufficient evidence (at α = 0.05) to conclude that the quadratic terms contribute to the prediction of auction price (y). The first-order, interaction (reduced) model is adequate for prediction."
+  },
+  "meta_info": {
+    "index": "12.12",
+    "img_in_question": null
+  },
+  "sample_key": "458",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 1424,
+    "total_tokens": 1451,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1424,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

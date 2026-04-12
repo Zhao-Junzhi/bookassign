@@ -1,15 +1,13 @@
 {
-  "background": "A study was made of 65 patients who had received or were receiving sodium aurothiomalate as a treatment for rheumatoid arthritis. The aim was to examine the possibility that toxicity to sodium aurothiomalate (SA) might be linked to sulphoxidation capacity, as assessed by the sulphoxidation index (SI). Values of SI > 6.0 were taken as indicating impaired sulphoxidation. The data were given in Exercise 3.1.",
+  "background": "A study was conducted on 65 patients who had received or were receiving sodium aurothiomalate as a treatment for rheumatoid arthritis. The aim was to investigate whether toxicity to sodium aurothiomalate (SA) might be linked to sulphoxidation capacity, as assessed by the sulphoxidation index (SI). Values of SI > 6.0 were considered indicative of impaired sulphoxidation. A table summarizing the data was provided, and the authors performed Chi-squared tests to analyze the relationship between impaired sulphoxidation and SA toxicity.",
   "task": [
     {
-      "query": "Why can't both of the above Chi squared tests be correct?",
-      "answer": "There is only one Chi squared test for a $2 \\times 2$ table, which can be interpreted as either a comparison of the proportions in each row or in each column. The two tests described should have given the same answer.",
-      "method": "独立性检验"
+      "query": "Why can't both of the Chi-squared tests described in the paragraph be correct?",
+      "answer": "There is only one Chi squared test for a $2 \\times 2$ table, which can be interpreted as either a comparison of the proportions in each row or in each column. The two tests described should have given the same answer."
     },
     {
-      "query": "Carry out a Chi squared test of the data in the table and compare your answer with the two results in the above paragraph.",
-      "answer": "The correct test statistic is either $X^2=15.90(\\mathrm{P}=0.0001)$ or $X_c^2=13.93(\\mathrm{P}=0.0002)$ depending on whether Yates' correction is used. Thus both of the quoted results were incorrect.",
-      "method": "独立性检验"
+      "query": "Carry out a Chi-squared test of the data in the table and compare your result with the two results described in the paragraph.",
+      "answer": "The correct test statistic is either $X^2=15.90(\\mathrm{P}=0.0001)$ or $X_c^2=13.93(\\mathrm{P}=0.0002)$ depending on whether Yates' correction is used. Thus both of the quoted results were incorrect."
     }
   ],
   "id": "035",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "274-275"
+  },
+  "token_usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 852,
+    "total_tokens": 1161,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

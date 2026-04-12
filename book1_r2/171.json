@@ -1,89 +1,20 @@
 {
-  "case_id": "book1_r1\\record_090.json",
+  "case_id": "book1_r1\\record_076.json",
   "input": {
-    "background": "Exercise 11.11 calculated the mean length of menstrual cycles in an SRS of $n=9$ women. The data revealed $\\bar{x}=27.78$ days with standard deviation $s=2.906$ days.",
-    "data": " Exercise 11.11 ：Menstrual cycle lengths (days) in an SRS of nine women are as follows: $\\{31,28,26,24,29,33,25,26,28\\}$. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
-    "question": "Based on the confidence interval you just calculated, is the mean menstrual cycle length significantly different from 28.5 days at $\\alpha=0.05$ (two sided)? Is it significantly different from $\\mu=30$ days at the same $\\alpha$-level? Explain your reasoning."
+    "background": "A cross-over trial compared serum cholesterol in 13 subjects while on moderate-fiber diets and while on high-fiber diets. The study concluded that the high-fiber diet reduced very-low-density lipoprotein cholesterol by 12.5% (P=0.01). A dietician criticizes the study by saying that very-low-density lipoproteins vary greatly from day to day and that the results could merely reflect random variation.",
+    "data": "",
+    "question": "Explain how the P-value of 0.01 addresses the dietician's objection."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "To test significance, check if 28.5 or 30 falls within the calculated confidence interval. If either value falls outside the interval, it is significantly different at $\\alpha=0.05$ level.",
-    "variable": {
-      "sample_data": {
-        "id": "sample_data",
-        "value": [
-          31,
-          28,
-          26,
-          24,
-          29,
-          33,
-          25,
-          26,
-          28
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Menstrual cycle lengths in days for a sample of nine women."
-      },
-      "sample_mean": {
-        "id": "sample_mean",
-        "value": 27.78,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Mean length of menstrual cycles in the sample."
-      },
-      "sample_standard_deviation": {
-        "id": "sample_standard_deviation",
-        "value": 2.906,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Standard deviation of menstrual cycle lengths in the sample."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 9,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of women in the sample."
-      },
-      "lunar_month_length": {
-        "id": "lunar_month_length",
-        "value": 29.5,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Length of a lunar month in days."
-      },
-      "hypothesized_mean_1": {
-        "id": "hypothesized_mean_1",
-        "value": 28.5,
-        "class": "numerical",
-        "role": "independent",
-        "description": "First hypothesized mean menstrual cycle length to test against."
-      },
-      "hypothesized_mean_2": {
-        "id": "hypothesized_mean_2",
-        "value": 30,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Second hypothesized mean menstrual cycle length to test against."
-      },
-      "alpha_level": {
-        "id": "alpha_level",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Significance level for hypothesis testing."
-      }
-    }
+    "answer": "The P-value lets you know that the observed difference (or one more extreme) could occur 1 in 100 observations if there was no reduction in the population. Because this is unlikely, the results are considered to be statistically significant."
   },
   "meta_info": {
-    "index": "11.13",
+    "index": "9.9",
     "image": "",
-    "caption": "Menstrual cycle length.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.4 Confidence Interval for $\\mu$",
-    "page": "218-218"
+    "caption": "LDL and fiber.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5 ONE-SAMPLE Z TEST",
+    "page": "187-187"
   },
   "sample_key": "171"
 }

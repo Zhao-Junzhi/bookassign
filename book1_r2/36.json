@@ -1,21 +1,20 @@
 {
-  "case_id": "book1_r1\\record_012.json",
+  "case_id": "book1_r1\\record_010.json",
   "input": {
-    "background": "A researcher conducts a survey to learn about the sexual behavior of college students on a particular campus. A list of the undergraduates at the university is used to select participants. The investigator sends out 500 surveys but only 136 are returned.",
+    "background": "The Stanford Five-City Project is a comprehensive community health education study of five moderately sized Northern California towns. Multiple-risk factor intervention strategies were randomly applied to two of the communities. The other three cities served as controls.",
     "data": "",
-    "question": "Speculate on potential limitations in the quality of information the researcher will receive on questionnaires that are returned."
+    "question": "Outline the design of this study in schematic form."
   },
   "output": {
-    "method": "观测数据",
-    "answer": "The information on the questionnaires is of uncertain quality. What people say about their behavior often does not match how they behave."
+    "answer": "N/A"
   },
   "meta_info": {
-    "index": "2.11",
+    "index": "2.7",
     "image": "",
-    "caption": "Campus survey.",
-    "chapter": "Types of Studies",
-    "section": "2.2 Comparative Studies",
-    "page": "33-33"
+    "caption": "Five-City Project.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.2 COMPARATIVE STUDIES",
+    "page": "27-27"
   },
   "sample_key": "36"
 }

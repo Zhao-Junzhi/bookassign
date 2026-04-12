@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_386.json",
+  "input": {
+    "background": "We want to determine the required sample size to test the SIDS data with 90% power at α=0.05 (two-sided). The goal is to detect a mean difference in birth weight (Δ) of 300 grams, using a sample standard deviation (s) of 720.0 as an estimate of σ.",
+    "data": "",
+    "question": "How large a sample is needed to test the SIDS data with 90% power at α=0.05 (two-sided), given a mean difference in birth weight (Δ) of 300 grams and a sample standard deviation (s) of 720.0?"
+  },
+  "output": {
+    "answer": "n=σ²(z₀.₉+z₀.₉₇₅)²/Δ² = 720²(1.28+1.96)²/300² = 60.46. Round up to 61 to ensure adequate power."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample size requirement, one-sample t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "227-227"
+  },
+  "sample_key": "604",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1123,
+    "total_tokens": 1166,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1122,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1123,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1122,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

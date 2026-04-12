@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_508.json",
+  "case_id": "book1_r1\\record_380.json",
   "input": {
-    "background": "Calculate the mean and standard deviation of each group depicted in each of the side-by-side stemplots in this problem. Discuss how these statistics relate to what you see.",
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\(\\bar{x}=2890.5\\) grams and \\(s=720.0\\). Confidence intervals for \\(\\mu\\) at \\(90 \\%, 95 \\%\\), and \\(99 \\%\\) levels of confidence will be calculated.",
     "data": "",
-    "question": "(a) Comparison A: Group 1 | Group 2"
+    "question": "Calculate the \\(90\\%\\) confidence interval for \\(\\mu\\)."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Group 1: x̄=50 and s=31.6. Group 2: x̄=50 and s=15.8. How statistics relate to what we see: Same central locations; greater spread is Group 1.",
-    "variable": {
-      "Group1": {
-        "id": "Group1",
-        "value": "Values from Group 1 stemplot",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The numerical data values for Group 1 as depicted in the stemplot."
-      },
-      "Group2": {
-        "id": "Group2",
-        "value": "Values from Group 2 stemplot",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The numerical data values for Group 2 as depicted in the stemplot."
-      }
-    }
+    "answer": "For \\(90\\%\\) confidence, use \\(t_{9,0.95}=1.833\\) [Table C], so the \\(90\\%\\) confidence interval for \\(\\mu\\) is \\(\\bar{x} \\pm \\left(t_{n-1,1-\\xi}\\right)\\left(SE_{\\bar{x}}\\right)=2890.5 \\pm (1.833)(227.684)=2890.5 \\pm 417.3=(2473.2\\) to \\(3307.8\\)) grams."
   },
   "meta_info": {
-    "index": "4.15",
+    "index": "",
     "image": "",
-    "caption": "Leaves on stems.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.8 SELECTING SUMMARY STATISTICS",
-    "page": "85-86"
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
   },
   "sample_key": "586"
 }

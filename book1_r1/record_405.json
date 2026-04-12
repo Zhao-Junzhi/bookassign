@@ -3,28 +3,43 @@
   "task": [
     {
       "query": "Inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with graphical explorations.",
-      "answer": "Graphical explorations can include scatter plots or other visualizations that show the relationship between the two variables.",
-      "method": "连续型-连续型变量关系"
+      "answer": "We will inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with graphical explorations."
     },
     {
       "query": "Inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with numerical summaries.",
-      "answer": "Numerical summaries can include correlation coefficients or other statistical measures that quantify the relationship.",
-      "method": "相关系数（一维）"
+      "answer": "We will inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with numerical summaries."
     },
     {
       "query": "Inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with inferential techniques.",
-      "answer": "Inferential techniques may involve regression analysis or hypothesis testing to infer the nature of the relationship.",
-      "method": "回归系数显著性与方向解读"
+      "answer": "We will inspect the relationship between cigarette consumption $(X)$ and lung cancer mortality $(Y)$ with inferential techniques."
     }
   ],
   "id": "405",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.2 Data used for chapter illustrations. Per capita cigarette consumption in 1930 (CIG1930) and lung cancer cases per 100,000 in 1950 (LUNGCA) in 11 countries.}\n\\begin{tabular}{|l|l|l|}\n\\hline COUNTRY & CIG1930 & LUNGCA \\\n\\hline USA & 1300 & 20 \\\n\\hline Great Britain & 1100 & 46 \\\n\\hline Finland & 1100 & 35 \\\n\\hline Switzerland & 510 & 25 \\\n\\hline Canada & 500 & 15 \\\n\\hline Holland & 490 & 24 \\\n\\hline Australia & 480 & 18 \\\n\\hline Denmark & 380 & 17 \\\n\\hline Sweden & 300 & 11 \\\n\\hline Norway & 250 & 9 \\\n\\hline Iceland & 230 & 6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Data (Doll’s ecological study of smoking and lung cancer).",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.2  SCAPLERPLOT",
     "page": "295-296"
+  },
+  "token_usage": {
+    "completion_tokens": 261,
+    "prompt_tokens": 386,
+    "total_tokens": 647,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

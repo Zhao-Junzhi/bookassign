@@ -1,99 +1,20 @@
 {
-  "case_id": "book1_r1\\record_158.json",
+  "case_id": "book1_r1\\record_122.json",
   "input": {
-    "background": "Exercise 19.1 considered whether participation in a follow-up survey was associated with having medical aid. Race was a confounding variable in this analysis. Table 19.5 lists both crude and race-specific cross tabulations.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|l|}\n\\hline & \\multicolumn{2}{|l|}{Table A: All subjects\n Medical Aid + Medical Aid -} & Total \\\n\\hline \\multirow[t]{2}{*}{Follow-up +\n Follow-up -} & \\multicolumn{2}{|l|}{\\multirow{2}{*}{\\begin{tabular}{|r|r|}\n\\hline 46 & 370 \\\n\\hline 195 & 979 \\\n\\hline\n\\end{tabular}}} & 416 \\\n\\hline & & & 1174 \\\n\\hline & \\multicolumn{2}{|l|}{Table B: Whites \nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}}} & 12 \\\n\\hline & & & 126 \\\n\n\\hline & \\multicolumn{2}{|l|}{Table C: Blacks\nMedical Aid + Medical Aid -} & Total \\\n\\hline \\multirow{2}{*}{Follow-up +\nFollow-up -} & \\multicolumn{2}{|c|}{\\multirow{2}{*} {\\begin{tabular}{|r|r|}\n\\hline 36 & 368 \\\n\\hline 91 & 957 \\\n\\hline\n\\end{tabular}}} & 404 \\\n\\hline & & & 1048 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Hypothesis test"
+    "background": "Exercises 16.2 and 16.4 considered a problem in which seven of eight patients expressed a preference for medical procedure A compared to medical procedure B. A Normal approximation test was precluded because of the small sample size.",
+    "data": "",
+    "question": "What test statistic is used, and what is the observed number of successes in the sample?"
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "A. Hypotheses. $H_0: R R_1=R R_2$ (no interaction) versus $H_2: R R_1 \\neq R R_2$ (interaction) B. Test statistic. $X^2_{\\text{stat,int}}=0.005$ with $df=1$ C. $P$-value. $P=0.944$. There is no significant difference in the strata-specific $RR$ estimates (retain $H_0$ of no statistical interaction).",
-    "variable": {
-      "Follow-up_All": {
-        "id": "Follow-up_All",
-        "value": [
-          46,
-          370,
-          195,
-          979
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Counts of subjects who participated or did not participate in the follow-up survey across all subjects, categorized by having medical aid or not."
-      },
-      "Medical_Aid_All": {
-        "id": "Medical_Aid_All",
-        "value": [
-          "Medical Aid +",
-          "Medical Aid -"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Medical aid status (having health insurance or not) for all subjects."
-      },
-      "Race": {
-        "id": "Race",
-        "value": [
-          "Whites",
-          "Blacks"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Race of the subjects, used as a confounding variable in the analysis."
-      },
-      "Follow-up_Whites": {
-        "id": "Follow-up_Whites",
-        "value": [
-          10,
-          2,
-          104,
-          22
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Counts of white subjects who participated or did not participate in the follow-up survey, categorized by having medical aid or not."
-      },
-      "Medical_Aid_Whites": {
-        "id": "Medical_Aid_Whites",
-        "value": [
-          "Medical Aid +",
-          "Medical Aid -"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Medical aid status (having health insurance or not) for white subjects."
-      },
-      "Follow-up_Blacks": {
-        "id": "Follow-up_Blacks",
-        "value": [
-          36,
-          368,
-          91,
-          957
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Counts of black subjects who participated or did not participate in the follow-up survey, categorized by having medical aid or not."
-      },
-      "Medical_Aid_Blacks": {
-        "id": "Medical_Aid_Blacks",
-        "value": [
-          "Medical Aid +",
-          "Medical Aid -"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Medical aid status (having health insurance or not) for black subjects."
-      }
-    }
+    "answer": "An exact binomial test is used because of the small sample size. Under $H_0, X \\sim \\mathrm{~b}(8,0.5)$. The observed number of success in the sample is $x=$ 7."
   },
   "meta_info": {
-    "index": "19.3",
+    "index": "16.7",
     "image": "",
-    "caption": "Is participating in a follow-up survey associated with having medical aid?",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "478-478"
+    "caption": "Patient preference, Fisher's method.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.4 HYPOTHESIS TEST, Exact BINOMIAL TESTS",
+    "page": "362-362"
   },
   "sample_key": "305"
 }

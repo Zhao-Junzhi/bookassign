@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_053.json",
+  "case_id": "book1_r1\\record_044.json",
   "input": {
-    "background": "The prevalence of a trait is 76.8%.",
+    "background": "What is the probability of being born on specific dates in February, considering both regular years and leap years?",
     "data": "",
-    "question": "How many would you expect to see with this characteristic in a simple random sample of $n=10$?"
+    "question": "What is the probability of being born on February 28?"
   },
   "output": {
-    "method": "期望",
-    "answer": "$\\mu=(10)(0.768)=7.68$",
-    "variable": {
-      "prevalence": {
-        "id": "prevalence",
-        "value": 0.768,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The prevalence of the trait in the population."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 10,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the simple random sample."
-      },
-      "expected_count": {
-        "id": "expected_count",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The expected number of individuals with the characteristic in the sample."
-      }
-    }
+    "answer": "Feb 28 occurs 4 times every 4 years. Three of the years have 365 days, and every fourth year (leap year) has 366 days. Therefore, Pr(Feb 28) = (4 / (365 + 365 + 365 + 366)) = 0.0027378."
   },
   "meta_info": {
-    "index": "6.9",
+    "index": "5.3",
     "image": "",
-    "caption": "Prevalence 76.8 %.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
-    "page": "127-127"
+    "caption": "February birthdays.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
   },
   "sample_key": "95"
 }

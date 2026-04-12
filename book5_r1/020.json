@@ -1,15 +1,13 @@
 {
-  "background": "Eight diabetic patients had plasma glucose levels (mmol/l) measured before and one hour after oral administration of 100 g glucose, with the following results: Patient, Before, After, Change.",
+  "background": "Eight diabetic patients had plasma glucose levels (mmol/l) measured before and one hour after oral administration of 100 g glucose. The data includes plasma glucose levels before, after, and the change for each patient.",
   "task": [
     {
       "query": "Calculate the standard error of the mean change in plasma glucose.",
-      "answer": "The SE of the mean is SD / sqrt(n), which is 2.3629 / sqrt(8) = 0.8354.",
-      "method": "分散程度测度"
+      "answer": "The SE of the mean is SD / √n, which is 2.3629 / √8 = 0.8354."
     },
     {
       "query": "On the basis of these data, how many diabetic patients would need to be studied so that the width of the 95% confidence interval for the mean change in plasma glucose level was 0.5 mmol/l? (Assume that the Normal distribution is the appropriate sampling distribution for the change in plasma glucose.)",
-      "answer": "The 95% CI for the mean is the range from mean -1.96 SE to mean +1.96 SE, so the width of the CI is 2 × 1.96 × SE. For this to be equal to 0.5 mmol/l we need SE = 0.5 / (2 × 1.96) = 0.1276. Assuming that we still have SD = 2.3629, then we would have 2.3629 / sqrt(N) = 0.1276 which gives N = (2.3629 / 0.1276)^2 = 343.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "The 95% CI for the mean is the range from mean - 1.96 SE to mean + 1.96 SE, so the width of the CI is 2 × 1.96 × SE. For this to be equal to 0.5 mmol/l we need SE = 0.5 / (2 × 1.96) = 0.1276. Assuming that we still have SD = 2.3629, then we would have 2.3629 / √N = 0.1276 which gives N = (2.3629 / 0.1276)^2 = 343."
     }
   ],
   "id": "020",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "177-178"
+  },
+  "token_usage": {
+    "completion_tokens": 323,
+    "prompt_tokens": 888,
+    "total_tokens": 1211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

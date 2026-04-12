@@ -1,93 +1,20 @@
 {
-  "case_id": "book1_r1\\record_143.json",
+  "case_id": "book1_r1\\record_114.json",
   "input": {
-    "background": "In 1954, the prominent statistician W. G. Cochran (1909-1980) published an important article on the analysis of cross-tabulated counts. On page 435 of the article, techniques were illustrated with an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable in this table classifies patients according to their initial degree of skin damage. The column variable classifies overall response to therapy.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-    "question": "Address whether patients with high levels of skin damage progressed differently than those with low levels of skin damage by calculating the conditional percents of improvement in the two groups."
+    "background": "Table 1.4.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is provided.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Recalculate the correlation coefficient (r) after removing the outlier. Discuss the change."
   },
   "output": {
-    "method": "contingency table",
-    "answer": "Here are the relevant conditional distributions:\n\nSkin infiltration:\n- High: 13% marked improvement, 29% slight improvement, 31% stationary, 25% worse, 2% total.\n- Low: 8% marked improvement, 19% slight improvement, 29% stationary, 37% worse, 8% total.\n\nThese distributions show that patients with high skin damage were more likely to show improvement than those with low skin infiltration.",
-    "variable": {
-      "Skin infiltration": {
-        "id": "Skin infiltration",
-        "value": [
-          "High",
-          "Low"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The initial degree of skin damage in patients."
-      },
-      "Marked improvement": {
-        "id": "Marked improvement",
-        "value": [
-          7,
-          11
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of patients showing marked improvement in response to therapy."
-      },
-      "Moderate improvement": {
-        "id": "Moderate improvement",
-        "value": [
-          15,
-          27
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of patients showing moderate improvement in response to therapy."
-      },
-      "Slight improvement": {
-        "id": "Slight improvement",
-        "value": [
-          16,
-          42
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of patients showing slight improvement in response to therapy."
-      },
-      "Stationary": {
-        "id": "Stationary",
-        "value": [
-          13,
-          53
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of patients whose condition remained stationary."
-      },
-      "Worse": {
-        "id": "Worse",
-        "value": [
-          1,
-          11
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of patients whose condition worsened."
-      },
-      "Total": {
-        "id": "Total",
-        "value": [
-          52,
-          144
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of patients in each skin infiltration group."
-      }
-    }
+    "answer": "r = -0.849 (n = 12). The correlation went from moderate strength to strong after removing the outlier, indicating a much better fit of data points to the negative trend line."
   },
   "meta_info": {
-    "index": "18.5",
+    "index": "14.1",
     "image": "",
-    "caption": "Response to leprosy treatment.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
-    "page": "420-421"
+    "caption": "Bicycle helmet use.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 CORRELATION",
+    "page": "308-310"
   },
   "sample_key": "277"
 }

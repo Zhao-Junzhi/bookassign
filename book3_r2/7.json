@@ -1,12 +1,11 @@
 {
   "case_id": "book3_r1\\05.json",
   "input": {
-    "background": "An urn contains one white, one black, one red, and one green sphere all of equal size. Three spheres are drawn at random.",
+    "background": "An urn contains one white, one black, one red, and one green sphere all of equal size. Three spheres are drawn at random. We want to determine the number of ways this can be done based on whether the order of selection is relevant or irrelevant.",
     "data": null,
-    "question": "In how many ways can this be done if the order in which the choice are made is relevant?"
+    "question": "In how many ways can three spheres be drawn if the order in which the choices are made is relevant?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
     "answer": "The number of permutations of three objects from a set of four objects (order is relevant) is $$P(4,3)=\\frac{4!}{(4-3)!}=24$$"
   },
   "meta_info": {

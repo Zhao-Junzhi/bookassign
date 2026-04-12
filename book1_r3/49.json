@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_016.json",
+  "input": {
+    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
+    "data": "",
+    "question": "(c) Comparison C: Group 1: 90, 70, 50, 30; Group 2: 90, 80, 70, 60. Plot the data as back-to-back stemplots and compare group locations and spreads."
+  },
+  "output": {
+    "answer": "Comparison C. Group 1 has a lower average and greater spread.\n\nGroup 1 | | Group 2\n\n$$\n\\begin{aligned}\n0 & |1| \\\n& |2| \\\n0 & |3|  \\\n& |4|  \\\n0 & |5| 0 \\\n& |6| 0 \\\n0 & |7| 0 \\\n& |8| 0 \\\n0 & |9| 0 \\\n& \\times 10\n\\end{aligned}\n$$"
+  },
+  "meta_info": {
+    "index": "3.3",
+    "image": "",
+    "caption": "Leaves on a common stem.",
+    "chapter": "Frequency Distributions",
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
+  },
+  "sample_key": "49",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1238,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1174,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1238,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1174,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

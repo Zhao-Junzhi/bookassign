@@ -1,30 +1,45 @@
 {
-  "background": "Identify whether the studies described here are based on single samples, paired samples, or independent samples.",
+  "background": "Identify whether the studies described are based on single samples, paired samples, or independent samples.",
   "task": [
     {
       "query": "An investigator compares vaccination histories in 30 autistic schoolchildren to an SRS of nonautistic children from the same school district.",
-      "answer": "Independent samples",
-      "method": "独立性检验"
+      "answer": "Independent samples"
     },
     {
       "query": "Cardiovascular disease risk factors are compared in husbands and wives.",
-      "answer": "Paired samples",
-      "method": "均值检验"
+      "answer": "Paired samples"
     },
     {
       "query": "A nutritional exam is applied to a random sample of individuals. Results are compared to expected means and proportions.",
-      "answer": "Single sample",
-      "method": "均值检验"
+      "answer": "Single sample"
     }
   ],
   "id": "099",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "12.1",
     "image": "",
     "caption": "Sampling designs.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
     "page": "238-238"
+  },
+  "token_usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 406,
+    "total_tokens": 568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

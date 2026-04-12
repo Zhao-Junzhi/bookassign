@@ -1,20 +1,37 @@
 {
-  "background": "Could the number",
+  "background": "Determine the likelihood of a specific sequence of numbers (e.g., four zeros in a row) occurring in a random process.",
   "task": [
     {
-      "query": "Could the number",
-      "answer": "Four zeros in a row would occur 1 in every 10,000 four-tuples.",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability of four zeros in a row occurring in a sequence?",
+      "answer": "Four zeros in a row would occur 1 in every 10,000 four-tuples."
     }
   ],
   "id": "014",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "2.15",
     "image": "",
     "caption": "Four-naughts.",
     "chapter": "Types of Studies",
     "section": "2.2 Comparative Studies",
     "page": "34-34"
+  },
+  "token_usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 320,
+    "total_tokens": 436,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_118.json",
+  "case_id": "book1_r1\\record_099.json",
   "input": {
-    "background": "Identify which of these statements are true and which are false.",
+    "background": "Identify whether the studies described are based on single samples, paired samples, or independent samples.",
     "data": "",
-    "question": "Correlation coefficient r quantifies the relationship between quantitative variables X and Y."
+    "question": "Cardiovascular disease risk factors are compared in husbands and wives."
   },
   "output": {
-    "method": "相关系数（一维）",
-    "answer": "False",
-    "variable": {
-      "X": {
-        "id": "X",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "independent",
-        "description": "A quantitative variable used to determine the correlation with variable Y."
-      },
-      "Y": {
-        "id": "Y",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "A quantitative variable used to determine the correlation with variable X."
-      },
-      "r": {
-        "id": "r",
-        "value": "Not specified",
-        "class": "numerical",
-        "role": "both",
-        "description": "The correlation coefficient quantifying the relationship between variables X and Y."
-      }
-    }
+    "answer": "Paired samples"
   },
   "meta_info": {
-    "index": "14.9",
+    "index": "12.1",
     "image": "",
-    "caption": "True or false?",
-    "chapter": "CORRELATION AND REGRESSION",
-    "section": "14.4 REGRESSION",
-    "page": "330-330"
+    "caption": "Sampling designs.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
+    "page": "238-238"
   },
   "sample_key": "233"
 }

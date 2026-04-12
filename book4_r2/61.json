@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\019.json",
   "input": {
-    "background": "NO2 concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses and buses) were sampled and the following data were obtained.",
+    "background": "$\\mathrm{NO}_2$ concentrations (in parts per billion) in the exhaust fumes of different types of vehicle (cars, minibuses, and buses) were sampled. The following data were obtained: \n\nCar: 69, 62, 73, 70, 68, 68, 64, 71 \nMinibus: 51, 45, 59, 57, 58, 54, 46, 48 \nBus: 41, 48, 42, 39, 47, 49, 35, 41.",
     "data": null,
-    "question": "Using multiple comparison tests where appropriate, what do you conclude from your analysis of these data?"
+    "question": "Check that the variances of the three samples are not significantly different using an $F_{\\text{max}}$ test."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "There is a significant difference between the NO2 concentration in the different types of vehicle, with cars having the most and buses the least. Using Tukey's multiple comparisons: The MSD is smaller than the difference between any pair of means, therefore all the means are significantly different from each other (Cars > Minibuses > Buses; P < 0.05)."
+    "answer": "The highest variance is for minibuses (30.786). The lowest variance is for cars (12.982). $F_{\\max }=2.37, k=3, \\mathrm{df}=7, P>0.05$; therefore the variances are not significantly different."
   },
   "meta_info": {
     "index": "7.1",

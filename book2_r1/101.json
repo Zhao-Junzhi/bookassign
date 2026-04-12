@@ -1,0 +1,39 @@
+{
+  "background": "A food-products company conducted a market study by randomly sampling and interviewing 1,000 consumers to determine which brand of breakfast cereal they prefer. Suppose 313 consumers were found to prefer the company's brand.",
+  "task": [
+    {
+      "query": "How would you estimate the true fraction of all consumers who prefer the company's cereal brand?",
+      "answer": "In this study, consumers are asked which brand of breakfast cereal they prefer. Note that the sample proportion of consumers who prefer the company's cereal brand is calculated as 313/1000 = 0.313. This sample proportion can be used as a point estimate for the true proportion of all consumers who prefer the company's cereal brand. Additionally, a confidence interval can be constructed to estimate the range within which the true proportion is likely to fall."
+    }
+  ],
+  "id": "101",
+  "data": null,
+  "meta_info": {
+    "index": "6.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Estimating a Population Proportion-Preference for Breakfast Cereal",
+    "chapter": "Inferences Based on a Single Sample",
+    "section": "6.4 Large-Sample Confidence Interval for a Population Proportion",
+    "book": "Statistics for Business and Economics",
+    "page": "202-203"
+  },
+  "token_usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 371,
+    "total_tokens": 545,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

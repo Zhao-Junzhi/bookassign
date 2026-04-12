@@ -1,15 +1,13 @@
 {
-  "background": "An instrument which consists of $k$ units operates for a time $t$. The reliability of each unit during the time $t$ is $p$. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. He needs a time $s$ to replace one unit.",
+  "background": "An instrument consisting of $k$ units operates for a time $t$. The reliability of each unit during the time $t$ is $p$. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. The technician needs a time $s$ to replace one unit.",
   "task": [
     {
-      "query": "Find the probability that in the time $2 s$ after the stop the instrument will be ready for work.",
-      "answer": "$$ R=p^k+k(1-p) p^{k-1}+\frac{k(k-1)}{2}(1-p)^2 p^{k-2} $$",
-      "method": "事件发生概率及独立性"
+      "query": "Find the probability that in the time $2s$ after the stop the instrument will be ready for work.",
+      "answer": "$$R=p^k+k(1-p) p^{k-1}+\frac{k(k-1)}{2}(1-p)^2 p^{k-2}$$"
     },
     {
-      "query": "Calculate (a) when $p=0.9$ and $k=10$.",
-      "answer": "$\\mathrm{R}=0.9298$.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the probability in part (a) when $p=0.9$ and $k=10$.",
+      "answer": "$\\mathrm{R}=0.9298$"
     }
   ],
   "id": "135",
@@ -23,5 +21,23 @@
     "section": "4.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "299-299"
+  },
+  "token_usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 467,
+    "total_tokens": 673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

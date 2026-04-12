@@ -1,30 +1,20 @@
 {
-  "case_id": "book1_r1\\record_070.json",
+  "case_id": "book1_r1\\record_060.json",
   "input": {
-    "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250.",
+    "background": "We've established that heights of 10-year-old boys vary according to a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
     "data": "",
-    "question": "Can we use the Normal approximation to the binomial in this instance?"
+    "question": "What proportion is between 150 and 140 centimeters?"
   },
   "output": {
-    "method": "数据分布建模",
-    "answer": "$n p q=(250)(0.05)(0.95)=11.875$. Therefore, the Normal approximation to the binomial can be applied.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 250,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of observations or trials in the survey."
-      }
-    }
+    "answer": "Make use of the fact demonstrated in Figure 7.12 (page 142): Pr(140 ≤ X ≤ 150) = Pr(X ≤ 150) - Pr(X ≤ 140) = 0.9564 - 0.6141 = 0.3423"
   },
   "meta_info": {
-    "index": "8.11",
+    "index": "7.5",
     "image": "",
-    "caption": "Pediatric asthma survey, n = 250.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
-    "page": "172-172"
+    "caption": "Heights of 10-year-old boys.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.2 DETERMINING NORMAL PROBABILITIES",
+    "page": "143-143"
   },
   "sample_key": "131"
 }

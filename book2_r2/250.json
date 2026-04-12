@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\104.json",
+  "input": {
+    "background": "The manufacturer of official NFL footballs uses a machine to inflate its new balls to a pressure of 13.5 pounds. When the machine is properly calibrated, the mean inflation pressure is 13.5 pounds, but uncontrollable factors cause the pressures of individual footballs to vary randomly from about 13.3 to 13.7 pounds. For quality control purposes, the manufacturer wishes to estimate the mean inflation pressure to within 0.025 pound of its true value with a 99% confidence interval.",
+    "data": null,
+    "question": "How can we estimate the standard deviation (σ) given the range of observations?"
+  },
+  "output": {
+    "answer": "No previous estimate of s is available; however, we are given that the range of observations is R = 13.7 - 13.3 = 0.4. A conservative estimate (based on Chebychev's Rule) is σ ≈ R / 4 = 0.1."
+  },
+  "meta_info": {
+    "index": "6.9",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "250"
+}

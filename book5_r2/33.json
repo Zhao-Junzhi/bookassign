@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\013.json",
+  "case_id": "book5_r1\\012.json",
   "input": {
-    "background": "A researcher wished to see if women who have taken the oral contraceptive pill have an earlier or later menopause than other women. He decided to study a group of women born in 1930 as these would be young enough for some to have taken the pill but old enough for some to have reached the menopause. He obtained the names of all 132 women in one general practice who were born in 1930, using the practice's age-sex register. Women claiming to have had the menopause were checked by measuring their follicle stimulating hormone (FSH) levels. Of the 132 women, 101 were excluded from the study for the following reasons: 22 not available (21 not contactable, 1 refusal), 60 premenopausal, 14 hysterectomy, 1 radium-induced menopause, 2 unmarried, 2 FSH < 30 IU/I.",
-    "data": "\\begin{tabular}{lccc}\n\\hline & & \\multicolumn{2}{c}{ Age at menopause (years) } \\\n& $n$ & $n e a n$ & SD \\\n\\hline Pill users & 12 & 47.2 & 2.1 \\\nNon pill users & 19 & 47.5 & 2.1 \\\n\\hline\n\\end{tabular}",
-    "question": "(d) What design is needed to answer the question originally posed?"
+    "background": "In 1978–79, a random sample of 1007 residents (608 men and 399 women) of the Lothian region was surveyed about their alcohol consumption over the previous seven days. In 1981, due to an increase in taxation and brewers' prices, the cost of alcoholic beverages rose faster than the retail price index for the first time in over 30 years. A follow-up survey was conducted in 1981–82 on 676 'regular drinkers' (those who reported drinking in the first survey). Over the three years, the cost of alcoholic beverages rose by 61%, while the retail price index rose by 52%. Average earnings increased slightly more than the retail price index, but unemployment in the Edinburgh area rose significantly. Of the 676 'regular drinkers,' 463 (69%) were successfully re-interviewed, while 213 were not due to various reasons (e.g., untraceable, left the region, refusal, illness, or death). The authors reported a reduction in alcohol consumption and adverse effects among the 463 re-interviewed subjects and attributed this to the rising cost of alcohol relative to income.",
+    "data": null,
+    "question": "What was the response rate to the second survey? How might non-respondents differ from respondents? What is the likely effect on the interpretation of the results of the survey?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "This is a question that could be answered by a cohort study. If the researcher had taken, for example, all the women born in 1930 and waited until they had all reached the menopause, then he could make a valid comparison. However, it should be noted that it is not really good practice to lump together all pill users regardless of the length of pill use or the age at which it was taken. The cohort design would allow these factors to be investigated in relation to the age of menopause."
+    "answer": "The response rate in the second study was $69 \\%$ which is rather poor. The non-responders, nearly a third of the sample, might well be atypical (this is what is usually found), and could well include heavier drinkers. For example, some may have been too ill to respond through a drink-related illness. Thus the high rate of non-response could have biased the results. The authors should have compared the characteristics of responders and non-responders with respect to their responses to the first survey. The paper does not give the response rate to the first study. If it was also around $70 \\%$, which is quite likely, then the final sample interviewed at the second survey would be even more highly selected."
   },
   "meta_info": {
-    "index": "5.2",
+    "index": "5.1",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Designing research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "105-105"
+    "page": "103-104"
   },
   "sample_key": "33"
 }

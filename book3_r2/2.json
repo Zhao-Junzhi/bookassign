@@ -1,13 +1,12 @@
 {
   "case_id": "book3_r1\\02.json",
   "input": {
-    "background": "Suppose the total inventory of a company is a collection of lots from four different suppliers, A, B, C, and D, as indicated below:\n$$\n\\begin{array}{ll}\n\\text { Supplier } & \\text { Percent of inventory } \\\\\n\\text { A } & 60 \\\\\n\\text { B } & 20 \\\\\n\\text { C } & 5 \\\\\n\\text { D } & 15\n\\end{array}\n$$\nFurthermore, suppose that past records indicate that lots from suppliers A, B, C, and D are 5, 3, 2, and 8% defective, respectively.",
+    "background": "Suppose the total inventory of a company is a collection of lots from four different suppliers, A, B, C, and D, with respective percentages of inventory being 60%, 20%, 5%, and 15%. Furthermore, past records indicate that lots from suppliers A, B, C, and D have defect rates of 5%, 3%, 2%, and 8%, respectively.",
     "data": null,
-    "question": "Find the probability that a defective item selected as random is from supplier B."
+    "question": "Find the probability that a defective item selected at random is from supplier B using Bayes' rule."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$\n\\begin{aligned}\n&\\text { Using the Bayes' rule, we have }\\\\\n&\\begin{aligned}\nP(B \\mid \\text { defective }) & =\\frac{(0.2)(0.03)}{(0.6)(0.05)+(0.2)(0.03)+(0.05)(0.02)+(0.15)(0.08)} \\\\\n& =0.122\n\\end{aligned}\n\\end{aligned}\n$$"
+    "answer": "$$\n\\begin{aligned}\n&\\text {  Using the Bayes' rule, we have }\\\\\n&\\begin{aligned}\nP(B \\mid \\text { defective }) & =\\frac{(0.2)(0.03)}{(0.6)(0.05)+(0.2)(0.03)+(0.05)(0.02)+(0.15)(0.08)} \\\\\n& =0.122\n\\end{aligned}\n\\end{aligned}\n$$"
   },
   "meta_info": {
     "index": "1.8",

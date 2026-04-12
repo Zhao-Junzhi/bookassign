@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\022.json",
+  "input": {
+    "background": "The 50 companies' percentages of revenues spent on R&D are provided in Table 2.8. The mean and standard deviation of these data (rounded) are 8.49 and 1.98, respectively. The task is to calculate the fraction of these measurements that lie within the intervals $\\bar{x} \\pm s, \\bar{x} \\pm 2 s$, and $\\bar{x} \\pm 3 s$ and compare the results with those predicted in Tables 2.6 and 2.7.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline Table 2.8 & \\multicolumn{9}{|c|}{R&D Percentages for 50 Companies} \\\\\n\\hline 13.5 & 9.5 & 8.2 & 6.5 & 8.4 & 8.1 & 6.9 & 7.5 & 10.5 & 13.5 \\\\\n\\hline 7.2 & 7.1 & 9.0 & 9.9 & 8.2 & 13.2 & 9.2 & 6.9 & 9.6 & 77 \\\\\n\\hline 9.7 & 7.5 & 7.2 & 5.9 & 6.6 & 11.1 & 8.8 & 5.2 & 10.6 & 8.2 \\\\\n\\hline 11.3 & 5.6 & 10.1 & 8.0 & 8.5 & 11.7 & 7.1 & 7.7 & 9.4 & 6.0 \\\\\n\\hline 8.0 & 7.4 & 10.5 & 78 & 79 & 6.5 & 6.9 & 6.5 & 6.8 & 9.5 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Calculate the fraction of measurements that lie within the interval $\\bar{x} \\pm s$."
+  },
+  "output": {
+    "answer": "The interval is $(\\bar{x}-s, \\bar{x}+s)=(8.49-1.98,8.49+1.98)=(6.51,10.47)$. A check of the measurements reveals that 34 of the 50 measurements, or $68 \\%$, are within 1 standard deviation of the mean."
+  },
+  "meta_info": {
+    "index": "2.11",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the Standard Deviation-R\\\\&D Expenditures",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.5 Using the Mean and Standard Deviation to Describe Data",
+    "book": "Statistics for Business and Economics",
+    "page": "55-56"
+  },
+  "sample_key": "53"
+}

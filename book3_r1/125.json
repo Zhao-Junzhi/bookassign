@@ -1,15 +1,13 @@
 {
-  "background": "Suppose that my waiting time for a train is uniformly distributed on the interval $[0, \\theta]$, and that the results $x_1, x_2, \\ldots, x_n$ of a random sample from this distribution have been observed. If my waiting times are $4.5,5.3,1.2,7.4,3.6,4.8$, and 2.9.",
+  "background": "Suppose that my waiting time for a train is uniformly distributed on the interval [0, θ], and that the results x_1, x_2, ..., x_n of a random sample from this distribution have been observed. My waiting times are 4.5, 5.3, 1.2, 7.4, 3.6, 4.8, and 2.9.",
   "task": [
     {
-      "query": "Calculate the estimate of $\\theta$ using the method of moments.",
-      "answer": "8.486",
-      "method": "获取模型参数估计值"
+      "query": "Calculate the estimate of θ using the method of moments.",
+      "answer": "8.486"
     },
     {
-      "query": "Calculate the estimate of $\\theta$ using the method of maximum likelihood.",
-      "answer": "7.4",
-      "method": "MLE"
+      "query": "Calculate the estimate of θ using the method of maximum likelihood.",
+      "answer": "7.4"
     }
   ],
   "id": "125",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "220-220"
+  },
+  "token_usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 431,
+    "total_tokens": 592,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

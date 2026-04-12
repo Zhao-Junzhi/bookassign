@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\150.json",
+  "input": {
+    "background": "Refer to the simple linear regression analysis of the advertising-sales data, Examples 11.1 and 11.2. The objective is to determine if sales revenue (y) is linearly related to advertising expenditure (x) using a hypothesis test at significance level α = 0.05.",
+    "data": null,
+    "question": "What conclusion can be drawn from the test statistic and the rejection region?"
+  },
+  "output": {
+    "answer": "Since the calculated $t$-value (3.7) falls into the upper-tail rejection region, we reject the null hypothesis and conclude that the slope $\\beta_1$ is not 0. This indicates that advertising expenditure $x$ contributes information for the production of sales revenue $y$ when a linear model is used."
+  },
+  "meta_info": {
+    "index": "11.3",
+    "img_in_question": null
+  },
+  "sample_key": "403"
+}

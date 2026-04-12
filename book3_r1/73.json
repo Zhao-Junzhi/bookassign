@@ -3,23 +3,19 @@
   "task": [
     {
       "query": "What is the probability that a family has a TV set?",
-      "answer": "0.495",
-      "method": "事件发生概率及独立性"
+      "answer": "0.495"
     },
     {
       "query": "What is the probability that a family has a car?",
-      "answer": "0.36",
-      "method": "事件发生概率及独立性"
+      "answer": "0.36"
     },
     {
-      "query": "What is the probability that a family has both?",
-      "answer": "0.115",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability that a family has both a TV set and a car?",
+      "answer": "0.115"
     },
     {
       "query": "What is the probability that a family has either a TV set or a car or both?",
-      "answer": "0.74",
-      "method": "事件发生概率及独立性"
+      "answer": "0.74"
     }
   ],
   "id": "73",
@@ -33,5 +29,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "58-58"
+  },
+  "token_usage": {
+    "completion_tokens": 237,
+    "prompt_tokens": 483,
+    "total_tokens": 720,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

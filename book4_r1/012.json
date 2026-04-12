@@ -1,15 +1,13 @@
 {
-  "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products, and given a score for commitment (based on their statements and current efforts, from 0 indicating no interest, to 8 indicating a high level of interest and positive activity in that direction). Following this survey, the companies were each sent the results of research showing the attitudes that potential customers had towards environmentally friendly products of the type produced by their company. The companies were then each given a follow-up telephone survey, and their enthusiasm towards improving the environmental standard of their products was again assessed.",
+  "background": "In a telephone survey, the managers of 20 small businesses were questioned on their attitude to improving the environmental nature of their products and given a score for commitment (from 0 indicating no interest, to 8 indicating a high level of interest and positive activity). After the survey, the companies were sent research results showing customer attitudes towards environmentally friendly products of the type they produced. A follow-up telephone survey was conducted to reassess their enthusiasm towards improving the environmental standard of their products. The data for the two surveys were provided.",
   "task": [
     {
-      "query": "Use a Wilcoxon matched-pairs test on the above data (because the answers to each survey are matched for each company) and report the following: T: n: Probability:",
-      "answer": "T=34, n=17, P<0.05 (=0.0442 or 0.0253 if corrected for ties)",
-      "method": "假设检验与区间估计"
+      "query": "Use a Wilcoxon matched-pairs test on the provided data and report the following: T, n, and Probability.",
+      "answer": "T=34, n=17, P<0.05 (=0.0442 or 0.0253 if corrected for ties)."
     },
     {
       "query": "What can you conclude about the attitudes of the managers of small businesses?",
-      "answer": "Businesses were significantly more enthusiastic about improving the environmental impact of their products after receiving the results of the customer questionnaire.",
-      "method": "假设检验与区间估计"
+      "answer": "Businesses were significantly more enthusiastic about improving the environmental impact of their products after receiving the results of the customer questionnaire."
     }
   ],
   "id": "012",
@@ -23,5 +21,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "79-79"
+  },
+  "token_usage": {
+    "completion_tokens": 240,
+    "prompt_tokens": 764,
+    "total_tokens": 1004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

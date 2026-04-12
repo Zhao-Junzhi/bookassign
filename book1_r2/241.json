@@ -1,79 +1,20 @@
 {
-  "case_id": "book1_r1\\record_119.json",
+  "case_id": "book1_r1\\record_101.json",
   "input": {
-    "background": "The relation between FEV and SEX in the illustrative data set. Download the illustrative data set (fev.*) used in this chapter. See Table 15.1 for a codebook of variables.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\\n\\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\\n\\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\\n\\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\\n\\hline SEX & $0=$ female; $1=$ male & \\multicolumn{4}{|c|}{48.6\\% female; 51.4\\% male; none missing} \\\n\\hline SMOKE & $0=\\mathrm{no} ; 1=$ yes & \\multicolumn{4}{|c|}{$90.1 \\% \\mathrm{no;} 9.9 \\%$ yes; none missing} \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-    "question": "Examine the relationship between FEV and SEX."
+    "background": "A study of environmental air quality measured suspended particulate matter in air samples at two sites. Data (μgms/m^3) for site 1 are {68, 22, 36, 32, 42, 24, 28, and 38}. Data for site 2 are {36, 38, 39, 40, 36, 34, 33, and 32}.",
+    "data": "Table 12.9 \"Air samples data\" for Exercises 12.5 and 12.7. Data are suspended particulate matter in air samples ( $\\mu \\mathrm{gms} / \\mathrm{m}^3$ ).\n\n\\begin{tabular}{lllllllll}\n\\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\\\\nSite 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\\\\n\\hline\n\\end{tabular}\n\nData are fictitious and are stored online in the file AIRSAMPLES.SAV.",
+    "question": "Summarize your graphical and numerical findings."
   },
   "output": {
-    "method": "离散型-连续型变量关系",
-    "answer": "The relationship between FEV and SEX can be examined using statistical methods such as correlation analysis or regression models.",
-    "variable": {
-      "AGE": {
-        "id": "AGE",
-        "value": [
-          3,
-          19,
-          9.93,
-          2.954
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Age of the individuals in years."
-      },
-      "FEV": {
-        "id": "FEV",
-        "value": [
-          0.791,
-          5.793,
-          2.6368,
-          0.86706
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Forced expiratory volume in liters per second."
-      },
-      "HEIGHT": {
-        "id": "HEIGHT",
-        "value": [
-          46.0,
-          74.0,
-          61.14,
-          5.704
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Height of the individuals in inches."
-      },
-      "SEX": {
-        "id": "SEX",
-        "value": [
-          0,
-          1
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Sex of the individuals, where 0 represents female and 1 represents male."
-      },
-      "SMOKE": {
-        "id": "SMOKE",
-        "value": [
-          0,
-          1
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Smoking status of the individuals, where 0 represents non-smoker and 1 represents smoker."
-      }
-    }
+    "answer": "(c) The summary statistics confirm that the distributions have similar central locations and that Site 1 has much greater variability."
   },
   "meta_info": {
-    "index": "15.1",
+    "index": "12.5",
     "image": "",
-    "caption": "The relation between FEV and SEX in the illustrative data set.",
-    "chapter": "MULTIPLE LINEAR REGRESSION",
-    "section": "“15.6 EXAMINING MULTIPLE REGRESSION CONDITIONS",
-    "page": "348-348"
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.2 EXPLORATORY AND DESCRIPTIVE STATISTICS",
+    "page": "243-243"
   },
   "sample_key": "241"
 }

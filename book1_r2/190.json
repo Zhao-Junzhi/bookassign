@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_099.json",
+  "case_id": "book1_r1\\record_082.json",
   "input": {
-    "background": "Identify whether the studies described here are based on single samples, paired samples, or independent samples.",
+    "background": "A pharmacist reads that a 95% confidence interval for the average price of a particular prescription drug is $30.50 to $35.50. The pharmacist is asked to explain the meaning of this.",
     "data": "",
-    "question": "Cardiovascular disease risk factors are compared in husbands and wives."
+    "question": "What does the confidence interval apply to?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "Paired samples",
-    "variable": {
-      "risk_factors": {
-        "id": "risk_factors",
-        "value": "Cardiovascular disease risk factors",
-        "class": "categorical",
-        "role": "both",
-        "description": "Risk factors associated with cardiovascular disease being compared between husbands and wives."
-      },
-      "husbands": {
-        "id": "husbands",
-        "value": "Husbands in the study",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Group of male participants whose cardiovascular disease risk factors are being compared."
-      },
-      "wives": {
-        "id": "wives",
-        "value": "Wives in the study",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Group of female participants whose cardiovascular disease risk factors are being compared."
-      }
-    }
+    "answer": "The confidence interval applies to the population mean μ; it does not apply to the distribution of individual observations."
   },
   "meta_info": {
-    "index": "12.1",
+    "index": "10.1",
     "image": "",
-    "caption": "Sampling designs.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.1 PAIRED AND INDEPENDENT SAMPLES",
-    "page": "238-238"
+    "caption": "Misinterpreting a confidence interval.",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
+    "page": "202-202"
   },
   "sample_key": "190"
 }

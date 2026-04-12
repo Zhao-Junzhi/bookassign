@@ -1,20 +1,17 @@
 {
-  "background": "Furst and Paulus (1975) reported a study to compare the metabolism of clonixin in 12 patients with rheumatoid arthritis and 12 normal controls. The drug was under investigation as an anti-inflammatory analgesic for treatment of rheumatoid arthritis. Serum clonixin levels were measured at 0, 1/2, 1, 2, 4, 6 and 8 hours after administration of a single dose of three 250 mg tablets of clonixin.",
+  "background": "Furst and Paulus (1975) conducted a study to compare the metabolism of clonixin in 12 patients with rheumatoid arthritis and 12 normal controls. Clonixin, an anti-inflammatory analgesic, was administered as three 250 mg tablets, and serum clonixin levels were measured at 0, 0.5, 1, 2, 4, 6, and 8 hours after administration. The authors did not report the initial (0 hour) values, but the remaining data were analyzed.",
   "task": [
     {
       "query": "Plot the mean levels in each group.",
-      "answer": "The means are plotted in Figure A14.2. The means for the two groups show a very similar pattern.",
-      "method": "数据可视化"
+      "answer": "The means are plotted in Figure A14.2. The means for the two groups show a very similar pattern."
     },
     {
-      "query": "Compare the peak levels and the area under the curve in the two groups using a suitable analysis assuming that the clonixin level is 0.0 at time zero.",
-      "answer": "The mean and SD of the peak values and areas under the curves for the two groups are:\n\nRheumatoid arthritis patients:\nPeak: Mean = 39.96, SD = 9.13\nAUC: Mean = 120.05, SD = 33.61\n\nControls:\nPeak: Mean = 46.12, SD = 10.58\nAUC: Mean = 154.93, SD = 48.23\n\nThe two groups can be compared by two sample t-tests, which give t=1.53(P=0.14) and t=2.06(P=0.052) respectively. (Mann-Whitney tests give very similar results.) There is thus some evidence that the area under the curve is lower among patients with rheumatoid arthritis.",
-      "method": "假设检验与区间估计"
+      "query": "Compare the peak levels and the area under the curve (AUC) in the two groups using a suitable analysis, assuming that the clonixin level is 0.0 at time zero.",
+      "answer": "The mean and SD of the peak values and areas under the curves for the two groups are:\n\n| Group                  | Peak Mean | Peak SD | AUC Mean | AUC SD |\n|------------------------|-----------|---------|----------|--------|\n| Rheumatoid arthritis  | 39.96     | 9.13    | 120.05   | 33.61  |\n| Controls              | 46.12     | 10.58   | 154.93   | 48.23  |\n\nThe two groups were compared using two-sample t-tests, which gave t=1.53 (P=0.14) for the peak values and t=2.06 (P=0.052) for the AUC. Mann-Whitney tests gave very similar results. There is some evidence that the area under the curve is lower among patients with rheumatoid arthritis."
     },
     {
       "query": "Are the plots from (a) a good representation of the data?",
-      "answer": "The individual curves shown in Figure A14.3 show considerable variation - many look very different from the mean curves. It is a matter of judgement whether the means are a good representation of the overall pattern.",
-      "method": "数据可视化"
+      "answer": "The individual curves shown in Figure A14.3 show considerable variation - many look very different from the mean curves. It is a matter of judgment whether the means are a good representation of the overall pattern."
     }
   ],
   "id": "053",
@@ -22,5 +19,23 @@
   "meta_info": {
     "index": "14.2",
     "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 476,
+    "prompt_tokens": 766,
+    "total_tokens": 1242,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

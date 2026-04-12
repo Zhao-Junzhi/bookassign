@@ -2,9 +2,20 @@
   "background": "Calculate the centiles used to construct the box-and-whisker plot in Figure 3.12 using the method of calculation given in section 3.4.2.",
   "task": [
     {
-      "query": "Calculate the centiles used to construct the box-and-whisker plot in Figure 3.12.",
-      "answer": "Figure 3.12 shows the $2 \\frac{1}{2}, 25,50,75$ and $97 \\frac{1}{2}$ centiles. The ranks of the required observations are thus the sample size plus 1 (299) multiplied by $0.025,0.25,0.5,0.75$ and 0.975 . These values are $7.475,74.75$, $149.5,224.25$ and 291.525 . The observations with ranks either side of these values can be found from Table 3.4 (it helps to calculate a column of cumulative frequencies), and interpolation used to get the required centiles. However, in each case the observations with ranks either side of the required rank are the same, so the centiles of the distribution of IgM are obtained simply as $0.2,0.5,0.7,1.0$ and $2.0 \\mathrm{~g} / \\mathrm{l}$.",
-      "method": "分位数/百分位数"
+      "query": "What centiles are shown in Figure 3.12?",
+      "answer": "Figure 3.12 shows the $2 \\frac{1}{2}, 25, 50, 75$ and $97 \\frac{1}{2}$ centiles."
+    },
+    {
+      "query": "How are the ranks of the required observations calculated?",
+      "answer": "The ranks of the required observations are the sample size plus 1 (299) multiplied by $0.025, 0.25, 0.5, 0.75$ and $0.975$. These values are $7.475, 74.75, 149.5, 224.25$ and $291.525$."
+    },
+    {
+      "query": "How can the observations with ranks either side of these values be found?",
+      "answer": "The observations with ranks either side of these values can be found from Table 3.4 (it helps to calculate a column of cumulative frequencies), and interpolation can be used to get the required centiles."
+    },
+    {
+      "query": "What are the centiles of the distribution of IgM?",
+      "answer": "In each case, the observations with ranks either side of the required rank are the same, so the centiles of the distribution of IgM are obtained simply as $0.2, 0.5, 0.7, 1.0$ and $2.0 \\mathrm{~g} / \\mathrm{l}$."
     }
   ],
   "id": "003",
@@ -18,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "47-47"
+  },
+  "token_usage": {
+    "completion_tokens": 377,
+    "prompt_tokens": 543,
+    "total_tokens": 920,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

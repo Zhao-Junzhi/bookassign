@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\54 (1).json",
+  "input": {
+    "background": "A problem on the variability of a new product was encountered. An experiment was run using a sample of size $n=25$; the sample mean was found to be $\\bar{X}=50$ and the variance $\\sigma^2=16$. From Table A.2 in Appendix A, $t_{\\frac{\\alpha}{2}, n-1}=t_{.975,24}=2.064$.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table A. 2 Percentage points of the $t$-distribution}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline $\\\nu \\backslash \\alpha$ & 0.100 & 0.050 & 0.025 & 0.01 & 0.005 & 0.001 \\\\\n\\hline 1 & 3.078 & 6.314 & 12.706 & 31.821 & 63.657 & 318.310 \\\\\n\\hline 2 & 1.886 & 2.920 & 4.303 & 6.965 & 9.925 & 23.326 \\\\\n\\hline 3 & 1.638 & 2.353 & 3.182 & 4.541 & 5.841 & 10.213 \\\\\n\\hline 4 & 1.533 & 2.132 & 2.776 & 3.747 & 4.604 & 7.173 \\\\\n\\hline 5 & 1.476 & 2.015 & 2.571 & 3.365 & 4.032 & 5.893 \\\\\n\\hline 6 & 1.440 & 1.943 & 2.447 & 3.143 & 3.707 & 5.208 \\\\\n\\hline 7 & 1.415 & 1.895 & 2.365 & 2.998 & 3.499 & 4.785 \\\\\n\\hline 8 & 1.397 & 1.860 & 2.306 & 2.896 & 3.355 & 4.501 \\\\\n\\hline 9 & 1.383 & 1.833 & 2.262 & 2.821 & 3.250 & 4.297 \\\\\n\\hline 10 & 1.372 & 1.812 & 2.228 & 2.764 & 3.169 & 4.144 \\\\\n\\hline 11 & 1.363 & 1.796 & 2.201 & 2.718 & 3.106 & 4.025 \\\\\n\\hline 12 & 1.356 & 1.782 & 2.179 & 2.681 & 3.055 & 3.930 \\\\\n\\hline 13 & 1.350 & 1.771 & 2.160 & 2.650 & 3.012 & 3.852 \\\\\n\\hline 14 & 1.345 & 1.761 & 2.145 & 2.624 & 2.977 & 3.787 \\\\\n\\hline 15 & 1.341 & 1.753 & 2.131 & 2.602 & 2.947 & 3.733 \\\\\n\\hline 16 & 1.337 & 1.746 & 2.120 & 2.583 & 2.921 & 3.686 \\\\\n\\hline 17 & 1.333 & 1.740 & 2.110 & 2.567 & 2.898 & 3.646 \\\\\n\\hline 18 & 1.330 & 1.734 & 2.101 & 2.552 & 2.878 & 3.610 \\\\\n\\hline 19 & 1.328 & 1.729 & 2.093 & 2.539 & 2.861 & 3.579 \\\\\n\\hline 20 & 1.325 & 1.725 & 2.086 & 2.528 & 2.845 & 3.552 \\\\\n\\hline 21 & 1.323 & 1.721 & 2.080 & 2.518 & 2.831 & 3.527 \\\\\n\\hline 22 & 1.321 & 1.717 & 2.074 & 2.508 & 2.819 & 3.505 \\\\\n\\hline 23 & 1.319 & 1.714 & 2.069 & 2.500 & 2.807 & 3.485 \\\\\n\\hline 24 & 1.318 & 1.711 & 2.064 & 2.492 & 2.797 & 3.467 \\\\\n\\hline 25 & 1.316 & 1.708 & 2.060 & 2.485 & 2.787 & 3.450 \\\\\n\\hline 26 & 1.315 & 1.706 & 2.056 & 2.479 & 2.779 & 3.435 \\\\\n\\hline 27 & 1.314 & 1.703 & 2.052 & 2.473 & 2.771 & 3.421 \\\\\n\\hline 28 & 1.313 & 1.701 & 2.048 & 2.467 & 2.763 & 3.408 \\\\\n\\hline 29 & 1.311 & 1.699 & 2.045 & 2.462 & 2.756 & 3.396 \\\\\n\\hline 30 & 1.310 & 1.697 & 2.042 & 2.457 & 2.750 & 3.385 \\\\\n\\hline 40 & 1.303 & 1.684 & 2.021 & 2.423 & 2.704 & 3.307 \\\\\n\\hline 60 & 1.296 & 1.671 & 2.000 & 2.390 & 2.660 & 3.232 \\\\\n\\hline 120 & 1.289 & 1.658 & 1.980 & 2.358 & 2.617 & 3.160 \\\\\n\\hline $\\infty$ & 1.282 & 1.645 & 1.960 & 2.326 & 2.576 & 3.090 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Determine the $95\\%$ confidence limit for $\\mu$ based on the given sample statistics."
+  },
+  "output": {
+    "answer": "$$\\begin{aligned}&\\begin{aligned}& P\\left[50-2.064 \\sqrt{\\frac{16}{25}}<\\mu<50+2.064 \\sqrt{\\frac{16}{25}}\\right]=0.95 \\\\& P[48.349<\\mu<51.651]=0.95\\end{aligned}\\end{aligned}$$"
+  },
+  "meta_info": {
+    "index": "3.30",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.11 Interval Estimation",
+    "book": "Statistics for Business and Economics",
+    "page": "184-184"
+  },
+  "sample_key": "197",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 3623,
+    "total_tokens": 3666,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 3622,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 3623,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 3622,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

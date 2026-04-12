@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\036.json",
+  "case_id": "book5_r1\\028.json",
   "input": {
-    "background": "The table describes patients' habits, where some patients had more than one of the three habits. The problem involves analyzing the table and determining the appropriate statistical methods.",
-    "data": null,
-    "question": "Why is it incorrect to calculate $X^2$ for the full $4 \\times 3$ table?"
+    "background": "Patients with chronic renal failure undergoing haemodialysis were divided into groups with low or normal plasma heparin cofactor II (HC II) levels. Five months later, the acute effects of haemodialysis were studied by analysing plasma samples taken before and after haemodialysis. Since dialysis increases total protein concentration in plasma, the ratio of HC II to protein was calculated. The authors analysed the data using separate paired Wilcoxon tests for each group, reporting $\\mathrm{P}<0.01$ for group 1 and $\\mathrm{P}>0.05$ for group 2.",
+    "data": "\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Group 1 (low)  &  & Group 2 (normal) \\\\\n\\hline before & after & before & after \\\\\n\\hline 1.41 & 1.47 & 2.11 & 2.15 \\\\\n\\hline 1.37 & 1.45 & 1.85 & 2.11 \\\\\n\\hline 1.33 & 1.50 & 1.82 & 1.93 \\\\\n\\hline 1.13 & 1.25 & 1.75 & 1.83 \\\\\n\\hline 1.09 & 1.01 & 1.54 & 1.90 \\\\\n\\hline 1.03 & 1.14 & 1.52 & 1.56 \\\\\n\\hline 0.89 & 0.98 & 1.49 & 1.44 \\\\\n\\hline 0.86 & 0.89 & 1.44 & 1.43 \\\\\n\\hline 0.75 & 0.95 & 1.38 & 1.28 \\\\\n\\hline 0.75 & 0.83 & 1.30 & 1.30 \\\\\n\\hline 0.70 & 0.75 & 1.20 & 1.21 \\\\\n\\hline 0.69 & 0.71 & 1.19 & 1.30 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Why is it wrong to conclude, as the authors did, that HC II activity increased in group 1 but not in group 2?"
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "It is clear from the table that some patients had more than one of the three habits, as would be expected. It is incorrect, therefore, to calculate $X^2$ for the full $4 \\times 3$ table."
+    "answer": "The P values associated with paired Wilcoxon tests of the data for Groups 1 and 2 are 0.01 and 0.09, which are not so far apart. The mean changes in the two groups are almost the same: Group 1 has a mean change of -0.078 (SD = 0.073), and Group 2 has a mean change of -0.071 (SD = 0.129). Thus, the conclusion that HC II activity increased in group 1 but not in group 2 is not supported by the data."
   },
   "meta_info": {
-    "index": "10.6",
+    "index": "9.6",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Comparing groups - categorical data",
+    "chapter": "Comparing groups – continuous data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "275-275"
+    "page": "226-227"
   },
   "sample_key": "80"
 }

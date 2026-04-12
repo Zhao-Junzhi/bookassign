@@ -2,24 +2,20 @@
   "background": "Urinary cotinine excretion was measured in nonsmokers who lived with smokers. The following table shows the summary of findings given in the paper (Matsukura et al., 1984).",
   "task": [
     {
-      "query": "(a) What can you say about the shape of the distribution of urinary cotinine in these nonsmokers?",
-      "answer": "The SDs can be calculated by multiplying the SEs by \\(\\sqrt{n}\\) to give:\n\n\\begin{tabular}{clll}\n\\hline Cigarettes & \\(n\\) & Mean & SD \\\\\n\\hline \\(1-9\\) & 25 & 0.31 & 0.40 \\\\\n\\(10-19\\) & 57 & 0.42 & 0.75 \\\\\n\\(20-29\\) & 99 & 0.87 & 1.89 \\\\\n\\(30-39\\) & 38 & 1.03 & 1.54 \\\\\n\\(>40\\) & 28 & 1.56 & 3.02 \\\\\nUnspecified & 25 & 0.56 & 0.80 \\\\\n\\hline\n\\end{tabular}\n\nAs in all cases the SD is greater than the mean (and negative values are impossible), the urinary cotinine excretion values are highly skewed to the right.",
-      "method": "分布范围测度"
+      "query": "What can you say about the shape of the distribution of urinary cotinine in these nonsmokers?",
+      "answer": "The SDs can be calculated by multiplying the SEs by \\(\\sqrt{n}\\) to give:\n\n\\begin{tabular}{clll}\n\\hline Cigarettes & $n$ & Mean & SD \\\\\n\\hline $1-9$ & 25 & 0.31 & 0.40 \\\\\n$10-19$ & 57 & 0.42 & 0.75 \\\\\n$20-29$ & 99 & 0.87 & 1.89 \\\\\n$30-39$ & 38 & 1.03 & 1.54 \\\\\n$>40$ & 28 & 1.56 & 3.02 \\\\\nUnspecified & 25 & 0.56 & 0.80 \\\\\n\\hline\n\\end{tabular}\n\nAs in all cases the SD is greater than the mean (and negative values are impossible), the urinary cotinine excretion values are highly skewed to the right."
     },
     {
-      "query": "(b) What would be an appropriate analysis to see if there was a systematic relation between number of cigarettes and urinary cotinine levels?",
-      "answer": "Some form of analysis of trend, such as within a one way analysis of variance.",
-      "method": "方差分析"
+      "query": "What would be an appropriate analysis to see if there was a systematic relation between number of cigarettes and urinary cotinine levels?",
+      "answer": "Some form of analysis of trend, such as within a one way analysis of variance."
     },
     {
-      "query": "(c) Does it matter that the standard errors vary greatly among the groups?",
-      "answer": "If the data are to be analysed by analysis of variance then we require standard deviations to be similar (in theory the groups are samples from populations with the same standard deviation). There is no such requirement for standard errors, which are partly dependent on sample size. As shown above, the data do not meet this requirement. If log transformation would yield similar SDs and reasonably Normal distributions, then a linear trend could be applied in a one way analysis of variance. The 'unspecified' group would have to be excluded. The simplest approach would be to calculate the rank correlation between number of cigarettes smoked and urinary cotinine level.",
-      "method": "转换"
+      "query": "Does it matter that the standard errors vary greatly among the groups?",
+      "answer": "If the data are to be analysed by analysis of variance then we require standard deviations to be similar (in theory the groups are samples from populations with the same standard deviation). There is no such requirement for standard errors, which are partly dependent on sample size. As shown above, the data do not meet this requirement. If log transformation would yield similar SDs and reasonably Normal distributions, then a linear trend could be applied in a one way analysis of variance. The 'unspecified' group would have to be excluded. The simplest approach would be to calculate the rank correlation between number of cigarettes smoked and urinary cotinine level."
     },
     {
-      "query": "(d) The authors used multiple \\(t\\) tests to compare pairs of groups with a correction for multiple testing. Comment on the appropriateness of their analysis.",
-      "answer": "There are three reasons why this analysis is not valid:\n(i) the data are highly skewed within each group;\n(ii) the SDs vary enormously;\n(iii) the use of multiple comparisons of pairs of groups is an inferior method of assessing whether there is a relation between smoking and urinary cotinine levels as it takes no account of the ordering of the groups.",
-      "method": "假设检验"
+      "query": "The authors used multiple $t$ tests to compare pairs of groups with a correction for multiple testing. Comment on the appropriateness of their analysis.",
+      "answer": "There are three reasons why this analysis is not valid:\n(i) the data are highly skewed within each group;\n(ii) the SDs vary enormously;\n(iii) the use of multiple comparisons of pairs of groups is an inferior method of assessing whether there is a relation between smoking and urinary cotinine levels as it takes no account of the ordering of the groups."
     }
   ],
   "id": "027",
@@ -33,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "226-226"
+  },
+  "token_usage": {
+    "completion_tokens": 638,
+    "prompt_tokens": 1077,
+    "total_tokens": 1715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

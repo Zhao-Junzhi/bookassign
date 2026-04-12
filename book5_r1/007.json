@@ -1,15 +1,13 @@
 {
-  "background": "The Binomial distribution with $p=0.15$ and $n=10$ is a follows.",
+  "background": "The Binomial distribution with p=0.15 and n=10 is as follows: If 15% of all pregnancies result in miscarriages, we analyze probabilities related to groups of pregnant women and clusters of miscarriages.",
   "task": [
     {
-      "query": "If $15 \\%$ of all pregnancies result in miscarriages, what is the probability that more than half of a group of ten pregnant women will have a miscarriage?",
-      "answer": "0.0013.",
-      "method": "事件发生概率及独立性"
+      "query": "If 15% of all pregnancies result in miscarriages, what is the probability that more than half of a group of ten pregnant women will have a miscarriage?",
+      "answer": "0.0013"
     },
     {
-      "query": "Among groups of users of video display terminals there are 20000 large enough for ten women to become pregnant in one year. If we call six or more miscarriages out of 10 a 'cluster', how many clusters would we expect in one year, assuming that there is no increased risk of miscarriage associated with using a terminal?",
-      "answer": "$20000 \\times 0.0013=26$.",
-      "method": "期望"
+      "query": "Among groups of users of video display terminals, there are 20000 large enough for ten women to become pregnant in one year. If we call six or more miscarriages out of 10 a 'cluster', how many clusters would we expect in one year, assuming that there is no increased risk of miscarriage associated with using a terminal?",
+      "answer": "20000 × 0.0013 = 26"
     }
   ],
   "id": "007",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "72-72"
+  },
+  "token_usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 462,
+    "total_tokens": 667,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\060.json",
+  "input": {
+    "background": "Recall the experiment of tossing two coins and let $x$ be the number of heads observed. Assume the two coins are fair.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.1\nProbability Distribution for Coin-Toss Experiment: Tabular Form}\n\\begin{tabular}{cc}\n$x$ & $p(x)$ \\\\\n\\hline 0 & $\\frac{1}{4}$ \\\\\n1 & $\\frac{1}{2}$ \\\\\n2 & $\\frac{1}{4}$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Display the probability distribution for the random variable $x$ in a table or graph."
+  },
+  "output": {
+    "answer": "The values the random variable can assume are $(0,1,2)$, and the probability distribution is $\\left(\\frac{1}{4}, \\frac{1}{2}, \\frac{1}{4}\\right)$. This is referred to as the probability distribution, denoted by the symbol $p(x)$. The probability distribution for the coin-toss example is shown in tabular form in Table 4.1 and in graphical form in Figure 4.3. The graph in Figure 4.3a represents the probabilities as the heights of vertical lines over the corresponding values of $x$. The histogram representation in Figure 4.3b is less precise but useful for approximating probabilities of certain discrete random variables."
+  },
+  "meta_info": {
+    "index": "4.4",
+    "img_in_question": null
+  },
+  "sample_key": "136"
+}

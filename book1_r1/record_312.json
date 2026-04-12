@@ -1,30 +1,45 @@
 {
-  "background": "Consider these eight data points: 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94, 4.42. Data have three significant digits although only two are needed for plotting.",
+  "background": "Consider these eight data points: 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94, 4.42. Data have three significant digits although only two are needed for plotting. Our rule will be to analyze the shape, location, and spread of the data.",
   "task": [
     {
-      "query": "Determine the shape of the data distribution.",
-      "answer": "Shape: A mound shape with no apparent outliers. (With such a small data set, little else can be said about shape.)",
-      "method": "连续型变量分布"
+      "query": "What is the shape of the data distribution?",
+      "answer": "A mound shape with no apparent outliers. (With such a small data set, little else can be said about shape.)"
     },
     {
-      "query": "Calculate the median of the data set.",
-      "answer": "Location: Because there are n=8 data points, the median has a depth of (8+1)/2=4.5. Count to a depth of 4.5 to see that the median falls between 3.4 and 3.7. Average these values; the median is about 3.55.",
-      "method": "集中趋势测度"
+      "query": "What is the location (median) of the data distribution?",
+      "answer": "Because there are n=8 data points, the median has a depth of (8+1)/2=4.5. Count to a depth of 4.5 to see that the median falls between 3.4 and 3.7. Average these values; the median is about 3.55."
     },
     {
-      "query": "Determine the spread of the data.",
-      "answer": "Spread: Data spread from about 1.4 to 4.4.",
-      "method": "分布范围测度"
+      "query": "What is the spread of the data distribution?",
+      "answer": "Data spread from about 1.4 to 4.4."
     }
   ],
   "id": "312",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Truncating leaf values.",
     "chapter": "FREQUENCY DISTRIBUTIONS",
     "section": "3.1 Stemplots",
     "page": "42-43"
+  },
+  "token_usage": {
+    "completion_tokens": 284,
+    "prompt_tokens": 506,
+    "total_tokens": 790,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

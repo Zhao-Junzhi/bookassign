@@ -1,0 +1,13 @@
+{
+  "case_id": "book4_r1\\024.json",
+  "input": {
+    "background": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries. The data are presented in a table with percentages for each group across countries (Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama). The goal is to analyze whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk, without considering differences between countries.",
+    "data": null,
+    "question": "(ii) Using multiple comparison tests where appropriate, what can you conclude from these results?"
+  },
+  "output": {
+    "answer": "Using multiple comparison tests where appropriate, the results of Friedman's test can be interpreted to determine if there are significant differences between the groups (mammals, birds, and reptiles/amphibians). Specific conclusions depend on the rank means and p-values obtained from the test, which are not provided in the question. Further analysis would involve comparing the rank means to identify which groups differ significantly."
+  },
+  "meta_info": {},
+  "sample_key": "76"
+}

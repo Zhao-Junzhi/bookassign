@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\120.json",
+  "input": {
+    "background": "Refer to the fill weights for the sample of ten 16-ounce cans in Table 7.6. Do the data provide sufficient evidence to indicate that the true standard deviation $\\sigma$ of the fill measurements of all 16-ounce cans is less than .1 ounce?",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{10}{|l|}{Table 7.6} \\\\\n\\hline 16.00 & 16.06 & 15.95 & 16.04 & 16.10 & 16.05 & 16.02 & 16.03 & 15.99 & 16.02 \\\\\n\\hline\n\\end{tabular}",
+    "question": "How is the test statistic calculated using the sample data, and what is its value?"
+  },
+  "output": {
+    "answer": "The test statistic is calculated as $\\chi^2 = \\frac{(n-1) s^2}{\\sigma^2}$. Substituting the values $n = 10$, $s = .0412$, and $\\sigma^2 = .01$, we have $\\chi^2 = \\frac{9(.0412)^2}{.01} = 1.53$."
+  },
+  "meta_info": {
+    "index": "7.12",
+    "img_in_question": null
+  },
+  "sample_key": "303",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1225,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1224,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1225,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1224,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

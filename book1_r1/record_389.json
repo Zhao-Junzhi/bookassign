@@ -1,20 +1,37 @@
 {
-  "background": "What is the probability a study with n=10 will detect a mean difference of 300 grams in birth weight in the SIDS population compared to the general population?",
+  "background": "What is the probability a study with n=10 will detect a mean difference of 300 grams in birth weight in the SIDS population compared to the general population? Assume σ=720 and use a two-sided α-level of 0.05.",
   "task": [
     {
-      "query": "Let us assume σ=720 and use a two-sided α-level of 0.05.",
-      "answer": "1-β=Φ(-z_1-0.05/2+|Δ|√n/σ)=Φ(-1.96+|300|√10/720)=Φ(-0.64)=0.2611. The power of this test is about 26%.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "Calculate the power of the test using the given parameters: n=10, mean difference=300 grams, σ=720, and a two-sided α-level of 0.05.",
+      "answer": "$1-\\beta=\\Phi\\left(-z_1-\\frac{.05}{2}+\\frac{|\\Delta| \\sqrt{n}}{\\sigma}\\right)= \\Phi\\left(-1.96+\\frac{|300| \\sqrt{10}}{720}\\right)=\\Phi(-0.64)=0.2611$. The power of this test is about $26 \\%$."
     }
   ],
   "id": "389",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Power of t test (SIDS).",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "228-228"
+  },
+  "token_usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 439,
+    "total_tokens": 660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

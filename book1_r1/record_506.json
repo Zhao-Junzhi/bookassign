@@ -1,20 +1,32 @@
 {
-  "background": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases.",
-  "task": [
-    {
-      "query": "Let $D$ represent thromboembolic diseases and $E$ represent exposure to early oral contraceptives. Suppose $\\operatorname{Pr}(D \\mid E)=0.00040$ and $\\operatorname{Pr}(D \\mid \\bar{E})=0.00010$. Therefore, $R R=\\frac{0.0004}{0.0001}=4.0$. Exposure quadrupled risk.",
-      "answer": "null",
-      "method": "事件发生概率及独立性"
-    }
-  ],
+  "background": "Oral contraceptives developed in the 1960s and 1970s were associated with an increased risk of thromboembolic diseases. Let $D$ represent thromboembolic diseases and $E$ represent exposure to early oral contraceptives. Suppose $\text{Pr}(D \text{ | } E) = 0.00040$ and $\text{Pr}(D \text{ | } \bar{E}) = 0.00010$. Therefore, $RR = \frac{0.0004}{0.0001} = 4.0$. Exposure quadrupled risk.",
+  "task": [],
   "id": "506",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Relative risk (Older formulation oral contraceptives).",
     "chapter": "Probability Concepts",
     "section": "5.5 More Rules and Properties of Probability",
     "page": "109-109"
+  },
+  "token_usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 415,
+    "total_tokens": 556,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

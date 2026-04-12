@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_502.json",
+  "input": {
+    "background": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple (X ~ b(3, 0.25)).",
+    "data": "",
+    "question": "What is the expected value of this random variable?"
+  },
+  "output": {
+    "answer": "μ = n * p = (3)(0.25) = 0.75"
+  },
+  "meta_info": {
+    "index": "6.7",
+    "image": "",
+    "caption": "Tay-Sachs.",
+    "chapter": "6.5 Expected Value and Variance",
+    "section": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "page": "124-124"
+  },
+  "sample_key": "766"
+}

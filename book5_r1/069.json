@@ -1,10 +1,9 @@
 {
-  "background": "In response to the criticism of the analysis of a crossover clinical trial of bran biscuits versus placebo biscuits in the diet of patients with irritable bowel syndrome, the first author argued that due to small sample sizes, confidence intervals would be wide and include both positive and negative values, making the analysis too diffuse to be meaningful.",
+  "background": "In response to the criticism of the analysis of a crossover clinical trial of bran biscuits versus placebo biscuits in the diet of patients with irritable bowel syndrome, the first author argued that confidence intervals in such studies are likely to contain zero, be fairly wide, and include both positive and negative values, making this form of analysis inappropriate as the results will always be too diffuse to be meaningful.",
   "task": [
     {
-      "query": "Is the argument that wide confidence intervals make the analysis meaningless reasonable?",
-      "answer": "No, this is not a reasonable argument. It is true that the confidence interval will be wide. This is not meaningless, but rather indicates that the study was too small to enable precise conclusions to be drawn.",
-      "method": "假设检验与区间估计"
+      "query": "Is it a reasonable argument that confidence intervals being wide and including both positive and negative values make the analysis inappropriate and the results too diffuse to be meaningful?",
+      "answer": "No, this is not a reasonable argument. It is true that the confidence interval will be wide. This is not meaningless, but rather indicates that the study was too small to enable precise conclusions to be drawn."
     }
   ],
   "id": "069",
@@ -18,5 +17,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "504-504"
+  },
+  "token_usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 450,
+    "total_tokens": 627,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

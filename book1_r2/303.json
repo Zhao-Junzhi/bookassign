@@ -1,71 +1,20 @@
 {
-  "case_id": "book1_r1\\record_157.json",
+  "case_id": "book1_r1\\record_121.json",
   "input": {
-    "background": "A South African study compared whether participating in a 5-year follow-up interview was associated with having medical aid (similar to health insurance).",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.5. Data for Exercise 19.1. Participation in fol-low-up survey and having medical aid (health insurance).}\n\\begin{tabular}{|l|l|l|}\n\\hline & Table A: All subjects Medical Aid + Medical Aid - & Total \\\n\\hline Follow-up + & 46 & - 416 \\\n\\hline Follow-up - & 195 & 1174 \\\n\\hline \\multicolumn{2}{|c|}{} & Total \\\n\\hline & \\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|r|r|}\n\\hline 10 & 2 \\\n\\hline 104 & 22 \\\n\\hline\n\\end{tabular} & 12 126 \\\n\\hline Follow-up + Follow-up - & & \\\n\\hline \\multicolumn{2}{|c|}{\\multirow{2}{*}{Table C: Blacks Medical Aid + Medical Aid -}} & \\\n\\hline & & Total \\\n\\hline Follow-up + & 36 & 404 \\\n\\hline Follow-up - & 91 & 1048 \\\n\\hline \\multicolumn{3}{|l|}{Source: Morrell, C. H. (1999). Simpson's paradox: An example from a longitudinal study in South Africa. Journal of Statistical Education, 7(3). Available at www,amstat.org/publications/jse/secure/v7n3/datasets .morrell.cfm.} \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Data for black participants are shown. Analyze the results for this stratum."
+    "background": "A survey in the early 1990s found that 170 of 2,673 individuals (6.4%) reported having two or more sexual partners in the prior 12 months. An earlier study from the 1970s suggested that the prevalence of this attribute in the population was 7.5%. The goal is to determine if the observed proportion is significantly different from the prior prevalence using a two-sided alternative hypothesis.",
+    "data": "",
+    "question": "Evaluate the significance of the result at different significance levels."
   },
   "output": {
-    "method": "描述性统计量",
-    "answer": "Nine percent of both groups had medical aid. Therefore, there is no association between follow-up and having medical aid in this stratum.",
-    "variable": {
-      "Follow-up": {
-        "id": "Follow-up",
-        "value": [
-          "Follow-up +",
-          "Follow-up -"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Participation in the follow-up interview."
-      },
-      "Medical Aid": {
-        "id": "Medical Aid",
-        "value": [
-          "Medical Aid +",
-          "Medical Aid -"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Having medical aid (health insurance) or not."
-      },
-      "Follow-up + Medical Aid +": {
-        "id": "Follow-up + Medical Aid +",
-        "value": 36,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of black participants who participated in the follow-up and have medical aid."
-      },
-      "Follow-up + Medical Aid -": {
-        "id": "Follow-up + Medical Aid -",
-        "value": 404,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of black participants who participated in the follow-up and do not have medical aid."
-      },
-      "Follow-up - Medical Aid +": {
-        "id": "Follow-up - Medical Aid +",
-        "value": 91,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of black participants who did not participate in the follow-up and have medical aid."
-      },
-      "Follow-up - Medical Aid -": {
-        "id": "Follow-up - Medical Aid -",
-        "value": 1048,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of black participants who did not participate in the follow-up and do not have medical aid."
-      }
-    }
+    "answer": "The evidence against $H_0$ is significant at $\\alpha=0.05$ (reject $H_0$) but is not significant at $\\alpha=0.01$ (retain $H_0$)."
   },
   "meta_info": {
-    "index": "19.1",
+    "index": "16.5",
     "image": "",
-    "caption": "Is participating in a follow-up survey associated with having medical aid?",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.3 MANTEL-HAENSZEL METHODS",
-    "page": "473-474"
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.3 HYPOTHESIS TEST, NORMAL APPROXIMATION",
+    "page": "357-357"
   },
   "sample_key": "303"
 }

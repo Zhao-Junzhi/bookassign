@@ -1,20 +1,17 @@
 {
-  "background": "Given $n=100$ with 25 successes, and 75 failures, an $80 \\%$ two-sided confidence limits on $p$ can be obtained by solving the following equations simultaneously.",
+  "background": "Given a sample size of n=100 with 25 successes and 75 failures, the task is to compute an 80% two-sided confidence interval for the population proportion p. The confidence limits are determined by solving two equations involving binomial probabilities.",
   "task": [
     {
-      "query": "Solve the equation $\\sum_{i=25}^{100}\\binom{100}{i} p_L^i\\left(1-p_L\\right)^{100-i}=0.10$ to find the lower confidence limit $p_L$.",
-      "answer": "$p_L \\approx 0.194$",
-      "method": "假设检验与区间估计"
+      "query": "What are the equations used to compute the lower and upper confidence limits for p in an 80% two-sided confidence interval?",
+      "answer": "The equations are:\n\\begin{aligned}\n& \\sum_{i=25}^{100}\\binom{100}{i} p_L^i\\left(1-p_L\\right)^{100-i}=0.10 \\\\\n& \\sum_{i=0}^{24}\\binom{100}{i} p_U^i\\left(1-p_U\\right)^{100-i}=0.10\n\\end{aligned}"
     },
     {
-      "query": "Solve the equation $\\sum_{i=0}^{24}\\binom{100}{i} p_U^i\\left(1-p_U\\right)^{100-i}=0.10$ to find the upper confidence limit $p_U$.",
-      "answer": "$p_U \\approx 0.313$",
-      "method": "假设检验与区间估计"
+      "query": "What are the approximate values of the lower and upper confidence limits for p?",
+      "answer": "The approximate values are:\n\\begin{aligned}\n& p_L \\approx 0.194 \\text { and } p_U \\approx 0.313\n\\end{aligned}"
     },
     {
-      "query": "Verify that $P[0.194<p<0.313]=0.80$.",
-      "answer": "The confidence interval $[0.194, 0.313]$ corresponds to an $80\\%$ confidence level.",
-      "method": "假设检验与区间估计"
+      "query": "What is the interpretation of the confidence interval [0.194, 0.313]?",
+      "answer": "The interpretation is: P[0.194<p<0.313]=0.80, meaning there is an 80% probability that the true population proportion p lies within the interval [0.194, 0.313]."
     }
   ],
   "id": "56",
@@ -28,5 +25,23 @@
     "section": "3.11 Interval Estimation",
     "book": "Statistical Reliability Engineering",
     "page": "188-188"
+  },
+  "token_usage": {
+    "completion_tokens": 349,
+    "prompt_tokens": 503,
+    "total_tokens": 852,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

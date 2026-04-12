@@ -1,0 +1,39 @@
+{
+  "case_id": "book2_r1\\131.json",
+  "input": {
+    "background": "A manufacturer of paper products wants to compare the variation in daily production levels at two paper mills. Independent random samples of days are selected from each mill, and the production levels (in units) are recorded. The data are shown in Table 8.8. The goal is to determine whether there is sufficient evidence to indicate a difference in the variability of production levels at the two paper mills. The significance level is $\\alpha=.10$.",
+    "data": "\\begin{tabular}{l|l|l|l|l|l|l|l|l}\n\\hline Table 8.8 & \\multicolumn{9}{|l}{ Production Levels at Two Paper Mills } \\\\\n\\hline Mill 1: & 34 & 18 & 28 & 21 & 40 & 23 & 29 & \\\\\n& 25 & 10 & 38 & 32 & 22 & 22 & & \\\\\n\\hline Mill 2: & 31 & 13 & 27 & 19 & 22 & 18 & 23 & 21\\\\\n& 18 & 15 & 24 & 13 & 19 & 18 & 23 & 13\\\\\n\\hline\n\\end{tabular}",
+    "question": "What are the sample variances and the calculated value of the test statistic?"
+  },
+  "output": {
+    "answer": "The sample standard deviations are $s_1=8.36$ and $s_2=4.85$, so the sample variances are $s_1^2=(8.36)^2$ and $s_2^2=(4.85)^2$. The calculated value of the test statistic is $$F=\\frac{s_1^2}{s_2^2}=\\frac{(8.36)^2}{(4.85)^2}=2.97$$."
+  },
+  "meta_info": {
+    "index": "8.10",
+    "img_in_question": null
+  },
+  "sample_key": "339",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 910,
+    "total_tokens": 937,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 910,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

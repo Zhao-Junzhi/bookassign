@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\078.json",
+  "input": {
+    "background": "Find the value of z, denoted as z_0, in the standard normal distribution such that only 10% of the distribution exceeds z_0. This involves determining the z-value corresponding to a given probability.",
+    "data": null,
+    "question": "How can statistical software, such as Minitab, be used to verify the value of z_0?"
+  },
+  "output": {
+    "answer": "Using statistical software like Minitab, we can use the inverse cumulative distribution function for a normal random variable and specify the cumulative probability P(z ≤ z_0) = 0.9. The software will output the value of z_0, which agrees with the solution derived using the normal table (z_0 = 1.28)."
+  },
+  "meta_info": {
+    "index": "4.22",
+    "img_in_question": null
+  },
+  "sample_key": "187"
+}

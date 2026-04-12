@@ -2,19 +2,20 @@
   "background": "How would you assess the comparability of the treatment groups at baseline in the trial illustrated in Table 3.5?",
   "task": [
     {
-      "query": "Assess the differences in baseline values in the treatment groups for variables which might affect patient prognosis and their potential impact on the trial result.",
-      "answer": "Differences in baseline values in the treatment groups for variables which might affect patient prognosis could affect the result of the trial. It is the magnitude of the imbalance that is important; statistical significance is irrelevant.",
-      "method": "描述性统计量"
+      "query": "What is the impact of differences in baseline values in treatment groups for variables that might affect patient prognosis?",
+      "answer": "Differences in baseline values in the treatment groups for variables which might affect patient prognosis could affect the result of the trial. It is the magnitude of the imbalance that is important; statistical significance is irrelevant."
     },
     {
-      "query": "Evaluate the potential importance of the imbalance in pain at presentation and suggest an appropriate analysis approach.",
-      "answer": "In Table 3.5, the differences are trivial except perhaps for pain at presentation. As pain score was also the outcome measure for the trial, this imbalance could be important. It may therefore be reasonable to analyse the change in pain from baseline rather than the value at the end of the study. (In fact, in this study the authors noted that the baseline pain score was not prognostic.)",
-      "method": "假设检验与区间估计"
+      "query": "What are the notable differences in Table 3.5, and how might they affect the analysis?",
+      "answer": "In Table 3.5, the differences are trivial except perhaps for pain at presentation. As pain score was also the outcome measure for the trial, this imbalance could be important. It may therefore be reasonable to analyse the change in pain from baseline rather than the value at the end of the study. (In fact, in this study the authors noted that the baseline pain score was not prognostic.)"
     },
     {
-      "query": "Examine the outcome in relation to the values of an imbalanced variable for each treatment group and describe how to handle imbalance in a prognostic variable.",
-      "answer": "When there is imbalance in a variable for which the prognostic value is unknown, the outcome can be examined in relation to the values of that variable for each treatment group. Imbalance in a prognostic variable is handled by adjusting the comparison of treatment groups using regression analysis, see section 15.4.",
-      "method": "模型解读"
+      "query": "How should imbalance in a variable with unknown prognostic value be handled?",
+      "answer": "When there is imbalance in a variable for which the prognostic value is unknown, the outcome can be examined in relation to the values of that variable for each treatment group."
+    },
+    {
+      "query": "How is imbalance in a prognostic variable addressed in statistical analysis?",
+      "answer": "Imbalance in a prognostic variable is handled by adjusting the comparison of treatment groups using regression analysis, see section 15.4."
     }
   ],
   "id": "057",
@@ -28,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "474-474"
+  },
+  "token_usage": {
+    "completion_tokens": 344,
+    "prompt_tokens": 498,
+    "total_tokens": 842,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_447.json",
+  "input": {
+    "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
+    "data": "",
+    "question": "How is the standard error (SE) of the natural logarithm of the odds ratio (ln(OR)) calculated, and what is its value?"
+  },
+  "output": {
+    "answer": "\\(S E_{\\ln \\widehat{O R}}=\\sqrt{\\frac{1}{a_1}+\\frac{1}{a_2}+\\frac{1}{b_1}+\\frac{1}{b_2}}=\\sqrt{\\frac{1}{96}+\\frac{1}{104}+\\frac{1}{109}+\\frac{1}{666}}= 0.1752\\)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "439-439"
+  },
+  "sample_key": "748"
+}

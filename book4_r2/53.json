@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\017.json",
   "input": {
-    "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF).",
+    "background": "As part of a study into the effects of woodland management on bird distribution, 36 woods were surveyed for the presence (P) or absence (A) of long-tailed tits and classified as one of three woodland types: pre-thicket (PT), thicket (T) or high forest (HF). The data includes the wood number, wood type, and the presence or absence of long-tailed tits.",
     "data": null,
-    "question": "Calculate the total X^2, df and P values."
+    "question": "(i) Arrange the data in a 3 × 2 contingency table (including row, column and grand totals)."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "X^2=6.9549, df=2, P<0.05(=0.0309)"
+    "answer": "Pre-thicket: Present=7, Absent=5; Thicket: Present=10, Absent=1; High forest: Present=5, Absent=8; Row totals: Present=22, Absent=14; Column totals: Pre-thicket=12, Thicket=11, High forest=13; Grand total=36."
   },
   "meta_info": {
     "index": "6.1",

@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_064.json",
+  "case_id": "book1_r1\\record_050.json",
   "input": {
-    "background": "The weight of brains from Alzheimer cadavers varies according to a Normal distribution with mean 1077 grams and standard deviation 106 grams. The weight of an Alzheimer-free brain averages 1250 grams.",
+    "background": "Tay-Sachs is a metabolic disorder that is inherited as an autosomal recessive trait. Both recessive alleles are necessary for expression of the disease. Therefore, when each parent is a carrier, there is a one in four chance of transmitting the genetic disorder to each offspring.",
     "data": "",
-    "question": "What proportion of brains with Alzheimer disease will weigh more than 1250 grams?"
+    "question": "A carrier couple is unaware of their carrier state. Let X represent the number of children conceived before an affected offspring is encountered. Is X a binomial random variable? Explain."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "1. State: $X \\sim \\mathrm{~N}(1077,106)$. We want to determine $\\operatorname{Pr}(X \\geq 1250)$\n2. Standardize: $z=\\frac{1250-1077}{106}=1.63$\n3. Sketch: not shown\n4. Use Table B: $\\operatorname{Pr}(Z \\geq 1.63)=1-.9484=0.0516$",
-    "variable": {
-      "Alzheimer_brain_weight": {
-        "id": "Alzheimer_brain_weight",
-        "value": {
-          "mean": 1077,
-          "standard_deviation": 106
-        },
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The weight of brains from Alzheimer cadavers, which follows a Normal distribution."
-      },
-      "Threshold_weight": {
-        "id": "Threshold_weight",
-        "value": 1250,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The weight threshold to determine the proportion of Alzheimer brains weighing more than this value."
-      }
-    }
+    "answer": "This is not a binomial because the number of trials n is not fixed."
   },
   "meta_info": {
-    "index": "7.13",
+    "index": "6.1",
     "image": "",
-    "caption": "Alzheimer brains.",
-    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
-    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
-    "page": "153-153"
+    "caption": "Tay-Sachs.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.1 Binomial Random Variables",
+    "page": "116-116"
   },
   "sample_key": "112"
 }

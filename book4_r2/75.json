@@ -1,0 +1,13 @@
+{
+  "case_id": "book4_r1\\024.json",
+  "input": {
+    "background": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries. The data are presented in a table with percentages for each group across countries (Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama). The goal is to analyze whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk, without considering differences between countries.",
+    "data": null,
+    "question": "(i) Carry out Friedman's matched group two-way analysis of variance using ranks to determine whether there is a difference between the percentage of the different groups of animals (mammals, birds, and reptiles/amphibians) at risk (assume that we are not interested in differences between countries)."
+  },
+  "output": {
+    "answer": "The data below show the percentage of mammal, bird, and reptile/amphibian species at risk (as a percentage of those species known) in eight Central American countries:\n\n\\begin{tabular}{lllllllll}\n\\hline & Belize & Costa Rica & El Salvador & Guatemala & Honduras & Mexico & Nicaragua & Panama \\\\\n\\hline Mammals & 7.44 & 4.93 & 5.43 & 5.17 & 4.47 & 7.29 & 5.08 & 6.00 \\\\\nBirds & 0.20 & 0.63 & 0.69 & 1.20 & 0.74 & 12.8 & 0.66 & 0.65 \\\\\nReptiles/ Amphibians & 6.02 & 2.44 & 5.38 & 3.30 & 4.13 & 3.90 & 4.07 & 3.27 \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{llll}\n\\hline & Rank mean & \\multicolumn{3}{l}{ Friedman's test } \\\\\n\\hline Mammals & & $\\mathrm{df}:$ & $\\mathrm{Fr}:$ & $\\mathrm{P}:$ \\\\\nBirds & & & \\\\\nReptiles/ amphibians & & & \\\\\n\\hline\n\\end{tabular}"
+  },
+  "meta_info": {},
+  "sample_key": "75"
+}

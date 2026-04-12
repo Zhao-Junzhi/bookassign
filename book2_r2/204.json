@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\083.json",
+  "input": {
+    "background": "The research department of a steel manufacturer suspects that one of the company's rolling machines is producing steel sheets with varying thickness. The thickness is modeled as a uniform random variable between 150 and 200 millimeters. Sheets with a thickness less than 160 millimeters are considered unacceptable and must be scrapped.",
+    "data": null,
+    "question": "Calculate the fraction of steel sheets produced by this machine that have to be scrapped."
+  },
+  "output": {
+    "answer": "To find the fraction of steel sheets produced by the machine that have to be scrapped, we must find the probability that $x$, the thickness, is less than 160 millimeters. As indicated in Figure 4.40, we need to calculate the area under the frequency function $f(x)$ between the points $x=150$ and $x=160$. Therefore, in this case, $a =150$ and $b=160$. Applying the formula in the box, we have\n\n$$\n\\begin{aligned}\nP(x<160) & =P(150<x<160) \\\\\n& =\\frac{b-a}{d-c}=\\frac{160-150}{200-150}=\\frac{10}{50}=\\frac{1}{5}=.2\n\\end{aligned}\n$$\n\nThat is, $20 \\%$ of all the sheets made by this machine must be scrapped."
+  },
+  "meta_info": {
+    "index": "4.27",
+    "img_in_question": null
+  },
+  "sample_key": "204"
+}

@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_083.json",
+  "case_id": "book1_r1\\record_071.json",
   "input": {
-    "background": "A study takes an SRS from a population of full-term infants. The standard deviation of birth weights in this population is 2 pounds.",
+    "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution with parameters $n$ and $p$. When the sample is large, the number of successes will vary according to a Normal distribution with mean and standard deviation. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed with mean $p$ and standard deviation.",
     "data": "",
-    "question": "Calculate 95% confidence intervals for μ for samples in which n=9 and \\bar{x}=5.8 pounds."
+    "question": "What type of probability distribution does the count of successes in the sample follow, and what are its parameters?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "5.8 ± (1.96) \\frac{2}{\\sqrt{9}} = 5.8 ± 1.31 = (4.5 to 7.1)",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 9,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of samples taken, denoted as n."
-      },
-      "sample_mean": {
-        "id": "sample_mean",
-        "value": 5.8,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean birth weight of the sample, denoted as \\bar{x}."
-      },
-      "population_std_dev": {
-        "id": "population_std_dev",
-        "value": 2,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of birth weights in the population."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The confidence level for the interval estimation."
-      }
-    }
+    "answer": "(a) binomial, (b) $p$"
   },
   "meta_info": {
-    "index": "10.3",
+    "index": "8.13",
     "image": "",
-    "caption": "Newborn weight.",
-    "chapter": "BASICS OF CONFIDENCE INTERVALS",
-    "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
-    "page": "203-203"
+    "caption": "Fill in the blanks.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
   },
   "sample_key": "158"
 }

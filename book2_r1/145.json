@@ -1,0 +1,39 @@
+{
+  "background": "Consider the problem of determining the highest level of education attained by each of n=100 salespersons at a large company. Suppose we categorize level of education into one of five categories—some high school, high school diploma, some college, college degree, and graduate degree—and count the number of the 100 salespeople that fall into each category.",
+  "task": [
+    {
+      "query": "Is this a multinomial experiment to a reasonable degree of approximation?",
+      "answer": "Checking the five properties of a multinomial experiment shown in the box, we have the following:\n1. The experiment consists of n=100 identical trials, where each trial is to determine the highest level of education of a salesperson.\n2. There are k=5 possible outcomes to each trial corresponding to the five education-level categories.\n3. The probabilities of the k=5 outcomes, p1, p2, p3, p4, and p5, remain (to a reasonable degree of approximation) the same from trial to trial, where pi represents the true probability that a salesperson attains level of education i.\n4. The trials are independent (i.e., the education level attained by one salesperson does not affect the level attained by any other salesperson).\n5. We are interested in the count of the number of salespeople who fall into each of the five categories. These five cell counts are denoted n1, n2, n3, n4, and n5.\nThus, the properties of a multinomial experiment are satisfied."
+    }
+  ],
+  "id": "145",
+  "data": "null",
+  "meta_info": {
+    "index": "10.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Identifying a Multinomial Experiment",
+    "chapter": "Categorical Data Analysis",
+    "section": "10.1 Categorical Data and the Multinomial Experiment",
+    "book": "Statistics for Business and Economics",
+    "page": "343-343"
+  },
+  "token_usage": {
+    "completion_tokens": 329,
+    "prompt_tokens": 617,
+    "total_tokens": 946,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

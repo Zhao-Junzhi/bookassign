@@ -1,15 +1,13 @@
 {
-  "background": "The failure times $t_1, t_2, \\ldots, t_n$ are independent observations from a population with the following probability density function: $$f(t)=(1+\\lambda) \\mathrm{t}^\\lambda \\quad \\text { for } 0<\\mathrm{t}<1.$$",
+  "background": "The failure times t1, t2, ..., tn are independent observations from a population with the probability density function f(t) = (1+λ)t^λ for 0<t<1.",
   "task": [
     {
-      "query": "Find the maximum likelihood estimator of $\\lambda$.",
-      "answer": "$\\hat{\\lambda}=-1-\\frac{n}{\\sum_{i=1}^n \\ln \\left(t_i\\right)}$.",
-      "method": "通过最大化似然函数估计参数的问题。包括正态、泊松、指数、Weibull 等分布拟合。"
+      "query": "Find the maximum likelihood estimator of λ based on the given probability density function.",
+      "answer": "λ̂ = -1 - n / Σ(ln(ti)) for i = 1 to n."
     },
     {
-      "query": "The failure times are: $0.2,0.3,0.35,0.45,0.5,0.6,0.7,0.75,0.8$, and 0.95 h. Obtain the MLE of $\\lambda$.",
-      "answer": "$\\hat{\\lambda}=0.4739$.",
-      "method": "通过最大化似然函数估计参数的问题。包括正态、泊松、指数、Weibull 等分布拟合。"
+      "query": "Given the failure times 0.2, 0.3, 0.35, 0.45, 0.5, 0.6, 0.7, 0.75, 0.8, and 0.95 hours, calculate the MLE of λ.",
+      "answer": "λ̂ = 0.4739."
     }
   ],
   "id": "121",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "218-218"
+  },
+  "token_usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 493,
+    "total_tokens": 686,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

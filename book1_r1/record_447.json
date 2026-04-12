@@ -2,34 +2,48 @@
   "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
   "task": [
     {
-      "query": "Calculate the natural logarithm of the estimated odds ratio (OR).",
-      "answer": "We've established \\(\\widehat{OR}=5.640\\). Therefore, \\(\\ln \\widehat{OR}=\\ln(5.640)\\) = 1.7299 (by calculator).",
-      "method": "获取模型参数估计值"
+      "query": "What is the value of the estimated odds ratio (OR) and its natural logarithm (ln(OR))?",
+      "answer": "We've established \\(\\widehat{O R}=5.640\\). Therefore, \\(\\ln \\widehat{O R}=\\ln(5.640)\\) = 1.7299 (by calculator)."
     },
     {
-      "query": "Calculate the standard error of the natural logarithm of the estimated odds ratio (OR).",
-      "answer": "\\(SE_{\\ln \\widehat{OR}}=\\sqrt{\\frac{1}{a_1}+\\frac{1}{a_2}+\\frac{1}{b_1}+\\frac{1}{b_2}}=\\sqrt{\\frac{1}{96}+\\frac{1}{104}+\\frac{1}{109}+\\frac{1}{666}}=\\) 0.1752.",
-      "method": "获取模型参数估计值"
+      "query": "How is the standard error (SE) of the natural logarithm of the odds ratio (ln(OR)) calculated, and what is its value?",
+      "answer": "\\(S E_{\\ln \\widehat{O R}}=\\sqrt{\\frac{1}{a_1}+\\frac{1}{a_2}+\\frac{1}{b_1}+\\frac{1}{b_2}}=\\sqrt{\\frac{1}{96}+\\frac{1}{104}+\\frac{1}{109}+\\frac{1}{666}}= 0.1752\\)."
     },
     {
-      "query": "Calculate the 90% confidence interval for the odds ratio (OR).",
-      "answer": "The \\(90\\%\\) confidence interval for the \\(OR=e^{1.7299 \\pm(1.645)(0.1752)}\\) \\(e^{1.7299} \\pm 0.2882=e^{1.4417,2.0181}=4.23\\) to 7.52.",
-      "method": "假设检验与区间估计"
+      "query": "What is the 90% confidence interval for the odds ratio (OR)?",
+      "answer": "The \\(90 \\%\\) confidence interval for the \\(O R=e^{1.7299 \\pm(1.645)(0.1752)}\\) \\(e^{1.7299} \\pm 0.2882=e^{1.4417,2.0181}=4.23\\) to 7.52."
     },
     {
-      "query": "Calculate the 95% confidence interval for the odds ratio (OR).",
-      "answer": "The \\(95\\%\\) confidence interval for the \\(OR=e^{1.7299 \\pm(1.96)(0.1752)}\\) \\(e^{1.7299 \\pm 0.3433}=e^{1.3866,2.0732}=4.00\\) to 7.95.",
-      "method": "假设检验与区间估计"
+      "query": "What is the 95% confidence interval for the odds ratio (OR)?",
+      "answer": "The \\(95 \\%\\) confidence interval for the \\(O R=e^{1.7299 \\pm(1.96)(0.1752)}\\) \\(e^{1.7299 \\pm 0.3433}=e^{1.3866,2.0732}=4.00\\) to 7.95."
     }
   ],
   "id": "447",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.5 CASE-CONTROL SAMPLES",
     "page": "439-439"
+  },
+  "token_usage": {
+    "completion_tokens": 489,
+    "prompt_tokens": 588,
+    "total_tokens": 1077,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

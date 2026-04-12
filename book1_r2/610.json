@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_390.json",
+  "input": {
+    "background": "A randomized, double-blind, placebo-controlled trial examined the effects of calcium supplementation on blood pressure in normotensive men aged 19 to 52 years. After establishing baseline blood pressures, subjects were assigned to either a treatment group or a control group. The treatment group was supplemented with 1500 milligrams of calcium per day for a 12-week period, while the control group received an identical-appearing placebo. Systolic blood pressure measurements were taken in the seated position for African American men who participated in the study. The treatment group consisted of 10 observations with an average decline of 5.00 mmHg (standard deviation 8.743), and the placebo group consisted of 11 observations with an average decline of -0.27 mmHg (standard deviation 5.901).",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.3 Effect of calcium supplementation on blood pressure.}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline \\multicolumn{5}{|c|}{GROUP} \\\n\\hline SUBJECT ID No. & 1 = treatment 2 = placebo & BEFORE mm Hg & AFTER mm Hg & DELTA mm Hg \\\n\\hline 1 & 1 & 107 & 100 & 7 \\\n\\hline 2 & 1 & 110 & 114 & -4 \\\n\\hline 3 & 1 & 123 & 105 & 18 \\\n\\hline 4 & 1 & 129 & 112 & 17 \\\n\\hline 5 & 1 & 112 & 115 & -3 \\\n\\hline 6 & 1 & 111 & 116 & -5 \\\n\\hline 7 & 1 & 107 & 106 & 1 \\\n\\hline 8 & 1 & 112 & 102 & 10 \\\n\\hline 9 & 1 & 136 & 125 & 11 \\\n\\hline 10 & 1 & 102 & 104 & -2 \\\n\\hline 11 & 2 & 123 & 124 & -1 \\\n\\hline 12 & 2 & 109 & 97 & 12 \\\n\\hline 13 & 2 & 112 & 113 & -1 \\\n\\hline 14 & 2 & 102 & 105 & -3 \\\n\\hline 15 & 2 & 98 & 95 & 3 \\\n\\hline 16 & 2 & 114 & 119 & -5 \\\n\\hline 17 & 2 & 119 & 114 & 5 \\\n\\hline 18 & 2 & 114 & 112 & 2 \\\n\\hline 19 & 2 & 110 & 121 & -11 \\\n\\hline 20 & 2 & 117 & 118 & -1 \\\n\\hline 21 & 2 & 130 & 133 & -3 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "What are the declines in blood pressure (mmHg) for the placebo group, and what is their average and standard deviation?"
+  },
+  "output": {
+    "answer": "The declines in blood pressure for the placebo group are: -1, 12, -1, -3, 3, -5, 5, 2, -11, -1, -3. The average decline is -0.27 mmHg, and the standard deviation is 5.901."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Paired and independent samples (Effect of calcium supplementation on blood pressure).",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.1 Paired and Independent Samples",
+    "page": "236-237"
+  },
+  "sample_key": "610"
+}

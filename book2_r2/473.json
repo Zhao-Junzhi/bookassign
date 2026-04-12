@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\171.json",
+  "input": {
+    "background": "Analyze the distribution of the residuals in the grandfather clock example, both before and after the outlier residual is removed. Determine whether the assumption of a normally distributed error term is reasonable.",
+    "data": "null",
+    "question": "Construct a histogram and normal probability plot for the two sets of residuals, both before and after the outlier residual is removed."
+  },
+  "output": {
+    "answer": "A histogram and normal probability plot for the two sets of residuals are constructed using Minitab and are shown in Figures 12.45 and 12.46."
+  },
+  "meta_info": {
+    "index": "12.17",
+    "img_in_question": null
+  },
+  "sample_key": "473"
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_368.json",
+  "input": {
+    "background": "We have established a test of $H_0: \\mu=170$ versus $H_{\\mathrm{a}}: \\mu>170$ in a population with $\\sigma=40$ pounds. A simple random sample of $n=64$ is associated with $S E_{\\bar{x}}=\\frac{40}{\\sqrt{64}}=5$.",
+    "data": "",
+    "question": "Sample 1. What is the $z$-statistic for a sample in which $\\bar{x}=173$?"
+  },
+  "output": {
+    "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{173-170}{5}=0.6$"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "z-statistic (Body weight of 20-29-year-old men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
+  },
+  "sample_key": "549",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1060,
+    "total_tokens": 1103,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1059,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1060,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1059,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

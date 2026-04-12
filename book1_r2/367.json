@@ -1,42 +1,20 @@
 {
-  "case_id": "book1_r1\\record_341.json",
+  "case_id": "book1_r1\\record_146.json",
   "input": {
-    "background": "Suppose you know a household owns a cat.",
-    "data": "",
-    "question": "What is the probability that it also owns a dog? In other words, what is the probability of dog ownership given cat ownership?"
+    "background": "Exercise 18.4 found coronary heart disease risks of 1.0%, 1.3%, and 2.8% in low, intermediate, and high anger-trait groups. Table 18.9 lists observed frequencies for the problem.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.9 Data for Exercise 18.4 and Exercise 18.10. Coronary heart disease (CHD) incidents according to anger-trait category.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Anger-level & CHD+ & CHD- & Total \\\n\\hline Low & 31 & 3079 & 3110 \\\n\\hline Moderate & 63 & 4668 & 4731 \\\n\\hline High & 18 & 615 & 633 \\\n\\hline Total & 112 & 8362 & 8474 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Apply a test of trend to these data. Show all hypothesis-testing steps."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$\\operatorname{Pr}(B \\mid A)=\\frac{\\operatorname{Pr}(A \\text { and } B)}{\\operatorname{Pr}(A)}=\\frac{0.15}{0.35}=0.4286$. The probability of owning a dog given cat ownership is about $43 \\%$.",
-    "variable": {
-      "Cat_Ownership": {
-        "id": "Cat_Ownership",
-        "value": [
-          "Yes"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Indicates whether a household owns a cat."
-      },
-      "Dog_Ownership": {
-        "id": "Dog_Ownership",
-        "value": [
-          "Yes",
-          "No"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates whether a household owns a dog."
-      }
-    }
+    "answer": "A. Hypotheses. $H_{t_j}$; no trend between anger-trait and hard coronary events in the source population"
   },
   "meta_info": {
-    "index": "",
+    "index": "18.11",
     "image": "",
-    "caption": "Conditional probability (Pet ownership).",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.5 MORE RULES AND PROPERTIES OF Probability ",
-    "page": "108-109"
+    "caption": "Anger and heart disease.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.4 Test for Trend",
+    "page": "435-435"
   },
   "sample_key": "367"
 }

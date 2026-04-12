@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\125.json",
+  "input": {
+    "background": "Behavioral researchers have developed an index designed to measure managerial success. The index (measured on a 100-point scale) is based on the manager's length of time in the organization and their level within the firm. A researcher wants to compare the average success index for two groups of managers at a large manufacturing plant. Group 1 managers engage in a high volume of interactions with people outside their work unit, while Group 2 managers rarely interact with people outside their work unit. Independent random samples of 12 and 15 managers are selected from Groups 1 and 2, respectively, and the success index of each is recorded. The results of the study are given in Table 8.2.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{2}{|c|}{Table 8.2} & \\multicolumn{10}{|c|}{Managerial Success Indexes for Two Groups of Managers} \\\\\n\\hline \\multicolumn{6}{|c|}{Group 1} & \\multicolumn{6}{|c|}{Group 2} \\\\\n\\hline \\multicolumn{6}{|c|}{Interaction with Outsiders} & \\multicolumn{6}{|c|}{Few Interactions} \\\\\n\\hline 65 & 58 & 78 & 60 & 68 & 69 & 62 & 53 & 36 & 34 & 56 & 50 \\\\\n\\hline 66 & 70 & 53 & 71 & 63 & 63 & 42 & 57 & 46 & 68 & 48 & 42 \\\\\n\\hline & & & & & & 52 & 53 & 43 & & & \\\\\n\\hline\n\\end{tabular}",
+    "question": "What assumptions must be made so that the estimate is valid? Are they reasonably satisfied?"
+  },
+  "output": {
+    "answer": "To properly use the small-sample confidence interval, the following assumptions must be satisfied: 1. The samples of managers are randomly and independently selected from the populations of Group 1 and Group 2 managers. 2. The success indexes are normally distributed for both groups of managers. 3. The variance of the success indexes is the same for the two populations (i.e., σ1² = σ2²). The first assumption is satisfied based on the sampling procedure described. For the second assumption, normal probability plots (Figure 8.8) show near straight-line trends, indicating that the success index distributions are approximately normal. For the third assumption, box plots (Figure 8.9) show similar spreads, suggesting that the variances are approximately equal."
+  },
+  "meta_info": {
+    "index": "8.4",
+    "img_in_question": null
+  },
+  "sample_key": "319"
+}

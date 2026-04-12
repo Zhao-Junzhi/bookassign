@@ -2,19 +2,36 @@
   "background": "The Irish Department of Health recommends a reading level of 12 to 14 years of age for health information leaflets aimed at the public. Table 3.1 lists reading levels for n = 46 Irish health care Web sites.",
   "task": [
     {
-      "query": "Assess whether the reading levels of the Irish health care Web sites meet the recommended reading level of 12 to 14 years of age.",
-      "answer": "If we imagine that each data point has an invisible",
-      "method": "均值检验"
+      "query": "If we imagine that each data point has an invisible",
+      "answer": "If we imagine that each data point has an invisible"
     }
   ],
   "id": "313",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.1. Reading levels for Irish healthcare web sites ( $n=46$ ).}\n\\begin{tabular}{llllllllll}\n\\hline 08 & 10 & 11 & 11 & 12 & 13 & 13 & 13 & 13 & 14 \\\n14 & 15 & 15 & 15 & 15 & 15 & 15 & 15 & 16 & 16 \\\n16 & 14 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 \\\n17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 & 17 \\\n17 & 17 & 17 & 17 & 17 & 17 & & & & \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Irish health care web sites.",
     "chapter": "FREQUENCY DISTRIBUTIONS",
     "section": "3.1 Stemplots",
     "page": "43-44"
+  },
+  "token_usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 355,
+    "total_tokens": 515,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_503.json",
+  "input": {
+    "background": "Determine whether the boldface numbers in the given scenarios represent a parameter or a statistic.",
+    "data": "",
+    "question": "Insured? A data set based on 168 hospital discharge summaries shows that 20% of patients were uninsured. (The review takes place in a large referral hospital.) Is 20% a parameter or a statistic?"
+  },
+  "output": {
+    "answer": "Statistic"
+  },
+  "meta_info": {
+    "index": "8.3",
+    "image": "",
+    "caption": "Parameter or statistic?",
+    "chapter": "Introduction to Statistical Inference",
+    "section": "8.1 Concepts",
+    "page": "158-158"
+  },
+  "sample_key": "768"
+}

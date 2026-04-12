@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\138.json",
+  "input": {
+    "background": "Refer to the completely randomized design ANOVA conducted in Example 9.4. The question is whether the assumptions required for the test are approximately satisfied.",
+    "data": null,
+    "question": "How is the normality assumption checked, and is it satisfied?"
+  },
+  "output": {
+    "answer": "The normality assumption is checked by examining histograms in Figure 9.14. However, with only 10 sample measurements for each brand, the displays are not very informative. More data would need to be collected to assess whether the distances come from normal distributions. Fortunately, ANOVA is robust to moderate departures from normality, so this assumption is not strictly verified but is considered acceptable due to the robustness of the ANOVA methodology."
+  },
+  "meta_info": {
+    "index": "9.5",
+    "img_in_question": null
+  },
+  "sample_key": "365"
+}

@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\93.json",
+  "case_id": "book3_r1\\58.json",
   "input": {
-    "background": "Claim amounts for wind damage to insured homes are independent random variables with a common probability density function $$f(x)=3 e^{-3 x} \\text { for } x>0$$, where $x$ is the amount of a claim in thousands. Suppose 4 such claims will be made.",
-    "data": null,
-    "question": "What is the expected value of the smallest of the four claims?"
+    "background": "The experiment involves testing a hypothesis about the proportion of defective items in a population. The data sequence is gbggbgbgbggbgbg, where b denotes defective items and g denotes good items. The null hypothesis is H0: p = p0 = 0.10, and the alternative hypothesis is H1: p = p1 = 0.20. The goal is to reject H0 with a probability of 0.05 when it is true and accept H0 with a probability of 0.20 when H1 is true. Using a sequential testing plan, the task is to determine whether to accept or reject the lot based on the observations provided.",
+    "data": "$$\n\\mathrm{s}_{\\mathrm{b}} n+b_1<d_n<\\mathrm{s}_{\\mathrm{b}} n+b_0\n$$\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.13 The sampling procedure}\n\\begin{tabular}{|l|l|l|l|l|}\n\\hline $n$ & $x_n$ & $d_n$ & Acceptance \\# & Rejection \\# \\\\\n\\hline 1 & 0 & 0 & - & - \\\\\n\\hline 2 & 1 & 1 & - & - \\\\\n\\hline 3 & 0 & 1 & - & - \\\\\n\\hline 4 & 0 & 1 & - & - \\\\\n\\hline 5 & 1 & 2 & - & 5 \\\\\n\\hline 6 & 0 & 2 & - & 5 \\\\\n\\hline 7 & 1 & 3 & - & 5 \\\\\n\\hline 8 & 0 & 3 & - & 5 \\\\\n\\hline 9 & 1 & 4 & - & 5 \\\\\n\\hline 10 & 0 & 4 & - & 5 \\\\\n\\hline 11 & 0 & 4 & - & 6 \\\\\n\\hline 12 & 1 & 5 & - & 6 \\\\\n\\hline 13 & 0 & 5 & - & 6 \\\\\n\\hline 14 & 1 & 6 & 0 & 6 \\\\\n\\hline 15 & 0 & 6 & 0 & 6 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Establish the acceptance and rejection lines for the sequential testing plan."
   },
   "output": {
-    "method": "期望",
-    "answer": "The expected value of the smallest of the four claims is $83.333"
+    "answer": "The acceptance line is given by: $0.1452n - 1.9214$. The rejection line is given by: $0.1452n + 3.4190$."
   },
   "meta_info": {
-    "index": "1.41",
+    "index": "3.41",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
-    "section": "1.13 Problems",
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.13 Sequential Sampling",
     "book": "Statistical Reliability Engineering",
-    "page": "64-64"
+    "page": "198-199"
   },
   "sample_key": "211"
 }

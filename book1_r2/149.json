@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_079.json",
+  "case_id": "book1_r1\\record_067.json",
   "input": {
-    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ= 85,100(σ=10,000).",
+    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation = 1.65).",
     "data": "",
-    "question": "Calculate the z_stat and P-value for an observed x̄ of 80,900."
+    "question": "Is it reasonable to assume that the number of health problems per person will vary according to a Normal distribution? Explain your reasoning."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "z_stat=(80900-85100)/2236=-1.88\n\nOne-sided P=Pr(Z ≤ -1.88)=0.0301\nTwo-sided P=2 × 0.0301=0.0602",
-    "variable": {
-      "female_administrators_salary": {
-        "id": "female_administrators_salary",
-        "value": 80900,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average annual salary of 20 female hospital administrators."
-      },
-      "population_mean_salary": {
-        "id": "population_mean_salary",
-        "value": 85100,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The average salary of hospital administrators as suggested by published results."
-      },
-      "population_standard_deviation": {
-        "id": "population_standard_deviation",
-        "value": 10000,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the salary of hospital administrators."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 20,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female hospital administrators in the sample."
-      }
-    }
+    "answer": "False. It is not reasonable to assume that the number of health problems per person is Normal. Most people will have 0 or 1 health problem and a small number will have 2, 3, 4, or more problems; the distribution is likely to have a positive skew."
   },
   "meta_info": {
-    "index": "9.15",
+    "index": "8.5",
     "image": "",
-    "caption": "Female administrators.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 POWER AND SAMPLE SIZE",
-    "page": "194-194"
+    "caption": "Survey of health problems.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.2 Sampling Behavior of a Mean",
+    "page": "166-166"
   },
   "sample_key": "149"
 }

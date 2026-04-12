@@ -1,61 +1,20 @@
 {
-  "case_id": "book1_r1\\record_058.json",
+  "case_id": "book1_r1\\record_046.json",
   "input": {
-    "background": "Heights of 10-year-old male children follow a Normal distribution with μ=138 centimeters and σ=7 centimeters.",
+    "background": "The probability associated with a proposition can be used to quantify the confidence in a judgment. At one extreme, a probability statement of 0 represents the personal belief that the proposition can never happen. At the other extreme, a probability statement of 1 represents the personal belief that the proposition will always occur. Probabilities between these two extremes represent shades of gray.",
     "data": "",
-    "question": "Use the 68-95—99.7 rule to determine the middle 68% of values. What percent of values fall below this range? What percent fall above this range?"
+    "question": "Match the percentage 80% with the narrative statement listed in (a)—(e) that most closely reflects its meaning."
   },
   "output": {
-    "method": "数学计算",
-    "answer": "According to the 68 part of the 68-95-99.7 rule, 68% of values will fall in this range. The remaining 32% fall outside of this range, with an equal number at either extreme because of symmetry; 16% of values will fall below 131 and 16% will be above 145.",
-    "variable": {
-      "mean_height": {
-        "id": "mean_height",
-        "value": 138,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The mean height of 10-year-old male children in centimeters."
-      },
-      "std_dev_height": {
-        "id": "std_dev_height",
-        "value": 7,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The standard deviation of the height of 10-year-old male children in centimeters."
-      },
-      "middle_68_percent_range": {
-        "id": "middle_68_percent_range",
-        "value": [
-          131,
-          145
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The range of heights that includes the middle 68% of values based on the 68-95-99.7 rule."
-      },
-      "percent_below_range": {
-        "id": "percent_below_range",
-        "value": 16,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage of values that fall below the middle 68% range."
-      },
-      "percent_above_range": {
-        "id": "percent_above_range",
-        "value": 16,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The percentage of values that fall above the middle 68% range."
-      }
-    }
+    "answer": "(d) This is very frequent. It has high probability."
   },
   "meta_info": {
-    "index": "7.1",
+    "index": "5.7",
     "image": "",
-    "caption": "Height of 10-year-olds.",
-    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
-    "section": "7.1 NORMAL DISTRIBUTIONS",
-    "page": "138-139"
+    "caption": "Personal expressions of probability.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "92-92"
   },
   "sample_key": "104"
 }

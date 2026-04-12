@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_072.json",
+  "input": {
+    "background": "Ten people are given a choice of two treatments. Let $p$ represent the proportion of patients in the patient population who prefer treatment A. Among the 10 patients asked, 7 preferred method A. Assuming there is no preference in the patient population (i.e., $p= 0.5)$.",
+    "data": "",
+    "question": "Calculate $\\operatorname{Pr}(X \\geq 7)$, assuming $X \\sim \\mathrm{~b}(10,0.5)$."
+  },
+  "output": {
+    "answer": "We start by assuming $X \\sim \\mathrm{~b}(10,0.5)$. $$ \\begin{aligned} & \\operatorname{Pr}(X \\geq 7) \\\\ & =\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)+\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10) \\\\ & =0.117188+0.043945+0.009766+0.000977 \\\\ & =0.1719 \\end{aligned} $$"
+  },
+  "meta_info": {
+    "index": "8.15",
+    "image": "",
+    "caption": "Patient preference.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
+    "page": "173-173"
+  },
+  "sample_key": "162",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1219,
+    "total_tokens": 1262,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1218,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1219,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1218,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

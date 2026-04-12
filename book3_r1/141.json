@@ -1,25 +1,17 @@
 {
-  "background": "In a nuclear power plant, there are five identical and statistically independent channels to monitor the radioactivity of air in the ventilation system. The system aims to alert reactor operators to the need for reactor shutdown when a dangerous level of radioactivity is present. The reactor automatically shuts down when at least three channels register a dangerous level of radioactivity. Each channel contains three identical sensors, and when at least two sensors register a dangerous level of radioactivity, the channel registers the dangerous level of radioactivity. The failure rate of each sensor in any channel is 0.001 per day, and the common-cause failure rate of all sensors in a channel is 0.0005 per day.",
+  "background": "In a nuclear power plant, there are five identical and statistically independent channels to monitor the radioactivity of air in the ventilation system. The system aims to alert reactor operators to the need for reactor shutdown when a dangerous level of radioactivity is present. When at least three channels register a dangerous level of radioactivity, the reactor automatically shuts down. Each channel contains three identical sensors, and when at least two sensors register a dangerous level of radioactivity, the channel registers the dangerous level of radioactivity. The failure rate of each sensor in any channel is 0.001 per day, and the common-cause failure rate of all sensors in a channel is 0.0005 per day.",
   "task": [
     {
       "query": "Obtain the sensor reliability for various time t.",
-      "answer": "Sensor reliability for varying time t: 10 days: 0.9851, 20 days: 0.9704, 30 days: 0.9506, 40 days: 0.9418.",
-      "method": "获取模型参数估计值"
+      "answer": "Time 10: 0.9851, Time 20: 0.9704, Time 30: 0.9506, Time 40: 0.9418, MTTF: 666.6"
     },
     {
       "query": "Obtain the channel reliability for various time t.",
-      "answer": "Channel reliability for varying time t: 10 days: 0.9947, 20 days: 0.9889, 30 days: 0.9826, 40 days: 0.9758.",
-      "method": "获取模型参数估计值"
+      "answer": "Time 10: 0.9947, Time 20: 0.9889, Time 30: 0.9826, Time 40: 0.9758, MTTF: 628.6"
     },
     {
       "query": "Obtain the entire system reliability for various time t.",
-      "answer": "System reliability for varying time t: 10 days: 1.0000, 20 days: 1.0000, 30 days: 0.9999, 40 days: 0.9999.",
-      "method": "获取模型参数估计值"
-    },
-    {
-      "query": "Obtain the Mean Time to Failure (MTTF) for the sensor, channel, and entire system.",
-      "answer": "MTTF: Sensor: 666.6 days, Channel: 628.6 days, System: 546.2 days.",
-      "method": "获取模型参数估计值"
+      "answer": "Time 10: 1.0000, Time 20: 1.0000, Time 30: 0.9999, Time 40: 0.9999, MTTF: 546.2"
     }
   ],
   "id": "141",
@@ -33,5 +25,23 @@
     "section": "6.4 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "399-399"
+  },
+  "token_usage": {
+    "completion_tokens": 374,
+    "prompt_tokens": 643,
+    "total_tokens": 1017,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_120.json",
+  "case_id": "book1_r1\\record_103.json",
   "input": {
-    "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
+    "background": "We wish to detect a mean difference of 0.25 for a variable that has a standard deviation of 0.67.",
     "data": "",
-    "question": "This study relied on the truthfulness of responses. Although the investigators tried their best to make respondents feel comfortable, they could not be assured information was fully accurate. If an information bias existed in responses, hypothesize whether it would tend to overestimate or underestimate the prevalence of the risk factor."
+    "question": "How large a sample is needed to detect this mean difference with 90% power at α=0.05 (two-sided)?"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "Without a specific validation study to address this issue, it is difficult to determine the accuracy of responses. However, we may hypothesize that data might underestimate true prevalence because respondents may underreport sexual behavior out of fear of embarrassment or reprisal.",
-    "variable": {
-      "total_participants": {
-        "id": "total_participants",
-        "value": 2673,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of heterosexual adults who participated in the study."
-      },
-      "reported_multiple_partners": {
-        "id": "reported_multiple_partners",
-        "value": 170,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of participants who reported having two or more sexual partners in the past 12 months."
-      },
-      "risk_factor_prevalence": {
-        "id": "risk_factor_prevalence",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The prevalence of the risk factor, calculated as the proportion of participants reporting two or more sexual partners."
-      }
-    }
+    "answer": "n=(2)(0.67^2)(1.28+1.96)^2 / 0.25^2=150.79. Round up to 151 (per group)."
   },
   "meta_info": {
-    "index": "16.1",
+    "index": "12.9",
     "image": "",
-    "caption": "AIDS-related risk factor.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.1 PROPORTIONS",
-    "page": "351-352"
+    "caption": "Sample size calculation.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "253-253"
   },
   "sample_key": "245"
 }

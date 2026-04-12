@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\89.json",
+  "input": {
+    "background": "You have two light bulbs for a particular lamp. Let $X=$ the lifetime of the first bulb, and $Y=$ the lifetime of the second bulb. Suppose that $X$ and $Y$ are independent and that each has an exponential distribution with constant failure rate parameter $\\lambda=0.001$ per hour.",
+    "data": null,
+    "question": "What is the probability that the total lifetime of the two bulbs is at most 2000 h?"
+  },
+  "output": {
+    "answer": "0.594"
+  },
+  "meta_info": {
+    "index": "1.37",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "63-63"
+  },
+  "sample_key": "293",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 901,
+    "total_tokens": 944,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 900,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 901,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 900,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

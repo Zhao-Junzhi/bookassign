@@ -1,47 +1,20 @@
 {
-  "case_id": "book1_r1\\record_320.json",
+  "case_id": "book1_r1\\record_139.json",
   "input": {
-    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
-    "data": "\begin{table}
-\captionsetup{labelformat=empty}
-\caption{Table 4.2 Data for "Air samples" illustrative example. Particulates in air samples on successive days at two sites ( $\mu \mathrm{g} / \mathrm{m}^3$ ).}
-\begin{tabular}{lllllllll}
-\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\
-Site 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\
-\hline
-\end{tabular}
-\end{table}",
-    "question": "For site 2, calculate Q1, Q3, and IQR based on the ordered array of data: 32, 33, 34, 36, 36, 38, 39, 40."
+    "background": "The Scandinavian simvastatin survival study (4S) was a randomized clinical trial designed to evaluate the effects of the cholesterol-lowering agent simvastatin in patients with coronary heart disease. Over 5.4 years of follow-up, the treatment group consisting of 2221 individuals experienced 111 fatal heart attacks. The placebo group of 2223 individuals experienced 189 such events.",
+    "data": "",
+    "question": "Calculate the risks in the groups."
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "Q1 = 33.5, Q3 = 38.5, IQR = 5 (38.5 - 33.5).",
-    "variable": {
-      "site_2_data": {
-        "id": "site_2_data",
-        "value": [
-          32,
-          33,
-          34,
-          36,
-          36,
-          38,
-          39,
-          40
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Ordered array of particulate matter data for site 2"
-      }
-    }
+    "answer": "$$\\begin{aligned} & \\hat{p}_1=111 / 2221=0.049977 \\ & \\hat{p}_2=189 / 2223=0.085020 \\end{aligned}$$"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.17",
     "image": "",
-    "caption": "IQRs (Air samples data).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.5 SPREAD: QUARTILES ",
-    "page": "75-75"
+    "caption": "4S coronary mortality.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
   },
   "sample_key": "346"
 }

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\019.json",
+  "case_id": "book5_r1\\013.json",
   "input": {
-    "background": "There are two hospitals in a town. On average 45 babies are born each day in the larger hospital, and 15 in the smaller. The probability of a baby being a boy is about 0.52, and the probability of twins is about 0.012.",
-    "data": null,
-    "question": "Which hospital is more likely to have a set of twins delivered on any day?"
+    "background": "A researcher aimed to investigate whether women who have taken the oral contraceptive pill experience menopause earlier or later than other women. He selected a group of women born in 1930, as they were young enough for some to have taken the pill but old enough for some to have reached menopause. Using a general practice's age-sex register, he identified 132 women born in 1930. Women who claimed to have experienced menopause were verified by measuring their follicle stimulating hormone (FSH) levels. Of the 132 women, 101 were excluded for various reasons, leaving a sample of 31 women. Among these, 12 had taken the pill, and 19 had not. The researcher concluded that taking the pill does not delay menopause.",
+    "data": "\\begin{tabular}{lccc}\n\\hline & & \\multicolumn{2}{c}{ Age at menopause (years) } \\\n& $n$ & $n e a n$ & SD \\\n\\hline Pill users & 12 & 47.2 & 2.1 \\\nNon pill users & 19 & 47.5 & 2.1 \\\n\\hline\n\\end{tabular}",
+    "question": "What design is needed to answer the question originally posed?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The larger hospital, simply because there are more births."
+    "answer": "This is a question that could be answered by a cohort study. If the researcher had taken, for example, all the women born in 1930 and waited until they had all reached the menopause, then he could make a valid comparison. However, it should be noted that it is not really good practice to lump together all pill users regardless of the length of pill use or the age at which it was taken. The cohort design would allow these factors to be investigated in relation to the age of menopause."
   },
   "meta_info": {
-    "index": "8.1",
+    "index": "5.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Principles of statistical analysis",
+    "chapter": "Designing research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "177-177"
+    "page": "105-105"
   },
   "sample_key": "42"
 }

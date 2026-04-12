@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_370.json",
+  "input": {
+    "background": "A citizen claims that the intelligence of children in a particular community is above average. To test this claim, he selects a simple random sample consisting of n=9 children from this population. Scores of the intelligence test typically vary according to a Normal distribution with mean μ=100 and standard deviation σ=15. The sample produces these scores {116, 128, 125, 119, 89, 99, 105, 116, 118}. Thus, x̄=(116+128+...+118)/9=112.8. Does this sample provide statistically significant evidence in support of the citizen's claim?",
+    "data": "",
+    "question": "What is the conclusion of the test based on the significance level?"
+  },
+  "output": {
+    "answer": "The two-sided P-value provides significant evidence against the null hypothesis (reject H0 at α=0.05 but not at α=0.01)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "z test (“Lake Wobegon”).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.5  ONE-SAMPLE Z TEST",
+    "page": "185-186"
+  },
+  "sample_key": "556",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 697,
+    "total_tokens": 724,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 697,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

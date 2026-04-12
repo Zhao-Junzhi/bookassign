@@ -1,14 +1,22 @@
 {
-  "case_id": "book3_r1\\92.json",
+  "case_id": "book3_r1\\64.json",
   "input": {
-    "background": "A system consisting of one original unit plus a spare can function for a random amount of time $X$. The density of $X$ is given (in units of months) by $f(x)= \\begin{cases}C x e^{-\\frac{x}{2}} & \\text { for } x>0 \\\\ 0 & \\text { or } x \\leq 0\\end{cases}$, where C is a constant.",
-    "data": "",
-    "question": "What is the probability that the system functions for at least 5 months?"
+    "background": "Consider a standby system with two identical valves each with constant failure rate $\\lambda=10^{-5}$ failures/hours. The probability $\\mathrm{p}_{\\mathrm{s}}$ that the switch $S$ will activate the standby valve is 0.995.",
+    "data": null,
+    "question": "What is the reliability of the system when the components are non-identical, with component 1 (active unit) and component 2 (standby unit) having constant failure rates $\\lambda_1$ and $\\lambda_2$, respectively, and $p_s$ being the probability of successful switching?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The probability that the system functions for at least 5 months is 0.2873."
+    "answer": "From Eq. (4.45), the reliability is $$\\begin{aligned} R(t) & =e^{-\\lambda_1 t}+p_s \\int_0^t \\lambda_1 e^{-\\lambda_1 \\ \\tau} e^{-\\lambda_2(t-\\ \\tau)} d \\ \\tau \\\\ & =e^{-\\lambda_1 t}+\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_2 t}-\\frac{p_s \\lambda_1}{\\lambda_1-\\lambda_2} e^{-\\lambda_1 t} \\end{aligned}$$"
   },
-  "meta_info": {},
+  "meta_info": {
+    "index": "4.8",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.8 Standby Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "244-244"
+  },
   "sample_key": "238"
 }

@@ -1,15 +1,13 @@
 {
-  "background": "Suppose that $X_1, X_2, \\ldots, X_n$ are independent random variable, each with the uniform distribution on $[c-d, c+d]$ where $c$ and $d$ are both unknown $(-\\infty<c<\\infty, d>0)$.",
+  "background": "Suppose that $X_1, X_2, \\ldots, X_n$ are independent random variables, each with the uniform distribution on $[c-d, c+d]$ where $c$ and $d$ are both unknown $(-\\infty<c<\\infty, d>0)$. Additionally, given failure time data: $20,23,25,26,28,29,31,33,34$, and 35 days, assume the data follow a uniform distribution on [$c-d, c+d$].",
   "task": [
     {
-      "query": "Find the maximum likelihood estimators of $c$ and $d$.",
-      "answer": "$\\hat{\\mathrm{c}}=\\frac{\\max _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}+\\min _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}}{2} \\cdot \\hat{\\mathrm{~d}}=\\frac{\\max _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left[\\mathrm{x}_{\\mathrm{i}}\\right]-\\min _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}}{2}$.",
-      "method": "最大似然估计（MLE）"
+      "query": "Find the maximum likelihood estimators of $c$ and $d$ for the uniform distribution on $[c-d, c+d]$.",
+      "answer": "$\\hat{\\mathrm{c}}=\\frac{\\max _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}+\\min _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}}{2} \\cdot \\hat{\\mathrm{~d}}=\\frac{\\max _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left[\\mathrm{x}_{\\mathrm{i}}\\right]-\\min _{\\mathrm{i} \\leq \\mathrm{x}_{\\mathrm{i}} \\leq n}\\left\\{\\mathrm{x}_{\\mathrm{i}}\\right\\}}{2}$."
     },
     {
-      "query": "Given the following failure time data: $20,23,25,26,28,29,31,33,34$, and 35 days. Assuming that the data follow a uniform distribution on [$c -d, c+d$], use the maximum likelihood method to obtain the unknown parameters, $c$ and $d$, of the uniform distribution.",
-      "answer": "$\\hat{\\mathrm{c}}=27.5 ; \\quad \\hat{\\mathrm{d}}=7.5$",
-      "method": "最大似然估计（MLE）"
+      "query": "Using the failure time data $20,23,25,26,28,29,31,33,34$, and 35 days, and assuming the data follow a uniform distribution on [$c-d, c+d$], use the maximum likelihood method to estimate the unknown parameters $c$ and $d$.",
+      "answer": "$\\hat{\\mathrm{c}}=27.5 ; \\quad \\hat{\\mathrm{d}}=7.5$."
     }
   ],
   "id": "116",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "216-216"
+  },
+  "token_usage": {
+    "completion_tokens": 469,
+    "prompt_tokens": 657,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

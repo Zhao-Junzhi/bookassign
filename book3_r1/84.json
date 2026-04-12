@@ -1,10 +1,9 @@
 {
-  "background": "How many ways are there to form a sequence of 10 letters from 4 a's, 4 b's, 4 c's and 4 d's if each letter must appear at least twice?",
+  "background": "Determine the number of ways to form a sequence of 10 letters using a specified number of letters from four categories (a's, b's, c's, and d's), with the condition that each letter must appear at least twice.",
   "task": [
     {
-      "query": "Determine the number of sequences of 10 letters where each letter (a, b, c, d) appears at least twice.",
-      "answer": "$$ 226,800 \\text{ ways. }$$",
-      "method": "概率空间相关（如状态数）"
+      "query": "How many ways are there to form a sequence of 10 letters from 4 a's, 4 b's, 4 c's, and 4 d's if each letter must appear at least twice?",
+      "answer": "$$ 226,800 \\text{ ways. }$$"
     }
   ],
   "id": "84",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "62-62"
+  },
+  "token_usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 353,
+    "total_tokens": 487,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

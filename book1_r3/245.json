@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_103.json",
+  "input": {
+    "background": "We wish to detect a mean difference of 0.25 for a variable that has a standard deviation of 0.67.",
+    "data": "",
+    "question": "How large a sample is needed to detect this mean difference with 90% power at α=0.05 (two-sided)?"
+  },
+  "output": {
+    "answer": "n=(2)(0.67^2)(1.28+1.96)^2 / 0.25^2=150.79. Round up to 151 (per group)."
+  },
+  "meta_info": {
+    "index": "12.9",
+    "image": "",
+    "caption": "Sample size calculation.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "253-253"
+  },
+  "sample_key": "245",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1066,
+    "total_tokens": 1109,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 966,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1066,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 966,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

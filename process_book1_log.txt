@@ -1,0 +1,1975 @@
+2026-04-11 15:15:05,269 - INFO - ============================================================
+2026-04-11 15:15:05,270 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:15:05,271 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:15:05,271 - INFO - 并发数: 8
+2026-04-11 15:15:05,271 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:15:05,271 - INFO - ============================================================
+2026-04-11 15:15:05,278 - INFO - 找到 292 个JSON文件
+2026-04-11 15:15:05,278 - INFO - 已处理 277 个文件，剩余 15 个文件待处理
+2026-04-11 15:15:05,278 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:15:05,279 - INFO - 开始处理: record_452.json
+2026-04-11 15:15:06,593 - INFO - 开始处理: record_021.json
+2026-04-11 15:15:07,028 - INFO - 开始处理: record_142.json
+2026-04-11 15:15:07,454 - INFO - 开始处理: record_372.json
+2026-04-11 15:15:07,842 - INFO - 开始处理: record_427.json
+2026-04-11 15:15:08,247 - INFO - 开始处理: record_449.json
+2026-04-11 15:15:08,678 - INFO - 开始处理: record_076.json
+2026-04-11 15:15:09,094 - INFO - 开始处理: record_127.json
+2026-04-11 15:15:11,039 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:15:11,042 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071511642821338268d9d68m3YHU6R)', 'type': 'new_api_error'}}
+2026-04-11 15:15:11,275 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:15:11,277 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110715114305071098268d9d6OC5Jhc7h)', 'type': 'new_api_error'}}
+2026-04-11 15:15:12,108 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:15:12,109 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110715104567668958268d9d6xUujKdW5)', 'type': 'new_api_error'}}
+2026-04-11 15:15:12,364 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:15:12,365 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110715125338884098268d9d6ZQBihMT5)', 'type': 'new_api_error'}}
+2026-04-11 15:15:12,789 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:15:12,790 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110715124252084318268d9d6luKZYf3g)', 'type': 'new_api_error'}}
+2026-04-11 15:16:03,996 - INFO - ============================================================
+2026-04-11 15:16:03,997 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:16:03,997 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:16:03,997 - INFO - 并发数: 8
+2026-04-11 15:16:03,997 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:16:03,997 - INFO - ============================================================
+2026-04-11 15:16:04,002 - INFO - 找到 292 个JSON文件
+2026-04-11 15:16:04,003 - INFO - 已处理 0 个文件，剩余 292 个文件待处理
+2026-04-11 15:16:04,003 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:16:04,005 - INFO - 开始处理: record_019.json
+2026-04-11 15:16:05,033 - INFO - 开始处理: record_081.json
+2026-04-11 15:16:05,494 - INFO - 开始处理: record_127.json
+2026-04-11 15:16:05,917 - INFO - 开始处理: record_314.json
+2026-04-11 15:16:06,320 - INFO - 开始处理: record_370.json
+2026-04-11 15:16:06,728 - INFO - 开始处理: record_417.json
+2026-04-11 15:16:07,138 - INFO - 开始处理: record_451.json
+2026-04-11 15:16:07,519 - INFO - 开始处理: record_059.json
+2026-04-11 15:16:09,109 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:09,110 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716091086575988268d9d6IIsexTtj)', 'type': 'new_api_error'}}
+2026-04-11 15:16:09,253 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:09,255 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716088078026858268d9d6R47B3zRO)', 'type': 'new_api_error'}}
+2026-04-11 15:16:09,636 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:09,637 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716098078932238268d9d6fuoqSx1f)', 'type': 'new_api_error'}}
+2026-04-11 15:16:09,757 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:09,758 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716098117669958268d9d6nVII3i9B)', 'type': 'new_api_error'}}
+2026-04-11 15:16:10,206 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:10,207 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716103706877768268d9d6WyGwODoa)', 'type': 'new_api_error'}}
+2026-04-11 15:16:10,303 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:10,305 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716088085515728268d9d6ULnwfdqv)', 'type': 'new_api_error'}}
+2026-04-11 15:16:12,736 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:13,570 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716088014509418268d9d6DgWBU5M9)', 'type': 'new_api_error'}}
+2026-04-11 15:16:14,569 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:14,570 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716109568593068268d9d6elkPTezW)', 'type': 'new_api_error'}}
+2026-04-11 15:16:15,576 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:15,982 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716157379101198268d9d6vIzqNCdb)', 'type': 'new_api_error'}}
+2026-04-11 15:16:16,977 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:16,981 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716155588174098268d9d6Zq08GRW2)', 'type': 'new_api_error'}}
+2026-04-11 15:16:17,538 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:17,539 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:17,540 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716176923941618268d9d6rvQXDYkA)', 'type': 'new_api_error'}}
+2026-04-11 15:16:17,541 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716176923706808268d9d6anGDWfAf)', 'type': 'new_api_error'}}
+2026-04-11 15:16:18,407 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:18,408 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716185692933098268d9d6PBbGKjM0)', 'type': 'new_api_error'}}
+2026-04-11 15:16:19,407 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:19,410 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716155642090828268d9d6O8F1SCLR)', 'type': 'new_api_error'}}
+2026-04-11 15:16:20,409 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:20,410 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:20,412 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716196846780938268d9d6gAXkjcY4)', 'type': 'new_api_error'}}
+2026-04-11 15:16:20,414 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716199457626258268d9d6RYU2JIuu)', 'type': 'new_api_error'}}
+2026-04-11 15:16:22,817 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:23,242 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716226912103598268d9d6ygwOVdYI)', 'type': 'new_api_error'}}
+2026-04-11 15:16:23,242 - ERROR - API错误 record_059.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716226912103598268d9d6ygwOVdYI)', 'type': 'new_api_error'}}
+2026-04-11 15:16:23,243 - INFO - 开始处理: record_105.json
+2026-04-11 15:16:24,308 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:24,309 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716244807979768268d9d6WFI1GrR0)', 'type': 'new_api_error'}}
+2026-04-11 15:16:24,310 - ERROR - API错误 record_081.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716244807979768268d9d6WFI1GrR0)', 'type': 'new_api_error'}}
+2026-04-11 15:16:24,310 - INFO - 开始处理: record_151.json
+2026-04-11 15:16:24,813 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:24,814 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716244477009158268d9d6YuRAVTXN)', 'type': 'new_api_error'}}
+2026-04-11 15:16:24,867 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:24,868 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716241846630378268d9d66cenkhJM)', 'type': 'new_api_error'}}
+2026-04-11 15:16:24,868 - ERROR - API错误 record_127.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716241846630378268d9d66cenkhJM)', 'type': 'new_api_error'}}
+2026-04-11 15:16:24,869 - INFO - 开始处理: record_348.json
+2026-04-11 15:16:25,274 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:25,276 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716244598893468268d9d6jaTzMMcf)', 'type': 'new_api_error'}}
+2026-04-11 15:16:25,276 - ERROR - API错误 record_314.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716244598893468268d9d6jaTzMMcf)', 'type': 'new_api_error'}}
+2026-04-11 15:16:25,277 - INFO - 开始处理: record_395.json
+2026-04-11 15:16:25,791 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:25,792 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716253607724508268d9d6zYll6RH3)', 'type': 'new_api_error'}}
+2026-04-11 15:16:25,792 - ERROR - API错误 record_417.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716253607724508268d9d6zYll6RH3)', 'type': 'new_api_error'}}
+2026-04-11 15:16:25,793 - INFO - 开始处理: record_441.json
+2026-04-11 15:16:26,776 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:26,777 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716269408397618268d9d6p65NkMz8)', 'type': 'new_api_error'}}
+2026-04-11 15:16:27,277 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:27,278 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:27,279 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071627598702618268d9d6TYOQhAoW)', 'type': 'new_api_error'}}
+2026-04-11 15:16:27,280 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110716269261531628268d9d6icuolBQX)', 'type': 'new_api_error'}}
+2026-04-11 15:16:28,352 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:16:28,353 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071628662784988268d9d6iuVIp60k)', 'type': 'new_api_error'}}
+2026-04-11 15:17:10,881 - INFO - ============================================================
+2026-04-11 15:17:10,881 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:17:10,881 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:17:10,882 - INFO - 并发数: 8
+2026-04-11 15:17:10,882 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:17:10,882 - INFO - ============================================================
+2026-04-11 15:17:10,886 - INFO - 找到 292 个JSON文件
+2026-04-11 15:17:10,886 - INFO - 已处理 0 个文件，剩余 292 个文件待处理
+2026-04-11 15:17:10,886 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:17:10,888 - INFO - 开始处理: record_019.json
+2026-04-11 15:17:11,768 - INFO - 开始处理: record_081.json
+2026-04-11 15:17:12,167 - INFO - 开始处理: record_127.json
+2026-04-11 15:17:12,547 - INFO - 开始处理: record_314.json
+2026-04-11 15:17:12,930 - INFO - 开始处理: record_370.json
+2026-04-11 15:17:13,315 - INFO - 开始处理: record_417.json
+2026-04-11 15:17:13,703 - INFO - 开始处理: record_451.json
+2026-04-11 15:17:14,074 - INFO - 开始处理: record_059.json
+2026-04-11 15:17:15,246 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:15,247 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:15,249 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717153806588738268d9d670yJo3Dx)', 'type': 'new_api_error'}}
+2026-04-11 15:17:15,250 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717153807093428268d9d6yUn4HQml)', 'type': 'new_api_error'}}
+2026-04-11 15:17:15,900 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:15,902 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717155459431778268d9d6L8yzrhuq)', 'type': 'new_api_error'}}
+2026-04-11 15:17:16,082 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:16,082 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717162572390628268d9d6iljm5oMT)', 'type': 'new_api_error'}}
+2026-04-11 15:17:16,213 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:16,214 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717162722266738268d9d65jPhMrKv)', 'type': 'new_api_error'}}
+2026-04-11 15:17:16,280 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:16,281 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717153825983168268d9d68gqrvGjf)', 'type': 'new_api_error'}}
+2026-04-11 15:17:16,310 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:16,311 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717153806589008268d9d67izanp2w)', 'type': 'new_api_error'}}
+2026-04-11 15:17:20,634 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:20,648 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717207295497168268d9d69pZ9wGGB)', 'type': 'new_api_error'}}
+2026-04-11 15:17:21,031 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:21,033 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717211982349998268d9d6H9jcu65o)', 'type': 'new_api_error'}}
+2026-04-11 15:17:21,042 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:21,043 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717212102452768268d9d67z4jwovh)', 'type': 'new_api_error'}}
+2026-04-11 15:17:21,249 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:21,250 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717212102435858268d9d6wfi5A0pJ)', 'type': 'new_api_error'}}
+2026-04-11 15:17:21,251 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:21,252 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717213726844208268d9d6hc2LFjRj)', 'type': 'new_api_error'}}
+2026-04-11 15:17:21,554 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:21,556 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717212030083828268d9d6W3meBrdI)', 'type': 'new_api_error'}}
+2026-04-11 15:17:22,236 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:22,237 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717224088410638268d9d60nQHYv1D)', 'type': 'new_api_error'}}
+2026-04-11 15:17:22,644 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:22,646 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717211983945308268d9d6vx5exxKH)', 'type': 'new_api_error'}}
+2026-04-11 15:17:26,798 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:26,799 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717269683751908268d9d6OgLN6obH)', 'type': 'new_api_error'}}
+2026-04-11 15:17:26,799 - ERROR - API错误 record_127.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717269683751908268d9d6OgLN6obH)', 'type': 'new_api_error'}}
+2026-04-11 15:17:26,800 - INFO - 开始处理: record_105.json
+2026-04-11 15:17:27,479 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:27,480 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717269685099218268d9d6GbjcFOzF)', 'type': 'new_api_error'}}
+2026-04-11 15:17:27,480 - ERROR - API错误 record_417.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717269685099218268d9d6GbjcFOzF)', 'type': 'new_api_error'}}
+2026-04-11 15:17:27,481 - INFO - 开始处理: record_151.json
+2026-04-11 15:17:27,924 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:27,926 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717278702069658268d9d6SxJkNVu0)', 'type': 'new_api_error'}}
+2026-04-11 15:17:27,927 - ERROR - API错误 record_314.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717278702069658268d9d6SxJkNVu0)', 'type': 'new_api_error'}}
+2026-04-11 15:17:27,928 - INFO - 开始处理: record_348.json
+2026-04-11 15:17:28,838 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:28,839 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717289779938808268d9d6v1dVKCi2)', 'type': 'new_api_error'}}
+2026-04-11 15:17:28,840 - ERROR - API错误 record_059.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717289779938808268d9d6v1dVKCi2)', 'type': 'new_api_error'}}
+2026-04-11 15:17:28,840 - INFO - 开始处理: record_395.json
+2026-04-11 15:17:29,251 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:29,254 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717292161878858268d9d6bw4E2mbT)', 'type': 'new_api_error'}}
+2026-04-11 15:17:29,302 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:29,303 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717289766079998268d9d6NN2nMPH2)', 'type': 'new_api_error'}}
+2026-04-11 15:17:29,911 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:29,912 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071730559777588268d9d6fWIHWvId)', 'type': 'new_api_error'}}
+2026-04-11 15:17:30,091 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:30,092 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717302583493268268d9d6SnySF385)', 'type': 'new_api_error'}}
+2026-04-11 15:17:30,092 - ERROR - API错误 record_451.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717302583493268268d9d6SnySF385)', 'type': 'new_api_error'}}
+2026-04-11 15:17:30,093 - INFO - 开始处理: record_441.json
+2026-04-11 15:17:30,521 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:30,523 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717302791166288268d9d6rBAqCMLs)', 'type': 'new_api_error'}}
+2026-04-11 15:17:30,523 - ERROR - API错误 record_081.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717302791166288268d9d6rBAqCMLs)', 'type': 'new_api_error'}}
+2026-04-11 15:17:30,523 - INFO - 开始处理: record_020.json
+2026-04-11 15:17:31,000 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:31,002 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071730918735808268d9d6TWcAQE0D)', 'type': 'new_api_error'}}
+2026-04-11 15:17:32,173 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:32,175 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717318113171648268d9d6GJ07nqds)', 'type': 'new_api_error'}}
+2026-04-11 15:17:32,599 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:32,600 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717317279814758268d9d6BPrPXo1A)', 'type': 'new_api_error'}}
+2026-04-11 15:17:32,601 - ERROR - API错误 record_370.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717317279814758268d9d6BPrPXo1A)', 'type': 'new_api_error'}}
+2026-04-11 15:17:32,601 - INFO - 开始处理: record_082.json
+2026-04-11 15:17:34,128 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:34,129 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717342885329548268d9d6bgJJVcyF)', 'type': 'new_api_error'}}
+2026-04-11 15:17:34,130 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:34,131 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717342918124108268d9d6wLAnoUHe)', 'type': 'new_api_error'}}
+2026-04-11 15:17:34,749 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:34,751 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717344851716078268d9d6hFNl9uHX)', 'type': 'new_api_error'}}
+2026-04-11 15:17:34,817 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:34,818 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717289779362678268d9d6Bm8ZZDZE)', 'type': 'new_api_error'}}
+2026-04-11 15:17:35,709 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:35,710 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717357099136388268d9d6LkhxY3qa)', 'type': 'new_api_error'}}
+2026-04-11 15:17:37,894 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:38,326 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717378020680208268d9d6GEsESUkG)', 'type': 'new_api_error'}}
+2026-04-11 15:17:39,129 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:39,130 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717392953936598268d9d60xKawWKU)', 'type': 'new_api_error'}}
+2026-04-11 15:17:41,598 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:41,600 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717411653378798268d9d647VdPh8J)', 'type': 'new_api_error'}}
+2026-04-11 15:17:41,600 - ERROR - API错误 record_395.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717411653378798268d9d647VdPh8J)', 'type': 'new_api_error'}}
+2026-04-11 15:17:41,600 - INFO - 开始处理: record_128.json
+2026-04-11 15:17:42,080 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:42,082 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717408267037598268d9d6hnq2MuGF)', 'type': 'new_api_error'}}
+2026-04-11 15:17:42,757 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:42,758 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717427949395698268d9d6mW1XZcKO)', 'type': 'new_api_error'}}
+2026-04-11 15:17:42,759 - ERROR - API错误 record_348.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717427949395698268d9d6mW1XZcKO)', 'type': 'new_api_error'}}
+2026-04-11 15:17:42,759 - INFO - 开始处理: record_315.json
+2026-04-11 15:17:43,658 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:43,659 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:43,660 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717437391905618268d9d6cRXL2ADS)', 'type': 'new_api_error'}}
+2026-04-11 15:17:43,661 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717437438361688268d9d6PBtTIfYc)', 'type': 'new_api_error'}}
+2026-04-11 15:17:43,662 - ERROR - API错误 record_082.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717437438361688268d9d6PBtTIfYc)', 'type': 'new_api_error'}}
+2026-04-11 15:17:43,662 - INFO - 开始处理: record_371.json
+2026-04-11 15:17:44,157 - INFO - 进度: 10/292 (3.4%), 成功: 0, 失败: 10, 速度: 0.30 文件/秒
+2026-04-11 15:17:44,158 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:44,738 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717437390800198268d9d6c3ZVOBkD)', 'type': 'new_api_error'}}
+2026-04-11 15:17:46,168 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:46,169 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717463030235938268d9d6QuukjPuN)', 'type': 'new_api_error'}}
+2026-04-11 15:17:47,381 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:47,383 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717475483011638268d9d6wBf6D6Zo)', 'type': 'new_api_error'}}
+2026-04-11 15:17:47,383 - ERROR - API错误 record_151.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717475483011638268d9d6wBf6D6Zo)', 'type': 'new_api_error'}}
+2026-04-11 15:17:47,384 - INFO - 开始处理: record_418.json
+2026-04-11 15:17:48,059 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:48,060 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717404363939478268d9d6GfWk1i7s)', 'type': 'new_api_error'}}
+2026-04-11 15:17:48,061 - ERROR - API错误 record_019.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717404363939478268d9d6GfWk1i7s)', 'type': 'new_api_error'}}
+2026-04-11 15:17:48,061 - INFO - 开始处理: record_060.json
+2026-04-11 15:17:49,052 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:49,053 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071749824561988268d9d6q3sD4cC6)', 'type': 'new_api_error'}}
+2026-04-11 15:17:49,053 - ERROR - API错误 record_020.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071749824561988268d9d6q3sD4cC6)', 'type': 'new_api_error'}}
+2026-04-11 15:17:49,054 - INFO - 开始处理: record_106.json
+2026-04-11 15:17:49,555 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:49,557 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:49,558 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:49,558 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 20260411071749799562708268d9d6x0ntRdWC)', 'type': 'new_api_error'}}
+2026-04-11 15:17:49,559 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717495893194278268d9d6KN1sVNqf)', 'type': 'new_api_error'}}
+2026-04-11 15:17:49,560 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717495888777608268d9d6OJ42rLaJ)', 'type': 'new_api_error'}}
+2026-04-11 15:17:50,202 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:50,203 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717497775342628268d9d603P4vtGS)', 'type': 'new_api_error'}}
+2026-04-11 15:17:50,203 - ERROR - API错误 record_105.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717497775342628268d9d603P4vtGS)', 'type': 'new_api_error'}}
+2026-04-11 15:17:50,204 - INFO - 开始处理: record_152.json
+2026-04-11 15:17:50,676 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:50,680 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717502567653408268d9d6labhs4OO)', 'type': 'new_api_error'}}
+2026-04-11 15:17:51,237 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:51,238 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717514013984618268d9d6PBbtTnWT)', 'type': 'new_api_error'}}
+2026-04-11 15:17:53,040 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:53,041 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:53,511 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717519800406628268d9d6xQURVQaz)', 'type': 'new_api_error'}}
+2026-04-11 15:17:53,512 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717502560582768268d9d6tnbCD5sM)', 'type': 'new_api_error'}}
+2026-04-11 15:17:53,512 - ERROR - API错误 record_441.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717502560582768268d9d6tnbCD5sM)', 'type': 'new_api_error'}}
+2026-04-11 15:17:53,512 - INFO - 开始处理: record_349.json
+2026-04-11 15:17:55,172 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:55,174 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717553488576418268d9d6mVC1pbyG)', 'type': 'new_api_error'}}
+2026-04-11 15:17:55,207 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:55,208 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717553582088708268d9d6TEMHHZiE)', 'type': 'new_api_error'}}
+2026-04-11 15:17:56,018 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:56,021 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717559496030378268d9d643y3X9tN)', 'type': 'new_api_error'}}
+2026-04-11 15:17:56,396 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:56,397 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717565728621878268d9d6NgzFEwoE)', 'type': 'new_api_error'}}
+2026-04-11 15:17:56,398 - ERROR - API错误 record_128.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717565728621878268d9d6NgzFEwoE)', 'type': 'new_api_error'}}
+2026-04-11 15:17:56,398 - INFO - 开始处理: record_396.json
+2026-04-11 15:17:56,897 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:56,904 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717567115668218268d9d6pzBGVWZe)', 'type': 'new_api_error'}}
+2026-04-11 15:17:58,770 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:58,774 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717574621364628268d9d68wy2b8Xj)', 'type': 'new_api_error'}}
+2026-04-11 15:17:59,926 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:17:59,927 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110717593258097888268d9d6bYhsAQqS)', 'type': 'new_api_error'}}
+2026-04-11 15:18:00,760 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:00,761 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718009169999288268d9d6yl09ceCj)', 'type': 'new_api_error'}}
+2026-04-11 15:18:00,762 - ERROR - API错误 record_106.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718009169999288268d9d6yl09ceCj)', 'type': 'new_api_error'}}
+2026-04-11 15:18:00,762 - INFO - 开始处理: record_442.json
+2026-04-11 15:18:01,699 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:01,701 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718009113274128268d9d6nmKotumW)', 'type': 'new_api_error'}}
+2026-04-11 15:18:01,702 - ERROR - API错误 record_060.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718009113274128268d9d6nmKotumW)', 'type': 'new_api_error'}}
+2026-04-11 15:18:01,703 - INFO - 开始处理: record_021.json
+2026-04-11 15:18:02,709 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:02,711 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718022570945208268d9d6MTFtXH2W)', 'type': 'new_api_error'}}
+2026-04-11 15:18:03,340 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:03,342 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718035179311578268d9d6aOBo2vhg)', 'type': 'new_api_error'}}
+2026-04-11 15:18:03,503 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:03,504 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718035633163068268d9d6kHyHMhkL)', 'type': 'new_api_error'}}
+2026-04-11 15:18:04,208 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:04,209 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718043839515858268d9d62yb0NwCi)', 'type': 'new_api_error'}}
+2026-04-11 15:18:05,209 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:05,212 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718038471735548268d9d6KzvXtlcU)', 'type': 'new_api_error'}}
+2026-04-11 15:18:05,213 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:05,215 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718051648752188268d9d6zytzGnj1)', 'type': 'new_api_error'}}
+2026-04-11 15:18:06,230 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:06,236 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718058239129238268d9d6mSxSJZIu)', 'type': 'new_api_error'}}
+2026-04-11 15:18:06,237 - ERROR - API错误 record_418.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718058239129238268d9d6mSxSJZIu)', 'type': 'new_api_error'}}
+2026-04-11 15:18:06,684 - INFO - 开始处理: record_083.json
+2026-04-11 15:18:08,150 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:08,153 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718077098732438268d9d6tDbm5wE2)', 'type': 'new_api_error'}}
+2026-04-11 15:18:08,789 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:08,790 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718089590126358268d9d6knRXSixO)', 'type': 'new_api_error'}}
+2026-04-11 15:18:08,790 - ERROR - API错误 record_349.json: API调用失败: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718089590126358268d9d6knRXSixO)', 'type': 'new_api_error'}}
+2026-04-11 15:18:08,790 - INFO - 开始处理: record_129.json
+2026-04-11 15:18:09,216 - INFO - 进度: 20/292 (6.8%), 成功: 0, 失败: 20, 速度: 0.34 文件/秒
+2026-04-11 15:18:09,218 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:09,220 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:09,220 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:09,221 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718089924826388268d9d6MMzgtOqI)', 'type': 'new_api_error'}}
+2026-04-11 15:18:09,222 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718088264575188268d9d6Cojy9sbG)', 'type': 'new_api_error'}}
+2026-04-11 15:18:09,224 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-zlZ***KY6] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -35072 (request id: 202604110718088540092348268d9d6Tc5PaLM6)', 'type': 'new_api_error'}}
+2026-04-11 15:18:29,124 - INFO - ============================================================
+2026-04-11 15:18:29,125 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:18:29,125 - INFO - API URL: https://toollearning.cn/v1
+2026-04-11 15:18:29,125 - INFO - 并发数: 8
+2026-04-11 15:18:29,125 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:18:29,125 - INFO - ============================================================
+2026-04-11 15:18:29,130 - INFO - 找到 292 个JSON文件
+2026-04-11 15:18:29,130 - INFO - 已处理 0 个文件，剩余 292 个文件待处理
+2026-04-11 15:18:29,130 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:18:29,131 - INFO - 开始处理: record_019.json
+2026-04-11 15:18:30,059 - INFO - 开始处理: record_081.json
+2026-04-11 15:18:30,489 - INFO - 开始处理: record_127.json
+2026-04-11 15:18:30,910 - INFO - 开始处理: record_314.json
+2026-04-11 15:18:31,314 - INFO - 开始处理: record_347.json
+2026-04-11 15:18:31,725 - INFO - 开始处理: record_370.json
+2026-04-11 15:18:32,110 - INFO - 开始处理: record_417.json
+2026-04-11 15:18:32,514 - INFO - 开始处理: record_506.json
+2026-04-11 15:18:33,293 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,294 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833589371567kGVBAFIQ)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,295 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,296 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833600405016aXCgsC0k)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,297 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,297 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 202604111518336003037412qj64jaG)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,298 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,299 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833600470502DVPY7ubX)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,303 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,304 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833602205412Gbjxg6m2)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,312 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,314 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833607869054V3iZ3U35)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,368 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,369 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411151833601329426oQWLg0sD)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:18:33,837 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:18:33,838 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 2026041115183482477550zB2tEJef)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:43,423 - INFO - ============================================================
+2026-04-11 15:26:43,425 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:26:43,425 - INFO - API URL: https://toollearning.cn/v1
+2026-04-11 15:26:43,425 - INFO - 并发数: 8
+2026-04-11 15:26:43,425 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:26:43,426 - INFO - ============================================================
+2026-04-11 15:26:43,432 - INFO - 找到 292 个JSON文件
+2026-04-11 15:26:43,432 - INFO - 已处理 0 个文件，剩余 292 个文件待处理
+2026-04-11 15:26:43,432 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:26:43,435 - INFO - 开始处理: record_019.json
+2026-04-11 15:26:44,456 - INFO - 开始处理: record_081.json
+2026-04-11 15:26:44,877 - INFO - 开始处理: record_127.json
+2026-04-11 15:26:45,297 - INFO - 开始处理: record_314.json
+2026-04-11 15:26:45,683 - INFO - 开始处理: record_370.json
+2026-04-11 15:26:46,094 - INFO - 开始处理: record_417.json
+2026-04-11 15:26:46,489 - INFO - 开始处理: record_451.json
+2026-04-11 15:26:46,899 - INFO - 开始处理: record_059.json
+2026-04-11 15:26:47,617 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,619 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,620 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 202604111526478760983336dDWFhYF)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,621 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152647877024732VTAUoCE6)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,622 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,623 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,624 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152647896996328NU9B6Wyv)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,624 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 202604111526478985662138wQQ8YSO)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,625 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,626 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152647903187975etdF6rYj)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,673 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,675 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152647981166108kfBifn3s)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:47,687 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:47,688 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152647898597758K4LoAWK6)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:49,165 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:49,166 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152649458841110YJ0thQs8)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,450 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,452 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,454 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,455 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 202604111526537244756064Y639JKx)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,456 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653724233305JzH5jYRA)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,456 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,458 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,459 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653724329277Tly8vndT)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,460 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653724515315m1kWoZ3X)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,461 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653730211090nRE1XmQi)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,859 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,860 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653718808562FdcS4U3p)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:53,961 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:53,962 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152653724735067xnCJRx8l)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:26:54,660 - INFO - HTTP Request: POST https://toollearning.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-11 15:26:54,662 - ERROR - API调用异常: Error code: 401 - {'error': {'code': '', 'message': '[sk-7w1***g32] 该令牌额度已用尽 !token.UnlimitedQuota && token.RemainQuota = -23983 (request id: 20260411152654928248864EkgWBrvo)', 'type': 'thunlp_api_error'}}
+2026-04-11 15:27:27,674 - INFO - ============================================================
+2026-04-11 15:27:27,674 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:27:27,674 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:27:27,675 - INFO - 并发数: 8
+2026-04-11 15:27:27,675 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:27:27,675 - INFO - ============================================================
+2026-04-11 15:27:27,680 - INFO - 找到 292 个JSON文件
+2026-04-11 15:27:27,680 - INFO - 已处理 0 个文件，剩余 292 个文件待处理
+2026-04-11 15:27:27,681 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:27:27,682 - INFO - 开始处理: record_019.json
+2026-04-11 15:27:28,661 - INFO - 开始处理: record_081.json
+2026-04-11 15:27:29,155 - INFO - 开始处理: record_127.json
+2026-04-11 15:27:29,566 - INFO - 开始处理: record_314.json
+2026-04-11 15:27:30,046 - INFO - 开始处理: record_347.json
+2026-04-11 15:27:30,479 - INFO - 开始处理: record_370.json
+2026-04-11 15:27:30,935 - INFO - 开始处理: record_417.json
+2026-04-11 15:27:31,342 - INFO - 开始处理: record_506.json
+2026-04-11 15:27:36,063 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:36,081 - INFO - 已保存: record_347.json
+2026-04-11 15:27:36,081 - INFO - 成功处理: record_347.json
+2026-04-11 15:27:36,483 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:36,485 - INFO - 已保存: record_019.json
+2026-04-11 15:27:36,485 - INFO - 成功处理: record_019.json
+2026-04-11 15:27:36,587 - INFO - 开始处理: record_059.json
+2026-04-11 15:27:37,042 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:37,043 - INFO - 开始处理: record_105.json
+2026-04-11 15:27:37,509 - INFO - 已保存: record_127.json
+2026-04-11 15:27:37,509 - INFO - 成功处理: record_127.json
+2026-04-11 15:27:37,595 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:37,598 - ERROR - JSON解析错误 record_506.json: 无法从模型输出中解析JSON: 根据要求将提供的统计学教材习题重新整理为新的JSON格式，结果如下：
+
+```json
+{
+  "background": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases. Let $D$ represent ...
+2026-04-11 15:27:37,599 - INFO - 开始处理: record_151.json
+2026-04-11 15:27:38,089 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:38,091 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:27:38,096 - INFO - 已保存: record_314.json
+2026-04-11 15:27:38,096 - INFO - 成功处理: record_314.json
+2026-04-11 15:27:38,098 - INFO - 已保存: record_081.json
+2026-04-11 15:27:38,099 - INFO - 成功处理: record_081.json
+2026-04-11 15:27:38,099 - INFO - 开始处理: record_348.json
+2026-04-11 15:27:38,611 - INFO - 开始处理: record_395.json
+2026-04-11 15:28:21,323 - INFO - ============================================================
+2026-04-11 15:28:21,323 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:28:21,324 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:28:21,324 - INFO - 并发数: 8
+2026-04-11 15:28:21,324 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:28:21,324 - INFO - ============================================================
+2026-04-11 15:28:21,328 - INFO - 找到 292 个JSON文件
+2026-04-11 15:28:21,328 - INFO - 已处理 5 个文件，剩余 287 个文件待处理
+2026-04-11 15:28:21,328 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:28:21,330 - INFO - 开始处理: record_020.json
+2026-04-11 15:28:22,250 - INFO - 开始处理: record_083.json
+2026-04-11 15:28:22,650 - INFO - 开始处理: record_130.json
+2026-04-11 15:28:23,048 - INFO - 开始处理: record_318.json
+2026-04-11 15:28:23,444 - INFO - 开始处理: record_375.json
+2026-04-11 15:28:23,846 - INFO - 开始处理: record_422.json
+2026-04-11 15:28:24,246 - INFO - 开始处理: record_504.json
+2026-04-11 15:28:24,697 - INFO - 开始处理: record_060.json
+2026-04-11 15:28:26,019 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:26,021 - INFO - Retrying request to /chat/completions in 0.459444 seconds
+2026-04-11 15:28:26,226 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:26,227 - INFO - Retrying request to /chat/completions in 0.443901 seconds
+2026-04-11 15:28:26,295 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:26,296 - INFO - Retrying request to /chat/completions in 0.398679 seconds
+2026-04-11 15:28:26,838 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:26,839 - INFO - Retrying request to /chat/completions in 0.403230 seconds
+2026-04-11 15:28:27,113 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:27,114 - INFO - Retrying request to /chat/completions in 0.980681 seconds
+2026-04-11 15:28:28,076 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:28,077 - INFO - Retrying request to /chat/completions in 0.828304 seconds
+2026-04-11 15:28:28,091 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:28,092 - INFO - Retrying request to /chat/completions in 0.903337 seconds
+2026-04-11 15:28:28,175 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:28,176 - INFO - Retrying request to /chat/completions in 0.847496 seconds
+2026-04-11 15:28:28,509 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:28,511 - INFO - Retrying request to /chat/completions in 0.391364 seconds
+2026-04-11 15:28:28,734 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:28,735 - INFO - Retrying request to /chat/completions in 0.477963 seconds
+2026-04-11 15:28:29,295 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:29,298 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728294779926868268d9d6qTVQZ3Ny)', 'type': 'new_api_error'}}
+2026-04-11 15:28:29,310 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:29,315 - INFO - Retrying request to /chat/completions in 0.788053 seconds
+2026-04-11 15:28:29,369 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:29,371 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728286602361568268d9d6JWyxpHBM)', 'type': 'new_api_error'}}
+2026-04-11 15:28:29,406 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:29,407 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728295717058608268d9d6rGJgXOh6)', 'type': 'new_api_error'}}
+2026-04-11 15:28:29,408 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:29,410 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728295876860168268d9d6OTeL707z)', 'type': 'new_api_error'}}
+2026-04-11 15:28:30,027 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:30,028 - INFO - Retrying request to /chat/completions in 0.447158 seconds
+2026-04-11 15:28:30,167 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:30,167 - INFO - Retrying request to /chat/completions in 0.802475 seconds
+2026-04-11 15:28:30,856 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:30,857 - INFO - Retrying request to /chat/completions in 0.809063 seconds
+2026-04-11 15:28:31,055 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:31,056 - INFO - Retrying request to /chat/completions in 0.432508 seconds
+2026-04-11 15:28:31,239 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:31,240 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728306871708188268d9d6wDjBuhCU)', 'type': 'new_api_error'}}
+2026-04-11 15:28:31,706 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:32,970 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728315471948028268d9d6rdFCOH40)', 'type': 'new_api_error'}}
+2026-04-11 15:28:33,660 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:33,668 - INFO - Retrying request to /chat/completions in 0.805299 seconds
+2026-04-11 15:28:33,802 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:33,803 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728335327908728268d9d6Vl8h3Oow)', 'type': 'new_api_error'}}
+2026-04-11 15:28:34,061 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:34,062 - INFO - Retrying request to /chat/completions in 0.382513 seconds
+2026-04-11 15:28:34,811 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:34,813 - INFO - Retrying request to /chat/completions in 0.483233 seconds
+2026-04-11 15:28:34,921 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:34,922 - INFO - Retrying request to /chat/completions in 0.432025 seconds
+2026-04-11 15:28:34,968 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:34,970 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 20260411072835401255158268d9d6ThLIDomZ)', 'type': 'new_api_error'}}
+2026-04-11 15:28:35,374 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:35,376 - INFO - Retrying request to /chat/completions in 0.475988 seconds
+2026-04-11 15:28:35,490 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:35,492 - INFO - Retrying request to /chat/completions in 0.863051 seconds
+2026-04-11 15:28:35,774 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:35,775 - INFO - Retrying request to /chat/completions in 0.855632 seconds
+2026-04-11 15:28:36,213 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:36,215 - INFO - Retrying request to /chat/completions in 0.816777 seconds
+2026-04-11 15:28:36,612 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:36,613 - INFO - Retrying request to /chat/completions in 0.984348 seconds
+2026-04-11 15:28:36,766 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:36,767 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728369329540428268d9d6PhtaWyrB)', 'type': 'new_api_error'}}
+2026-04-11 15:28:37,387 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:37,388 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:37,390 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728371959926918268d9d6qBzmS2FC)', 'type': 'new_api_error'}}
+2026-04-11 15:28:37,391 - INFO - Retrying request to /chat/completions in 0.413061 seconds
+2026-04-11 15:28:37,851 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:37,851 - INFO - Retrying request to /chat/completions in 0.408276 seconds
+2026-04-11 15:28:38,191 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:38,192 - INFO - Retrying request to /chat/completions in 0.980201 seconds
+2026-04-11 15:28:38,195 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:38,196 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728383603321828268d9d6Ygf2LZsy)', 'type': 'new_api_error'}}
+2026-04-11 15:28:38,336 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:38,337 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728379509626848268d9d6bjnd4dJH)', 'type': 'new_api_error'}}
+2026-04-11 15:28:38,650 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:38,651 - INFO - Retrying request to /chat/completions in 0.752560 seconds
+2026-04-11 15:28:39,822 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:39,828 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728397446944968268d9d6FbW4V6Qk)', 'type': 'new_api_error'}}
+2026-04-11 15:28:40,653 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:40,655 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:41,122 - INFO - Retrying request to /chat/completions in 0.406505 seconds
+2026-04-11 15:28:41,123 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728403955996868268d9d64XhCU2sE)', 'type': 'new_api_error'}}
+2026-04-11 15:28:41,124 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:41,125 - INFO - Retrying request to /chat/completions in 0.491324 seconds
+2026-04-11 15:28:41,633 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:41,634 - INFO - Retrying request to /chat/completions in 0.375968 seconds
+2026-04-11 15:28:41,788 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:41,789 - INFO - Retrying request to /chat/completions in 0.426424 seconds
+2026-04-11 15:28:42,355 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:42,359 - INFO - Retrying request to /chat/completions in 0.950610 seconds
+2026-04-11 15:28:42,747 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:42,749 - INFO - Retrying request to /chat/completions in 0.890004 seconds
+2026-04-11 15:28:43,664 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:43,667 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:43,669 - INFO - Retrying request to /chat/completions in 0.898382 seconds
+2026-04-11 15:28:43,670 - INFO - Retrying request to /chat/completions in 0.932355 seconds
+2026-04-11 15:28:44,060 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:44,061 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728442333721558268d9d6s0YDhJQD)', 'type': 'new_api_error'}}
+2026-04-11 15:28:44,061 - ERROR - API错误 record_504.json: API调用失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728442333721558268d9d6s0YDhJQD)', 'type': 'new_api_error'}}
+2026-04-11 15:28:44,062 - INFO - 开始处理: record_107.json
+2026-04-11 15:28:44,572 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:44,574 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:44,575 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-04-11 15:28:44,577 - ERROR - API调用异常: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728442333848458268d9d6vjiyM9yN)', 'type': 'new_api_error'}}
+2026-04-11 15:28:44,577 - ERROR - API错误 record_083.json: API调用失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model claude-opus-4.6 under group default (distributor) (request id: 202604110728442333848458268d9d6vjiyM9yN)', 'type': 'new_api_error'}}
+2026-04-11 15:28:44,578 - INFO - Retrying request to /chat/completions in 0.497882 seconds
+2026-04-11 15:28:44,579 - INFO - Retrying request to /chat/completions in 0.414873 seconds
+2026-04-11 15:28:44,579 - INFO - 开始处理: record_154.json
+2026-04-11 15:30:05,114 - INFO - ============================================================
+2026-04-11 15:30:05,114 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:30:05,115 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:30:05,115 - INFO - 并发数: 8
+2026-04-11 15:30:05,115 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:30:05,115 - INFO - ============================================================
+2026-04-11 15:30:05,120 - INFO - 找到 292 个JSON文件
+2026-04-11 15:30:05,120 - INFO - 已处理 5 个文件，剩余 287 个文件待处理
+2026-04-11 15:30:05,120 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:30:05,122 - INFO - 开始处理: record_020.json
+2026-04-11 15:30:06,156 - INFO - 开始处理: record_083.json
+2026-04-11 15:30:06,600 - INFO - 开始处理: record_130.json
+2026-04-11 15:30:07,010 - INFO - 开始处理: record_318.json
+2026-04-11 15:30:07,466 - INFO - 开始处理: record_375.json
+2026-04-11 15:30:07,929 - INFO - 开始处理: record_422.json
+2026-04-11 15:30:08,394 - INFO - 开始处理: record_060.json
+2026-04-11 15:30:08,842 - INFO - 开始处理: record_107.json
+2026-04-11 15:30:13,027 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:13,036 - INFO - 已保存: record_083.json
+2026-04-11 15:30:13,036 - INFO - 成功处理: record_083.json
+2026-04-11 15:30:13,405 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:13,408 - INFO - 已保存: record_020.json
+2026-04-11 15:30:13,408 - INFO - 成功处理: record_020.json
+2026-04-11 15:30:13,460 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:13,462 - INFO - 已保存: record_318.json
+2026-04-11 15:30:13,463 - INFO - 成功处理: record_318.json
+2026-04-11 15:30:13,542 - INFO - 开始处理: record_154.json
+2026-04-11 15:30:14,015 - INFO - 开始处理: record_353.json
+2026-04-11 15:30:14,439 - INFO - 开始处理: record_400.json
+2026-04-11 15:30:14,925 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:14,928 - INFO - 已保存: record_130.json
+2026-04-11 15:30:14,929 - INFO - 成功处理: record_130.json
+2026-04-11 15:30:14,930 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:14,932 - INFO - 已保存: record_375.json
+2026-04-11 15:30:14,932 - INFO - 成功处理: record_375.json
+2026-04-11 15:30:15,436 - INFO - 开始处理: record_446.json
+2026-04-11 15:30:15,866 - INFO - 开始处理: record_021.json
+2026-04-11 15:30:18,577 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:18,580 - INFO - 已保存: record_422.json
+2026-04-11 15:30:18,580 - INFO - 成功处理: record_422.json
+2026-04-11 15:30:18,910 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:18,912 - INFO - 已保存: record_154.json
+2026-04-11 15:30:18,912 - INFO - 成功处理: record_154.json
+2026-04-11 15:30:19,089 - INFO - 开始处理: record_084.json
+2026-04-11 15:30:19,539 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:19,542 - INFO - 已保存: record_060.json
+2026-04-11 15:30:19,542 - INFO - 成功处理: record_060.json
+2026-04-11 15:30:19,545 - INFO - 开始处理: record_131.json
+2026-04-11 15:30:20,060 - INFO - 开始处理: record_319.json
+2026-04-11 15:30:20,491 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:20,496 - INFO - 已保存: record_353.json
+2026-04-11 15:30:20,496 - INFO - 成功处理: record_353.json
+2026-04-11 15:30:20,997 - INFO - 开始处理: record_376.json
+2026-04-11 15:30:22,037 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:22,043 - INFO - 已保存: record_400.json
+2026-04-11 15:30:22,043 - INFO - 成功处理: record_400.json
+2026-04-11 15:30:22,558 - INFO - 开始处理: record_423.json
+2026-04-11 15:30:23,014 - INFO - 进度: 10/287 (3.5%), 成功: 10, 失败: 0, 速度: 0.56 文件/秒
+2026-04-11 15:30:25,318 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:25,321 - INFO - 已保存: record_084.json
+2026-04-11 15:30:25,321 - INFO - 成功处理: record_084.json
+2026-04-11 15:30:25,833 - INFO - 开始处理: record_503.json
+2026-04-11 15:30:26,469 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:26,471 - INFO - 已保存: record_376.json
+2026-04-11 15:30:26,472 - INFO - 成功处理: record_376.json
+2026-04-11 15:30:26,478 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:26,481 - INFO - 已保存: record_021.json
+2026-04-11 15:30:26,481 - INFO - 成功处理: record_021.json
+2026-04-11 15:30:26,496 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:26,531 - INFO - 已保存: record_423.json
+2026-04-11 15:30:26,535 - INFO - 成功处理: record_423.json
+2026-04-11 15:30:26,975 - INFO - 开始处理: record_061.json
+2026-04-11 15:30:27,459 - INFO - 开始处理: record_108.json
+2026-04-11 15:30:27,905 - INFO - 开始处理: record_155.json
+2026-04-11 15:30:28,368 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:28,371 - INFO - 已保存: record_319.json
+2026-04-11 15:30:28,371 - INFO - 成功处理: record_319.json
+2026-04-11 15:30:28,885 - INFO - 开始处理: record_354.json
+2026-04-11 15:30:29,328 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:29,331 - INFO - 已保存: record_131.json
+2026-04-11 15:30:29,332 - INFO - 成功处理: record_131.json
+2026-04-11 15:30:29,838 - INFO - 开始处理: record_401.json
+2026-04-11 15:30:31,248 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:31,252 - INFO - 已保存: record_503.json
+2026-04-11 15:30:31,252 - INFO - 成功处理: record_503.json
+2026-04-11 15:30:31,767 - INFO - 开始处理: record_447.json
+2026-04-11 15:30:32,806 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:32,815 - INFO - 已保存: record_061.json
+2026-04-11 15:30:32,815 - INFO - 成功处理: record_061.json
+2026-04-11 15:30:33,320 - INFO - 开始处理: record_022.json
+2026-04-11 15:30:33,763 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:33,768 - INFO - 已保存: record_446.json
+2026-04-11 15:30:33,768 - INFO - 成功处理: record_446.json
+2026-04-11 15:30:34,271 - INFO - 开始处理: record_085.json
+2026-04-11 15:30:34,274 - WARNING - answer字段为空
+2026-04-11 15:30:36,281 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:36,284 - INFO - 已保存: record_108.json
+2026-04-11 15:30:36,284 - INFO - 成功处理: record_108.json
+2026-04-11 15:30:36,793 - INFO - 开始处理: record_132.json
+2026-04-11 15:30:37,234 - INFO - 进度: 20/287 (7.0%), 成功: 20, 失败: 0, 速度: 0.62 文件/秒
+2026-04-11 15:30:37,236 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:37,240 - INFO - 已保存: record_354.json
+2026-04-11 15:30:37,240 - INFO - 成功处理: record_354.json
+2026-04-11 15:30:37,350 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:37,355 - INFO - 已保存: record_401.json
+2026-04-11 15:30:37,355 - INFO - 成功处理: record_401.json
+2026-04-11 15:30:37,760 - INFO - 开始处理: record_320.json
+2026-04-11 15:30:38,211 - INFO - 开始处理: record_377.json
+2026-04-11 15:30:40,676 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:40,681 - INFO - 已保存: record_447.json
+2026-04-11 15:30:40,681 - INFO - 成功处理: record_447.json
+2026-04-11 15:30:41,189 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:41,192 - INFO - 已保存: record_022.json
+2026-04-11 15:30:41,192 - INFO - 成功处理: record_022.json
+2026-04-11 15:30:41,192 - INFO - 开始处理: record_424.json
+2026-04-11 15:30:41,695 - INFO - 开始处理: record_062.json
+2026-04-11 15:30:44,905 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:44,908 - INFO - 已保存: record_320.json
+2026-04-11 15:30:44,908 - INFO - 成功处理: record_320.json
+2026-04-11 15:30:45,423 - INFO - 开始处理: record_109.json
+2026-04-11 15:30:45,868 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:45,871 - INFO - 已保存: record_424.json
+2026-04-11 15:30:45,871 - INFO - 成功处理: record_424.json
+2026-04-11 15:30:46,226 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:46,232 - INFO - 已保存: record_377.json
+2026-04-11 15:30:46,233 - INFO - 成功处理: record_377.json
+2026-04-11 15:30:46,379 - INFO - 开始处理: record_156.json
+2026-04-11 15:30:46,381 - WARNING - answer字段为空
+2026-04-11 15:30:46,809 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:46,812 - INFO - 已保存: record_062.json
+2026-04-11 15:30:46,812 - INFO - 成功处理: record_062.json
+2026-04-11 15:30:46,813 - INFO - 开始处理: record_355.json
+2026-04-11 15:30:47,315 - INFO - 开始处理: record_402.json
+2026-04-11 15:30:47,759 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:47,762 - INFO - 已保存: record_132.json
+2026-04-11 15:30:47,762 - INFO - 成功处理: record_132.json
+2026-04-11 15:30:48,257 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:48,264 - INFO - 已保存: record_155.json
+2026-04-11 15:30:48,265 - INFO - 成功处理: record_155.json
+2026-04-11 15:30:48,265 - INFO - 开始处理: record_448.json
+2026-04-11 15:30:48,772 - INFO - 开始处理: record_024.json
+2026-04-11 15:30:49,170 - INFO - 进度: 30/287 (10.5%), 成功: 30, 失败: 0, 速度: 0.68 文件/秒
+2026-04-11 15:30:49,688 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:49,692 - INFO - 已保存: record_085.json
+2026-04-11 15:30:49,692 - INFO - 成功处理: record_085.json
+2026-04-11 15:30:50,194 - INFO - 开始处理: record_086.json
+2026-04-11 15:30:50,712 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:50,715 - INFO - 已保存: record_109.json
+2026-04-11 15:30:50,715 - INFO - 成功处理: record_109.json
+2026-04-11 15:30:51,232 - INFO - 开始处理: record_133.json
+2026-04-11 15:30:52,078 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:52,081 - INFO - 已保存: record_355.json
+2026-04-11 15:30:52,081 - INFO - 成功处理: record_355.json
+2026-04-11 15:30:52,585 - INFO - 开始处理: record_321.json
+2026-04-11 15:30:55,791 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:55,795 - INFO - 已保存: record_402.json
+2026-04-11 15:30:55,795 - INFO - 成功处理: record_402.json
+2026-04-11 15:30:56,306 - INFO - 开始处理: record_378.json
+2026-04-11 15:30:56,852 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:56,857 - INFO - 已保存: record_448.json
+2026-04-11 15:30:56,858 - INFO - 成功处理: record_448.json
+2026-04-11 15:30:56,923 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:56,925 - INFO - 已保存: record_133.json
+2026-04-11 15:30:56,926 - INFO - 成功处理: record_133.json
+2026-04-11 15:30:57,242 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:57,246 - INFO - 已保存: record_086.json
+2026-04-11 15:30:57,246 - INFO - 成功处理: record_086.json
+2026-04-11 15:30:57,363 - INFO - 开始处理: record_425.json
+2026-04-11 15:30:57,801 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:57,807 - INFO - 已保存: record_024.json
+2026-04-11 15:30:57,807 - INFO - 成功处理: record_024.json
+2026-04-11 15:30:57,808 - INFO - 开始处理: record_508.json
+2026-04-11 15:30:58,275 - INFO - 开始处理: record_063.json
+2026-04-11 15:30:58,723 - INFO - 开始处理: record_110.json
+2026-04-11 15:30:59,638 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:30:59,642 - INFO - 已保存: record_156.json
+2026-04-11 15:30:59,642 - INFO - 成功处理: record_156.json
+2026-04-11 15:31:00,123 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:00,128 - INFO - 已保存: record_378.json
+2026-04-11 15:31:00,128 - INFO - 成功处理: record_378.json
+2026-04-11 15:31:00,148 - INFO - 开始处理: record_157.json
+2026-04-11 15:31:00,631 - INFO - 开始处理: record_356.json
+2026-04-11 15:31:01,074 - INFO - 进度: 40/287 (13.9%), 成功: 40, 失败: 0, 速度: 0.71 文件/秒
+2026-04-11 15:31:03,440 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:03,442 - INFO - 已保存: record_110.json
+2026-04-11 15:31:03,442 - INFO - 成功处理: record_110.json
+2026-04-11 15:31:03,945 - INFO - 开始处理: record_403.json
+2026-04-11 15:31:05,393 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:05,395 - ERROR - JSON解析错误 record_157.json: 无法从模型输出中解析JSON: Here is the reformatted JSON structure for the given statistical problem:
+
+```json
+{
+  "background": "A South African study compared whether participating in a 5-year follow-up interview was associate...
+2026-04-11 15:31:05,395 - INFO - 开始处理: record_449.json
+2026-04-11 15:31:07,407 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:07,410 - INFO - 已保存: record_356.json
+2026-04-11 15:31:07,411 - INFO - 成功处理: record_356.json
+2026-04-11 15:31:07,926 - INFO - 开始处理: record_025.json
+2026-04-11 15:31:08,397 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:08,399 - INFO - 已保存: record_508.json
+2026-04-11 15:31:08,399 - INFO - 成功处理: record_508.json
+2026-04-11 15:31:08,912 - INFO - 开始处理: record_087.json
+2026-04-11 15:31:09,336 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:09,340 - INFO - 已保存: record_107.json
+2026-04-11 15:31:09,340 - INFO - 成功处理: record_107.json
+2026-04-11 15:31:09,847 - INFO - 开始处理: record_134.json
+2026-04-11 15:31:10,289 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:10,290 - ERROR - JSON解析错误 record_449.json: 无法从模型输出中解析JSON: 以下是将给定的统计学教材习题重新整理为新的JSON格式的结果：
+
+```json
+{
+  "background": "Suppose a matched-pair case-control study finds three discordant pairs in which the case is exposed to a risk factor $(c=3)$ and one discord...
+2026-04-11 15:31:10,291 - INFO - 开始处理: record_322.json
+2026-04-11 15:31:15,420 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:15,425 - INFO - 已保存: record_403.json
+2026-04-11 15:31:15,426 - INFO - 成功处理: record_403.json
+2026-04-11 15:31:15,929 - INFO - 开始处理: record_379.json
+2026-04-11 15:31:17,951 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:17,954 - INFO - 已保存: record_063.json
+2026-04-11 15:31:17,954 - INFO - 成功处理: record_063.json
+2026-04-11 15:31:18,470 - INFO - 开始处理: record_426.json
+2026-04-11 15:31:23,835 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:23,839 - INFO - 已保存: record_379.json
+2026-04-11 15:31:23,839 - INFO - 成功处理: record_379.json
+2026-04-11 15:31:24,350 - INFO - 开始处理: record_451.json
+2026-04-11 15:31:24,800 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:24,803 - INFO - 已保存: record_134.json
+2026-04-11 15:31:24,804 - INFO - 成功处理: record_134.json
+2026-04-11 15:31:25,306 - INFO - 开始处理: record_002.json
+2026-04-11 15:31:25,748 - INFO - 进度: 50/287 (17.4%), 成功: 48, 失败: 2, 速度: 0.62 文件/秒
+2026-04-11 15:31:26,042 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:26,044 - ERROR - JSON解析错误 record_426.json: 无法从模型输出中解析JSON: 以下是重新整理后的统计学教材习题，按照要求拆分为问题背景和多个子任务，并以规范化的JSON格式呈现：
+
+```json
+{
+  "background": "We propose to calculate a $95 \\%$ confidence interval for the risk difference in the estrogen trial presented earlier. W...
+2026-04-11 15:31:26,045 - INFO - 开始处理: record_064.json
+2026-04-11 15:31:28,805 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:28,809 - INFO - 已保存: record_002.json
+2026-04-11 15:31:28,809 - INFO - 成功处理: record_002.json
+2026-04-11 15:31:29,312 - INFO - 开始处理: record_111.json
+2026-04-11 15:31:31,178 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:31,187 - INFO - 已保存: record_451.json
+2026-04-11 15:31:31,188 - INFO - 成功处理: record_451.json
+2026-04-11 15:31:31,754 - INFO - 开始处理: record_158.json
+2026-04-11 15:31:35,461 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:35,464 - INFO - 已保存: record_064.json
+2026-04-11 15:31:35,464 - INFO - 成功处理: record_064.json
+2026-04-11 15:31:35,977 - INFO - 开始处理: record_357.json
+2026-04-11 15:31:37,548 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:37,551 - INFO - 已保存: record_111.json
+2026-04-11 15:31:37,551 - INFO - 成功处理: record_111.json
+2026-04-11 15:31:38,054 - INFO - 开始处理: record_404.json
+2026-04-11 15:31:38,644 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:38,648 - INFO - 已保存: record_158.json
+2026-04-11 15:31:38,648 - INFO - 成功处理: record_158.json
+2026-04-11 15:31:39,161 - INFO - 开始处理: record_026.json
+2026-04-11 15:31:40,888 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:40,891 - INFO - 已保存: record_357.json
+2026-04-11 15:31:40,891 - INFO - 成功处理: record_357.json
+2026-04-11 15:31:41,394 - INFO - 开始处理: record_088.json
+2026-04-11 15:31:45,294 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:45,297 - INFO - 已保存: record_026.json
+2026-04-11 15:31:45,298 - INFO - 成功处理: record_026.json
+2026-04-11 15:31:45,447 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:45,453 - INFO - 已保存: record_404.json
+2026-04-11 15:31:45,454 - INFO - 成功处理: record_404.json
+2026-04-11 15:31:45,811 - INFO - 开始处理: record_135.json
+2026-04-11 15:31:46,292 - INFO - 开始处理: record_333.json
+2026-04-11 15:31:47,514 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:47,518 - INFO - 已保存: record_025.json
+2026-04-11 15:31:47,518 - INFO - 成功处理: record_025.json
+2026-04-11 15:31:48,026 - INFO - 开始处理: record_380.json
+2026-04-11 15:31:48,539 - INFO - 进度: 60/287 (20.9%), 成功: 57, 失败: 3, 速度: 0.58 文件/秒
+2026-04-11 15:31:51,239 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:51,242 - INFO - 已保存: record_135.json
+2026-04-11 15:31:51,242 - INFO - 成功处理: record_135.json
+2026-04-11 15:31:51,756 - INFO - 开始处理: record_427.json
+2026-04-11 15:31:53,074 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:53,077 - INFO - 已保存: record_333.json
+2026-04-11 15:31:53,078 - INFO - 成功处理: record_333.json
+2026-04-11 15:31:53,583 - INFO - 开始处理: record_001.json
+2026-04-11 15:31:54,954 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:54,957 - INFO - 已保存: record_088.json
+2026-04-11 15:31:54,958 - INFO - 成功处理: record_088.json
+2026-04-11 15:31:55,469 - INFO - 开始处理: record_065.json
+2026-04-11 15:31:56,735 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:31:56,739 - INFO - 已保存: record_001.json
+2026-04-11 15:31:56,739 - INFO - 成功处理: record_001.json
+2026-04-11 15:31:57,247 - INFO - 开始处理: record_112.json
+2026-04-11 15:32:02,394 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:02,403 - INFO - 已保存: record_427.json
+2026-04-11 15:32:02,403 - INFO - 成功处理: record_427.json
+2026-04-11 15:32:02,918 - INFO - 开始处理: record_159.json
+2026-04-11 15:32:05,057 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:05,060 - INFO - 已保存: record_425.json
+2026-04-11 15:32:05,060 - INFO - 成功处理: record_425.json
+2026-04-11 15:32:05,574 - INFO - 开始处理: record_358.json
+2026-04-11 15:32:06,182 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:06,187 - INFO - 已保存: record_112.json
+2026-04-11 15:32:06,188 - INFO - 成功处理: record_112.json
+2026-04-11 15:32:06,697 - INFO - 开始处理: record_405.json
+2026-04-11 15:32:08,305 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:08,308 - INFO - 已保存: record_358.json
+2026-04-11 15:32:08,308 - INFO - 成功处理: record_358.json
+2026-04-11 15:32:08,435 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:08,438 - INFO - 已保存: record_065.json
+2026-04-11 15:32:08,439 - INFO - 成功处理: record_065.json
+2026-04-11 15:32:08,820 - INFO - 开始处理: record_027.json
+2026-04-11 15:32:08,822 - WARNING - answer字段为空
+2026-04-11 15:32:09,282 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:09,287 - INFO - 已保存: record_380.json
+2026-04-11 15:32:09,288 - INFO - 成功处理: record_380.json
+2026-04-11 15:32:09,288 - INFO - 开始处理: record_089.json
+2026-04-11 15:32:09,789 - INFO - 开始处理: record_136.json
+2026-04-11 15:32:10,255 - INFO - 进度: 70/287 (24.4%), 成功: 67, 失败: 3, 速度: 0.56 文件/秒
+2026-04-11 15:32:15,602 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:15,604 - INFO - 已保存: record_089.json
+2026-04-11 15:32:15,604 - INFO - 成功处理: record_089.json
+2026-04-11 15:32:15,851 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:15,854 - INFO - 已保存: record_405.json
+2026-04-11 15:32:15,854 - INFO - 成功处理: record_405.json
+2026-04-11 15:32:16,108 - INFO - 开始处理: record_334.json
+2026-04-11 15:32:16,572 - INFO - 开始处理: record_381.json
+2026-04-11 15:32:16,991 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:16,995 - INFO - 已保存: record_136.json
+2026-04-11 15:32:16,995 - INFO - 成功处理: record_136.json
+2026-04-11 15:32:17,512 - INFO - 开始处理: record_428.json
+2026-04-11 15:32:19,281 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:19,283 - INFO - 已保存: record_027.json
+2026-04-11 15:32:19,284 - INFO - 成功处理: record_027.json
+2026-04-11 15:32:19,790 - INFO - 开始处理: record_504.json
+2026-04-11 15:32:21,314 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:21,318 - INFO - 已保存: record_428.json
+2026-04-11 15:32:21,318 - INFO - 成功处理: record_428.json
+2026-04-11 15:32:21,604 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:21,607 - INFO - 已保存: record_381.json
+2026-04-11 15:32:21,608 - INFO - 成功处理: record_381.json
+2026-04-11 15:32:21,821 - INFO - 开始处理: record_003.json
+2026-04-11 15:32:22,266 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:22,269 - INFO - 已保存: record_159.json
+2026-04-11 15:32:22,270 - INFO - 成功处理: record_159.json
+2026-04-11 15:32:22,270 - INFO - 开始处理: record_066.json
+2026-04-11 15:32:22,774 - INFO - 开始处理: record_113.json
+2026-04-11 15:32:23,926 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:23,932 - INFO - 已保存: record_334.json
+2026-04-11 15:32:23,932 - INFO - 成功处理: record_334.json
+2026-04-11 15:32:24,446 - INFO - 开始处理: record_301.json
+2026-04-11 15:32:26,698 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:26,702 - INFO - 已保存: record_003.json
+2026-04-11 15:32:26,703 - INFO - 成功处理: record_003.json
+2026-04-11 15:32:27,208 - INFO - 开始处理: record_359.json
+2026-04-11 15:32:27,783 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:27,787 - INFO - 已保存: record_066.json
+2026-04-11 15:32:27,787 - INFO - 成功处理: record_066.json
+2026-04-11 15:32:27,789 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:27,792 - INFO - 已保存: record_504.json
+2026-04-11 15:32:27,792 - INFO - 成功处理: record_504.json
+2026-04-11 15:32:28,292 - INFO - 开始处理: record_406.json
+2026-04-11 15:32:28,855 - INFO - 进度: 80/287 (27.9%), 成功: 77, 失败: 3, 速度: 0.56 文件/秒
+2026-04-11 15:32:28,862 - INFO - 开始处理: record_028.json
+2026-04-11 15:32:33,737 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:33,741 - INFO - 已保存: record_301.json
+2026-04-11 15:32:33,741 - INFO - 成功处理: record_301.json
+2026-04-11 15:32:33,748 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:33,750 - INFO - 已保存: record_028.json
+2026-04-11 15:32:33,750 - INFO - 成功处理: record_028.json
+2026-04-11 15:32:34,251 - INFO - 开始处理: record_090.json
+2026-04-11 15:32:34,254 - WARNING - answer字段为空
+2026-04-11 15:32:34,760 - INFO - 开始处理: record_137.json
+2026-04-11 15:32:38,893 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:38,896 - INFO - 已保存: record_113.json
+2026-04-11 15:32:38,897 - INFO - 成功处理: record_113.json
+2026-04-11 15:32:39,181 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:39,187 - INFO - 已保存: record_359.json
+2026-04-11 15:32:39,188 - INFO - 成功处理: record_359.json
+2026-04-11 15:32:39,404 - INFO - 开始处理: record_335.json
+2026-04-11 15:32:39,839 - INFO - 开始处理: record_382.json
+2026-04-11 15:32:41,407 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:41,410 - INFO - 已保存: record_137.json
+2026-04-11 15:32:41,411 - INFO - 成功处理: record_137.json
+2026-04-11 15:32:41,916 - INFO - 开始处理: record_429.json
+2026-04-11 15:32:42,390 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:42,393 - INFO - 已保存: record_090.json
+2026-04-11 15:32:42,393 - INFO - 成功处理: record_090.json
+2026-04-11 15:32:42,900 - INFO - 开始处理: record_004.json
+2026-04-11 15:32:45,896 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:45,900 - INFO - 已保存: record_382.json
+2026-04-11 15:32:45,900 - INFO - 成功处理: record_382.json
+2026-04-11 15:32:46,402 - INFO - 开始处理: record_067.json
+2026-04-11 15:32:49,438 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:49,441 - INFO - 已保存: record_429.json
+2026-04-11 15:32:49,441 - INFO - 成功处理: record_429.json
+2026-04-11 15:32:49,948 - INFO - 开始处理: record_114.json
+2026-04-11 15:32:52,352 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:52,355 - INFO - 已保存: record_004.json
+2026-04-11 15:32:52,355 - INFO - 成功处理: record_004.json
+2026-04-11 15:32:52,870 - INFO - 开始处理: record_302.json
+2026-04-11 15:32:53,419 - INFO - 进度: 90/287 (31.4%), 成功: 87, 失败: 3, 速度: 0.53 文件/秒
+2026-04-11 15:32:56,767 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:56,769 - INFO - 已保存: record_067.json
+2026-04-11 15:32:56,770 - INFO - 成功处理: record_067.json
+2026-04-11 15:32:57,275 - INFO - 开始处理: record_360.json
+2026-04-11 15:32:58,729 - INFO - Retrying request to /chat/completions in 0.458648 seconds
+2026-04-11 15:32:59,010 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:32:59,013 - INFO - 已保存: record_302.json
+2026-04-11 15:32:59,013 - INFO - 成功处理: record_302.json
+2026-04-11 15:32:59,525 - INFO - 开始处理: record_407.json
+2026-04-11 15:33:00,062 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:00,065 - INFO - 已保存: record_406.json
+2026-04-11 15:33:00,065 - INFO - 成功处理: record_406.json
+2026-04-11 15:33:00,574 - INFO - 开始处理: record_029.json
+2026-04-11 15:33:03,643 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:03,651 - INFO - 已保存: record_407.json
+2026-04-11 15:33:03,651 - INFO - 成功处理: record_407.json
+2026-04-11 15:33:04,071 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:04,077 - INFO - 已保存: record_360.json
+2026-04-11 15:33:04,077 - INFO - 成功处理: record_360.json
+2026-04-11 15:33:04,161 - INFO - 开始处理: record_091.json
+2026-04-11 15:33:04,664 - INFO - 开始处理: record_138.json
+2026-04-11 15:33:06,395 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:06,398 - INFO - 已保存: record_335.json
+2026-04-11 15:33:06,398 - INFO - 成功处理: record_335.json
+2026-04-11 15:33:06,702 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:06,707 - INFO - 已保存: record_029.json
+2026-04-11 15:33:06,708 - INFO - 成功处理: record_029.json
+2026-04-11 15:33:06,909 - INFO - 开始处理: record_336.json
+2026-04-11 15:33:07,432 - INFO - 开始处理: record_383.json
+2026-04-11 15:33:07,962 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:07,966 - INFO - 已保存: record_321.json
+2026-04-11 15:33:07,967 - INFO - 成功处理: record_321.json
+2026-04-11 15:33:08,477 - INFO - 开始处理: record_430.json
+2026-04-11 15:33:10,737 - INFO - Retrying request to /chat/completions in 0.438557 seconds
+2026-04-11 15:33:10,782 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:10,785 - INFO - 已保存: record_091.json
+2026-04-11 15:33:10,786 - INFO - 成功处理: record_091.json
+2026-04-11 15:33:11,194 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:11,197 - INFO - 已保存: record_336.json
+2026-04-11 15:33:11,198 - INFO - 成功处理: record_336.json
+2026-04-11 15:33:11,298 - INFO - 开始处理: record_005.json
+2026-04-11 15:33:11,822 - INFO - 开始处理: record_068.json
+2026-04-11 15:33:12,424 - INFO - 进度: 100/287 (34.8%), 成功: 97, 失败: 3, 速度: 0.53 文件/秒
+2026-04-11 15:33:12,759 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:12,762 - INFO - 已保存: record_430.json
+2026-04-11 15:33:12,762 - INFO - 成功处理: record_430.json
+2026-04-11 15:33:12,843 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:12,846 - INFO - 已保存: record_138.json
+2026-04-11 15:33:12,846 - INFO - 成功处理: record_138.json
+2026-04-11 15:33:13,265 - INFO - 开始处理: record_115.json
+2026-04-11 15:33:13,713 - INFO - 开始处理: record_303.json
+2026-04-11 15:33:14,216 - INFO - Retrying request to /chat/completions in 0.405410 seconds
+2026-04-11 15:33:15,659 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:15,662 - INFO - 已保存: record_383.json
+2026-04-11 15:33:15,662 - INFO - 成功处理: record_383.json
+2026-04-11 15:33:15,712 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:15,715 - INFO - 已保存: record_005.json
+2026-04-11 15:33:15,715 - INFO - 成功处理: record_005.json
+2026-04-11 15:33:16,167 - INFO - 开始处理: record_361.json
+2026-04-11 15:33:16,681 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:16,685 - INFO - 已保存: record_087.json
+2026-04-11 15:33:16,685 - INFO - 成功处理: record_087.json
+2026-04-11 15:33:16,685 - INFO - 开始处理: record_408.json
+2026-04-11 15:33:17,197 - INFO - 开始处理: record_041.json
+2026-04-11 15:33:19,501 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:19,502 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:19,504 - INFO - 已保存: record_115.json
+2026-04-11 15:33:19,505 - INFO - 成功处理: record_115.json
+2026-04-11 15:33:19,507 - INFO - 已保存: record_068.json
+2026-04-11 15:33:19,507 - INFO - 成功处理: record_068.json
+2026-04-11 15:33:19,911 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:19,913 - INFO - 已保存: record_303.json
+2026-04-11 15:33:19,914 - INFO - 成功处理: record_303.json
+2026-04-11 15:33:19,990 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:19,993 - INFO - 已保存: record_322.json
+2026-04-11 15:33:19,993 - INFO - 成功处理: record_322.json
+2026-04-11 15:33:20,013 - INFO - 开始处理: record_092.json
+2026-04-11 15:33:20,506 - INFO - 开始处理: record_139.json
+2026-04-11 15:33:20,972 - INFO - 开始处理: record_337.json
+2026-04-11 15:33:21,478 - INFO - 开始处理: record_384.json
+2026-04-11 15:33:24,692 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:24,695 - INFO - 已保存: record_408.json
+2026-04-11 15:33:24,695 - INFO - 成功处理: record_408.json
+2026-04-11 15:33:25,198 - INFO - 开始处理: record_431.json
+2026-04-11 15:33:25,747 - INFO - 进度: 110/287 (38.3%), 成功: 107, 失败: 3, 速度: 0.55 文件/秒
+2026-04-11 15:33:25,749 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:25,753 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:25,758 - INFO - 已保存: record_384.json
+2026-04-11 15:33:25,758 - INFO - 成功处理: record_384.json
+2026-04-11 15:33:25,763 - INFO - 已保存: record_361.json
+2026-04-11 15:33:25,764 - INFO - 成功处理: record_361.json
+2026-04-11 15:33:25,952 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:25,955 - INFO - 已保存: record_092.json
+2026-04-11 15:33:25,955 - INFO - 成功处理: record_092.json
+2026-04-11 15:33:26,260 - INFO - 开始处理: record_452.json
+2026-04-11 15:33:26,828 - INFO - 开始处理: record_006.json
+2026-04-11 15:33:27,427 - INFO - 开始处理: record_069.json
+2026-04-11 15:33:27,973 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:27,976 - INFO - 已保存: record_139.json
+2026-04-11 15:33:27,976 - INFO - 成功处理: record_139.json
+2026-04-11 15:33:28,266 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:28,271 - INFO - 已保存: record_337.json
+2026-04-11 15:33:28,271 - INFO - 成功处理: record_337.json
+2026-04-11 15:33:28,480 - INFO - 开始处理: record_116.json
+2026-04-11 15:33:28,483 - WARNING - answer字段为空
+2026-04-11 15:33:29,038 - INFO - 开始处理: record_304.json
+2026-04-11 15:33:32,784 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:32,788 - INFO - 已保存: record_069.json
+2026-04-11 15:33:32,788 - INFO - 成功处理: record_069.json
+2026-04-11 15:33:33,295 - INFO - 开始处理: record_362.json
+2026-04-11 15:33:33,826 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:33,828 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:33,829 - ERROR - JSON解析错误 record_116.json: 无法从模型输出中解析JSON: 你提供的统计学教材习题内容为空（`question` 和 `answer` 字段都没有数据）。请提供具体的题目内容，以便我能够按照要求将其拆分为问题背景和多个子任务，并重新整理为新的 JSON 格式。...
+2026-04-11 15:33:33,831 - INFO - 已保存: record_006.json
+2026-04-11 15:33:33,831 - INFO - 成功处理: record_006.json
+2026-04-11 15:33:33,831 - INFO - 开始处理: record_409.json
+2026-04-11 15:33:34,334 - INFO - 开始处理: record_042.json
+2026-04-11 15:33:36,618 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:36,621 - INFO - 已保存: record_041.json
+2026-04-11 15:33:36,621 - INFO - 成功处理: record_041.json
+2026-04-11 15:33:37,129 - INFO - 开始处理: record_093.json
+2026-04-11 15:33:37,703 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:37,704 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:37,708 - INFO - 已保存: record_431.json
+2026-04-11 15:33:37,709 - INFO - 成功处理: record_431.json
+2026-04-11 15:33:37,712 - INFO - 已保存: record_452.json
+2026-04-11 15:33:37,712 - INFO - 成功处理: record_452.json
+2026-04-11 15:33:38,222 - INFO - 开始处理: record_140.json
+2026-04-11 15:33:38,814 - INFO - 开始处理: record_338.json
+2026-04-11 15:33:39,352 - INFO - 进度: 120/287 (41.8%), 成功: 116, 失败: 4, 速度: 0.56 文件/秒
+2026-04-11 15:33:39,357 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:39,362 - INFO - 已保存: record_304.json
+2026-04-11 15:33:39,363 - INFO - 成功处理: record_304.json
+2026-04-11 15:33:39,865 - INFO - 开始处理: record_385.json
+2026-04-11 15:33:41,289 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:41,292 - INFO - 已保存: record_409.json
+2026-04-11 15:33:41,293 - INFO - 成功处理: record_409.json
+2026-04-11 15:33:41,797 - INFO - 开始处理: record_432.json
+2026-04-11 15:33:42,358 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:42,361 - INFO - 已保存: record_093.json
+2026-04-11 15:33:42,365 - INFO - 成功处理: record_093.json
+2026-04-11 15:33:42,366 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:42,369 - INFO - 已保存: record_042.json
+2026-04-11 15:33:42,369 - INFO - 成功处理: record_042.json
+2026-04-11 15:33:42,866 - INFO - 开始处理: record_007.json
+2026-04-11 15:33:43,334 - INFO - 开始处理: record_070.json
+2026-04-11 15:33:44,798 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:44,800 - INFO - 已保存: record_385.json
+2026-04-11 15:33:44,800 - INFO - 成功处理: record_385.json
+2026-04-11 15:33:45,301 - INFO - 开始处理: record_117.json
+2026-04-11 15:33:45,806 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:45,811 - INFO - 已保存: record_140.json
+2026-04-11 15:33:45,811 - INFO - 成功处理: record_140.json
+2026-04-11 15:33:45,999 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:46,001 - INFO - 已保存: record_338.json
+2026-04-11 15:33:46,001 - INFO - 成功处理: record_338.json
+2026-04-11 15:33:46,318 - INFO - 开始处理: record_305.json
+2026-04-11 15:33:46,817 - INFO - 开始处理: record_363.json
+2026-04-11 15:33:48,849 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:48,851 - INFO - 已保存: record_070.json
+2026-04-11 15:33:48,851 - INFO - 成功处理: record_070.json
+2026-04-11 15:33:49,354 - INFO - 开始处理: record_410.json
+2026-04-11 15:33:49,875 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:49,878 - INFO - 已保存: record_362.json
+2026-04-11 15:33:49,879 - INFO - 成功处理: record_362.json
+2026-04-11 15:33:50,008 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:50,011 - INFO - 已保存: record_007.json
+2026-04-11 15:33:50,012 - INFO - 成功处理: record_007.json
+2026-04-11 15:33:50,395 - INFO - 开始处理: record_043.json
+2026-04-11 15:33:50,848 - INFO - 进度: 130/287 (45.3%), 成功: 126, 失败: 4, 速度: 0.58 文件/秒
+2026-04-11 15:33:50,851 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:50,852 - INFO - 开始处理: record_094.json
+2026-04-11 15:33:51,327 - INFO - 已保存: record_305.json
+2026-04-11 15:33:51,328 - INFO - 成功处理: record_305.json
+2026-04-11 15:33:51,408 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:51,410 - INFO - 已保存: record_117.json
+2026-04-11 15:33:51,411 - INFO - 成功处理: record_117.json
+2026-04-11 15:33:51,831 - INFO - 开始处理: record_141.json
+2026-04-11 15:33:52,302 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:52,306 - INFO - 已保存: record_363.json
+2026-04-11 15:33:52,306 - INFO - 成功处理: record_363.json
+2026-04-11 15:33:52,306 - INFO - 开始处理: record_339.json
+2026-04-11 15:33:52,784 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:52,787 - INFO - 已保存: record_410.json
+2026-04-11 15:33:52,787 - INFO - 成功处理: record_410.json
+2026-04-11 15:33:52,814 - INFO - 开始处理: record_386.json
+2026-04-11 15:33:53,297 - INFO - 开始处理: record_433.json
+2026-04-11 15:33:54,569 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:54,572 - INFO - 已保存: record_432.json
+2026-04-11 15:33:54,572 - INFO - 成功处理: record_432.json
+2026-04-11 15:33:55,084 - INFO - 开始处理: record_505.json
+2026-04-11 15:33:55,615 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:55,619 - INFO - 已保存: record_094.json
+2026-04-11 15:33:55,620 - INFO - 成功处理: record_094.json
+2026-04-11 15:33:56,127 - INFO - 开始处理: record_008.json
+2026-04-11 15:33:57,187 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:33:57,190 - INFO - 已保存: record_339.json
+2026-04-11 15:33:57,190 - INFO - 成功处理: record_339.json
+2026-04-11 15:33:57,706 - INFO - 开始处理: record_071.json
+2026-04-11 15:34:00,105 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:00,109 - INFO - 已保存: record_386.json
+2026-04-11 15:34:00,109 - INFO - 成功处理: record_386.json
+2026-04-11 15:34:00,420 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:00,422 - INFO - 已保存: record_043.json
+2026-04-11 15:34:00,422 - INFO - 成功处理: record_043.json
+2026-04-11 15:34:00,625 - INFO - 开始处理: record_118.json
+2026-04-11 15:34:01,107 - INFO - 开始处理: record_306.json
+2026-04-11 15:34:01,597 - INFO - 进度: 140/287 (48.8%), 成功: 136, 失败: 4, 速度: 0.59 文件/秒
+2026-04-11 15:34:01,599 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:01,606 - INFO - 已保存: record_433.json
+2026-04-11 15:34:01,606 - INFO - 成功处理: record_433.json
+2026-04-11 15:34:01,610 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:01,613 - INFO - 已保存: record_141.json
+2026-04-11 15:34:01,613 - INFO - 成功处理: record_141.json
+2026-04-11 15:34:02,120 - INFO - 开始处理: record_364.json
+2026-04-11 15:34:02,579 - INFO - 开始处理: record_411.json
+2026-04-11 15:34:03,211 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:03,214 - INFO - 已保存: record_505.json
+2026-04-11 15:34:03,215 - INFO - 成功处理: record_505.json
+2026-04-11 15:34:03,723 - INFO - 开始处理: record_044.json
+2026-04-11 15:34:04,320 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:04,323 - INFO - 已保存: record_071.json
+2026-04-11 15:34:04,324 - INFO - 成功处理: record_071.json
+2026-04-11 15:34:04,828 - INFO - 开始处理: record_095.json
+2026-04-11 15:34:06,160 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:06,162 - INFO - 已保存: record_118.json
+2026-04-11 15:34:06,163 - INFO - 成功处理: record_118.json
+2026-04-11 15:34:06,559 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:06,561 - INFO - 已保存: record_411.json
+2026-04-11 15:34:06,561 - INFO - 成功处理: record_411.json
+2026-04-11 15:34:06,670 - INFO - 开始处理: record_142.json
+2026-04-11 15:34:07,136 - INFO - 开始处理: record_340.json
+2026-04-11 15:34:07,747 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:07,750 - INFO - 已保存: record_306.json
+2026-04-11 15:34:07,750 - INFO - 成功处理: record_306.json
+2026-04-11 15:34:08,253 - INFO - 开始处理: record_387.json
+2026-04-11 15:34:09,579 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:09,581 - INFO - 已保存: record_364.json
+2026-04-11 15:34:09,582 - INFO - 成功处理: record_364.json
+2026-04-11 15:34:10,089 - INFO - 开始处理: record_434.json
+2026-04-11 15:34:11,216 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:11,220 - INFO - 已保存: record_044.json
+2026-04-11 15:34:11,220 - INFO - 成功处理: record_044.json
+2026-04-11 15:34:11,724 - INFO - 开始处理: record_009.json
+2026-04-11 15:34:13,968 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:13,970 - ERROR - JSON解析错误 record_142.json: 无法从模型输出中解析JSON: 以下是重新整理后的JSON格式：
+
+```json
+{
+  "background": "Table 18.8 contains results from the cytomegalovirus (CMV) and restenosis study considered as an illustrative example of naturalistic samples in §18.1. The...
+2026-04-11 15:34:13,972 - INFO - 开始处理: record_072.json
+2026-04-11 15:34:14,433 - INFO - 进度: 150/287 (52.3%), 成功: 145, 失败: 5, 速度: 0.60 文件/秒
+2026-04-11 15:34:26,888 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:26,890 - INFO - 已保存: record_340.json
+2026-04-11 15:34:26,890 - INFO - 成功处理: record_340.json
+2026-04-11 15:34:27,402 - INFO - 开始处理: record_119.json
+2026-04-11 15:34:27,404 - WARNING - answer字段为空
+2026-04-11 15:34:30,882 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:30,884 - INFO - 已保存: record_008.json
+2026-04-11 15:34:30,884 - INFO - 成功处理: record_008.json
+2026-04-11 15:34:31,390 - INFO - 开始处理: record_307.json
+2026-04-11 15:34:33,292 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:33,294 - INFO - 已保存: record_072.json
+2026-04-11 15:34:33,295 - INFO - 成功处理: record_072.json
+2026-04-11 15:34:33,804 - INFO - 开始处理: record_365.json
+2026-04-11 15:34:35,146 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:35,150 - INFO - 已保存: record_307.json
+2026-04-11 15:34:35,151 - INFO - 成功处理: record_307.json
+2026-04-11 15:34:35,656 - INFO - 开始处理: record_412.json
+2026-04-11 15:34:38,359 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:38,361 - INFO - 已保存: record_119.json
+2026-04-11 15:34:38,361 - INFO - 成功处理: record_119.json
+2026-04-11 15:34:38,874 - INFO - 开始处理: record_045.json
+2026-04-11 15:34:42,005 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:42,007 - INFO - 已保存: record_045.json
+2026-04-11 15:34:42,007 - INFO - 成功处理: record_045.json
+2026-04-11 15:34:42,509 - INFO - 开始处理: record_096.json
+2026-04-11 15:34:44,500 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:44,504 - INFO - 已保存: record_365.json
+2026-04-11 15:34:44,506 - INFO - 成功处理: record_365.json
+2026-04-11 15:34:45,015 - INFO - 开始处理: record_143.json
+2026-04-11 15:34:45,431 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:45,433 - INFO - 已保存: record_412.json
+2026-04-11 15:34:45,433 - INFO - 成功处理: record_412.json
+2026-04-11 15:34:45,935 - INFO - 开始处理: record_341.json
+2026-04-11 15:34:49,631 - INFO - Retrying request to /chat/completions in 0.468331 seconds
+2026-04-11 15:34:50,107 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:50,111 - INFO - 已保存: record_009.json
+2026-04-11 15:34:50,112 - INFO - 成功处理: record_009.json
+2026-04-11 15:34:50,543 - INFO - Retrying request to /chat/completions in 0.404524 seconds
+2026-04-11 15:34:50,619 - INFO - 开始处理: record_389.json
+2026-04-11 15:34:52,242 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:52,244 - INFO - 已保存: record_096.json
+2026-04-11 15:34:52,245 - INFO - 成功处理: record_096.json
+2026-04-11 15:34:52,751 - INFO - 开始处理: record_435.json
+2026-04-11 15:34:53,337 - INFO - 进度: 160/287 (55.7%), 成功: 155, 失败: 5, 速度: 0.56 文件/秒
+2026-04-11 15:34:55,097 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:55,099 - INFO - 已保存: record_389.json
+2026-04-11 15:34:55,099 - INFO - 成功处理: record_389.json
+2026-04-11 15:34:55,221 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:55,224 - INFO - 已保存: record_143.json
+2026-04-11 15:34:55,224 - INFO - 成功处理: record_143.json
+2026-04-11 15:34:55,612 - INFO - 开始处理: record_010.json
+2026-04-11 15:34:55,615 - WARNING - answer字段为空
+2026-04-11 15:34:56,045 - INFO - 开始处理: record_073.json
+2026-04-11 15:34:56,513 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:56,515 - INFO - 已保存: record_341.json
+2026-04-11 15:34:56,516 - INFO - 成功处理: record_341.json
+2026-04-11 15:34:57,025 - INFO - 开始处理: record_120.json
+2026-04-11 15:34:59,265 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:34:59,267 - INFO - 已保存: record_435.json
+2026-04-11 15:34:59,267 - INFO - 成功处理: record_435.json
+2026-04-11 15:34:59,775 - INFO - 开始处理: record_308.json
+2026-04-11 15:35:00,660 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:00,664 - INFO - 已保存: record_010.json
+2026-04-11 15:35:00,664 - INFO - 成功处理: record_010.json
+2026-04-11 15:35:01,178 - INFO - 开始处理: record_366.json
+2026-04-11 15:35:02,197 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:02,199 - INFO - 已保存: record_073.json
+2026-04-11 15:35:02,199 - INFO - 成功处理: record_073.json
+2026-04-11 15:35:02,269 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:02,271 - ERROR - JSON解析错误 record_120.json: 无法从模型输出中解析JSON: 以下是将给出的统计学教材习题重新整理为符合要求的新JSON格式的结果：
+
+```json
+{
+  "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual ...
+2026-04-11 15:35:02,272 - INFO - 开始处理: record_413.json
+2026-04-11 15:35:02,808 - INFO - 开始处理: record_046.json
+2026-04-11 15:35:03,451 - INFO - Retrying request to /chat/completions in 0.425125 seconds
+2026-04-11 15:35:03,651 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:03,653 - INFO - 已保存: record_114.json
+2026-04-11 15:35:03,653 - INFO - 成功处理: record_114.json
+2026-04-11 15:35:04,163 - INFO - 开始处理: record_097.json
+2026-04-11 15:35:07,095 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:07,099 - INFO - 已保存: record_308.json
+2026-04-11 15:35:07,100 - INFO - 成功处理: record_308.json
+2026-04-11 15:35:07,335 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:07,339 - INFO - 已保存: record_046.json
+2026-04-11 15:35:07,339 - INFO - 成功处理: record_046.json
+2026-04-11 15:35:07,609 - INFO - 开始处理: record_144.json
+2026-04-11 15:35:08,092 - INFO - 开始处理: record_342.json
+2026-04-11 15:35:08,581 - INFO - 进度: 170/287 (59.2%), 成功: 164, 失败: 6, 速度: 0.56 文件/秒
+2026-04-11 15:35:08,583 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:08,586 - INFO - 已保存: record_387.json
+2026-04-11 15:35:08,586 - INFO - 成功处理: record_387.json
+2026-04-11 15:35:08,587 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:08,588 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:08,595 - INFO - 已保存: record_366.json
+2026-04-11 15:35:08,595 - INFO - 成功处理: record_366.json
+2026-04-11 15:35:08,598 - INFO - 已保存: record_413.json
+2026-04-11 15:35:08,599 - INFO - 成功处理: record_413.json
+2026-04-11 15:35:09,089 - INFO - 开始处理: record_390.json
+2026-04-11 15:35:09,540 - INFO - 开始处理: record_436.json
+2026-04-11 15:35:10,006 - INFO - 开始处理: record_501.json
+2026-04-11 15:35:14,266 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:14,269 - INFO - 已保存: record_342.json
+2026-04-11 15:35:14,269 - INFO - 成功处理: record_342.json
+2026-04-11 15:35:14,771 - INFO - 开始处理: record_106.json
+2026-04-11 15:35:15,309 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:15,314 - INFO - 已保存: record_144.json
+2026-04-11 15:35:15,314 - INFO - 成功处理: record_144.json
+2026-04-11 15:35:15,633 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:15,636 - INFO - 已保存: record_501.json
+2026-04-11 15:35:15,636 - INFO - 成功处理: record_501.json
+2026-04-11 15:35:15,819 - INFO - 开始处理: record_011.json
+2026-04-11 15:35:16,272 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:16,273 - INFO - 开始处理: record_074.json
+2026-04-11 15:35:16,739 - INFO - 已保存: record_436.json
+2026-04-11 15:35:16,739 - INFO - 成功处理: record_436.json
+2026-04-11 15:35:16,757 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:16,760 - INFO - 已保存: record_390.json
+2026-04-11 15:35:16,761 - INFO - 成功处理: record_390.json
+2026-04-11 15:35:17,247 - INFO - 开始处理: record_121.json
+2026-04-11 15:35:17,794 - INFO - 开始处理: record_309.json
+2026-04-11 15:35:23,028 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:23,030 - INFO - 已保存: record_121.json
+2026-04-11 15:35:23,030 - INFO - 成功处理: record_121.json
+2026-04-11 15:35:23,468 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:23,471 - INFO - 已保存: record_106.json
+2026-04-11 15:35:23,472 - INFO - 成功处理: record_106.json
+2026-04-11 15:35:23,537 - INFO - 开始处理: record_367.json
+2026-04-11 15:35:23,995 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:23,998 - INFO - 已保存: record_309.json
+2026-04-11 15:35:23,999 - INFO - 成功处理: record_309.json
+2026-04-11 15:35:23,999 - INFO - 开始处理: record_414.json
+2026-04-11 15:35:24,412 - INFO - 进度: 180/287 (62.7%), 成功: 174, 失败: 6, 速度: 0.56 文件/秒
+2026-04-11 15:35:24,506 - INFO - 开始处理: record_047.json
+2026-04-11 15:35:25,157 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:25,169 - INFO - 已保存: record_074.json
+2026-04-11 15:35:25,169 - INFO - 成功处理: record_074.json
+2026-04-11 15:35:25,680 - INFO - 开始处理: record_098.json
+2026-04-11 15:35:26,148 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:26,152 - INFO - 已保存: record_095.json
+2026-04-11 15:35:26,153 - INFO - 成功处理: record_095.json
+2026-04-11 15:35:26,665 - INFO - 开始处理: record_145.json
+2026-04-11 15:35:28,229 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:28,231 - INFO - 已保存: record_011.json
+2026-04-11 15:35:28,231 - INFO - 成功处理: record_011.json
+2026-04-11 15:35:28,740 - INFO - 开始处理: record_343.json
+2026-04-11 15:35:30,641 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:30,643 - INFO - 已保存: record_414.json
+2026-04-11 15:35:30,644 - INFO - 成功处理: record_414.json
+2026-04-11 15:35:31,151 - INFO - 开始处理: record_391.json
+2026-04-11 15:35:32,485 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:32,487 - INFO - 已保存: record_145.json
+2026-04-11 15:35:32,488 - INFO - 成功处理: record_145.json
+2026-04-11 15:35:32,522 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:32,524 - INFO - 已保存: record_343.json
+2026-04-11 15:35:32,524 - INFO - 成功处理: record_343.json
+2026-04-11 15:35:32,990 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:32,995 - INFO - 已保存: record_098.json
+2026-04-11 15:35:32,996 - INFO - 成功处理: record_098.json
+2026-04-11 15:35:32,996 - INFO - 开始处理: record_437.json
+2026-04-11 15:35:33,431 - INFO - 开始处理: record_012.json
+2026-04-11 15:35:33,874 - INFO - 开始处理: record_075.json
+2026-04-11 15:35:36,134 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:36,142 - INFO - 已保存: record_391.json
+2026-04-11 15:35:36,142 - INFO - 成功处理: record_391.json
+2026-04-11 15:35:36,161 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:36,164 - INFO - 已保存: record_047.json
+2026-04-11 15:35:36,164 - INFO - 成功处理: record_047.json
+2026-04-11 15:35:36,652 - INFO - 开始处理: record_122.json
+2026-04-11 15:35:37,152 - INFO - 开始处理: record_310.json
+2026-04-11 15:35:37,627 - INFO - 进度: 190/287 (66.2%), 成功: 184, 失败: 6, 速度: 0.57 文件/秒
+2026-04-11 15:35:37,634 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:37,637 - INFO - 已保存: record_437.json
+2026-04-11 15:35:37,638 - INFO - 成功处理: record_437.json
+2026-04-11 15:35:38,139 - INFO - 开始处理: record_368.json
+2026-04-11 15:35:41,401 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:41,408 - INFO - 已保存: record_434.json
+2026-04-11 15:35:41,408 - INFO - 成功处理: record_434.json
+2026-04-11 15:35:41,917 - INFO - 开始处理: record_415.json
+2026-04-11 15:35:42,655 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:42,664 - INFO - 已保存: record_012.json
+2026-04-11 15:35:42,665 - INFO - 成功处理: record_012.json
+2026-04-11 15:35:43,179 - INFO - 开始处理: record_048.json
+2026-04-11 15:35:43,957 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:43,960 - INFO - 已保存: record_368.json
+2026-04-11 15:35:43,960 - INFO - 成功处理: record_368.json
+2026-04-11 15:35:44,094 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:44,098 - INFO - 已保存: record_310.json
+2026-04-11 15:35:44,098 - INFO - 成功处理: record_310.json
+2026-04-11 15:35:44,379 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:44,383 - INFO - 已保存: record_122.json
+2026-04-11 15:35:44,383 - INFO - 成功处理: record_122.json
+2026-04-11 15:35:44,467 - INFO - 开始处理: record_099.json
+2026-04-11 15:35:44,961 - INFO - 开始处理: record_146.json
+2026-04-11 15:35:45,376 - INFO - 开始处理: record_153.json
+2026-04-11 15:35:45,803 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:45,805 - INFO - 已保存: record_367.json
+2026-04-11 15:35:45,806 - INFO - 成功处理: record_367.json
+2026-04-11 15:35:46,312 - INFO - 开始处理: record_344.json
+2026-04-11 15:35:47,106 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:47,109 - INFO - 已保存: record_048.json
+2026-04-11 15:35:47,110 - INFO - 成功处理: record_048.json
+2026-04-11 15:35:47,624 - INFO - 开始处理: record_392.json
+2026-04-11 15:35:48,327 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:48,329 - INFO - 已保存: record_146.json
+2026-04-11 15:35:48,329 - INFO - 成功处理: record_146.json
+2026-04-11 15:35:48,837 - INFO - 开始处理: record_438.json
+2026-04-11 15:35:49,547 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:49,549 - ERROR - JSON解析错误 record_415.json: 无法从模型输出中解析JSON: 根据你的要求，我将统计学教材习题重新整理为新的JSON格式。以下是处理后的结果：
+
+```json
+{
+  "background": "A random-digit dialing technique is used to select 57 individuals from a community. Seventeen of 57 individuals in the sample are c...
+2026-04-11 15:35:49,550 - INFO - 开始处理: record_506.json
+2026-04-11 15:35:49,953 - INFO - 进度: 200/287 (69.7%), 成功: 193, 失败: 7, 速度: 0.58 文件/秒
+2026-04-11 15:35:50,473 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:50,474 - ERROR - JSON解析错误 record_153.json: 无法从模型输出中解析JSON: Here is the reformatted JSON structure for the given statistical problem:
+
+```json
+{
+  "background": "Table 18.29 displays results from a historically important methodological paper written by Frank Y...
+2026-04-11 15:35:50,475 - INFO - 开始处理: record_013.json
+2026-04-11 15:35:51,272 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:51,274 - INFO - 已保存: record_075.json
+2026-04-11 15:35:51,275 - INFO - 成功处理: record_075.json
+2026-04-11 15:35:51,579 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:51,581 - INFO - 已保存: record_344.json
+2026-04-11 15:35:51,581 - INFO - 成功处理: record_344.json
+2026-04-11 15:35:51,787 - INFO - 开始处理: record_076.json
+2026-04-11 15:35:52,189 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:52,192 - INFO - 已保存: record_099.json
+2026-04-11 15:35:52,192 - INFO - 成功处理: record_099.json
+2026-04-11 15:35:52,193 - INFO - 开始处理: record_123.json
+2026-04-11 15:35:52,700 - INFO - 开始处理: record_311.json
+2026-04-11 15:35:54,042 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:54,043 - ERROR - JSON解析错误 record_506.json: 无法从模型输出中解析JSON: 根据要求，将提供的统计学教材习题重新整理为新的JSON格式：
+
+```json
+{
+  "background": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases. Let $D$ represent thro...
+2026-04-11 15:35:54,043 - INFO - 开始处理: record_369.json
+2026-04-11 15:35:54,452 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:54,456 - INFO - 已保存: record_013.json
+2026-04-11 15:35:54,456 - INFO - 成功处理: record_013.json
+2026-04-11 15:35:54,970 - INFO - 开始处理: record_416.json
+2026-04-11 15:35:55,691 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:55,693 - INFO - 已保存: record_392.json
+2026-04-11 15:35:55,694 - INFO - 成功处理: record_392.json
+2026-04-11 15:35:56,203 - INFO - 开始处理: record_050.json
+2026-04-11 15:35:56,811 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:56,813 - INFO - 已保存: record_076.json
+2026-04-11 15:35:56,813 - INFO - 成功处理: record_076.json
+2026-04-11 15:35:56,898 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:56,901 - INFO - 已保存: record_123.json
+2026-04-11 15:35:56,902 - INFO - 成功处理: record_123.json
+2026-04-11 15:35:57,321 - INFO - 开始处理: record_100.json
+2026-04-11 15:35:57,826 - INFO - 开始处理: record_147.json
+2026-04-11 15:35:58,747 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:35:58,750 - INFO - 已保存: record_438.json
+2026-04-11 15:35:58,751 - INFO - 成功处理: record_438.json
+2026-04-11 15:35:59,262 - INFO - 开始处理: record_345.json
+2026-04-11 15:35:59,666 - INFO - 进度: 210/287 (73.2%), 成功: 201, 失败: 9, 速度: 0.59 文件/秒
+2026-04-11 15:36:00,989 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:00,991 - INFO - 已保存: record_311.json
+2026-04-11 15:36:00,991 - INFO - 成功处理: record_311.json
+2026-04-11 15:36:01,063 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:01,065 - INFO - 已保存: record_369.json
+2026-04-11 15:36:01,066 - INFO - 成功处理: record_369.json
+2026-04-11 15:36:01,498 - INFO - 开始处理: record_393.json
+2026-04-11 15:36:01,901 - INFO - 开始处理: record_439.json
+2026-04-11 15:36:02,301 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:02,303 - INFO - 已保存: record_147.json
+2026-04-11 15:36:02,303 - INFO - 成功处理: record_147.json
+2026-04-11 15:36:02,818 - INFO - 开始处理: record_352.json
+2026-04-11 15:36:04,118 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:04,122 - INFO - 已保存: record_097.json
+2026-04-11 15:36:04,122 - INFO - 成功处理: record_097.json
+2026-04-11 15:36:04,626 - INFO - 开始处理: record_014.json
+2026-04-11 15:36:05,197 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:05,201 - INFO - 已保存: record_345.json
+2026-04-11 15:36:05,201 - INFO - 成功处理: record_345.json
+2026-04-11 15:36:05,301 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:05,304 - INFO - 已保存: record_050.json
+2026-04-11 15:36:05,305 - INFO - 成功处理: record_050.json
+2026-04-11 15:36:05,443 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:05,445 - INFO - 已保存: record_439.json
+2026-04-11 15:36:05,445 - INFO - 成功处理: record_439.json
+2026-04-11 15:36:05,506 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:05,510 - INFO - 已保存: record_416.json
+2026-04-11 15:36:05,510 - INFO - 成功处理: record_416.json
+2026-04-11 15:36:05,717 - INFO - 开始处理: record_077.json
+2026-04-11 15:36:06,163 - INFO - 开始处理: record_124.json
+2026-04-11 15:36:06,567 - INFO - 开始处理: record_312.json
+2026-04-11 15:36:06,964 - INFO - 开始处理: record_370.json
+2026-04-11 15:36:07,356 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:07,359 - INFO - 已保存: record_100.json
+2026-04-11 15:36:07,359 - INFO - 成功处理: record_100.json
+2026-04-11 15:36:07,865 - INFO - 开始处理: record_417.json
+2026-04-11 15:36:11,656 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:11,661 - INFO - 已保存: record_393.json
+2026-04-11 15:36:11,661 - INFO - 成功处理: record_393.json
+2026-04-11 15:36:11,826 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:11,828 - INFO - 已保存: record_124.json
+2026-04-11 15:36:11,829 - INFO - 成功处理: record_124.json
+2026-04-11 15:36:12,162 - INFO - 开始处理: record_051.json
+2026-04-11 15:36:12,695 - INFO - 进度: 220/287 (76.7%), 成功: 211, 失败: 9, 速度: 0.60 文件/秒
+2026-04-11 15:36:12,698 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:12,703 - INFO - 已保存: record_014.json
+2026-04-11 15:36:12,704 - INFO - 成功处理: record_014.json
+2026-04-11 15:36:12,705 - INFO - 开始处理: record_101.json
+2026-04-11 15:36:13,248 - INFO - 开始处理: record_148.json
+2026-04-11 15:36:14,081 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:14,084 - INFO - 已保存: record_370.json
+2026-04-11 15:36:14,084 - INFO - 成功处理: record_370.json
+2026-04-11 15:36:14,088 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:14,094 - INFO - 已保存: record_352.json
+2026-04-11 15:36:14,094 - INFO - 成功处理: record_352.json
+2026-04-11 15:36:14,591 - INFO - 开始处理: record_346.json
+2026-04-11 15:36:15,045 - INFO - 开始处理: record_394.json
+2026-04-11 15:36:15,645 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:15,647 - INFO - 已保存: record_312.json
+2026-04-11 15:36:15,647 - INFO - 成功处理: record_312.json
+2026-04-11 15:36:16,149 - INFO - 开始处理: record_440.json
+2026-04-11 15:36:17,183 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:17,185 - INFO - 已保存: record_051.json
+2026-04-11 15:36:17,186 - INFO - 成功处理: record_051.json
+2026-04-11 15:36:17,691 - INFO - 开始处理: record_015.json
+2026-04-11 15:36:18,613 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:18,616 - INFO - 已保存: record_346.json
+2026-04-11 15:36:18,616 - INFO - 成功处理: record_346.json
+2026-04-11 15:36:19,124 - INFO - 开始处理: record_078.json
+2026-04-11 15:36:19,860 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:19,863 - INFO - 已保存: record_148.json
+2026-04-11 15:36:19,863 - INFO - 成功处理: record_148.json
+2026-04-11 15:36:20,375 - INFO - 开始处理: record_125.json
+2026-04-11 15:36:21,169 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:21,172 - INFO - 已保存: record_101.json
+2026-04-11 15:36:21,173 - INFO - 成功处理: record_101.json
+2026-04-11 15:36:21,687 - INFO - 开始处理: record_313.json
+2026-04-11 15:36:24,150 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:24,154 - INFO - 已保存: record_078.json
+2026-04-11 15:36:24,154 - INFO - 成功处理: record_078.json
+2026-04-11 15:36:24,666 - INFO - 开始处理: record_371.json
+2026-04-11 15:36:25,185 - INFO - 进度: 230/287 (80.1%), 成功: 221, 失败: 9, 速度: 0.61 文件/秒
+2026-04-11 15:36:25,186 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:25,190 - INFO - 已保存: record_015.json
+2026-04-11 15:36:25,191 - INFO - 成功处理: record_015.json
+2026-04-11 15:36:25,698 - INFO - 开始处理: record_418.json
+2026-04-11 15:36:26,176 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:26,181 - INFO - 已保存: record_125.json
+2026-04-11 15:36:26,182 - INFO - 成功处理: record_125.json
+2026-04-11 15:36:26,269 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:26,274 - INFO - 已保存: record_394.json
+2026-04-11 15:36:26,274 - INFO - 成功处理: record_394.json
+2026-04-11 15:36:26,696 - INFO - 开始处理: record_052.json
+2026-04-11 15:36:27,131 - INFO - 开始处理: record_102.json
+2026-04-11 15:36:27,637 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:27,640 - INFO - 已保存: record_313.json
+2026-04-11 15:36:27,640 - INFO - 成功处理: record_313.json
+2026-04-11 15:36:28,149 - INFO - 开始处理: record_149.json
+2026-04-11 15:36:28,642 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:28,651 - INFO - 已保存: record_371.json
+2026-04-11 15:36:28,651 - INFO - 成功处理: record_371.json
+2026-04-11 15:36:28,654 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:28,656 - ERROR - JSON解析错误 record_440.json: 无法从模型输出中解析JSON: 以下是重新整理后的JSON格式：
+
+```json
+{
+  "background": "Table 18.4 illustrates calculation of the following odds ratios for the education and smoking illustrative data.",
+  "task": [
+    {
+      "query": "What a...
+2026-04-11 15:36:28,657 - INFO - 开始处理: record_348.json
+2026-04-11 15:36:29,153 - INFO - 开始处理: record_395.json
+2026-04-11 15:36:31,020 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:31,022 - INFO - 已保存: record_418.json
+2026-04-11 15:36:31,023 - INFO - 成功处理: record_418.json
+2026-04-11 15:36:31,535 - INFO - 开始处理: record_399.json
+2026-04-11 15:36:32,588 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:32,590 - INFO - 已保存: record_052.json
+2026-04-11 15:36:32,591 - INFO - 成功处理: record_052.json
+2026-04-11 15:36:33,092 - INFO - 开始处理: record_441.json
+2026-04-11 15:36:36,164 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:36,168 - INFO - 已保存: record_149.json
+2026-04-11 15:36:36,168 - INFO - 成功处理: record_149.json
+2026-04-11 15:36:36,675 - INFO - 开始处理: record_502.json
+2026-04-11 15:36:37,461 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:37,463 - INFO - 已保存: record_441.json
+2026-04-11 15:36:37,463 - INFO - 成功处理: record_441.json
+2026-04-11 15:36:37,971 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:37,974 - INFO - 已保存: record_102.json
+2026-04-11 15:36:37,974 - INFO - 成功处理: record_102.json
+2026-04-11 15:36:37,974 - INFO - 开始处理: record_016.json
+2026-04-11 15:36:38,412 - INFO - 进度: 240/287 (83.6%), 成功: 230, 失败: 10, 速度: 0.61 文件/秒
+2026-04-11 15:36:38,480 - INFO - 开始处理: record_079.json
+2026-04-11 15:36:41,717 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:41,720 - INFO - 已保存: record_502.json
+2026-04-11 15:36:41,720 - INFO - 成功处理: record_502.json
+2026-04-11 15:36:42,230 - INFO - 开始处理: record_126.json
+2026-04-11 15:36:43,838 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:43,843 - INFO - 已保存: record_079.json
+2026-04-11 15:36:43,844 - INFO - 成功处理: record_079.json
+2026-04-11 15:36:44,349 - INFO - 开始处理: record_315.json
+2026-04-11 15:36:45,556 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:45,566 - INFO - 已保存: record_399.json
+2026-04-11 15:36:45,566 - INFO - 成功处理: record_399.json
+2026-04-11 15:36:46,079 - INFO - 开始处理: record_372.json
+2026-04-11 15:36:46,723 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:46,726 - INFO - 已保存: record_395.json
+2026-04-11 15:36:46,726 - INFO - 成功处理: record_395.json
+2026-04-11 15:36:47,229 - INFO - 开始处理: record_419.json
+2026-04-11 15:36:49,123 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:49,125 - INFO - 已保存: record_126.json
+2026-04-11 15:36:49,126 - INFO - 成功处理: record_126.json
+2026-04-11 15:36:49,302 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:49,304 - INFO - 已保存: record_016.json
+2026-04-11 15:36:49,304 - INFO - 成功处理: record_016.json
+2026-04-11 15:36:49,640 - INFO - 开始处理: record_053.json
+2026-04-11 15:36:50,061 - INFO - 开始处理: record_103.json
+2026-04-11 15:36:50,532 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:50,534 - INFO - 已保存: record_348.json
+2026-04-11 15:36:50,535 - INFO - 成功处理: record_348.json
+2026-04-11 15:36:51,039 - INFO - 开始处理: record_150.json
+2026-04-11 15:36:51,494 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:51,498 - INFO - 已保存: record_315.json
+2026-04-11 15:36:51,498 - INFO - 成功处理: record_315.json
+2026-04-11 15:36:52,004 - INFO - 开始处理: record_349.json
+2026-04-11 15:36:54,384 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:54,390 - INFO - 已保存: record_372.json
+2026-04-11 15:36:54,390 - INFO - 成功处理: record_372.json
+2026-04-11 15:36:54,900 - INFO - 开始处理: record_396.json
+2026-04-11 15:36:55,326 - INFO - 进度: 250/287 (87.1%), 成功: 240, 失败: 10, 速度: 0.61 文件/秒
+2026-04-11 15:36:55,328 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:55,331 - INFO - 已保存: record_053.json
+2026-04-11 15:36:55,331 - INFO - 成功处理: record_053.json
+2026-04-11 15:36:55,361 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:55,366 - INFO - 已保存: record_419.json
+2026-04-11 15:36:55,366 - INFO - 成功处理: record_419.json
+2026-04-11 15:36:55,834 - INFO - 开始处理: record_442.json
+2026-04-11 15:36:56,335 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:56,336 - INFO - 开始处理: record_445.json
+2026-04-11 15:36:56,828 - INFO - 已保存: record_103.json
+2026-04-11 15:36:56,829 - INFO - 成功处理: record_103.json
+2026-04-11 15:36:57,339 - INFO - 开始处理: record_017.json
+2026-04-11 15:36:57,892 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:57,894 - INFO - 已保存: record_150.json
+2026-04-11 15:36:57,894 - INFO - 成功处理: record_150.json
+2026-04-11 15:36:58,402 - INFO - 开始处理: record_080.json
+2026-04-11 15:36:59,991 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:36:59,995 - INFO - 已保存: record_349.json
+2026-04-11 15:36:59,996 - INFO - 成功处理: record_349.json
+2026-04-11 15:37:00,510 - INFO - 开始处理: record_128.json
+2026-04-11 15:37:01,580 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:01,581 - ERROR - JSON解析错误 record_445.json: 无法从模型输出中解析JSON: 根据您的要求，我将提供重新整理后的JSON格式习题。以下是处理后的结果：
+
+```json
+{
+  "background": "Data for this example come from a case-control study on esophageal cancer. Cases were men diagnosed with esophageal cancer from a regio...
+2026-04-11 15:37:01,581 - INFO - 开始处理: record_316.json
+2026-04-11 15:37:04,304 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:04,308 - INFO - 已保存: record_128.json
+2026-04-11 15:37:04,308 - INFO - 成功处理: record_128.json
+2026-04-11 15:37:04,582 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:04,585 - INFO - 已保存: record_396.json
+2026-04-11 15:37:04,585 - INFO - 成功处理: record_396.json
+2026-04-11 15:37:04,815 - INFO - 开始处理: record_373.json
+2026-04-11 15:37:05,272 - INFO - 开始处理: record_420.json
+2026-04-11 15:37:07,579 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:07,584 - INFO - 已保存: record_017.json
+2026-04-11 15:37:07,585 - INFO - 成功处理: record_017.json
+2026-04-11 15:37:08,092 - INFO - 开始处理: record_054.json
+2026-04-11 15:37:09,592 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:09,594 - INFO - 已保存: record_080.json
+2026-04-11 15:37:09,594 - INFO - 成功处理: record_080.json
+2026-04-11 15:37:09,956 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:09,958 - INFO - 已保存: record_420.json
+2026-04-11 15:37:09,958 - INFO - 成功处理: record_420.json
+2026-04-11 15:37:10,098 - INFO - 开始处理: record_104.json
+2026-04-11 15:37:10,541 - INFO - 进度: 260/287 (90.6%), 成功: 249, 失败: 11, 速度: 0.61 文件/秒
+2026-04-11 15:37:10,542 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:10,545 - INFO - 已保存: record_373.json
+2026-04-11 15:37:10,545 - INFO - 成功处理: record_373.json
+2026-04-11 15:37:10,545 - INFO - 开始处理: record_151.json
+2026-04-11 15:37:11,060 - INFO - 开始处理: record_350.json
+2026-04-11 15:37:11,548 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:11,551 - INFO - 已保存: record_316.json
+2026-04-11 15:37:11,551 - INFO - 成功处理: record_316.json
+2026-04-11 15:37:12,053 - INFO - 开始处理: record_397.json
+2026-04-11 15:37:14,468 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:14,471 - INFO - 已保存: record_350.json
+2026-04-11 15:37:14,472 - INFO - 成功处理: record_350.json
+2026-04-11 15:37:14,976 - INFO - 开始处理: record_443.json
+2026-04-11 15:37:17,921 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:17,925 - INFO - 已保存: record_054.json
+2026-04-11 15:37:17,925 - INFO - 成功处理: record_054.json
+2026-04-11 15:37:18,115 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:18,118 - INFO - 已保存: record_104.json
+2026-04-11 15:37:18,118 - INFO - 成功处理: record_104.json
+2026-04-11 15:37:18,434 - INFO - 开始处理: record_507.json
+2026-04-11 15:37:18,892 - INFO - 开始处理: record_018.json
+2026-04-11 15:37:19,552 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:19,554 - INFO - 已保存: record_151.json
+2026-04-11 15:37:19,555 - INFO - 成功处理: record_151.json
+2026-04-11 15:37:20,068 - INFO - 开始处理: record_082.json
+2026-04-11 15:37:20,514 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:20,518 - INFO - 已保存: record_442.json
+2026-04-11 15:37:20,518 - INFO - 成功处理: record_442.json
+2026-04-11 15:37:21,034 - INFO - 开始处理: record_129.json
+2026-04-11 15:37:23,249 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:23,252 - INFO - 已保存: record_397.json
+2026-04-11 15:37:23,253 - INFO - 成功处理: record_397.json
+2026-04-11 15:37:23,298 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:23,301 - INFO - 已保存: record_443.json
+2026-04-11 15:37:23,301 - INFO - 成功处理: record_443.json
+2026-04-11 15:37:23,759 - INFO - 开始处理: record_317.json
+2026-04-11 15:37:24,231 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:24,233 - ERROR - JSON解析错误 record_507.json: 无法从模型输出中解析JSON: 以下是将提供的统计学教材习题重新整理为新的JSON格式后的结果：
+
+```json
+{
+  "background": "The number of asthmatics in the asthma survey discussed in the prior illustration varies according to a binomial distribution with $n=20$ a...
+2026-04-11 15:37:24,234 - INFO - 开始处理: record_374.json
+2026-04-11 15:37:24,687 - INFO - 开始处理: record_421.json
+2026-04-11 15:37:25,128 - INFO - 进度: 270/287 (94.1%), 成功: 259, 失败: 11, 速度: 0.61 文件/秒
+2026-04-11 15:37:25,130 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:25,132 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:25,136 - INFO - 已保存: record_129.json
+2026-04-11 15:37:25,136 - INFO - 成功处理: record_129.json
+2026-04-11 15:37:25,138 - INFO - 已保存: record_082.json
+2026-04-11 15:37:25,139 - INFO - 成功处理: record_082.json
+2026-04-11 15:37:25,642 - INFO - 开始处理: record_058.json
+2026-04-11 15:37:26,116 - INFO - 开始处理: record_105.json
+2026-04-11 15:37:26,583 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:26,587 - INFO - 已保存: record_018.json
+2026-04-11 15:37:26,588 - INFO - 成功处理: record_018.json
+2026-04-11 15:37:27,090 - INFO - 开始处理: record_152.json
+2026-04-11 15:37:31,530 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:31,532 - INFO - 已保存: record_058.json
+2026-04-11 15:37:31,533 - INFO - 成功处理: record_058.json
+2026-04-11 15:37:31,597 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:31,599 - INFO - 已保存: record_317.json
+2026-04-11 15:37:31,600 - INFO - 成功处理: record_317.json
+2026-04-11 15:37:32,047 - INFO - 开始处理: record_351.json
+2026-04-11 15:37:32,547 - INFO - 开始处理: record_398.json
+2026-04-11 15:37:32,988 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:32,990 - ERROR - JSON解析错误 record_152.json: 无法从模型输出中解析JSON: Here is the reformatted JSON structure for the given statistical problem:
+
+```json
+{
+  "background": "A study compares outcomes between a treatment group (40 of 320 individuals, 12.5%) and a control g...
+2026-04-11 15:37:32,990 - INFO - 开始处理: record_444.json
+2026-04-11 15:37:35,320 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:35,323 - INFO - 已保存: record_421.json
+2026-04-11 15:37:35,323 - INFO - 成功处理: record_421.json
+2026-04-11 15:37:35,832 - INFO - 开始处理: record_450.json
+2026-04-11 15:37:39,292 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:39,294 - INFO - 已保存: record_398.json
+2026-04-11 15:37:39,295 - INFO - 成功处理: record_398.json
+2026-04-11 15:37:39,803 - INFO - 开始处理: record_059.json
+2026-04-11 15:37:40,254 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:40,257 - ERROR - JSON解析错误 record_351.json: 无法从模型输出中解析JSON: 根据要求，将统计学教材习题重新整理为新的JSON格式，具体如下：
+
+```json
+{
+  "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with $n=20$ and $p=0.04$. It follows th...
+2026-04-11 15:37:40,258 - INFO - 进度: 280/287 (97.6%), 成功: 266, 失败: 14, 速度: 0.62 文件/秒
+2026-04-11 15:37:40,934 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:40,936 - INFO - 已保存: record_450.json
+2026-04-11 15:37:40,936 - INFO - 成功处理: record_450.json
+2026-04-11 15:37:43,001 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:43,003 - INFO - 已保存: record_444.json
+2026-04-11 15:37:43,004 - INFO - 成功处理: record_444.json
+2026-04-11 15:37:45,058 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:45,060 - INFO - 已保存: record_105.json
+2026-04-11 15:37:45,060 - INFO - 成功处理: record_105.json
+2026-04-11 15:37:46,440 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:46,443 - INFO - 已保存: record_077.json
+2026-04-11 15:37:46,443 - INFO - 成功处理: record_077.json
+2026-04-11 15:37:52,937 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:52,941 - INFO - 已保存: record_374.json
+2026-04-11 15:37:52,942 - INFO - 成功处理: record_374.json
+2026-04-11 15:37:55,904 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:37:55,909 - INFO - 已保存: record_059.json
+2026-04-11 15:37:55,909 - INFO - 成功处理: record_059.json
+2026-04-11 15:38:09,419 - INFO - Retrying request to /chat/completions in 0.375934 seconds
+2026-04-11 15:38:16,526 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:38:16,530 - INFO - 已保存: record_417.json
+2026-04-11 15:38:16,530 - INFO - 成功处理: record_417.json
+2026-04-11 15:38:17,034 - INFO - 进度: 287/287 (100.0%), 成功: 273, 失败: 14, 速度: 0.58 文件/秒
+2026-04-11 15:38:17,038 - INFO - 报告已保存到: d:\place\study\bookassign\book1_r1\processing_report.txt
+2026-04-11 15:39:51,012 - INFO - ============================================================
+2026-04-11 15:39:51,012 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:39:51,012 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:39:51,012 - INFO - 并发数: 8
+2026-04-11 15:39:51,013 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:39:51,013 - INFO - ============================================================
+2026-04-11 15:39:51,019 - INFO - 找到 292 个JSON文件
+2026-04-11 15:39:51,019 - INFO - 已处理 278 个文件，剩余 14 个文件待处理
+2026-04-11 15:39:51,020 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:39:51,021 - INFO - 开始处理: record_116.json
+2026-04-11 15:39:51,027 - WARNING - answer字段为空
+2026-04-11 15:39:52,020 - INFO - 开始处理: record_153.json
+2026-04-11 15:39:52,424 - INFO - 开始处理: record_415.json
+2026-04-11 15:39:52,818 - INFO - 开始处理: record_445.json
+2026-04-11 15:39:53,211 - INFO - 开始处理: record_507.json
+2026-04-11 15:39:53,610 - INFO - 开始处理: record_120.json
+2026-04-11 15:39:53,999 - INFO - 开始处理: record_152.json
+2026-04-11 15:39:54,388 - INFO - 开始处理: record_351.json
+2026-04-11 15:40:00,643 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:00,653 - ERROR - JSON解析错误 record_120.json: 无法从模型输出中解析JSON: 以下是将给定统计学教材习题重新整理后的JSON格式：
+
+```json
+{
+  "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in...
+2026-04-11 15:40:00,655 - INFO - 开始处理: record_440.json
+2026-04-11 15:40:02,135 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:02,137 - INFO - 已保存: record_507.json
+2026-04-11 15:40:02,137 - INFO - 成功处理: record_507.json
+2026-04-11 15:40:02,649 - INFO - 开始处理: record_506.json
+2026-04-11 15:40:03,870 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:03,872 - ERROR - JSON解析错误 record_440.json: 无法从模型输出中解析JSON: 根据给出的统计学教材习题，我将其重新整理为新的JSON格式。以下是处理后的结果：
+
+```json
+{
+  "background": "Table 18.4 illustrates calculation of the following odds ratios for the education and smoking illustrative data.",
+  "task": [
+    ...
+2026-04-11 15:40:03,873 - INFO - 开始处理: record_142.json
+2026-04-11 15:40:04,276 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:04,277 - ERROR - JSON解析错误 record_116.json: 无法从模型输出中解析JSON: 你提供的示例中，`question` 和 `answer` 字段为空，因此无法提取问题背景和子任务。如果你提供完整的 `question` 和 `answer` 数据，我可以按照你的要求重新整理为新的 JSON 格式。
+
+请提供一个完整的统计学教材习题示例，我将为你处理！...
+2026-04-11 15:40:04,277 - INFO - 开始处理: record_157.json
+2026-04-11 15:40:04,836 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:04,838 - ERROR - JSON解析错误 record_351.json: 无法从模型输出中解析JSON: 以下是按照要求重新整理后的JSON格式：
+
+```json
+{
+  "background": "The asthma survey considered in previous illustrative examples addresses a binomial random variable with $n=20$ and $p=0.04$. It follows that $q=1-0.04...
+2026-04-11 15:40:04,838 - INFO - 开始处理: record_426.json
+2026-04-11 15:40:05,301 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:05,303 - ERROR - JSON解析错误 record_415.json: 无法从模型输出中解析JSON: 根据您的要求，我将提供一个重新整理后的JSON格式，将问题背景和子任务分离。以下是处理后的结果：
+
+```json
+{
+  "background": "A random-digit dialing technique is used to select 57 individuals from a community. Seventeen of 57 individuals in the samp...
+2026-04-11 15:40:05,303 - INFO - 开始处理: record_449.json
+2026-04-11 15:40:06,195 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:06,197 - ERROR - JSON解析错误 record_445.json: 无法从模型输出中解析JSON: 根据您的要求，我将给出的统计学教材习题重新整理为新的JSON格式。以下是处理后的结果：
+
+```json
+{
+  "background": "Data for this example come from a case-control study on esophageal cancer. Cases were men diagnosed with esophageal cancer from ...
+2026-04-11 15:40:09,415 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:09,416 - ERROR - JSON解析错误 record_157.json: 无法从模型输出中解析JSON: Here is the reformatted JSON structure for the given statistical problem:
+
+```json
+{
+  "background": "A South African study compared whether participating in a 5-year follow-up interview was associate...
+2026-04-11 15:40:09,848 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:09,849 - ERROR - JSON解析错误 record_506.json: 无法从模型输出中解析JSON: 以下是根据要求重新整理的统计学教材习题的JSON格式：
+
+```json
+{
+  "background": "Oral contraceptives developed in the 1960s and 1970 were associated with an increased risk of thromboembolic diseases. Let $D$ represent thrombo...
+2026-04-11 15:40:11,386 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:11,388 - INFO - 已保存: record_426.json
+2026-04-11 15:40:11,389 - INFO - 成功处理: record_426.json
+2026-04-11 15:40:11,893 - INFO - 进度: 10/14 (71.4%), 成功: 2, 失败: 8, 速度: 0.48 文件/秒
+2026-04-11 15:40:11,904 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:11,906 - INFO - 已保存: record_142.json
+2026-04-11 15:40:11,907 - INFO - 成功处理: record_142.json
+2026-04-11 15:40:12,183 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:12,190 - INFO - 已保存: record_449.json
+2026-04-11 15:40:12,190 - INFO - 成功处理: record_449.json
+2026-04-11 15:40:42,428 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:40:42,429 - ERROR - JSON解析错误 record_153.json: 无法从模型输出中解析JSON: 以下是将提供的统计学教材习题重新整理为新的JSON格式的结果：
+
+```json
+{
+  "background": "Table 18.29 displays results from a historically important methodological paper written by Frank Yates on the analysis of cross-tabulated co...
+2026-04-11 15:43:43,704 - INFO - ============================================================
+2026-04-11 15:43:43,704 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:43:43,704 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:43:43,704 - INFO - 并发数: 8
+2026-04-11 15:43:43,704 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:43:43,705 - INFO - ============================================================
+2026-04-11 15:43:43,712 - INFO - 找到 292 个JSON文件
+2026-04-11 15:43:43,713 - INFO - 已处理 282 个文件，剩余 10 个文件待处理
+2026-04-11 15:43:43,713 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:43:43,714 - INFO - 开始处理: record_116.json
+2026-04-11 15:43:43,717 - WARNING - answer字段为空
+2026-04-11 15:43:44,662 - INFO - 开始处理: record_157.json
+2026-04-11 15:43:45,057 - INFO - 开始处理: record_440.json
+2026-04-11 15:43:45,443 - INFO - 开始处理: record_120.json
+2026-04-11 15:43:45,833 - INFO - 开始处理: record_153.json
+2026-04-11 15:43:46,267 - INFO - 开始处理: record_415.json
+2026-04-11 15:43:46,676 - INFO - 开始处理: record_506.json
+2026-04-11 15:43:47,105 - INFO - 开始处理: record_152.json
+2026-04-11 15:43:51,373 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:43:51,383 - INFO - 已保存: record_153.json
+2026-04-11 15:43:51,383 - INFO - 成功处理: record_153.json
+2026-04-11 15:43:51,898 - INFO - 开始处理: record_351.json
+2026-04-11 15:43:54,851 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:43:54,853 - INFO - 已保存: record_415.json
+2026-04-11 15:43:54,854 - INFO - 成功处理: record_415.json
+2026-04-11 15:43:55,368 - INFO - 开始处理: record_445.json
+2026-04-11 15:43:57,105 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:43:57,107 - INFO - 已保存: record_152.json
+2026-04-11 15:43:57,107 - INFO - 成功处理: record_152.json
+2026-04-11 15:44:10,315 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:44:10,318 - INFO - 已保存: record_506.json
+2026-04-11 15:44:10,318 - INFO - 成功处理: record_506.json
+2026-04-11 15:44:11,339 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:44:11,344 - INFO - 已保存: record_116.json
+2026-04-11 15:44:11,345 - INFO - 成功处理: record_116.json
+2026-04-11 15:44:12,365 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:44:12,368 - INFO - 已保存: record_120.json
+2026-04-11 15:44:12,368 - INFO - 成功处理: record_120.json
+2026-04-11 15:44:13,594 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:44:13,596 - INFO - 已保存: record_445.json
+2026-04-11 15:44:13,596 - INFO - 成功处理: record_445.json
+2026-04-11 15:44:50,052 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:44:50,055 - INFO - 已保存: record_351.json
+2026-04-11 15:44:50,055 - INFO - 成功处理: record_351.json
+2026-04-11 15:45:02,237 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:45:07,859 - ERROR - JSON解析错误 record_440.json: 无法从模型输出中解析JSON: 
+{
+  "background": "Table 18.4 illustrates the calculation of odds ratios for the education and smoking illustrative data.",
+  "task": [
+    {
+      "query": "What are the calculated odds ratios for t...
+2026-04-11 15:45:45,563 - INFO - Retrying request to /chat/completions in 0.407230 seconds
+2026-04-11 15:45:55,696 - INFO - HTTP Request: POST https://svip-hk.xty.app/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-11 15:45:55,699 - INFO - 已保存: record_157.json
+2026-04-11 15:45:55,700 - INFO - 成功处理: record_157.json
+2026-04-11 15:45:56,204 - INFO - 进度: 10/10 (100.0%), 成功: 9, 失败: 1, 速度: 0.08 文件/秒
+2026-04-11 15:45:56,205 - INFO - 报告已保存到: d:\place\study\bookassign\book1_r1\processing_report.txt
+2026-04-11 15:46:08,501 - INFO - ============================================================
+2026-04-11 15:46:08,502 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:46:08,502 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:46:08,502 - INFO - 并发数: 8
+2026-04-11 15:46:08,503 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:46:08,503 - INFO - ============================================================
+2026-04-11 15:46:08,512 - INFO - 找到 292 个JSON文件
+2026-04-11 15:46:08,512 - INFO - 已处理 291 个文件，剩余 1 个文件待处理
+2026-04-11 15:46:08,512 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:46:08,513 - INFO - 开始处理: record_440.json
+2026-04-11 15:56:13,037 - INFO - ============================================================
+2026-04-11 15:56:13,038 - INFO - 开始处理book1目录下的JSON文件
+2026-04-11 15:56:13,038 - INFO - API URL: https://svip-hk.xty.app/v1
+2026-04-11 15:56:13,038 - INFO - 并发数: 8
+2026-04-11 15:56:13,039 - INFO - API调用间隔: 0.5秒
+2026-04-11 15:56:13,039 - INFO - ============================================================
+2026-04-11 15:56:13,048 - INFO - 找到 292 个JSON文件
+2026-04-11 15:56:13,048 - INFO - 已处理 291 个文件，剩余 1 个文件待处理
+2026-04-11 15:56:13,049 - INFO - 输出目录: d:\place\study\bookassign\book1_r1
+2026-04-11 15:56:13,049 - INFO - 开始处理: record_440.json

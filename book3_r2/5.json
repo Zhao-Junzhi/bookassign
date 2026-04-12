@@ -1,12 +1,11 @@
 {
   "case_id": "book3_r1\\04.json",
   "input": {
-    "background": "How many ways are there to rank n candidates for the job of corporate chief executive? If the ranking is made at random (each ranking is equally likely), what is the probability that the fifth candidate, Mr. Best, is in second place?",
+    "background": "This problem involves ranking n candidates for a job and calculating probabilities related to random rankings. It also discusses combinations, where n elements are chosen from N distinct objects without regard to order.",
     "data": null,
-    "question": "What is the probability that Mr. Best is in second place?"
+    "question": "If the ranking is made at random (each ranking is equally likely), what is the probability that the fifth candidate, Mr. Best, is in second place?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
     "answer": "Mr. Best has probability 1/n of being second."
   },
   "meta_info": {

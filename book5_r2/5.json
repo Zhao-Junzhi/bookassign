@@ -6,7 +6,6 @@
     "question": "Obtain the median total dose of SA for the group with adverse reactions."
   },
   "output": {
-    "method": "分位数/百分位数",
     "answer": "1135 mg."
   },
   "meta_info": {

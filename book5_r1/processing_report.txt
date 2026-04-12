@@ -1,28 +1,12 @@
 ============================================================
 处理报告
 ============================================================
-处理时间: 2026-04-07 18:17:42
-总耗时: 13.22 秒
-总文件数: 8
-成功处理: 4
-处理失败: 4
-成功率: 50.00%
+处理时间: 2026-04-11 16:08:09
+总耗时: 98.83 秒
+总文件数: 69
+成功处理: 69
+处理失败: 0
+成功率: 100.00%
 
-失败文件列表:
-------------------------------------------------------------
-  - 009.json: 无法从模型输出中解析JSON: ```json
-{
-  "background": "Over a 25 year period the mean height of adult males increased from 175.8 cm to 179.1 cm, but the standard deviation stayed at 5.84 cm. The minimum height requirement for me...
-  - 060.json: 无法从模型输出中解析JSON: ```json
-{
-  "background": "The table below shows the systolic blood pressures of 16 patients before and after one week's treatment with captopril or placebo. The data are from a randomized controlled ...
-  - 034.json: 无法从模型输出中解析JSON: ```json
-{
-  "background": "The following table shows the number of hours spent in bed by 14 year old boys and girls (Macgregor and Balding, 1988). Times were rounded up to the next half hour.",
-  "tas...
-  - 014.json: 无法从模型输出中解析JSON: 以下是根据要求重新编排后的JSON格式统计学教材习题：
-
-```json
-{
-  "background": "Halpern and Coren (1988) wished to see if there was a difference in longevity between left-handed and right-handed people. One of the few source...
+所有文件处理成功！
 ============================================================

@@ -1,55 +1,65 @@
 {
-  "background": "Identify which of these statements are true and which are false.",
+  "background": "Determine the truth or falsity of statements related to the correlation coefficient r and its properties.",
   "task": [
     {
-      "query": "Correlation coefficient r quantifies the relationship between quantitative variables X and Y.",
-      "answer": "False",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'Correlation coefficient r quantifies the relationship between quantitative variables X and Y' true or false?",
+      "answer": "False"
     },
     {
-      "query": "Correlation coefficient r quantifies the linear relation between quantitative variables X and Y.",
-      "answer": "True",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'Correlation coefficient r quantifies the linear relation between quantitative variables X and Y' true or false?",
+      "answer": "True"
     },
     {
-      "query": "The closer 7 is to 1, the stronger the linear relation between X and Y.",
-      "answer": "False",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'The closer 7 is to 1, the stronger the linear relation between X and Y' true or false?",
+      "answer": "False"
     },
     {
-      "query": "The closer r is to —1 or 1, the stronger the linear relation between X and Y.",
-      "answer": "True",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'The closer r is to —1 or 1, the stronger the linear relation between X and Y' true or false?",
+      "answer": "True"
     },
     {
-      "query": "If r is close to zero, X and Y are unrelated.",
-      "answer": "False",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'If r is close to zero, X and Y are unrelated' true or false?",
+      "answer": "False"
     },
     {
-      "query": "If r is close to zero, X and Y are not related in a linear way.",
-      "answer": "True",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'If r is close to zero, X and Y are not related in a linear way' true or false?",
+      "answer": "True"
     },
     {
-      "query": "The value of r changes when the units of measure are changed.",
-      "answer": "False",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'The value of r changes when the units of measure are changed' true or false?",
+      "answer": "False"
     },
     {
-      "query": "The value of 6 changes when the units of measure are changed.",
-      "answer": "True",
-      "method": "相关系数（一维）"
+      "query": "Is the statement 'The value of 6 changes when the units of measure are changed' true or false?",
+      "answer": "False"
     }
   ],
   "id": "118",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "14.9",
     "image": "",
     "caption": "True or false?",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.4 REGRESSION",
     "page": "330-330"
+  },
+  "token_usage": {
+    "completion_tokens": 366,
+    "prompt_tokens": 473,
+    "total_tokens": 839,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

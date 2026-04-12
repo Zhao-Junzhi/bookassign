@@ -1,15 +1,13 @@
 {
-  "background": "Let $X$ represent a random variable of service time at a certain facility, and suppose that the cumulative distribution function of $X$ is\n\n$$\nF(x)= \\begin{cases}1-e^{-\\lambda x}-\\lambda x e^{-\\lambda x} & \\text { for } x>0 \\\\ 0 & \\text { for } x \\leq 0\\end{cases}\n$$\n\nwhere $\\lambda>0$. A random sample of 10 customers yielded data.\n\n$$\n\\begin{aligned}\n& x_1=12, \\quad x_2=18, \\quad x_3=8, \\quad x_4=15, \\quad x_5=11, \\\\\n& x_6=9, \\quad x_7=8, \\quad x_8=10, \\quad x_9=18, x_{10}=21\n\\end{aligned}\n$$",
+  "background": "Let $X$ represent a random variable of service time at a certain facility, and suppose that the cumulative distribution function of $X$ is given as $F(x)= \\begin{cases}1-e^{-\\lambda x}-\\lambda x e^{-\\lambda x} & \\text { for } x>0 \\\\ 0 & \\text { for } x \\leq 0\\end{cases}$ where $\\lambda>0$. A random sample of 10 customers yielded data: $x_1=12$, $x_2=18$, $x_3=8$, $x_4=15$, $x_5=11$, $x_6=9$, $x_7=8$, $x_8=10$, $x_9=18$, $x_{10}=21$.",
   "task": [
     {
       "query": "Use the method of moments to obtain an estimator of $\\lambda$, and then compute the estimate for this data.",
-      "answer": "$\\hat{\\lambda}=\\frac{2}{\\bar{X}}$.",
-      "method": "获取模型参数估计值"
+      "answer": "$\\hat{\\lambda}=\\frac{2}{\\bar{X}}$."
     },
     {
       "query": "Obtain the maximum likelihood estimator of $\\lambda$, and then compute the estimate for the given data.",
-      "answer": "$\\hat{\\lambda}=\\frac{2}{\\bar{X}}$.",
-      "method": "获取模型参数估计值"
+      "answer": "$\\hat{\\lambda}=\\frac{2}{\\bar{X}}$."
     }
   ],
   "id": "130",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "221-221"
+  },
+  "token_usage": {
+    "completion_tokens": 298,
+    "prompt_tokens": 593,
+    "total_tokens": 891,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "What is the expected value of a lottery ticket?",
-      "answer": "μ = Σ x_i · Pr(X = x_i) = (0 · 0.999999982) + (10,000,000 · 0.000000018) = 0 + 0.18 = 0.18",
-      "method": "期望"
+      "answer": "$$\n\\begin{aligned}\n& \\mu=\\Sigma x_i \\cdot \\operatorname{Pr}\\left(X=x_i\\right)=(0 \\cdot 0.999999982)+(10,000,000 \\cdot 0.000000018)= \\\n& 0+0.18=0.18\n\\end{aligned}\n$$"
     },
     {
       "query": "Fifty-five million lottery tickets will be sold. How much does the proprietor of the lottery need to charge per ticket to make a profit?",
-      "answer": "19 cents",
-      "method": "期望"
+      "answer": "19 cents"
     }
   ],
   "id": "047",
   "data": "\\begin{array}{lcc}\n\\hline \text { Winnings }(X) & 0 & \\$ 10 \times 10^6 \\\n\\operatorname{Pr}\\left(X=x_j\right) & 0.999999982 & 1.8 \times 10^{-8} \\\n\\hline\n\\end{array}",
-  "meta info": {
+  "meta_info": {
     "index": "5.9",
     "image": "",
     "caption": "Lottery.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.3 DISCRETE RANDOM VARIABLES",
     "page": "98-99"
+  },
+  "token_usage": {
+    "completion_tokens": 274,
+    "prompt_tokens": 520,
+    "total_tokens": 794,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

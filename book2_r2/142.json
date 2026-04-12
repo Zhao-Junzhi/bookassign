@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\063.json",
+  "input": {
+    "background": "Suppose you work for an insurance company, and you sell a $10,000 one-year term insurance policy at an annual premium of $290. Actuarial tables show that the probability of death during the next year for a person of your customer's age, sex, health, etc., is 0.001.",
+    "data": null,
+    "question": "What does the expected gain imply for the company if it sells a large number of such policies?"
+  },
+  "output": {
+    "answer": "If the company were to sell a very large number of one-year $10,000 policies to customers possessing the described characteristics, it would (on average) net $280 per sale in the next year."
+  },
+  "meta_info": {
+    "index": "4.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding an Expected Value-An Insurance Application",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.2 Probability Distributions for Discrete Random Variables",
+    "book": "Statistics for Business and Economics",
+    "page": "122-122"
+  },
+  "sample_key": "142"
+}

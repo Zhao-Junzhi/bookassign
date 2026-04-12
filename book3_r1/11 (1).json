@@ -1,10 +1,29 @@
 {
-  "background": "Participants in bike race had the following finishing times in minutes: 12, 10, 24, 31, 14, 21, 23, 15.",
+  "background": "Participants in a bike race had the following finishing times in minutes: 12, 10, 24, 31, 14, 21, 23, 15. The sample range of participants (10, 12, 14, 15, 21, 23, 24, 31) in the bike race is 21 minutes.",
   "task": [
     {
-      "query": "The sample range of participants (10, 12, 14, 15, 21, 23, 24, 31) in bike race is 21 min.",
-      "answer": "Note that the range of a small sample conveys a large proportion of the information on the variation in a sample. However, the range of a large sample perhaps conveys little information since it says very little about the intermediate observations. The range perhaps can be used to calculate an approximate estimate of the standard deviation for a single set of $n$ observations. A simple estimate of the standard deviation can be obtained for samples of equal size:\n\n$$\nS=\\frac{\\bar{w}}{d_n}\n$$\n\nwhere $\\bar{w}$ is the mean range and $\\mathrm{d}_{\\mathrm{n}}$ is a constant depending on the size of the sample. The factors $d_{\\mathrm{n}}$ are given in Table A. 5 (Range values) in the Appendix A. It is interesting to note that for $n=3-12, \\mathrm{~d}_n$ is very nearby equal to $\\sqrt{n}$ (within less than $5 \\%$ ). Note that the Range method should not be used for samples of more than 12.",
-      "method": "分布范围测度"
+      "query": "What does the range of a small sample convey about the variation in a sample?",
+      "answer": "Note that the range of a small sample conveys a large proportion of the information on the variation in a sample."
+    },
+    {
+      "query": "What does the range of a large sample convey about the variation in a sample?",
+      "answer": "The range of a large sample perhaps conveys little information since it says very little about the intermediate observations."
+    },
+    {
+      "query": "How can the range be used to calculate an approximate estimate of the standard deviation for a single set of n observations?",
+      "answer": "The range perhaps can be used to calculate an approximate estimate of the standard deviation for a single set of $n$ observations. A simple estimate of the standard deviation can be obtained for samples of equal size: $$ S=\\frac{\\bar{w}}{d_n} $$ where $\\bar{w}$ is the mean range and $\\mathrm{d}_{\\mathrm{n}}$ is a constant depending on the size of the sample."
+    },
+    {
+      "query": "What are the factors $d_n$ and where can they be found?",
+      "answer": "The factors $d_{\\mathrm{n}}$ are given in Table A.5 (Range values) in the Appendix A."
+    },
+    {
+      "query": "What is interesting about $d_n$ for $n=3-12$?",
+      "answer": "It is interesting to note that for $n=3-12, \\mathrm{~d}_n$ is very nearby equal to $\\sqrt{n}$ (within less than $5 \\%$)."
+    },
+    {
+      "query": "When should the Range method not be used?",
+      "answer": "Note that the Range method should not be used for samples of more than 12."
     }
   ],
   "id": "11",
@@ -18,5 +37,23 @@
     "section": "1.3 Basic Statistics",
     "book": "Statistics for Business and Economics",
     "page": "19-20"
+  },
+  "token_usage": {
+    "completion_tokens": 492,
+    "prompt_tokens": 590,
+    "total_tokens": 1082,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

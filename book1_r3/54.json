@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_018.json",
+  "input": {
+    "background": "Body weights of 18 diabetics expressed as a percentage of ideal (defined as body weight ÷ ideal body weight × 100) are shown here. The data provided are: 107, 119, 99, 114, 120, 104, 88, 114, 124, 116, 101, 121, 152, 100, 125, 114, 95, 117. Construct a stem-and-leaf plot of these data and interpret your findings.",
+    "data": "",
+    "question": "Construct a stem-and-leaf plot of the given data."
+  },
+  "output": {
+    "answer": "08|8\n09|59\n10|0147\n11|4\\underline{4}4679\n12|0145\n13|\n14|\n15|2\n    \\times10"
+  },
+  "meta_info": {
+    "index": "3.7",
+    "image": "",
+    "caption": "Body weight expressed as a percentage of ideal.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "59-60"
+  },
+  "sample_key": "54",
+  "token_usage": {
+    "completion_tokens": 513,
+    "prompt_tokens": 1081,
+    "total_tokens": 1594,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1080,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1081,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1080,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

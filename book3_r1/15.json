@@ -1,15 +1,25 @@
 {
-  "background": "Data representing the yearly gross income (in $\\$ 10^5$ ) of six workers are given as follows: $$ 0.657,0.664,0.655,0.653,0.686,0.661 $$ The 0.686 value is much higher than the other five incomes. We wish to test whether the 0.686 value is as an outlier?",
+  "background": "Data representing the yearly gross income (in $\\$ 10^5$) of six workers are given as follows: $$ 0.657,0.664,0.655,0.653,0.686,0.661 $$ The 0.686 value is much higher than the other five incomes. We wish to test whether the 0.686 value is an outlier?",
   "task": [
     {
-      "query": "Test whether the 0.686 value is as an outlier?",
-      "answer": "The overall mean is $$ \\begin{aligned} \\text { overall mean } & =(0.657+0.664+0.655+0.653+0.686+0.661) / 6 \\ & =0.6627 \\end{aligned} $$ Similarly, the overall standard deviation is: 0.0121. The outlier ratio value is $$ \\text { Outlier ratio value }=\\frac{|0.686-0.6627|}{0.0121}=1.9256 $$ The critical level corresponding to $\\alpha=0.05$ for a sample of size 6 is 1.89 (see Table A.6). Since the outlier ratio value exceeds the critical value, therefore we can conclude that the outlying observation (0.686 value) may be regarded as significant. On this basis, we may compute the mean and standard deviation from the other five observations since the value 0.686 is as an outlier.",
-      "method": "异常值处理"
+      "query": "Compute the overall mean of the given data.",
+      "answer": "The overall mean is $$ \\begin{aligned} \\text{overall mean} & =(0.657+0.664+0.655+0.653+0.686+0.661) / 6 \\ & =0.6627 \\end{aligned} $$"
+    },
+    {
+      "query": "Compute the overall standard deviation of the given data.",
+      "answer": "The overall standard deviation is: 0.0121."
+    },
+    {
+      "query": "Determine the outlier ratio value and compare it to the critical level corresponding to $\\alpha=0.05$ for a sample of size 6. Conclude whether the 0.686 value is an outlier.",
+      "answer": "The outlier ratio value is $$ \\text{Outlier ratio value} = \\frac{|0.686-0.6627|}{0.0121} = 1.9256 $$ The critical level corresponding to $\\alpha=0.05$ for a sample of size 6 is 1.89 (see Table A.6). Since the outlier ratio value exceeds the critical value, we can conclude that the outlying observation (0.686 value) may be regarded as significant."
+    },
+    {
+      "query": "Explain the next steps after identifying 0.686 as an outlier.",
+      "answer": "On this basis, we may compute the mean and standard deviation from the other five observations since the value 0.686 is an outlier."
     },
     {
       "query": "Define the moment-generating function (m.g.f.) of a distribution of $X$.",
-      "answer": "The moment-generating function (m.g.f.) of a distribution of $X$ is defined as a function of a real variable $t$: $$ M(t)=E\\left(e^{t X}\\right) $$ It should be noted that $\\mathrm{M}(0)=1$ for all distributions. $M(t)$ however may not exist for some $t \\neq 0$.",
-      "method": "数学计算"
+      "answer": "The moment-generating function (m.g.f.) of a distribution of $X$ is defined as a function of a real variable $t$: $$ M(t) = E\\left(e^{t X}\\right) $$ It should be noted that $M(0) = 1$ for all distributions. $M(t)$ however may not exist for some $t \\neq 0$."
     }
   ],
   "id": "15",
@@ -23,5 +33,23 @@
     "section": "1.3 Basic Statistics",
     "book": "Statistical Reliability Engineering",
     "page": "24-24"
+  },
+  "token_usage": {
+    "completion_tokens": 550,
+    "prompt_tokens": 676,
+    "total_tokens": 1226,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

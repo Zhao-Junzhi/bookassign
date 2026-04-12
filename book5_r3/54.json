@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\018.json",
+  "input": {
+    "background": "Investigate the possibility of digit preference in the final digits of the serum progesterone data provided in the table, which includes measurements taken at various time points for six patients, along with their means and standard errors (SE).",
+    "data": null,
+    "question": "Analyze the distribution of the final digits in the serum progesterone data. Are there any patterns or preferences in the final digits?"
+  },
+  "output": {
+    "answer": "Almost half $(27 / 60)$ of the values end in zero. The other terminating digits are fairly evenly spread."
+  },
+  "meta_info": {
+    "index": "7.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Preparing to analyse data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "150-151"
+  },
+  "sample_key": "54",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1024,
+    "total_tokens": 1067,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 907,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1024,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 907,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

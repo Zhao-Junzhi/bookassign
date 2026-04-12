@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_007.json",
+  "case_id": "book1_r1\\record_006.json",
   "input": {
-    "background": "For the scenarios presented here, identify the source population and sample as specifically as possible. If information is insufficient, do your best to provide a reasonable description of the population and sample and then suggest additional.",
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "The sample consists of the 125 individuals in the study. The source population can be viewed as either (a) all patients that attended this hospital during the study period or (b) all individuals in the hospital's geographic capturement area, that is, the population who might have been hospitalized had there been a need."
+    "question": "(n) Treatment group: 1 = active treatment, 2 = placebo"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "It would be useful to know additional information about these source populations, for example, the timeframe of the study, the demographic make-up of the capturement area, and so on.",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 125,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of individuals in the study sample."
-      },
-      "source_population_a": {
-        "id": "source_population_a",
-        "value": "all patients that attended this hospital during the study period",
-        "class": "categorical",
-        "role": "NR",
-        "description": "One possible definition of the source population."
-      },
-      "source_population_b": {
-        "id": "source_population_b",
-        "value": "all individuals in the hospital's geographic capturement area",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Another possible definition of the source population, representing those who might have been hospitalized if needed."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
-    "index": "2.1",
+    "index": "1.11",
     "image": "",
-    "caption": "Sample and population",
-    "chapter": "Types of Studies",
-    "section": "2.2 Comparative Studies",
-    "page": "21-21"
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
   },
   "sample_key": "27"
 }

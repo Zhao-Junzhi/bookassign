@@ -1,10 +1,9 @@
 {
-  "background": "A fair die is thrown twice. Let $A, B$ and $C$ denote the following events: $A$ : first toss is odd, $B$ : second toss is even, $C$ : total number of spots is equal to seven.",
+  "background": "A fair die is thrown twice. Let A, B, and C denote the following events: A: first toss is odd, B: second toss is even, C: total number of spots is equal to seven.",
   "task": [
     {
-      "query": "Show that $A, B$ and $C$ are not independent.",
-      "answer": "We obtain $P\\{A \\cap B \\cap C\\}=\\frac{1}{12} \\quad P\\{A\\} P\\{B\\} P\\{C\\}=\\frac{1}{24}$. Events $\\mathrm{A}, \\mathrm{B}$ and C are not independent.",
-      "method": "事件发生概率及独立性"
+      "query": "Show that A, B, and C are not independent.",
+      "answer": "We obtain P{A ∩ B ∩ C} = 1/12 and P{A}P{B}P{C} = 1/24. Events A, B, and C are not independent."
     }
   ],
   "id": "69",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "57-57"
+  },
+  "token_usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 431,
+    "total_tokens": 564,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

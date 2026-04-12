@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\004.json",
+  "input": {
+    "background": "A particular fast-food restaurant chain is considering offering a 50% discount to customers who wait more than a specified number of minutes to receive their order. To determine the time limit, the company decided to estimate the average waiting time at a specific drive-through window in Dallas, Texas. Over a 7-day period, workers recorded the time orders were placed and delivered for 2,109 orders using synchronized digital clocks.",
+    "data": null,
+    "question": "Describe how the reliability of the inference could be measured."
+  },
+  "output": {
+    "answer": "As for inferences about populations, measures of reliability can be developed for inferences about processes. The reliability of the estimate of the average waiting time for the Dallas restaurant could be measured by a bound on the error of estimation—that is, we might find that the average waiting time is 4.2 minutes, with a bound on the error of estimation of 0.5 minutes. The implication would be that we could be reasonably certain that the true average waiting time for the Dallas process is between 3.7 and 4.7 minutes."
+  },
+  "meta_info": {
+    "index": "1.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Key Elements of a Process-Waiting Time at a Fast-Food Window",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.4 Processes*",
+    "book": "Statistics for Business and Economics",
+    "page": "11-12"
+  },
+  "sample_key": "14"
+}

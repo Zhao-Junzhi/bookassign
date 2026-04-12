@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_145.json",
+  "input": {
+    "background": "Exercise 18.3 found that 43% of CMV+ patients experienced arterial restenosis within 6 months of atherectomy. In contrast, 8% of CMV- patients experienced a similar outcome. Table 18.8 contains observed counts.",
+    "data": "Table 18.8 Data for Exercise 18.3 and 18.9. Restenosis within 6 months of angioplasty by CMV serological status.\n\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Restenosed } & \\multicolumn{1}{c}{ Did not restenose } & \\multicolumn{1}{c}{ Total }\\\n\\hline\n\\hline CMV + & 21 & 28 & 49 \\\n\\hline CMV- & 2 & 24 & 26 \\\n\\hline Total & 23 & 49 & 75 \\\n\\hline\n\\end{tabular}\n",
+    "question": "Use a chi-square statistic to test the association for statistical significance."
+  },
+  "output": {
+    "answer": "X_stat^2 = 9.879, df = 1, P = 0.0017. With continuity-correction, X^2_stat,c = 8.294, df = 1, P = 0.0040."
+  },
+  "meta_info": {
+    "index": "18.9",
+    "image": "",
+    "caption": "Cytomegalovirus infection and coronary restenosis.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "431-431"
+  },
+  "sample_key": "365",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1303,
+    "total_tokens": 1346,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1302,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1303,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1302,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

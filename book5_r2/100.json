@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\044.json",
+  "case_id": "book5_r1\\035.json",
   "input": {
-    "background": "The table below shows data from an experiment to compare resting metabolic rates (kcal/min) in five volunteers each given two diets, a normal diet and an overfeeding diet which contained 50% more energy (Welle et al., 1986). Data were collected before and after eating a meal.",
-    "data": "\\begin{tabular}{|l|l|l|l|}\n\\hline Subject & Diet & Before meal & After meal \\\\\n\\hline 1 & N & 1.47 & 1.78 \\\\\n\\hline & O & 1.72 & 2.49 \\\\\n\\hline 2 & N & 1.42 & 1.68 \\\\\n\\hline & O & 1.44 & 1.87 \\\\\n\\hline 3 & N & 1.10 & 1.26 \\\\\n\\hline & O & 1.11 & 1.36 \\\\\n\\hline 4 & N & 0.84 & 1.11 \\\\\n\\hline & O & 0.90 & 1.29 \\\\\n\\hline 5 & N & 0.91 & 1.09 \\\\\n\\hline & O & 1.00 & 1.25 \\\\\n\\hline\n\\end{tabular}\n\nN : Normal diet: O : Overfed diet",
-    "question": "Carry out an analysis to see if there is a significant difference between the two diets in the change between pre- and post-prandial resting metabolic rates."
+    "background": "A study was conducted on 65 patients who had received or were receiving sodium aurothiomalate as a treatment for rheumatoid arthritis. The aim was to investigate whether toxicity to sodium aurothiomalate (SA) might be linked to sulphoxidation capacity, as assessed by the sulphoxidation index (SI). Values of SI > 6.0 were considered indicative of impaired sulphoxidation. A table summarizing the data was provided, and the authors performed Chi-squared tests to analyze the relationship between impaired sulphoxidation and SA toxicity.",
+    "data": null,
+    "question": "Why can't both of the Chi-squared tests described in the paragraph be correct?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "The data of interest can be rewritten as\n\n| Subject | Diet N | Diet O |\n|---------|--------|--------|\n| 1       | 0.31   | 0.77   |\n| 2       | 0.26   | 0.43   |\n| 3       | 0.16   | 0.25   |\n| 4       | 0.27   | 0.39   |\n| 5       | 0.18   | 0.25   |\n\nThe mean and SD of the differences between the diets (O - N) are 0.182 and 0.160, so the paired t test gives t = 2.545. The appropriate value of the t distribution (t_0.975) on 4 degrees of freedom is 2.776, so the difference is not quite statistically significant at the 5% level (P = 0.06). The 95% CI for the mean difference is 0.182 ± 2.776 × 0.160 / √5 or -0.02 to 0.38. The two way analysis of variance, with factors diet and subject, gives F = 6.48 for the comparison between the diets - this is the square of the t value as expected."
+    "answer": "There is only one Chi squared test for a $2 \\times 2$ table, which can be interpreted as either a comparison of the proportions in each row or in each column. The two tests described should have given the same answer."
   },
   "meta_info": {
-    "index": "12.1",
+    "index": "10.5",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Relation between several variables",
+    "chapter": "Comparing groups - categorical data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "361-361"
+    "page": "274-275"
   },
   "sample_key": "100"
 }

@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_135.json",
+  "case_id": "book1_r1\\record_111.json",
   "input": {
-    "background": "An early publication from the Framingham Heart Study identified 51 incidences of coronary disease among 424 men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period. Among 454 men with lower cholesterol (less than 210 mg per 100 mL), there were 16 incident cases.",
-    "data": "",
-    "question": "Calculate the incidence rates and the relative risk (RR) of coronary disease for men with high serum cholesterol compared to those with lower cholesterol."
+    "background": "Exercise 13.1 presented data on birth weights of infants based on the smoking status of mothers. Table 13.3 lists the data. Descriptive statistics are shown in Table 13.10.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 13.10 Descriptive statistics for Exercise 13.3.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline Group & $n$ & Mean & Std. Deviation \\\n\\hline 1 (nonsmoker) & 6 & 7.9153 & 1.09947 \\\n\\hline 2 (former smokers) & 5 & 7.8296 & 1.52325 \\\n\\hline 3 (< half pack) & 6 & 6.7962 & 1.10107 \\\n\\hline 4 ( $\\geq$ half pack) & 8 & 6.3024 & 0.84323 \\\n\\hline Total & 25 & 7.1135 & 1.26907 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Conduct an ANOVA on these data. Show all hypothesis-testing steps. Step 3: Find the p-value."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$\\begin{aligned} & \\hat{p}_1=\\frac{51}{424}=0.1203 \\\\ & \\hat{p}_2=\\frac{16}{454}=0.0352 \\\\ & \\widehat{R R}=\\frac{0.1203}{0.0352}=3.41 \\end{aligned}$$",
-    "variable": {
-      "high_cholesterol_cases": {
-        "id": "high_cholesterol_cases",
-        "value": 51,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of coronary disease cases among men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period."
-      },
-      "high_cholesterol_population": {
-        "id": "high_cholesterol_population",
-        "value": 424,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Total number of men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period."
-      },
-      "low_cholesterol_cases": {
-        "id": "low_cholesterol_cases",
-        "value": 16,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of coronary disease cases among men with lower serum cholesterol (less than 210 mg per 100 mL) over a 6-year period."
-      },
-      "low_cholesterol_population": {
-        "id": "low_cholesterol_population",
-        "value": 454,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Total number of men with lower serum cholesterol (less than 210 mg per 100 mL) over a 6-year period."
-      }
-    }
+    "answer": "$P$-value. $P<0.05$ by Table D (use the 3 and $20 d f$ column). $P=0.042$ by a software utility. Either way, this provides good evidence against the null hypothesis."
   },
   "meta_info": {
-    "index": "17.9",
+    "index": "13.3",
     "image": "",
-    "caption": "Framingham Heart Study.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
-    "page": "392-293"
+    "caption": "Smoking and birth weight, ANOVA.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.3 ANALYSIS OF VARIANCE (ANOVA)",
+    "page": "276-276"
   },
   "sample_key": "265"
 }

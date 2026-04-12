@@ -2,84 +2,88 @@
   "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
   "task": [
     {
-      "query": "White blood cells per deciliter of whole blood",
-      "answer": "Quantitative",
-      "method": "其它（如 reliability）"
+      "query": "(a) White blood cells per deciliter of whole blood",
+      "answer": "Quantitative"
     },
     {
-      "query": "Leukemia rates in geographic regions (cases per 100,000 people)",
-      "answer": "Quantitative",
-      "method": "其它（如 reliability）"
+      "query": "(b) Leukemia rates in geographic regions (cases per 100,000 people)",
+      "answer": "Quantitative"
     },
     {
-      "query": "Presence of type II diabetes mellitus (yes or no)",
-      "answer": "Categorical",
-      "method": "离散型变量分布"
+      "query": "(c) Presence of type II diabetes mellitus (yes or no)",
+      "answer": "Categorical"
     },
     {
-      "query": "Body weight (kilograms)",
-      "answer": "Quantitative",
-      "method": "集中趋势测度"
+      "query": "(d) Body weight (kilograms)",
+      "answer": "Quantitative"
     },
     {
-      "query": "Low-density lipoprotein level (mg/dl)",
-      "answer": "Quantitative",
-      "method": "集中趋势测度"
+      "query": "(e) Low-density lipoprotein level (mg/dl)",
+      "answer": "Quantitative"
     },
     {
-      "query": "Grade in a course coded: A, B, C, D, or F",
-      "answer": "Ordinal",
-      "method": "分位数/百分位数"
+      "query": "(f) Grade in a course coded: A, B, C, D, or F",
+      "answer": "Ordinal"
     },
     {
-      "query": "Religious identity coded 1= Protestant, 2= Catholic, 3= Muslim, 4= Jewish, 5= Atheist, 6= Buddhist, 7= Hindu, 8= Other",
-      "answer": "Categorical",
-      "method": "离散型变量分布"
+      "query": "(g) Religious identity coded 1 = Protestant, 2 = Catholic, 3 = Muslim, 4 = Jewish, 5 = Atheist, 6 = Buddhist, 7 = Hindu, 8 = Other",
+      "answer": "Categorical"
     },
     {
-      "query": "Blood cholesterol level classified as either 1= hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic",
-      "answer": "Ordinal",
-      "method": "分位数/百分位数"
+      "query": "(h) Blood cholesterol level classified as either 1 = hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic",
+      "answer": "Ordinal"
     },
     {
-      "query": "Course credit (pass or fail)",
-      "answer": "Categorical",
-      "method": "离散型变量分布"
+      "query": "(i) Course credit (pass or fail)",
+      "answer": "Categorical"
     },
     {
-      "query": "Ambient temperature (degrees Fahrenheit)",
-      "answer": "Quantitative",
-      "method": "集中趋势测度"
+      "query": "(j) Ambient temperature (degrees Fahrenheit)",
+      "answer": "Quantitative"
     },
     {
-      "query": "Type of life insurance policy: 1= none, 2= term, 3= endowment, 4= straight life, 5= other",
-      "answer": "Categorical",
-      "method": "离散型变量分布"
+      "query": "(k) Type of life insurance policy: 1 = none, 2 = term, 3 = endowment, 4 = straight life, 5 = other",
+      "answer": "Categorical"
     },
     {
-      "query": "Satisfaction: 1= very satisfied, 2= satisfied, 3= neutral, 4= unsatisfied, 5= very unsatisfied",
-      "answer": "Ordinal",
-      "method": "分位数/百分位数"
+      "query": "(l) Satisfaction: 1 = very satisfied, 2 = satisfied, 3 = neutral, 4 = unsatisfied, 5 = very unsatisfied",
+      "answer": "Ordinal"
     },
     {
-      "query": "Movie review rating: 1 star, 1 1/2 stars, 2 stars, 2 1/2 stars, 3 stars, 3 1/2 stars, 4 stars",
-      "answer": "Ordinal",
-      "method": "分位数/百分位数"
+      "query": "(m) Movie review rating: 1 star, 1 1/2 stars, 2 stars, 2 1/2 stars, 3 stars, 3 1/2 stars, 4 stars",
+      "answer": "Ordinal"
     },
     {
-      "query": "Treatment group: 1= active treatment, 2= placebo",
-      "answer": "Categorical",
-      "method": "离散型变量分布"
+      "query": "(n) Treatment group: 1 = active treatment, 2 = placebo",
+      "answer": "Categorical"
     }
   ],
   "id": "006",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "1.11",
     "image": "",
     "caption": "Variable types 2.",
     "chapter": "Measurement",
     "section": "1.4 Data Quality",
     "page": "13-14"
+  },
+  "token_usage": {
+    "completion_tokens": 602,
+    "prompt_tokens": 715,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

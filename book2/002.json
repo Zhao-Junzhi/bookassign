@@ -1,0 +1,16 @@
+{
+  "id": "002",
+  "question": "Cola wars is the popular term for the intense competition between Coca-Cola and Pepsi displayed in their marketing campaigns. Their campaigns have featured movie and television stars, rock videos, athletic endorsements, and claims of consumer preference based on taste tests. Suppose, as part of a Pepsi marketing campaign, 1,000 cola consumers are given a blind taste test (i.e., a taste test in which the two brand names are disguised). Each consumer is asked to state a preference for brand A or brand B .\na. Describe the population.\nb. Describe the variable of interest.\nc. Describe the sample.\nd. Describe the inference.",
+  "data": null,
+  "answer": "a. Because we are interested in the responses of cola consumers in a taste test, a cola consumer is the experimental unit. Thus, the population of interest is the collection or set of all cola consumers.\nb. The characteristic that Pepsi wants to measure is the consumer's cola preference as revealed under the conditions of a blind taste test, so cola preference is the variable of interest.\nc. The sample is the 1,000 cola consumers selected from the population of all cola consumers.\nd. The inference of interest is the generalization of the cola preferences of the 1,000 sampled consumers to the population of all cola consumers. In particular, the preferences of the consumers in the sample can be used to estimate the percentage of all cola consumers who prefer each brand.",
+  "meta_info": {
+    "index": "1.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Key Elements of a Statistical Problem-Pepsi vs. Coca-Cola",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.3 Fundamental Elements of Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "7-8"
+  }
+}

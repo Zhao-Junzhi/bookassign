@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\06.json",
+  "input": {
+    "background": "Suppose that 3 people are chosen randomly from among 10 to form a committee.",
+    "data": null,
+    "question": "In how many ways can such a committee be formed?"
+  },
+  "output": {
+    "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$."
+  },
+  "meta_info": {
+    "index": "1.13",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.2 Probability Axioms",
+    "book": "Statistical Reliability Engineering",
+    "page": "11-12"
+  },
+  "sample_key": "9",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 948,
+    "total_tokens": 991,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 909,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 948,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 909,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

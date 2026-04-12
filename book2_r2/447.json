@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\164.json",
+  "input": {
+    "background": "Substitute the appropriate values of the dummy variables in model 3 to obtain the equations of the three response lines in Figure 12.23.",
+    "data": "null",
+    "question": "What is the complete model that characterizes the three lines in Figure 12.23?"
+  },
+  "output": {
+    "answer": "The complete model that characterizes the three lines in Figure 12.23 is $$E(y)=\\beta_0+\\beta_1 x_1+\\beta_2 x_2+\\beta_3 x_3+\\beta_4 x_1 x_2+\\beta_5 x_1 x_3$$ where $$\\begin{aligned} & x_1=\\text { advertising expenditure } \\\\ & x_2= \\begin{cases}1 & \\text { if radio medium } \\\\ 0 & \\text { if not }\\end{cases} \\\\ & x_3= \\begin{cases}1 & \\text { if television medium } \\\\ 0 & \\text { if not }\\end{cases} \\end{aligned}$$"
+  },
+  "meta_info": {
+    "index": "12.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\\\\beta$ 's in a Model with Mixed Independent Variables",
+    "chapter": "Multiple Regression and Model Building",
+    "section": "12.8 Models with Both Quantitative and Qualitative Variables",
+    "book": "Statistics for Business and Economics",
+    "page": "432-433"
+  },
+  "sample_key": "447"
+}

@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\20.json",
+  "input": {
+    "background": "Suppose in the production of lightbulbs, 90% are good. In a random sample of 20 lightbulbs, we are interested in the probability of obtaining a specific number of good lightbulbs.",
+    "data": null,
+    "question": "What is the probability of obtaining at least 18 good lightbulbs in a random sample of 20 lightbulbs?"
+  },
+  "output": {
+    "answer": "$$\n\\begin{aligned}\n&\\ \\text { The probability of obtaining at least } 18 \\ \\text { good lightbulbs is given by }\\\\\n&R(18)=\\sum_{x=18}^{20}\\binom{20}{x}(0.9)^x(0.1)^{20-x}=0.667\n\\end{aligned}\n$$"
+  },
+  "meta_info": {
+    "index": "2.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "70-70"
+  },
+  "sample_key": "121",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1021,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1020,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1021,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1020,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

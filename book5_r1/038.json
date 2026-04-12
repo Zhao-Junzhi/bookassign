@@ -1,15 +1,13 @@
 {
-  "background": "A case-control study was carried out to investigate the aetiology of acoustic neuromas. Men aged 25-69 at the time of diagnosis who were resident in Los Angeles County were eligible for inclusion. A total of 118 men were identified who were alive and able to be interviewed. Twenty-eight patients were not interviewed because the physician refused permission (12), the patient chose not to participate (9), or the patient could not be located (7). For 86 of the remaining patients the researchers identified and interviewed a neighbourhood control of the same race and within five years of age. Both members of each case-control pair were interviewed in the same manner by the same interviewer to obtain information about various life experiences. Exposure to loud noise at work was of particular interest. Overall 58 cases and 46 controls had had some exposure to loud noise at work. There were 20 case-control pairs for which the case but not the control had had such exposure, and 8 pairs where the control but not the case had had some exposure.",
+  "background": "A case-control study was conducted to investigate the aetiology of acoustic neuromas. Men aged 25-69 residing in Los Angeles County were eligible for inclusion. A total of 118 men were identified, but 28 were not interviewed due to various reasons. For 86 remaining patients, a neighborhood control of the same race and within five years of age was identified and interviewed. Both cases and controls were interviewed in the same manner to collect information about life experiences, with a focus on exposure to loud noise at work. Overall, 58 cases and 46 controls reported exposure to loud noise at work. Among the case-control pairs, 20 pairs had cases exposed but not controls, and 8 pairs had controls exposed but not cases.",
   "task": [
     {
       "query": "Carry out an appropriate analysis to compare the proportions of exposed cases and controls.",
-      "answer": "The proportions of cases and controls reporting exposure to loud noise were 0.674 (58 / 86) and 0.535 (46 / 86). The difference in proportions is 0.14, with the 95% CI of 0.02 to 0.26. The proportions can be compared using McNemar's test, which gives z_c = 11 / sqrt(28) = 2.08 (P = 0.04).",
-      "method": "独立性检验"
+      "answer": "From the information given, a 2x2 table can be constructed as follows:\n\n|           | Cases (+) | Cases (-) | Total |\n|-----------|-----------|-----------|-------|\n| Controls (+) | 38        | 8         | 46    |\n| Controls (-) | 20        | 20        | 40    |\n| Total     | 58        | 28        | 86    |\n\nThe proportions of cases and controls reporting exposure to loud noise were 0.674 (58/86) and 0.535 (46/86), respectively. The difference in proportions is 0.14, with the 95% CI of 0.02 to 0.26. The proportions can be compared using McNemar's test, which gives:\n\nzc = 11 / sqrt(28) = 2.08 (P = 0.04)."
     },
     {
       "query": "Calculate the odds ratio for acoustic neuroma associated with exposure to loud noise at work.",
-      "answer": "The odds ratio is estimated as 20 / 8 = 2.5. The 95% CI (method not given in Chapter 10) is 1.05 to 6.56.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "The odds ratio is estimated as 20 / 8 = 2.5. The 95% CI (method not given in Chapter 10) is 1.05 to 6.56."
     }
   ],
   "id": "038",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "275-276"
+  },
+  "token_usage": {
+    "completion_tokens": 465,
+    "prompt_tokens": 840,
+    "total_tokens": 1305,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

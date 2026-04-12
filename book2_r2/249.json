@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\104.json",
+  "input": {
+    "background": "The manufacturer of official NFL footballs uses a machine to inflate its new balls to a pressure of 13.5 pounds. When the machine is properly calibrated, the mean inflation pressure is 13.5 pounds, but uncontrollable factors cause the pressures of individual footballs to vary randomly from about 13.3 to 13.7 pounds. For quality control purposes, the manufacturer wishes to estimate the mean inflation pressure to within 0.025 pound of its true value with a 99% confidence interval.",
+    "data": null,
+    "question": "What is the desired margin of error (ME) and the corresponding z-value for a 99% confidence interval?"
+  },
+  "output": {
+    "answer": "We desire a 99% confidence interval that estimates μ with a margin of error of ME = 0.025 pound. For a 99% confidence interval, we have zα/2 = z0.005 = 2.576."
+  },
+  "meta_info": {
+    "index": "6.9",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "249"
+}

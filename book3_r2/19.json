@@ -6,8 +6,7 @@
     "question": "What is the probability that in a given five minute period not more than three calls arrive?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$$ 0.758$$"
+    "answer": "0.758"
   },
   "meta_info": {
     "index": "2.16",

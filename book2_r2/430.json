@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\160.json",
+  "input": {
+    "background": "The problem involves analyzing the relationship between the auction price of grandfather clocks, their age, and the number of bidders. The collector believes that the rate of increase in auction price with age is influenced by the number of bidders, leading to an interaction model. The model is fitted using 32 data points, and a portion of the Minitab printout is provided for analysis.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 12.1 & \\multicolumn{5}{|c|}{Auction Price Data} \\\\\n\\hline Age, $x_1$ & Number of Bidders, $\\boldsymbol{x}_{\\mathbf{2}}$ & Auction Price, $y$ & Age, $x_1$ & Number of Bidders, $x_2$ & Auction Price, $y$ \\\\\n\\hline 127 & 13 & \\$1,235 & 170 & 14 & \\$2,131 \\\\\n\\hline 115 & 12 & 1,080 & 182 & 8 & 1,550 \\\\\n\\hline 127 & 7 & 845 & 162 & 11 & 1,884 \\\\\n\\hline 150 & 9 & 1,522 & 184 & 10 & 2,041 \\\\\n\\hline 156 & 6 & 1,047 & 143 & 6 & 845 \\\\\n\\hline 182 & 11 & 1,979 & 159 & 9 & 1,483 \\\\\n\\hline 156 & 12 & 1,822 & 108 & 14 & 1,055 \\\\\n\\hline 132 & 10 & 1,253 & 175 & 8 & 1,545 \\\\\n\\hline 137 & 9 & 1,297 & 108 & 6 & 729 \\\\\n\\hline 113 & 9 & 946 & 179 & 9 & 1,792 \\\\\n\\hline 137 & 15 & 1,713 & 111 & 15 & 1,175 \\\\\n\\hline 117 & 11 & 1,024 & 187 & 8 & 1,593 \\\\\n\\hline 137 & 8 & 1,147 & 111 & 7 & 785 \\\\\n\\hline 153 & 6 & 1,092 & 115 & 7 & 744 \\\\\n\\hline 117 & 13 & 1,152 & 194 & 5 & 1,356 \\\\\n\\hline 126 & 10 & 1,336 & 168 & 7 & 1,262 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Test the overall utility of the model using the global $F$-test at $\\alpha=.05$."
+  },
+  "output": {
+    "answer": "The global $F$-test is used to test the null hypothesis $$H_0: \\beta_1=\\beta_2=\\beta_3=0$$ The test statistic and $p$-value of the test (highlighted on the Minitab printout) are $F=193.04$ and $p$-value $=0$, respectively. Because $\\alpha=.05$ exceeds the $p$-value, there is sufficient evidence to conclude that the model fit is a statistically useful predictor of auction price, $y$."
+  },
+  "meta_info": {
+    "index": "12.6",
+    "img_in_question": null
+  },
+  "sample_key": "430"
+}

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\048.json",
+  "case_id": "book5_r1\\039.json",
   "input": {
-    "background": "For lung transplantation it is desirable for the donor's lungs to be of a similar size as those of the recipient. Total lung capacity (TLC) is difficult to measure, so it is useful to be able to predict TLC from other information. The following table shows the pre-transplant TLC of 32 recipients of heart-lung transplants, obtained by whole-body plethysmography, and their age, sex and height (Otulana et al., 1989).",
-    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline & Age & Sex & Height (cm) & TLC (1) & & Age & Sex & Height (cm) & TLC (l) \\\\\n\\hline 1 & 35 & F & 149 & 3.40 & 17 & 30 & F & 172 & 6.30 \\\\\n\\hline 2 & 11 & F & 138 & 3.41 & 18 & 21 & F & 163 & 6.55 \\\\\n\\hline 3 & 12 & M & 148 & 3.80 & 19 & 21 & F & 164 & 6.60 \\\\\n\\hline 4 & 16 & F & 156 & 3.90 & 20 & 20 & M & 189 & 6.62 \\\\\n\\hline 5 & 32 & F & 152 & 4.00 & 21 & 34 & M & 182 & 6.89 \\\\\n\\hline 6 & 16 & F & 157 & 4.10 & 22 & 43 & M & 184 & 6.90 \\\\\n\\hline 7 & 14 & F & 165 & 4.46 & 23 & 35 & M & 174 & 7.00 \\\\\n\\hline 8 & 16 & M & 152 & 4.55 & 24 & 39 & M & 177 & 7.20 \\\\\n\\hline 9 & 35 & F & 177 & 4.83 & 25 & 43 & M & 183 & 7.30 \\\\\n\\hline 10 & 33 & F & 158 & 5.10 & 26 & 37 & M & 175 & 7.65 \\\\\n\\hline 11 & 40 & F & 166 & 5.44 & 27 & 32 & M & 173 & 7.80 \\\\\n\\hline 12 & 28 & F & 165 & 5.50 & 28 & 24 & M & 173 & 7.90 \\\\\n\\hline 13 & 23 & F & 160 & 5.73 & 29 & 20 & F & 162 & 8.05 \\\\\n\\hline 14 & 52 & M & 178 & 5.77 & 30 & 25 & M & 180 & 8.10 \\\\\n\\hline 15 & 46 & F & 169 & 5.80 & 31 & 22 & M & 173 & 8.70 \\\\\n\\hline 16 & 29 & M & 173 & 6.00 & 32 & 25 & M & 171 & 9.45 \\\\\n\\hline\n\\end{tabular}",
-    "question": "How could we investigate whether the relation between lung capacity and height is the same for males and females?"
+    "background": "Lactic acidosis, a disorder of acid-base metabolism, is usually rapidly fatal. Dichloroacetate was administered intravenously (50 mg/kg body weight) to 29 paediatric and adult patients. The table below shows the recorded changes in some metabolic and haemodynamic variables, together with the patients' survival times (in hours).",
+    "data": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline  & \\multicolumn{3}{|c|}{Change in arterial level of} & Survival \\\\\n\\hline Patient & Lactate & Bicarbonate & pH & time\\\\\n\\hline 1 & 4.1 & -1.2 & -0.05 & 4 \\\\\n\\hline 2 & -4.4 & 2.0 & 0.03 & 4 \\\\\n\\hline 3 & 0.1 & 2.9 & 0.02 & 14 \\\\\n\\hline 4 & 4.4 & -2.5 & 0.07 & 15 \\\\\n\\hline 5 & 8.7 & -4.0 & -0.12 & 16 \\\\\n\\hline 6 & -30.7 & 4.4 & 0.17 & 24 \\\\\n\\hline 7 & 1.7 & -0.9 & 0.01 & 29 \\\\\n\\hline 8 & -1.5 & 4.5 & 0.15 & 31 \\\\\n\\hline 9 & 7.4 & 1.8 & -0.13 & 32 \\\\\n\\hline 10 & 9.9 & -12.9 & -0.28 & 36 \\\\\n\\hline 11 & 13.1 & -11.9 & -0.33 & 36 \\\\\n\\hline 12 & 3.1 & -6.3 & -0.22 & 36 \\\\\n\\hline 13 & 15.2 & -2.0 & -0.16 & 41 \\\\\n\\hline 14 & 2.5 & 1.0 & 0.01 & 46 \\\\\n\\hline 15 & 7.9 & 2.5 & -0.22 & 48 \\\\\n\\hline 16 & 4.2 & -2.2 & -0.03 & 48 \\\\\n\\hline 17 & 2.8 & -4.0 & -0.04 & 60 \\\\\n\\hline 18 & 14.3 & -2.4 & -0.01 & 60 \\\\\n\\hline\n\\end{tabular}\\begin{tabular}{|l|l|l|l|l|}\n\\hline  & \\multicolumn{3}{|c|}{Change in arterial level of} & Survival \\\\\n\\hline Patient & Lactate & Bicarbonate & pH & time\\\\\n\\hline 19 & 16.2 & -12.8 & -0.15 & 72 \\\\\n\\hline 20 & 17.5 & -4.4 & -0.09 & 96 \\\\\n\\hline 21 & 2.7 & -7.1 & -0.21 & 192 \\\\\n\\hline 22 & 4.4 & -4.7 & -0.05 & 336 \\\\\n\\hline 23 & 4.8 & -9.8 & -0.05 & 456 \\\\\n\\hline 24 & 9.0 & -7.5 & 0.09 & 672 \\\\\n\\hline 25 & 14.7 & -7.2 & -0.23 & 768 \\\\\n\\hline 26 & 6.2 & -4.2 & -0.13 & 1080 \\\\\n\\hline 27 & 18.4 & -12.3 & -0.12 & 2160 \\\\\n\\hline 28 & 16.9 & -8.6 & -0.17 & 2160 \\\\\n\\hline 29 & 26.0 & -21.3 & -0.32 & 24456* \\\\\n\\hline\n${ }^*$ : still alive\\\\\n\\hline\n\\end{tabular}",
+    "question": "Which variable has the strongest correlation with survival time?"
   },
   "output": {
-    "method": "假设检验",
-    "answer": "The simple way is to carry out separate regressions for males and females, which give slopes of 0.0736 and 0.0745. However, the correct way to test the hypothesis that the slopes are the same is by fitting a multiple regression model including an interaction term. As we would expect from the similar slopes just given, the interaction is nowhere near to being statistically significant. As we have also seen that there was no significant effect of sex in the multiple regression model, we can reasonably conclude that the relation between lung volume and height is the same for males and females."
+    "answer": "The changes in lactate, bicarbonate and pH have Spearman rank correlation coefficients with survival time of 0.63, -0.67 and -0.42 respectively, so the strongest relation is with changes in bicarbonate. Note that bicarbonate and pH have negative associations with survival while for lactate the correlation is positive."
   },
   "meta_info": {
-    "index": "12.5",
+    "index": "11.1",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Relation between several variables",
+    "chapter": "Relation between two continuous variables",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "364-364"
+    "page": "321-322"
   },
   "sample_key": "112"
 }

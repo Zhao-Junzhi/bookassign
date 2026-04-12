@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Find the reliability of the part at 38,000 cycles.",
-      "answer": "$$\n\\begin{aligned}\n&\\text { The reliability at } 38,000 \\text { cycles }\\\\\n&\\begin{aligned}\nR(38000) & =P\\left(z>\\frac{38000-40000}{2000}\\right) \\\\\n& =P(z>-1.0) \\\\\n& =\\Phi(1.0)=0.8413\n\\end{aligned}\n\\end{aligned}\n$$\nThe resulting reliability plot is shown in Fig. 2.3.",
-      "method": "概率空间相关（如状态数）"
+      "answer": "$$\n\\begin{aligned}\n&\\ \\text { The reliability at } 38,000 \\ \\text { cycles }\\\\\n&\\begin{aligned}\nR(38000) & =P\\left(z>\\frac{38000-40000}{2000}\\right) \\\\\n& =P(z>-1.0) \\\\\n& =\\Phi(1.0)=0.8413\n\\end{aligned}\n\\end{aligned}\n$$\nThe resulting reliability plot is shown in Fig. 2.3."
     }
   ],
   "id": "36",
@@ -18,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "97-98"
+  },
+  "token_usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 447,
+    "total_tokens": 636,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

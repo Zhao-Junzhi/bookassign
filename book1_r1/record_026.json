@@ -1,20 +1,45 @@
 {
-  "background": "Each of the following batches of numbers has a mean of 100. The task is to determine which batch has the most variability without performing arithmetic calculations.",
+  "background": "Each of the following batches of numbers has a mean of 100. Determine which batch has the most variability. (Arithmetic not required.)",
   "task": [
     {
-      "query": "Which batch (A, B, or C) has the most variability?",
-      "answer": "Batch A has the greatest variability.",
-      "method": "分散程度测度"
+      "query": "Which batch has the most variability among Batch A: 0, 50, 100, 150, 200?",
+      "answer": "Batch A has the greatest variability."
+    },
+    {
+      "query": "Which batch has the most variability among Batch B: 50, 75, 100, 125, 150?",
+      "answer": "Batch A has the greatest variability."
+    },
+    {
+      "query": "Which batch has the most variability among Batch C: 75, 88, 100, 113, 125?",
+      "answer": "Batch A has the greatest variability."
     }
   ],
   "id": "026",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "4.7",
     "image": "",
     "caption": "Spread.",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
     "page": "81-82"
+  },
+  "token_usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 413,
+    "total_tokens": 608,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

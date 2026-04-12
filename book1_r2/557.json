@@ -1,158 +1,20 @@
 {
-  "case_id": "book1_r1\\record_443.json",
+  "case_id": "book1_r1\\record_371.json",
   "input": {
-    "background": "Chapter 17 considered results from the estrogen trial of the Women's Health Initiative study. The incidence of the combined morbidity index in the treatment group was 751 per 8506 (8.83%). The incidence in the control group was 623 of 8102 (7.69%). The test of H0: p1=p2 yielded z_stat=2.66, P=0.0078 (two sided). We propose to test the same information with a chi-square statistic.",
-    "data": "Observed frequencies\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.12 Observed and expected frequencies for the estrogen trial illustrative example.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multirow{4}{*}{\\begin{tabular}{l}\nTreatment group \\\nControl group\n\\end{tabular}} & Cases & Noncases & \\multirow[b]{4}{*}{\\begin{tabular}{l}\n8506 \\\n8102 \\\n16,608\n\\end{tabular}} \\\n\\hline & 751 & 7755 & \\\n\\hline & 623 & 7479 & \\\n\\hline & 1374 & 15,234 & \\\n\\hline \\multicolumn{4}{|l|}{Expected frequencies} \\\n\\hline & Cases & Noncases & Total \\\n\\hline Treatment group & 703.712 & 7802.288 & 8506 \\\n\\hline Control group & 670.288 & 7431.712 & 8102 \\\n\\hline Total & 1374 & 15,234 & 16,608 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Test statistic. Table 18.12 lists observed and expected frequencies for the problem. X_stat^2=sum[(Oi-Ei)^2/Ei] = (751-703.712)^2/703.712 + (7755-7802.288)^2/7802.288 + (623-670.288)^2/670.288 + (7479-7431.712)^2/7431.712 = 3.178 + 0.287 + 3.336 + 0.301 = 7.101. This chi-square statistic has df=(R-1)*(C-1)=(2-1)*(2-1)=1. Notice that sqrt(X_stat^2)=sqrt(7.101)=2.66=z_stat."
+    "background": "A study of n=16 retains H0: μ=170 at an α of 0.05 (two sided). Based on prior study, the standard deviation of this variable is 40.",
+    "data": "",
+    "question": "What was the power of the test to identify a population mean of 190?"
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "X_stat^2=sum[(Oi-Ei)^2/Ei] = (751-703.712)^2/703.712 + (7755-7802.288)^2/7802.288 + (623-670.288)^2/670.288 + (7479-7431.712)^2/7431.712 = 3.178 + 0.287 + 3.336 + 0.301 = 7.101. This chi-square statistic has df=(R-1)*(C-1)=(2-1)*(2-1)=1. Notice that sqrt(X_stat^2)=sqrt(7.101)=2.66=z_stat.",
-    "variable": {
-      "treatment_group_cases": {
-        "id": "treatment_group_cases",
-        "value": [
-          751
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of cases in the treatment group."
-      },
-      "treatment_group_noncases": {
-        "id": "treatment_group_noncases",
-        "value": [
-          7755
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of noncases in the treatment group."
-      },
-      "control_group_cases": {
-        "id": "control_group_cases",
-        "value": [
-          623
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of cases in the control group."
-      },
-      "control_group_noncases": {
-        "id": "control_group_noncases",
-        "value": [
-          7479
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of noncases in the control group."
-      },
-      "expected_treatment_group_cases": {
-        "id": "expected_treatment_group_cases",
-        "value": [
-          703.712
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Expected number of cases in the treatment group under the null hypothesis."
-      },
-      "expected_treatment_group_noncases": {
-        "id": "expected_treatment_group_noncases",
-        "value": [
-          7802.288
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Expected number of noncases in the treatment group under the null hypothesis."
-      },
-      "expected_control_group_cases": {
-        "id": "expected_control_group_cases",
-        "value": [
-          670.288
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Expected number of cases in the control group under the null hypothesis."
-      },
-      "expected_control_group_noncases": {
-        "id": "expected_control_group_noncases",
-        "value": [
-          7431.712
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Expected number of noncases in the control group under the null hypothesis."
-      },
-      "total_cases": {
-        "id": "total_cases",
-        "value": [
-          1374
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of cases across both groups."
-      },
-      "total_noncases": {
-        "id": "total_noncases",
-        "value": [
-          15234
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of noncases across both groups."
-      },
-      "total_population": {
-        "id": "total_population",
-        "value": [
-          16608
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total population size across both groups."
-      },
-      "z_stat": {
-        "id": "z_stat",
-        "value": [
-          2.66
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Z-statistic value for the hypothesis test."
-      },
-      "p_value": {
-        "id": "p_value",
-        "value": [
-          0.0078
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "P-value for the hypothesis test."
-      },
-      "chi_square_statistic": {
-        "id": "chi_square_statistic",
-        "value": [
-          7.101
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Chi-square statistic calculated for the test."
-      },
-      "degrees_of_freedom": {
-        "id": "degrees_of_freedom",
-        "value": [
-          1
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Degrees of freedom for the chi-square test."
-      }
-    }
+    "answer": "1-β=Φ(-z_{1-α/2} + |μ0-μa|√n/σ) = Φ(-1.96 + |170-190|√16/40) = Φ(0.04) = 0.5160 [From Table B]. The test had about a 50/50 chance of rejecting the H0 under the stated conditions. This is low. Hypothesis tests should strive for at least 80% power."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "(Estrogen trial).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
-    "page": "429-430"
+    "caption": "Power of a z test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 Power and Sample Size",
+    "page": "189-189"
   },
   "sample_key": "557"
 }

@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "Find the reliability of the device.",
-      "answer": "The reliability of the device is\n\n$$\nR=\\left[1-\\left(1-p_1\\right)^m-m p_1\\left(1-p_1\\right)^{m-1}\\right]\\left[1-\\left(1-p_2\\right)^n-n p_2\\left(1-p_2\\right)^{n-1}\\right]\n$$",
-      "method": "事件发生概率及独立性"
+      "answer": "The reliability of the device is $$R=\\left[1-\\left(1-p_1\\right)^m-m p_1\\left(1-p_1\\right)^{m-1}\\right]\\left[1-\\left(1-p_2\\right)^n-n p_2\\left(1-p_2\\right)^{n-1}\\right]$$"
     },
     {
-      "query": "Calculate (a) when $m=5, p_1=0.9, n=7, p_2=0.8$.",
-      "answer": "$\\mathrm{R}=0.9992$.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the reliability of the device when $m=5, p_1=0.9, n=7, p_2=0.8$.",
+      "answer": "$\\mathrm{R}=0.9992$"
     }
   ],
   "id": "136",
@@ -23,5 +21,23 @@
     "section": "4.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "299-299"
+  },
+  "token_usage": {
+    "completion_tokens": 279,
+    "prompt_tokens": 540,
+    "total_tokens": 819,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

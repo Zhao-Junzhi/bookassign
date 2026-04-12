@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_447.json",
+  "case_id": "book1_r1\\record_374.json",
   "input": {
-    "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
+    "background": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population. These samples derive $\\bar{x}_1=183, \\bar{x}_2=180$, and $\\bar{x}_3=184$.",
     "data": "",
-    "question": "Calculate the 90% confidence interval for the odds ratio (OR)."
+    "question": "Calculate the $95 \\%$ confidence interval for $\\mu$ based on the second sample with $\\bar{x}_2=180$."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "The \\(90\\%\\) confidence interval for the \\(OR=e^{1.7299 \\pm(1.645)(0.1752)}\\) \\(e^{1.7299} \\pm 0.2882=e^{1.4417,2.0181}=4.23\\) to 7.52.",
-    "variable": {
-      "odds_ratio": {
-        "id": "odds_ratio",
-        "value": "Not explicitly provided, but represents the odds ratio (OR) for alcohol and esophageal cancer case-control data.",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The odds ratio (OR) quantifies the association between alcohol consumption and esophageal cancer in the case-control study."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 90,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The confidence level specifies the probability that the confidence interval will contain the true odds ratio."
-      }
-    }
+    "answer": "For sample 2, $S E_{\\bar{x}}=\\frac{40 \\text{ pounds }}{\\sqrt{712}}=1.5$ pounds and $m \\approx 2 \\cdot S E=2 \\cdot 1.5 =3$ pounds. The confidence interval is $\\bar{x}_2 \\pm m=180 \\pm 3=177$ to 183 (pounds)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.5 CASE-CONTROL SAMPLES",
-    "page": "439-439"
+    "caption": " 95 % confidence intervals for $\\mu, \\sigma$ known (Body weight, 20-29-year-old males).",
+    "chapter": "BASICS OF CONFIDENCE INTERVALS",
+    "section": "10.2 Confidence Intervals for $\\\\mu$ When $\\\\sigma$ Is Known",
+    "page": "200-200"
   },
   "sample_key": "565"
 }

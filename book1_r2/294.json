@@ -1,53 +1,20 @@
 {
-  "case_id": "book1_r1\\record_154.json",
+  "case_id": "book1_r1\\record_119.json",
   "input": {
-    "background": "The case-control study on esophageal cancer and alcohol use also collected data on tobacco use as a potential risk factor, with tobacco use dichotomized at 20 grams/day.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.30 Data for Exercise 18.27.}\n\\begin{tabular}{l|r|c}\n\\cline { 2 - 3 } Tobacco & \\multicolumn{1}{c}{ Cases } & Noncases \\\\\n$20+\\mathrm{g} /$ day & 64 & 150 \\\\\n$0-19 \\mathrm{~g} /$ day & 136 & 625 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Tuyns, A. J., Pequignot, G., \\& Jensen, O. M. (1977). [Esophageal cancer in Ille-et-Vilaine in relation to levels of alcohol and tobacco consumption. ]. Bulletin du Cancer, 64(1), 45-60. Data set are stored online in the file BD1.* as variables TOB2 and CASE.",
-    "question": "Calculate the odds ratio and 95% confidence interval for these data."
+    "background": "The relation between FEV and SEX in the illustrative data set. Download the illustrative data set (fev.*) used in this chapter. See Table 15.1 for a codebook of variables.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\\n\\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\\n\\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\\n\\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\\n\\hline SEX & $0=$ female; $1=$ male & \\multicolumn{4}{|c|}{48.6\\% female; 51.4\\% male; none missing} \\\n\\hline SMOKE & $0=\\mathrm{no} ; 1=$ yes & \\multicolumn{4}{|c|}{$90.1 \\% \\mathrm{no;} 9.9 \\%$ yes; none missing} \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Examine the relationship between FEV and SEX."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "Odds ratio = 1.96, 95% confidence for the OR = (1.39 to 2.77)",
-    "variable": {
-      "Tobacco_use": {
-        "id": "Tobacco_use",
-        "value": [
-          "20+ g/day",
-          "0-19 g/day"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Categorical variable indicating the level of tobacco use, dichotomized at 20 grams/day."
-      },
-      "Cases": {
-        "id": "Cases",
-        "value": [
-          64,
-          136
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Numerical variable representing the number of cases of esophageal cancer for each level of tobacco use."
-      },
-      "Noncases": {
-        "id": "Noncases",
-        "value": [
-          150,
-          625
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Numerical variable representing the number of non-cases (controls) for each level of tobacco use."
-      }
-    }
+    "answer": ""
   },
   "meta_info": {
-    "index": "18.27",
+    "index": "15.1",
     "image": "",
-    "caption": "Esophageal cancer and tobacco use.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.6 MATCHED PAIRS",
-    "page": "459-460"
+    "caption": "The relation between FEV and SEX in the illustrative data set.",
+    "chapter": "MULTIPLE LINEAR REGRESSION",
+    "section": "“15.6 EXAMINING MULTIPLE REGRESSION CONDITIONS",
+    "page": "348-348"
   },
   "sample_key": "294"
 }

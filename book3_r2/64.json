@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\134.json",
+  "case_id": "book3_r1\\125.json",
   "input": {
-    "background": "System XYZ consists of five water pumps for cooling a reactor. We assume that the pumps function independently and the reliability of each pump, over a period of 100,000 h, is 0.995. The system XYZ functions if at least four pumps must function.",
+    "background": "Suppose that my waiting time for a train is uniformly distributed on the interval [0, θ], and that the results x_1, x_2, ..., x_n of a random sample from this distribution have been observed. My waiting times are 4.5, 5.3, 1.2, 7.4, 3.6, 4.8, and 2.9.",
     "data": null,
-    "question": "What is the reliability of the system?"
+    "question": "Calculate the estimate of θ using the method of moments."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The system reliability is 0.99975"
+    "answer": "8.486"
   },
   "meta_info": {
-    "index": "4.4",
+    "index": "3.25",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 4： System Reliability Modeling",
-    "section": "4.16 Problems",
+    "chapter": "Chapter 3: Statistical Inference",
+    "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "299-299"
+    "page": "220-220"
   },
   "sample_key": "64"
 }

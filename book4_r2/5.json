@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\001.json",
   "input": {
-    "background": "Identify the data types represented by these variables.",
+    "background": "Identify the data types represented by various variables in a given table.",
     "data": null,
-    "question": "Footpath construction (concrete, gravel, none)."
+    "question": "What is the data type of the variable 'Footpath construction (concrete, gravel, none)'?"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Nominal."
+    "answer": "Nominal"
   },
   "meta_info": {
     "index": "1.1",

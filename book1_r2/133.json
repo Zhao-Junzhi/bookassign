@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_071.json",
+  "case_id": "book1_r1\\record_062.json",
   "input": {
-    "background": "A particular random sample of $n$ observations can be used to calculate a sample proportion. The count of successes in the sample will vary according to a probability distribution. When the sample is large, the number of successes will vary according to a Normal distribution. At the same time, the sampling distribution of proportion $\\hat{p}$ in large samples will be Normally distributed.",
+    "background": "Wechsler Adult Intelligence Scores (WAISs) are calibrated to vary according to a Normal distribution with μ=100 and σ=15.",
     "data": "",
-    "question": "The count of successes in the sample will vary according to a (a) $\\_\\_\\_\\_$ probability distribution with parameters $n$ and (b) $\\_\\_\\_\\_$. What is the probability distribution and its parameters?"
+    "question": "What Wechsler scores cover the middle 50% of the population? In other words, identify the 25th percentile and 75th percentile of the population."
   },
   "output": {
-    "method": "数据分布建模",
-    "answer": "(a) binomial (b) $p$",
-    "variable": {
-      "n": {
-        "id": "n",
-        "value": "Not specified in the problem",
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size, representing the number of observations in the sample."
-      },
-      "count_of_successes": {
-        "id": "count_of_successes",
-        "value": "Not specified in the problem",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of successes in the sample, which varies according to a probability distribution."
-      },
-      "p": {
-        "id": "p",
-        "value": "Not specified in the problem",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of success in a single trial."
-      }
-    }
+    "answer": "1. State: X ~ N(100,15). We want to find the range for the middle 50 percent of values, that is, from the 25th percentile to the 75th percentile.\n2. Table B: The z scores for these percentiles are z_{.25}=-0.67 and z_{.75}=0.67\n3. Sketch: not shown\n4. Unstandardize using the formula x=μ+(z_p)(σ)\n\nThe 25th percentile is x=100+(-0.67)(15)=100-10.05=89.95 ≈ 90.\nThe 75th percentile is x=100+(0.67)(15)=100+10.05 ≈ 110.\nThe range 90 to 110 captures the middle 50 percent of values."
   },
   "meta_info": {
-    "index": "8.13",
+    "index": "7.9",
     "image": "",
-    "caption": "Fill in the blanks.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
-    "page": "173-173"
+    "caption": "Middle 50 percent of WAISs.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.3 FINDING VALUES THAT CORRESPOND",
+    "page": "147-147"
   },
   "sample_key": "133"
 }

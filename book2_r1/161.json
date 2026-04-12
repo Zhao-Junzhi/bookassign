@@ -1,0 +1,53 @@
+{
+  "background": "In all-electric homes, the amount of electricity expended is of interest to consumers, builders, and groups involved with energy conservation. Suppose we wish to investigate the monthly electrical usage, y, in all-electric homes and its relationship to the size, x, of the home. Moreover, suppose we think that monthly electrical usage in all-electric homes is related to the size of the home by the quadratic model y=β0+β1x+β2x^2+ε. To fit the model, the values of y and x are collected for 15 homes during a particular month. The data are shown in Table 12.2.",
+  "task": [
+    {
+      "query": "Construct a scatterplot for the data. Is there evidence to support the use of a quadratic model?",
+      "answer": "A Minitab scatterplot for the data in Table 12.2 is shown in Figure 12.13. The figure illustrates that electrical usage appears to increase in a curvilinear manner with the size of the home. This provides some support for the inclusion of the quadratic term x^2 in the model."
+    },
+    {
+      "query": "Use the method of least squares to estimate the unknown parameters β0, β1, and β2 in the quadratic model.",
+      "answer": "We used Excel to fit the model to the data in Table 12.2. Part of the Excel regression output is displayed in Figure 12.14. The least squares estimates of the β parameters (highlighted) are β̂0=-806.7, β̂1=1.9616, and β̂2=-.00034. Therefore, the equation that minimizes the SSE for the data is ŷ=-806.7+1.9616x-.00034x^2."
+    },
+    {
+      "query": "Graph the prediction equation and assess how well the model fits the data, both visually and numerically.",
+      "answer": "Figure 12.15 is a Minitab graph of the least squares prediction equation. Note that the graph provides a good fit to the data of Table 12.2. A numerical measure of fit is obtained with the adjusted coefficient of determination, R_a^2. This value (highlighted on Figure 12.14) is R_a^2=.973. This implies that about 97% of the sample variation in electrical usage (y) can be explained by the quadratic model (after adjusting for sample size and degrees of freedom)."
+    },
+    {
+      "query": "Interpret the β estimates.",
+      "answer": "The interpretation of the estimated coefficients in a quadratic model must be undertaken cautiously. First, the estimated y-intercept, β̂0, can be meaningfully interpreted only if the range of the independent variable includes zero—that is, if x=0 is included in the sampled range of x. Although β̂0=-806.7 seems to imply that the estimated electrical usage is negative when x=0, this zero point is not in the range of the sample (the lowest value of x is 1,290 square feet), and the value is nonsensical (a home with 0 square feet); thus the interpretation of β̂0 is not meaningful. The estimated coefficient of x is β̂1=1.9616, but in the presence of the quadratic term x^2, it no longer represents a slope. The estimated coefficient of the first-order term x will not, in general, have a meaningful interpretation in the quadratic model. The sign of the coefficient, β̂2=-.00034, of the quadratic term, x^2, is the indicator of whether the curve is concave downward (mound-shaped) or concave upward (bowl-shaped). A negative β̂2 implies downward concavity, as in this example (Figure 12.15), and a positive β̂2 implies upward concavity. Rather than interpreting the numerical value of β̂2 itself, we employ a graphical representation of the model, as in Figure 12.15, to describe the model. Note that Figure 12.15 implies that the estimated electrical usage is leveling off as the home sizes increase beyond 2,500 square feet. In fact, the convexity of the model would lead to decreasing usage estimates if we were to display the model out to 4,000 square feet and beyond (see Figure 12.16). However, model interpretations are not meaningful outside the range of the independent variable, which has a maximum value of 3,520 square feet in this example. Thus, although the model appears to support the hypothesis that the rate of increase per square foot decreases for home sizes near the high end of the sampled values, the conclusion that usage will actually begin to decrease for very large homes would be a misuse of the model because no homes of 3,600 square feet or more were included in the sample."
+    },
+    {
+      "query": "Is the overall model useful (at α=.01) for predicting electrical usage y?",
+      "answer": "To test whether the quadratic model is statistically useful, we conduct the global F-test: H0: β1=β2=0, Ha: At least one of the above coefficients is nonzero. From the Excel printout, Figure 12.14, the test statistic (highlighted) is F=258.11 with an associated p-value of approximately 0. For any reasonable α, we reject H0 and conclude that the overall model is a useful predictor of electrical usage, y."
+    },
+    {
+      "query": "Is there sufficient evidence of downward curvature in the home size-electrical usage relationship? Test using α=.01.",
+      "answer": "Figure 12.15 shows concave downward curvature in the relationship between size of a home and electrical usage in the sample of 15 data points. To determine if this type of curvature exists in the population, we want to test H0: β2=0 (no curvature in the response curve), Ha: β2<0 (downward concavity exists in the response curve). The test statistic for testing β2, highlighted on the printout, is t=-10.599, and the associated two-tailed p-value is .0000002. Because this is a one-tailed test, the appropriate p-value is (.0000002) / 2=.0000001. Now α=.01 exceeds this p-value. Thus, there is very strong evidence of downward curvature in the population—that is, electrical usage increases more slowly per square foot for large homes than for small homes."
+    }
+  ],
+  "id": "161",
+  "data": "\\begin{tabular}{|l|l|}\n\\hline Table 12.2 & Home Size-Electrical Usage Data \\\\\n\\hline Size of Home, x (sq. ft.) & Monthly Usage, $y$ (kilowatt-hours) \\\\\n\\hline 1,290 & 1,182 \\\\\n\\hline 1,350 & 1,172 \\\\\n\\hline 1,470 & 1,264 \\\\\n\\hline 1,600 & 1,493 \\\\\n\\hline 1,710 & 1,571 \\\\\n\\hline 1,840 & 1,711 \\\\\n\\hline 1,980 & 1,804 \\\\\n\\hline 2,230 & 1,840 \\\\\n\\hline 2,400 & 1,986 \\\\\n\\hline 2,710 & 2,007 \\\\\n\\hline 2,930 & 1,984 \\\\\n\\hline 3,000 & 1,960 \\\\\n\\hline 3,210 & 2,001 \\\\\n\\hline 3,240 & 1,928 \\\\\n\\hline 3,520 & 1,945 \\\\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "12.7",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 1372,
+    "prompt_tokens": 1795,
+    "total_tokens": 3167,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

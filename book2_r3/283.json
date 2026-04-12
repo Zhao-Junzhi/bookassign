@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\116.json",
+  "input": {
+    "background": "A major car manufacturer wants to test a new engine to determine whether it meets new air pollution standards. The mean emission μ of all engines of this type must be less than 20 parts per million of carbon. Ten engines are manufactured for testing purposes, and the emission level of each is determined. The manufacturer is willing to risk a Type I error with probability α=0.01.",
+    "data": "\\begin{tabular}{|lllllllllll}\n\\hline Table 7.5 & \\multicolumn{9}{|l|}{ Emission Levels for Ten Engines } \\\\\n\\hline 15.6 & 16.2 & 22.5 & 20.5 & 16.4 & 19.4 & 19.6 & 17.9 & 12.7 & 14.9 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What is the test statistic formula and the rejection region for this test?"
+  },
+  "output": {
+    "answer": "Test statistic: t = (x̄ - 20) / (s / √n)\nRejection region: For α = 0.01 and df = n - 1 = 9, the one-tailed rejection region is t < -t₀.₀₁ = -2.821."
+  },
+  "meta_info": {
+    "index": "7.8",
+    "img_in_question": null
+  },
+  "sample_key": "283",
+  "token_usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 1245,
+    "total_tokens": 1299,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1194,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1245,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1194,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,15 +1,13 @@
 {
-  "background": "A study was carried out to see if patients whose skin did not respond to dinitrochlorobenzene (DNCB), a contact allergen, would show an equally negative response to croton oil, a skin irritant. The study also examined whether DNCB reactivity is related to the stage of skin cancer in these patients.",
+  "background": "A study was conducted to investigate if patients whose skin did not respond to dinitrochlorobenzene (DNCB), a contact allergen, would also show a negative response to croton oil, a skin irritant. The study involved 173 patients with skin cancer, and the results of simultaneous skin reaction tests to DNCB and croton oil were recorded. Additionally, the DNCB test results were compared for patients with different stages of skin cancer.",
   "task": [
     {
       "query": "The authors reported 'no correlation' between the two tests. Carry out an analysis appropriate to the clinical question posed.",
-      "answer": "It is essential to use an analysis appropriate for paired data. The proportions negative to croton oil and DNCB were 44 / 173 = 25.4% and 69 / 173 = 39.9% respectively. A 95% CI for the difference between these proportions, using the method given in section 10.4, is from 5% to 24%. The hypothesis test that the proportions of patients negative to the two skin tests are the same is evaluated by calculating z = (48 - 23) / sqrt(48 + 23) = 2.97, which, from Table B2, corresponds to P = 0.003. There is thus strong evidence that fewer of these patients show negative reactions to croton oil than DNCB.",
-      "method": "独立性检验"
+      "answer": "It is essential to use an analysis appropriate for paired data. The proportions negative to croton oil and DNCB were $44 / 173=25.4 \\\\%$ and $69 / 173=39.9 \\\\%$ respectively. A $95 \\\\%$ CI for the difference between these proportions, using the method given in section 10.4, is from $5 \\\\%$ to $24 \\\\%$. The hypothesis test that the proportions of patients negative to the two skin tests are the same is evaluated by calculating\n\n$$\nz=\\\\frac{48-23}{\\\\sqrt{48+23}}=2.97\n$$\n\nwhich, from Table B2, corresponds to $\\\\mathrm{P}=0.003$. There is thus strong evidence that fewer of these patients show negative reactions to croton oil than DNCB."
     },
     {
       "query": "Is DNCB reactivity related to stage of cancer in these patients?",
-      "answer": "The proportions of patients with a positive reaction to DNCB are 75%, 67% and 41% for stages I, II and III respectively. The Chi squared test for trend gives X_trend^2 = 14.04 on 1 degree of freedom (P = 0.0002). There is strong evidence therefore that DNCB reactivity is related to stage of cancer.",
-      "method": "独立性检验"
+      "answer": "The proportions of patients with a positive reaction to DNCB are $75 \\\\%, 67 \\\\%$ and $41 \\\\%$ for stages I, II and III respectively. The Chi squared test for trend gives $X_{\\\\\text {trend }}^2=14.04$ on 1 degree of freedom ( $\\\\mathrm{P}=0.0002$ ). There is strong evidence therefore that DNCB reactivity is related to stage of cancer."
     }
   ],
   "id": "031",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "272-272"
+  },
+  "token_usage": {
+    "completion_tokens": 470,
+    "prompt_tokens": 948,
+    "total_tokens": 1418,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,20 +1,32 @@
 {
-  "background": "In the 1954 poliomyelitis field trial mentioned in Exercise 2.4(c), subjects were randomly assigned to either the Salk polio vaccine group or a saline placebo group. When the trial was initially proposed, there was a suggestion that everyone who agreed to participate in the study be given the vaccine while those who refused to participate serve as the control group. Fortunately, this did not occur and a placebo control group was included in the study.",
-  "task": [
-    {
-      "query": "It was later revealed that",
-      "answer": "null",
-      "method": "实验设计"
-    }
-  ],
+  "background": "In the 1954 poliomyelitis field trial mentioned in Exercise 2.4(c), subjects were randomly assigned to either the Salk polio vaccine group or a saline placebo group. When the trial was initially proposed, there was a suggestion that everyone who agreed to participate in the study be given the vaccine while those who refused to participate serve as the control group. Fortunately, this did not occur and a placebo control group was included in the study. It was later revealed that",
+  "task": [],
   "id": "309",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Poliomyelitis trial.",
     "chapter": "TYPES OF STUDIES",
     "section": "2.2 COMPARATIVE STUDIES",
     "page": "29-29"
+  },
+  "token_usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 397,
+    "total_tokens": 581,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

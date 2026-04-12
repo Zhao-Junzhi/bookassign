@@ -3,23 +3,43 @@
   "task": [
     {
       "query": "Examine the relationship between FEV and SEX.",
-      "answer": "The relationship between FEV and SEX can be examined using statistical methods such as correlation analysis or regression models.",
-      "method": "离散型-连续型变量关系"
+      "answer": ""
     },
     {
-      "query": "Examine the relationship between FEV and SEX while adjusting for AGE. Did AGE confound the relationship?",
-      "answer": "Adjusting for AGE involves using methods like multiple regression analysis to see if AGE is a confounding variable in the relationship between FEV and SEX.",
-      "method": "回归系数显著性与方向解读"
+      "query": "Examine the relationship between FEV and SEX while adjusting for AGE.",
+      "answer": ""
+    },
+    {
+      "query": "Did AGE confound the relationship between FEV and SEX?",
+      "answer": ""
     }
   ],
   "id": "119",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 15.1 Summary statistics from illustrative data set, $n=654$.}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Variable & Description & Minimum & Maximum & Mean & Std Deviation \\\n\\hline AGE & years & 3 & 19 & 9.93 & 2.954 \\\n\\hline FEV & forced expiratory volume (L/sec) & 0.7910 & 5.7930 & 2.6368 & 0.86706 \\\n\\hline HEIGHT & height in inches & 46.00 & 74.00 & 61.14 & 5.704 \\\n\\hline SEX & $0=$ female; $1=$ male & \\multicolumn{4}{|c|}{48.6\\% female; 51.4\\% male; none missing} \\\n\\hline SMOKE & $0=\\mathrm{no} ; 1=$ yes & \\multicolumn{4}{|c|}{$90.1 \\% \\mathrm{no;} 9.9 \\%$ yes; none missing} \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "15.1",
     "image": "",
     "caption": "The relation between FEV and SEX in the illustrative data set.",
     "chapter": "MULTIPLE LINEAR REGRESSION",
     "section": "“15.6 EXAMINING MULTIPLE REGRESSION CONDITIONS",
     "page": "348-348"
+  },
+  "token_usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 369,
+    "total_tokens": 604,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

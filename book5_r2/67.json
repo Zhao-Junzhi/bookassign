@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\030.json",
+  "case_id": "book5_r1\\024.json",
   "input": {
-    "background": "Compare the SI values in the two groups of patients shown in Exercise 3.1.",
-    "data": null,
-    "question": "What alternative approach could be used to compare the SI values in the two groups of patients?"
+    "background": "The table below shows concentrations of antibody to Type III Group B Streptococcus (GBS) in 20 volunteers before and after immunization (Baker et al., 1980).",
+    "data": "\\begin{tabular}{|l|l|l|}\n\\hline  & \\multicolumn{2}{|c|}{Antibodyconcentration to Type III GBS} \\\\\n\\hline & Before immunization & 4 weeks after immunization \\\\\n\\hline 1 & 0.4 & 0.4 \\\\\n\\hline 2 & 0.4 & 0.5 \\\\\n\\hline 3 & 0.4 & 0.5 \\\\\n\\hline 4 & 0.4 & 0.9 \\\\\n\\hline 5 & 0.5 & 0.5 \\\\\n\\hline 6 & 0.5 & 0.5 \\\\\n\\hline 7 & 0.5 & 0.5 \\\\\n\\hline 8 & 0.5 & 0.5 \\\\\n\\hline 9 & 0.5 & 0.5 \\\\\n\\hline\n\\end{tabular}\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{cont'd}\n\\begin{tabular}{|l|l|l|}\n\\hline  & \\multicolumn{2}{|l|}{Antibodyconcentration to Type III GBS} \\\\\n\\hline & Before immunization & 4 weeks after immunization \\\\\n\\hline 10 & 0.6 & 0.6 \\\\\n\\hline 11 & 0.6 & 12.2 \\\\\n\\hline 12 & 0.7 & 1.1 \\\\\n\\hline 13 & 0.7 & 1.2 \\\\\n\\hline 14 & 0.8 & 0.8 \\\\\n\\hline 15 & 0.9 & 1.2 \\\\\n\\hline 16 & 0.9 & 1.9 \\\\\n\\hline 17 & 1.0 & 0.9 \\\\\n\\hline 18 & 1.0 & 2.0 \\\\\n\\hline 19 & 1.6 & 8.1 \\\\\n\\hline 20 & 2.0 & 3.7 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "The comparison of the antibody levels was summarized in the report of this study as 't=1.8; P>0.05'. Comment on this result."
   },
   "output": {
-    "method": "独立性检验",
-    "answer": "An alternative, but less satisfactory, approach would be to compare the proportions above a given cut-off using methods described in the next chapter."
+    "answer": "The paired t test gives t=1.85, P=0.08. However, the test assumes that the differences have a reasonably Normal distribution, which is clearly not the case here."
   },
   "meta_info": {
-    "index": "9.8",
+    "index": "9.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Comparing groups – continuous data",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "228-228"
+    "page": "224-225"
   },
   "sample_key": "67"
 }

@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\045.json",
+  "input": {
+    "background": "Hospital records show that 12% of all patients are admitted for surgical treatment, 16% are admitted for obstetrics, and 2% receive both obstetrics and surgical treatment. A new patient is admitted to the hospital, and the task is to determine the probability that the patient will be admitted either for surgery, obstetrics, or both.",
+    "data": null,
+    "question": "Define the events A and B based on the given information and state their probabilities."
+  },
+  "output": {
+    "answer": "Consider the following events: A: {A patient admitted to the hospital receives surgical treatment.} B: {A patient admitted to the hospital receives obstetrics treatment.} Then, from the given information, $$ P(A) = .12 $$ $$ P(B) = .16 $$"
+  },
+  "meta_info": {
+    "index": "3.12",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Additive Rule-Hospital Admission Study",
+    "chapter": "Probability",
+    "section": "3.4 The Additive Rule and Mutually Exclusive Events",
+    "book": "Statistics for Business and Economics",
+    "page": "98-99"
+  },
+  "sample_key": "105"
+}

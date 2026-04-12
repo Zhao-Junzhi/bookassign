@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\092.json",
+  "input": {
+    "background": "Suppose we have selected a random sample of n=36 observations from a population with mean equal to 80 and standard deviation equal to 6. It is known that the population is not extremely skewed.",
+    "data": null,
+    "question": "Find the probability that x̄ will be larger than 82."
+  },
+  "output": {
+    "answer": "The probability that x̄ will exceed 82 is equal to the darker shaded area in Figure 5.12. To find this area, we need to find the z-value corresponding to x̄=82. Recall that the standard normal random variable z is the difference between any normally distributed random variable and its mean, expressed in units of its standard deviation. Because x̄ is approximately a normally distributed random variable with mean μx̄=μ and σx̄=σ/√n, it follows that the standard normal z-value corresponding to the sample mean, x̄, is z=(Normal random variable - Mean)/(Standard deviation)=(x̄-μx̄)/σx̄. Therefore, for x̄=82, we have z=(x̄-μx̄)/σx̄=(82-80)/1=2. The area A in Figure 5.12 corresponding to z=2 is given in the table of areas under the normal curve (see Table II in Appendix D: Tables) as 0.4772. Therefore, the tail area corresponding to the probability that x̄ exceeds 82 is P(x̄>82)=P(z>2)=0.5-0.4772=0.0228."
+  },
+  "meta_info": {
+    "index": "5.7",
+    "img_in_question": null
+  },
+  "sample_key": "224"
+}

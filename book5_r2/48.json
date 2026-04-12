@@ -1,23 +1,16 @@
 {
-  "case_id": "book5_r1\\023.json",
+  "case_id": "book5_r1\\016.json",
   "input": {
-    "background": "A study was conducted on 26 astronauts from the first eight space shuttle flights. On a voluntary basis, 17 astronauts consumed large quantities of salt and fluid prior to landing as a countermeasure to space deconditioning, while 9 did not. The study compared supine heart rates (beats/minute) before and after flights in the space shuttle.",
-    "data": null,
-    "question": "Compare the pre- and post-flight measurements in the countermeasure group using both a parametric and a non-parametric method. Which analysis is preferable?"
+    "background": "Use the method described in section 7.5.4 to construct a Normal plot of the $\\log _{\\mathrm{e}} \\mathrm{T}_4$ cell counts for 20 Hodgkin's disease patients given in the first column of Table 7.1.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 7.1 Numbers of $\\mathrm{T}_4$ cells $/ \\mathrm{mm}^3$ in blood samples from 20 patients in remission from Hodgkin's disease and 20 patients in remission from disseminated malignancies (nonHodgkin's) (Shapiro et al., 1986)}\n\\begin{tabular}{|l|l|l|}\n\\hline & Hodgkin's & non-Hodgkin's \\\\\n\\hline & 171 & 116 \\\\\n\\hline & 257 & 151 \\\\\n\\hline & 288 & 192 \\\\\n\\hline & 295 & 208 \\\\\n\\hline & 396 & 315 \\\\\n\\hline & 397 & 375 \\\\\n\\hline & 431 & 375 \\\\\n\\hline & 435 & 377 \\\\\n\\hline & 554 & 410 \\\\\n\\hline & 568 & 426 \\\\\n\\hline & 795 & 440 \\\\\n\\hline & 902 & 503 \\\\\n\\hline & 958 & 675 \\\\\n\\hline & 1004 & 688 \\\\\n\\hline & 1104 & 700 \\\\\n\\hline & 1212 & 736 \\\\\n\\hline & 1283 & 752 \\\\\n\\hline & 1378 & 771 \\\\\n\\hline & 1621 & 979 \\\\\n\\hline & 2415 & 1252 \\\\\n\\hline Mean & 823.2 & 522.1 \\\\\n\\hline SD & 566.4 & 293.0 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Perform the calculations for $\\log _{\\mathrm{e}} \\mathrm{T}_4$, P, and Normal scores based on the given $\\mathrm{T}_4$ cell counts."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "If the changes have a reasonably Normal distribution, then a CI could be obtained using the $t$ distribution as described in sections 9.4.1 and 9.5.1, and a paired $t$ test could be used (or, equivalently, a one sample $t$ test of the differences). A Wilcoxon test for matched data could be used if the differences had a reasonably symmetric but non-Normal distribution.\n\nA Normal plot of the changes is quite straight, and the $W^{\\prime}$ test gives $W^{\\prime}=0.98, \\mathrm{P}=0.96$, so either of the above methods is appropriate. Because the changes have a nearly Normal distribution they will give very similar results. Using the parametric approach, the $95 \\%$ confidence interval for the mean change in supine heart rate in the countermeasure group is 1.38 to 12.38 beats $/ \\mathrm{min}$. The paired $t$ test gives $t=2.65(\\mathrm{P}=0.017)$. The data thus appear to show that the countermeasure has reduced heart rate, but the correct approach is to compare this group with a group who did not adopt the countermeasure, as discussed below."
+    "answer": "The following table shows the calculations:\n\\begin{tabular}{|l|l|l|l|}\n\\hline $\\mathrm{T}_4$ & $\\log _c \\mathrm{~T}_4$ & P & Normal score \\\\\n\\hline 171 & 5.14 & 0.0309 & -1.868 \\\\\n\\hline 257 & 5.55 & 0.0802 & -1.403 \\\\\n\\hline 288 & 5.66 & 0.1296 & -1.128 \\\\\n\\hline 295 & 5.69 & 0.1790 & -0.919 \\\\\n\\hline 396 & 5.98 & 0.2284 & -0.744 \\\\\n\\hline 397 & 5.98 & 0.2778 & -0.589 \\\\\n\\hline 431 & 6.07 & 0.3272 & -0.448 \\\\\n\\hline 435 & 6.08 & 0.3765 & -0.315 \\\\\n\\hline 554 & 6.32 & 0.4259 & -0.187 \\\\\n\\hline 568 & 6.34 & 0.4753 & -0.062 \\\\\n\\hline 795 & 6.68 & 0.5247 & 0.062 \\\\\n\\hline 902 & 6.80 & 0.5741 & 0.187 \\\\\n\\hline 958 & 6.86 & 0.6235 & 0.315 \\\\\n\\hline 1004 & 6.91 & 0.6728 & 0.448 \\\\\n\\hline 1104 & 7.01 & 0.7222 & 0.589 \\\\\n\\hline 1212 & 7.10 & 0.7716 & 0.744 \\\\\n\\hline 1283 & 7.16 & 0.8210 & 0.919 \\\\\n\\hline 1378 & 7.23 & 0.8704 & 1.128 \\\\\n\\hline 1621 & 7.39 & 0.9198 & 1.403 \\\\\n\\hline 2415 & 7.79 & 0.9691 & 1.868 \\\\\n\\hline\n\\end{tabular}"
   },
   "meta_info": {
-    "index": "9.1",
-    "img_in_question": null,
-    "img_in_answer": null,
-    "caption": null,
-    "chapter": "Comparing groups – continuous data",
-    "section": "EXERCISES",
-    "book": "Practical statistics for medical research",
-    "page": "223-224"
+    "index": "7.2",
+    "img_in_question": null
   },
   "sample_key": "48"
 }

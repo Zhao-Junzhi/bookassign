@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\001.json",
   "input": {
-    "background": "Identify the data types represented by these variables.",
+    "background": "Identify the data types represented by various variables in a given table.",
     "data": null,
-    "question": "Ratio of a tree's breadth to its height."
+    "question": "What is the data type of the variable 'Ratio of a tree's breadth to its height'?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Interval/ratio."
+    "answer": "Interval/ratio"
   },
   "meta_info": {
     "index": "1.1",

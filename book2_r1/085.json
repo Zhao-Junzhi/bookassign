@@ -1,0 +1,41 @@
+{
+  "background": "A manufacturer of microwave ovens is trying to determine the length of warranty period it should attach to its magnetron tube, the most critical component in the oven. Preliminary testing has shown that the length of life (in years), $x$, of a magnetron tube has an exponential probability distribution with $\\theta=6.25$.",
+  "task": [
+    {
+      "query": "Find the mean and standard deviation of $x$.",
+      "answer": "Because $\\theta=\\mu=\\sigma$, both $\\mu$ and $\\sigma$ equal 6.25."
+    },
+    {
+      "query": "Suppose a warranty period of 5 years is attached to the magnetron tube. What fraction of tubes must the manufacturer plan to replace, assuming that the exponential model with $\\theta=6.25$ is correct?",
+      "answer": "To find the fraction of tubes that will have to be replaced before the 5-year warranty period expires, we need to find the area between 0 and 5 under the distribution. This area, $A$, is shown in Figure 4.46. To find the required probability, we recall the formula $$P(x>a)=e^{-a / \\theta}$$ Using this formula, we find that $$P(x>5)=e^{-a / \\theta}=e^{-5 / 6.25}=e^{-.80}=.449329$$ To find the area $A$, we use the complementary relationship: $$P(x \\leq 5)=1-P(x>5)=1-.449329=.550671$$ So approximately $55 \\%$ of the magnetron tubes will have to be replaced during the 5-year warranty period."
+    },
+    {
+      "query": "Find the probability that the length of life of a magnetron tube will fall within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$.",
+      "answer": "We would expect the probability that the life of a magnetron tube, $x$, falls within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ to be quite large. A graph of the exponential distribution showing the interval from $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ is given in Figure 4.47. Because the point $\\mu-2 \\sigma$ lies below $x=0$, we need to find only the area between $x=0$ and $x =\\mu+2 \\sigma=6.25+2(6.25)=18.75$. This area, $P$, which is shaded in Figure 4.47, is $$P=1-P(x>18.75)=1-e^{-18.75 / \\theta}=1-e^{-18.75 / 6.25}=1-e^{-3}$$ Using a calculator, we find that $e^{-3}=.049787$. Therefore, the probability that the life $x$ of a magnetron tube will fall within the interval $\\mu-2 \\sigma$ to $\\mu+2 \\sigma$ is $$P=1-e^{-3}=1-.049787=.950213$$"
+    }
+  ],
+  "id": "085",
+  "data": null,
+  "meta_info": {
+    "index": "4.29",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 680,
+    "prompt_tokens": 935,
+    "total_tokens": 1615,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

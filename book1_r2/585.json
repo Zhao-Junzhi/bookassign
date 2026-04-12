@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_507.json",
+  "case_id": "book1_r1\\record_380.json",
   "input": {
-    "background": "The number of asthmatics in the asthma survey discussed in the prior illustration varies according to a binomial distribution with n=20 and p=0.04.",
+    "background": "Let us return to the birth weight illustrative data concerning 10 SIDS cases. We have established that \\(\\bar{x}=2890.5\\) grams and \\(s=720.0\\). Confidence intervals for \\(\\mu\\) at \\(90 \\%, 95 \\%\\), and \\(99 \\%\\) levels of confidence will be calculated.",
     "data": "",
-    "question": "What is the cumulative probability of observing two asthmatics in a sample? We established in the prior illustration box that Pr(X=0)=0.4420, Pr(X=1)=0.3683, and Pr(X=2)=0.1458."
+    "question": "Determine the degrees of freedom \\(df\\)."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Pr(X ≤ 2)=Pr(X=0)+Pr(X=1)+Pr(X=2)=0.4420+0.3683+0.1458=0.9561.",
-    "variable": {
-      "n": {
-        "id": "n",
-        "value": 20,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of trials in the binomial distribution."
-      },
-      "p": {
-        "id": "p",
-        "value": 0.04,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of success on each trial in the binomial distribution."
-      },
-      "Pr(X=0)": {
-        "id": "Pr(X=0)",
-        "value": 0.442,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The probability of observing zero asthmatics in the sample."
-      },
-      "Pr(X=1)": {
-        "id": "Pr(X=1)",
-        "value": 0.3683,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The probability of observing one asthmatic in the sample."
-      },
-      "Pr(X=2)": {
-        "id": "Pr(X=2)",
-        "value": 0.1458,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The probability of observing two asthmatics in the sample."
-      }
-    }
+    "answer": "\\(df=10-1=9\\)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Cumulative probability (Asthma survey).",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS ",
-    "section": "6.4 Probability Calculators",
-    "page": "119-120"
+    "caption": "Confidence intervals for $\\\\mu$ (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\\\mu$",
+    "page": "217-218"
   },
   "sample_key": "585"
 }

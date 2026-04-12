@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "Approximately $46 \\%$ of the cases were rated.",
-      "answer": "A slightly higher percentage of the treatment group experienced severe illness ( $14.6 \\%$ vs. $10.9 \\%$ ), suggesting that echinacea is ineffective in treating upper respiratory tract illness in children.",
-      "method": "实验设计"
+      "answer": "A slightly higher percentage of the treatment group experienced severe illness ( $14.6 \\%$ vs. $10.9 \\%$ ), suggesting that echinacea is ineffective in treating upper respiratory tract illness in children."
     }
   ],
   "id": "441",
   "data": "\n\\begin{table}[h!]\n\\centering\n\\caption{Efficacy of echinacea illustrative data. Parental assessments of the severity of illness.}\n\\begin{tabular}{|l|ccc|c|}\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(A) Cross-tabulated counts}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 153           & 128               & 48              & 329 \\\nPlacebo          & 170           & 157               & 40              & 367 \\\n\\hline\nTotal            & 323           & 285               & 88              & 696 \\\n\\hline\n\\multicolumn{5}{c}{} \\\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(B) Conditional distributions (row percents)}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 46.5          & 38.9              & 14.6            & 100.0 \\\nPlacebo          & 46.3          & 42.8              & 10.9            & 100.0 \\\n\\hline\nTotal            & 46.4          & 40.9              & 12.6            & 100.0 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Categorical response with more than two levels  (Efficacy of echinacea).",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
     "page": "417-418"
+  },
+  "token_usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 460,
+    "total_tokens": 674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

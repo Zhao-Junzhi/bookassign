@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_432.json",
+  "input": {
+    "background": "Determine the sample size required for conducting a two-sided test of H0: p1 = p2 with an equal number of subjects in each group. The test parameters are α = 0.05 (z_{1-(.05/2)} = 1.96), 1-β = 0.90 (z_{.90} = 1.282), p1 = 0.10, and p2 = 0.05. Additionally, consider the case where a continuity correction is incorporated into the test statistic.",
+    "data": "",
+    "question": "How many individuals should be studied if we want to incorporate a continuity correction into our test statistic?"
+  },
+  "output": {
+    "answer": "$$\n\\text { Solution: } \\begin{aligned}\nn^{\\prime} & =\\frac{n}{4}\\left(1+\\sqrt{1+\\frac{4}{n\\left|p_1-p_2\\right|}}\\right)^2 \\\n& =\\frac{581.26}{4}\\left(1+\\sqrt{1+\\frac{4}{581.26|0.10-0.05|}}\\right)^2 \\\n& =620.6\n\\end{aligned}\n$$\n\nTherefore, resolve to study 621 observations per group."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Sample-size requirement, equal sample sizes.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "396-397"
+  },
+  "sample_key": "724"
+}

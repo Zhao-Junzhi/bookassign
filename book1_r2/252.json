@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_128.json",
+  "case_id": "book1_r1\\record_106.json",
   "input": {
-    "background": "You are planning a study that wants to estimate a population proportion with 95% confidence.",
+    "background": "The mean survival time in the IDX-treated group was 116 days (SE1 = 5.6). The mean survival time in the control group was 88.5 (SE2 = 1.9). Test H0: μ1 = μ2.",
     "data": "",
-    "question": "How many individuals do you need to study to achieve a margin of error of no greater than 6%? A reasonable estimate for the population proportions is not available before the study, so assume p* = 0.50 to ensure adequate precision."
+    "question": "Discuss the significance level (optional)."
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "n=267",
-    "variable": {
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The confidence level for the estimation, indicating the probability that the confidence interval contains the true population proportion."
-      },
-      "margin_of_error": {
-        "id": "margin_of_error",
-        "value": 0.06,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The maximum acceptable difference between the sample proportion and the true population proportion."
-      },
-      "estimated_proportion": {
-        "id": "estimated_proportion",
-        "value": 0.5,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The assumed proportion of the population, used to ensure adequate precision in the absence of a prior estimate."
-      }
-    }
+    "answer": "The evidence against the null hypothesis is significant at α = 0.01."
   },
   "meta_info": {
-    "index": "16.19",
+    "index": "12.15",
     "image": "",
-    "caption": "Sample-size requirement.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.6 SAMPLE SIZE AND POWER",
-    "page": "371-371"
+    "caption": "Scrapie treatment, delay of death.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-256"
   },
   "sample_key": "252"
 }

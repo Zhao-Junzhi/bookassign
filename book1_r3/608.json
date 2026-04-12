@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_389.json",
+  "input": {
+    "background": "What is the probability a study with n=10 will detect a mean difference of 300 grams in birth weight in the SIDS population compared to the general population? Assume σ=720 and use a two-sided α-level of 0.05.",
+    "data": "",
+    "question": "Calculate the power of the test using the given parameters: n=10, mean difference=300 grams, σ=720, and a two-sided α-level of 0.05."
+  },
+  "output": {
+    "answer": "$1-\\beta=\\Phi\\left(-z_1-\\frac{.05}{2}+\\frac{|\\Delta| \\sqrt{n}}{\\sigma}\\right)= \\Phi\\left(-1.96+\\frac{|300| \\sqrt{10}}{720}\\right)=\\Phi(-0.64)=0.2611$. The power of this test is about $26 \\%$."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of t test (SIDS).",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "228-228"
+  },
+  "sample_key": "608",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1130,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1129,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1130,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1129,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

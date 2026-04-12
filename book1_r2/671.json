@@ -1,0 +1,16 @@
+{
+  "case_id": "book1_r1\\record_411.json",
+  "input": {
+    "background": "We have established for the smoking and lung cancer illustrative example that n=11, b=0.02284, s_{Y|X}=8.349, and s_X=378.451. Let us calculate a 95% confidence interval for the slope parameter β.",
+    "data": "",
+    "question": "Compute the 95% confidence interval for the slope parameter β."
+  },
+  "output": {
+    "answer": "The 95% confidence interval for β = b ± t_{n-2,1-(α/2)} * SE_b = 0.02884 ± (2.262)(0.006976) = 0.02884 ± 0.01578 = (0.00706 to 0.03862)"
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "671"
+}

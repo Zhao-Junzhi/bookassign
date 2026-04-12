@@ -1,10 +1,9 @@
 {
-  "background": "A mechanical system time to failure is gamma distribution with $\\alpha=$ 3 and $1 / \\beta=120$.",
+  "background": "A mechanical system time to failure follows a gamma distribution with parameters $\\alpha=3$ and $1/\\beta=120$.",
   "task": [
     {
       "query": "What is the system reliability at 280 h?",
-      "answer": "$$\n\\begin{aligned}\n&\\text { The system reliability at } 280 \\mathrm{~h} \\text { is given by }\\\\\n&R(280)=e^{\\frac{-280}{120}} \\sum_{k=0}^2 \\frac{\\left(\\frac{280}{120}\\right)^2}{k!}=0.85119\n\\end{aligned}\n$$",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "$$\n\\begin{aligned}\n&\\text{The system reliability at } 280 \\mathrm{~h} \\text{ is given by }\\\\\n&R(280)=e^{\\frac{-280}{120}} \\sum_{k=0}^2 \\frac{\\left(\\frac{280}{120}\\right)^2}{k!}=0.85119\n\\end{aligned}\n$$"
     }
   ],
   "id": "42",
@@ -18,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "111-111"
+  },
+  "token_usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 418,
+    "total_tokens": 576,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

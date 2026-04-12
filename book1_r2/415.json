@@ -1,57 +1,20 @@
 {
-  "case_id": "book1_r1\\record_369.json",
+  "case_id": "book1_r1\\record_303.json",
   "input": {
-    "background": "For the illustrative example, we have established that when \\bar{x}=173 (pounds), P=0.27. This P-value indicates that 173 is not significantly different from 170 at conventional levels of \\alpha (retain H_0). In contrast, when \\bar{x}=185, P=0.0013, thus providing highly significant evidence against H_0 (reject H_0).",
+    "background": "Suppose a high school population has 600 students and you want to choose three students at random from this population.",
     "data": "",
-    "question": "When \\bar{x}=185, is there significant evidence against H_0?"
+    "question": "How do you assign unique identifiers to the students in the population?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "The P-value of 0.0013 provides highly significant evidence against H_0 (reject H_0).",
-    "variable": {
-      "x_bar": {
-        "id": "x_bar",
-        "value": [
-          173,
-          185
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample mean weight in pounds"
-      },
-      "P_value": {
-        "id": "P_value",
-        "value": [
-          0.27,
-          0.0013
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "P-value associated with the sample mean"
-      },
-      "alpha": {
-        "id": "alpha",
-        "value": "conventional levels",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Significance level for hypothesis testing"
-      },
-      "H_0": {
-        "id": "H_0",
-        "value": "170 pounds",
-        "class": "numerical",
-        "role": "NR",
-        "description": "Null hypothesis mean weight"
-      }
-    }
+    "answer": "Get a roster of the school. Assign each student a unique identifier 1 through 600."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Statistical significance (Body weight of 20-29-year-old  men).",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.4 SIGNIFICANCE LEVEL",
-    "page": "183-183"
+    "caption": "Selecting a simple random sample.",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "17-18"
   },
   "sample_key": "415"
 }

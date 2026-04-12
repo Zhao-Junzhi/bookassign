@@ -1,40 +1,53 @@
 {
-  "background": "Table 14.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is helmet use.",
+  "background": "Table 1.4.5 lists data from a cross-sectional survey of bicycle safety. The explanatory variable is a measure of neighborhood socioeconomic status (variable P_RFM). The response variable is provided.",
   "task": [
     {
-      "query": "Create a scatterplot to visualize the relationship between neighborhood socioeconomic status and helmet use.",
-      "answer": "A negative linear relationship is evident. There is a possible outlier in the upper righthand quadrant (observation 13, Los Arboles).",
-      "method": "连续型-连续型变量关系"
+      "query": "Create a scatterplot and describe the relationship between the variables.",
+      "answer": "Here is the scatterplot: A negative linear relationship is evident. There is a possible outlier in the upper righthand quadrant (observation 13, Los Arboles)."
     },
     {
-      "query": "Calculate the correlation coefficient between neighborhood socioeconomic status and helmet use.",
-      "answer": "r=-0.581(n=13)",
-      "method": "相关系数（一维）"
+      "query": "Calculate the correlation coefficient (r) including all observations.",
+      "answer": "r = -0.581 (n = 13)"
     },
     {
-      "query": "Discuss the impact of the potential outlier on the correlation.",
-      "answer": "This observation had high helmet use and low socio-economic status.",
-      "method": "分组异质性解读"
+      "query": "Discuss the potential outlier in plain terms.",
+      "answer": "This observation had high helmet use and low socio-economic status."
     },
     {
-      "query": "Recalculate the correlation coefficient after removing the outlier.",
-      "answer": "r=-0.849(n=12). The correlation went from moderate strength to strong after removing the outlier, indicating a much better fit of data points to the negative trend line.",
-      "method": "相关系数（一维）"
+      "query": "Recalculate the correlation coefficient (r) after removing the outlier. Discuss the change.",
+      "answer": "r = -0.849 (n = 12). The correlation went from moderate strength to strong after removing the outlier, indicating a much better fit of data points to the negative trend line."
     },
     {
-      "query": "Conduct a hypothesis test to evaluate the significance of the correlation.",
-      "answer": "A. Hypotheses. H0: ρ=0 versus H2: ρ ≠ 0\nB. Test statistic. t_stat=-5.08 with 10 df\nC. P-value. P=0.00048 (strong evidence against the null hypothesis)\nD. Significance level (optional). The evidence against H0 is significant at α=0.01 (reject H0).",
-      "method": "均值检验"
+      "query": "Conduct a hypothesis test for the correlation coefficient. State the hypotheses, test statistic, p-value, and conclusion.",
+      "answer": "A. Hypotheses: H0: ρ = 0 versus H2: ρ ≠ 0. B. Test statistic: t_stat = -5.08 with 10 df. C. P-value: P = 0.00048 (strong evidence against the null hypothesis). D. Significance level (optional): The evidence against H0 is significant at α = 0.01 (reject H0)."
     }
   ],
   "id": "114",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 14.5 Data for Exercise 14.1. Percent of school children receiving free or reduced-fee lunches at school (variable P_RFM) and percent of bicycle riders wearing a helmet (variable P_HELM). Data for this study was recorded by field observers in October of 1994.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline i & School & P_RFM & P_HELM \\\n\\hline 1 & Fair Oaks & 50 & 22.1 \\\n\\hline 2 & Strandwood & 11 & 35.9 \\\n\\hline 3 & Walnut Acres & 2 & 57.9 \\\n\\hline 4 & Discov. Bay & 19 & 22.2 \\\n\\hline 5 & Belshaw & 26 & 42.4 \\\n\\hline 6 & Kennedy & 73 & 5.8 \\\n\\hline 7 & Cassell & 81 & 3.6 \\\n\\hline 8 & Miner & 51 & 21.4 \\\n\\hline 9 & Sedgewick & 11 & 55.2 \\\n\\hline 10 & Sakamoto & 2 & 33.3 \\\n\\hline 11 & Toyon & 19 & 32.4 \\\n\\hline 12 & Lietz & 25 & 38.4 \\\n\\hline 13 & Los Arboles & 84 & 46.6 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
-  "meta info": {
+  "meta_info": {
     "index": "14.1",
     "image": "",
     "caption": "Bicycle helmet use.",
     "chapter": "CORRELATION AND REGRESSION",
     "section": "14.3 CORRELATION",
     "page": "308-310"
+  },
+  "token_usage": {
+    "completion_tokens": 489,
+    "prompt_tokens": 579,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

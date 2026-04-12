@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\060.json",
+  "input": {
+    "background": "The table below shows the systolic blood pressures of 16 patients before and after one week's treatment with captopril or placebo. The data are from a randomized controlled trial carried out on insulin-dependent diabetic patients with nephropathy (Hommel et al., 1986). The authors performed paired t-tests on the data in each group. They found a significant drop in blood pressure in the captopril group, but the change in the placebo group was not significant. They concluded that 'captopril represents a valuable new drug for treating hypertension in diabetics dependent on insulin with nephropathy.'",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & \\multicolumn{2}{|c|}{Captopril} & \\multicolumn{3}{|c|}{Placebo} \\\\\n\\hline & Baseline & After 1 week & & Baseline & After 1 week \\\\\n\\hline 1 & 147 & 137 & 1 & 133 & 139 \\\\\n\\hline 2 & 129 & 120 & 2 & 129 & 134 \\\\\n\\hline 3 & 158 & 141 & 3 & 152 & 136 \\\\\n\\hline 4 & 164 & 137 & 4 & 161 & 151 \\\\\n\\hline 5 & 134 & 140 & 5 & 154 & 147 \\\\\n\\hline 6 & 155 & 144 & 6 & 141 & 137 \\\\\n\\hline 7 & 151 & 134 & 7 & 156 & 149 \\\\\n\\hline 8 & 141 & 123 & & & \\\\\n\\hline 9 & 153 & 142 & & & \\\\\n\\hline\n\\end{tabular}",
+    "question": "What is wrong with their analysis, and their interpretation of the results?"
+  },
+  "output": {
+    "answer": "Paired t-tests for the two groups give t=4.23 (on 8 df; P=0.003) and t=1.58 (on 6 df; P=0.17). The highly significant changes in one group only may suggest that there is indeed a difference between the groups. However, these are within-group analyses whereas the whole point of a clinical trial is to compare the groups directly. We should do this using a two-sample t-test on the values after one week of treatment or on the changes in systolic blood pressure, not via an indirect comparison of P values from independent analyses. The authors' interpretation is not valid."
+  },
+  "meta_info": {
+    "index": "15.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Clinical trials",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "475-475"
+  },
+  "sample_key": "176",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1715,
+    "total_tokens": 1758,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1714,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1715,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1714,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

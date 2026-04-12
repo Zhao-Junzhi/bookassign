@@ -3,24 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Blood cholesterol level classified as either 1= hypercholesterolemic, 2 = borderline hypercholesterolemic, 3 = normocholesterolemic"
+    "question": "(g) Religious identity coded 1 = Protestant, 2 = Catholic, 3 = Muslim, 4 = Jewish, 5 = Atheist, 6 = Buddhist, 7 = Hindu, 8 = Other"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "Ordinal",
-    "variable": {
-      "cholesterol_level": {
-        "id": "cholesterol_level",
-        "value": [
-          "1",
-          "2",
-          "3"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "Blood cholesterol level classified into three categories: 1 for hypercholesterolemic, 2 for borderline hypercholesterolemic, and 3 for normocholesterolemic."
-      }
-    }
+    "answer": "Categorical"
   },
   "meta_info": {
     "index": "1.11",

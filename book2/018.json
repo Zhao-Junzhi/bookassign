@@ -1,0 +1,16 @@
+{
+  "id": "018",
+  "question": "Each of 10 taste testers rated a new brand of barbecue sauce on a 10-point scale, where $1=$ awful and $10=$ excellent. Find the mode for the 10 ratings shown below.\n$$\n\\begin{array}{llllllllll}\n8 & 7 & 9 & 6 & 8 & 10 & 9 & 9 & 5 & 7\n\\end{array}\n$$",
+  "data": null,
+  "answer": "Because 9 occurs most often, the mode of the 10 taste-ratings is 9 .",
+  "meta_info": {
+    "index": "2.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding the Mode",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.3 Numerical Measures of Central Tendency",
+    "book": "Statistics for Business and Economics",
+    "page": "49-49"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_150.json",
+  "input": {
+    "background": "Recall the illustrative example concerning a matched case-control study of adenomatous colon polyps and diet. There were 45 matched pairs in which the case but not the control reported low fruit and vegetable consumption. There were 24 pairs in which the control but not the case reported low fruit and vegetable consumption.",
+    "data": "",
+    "question": "What is the P-value?"
+  },
+  "output": {
+    "answer": "C. $P$-value. $P=0.011$ (significant evidence)"
+  },
+  "meta_info": {
+    "index": "18.19",
+    "image": "",
+    "caption": "Diet and adenomatous polyps.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "455-455"
+  },
+  "sample_key": "378",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 962,
+    "total_tokens": 1005,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 961,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 962,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 961,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Determine the probability that more than 2 units in a shipment of 100 are defective.",
-      "answer": "Let X be the number of defectives in a shipment of 100, then X has a binomial distribution with n = 100 and p = 0.97, i.e., X ~ b(100, 0.97) where p is the probability of a non-defective unit. The desired probability is given by $$\\begin{aligned} P(X>2) & =1-P(X \\leq 2) \\\\ & =1-\\sum_{i=0}^2\\binom{100}{\\mathrm{i}}(0.03)^i(0.97)^{100-i} \\\\ & =0.5802 \\end{aligned}$$",
-      "method": "事件发生概率及独立性"
+      "answer": "Let X be the number of defectives in a shipment of 100, then X has a binomial distribution with n = 100 and p = 0.97, i.e., X ~ b(100, 0.97) where p is the probability of a non-defective unit. The desired probability is given by $$\\begin{aligned} P(X>2) & =1-P(X \\leq 2) \\\\ & =1-\\sum_{i=0}^2\\binom{100}{\\mathrm{i}}(0.03)^i(0.97)^{100-i} \\\\ & =0.5802 \\end{aligned}$$"
     }
   ],
   "id": "23",
@@ -18,5 +17,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "72-72"
+  },
+  "token_usage": {
+    "completion_tokens": 227,
+    "prompt_tokens": 498,
+    "total_tokens": 725,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

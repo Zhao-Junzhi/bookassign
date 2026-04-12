@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\142.json",
+  "case_id": "book3_r1\\135.json",
   "input": {
-    "background": "A system is composed of 20 identical active power supplies, at least 19 of the power supplies are required for the system to function. In other words, when 2 of the 20 power supplies fail, the system fails. When all 20 power supplies are operating, each has a constant failure rate $\\lambda_a$ per hour. If one power supply fails, each remaining power supply has a failure rate $\\lambda_b$ per hour where $\\lambda_a \\leq \\lambda_b$. We assume that a failed power supply can be repaired with a constant rate $\\mu$ per hour. The system reliability function, $R(t)$, is defined as the probability that the system continues to function throughout the interval $(0, t)$.",
+    "background": "An instrument consisting of $k$ units operates for a time $t$. The reliability of each unit during the time $t$ is $p$. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. The technician needs a time $s$ to replace one unit.",
     "data": null,
-    "question": "Given $\\lambda_a=0.0005, \\lambda_b=0.004$, and $\\mu=0.5$, calculate the system MTTF."
+    "question": "Calculate the probability in part (a) when $p=0.9$ and $k=10$."
   },
   "output": {
-    "method": "期望",
-    "answer": "$M T T F=683.5526 \\mathrm{~h}$."
+    "answer": "$\\mathrm{R}=0.9298$"
   },
   "meta_info": {
-    "index": "6.5",
+    "index": "4.5",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 6： Stochastic Processes",
-    "section": "6.4 Problems",
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.16 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "400-400"
+    "page": "299-299"
   },
   "sample_key": "82"
 }

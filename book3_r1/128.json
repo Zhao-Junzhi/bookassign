@@ -1,10 +1,9 @@
 {
-  "background": "The following data were drawn one observation at a time in the order records: ggbggbgggbgbggbbbggg. The experiment was performed to test the hypothesis about the proportion of defective items in the population.",
+  "background": "The following data were drawn one observation at a time in the order records: ggbggbgggbgbggbbbggg. Here, $b$ denotes a defective item and $g$ denotes a good item. The experiment was performed to test the hypothesis: $$\\mathrm{H}_0: \\mathrm{p}=\\mathrm{p}_0=0.10 \\text { versus } \\mathrm{H}_1: \\mathrm{p}=\\mathrm{p}_1=0.20 .$$ where $p$ denotes the proportion of defective items in the population. It is desired to reject $\\mathrm{H}_0$ when it is true with probability 0.05 and to accept $\\mathrm{H}_0$ when $\\mathrm{H}_1$ is true with probability 0.20. Using a sequential testing plan, determine the decision based on the observations provided.",
   "task": [
     {
-      "query": "Using sequential testing plan, determine whether you would accept or reject a lot on the basis of the observations above.",
-      "answer": "The sampling is stopped at the $16^{\\text {th }}$ observation and that the lot would be rejected.",
-      "method": "假设检验"
+      "query": "Using the sequential testing plan, determine whether you would accept or reject the lot based on the observations: ggbggbgggbgbggbbbggg.",
+      "answer": "The sampling is stopped at the $16^{\\text {th }}$ observation and that the lot would be rejected."
     }
   ],
   "id": "128",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "220-221"
+  },
+  "token_usage": {
+    "completion_tokens": 272,
+    "prompt_tokens": 525,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

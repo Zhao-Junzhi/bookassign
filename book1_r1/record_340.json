@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "What is the probability of owning a dog or a cat using the general rule of addition?",
-      "answer": "By the general rule of addition, the probability of owning a dog or a cat Pr(A or B)=Pr(A)+Pr(B)-Pr(A and B)=0.35+ 0.30-0.15=0.50.",
-      "method": "事件发生概率及独立性"
+      "answer": "By the general rule of addition, the probability of owning a dog or a cat Pr(A or B) = Pr(A) + Pr(B) - Pr(A and B) = 0.35 + 0.30 - 0.15 = 0.50."
     }
   ],
   "id": "340",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "General rule of addition (Pet ownership).",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.5 MORE RULES AND PROPERTIES OF PROBABILITY",
     "page": "108-108"
+  },
+  "token_usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 439,
+    "total_tokens": 602,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

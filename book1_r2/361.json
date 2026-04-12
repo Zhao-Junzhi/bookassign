@@ -1,49 +1,20 @@
 {
-  "case_id": "book1_r1\\record_336.json",
+  "case_id": "book1_r1\\record_143.json",
   "input": {
-    "background": "The problem involves calculating the mean and variance of a probability mass function (pmf) for four patients as presented in Table 5.1.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "What are the mean and variance of the four patients illustrative pmf, as presented in Table 5.1?"
+    "background": "In 1954, the prominent statistician W. G. Cochran published an article on the analysis of cross-tabulated counts. The article included an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable classifies patients by their initial degree of skin damage, and the column variable classifies overall response to therapy.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the conditional percents of improvement for patients with low levels of skin damage."
   },
   "output": {
-    "method": "期望",
-    "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run.",
-    "variable": {
-      "number_of_success": {
-        "id": "number_of_success",
-        "value": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of successes observed in the probability mass function."
-      },
-      "probability": {
-        "id": "probability",
-        "value": [
-          0.0039,
-          0.0469,
-          0.2109,
-          0.4219,
-          0.3164
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability associated with each number of successes in the probability mass function."
-      }
-    }
+    "answer": "For patients with low skin damage: Marked improvement = 8%, Slight improvement = 19%, Stationary = 29%, Worse = 37%, Total = 100%."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.5",
     "image": "",
-    "caption": "Expectation and variance.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.3  DISCRETE RANDOM VARIABLES",
-    "page": "96-97"
+    "caption": "Response to leprosy treatment.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "420-421"
   },
   "sample_key": "361"
 }

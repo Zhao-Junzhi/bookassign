@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_054.json",
+  "case_id": "book1_r1\\record_044.json",
   "input": {
-    "background": "The prevalence of a condition in a population is 10%. You take a simple random sample of 15 people from this population. Let X represent the number of individuals in the sample with the condition.",
+    "background": "What is the probability of being born on specific dates in February, considering both regular years and leap years?",
     "data": "",
-    "question": "Describe the distribution X."
+    "question": "What is the probability of being born on February 28 or February 29?"
   },
   "output": {
-    "method": "从指定分布中抽样",
-    "answer": "X ~ b(15,0.10)",
-    "variable": {
-      "X": {
-        "id": "X",
-        "value": "The number of individuals in the sample with the condition",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The random variable representing the count of individuals in the sample who have the condition"
-      },
-      "prevalence": {
-        "id": "prevalence",
-        "value": 0.1,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The proportion of the population with the condition"
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 15,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The size of the simple random sample taken from the population"
-      }
-    }
+    "answer": "Feb 28 or Feb 29 occur 5 times every four years. Therefore, Pr(Feb 28 or Feb 29) = (5 / (365 + 365 + 365 + 366)) = 0.003422313."
   },
   "meta_info": {
-    "index": "6.11",
+    "index": "5.3",
     "image": "",
-    "caption": "Prevalence 10%.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
-    "page": "128-128"
+    "caption": "February birthdays.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.1 WHat Is PROBABILITY?",
+    "page": "91-91"
   },
   "sample_key": "97"
 }

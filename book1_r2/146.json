@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_078.json",
+  "case_id": "book1_r1\\record_066.json",
   "input": {
-    "background": "Let us return to the conditions specified in the previous exercise.",
+    "background": "Determine whether the boldface numbers in the exercise represent a parameter or a statistic. The context involves new cases of female breast cancer in California in 2005 and their survival rates by stage of diagnosis.",
     "data": "",
-    "question": "How large a sample would be needed to detect the proposed difference in gestational lengths with $90 \\%$ power at $\\alpha=0.05$ (two sided)?"
+    "question": "Is 39% (the 7-year survival rate for stage III breast cancer) a parameter or a statistic?"
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "$n=\\frac{\\sigma^2\\left(z_{1-\\beta}+z_{1-\\vartheta}\\right)^2}{\\left(\\mu_0-\\mu_\\alpha\\right)^2}=\\frac{2^2(1.28+1.96)^2}{(38.5-39)^2}=167.96$. Round this up to 168.",
-    "variable": {
-      "gestational_length_difference": {
-        "id": "gestational_length_difference",
-        "value": null,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Proposed difference in mean gestational lengths between the two groups that the study aims to detect"
-      },
-      "alpha": {
-        "id": "alpha",
-        "value": 0.05,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Significance level for the two-sided hypothesis test"
-      },
-      "power": {
-        "id": "power",
-        "value": 0.9,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Desired statistical power of the test"
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Required sample size to detect the proposed difference in gestational lengths with given alpha and power"
-      }
-    }
+    "answer": "39% is a statistic."
   },
   "meta_info": {
-    "index": "9.13",
+    "index": "8.1",
     "image": "",
-    "caption": "Gestational length, African American women, sample size.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.6 POWER AND SAMPLE SIZE",
-    "page": "193-193"
+    "caption": "Breast cancer survival.",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1 CONCEPTS",
+    "page": "157-157"
   },
   "sample_key": "146"
 }

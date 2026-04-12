@@ -1,34 +1,20 @@
 {
-  "case_id": "book1_r1\\record_307.json",
+  "case_id": "book1_r1\\record_127.json",
   "input": {
-    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "background": "An oncologist treats 40 kidney cancer cases. Sixteen of the cases survive at least 5 years. Historically, one in five cases were expected to survive this long. Test whether there has been a significant improvement in survival.",
     "data": "",
-    "question": "What were the initial treatments considered in the WHI trial?"
+    "question": "State the significance level and the conclusion of the test."
   },
   "output": {
-    "method": "实验设计",
-    "answer": "The initial treatments considered were unopposed estrogen, estrogen plus progestin, and an inert placebo.",
-    "variable": {
-      "Treatment": {
-        "id": "Treatment",
-        "value": [
-          "unopposed estrogen",
-          "estrogen plus progestin",
-          "inert placebo"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The initial treatments considered in the WHI trial."
-      }
-    }
+    "answer": "The evidence against $H_0$ is significant at $\\alpha=0.01$ (reject $H_0$)."
   },
   "meta_info": {
-    "index": "",
+    "index": "16.17",
     "image": "",
-    "caption": "WHI postmenopausal hormone use trial.",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "27-27"
+    "caption": "Kidney cancer survival.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
   },
   "sample_key": "322"
 }

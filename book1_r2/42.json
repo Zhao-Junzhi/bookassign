@@ -1,48 +1,20 @@
 {
-  "case_id": "book1_r1\\record_016.json",
+  "case_id": "book1_r1\\record_014.json",
   "input": {
-    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
+    "background": "Determine the likelihood of a specific sequence of numbers (e.g., four zeros in a row) occurring in a random process.",
     "data": "",
-    "question": "(b) Comparison B: Group 1: 90, 80, 70, 60, 50; Group 2: 70, 60, 50, 40"
+    "question": "What is the probability of four zeros in a row occurring in a sequence?"
   },
   "output": {
-    "method": "stem-and-leaf plot",
-    "answer": "Comparison B. Group 1 has larger values on average; groups have the same variability.",
-    "variable": {
-      "Group1": {
-        "id": "Group1",
-        "value": [
-          90,
-          80,
-          70,
-          60,
-          50
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Data values for Group 1"
-      },
-      "Group2": {
-        "id": "Group2",
-        "value": [
-          70,
-          60,
-          50,
-          40
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Data values for Group 2"
-      }
-    }
+    "answer": "Four zeros in a row would occur 1 in every 10,000 four-tuples."
   },
   "meta_info": {
-    "index": "3.3",
+    "index": "2.15",
     "image": "",
-    "caption": "Leaves on a common stem.",
-    "chapter": "Frequency Distributions",
-    "section": "3.2 Frequency Tables",
-    "page": "50-51"
+    "caption": "Four-naughts.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "34-34"
   },
   "sample_key": "42"
 }

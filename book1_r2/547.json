@@ -1,54 +1,20 @@
 {
-  "case_id": "book1_r1\\record_436.json",
+  "case_id": "book1_r1\\record_367.json",
   "input": {
-    "background": "Chapter 16 examined data from an experimental cohort that was part of the NIH-sponsored Women's Health Initiative study. This experimental cohort study involved 16,608 postmenopausal women. Roughly half these women were assigned conjugated estrogens (n1=8506). The remaining subjects (n2=8102) received a placebo. Coronary heart disease, invasive breast cancer, and other adverse outcomes were monitored in the groups on an ongoing basis.",
+    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean μ=170 pounds and standard deviation σ=40. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean. Under the null hypothesis, there is no difference in the mean body weights between then and now.",
     "data": "",
-    "question": "Monitor coronary heart disease, invasive breast cancer, and other adverse outcomes in the groups on an ongoing basis."
+    "question": "What is the alternative hypothesis for testing whether body weight has increased since the late 1970s?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "null",
-    "variable": {
-      "treatment_group": {
-        "id": "treatment_group",
-        "value": [
-          "conjugated estrogens",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The treatment groups in the study, where one group received conjugated estrogens and the other received a placebo."
-      },
-      "coronary_heart_disease": {
-        "id": "coronary_heart_disease",
-        "value": "monitored outcome",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The occurrence of coronary heart disease as an adverse outcome monitored in the study."
-      },
-      "invasive_breast_cancer": {
-        "id": "invasive_breast_cancer",
-        "value": "monitored outcome",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The occurrence of invasive breast cancer as an adverse outcome monitored in the study."
-      },
-      "other_adverse_outcomes": {
-        "id": "other_adverse_outcomes",
-        "value": "monitored outcome",
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Other adverse outcomes monitored in the study."
-      }
-    }
+    "answer": "Under the alternative hypothesis, the mean weight has increased. In other words, Ha: μ>170 pounds. This alternative hypothesis is one-sided, looking only for values larger than the stated population mean."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Purposive cohort sample (Estrogen trial).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.1 Types of Samples",
-    "page": "408-408"
+    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 The Null and Alternative Hypotheses",
+    "page": "176-177"
   },
   "sample_key": "547"
 }

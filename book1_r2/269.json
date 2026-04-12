@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_137.json",
+  "case_id": "book1_r1\\record_112.json",
   "input": {
-    "background": "Exercise 17.4 considered a randomized trial of smoking cessation in which treatment with bupropion in combination with a nicotine patch was compared to use of a nicotine patch alone. The treatment group had success in 87 of 245 participants. The control group had successes in 40 of 244 participants.",
+    "background": "The ANOVA in Exercises 13.3 found that birth weight of four groups of infants differed significantly according to the smoking status of mothers (P = 0.042). Table 13.3 lists the data for the analysis. Data are also available online in the file SMOK_BW.SAV.",
     "data": "",
-    "question": "Why is this confidence interval more useful than the hypothesis test results calculated in Exercise 17.4?"
+    "question": "Calculate 95% confidence intervals for all possible mean differences incorporating a Bonferroni adjustment."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "What useful information do these statistics add...? The size of the effect is estimated. (The hypothesis test merely addressed chance as an explanation for any effect.)",
-    "variable": {
-      "treatment_success_count": {
-        "id": "treatment_success_count",
-        "value": 87,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of successful smoking cessation cases in the treatment group."
-      },
-      "treatment_total_count": {
-        "id": "treatment_total_count",
-        "value": 245,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of participants in the treatment group."
-      },
-      "control_success_count": {
-        "id": "control_success_count",
-        "value": 40,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of successful smoking cessation cases in the control group."
-      },
-      "control_total_count": {
-        "id": "control_total_count",
-        "value": 244,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of participants in the control group."
-      }
-    }
+    "answer": "(c) Post hoc confidence intervals incorporating Bonferroni's correction\n\n| Parameter     | x̄_i - x̄_j | SE      | 95% confidence interval |\n|---------------|------------|---------|-------------------------|\n|               |            |         | LCL         | UCL       |\n| μ₁ - μ₂       | 0.0857     | 0.67848 | -1.8901     | 2.0615    |\n| μ₁ - μ₃       | 1.1191     | 0.64690 | -0.7647     | 3.0030    |\n| μ₁ - μ₄       | 1.6129     | 0.60512 | -0.1492     | 3.3751    |\n| μ₂ - μ₃       | 1.0334     | 0.67848 | -0.9424     | 3.0092    |\n| μ₂ - μ₄       | 1.5272     | 0.63876 | -0.3329     | 3.3873    |\n| μ₃ - μ₄       | 0.4938     | 0.60512 | -1.2684     | 2.2559    |\n\nCalculated with SPSS (Rel. 11.0.1. 2001. Chicago: SPSS Inc.)"
   },
   "meta_info": {
-    "index": "17.13",
+    "index": "13.5",
     "image": "",
-    "caption": "Smoking cessation trial.",
-    "chapter": "COMPARING TWO PROPORTIONS",
-    "section": "17.6 POWER AND SAMPLE SIZE",
-    "page": "403-403"
+    "caption": "Smoking and birth weight, post hoc comparisons.",
+    "chapter": "COMPARING SEVERAL MEANS",
+    "section": "13.4 Post Hoc COMPARISONS",
+    "page": "281-281"
   },
   "sample_key": "269"
 }

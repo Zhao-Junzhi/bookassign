@@ -1,13 +1,12 @@
 {
   "case_id": "book3_r1\\04.json",
   "input": {
-    "background": "How many ways are there to rank n candidates for the job of corporate chief executive? If the ranking is made at random (each ranking is equally likely), what is the probability that the fifth candidate, Mr. Best, is in second place?",
+    "background": "This problem involves ranking n candidates for a job and calculating probabilities related to random rankings. It also discusses combinations, where n elements are chosen from N distinct objects without regard to order.",
     "data": null,
-    "question": "What is the total number of rankings for n candidates?"
+    "question": "How many ways are there to rank n candidates for the job of corporate chief executive?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "One can easily show that the total number of rankings is $n!$."
+    "answer": "The total number of rankings is $n!$."
   },
   "meta_info": {
     "index": "1.11",

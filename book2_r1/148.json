@@ -1,0 +1,45 @@
+{
+  "background": "Refer to the advertising-monthly-sales data presented in Table 11.1. Consider the straight-line model, $E(y)=\\beta_0+\\beta_1 x$, where $y=$ sales revenue (thousands of dollars) and $x=$ advertising expenditure (hundreds of dollars).",
+  "task": [
+    {
+      "query": "Use the method of least squares to estimate the values of $\\beta_0$ and $\\beta_1$.",
+      "answer": "We used Excel to make the preliminary computations for finding the least squares line. The Excel spreadsheet is shown in Figure 11.5. Using the values on the spreadsheet, we find\n\n$$\n\\begin{aligned}\n\\bar{x} & =\\frac{\\sum x}{5}=\\frac{15}{5}=3 \\\n\\bar{y} & =\\frac{\\sum y}{5}=\\frac{10}{5}=2 \\\n\\mathrm{SS}_{x y} & =\\sum(x-\\bar{x})(y-\\bar{y})=\\sum(x-3)(y-2)=7 \\\n\\mathrm{SS}_{x x} & =\\sum(x-\\bar{x})^2=\\sum(x-3)^2=10\n\\end{aligned}\n$$\n\nThen the slope of the least squares line is\n\n$$\n\\hat{\\beta}_1=\\frac{\\mathrm{SS}_{x y}}{\\mathrm{SS}_{x x}}=\\frac{7}{10}=.7\n$$\nand the $y$-intercept is\n\n$$\n\\hat{\\beta}_0=\\bar{y}-\\hat{\\beta}_1 \\bar{x}=2-(.7)(3)=2-2.1=-.1\n$$\n\nThe least squares line is thus\n\n$$\n\\hat{y}=\\hat{\\beta}_0+\\hat{\\beta}_1 x=-.1+.7 x\n$$\n\nThe graph of this line is shown in Figure 11.6."
+    },
+    {
+      "query": "Predict the sales revenue when advertising expenditure is $\\$ 200$ (i.e., when $x=2$).",
+      "answer": "The predicted value of $y$ for a given value of $x$ can be obtained by substituting into the formula for the least squares line. Substituting $x=2$ into the least squares equation yields\n\n$$\n\\hat{y}=-.1+.7 x=-.1+.7(2)=1.3\n$$\n\nThus, when advertising expenditure is $\\$ 200$, we predict monthly sales revenue to be $\\$ 1,300$. We show how to find a prediction interval for $y$ in Section 11.6."
+    },
+    {
+      "query": "Find SSE for the analysis.",
+      "answer": "The observed and predicted values of $y$, the deviations of the $y$ values about their predicted values, and the squares of these deviations are shown in the Excel spreadsheet, Figure 11.7. Note that SSE $=1.10$, and (as we would expect) this is less than the SSE $=2.0$ obtained in Table 11.2 for the visually fitted line."
+    },
+    {
+      "query": "Give practical interpretations to $\\beta_0$ and $\\beta_1$.",
+      "answer": "The estimated $y$-intercept, $\\hat{\\beta}_0=-.1$, appears to imply that the estimated mean sales revenue is equal to -.1 , or $-\\$ 100$, when the advertising expenditure, $x$, is equal to $\\$ 0$. Because negative sales revenues are not possible, this seems to make the model nonsensical. However, the model parameters should be interpreted only within the sampled range of the independent variable-in this case, for advertising expenditures between $\\$ 100$ and $\\$ 500$. Thus, the $y$-intercept-which is, by definition, at $x=0 ($0 advertising expenditure)-is not within the range of the sampled values of $x$ and is not subject to meaningful interpretation.\n\nThe slope of the least squares line, $\\hat{\\beta}_1=.7$, implies that for every unit increase of $x$, the mean value of $y$ is estimated to increase by .7 unit. In terms of this example, for every $\\$ 100$ increase in advertising, the mean sales revenue is estimated to increase by $\\$ 700$ over the sampled range of advertising expenditures from $\\$ 100$ to $\\$ 500$. Thus, the model does not imply that increasing the advertising expenditures from $\\$ 500$ to $\\$ 1,000$ will result in an increase in mean sales of $\\$ 3,500$, because the range of $x$ in the sample does not extend to $\\$ 1,000(x=10)$. Be careful to interpret the estimated parameters only within the sampled range of $x$."
+    }
+  ],
+  "id": "148",
+  "data": null,
+  "meta_info": {
+    "index": "11.1",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 1117,
+    "prompt_tokens": 1292,
+    "total_tokens": 2409,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

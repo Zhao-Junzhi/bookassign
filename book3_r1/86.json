@@ -1,10 +1,9 @@
 {
-  "background": "Claim amounts for wind damage to insure homes are independent random variables with common density function $$f(x)= \\begin{cases}3 x^{-4} & \\text { for } x>1 \\\\ 0 & \\text { otherwise }\\end{cases}$$ where $x$ is the amount of a claim in thousands. Suppose 3 such claims will be made.",
+  "background": "Claim amounts for wind damage to insured homes are independent random variables with a common density function:\n\n$$\nf(x)= \\begin{cases}3 x^{-4} & \\text { for } x>1 \\\\ 0 & \\text { otherwise }\\end{cases}\n$$\n\nwhere $x$ is the amount of a claim in thousands. Suppose 3 such claims will be made.",
   "task": [
     {
       "query": "What is the expected value of the largest of the three claims?",
-      "answer": "$$ \\quad 2025 .$$",
-      "method": "期望"
+      "answer": "$$ \\quad 2025 .$$"
     }
   ],
   "id": "86",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "62-62"
+  },
+  "token_usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 403,
+    "total_tokens": 542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

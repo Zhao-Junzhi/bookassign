@@ -1,20 +1,17 @@
 {
-  "background": "A certain manufacturing plant has five production lines, all making use of a specific bulk product. The amount of product used in one day can be modeled as having an exponential distribution with a mean of 6 (measurements in thousands), for each of the five lines. If the lines operate independently.",
+  "background": "A certain manufacturing plant has five production lines, all making use of a specific bulk product. The amount of product used in one day can be modeled as having an exponential distribution with a mean of 6 (measurements in thousands), for each of the five lines. The lines operate independently.",
   "task": [
     {
       "query": "Find the probability that any given line uses more than 6 thousands on a given day.",
-      "answer": "P(T>6)=∫_6^∞ (1/6) e^(-x/6) dx = e^(-1) = 0.3679",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability that any given line uses more than 6 thousands is $$P(T>6)=\\int_6^{\\infty} \\frac{1}{6} e^{-\\frac{x}{6}} d x=e^{-1}=0.3679$$"
     },
     {
       "query": "Find the probability that exactly three of the five lines use more than 6 thousands on a given day.",
-      "answer": "P(exactly 3 use more than 6) = C(5,3) * (0.3679)^3 * (1-0.3679)^2 = 0.199",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability that exactly three of the five lines use more than 6 thousands on a given day is $$P(\\text{exactly 3 use more than 6})=\\binom{5}{3}(0.3679)^3(1-0.3679)^2=0.199$$"
     },
     {
       "query": "Explain the hazard function or failure rate for the exponential density function.",
-      "answer": "h(t) = f(t)/R(t) = (1/θ) e^(-t/θ) / e^(-t/θ) = 1/θ = λ. The failure rate for this distribution is λ, a constant, which is the main reason for this widely used distribution.",
-      "method": "数据分布建模"
+      "answer": "The hazard function or failure rate for the exponential density function is constant, i.e., $$h(t)=\\frac{f(t)}{R(t)}=\\frac{\\frac{1}{\\theta} e^{-\\frac{1}{\\theta}}}{e^{-\\frac{1}{\\theta}}}=\\frac{1}{\\theta}=\\lambda$$ The failure rate for this distribution is $\\lambda$, a constant, which is the main reason for this widely used distribution. Because of its constant failure rate property, the exponential is an excellent model for the long flat."
     }
   ],
   "id": "32",
@@ -28,5 +25,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "89-90"
+  },
+  "token_usage": {
+    "completion_tokens": 409,
+    "prompt_tokens": 639,
+    "total_tokens": 1048,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

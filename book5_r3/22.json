@@ -1,0 +1,45 @@
+{
+  "case_id": "book5_r1\\007.json",
+  "input": {
+    "background": "The Binomial distribution with p=0.15 and n=10 is as follows: If 15% of all pregnancies result in miscarriages, we analyze probabilities related to groups of pregnant women and clusters of miscarriages.",
+    "data": "\\begin{tabular}{|l|l|l|l|}\n\\hline $r$ & Probability & $r$ & Probability \\\\\n\\hline 0 & 0.1969 & 6 & 0.0012 \\\\\n\\hline 1 & 0.3474 。 & 7 & 0.0001 \\\\\n\\hline 2 & 0.2759 & 8 & 0.0000 \\\\\n\\hline 3 & 0.1298 & 9 & 0.0000 \\\\\n\\hline 4 & 0.0401 & 10 & 0.0000 \\\\\n\\hline 5 & 0.0085 & & \\\\\n\\hline\n\\end{tabular}",
+    "question": "Among groups of users of video display terminals, there are 20000 large enough for ten women to become pregnant in one year. If we call six or more miscarriages out of 10 a 'cluster', how many clusters would we expect in one year, assuming that there is no increased risk of miscarriage associated with using a terminal?"
+  },
+  "output": {
+    "answer": "20000 × 0.0013 = 26"
+  },
+  "meta_info": {
+    "index": "4.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Theoretical distributions",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "72-72"
+  },
+  "sample_key": "22",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 817,
+    "total_tokens": 844,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 817,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

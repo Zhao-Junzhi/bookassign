@@ -1,20 +1,17 @@
 {
-  "background": "Data from 37 patients receiving a non-depleted allogeneic bone marrow transplant were examined to see which variables were associated with the development of acute graft-versus-host disease (GvHD). The table below shows separately for the groups who did not and did develop GvHD, the age of the recipient and donor, the type of leukaemia, whether or not the donor had been pregnant and an index of mixed epidermal cell-lymphocyte reactions. Donor pregnancy (Preg) is coded 0 for No and 1 for Yes. Type of leukaemia is coded 1 (acute myeloid leukaemia - AML), 2 (acute lymphocytic leukaemia - ALL) or 3 (chronic myeloid leukaemia - CML). Each group is ordered by their index values.",
+  "background": "Data from 37 patients receiving a non-depleted allogeneic bone marrow transplant were examined to see which variables were associated with the development of acute graft-versus-host disease (GvHD). The data includes recipient and donor ages, type of leukemia, donor pregnancy status, and an index of mixed epidermal cell-lymphocyte reactions. Donor pregnancy is coded 0 for No and 1 for Yes. Type of leukemia is coded 1 (acute myeloid leukemia - AML), 2 (acute lymphocytic leukemia - ALL), or 3 (chronic myeloid leukemia - CML). Survival time is also provided but is not used in the analysis.",
   "task": [
     {
-      "query": "Use appropriate tests to compare the first five variables in the two groups. Which variables are significantly associated with the development of graft versus host disease (P<0.05)?",
-      "answer": "Recipient and donor ages can be compared by two sample t tests, as can the log index values. The results show significant differences for recipient age (P=0.01), donor age (P=0.02), and log index values (P=0.0006). Type of leukaemia and donor pregnancy are compared using Chi-squared tests, yielding P=0.02 and P=0.03, respectively. Thus, all five variables are significantly different between the groups.",
-      "method": "均值检验"
+      "query": "Use appropriate tests to compare the first five variables (recipient age, donor age, type of leukemia, donor pregnancy, and log index) in the two groups (No GvHD and GvHD). Which variables are significantly associated with the development of graft-versus-host disease (P<0.05)?",
+      "answer": "Recipient and donor ages can be compared by two-sample t-tests, as can the log index values. The results are as follows:\n\nRecipient age: Mean (No GvHD) = 22.4, SD = 5.18; Mean (GvHD) = 28.4, SD = 8.10; t = 2.73, P = 0.01\nDonor age: Mean (No GvHD) = 23.1, SD = 6.69; Mean (GvHD) = 29.0, SD = 8.07; t = 2.43, P = 0.02\nLog index: Mean (No GvHD) = 0.111, SD = 0.860; Mean (GvHD) = 1.115, SD = 0.662; t = 3.92, P = 0.0006\n\nType of leukemia and donor pregnancy are analyzed using Chi-squared tests:\nType of leukemia: X^2 = 7.497 on 2 df, P = 0.02\nDonor pregnancy: X^2 = 4.66 on 1 df, P = 0.03\n\nAll five variables are significantly different between the groups of patients who did and did not develop GvHD."
     },
     {
       "query": "Use multiple logistic regression to see which variables are significantly related to GvHD (with P<0.05).",
-      "answer": "Backward stepwise multiple logistic regression identified three significant variables: CML (P=0.04), pregnancy (P=0.02), and log index (P=0.04). The logistic regression model is given by logit(p) = 2.251 × CML + 2.496 × pregnancy + 1.488 × log index.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "Backward stepwise multiple logistic regression was performed with the following explanatory variables: recipient's age, donor's age, donor pregnancy, log index, and two dummy variables for ALL and CML. At the 5% significance level, the following model was obtained:\n\nCML: Coefficient = 2.251, SE = 1.106, z = 2.035, P = 0.04\nPregnancy: Coefficient = 2.496, SE = 1.101, z = 2.266, P = 0.02\nLog index: Coefficient = 1.488, SE = 0.720, z = 2.067, P = 0.04\n\nThe probability of GvHD can be calculated using the logistic regression model:\nlogit(p) = 2.251 × CML + 2.496 × pregnancy + 1.488 × log index\np = exp(logit(p)) / [1 + exp(logit(p))]\n\nAll three variables in the model (CML, pregnancy, and log index) are moderately significant."
     },
     {
       "query": "Calculate the odds ratio for the risk of GvHD in relation to each binary variable in the model, with a 90% confidence interval.",
-      "answer": "For CML, OR = e^2.251 = 9.5 with 90% CI [1.54, 58.6]. For pregnancy, OR = e^2.496 = 12.1 with 90% CI [1.98, 74.2]. Both confidence intervals are wide, indicating imprecision due to the small sample size.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "For a binary variable in a logistic regression model, the odds ratio (OR) is given by e^b, where b is the estimated regression coefficient. The 90% confidence interval (CI) is obtained as e^(b ± 1.645 × SE(b)).\n\nFor CML:\nOR = e^2.251 = 9.5\n90% CI = [e^(2.251 - 1.645 × 1.106), e^(2.251 + 1.645 × 1.106)] = [1.54, 58.6]\n\nFor pregnancy:\nOR = e^2.496 = 12.1\n90% CI = [e^(2.496 - 1.645 × 1.101), e^(2.496 + 1.645 × 1.101)] = [1.98, 74.2]\n\nBoth confidence intervals are extremely wide, indicating that precise estimates cannot be obtained from a sample this small."
     }
   ],
   "id": "046",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "361-363"
+  },
+  "token_usage": {
+    "completion_tokens": 1044,
+    "prompt_tokens": 1656,
+    "total_tokens": 2700,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

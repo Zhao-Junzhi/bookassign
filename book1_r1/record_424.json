@@ -1,20 +1,37 @@
 {
-  "background": "What is the risk difference for the combined outcome in the estrogen trial alluded to earlier?",
+  "background": "What is the risk difference for the combined outcome in the estrogen trial alluded to earlier? We established 5.2-year risks of \\(\\hat{p}_1=0.08829\\) in the treatment group and \\(\\hat{p}_2=0.07689\\) in the control group.",
   "task": [
     {
-      "query": "We established 5.2-year risks of $\\hat{p}_1=0.08829$ in the treatment group and $\\hat{p}_2=0.07689$ in the control group.",
-      "answer": "$\\hat{p}_1-\\hat{p}_2=0.08829-0.07689=0.0114$. This is equivalent to 11.4 additional cases per 1000 exposed individuals over the 5.2-year period.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the risk difference for the combined outcome in the estrogen trial using the given 5.2-year risks \\(\\hat{p}_1=0.08829\\) and \\(\\hat{p}_2=0.07689\\).",
+      "answer": "\\(\\hat{p}_1-\\hat{p}_2=0.08829-0.07689=0.0114\\). This is equivalent to 11.4 additional cases per 1000 exposed individuals over the 5.2-year period."
     }
   ],
   "id": "424",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Risk difference.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
     "page": "375-375"
+  },
+  "token_usage": {
+    "completion_tokens": 219,
+    "prompt_tokens": 414,
+    "total_tokens": 633,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

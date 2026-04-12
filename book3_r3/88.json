@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\138.json",
+  "input": {
+    "background": "A cooling system for a reactor has four identical cooling loops. Each cooling loop has two identical pumps connected in parallel. The cooling system requires that at least 3 of the 4 cooling loops operate successfully. The reliability of a pump over the life span of the plant is $R_p=0.75$.",
+    "data": null,
+    "question": "Calculate the reliability of the cooling system."
+  },
+  "output": {
+    "answer": "$R_{\\text {system }}=0.97847$"
+  },
+  "meta_info": {
+    "index": "4.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.16 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "300-300"
+  },
+  "sample_key": "88",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 905,
+    "total_tokens": 948,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 883,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 905,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 883,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,13 +1,23 @@
 {
   "case_id": "book4_r1\\010.json",
   "input": {
-    "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). The visibility scores for the two set types are given below.",
+    "background": "Because persecuting badgers is an illegal activity, badger sets that are more secluded from the view of the general public may be more at risk from persecution. To test this hypothesis, badger sets were ranked as to their visibility to the nearest public right of way (footpath or road), with a score of 1 given to those which it would be impossible for people to see, and a score of 6 indicating that the set was certain to be seen. The sets were then identified as being active (i.e. with a badger social group using the set regularly) or no longer in use (where there were no recent signs of badger activity). Visibility scores for the two set types were recorded.",
     "data": null,
-    "question": "What do you conclude about the effect of set visibility on whether or not a set is still active?"
+    "question": "Use a Mann-Whitney U test (because the data are ordinal) on the given data, and record the following: (a) Median score for both active and not in use sets, (b) Sample size for both active and not in use sets, (c) Smaller U value, and (d) Probability."
   },
   "output": {
-    "method": "回归效应大小解读",
-    "answer": "Active badger sets are significantly more visible than those not in use."
+    "answer": {
+      "Median score": {
+        "Active": 3,
+        "Not in use": 2
+      },
+      "Sample size": {
+        "Active": 15,
+        "Not in use": 15
+      },
+      "Smaller U value": 60.5,
+      "Probability": "P<0.05 (=0.0310 or 0.0256 if corrected for ties)"
+    }
   },
   "meta_info": {
     "index": "4.2",

@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\085.json",
+  "input": {
+    "background": "A manufacturer of microwave ovens is trying to determine the length of warranty period it should attach to its magnetron tube, the most critical component in the oven. Preliminary testing has shown that the length of life (in years), $x$, of a magnetron tube has an exponential probability distribution with $\\theta=6.25$.",
+    "data": null,
+    "question": "Suppose a warranty period of 5 years is attached to the magnetron tube. What fraction of tubes must the manufacturer plan to replace, assuming that the exponential model with $\\theta=6.25$ is correct?"
+  },
+  "output": {
+    "answer": "To find the fraction of tubes that will have to be replaced before the 5-year warranty period expires, we need to find the area between 0 and 5 under the distribution. This area, $A$, is shown in Figure 4.46. To find the required probability, we recall the formula $$P(x>a)=e^{-a / \\theta}$$ Using this formula, we find that $$P(x>5)=e^{-a / \\theta}=e^{-5 / 6.25}=e^{-.80}=.449329$$ To find the area $A$, we use the complementary relationship: $$P(x \\leq 5)=1-P(x>5)=1-.449329=.550671$$ So approximately $55 \\%$ of the magnetron tubes will have to be replaced during the 5-year warranty period."
+  },
+  "meta_info": {
+    "index": "4.29",
+    "img_in_question": null
+  },
+  "sample_key": "207",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1255,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1254,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1255,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1254,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

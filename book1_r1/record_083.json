@@ -1,30 +1,45 @@
 {
-  "background": "A study takes an SRS from a population of full-term infants. The standard deviation of birth weights in this population is 2 pounds.",
+  "background": "A study takes an SRS from a population of full-term infants. The standard deviation of birth weights in this population is 2 pounds. Calculate 95% confidence intervals for μ for different sample sizes and sample means.",
   "task": [
     {
-      "query": "Calculate 95% confidence intervals for μ for samples in which n=81 and \\bar{x}=6.1 pounds.",
-      "answer": "6.1 ± (1.96) \\frac{2}{\\sqrt{81}} = 6.1 ± 0.43 = (5.7 to 6.5)",
-      "method": "均值检验"
+      "query": "Calculate the 95% confidence interval for μ when n=81 and \\bar{x}=6.1 pounds.",
+      "answer": "6.1 ± (1.96) * (2 / √81) = 6.1 ± 0.43 = (5.7 to 6.5)"
     },
     {
-      "query": "Calculate 95% confidence intervals for μ for samples in which n=36 and \\bar{x}=7.0 pounds.",
-      "answer": "7.0 ± (1.96) \\frac{2}{\\sqrt{36}} = 7.0 ± 0.653 = (6.3 to 7.7)",
-      "method": "均值检验"
+      "query": "Calculate the 95% confidence interval for μ when n=36 and \\bar{x}=7.0 pounds.",
+      "answer": "7.0 ± (1.96) * (2 / √36) = 7.0 ± 0.653 = (6.3 to 7.7)"
     },
     {
-      "query": "Calculate 95% confidence intervals for μ for samples in which n=9 and \\bar{x}=5.8 pounds.",
-      "answer": "5.8 ± (1.96) \\frac{2}{\\sqrt{9}} = 5.8 ± 1.31 = (4.5 to 7.1)",
-      "method": "均值检验"
+      "query": "Calculate the 95% confidence interval for μ when n=9 and \\bar{x}=5.8 pounds.",
+      "answer": "5.8 ± (1.96) * (2 / √9) = 5.8 ± 1.31 = (4.5 to 7.1)"
     }
   ],
   "id": "083",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "10.3",
     "image": "",
     "caption": "Newborn weight.",
     "chapter": "BASICS OF CONFIDENCE INTERVALS",
     "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
     "page": "203-203"
+  },
+  "token_usage": {
+    "completion_tokens": 295,
+    "prompt_tokens": 537,
+    "total_tokens": 832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

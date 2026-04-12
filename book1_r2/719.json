@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_429.json",
+  "input": {
+    "background": "We calculate $90 \\%$ and $95 \\%$ confidence intervals for the $R R$ for the estrogen trial illustrative data. Table $\\mathbf{17.3}$ shows the data. We established that $\\widehat{R R}=\\frac{\\hat{p}_1}{\\hat{p}_2}=\\frac{0.08829}{0.07689}=1.1483$.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.3 Women's Health Initiative estrogen trial data in 2-by-2 format.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Cases } & Noncases & Total\\\nEstrogen + & 751 & 7755  & 8506\\\n\\cline { 2 - 4} Estrogen - & 623 & 7479 & 8102 \\\n\\cline { 2 - 4 } Total & 1374 & 15234 & 16608 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the standard error $S E_{\\ln \\overparen{R R}}$ using the given formula."
+  },
+  "output": {
+    "answer": "$S E_{\\ln \\overparen{R R}}=\\sqrt{\\frac{1}{a_1}-\\frac{1}{n_1}+\\frac{1}{a_2}-\\frac{1}{n_2}}=\\sqrt{\\frac{1}{751}-\\frac{1}{8506}+\\frac{1}{623}-\\frac{1}{8102}} =0.051920$"
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the relative risk (Estrogen  trial).",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-392"
+  },
+  "sample_key": "719"
+}

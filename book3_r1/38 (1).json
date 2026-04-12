@@ -3,13 +3,7 @@
   "task": [
     {
       "query": "Find the part reliability for a life of 200 time units.",
-      "answer": "$$\n\\begin{aligned}\n&\\text { The reliability for the part of } 200 \\text { time units is Fig. 2.4. }\\\\\n&\\begin{aligned}\nR(200) & =P\\left(Z>\\frac{\\ln 200-6}{2}\\right)=P(Z>-0.35) \\\\\n& =0.6368\n\\end{aligned}\n\\end{aligned}\n$$",
-      "method": "数据分布建模"
-    },
-    {
-      "query": "Explain why the log normal lifetime model is useful for modeling failure mechanisms.",
-      "answer": "The log normal lifetime model, like the normal, is flexible enough to make it a very useful empirical model. Figure 2.4 shows the reliability of the log normal vs time. It can be theoretically derived under assumptions matching many failure mechanisms. Some of these are: corrosion, migration, crack growth, and in general, failures resulting from chemical reactions or processes. That does not mean that the log normal is always the correct model for these mechanisms, but it does perhaps explain why it has been empirically successful in so many of these cases.",
-      "method": "数据分布建模"
+      "answer": "$$\n\\begin{aligned}\n&\\ \\ext { The reliability for the part of } 200 \\ \\ext { time units is Fig. 2.4. }\\\\\n&\\begin{aligned}\nR(200) & =P\\left(Z>\\frac{\\ln 200-6}{2}\\right)=P(Z>-0.35) \\\\\n& =0.6368\n\\end{aligned}\n\\end{aligned}\n$$"
     }
   ],
   "id": "38",
@@ -23,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "100-101"
+  },
+  "token_usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 543,
+    "total_tokens": 710,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,25 +1,49 @@
 {
-  "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15.",
+  "background": "We have established that Wechsler Adult Intelligence Scores (WAISs) vary according to a Normal distribution with μ=100 and σ=15. Let us consider the standard errors of means for SRSs of WAISs with n=1, n=4, and n=16.",
   "task": [
     {
       "query": "What effect does increasing the sample size have on the precision of a mean?",
-      "answer": "Each time, quadrupling the sample size cuts the SE_{\\bar{x}} in half.",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "Each time, quadrupling the sample size cuts the SE_x̄ in half."
     },
     {
-      "query": "Let us consider the standard errors of means for SRSs of WAISs with n=1, n=4, and n=16.",
-      "answer": "- The standard error of the mean when n=1 is SE_{\\bar{x}}=\\frac{\\sigma}{n}=\\frac{15}{\\sqrt{1}}=15.\n- The standard error of the mean when n=4 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{4}}=7.5.\n- The standard error of the mean based when n=16 is SE_{\\bar{x}}=\\frac{15}{\\sqrt{16}}=3.75.",
-      "method": "集中趋势测度"
+      "query": "What is the standard error of the mean when n=1?",
+      "answer": "The standard error of the mean when n=1 is SE_x̄=σ/√n=15/√1=15."
+    },
+    {
+      "query": "What is the standard error of the mean when n=4?",
+      "answer": "The standard error of the mean when n=4 is SE_x̄=15/√4=7.5."
+    },
+    {
+      "query": "What is the standard error of the mean when n=16?",
+      "answer": "The standard error of the mean when n=16 is SE_x̄=15/√16=3.75."
     }
   ],
   "id": "364",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Standard error of the mean and sample size (WAIS).",
     "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
     "section": "8.2 Sampling Behavior of a Mean",
     "page": "164-164"
+  },
+  "token_usage": {
+    "completion_tokens": 294,
+    "prompt_tokens": 518,
+    "total_tokens": 812,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

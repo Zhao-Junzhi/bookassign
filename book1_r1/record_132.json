@@ -2,34 +2,44 @@
   "background": "Each year, cardiologists surgically repair thousands of clogged coronary arteries only to have many of these arteries narrow again (restenose) soon after surgery. A study sponsored by the NIH was conducted to help determine whether infection with a common type of virus, cytomegalovirus (CMY), contributed to coronary restenosis. Forty-nine of the subjects showed serological evidence of CMV infection, while 26 showed no such evidence. In the CMV+ group, 21 individuals restenosed within 6 months of atherectomy. In the CMV — group, 2 individuals restenosed.",
   "task": [
     {
-      "query": "Calculate the risk in the CMV+ group and the CMV- group, and find the risk difference.",
-      "answer": "Risk in the CMV+group \\( \\hat{p}_1=\\frac{21}{49}=0.4286 \\) Risk in the CVM - group \\( \\hat{p}_2=\\frac{2}{26}=0.0769 \\) Risk difference \\( \\hat{p}_1-\\hat{p}_2=0.4286-0.0769=0.3517 \\)",
-      "method": "事件发生概率及独立性"
+      "query": "What is the risk in the CMV+ group and the CMV- group, and what is the risk difference?",
+      "answer": "Risk in the CMV+ group $\\hat{p}_1=\\frac{21}{49}=0.4286$\n\nRisk in the CVM- group $\\hat{p}_2=\\frac{2}{26}=0.0769$\n\nRisk difference $\\hat{p}_1-\\hat{p}_2=0.4286-0.0769=0.3517$"
     },
     {
-      "query": "Calculate the 95% confidence interval for the risk difference using the plus-four method.",
-      "answer": "95% confidence by the plus-four method: \\( \\bar{P}_1=\\frac{22}{51}=0.4314 \\) \\( \\bar{P}_2=\\frac{3}{28}=0.1071 \\) \\( SE=0.0907 \\) 95% confidence interval for \\( p_1-p_2=(0.4314-0.1071) \\pm(1.96)(0.0907)= 0.3243 \\pm 0.1778=(0.1465,0.5021) \\)",
-      "method": "假设检验与区间估计"
+      "query": "What is the 95% confidence interval for the risk difference using the plus-four method?",
+      "answer": "$$\n\\begin{aligned}\n& \\bar{P}_1=\\frac{22}{51}=0.4314 \\\\\n& \\bar{P}_2=\\frac{3}{28}=0.1071 \\\\\n& S E=0.0907\n\\end{aligned}\n$$\n\n$95 \\%$ confidence interval for $p_1-p_2=(0.4314-0.1071) \\pm(1.96)(0.0907)=$\n\n$$\n0.3243 \\pm 0.1778=(0.1465,0.5021)\n$$\n\nExplanation of the confidence interval in lay terms: We have $95 \\%$ confidence in the technique used to calculate the confidence interval. The technique says that CMV increases the risk of restenosis by between $14.7 \\%$ and $50.2 \\%$."
     },
     {
-      "query": "Explain the confidence interval in lay terms.",
-      "answer": "We have 95% confidence in the technique used to calculate the confidence interval. The technique says that CMV increases the risk of restenosis by between 14.7% and 50.2%.",
-      "method": "假设检验与区间估计"
-    },
-    {
-      "query": "Compare the results calculated by WinPepi Compare2.exe with the plus-four method.",
-      "answer": "DIFFERENCE [A minus B]=0.352 SE=0.088 Large-sample method (Fleiss), continuity-corrected: 90% C.I.=0.178 to 0.526 95% C.I.=0.150 to 0.553 99% C.I.=0.096 to 0.608 Wilson's score method: Not continuity-corrected (Newcombe's method 10): 90% C.I.=0.181 to 0.479 95% C.I.=\\mathbf{0.143} to \\mathbf{0.501} 99% C.I.=0.067 to 0.542 Continuity-corrected (Newcombe's method 11): 90% C.I.=0.156 to 0.492 95% C.I.=0.118 to 0.513 99% C.I.=0.042 to 0.552 The 95% confidence interval by the Wilson score method, not continuity-corrected (bold face) most closely corresponds with our plus-four method.",
-      "method": "假设检验与区间估计"
+      "query": "What are the results calculated by WinPepi Compare2.exe for the confidence intervals using different methods?",
+      "answer": "DIFFERENCE $[\\mathrm{A}$ minus $B]=0.352 \\mathrm{~S} . \\mathrm{E} .=0.088$\n\nLarge-sample method (Fleiss), continuity-corrected:\n\n$$\n\\begin{aligned}\n& 90 \\% \\text { C.I. }=0.178 \\text { to } 0.526 \\\\\n& 95 \\% \\text { C.I. }=0.150 \\text { to } 0.553 \\\\\n& 99 \\% \\text { C.I. }=0.096 \\text { to } 0.608\n\\end{aligned}\n$$\n\nWilson's score method:\nNot continuity-corrected (Newcombe's method 10):\n\n$$\n90 \\% \\text { C.I. }=0.181 \\text { to } 0.479\n$$\n$$\n\\begin{aligned}\n& 95 \\% \\text { C.I. }=\\mathbf{0 . 1 4 3} \\text { to } \\mathbf{0 . 5 0 1} \\\\\n& 99 \\% \\text { C.I. }=0.067 \\text { to } 0.542\n\\end{aligned}\n$$\n\nContinuity-corrected (Newcombe's method 11):\n\n$$\n\\begin{aligned}\n& 90 \\% \\text { C.I. }=0.156 \\text { to } 0.492 \\\\\n& 95 \\% \\text { C.I. }=0.118 \\text { to } 0.513 \\\\\n& 99 \\% \\text { C.I. }=0.042 \\text { to } 0.552\n\\end{aligned}\n$$\n\nThe $95 \\%$ confidence interval by the Wilson score method, not continuity-corrected (bold face) most closely corresponds with our plus-four method."
     }
   ],
   "id": "132",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "17.3",
     "image": "",
     "caption": "Cytomegalovirus and coronary restenosis.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
     "page": "379-379"
+  },
+  "token_usage": {
+    "completion_tokens": 1100,
+    "prompt_tokens": 1140,
+    "total_tokens": 2240,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

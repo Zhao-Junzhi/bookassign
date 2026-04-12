@@ -231,7 +231,7 @@ answer: {answer}
     return prompt_gen_0 + user_content
 
 
-async def call_gpt4o_async(prompt: str, session=None) -> str:
+async def call_gpt4o_async(prompt: str, session=None) -> Tuple[str, Dict]:
     """
     异步调用GPT-4o API
     
@@ -240,7 +240,7 @@ async def call_gpt4o_async(prompt: str, session=None) -> str:
         session: 未使用，为了保持接口一致
         
     Returns:
-        API返回的内容
+        (API返回的内容, token使用量)
         
     Raises:
         APIError: API调用失败
@@ -259,9 +259,13 @@ async def call_gpt4o_async(prompt: str, session=None) -> str:
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.3,
-                timeout=120
+                timeout=120,
+                response_format={"type": "json_object"}
             )
-            return response.choices[0].message.content
+            # 获取token使用量
+            token_usage = response.usage.to_dict() if response.usage else {}
+            # 将token使用量添加到返回结果中
+            return response.choices[0].message.content, token_usage
             
         except Exception as e:
             # 通用异常处理
@@ -361,14 +365,14 @@ def save_json_file(data: Dict, file_path: Path) -> None:
         raise
 
 
-async def process_single_file(file_path: Path, session: aiohttp.ClientSession, semaphore: asyncio.Semaphore) -> Tuple[str, bool, str]:
+async def process_single_file(file_path: Path, semaphore: asyncio.Semaphore, session: aiohttp.ClientSession = None) -> Tuple[str, bool, str]:
     """
     处理单个文件
     
     Args:
         file_path: 文件路径
-        session: aiohttp会话
         semaphore: 信号量控制并发
+        session: aiohttp会话
         
     Returns:
         (文件名, 是否成功, 错误信息)
@@ -389,13 +393,16 @@ async def process_single_file(file_path: Path, session: aiohttp.ClientSession, s
             prompt = build_prompt(question, answer)
             
             # 调用API
-            response_content = await call_gpt4o_async(prompt, session)
+            response_content, token_usage = await call_gpt4o_async(prompt, session)
             
             # 解析模型输出
             model_output = parse_model_output(response_content)
             
             # 合并输出
             final_output = merge_output(model_output, original_fields)
+            
+            # 添加token使用量
+            final_output['token_usage'] = token_usage
             
             # 保存结果
             output_path = OUTPUT_DIR / file_path.name
@@ -449,7 +456,7 @@ async def process_all_files():
     
     # 创建任务列表
     tasks = [
-        process_single_file(file_path, None, semaphore)
+        process_single_file(file_path, semaphore, None)
         for file_path in unprocessed_files
     ]
     

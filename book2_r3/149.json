@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\065.json",
+  "input": {
+    "background": "Decide whether $x$ is a binomial random variable for the given scenarios.",
+    "data": null,
+    "question": "Some surveys are conducted by using a method of sampling other than simple random sampling. For example, suppose a television cable company plans to conduct a survey to determine the fraction of households in the city that would use the cable television service. The sampling method is to choose a city block at random and then survey every household on that block. This sampling technique is called cluster sampling. Suppose 10 blocks are so sampled, producing a total of 124 household responses. Let $x$ be the number of the 124 households that would use the television cable service."
+  },
+  "output": {
+    "answer": "This example is a survey with dichotomous responses (Yes or No to the cable service), but the sampling method is not simple random sampling. Again, the binomial characteristic of independent trials would probably not be satisfied. The responses of households within a particular block would be dependent because the households within a block tend to be similar with respect to income, level of education, and general interests. Thus, the binomial model would not be satisfactory for $x$ if the cluster sampling technique were employed."
+  },
+  "meta_info": {
+    "index": "4.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Assessing Whether $x$ Is Binomial-Business Problems",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.3 The Binomial Distribution",
+    "book": "Statistics for Business and Economics",
+    "page": "125-126"
+  },
+  "sample_key": "149",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1105,
+    "total_tokens": 1148,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1104,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1105,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1104,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

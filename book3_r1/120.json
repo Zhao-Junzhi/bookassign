@@ -1,15 +1,13 @@
 {
-  "background": "Independent observations from a population with a given probability density function.",
+  "background": "Independent observations t1, t2, ..., tn are drawn from a population with the probability density function f(t; θ) = θ / t^(θ+1) for t ≥ 1 and θ > 0.",
   "task": [
     {
-      "query": "Find the maximum likelihood estimator of $\\theta$ if $\\mathrm{t}_1, \\mathrm{t}_2, \\ldots, \\mathrm{t}_{\\mathrm{n}}$ are independent observations from a population with the following probability density function $$f(t ; \\theta)=\\frac{\\theta}{t^{\\theta+1}} \\text { for } t \\geq 1, \\theta>0$$.",
-      "answer": "0.1819",
-      "method": "数据分布建模"
+      "query": "Find the maximum likelihood estimator (MLE) of θ based on the given probability density function.",
+      "answer": "0.1819"
     },
     {
-      "query": "Given the following failure time data: $200,225,228,245,250,286,290 \\mathrm{~h}$. Assuming that the data follow the above pdf, obtain the MLE of $\\theta$.",
-      "answer": "0.1819",
-      "method": "数据分布建模"
+      "query": "Given the failure time data: 200, 225, 228, 245, 250, 286, 290 hours, and assuming the data follow the given probability density function, obtain the MLE of θ.",
+      "answer": "Not provided in the original answer."
     }
   ],
   "id": "120",
@@ -23,5 +21,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "218-218"
+  },
+  "token_usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 454,
+    "total_tokens": 619,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

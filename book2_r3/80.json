@@ -1,0 +1,46 @@
+{
+  "case_id": "book2_r1\\033.json",
+  "input": {
+    "background": "Children out of School in America is a report on delinquency of school-age children prepared by the Children's Defense Fund (CDF), a government-sponsored organization. The report includes three reported results based on surveys conducted in specific regions. The details of the reported results and the corresponding facts are provided.",
+    "data": null,
+    "question": "Analyze Reported result 3: In the Portland Bayside East Housing Project, $50 \\%$ of all the secondary-school children who had been suspended more than once had been suspended three or more times. Fact: The survey found two secondary-school children had been suspended in that area; one of them had been suspended three or more times. Identify the potential distortions in this result."
+  },
+  "output": {
+    "answer": "The reporting of $50 \\%$ is misleading because it is based on a very small sample size of only two children. Reporting percentages instead of the actual numbers (1 out of 2) can lead to misinterpretation of the data. The small sample size makes it unreliable to draw any meaningful inferences."
+  },
+  "meta_info": {
+    "index": "2.22",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "More Misleading Descriptive Statistics- Delinquent Children",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.10 Distorting the Truth with Descriptive Techniques",
+    "book": "Statistics for Business and Economics",
+    "page": "76-76"
+  },
+  "sample_key": "80",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1087,
+    "total_tokens": 1130,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1086,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1087,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1086,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

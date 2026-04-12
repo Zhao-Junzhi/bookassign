@@ -2,14 +2,12 @@
   "background": "Consider a parallel system of $n$ identical and independent components with constant failure rate $\\lambda$.",
   "task": [
     {
-      "query": "What is the component reliability for the system?",
-      "answer": "The component reliability is $$R_0(t)=e^{-\\lambda t}$$.",
-      "method": "数据分布建模"
+      "query": "What is the reliability of a single component in the system?",
+      "answer": "$$R_0(t)=e^{-\\lambda t},$$"
     },
     {
-      "query": "What is the system reliability for the parallel system?",
-      "answer": "The system reliability is $$R(t)=1-\\left(1-e^{-\\lambda t}\\right)^n$$.",
-      "method": "数据分布建模"
+      "query": "What is the reliability of the entire system?",
+      "answer": "$$R(t)=1-\\left(1-e^{-\\lambda t}\\right)^n.$$"
     }
   ],
   "id": "62",
@@ -23,5 +21,23 @@
     "section": "4.3 Parallel Systems",
     "book": "Statistical Reliability Engineering",
     "page": "228-229"
+  },
+  "token_usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 373,
+    "total_tokens": 494,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

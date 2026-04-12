@@ -1,0 +1,32 @@
+{
+  "background": "Refer to Example 2.16. The box plot for the 50 processing times (Figure 2.29) does not explicitly reveal the differences, if any, between the set of times corresponding to the success and the set of times corresponding to the failure to obtain the business. Box plots corresponding to the 39 \"won\" and 11 \"lost\" bids were generated using SPSS and are shown in Figure 2.30.",
+  "task": [
+    {
+      "query": "Interpret the box plots corresponding to the 39 \"won\" and 11 \"lost\" bids shown in Figure 2.30.",
+      "answer": "The division of the data set into two parts, corresponding to won and lost bids, eliminates any observations that are beyond the inner fences. Furthermore, the skewness in the distributions has been reduced, as evidenced by the fact that the upper whiskers are only slightly longer than the lower. The box plots also reveal that the processing times corresponding to the lost bids tend to exceed those of the won bids. A plausible explanation for the outliers in the combined box plot (Figure 2.29) is that they are from a different population than the bulk of the times. In other words, there are two populations represented by the sample of processing times—one corresponding to lost bids and the other to won bids."
+    }
+  ],
+  "id": "028",
+  "data": null,
+  "meta_info": {
+    "index": "2.17"
+  },
+  "token_usage": {
+    "completion_tokens": 287,
+    "prompt_tokens": 530,
+    "total_tokens": 817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

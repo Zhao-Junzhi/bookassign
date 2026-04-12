@@ -1,10 +1,9 @@
 {
-  "background": "Suppose there are 100 items in the lot and their manufacturer claims that no more than 2% are defective. When the shipment is received at an assembly plant, a quality control manager asks his staff to take a random sample of size 10 from it without replacement and will accept the lot if there are at most 1 defective item in the sample.",
+  "background": "Suppose there are 100 items in the lot and their manufacturer claims that no more than 2% are defective. When the shipment is received at an assembly plant, a quality control manager asks his staff to take a random sample of size 10 from it without replacement and will accept the lot if there are at most 1 defective item in the sample. If let say 2% are defective in the entire lot, then it consists of 2 defective items.",
   "task": [
     {
-      "query": "If let say 2% are defective in the entire lot, then it consists of 2 defective items. What is the probability that the manager will accept the lot?",
-      "answer": "$$0.990909$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability that the manager will accept the lot?",
+      "answer": "$$0.990909$$"
     }
   ],
   "id": "113",
@@ -18,5 +17,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "133-133"
+  },
+  "token_usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 413,
+    "total_tokens": 556,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

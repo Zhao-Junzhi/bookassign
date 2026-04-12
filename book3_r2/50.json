@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\124.json",
+  "case_id": "book3_r1\\12 (1).json",
   "input": {
-    "background": "Let $X$ denote the proportion of allotted time that a randomly selected engineer spends working on a certain project, and suppose that the probability density function of $X$ is\n\n$$\nf(x)=\\left\\{\\begin{array}{cl}\n(\\theta+1) x^\\theta & \\text { for } 0 \\leq x \\leq 1 \\\\\n0 & \\text { otherwise }\n\\end{array} .\\right.\n$$\n\nwhere $\\theta>-1$. A random sample of 10 engineers yielded data\n\n$$\n\\begin{aligned}\n& x_1=0.92, x_2=0.79, x_3=0.90, x_4=0.65, x_5=0.86 \\\\\n& x_6=0.47, x_7=0.73, x_8=0.97, x_9=0.94, x_{10}=0.77\n\\end{aligned}\n$$",
-    "data": null,
-    "question": "Use the method of moments to obtain an estimator of $\\theta$, and then compute the estimate for this data."
+    "background": "The problem involves estimating the standard deviation using the mean range, understanding the skewness and kurtosis coefficients of a random variable, and the concept of the median in a dataset. Skewness measures the symmetry of a distribution, while kurtosis measures the heaviness of the tails of the distribution. The median is the central value in an ordered dataset.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table A.5 Range values $\\mathrm{d}_{\\mathrm{n}}$ for average value of $w$}\n\\begin{tabular}{|l|l|}\n\\hline n (number in sample) & $\\mathrm{d}_{\\mathrm{n}}$ \\\\\n\\hline 2 & 1.128 \\\\\n\\hline 3 & 1.693 \\\\\n\\hline 4 & 2.059 \\\\\n\\hline 5 & 2.326 \\\\\n\\hline 6 & 2.534 \\\\\n\\hline 7 & 2.704 \\\\\n\\hline 8 & 2.847 \\\\\n\\hline 9 & 2.970 \\\\\n\\hline 10 & 3.078 \\\\\n\\hline 11 & 3.173 \\\\\n\\hline 12 & 3.258 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Given the mean range \\( \\bar{w}=25.7 \\) and \\( n=4 \\), estimate the standard deviation \\( \\sigma \\) using the mean range."
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "$\\hat{\\theta}=3$."
+    "answer": "From the Table A.5, \\( \\mathrm{d}_n=2.059 \\), the estimate of \\( \\sigma \\) is \\( S=\\frac{25.7}{2.059}=12.4818 \\)."
   },
   "meta_info": {
-    "index": "3.23",
+    "index": "1.20",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 3: Statistical Inference",
-    "section": "3.16 Problems",
-    "book": "Statistical Reliability Engineering",
-    "page": "219-219"
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.3 Basic Statistics",
+    "book": "Statistics for Business and Economics",
+    "page": "20-20"
   },
   "sample_key": "50"
 }

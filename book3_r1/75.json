@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "Find the probability p that each group will be equally divided into boys and girls.",
-      "answer": "$$\np=\\frac{\\binom{100}{50}\\binom{100}{50}}{\\binom{200}{100}}=0.1132\n$$",
-      "method": "概率空间相关（如状态数）"
+      "answer": "$$ p=\\frac{\\binom{100}{50}\\binom{100}{50}}{\\binom{200}{100}}=0.1132 $$"
     }
   ],
   "id": "75",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "58-58"
+  },
+  "token_usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 367,
+    "total_tokens": 467,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

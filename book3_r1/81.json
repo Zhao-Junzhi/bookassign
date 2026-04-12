@@ -1,10 +1,9 @@
 {
-  "background": "Determine the number of arrangements for the seven letters in the word SYSTEMS.",
+  "background": "Determine the number of ways to arrange the seven letters in the word SYSTEMS.",
   "task": [
     {
       "query": "How many ways are there to arrange the seven letters in the word SYSTEMS?",
-      "answer": "$$P(7,4)=\\frac{7!}{(7-4)!}=840 \\text { ways }$$",
-      "method": "概率空间相关（如状态数）"
+      "answer": "$$P(7,4)=\\frac{7!}{(7-4)!}=840 \\ \\text{ways}$$"
     }
   ],
   "id": "81",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "61-61"
+  },
+  "token_usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 341,
+    "total_tokens": 431,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

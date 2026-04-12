@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\171.json",
+  "input": {
+    "background": "Analyze the distribution of the residuals in the grandfather clock example, both before and after the outlier residual is removed. Determine whether the assumption of a normally distributed error term is reasonable.",
+    "data": "null",
+    "question": "Analyze the histogram and normal probability plot to determine the impact of the outlier on the distribution of residuals."
+  },
+  "output": {
+    "answer": "Note that the outlier appears to skew the histogram in Figure 12.45, whereas the histogram in Figure 12.46 appears to be more mound-shaped. Similarly, the pattern of residuals in the normal probability plot in Figure 12.46 (outlier deleted) is more nearly a straight line than the pattern in Figure 12.45 (outlier included)."
+  },
+  "meta_info": {
+    "index": "12.17",
+    "img_in_question": null
+  },
+  "sample_key": "474"
+}

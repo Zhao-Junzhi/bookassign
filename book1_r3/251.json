@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_106.json",
+  "input": {
+    "background": "The mean survival time in the IDX-treated group was 116 days (SE1 = 5.6). The mean survival time in the control group was 88.5 (SE2 = 1.9). Test H0: μ1 = μ2.",
+    "data": "",
+    "question": "Determine the P-value."
+  },
+  "output": {
+    "answer": "The one-sided P-value is between 0.0005 and 0.001 (via Appendix Table C). Therefore, the two-sided P-value is between 0.001 and 0.002. Using www.cytel.com/Products/StaTable/, the two-sided P-value = 0.0012. The evidence against the null hypothesis is highly significant."
+  },
+  "meta_info": {
+    "index": "12.15",
+    "image": "",
+    "caption": "Scrapie treatment, delay of death.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "256-256"
+  },
+  "sample_key": "251",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1057,
+    "total_tokens": 1100,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1056,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1057,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1056,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

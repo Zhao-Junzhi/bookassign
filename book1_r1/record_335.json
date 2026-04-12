@@ -1,25 +1,41 @@
 {
-  "background": "Table 5.1 lists the probability mass function for the four patients illustrative pmf. Notice that: - Property 1. All probabilities in the pmf are between 0 and 1. - Property 2. Probabilities in the sample space sum to exactly 1.",
+  "background": "Table 5.1 lists the probability mass function (pmf) for the four patients illustrative pmf. The pmf satisfies the following properties: 1) All probabilities in the pmf are between 0 and 1. 2) Probabilities in the sample space sum to exactly 1. 3) The probability of a complement is equal to 1 minus the probability of the event.",
   "task": [
     {
-      "query": "Verify that the probabilities in the sample space sum to exactly 1.",
-      "answer": "$$\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)+\\operatorname{Pr}(X=2)+\\operatorname{Pr}(X=3)+\\operatorname{Pr}(X=4)= 0.0039+0.0469+0.2109+0.4219=0.3164=1.000$$",
-      "method": "事件发生概率及独立性"
+      "query": "Verify that the probabilities in the pmf sum to exactly 1, as shown in the equation: $$\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)+\\operatorname{Pr}(X=2)+\\operatorname{Pr}(X=3)+\\operatorname{Pr}(X=4)=0.0039+0.0469+0.2109+0.4219+0.3164=1.000$$.",
+      "answer": "The probabilities in the pmf sum to exactly 1, confirming Property 2."
     },
     {
-      "query": "Verify the probability of a complement is equal to 1 minus the probability of the event.",
-      "answer": "Therefore, $\\operatorname{Pr}(X=0$ or $X=1)=\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)=0.0039+ 0.0469=0.0508$",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the probability of $X=0$ or $X=1$, using the property that the probability of a union of disjoint events is the sum of their probabilities.",
+      "answer": "Therefore, $\\operatorname{Pr}(X=0$ or $X=1)=\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)=0.0039+0.0469=0.0508$."
     }
   ],
   "id": "335",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Properties of probabilities.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.3  DISCRETE RANDOM VARIABLES",
     "page": "95-95"
+  },
+  "token_usage": {
+    "completion_tokens": 347,
+    "prompt_tokens": 538,
+    "total_tokens": 885,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -3,18 +3,15 @@
   "task": [
     {
       "query": "Find the reliability of the system.",
-      "answer": "$$ R(t)=(1+2 \\lambda t) e^{-2 \\lambda t} . $$",
-      "method": "事件发生概率及独立性"
+      "answer": "The reliability of the system is $$R(t)=(1+2 \\lambda t) e^{-2 \\lambda t}.$$"
     },
     {
       "query": "Determine the MTTF of the system.",
-      "answer": "$$ M T T F=\\frac{1}{\\lambda} . $$",
-      "method": "期望"
+      "answer": "The MTTF of the system is $$M T T F=\\frac{1}{\\lambda}.$$"
     },
     {
-      "query": "Calculate (a) and (b) when $\\lambda=0.005$ per hour and t $=10 \\mathrm{~h}$.",
-      "answer": "$R(t=10)=0.9953$. System MTTF = 200 hours.",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate the reliability and MTTF when $\\lambda=0.005$ per hour and $t=10 \\mathrm{~h}$.",
+      "answer": "$R(t=10)=0.9953$. System MTTF = 200 hours."
     }
   ],
   "id": "137",
@@ -28,5 +25,23 @@
     "section": "4.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "300-300"
+  },
+  "token_usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 496,
+    "total_tokens": 731,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

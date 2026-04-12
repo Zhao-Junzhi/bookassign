@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\32.json",
+  "case_id": "book3_r1\\16.json",
   "input": {
-    "background": "A certain manufacturing plant has five production lines, all making use of a specific bulk product. The amount of product used in one day can be modeled as having an exponential distribution with a mean of 6 (measurements in thousands), for each of the five lines. If the lines operate independently.",
-    "data": null,
-    "question": "Find the probability that any given line uses more than 6 thousands on a given day."
+    "background": "A computer system has an exponential failure time density function: $$f(t)=\\frac{1}{9,000} e^{-\\frac{t}{9,000}}, t \\geq 0$$. The problem asks about the probability of failure within a specific time interval.",
+    "data": "$$\nR(t)=P(T>t) \\quad t \\geq 0 .\n$$",
+    "question": "What is the probability that the system will fail after the warranty (six months or 4380 h) and before the end of the first year (one year or 8760 h)?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "P(T>6)=∫_6^∞ (1/6) e^(-x/6) dx = e^(-1) = 0.3679"
+    "answer": "From Eq.(1.41) we obtain: $$P(4380 < T \\leq 8760) = \\int_{4380}^{8760} \\frac{1}{9000} e^{-\\frac{t}{9000}} dt = 0.237$$. This indicates that the probability of failure during the interval from six months to one year is 23.7%."
   },
   "meta_info": {
-    "index": "2.16",
+    "index": "1.34",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.1 Discrete Distributions",
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.7 Reliability Concepts",
     "book": "Statistical Reliability Engineering",
-    "page": "89-90"
+    "page": "39-40"
   },
   "sample_key": "110"
 }

@@ -1,15 +1,13 @@
 {
-  "background": "An instrument which consists of $k$ units operates for a time $t$. The reliability (the probability of failure-free performance) of each unit during the time $t$ is $p$. Units fail independently of one another. When the time $t$ passes, the instrument stops functioning, a technician inspects it and replaces the units that failed. He needs a time $s$ to replace one unit.",
+  "background": "An instrument consisting of $k$ units operates for a time $t$. Each unit has a reliability (probability of failure-free performance) of $p$ during time $t$, and units fail independently. After time $t$, the instrument stops functioning, and a technician inspects and replaces failed units, taking $s$ time to replace one unit.",
   "task": [
     {
-      "query": "Find the probability $P$ that in the time $2 s$ after the stop the instrument will be ready for work.",
-      "answer": "$P=p^k+k(1-p) p^{k-1}+\frac{k(k-1)}{2}(1-p)^2 p^{k-2}$",
-      "method": "事件发生概率及独立性"
+      "query": "Find the probability $P$ that in the time $2s$ after the stop, the instrument will be ready for work.",
+      "answer": "$P=p^k+k(1-p) p^{k-1}+\frac{k(k-1)}{2}(1-p)^2 p^{k-2}$"
     },
     {
-      "query": "Calculate $P$ when $k=10, p=0.9, t=25 \\mathrm{~h}$, and $s=20 \\mathrm{~min}$.",
-      "answer": "0.9298092",
-      "method": "事件发生概率及独立性"
+      "query": "Calculate $P$ when $k=10$, $p=0.9$, $t=25 \\mathrm{~h}$, and $s=20 \\mathrm{~min}$.",
+      "answer": "0.9298092"
     }
   ],
   "id": "111",
@@ -23,5 +21,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "132-132"
+  },
+  "token_usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 497,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

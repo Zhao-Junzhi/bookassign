@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_093.json",
+  "case_id": "book1_r1\\record_079.json",
   "input": {
-    "background": "A study of vector control in an African village found that the mean sprayable surface area was 249 square feet with standard deviation 39.82 square feet in a simple random sample of n=100 homes.",
+    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
     "data": "",
-    "question": "Would it be correct to say that 95% of all the homes in the village have sprayable surfaces between the lower confidence limit and upper confidence limit? Explain."
+    "question": "What conditions (assumptions) are needed to perform a z test to address this question?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "It would not be correct to make this statement. The confidence interval applies to population mean μ, not to individual observations.",
-    "variable": {
-      "mean_surface_area": {
-        "id": "mean_surface_area",
-        "value": 249,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The mean sprayable surface area in square feet."
-      },
-      "standard_deviation": {
-        "id": "standard_deviation",
-        "value": 39.82,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the sprayable surface area in square feet."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": 100,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of homes in the simple random sample."
-      }
-    }
+    "answer": "Conditions for the test: Data represent an SRS of female executives. The distribution of 𝑥̄ is approximately Normal."
   },
   "meta_info": {
-    "index": "11.19",
+    "index": "9.15",
     "image": "",
-    "caption": "Vector control in an African village",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "229-229"
+    "caption": "Female administrators.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
   },
   "sample_key": "177"
 }

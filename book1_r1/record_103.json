@@ -2,19 +2,36 @@
   "background": "We wish to detect a mean difference of 0.25 for a variable that has a standard deviation of 0.67.",
   "task": [
     {
-      "query": "How large a sample is needed to detect this mean differences with 90% power at alpha=0.05 (two-sided)?",
-      "answer": "n=(2)(0.67^2)(1.28+1.96)^2 / 0.25^2=150.79. Round up to 151 (per group).",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "How large a sample is needed to detect this mean difference with 90% power at α=0.05 (two-sided)?",
+      "answer": "n=(2)(0.67^2)(1.28+1.96)^2 / 0.25^2=150.79. Round up to 151 (per group)."
     }
   ],
   "id": "103",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "12.9",
     "image": "",
     "caption": "Sample size calculation.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.6 SAMPLE SIZE AND POWER",
     "page": "253-253"
+  },
+  "token_usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 398,
+    "total_tokens": 540,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

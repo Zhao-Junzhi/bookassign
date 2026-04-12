@@ -3,8 +3,7 @@
   "task": [
     {
       "query": "What is the probability of obtaining at least two heads given that the first toss resulted in a head?",
-      "answer": "The probability of obtaining at least two heads given that the first toss resulted in a head is: 0.75",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability of obtaining at least two heads given that the first toss resulted in a head is: 0.75"
     }
   ],
   "id": "74",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "58-58"
+  },
+  "token_usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 352,
+    "total_tokens": 435,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

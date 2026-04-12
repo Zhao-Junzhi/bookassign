@@ -1,30 +1,25 @@
 {
-  "background": "The systolic blood pressure (SBP) of 50 pregnant women was measured simultaneously in the same arm using intra-arterial measurement (direct) and a sphygmomanometer (indirect). Arm circumference and weight were measured because there was some suggestion that they might affect the difference between the two measurements. The data are shown in the following table.",
+  "background": "The systolic blood pressure (SBP) of 50 pregnant women was measured simultaneously in the same arm using intra-arterial measurement (direct) and a sphygmomanometer (indirect). Arm circumference and weight were also measured to investigate their potential effect on the difference between the two measurements. Data were collected, and the study aimed to analyze the agreement between the two methods and explore related factors.",
   "task": [
     {
       "query": "Carry out an appropriate analysis to quantify the agreement between the directly and indirectly measured systolic blood pressures.",
-      "answer": "A graph of the differences between the indirect and direct measurements against their average shows no tendency for the differences to be related to the level of blood pressure. The mean and SD of differences were -4.80 and 12.46 respectively, so $95 \\%$ limits of agreement are -29.72 to 20.12 mm Hg.",
-      "method": "描述性统计量"
+      "answer": "A graph of the differences between the indirect and direct measurements against their average shows no tendency for the differences to be related to the level of blood pressure. The mean and SD of differences were -4.80 and 12.46 respectively, so $95 \\%$ limits of agreement are -29.72 to 20.12 mm Hg."
     },
     {
       "query": "Using the results from (a), for what proportion of women would the difference between the methods be expected to be within 10 mm Hg?",
-      "answer": "The values -10 and +10 are respectively -0.42 and 1.18 SDs from the mean. Assuming that the differences come from a Normal population, the probability of a difference larger than 10 in either direction is the probability of being less than -10 plus the probability of being greater than 10, which (from Table B1) is $0.3372+0.1190=0.4562$, or about $46 \\%$. Alternatively, we can take the observed proportion as an estimate, which is $22 / 50=0.44$ or $44 \\%$. (This method is less reliable when the differences are Normal.)",
-      "method": "数学计算"
+      "answer": "The values -10 and +10 are respectively -0.42 and 1.18 SDs from the mean. Assuming that the differences come from a Normal population, the probability of a difference larger than 10 in either direction is the probability of being less than -10 plus the probability of being greater than 10, which (from Table B1) is $0.3372+0.1190=0.4562$, or about $46 \\%$. Alternatively, we can take the observed proportion as an estimate, which is $22 / 50=0.44$ or $44 \\%$. (This method is less reliable when the differences are Normal.)"
     },
     {
       "query": "Is there any relation between the differences and weight, arm circumference or age?",
-      "answer": "Pearson correlation coefficients are $0.32(\\mathrm{P}<0.01)$ with weight, $0.18(\\mathrm{P}>0.10)$ with arm circumference and $-0.24(\\mathrm{P}>0.05)$ with age. There is thus some evidence that the discrepancy between the direct and indirect measurements increases with body weight. The slope of the regression line is 0.394 ( $\\mathrm{SE}=0.167$ ), indicating an estimated increase in the difference between the methods of 4 mm Hg per 10 kg additional body weight.",
-      "method": "关联分析"
+      "answer": "Pearson correlation coefficients are $0.32(\\mathrm{P}<0.01)$ with weight, $0.18(\\mathrm{P}>0.10)$ with arm circumference and $-0.24(\\mathrm{P}>0.05)$ with age. There is thus some evidence that the discrepancy between the direct and indirect measurements increases with body weight. The slope of the regression line is 0.394 ( $\\mathrm{SE}=0.167$ ), indicating an estimated increase in the difference between the methods of 4 mm Hg per 10 kg additional body weight."
     },
     {
       "query": "The above table shows the data in the order in which the women were studied. The following table shows the mean and standard deviation of the indirect-direct differences in systolic blood pressure for the women taken in blocks of 10. What might explain the variation in the mean difference in SBP?",
-      "answer": "It could be due to a 'learning effect' with the new direct method of measurement. The rank correlation between the differences and the order of measurement is $0.37(\\mathrm{P}<0.01)$.",
-      "method": "描述性统计量"
+      "answer": "It could be due to a 'learning effect' with the new direct method of measurement. The rank correlation between the differences and the order of measurement is $0.37(\\mathrm{P}<0.01)$."
     },
     {
       "query": "Repeat (a) and (b) excluding the first ten women and contrast the answers with those obtained for all 50 women.",
-      "answer": "The Mean and SD of the differences between the measurements from the last 40 women are -2.93 and 11.47 mm Hg, so that the $95 \\%$ limits of agreement are -25.87 and 20.01. These limits are not much narrower than those derived using the data from all 50 women.",
-      "method": "描述性统计量"
+      "answer": "The Mean and SD of the differences between the measurements from the last 40 women are -2.93 and 11.47 mm Hg, so that the $95 \\%$ limits of agreement are -25.87 and 20.01. These limits are not much narrower than those derived using the data from all 50 women."
     }
   ],
   "id": "067",
@@ -38,5 +33,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "501-503"
+  },
+  "token_usage": {
+    "completion_tokens": 761,
+    "prompt_tokens": 1174,
+    "total_tokens": 1935,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

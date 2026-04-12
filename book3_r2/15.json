@@ -3,10 +3,9 @@
   "input": {
     "background": "A sample of 3 units is drawn without replacement from a batch of 15 units, of which two are bad. Let X denote the number of bad units in the sample.",
     "data": null,
-    "question": "Determine the distribution function."
+    "question": "Determine the distribution function of X."
   },
   "output": {
-    "method": "事件发生概率及独立性",
     "answer": "(ii) The probability function of $X$ is\n\n$$\nF(x)= \\begin{cases}0 & x<0 \\\\\n\\frac{22}{35} & 0 \\leq x<1 \\\\\n\\frac{34}{35} & 1 \\leq x<2 \\\\\n1 & x \\geq 2\\end{cases}\n$$"
   },
   "meta_info": {

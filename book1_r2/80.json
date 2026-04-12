@@ -1,42 +1,20 @@
 {
-  "case_id": "book1_r1\\record_046.json",
+  "case_id": "book1_r1\\record_027.json",
   "input": {
-    "background": "The probability associated with a proposition can be used to quantify the confidence in a judgment. At one extreme, a probability statement of 0 represents the personal belief that the proposition can never happen. At the other extreme, a probability statement of 1 represents the personal belief that the proposition will always occur. Probabilities between these two extremes represent shades of gray.",
-    "data": "",
-    "question": "Match the percentage 5% with the narrative statement that most closely reflects its meaning: This seldom happens. It has a very low chance of occurring."
+    "background": "In practice, we normally use statistical calculators or computers to calculate standard deviations. The task involves calculating the standard deviations and variances for the air samples data originally presented in Table 4.2 and ensuring the results agree with prior hand-calculations.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
+    "question": "Using your statistical calculator or computer, calculate the variances for the air samples data originally presented in Table 4.2."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "5%",
-    "variable": {
-      "probability_percentage": {
-        "id": "probability_percentage",
-        "value": [
-          5
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "The percentage value representing the probability of an event occurring."
-      },
-      "narrative_statement": {
-        "id": "narrative_statement",
-        "value": [
-          "This seldom happens.",
-          "It has a very low chance of occurring."
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The narrative statements that describe the likelihood of an event occurring."
-      }
-    }
+    "answer": "Not provided in the original input."
   },
   "meta_info": {
-    "index": "5.7",
+    "index": "4.9",
     "image": "",
-    "caption": "Personal expressions of probability.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.1 WHat Is PROBABILITY?",
-    "page": "92-92"
+    "caption": "Standard deviation via technology.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.7 SPREAD: VARIANCE AND STANDARD DEVIATION",
+    "page": "82-82"
   },
   "sample_key": "80"
 }

@@ -1,10 +1,9 @@
 {
-  "background": "In a clinical trial in which a total of 100 patients are allocated to two treatments by simple randomization.",
+  "background": "In a clinical trial with 100 patients allocated to two treatments by simple randomization, the task is to analyze the probability that the difference between the numbers of patients in the two treatment groups exceeds 20.",
   "task": [
     {
-      "query": "Show that the probability that the difference between the numbers of patients in the two treatment groups exceeds 20 is about $5 \\%$. (Hint: consider the distribution of the number of patients allocated to one of the groups.)",
-      "answer": "Another way of phrasing the question is, 'What is the probability of the number in one group being less than 40 or more than $60 ?$",
-      "method": "事件发生概率及独立性"
+      "query": "Show that the probability that the difference between the numbers of patients in the two treatment groups exceeds 20 is about 5%.",
+      "answer": "Another way of phrasing the question is, 'What is the probability of the number in one group being less than 40 or more than 60?'"
     }
   ],
   "id": "021",
@@ -18,5 +17,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "178-178"
+  },
+  "token_usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 396,
+    "total_tokens": 524,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

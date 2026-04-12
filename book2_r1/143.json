@@ -1,0 +1,41 @@
+{
+  "background": "The USGA is interested in determining whether the difference in distance traveled by any two golf ball brands depends on the club used. They conducted a completely randomized design experiment testing four different brands (A, B, C, D) of golf balls and two different clubs (driver, five-iron). Each of the eight Brand-Club combinations (treatments) was randomly and independently assigned to four experimental units, with each unit representing a specific position in the sequence of hits by Iron Byron. The distance response was recorded for each of the 32 hits, and the results are shown in Table 9.13.",
+  "task": [
+    {
+      "query": "Use a statistical software package to partition the Total Sum of Squares into the components necessary to analyze this $4 \\times 2$ factorial experiment.",
+      "answer": "The SPSS printout that partitions the Total Sum of Squares [i.e., SS(Total)] for this factorial experiment is given in Figure 9.25. The value $SS($ Total $)=34,482.049$, shown as ..."
+    },
+    {
+      "query": "Conduct the appropriate ANOVA tests and interpret the results of your analysis. Use $\\alpha=.10$ for each test you conduct.",
+      "answer": "..."
+    },
+    {
+      "query": "If appropriate, conduct multiple comparisons of the treatment means. Use an experimentwise error rate of .10. Illustrate the comparisons with a graph.",
+      "answer": "..."
+    }
+  ],
+  "id": "143",
+  "data": "\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Table 9.13 & & \\multicolumn{5}{|c|}{Distance Data for $4 \times 2$ Factorial Golf Experiment} \\\n\\hline \\multicolumn{7}{|c|}{Brand} \\\n\\hline & & & A & B & C & D \\\n\\hline \\multirow{8}{*}{Club} & \\multicolumn{2}{|l|}{\\multirow{4}{*}{Driver}} & 226.4 & 238.3 & 240.5 & 219.8 \\\n\\hline & & & 232.6 & 231.7 & 246.9 & 228.7 \\\n\\hline & & & 234.0 & 227.7 & 240.3 & 232.9 \\\n\\hline & & & 220.7 & 237.2 & 244.7 & 237.6 \\\n\\hline & \\multicolumn{2}{|c|}{\\multirow{4}{*}{Five-Iron}} & 163.8 & 184.4 & 179.0 & 157.8 \\\n\\hline & & & 179.4 & 180.6 & 168.0 & 161.8 \\\n\\hline & & & 168.6 & 179.5 & 165.2 & 162.1 \\\n\\hline & & & 173.4 & 186.2 & 156.5 & 160.3 \\\n\\hline\n\\end{tabular}",
+  "meta_info": {
+    "index": "9.10",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 321,
+    "prompt_tokens": 571,
+    "total_tokens": 892,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

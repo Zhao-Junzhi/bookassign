@@ -1,20 +1,17 @@
 {
-  "background": "As part of a study of acute mountain sickness fifteen members of a climbing expedition to East Africa had plasma aldosterone measurements taken before and after a rapid ascent to 4300 m. Measurements were taken at low and high altitudes over three days, together with a symptom score for acute mountain sickness (AMS) - high values mean worse symptoms.",
+  "background": "As part of a study of acute mountain sickness, fifteen members of a climbing expedition to East Africa had plasma aldosterone measurements taken before and after a rapid ascent to 4300 m. Measurements were taken at 09:00 at low and high altitudes over three days, along with a symptom score for acute mountain sickness (AMS), where high values indicate worse symptoms.",
   "task": [
     {
       "query": "Carry out an appropriate analysis of the plasma aldosterone levels on the three days. Which pairs of days are significantly different?",
-      "answer": "The data for the three days can be examined by a two way analysis of variance. The means and SDs for the three days are: Day 1 (Mean: 151.27, SD: 62.37), Day 2 (Mean: 194.40, SD: 78.77), Day 3 (Mean: 111.47, SD: 61.14). The analysis of variance gives F=7.24 on 2 and 28 degrees of freedom (P=0.003). Residuals are close to Normal (Shapiro-Francia W'=0.992, P=0.97). Pairwise t-tests (with Bonferroni adjustment) show that Days 2 and 3 are highly significantly different (P*=0.002), while other differences are not significant.",
-      "method": "方差分析"
+      "answer": "The data for the three days can be examined by a two-way analysis of variance. The means and SDs for the three days are:\nDay 1: Mean = 151.27, SD = 62.37\nDay 2: Mean = 194.40, SD = 78.77\nDay 3: Mean = 111.47, SD = 61.14\n\nThe comparison of the three times within the analysis of variance gives F = 7.24 on 2 and 28 degrees of freedom (P = 0.003). The Shapiro-Francia W' test of the residuals gives W' = 0.992 (P = 0.97), showing that the residuals have a distribution very close to Normal.\n\nPairwise t-tests with Bonferroni adjustment:\nDay 1 vs Day 2: Difference = 43.13, t = 1.98, P = 0.06, P* = 0.17\nDay 1 vs Day 3: Difference = -39.80, t = -1.82, P = 0.08, P* = 0.24\nDay 2 vs Day 3: Difference = -82.93, t = -3.80, P = 0.0007, P* = 0.002\n\nDays 2 and 3 are highly significantly different, even after the Bonferroni correction. The other differences are not significant, but the mean changes in plasma aldosterone are quite large."
     },
     {
       "query": "Obtain a 95% confidence interval for the difference between plasma aldosterone levels on days 1 and 2.",
-      "answer": "The 95% CI for the difference between the means on days 1 and 2 is given by 43.13 ± 2.048 × 59.7175 × √(1/15 + 1/15), or -1.53 to 87.79 mmol/l. This wide CI suggests there may be a real change in plasma aldosterone associated with a rapid change from low to high altitude, but a larger study would be needed to investigate this possibility.",
-      "method": "置信区间估计"
+      "answer": "The residual SD is used to construct the CI for the difference between the means on days 1 and 2. The 95% CI is given by:\n43.13 ± 2.048 × 59.7175 × sqrt(1/15 + 1/15), or -1.53 to 87.79 mmol/l.\nThis wide CI suggests that there may well be a real change in plasma aldosterone associated with a rapid change from low to high altitude, but a larger study would be needed to investigate this possibility."
     },
     {
       "query": "Examine the association between the AMS score and the change in plasma aldosterone between days 1 and 2.",
-      "answer": "The correlation coefficient between the mountain sickness score (AMS) and the change in plasma aldosterone is -0.36 (P=0.19). There is little evidence that the two variables are related.",
-      "method": "相关系数（一维）"
+      "answer": "The correlation coefficient between the mountain sickness score (AMS) and the change in plasma aldosterone is -0.36 (P = 0.19). There is little evidence that the two variables are related."
     }
   ],
   "id": "068",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "503-504"
+  },
+  "token_usage": {
+    "completion_tokens": 682,
+    "prompt_tokens": 1148,
+    "total_tokens": 1830,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

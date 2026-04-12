@@ -1,30 +1,45 @@
 {
-  "background": "A study of environmental air quality measured suspended particulate matter in air samples at two sites.",
+  "background": "A study of environmental air quality measured suspended particulate matter in air samples at two sites. Data (μgms/m^3) for site 1 are {68, 22, 36, 32, 42, 24, 28, and 38}. Data for site 2 are {36, 38, 39, 40, 36, 34, 33, and 32}.",
   "task": [
     {
       "query": "Create back-to-back stemplots of data from these sites. Discuss the results.",
-      "answer": "Stemplots\n```\nSite 1| |\\mathrm{ Site 2}\n842 |2 |\n862 |3 |2346689\n2|4|0\n    |5|\n    8|6|\n    \\times10\n```\n\nDiscussion:\n- Site 1 has a high outlier.\n- The distributions have similar central locations.\n- Site 1 has greater variability.",
-      "method": "stem-and-leaf plot"
+      "answer": "(a) Stemplots\n```\nSite 1| | Site 2\n842 |2 |\n862 |3 |2346689\n2|4|0\n    |5|\n    8|6|\n    \\times10\n```\n\nDiscussion:\n- Site 1 has a high outlier.\n- The distributions have similar central locations.\n- Site 1 has greater variability."
     },
     {
       "query": "Calculate group means and standard deviations.",
-      "answer": "Means and standard deviations\n\n\\begin{tabular}{cccc}\n\\hline & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}",
-      "method": "集中趋势测度"
+      "answer": "(b) Means and standard deviations\n\n\\begin{tabular}{cccc}\n\\hline & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}"
     },
     {
       "query": "Summarize your graphical and numerical findings.",
-      "answer": "The summary statistics confirm that the distributions have similar central locations and that Site 1 has much greater variability.",
-      "method": "分散程度测度"
+      "answer": "(c) The summary statistics confirm that the distributions have similar central locations and that Site 1 has much greater variability."
     }
   ],
   "id": "101",
   "data": "Table 12.9 \"Air samples data\" for Exercises 12.5 and 12.7. Data are suspended particulate matter in air samples ( $\\mu \\mathrm{gms} / \\mathrm{m}^3$ ).\n\n\\begin{tabular}{lllllllll}\n\\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\\\\nSite 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\\\\n\\hline\n\\end{tabular}\n\nData are fictitious and are stored online in the file AIRSAMPLES.SAV.",
-  "meta info": {
+  "meta_info": {
     "index": "12.5",
     "image": "",
     "caption": "Air samples.",
     "chapter": "COMPARING INDEPENDENT MEANS",
     "section": "12.2 EXPLORATORY AND DESCRIPTIVE STATISTICS",
     "page": "243-243"
+  },
+  "token_usage": {
+    "completion_tokens": 389,
+    "prompt_tokens": 626,
+    "total_tokens": 1015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

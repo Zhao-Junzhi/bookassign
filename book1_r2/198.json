@@ -1,55 +1,20 @@
 {
-  "case_id": "book1_r1\\record_101.json",
+  "case_id": "book1_r1\\record_086.json",
   "input": {
-    "background": "A study of environmental air quality measured suspended particulate matter in air samples at two sites.",
-    "data": "Table 12.9 \"Air samples data\" for Exercises 12.5 and 12.7. Data are suspended particulate matter in air samples ( $\\mu \\mathrm{gms} / \\mathrm{m}^3$ ).\n\n\\begin{tabular}{lllllllll}\n\\hline Site 1: & 68 & 22 & 36 & 32 & 42 & 24 & 28 & 38 \\\\\nSite 2: & 36 & 38 & 39 & 40 & 36 & 34 & 33 & 32 \\\\\n\\hline\n\\end{tabular}\n\nData are fictitious and are stored online in the file AIRSAMPLES.SAV.",
-    "question": "Summarize your graphical and numerical findings."
+    "background": "The term critical value is often used to refer to the value of a test statistic that determines statistical significance at some fixed α level for a test. For example, ±1.96 are the critical values for a two-tailed z test at α=0.05. In performing a t test based on 21 observations, critical values are needed for one-tailed and two-tailed tests at α=0.05.",
+    "data": "",
+    "question": "What are the critical values for a one-tailed test when α=0.05? That is, what values of the t_stat will give a one-sided P-value that is less than or equal to 0.05?"
   },
   "output": {
-    "method": "分散程度测度",
-    "answer": "The summary statistics confirm that the distributions have similar central locations and that Site 1 has much greater variability.",
-    "variable": {
-      "Site1_ParticulateMatter": {
-        "id": "Site1_ParticulateMatter",
-        "value": [
-          68,
-          22,
-          36,
-          32,
-          42,
-          24,
-          28,
-          38
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Suspended particulate matter measurements from air samples at Site 1."
-      },
-      "Site2_ParticulateMatter": {
-        "id": "Site2_ParticulateMatter",
-        "value": [
-          36,
-          38,
-          39,
-          40,
-          36,
-          34,
-          33,
-          32
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Suspended particulate matter measurements from air samples at Site 2."
-      }
-    }
+    "answer": "First note that df=21-1=20. For a one-sided test we get a P-value less than 0.05 when the t_stat is either less than -1.725 or more than 1.725, that is, |t_stat| ≥ 1.725."
   },
   "meta_info": {
-    "index": "12.5",
+    "index": "11.9",
     "image": "",
-    "caption": "Air samples.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.2 EXPLORATORY AND DESCRIPTIVE STATISTICS",
-    "page": "243-243"
+    "caption": "Critical values for a t statistic.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "216-216"
   },
   "sample_key": "198"
 }

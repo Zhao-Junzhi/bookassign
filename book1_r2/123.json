@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_067.json",
+  "case_id": "book1_r1\\record_054.json",
   "input": {
-    "background": "A survey selects an SRS of n=500 people from a town of 55,000. The sample shows an average of 2.30 health problems per person (standard deviation =1.65). Based on this information, say whether each of the following statements is true or false. Explain your reasoning in each instance.",
+    "background": "The prevalence of a condition in a population is 10%. A simple random sample of 15 people is taken from this population. Let X represent the number of individuals in the sample with the condition.",
     "data": "",
-    "question": "(a) The standard deviation of the sample mean is 0.074."
+    "question": "At what number of cases would you start to believe the assumed prevalence in the population is greater than 10%? Use the provided table to help organize your calculations."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "True. The standard deviation of \\(\\bar{x}\\) = the standard error of the mean \\(= \\frac{1.65}{\\sqrt{500}}=0.0740\\).",
-    "variable": {
-      "sample_size": {
-        "id": "sample_size",
-        "value": 500,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of people selected in the simple random sample (SRS)."
-      },
-      "population_size": {
-        "id": "population_size",
-        "value": 55000,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of people in the town from which the sample was drawn."
-      },
-      "sample_mean_health_problems": {
-        "id": "sample_mean_health_problems",
-        "value": 2.3,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The average number of health problems per person in the sample."
-      },
-      "sample_standard_deviation": {
-        "id": "sample_standard_deviation",
-        "value": 1.65,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the number of health problems per person in the sample."
-      },
-      "standard_error": {
-        "id": "standard_error",
-        "value": 0.074,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The standard deviation of the sample mean, also known as the standard error."
-      }
-    }
+    "answer": "Probabilities:\n\n| No. of Successes (x) | 0      | 1      | 2      | 3      | 4      | 5      |\n|----------------------|--------|--------|--------|--------|--------|--------|\n| Pr(X=x)             | 0.2059 | 0.3432 | 0.2669 | 0.1285 | 0.0428 | 0.0105 |\n| Pr(X ≤ x)           | 0.2059 | 0.5490 | 0.8159 | 0.9444 | 0.9873 | 0.9978 |\n| Pr(X > x)           | 0.7941 | 0.4510 | 0.1841 | 0.0556 | 0.0127 | 0.0022 |"
   },
   "meta_info": {
-    "index": "8.5",
+    "index": "6.11",
     "image": "",
-    "caption": "Survey of health problems.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.2 Sampling Behavior of a Mean",
-    "page": "166-166"
+    "caption": "Prevalence 10%.",
+    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
+    "section": "6.6 USING THE BINOMIAL DISTRIBUTION",
+    "page": "128-128"
   },
   "sample_key": "123"
 }

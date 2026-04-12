@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\083.json",
+  "input": {
+    "background": "The research department of a steel manufacturer suspects that one of the company's rolling machines is producing steel sheets with varying thickness. The thickness is modeled as a uniform random variable between 150 and 200 millimeters. Sheets with a thickness less than 160 millimeters are considered unacceptable and must be scrapped.",
+    "data": null,
+    "question": "Graph the probability distribution of $x$, and show the mean on the horizontal axis. Also show 1- and 2-standard-deviation intervals around the mean."
+  },
+  "output": {
+    "answer": "The uniform probability distribution is\n\n$$\nf(x)=\\frac{1}{d-c}=\\frac{1}{200-150}=\\frac{1}{50}(150 \\leq x \\leq 200)\n$$\n\nThe graph of this function is shown in Figure 4.39. The mean and 1- and 2-standard-deviation intervals around the mean are shown on the horizontal axis."
+  },
+  "meta_info": {
+    "index": "4.27",
+    "img_in_question": null
+  },
+  "sample_key": "203"
+}

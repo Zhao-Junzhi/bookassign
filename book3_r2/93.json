@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\21.json",
+  "case_id": "book3_r1\\140.json",
   "input": {
-    "background": "A life insurance company is interested to predict in the coming year on the number of claims that it may receive on a particular town due to the severe weather such as floods. All of the policies in the town are written on floods. There are currently 250 active policies in the town. The company estimates that the probability of any flood occurs in the coming year is 0.002.",
+    "background": "Calculate the reliability and Mean Time To Failure (MTTF) of $k$-out-of-$(2k-1)$ systems for different values of $k$ and time $t$. The failure rates are given as $\\lambda_1=0.0025 / h$, $\\lambda_2=0.005 / h$, $\\lambda_3=0.01 / h$, and the repair rates are $\\mu_1=\\mu_2=\\mu_3=0$. The calculation involves using Eqs. (6.42) and (6.43).",
     "data": null,
-    "question": "Determine the probability that the insurance company receives more than 4 claims in this town out of 250 active policies assuming that the claims are independent."
+    "question": "Calculate the reliability and MTTF of $k$-out-of-$(2k-1)$ systems when $k=1$ for various time $t$ using Eqs. (6.42) and (6.43)."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Let $N$ be the number of claims in the coming year. Then $N \\sim$ binomial $(250, p=0.002)$. Then the desired probability is given by $$ P(N>4)=1-\\sum_{n=0}^4\\binom{250}{n}(0.002)^n(0.998)^{250-n}=1.6664*10^{-4} $$"
+    "answer": "Using Eqs. (42) and (43)), one can obtain the results."
   },
   "meta_info": {
-    "index": "2.4",
+    "index": "6.1",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 2: Distribution Functions and Its Applications",
-    "section": "2.1 Discrete Distributions",
+    "chapter": "Chapter 6： Stochastic Processes",
+    "section": "6.4 Problems",
     "book": "Statistical Reliability Engineering",
-    "page": "70-70"
+    "page": "399-399"
   },
   "sample_key": "93"
 }

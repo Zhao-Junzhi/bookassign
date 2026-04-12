@@ -1,25 +1,41 @@
 {
-  "background": "Yay-Sachs is a metabolic disorder that is inherited as an autosomal recessive trait. Both recessive alleles are necessary for expression of the disease. Therefore, when each parent is a carrier, there is a one in four chance of transmitting the genetic disorder to each offspring.",
+  "background": "Tay-Sachs is a metabolic disorder that is inherited as an autosomal recessive trait. Both recessive alleles are necessary for expression of the disease. Therefore, when each parent is a carrier, there is a one in four chance of transmitting the genetic disorder to each offspring.",
   "task": [
     {
       "query": "Let X represent the number of offspring affected in three consecutive conceptions from Tay-Sachs carrier parents. Is X a binomial random variable? Explain your response.",
-      "answer": "Yes, this is a binomial random variable because it is based on $n=3$ independent Bernoulli trials, each with probability of success $p=0.25$.",
-      "method": "事件发生概率及独立性"
+      "answer": "Yes, this is a binomial random variable because it is based on n=3 independent Bernoulli trials, each with probability of success p=0.25."
     },
     {
-      "query": "A carrier couple is unaware of their carrier state. Let X represent the number of children conceived before an affected offspring is encountered. Is X is a binomial random variable? Explain.",
-      "answer": "This is not a binomial because the number of trials $n$ is not fixed.",
-      "method": "事件发生概率及独立性"
+      "query": "A carrier couple is unaware of their carrier state. Let X represent the number of children conceived before an affected offspring is encountered. Is X a binomial random variable? Explain.",
+      "answer": "This is not a binomial because the number of trials n is not fixed."
     }
   ],
   "id": "050",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "6.1",
     "image": "",
     "caption": "Tay-Sachs.",
     "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "section": "6.1 Binomial Random Variables",
     "page": "116-116"
+  },
+  "token_usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 487,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

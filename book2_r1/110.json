@@ -1,0 +1,38 @@
+{
+  "background": "Cigarette advertisements are required by federal law to carry the following statement.",
+  "task": [
+    {
+      "query": "What is the marketer's goal regarding the true proportion of cigarette consumers who fail to see the surgeon general's warning?",
+      "answer": "The marketer wants to make an inference about $p$, the true proportion of all cigarette consumers who fail to see the surgeon general's warning. In particular, the marketer wants to collect data to show that fewer than $80 \\\\%$ of cigarette consumers fail to see the warning, i.e., $p<.80$."
+    },
+    {
+      "query": "What are the null and alternative hypotheses for the marketer's test?",
+      "answer": "$p<.80$ represents the alternative hypothesis and $p=.80$ (the claim made by the FTC) represents the null hypothesis. That is, the marketer desires the one-tailed (lower-tailed) test: $H_0: p=.80$ (i.e., the FTC's claim is true) $H_{\\mathrm{a}}: p<.80$ (i.e., the FTC's claim is false)."
+    }
+  ],
+  "id": "110",
+  "data": null,
+  "meta_info": {
+    "index": "7.2",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "token_usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 468,
+    "total_tokens": 721,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\085.json",
+  "input": {
+    "background": "A manufacturer of microwave ovens is trying to determine the length of warranty period it should attach to its magnetron tube, the most critical component in the oven. Preliminary testing has shown that the length of life (in years), $x$, of a magnetron tube has an exponential probability distribution with $\\theta=6.25$.",
+    "data": null,
+    "question": "Find the mean and standard deviation of $x$."
+  },
+  "output": {
+    "answer": "Because $\\theta=\\mu=\\sigma$, both $\\mu$ and $\\sigma$ equal 6.25."
+  },
+  "meta_info": {
+    "index": "4.29",
+    "img_in_question": null
+  },
+  "sample_key": "206",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 920,
+    "total_tokens": 963,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 919,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 920,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 919,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_311.json",
+  "case_id": "book1_r1\\record_132.json",
   "input": {
-    "background": "Ginkgo biloba is a commonly used herb that claims to improve memory and cognitive function. A randomized, double blind study in an elderly population was conducted to evaluate whether this claim is true. The treatment group consisted of subjects who took the active product according to the manufacturer’s recommendation. The control group received lactose gelatin capsules that looked and tasted like the ginkgo pill. The study was double blinded, with subjects and evaluators administering cognitive tests unaware of whether subjects were receiving the ginkgo or placebo.",
+    "background": "Each year, cardiologists surgically repair thousands of clogged coronary arteries only to have many of these arteries narrow again (restenose) soon after surgery. A study sponsored by the NIH was conducted to help determine whether infection with a common type of virus, cytomegalovirus (CMY), contributed to coronary restenosis. Forty-nine of the subjects showed serological evidence of CMV infection, while 26 showed no such evidence. In the CMV+ group, 21 individuals restenosed within 6 months of atherectomy. In the CMV — group, 2 individuals restenosed.",
     "data": "",
-    "question": "Evaluate whether Ginkgo biloba improves memory and cognitive function in an elderly population."
+    "question": "What is the risk in the CMV+ group and the CMV- group, and what is the risk difference?"
   },
   "output": {
-    "method": "实验数据",
-    "answer": "Analysis revealed no difference in any of the cognitive functions that were measured.",
-    "variable": {
-      "Group": {
-        "id": "Group",
-        "value": [
-          "Treatment",
-          "Control"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Categorical variable indicating whether subjects are in the treatment group receiving Ginkgo biloba or in the control group receiving placebo."
-      },
-      "Memory_Cognitive_Score": {
-        "id": "Memory_Cognitive_Score",
-        "value": "Scores from cognitive tests administered to subjects",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Numerical variable representing the scores from cognitive tests used to evaluate memory and cognitive function."
-      }
-    }
+    "answer": "Risk in the CMV+ group $\\hat{p}_1=\\frac{21}{49}=0.4286$\n\nRisk in the CVM- group $\\hat{p}_2=\\frac{2}{26}=0.0769$\n\nRisk difference $\\hat{p}_1-\\hat{p}_2=0.4286-0.0769=0.3517$"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.3",
     "image": "",
-    "caption": "Ginkgo and memory enhancement.",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "31-31"
+    "caption": "Cytomegalovirus and coronary restenosis.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
+    "page": "379-379"
   },
   "sample_key": "329"
 }

@@ -1,30 +1,49 @@
 {
-  "background": "Chapter 17 considered results from the estrogen trial of the Women's Health Initiative study. The incidence of the combined morbidity index in the treatment group was 751 per 8506 (8.83%). The incidence in the control group was 623 of 8102 (7.69%). The test of H0: p1=p2 yielded z_stat=2.66, P=0.0078 (two sided). We propose to test the same information with a chi-square statistic.",
+  "background": "Chapter 17 considered results from the estrogen trial of the Women's Health Initiative study. The incidence of the combined morbidity index in the treatment group was 751 per 8506 (8.83%). The incidence in the control group was 623 of 8102 (7.69%). The test of H0: p1 = p2 yielded z_stat = 2.66, P = 0.0078 (two-sided). We propose to test the same information with a chi-square statistic.",
   "task": [
     {
-      "query": "Hypotheses. H0 : no association in source population is equivalent to H0: p1=p2. Ha : association in source population is equivalent to Ha: p1 ≠ p2.",
-      "answer": "H0 : no association in source population is equivalent to H0: p1=p2. Ha : association in source population is equivalent to Ha: p1 ≠ p2.",
-      "method": "独立性检验"
+      "query": "What are the null and alternative hypotheses for testing the association in the source population?",
+      "answer": "H0: no association in source population is equivalent to H0: p1 = p2. Ha: association in source population is equivalent to Ha: p1 ≠ p2."
     },
     {
-      "query": "Test statistic. Table 18.12 lists observed and expected frequencies for the problem. X_stat^2=sum[(Oi-Ei)^2/Ei] = (751-703.712)^2/703.712 + (7755-7802.288)^2/7802.288 + (623-670.288)^2/670.288 + (7479-7431.712)^2/7431.712 = 3.178 + 0.287 + 3.336 + 0.301 = 7.101. This chi-square statistic has df=(R-1)*(C-1)=(2-1)*(2-1)=1. Notice that sqrt(X_stat^2)=sqrt(7.101)=2.66=z_stat.",
-      "answer": "X_stat^2=sum[(Oi-Ei)^2/Ei] = (751-703.712)^2/703.712 + (7755-7802.288)^2/7802.288 + (623-670.288)^2/670.288 + (7479-7431.712)^2/7431.712 = 3.178 + 0.287 + 3.336 + 0.301 = 7.101. This chi-square statistic has df=(R-1)*(C-1)=(2-1)*(2-1)=1. Notice that sqrt(X_stat^2)=sqrt(7.101)=2.66=z_stat.",
-      "method": "独立性检验"
+      "query": "How is the chi-square test statistic calculated for this problem?",
+      "answer": "The chi-square test statistic is calculated as follows: X_stat^2 = Σ[(Oi - Ei)^2 / Ei] = (751 - 703.712)^2 / 703.712 + (7755 - 7802.288)^2 / 7802.288 + (623 - 670.288)^2 / 670.288 + (7479 - 7431.712)^2 / 7431.712 = 3.178 + 0.287 + 3.336 + 0.301 = 7.101."
     },
     {
-      "query": "P-value. The X_stat^2 of 7.101 with 1 df converts to P=0.0077, producing the same results as the z test (except for rounding error).",
-      "answer": "The X_stat^2 of 7.101 with 1 df converts to P=0.0077, producing the same results as the z test (except for rounding error).",
-      "method": "独立性检验"
+      "query": "What are the degrees of freedom for the chi-square test, and how does it relate to the z-test statistic?",
+      "answer": "The degrees of freedom for the chi-square test are df = (R - 1) × (C - 1) = (2 - 1) × (2 - 1) = 1. Notice that √X_stat^2 = √7.101 = 2.66 = z_stat."
+    },
+    {
+      "query": "What is the P-value for the chi-square test, and how does it compare to the z-test?",
+      "answer": "The X_stat^2 of 7.101 with 1 df converts to P = 0.0077, producing the same results as the z-test (except for rounding error)."
     }
   ],
   "id": "443",
   "data": "Observed frequencies\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.12 Observed and expected frequencies for the estrogen trial illustrative example.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multirow{4}{*}{\\begin{tabular}{l}\nTreatment group \\\nControl group\n\\end{tabular}} & Cases & Noncases & \\multirow[b]{4}{*}{\\begin{tabular}{l}\n8506 \\\n8102 \\\n16,608\n\\end{tabular}} \\\n\\hline & 751 & 7755 & \\\n\\hline & 623 & 7479 & \\\n\\hline & 1374 & 15,234 & \\\n\\hline \\multicolumn{4}{|l|}{Expected frequencies} \\\n\\hline & Cases & Noncases & Total \\\n\\hline Treatment group & 703.712 & 7802.288 & 8506 \\\n\\hline Control group & 670.288 & 7431.712 & 8102 \\\n\\hline Total & 1374 & 15,234 & 16,608 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "(Estrogen trial).",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
     "page": "429-430"
+  },
+  "token_usage": {
+    "completion_tokens": 516,
+    "prompt_tokens": 780,
+    "total_tokens": 1296,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

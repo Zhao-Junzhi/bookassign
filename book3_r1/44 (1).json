@@ -1,10 +1,9 @@
 {
-  "background": "Rolling resistance is a measure of the energy lost by a tire under load when it resists the force opposing its direction of travel. In a typical car, traveling at sixty miles per hour, about 20% of the engine power is used to overcome the rolling resistance of the tires. A tire manufacturer introduces a new material that, when added to the tire rubber compound, significantly improves the tire rolling resistance but increases the wear rate of the tire tread. Analysis of a laboratory test of 150 tires shows that the failure rate of the new tire is linearly increasing with time (hours). It is expressed as h(t)=0.5 × 10^{-8} t.",
+  "background": "Rolling resistance is a measure of the energy lost by a tire under load when it resists the force opposing its direction of travel. In a typical car, traveling at sixty miles per hour, about 20% of the engine power is used to overcome the rolling resistance of the tires. A tire manufacturer introduces a new material that, when added to the tire rubber compound, significantly improves the tire rolling resistance but increases the wear rate of the tire tread. Analysis of a laboratory test of 150 tires shows that the failure rate of the new tire is linearly increasing with time (hours). It is expressed as h(t) = 0.5 × 10^(-8) t.",
   "task": [
     {
       "query": "Determine the reliability of the tire after one year.",
-      "answer": "The reliability of the tire after one year (8760 h) of use is R(1 year)=e^{-(0.5/2) × 10^{-8} × (8760)^2}=0.8254. Figure 2.11 shows the resulting reliability function.",
-      "method": "生存分析"
+      "answer": "The reliability of the tire after one year (8760 h) of use is R(1 year) = e^(-0.5/2 × 10^(-8) × (8760)^2) = 0.8254."
     }
   ],
   "id": "44",
@@ -18,5 +17,23 @@
     "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "115-116"
+  },
+  "token_usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 524,
+    "total_tokens": 752,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,30 +1,45 @@
 {
-  "background": "Say whether each of the boldface numbers is a parameter or a statistic.",
+  "background": "Determine whether the boldface numbers in the given scenarios represent a parameter or a statistic.",
   "task": [
     {
-      "query": "Insured? A data set based on 168 hospital discharge summaries shows that 20% of patients were uninsured. (The review takes place in a large referral hospital.)",
-      "answer": "Statistic",
-      "method": "集中趋势测度"
+      "query": "Insured? A data set based on 168 hospital discharge summaries shows that 20% of patients were uninsured. (The review takes place in a large referral hospital.) Is 20% a parameter or a statistic?",
+      "answer": "Statistic"
     },
     {
-      "query": "Percent African American. Data from a standard metropolitan area (SMA) indicate that 12% of the inhabitants are African American. A telephone survey that was based on a random-digit-dialing machine found that 8% of respondents were African American.",
-      "answer": "The number 12% is a parameter. The number 8% is a statistic.",
-      "method": "集中趋势测度"
+      "query": "Percent African American. Data from a standard metropolitan area (SMA) indicate that 12% of the inhabitants are African American. A telephone survey that was based on a random-digit-dialing machine found that 8% of respondents were African American. Are 12% and 8% parameters or statistics?",
+      "answer": "The number 12% is a parameter. The number 8% is a statistic."
     },
     {
-      "query": "Cost of antihypertensive medication. Data from 10 online pharmacies reveal that the average cost of a 1-month supply of a particular medication is $31.20 with standard deviation $7.75. Data from 10 community pharmacies shows an average cost of $33.18 with standard deviation $7.88.",
-      "answer": "All are statistics. (These statistics will be used to infer costs at online and community pharmacies, respectively.)",
-      "method": "集中趋势测度"
+      "query": "Cost of antihypertensive medication. Data from 10 online pharmacies reveal that the average cost of a 1-month supply of a particular medication is $31.20 with standard deviation $7.75. Data from 10 community pharmacies shows an average cost of $33.18 with standard deviation $7.88. Are these values parameters or statistics?",
+      "answer": "All are statistics. (These statistics will be used to infer costs at online and community pharmacies, respectively.)"
     }
   ],
   "id": "503",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "8.3",
     "image": "",
     "caption": "Parameter or statistic?",
     "chapter": "Introduction to Statistical Inference",
     "section": "8.1 Concepts",
     "page": "158-158"
+  },
+  "token_usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 562,
+    "total_tokens": 871,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

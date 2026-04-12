@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\012.json",
+  "input": {
+    "background": "In 1978–79, a random sample of 1007 residents (608 men and 399 women) of the Lothian region was surveyed about their alcohol consumption over the previous seven days. In 1981, due to an increase in taxation and brewers' prices, the cost of alcoholic beverages rose faster than the retail price index for the first time in over 30 years. A follow-up survey was conducted in 1981–82 on 676 'regular drinkers' (those who reported drinking in the first survey). Over the three years, the cost of alcoholic beverages rose by 61%, while the retail price index rose by 52%. Average earnings increased slightly more than the retail price index, but unemployment in the Edinburgh area rose significantly. Of the 676 'regular drinkers,' 463 (69%) were successfully re-interviewed, while 213 were not due to various reasons (e.g., untraceable, left the region, refusal, illness, or death). The authors reported a reduction in alcohol consumption and adverse effects among the 463 re-interviewed subjects and attributed this to the rising cost of alcohol relative to income.",
+    "data": null,
+    "question": "Were the 463 'regular drinkers' really a 'representative population'?"
+  },
+  "output": {
+    "answer": "No. For reasons given above, they are by no means representative. Further, they are a sample, not a population."
+  },
+  "meta_info": {
+    "index": "5.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "103-104"
+  },
+  "sample_key": "36",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1231,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1201,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1231,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1201,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

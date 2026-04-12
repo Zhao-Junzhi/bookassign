@@ -1,12 +1,11 @@
 {
   "case_id": "book3_r1\\03.json",
   "input": {
-    "background": "A product undergoes six operations that can be performed if any sequence.",
+    "background": "A product undergoes six operations that can be performed in any sequence.",
     "data": null,
     "question": "In how many different ways can it be produced?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
     "answer": "The number of different ways is $N!=6!=720$."
   },
   "meta_info": {

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_152.json",
+  "input": {
+    "background": "A study compares the outcomes of a treatment group and a control group. In the treatment group, 40 out of 320 individuals (12.5%) experience an outcome, while in the control group, 26 out of 336 individuals (7.7%) experience the outcome. The data is presented in a crosstabulated form (Table 18.28). The task involves calculating chi-square statistics and P-values using both Pearson's and continuity-corrected (Yates') chi-square methods and interpreting the results.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.28 Data for Exercise 18.23.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multirow{2}{*}{} & \\multicolumn{2}{|l|}{Adverse event} & \\multirow[b]{2}{*}{Total} \\\n\\hline & Yes & No & \\\n\\hline Treatment & 40 & 280 & 320 \\\n\\hline Control & 26 & 310 & 336 \\\n\\hline Total & 66 & 590 & 656 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the chi-square statistic and P-value using Pearson's chi-square method."
+  },
+  "output": {
+    "answer": "Without continuity-correction: $X^2_{\text{stat}}=4.107, df=1, P=0.043$"
+  },
+  "meta_info": {
+    "index": "18.23",
+    "image": "",
+    "caption": "Don’t sweat the small stuff.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.6 MATCHED PAIRS",
+    "page": "458-458"
+  },
+  "sample_key": "382",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1354,
+    "total_tokens": 1397,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1353,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1354,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1353,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,10 +1,9 @@
 {
-  "background": "The completion time $X$ for a project has cumulative distribution function\n\n$$\nF(x)= \\begin{cases}0 & \\text { for } x<0 \\\\ \\frac{x^3}{3} & \\text { for } 0 \\leq x<1 \\\\ 1-\\frac{1}{2}\\left(\\frac{7}{3}-x\\right)\\left(\\frac{7}{4}-\\frac{3}{4} x\\right) & \\text { for } 1 \\leq x<\\frac{7}{3} \\\\ 1 & \\text { for } x \\geq \\frac{7}{3}\\end{cases}\n$$",
+  "background": "The completion time $X$ for a project has a cumulative distribution function defined piecewise as follows:\n\n$$\nF(x)= \\begin{cases}0 & \\text { for } x<0 \\\\\n\\frac{x^3}{3} & \\text { for } 0 \\leq x<1 \\\\\n1-\\frac{1}{2}\\left(\\frac{7}{3}-x\\right)\\left(\\frac{7}{4}-\\frac{3}{4} x\\right) & \\text { for } 1 \\leq x<\\frac{7}{3} \\\\\n1 & \\text { for } x \\geq \\frac{7}{3}\\end{cases}\n$$",
   "task": [
     {
       "query": "Calculate the expected completion time.",
-      "answer": "$$\n\\text {The expected completion time is: } 1.213\n$$",
-      "method": "期望"
+      "answer": "The expected completion time is: 1.213"
     }
   ],
   "id": "97",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "65-65"
+  },
+  "token_usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 482,
+    "total_tokens": 691,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

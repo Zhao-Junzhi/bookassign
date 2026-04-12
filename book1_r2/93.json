@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_052.json",
+  "case_id": "book1_r1\\record_042.json",
   "input": {
-    "background": "A telephone survey uses a random digit dialing machine to call subjects. The random digit dialing machine is expected to reach a live person 15% of the time.",
+    "background": "A small data set $(n=9)$ has the following values $\\{3.5,8.1,7.4,4.0,0.7,4.9,8.4,7.0,5.5\\}$.",
     "data": "",
-    "question": "In eight attempts, what is the probability of achieving exactly two successful calls?"
+    "question": "Report an appropriate measures of central location and spread for the data."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "$\\begin{aligned} & X \\sim b(8,0.15) \\\\ & \\operatorname{Pr}(X=2)=0.237604\\end{aligned}$",
-    "variable": {
-      "success_probability": {
-        "id": "success_probability",
-        "value": 0.15,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The probability of reaching a live person in a single call attempt."
-      },
-      "total_attempts": {
-        "id": "total_attempts",
-        "value": 8,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The total number of call attempts made."
-      },
-      "successful_calls": {
-        "id": "successful_calls",
-        "value": 2,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of successful calls where a live person is reached."
-      }
-    }
+    "answer": "Symmetry is confirmed by the fact that both $\\bar{x}$ and the median are equal to 5.5. Therefore, the mean and standard deviation should do a good job summarizing this distribution."
   },
   "meta_info": {
-    "index": "6.5",
+    "index": "4.19",
     "image": "",
-    "caption": "Telephone survey.",
-    "chapter": "BINOMIAL PROBABILITY DISTRIBUTIONS",
-    "section": "6.4 Probability Calculators",
-    "page": "122-122"
+    "caption": "What would you report?",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.8 SELECTING SUMMARY STATISTICS",
+    "page": "87-87"
   },
   "sample_key": "93"
 }

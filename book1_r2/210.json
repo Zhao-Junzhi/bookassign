@@ -1,61 +1,20 @@
 {
-  "case_id": "book1_r1\\record_108.json",
+  "case_id": "book1_r1\\record_090.json",
   "input": {
-    "background": "A randomized, double-blind, placebo-controlled study evaluated the effects of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in 2- to 11-year-olds. Each time a child had an upper respiratory tract infection, treatment with either echinacea or a placebo was given for the duration of the illness. One of the outcomes studied was \"severity of symptoms.\" A severity scale based on four symptoms was monitored and recorded by the parents of subjects for each instance of upper respiratory infection. The peak severity of symptoms in the 337 cases treated with echinacea had a mean score of 6.0 (standard deviation 2.3). The peak severity of symptoms in the placebo group $\\left(n_2=\\right.$\n370) had a mean score of 6.1 (standard deviation 2.4).",
-    "data": "",
-    "question": "Discuss your findings."
+    "background": "Exercise 11.11 calculated the mean length of menstrual cycles in an SRS of n=9 women. The data revealed x̄=27.78 days with standard deviation s=2.906 days.",
+    "data": " Exercise 11.11 ：Menstrual cycle lengths (days) in an SRS of nine women are as follows: $\\{31,28,26,24,29,33,25,26,28\\}$. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a twosided alternative. Show all hypothesis-testing steps.",
+    "question": "Is the mean menstrual cycle length significantly different from μ=30 days at the same α-level? Explain your reasoning."
   },
   "output": {
-    "method": "回归系数显著性与方向解读",
-    "answer": "The evidence against $H_0$ is not significant at $\\alpha=$ 0.10, indicating that there is no significant difference in the mean peak severity of symptoms between the echinacea and placebo groups.",
-    "variable": {
-      "treatment_group": {
-        "id": "treatment_group",
-        "value": [
-          "echinacea",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The group to which the child was assigned for treatment, either echinacea or placebo."
-      },
-      "peak_severity_echinacea": {
-        "id": "peak_severity_echinacea",
-        "value": 6.0,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean peak severity score of symptoms for cases treated with echinacea."
-      },
-      "std_dev_echinacea": {
-        "id": "std_dev_echinacea",
-        "value": 2.3,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the peak severity scores for cases treated with echinacea."
-      },
-      "peak_severity_placebo": {
-        "id": "peak_severity_placebo",
-        "value": 6.1,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The mean peak severity score of symptoms for cases treated with placebo."
-      },
-      "std_dev_placebo": {
-        "id": "std_dev_placebo",
-        "value": 2.4,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The standard deviation of the peak severity scores for cases treated with placebo."
-      }
-    }
+    "answer": ""
   },
   "meta_info": {
-    "index": "12.19",
+    "index": "11.13",
     "image": "",
-    "caption": "Efficacy of echinacea, severity of symptoms.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "257-258"
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.4 Confidence Interval for $\\mu$",
+    "page": "218-218"
   },
   "sample_key": "210"
 }

@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\081.json",
+  "input": {
+    "background": "One problem with any product (e.g., a graphing calculator) that is mass produced is quality control. The process must somehow be monitored or audited to be sure the output of the process conforms to requirements. One method of dealing with this problem is lot acceptance sampling, in which items being produced are sampled at various stages of the production process and are carefully inspected. The lot of items from which the sample is drawn is then accepted or rejected, based on the number of defectives in the sample. Lots that are accepted may be sent forward for further processing or may be shipped to customers; lots that are rejected may be reworked or scrapped. For example, suppose a manufacturer of calculators chooses 200 stamped circuits from the day's production and determines $x$, the number of defective circuits in the sample. Suppose that up to a $6 \\%$ rate of defectives is considered acceptable for the process.",
+    "data": null,
+    "question": "Find the mean and standard deviation of $x$, assuming the defective rate is $6 \\%$."
+  },
+  "output": {
+    "answer": "The random variable $x$ is binomial with $n=200$ and the fraction defective $p=.06$. Thus,\n\n$$\n\\begin{aligned}\n& \\mu=n p=200(.06)=12 \\\\\n& \\sigma=\\sqrt{n p q}=\\sqrt{200(.06)(.94)}=\\sqrt{11.28}=3.36\n\\end{aligned}\n$$\n\nWe first note that\n\n$$\n\\mu \\pm 3 \\sigma=12 \\pm 3(3.36)=12 \\pm 10.08=(1.92,22.08)\n$$\n\nlies completely within the range from 0 to 200. Therefore, a normal probability distribution should provide an adequate approximation to this binomial distribution."
+  },
+  "meta_info": {
+    "index": "4.25",
+    "img_in_question": null
+  },
+  "sample_key": "196"
+}

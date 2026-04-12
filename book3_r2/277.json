@@ -1,0 +1,22 @@
+{
+  "case_id": "book3_r1\\83.json",
+  "input": {
+    "background": "A committee of k people is to be chosen from a set of 7 women and 4 men.",
+    "data": null,
+    "question": "How many ways are there to form the committee if the committee can be any positive size but must have equal numbers of women and men?"
+  },
+  "output": {
+    "answer": "329 ways"
+  },
+  "meta_info": {
+    "index": "1.30",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "62-62"
+  },
+  "sample_key": "277"
+}

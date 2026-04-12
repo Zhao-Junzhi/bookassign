@@ -1,15 +1,13 @@
 {
-  "background": "Patients with chronic renal failure undergoing haemodialysis were divided into groups with low or normal plasma heparin cofactor II (HC II) levels (Toulon et al., 1987). Five months later the acute effects of haemodialysis were studied by analysing plasma samples taken before and after haemodialysis. As dialysis increases total protein concentration in plasma, the ratio of HC II to protein was calculated, with the results shown in the following table.",
+  "background": "Patients with chronic renal failure undergoing haemodialysis were divided into groups with low or normal plasma heparin cofactor II (HC II) levels. Five months later, the acute effects of haemodialysis were studied by analysing plasma samples taken before and after haemodialysis. Since dialysis increases total protein concentration in plasma, the ratio of HC II to protein was calculated. The authors analysed the data using separate paired Wilcoxon tests for each group, reporting $\\mathrm{P}<0.01$ for group 1 and $\\mathrm{P}>0.05$ for group 2.",
   "task": [
     {
       "query": "Why is it wrong to conclude, as the authors did, that HC II activity increased in group 1 but not in group 2?",
-      "answer": "The P values associated with paired Wilcoxon tests of the data for Groups 1 and 2 are 0.01 and 0.09, which are not so far apart. More revealing are the means and standard deviations of the changes:\n\nGroup 1: Mean = -0.078, SD = 0.073\nGroup 2: Mean = -0.071, SD = 0.129\n\nThe mean changes in the two groups are almost the same.",
-      "method": "假设检验与区间估计"
+      "answer": "The P values associated with paired Wilcoxon tests of the data for Groups 1 and 2 are 0.01 and 0.09, which are not so far apart. The mean changes in the two groups are almost the same: Group 1 has a mean change of -0.078 (SD = 0.073), and Group 2 has a mean change of -0.071 (SD = 0.129). Thus, the conclusion that HC II activity increased in group 1 but not in group 2 is not supported by the data."
     },
     {
       "query": "Carry out a better analysis of these data.",
-      "answer": "The correct way to compare the groups is by testing directly the difference between the changes in the two groups. A two sample t test gives t=0.16 on 22 degrees of freedom (P=0.88). The SDs are rather different, so that the assumptions of the t test may not be considered reasonable. A similar result is, however, obtained from a Mann-Whitney test (z=0.89, P=0.37). There is thus no evidence to support the idea that the groups differ.",
-      "method": "假设检验与区间估计"
+      "answer": "The correct way to compare the groups is by testing directly the difference between the changes in the two groups. A two-sample $t$ test gives $t=0.16$ on 22 degrees of freedom ($\\mathrm{P}=0.88$). The SDs are rather different, so the assumptions of the $t$ test may not be reasonable. However, a Mann-Whitney test gives a similar result ($z=0.89, \\mathrm{P}=0.37$). There is thus no evidence to support the idea that the groups differ."
     }
   ],
   "id": "028",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "226-227"
+  },
+  "token_usage": {
+    "completion_tokens": 440,
+    "prompt_tokens": 723,
+    "total_tokens": 1163,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

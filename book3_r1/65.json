@@ -1,15 +1,13 @@
 {
-  "background": "A shared-load system refers to a parallel system whose units equally share the system function. Therefore, for a shared-load parallel system to fail, all the units in the system must fail. Determine the reliability and mean time to failure (MTTF) of a 3-unit shared-load parallel system where λ₀ is the constant failure rate of a unit when all the three units are operational; λₕ is the constant failure rate of each of the two surviving units, each of which shares half of the total load; and λₓ is the constant failure rate of a unit at full load.",
+  "background": "A shared-load system refers to a parallel system whose units equally share the system function. For a shared-load parallel system to fail, all the units in the system must fail. The problem involves determining the reliability and mean time to failure (MTTF) of a 3-unit shared-load parallel system where λ₀ is the constant failure rate of a unit when all three units are operational, λₕ is the constant failure rate of each of the two surviving units sharing half of the total load, and λf is the constant failure rate of a unit at full load.",
   "task": [
     {
-      "query": "Determine the reliability at t=10 hours where λ₀=0.001/hour; λₕ=0.005/hour; and λₓ=0.05/hour.",
-      "answer": "The reliability at t=10 hours is R(t) = 0.9997.",
-      "method": "数学计算"
+      "query": "Determine the reliability at t=10 hours where λ₀=0.001/hour, λₕ=0.005/hour, and λf=0.05/hour.",
+      "answer": "Given λ₀=0.001/hour, λₕ=0.005/hour, and λf=0.05/hour, the reliability at time t=10 hours is calculated as follows:\n\nR(t) = e^(-3λ₀t) + [3λ₀ / (2λₕ - 3λ₀)] * (e^(-3λ₀t) - e^(-2λₕt)) + 6λ₀λₕ * [e^(-3λ₀t) / ((3λ₀ - 2λₕ)(3λ₀ - λf)) + e^(-2λₕt) / ((2λₕ - 3λ₀)(2λₕ - λf)) + e^(-λft) / ((λf - 3λ₀)(λf - 2λₕ))].\n\nSubstituting the given values:\nR(t) = e^(-3(0.001)(10)) + [3(0.001) / (2(0.005) - 3(0.001))] * (e^(-3(0.001)(10)) - e^(-2(0.005)(10))) + 6(0.001)(0.005) * [e^(-3(0.001)(10)) / ((3(0.001) - 2(0.005))(3(0.001) - 0.05)) + e^(-2(0.005)(10)) / ((2(0.005) - 3(0.001))(2(0.005) - 0.05)) + e^(-0.05(10)) / ((0.05 - 3(0.001))(0.05 - 2(0.005)))].\n\nAfter computation, R(t) = 0.9997."
     },
     {
-      "query": "What is the MTTF?",
-      "answer": "The system mean time to failure (MTTF) is 453.33 hours.",
-      "method": "数学计算"
+      "query": "What is the mean time to failure (MTTF) of the system?",
+      "answer": "The system mean time to failure (MTTF) is calculated as:\n\nMTTF = (1 / 3λ₀) + (1 / 2λₕ) + (1 / λf).\n\nSubstituting the given values:\nMTTF = (1 / 3(0.001)) + (1 / 2(0.005)) + (1 / 0.05).\n\nAfter computation, MTTF = 453.33 hours."
     }
   ],
   "id": "65",
@@ -23,5 +21,23 @@
     "section": "4.9 Load-Sharing Systems with Dependent Failures",
     "book": "Statistical Reliability Engineering",
     "page": "250-253"
+  },
+  "token_usage": {
+    "completion_tokens": 729,
+    "prompt_tokens": 3817,
+    "total_tokens": 4546,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

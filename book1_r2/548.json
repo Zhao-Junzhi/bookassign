@@ -1,54 +1,20 @@
 {
-  "case_id": "book1_r1\\record_437.json",
+  "case_id": "book1_r1\\record_367.json",
   "input": {
-    "background": "To examine the relationship between male-pattern baldness and myocardial infarction, investigators studied 655 men admitted to a hospital for a first nonfatal myocardial infarction (cases) and 772 admitted to the same hospitals with noncardiac diagnoses (controls). This is a case-control sample because the investigator selected fixed numbers of subjects based on the status of the response variable (myocardial infarction).",
+    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean μ=170 pounds and standard deviation σ=40. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean. Under the null hypothesis, there is no difference in the mean body weights between then and now.",
     "data": "",
-    "question": "The extent of baldness was assessed in subjects using several methods."
+    "question": "What is the two-sided alternative hypothesis for this example?"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "null",
-    "variable": {
-      "Number_of_cases": {
-        "id": "Number_of_cases",
-        "value": 655,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of men admitted to a hospital for a first nonfatal myocardial infarction."
-      },
-      "Number_of_controls": {
-        "id": "Number_of_controls",
-        "value": 772,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of men admitted to the same hospitals with noncardiac diagnoses."
-      },
-      "Baldness_extent": {
-        "id": "Baldness_extent",
-        "value": "assessed using several methods",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The extent of baldness in subjects, assessed using several methods."
-      },
-      "Myocardial_infarction_status": {
-        "id": "Myocardial_infarction_status",
-        "value": [
-          "case",
-          "control"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The status of myocardial infarction in subjects, either as cases or controls."
-      }
-    }
+    "answer": "For this example, the two-sided alternative hypothesis would be Ha: μ≠170."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Case-control sample (Baldness and myocardial infarc-tion).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.1 Types of Samples",
-    "page": "409-409"
+    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 The Null and Alternative Hypotheses",
+    "page": "176-177"
   },
   "sample_key": "548"
 }

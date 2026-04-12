@@ -2,14 +2,12 @@
   "background": "How many ways are there to form a sequence of 10 letters from 4a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice?",
   "task": [
     {
-      "query": "What are the possible groups of letter frequencies that sum to 10 with each letter appearing two or more times?",
-      "answer": "The first group is four appearances of one letter and two appearances of each remaining letter. The second is three appearances of two letters and two appearances of the other two letters.",
-      "method": "概率空间相关（如状态数）"
+      "query": "What are the possible groups of letter frequencies that sum to 10 with each letter appearing at least twice?",
+      "answer": "There are two groups of letter frequencies that sum to 10 with each letter appearing two or more times. The first group is four appearances of one letter and two appearances of each remaining letter. The second is three appearances of two letters and two appearances of the other two letters."
     },
     {
-      "query": "What is the total number of ways to form a sequence of 10 letters from 4 a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice?",
-      "answer": "It is easy to show that the total number of ways to form a sequence of 10 letters from 4 a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice is 226,800.",
-      "method": "概率空间相关（如状态数）"
+      "query": "How many total ways are there to form a sequence of 10 letters under the given conditions?",
+      "answer": "It is easy to show that the total number of ways to form a sequence of 10 letters from 4 a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice is 226,800."
     }
   ],
   "id": "08",
@@ -23,5 +21,23 @@
     "section": "1.2 Probability Axioms",
     "book": "Statistical Reliability Engineering",
     "page": "12-12"
+  },
+  "token_usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 451,
+    "total_tokens": 685,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

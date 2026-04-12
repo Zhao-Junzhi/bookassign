@@ -1,64 +1,20 @@
 {
-  "case_id": "book1_r1\\record_435.json",
+  "case_id": "book1_r1\\record_367.json",
   "input": {
-    "background": "Investigators prospectively studied 75 consecutive patients undergoing coronary atherectomy for symptomatic coronary artery disease. Before atherectomy was performed, blood levels of anticytomegalovirus (CMV) antibodies were measured. Forty-nine patients were seropositive for CMV, and 26 patients were seronegative. Subjects were then followed for 6 months after atherectomy to determine incidents of restenosis.",
+    "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean μ=170 pounds and standard deviation σ=40. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean. Under the null hypothesis, there is no difference in the mean body weights between then and now.",
     "data": "",
-    "question": "If we make the simplifying assumption that the sample represents a simple random sample of like patients, we can view this as a naturalistic sample of $N=75$ in which $n_1=49$ are seropositive and $n_2=26$ are seronegatives for CMV."
+    "question": "What is the null hypothesis for testing whether body weight has increased since the late 1970s?"
   },
   "output": {
-    "method": "观测数据",
-    "answer": "null",
-    "variable": {
-      "N": {
-        "id": "N",
-        "value": 75,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of patients in the study."
-      },
-      "n1": {
-        "id": "n1",
-        "value": 49,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of patients who are seropositive for CMV."
-      },
-      "n2": {
-        "id": "n2",
-        "value": 26,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of patients who are seronegative for CMV."
-      },
-      "CMV_status": {
-        "id": "CMV_status",
-        "value": [
-          "seropositive",
-          "seronegative"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The CMV antibody status of the patients (seropositive or seronegative)."
-      },
-      "restenosis_incident": {
-        "id": "restenosis_incident",
-        "value": [
-          "yes",
-          "no"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Whether the patient experienced restenosis within 6 months after atherectomy."
-      }
-    }
+    "answer": "Let μ represent the current population mean. Therefore, the null hypothesis is H0: μ=170."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Naturalistic sample (Cytomegalovirus and coronary  restenosis).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.1 Types of Samples",
-    "page": "408-408"
+    "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.1 The Null and Alternative Hypotheses",
+    "page": "176-177"
   },
   "sample_key": "546"
 }

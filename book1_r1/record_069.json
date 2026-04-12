@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Can the Normal approximation to the binomial be applied under these conditions?",
-      "answer": "$n p q=(50)(0.05)(0.95)=2.375$. Therefore, the sample is too small to apply the Normal approximation.",
-      "method": "事件发生概率及独立性"
+      "answer": "$n p q=(50)(0.05)(0.95)=2.375$. Therefore, the sample is too small to apply the Normal approximation."
     },
     {
       "query": "If not, what probability model can be used to describe the sampling variability of the number of asthmatics?",
-      "answer": "The binomial function $X \\sim \\mathrm{~b}(50,0.05)$ can be applied to random variable $X$.",
-      "method": "事件发生概率及独立性"
+      "answer": "The binomial function $X \\sim \\mathrm{~b}(50,0.05)$ can be applied to random variable $X$."
     }
   ],
   "id": "069",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "8.9",
     "image": "",
     "caption": "Pediatric asthma survey, n = 50.",
     "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
     "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
     "page": "172-172"
+  },
+  "token_usage": {
+    "completion_tokens": 184,
+    "prompt_tokens": 424,
+    "total_tokens": 608,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

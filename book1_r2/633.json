@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_397.json",
+  "input": {
+    "background": "What is the minimal detectable difference when using n=30 per group in the cholesterol illustrative example? Assume α=0.05 (two-sided) and power=0.90. We have established 0.25 as a reasonable estimate for σ².",
+    "data": "",
+    "question": "Calculate the minimal detectable difference (Δ) using the formula Δ = √(2 * σ² / n) * (z_(1-β) + z_(1-α/2)), where n=30, α=0.05, power=0.90, and σ²=0.25."
+  },
+  "output": {
+    "answer": "Δ = √(2 * 0.25 / 30) * (1.282 + 1.96) = 0.42. This study will be able to detect a mean difference of 0.42 mmol/L under the stated conditions."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Minimal detectable difference.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.6 SAMPLE SIZE AND POWER",
+    "page": "252-253"
+  },
+  "sample_key": "633"
+}

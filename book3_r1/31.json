@@ -1,10 +1,13 @@
 {
-  "background": "Suppose there are 500 items in the lot and their manufacturer claims that no more than 5% are defective. Then when the shipment is received at an assembly plant, a quality control manager asks his staff to take a random sample of size 20 from it without replacement and will accept the lot if there are at most 1 defective item in the sample. If let say 5% are defective in the entire lot, then it consists of 25 defective items.",
+  "background": "Suppose there are 500 items in the lot and their manufacturer claims that no more than 5% are defective. When the shipment is received at an assembly plant, a quality control manager asks his staff to take a random sample of size 20 from it without replacement. The manager will accept the lot if there are at most 1 defective item in the sample. If 5% of the items are defective in the entire lot, then it consists of 25 defective items.",
   "task": [
     {
-      "query": "What is the probability that the manager will accept the lot?",
-      "answer": "Let X be the number of defective items in a sample of size 20, then it has a hypergeometric distribution and its probability function is as follows $$ P(X=x)=\\frac{\\binom{25}{x}\\binom{475}{20-x}}{\\binom{500}{20}} \\quad x=0,1,2, \\ldots, 20 $$ The probability that the manager will accept the lot, means that there will be at most 1 defective item in a random sample of size 20, is as follows: $$ \\begin{aligned} P(X \\leq 1) & =\\frac{\\binom{25}{0}\\binom{475}{20}}{\\binom{500}{20}}+\\frac{\\binom{25}{1}\\binom{475}{19}}{\\binom{500}{20}} \\\\ & =0.3511941+0.3850813=0.7362754 \\end{aligned} $$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability distribution of the number of defective items in a sample of size 20?",
+      "answer": "Let X be the number of defective items in a sample of size 20, then it has a hypergeometric distribution and its probability function is as follows: $$ P(X=x)=\\frac{\\binom{25}{x}\\binom{475}{20-x}}{\\binom{500}{20}} \\quad x=0,1,2, \\ldots, 20 $$"
+    },
+    {
+      "query": "What is the probability that the manager will accept the lot, meaning there will be at most 1 defective item in a random sample of size 20?",
+      "answer": "The probability that the manager will accept the lot is as follows: $$ \\begin{aligned} P(X \\leq 1) & =\\frac{\\binom{25}{0}\\binom{475}{20}}{\\binom{500}{20}}+\\frac{\\binom{25}{1}\\binom{475}{19}}{\\binom{500}{20}} \\\\ & =0.3511941+0.3850813=0.7362754 \\end{aligned} $$"
     }
   ],
   "id": "31",
@@ -18,5 +21,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "85-86"
+  },
+  "token_usage": {
+    "completion_tokens": 387,
+    "prompt_tokens": 624,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

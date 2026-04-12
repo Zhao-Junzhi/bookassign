@@ -2,9 +2,12 @@
   "background": "A class consists of 10 girls and 12 boys. The teacher selects 6 children at random for group projects.",
   "task": [
     {
-      "query": "Is it more likely that she chooses 3 girls and 3 boys or that she chooses 2 girls and 4 boys?",
-      "answer": "Let $X$ denote the number of girls in the selected number of children.\n\n$$\nP(X=2)=\\frac{\\binom{10}{2}\\binom{12}{4}}{\\binom{22}{6}}=0.2986\n$$\n\nand\n\n$$\nP(X=3)=\\frac{\\binom{10}{3}\\binom{12}{3}}{\\binom{22}{6}}=0.3538 .\n$$",
-      "method": "概率空间相关（如状态数）"
+      "query": "Is it more likely that the teacher chooses 3 girls and 3 boys?",
+      "answer": "$$P(X=3)=\\frac{\\binom{10}{3}\\binom{12}{3}}{\\binom{22}{6}}=0.3538 .$$"
+    },
+    {
+      "query": "Is it more likely that the teacher chooses 2 girls and 4 boys?",
+      "answer": "$$P(X=2)=\\frac{\\binom{10}{2}\\binom{12}{4}}{\\binom{22}{6}}=0.2986$$"
     }
   ],
   "id": "107",
@@ -18,5 +21,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "132-132"
+  },
+  "token_usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 446,
+    "total_tokens": 627,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

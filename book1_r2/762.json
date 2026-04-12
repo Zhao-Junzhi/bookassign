@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_452.json",
+  "input": {
+    "background": "We submit the asbestos, smoking, and lung cancer data to a test of interaction.",
+    "data": "",
+    "question": "What is the P-value and conclusion of the test?"
+  },
+  "output": {
+    "answer": "The observed $X^2_{stat,int}$ with $1 df$ corresponds to $P = 2.2 \\times 10^{-5}$. This provides strong evidence against $H_0$. Therefore, the statistical interaction is confirmed."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Test for interaction (Asbestos, cigarettes, and lung cancer).",
+    "chapter": "STRATIFIED 2-BY-2 TABLES",
+    "section": "19.4 INTERACTION",
+    "page": "477-477"
+  },
+  "sample_key": "762"
+}

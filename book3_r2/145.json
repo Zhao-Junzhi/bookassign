@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\59.json",
+  "case_id": "book3_r1\\32.json",
   "input": {
-    "background": "Given a gamma prior with $n=2$ and $\\beta=0.0001$ and current data as before (i.e., 1000 h of test with one failure), the posterior density becomes.",
+    "background": "A certain manufacturing plant has five production lines, all making use of a specific bulk product. The amount of product used in one day can be modeled as having an exponential distribution with a mean of 6 (measurements in thousands), for each of the five lines. The lines operate independently.",
     "data": null,
-    "question": "Choose $\\alpha=0.1$ and calculate $\\chi_{6,1-\\alpha}^2=\\chi_{6,0.9}^2$ and the corresponding probability."
+    "question": "Explain the hazard function or failure rate for the exponential density function."
   },
   "output": {
-    "method": "贝叶斯",
-    "answer": "$$\\chi_{6,1-\\alpha}^2=\\chi_{6,0.9}^2=10.6$$ and $$p\\left[\\lambda^{\\prime}<10.6\\right]=0.9$$"
+    "answer": "The hazard function or failure rate for the exponential density function is constant, i.e., $$h(t)=\\frac{f(t)}{R(t)}=\\frac{\\frac{1}{\\theta} e^{-\\frac{1}{\\theta}}}{e^{-\\frac{1}{\\theta}}}=\\frac{1}{\\theta}=\\lambda$$ The failure rate for this distribution is $\\lambda$, a constant, which is the main reason for this widely used distribution. Because of its constant failure rate property, the exponential is an excellent model for the long flat."
   },
   "meta_info": {
-    "index": "3.42",
+    "index": "2.16",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 3： Statistical Inference",
-    "section": "3.14 Bayesian Methods",
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
-    "page": "205-205"
+    "page": "89-90"
   },
   "sample_key": "145"
 }

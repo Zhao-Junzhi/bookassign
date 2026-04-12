@@ -3,11 +3,10 @@
   "input": {
     "background": "Suppose that 3 people are chosen randomly from among 10 to form a committee.",
     "data": null,
-    "question": "In general, the number of ways in which $N$ distinct objects can be divided into $\\mathrm{n}_{\\mathrm{i}}$ of type i (objects) such that $\\sum_{i=1}^k n_i=N$ is given by $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$ This is also called the multinomial coefficients."
+    "question": "What is the general formula for dividing N distinct objects into groups of specific sizes?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "The solution is to calculate the multinomial coefficients using the formula $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$."
+    "answer": "In general, the number of ways in which $N$ distinct objects can be divided into $\\mathrm{n}_{\\mathrm{i}}$ of type i (objects) such that $\\sum_{i=1}^k n_i=N$ is given by $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$. This is also called the multinomial coefficients."
   },
   "meta_info": {
     "index": "1.13",

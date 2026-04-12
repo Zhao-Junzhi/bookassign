@@ -1,40 +1,20 @@
 {
-  "case_id": "book1_r1\\record_073.json",
+  "case_id": "book1_r1\\record_065.json",
   "input": {
-    "background": "Evaluate the correctness of hypothesis statements and identify issues with their formulation.",
+    "background": "Find the following $z$ percentiles on a Standard Normal curve.",
     "data": "",
-    "question": "What is wrong with the hypothesis statement $H_0: \\bar{x}=100$ vs. $H_a: \\bar{x}<100$?"
+    "question": "What is $z_{.10}$?"
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "Hypotheses must address the parameter (for example, $\\mu$ ), not the statistic (for example, $\\bar{x}$ ).",
-    "variable": {
-      "x_bar": {
-        "id": "x_bar",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Sample mean, which is the subject of the hypothesis test."
-      },
-      "hypothesis_statements": {
-        "id": "hypothesis_statements",
-        "value": [
-          "H_0: \\bar{x}=100",
-          "H_a: \\bar{x}<100"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The null and alternative hypothesis statements being evaluated."
-      }
-    }
+    "answer": "$z_{.10}=-1.28$ (The 10th percentile on a Standard Normal curve is -1.28.)"
   },
   "meta_info": {
-    "index": "9.1",
+    "index": "7.15",
     "image": "",
-    "caption": "Misconceived hypotheses.",
-    "chapter": "BASICS OF HYPOTHESIS TESTING",
-    "section": "9.1 THE NULL AND ALTERNATIVE HYPOTHESES",
-    "page": "177-177"
+    "caption": "Z percentiles.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.4 ASSESSING DEPARTURES FROM NORMALITY",
+    "page": "153-153"
   },
   "sample_key": "138"
 }

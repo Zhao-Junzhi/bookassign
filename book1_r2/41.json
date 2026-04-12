@@ -1,48 +1,20 @@
 {
-  "case_id": "book1_r1\\record_016.json",
+  "case_id": "book1_r1\\record_013.json",
   "input": {
-    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
+    "background": "Telephone surveys may use a telephone directory to identify individuals for study.",
     "data": "",
-    "question": "(a) Comparison A: Group 1: 90, 70, 50, 30, 10; Group 2: 70, 60, 50, 40"
+    "question": "Speculate on the type of household that would be undercovered by using this sampling frame."
   },
   "output": {
-    "method": "stem-and-leaf plot",
-    "answer": "Comparison A. Groups have the same central locations; group 1 has greater variability (spread).",
-    "variable": {
-      "Group1": {
-        "id": "Group1",
-        "value": [
-          90,
-          70,
-          50,
-          30,
-          10
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Values of Group 1 used for comparison in the stemplot."
-      },
-      "Group2": {
-        "id": "Group2",
-        "value": [
-          70,
-          60,
-          50,
-          40
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Values of Group 2 used for comparison in the stemplot."
-      }
-    }
+    "answer": "This sampling frame omits households which lack land telephones lines. It also excludes those with unlisted numbers and double counts those with more than one phone line."
   },
   "meta_info": {
-    "index": "3.3",
+    "index": "2.13",
     "image": "",
-    "caption": "Leaves on a common stem.",
-    "chapter": "Frequency Distributions",
-    "section": "3.2 Frequency Tables",
-    "page": "50-51"
+    "caption": "Telephone book sampling frame.",
+    "chapter": "Types of Studies",
+    "section": "2.2 Comparative Studies",
+    "page": "33-33"
   },
   "sample_key": "41"
 }

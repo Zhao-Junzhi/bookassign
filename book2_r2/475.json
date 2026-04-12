@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\171.json",
+  "input": {
+    "background": "Analyze the distribution of the residuals in the grandfather clock example, both before and after the outlier residual is removed. Determine whether the assumption of a normally distributed error term is reasonable.",
+    "data": "null",
+    "question": "Determine whether the assumption of a normally distributed error term is reasonable after removing the outlier."
+  },
+  "output": {
+    "answer": "Thus, the normality assumption appears to be more plausible after the outlier is removed."
+  },
+  "meta_info": {
+    "index": "12.17",
+    "img_in_question": null
+  },
+  "sample_key": "475"
+}

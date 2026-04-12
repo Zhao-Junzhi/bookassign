@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_102.json",
+  "input": {
+    "background": "The air quality data in Exercise 12.5 (Table 12.9) are associated with the summary statistics reported in Table 12.12.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.12 Means and standard deviations for Exercise 12.7.}\n\\begin{tabular}{lccc}\n\\multicolumn{4}{l}{ Particulate matter in air samples $\\left(\\mu \\mathrm{gms} / \\mathrm{m}^3\\\right)$} \\\\\nSite & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n& & & \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Determine the two-sided $P$-value for testing $H_0: \\mu_1=\\mu_2$."
+  },
+  "output": {
+    "answer": "$t_{\\text{stat}}=\\frac{36.25-36.00}{5.247}=0.05$. The one-sided $P$-value (by Table $C$ in the Appendix) is greater 0.25. Therefore, the two-tailed $P>0.50$. Using a software utility (www.cytel.com/Products/StaTable/), $P=0.96$. There is no significant difference in means."
+  },
+  "meta_info": {
+    "index": "12.7",
+    "image": "",
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.5 CONDITIONS FOR INFERENCE",
+    "page": "249-249"
+  },
+  "sample_key": "244",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 880,
+    "total_tokens": 907,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 880,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

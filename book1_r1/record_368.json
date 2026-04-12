@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Sample 1. What is the $z$-statistic for a sample in which $\\bar{x}=173$?",
-      "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{173-170}{5}=0.6",
-      "method": "均值检验"
+      "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{173-170}{5}=0.6$"
     },
     {
       "query": "Sample 2. What is the $z$-statistic in a sample with $\\bar{x}=185$?",
-      "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{185-170}{5}=3.0",
-      "method": "均值检验"
+      "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{185-170}{5}=3.0$"
     }
   ],
   "id": "368",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "z-statistic (Body weight of 20-29-year-old men).",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.2 TEST STATISTICS",
     "page": "180-180"
+  },
+  "token_usage": {
+    "completion_tokens": 278,
+    "prompt_tokens": 509,
+    "total_tokens": 787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,20 +1,45 @@
 {
-  "background": "A test of $H_0: p=0.21$ using a sample of $n=$ 57 was not significant $(P=0.103)$. Suppose the true prevalence in the population $p_1$ was 0.31.",
+  "background": "A test of $H_0: p=0.21$ using a sample of $n=$ 57 was not significant $(P=0.103)$. Suppose the true prevalence in the population $p_1$ was 0.31. The task is to calculate the power of the test assuming a two-sided $\\alpha$-level of 0.05.",
   "task": [
     {
-      "query": "What was the power of the test assuming a two-sided $\\alpha$-level of 0.05?",
-      "answer": "$1-\\beta=\\Phi\\left(\\frac{\\left|p_1-p_0\\right| \\sqrt{n}-z_{1-1} \\sqrt{p_0 q_0}}{\\sqrt{p_1 q_1}}\\right)=$\n\n$$\n\\Phi\\left(\\frac{|0.31-0.21| \\sqrt{57}-1.96 \\sqrt{(0.21)(0.79)}}{\\sqrt{(0.31)(0.69)}}=\\Phi(-0.09)=0.4641\\right.\n$$\n\n[from Table B]. The power of the test under the stated conditions was about 46%.",
-      "method": "假设检验"
+      "query": "What is the formula to calculate the power of the test under the given conditions?",
+      "answer": "$1-\\beta=\\Phi\\left(\\frac{\\left|p_1-p_0\\right| \\sqrt{n}-z_{1-1} \\sqrt{p_0 q_0}}{\\sqrt{p_1 q_1}}\\right)$"
+    },
+    {
+      "query": "What is the calculation of the power of the test using the provided values?",
+      "answer": "$\\Phi\\left(\\frac{|0.31-0.21| \\sqrt{57}-1.96 \\sqrt{(0.21)(0.79)}}{\\sqrt{(0.31)(0.69)}}=\\Phi(-0.09)=0.4641\\right.$ [from Table B]."
+    },
+    {
+      "query": "What is the power of the test under the stated conditions?",
+      "answer": "The power of the test under the stated conditions was about 46%."
     }
   ],
   "id": "422",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Power.",
     "chapter": "INFERENCE ABOUT A PROPORTION",
     "section": "16.6 SAMPLE SIZE AND POWER",
     "page": "369-369"
+  },
+  "token_usage": {
+    "completion_tokens": 480,
+    "prompt_tokens": 513,
+    "total_tokens": 993,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

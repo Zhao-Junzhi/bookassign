@@ -1,20 +1,17 @@
 {
-  "background": "An entrepreneur of a start-up company calls potential customers to sale a new product. Assume that the outcomes of consecutive calls are independent and that on each call he has 20% chance of making a sale. His daily goal is to make 5 sales and he can make only 25 calls in a day.",
+  "background": "An entrepreneur of a start-up company calls potential customers to sell a new product. Assume that the outcomes of consecutive calls are independent and that on each call he has a 20% chance of making a sale. His daily goal is to make 5 sales, and he can make only 25 calls in a day.",
   "task": [
     {
       "query": "What is the probability that he achieves his goal in 15 trials?",
-      "answer": "We wish to find the probability that his fifth sale (success) will be at trial 15. Note that in this case, the number of successes r=5 is fixed. Thus the number of calls is random, and we have the negative binomial distribution. Here p=0.20. Let Y be the number of trials up to and including the fifth success. Therefore, from the negative binomial distribution:\n\nP(Y=15)=C(14,4)(0.2)^5(0.8)^10=0.0344",
-      "method": "事件发生概率及独立性"
+      "answer": "We wish to find the probability that his fifth sale (success) will be at trial 15. Note that in this case, the number of successes r=5 is fixed. Thus the number of calls is random, and we have the negative binomial distribution. Here p=0.20. Let Y be the number of trials up to and including the fifth success. Therefore, from the negative binomial distribution below:\n\nP(Y=n) = (n-1 choose r-1) * p^r * (1-p)^(n-r), where (n choose r) = n! / (r!(n-r)!)\n\nWe can obtain:\n\nP(Y=15) = (14 choose 4) * (0.2)^5 * (0.8)^10 = 0.0344"
     },
     {
       "query": "What is the probability that he achieves his goal in between 15 and 20 trials?",
-      "answer": "Let S_n be the number of successes in n trials. Here the number of trials is fixed (i.e., n=20). We can then use the binomial distribution to calculate the probability.",
-      "method": "事件发生概率及独立性"
+      "answer": "Let S_n be the number of successes in n trials. Here the number of trials is fixed (i.e., n=20). We can then use the binomial distribution. The entrepreneur does not achieve his daily goal if S_n ≤ 2. Thus:\n\nP(S_20 ≤ 2) = Σ P(S_20 = x) for x=0 to 2\n= (20 choose 0) * (0.2)^0 * (0.8)^20 + (20 choose 1) * (0.2)^1 * (0.8)^19 + (20 choose 2) * (0.2)^2 * (0.8)^18\n= 0.1969"
     },
     {
       "query": "What is the probability that he does not achieve his daily goal?",
-      "answer": "The entrepreneur does not achieve his daily goal if S_n ≤ 2. Using the binomial distribution:\n\nP(S_20 ≤ 2)=Σ P(S_20=x) for x=0,1,2\n= C(20,0)(0.2)^0(0.8)^20 + C(20,1)(0.2)^1(0.8)^19 + C(20,2)(0.2)^2(0.8)^18\n= 0.1969",
-      "method": "事件发生概率及独立性"
+      "answer": "See Problem 27."
     }
   ],
   "id": "24",
@@ -28,5 +25,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "73-74"
+  },
+  "token_usage": {
+    "completion_tokens": 496,
+    "prompt_tokens": 840,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

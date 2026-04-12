@@ -3,28 +3,43 @@
   "task": [
     {
       "query": "What is the one-sided alternative hypothesis for this test?",
-      "answer": "$H_a: \\mu<50$",
-      "method": "假设检验与区间估计"
+      "answer": "$H_a: \\mu<50$"
     },
     {
       "query": "Calculate the $z$-statistic for the test.",
-      "answer": "$z_{\\text {stat }}=\\frac{48.8-50}{1.25}=-0.96$",
-      "method": "假设检验与区间估计"
+      "answer": "$z_{\\text {stat }}=\\frac{48.8-50}{1.25}=-0.96$"
     },
     {
       "query": "Convert the $z_{\\text {stat }}$ to a $P$-value, and interpret the results.",
-      "answer": "$P=\\operatorname{Pr}(Z<-0.96)=0.1685$. Interpretation: If $H_0$ were correct, results this extreme or more extreme would occur about $17 \\%$ of the time (that is, would not be that unusual).",
-      "method": "假设检验与区间估计"
+      "answer": "$P=\\operatorname{Pr}(Z<-0.96)=0.1685$. Interpretation: If $H_0$ were correct, results this extreme or more extreme would occur about $17 \\%$ of the time (that is, would not be that unusual)."
     }
   ],
   "id": "075",
   "data": "Patient satisfaction. Scores derived from a patient satisfaction survey are Normally distributed with $\\mu=50$ and $\\sigma=7.5$, with high scores indicating high satisfaction. An SRS of $n=36$ is taken from this population.\n(a) What is the $S E$ of $\\bar{x}$ for these data?\n(b) We seek evidence against the hypothesis that a particular group of patients come from a population in which $\\mu=50$. Sketch the curve that describes the sampling distribution of $\\bar{x}$ under the null hypothesis. Mark the horizontal axis with values that are $\\pm 1, \\pm 2$, and $\\pm 3$ standard errors above and below the mean.\n(c) Suppose a sample of $n=36$ finds an $\\bar{x}$ of 48.8 . Mark this finding on the horizontal axis of your sketch. Then calculate the $z_{\text {stat }}$ for the result. Does this observation provide strong evidence against $H_0$ ?",
-  "meta info": {
+  "meta_info": {
     "index": "9.7",
     "image": "",
     "caption": "Patient satisfaction (sample mean of 48.8).",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.5 ONE-SAMPLE Z TEST",
     "page": "187-187"
+  },
+  "token_usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 498,
+    "total_tokens": 773,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

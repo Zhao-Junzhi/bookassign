@@ -1,15 +1,13 @@
 {
-  "background": "The number of X-ray machine failures per week in a laboratory has a Poisson distribution with parameter λ=2. Currently facilities at this laboratory can repair two machines per week. Failures in excess of two will have to repair by an outside specialist contractor.",
+  "background": "The number of X-ray machine failures per week in a laboratory follows a Poisson distribution with parameter λ=2. The laboratory can repair up to two machines per week, and any failures beyond this will require repair by an outside specialist contractor.",
   "task": [
     {
-      "query": "Determine the probability of having X-ray machines repaired by a specialist contractor on any given week?",
-      "answer": "The probability of having X-ray machines repaired by a specialist contractor is\n\n$$\nP(X \\geq 3)=1-P(X \\leq 2)\n$$\n$$\n=1-\\sum_{k=0}^2 \\frac{2^k e^{-2}}{k!}=0.3232\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability of having X-ray machines repaired by a specialist contractor on any given week?",
+      "answer": "The probability of having X-ray machines repaired by a specialist contractor is\n\n$$\nP(X \\geq 3)=1-P(X \\leq 2)\n$$\n$$\n=1-\\sum_{k=0}^2 \\frac{2^k e^{-2}}{k!}=0.3232\n$$"
     },
     {
-      "query": "Determine the expected number of X-ray machines repaired by the specialist contractor per week?",
-      "answer": "The expected number of X-ray machines repaired by the specialist contractor is\n\n$$\n\\sum_{k=3}^{\\infty}(k-2) P(X=k)=\\sum_{k=3}^{\\infty}(k-2) \\frac{2^k e^{-2}}{k!}=0.54\n$$",
-      "method": "期望"
+      "query": "What is the expected number of X-ray machines repaired by the specialist contractor per week?",
+      "answer": "The expected number of X-ray machines repaired by the specialist contractor is\n\n$$\n\\sum_{k=3}^{\\infty}(k-2) P(X=k)=\\sum_{k=3}^{\\infty}(k-2) \\frac{2^k e^{-2}}{k!}=0.54\n$$"
     }
   ],
   "id": "26",
@@ -23,5 +21,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "77-78"
+  },
+  "token_usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 590,
+    "total_tokens": 865,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

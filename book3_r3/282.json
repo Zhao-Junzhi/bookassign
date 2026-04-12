@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\85.json",
+  "input": {
+    "background": "The probability density function of the lifetime of an electric motor is given by f(t)=0.25 t e^{-0.5 t}, where t > 0 and t is in years.",
+    "data": null,
+    "question": "What is the probability of failure during the first year?"
+  },
+  "output": {
+    "answer": "F(1)=0.0902"
+  },
+  "meta_info": {
+    "index": "1.33",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
+    "section": "1.13 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "62-62"
+  },
+  "sample_key": "282",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 853,
+    "total_tokens": 896,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 852,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 853,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 852,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

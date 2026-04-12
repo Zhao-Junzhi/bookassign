@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\070.json",
+  "input": {
+    "background": "Suppose the number, $x$, of a company's employees who are absent on Mondays has (approximately) a Poisson probability distribution. Furthermore, assume that the average number of Monday absentees is 2.6.",
+    "data": null,
+    "question": "Find the mean and standard deviation of $x$, the number of employees absent on Monday."
+  },
+  "output": {
+    "answer": "The mean and variance of a Poisson random variable are both equal to $\\lambda$. Thus, for this example, $$\\mu = \\lambda = 2.6$$ $$\\sigma^2 = \\lambda = 2.6$$ Then the standard deviation of $x$ is $$\\sigma = \\sqrt{2.6} = 1.61$$ The mean measures the central tendency of the distribution and does not necessarily equal a possible value of $x$. In this example, the mean is 2.6 absences, and although there cannot be 2.6 absences on a given Monday, the average number of Monday absences is 2.6. Similarly, the standard deviation of 1.61 measures the variability of the number of absences per week. A more helpful measure is the interval $\\mu \\pm 2 \\sigma$, which in this case stretches from -0.62 to 5.82. We expect the number of absences to fall in this interval most of the time—with at least $75\\%$ relative frequency (according to Chebyshev's Rule) and probably with approximately $95\\%$ relative frequency (the Empirical Rule)."
+  },
+  "meta_info": {
+    "index": "4.14",
+    "img_in_question": null
+  },
+  "sample_key": "166"
+}

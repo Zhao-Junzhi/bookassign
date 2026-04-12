@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\143.json",
+  "input": {
+    "background": "A system is composed of 15 identical active power supplies, at least 14 of the power supplies are required for the system to function. When 2 of the 15 power supplies fail, the system fails. When all 15 power supplies are operating, each has a constant failure rate $\\lambda_a$ per hour. If one power supply fails, each remaining power supply has a failure rate $\\lambda_b$ per hour where $\\lambda_a \\leq \\lambda_b$. A failed power supply can be repaired with a constant rate $\\mu$ per hour. The system reliability function, $R(t)$, is defined as the probability that the system continues to function throughout the interval $(0, t)$.",
+    "data": null,
+    "question": "(b) Given $\\lambda_a=0.0003, \\lambda_b=0.005$, and $\\mu=0.6$, calculate the system MTTF."
+  },
+  "output": {
+    "answer": "$\\mathrm{MTTF}=2141.25 \\mathrm{~h}$."
+  },
+  "meta_info": {
+    "index": "6.6",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 6： Stochastic Processes",
+    "section": "6.4 Problems",
+    "book": "Statistical Reliability Engineering",
+    "page": "400-400"
+  },
+  "sample_key": "104",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1207,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1099,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1207,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1099,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

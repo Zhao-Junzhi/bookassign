@@ -1,10 +1,9 @@
 {
-  "background": "The major accident of hospitalization tends to vary with the snow storms over the winter season of a given year. Data from an ambulance emergency center suggests that one should expect 2 hospitalization in October, 3 hospitalization in November, 4 hospitalizations in December, and 6 hospitalizations in January. Assume that hospitalizations are independent.",
+  "background": "The major accident of hospitalization tends to vary with the snow storms over the winter season of a given year. Data from an ambulance emergency center suggests that one should expect 2 hospitalizations in October, 3 hospitalizations in November, 4 hospitalizations in December, and 6 hospitalizations in January. Assume that hospitalizations are independent.",
   "task": [
     {
-      "query": "Determine the probability that there are more than 10 hospitalization over a period from October to January.",
-      "answer": "Let $X_1$ be the number of hospitalizations in October, $X_2$ be the number of hospitalizations in November, $X_3$ be the number of hospitalizations in December, and $X_4$ be the number of hospitalizations in January. Let $N$ be the total number of hospitalizations over a period from October to January, then.\n\n$$\nX_1 \\sim \\text { Poisson (2), } X_2 \\sim \\text { Poisson (3), } X_3 \\sim \\text { Poisson (4), } X_4 \\sim \\text { Poisson (6). }\n$$\n\nand so,\n\n$$\nN=X_1+X_2+X_3+X_4 \\sim \\text { Poisson }(2+3+4+6=15) .\n$$\n\nThen we obtain\n\n$$\n\\begin{aligned}\nP(N>10) & =1-P(N \\leq 10) \\\\\n& =1-\\sum_{n=0}^{10} \\frac{(15)^n e^{-15}}{n!}=0.883\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "Determine the probability that there are more than 10 hospitalizations over a period from October to January.",
+      "answer": "Let $X_1$ be the number of hospitalizations in October, $X_2$ be the number of hospitalizations in November, $X_3$ be the number of hospitalizations in December, and $X_4$ be the number of hospitalizations in January. Let $N$ be the total number of hospitalizations over a period from October to January, then.\n\n$$\nX_1 \\sim \\text { Poisson (2), } X_2 \\sim \\text { Poisson (3), } X_3 \\sim \\text { Poisson (4), } X_4 \\sim \\text { Poisson (6). }\n$$\n\nand so,\n\n$$\nN=X_1+X_2+X_3+X_4 \\sim \\text { Poisson }(2+3+4+6=15) .\n$$\n\nThen we obtain\n\n$$\n\\begin{aligned}\nP(N>10) & =1-P(N \\leq 10) \\\\\n& =1-\\sum_{n=0}^{10} \\frac{(15)^n e^{-15}}{n!}=0.883\n\\end{aligned}\n$$"
     }
   ],
   "id": "28",
@@ -18,5 +17,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "80-80"
+  },
+  "token_usage": {
+    "completion_tokens": 386,
+    "prompt_tokens": 641,
+    "total_tokens": 1027,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

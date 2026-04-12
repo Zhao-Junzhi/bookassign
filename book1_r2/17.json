@@ -3,20 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Low-density lipoprotein level (mg/dl)"
+    "question": "(d) Body weight (kilograms)"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "Quantitative",
-    "variable": {
-      "low_density_lipoprotein_level": {
-        "id": "low_density_lipoprotein_level",
-        "value": "mg/dl",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The level of low-density lipoprotein (LDL) measured in milligrams per deciliter, which is a quantitative variable."
-      }
-    }
+    "answer": "Quantitative"
   },
   "meta_info": {
     "index": "1.11",

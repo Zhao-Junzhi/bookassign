@@ -1,15 +1,25 @@
 {
-  "background": "Consider a sequence of 25 Bernoulli trials (binomial situation) where each trial results in either success or failure. From the 25 trials, 6 failures and 19 successes result. Let p be the probability of success, and 1-p the probability of failure.",
+  "background": "Consider a sequence of 25 Bernoulli trials (binomial situation) where each trial results in either success or failure. From the 25 trials, 6 failures and 19 successes result. Let p be the probability of success, and 1-p the probability of failure. The task is to find the estimator of p, denoted as \\hat{p}, which maximizes the likelihood of the observed outcome. Additionally, the problem introduces the general concept and methodology of Maximum Likelihood Estimation (MLE), which is used to estimate parameters by maximizing the likelihood function given the observed data. The methodology is described in detail, including steps for deriving MLEs and their properties.",
   "task": [
     {
-      "query": "Find the estimator of p, \\hat{p}, which maximizes that particular outcome.",
-      "answer": "The sample density function can be written as $$ g(19)=\\binom{25}{19} p^{19}(1-p)^6 $$ The maximum of $$ g(19) $$ occurs when $$ p=\\hat{p}=\\frac{19}{25} $$ so that $$ g\\left(19 \\left\\lvert\\, p=\\frac{19}{25}\\right.\\right) \\geq g\\left(19 \\left\\lvert\\, p \\neq \\frac{19}{25}\\right.\\right) $$ Now $$ \\mathrm{g}(19) $$ is the probability or 'likelihood' of 6 failures in a sequence of 25 trials. Select $$ p=\\hat{p}=\\frac{19}{25} $$ as the probability or likelihood maximum value and, hence, $$ \\hat{p} $$ is referred to as the maximum likelihood estimate.",
-      "method": "数据分布建模"
+      "query": "Find the estimator of p, \\hat{p}, that maximizes the likelihood of observing 19 successes and 6 failures in 25 Bernoulli trials.",
+      "answer": "The sample density function can be written as $$ g(19)=\\binom{25}{19} p^{19}(1-p)^6 $$ The maximum of g(19) occurs when $$ p=\\hat{p}=\\frac{19}{25} $$ so that $$ g\\left(19 \\left\\lvert\\, p=\\frac{19}{25}\\right.\\right) \\geq g\\left(19 \\left\\lvert\\, p \\neq \\frac{19}{25}\\right.\\right) $$ Thus, \\hat{p} is the maximum likelihood estimate of p."
     },
     {
-      "query": "Discuss the method of Maximum Likelihood Estimation (MLE).",
-      "answer": "The principle of maximum likelihood estimation (MLE), originally developed by R. A. Fisher in the 1920s, states that the desired probability distribution is the one that makes the observed data 'most likely,' which means that one must seek the value of the parameter vector that maximizes the likelihood function. The mechanics for obtaining the MLE can be summarized as follows: Step 1. Find the joint density function $$ L(X, \\theta) $$. Step 2. Take the natural $$ \\log $$ of the joint density, $$ \\ln L(\\theta) $$. Step 3. Take the partial derivatives of $$ \\ln L(\\theta) $$ (or $$ L(\\theta) $$) with respect to each parameter. Step 4. Set partial derivatives to 'zero.' Step 5. Solve for parameter(s).",
-      "method": "数据分布建模"
+      "query": "Explain why the maximum likelihood estimate \\hat{p} is selected and its significance.",
+      "answer": "The reason for maximizing g(19) is that the sample contained six failures, and hence, if it is representative of the population, it is desired to find an estimate which maximizes this sample result. Select p=\\hat{p}=\\frac{19}{25} as the probability or likelihood maximum value. \\hat{p} is referred to as the maximum likelihood estimate because it maximizes the likelihood of the observed data."
+    },
+    {
+      "query": "Describe the general methodology of Maximum Likelihood Estimation (MLE) for estimating parameters in a probability distribution.",
+      "answer": "The principle of Maximum Likelihood Estimation (MLE), originally developed by R. A. Fisher in the 1920s, states that the desired probability distribution is the one that makes the observed data 'most likely.' This involves finding the parameter vector that maximizes the likelihood function. The steps for obtaining the MLE are: Step 1. Find the joint density function L(X, \\theta). Step 2. Take the natural log of the joint density, \\ln L(\\theta). Step 3. Take the partial derivatives of \\ln L(\\theta) (or L(\\theta)) with respect to each parameter. Step 4. Set partial derivatives to 'zero.' Step 5. Solve for parameter(s)."
+    },
+    {
+      "query": "Explain the mathematical formulation of the likelihood function and its maximization process.",
+      "answer": "Consider a random sample X_1, X_2, ..., X_n from a distribution with pdf f(x; \\theta). Assuming the random variables are independent, the likelihood function is given by $$ L(X, \\theta)=\\prod_{i=1}^n f(X_i; \\theta) $$ The maximum likelihood estimator \\hat{\\theta} is found by maximizing L(X; \\theta) with respect to \\theta. In practice, it is often easier to maximize \\ln[L(X; \\theta)] because the logarithm turns the multiplication of terms into addition. The log likelihood function is given by $$ \\ln L(\\theta)=\\sum_{i=1}^n \\ln f(X_i; \\theta) $$ The MLE \\hat{\\theta} satisfies $$ \\frac{\\partial[\\ln L(X; \\theta)]}{\\partial \\theta_i}=0 \\text{ for } i=1,2,...,m $$ These equations are solved to find the estimates. Care must be taken to ensure the solution is a maximum and not a minimum or inflection point."
+    },
+    {
+      "query": "Discuss the properties of the Maximum Likelihood Estimator (MLE) and its asymptotic behavior.",
+      "answer": "The MLE \\hat{\\theta} is consistent and asymptotically efficient, with a limiting distribution given by $$ \\sqrt{n}(\\hat{\\theta}-\\theta_0) \\rightarrow N(0, I^{-1}(\\theta_0)) $$ where \\theta_0 is the true parameter value and I is the Fisher information matrix. The asymptotic variance matrix I^{-1}(\\theta_0) can be estimated consistently by an empirical variance matrix of the influence functions evaluated at \\hat{\\theta}."
     }
   ],
   "id": "47",
@@ -23,5 +33,23 @@
     "section": "3.3 Parameter Estimation",
     "book": "Statistical Reliability Engineering",
     "page": "142-145"
+  },
+  "token_usage": {
+    "completion_tokens": 1038,
+    "prompt_tokens": 2720,
+    "total_tokens": 3758,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,13 +1,12 @@
 {
   "case_id": "book3_r1\\103.json",
   "input": {
-    "background": "A system has $m$ locations at which the same component is used, each component having an exponentially distributed failure time with mean $\\frac{1}{\\lambda}$. When a component at any location fails it is replaced by a spare. In a given mission the component at location $k$ is required to operate for time $t_k$.",
+    "background": "A system has $m$ locations at which the same component is used, each component having an exponentially distributed failure time with mean $\\frac{1}{\\lambda}$. When a component at any location fails it is replaced by a spare. In a given mission, the component at location $k$ is required to operate for time $t_k$.",
     "data": null,
     "question": "Compute the minimum number of components $(n)$ when $m=3, t_k=k$, and $\\lambda=0.5$."
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "$n=6$."
+    "answer": "Let $n=$ the minimum number of components required to ensure a successful mission. $n=6$."
   },
   "meta_info": {
     "index": "2.22",

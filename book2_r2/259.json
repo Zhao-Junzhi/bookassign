@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\107.json",
+  "input": {
+    "background": "The U.S. Army Corps of Engineers conducted a study on contaminated fish in the Tennessee River. They collected data from a random sample of 144 fish contaminated with DDT, ensuring the sample included fish from various randomly selected streams and tributaries of the river. The fish weights (in grams) are stored in the DDT file. The goal is to estimate the true variation in fish weights to determine whether the fish are stable enough for further testing for DDT contamination.",
+    "data": "null",
+    "question": "Determine whether the confidence interval from part (a) is valid."
+  },
+  "output": {
+    "answer": "According to the requirements for a valid confidence interval, two conditions must be met:\n\n1. The sample must be randomly selected from the population. The Army Corps of Engineers ensured this by collecting a random sample of contaminated fish from various locations in the Tennessee River.\n\n2. The population data (fish weights) must be approximately normally distributed. A Minitab histogram of the sampled fish weights, with a normal curve superimposed, is displayed in Figure 6.20. The data appear to be approximately normally distributed.\n\nSince both conditions are satisfied, the confidence interval is valid."
+  },
+  "meta_info": {
+    "index": "6.12",
+    "img_in_question": null
+  },
+  "sample_key": "259"
+}

@@ -3,23 +3,10 @@
   "input": {
     "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
     "data": "",
-    "question": "Presence of type II diabetes mellitus (yes or no)"
+    "question": "(b) Leukemia rates in geographic regions (cases per 100,000 people)"
   },
   "output": {
-    "method": "离散型变量分布",
-    "answer": "Categorical",
-    "variable": {
-      "diabetes_presence": {
-        "id": "diabetes_presence",
-        "value": [
-          "yes",
-          "no"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "Indicates the presence or absence of type II diabetes mellitus."
-      }
-    }
+    "answer": "Quantitative"
   },
   "meta_info": {
     "index": "1.11",

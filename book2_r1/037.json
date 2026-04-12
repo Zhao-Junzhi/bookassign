@@ -1,0 +1,43 @@
+{
+  "background": "Consider the experiment of tossing two unbalanced coins. Because the coins are not balanced, their outcomes (H or T) are not equiprobable. The probabilities associated with the sample points are given in the table. The events of interest are: A: {Observe exactly one head} and B: {Observe at least one head}.",
+  "task": [
+    {
+      "query": "Calculate the probability of event A, where A is defined as observing exactly one head.",
+      "answer": "Event A contains the sample points HT and TH; thus, A is a compound event. Because two or more sample points cannot occur at the same time, we calculate the probability of event A by summing the probabilities of the two sample points. Thus, the probability of observing exactly one head (event A), denoted by P(A), is: P(A) = P(HT) + P(TH) = 2/9 + 2/9 = 4/9."
+    },
+    {
+      "query": "Calculate the probability of event B, where B is defined as observing at least one head.",
+      "answer": "Event B contains the sample points HH, HT, and TH. Thus, the probability of observing at least one head (event B), denoted by P(B), is: P(B) = P(HH) + P(HT) + P(TH) = 4/9 + 2/9 + 2/9 = 8/9."
+    }
+  ],
+  "id": "037",
+  "data": null,
+  "meta_info": {
+    "index": "3.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "The Probability of a Compound Event-Coin-Tossing Experiment",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "88-89"
+  },
+  "token_usage": {
+    "completion_tokens": 320,
+    "prompt_tokens": 680,
+    "total_tokens": 1000,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

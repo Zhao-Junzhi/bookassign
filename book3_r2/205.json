@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\89.json",
+  "case_id": "book3_r1\\56.json",
   "input": {
-    "background": "You have two light bulbs for a particular lamp. Let $X=$ the lifetime of the first bulb, and $Y=$ the lifetime of the second bulb. Suppose that $X$ and $Y$ are independent and that each has an exponential distribution with constant failure rate parameter $\\lambda=0.001$ per hour.",
+    "background": "Given a sample size of n=100 with 25 successes and 75 failures, the task is to compute an 80% two-sided confidence interval for the population proportion p. The confidence limits are determined by solving two equations involving binomial probabilities.",
     "data": null,
-    "question": "What is the probability that each bulb lasts at most 1000 h ?"
+    "question": "What is the interpretation of the confidence interval [0.194, 0.313]?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "0.3996"
+    "answer": "The interpretation is: P[0.194<p<0.313]=0.80, meaning there is an 80% probability that the true population proportion p lies within the interval [0.194, 0.313]."
   },
   "meta_info": {
-    "index": "1.37",
+    "index": "3.34",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
-    "section": "1.13 Problems",
+    "chapter": "Chapter 3： Statistical Inference",
+    "section": "3.11 Interval Estimation",
     "book": "Statistical Reliability Engineering",
-    "page": "63-63"
+    "page": "188-188"
   },
   "sample_key": "205"
 }

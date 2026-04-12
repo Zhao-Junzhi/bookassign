@@ -1,0 +1,22 @@
+{
+  "case_id": "book5_r1\\063.json",
+  "input": {
+    "background": "Two identical studies yield different P-values: P < 0.001 and P = 0.2. The task is to explore the possible explanations for this large difference.",
+    "data": null,
+    "question": "What are some factors that could make studies not truly identical?"
+  },
+  "output": {
+    "answer": "For example, there may be differences between patients in different countries or between laboratories."
+  },
+  "meta_info": {
+    "index": "16.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "The medical literature",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "499-499"
+  },
+  "sample_key": "189"
+}

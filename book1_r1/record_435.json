@@ -1,20 +1,32 @@
 {
-  "background": "Investigators prospectively studied 75 consecutive patients undergoing coronary atherectomy for symptomatic coronary artery disease. Before atherectomy was performed, blood levels of anticytomegalovirus (CMV) antibodies were measured. Forty-nine patients were seropositive for CMV, and 26 patients were seronegative. Subjects were then followed for 6 months after atherectomy to determine incidents of restenosis.",
-  "task": [
-    {
-      "query": "If we make the simplifying assumption that the sample represents a simple random sample of like patients, we can view this as a naturalistic sample of $N=75$ in which $n_1=49$ are seropositive and $n_2=26$ are seronegatives for CMV.",
-      "answer": "null",
-      "method": "观测数据"
-    }
-  ],
+  "background": "Investigators prospectively studied 75 consecutive patients undergoing coronary atherectomy for symptomatic coronary artery disease. Before atherectomy was performed, blood levels of anticytomegalovirus (CMV) antibodies were measured. Forty-nine patients were seropositive for CMV, and 26 patients were seronegative. Subjects were then followed for 6 months after atherectomy to determine incidents of restenosis. Assuming the sample represents a simple random sample of like patients, the study includes a naturalistic sample of N=75, where n1=49 are seropositive and n2=26 are seronegative for CMV.",
+  "task": [],
   "id": "435",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Naturalistic sample (Cytomegalovirus and coronary  restenosis).",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.1 Types of Samples",
     "page": "408-408"
+  },
+  "token_usage": {
+    "completion_tokens": 261,
+    "prompt_tokens": 446,
+    "total_tokens": 707,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_312.json",
+  "input": {
+    "background": "Consider these eight data points: 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94, 4.42. Data have three significant digits although only two are needed for plotting. Our rule will be to analyze the shape, location, and spread of the data.",
+    "data": "",
+    "question": "What is the location (median) of the data distribution?"
+  },
+  "output": {
+    "answer": "Because there are n=8 data points, the median has a depth of (8+1)/2=4.5. Count to a depth of 4.5 to see that the median falls between 3.4 and 3.7. Average these values; the median is about 3.55."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Truncating leaf values.",
+    "chapter": "FREQUENCY DISTRIBUTIONS",
+    "section": "3.1 Stemplots",
+    "page": "42-43"
+  },
+  "sample_key": "436",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1054,
+    "total_tokens": 1097,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1053,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1054,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1053,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

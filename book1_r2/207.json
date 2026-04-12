@@ -1,79 +1,20 @@
 {
-  "case_id": "book1_r1\\record_107.json",
+  "case_id": "book1_r1\\record_089.json",
   "input": {
-    "background": "In a study of maternal cigarette smoking and bone density in newborns, 77 infants of mothers who smoked had a mean bone mineral content of 0.098 g/cm^3(s1=0.026 g/cm^3). The 161 infants whose mothers did not smoke had a mean bone mineral content of 0.095 g/cm^3(s2=0.025 g/cm^3).",
+    "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
     "data": "",
-    "question": "Calculate the 95% confidence interval for μ1−μ2."
+    "question": "State the conclusion of the hypothesis test at a significance level of $\\alpha = 0.10$."
   },
   "output": {
-    "method": "均值检验",
-    "answer": "SE=0.00356. The 95% CI for μ1−μ2=(-0.0040 to 0.0100) g/cm^3",
-    "variable": {
-      "mean_smoking": {
-        "id": "mean_smoking",
-        "value": 0.098,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Mean bone mineral content (g/cm^3) for infants of mothers who smoked."
-      },
-      "sd_smoking": {
-        "id": "sd_smoking",
-        "value": 0.026,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Standard deviation of bone mineral content (g/cm^3) for infants of mothers who smoked."
-      },
-      "n_smoking": {
-        "id": "n_smoking",
-        "value": 77,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size of infants whose mothers smoked."
-      },
-      "mean_non_smoking": {
-        "id": "mean_non_smoking",
-        "value": 0.095,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Mean bone mineral content (g/cm^3) for infants of mothers who did not smoke."
-      },
-      "sd_non_smoking": {
-        "id": "sd_non_smoking",
-        "value": 0.025,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Standard deviation of bone mineral content (g/cm^3) for infants of mothers who did not smoke."
-      },
-      "n_non_smoking": {
-        "id": "n_non_smoking",
-        "value": 161,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size of infants whose mothers did not smoke."
-      },
-      "mean_difference": {
-        "id": "mean_difference",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Difference in mean bone mineral content (μ1−μ2) between infants of mothers who smoked and those who did not smoke."
-      },
-      "confidence_interval": {
-        "id": "confidence_interval",
-        "value": null,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "95% confidence interval for the difference in mean bone mineral content (μ1−μ2)."
-      }
-    }
+    "answer": "The evidence against $H_0$ is not significant at $\\alpha =0.10$ (retain $H_0$)."
   },
   "meta_info": {
-    "index": "12.17",
+    "index": "11.11",
     "image": "",
-    "caption": "Bone density in newborns.",
-    "chapter": "COMPARING INDEPENDENT MEANS",
-    "section": "12.6 SAMPLE SIZE AND POWER",
-    "page": "256-257"
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "217-217"
   },
   "sample_key": "207"
 }

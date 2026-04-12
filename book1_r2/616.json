@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_392.json",
+  "input": {
+    "background": "We calculate the 95% confidence interval for μ1−μ2 for the cholesterol illustrative data (see Table 12.5).",
+    "data": "Table 12.5 ",
+    "question": "How is the degrees of freedom (df) calculated using the Welch method?"
+  },
+  "output": {
+    "answer": "Using the Welch method: SE(x̄1) = s1/√n1 = 0.3919/√12 = 0.11313, SE(x̄2) = s2/√n2 = 0.6492/√7 = 0.24537. df_Welch = [(SE(x̄1)² + SE(x̄2)²)²] / [(SE(x̄1)⁴/(n1−1)) + (SE(x̄2)⁴/(n2−1))] = [(0.11313² + 0.24537²)²] / [(0.11313⁴/11) + (0.24537⁴/6)] = 8.61."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\mu_1-\\\\mu_2$.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.3 INFERENCE ABOUT THE MEAN DIFFERENCE",
+    "page": "244-245"
+  },
+  "sample_key": "616"
+}

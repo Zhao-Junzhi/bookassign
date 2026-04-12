@@ -1,48 +1,20 @@
 {
-  "case_id": "book1_r1\\record_338.json",
+  "case_id": "book1_r1\\record_144.json",
   "input": {
-    "background": "Let A represent cat ownership and B represent dog ownership. Suppose 35% of households in a population own cats, 30% own dogs, and 15% own both a cat and a dog.",
+    "background": "Use Table E to find the approximate area under the curve to the right of 5.22 on a chi-square distribution with 3 degrees of freedom.",
     "data": "",
-    "question": "In selecting a household at random:"
+    "question": "Bracket the shaded region with critical value landmarks from Table E."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": {
-      "Pr(A)": 0.35,
-      "Pr(B)": 0.3,
-      "Pr(A and B)": 0.15
-    },
-    "variable": {
-      "A_cat_ownership": {
-        "id": "A_cat_ownership",
-        "value": 0.35,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Proportion of households that own cats."
-      },
-      "B_dog_ownership": {
-        "id": "B_dog_ownership",
-        "value": 0.3,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Proportion of households that own dogs."
-      },
-      "A_and_B_both_ownership": {
-        "id": "A_and_B_both_ownership",
-        "value": 0.15,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Proportion of households that own both cats and dogs."
-      }
-    }
+    "answer": "The precise area computed with a software utility is 0.1564."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.7",
     "image": "",
-    "caption": "Pet ownership illustration.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.5  More RULES AND PROPERTIES OF PROBABILITY",
-    "page": "105-105"
+    "caption": "Chi-square approximation.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.3 CHI-SQUARE TEST OF ASSOCIATION",
+    "page": "431-431"
   },
   "sample_key": "364"
 }

@@ -1,18 +1,16 @@
 {
-  "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10245192155458124484598.",
+  "background": "In a survey to assess the extent of fungal infection of a certain tree species, the percentage of leaves showing any infection was calculated for each of 20 individual trees. The following data (percentages) were recorded: 10, 24, 51, 92, 15, 54, 58, 12, 44, 84, 59, 8.",
   "task": [
     {
       "query": "Plot the data as a frequency histogram.",
-      "answer": "Percentage of leaves with fungus on each of 20 trees.",
-      "method": "数据可视化"
+      "answer": "Percentage of leaves with fungus on each of 20 trees."
     },
     {
       "query": "Arcsine-transform the data and plot the transformed data.",
-      "answer": "Percentage of leaves with fungus on each of 20 trees (arcsine-transformed data).",
-      "method": "数据可视化"
+      "answer": "Percentage of leaves with fungus on each of 20 trees (arcsine-transformed data)."
     },
     {
-      "query": "Calculate the following statistics on the transformed data (calculations may use either degrees or radians): Mean, Standard deviation, Standard error, Degrees of freedom, Lower 95% confidence level (Llower), Upper 95% confidence level (Lupper).",
+      "query": "Calculate the following statistics on the transformed data (calculations may use either degrees or radians): Mean, Standard deviation, Standard error, Degrees of freedom, Lower 95% confidence level (L_lower), Upper 95% confidence level (L_upper).",
       "answer": {
         "Mean": {
           "Degrees": 13.78,
@@ -27,25 +25,23 @@
           "Radians": 0.018
         },
         "Degrees of freedom": 19,
-        "Lower 95% confidence level": {
+        "Lower 95% confidence level (L_lower)": {
           "Degrees": 11.628,
           "Radians": 0.203
         },
-        "Upper 95% confidence level": {
+        "Upper 95% confidence level (L_upper)": {
           "Degrees": 15.93,
           "Radians": 0.278
         }
-      },
-      "method": "描述性统计量"
+      }
     },
     {
-      "query": "Back-transform the following statistics: Mean, Lower 95% confidence level (Llower), Upper 95% confidence level (Lupper).",
+      "query": "Back-transform the following statistics: Mean, Lower 95% confidence level (L_lower), Upper 95% confidence level (L_upper).",
       "answer": {
         "Mean": "5.6%",
-        "Lower 95% confidence level": "4.06%",
-        "Upper 95% confidence level": "7.53%"
-      },
-      "method": "转换"
+        "Lower 95% confidence level (L_lower)": "4.06%",
+        "Upper 95% confidence level (L_upper)": "7.53%"
+      }
     }
   ],
   "id": "008",
@@ -59,5 +55,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "60-60"
+  },
+  "token_usage": {
+    "completion_tokens": 482,
+    "prompt_tokens": 839,
+    "total_tokens": 1321,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

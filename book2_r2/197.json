@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\081.json",
+  "input": {
+    "background": "One problem with any product (e.g., a graphing calculator) that is mass produced is quality control. The process must somehow be monitored or audited to be sure the output of the process conforms to requirements. One method of dealing with this problem is lot acceptance sampling, in which items being produced are sampled at various stages of the production process and are carefully inspected. The lot of items from which the sample is drawn is then accepted or rejected, based on the number of defectives in the sample. Lots that are accepted may be sent forward for further processing or may be shipped to customers; lots that are rejected may be reworked or scrapped. For example, suppose a manufacturer of calculators chooses 200 stamped circuits from the day's production and determines $x$, the number of defective circuits in the sample. Suppose that up to a $6 \\%$ rate of defectives is considered acceptable for the process.",
+    "data": null,
+    "question": "Use the normal approximation to determine the probability that 20 or more defectives are observed in the sample of 200 circuits (i.e., find the approximate probability that $x \\geq 20$)."
+  },
+  "output": {
+    "answer": "Using the rule of complements, $P(x \\geq 20)=1-P(x \\leq 19)$. To find the approximating area corresponding to $x \\leq 19$, refer to Figure 4.34. Note that we want to include all the binomial probability histogram from 0 to 19, inclusive. Because the event is of the form $x \\leq a$, the proper correction for continuity is $a+.5=19+.5=19.5$. Thus, the $z$-value of interest is\n\n$$\nz=\\frac{(a+.5)-\\mu}{\\sigma}=\\frac{19.5-12}{3.36}=\\frac{7.5}{3.36}=2.23\n$$\n\nReferring to Table II in Appendix D: Tables, we find that the area to the right of the mean 0 corresponding to $z=2.23$ (see Figure 4.35) is .4871. So the area $A=P(z \\leq 2.23)$ is\n\n$$\nA=.5+.4871=.9871\n$$\n\nThus, the normal approximation to the binomial probability we seek is\n\n$$\nP(x \\geq 20)=1-P(x \\leq 19) \\approx 1-.9871=.0129\n$$\n\nIn other words, the probability is extremely small that 20 or more defectives will be observed in a sample of 200 circuits-if in fact the true fraction of defectives is .06."
+  },
+  "meta_info": {
+    "index": "4.25",
+    "img_in_question": null
+  },
+  "sample_key": "197"
+}

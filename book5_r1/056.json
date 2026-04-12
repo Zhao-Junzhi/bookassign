@@ -1,15 +1,13 @@
 {
-  "background": "A study of observer variation was performed using radiographic diagnosis of caries on 3869 molars and premolars (Espeland and Handelman, 1989). The following table shows the results for three dentists. Teeth were diagnosed as sound (S) or carious (C).",
+  "background": "A study of observer variation was performed using radiographic diagnosis of caries on 3869 molars and premolars (Espeland and Handelman, 1989). The results for three dentists are shown in a table. Teeth were diagnosed as sound (S) or carious (C).",
   "task": [
     {
       "query": "Which pair of dentists agreed best?",
-      "answer": "For each pair of dentists each tooth can be categorized SS, SC, CS or CC by aggregating the relevant rows of the table. The resulting $2 \\times 2$ tables can be assessed by calculating kappa, as follows:\n\n\\begin{tabular}{llrrrll}\n\\hline & SS & \\multicolumn{1}{c}{ SC } & \\multicolumn{1}{c}{ CS } & CC & kappa & \\%agree \\\\\n\\hline $1 \\vee 2$ & 3520 & 280 & 123 & 216 & 0.46 & $97 \\%$ \\\\\n$1 \\vee 3$ & 2182 & 1348 & 43 & 296 & 0.18 & $64 \\%$ \\\\\n$2 \\vee 3$ & 2164 & 1209 & 61 & 435 & 0.26 & $67 \\%$ \\\\\n\\hline\n\\end{tabular}\n\nAlso shown is the percentage agreement. Thus the best agreement is between dentists 1 and 2. Dentist 3 considered that there were many more carious teeth (1644) than the other two observers (339 and 496).",
-      "method": "相关系数（一维）"
+      "answer": "For each pair of dentists, each tooth can be categorized as SS, SC, CS, or CC by aggregating the relevant rows of the table. The resulting $2 \\times 2$ tables can be assessed by calculating kappa, as follows:\n\n\\begin{tabular}{llrrrll}\n\\hline & SS & \\multicolumn{1}{c}{ SC } & \\multicolumn{1}{c}{ CS } & CC & kappa & \\%agree \\\\\n\\hline $1 \\vee 2$ & 3520 & 280 & 123 & 216 & 0.46 & $97 \\%$ \\\\\n$1 \\vee 3$ & 2182 & 1348 & 43 & 296 & 0.18 & $64 \\%$ \\\\\n$2 \\vee 3$ & 2164 & 1209 & 61 & 435 & 0.26 & $67 \\%$ \\\\\n\\hline\n\\end{tabular}\n\nAlso shown is the percentage agreement. Thus, the best agreement is between dentists 1 and 2. Dentist 3 considered that there were many more carious teeth (1644) than the other two observers (339 and 496)."
     },
     {
       "query": "Is this a good level of agreement?",
-      "answer": "A kappa value of 0.46 is not usually considered to be especially good agreement, but dentists 1 and 2 agreed about $97 \\%$ of the teeth examined. This discrepancy is because they both considered the large majority of teeth to be sound. Among the 619 teeth which at least one of dentists 1 and 2 considered carious, they agreed on only 216 $(35 \\%)$. Good agreement depends upon circumstances, not upon the kappa value (and certainly not upon the P value - because of the huge sample size, all the above kappa values are highly statistically significant).",
-      "method": "相关系数（一维）"
+      "answer": "A kappa value of 0.46 is not usually considered to be especially good agreement, but dentists 1 and 2 agreed about $97 \\%$ of the teeth examined. This discrepancy is because they both considered the large majority of teeth to be sound. Among the 619 teeth which at least one of dentists 1 and 2 considered carious, they agreed on only 216 $(35 \\%)$. Good agreement depends upon circumstances, not upon the kappa value (and certainly not upon the P value - because of the huge sample size, all the above kappa values are highly statistically significant)."
     }
   ],
   "id": "056",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "438-439"
+  },
+  "token_usage": {
+    "completion_tokens": 519,
+    "prompt_tokens": 931,
+    "total_tokens": 1450,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

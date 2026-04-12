@@ -1,103 +1,20 @@
 {
-  "case_id": "book1_r1\\record_441.json",
+  "case_id": "book1_r1\\record_369.json",
   "input": {
-    "background": "A randomized, double-blind, placebo-controlled trial evaluated the efficacy of the herbal remedy Echinacea purpurea in treating upper respiratory tract infections in children. Each time a subject had an upper respiratory tract infection, treatment with either echinacea or a placebo was taken for the duration of illness. The severity of the illness was rated by parents of subjects as mild, moderate, or severe. Table 18.6A shows the results. Table 18.6B shows the row percents of responses in the groups.",
-    "data": "\n\\begin{table}[h!]\n\\centering\n\\caption{Efficacy of echinacea illustrative data. Parental assessments of the severity of illness.}\n\\begin{tabular}{|l|ccc|c|}\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(A) Cross-tabulated counts}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 153           & 128               & 48              & 329 \\\nPlacebo          & 170           & 157               & 40              & 367 \\\n\\hline\nTotal            & 323           & 285               & 88              & 696 \\\n\\hline\n\\multicolumn{5}{c}{} \\\n\\hline\n\\multicolumn{5}{|c|}{\textbf{(B) Conditional distributions (row percents)}} \\\n\\hline\n\\multirow{2}{*}{} & \\multicolumn{3}{c|}{\textbf{Parental assessment}} & \\multirow{2}{*}{\textbf{Total}} \\\n                  & \textbf{Mild} & \textbf{Moderate} & \textbf{Severe} &  \\\n\\hline\nEchinacea        & 46.5          & 38.9              & 14.6            & 100.0 \\\nPlacebo          & 46.3          & 42.8              & 10.9            & 100.0 \\\n\\hline\nTotal            & 46.4          & 40.9              & 12.6            & 100.0 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\n",
-    "question": "Approximately $46 \\%$ of the cases were rated."
+    "background": "For the illustrative example, we have established that when $\\bar{x}=173$ (pounds), $P=0.27$. This $P$-value indicates that 173 is not significantly different from 170 at conventional levels of $\\alpha$ (retain $H_0$ ). In contrast, when $\\bar{x}=185, P=0.0013$, thus providing highly significant evidence against $H_0$ (reject $H_0$ ).",
+    "data": "",
+    "question": "What does the $P$-value of 0.27 indicate when $\\bar{x}=173$?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "A slightly higher percentage of the treatment group experienced severe illness ( $14.6 \\%$ vs. $10.9 \\%$ ), suggesting that echinacea is ineffective in treating upper respiratory tract illness in children.",
-    "variable": {
-      "Treatment": {
-        "id": "Treatment",
-        "value": [
-          "Echinacea",
-          "Placebo"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "Type of treatment given to subjects, either Echinacea or Placebo."
-      },
-      "Severity_Mild_Count": {
-        "id": "Severity_Mild_Count",
-        "value": [
-          153,
-          170
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Count of cases rated as mild for each treatment group."
-      },
-      "Severity_Moderate_Count": {
-        "id": "Severity_Moderate_Count",
-        "value": [
-          128,
-          157
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Count of cases rated as moderate for each treatment group."
-      },
-      "Severity_Severe_Count": {
-        "id": "Severity_Severe_Count",
-        "value": [
-          48,
-          40
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Count of cases rated as severe for each treatment group."
-      },
-      "Total_Count": {
-        "id": "Total_Count",
-        "value": [
-          329,
-          367
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total count of cases for each treatment group."
-      },
-      "Severity_Mild_Percent": {
-        "id": "Severity_Mild_Percent",
-        "value": [
-          46.5,
-          46.3
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Percentage of cases rated as mild for each treatment group."
-      },
-      "Severity_Moderate_Percent": {
-        "id": "Severity_Moderate_Percent",
-        "value": [
-          38.9,
-          42.8
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Percentage of cases rated as moderate for each treatment group."
-      },
-      "Severity_Severe_Percent": {
-        "id": "Severity_Severe_Percent",
-        "value": [
-          14.6,
-          10.9
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Percentage of cases rated as severe for each treatment group."
-      }
-    }
+    "answer": "The $P$-value of 0.27 indicates that 173 is not significantly different from 170 at conventional levels of $\\alpha$ (retain $H_0$)."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Categorical response with more than two levels  (Efficacy of echinacea).",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
-    "page": "417-418"
+    "caption": "Statistical significance (Body weight of 20-29-year-old  men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.4 SIGNIFICANCE LEVEL",
+    "page": "183-183"
   },
   "sample_key": "551"
 }

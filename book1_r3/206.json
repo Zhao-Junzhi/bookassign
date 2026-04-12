@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_089.json",
+  "input": {
+    "background": "Menstrual cycle lengths (days) in an SRS of nine women are as follows: {31, 28, 26, 24, 29, 33, 25, 26, 28}. Use this data to test whether mean menstrual cycle length differs significantly from a lunar month. (A lunar month is 29.5 days.) Assume population values vary according to a Normal distribution. Use a two-sided alternative.",
+    "data": "",
+    "question": "Determine the P-value for the test statistic."
+  },
+  "output": {
+    "answer": "Use Table C to determine that $t_{8.90}=1.40$ (right tail $=0.10$ ) and $t_{8.95}=$ 1.86 (right tail $=0.05$ ). Therefore, the one-sided $P$-value is between 0.05 and 0.10 and the two-tailed $P$-value is $0.10<P<0.20$. Using a utility program, $P=0.11$."
+  },
+  "meta_info": {
+    "index": "11.11",
+    "image": "",
+    "caption": "Menstrual cycle length.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "217-217"
+  },
+  "sample_key": "206",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1151,
+    "total_tokens": 1194,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1150,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1151,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1150,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

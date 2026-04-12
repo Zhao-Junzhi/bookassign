@@ -1,49 +1,20 @@
 {
-  "case_id": "book1_r1\\record_335.json",
+  "case_id": "book1_r1\\record_143.json",
   "input": {
-    "background": "Table 5.1 lists the probability mass function for the four patients illustrative pmf. Notice that: - Property 1. All probabilities in the pmf are between 0 and 1. - Property 2. Probabilities in the sample space sum to exactly 1.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Verify the probability of a complement is equal to 1 minus the probability of the event."
+    "background": "In 1954, the prominent statistician W. G. Cochran published an article on the analysis of cross-tabulated counts. The article included an example from a study on the treatment of leprosy. Table 18.10 lists the cross-tabulated results. The row variable classifies patients by their initial degree of skin damage, and the column variable classifies overall response to therapy.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.10 Data for Exercise 18.5; response to treatment in leprosy patients according to level of skin damage at onset of treatment.}\n\\begin{tabular}{|l|l|l|l|l|l|l|}\n\\hline Skin infiltration & Marked improvement & Moderate improvement & Slight improvement & Stationary & Worse & Total \\\n\\hline High & 7 & 15 & 16 & 13 & 1 & 52 \\\n\\hline Low & 11 & 27 & 42 & 53 & 11 & 144 \\\n\\hline Total & 18 & 42 & 58 & 66 & 12 & 196 \\\n\\hline\n\\end{tabular}\n\\end{table}\n",
+    "question": "Calculate the conditional percents of improvement for patients with high levels of skin damage."
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "Therefore, $\\operatorname{Pr}(X=0$ or $X=1)=\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)=0.0039+ 0.0469=0.0508$",
-    "variable": {
-      "Number_of_successes": {
-        "id": "Number_of_successes",
-        "value": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "The number of successes in the probability mass function."
-      },
-      "Probability": {
-        "id": "Probability",
-        "value": [
-          0.0039,
-          0.0469,
-          0.2109,
-          0.4219,
-          0.3164
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The probability associated with each number of successes."
-      }
-    }
+    "answer": "For patients with high skin damage: Marked improvement = 13%, Slight improvement = 29%, Stationary = 31%, Worse = 25%, Total = 100%. Example calculation: 7 / 52 × 100% = 13%."
   },
   "meta_info": {
-    "index": "",
+    "index": "18.5",
     "image": "",
-    "caption": "Properties of probabilities.",
-    "chapter": "PROBABILITY CONCEPTS",
-    "section": "5.3  DISCRETE RANDOM VARIABLES",
-    "page": "95-95"
+    "caption": "Response to leprosy treatment.",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
+    "page": "420-421"
   },
   "sample_key": "360"
 }

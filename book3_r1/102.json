@@ -1,10 +1,9 @@
 {
-  "background": "In exploring for oil, an energy company has been recording the average number of drilling excavations prior to locating a productive oil well. In 25 experiences, it was found that 4.5 drillings, on the average, were required before a well was found. Let $N$ be a random variable that counts for the number of drillings necessary to find a productive well. Define $p$ is the probability that a drilling is productive. Assuming that all drillings are mutually independent.",
+  "background": "An energy company has been recording the average number of drilling excavations prior to locating a productive oil well. In 25 experiences, it was found that 4.5 drillings, on the average, were required before a well was found. Let $N$ be a random variable that counts for the number of drillings necessary to find a productive well. Define $p$ as the probability that a drilling is productive. Assuming that all drillings are mutually independent.",
   "task": [
     {
-      "query": "Obtain the probability that exactly n number of drillings necessary in order to find a productive well.",
-      "answer": "$$0.1046$$",
-      "method": "事件发生概率及独立性"
+      "query": "Obtain the probability that exactly n number of drillings are necessary in order to find a productive well.",
+      "answer": "$$0.1046$$"
     }
   ],
   "id": "102",
@@ -18,5 +17,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "130-131"
+  },
+  "token_usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 421,
+    "total_tokens": 573,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

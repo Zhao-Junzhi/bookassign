@@ -1,49 +1,20 @@
 {
-  "case_id": "book1_r1\\record_018.json",
+  "case_id": "book1_r1\\record_016.json",
   "input": {
-    "background": "Body weights of 18 diabetics expressed as a percentage of ideal (defined as body weight ÷ ideal body weight × 100) are shown here.",
+    "background": "For each of the following comparisons, plot the data as back-to-back stemplots on a common stem. Then, compare group locations and spreads.",
     "data": "",
-    "question": "Construct a stem-and-leaf plot of these data and interpret your findings."
+    "question": "(b) Comparison B: Group 1: 90, 80, 70, 60, 50; Group 2: 70, 60, 50, 40. Plot the data as back-to-back stemplots and compare group locations and spreads."
   },
   "output": {
-    "method": "stem-and-leaf plot",
-    "answer": "```\n08|8\n09|59\n10|0147\n11|4\\underline{4}4679\n12|0145\n13|\n14|\n15|2\n```\n\n- Shape: The distribution has a negative skew and high outlier.\n- Location: The median is 114 (underlined).\n- Spread: Data range from 88 to 152.",
-    "variable": {
-      "body_weight_percentage": {
-        "id": "body_weight_percentage",
-        "value": [
-          85,
-          90,
-          92,
-          95,
-          100,
-          102,
-          105,
-          110,
-          112,
-          115,
-          118,
-          120,
-          122,
-          125,
-          128,
-          130,
-          135,
-          140
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Body weights of 18 diabetics expressed as a percentage of their ideal body weight."
-      }
-    }
+    "answer": "Comparison B. Group 1 has larger values on average; groups have the same variability:\n\nGroup 1 | | Group 2\n\n$$\n\\begin{aligned}\n& |1| \\\n& |2| \\\n& |3| 0 \\\n& |4| 0 \\\n0 & |5| 0 \\\n0 & |6| 0 \\\n0 & |7| 0 \\\n0 & |8| \\\n0 & |9| \\\n& \\times 10\n\\end{aligned}\n$$"
   },
   "meta_info": {
-    "index": "3.7",
+    "index": "3.3",
     "image": "",
-    "caption": "Body weight expressed as a percentage of ideal.",
+    "caption": "Leaves on a common stem.",
     "chapter": "Frequency Distributions",
-    "section": "3.3 Additional Frequency Charts",
-    "page": "59-60"
+    "section": "3.2 Frequency Tables",
+    "page": "50-51"
   },
   "sample_key": "48"
 }

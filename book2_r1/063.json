@@ -1,0 +1,51 @@
+{
+  "background": "Suppose you work for an insurance company, and you sell a $10,000 one-year term insurance policy at an annual premium of $290. Actuarial tables show that the probability of death during the next year for a person of your customer's age, sex, health, etc., is 0.001.",
+  "task": [
+    {
+      "query": "What is the experiment and the associated probabilities for the customer's survival or death?",
+      "answer": "The experiment is to observe whether the customer survives the upcoming year. The probabilities associated with the two sample points, Live and Die, are 0.999 and 0.001, respectively."
+    },
+    {
+      "query": "What are the possible gains (random variable values) for the company, and their associated probabilities?",
+      "answer": "The random variable gain $x$ can assume the following values: $290 with probability 0.999$ (if the customer lives), and $-9,710 with probability 0.001$ (if the customer dies)."
+    },
+    {
+      "query": "How is the expected gain for the company calculated, and what is the result?",
+      "answer": "The expected gain is calculated as the weighted average of the possible gains: $$\\mu = E(x) = \\sum x p(x) = (290)(0.999) + (-9,710)(0.001) = $280.$$ Thus, the expected gain is $280."
+    },
+    {
+      "query": "What does the expected gain imply for the company if it sells a large number of such policies?",
+      "answer": "If the company were to sell a very large number of one-year $10,000 policies to customers possessing the described characteristics, it would (on average) net $280 per sale in the next year."
+    }
+  ],
+  "id": "063",
+  "data": null,
+  "meta_info": {
+    "index": "4.7",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding an Expected Value-An Insurance Application",
+    "chapter": "Random Variables and Probability Distributions",
+    "section": "4.2 Probability Distributions for Discrete Random Variables",
+    "book": "Statistics for Business and Economics",
+    "page": "122-122"
+  },
+  "token_usage": {
+    "completion_tokens": 392,
+    "prompt_tokens": 684,
+    "total_tokens": 1076,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

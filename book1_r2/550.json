@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_439.json",
+  "case_id": "book1_r1\\record_368.json",
   "input": {
-    "background": "In the smoking and education illustrative data, let group 1 (High school graduates) serve as the baseline group for comparisons.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 18.3 Prevalences and prevalence (",
-    "question": "Compare other groups to the baseline group (High school graduates) in terms of smoking behavior."
+    "background": "We have established a test of $H_0: \\mu=170$ versus $H_{\\mathrm{a}}: \\mu>170$ in a population with $\\sigma=40$ pounds. A simple random sample of $n=64$ is associated with $S E_{\\bar{x}}=\\frac{40}{\\sqrt{64}}=5$.",
+    "data": "",
+    "question": "Sample 2. What is the $z$-statistic in a sample with $\\bar{x}=185$?"
   },
   "output": {
-    "method": "分组异质性解读",
-    "answer": "null",
-    "variable": {
-      "HighSchoolGraduates": {
-        "id": "HighSchoolGraduates",
-        "value": "Baseline group for comparison",
-        "class": "categorical",
-        "role": "NR",
-        "description": "Group of individuals who have graduated from high school, serving as the baseline group for comparisons in smoking behavior."
-      },
-      "OtherGroups": {
-        "id": "OtherGroups",
-        "value": "Groups other than high school graduates",
-        "class": "categorical",
-        "role": "independent",
-        "description": "Groups of individuals with different educational levels compared to high school graduates in terms of smoking behavior."
-      },
-      "SmokingBehavior": {
-        "id": "SmokingBehavior",
-        "value": "Prevalence rates or other measures of smoking",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Measures of smoking behavior used to compare different educational groups."
-      }
-    }
+    "answer": "$z_{\\text {stat }}=\\frac{\\bar{x}-\\mu_0}{S E_{\\bar{x}}}=\\frac{185-170}{5}=3.0$"
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Relative risks, R-by-2 table.",
-    "chapter": "CROSS-TABULATED COUNTS",
-    "section": "18.2 DESCRIBING NATURALISTIC AND COHORT SAMPLES",
-    "page": "415-415"
+    "caption": "z-statistic (Body weight of 20-29-year-old men).",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.2 TEST STATISTICS",
+    "page": "180-180"
   },
   "sample_key": "550"
 }

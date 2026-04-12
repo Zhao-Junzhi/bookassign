@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\61.json",
+  "case_id": "book3_r1\\41.json",
   "input": {
-    "background": "If a parallel system consists of 3 independent components, each having 0.95 reliability, then the system reliability is given by R=1-(1-0.95)^3=0.9999.",
+    "background": "The time to failure of a component follows a gamma distribution with parameters \\( \\alpha = 3 \\) and \\( \\beta = 5 \\). The problem involves determining the reliability of the component and the hazard rate at 10 time-units, as well as understanding the properties of the gamma distribution.",
     "data": null,
-    "question": "Similarly, it can be shown that for a 3-component parallel system, the system MTTF is given by M_tbf=1/λ_1 + 1/λ_2 + 1/λ_3 - 1/(λ_1 + λ_2) - 1/(λ_1 + λ_3) - 1/(λ_2 + λ_3) + 1/(λ_1 + λ_2 + λ_3)."
+    "question": "Determine the reliability of the component at 10 time-units."
   },
   "output": {
-    "method": "数学计算 - 期望",
-    "answer": "M_tbf=1/λ_1 + 1/λ_2 + 1/λ_3 - 1/(λ_1 + λ_2) - 1/(λ_1 + λ_3) - 1/(λ_2 + λ_3) + 1/(λ_1 + λ_2 + λ_3)."
+    "answer": "Using Eq. (2.75), we compute $$ R(10)=e^{-\\frac{10}{5}} \\sum_{i=0}^2 \\frac{\\left(\\frac{10}{5}\\right)^i}{i!}=0.6767 $$"
   },
   "meta_info": {
-    "index": "4.3",
+    "index": "2.25",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Chapter 4： System Reliability Modeling",
-    "section": "4.3 Parallel Systems",
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
     "book": "Statistical Reliability Engineering",
-    "page": "227-228"
+    "page": "111-111"
   },
   "sample_key": "160"
 }

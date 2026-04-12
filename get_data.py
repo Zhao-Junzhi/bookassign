@@ -50,7 +50,6 @@ for file_path in json_files:
                 "question": qs["query"]  # 添加问题特定的字段
             },
             "output": {
-                "method": qs["method"],
                 "answer": qs["answer"]
             },
             "meta_info":data["meta_info"]

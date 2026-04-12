@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\021.json",
+  "input": {
+    "background": "Use the computer to find the sample variance and the sample standard deviation for the 50 companies' percentages of revenues spent on R&D, given in Table 2.2.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline Table 2.2 & \\multicolumn{7}{|c|}{Percentage of Revenues Spent on Research and Development} \\\\\n\\hline Company & Percentage & Company & Percentage & Company & Percentage & Company & Percentage \\\\\n\\hline 1 & 13.5 & 14 & 9.5 & 27 & 8.2 & 39 & 6.5 \\\\\n\\hline 2 & 8.4 & 15 & 8.1 & 28 & 6.9 & 40 & 7.5 \\\\\n\\hline 3 & 10.5 & 16 & 13.5 & 29 & 7.2 & 41 & 7.1 \\\\\n\\hline 4 & 9.0 & 17 & 9.9 & 30 & 8.2 & 42 & 13.2 \\\\\n\\hline 5 & 9.2 & 18 & 6.9 & 31 & 9.6 & 43 & 7.7 \\\\\n\\hline 6 & 9.7 & 19 & 7.5 & 32 & 7.2 & 44 & 5.9 \\\\\n\\hline 7 & 6.6 & 20 & 11.1 & 33 & 8.8 & 45 & 5.2 \\\\\n\\hline 8 & 10.6 & 21 & 8.2 & 34 & 11.3 & 46 & 5.6 \\\\\n\\hline 9 & 10.1 & 22 & 8.0 & 35 & 8.5 & 47 & 11.7 \\\\\n\\hline 10 & 7.1 & 23 & 7.7 & 36 & 9.4 & 48 & 6.0 \\\\\n\\hline 11 & 8.0 & 24 & 7.4 & 37 & 10.5 & 49 & 7.8 \\\\\n\\hline 12 & 7.9 & 25 & 6.5 & 38 & 6.9 & 50 & 6.5 \\\\\n\\hline 13 & 6.8 & 26 & 9.5 & & & & \\\\\n\\hline\n\\end{tabular}",
+    "question": "Is there additional interpretation of $s$ provided?"
+  },
+  "output": {
+    "answer": "We have more to say about the interpretation of $s$ in the next section."
+  },
+  "meta_info": {
+    "index": "2.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Finding Measures of Variation on a PrintoutR\\\\\\\\&D Expenditures",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.4 Numerical Measures of Variability",
+    "book": "Statistics for Business and Economics",
+    "page": "54-54"
+  },
+  "sample_key": "52"
+}

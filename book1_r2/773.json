@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_504.json",
+  "input": {
+    "background": "Among U.S. adults from 1999-2000, American Indians/Alaska Natives had the greatest prevalence of smoking (p1=0.40); Chinese-Americans had the lowest prevalence (p2=0.12). Suppose we take an SRS of 1000 individuals from each of these groups (n1=n2=1000).",
+    "data": "",
+    "question": "How likely is it for a sample to show no difference in prevalences?"
+  },
+  "output": {
+    "answer": "Pr(p̂1 - p̂2 ≤ 0) = Pr(Z ≤ [(0.00 - 0.28) / 0.01859]) = Pr(Z ≤ -15.06) = 0.0000."
+  },
+  "meta_info": {
+    "index": "17.1",
+    "image": "",
+    "caption": "Prevalence of cigarette use in two ethnic groups.",
+    "chapter": "Comparing Two Proportions",
+    "section": "17.2 Proportion Difference (Risk Difference)",
+    "page": "377-377"
+  },
+  "sample_key": "773"
+}

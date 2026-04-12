@@ -1,129 +1,20 @@
 {
-  "case_id": "book1_r1\\record_159.json",
+  "case_id": "book1_r1\\record_123.json",
   "input": {
-    "background": "Table 19.3 contains data on the acceptance of applications to graduate programs at the University of California Berkeley for 1973. Assuming men and women who applied for admission were equally well-qualified, one would expect an equal proportion of acceptance by gender.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 19.10 Data for Exercise 19.5. Acceptance to UC Berkeley Graduate programs by gender and major.}\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multicolumn{4}{|c|}{Table A: Applicants to Both Majors (combined)} \\\n\\hline & + & - & Total \\\n\\hline Male & 534  & 664 & 1198 \\\n\\hline Female & 113 & 336 & 449 \\\n\\hline \\multicolumn{4}{|c|}{Table B: Applicants to Major 1} \\\n\\hline & + & - & Total \\\n\\hline Male & 512 & 313 & 825 \\\n\\hline Female & 89 & 19 & 108 \\\n\\hline \\multicolumn{4}{|c|}{Table C: Applicants to Major 2} \\\n\\hline & + & - & Total \\\n\\hline Male & 22 & 351 & 373 \\\n\\hline Female & 24 & 317 & 341 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-    "question": "Was there sex bias in graduate school admissions? Did it favor male or female applicants?"
+    "background": "Use the plus-four method to calculate a 95% confidence interval for the prevalence of multiple sexual partners in adult heterosexuals using the information in Exercise 16.1. Recall that 170 of the 2,673 subjects reported this behavior.",
+    "data": "16.1 AIDS-related risk factor. A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months. \n(a) Describe the population to which inferences will be made. What population parameter will be estimated? Calculate the prevalence of multiple sexual partners in the sample.\n(b) Practical problems of bias can pose a threat to the validity of a study of this type. What specific types of selection biases might evolve from the sampling method used by this study?\n(c) This study relied on the truthfulness of responses. Although the investigators tried their best to make respondents feel comfortable, they could not be assured information was fully accurate. If an information bias existed in responses, hypothesize whether it would tend to overestimate or underestimate the prevalence of the risk factor.",
+    "question": "How do you calculate the standard error (SE) of the adjusted proportion?"
   },
   "output": {
-    "method": "contingency table",
-    "answer": "There is a slight bias for female applicants.",
-    "variable": {
-      "gender": {
-        "id": "gender",
-        "value": [
-          "Male",
-          "Female"
-        ],
-        "class": "categorical",
-        "role": "independent",
-        "description": "The gender of the applicants to graduate programs."
-      },
-      "admission_status_combined": {
-        "id": "admission_status_combined",
-        "value": [
-          "Accepted",
-          "Rejected"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The admission status of applicants (Accepted or Rejected) for both majors combined."
-      },
-      "male_combined": {
-        "id": "male_combined",
-        "value": [
-          534,
-          664,
-          1198
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of male applicants who were accepted, rejected, and total for both majors combined."
-      },
-      "female_combined": {
-        "id": "female_combined",
-        "value": [
-          113,
-          336,
-          449
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female applicants who were accepted, rejected, and total for both majors combined."
-      },
-      "admission_status_major_1": {
-        "id": "admission_status_major_1",
-        "value": [
-          "Accepted",
-          "Rejected"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The admission status of applicants (Accepted or Rejected) for Major 1."
-      },
-      "male_major_1": {
-        "id": "male_major_1",
-        "value": [
-          512,
-          313,
-          825
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of male applicants who were accepted, rejected, and total for Major 1."
-      },
-      "female_major_1": {
-        "id": "female_major_1",
-        "value": [
-          89,
-          19,
-          108
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female applicants who were accepted, rejected, and total for Major 1."
-      },
-      "admission_status_major_2": {
-        "id": "admission_status_major_2",
-        "value": [
-          "Accepted",
-          "Rejected"
-        ],
-        "class": "categorical",
-        "role": "dependent",
-        "description": "The admission status of applicants (Accepted or Rejected) for Major 2."
-      },
-      "male_major_2": {
-        "id": "male_major_2",
-        "value": [
-          22,
-          351,
-          373
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of male applicants who were accepted, rejected, and total for Major 2."
-      },
-      "female_major_2": {
-        "id": "female_major_2",
-        "value": [
-          24,
-          317,
-          341
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of female applicants who were accepted, rejected, and total for Major 2."
-      }
-    }
+    "answer": "SE(p~) = sqrt((0.0643)(0.9357) / 2677) = 0.004739"
   },
   "meta_info": {
-    "index": "19.5",
+    "index": "16.9",
     "image": "",
-    "caption": "Sex bias in graduate school admissions?",
-    "chapter": "STRATIFIED 2-BY-2 TABLES",
-    "section": "19.4 INTERACTION",
-    "page": "480-481"
+    "caption": "AIDS-related risk factor.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
+    "page": "366-366"
   },
   "sample_key": "309"
 }

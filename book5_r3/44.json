@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\014.json",
+  "input": {
+    "background": "Halpern and Coren (1988) wished to investigate whether there was a difference in longevity between left-handed and right-handed people. They used a baseball encyclopaedia to record the dates of birth and death of 1472 right-handed and 236 left-handed players.",
+    "data": null,
+    "question": "The authors did not state the time span of the data, but as they note deaths up to age 99, it is likely to cover the whole of the twentieth century. How might the long time span bias the comparison of left- and right-handers?"
+  },
+  "output": {
+    "answer": "If the prevalence of left-handedness had increased during the twentieth century, or if the prevalence within different social groups (with different mortality rates) had changed. Both of these are likely."
+  },
+  "meta_info": {
+    "index": "5.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Designing research",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "105-106"
+  },
+  "sample_key": "44",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 992,
+    "total_tokens": 1035,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 991,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 992,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 991,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

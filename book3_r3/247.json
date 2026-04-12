@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\67.json",
+  "input": {
+    "background": "Suppose that a system is restored to 'as good as new' periodically at intervals of time T. The system renews itself at time T, 2T, ..., and the system reliability under preventive maintenance (PM) is defined as R_M(t) = Pr{failure has not occurred by time t}. The system survives to time t if and only if it survives every PM cycle {1, 2, ..., k} and a further time (t-kT).",
+    "data": null,
+    "question": "For a system with a failure time probability density function f(t) = λ^2 t e^(-λ t) for t > 0, λ > 0, obtain the system reliability under PM and system mean time to first failure."
+  },
+  "output": {
+    "answer": "The system reliability under PM is R_M(t) = [R(T)]^k R(t-kT) for kT < t < (k+1)T and k = 0, 1, 2, .... Given the probability density function f(t) = λ^2 t e^(-λ t), the reliability function is R(t) = ∫_t^∞ f(x) dx = (1 + λt)e^(-λt). Thus, R_M(t) = [(1 + λT)e^(-λT)]^k [(1 + λ(t-kT))e^(-λ(t-kT))]. The system mean time to first failure (MTTFF) is MTTFF = ∫_0^∞ R_M(t) dt = ∑_k=0^∞ [R(T)]^k ∫_0^T R(u) du = (∫_0^T R(u) du) / (1 - R(T)). From R(u), ∫_0^T R(x) dx = (2/λ)(1 - e^(-λT)) - T e^(-λT). Thus, MTTFF = [(2/λ)(1 - e^(-λT)) - T e^(-λT)] / [1 - (1 + λT)e^(-λT)]."
+  },
+  "meta_info": {
+    "index": "7.1",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 7：Maintenance Models",
+    "section": "7.2 Maintenance and Replacement Policies",
+    "book": "Statistical Reliability Engineering",
+    "page": "404-406"
+  },
+  "sample_key": "247",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1508,
+    "total_tokens": 1551,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1507,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1508,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1507,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

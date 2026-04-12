@@ -1,25 +1,21 @@
 {
-  "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model.",
+  "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model:\n\nVariable | Regression coefficient | Standard error\nGvHD (0=No, 1=Yes) | 2.306 | 0.5898\nCML (0=No, 1=Yes) | -2.508 | 0.8095",
   "task": [
     {
       "query": "What is the interpretation of the opposite signs for the regression coefficients?",
-      "answer": "The opposite signs mean that high values of one variable and low values of the other variable are associated with an increased risk of dying. A positive regression coefficient means that high values of that variable are associated with worse survival, and conversely for a negative coefficient. Thus the model predicts that survival is worse for non-CML patients and those with GvHD.",
-      "method": "回归系数显著性与方向解读"
+      "answer": "The opposite signs mean that high values of one variable and low values of the other variable are associated with an increased risk of dying. A positive regression coefficient means that high values of that variable are associated with worse survival, and conversely for a negative coefficient. Thus the model predicts that survival is worse for non-CML patients and those with GvHD."
     },
     {
-      "query": "Calculate the relative risks of dying (hazard ratio) for the following patients relative to non-GvHD non-CML patients: (i) with GvHD but not CML, (ii) CML but without GvHD, (iii) CML and GvHD.",
-      "answer": "We need to calculate the prognostic index for each group of patients. These are as follows:\nnon-GvHD non-CML: PI = 0.000\nnon-GvHD CML: PI = -2.508\nGvHD non-CML: PI = 2.306\nGvHD CML: PI = -0.202 (=-2.508+2.306)\n\nThe relative risk of dying relative to the non-GvHD non-CML group is simply e^PI as the PI for that group is zero. Thus the risks of dying in the other groups relative to non-GvHD non-CML patients are:\nnon-GvHD CML: 0.08\nGvHD non-CML: 10.03\nGvHD CML: 0.82",
-      "method": "分类或发生概率影响因素解读"
+      "query": "Calculate the relative risks of dying (hazard ratio) for the following patients relative to non-GvHD non-CML patients:\n(i) with GvHD but not CML,\n(ii) CML but without GvHD,\n(iii) CML and GvHD.",
+      "answer": "We need to calculate the prognostic index for each group of patients. These are as follows:\nnon-GvHD & non-CML: PI = 0.000\nnon-GvHD & CML: PI = -2.508\nGvHD & non-CML: PI = 2.306\nGvHD & CML: PI = -0.202 (=-2.508+2.306)\n\nThe relative risk of dying relative to the non-GvHD non-CML group is simply e^(PI) as the PI for that group is zero. Thus the risks of dying in the other groups relative to non-GvHD non-CML patients are:\nnon-GvHD & CML: 0.08\ngvHD & non-CML: 10.03\ngvHD & CML: 0.82"
     },
     {
       "query": "Calculate the 95% confidence interval for the hazard ratio associated with GvHD.",
-      "answer": "The 95% CI is given by the range e^(2.306-1.96×0.5898) to e^(2.306+1.96×0.5898), or 3.16 to 31.9.",
-      "method": "分类或发生概率影响因素解读"
+      "answer": "The 95% CI is given by the range e^(2.306 - 1.96 × 0.5898) to e^(2.306 + 1.96 × 0.5898), or 3.16 to 31.9."
     },
     {
       "query": "Comment on the reliability of the Cox regression model in view of the sample size (37) and number of deaths (18).",
-      "answer": "A Cox model based on such a small sample would be extremely unreliable, as is indicated by the wide CI given above. It is the number of 'events', here deaths, that determines the power of a Cox analysis, not the number of subjects.",
-      "method": "回归系数显著性与方向解读"
+      "answer": "A Cox model based on such a small sample would be extremely unreliable, as is indicated by the wide CI given above. It is the number of 'events', here deaths, that determines the power of a Cox analysis, not the number of subjects."
     }
   ],
   "id": "051",
@@ -33,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "395-395"
+  },
+  "token_usage": {
+    "completion_tokens": 688,
+    "prompt_tokens": 1008,
+    "total_tokens": 1696,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

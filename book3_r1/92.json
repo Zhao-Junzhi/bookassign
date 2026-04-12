@@ -1,10 +1,9 @@
 {
-  "background": "A system consisting of one original unit plus a spare can function for a random amount of time $X$. If the density of $X$ is given (in units of months) by $$f(x)= \\begin{cases}C x e^{-\\frac{x}{2}} & \\text { for } x>0 \\\\ 0 & \\text { or } x \\leq 0\\end{cases}$$ where C is a constant.",
+  "background": "A system consisting of one original unit plus a spare can function for a random amount of time X. The density function of X (in units of months) is given by f(x) = C * x * e^(-x/2) for x > 0, and f(x) = 0 for x ≤ 0, where C is a constant.",
   "task": [
     {
       "query": "What is the probability that the system functions for at least 5 months?",
-      "answer": "The probability that the system functions for at least 5 months is 0.2873.",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability that the system functions for at least 5 months is 0.2873."
     }
   ],
   "id": "92",
@@ -18,5 +17,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "64-64"
+  },
+  "token_usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 432,
+    "total_tokens": 570,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

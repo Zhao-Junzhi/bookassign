@@ -1,0 +1,22 @@
+{
+  "case_id": "book2_r1\\049.json",
+  "input": {
+    "background": "The investigation of consumer product complaints by the Federal Trade Commission (FTC) has generated much interest by manufacturers in the quality of their products. A manufacturer of an electromechanical kitchen utensil conducted an analysis of a large number of consumer complaints and found that they fell into six categories shown in Table 3.6.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|}\n\\hline Table 3.6 & \\multicolumn{4}{|c|}{Distribution of Product Complaints} \\\\\n\\hline \\multicolumn{2}{|c|}{} & \\multicolumn{3}{|c|}{Reason for Complaint} \\\\\n\\hline Complaint Origin & Electrical & Mechanical & Appearance & Totals \\\\\n\\hline During Guarantee Period & 18\\% & 13\\% & 32\\% & 63\\% \\\\\n\\hline After Guarantee Period & 12\\% & 22\\% & 3\\% & 37\\% \\\\\n\\hline Totals & 30\\% & 35\\% & 35\\% & 100\\% \\\\\n\\hline\n\\end{tabular}",
+    "question": "If a consumer complaint is received, what is the probability that the cause of the complaint was product appearance given that the complaint originated during the guarantee period?"
+  },
+  "output": {
+    "answer": "Let $A$ represent the event that the cause of a particular complaint is product appearance and let $B$ represent the event that the complaint occurred during the guarantee period. Checking Table 3.6, you can see that $(18+13+32) \\\\%=63 \\\\%$ of the complaints occur during the guarantee period. Hence, $P(B)=.63$. The percentage of complaints that were caused by appearance and occurred during the guarantee period (the event $A \\\\cap B$ ) is $32 \\\\%$. Therefore, $P(A \\\\cap B)=.32$\n\nUsing these probability values, we can calculate the conditional probability $P(A \\\\mid B)$ that the cause of a complaint is appearance, given that the complaint occurred during the guarantee time:\n\n$$\nP(A \\\\mid B)=\\\\frac{P(A \\\\cap B)}{P(B)}=\\\\frac{.32}{.63}=.51\n$$\n\nConsequently, we can see that slightly more than half the complaints that occurred during the guarantee period were due to scratches, dents, or other imperfections in the surface of the kitchen devices."
+  },
+  "meta_info": {
+    "index": "3.16",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Conditional Probability Formula to a Two-Way TableCustomer Complaints",
+    "chapter": "Probability",
+    "section": "3.5 Conditional Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "103-104"
+  },
+  "sample_key": "112"
+}

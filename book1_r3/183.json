@@ -1,0 +1,43 @@
+{
+  "case_id": "book1_r1\\record_080.json",
+  "input": {
+    "background": "An SRS of 18 male students at a university has an average height of 70 inches. The average height of men in the general population is 69 inches. Assume that male height is approximately Normally distributed with σ=2.8 inches.",
+    "data": "",
+    "question": "Determine the P-value for the test and interpret its significance."
+  },
+  "output": {
+    "answer": "One-sided P = Pr(Z ≥ 1.52) = 0.0643. Therefore, the two-sided P = 2 × 0.0643 = 0.1286. This is considered to be nonsignificant by usual conventions."
+  },
+  "meta_info": {
+    "index": "9.17",
+    "image": "",
+    "caption": "University men.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
+  },
+  "sample_key": "183",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 645,
+    "total_tokens": 672,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 645,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

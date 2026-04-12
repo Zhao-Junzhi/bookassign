@@ -3,11 +3,10 @@
   "input": {
     "background": "How many ways are there to form a sequence of 10 letters from 4a’s, 4 b’s, 4 c’s and 4 d’s if each letter must appear at least twice?",
     "data": null,
-    "question": "What are the possible groups of letter frequencies that sum to 10 with each letter appearing two or more times?"
+    "question": "What are the possible groups of letter frequencies that sum to 10 with each letter appearing at least twice?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "The first group is four appearances of one letter and two appearances of each remaining letter. The second is three appearances of two letters and two appearances of the other two letters."
+    "answer": "There are two groups of letter frequencies that sum to 10 with each letter appearing two or more times. The first group is four appearances of one letter and two appearances of each remaining letter. The second is three appearances of two letters and two appearances of the other two letters."
   },
   "meta_info": {
     "index": "1.15",

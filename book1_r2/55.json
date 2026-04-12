@@ -1,34 +1,20 @@
 {
-  "case_id": "book1_r1\\record_022.json",
+  "case_id": "book1_r1\\record_018.json",
   "input": {
-    "background": "This exercise will demonstrate how the mean is the balancing point of a set of numbers.",
+    "background": "Body weights of 18 diabetics expressed as a percentage of ideal (defined as body weight ÷ ideal body weight × 100) are shown here. The data provided are: 107, 119, 99, 114, 120, 104, 88, 114, 124, 116, 101, 121, 152, 100, 125, 114, 95, 117. Construct a stem-and-leaf plot of these data and interpret your findings.",
     "data": "",
-    "question": "Distribution C. The values 1, 2, and 3 are marked as"
+    "question": "Interpret the shape of the distribution based on the stem-and-leaf plot."
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "(c) \\(\\bar{x}=3\\) \n\\begin{gathered} \\mathrm{XXX} \\ 1----2----3----4----5 \\end{gathered}",
-    "variable": {
-      "values": {
-        "id": "values",
-        "value": [
-          1,
-          2,
-          3
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "A set of numbers used to demonstrate the mean as the balancing point."
-      }
-    }
+    "answer": "The distribution has a negative skew and high outlier."
   },
   "meta_info": {
-    "index": "4.1",
+    "index": "3.7",
     "image": "",
-    "caption": "Gravitational center.",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.1 CENTRAL LOCATION: MEAN",
-    "page": "65-66"
+    "caption": "Body weight expressed as a percentage of ideal.",
+    "chapter": "Frequency Distributions",
+    "section": "3.3 Additional Frequency Charts",
+    "page": "59-60"
   },
   "sample_key": "55"
 }

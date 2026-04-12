@@ -1,15 +1,13 @@
 {
-  "background": "The mean and standard deviation of the heights (in cm) of adult men and women in a population are as follows:\nMen: Mean = 179.1, SD = 5.84\nWomen: Mean = 171.7, SD = 5.75\nAssuming that for both sexes height has a Normal distribution.",
+  "background": "The mean and standard deviation of the heights (in cm) of adult men and women in a population are as follows:\n\n|        | Mean  | SD   |\n|--------|-------|------|\n| Men    | 179.1 | 5.84 |\n| Women  | 171.7 | 5.75 |\n\nAssuming that for both sexes height has a Normal distribution.",
   "task": [
     {
       "query": "What proportion of women are above the average height of men?",
-      "answer": "Assuming a Normal distribution, the average height of men can be expressed as (179.1-171.7) / 5.75 standard deviations above the mean height of women. This value is 1.287. From Table B1 the upper tail areas corresponding to standard Normal deviates of 1.25 and 1.30 are 0.1056 and 0.0968, so the required value is 0.10 or 10%.",
-      "method": "事件发生概率及独立性"
+      "answer": "Assuming a Normal distribution, the average height of men can be expressed as (179.1-171.7) / 5.75 standard deviations above the mean height of women. This value is 1.287. From Table B1 the upper tail areas corresponding to standard Normal deviates of 1.25 and 1.30 are 0.1056 and 0.0968, so the required value is 0.10 or 10%."
     },
     {
       "query": "If 60% of adults are female, what proportion of adults taller than 182.9 cm (six feet) are women?",
-      "answer": "The probability of a man being taller than 182.9 cm is the upper tail area of the Normal distribution corresponding to z=(182.9-179.1) / 5.84=0.65, which from Table B1 is 0.2578. For women we require the tail area corresponding to z=(182.9-171.7) / 5.75=1.95, which is 0.0256. If 60% of adults are women the proportion of adults taller than 182.9 cm who are women is given by:\n\n(0.6 × 0.0256) / (0.4 × 0.2578 + 0.6 × 0.0256) = 0.1296 or 13%.",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability of a man being taller than 182.9 cm is the upper tail area of the Normal distribution corresponding to z=(182.9-179.1) / 5.84=0.65, which from Table B1 is 0.2578. For women we require the tail area corresponding to z=(182.9-171.7) / 5.75=1.95, which is 0.0256. If 60% of adults are women the proportion of adults taller than 182.9 cm who are women is given by:\n\n(0.6 × 0.0256) / (0.4 × 0.2578 + 0.6 × 0.0256) = 0.1296 or 13%."
     }
   ],
   "id": "064",
@@ -23,5 +21,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "499-499"
+  },
+  "token_usage": {
+    "completion_tokens": 433,
+    "prompt_tokens": 742,
+    "total_tokens": 1175,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

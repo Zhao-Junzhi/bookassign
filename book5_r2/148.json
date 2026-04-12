@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\061.json",
+  "case_id": "book5_r1\\051.json",
   "input": {
-    "background": "A randomized placebo-controlled trial was carried out to investigate the capacity of aspirin to prevent pregnancy-induced hypertension and preeclamptic toxaemia. The study was carried out on women at high risk of these conditions.",
+    "background": "Exercise 12.3 showed data relating various factors to the occurrence of acute graft-versus-host disease (GvHD) in 37 patients having a bone marrow transplant. Backward stepwise Cox regression analysis using diagnosis, recipient's age and sex, donor's age and sex, whether the donor had been pregnant, MECLR/MLR index and GvHD to predict survival yields the following model:\n\nVariable | Regression coefficient | Standard error\nGvHD (0=No, 1=Yes) | 2.306 | 0.5898\nCML (0=No, 1=Yes) | -2.508 | 0.8095",
     "data": null,
-    "question": "How many patients would have been needed to have a 80% power of detecting as significant (P<0.05) a reduction of one-third in the risk of hypertension from 30% to 20%?"
+    "question": "Comment on the reliability of the Cox regression model in view of the sample size (37) and number of deaths (18)."
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "The sample size needed for 80% power to detect a reduction in risk from 30% to 20% is calculated using statistical power formulas for proportions."
+    "answer": "A Cox model based on such a small sample would be extremely unreliable, as is indicated by the wide CI given above. It is the number of 'events', here deaths, that determines the power of a Cox analysis, not the number of subjects."
   },
   "meta_info": {
-    "index": "15.5",
+    "index": "13.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Clinical trials",
+    "chapter": "Analysis of survival times",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "475-476"
+    "page": "395-395"
   },
   "sample_key": "148"
 }

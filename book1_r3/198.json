@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_086.json",
+  "input": {
+    "background": "The term critical value is often used to refer to the value of a test statistic that determines statistical significance at some fixed α level for a test. For example, ±1.96 are the critical values for a two-tailed z test at α=0.05. In performing a t test based on 21 observations, critical values are needed for one-tailed and two-tailed tests at α=0.05.",
+    "data": "",
+    "question": "What are the critical values for a one-tailed test when α=0.05? That is, what values of the t_stat will give a one-sided P-value that is less than or equal to 0.05?"
+  },
+  "output": {
+    "answer": "First note that df=21-1=20. For a one-sided test we get a P-value less than 0.05 when the t_stat is either less than -1.725 or more than 1.725, that is, |t_stat| ≥ 1.725."
+  },
+  "meta_info": {
+    "index": "11.9",
+    "image": "",
+    "caption": "Critical values for a t statistic.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.3 ONE-SAMPLE T TEST",
+    "page": "216-216"
+  },
+  "sample_key": "198",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1136,
+    "total_tokens": 1179,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1135,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1136,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1135,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

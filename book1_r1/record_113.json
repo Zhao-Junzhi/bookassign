@@ -1,25 +1,49 @@
 {
-  "background": "Exercises 13.1, 13.3, and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against $H_0 (P=0.042)$. Now apply a Kruskal-Wallis test. Show all hypothesis-testing steps. Are the Kruskal-Wallis results consistent with the ANOVA results?",
+  "background": "Exercises 13.1, 13.3, and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against H0 (P=0.042). Now apply a Kruskal-Wallis test.",
   "task": [
     {
-      "query": "Apply a Kruskal-Wallis test and show all hypothesis-testing steps.",
-      "answer": "A. Hypotheses. $H_0$ : birth weight distributions in the four populations are equal in location versus $H_2$ : the birth weight in at least one of the populations differs\nB. Test statistic. Chi-square $=7.305$ with $3 d f$ (Calculated with SPSS, Rel. 11.0.1. 2001. Chicago: SPSS Inc.)\nC. $\boldsymbol{P}$-value. $P=0.063$",
-      "method": "假设检验与区间估计"
+      "query": "State the hypotheses for the Kruskal-Wallis test.",
+      "answer": "H0: birth weight distributions in the four populations are equal in location versus H2: the birth weight in at least one of the populations differs."
+    },
+    {
+      "query": "Calculate the test statistic for the Kruskal-Wallis test.",
+      "answer": "Chi-square = 7.305 with 3 df (Calculated with SPSS, Rel. 11.0.1. 2001. Chicago: SPSS Inc.)."
+    },
+    {
+      "query": "Determine the P-value for the Kruskal-Wallis test.",
+      "answer": "P = 0.063."
     },
     {
       "query": "Are the Kruskal-Wallis results consistent with the ANOVA results?",
-      "answer": "The Kruskal-Wallis test results ($P=0.063$) are not consistent with the ANOVA results ($P=0.042$), as the Kruskal-Wallis test does not find significant evidence against $H_0$.",
-      "method": "假设检验与区间估计"
+      "answer": "The Kruskal-Wallis results are not consistent with the ANOVA results because the P-value for the Kruskal-Wallis test (0.063) is not significant at the usual 0.05 level, whereas the ANOVA test found significant evidence against H0 (P=0.042)."
     }
   ],
   "id": "113",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "13.7",
     "image": "",
     "caption": "Smoking and birth weight, Kruskal-Wallis test.",
     "chapter": "COMPARING SEVERAL MEANS",
     "section": "13.6 INTRODUCTION TO NONPARAMETRIC TESTS",
     "page": "292-292"
+  },
+  "token_usage": {
+    "completion_tokens": 351,
+    "prompt_tokens": 504,
+    "total_tokens": 855,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

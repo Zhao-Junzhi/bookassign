@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_113.json",
+  "case_id": "book1_r1\\record_095.json",
   "input": {
-    "background": "Exercises 13.1, 13.3, and 13.5 considered birth weight in four groups of mothers. Table 13.3 lists the data. Data are also stored online in the file SMOK_BW.SAV. The ANOVA test found significant evidence against $H_0 (P=0.042)$. Now apply a Kruskal-Wallis test. Show all hypothesis-testing steps. Are the Kruskal-Wallis results consistent with the ANOVA results?",
-    "data": "",
-    "question": "Are the Kruskal-Wallis results consistent with the ANOVA results?"
+    "background": "Eight junior high school students were taken to a shopping mall. The number of socially inappropriate behaviors (faux pas) by each student was counted. The students were then enrolled in a program designed to promote social skills. After completing the programs, the subjects were again taken to the shopping mall and the number of social faux pas was again counted. Table 11.3 lists data from this experiment.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.3 Data for Exercise 11.23. Number of faux pas before and after an intervention.}\n\\begin{tabular}{|l|l|l|}\n\\hline Obs. & VISIT1 & VISIT2 \\\\\n\\hline 1 & 5 & 4 \\\\\n\\hline 2 & 13 & 11 \\\\\n\\hline 3 & 17 & 12 \\\\\n\\hline 4 & 3 & 3 \\\\\n\\hline 5 & 20 & 14 \\\\\n\\hline 6 & 18 & 14 \\\\\n\\hline 7 & 8 & 10 \\\\\n\\hline 8 & 15 & 9 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData are fictitious. Data file $=$ FAUXPAS.SAV.",
+    "question": "Plot the differences as a stemplot. Comment on the results."
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "The Kruskal-Wallis test results ($P=0.063$) are not consistent with the ANOVA results ($P=0.042$), as the Kruskal-Wallis test does not find significant evidence against $H_0$.",
-    "variable": {
-      "birth_weight": {
-        "id": "birth_weight",
-        "value": "Values of birth weight from the four groups of mothers",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The birth weight of infants, which is the dependent variable being analyzed across different groups of mothers."
-      },
-      "mother_group": {
-        "id": "mother_group",
-        "value": "Four groups of mothers",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The categorical variable representing the four different groups of mothers, which serves as the independent variable in the analysis."
-      }
-    }
+    "answer": "The stemplot is:\n-0 | 566\n-0 | 124\n0  | 02\n×10\n- Six of the eight students (75%) showed a decline in the number of faux pas.\n- Data range from -6 to 2 (spread).\n- The median is -3 (location).\n- The distribution is mound shaped with no apparent outliers, and shows no dramatic departures from Normality."
   },
   "meta_info": {
-    "index": "13.7",
+    "index": "11.23",
     "image": "",
-    "caption": "Smoking and birth weight, Kruskal-Wallis test.",
-    "chapter": "COMPARING SEVERAL MEANS",
-    "section": "13.6 INTRODUCTION TO NONPARAMETRIC TESTS",
-    "page": "292-292"
+    "caption": "Faux pas.",
+    "chapter": "INFERENCE ABOUT A MEAN",
+    "section": "11.7 SAMPLE SIZE AND POWER",
+    "page": "230-230"
   },
   "sample_key": "220"
 }

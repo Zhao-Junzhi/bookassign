@@ -1,12 +1,11 @@
 {
   "case_id": "book4_r1\\003.json",
   "input": {
-    "background": "Identify which of the variables below are derived.",
+    "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
     "data": null,
-    "question": "Determine whether 'Type of soil (designated as clay, loam or sandy)' is a derived variable."
+    "question": "Is the type of soil (designated as clay, loam or sandy) a derived variable or not derived?"
   },
   "output": {
-    "method": "离散型变量分布",
     "answer": "Not derived."
   },
   "meta_info": {

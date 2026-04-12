@@ -1,84 +1,20 @@
 {
-  "case_id": "book1_r1\\record_315.json",
+  "case_id": "book1_r1\\record_135.json",
   "input": {
-    "background": "Table 3.3 lists body weights of 53 students.",
-    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline \\multicolumn{6}{|l|}{Table 3.3 Body weight (pounds) of students in a class, $n=53$.} \\\n\\hline 192 & 110 & 195 & 180 & 170 & 215 \\\n\\hline 152 & 120 & 170 & 130 & 130 & 125 \\\n\\hline 135 & 185 & 120 & 155 & 101 & 194 \\\n\\hline 110 & 165 & 185 & 220 & 180 & \\\n\\hline 128 & 212 & 175 & 140 & 187 & \\\n\\hline 180 & 119 & 203 & 157 & 148 & \\\n\\hline 260 & 165 & 185 & 150 & 106 & \\\n\\hline 170 & 210 & 123 & 172 & 180 & \\\n\\hline 165 & 186 & 139 & 175 & 127 & \\\n\\hline 150 & 100 & 106 & 133 & 124 & \\\n\\hline\n\\end{tabular}\n",
-    "question": "How would we plot this data in a way that is most revealing?"
+    "background": "An early publication from the Framingham Heart Study identified 51 incidences of coronary disease among 424 men with high serum cholesterol (245 mg per 100 mL and above) over a 6-year period. Among 454 men with lower cholesterol (less than 210 mg per 100 mL), there were 16 incident cases.",
+    "data": "",
+    "question": "Calculate the proportion of coronary disease incidences among men with lower serum cholesterol (less than 210 mg per 100 mL)."
   },
   "output": {
-    "method": "用茎叶图展示单变量分布及原始数值结构的问题。其核心是既保留原始数值信息又展示分布形态。",
-    "answer": "First notice that values range from 100 to 260 pounds. Using a multiplier of $\\times 100$ would result in only two stem values (100-199 and 200-299). Splitting stem values with the $\\times 100$ in two would help, but would still result in only four stem values: 100-149, 150-199, 200-249, and 250-299. Using quintuple-split stem values produces this nice plot:\n```\n1*|0000111\n1T |2222222233333\n1F |4455555\n1S |\\underline{6}66777777\n1. |888888888999\n2*|0111\n2T |2\n2F|\n2S|6\nX100\n```\nThis plot has a positive skew and high outlier. The location of its median is underlined (median $=160$ ), and data spread from 100 to 260.",
-    "variable": {
-      "body_weight": {
-        "id": "body_weight",
-        "value": [
-          192,
-          110,
-          195,
-          180,
-          170,
-          215,
-          152,
-          120,
-          170,
-          130,
-          130,
-          125,
-          135,
-          185,
-          120,
-          155,
-          101,
-          194,
-          110,
-          165,
-          185,
-          220,
-          180,
-          128,
-          212,
-          175,
-          140,
-          187,
-          180,
-          119,
-          203,
-          157,
-          148,
-          260,
-          165,
-          185,
-          150,
-          106,
-          170,
-          210,
-          123,
-          172,
-          180,
-          165,
-          186,
-          139,
-          175,
-          127,
-          150,
-          100,
-          106,
-          133,
-          124
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Body weights of 53 students in pounds."
-      }
-    }
+    "answer": "\\( \\hat{p}_2=\\frac{16}{454}=0.0352 \\)"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.9",
     "image": "",
-    "caption": "Student weights.",
-    "chapter": "FREQUENCY DISTRIBUTIONS",
-    "section": "3.1 Stemplots",
-    "page": "47-48"
+    "caption": "Framingham Heart Study.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.4 PROPORTION RATIO (RELATIVE RISK)",
+    "page": "392-293"
   },
   "sample_key": "337"
 }

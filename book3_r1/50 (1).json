@@ -3,13 +3,15 @@
   "task": [
     {
       "query": "Calculate the test statistic $S$ using the formula $S=\\sum_{i=1}^8 \\frac{\\left(f_i-E_i\\right)^2}{E_i}$.",
-      "answer": "$$S=5.404$$",
-      "method": "假设检验与区间估计"
+      "answer": "$$ S=\\sum_{i=1}^8 \\frac{\\left(f_i-E_i\\right)^2}{E_i}=5.404 $$"
     },
     {
-      "query": "Compare the test statistic $S$ with the critical value $\\chi_{5 df}^2(0.90)=9.24$ from Table A.3 in Appendix A.",
-      "answer": "Since $S=5.404<9.24$, we would not reject the hypothesis of normality.",
-      "method": "假设检验与区间估计"
+      "query": "Determine the critical value of $\\chi^2$ with 5 degrees of freedom at a significance level of 0.10.",
+      "answer": "$$ \\chi_{5 d f}^2(0.90)=9.24 $$"
+    },
+    {
+      "query": "Based on the test statistic $S$ and the critical value, decide whether to reject the hypothesis of normality.",
+      "answer": "Since $S=5.404<9.24$, we would not reject the hypothesis of normality."
     }
   ],
   "id": "50",
@@ -23,5 +25,23 @@
     "section": "3.7 Goodness of Fit Tests",
     "book": "Statistics for Business and Economics",
     "page": "171-172"
+  },
+  "token_usage": {
+    "completion_tokens": 306,
+    "prompt_tokens": 526,
+    "total_tokens": 832,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

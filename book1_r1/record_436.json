@@ -1,20 +1,32 @@
 {
   "background": "Chapter 16 examined data from an experimental cohort that was part of the NIH-sponsored Women's Health Initiative study. This experimental cohort study involved 16,608 postmenopausal women. Roughly half these women were assigned conjugated estrogens (n1=8506). The remaining subjects (n2=8102) received a placebo. Coronary heart disease, invasive breast cancer, and other adverse outcomes were monitored in the groups on an ongoing basis.",
-  "task": [
-    {
-      "query": "Monitor coronary heart disease, invasive breast cancer, and other adverse outcomes in the groups on an ongoing basis.",
-      "answer": "null",
-      "method": "实验设计"
-    }
-  ],
+  "task": [],
   "id": "436",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Purposive cohort sample (Estrogen trial).",
     "chapter": "CROSS-TABULATED COUNTS",
     "section": "18.1 Types of Samples",
     "page": "408-408"
+  },
+  "token_usage": {
+    "completion_tokens": 259,
+    "prompt_tokens": 400,
+    "total_tokens": 659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

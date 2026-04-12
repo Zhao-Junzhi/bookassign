@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\116.json",
+  "input": {
+    "background": "A major car manufacturer wants to test a new engine to determine whether it meets new air pollution standards. The mean emission μ of all engines of this type must be less than 20 parts per million of carbon. Ten engines are manufactured for testing purposes, and the emission level of each is determined. The manufacturer is willing to risk a Type I error with probability α=0.01.",
+    "data": "\\begin{tabular}{|lllllllllll}\n\\hline Table 7.5 & \\multicolumn{9}{|l|}{ Emission Levels for Ten Engines } \\\\\n\\hline 15.6 & 16.2 & 22.5 & 20.5 & 16.4 & 19.4 & 19.6 & 17.9 & 12.7 & 14.9 \\\\\n\\hline\n\\end{tabular}",
+    "question": "What are the null and alternative hypotheses for this test?"
+  },
+  "output": {
+    "answer": "H₀: μ = 20 (Mean emission level equals 20 ppm.)\nHₐ: μ < 20 (Mean emission level is less than 20 ppm, i.e., engine meets pollution standard.)"
+  },
+  "meta_info": {
+    "index": "7.8",
+    "img_in_question": null
+  },
+  "sample_key": "282"
+}

@@ -1,0 +1,45 @@
+{
+  "case_id": "book2_r1\\016.json",
+  "input": {
+    "background": "Consider the following sample of n=7 measurements: $5,7,4,5,20,6,2$.",
+    "data": null,
+    "question": "Calculate the median $m$ of this sample."
+  },
+  "output": {
+    "answer": "The seven measurements in the sample are ranked in ascending order: $2,4,5,5,6,7$, 20. Because the number of measurements is odd, the median is the middle measurement. Thus, the median of this sample is $m=5$ (the second 5 listed in the sequence)."
+  },
+  "meta_info": {
+    "index": "2.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Computing the Median",
+    "chapter": "Methods for Describing Sets of Data",
+    "section": "2.3 Numerical Measures of Central Tendency",
+    "book": "Statistics for Business and Economics",
+    "page": "47-47"
+  },
+  "sample_key": "38",
+  "token_usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 572,
+    "total_tokens": 599,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 572,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_371.json",
+  "input": {
+    "background": "A study of n=16 retains H0: μ=170 at an α of 0.05 (two sided). Based on prior study, the standard deviation of this variable is 40.",
+    "data": "",
+    "question": "What was the power of the test to identify a population mean of 190?"
+  },
+  "output": {
+    "answer": "1-β=Φ(-z_{1-α/2} + |μ0-μa|√n/σ) = Φ(-1.96 + |170-190|√16/40) = Φ(0.04) = 0.5160 [From Table B]. The test had about a 50/50 chance of rejecting the H0 under the stated conditions. This is low. Hypothesis tests should strive for at least 80% power."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Power of a z test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 Power and Sample Size",
+    "page": "189-189"
+  },
+  "sample_key": "557",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1081,
+    "total_tokens": 1124,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1080,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1081,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1080,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

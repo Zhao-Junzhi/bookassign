@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_304.json",
+  "case_id": "book1_r1\\record_126.json",
   "input": {
-    "background": "The population (\"sampling frame\") for the YRBS consisted of all public and private schools with students in grades 9-12 in the 50 United States plus the District of Columbia. This sampling frame was divided into 1262 primary sampling units, which consisted of counties, areas of large counties, or groups of small counties. From these 1262 primary units, 57 were selected at random with probability proportional to overall school enrollments. The next stage of sampling selected 195 schools at random with probability proportional to the school enrollment size. The third sampling stage consisted of randomly selecting one or two intact classes from each grade from within the chosen school. All students in the selected classes were then eligible to participate in the survey.",
+    "background": "Twenty-six cancer deaths were observed in a cohort of 556 insulation workers. Based on national statistics, a cohort of this size and age distribution was expected to experience 14.4 incident cases during the observation period. Therefore, under the null hypothesis, $p_0=14.4 / 556=0.02590$. Test whether the observed incidence is significantly greater than expected.",
     "data": "",
-    "question": "Here's a schematic representation of the three stages of sampling used by the YRBS: 1262 primary sampling units (counties or other large areas) | Stage 1 random sample ↓ 57 primary sampling units | Stage 2 random sample ↓ 195 schools | Stage 3 random sample | Unstated number of classrooms ↓ 15,240 questionnaires"
+    "question": "Calculate the p-value for the test."
   },
   "output": {
-    "method": "获取模型参数估计值",
-    "answer": "null",
-    "variable": {
-      "primary_sampling_units": {
-        "id": "primary_sampling_units",
-        "value": 1262,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of primary sampling units, consisting of counties, areas of large counties, or groups of small counties."
-      },
-      "selected_primary_units": {
-        "id": "selected_primary_units",
-        "value": 57,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of primary sampling units selected at random with probability proportional to overall school enrollments."
-      },
-      "schools": {
-        "id": "schools",
-        "value": 195,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of schools selected at random with probability proportional to the school enrollment size."
-      },
-      "questionnaires": {
-        "id": "questionnaires",
-        "value": 15240,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of questionnaires distributed to students in the selected classes."
-      }
-    }
+    "answer": "$P=0.0020$"
   },
   "meta_info": {
-    "index": "",
+    "index": "16.15",
     "image": "",
-    "caption": "Youth Risk Behavior Survey (YRBS).",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.1 Surveys",
-    "page": "20-20"
+    "caption": "Insulation workers.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "370-371"
   },
   "sample_key": "318"
 }

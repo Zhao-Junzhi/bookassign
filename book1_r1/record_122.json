@@ -2,19 +2,48 @@
   "background": "Exercises 16.2 and 16.4 considered a problem in which seven of eight patients expressed a preference for medical procedure A compared to medical procedure B. A Normal approximation test was precluded because of the small sample size.",
   "task": [
     {
-      "query": "Test the hypothesis of equal preference for medical procedure A and medical procedure B with Fisher's procedure.",
-      "answer": "A. Hypotheses. $H_0: p=0.50$ versus $H_2: p>0.50$ B. Test statistic. An exact binomial test is used because of the small sample size. Under $H_0, X \\sim \\mathrm{~b}(8,0.5)$. The observed number of success in the sample is $x=$ 7. C. $\\boldsymbol{P}$-value. $P$ (one-sided) $=\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)=0.0313+0.0039=$ 0.0352 . This provided good evidence against the null hypothesis. D. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=0.05$ (reject $H_0$ ) but is not significant at $\\alpha=0.01$ (retain $H_0$ ).",
-      "method": "独立性检验"
+      "query": "Test the hypothesis of equal preference for medical procedure A and medical procedure B with Fisher's procedure. What are the null and alternative hypotheses?",
+      "answer": "Hypotheses. $H_0: p=0.50$ versus $H_2: p>0.50$"
+    },
+    {
+      "query": "What test statistic is used, and what is the observed number of successes in the sample?",
+      "answer": "An exact binomial test is used because of the small sample size. Under $H_0, X \\sim \\mathrm{~b}(8,0.5)$. The observed number of success in the sample is $x=$ 7."
+    },
+    {
+      "query": "Calculate the one-sided $P$-value for the test.",
+      "answer": "$P$ (one-sided) $=\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)=0.0313+0.0039=$ 0.0352. This provided good evidence against the null hypothesis."
+    },
+    {
+      "query": "Interpret the significance level. Is the evidence against $H_0$ significant at $\\alpha=0.05$ and $\\alpha=0.01$?",
+      "answer": "The evidence against $H_0$ is significant at $\\alpha=0.05$ (reject $H_0$) but is not significant at $\\alpha=0.01$ (retain $H_0$)."
     }
   ],
   "id": "122",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "16.7",
     "image": "",
     "caption": "Patient preference, Fisher's method.",
     "chapter": "INFERENCE ABOUT A PROPORTION",
     "section": "16.4 HYPOTHESIS TEST, Exact BINOMIAL TESTS",
     "page": "362-362"
+  },
+  "token_usage": {
+    "completion_tokens": 404,
+    "prompt_tokens": 564,
+    "total_tokens": 968,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_305.json",
+  "case_id": "book1_r1\\record_127.json",
   "input": {
-    "background": "The Multiple Risk Factor Intervention Trial (MRFIT is pronounced Mister Fit) was conducted in the late 1970s and early 1980s to test the effectiveness of coronary disease prevention programs. Study subjects were randomly assigned to either a treatment group that received special interventions intended to reduce the risk of heart disease or a control group that received their usual sources of health care.",
+    "background": "An oncologist treats 40 kidney cancer cases. Sixteen of the cases survive at least 5 years. Historically, one in five cases were expected to survive this long. Test whether there has been a significant improvement in survival.",
     "data": "",
-    "question": "Why is the use of a concurrent control group important?"
+    "question": "Determine the test statistic and explain why the $z$ test can be used."
   },
   "output": {
-    "method": "实验数据",
-    "answer": "This shows the importance of using a concurrent control group to establish the effect of a treatment.",
-    "variable": {
-      "treatment_group": {
-        "id": "treatment_group",
-        "value": "Subjects who received special interventions intended to reduce the risk of heart disease",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The group of study subjects that received specific interventions to reduce heart disease risk."
-      },
-      "control_group": {
-        "id": "control_group",
-        "value": "Subjects who received their usual sources of health care",
-        "class": "categorical",
-        "role": "independent",
-        "description": "The group of study subjects that did not receive special interventions and continued with their usual health care."
-      },
-      "heart_disease_risk": {
-        "id": "heart_disease_risk",
-        "value": "Risk of developing coronary disease",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The outcome variable measuring the risk of developing coronary disease in study subjects."
-      }
-    }
+    "answer": "The $z$ test can be used because $n p_0 q_0=(40)(0.2)(0.8)=6.4$. The observed proportion $\\hat{p}=16 / 40=0.4$. The $z_{\\text {stat }}=\\frac{0.4-0.2}{\\sqrt{\\frac{0.2 \\cdot 0.8}{40}}}=3.16$."
   },
   "meta_info": {
-    "index": "",
+    "index": "16.17",
     "image": "",
-    "caption": "Multiple Risk Factor Intervention Trail (MRFIT).",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "24-24"
+    "caption": "Kidney cancer survival.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
   },
   "sample_key": "320"
 }

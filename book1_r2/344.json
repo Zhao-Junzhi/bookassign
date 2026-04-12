@@ -1,38 +1,20 @@
 {
-  "case_id": "book1_r1\\record_319.json",
+  "case_id": "book1_r1\\record_138.json",
   "input": {
-    "background": "What is the five-point summary and IQR of this small data set? 1.47, 2.06, 2.36, 3.43, 3.74, 3.78, 3.94",
-    "data": "",
-    "question": "What is the IQR of the data set?"
+    "background": "The study described in Exercise 17.14 also kept tabs of whether leaving advanced messages increased the likelihood of ultimately completing the interview. Data for this outcome are tallied in Table 17.8.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.8 Data for Exercise 17.15. Response to telephone survey according to whether an advanced message was left.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Completed Survey } & \\multicolumn{1}{c}{ Did not complete survey }& \\multicolumn{1}{c}{Households } \\\n\\cline { 2 - 4 } Message & 134 & 157 & 291 \\\n\\cline { 2 - 4 } No message & 33 & 67 & 100 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: same as Table 17.5.",
+    "question": "Perform analyses similar to those requested in the prior exercise."
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "The IQR = 3.76 - 2.21 = 1.55.",
-    "variable": {
-      "data_set": {
-        "id": "data_set",
-        "value": [
-          1.47,
-          2.06,
-          2.36,
-          3.43,
-          3.74,
-          3.78,
-          3.94
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "The small data set for which the five-point summary and IQR are to be calculated."
-      }
-    }
+    "answer": "Descriptive statistics\n\n$$\n\\begin{aligned}\n& \\hat{p}_1=134 / 291=0.4605 \\\\\n& \\hat{p}_2=33 / 100=0.3300\n\\end{aligned}\n$$"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.15",
     "image": "",
-    "caption": "JQR (n = 7).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.6 BOXPLOTS",
-    "page": "74-74"
+    "caption": "Telephone survey response rates.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "404-405"
   },
   "sample_key": "344"
 }

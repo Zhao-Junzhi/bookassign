@@ -1,14 +1,22 @@
 {
-  "case_id": "book3_r1\\88.json",
+  "case_id": "book3_r1\\61.json",
   "input": {
-    "background": "Liquid waste produced by a factory is removed once a week. The weekly volume of waste in thousands of gallons is a continuous random variable with probability density function $$f(x)= \\begin{cases}105 x^4(1-x)^2 & \\text { for } 0<x<1 \\\\ 0 & \\text { otherwise } .\\end{cases}$$ Assume that the storage tank has a capacity of 0.9 expressed in thousands of gallons. The cost of removing $x>0$ units of waste at the end of the week is: $(1.25+0.5 x)$. Additional costs $(5+10 z)$ are incurred when the capacity of the storage tank is not sufficient and an overflow of $z>0$ units of waste occurs during the week.",
-    "data": "",
-    "question": "What is the expected value of the weekly costs?"
+    "background": "A parallel system consists of 3 independent components, each having 0.95 reliability. The system reliability is calculated using the formula $$R=1-(1-0.95)^3=0.9999$$.",
+    "data": null,
+    "question": "What is the MTTF for a 3-component parallel system?"
   },
   "output": {
-    "method": "期望",
-    "answer": "$$\\text {  The expected value of the weekly costs is: } 1.6975 \\text {. }$$"
+    "answer": "For a 3-component parallel system, the system MTTF is $$M_{tbf}=\\frac{1}{\\lambda_1}+\\frac{1}{\\lambda_2}+\\frac{1}{\\lambda_3}-\\frac{1}{\\lambda_1+\\lambda_2}-\\frac{1}{\\lambda_1+\\lambda_3}-\\frac{1}{\\lambda_2+\\lambda_3}+\\frac{1}{\\lambda_1+\\lambda_2+\\lambda_3}$$."
   },
-  "meta_info": {},
+  "meta_info": {
+    "index": "4.3",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 4： System Reliability Modeling",
+    "section": "4.3 Parallel Systems",
+    "book": "Statistical Reliability Engineering",
+    "page": "227-228"
+  },
   "sample_key": "232"
 }

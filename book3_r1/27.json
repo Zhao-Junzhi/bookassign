@@ -3,18 +3,15 @@
   "task": [
     {
       "query": "What is the probability of having strong winds but not large earthquakes during a 10-year period?",
-      "answer": "P(A) = (1 - e^(-0.4))(e^(-0.2)) = 0.27",
-      "method": "事件发生概率及独立性"
+      "answer": "Let the random variable $X$ and $Y$ represent the number of earthquakes and the number of occurrences of high winds, respectively. We assume that the two random variables are statistically independent. The mean of $X$ and $Y$ are, respectively, given by $$\\lambda_X=\\frac{1}{50 \\ \\text { years }}(10 \\ \\text { years })=0.2$$ and $$\\lambda_Y=\\frac{1}{25 \\ \\text { year }}(10 \\ \\text { years })=0.4$$. The conditional damage probabilities are given as follows: $$P(\\ \\text { damage/earthquake })=0.1$$ and $$P(\\ \\text { damage } / \\ \\text { wind })=0.05$$. Let the event $A=\\{$ strong winds and no earthquakes $\\}$. Assuming that winds and earthquakes are independent, the probability of having strong winds but not earthquakes during the 10-year period can be written as $$\\begin{aligned} P(A) & =P(w \\ \\text { inds }) P(\\ \\text { no earthquakes }) \\\\ & =[1-P(\\ \\text { no winds })] P(\\ \\text { no earthquakes }) \\end{aligned}$$. Therefore, we obtain $$P(A)=\\left(1-e^{-0.4}\\right)\\left(e^{-0.2}\\right)=0.27$$."
     },
     {
       "query": "What is the probability of having strong winds and large earthquakes in the 10-year period?",
-      "answer": "P(B) = (1 - e^(-0.4))(1 - e^(-0.2)) = 0.06",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability of having strong winds and earthquakes during the 10-year period can be obtained $$\\begin{aligned} P(B) & =P(\\ \\text { winds }) P(\\ \\text { earthquakes }) \\\\ & =[1-P(\\ \\text { no winds })][1-P(\\ \\text { no earthquakes })] \\\\ & =\\left(1-e^{-0.4}\\right)\\left(1-e^{-0.2}\\right)=0.06 \\end{aligned}$$."
     },
     {
       "query": "What is the probability of building damage during the 10-year period?",
-      "answer": "P(C) = (1 - e^(-0.2))(0.1) + (1 - e^(-0.4))(0.05) - (0.05)(0.1)(0.06) = 0.0343",
-      "method": "事件发生概率及独立性"
+      "answer": "We assume that there will not be multiple occurrences of earthquakes and high winds during the 10-year period. Therefore, the probability of building damage can be written as $$\\begin{aligned} P(C) & =P(\\ \\text { damage/earthquakes }) P(\\ \\text { earthquakes }) \\\\ & +\\mathrm{P}(\\ \\text { damage/wind }) \\mathrm{P}(\\ \\text { wind }) \\\\ & -\\mathrm{P}(\\ \\text { damage/earthquakes and wind }) \\mathrm{P}(\\ \\text { earthquake and wind }) \\\\ & =P(\\ \\text { damage/earthquakes }) P(\\ \\text { earthquakes }) \\\\ & +\\mathrm{P}(\\ \\text { damage/wind }) \\mathrm{P}(\\ \\text { wind }) \\\\ & -\\mathrm{P}(\\ \\text { damage/earthquakes }) \\mathrm{P}(\\ \\text { damage/wind }) \\mathrm{P}(\\ \\text { earthquake and wind }) \\\\ & =\\left(1-\\mathrm{e}^{-0.2}\\right)(0.1)+\\left(1-\\mathrm{e}^{-0.4}\\right)(0.05)-(0.05)(0.1)(0.06) \\\\ & =0.0343 \\end{aligned}$$."
     }
   ],
   "id": "27",
@@ -28,5 +25,23 @@
     "section": "2.1 Discrete Distributions",
     "book": "Statistical Reliability Engineering",
     "page": "78-79"
+  },
+  "token_usage": {
+    "completion_tokens": 934,
+    "prompt_tokens": 1229,
+    "total_tokens": 2163,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

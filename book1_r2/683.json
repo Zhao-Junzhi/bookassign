@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_415.json",
+  "input": {
+    "background": "A random-digit dialing technique is used to select 57 individuals from a community. Seventeen of 57 individuals in the sample are classified as smokers.",
+    "data": "",
+    "question": "What assumptions are made about the sample and the information provided?"
+  },
+  "output": {
+    "answer": "Assuming the sample is an SRS and the information is properly classified, this is an unbiased estimate of the prevalence of smoking in the population."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Data (Prevalence of smoking in a community).",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.1 Proportions",
+    "page": "349-350"
+  },
+  "sample_key": "683"
+}

@@ -1,12 +1,11 @@
 {
   "case_id": "book4_r1\\003.json",
   "input": {
-    "background": "Identify which of the variables below are derived.",
+    "background": "Identify which of the variables below are derived or not derived based on the given table. The variables include pH of soil, number of households that own a car, percentage of tree canopy cover in a woodland, estimate of tree canopy cover in a woodland, and type of soil.",
     "data": null,
-    "question": "Determine whether 'Number of households that own a car' is a derived variable."
+    "question": "Is the number of households that own a car a derived variable or not derived?"
   },
   "output": {
-    "method": "集中趋势测度",
     "answer": "Not derived."
   },
   "meta_info": {

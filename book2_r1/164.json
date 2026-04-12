@@ -1,0 +1,51 @@
+{
+  "background": "Substitute the appropriate values of the dummy variables in model 3 to obtain the equations of the three response lines in Figure 12.23.",
+  "task": [
+    {
+      "query": "What is the complete model that characterizes the three lines in Figure 12.23?",
+      "answer": "The complete model that characterizes the three lines in Figure 12.23 is $$E(y)=\\beta_0+\\beta_1 x_1+\\beta_2 x_2+\\beta_3 x_3+\\beta_4 x_1 x_2+\\beta_5 x_1 x_3$$ where $$\\begin{aligned} & x_1=\\text { advertising expenditure } \\\\ & x_2= \\begin{cases}1 & \\text { if radio medium } \\\\ 0 & \\text { if not }\\end{cases} \\\\ & x_3= \\begin{cases}1 & \\text { if television medium } \\\\ 0 & \\text { if not }\\end{cases} \\end{aligned}$$"
+    },
+    {
+      "query": "What is the equation for the newspaper medium line?",
+      "answer": "Examining the coding, $x_2=x_3=0$ when the advertising medium is newspaper. Substituting these values into the expression for $E(y)$, we obtain the newspaper medium line: $$E(y)=\\beta_0+\\beta_1 x_1+\\beta_2(0)+\\beta_3(0)+\\beta_4 x_1(0)+\\beta_5 x_1(0)=\\beta_0+\\beta_1 x_1$$"
+    },
+    {
+      "query": "What is the equation for the radio medium line?",
+      "answer": "Substitute the appropriate values of $x_2$ and $x_3$ into the expression for $E(y)$ to obtain the radio medium line $\\left(x_2=1, x_3=0\\right)$: $$\\begin{aligned} E(y) & =\\beta_0+\\beta_1 x_1+\\beta_2(1)+\\beta_3(0)+\\beta_4 x_1(1)+\\beta_5 x_1(0) \\\\ & =\\overbrace{\\left(\\beta_0+\\beta_2\\right)}^{y \\text {-intercept }}+\\overbrace{\\left(\\beta_1+\\beta_4\\right)}^{\\text {Slope }} x_1 \\end{aligned}$$"
+    },
+    {
+      "query": "What is the equation for the television medium line?",
+      "answer": "Substitute the appropriate values of $x_2$ and $x_3$ into the expression for $E(y)$ to obtain the television medium line $\\left(x_2=0, x_3=1\\right)$: $$\\begin{aligned} E(y) & =\\beta_0+\\beta_1 x_1+\\beta_2(0)+\\beta_3(1)+\\beta_4 x_1(0)+\\beta_5 x_1(1) \\\\ & =\\overbrace{\\left(\\beta_0+\\beta_3\\right)}^{y \\text {-intercept }}+\\overbrace{\\left(\\beta_1+\\beta_5\\right)}^{\\text {Slope }} x_1 \\end{aligned}$$"
+    }
+  ],
+  "id": "164",
+  "data": "null",
+  "meta_info": {
+    "index": "12.10",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Interpreting the $\\\\beta$ 's in a Model with Mixed Independent Variables",
+    "chapter": "Multiple Regression and Model Building",
+    "section": "12.8 Models with Both Quantitative and Qualitative Variables",
+    "book": "Statistics for Business and Economics",
+    "page": "432-433"
+  },
+  "token_usage": {
+    "completion_tokens": 781,
+    "prompt_tokens": 922,
+    "total_tokens": 1703,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

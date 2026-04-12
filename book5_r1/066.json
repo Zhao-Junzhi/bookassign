@@ -1,30 +1,25 @@
 {
-  "background": "The following table shows the percentage of five year olds with five or more decayed, missing or filled teeth (% dmft) by social class, separately for children who had lived continuously in either an area with fluoridated water or in a nearby non-fluoridated area (Carmichael et al., 1989).",
+  "background": "The following table shows the percentage of five-year-olds with five or more decayed, missing, or filled teeth (% dmft) by social class, separately for children who had lived continuously in either an area with fluoridated water or in a nearby non-fluoridated area (Carmichael et al., 1989).",
   "task": [
     {
-      "query": "Is it reasonable to use a Chi squared test to compare % dmft by social class in the two areas?",
-      "answer": "No, because the figures are percentages. Although it is a method of comparing proportions (or percentages) the Chi squared test must be performed on frequencies.",
-      "method": "假设检验与区间估计 - 独立性检验"
+      "query": "Is it reasonable to use a Chi-squared test to compare % dmft by social class in the two areas?",
+      "answer": "No, because the figures are percentages. Although it is a method of comparing proportions (or percentages), the Chi-squared test must be performed on frequencies."
     },
     {
       "query": "Calculate a 95% confidence interval for the difference in % dmft in the total groups of children in the two areas.",
-      "answer": "The percentages are 73 / 457=16.0% and 138 / 370=37.3%, so the difference is 21%. The 95% confidence interval is 15% to 27%. Because the sample is large the interval is quite narrow.",
-      "method": "假设检验与区间估计 - 均值检验"
+      "answer": "The percentages are 73 / 457 = 16.0% and 138 / 370 = 37.3%, so the difference is 21%. The 95% confidence interval is 15% to 27%. Because the sample is large, the interval is quite narrow."
     },
     {
       "query": "Is there a significant relation between % dmft and social class within each of the two areas?",
-      "answer": "The simplest way to assess a trend is to use the Chi squared test for trend. It is reasonable to give equally spaced scores to the three social class groups (such as -1,0 and 1 ). Those children whose social class was unclassified must be excluded. The proportions being compared were shown at the beginning of the problem. The Chi squared tests give X_{trend}^2=3.64(P=0.06) and X_{trend}^2=7.69 (P=0.006).",
-      "method": "假设检验与区间估计 - 独立性检验"
+      "answer": "The simplest way to assess a trend is to use the Chi-squared test for trend. It is reasonable to give equally spaced scores to the three social class groups (such as -1, 0, and 1). Those children whose social class was unclassified must be excluded. The proportions being compared were shown at the beginning of the problem. The Chi-squared tests give X_trend^2 = 3.64 (P = 0.06) and X_trend^2 = 7.69 (P = 0.006)."
     },
     {
       "query": "How might we assess whether the relation is stronger in the non-fluoridated than the fluoridated area?",
-      "answer": "Although the trend is significant (at the 5% level) in one group but not the other, we should not infer that the relation is present only within the non-fluoridated area. The simplest way to compare the trends is to use the regression approach to estimate the change in % dmft for each change in social class category (section 11.15.2) and compare the slopes (section 11.12.1). Alternatively, all the data could be analysed at once in a complicated logistic regression analysis.",
-      "method": "模型解读 - 回归系数显著性与方向解读"
+      "answer": "Although the trend is significant (at the 5% level) in one group but not the other, we should not infer that the relation is present only within the non-fluoridated area. The simplest way to compare the trends is to use the regression approach to estimate the change in % dmft for each change in social class category (section 11.15.2) and compare the slopes (section 11.12.1). Alternatively, all the data could be analyzed at once in a complicated logistic regression analysis."
     },
     {
       "query": "What is the name for such an effect?",
-      "answer": "The technical term for such a heterogeneity of effect is 'interaction'.",
-      "method": "模型解读 - 分组异质性解读"
+      "answer": "The technical term for such a heterogeneity of effect is 'interaction'."
     }
   ],
   "id": "066",
@@ -38,5 +33,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "500-501"
+  },
+  "token_usage": {
+    "completion_tokens": 582,
+    "prompt_tokens": 1077,
+    "total_tokens": 1659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "045",
+  "question": "Hospital records show that $12 \\%$ of all patients are admitted for surgical treatment, $16 \\%$ are admitted for obstetrics, and $2 \\%$ receive both obstetrics and surgical treatment. If a new patient is admitted to the hospital, what is the probability that the patient will be admitted either for surgery, obstetrics, or both?",
+  "data": null,
+  "answer": "Consider the following events:\nA: {A patient admitted to the hospital receives surgical treatment.}\nB: {A patient admitted to the hospital receives obstetrics treatment.}\nThen, from the given information,\n\n$$\n\\begin{aligned}\n& P(A)=.12 \\\\\n& P(B)=.16\n\\end{aligned}\n$$\n\nand the probability of the event that a patient receives both obstetrics and surgical treatment is\n\n$$\nP(A \\cap B)=.02\n$$\n\n\nThe event that a patient admitted to the hospital receives either surgical treatment, obstetrics treatment, or both is the union $A \\cup B$. The probability of $A \\cup B$ is given by\n\nthe additive rule of probability:\n\n$$\nP(A \\cup B)=P(A)+P(B)-P(A \\cap B)=.12+.16-.02=.26\n$$\n\n\nThus, $26 \\%$ of all patients admitted to the hospital receive either surgical treatment, obstetrics treatment, or both.",
+  "meta_info": {
+    "index": "3.12",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Applying the Additive Rule-Hospital Admission Study",
+    "chapter": "Probability",
+    "section": "3.4 The Additive Rule and Mutually Exclusive Events",
+    "book": "Statistics for Business and Economics",
+    "page": "98-99"
+  }
+}

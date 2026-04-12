@@ -2,34 +2,48 @@
   "background": "This exercise will demonstrate how the mean is the balancing point of a set of numbers.",
   "task": [
     {
-      "query": "Distribution A. The values 1 and 5 are marked as",
-      "answer": "(a) \\(\\bar{x}=3\\) \n\\begin{array}{lr} X & & & X \\ 1----2----3----4----5 \\end{array}",
-      "method": "集中趋势测度"
+      "query": "Distribution A. The values 1 and 5 are marked as.",
+      "answer": "Locations of means are shown with a (a) \\( \\bar{x}=3 \\) \\begin{array}{lr} X & & & X \\ 1----2----3----4----5 \\end{array}"
     },
     {
-      "query": "Distribution B. The values 1, 4, and 5 are marked as",
-      "answer": "(b) \\(\\bar{x}=3.7\\) \n\\begin{array}{lr} & & & & X \\ X & & &X \\ 1---2----3---4---5 \\end{array}",
-      "method": "集中趋势测度"
+      "query": "Distribution B. The values are marked as.",
+      "answer": "(b) \\( \\bar{x}=3.7 \\) \\begin{array}{lr} & & & & X \\ X & & &X \\ 1---2----3---4---5 \\end{array}"
     },
     {
-      "query": "Distribution C. The values 1, 2, and 3 are marked as",
-      "answer": "(c) \\(\\bar{x}=3\\) \n\\begin{gathered} \\mathrm{XXX} \\ 1----2----3----4----5 \\end{gathered}",
-      "method": "集中趋势测度"
+      "query": "Distribution C. The values are marked as.",
+      "answer": "(c) \\( \\bar{x}=3 \\) \\begin{gathered} \\mathrm{XXX} \\ 1----2----3----4----5 \\end{gathered}"
     },
     {
-      "query": "Distribution D. The values 3 and 4 are marked as",
-      "answer": "(d) \\(\\bar{x}=3.7\\) \n\\begin{tabular}{cr} & & $X$ & \\ & & $X$ & $X$ \\ $1----2----3----4---5$ \\end{tabular}",
-      "method": "集中趋势测度"
+      "query": "Distribution D. The values are marked as.",
+      "answer": "(d) \\( \\bar{x}=3.7 \\) \\begin{tabular}{cr} & & $X$ & \\ & & $X$ & $X$ \\ $1----2----3----4---5$ \\end{tabular}"
     }
   ],
   "id": "022",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "4.1",
     "image": "",
     "caption": "Gravitational center.",
     "chapter": "SUMMARY STATISTICS",
     "section": "4.1 CENTRAL LOCATION: MEAN",
     "page": "65-66"
+  },
+  "token_usage": {
+    "completion_tokens": 498,
+    "prompt_tokens": 513,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

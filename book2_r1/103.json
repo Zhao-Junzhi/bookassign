@@ -1,0 +1,34 @@
+{
+  "background": "According to the Bureau of Labor Statistics (2012), the probability of injury while working at a jewelry store is less than .01. In a random sample of 200 jewelry store workers, 3 were injured on the job.",
+  "task": [
+    {
+      "query": "Estimate the true proportion of jewelry store workers who are injured on the job using a 95% confidence interval.",
+      "answer": "Let $p$ represent the true proportion of all jewelry store workers who are injured on the job. Because $p$ is near 0, an"
+    }
+  ],
+  "id": "103",
+  "data": null,
+  "meta_info": {
+    "index": "6.8",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "token_usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 400,
+    "total_tokens": 529,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

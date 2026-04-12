@@ -1,0 +1,46 @@
+{
+  "case_id": "book3_r1\\21.json",
+  "input": {
+    "background": "A life insurance company wants to predict the number of claims it may receive in the coming year in a particular town due to severe weather such as floods. There are currently 250 active flood insurance policies in the town, and the company estimates the probability of any flood occurring in the coming year is 0.002. The claims are assumed to be independent.",
+    "data": null,
+    "question": "Determine the probability that the insurance company receives more than 4 claims in this town out of 250 active policies assuming that the claims are independent."
+  },
+  "output": {
+    "answer": "Let $N$ be the number of claims in the coming year. Then $N \\sim$ binomial $(250, p=0.002)$. Then the desired probability is given by\n\n$$\nP(N>4)=1-\\sum_{n=0}^4\\binom{250}{n}(0.002)^n(0.998)^{250-n}=1.6664*10^{-4}\n$$"
+  },
+  "meta_info": {
+    "index": "2.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.1 Discrete Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "70-70"
+  },
+  "sample_key": "122",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1177,
+    "total_tokens": 1220,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1066,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1177,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1066,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

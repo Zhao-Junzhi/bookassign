@@ -1,0 +1,16 @@
+{
+  "case_id": "book1_r1\\record_411.json",
+  "input": {
+    "background": "We have established for the smoking and lung cancer illustrative example that n=11, b=0.02284, s_{Y|X}=8.349, and s_X=378.451. Let us calculate a 95% confidence interval for the slope parameter β.",
+    "data": "",
+    "question": "Calculate the standard error of the slope parameter β using the given values."
+  },
+  "output": {
+    "answer": "SE_b = s_{Y|X} / (sqrt(n-1) * s_X) = 8.349 / (sqrt(11-1) * 378.451) = 0.006976"
+  },
+  "meta_info": {
+    "index": "",
+    "image": ""
+  },
+  "sample_key": "669"
+}

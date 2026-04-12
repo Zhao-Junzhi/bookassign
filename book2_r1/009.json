@@ -1,0 +1,43 @@
+{
+  "background": "Marketers use wording such as 'was $100, now $80' to indicate a price promotion. A study investigated whether between-store comparisons result in greater perceptions of value by consumers than within-store comparisons. Fifty consumers were randomly selected from a designated market area and randomly assigned to two groups: one group read a within-store price promotion advertisement ('was $100, now $80'), and the other group read a between-store price promotion advertisement ('$100 there, $80 here'). Consumers rated the value of the discount offer on a 10-point scale, and the value opinions of the two groups were compared.",
+  "task": [
+    {
+      "query": "Identify the data-collection method.",
+      "answer": "Here, the experimental units are the consumers. Because the researchers controlled which price promotion ad—'within-store' or 'between-store'—the experimental units (consumers) were assigned to, a designed experiment was used to collect the data."
+    },
+    {
+      "query": "Are the sample data representative of the target population?",
+      "answer": "The sample of 50 consumers was randomly selected from all consumers in the designated market area. If the target population is all consumers in this market, it is likely that the sample is representative. However, the researchers warn that the sample data should not be used to make inferences about consumer behavior in other, dissimilar markets."
+    }
+  ],
+  "id": "009",
+  "data": null,
+  "meta_info": {
+    "index": "1.9",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Representative Data- Price Promotion Study",
+    "chapter": "Statistics, Data, and Statistical Thinking",
+    "section": "1.6 Collecting Data: Sampling and Related Issues",
+    "book": "Statistics for Business and Economics",
+    "page": "19-19"
+  },
+  "token_usage": {
+    "completion_tokens": 295,
+    "prompt_tokens": 613,
+    "total_tokens": 908,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

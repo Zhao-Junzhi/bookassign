@@ -1,20 +1,41 @@
 {
-  "background": "It is important to develop a detailed plan of study early in the development of an investigation. One part of the plan is to assure adequacy of the sample size.",
+  "background": "It is important to develop a detailed plan of study early in the development of an investigation. One part of the plan is to assure adequacy of the sample size. Consider a test of H0: p1=p2 against Ha: p1≠p2 at α=0.05 with a power that is equal to 0.80. We predict that 20% of group 1 and 30% of group 2 will experience the outcome. If we recruit an equal number of individuals in each of the groups, how many individuals do we need to study?",
   "task": [
     {
-      "query": "Consider a test of $H_0: p_1=p_2$ against $H_{\\mathrm{a}}: p_1 \\neq p_2$ at $\\alpha=0.05$ with a power that is equal to 0.80. We predict that $20 \\%$ of group 1 and $30 \\%$ of group 2 will experience the outcome. If we recruit an equal number of individuals in each of the groups, how many individuals do we need to study?",
-      "answer": "Without continuity-correction, $n_1=n_2=294$ (588 total). With continuity-correction, $n_1=n_2=313$ (626 total).",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "How many individuals are needed in each group without continuity-correction?",
+      "answer": "n1=n2=294 (588 total)."
+    },
+    {
+      "query": "How many individuals are needed in each group with continuity-correction?",
+      "answer": "n1=n2=313 (626 total)."
     }
   ],
   "id": "136",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "17.11",
     "image": "",
     "caption": "Sample-size plan.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.6 POWER AND SAMPLE SIZE",
     "page": "403-403"
+  },
+  "token_usage": {
+    "completion_tokens": 225,
+    "prompt_tokens": 471,
+    "total_tokens": 696,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

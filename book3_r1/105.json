@@ -1,15 +1,13 @@
 {
-  "background": "There are n workers in an assembly line factory and it is known that the number of workers independently reporting for work on a given day is binomially distributed with parameters n and p where p is the probability of an individual who presents for work.",
+  "background": "There are n workers in an assembly line factory, and the number of workers independently reporting for work on a given day is binomially distributed with parameters n and p, where p is the probability of an individual reporting for work.",
   "task": [
     {
-      "query": "What is the probability that there will be at least two absentees on a given day selected at a random?",
-      "answer": "$$P(Y \\geq 2)=\\sum_{y=2}^{20}\\binom{20}{y}(0.05)^y(0.95)^{20-y}=0.000001 .$$",
-      "method": "事件发生概率及独立性"
+      "query": "What is the probability that there will be at least two absentees on a given day selected at random?",
+      "answer": "Let $X$ be the number of present for work and $Y$ the number of absentee. This implies that $n=X+Y$. $$P(Y \\geq 2)=\\sum_{y=2}^{20}\\binom{20}{y}(0.05)^y(0.95)^{20-y}=0.000001.$$"
     },
     {
       "query": "Determine this probability when p = 0.95 and n = 20.",
-      "answer": "$$P(Y \\geq 2)=\\sum_{y=2}^{20}\\binom{20}{y}(0.05)^y(0.95)^{20-y}=0.000001 .$$",
-      "method": "事件发生概率及独立性"
+      "answer": "Let $X$ be the number of present for work and $Y$ the number of absentee. This implies that $n=X+Y$. $$P(Y \\geq 2)=\\sum_{y=2}^{20}\\binom{20}{y}(0.05)^y(0.95)^{20-y}=0.000001.$$"
     }
   ],
   "id": "105",
@@ -23,5 +21,23 @@
     "section": "2.5 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "131-131"
+  },
+  "token_usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 468,
+    "total_tokens": 744,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,20 +1,49 @@
 {
-  "background": "Table 11.4 also contains data for maximum urine flow at baseline (MAXFLO_B) and maximum urine flow after 3 months of treatment (MAXFLO3M).",
+  "background": "Table 11.4 contains data for maximum urine flow at baseline (MAXFLO_B) and maximum urine flow after 3 months of treatment (MAXFLO3M). The task is to test the mean difference in this outcome for statistical significance.",
   "task": [
     {
-      "query": "Test the mean difference in this outcome for statistical significance.",
-      "answer": "A. Hypotheses. $H_0: \\mu_d=0$ versus $H_{\\mathrm{a}}: \\mu_d \\neq 0$\nB. Test statistic. $n=10$, sample mean difference $=2.91, s_d=4.515, t_{\\text {stat }}=2.035$ with $d f=10-1=9$\nC. $\\boldsymbol{P}$-value. $P=0.072$. The evidence against $H_0$ is marginally significant.\nD. Significance level. The evidence against the null hypothesis is significant at $\\alpha=$ 0.10 but not at $\\alpha=0.05$.",
-      "method": "均值检验"
+      "query": "State the null and alternative hypotheses for testing the mean difference.",
+      "answer": "$H_0: \\mu_d=0$ versus $H_a: \\mu_d \\neq 0$"
+    },
+    {
+      "query": "Calculate the test statistic, including sample size, sample mean difference, standard deviation, and degrees of freedom.",
+      "answer": "$n=10$, sample mean difference $=2.91$, $s_d=4.515$, $t_{stat}=2.035$ with $df=10-1=9$"
+    },
+    {
+      "query": "Determine the p-value and interpret the evidence against the null hypothesis.",
+      "answer": "$P=0.072$. The evidence against $H_0$ is marginally significant."
+    },
+    {
+      "query": "Evaluate the significance of the result at different significance levels.",
+      "answer": "The evidence against the null hypothesis is significant at $\\alpha=0.10$ but not at $\\alpha=0.05$."
     }
   ],
   "id": "097",
-  "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.4 Data for Exercises 11.26 and 11.27. Variables are as follows:}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline \\multicolumn{6}{|c|}{\\multirow[t]{3}{*}{QOL_BASE $=$ quality of life at baseline (coded $0=$ Delighted, $1=$ Pleased, $2=$ Mostly Satisfied, $3=$ Mixed, $4=$ Mostly Dissatisfied, $5=$ Unhappy, $6=$ Terrible) QOL_3MO = Quality of life after 3 months of treatment (same codes)}} \\\\\n\\hline & & & & & \\\\\n\\hline \\multicolumn{6}{|l|}{\\multirow{2}{*}{\\begin{tabular}{l}\nMAXFLO_B $=$ maximum urine flow at baseline (urine flow measurement scale misplaced) \\\\\nMAXFLO3M = maximum urine flow after 3 months of treatment\n\\end{tabular}}} \\\\\n\\hline & & & & & \\\\\n\\hline $i$ & ID & QOL_BASE & QOL_3MO & MAXFLO_B & MAXFLO3M \\\\\n\\hline 1 & 1 & 2 & 1 & 7 & 5 \\\\\n\\hline 2 & 11 & 4 & 1 & 8 & 18 \\\\\n\\hline 3 & 21 & 3 & 1 & 8 & 13 \\\\\n\\hline 4 & 31 & 4 & 3 & 9 & 16 \\\\\n\\hline 5 & 41 & 5 & 2 & 11 & 8 \\\\\n\\hline 6 & 51 & 6 & 2 & 4 & 9 \\\\\n\\hline 7 & 61 & 4 & 2 & 9 & 12 \\\\\n\\hline 8 & 71 & 4 & 5 & 10 & 6 \\\\\n\\hline 9 & 81 & 3 & 3 & 8 & 14 \\\\\n\\hline 10 & 82 & 3 & 1 & 10 & 13 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: Simple random sample of a data set provided by student Joanne Morales. Data are stored online in BPH-SAMP.SAV.",
-  "meta info": {
+  "data": "\\documentclass{article}\n\\usepackage{booktabs} % For professional table lines\n\\usepackage{array}    % For column alignment\n\\begin{document}\n\n\noindent\n\textbf{Table 11.4 Data for Exercises 11.26 and 11.27. Variables are as follows:}\n\\vspace{0.5em}\n\\hrule\n\\vspace{0.5em}\n\\begin{itemize}\n    \\item \texttt{QOL\\_BASE} = quality of life at baseline (coded 0 = Delighted, 1 = Pleased, 2 = Mostly Satisfied, 3 = Mixed, 4 = Mostly Dissatisfied, 5 = Unhappy, 6 = Terrible)\n    \\item \texttt{QOL\\_3MO} = Quality of life after 3 months of treatment (same codes)\n    \\item \texttt{MAXFLO\\_B} = maximum urine flow at baseline (urine flow measurement scale misplaced)\n    \\item \texttt{MAXFLO3M} = maximum urine flow after 3 months of treatment\n\\end{itemize}\n\\vspace{0.5em}\n\\hrule\n\\vspace{1em}\n\n\\begin{tabular}{l c c c c c}\n\toprule\n$i$ & ID & QOL\\_BASE & QOL\\_3MO & MAXFLO\\_B & MAXFLO3M \\\n\\midrule\n1  & 1  & 2 & 1 & 7  & 5  \\\n2  & 11 & 4 & 1 & 8  & 18 \\\n3  & 21 & 3 & 1 & 8  & 13 \\\n4  & 31 & 4 & 3 & 9  & 16 \\\n5  & 41 & 5 & 2 & 11 & 8  \\\n6  & 51 & 6 & 2 & 4  & 9  \\\n7  & 61 & 4 & 2 & 9  & 12 \\\n8  & 71 & 4 & 5 & 10 & 6  \\\n9  & 81 & 3 & 3 & 8  & 14 \\\n10 & 82 & 3 & 1 & 10 & 13 \\\n\\bottomrule\n\\end{tabular}\n\n\\end{document}",
+  "meta_info": {
     "index": "11.27",
     "image": "",
     "caption": "Benign prostatic hyperplasia, maximum flow.",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "232-232"
+  },
+  "token_usage": {
+    "completion_tokens": 312,
+    "prompt_tokens": 491,
+    "total_tokens": 803,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

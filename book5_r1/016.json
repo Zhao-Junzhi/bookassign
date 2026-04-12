@@ -1,15 +1,17 @@
 {
-  "background": "Construct a Normal plot of the log-transformed T4 cell counts for 20 Hodgkin's disease patients using the method described in section 7.5.4.",
+  "background": "Use the method described in section 7.5.4 to construct a Normal plot of the $\\log _{\\mathrm{e}} \\mathrm{T}_4$ cell counts for 20 Hodgkin's disease patients given in the first column of Table 7.1.",
   "task": [
     {
-      "query": "Perform the calculations for the log-transformed T4 cell counts and determine the Normal scores for the 20 Hodgkin's disease patients.",
-      "answer": "The following table shows the calculations:\n\\begin{tabular}{|l|l|l|l|}\n\\hline $\\mathrm{T}_4$ & $\\log _c \\mathrm{~T}_4$ & P & Normal score \\\\\n\\hline 171 & 5.14 & 0.0309 & -1.868 \\\\\n\\hline 257 & 5.55 & 0.0802 & -1.403 \\\\\n\\hline 288 & 5.66 & 0.1296 & -1.128 \\\\\n\\hline 295 & 5.69 & 0.1790 & -0.919 \\\\\n\\hline 396 & 5.98 & 0.2284 & -0.744 \\\\\n\\hline 397 & 5.98 & 0.2778 & -0.589 \\\\\n\\hline 431 & 6.07 & 0.3272 & -0.448 \\\\\n\\hline 435 & 6.08 & 0.3765 & -0.315 \\\\\n\\hline 554 & 6.32 & 0.4259 & -0.187 \\\\\n\\hline 568 & 6.34 & 0.4753 & -0.062 \\\\\n\\hline 795 & 6.68 & 0.5247 & 0.062 \\\\\n\\hline 902 & 6.80 & 0.5741 & 0.187 \\\\\n\\hline 958 & 6.86 & 0.6235 & 0.315 \\\\\n\\hline 1004 & 6.91 & 0.6728 & 0.448 \\\\\n\\hline 1104 & 7.01 & 0.7222 & 0.589 \\\\\n\\hline 1212 & 7.10 & 0.7716 & 0.744 \\\\\n\\hline 1283 & 7.16 & 0.8210 & 0.919 \\\\\n\\hline 1378 & 7.23 & 0.8704 & 1.128 \\\\\n\\hline 1621 & 7.39 & 0.9198 & 1.403 \\\\\n\\hline 2415 & 7.79 & 0.9691 & 1.868 \\\\\n\\hline\n\\end{tabular}",
-      "method": "数据预处理"
+      "query": "Perform the calculations for $\\log _{\\mathrm{e}} \\mathrm{T}_4$, P, and Normal scores based on the given $\\mathrm{T}_4$ cell counts.",
+      "answer": "The following table shows the calculations:\n\\begin{tabular}{|l|l|l|l|}\n\\hline $\\mathrm{T}_4$ & $\\log _c \\mathrm{~T}_4$ & P & Normal score \\\\\n\\hline 171 & 5.14 & 0.0309 & -1.868 \\\\\n\\hline 257 & 5.55 & 0.0802 & -1.403 \\\\\n\\hline 288 & 5.66 & 0.1296 & -1.128 \\\\\n\\hline 295 & 5.69 & 0.1790 & -0.919 \\\\\n\\hline 396 & 5.98 & 0.2284 & -0.744 \\\\\n\\hline 397 & 5.98 & 0.2778 & -0.589 \\\\\n\\hline 431 & 6.07 & 0.3272 & -0.448 \\\\\n\\hline 435 & 6.08 & 0.3765 & -0.315 \\\\\n\\hline 554 & 6.32 & 0.4259 & -0.187 \\\\\n\\hline 568 & 6.34 & 0.4753 & -0.062 \\\\\n\\hline 795 & 6.68 & 0.5247 & 0.062 \\\\\n\\hline 902 & 6.80 & 0.5741 & 0.187 \\\\\n\\hline 958 & 6.86 & 0.6235 & 0.315 \\\\\n\\hline 1004 & 6.91 & 0.6728 & 0.448 \\\\\n\\hline 1104 & 7.01 & 0.7222 & 0.589 \\\\\n\\hline 1212 & 7.10 & 0.7716 & 0.744 \\\\\n\\hline 1283 & 7.16 & 0.8210 & 0.919 \\\\\n\\hline 1378 & 7.23 & 0.8704 & 1.128 \\\\\n\\hline 1621 & 7.39 & 0.9198 & 1.403 \\\\\n\\hline 2415 & 7.79 & 0.9691 & 1.868 \\\\\n\\hline\n\\end{tabular}"
     },
     {
-      "query": "Create a Normal plot of the log-transformed T4 cell counts based on the calculated Normal scores.",
-      "answer": "The Normal plot of these data is very straight, as is shown in Figure A7.2. The Normal scores can be obtained in many statistics packages. Otherwise, they can be obtained by using Table B1 'in reverse'.",
-      "method": "数据可视化"
+      "query": "Explain how to obtain the Normal scores for the data.",
+      "answer": "The Normal scores can be obtained in many statistics packages. Otherwise, they can be obtained by using Table B1 'in reverse'."
+    },
+    {
+      "query": "Describe the characteristics of the Normal plot for the given data.",
+      "answer": "The Normal plot of these data is very straight, as is shown in Figure A7.2."
     }
   ],
   "id": "016",
@@ -17,5 +19,23 @@
   "meta_info": {
     "index": "7.2",
     "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 781,
+    "prompt_tokens": 928,
+    "total_tokens": 1709,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

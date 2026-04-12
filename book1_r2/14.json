@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_006.json",
+  "input": {
+    "background": "Here is more practice in classifying variables as quantitative, ordinal, or categorical.",
+    "data": "",
+    "question": "(a) White blood cells per deciliter of whole blood"
+  },
+  "output": {
+    "answer": "Quantitative"
+  },
+  "meta_info": {
+    "index": "1.11",
+    "image": "",
+    "caption": "Variable types 2.",
+    "chapter": "Measurement",
+    "section": "1.4 Data Quality",
+    "page": "13-14"
+  },
+  "sample_key": "14"
+}

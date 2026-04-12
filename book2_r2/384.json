@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\144.json",
+  "input": {
+    "background": "Refer to Example 9.10. Suppose the same factorial experiment is performed on four other brands (E, F, G, and H), and the results are as shown in Table 9.16. Repeat the factorial analysis and interpret the results.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline Table 9.16 & \\multicolumn{5}{|r|}{Distance Data for Second Factorial Golf Experiment} \\\\\n\\hline \\multicolumn{2}{|c|}{} & \\multicolumn{4}{|c|}{Brand} \\\\\n\\hline & & E & F & G & H \\\\\n\\hline Club & Driver & 238.6 & 261.4 & 264.7 & 235.4 \\\\\n\\hline & & 241.9 & 261.3 & 262.9 & 239.8 \\\\\n\\hline & & 236.6 & 254.0 & 253.5 & 236.2 \\\\\n\\hline & & 244.9 & 259.9 & 255.6 & 237.5 \\\\\n\\hline & & & & & \\\\\n\\hline & Five-Iron & 165.2 & 179.2 & 189.0 & 171.4 \\\\\n\\hline & & 156.9 & 171.0 & 191.2 & 159.3 \\\\\n\\hline & & 172.2 & 178.0 & 191.3 & 156.6 \\\\\n\\hline & & 163.2 & 182.7 & 180.5 & 157.4 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Test for the main effect of Club. What are the hypotheses, the test statistic, and the conclusion?"
+  },
+  "output": {
+    "answer": "Hypotheses: H0: No differences exist between the Club mean distances. Ha: The Club mean distances differ. Test statistic: F = MS(Club) / MSE = 46,443.9 / 24.60 = 1,887.94. Observed significance level: p = 0.000. Since α = 0.10 exceeds the p-value, we conclude that the two Clubs are associated with different mean distances. The mean distance for balls hit with the driver is significantly greater than the mean distance for those hit with the five-iron."
+  },
+  "meta_info": {
+    "index": "9.11",
+    "img_in_question": null
+  },
+  "sample_key": "384"
+}

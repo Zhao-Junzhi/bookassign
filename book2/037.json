@@ -1,0 +1,41 @@
+{
+  "id": "037",
+  "question": "Consider the experiment of tossing two unbalanced coins. Because the coins are not balanced, their outcomes ( $H$ or $T$ ) are not equiprobable. Suppose the correct probabilities associated with the sample points are given in the table. [Note: The necessary properties for assigning probabilities to sample points are satisfied.]
+
+Consider the events
+A: {Observe exactly one head}
+$B$ : {Observe at least one head}
+Calculate the probability of $A$ and the probability of $B$.
+
+\begin{tabular}{lc}
+\hline Sample Point & Probability \\
+\hline$H H$ & $\frac{4}{9}$ \\
+$H T$ & $\frac{2}{9}$ \\
+$T H$ & $\frac{2}{9}$ \\
+$T T$ & $\frac{1}{9}$ \\
+\hline
+\end{tabular}",
+  "data": null,
+  "answer": "Event $A$ contains the sample points $H T$ and $T H$; thus, $A$ is a compound event. Because two or more sample points cannot occur at the same time, we can easily calculate the probability of event $A$ by summing the probabilities of the two sample points. Thus, the probability of observing exactly one head (event $A$ ), denoted by the symbol $P(A)$, is
+
+$$
+P(A)=P(\text { Observe } H T)+P(\text { Observe } T H)=\frac{2}{9}+\frac{2}{9}=\frac{4}{9}
+$$
+
+
+Similarly, because $B$ contains the sample points $H H, H T$, and $T H$,
+
+$$
+P(B)=\frac{4}{9}+\frac{2}{9}+\frac{2}{9}=\frac{8}{9}
+$$",
+  "meta_info": {
+    "index": "3.4",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "The Probability of a Compound Event-Coin-Tossing Experiment",
+    "chapter": "Probability",
+    "section": "3.1 Events, Sample Spaces, and Probability",
+    "book": "Statistics for Business and Economics",
+    "page": "88-89"
+  }
+}

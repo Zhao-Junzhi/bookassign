@@ -1,13 +1,12 @@
 {
   "case_id": "book3_r1\\10.json",
   "input": {
-    "background": "A vending machine usually provides candy on insertion of a coin. Over a period of time it is found not to work on five ‘uses’ in every thousand.",
+    "background": "A vending machine usually provides candy on insertion of a coin. Over a period of time, it is found not to work on five ‘uses’ in every thousand.",
     "data": null,
-    "question": "If X is a continuous random variable with pdf f and y=g(x) is a continuous monotone function of x, what is the density function of Y?"
+    "question": "What is the density function of a continuous random variable Y if it is a monotone function of X?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "It is easy to see that if X is a continuous random variable with pdf f and y=g(x) is a continuous monotone function of x then the random variable Y has a density function h as follows: h(y)=f(x)|dx/dy| where x=g^{-1}(y)."
+    "answer": "It is easy to see that if X is a continuous random variable with pdf f and y = g(x) is a continuous monotone function of x, then the random variable Y has a density function h as follows:\n\nh(y) = f(x) |dx/dy|\n\nwhere x = g^{-1}(y)."
   },
   "meta_info": {
     "index": "1.18",

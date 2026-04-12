@@ -1,0 +1,51 @@
+{
+  "background": "The failure time of a certain component has a Weibull distribution with $\\beta=4, \\mu=2000$, and $\\sigma=1000$.",
+  "task": [
+    {
+      "query": "Find the reliability of the component for an operating time of 1500 h.",
+      "answer": "A direct substitution into Eq. (2.69) yields $$ R(1500)=e^{-\\left(\\frac{1500-1000}{2000}\\right)^4}=0.996 $$"
+    },
+    {
+      "query": "Find the hazard rate for an operating time of 1500 h.",
+      "answer": "Using Eq. (2.70), the desired hazard function is given by $$ h(1500)=\\frac{4(1500-1000)^{4-1}}{(2000)^4}=3.13 \\times 10^{-5} \\text{ failures/hour } $$"
+    },
+    {
+      "query": "Explain how the Rayleigh and exponential distributions are special cases of the Weibull distribution.",
+      "answer": "Note that the Rayleigh and exponential distributions are special cases of the Weibull distribution at $\\beta=2, \\gamma=0$, and $\\beta=1, \\gamma=0$, respectively. For example, when $\\beta=1$ and $\\gamma=0$, the reliability of the Weibull distribution function in Eq. (2.69) reduces to $$ R(t)=e^{-\\frac{t}{\\theta}} $$ and the hazard function given in Eq. (2.70) reduces to $1 / \\theta$, a constant. Thus, the exponential is a special case of the Weibull distribution. Similarly, when $\\beta=2$ and $\\theta=\\sqrt{2} \\alpha$, the two-parameter Weibull distribution becomes the Rayleigh density function as follows: $$ f(t)=\\frac{t}{\\alpha^2} e^{-\\frac{t^2}{2 \\alpha^2}} \\quad t \\geq 0 $$"
+    },
+    {
+      "query": "Describe the applications and flexibility of the Weibull distribution.",
+      "answer": "The Weibull distribution is widely used in engineering applications. It was originally proposed for representing the distribution of the breaking strength of materials. The Weibull model is very flexible and also has theoretical justification successfully in many applications as a purely empirical model."
+    }
+  ],
+  "id": "40",
+  "data": null,
+  "meta_info": {
+    "index": "2.24",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Chapter 2: Distribution Functions and Its Applications",
+    "section": "2.2 Continuous Distributions",
+    "book": "Statistical Reliability Engineering",
+    "page": "106-109"
+  },
+  "token_usage": {
+    "completion_tokens": 525,
+    "prompt_tokens": 734,
+    "total_tokens": 1259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

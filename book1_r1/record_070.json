@@ -1,25 +1,41 @@
 {
-  "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250.",
+  "background": "Suppose we redo the survey addressed in the prior two exercises, now using n = 250. Can we use the Normal approximation to the binomial in this instance?",
   "task": [
     {
       "query": "Can we use the Normal approximation to the binomial in this instance?",
-      "answer": "$n p q=(250)(0.05)(0.95)=11.875$. Therefore, the Normal approximation to the binomial can be applied.",
-      "method": "数据分布建模"
+      "answer": "$n p q=(250)(0.05)(0.95)=11.875$. Therefore, the Normal approximation to the binomial can be applied. Note that $\\mu=250 \\cdot 0.05=12.5$ and $\\sigma=\\sqrt{250 \\cdot 0.05 \\cdot 0.95}=$ 3.446, that is, $X \\sim \\mathrm{~N}(12.5,3.446)$."
     },
     {
       "query": "What is the probability of seeing at least 25 cases in a sample?",
-      "answer": "Note that $\\mu=250 \\cdot 0.05=12.5$ and $\\sigma=\\sqrt{250 \\cdot 0.05 \\cdot 0.95}=$ 3.446, that is, $X \\sim \\mathrm{~N}(12.5,3.446)$. 1. State: We want to determine $\\operatorname{Pr}(X \\geq 25)$ 2. Standardize: $z=\\frac{25-12.5}{3.446}=3.63$ 3. Sketch (optional): not shown 4. Use Table B: $\\operatorname{Pr}(z \\geq 3.63) \\approx 0.000$",
-      "method": "事件发生概率及独立性"
+      "answer": "1. State: We want to determine $\\operatorname{Pr}(X \\geq 25)$\n2. Standardize: $z=\\frac{25-12.5}{3.446}=3.63$\n3. Sketch (optional): not shown\n4. Use Table B: $\\operatorname{Pr}(z \\geq 3.63) \\approx 0.000$"
     }
   ],
   "id": "070",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "8.11",
     "image": "",
     "caption": "Pediatric asthma survey, n = 250.",
     "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
     "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
     "page": "172-172"
+  },
+  "token_usage": {
+    "completion_tokens": 311,
+    "prompt_tokens": 529,
+    "total_tokens": 840,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

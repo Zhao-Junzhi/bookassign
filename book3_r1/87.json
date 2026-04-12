@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "What need the capacity of the tank be so that the probability of the supplies being completely used up in a given week is no more than 0.01?",
-      "answer": "$a=0.602$",
-      "method": "达到指定概率所需的最小样本量"
+      "answer": "$a=0.602"
     },
     {
       "query": "What is the expected volume of sales in a given week? Show your work.",
-      "answer": "$\\mathrm{a}=166.7$ gallons",
-      "method": "期望"
+      "answer": "$\\mathrm{a}=166.7$ gallons."
     }
   ],
   "id": "87",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "63-63"
+  },
+  "token_usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 447,
+    "total_tokens": 622,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

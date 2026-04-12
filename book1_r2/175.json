@@ -1,37 +1,20 @@
 {
-  "case_id": "book1_r1\\record_092.json",
+  "case_id": "book1_r1\\record_077.json",
   "input": {
-    "background": "A $t$ test calculates $t_{\\text {stat }}=6.60$. Assuming the study had more than just a few observations, you do not need a $t$ table or software utility to draw a conclusion about the test.",
+    "background": "Studies in the general population suggest that the gestational length of uncomplicated pregnancies varies according to a Normal distribution with μ=39 weeks with σ=2 weeks. A sample of 22 middle-class African American women demonstrates an average gestation length (x̄) of 38.5 weeks. Test whether the mean gestation period in the African American women is significantly different from the expected value of 39 weeks. Use a two-sided alternative hypothesis.",
     "data": "",
-    "question": "What is this conclusion, and why is a look-up table unnecessary?"
+    "question": "Interpret the results of the hypothesis test. Are the results significant at a significance level of α=0.10?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "When the sample contains more than just a few observations, the associated $t$ statistic will have more than a few $d f$ and will look very much like a Standard Normal 2 distribution. Based on the 68-95-99.7 rule, we would almost never get a test statistic that is 6.6 standard deviations away from the 0 . Therefore, we can say that the $t$ test statistic is in the far right-hand tail of the sampling distribution and the $P$-value will be very, very small (e.g.. less than 0.01 ).",
-    "variable": {
-      "t_stat": {
-        "id": "t_stat",
-        "value": 6.6,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The calculated t-statistic value from the t-test."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": "more than just a few observations",
-        "class": "categorical",
-        "role": "NR",
-        "description": "The sample size of the study, which is stated to be sufficiently large."
-      }
-    }
+    "answer": "The evidence against H₀ is nonsignificant by usual conventions. The results are not significant at α=0.10 (retain H₀)."
   },
   "meta_info": {
-    "index": "11.17",
+    "index": "9.11",
     "image": "",
-    "caption": "Large t statistic.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "229-229"
+    "caption": "Gestational length，African American women, hypothesis test.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "192-193"
   },
   "sample_key": "175"
 }

@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_120.json",
+  "case_id": "book1_r1\\record_102.json",
   "input": {
-    "background": "A national study of AIDS risk factors used a random-digit dialing technique to contact study participants. Among the 2,673 heterosexual adults in the sample, 170 reported two or more sexual partners in the past 12 months.",
-    "data": "",
-    "question": "Practical problems of bias can pose a threat to the validity of a study of this type. What specific types of selection biases might evolve from the sampling method used by this study?"
+    "background": "The air quality data in Exercise 12.5 (Table 12.9) are associated with the summary statistics reported in Table 12.12.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 12.12 Means and standard deviations for Exercise 12.7.}\n\\begin{tabular}{lccc}\n\\multicolumn{4}{l}{ Particulate matter in air samples $\\left(\\mu \\mathrm{gms} / \\mathrm{m}^3\\\right)$} \\\\\nSite & $\\boldsymbol{n}$ & Mean & Std. Dev. \\\\\n& & & \\\\\n1 & 8 & 36.25 & 14.56 \\\\\n2 & 8 & 36.00 & 2.88 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Determine the two-sided $P$-value for testing $H_0: \\mu_1=\\mu_2$."
   },
   "output": {
-    "method": "观测数据",
-    "answer": "Examples of selection biases that may be pertinent: (1) Specific high risk groups (for example, homeless, intravenous drug users) may not have permanent telephone lines and may be underrepresented in the sample. (2) Nonresponse should be scrutinized.",
-    "variable": {
-      "Sample_Size": {
-        "id": "Sample_Size",
-        "value": 2673,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of heterosexual adults in the sample."
-      },
-      "Multiple_Partners": {
-        "id": "Multiple_Partners",
-        "value": 170,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The number of participants who reported having two or more sexual partners in the past 12 months."
-      },
-      "Sampling_Method": {
-        "id": "Sampling_Method",
-        "value": "random-digit dialing",
-        "class": "categorical",
-        "role": "NR",
-        "description": "The method used to contact study participants."
-      }
-    }
+    "answer": "$t_{\\text{stat}}=\\frac{36.25-36.00}{5.247}=0.05$. The one-sided $P$-value (by Table $C$ in the Appendix) is greater 0.25. Therefore, the two-tailed $P>0.50$. Using a software utility (www.cytel.com/Products/StaTable/), $P=0.96$. There is no significant difference in means."
   },
   "meta_info": {
-    "index": "16.1",
+    "index": "12.7",
     "image": "",
-    "caption": "AIDS-related risk factor.",
-    "chapter": "INFERENCE ABOUT A PROPORTION",
-    "section": "16.1 PROPORTIONS",
-    "page": "351-352"
+    "caption": "Air samples.",
+    "chapter": "COMPARING INDEPENDENT MEANS",
+    "section": "12.5 CONDITIONS FOR INFERENCE",
+    "page": "249-249"
   },
   "sample_key": "244"
 }

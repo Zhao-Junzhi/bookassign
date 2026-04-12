@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\138.json",
+  "input": {
+    "background": "Refer to the completely randomized design ANOVA conducted in Example 9.4. The question is whether the assumptions required for the test are approximately satisfied.",
+    "data": null,
+    "question": "What are the assumptions required for the ANOVA test?"
+  },
+  "output": {
+    "answer": "The assumptions for the test are: 1. The samples of golf balls for each brand are selected randomly and independently. 2. The probability distributions of the distances for each brand are normal. 3. The variances of the distance probability distributions for each brand are equal."
+  },
+  "meta_info": {
+    "index": "9.5",
+    "img_in_question": null
+  },
+  "sample_key": "363"
+}

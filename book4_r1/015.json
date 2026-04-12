@@ -1,15 +1,13 @@
 {
-  "background": "The management of a nature reserve conducted a visitor survey to gather opinions on admission charges. Two questions were posed: (1) How frequently do you visit the park? (2) What is the maximum you would be prepared to pay to enter this park? Responses were coded, and data from 20 individuals were collected.",
+  "background": "The management of a nature reserve conducted a visitor survey to determine opinions about admission charges. Two questions were posed: the frequency of visits to the park and the maximum amount visitors would be prepared to pay to enter. The survey results from 20 respondents were analyzed.",
   "task": [
     {
-      "query": "Carry out Spearman's rank correlation on the data, and record the following: r_s, n, P.",
-      "answer": "r_s = -0.482 (=-0.533 if corrected for ties), n = 20, P < 0.05 (=0.0203 if corrected for ties).",
-      "method": "相关系数（一维）"
+      "query": "Carry out Spearman's rank correlation on the data, and record the following: r_s, n, and P.",
+      "answer": "r_s = -0.482 (=-0.533 if corrected for ties), n = 20, P < 0.05 (=0.0203 if corrected for ties)."
     },
     {
       "query": "What do you conclude about the relationship between the frequency of visits and the amount an individual is prepared to pay?",
-      "answer": "There is a significant negative relationship between frequency of visit and amount the visitor is prepared to pay: the more frequent the visits, the less the visitor is prepared to pay.",
-      "method": "相关系数（一维）"
+      "answer": "There is a significant negative relationship between frequency of visit and amount the visitor is prepared to pay: the more frequent the visits, the less the visitor is prepared to pay."
     }
   ],
   "id": "015",
@@ -23,5 +21,23 @@
     "section": "Questions",
     "book": "Using Statistics to Understand the Environment",
     "page": "108-109"
+  },
+  "token_usage": {
+    "completion_tokens": 215,
+    "prompt_tokens": 1092,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

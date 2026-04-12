@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Calculate the 95% confidence interval for the mean birth weight of SIDS cases in the county.",
-      "answer": "The 95% confidence interval for μ=2998 ±(1.96) 800/√49=2998 ± 224=(2774 to 3222).",
-      "method": "均值检验"
+      "answer": "The 95% confidence interval for μ=2998 ± (1.96) * (800 / √49) = 2998 ± 224 = (2774 to 3222)."
     },
     {
       "query": "Interpret your results.",
-      "answer": "Based on this sample, we have 95% confidence the population mean μ is between 2764 and 3212.",
-      "method": "均值检验"
+      "answer": "Based on this sample, we have 95% confidence the population mean μ is between 2774 and 3222."
     }
   ],
   "id": "084",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "10.5",
     "image": "",
     "caption": "SIDS.",
     "chapter": "BASICS OF CONFIDENCE INTERVALS",
     "section": "10.2 Confidence Intervals for $\\mu$ When $\\sigma$ Is Known",
     "page": "203-203"
+  },
+  "token_usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 445,
+    "total_tokens": 631,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

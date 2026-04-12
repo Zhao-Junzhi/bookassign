@@ -1,20 +1,41 @@
 {
-  "background": "The problem involves calculating the mean and variance of a probability mass function (pmf) for four patients as presented in Table 5.1.",
+  "background": "The question asks to calculate the mean and variance of the pmf for four patients, as presented in Table 5.1.",
   "task": [
     {
-      "query": "What are the mean and variance of the four patients illustrative pmf, as presented in Table 5.1?",
-      "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run.",
-      "method": "期望"
+      "query": "What is the mean of the four patients illustrative pmf?",
+      "answer": "Table 5.2 restates the pmf with an additional row listing values for $x \\cdot \\operatorname{Pr}(X=x)$. The expected value, calculated below the table, is $\\mu=3.00$. We expect three successes over the long run."
+    },
+    {
+      "query": "What is the variance of the four patients illustrative pmf?",
+      "answer": "The variance calculation is not explicitly provided in the answer. Additional details may be required to compute the variance based on the pmf."
     }
   ],
   "id": "336",
   "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Expectation and variance.",
     "chapter": "PROBABILITY CONCEPTS",
     "section": "5.3  DISCRETE RANDOM VARIABLES",
     "page": "96-97"
+  },
+  "token_usage": {
+    "completion_tokens": 277,
+    "prompt_tokens": 409,
+    "total_tokens": 686,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

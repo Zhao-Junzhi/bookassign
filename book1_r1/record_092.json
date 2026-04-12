@@ -2,19 +2,40 @@
   "background": "A $t$ test calculates $t_{\\text {stat }}=6.60$. Assuming the study had more than just a few observations, you do not need a $t$ table or software utility to draw a conclusion about the test.",
   "task": [
     {
-      "query": "What is this conclusion, and why is a look-up table unnecessary?",
-      "answer": "When the sample contains more than just a few observations, the associated $t$ statistic will have more than a few $d f$ and will look very much like a Standard Normal 2 distribution. Based on the 68-95-99.7 rule, we would almost never get a test statistic that is 6.6 standard deviations away from the 0 . Therefore, we can say that the $t$ test statistic is in the far right-hand tail of the sampling distribution and the $P$-value will be very, very small (e.g.. less than 0.01 ).",
-      "method": "均值检验"
+      "query": "What is the conclusion about the test?",
+      "answer": "When the sample contains more than just a few observations, the associated $t$ statistic will have more than a few $d f$ and will look very much like a Standard Normal 2 distribution. Based on the 68-95-99.7 rule, we would almost never get a test statistic that is 6.6 standard deviations away from the 0."
+    },
+    {
+      "query": "Why is a look-up table unnecessary?",
+      "answer": "We can say that the $t$ test statistic is in the far right-hand tail of the sampling distribution and the $P$-value will be very, very small (e.g., less than 0.01)."
     }
   ],
   "id": "092",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "11.17",
     "image": "",
     "caption": "Large t statistic.",
     "chapter": "INFERENCE ABOUT A MEAN",
     "section": "11.7 SAMPLE SIZE AND POWER",
     "page": "229-229"
+  },
+  "token_usage": {
+    "completion_tokens": 247,
+    "prompt_tokens": 482,
+    "total_tokens": 729,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

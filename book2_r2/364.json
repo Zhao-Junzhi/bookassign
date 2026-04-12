@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\138.json",
+  "input": {
+    "background": "Refer to the completely randomized design ANOVA conducted in Example 9.4. The question is whether the assumptions required for the test are approximately satisfied.",
+    "data": null,
+    "question": "Is the assumption of independent random samples satisfied?"
+  },
+  "output": {
+    "answer": "Yes, the sample consisted of 10 randomly selected balls of each brand, and the robotic golfer Iron Byron was used to drive all the balls, so the first assumption of independent random samples is satisfied."
+  },
+  "meta_info": {
+    "index": "9.5",
+    "img_in_question": null
+  },
+  "sample_key": "364"
+}

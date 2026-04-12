@@ -1,10 +1,9 @@
 {
-  "background": "A product undergoes six operations that can be performed if any sequence.",
+  "background": "A product undergoes six operations that can be performed in any sequence.",
   "task": [
     {
       "query": "In how many different ways can it be produced?",
-      "answer": "The number of different ways is $N!=6!=720$.",
-      "method": "概率空间相关（如状态数）"
+      "answer": "The number of different ways is $N!=6!=720$."
     }
   ],
   "id": "03",
@@ -18,5 +17,23 @@
     "section": "1.2 Probability Axioms",
     "book": "Statistical Reliability Engineering",
     "page": "10-11"
+  },
+  "token_usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 335,
+    "total_tokens": 403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\050.json",
+  "case_id": "book5_r1\\040.json",
   "input": {
-    "background": "Exercise 11.2 included survival times of 29 patients with lactic acidosis, together with some possibly prognostic variables.",
-    "data": null,
-    "question": "How could logrank tests be used to assess the possible relation between the three variables and survival time? Perform such tests."
+    "background": "The following table shows resting metabolic rate (RMR) (kcal/24 hr) and body weight (kg) of 44 women (Owen et al., 1986).",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & Body weight & RMR & & Body weight & RMR \\\\\n\\hline 1 & 49.9 & 1079 & 17 & 59.0 & 982 \\\\\n\\hline 2 & 50.8 & 1146 & 18 & 59.0 & 1178 \\\\\n\\hline 3 & 51.8 & 1115 & 19 & 59.2 & 1342 \\\\\n\\hline 4 & 52.6 & 1161 & 20 & 59.5 & 1027 \\\\\n\\hline 5 & 57.6 & 1325 & 21 & 60.0 & 1316 \\\\\n\\hline 6 & 61.4 & 1351 & 22 & 62.1 & 1574 \\\\\n\\hline 7 & 62.3 & 1402 & 23 & 64.9 & 1526 \\\\\n\\hline 8 & 64.9 & 1365 & 24 & 66.0 & 1268 \\\\\n\\hline 9 & 43.1 & 870 & 25 & 66.4 & 1205 \\\\\n\\hline 10 & 48.1 & 1372 & 26 & 72.8 & 1382 \\\\\n\\hline 11 & 52.2 & 1132 & 27 & 74.8 & 1273 \\\\\n\\hline 12 & 53.5 & 1172 & 28 & 77.1 & 1439 \\\\\n\\hline 13 & 55.0 & 1034 & 29 & 82.0 & 1536 \\\\\n\\hline 14 & 55.0 & 1155 & 30 & 82.0 & 1151 \\\\\n\\hline 15 & 56.0 & 1392 & 31 & 83.4 & 1248 \\\\\n\\hline 16 & 57.8 & 1090 & 32 & 86.2 & 1466 \\\\\n\\hline\n\\end{tabular}\n\\begin{tabular}{|l|l|l|l|l|l|}\n\\hline & Body weight & RMR & & Body weight & RMR \\\\\n\\hline 33 & 88.6 & 1323 & 39 & 107.7 & 1473 \\\\\n\\hline 34 & 89.3 & 1300 & 40 & 110.2 & 2074 \\\\\n\\hline 35 & 91.6 & 1519 & 41 & 122.0 & 1777 \\\\\n\\hline 36 & 99.8 & 1639 & 42 & 123.1 & 1640 \\\\\n\\hline 37 & 103.0 & 1382 & 43 & 125.2 & 1630 \\\\\n\\hline 38 & 104.5 & 1414 & 44 & 143.3 & 1708 \\\\\n\\hline\n\\end{tabular}",
+    "question": "Is it possible to use an individual's weight to predict their RMR to within 250 kcal/24 hr?"
   },
   "output": {
-    "method": "生存分析",
-    "answer": "The logrank test is used to compare survival in different groups of patients. Where the variable of interest is continuous, as here, we can create groups of patients corresponding to broad ranges of values and perform the logrank test for trend.\n\nA common approach is to divide the patients into three equal sized groups. Groups of size 10,10 and 9 give the following results:\n\nVariable | Coefficient | SE | t | P (trend)\n---|---|---|---|---\nConstant | -6.7459 | 4.3923 | -1.536 | 0.14\nAge | -0.0260 | 0.0241 | -1.080 | 0.29\nSex | -0.8029 | 0.5120 | -1.568 | 0.13\nHeight | 0.0880 | 0.0252 | 3.497 | 0.002\n\nFor each variable the trend is statistically significant, and most of the variation between groups is due to the trend. Thus the changes in all of the three variables are related to survival time."
+    "answer": "The SD of the residuals is 157.91 kcal/24 hr, so the narrowest prediction interval (at the mean value of body weight) is about twice this amount either side of the predicted value. Thus it is not possible to predict RMR from body weight to within 250 kcal/24 hr."
   },
   "meta_info": {
-    "index": "13.2",
+    "index": "11.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Analysis of survival times",
+    "chapter": "Relation between two continuous variables",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "394-395"
+    "page": "322-323"
   },
   "sample_key": "116"
 }

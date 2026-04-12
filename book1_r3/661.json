@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_409.json",
+  "input": {
+    "background": "We have established the following statistics for the illustrative example: r=0.737, n=11, and df=9. The 95% confidence interval for ρ is to be calculated based on this information.",
+    "data": "",
+    "question": "What is the value of t^2 for 95% confidence using t_{9,975}?"
+  },
+  "output": {
+    "answer": "For 95% confidence, use t_{9,975}=2.262; therefore t^2_{9,975}= 2.262^2=5.117."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for $\\\\rho$.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.3 Correlation",
+    "page": "308-308"
+  },
+  "sample_key": "661",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 986,
+    "total_tokens": 1029,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 979,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 986,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 979,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

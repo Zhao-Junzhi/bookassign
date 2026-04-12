@@ -1,0 +1,40 @@
+{
+  "case_id": "book2_r1\\051.json",
+  "input": {
+    "background": "A county welfare agency employs 10 welfare workers who interview prospective food stamp recipients. Periodically the supervisor selects, at random, the forms completed by 2 workers to audit for illegal deductions. Unknown to the supervisor, 3 of the workers have regularly been giving illegal deductions to applicants.",
+    "data": null,
+    "question": "What is the final probability that both workers chosen have been giving illegal deductions?"
+  },
+  "output": {
+    "answer": "Substituting $P(A)=\\frac{3}{10}$ and $P(B \\mid A)=\\frac{2}{9}$ into the formula for the multiplicative rule, we find $$ P(A \\cap B)=P(A) P(B \\mid A)=\\left(\\frac{3}{10}\\right)\\left(\\frac{2}{9}\\right)=\\frac{6}{90}=\\frac{1}{15} $$ Thus, there is a 1 in 15 chance that both workers chosen by the supervisor have been giving illegal deductions to food stamp recipients."
+  },
+  "meta_info": {
+    "index": "3.18",
+    "img_in_question": null
+  },
+  "sample_key": "117",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1106,
+    "total_tokens": 1149,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1105,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1106,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1105,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

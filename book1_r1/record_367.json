@@ -1,25 +1,45 @@
 {
-  "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean $\\mu=170$ pounds and standard deviation $\\sigma=40$. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean.",
+  "background": "In the late 1970s, the United States male population between 20-29-years of age had body weights with an approximate lognormal distribution with mean μ=170 pounds and standard deviation σ=40. To test whether body weight has increased since that time, we take an SRS of men from the current population, calculate their mean weight, and compare it to the historical mean. Under the null hypothesis, there is no difference in the mean body weights between then and now.",
   "task": [
     {
-      "query": "Under the null hypothesis, there is no difference in the mean body weights between then and now.",
-      "answer": "Let $\\mu$ represent the current population mean. Therefore, the null hypothesis is $H_0: \\mu=170$. Under the alternative hypothesis, the mean weight has increased. In other words, $H_{\\mathrm{a}}: \\mu>170$ pounds.",
-      "method": "均值检验"
+      "query": "What is the null hypothesis for testing whether body weight has increased since the late 1970s?",
+      "answer": "Let μ represent the current population mean. Therefore, the null hypothesis is H0: μ=170."
     },
     {
-      "query": "We may also consider a twosided alternative that looks for both higher- and lower-than-expected population means.",
-      "answer": "For this example, the two-sided alternative hypothesis would be $H_{\\mathrm{a}}: \\mu \\neq 170$.",
-      "method": "均值检验"
+      "query": "What is the alternative hypothesis for testing whether body weight has increased since the late 1970s?",
+      "answer": "Under the alternative hypothesis, the mean weight has increased. In other words, Ha: μ>170 pounds. This alternative hypothesis is one-sided, looking only for values larger than the stated population mean."
+    },
+    {
+      "query": "What is the two-sided alternative hypothesis for this example?",
+      "answer": "For this example, the two-sided alternative hypothesis would be Ha: μ≠170."
     }
   ],
   "id": "367",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Null and alternative hypotheses (Body weight of  20-29-year-old U.S. men).",
     "chapter": "BASICS OF HYPOTHESIS TESTING",
     "section": "9.1 The Null and Alternative Hypotheses",
     "page": "176-177"
+  },
+  "token_usage": {
+    "completion_tokens": 441,
+    "prompt_tokens": 525,
+    "total_tokens": 966,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

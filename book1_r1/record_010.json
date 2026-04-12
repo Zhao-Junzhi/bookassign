@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "Outline the design of this study in schematic form.",
-      "answer": "The study is a randomized controlled trial (RCT) design. Two cities were randomly assigned to receive multiple-risk factor intervention strategies, while the other three cities served as controls. The intervention and control groups were then compared to evaluate the effectiveness of the intervention strategies.",
-      "method": "实验设计"
+      "answer": "N/A"
     }
   ],
   "id": "010",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "2.7",
     "image": "",
     "caption": "Five-City Project.",
     "chapter": "TYPES OF STUDIES",
     "section": "2.2 COMPARATIVE STUDIES",
     "page": "27-27"
+  },
+  "token_usage": {
+    "completion_tokens": 231,
+    "prompt_tokens": 350,
+    "total_tokens": 581,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,10 +1,9 @@
 {
-  "background": "Suppose the total inventory of a company is a collection of lots from four different suppliers, A, B, C, and D, as indicated below:\n$$\n\\begin{array}{ll}\n\\text { Supplier } & \\text { Percent of inventory } \\\\\n\\text { A } & 60 \\\\\n\\text { B } & 20 \\\\\n\\text { C } & 5 \\\\\n\\text { D } & 15\n\\end{array}\n$$\nFurthermore, suppose that past records indicate that lots from suppliers A, B, C, and D are 5, 3, 2, and 8% defective, respectively.",
+  "background": "Suppose the total inventory of a company is a collection of lots from four different suppliers, A, B, C, and D, with respective percentages of inventory being 60%, 20%, 5%, and 15%. Furthermore, past records indicate that lots from suppliers A, B, C, and D have defect rates of 5%, 3%, 2%, and 8%, respectively.",
   "task": [
     {
-      "query": "Find the probability that a defective item selected as random is from supplier B.",
-      "answer": "$$\n\\begin{aligned}\n&\\text { Using the Bayes' rule, we have }\\\\\n&\\begin{aligned}\nP(B \\mid \\text { defective }) & =\\frac{(0.2)(0.03)}{(0.6)(0.05)+(0.2)(0.03)+(0.05)(0.02)+(0.15)(0.08)} \\\\\n& =0.122\n\\end{aligned}\n\\end{aligned}\n$$",
-      "method": "事件发生概率及独立性"
+      "query": "Find the probability that a defective item selected at random is from supplier B using Bayes' rule.",
+      "answer": "$$\n\\begin{aligned}\n&\\text {  Using the Bayes' rule, we have }\\\\\n&\\begin{aligned}\nP(B \\mid \\text { defective }) & =\\frac{(0.2)(0.03)}{(0.6)(0.05)+(0.2)(0.03)+(0.05)(0.02)+(0.15)(0.08)} \\\\\n& =0.122\n\\end{aligned}\n\\end{aligned}\n$$"
     }
   ],
   "id": "02",
@@ -18,5 +17,23 @@
     "section": "1.2 Probability Axioms",
     "book": "Statistical Reliability Engineering",
     "page": "9-10"
+  },
+  "token_usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 568,
+    "total_tokens": 812,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

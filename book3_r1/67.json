@@ -1,15 +1,13 @@
 {
-  "background": "Suppose that a system is restored to \"as good as new\" periodically at intervals of time $T$. So the system renews itself at time $T, 2 T, \\ldots$. Define system reliability under preventive maintenance (PM) as $R_M(t)=\\operatorname{Pr}\\{\\text { failure has not occurred by time } \\mathrm{t}\\}$. In other words, the system survives to time $t$ if and only if it survives every PM cycle $\\{1,2, \\ldots, k\\}$ and a further time $(t-k T)$.",
+  "background": "Suppose that a system is restored to 'as good as new' periodically at intervals of time T. The system renews itself at time T, 2T, ..., and the system reliability under preventive maintenance (PM) is defined as R_M(t) = Pr{failure has not occurred by time t}. The system survives to time t if and only if it survives every PM cycle {1, 2, ..., k} and a further time (t-kT).",
   "task": [
     {
-      "query": "For a system with a failure time probability density function $f(t)=\\lambda^2 t e^{-\\lambda t} \\text { for } t>0, \\lambda>0$, obtain the system reliability under PM and system mean time to first failure.",
-      "answer": "The system reliability under PM is $R_M(t)=[R(T)]^k R(t-k T) \\text { for } k T<t<(k+1) T \\text { and } k=0,1,2, \\ldots$. The system mean time to first failure (MTTFF) is $M T T F F=\\frac{\\int_0^T R(u) d u}{1-R(T)}$, where $\\int_0^T R(u) d u = \\frac{2}{\\lambda}\\left(1-e^{-\\lambda T}\\right)-T e^{-\\lambda T}$.",
-      "method": "数据分布建模"
+      "query": "For a system with a failure time probability density function f(t) = λ^2 t e^(-λ t) for t > 0, λ > 0, obtain the system reliability under PM and system mean time to first failure.",
+      "answer": "The system reliability under PM is R_M(t) = [R(T)]^k R(t-kT) for kT < t < (k+1)T and k = 0, 1, 2, .... Given the probability density function f(t) = λ^2 t e^(-λ t), the reliability function is R(t) = ∫_t^∞ f(x) dx = (1 + λt)e^(-λt). Thus, R_M(t) = [(1 + λT)e^(-λT)]^k [(1 + λ(t-kT))e^(-λ(t-kT))]. The system mean time to first failure (MTTFF) is MTTFF = ∫_0^∞ R_M(t) dt = ∑_k=0^∞ [R(T)]^k ∫_0^T R(u) du = (∫_0^T R(u) du) / (1 - R(T)). From R(u), ∫_0^T R(x) dx = (2/λ)(1 - e^(-λT)) - T e^(-λT). Thus, MTTFF = [(2/λ)(1 - e^(-λT)) - T e^(-λT)] / [1 - (1 + λT)e^(-λT)]."
     },
     {
-      "query": "Calculate the system mean time to first failure if PM is performed every 20 days and $\\lambda=0.005$.",
-      "answer": "For $T=20$ days and $\\lambda=0.005$, $M T T F F=\\frac{\\frac{2}{0.005}\\left(1-e^{-(0.005) 20}\\right)-(20) e^{-(0.005) 20}}{1-(1+(0.005)(20)) e^{-(0.005)(20)}} = \\frac{19.9683}{0.0047} = 4,267.8 \\text{ days}$.",
-      "method": "数学计算"
+      "query": "Calculate the system mean time to first failure if PM is performed every 20 days and λ = 0.005.",
+      "answer": "For T = 20 days and λ = 0.005 per day, MTTFF = [(2/0.005)(1 - e^(-0.005 × 20)) - 20 e^(-0.005 × 20)] / [1 - (1 + 0.005 × 20)e^(-0.005 × 20)]. Substituting the values, MTTFF = 4267.8 days."
     }
   ],
   "id": "67",
@@ -23,5 +21,23 @@
     "section": "7.2 Maintenance and Replacement Policies",
     "book": "Statistical Reliability Engineering",
     "page": "404-406"
+  },
+  "token_usage": {
+    "completion_tokens": 592,
+    "prompt_tokens": 1492,
+    "total_tokens": 2084,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

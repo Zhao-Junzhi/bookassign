@@ -1,0 +1,17 @@
+{
+  "case_id": "book2_r1\\153.json",
+  "input": {
+    "background": "Refer to the sales-appraisal simple linear regression in previous examples. The task is to find a $95 \\%$ confidence interval for the mean monthly sales when the appliance store spends $\\$ 400$ on advertising.",
+    "data": "null",
+    "question": "What is the final calculation for the confidence interval?"
+  },
+  "output": {
+    "answer": "$$\\begin{aligned} 2.7 \\pm(3.182)(.61) \\sqrt{\\frac{1}{5}+\\frac{(4-3)^2}{10}} & =2.7 \\pm(3.182)(.61)(.55) \\\\ & =2.7 \\pm(3.182)(.34) \\\\ & =2.7 \\pm 1.1=(1.6,3.8) \\end{aligned}$$"
+  },
+  "meta_info": {
+    "index": "11.6",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "sample_key": "411"
+}

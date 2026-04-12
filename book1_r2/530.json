@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_426.json",
+  "case_id": "book1_r1\\record_362.json",
   "input": {
-    "background": "We propose to calculate a $95 \\%$ confidence interval for the risk difference in the estrogen trial presented earlier. We've established that $a_1=751$ and $n_1=8506$ in the treatment group. In the control group, $a_2=623$ and $n_2=8102$.",
+    "background": "The Youth Risk Behavior Surveillance System monitors six categories of health behaviors in U.S. youth and adolescents. Many types of behaviors that contribute to adverse health consequences are monitored.",
     "data": "",
-    "question": "Calculate the adjusted proportions for the treatment group and control group, including $\\tilde{p}_1$ and $\\tilde{p}_2$."
+    "question": "What is the proportion of high school students who were overweight?"
   },
   "output": {
-    "method": "集中趋势测度",
-    "answer": "- In the treatment group, $\\tilde{a}_1=a_1+1=751+1=752$, $\\tilde{n}_1=n_1+2= 8506+2=8508$, and $\\tilde{p}_1=\\frac{752}{8508}=0.08839$.\n- In the control group, $\\bar{a}_2=a_2+1=623+1=624, \\bar{n}_2=n_2+2= 8102+2=8104$, and $\\bar{p}_2=\\frac{624}{8104}=0.07700$.",
-    "variable": {
-      "a1": {
-        "id": "a1",
-        "value": 751,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of events in the treatment group"
-      },
-      "n1": {
-        "id": "n1",
-        "value": 8506,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of subjects in the treatment group"
-      },
-      "a2": {
-        "id": "a2",
-        "value": 623,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Number of events in the control group"
-      },
-      "n2": {
-        "id": "n2",
-        "value": 8102,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Total number of subjects in the control group"
-      }
-    }
+    "answer": "13.5%"
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Confidence interval for risk difference.",
-    "chapter": "COMPARING TWo PROPORTIONS",
-    "section": "17.2 PROPORTION DIFFERENCE (RISK DIFFERENCE)",
-    "page": "378-379"
+    "caption": "Parameters and statistics (Youth risk behavior).",
+    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
+    "section": "8.1  CONCEPTS",
+    "page": "157-157"
   },
   "sample_key": "530"
 }

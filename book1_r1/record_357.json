@@ -1,20 +1,37 @@
 {
-  "background": "Recall that Wechsler Adult Intelligence Scores vary according to a Normal distribution with μ=100 and σ=15.",
+  "background": "Wechsler Adult Intelligence Scores vary according to a Normal distribution with μ=100 and σ=15.",
   "task": [
     {
       "query": "What is the z-score of a score of 95?",
-      "answer": "z=\\frac{95-100}{15}=-0.33. This indicates the score is 0.33 standard deviations below the mean.",
-      "method": "标准化"
+      "answer": "z=\\frac{95-100}{15}=-0.33. This indicates the score is 0.33 standard deviations below the mean."
     }
   ],
   "id": "357",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "",
     "image": "",
     "caption": "Standardization (WAIS).",
     "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
     "section": "7.2 DETERMINING NORMAL PROBABILITIES",
     "page": "140-140"
+  },
+  "token_usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 368,
+    "total_tokens": 482,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

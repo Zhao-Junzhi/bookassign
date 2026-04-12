@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\051.json",
+  "input": {
+    "background": "A county welfare agency employs 10 welfare workers who interview prospective food stamp recipients. Periodically the supervisor selects, at random, the forms completed by 2 workers to audit for illegal deductions. Unknown to the supervisor, 3 of the workers have regularly been giving illegal deductions to applicants.",
+    "data": null,
+    "question": "How do we calculate $P(B \\mid A)$, the conditional probability that the second worker selected gives illegal deductions given that the first worker selected gives illegal deductions?"
+  },
+  "output": {
+    "answer": "To find the conditional probability, $P(B \\mid A)$, we need to alter the sample space $S$. Because we know $A$ has occurred [the first worker selected is giving illegal deductions (say $I_3$)], only 2 of the 9 remaining workers in the sample space are giving illegal deductions. Each of these nine sample points are equally likely, so each is assigned a probability of $\\frac{1}{9}$. Because the event $(B \\mid A)$ contains the sample points $\\{I_1, I_2\\}$, we have $$ P(B \\mid A)=P(I_1)+P(I_2)=\\frac{1}{9}+\\frac{1}{9}=\\frac{2}{9} $$"
+  },
+  "meta_info": {
+    "index": "3.18",
+    "img_in_question": null
+  },
+  "sample_key": "116"
+}

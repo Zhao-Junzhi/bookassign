@@ -1,15 +1,13 @@
 {
-  "background": "A filling station is supplied with gasoline once a week. If its weekly volume of sales in thousands of gallons is a random variable with probability density function $$f(x)= \\begin{cases}\\frac{3}{2}\\left(1-x^2\\right) & 0 \\leq x \\leq 1 \\\\ 0 & \\text { otherwise }\\end{cases}$$.",
+  "background": "A filling station is supplied with gasoline once a week. Its weekly volume of sales in thousands of gallons is a random variable with a given probability density function.",
   "task": [
     {
-      "query": "What need the capacity of the tank be so that the probability of the supplies being completely used up in a given week is no more than 0.05? Show your work.",
-      "answer": "0.81141",
-      "method": "事件发生概率及独立性"
+      "query": "What should the capacity of the tank be so that the probability of the supplies being completely used up in a given week is no more than 0.05? Show your work.",
+      "answer": "0.81141"
     },
     {
       "query": "What is the expected volume of sales in a given week? Show your work.",
-      "answer": "375",
-      "method": "期望"
+      "answer": "375"
     }
   ],
   "id": "96",
@@ -23,5 +21,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "64-65"
+  },
+  "token_usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 475,
+    "total_tokens": 609,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,33 @@
+{
+  "background": "The length of time (in hours) between emergency arrivals at a certain hospital is modeled as an exponential distribution with θ=2.",
+  "task": [
+    {
+      "query": "What is the probability that more than 5 hours pass without an emergency arrival?",
+      "answer": "The probability we want is the area A to the right of a=5. To find this probability, we use the formula: A=e^(-a/θ)=e^(-(5/2))=e^(-2.5). Using a calculator, we find A=e^(-2.5)=.082085. Thus, the probability that more than 5 hours pass between emergency arrivals is about .08 for this hospital."
+    }
+  ],
+  "id": "084",
+  "data": null,
+  "meta_info": {
+    "index": "4.28",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 459,
+    "total_tokens": 619,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

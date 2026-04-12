@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\112.json",
+  "input": {
+    "background": "Consider the one-tailed test of hypothesis, $H_0: \\mu=100$ versus $H_{\\mathrm{a}}: \\mu>100$.",
+    "data": null,
+    "question": "Suppose the test statistic is $z=1.44$. Find the $p$-value of the test and the rejection region for the test when $\\alpha=.05$. Then show that the conclusion using the rejection region approach will be identical to the conclusion based on the $p$-value."
+  },
+  "output": {
+    "answer": "The $p$-value for the test is the probability of observing a test statistic more contradictory to the null hypothesis (i.e., more supportive of the alternative hypothesis) than the value $z=1.44$. Since we are conducting an upper-tailed test ($H_{\\mathrm{a}}: \\mu>100$), the probability we seek is:\n\n$$\np \\text{-value }=P(z>1.44)=1-P(z<1.44)\n$$\n\nThe latter probability in the expression is a cumulative probability that can be obtained from the standard normal table (Table II, Appendix D: Tables) or using statistical software. The Minitab printout giving this probability is shown in Figure 7.9.\n\nTherefore, we compute\n\n$$\np \\text{-value }=P(z>1.44)=1-P(z<1.44)=1-.925=.075\n$$\n\nThis $p$-value is shown on Figure 7.10.\nSince $\\alpha=.05$ and the test is upper-tailed, the rejection region for the test is $z>1.645$ (see Table 7.2). This rejection region is also shown in Figure 7.10. Observe that the test statistic $(z=1.44)$ falls outside the rejection region, implying that we fail to reject $H_0$. Also, $\\alpha=.05$ is less than $p$-value $=.075$. This result also implies that we should fail to reject $H_0$. Consequently, both decision rules agree-there is insufficient evidence to reject $H_0$."
+  },
+  "meta_info": {
+    "index": "7.4",
+    "img_in_question": null
+  },
+  "sample_key": "271"
+}

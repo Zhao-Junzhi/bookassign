@@ -1,15 +1,17 @@
 {
-  "background": "Assume $\\hat{\\theta}_1$ and $\\hat{\\theta}_2$ are the two estimators of parameter $\\theta$. Suppose that $E\\left(\\hat{\\theta}_1\\right)=0.9 \\theta, E\\left(\\hat{\\theta}_2\\right)=\\theta, \\operatorname{var}\\left(\\hat{\\theta}_1\\right)=2$, and $\\operatorname{var}\\left(\\hat{\\theta}_2\\right)=3$.",
+  "background": "Assume \\(\\hat{\\theta}_1\\) and \\(\\hat{\\theta}_2\\) are the two estimators of parameter \\(\\theta\\). Suppose that \\(E(\\hat{\\theta}_1)=0.9\\theta\\), \\(E(\\hat{\\theta}_2)=\\theta\\), \\(\\operatorname{var}(\\hat{\\theta}_1)=2\\), and \\(\\operatorname{var}(\\hat{\\theta}_2)=3\\).",
   "task": [
     {
-      "query": "Which estimator would you prefer?",
-      "answer": "We have\n$$\n\\begin{gathered}\nM S E \\text { of } \\theta_1=\\operatorname{var}(\\hat{\\theta})+(\\text { bias })^2=2+0.01 \\theta^2 . \\\\\nM S E \\text { of } \\theta_2=\\operatorname{var}(\\hat{\\theta})+(\\text { bias })^2=3+0=3 .\n\\end{gathered}\n$$\n\nThus, if $|\\theta|<10$ then $\\hat{\\theta}_1$ would be preferred. If $|\\theta|>10$ then $\\hat{\\theta}_2$ is preferred.",
-      "method": "获取模型参数估计值"
+      "query": "Which estimator would you prefer based on the given information?",
+      "answer": "We have\n$$\n\\begin{gathered}\nM S E \\text{ of } \\theta_1=\\operatorname{var}(\\hat{\\theta})+(\\text{ bias })^2=2+0.01 \\theta^2 . \\\\\nM S E \\text{ of } \\theta_2=\\operatorname{var}(\\hat{\\theta})+(\\text{ bias })^2=3+0=3 .\n\\end{gathered}\n$$\n\nThus, if \\(|\\theta|<10\\) then \\(\\hat{\\theta}_1\\) would be preferred. If \\(|\\theta|>10\\) then \\(\\hat{\\theta}_2\\) is preferred."
     },
     {
-      "query": "We will later discuss how to establish a lower bound on the variance using an inequality known as the Cramér-Rao inequality.",
-      "answer": "We now discuss some basic methods of parameter estimation.",
-      "method": "获取模型参数估计值"
+      "query": "What inequality can be used to establish a lower bound on the variance of an estimator?",
+      "answer": "We will later discuss how to establish a lower bound on the variance using an inequality known as the Cramér-Rao inequality."
+    },
+    {
+      "query": "What are the next topics to be discussed in relation to parameter estimation?",
+      "answer": "We now discuss some basic methods of parameter estimation."
     }
   ],
   "id": "46",
@@ -23,5 +25,23 @@
     "section": "3.2 Statistical Inference",
     "book": "Statistical Reliability Engineering",
     "page": "139-139"
+  },
+  "token_usage": {
+    "completion_tokens": 419,
+    "prompt_tokens": 610,
+    "total_tokens": 1029,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

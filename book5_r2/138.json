@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\057.json",
+  "case_id": "book5_r1\\048.json",
   "input": {
-    "background": "How would you assess the comparability of the treatment groups at baseline in the trial illustrated in Table 3.5?",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 3.5 Details of patients in each treatment group in a study of low back pain (Gibson et al., 1985)}\n\\begin{tabular}{|l|l|l|l|}\n\\hline & \\multicolumn{3}{|c|}{Treatment group} \\\\\n\\hline & Short-wave diathermy & Osteopathy & Placebo \\\\\n\\hline Number of patients & 34 & 41 & 34 \\\\\n\\hline Sex & 16F/18M & 21F/20M & 11F/23M \\\\\n\\hline Mean age (SD) & 35 (16) & 34 (14) & 40 (16) \\\\\n\\hline Mean duration of pain in weeks (SD) & 18 (11) & 16 (14) & 17 (11) \\\\\n\\hline Median pain score at presentation (range)* & 45 (5-82) & 35 (4-90) & 48 (10-96) \\\\\n\\hline Radiological abnormalities of the spine & 12 (34\\%) & 12 (29\\%) & 11 (32\\%) \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n*Visual analogue scale",
-    "question": "Evaluate the potential importance of the imbalance in pain at presentation and suggest an appropriate analysis approach."
+    "background": "For lung transplantation, it is desirable for the donor's lungs to be of a similar size as those of the recipient. Total lung capacity (TLC) is difficult to measure, so it is useful to predict TLC from other information. The data includes the pre-transplant TLC of 32 recipients of heart-lung transplants, obtained by whole-body plethysmography, along with their age, sex, and height.",
+    "data": "\\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}\n\\hline & Age & Sex & Height (cm) & TLC (1) & & Age & Sex & Height (cm) & TLC (l) \\\\\n\\hline 1 & 35 & F & 149 & 3.40 & 17 & 30 & F & 172 & 6.30 \\\\\n\\hline 2 & 11 & F & 138 & 3.41 & 18 & 21 & F & 163 & 6.55 \\\\\n\\hline 3 & 12 & M & 148 & 3.80 & 19 & 21 & F & 164 & 6.60 \\\\\n\\hline 4 & 16 & F & 156 & 3.90 & 20 & 20 & M & 189 & 6.62 \\\\\n\\hline 5 & 32 & F & 152 & 4.00 & 21 & 34 & M & 182 & 6.89 \\\\\n\\hline 6 & 16 & F & 157 & 4.10 & 22 & 43 & M & 184 & 6.90 \\\\\n\\hline 7 & 14 & F & 165 & 4.46 & 23 & 35 & M & 174 & 7.00 \\\\\n\\hline 8 & 16 & M & 152 & 4.55 & 24 & 39 & M & 177 & 7.20 \\\\\n\\hline 9 & 35 & F & 177 & 4.83 & 25 & 43 & M & 183 & 7.30 \\\\\n\\hline 10 & 33 & F & 158 & 5.10 & 26 & 37 & M & 175 & 7.65 \\\\\n\\hline 11 & 40 & F & 166 & 5.44 & 27 & 32 & M & 173 & 7.80 \\\\\n\\hline 12 & 28 & F & 165 & 5.50 & 28 & 24 & M & 173 & 7.90 \\\\\n\\hline 13 & 23 & F & 160 & 5.73 & 29 & 20 & F & 162 & 8.05 \\\\\n\\hline 14 & 52 & M & 178 & 5.77 & 30 & 25 & M & 180 & 8.10 \\\\\n\\hline 15 & 46 & F & 169 & 5.80 & 31 & 22 & M & 173 & 8.70 \\\\\n\\hline 16 & 29 & M & 173 & 6.00 & 32 & 25 & M & 171 & 9.45 \\\\\n\\hline\n\\end{tabular}",
+    "question": "How could we investigate whether the relation between lung capacity and height is the same for males and females?"
   },
   "output": {
-    "method": "假设检验与区间估计",
-    "answer": "In Table 3.5, the differences are trivial except perhaps for pain at presentation. As pain score was also the outcome measure for the trial, this imbalance could be important. It may therefore be reasonable to analyse the change in pain from baseline rather than the value at the end of the study. (In fact, in this study the authors noted that the baseline pain score was not prognostic.)"
+    "answer": "The simple way is to carry out separate regressions for males and females, which give slopes of 0.0736 and 0.0745. However, the correct way to test the hypothesis that the slopes are the same is by fitting a multiple regression model including an interaction term. As expected from the similar slopes just given, the interaction is not statistically significant. Additionally, since there was no significant effect of sex in the multiple regression model, we can reasonably conclude that the relation between lung volume and height is the same for males and females."
   },
   "meta_info": {
-    "index": "15.1",
+    "index": "12.5",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Clinical trials",
+    "chapter": "Relation between several variables",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "474-474"
+    "page": "364-364"
   },
   "sample_key": "138"
 }

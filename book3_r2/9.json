@@ -6,8 +6,7 @@
     "question": "In how many ways can such a committee be formed?"
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$"
+    "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$."
   },
   "meta_info": {
     "index": "1.13",

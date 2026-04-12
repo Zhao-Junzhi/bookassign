@@ -1,0 +1,46 @@
+{
+  "background": "Refer to the sales-appraisal simple linear regression in previous examples. The task is to find a $95 \\%$ confidence interval for the mean monthly sales when the appliance store spends $\\$ 400$ on advertising.",
+  "task": [
+    {
+      "query": "What is the confidence interval formula for the mean monthly sales when the store spends $\\$ 400$ on advertising?",
+      "answer": "The confidence interval for the mean value of $y$ is $$\\hat{y} \\pm t_{\\alpha / 2} s \\sqrt{\\frac{1}{n}+\\frac{\\left(x_{\\mathrm{p}}-\\bar{x}\\right)^2}{\\mathrm{SS}_{x x}}}=\\hat{y} \\pm t_{.025} s \\sqrt{\\frac{1}{5}+\\frac{(4-\\bar{x})^2}{\\mathrm{SS}_{x x}}}$$ where $t_{, 025}$ is based on $n-2=5-2=3$ degrees of freedom."
+    },
+    {
+      "query": "What are the values of the parameters used in the confidence interval formula?",
+      "answer": "Recall that $\\hat{y}=2.7$, $s=.61, \\bar{x}=3$, and $\\mathrm{SS}_{x x}=10$. From Table III in Appendix D: Tables, $t_{.025}=3.182$."
+    },
+    {
+      "query": "What is the final calculation for the confidence interval?",
+      "answer": "$$\\begin{aligned} 2.7 \\pm(3.182)(.61) \\sqrt{\\frac{1}{5}+\\frac{(4-3)^2}{10}} & =2.7 \\pm(3.182)(.61)(.55) \\\\ & =2.7 \\pm(3.182)(.34) \\\\ & =2.7 \\pm 1.1=(1.6,3.8) \\end{aligned}$$"
+    },
+    {
+      "query": "What is the interpretation of the confidence interval?",
+      "answer": "When the store spends $\\$ 400$ a month on advertising, we are $95 \\%$ confident that the mean sales revenue for these months is between $\\$ 1,600$ and $\\$ 3,800$."
+    }
+  ],
+  "id": "153",
+  "data": "null",
+  "meta_info": {
+    "index": "11.6",
+    "img_in_question": null,
+    "img_in_answer": null
+  },
+  "token_usage": {
+    "completion_tokens": 529,
+    "prompt_tokens": 733,
+    "total_tokens": 1262,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

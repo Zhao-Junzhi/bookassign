@@ -1,51 +1,20 @@
 {
-  "case_id": "book1_r1\\record_374.json",
+  "case_id": "book1_r1\\record_304.json",
   "input": {
-    "background": "We wish to estimate the mean weight of a population in which body weight has a log-Normal distribution with $\\sigma=40$ pounds. Three independent SRS each of $n=712$ are selected from the population.",
+    "background": "The population ('sampling frame') for the YRBS consisted of all public and private schools with students in grades 9-12 in the 50 United States plus the District of Columbia. The sampling frame was divided into 1262 primary sampling units, which consisted of counties, areas of large counties, or groups of small counties. From these 1262 primary units, 57 were selected at random with probability proportional to overall school enrollments. The next stage of sampling selected 195 schools at random with probability proportional to the school enrollment size. The third sampling stage consisted of randomly selecting one or two intact classes from each grade from within the chosen school. All students in the selected classes were then eligible to participate in the survey.",
     "data": "",
-    "question": "Calculate $95 \\%$ confidence intervals for $\\mu$ based on the second sample with $\\bar{x}_2=180$."
+    "question": "How many questionnaires were ultimately completed?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "For sample 2, the confidence interval is $\\bar{x}_2 \\pm m=180 \\pm 3=177$ to 183 (pounds).",
-    "variable": {
-      "sigma": {
-        "id": "sigma",
-        "value": 40,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Standard deviation of the log-Normal distribution of body weight in the population."
-      },
-      "n": {
-        "id": "n",
-        "value": 712,
-        "class": "numerical",
-        "role": "independent",
-        "description": "Sample size for each of the three independent simple random samples (SRS)."
-      },
-      "x_bar_2": {
-        "id": "x_bar_2",
-        "value": 180,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Sample mean of the second sample."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "Confidence level for the interval estimation of the population mean."
-      }
-    }
+    "answer": "15,240 questionnaires were completed."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": " 95 % confidence intervals for $\\mu, \\sigma$ known (Body weight, 20-29-year-old males).",
-    "chapter": "BASICS OF CONFIDENCE INTERVALS",
-    "section": "10.2 Confidence Intervals for $\\\\mu$ When $\\\\sigma$ Is Known",
-    "page": "200-200"
+    "caption": "Youth Risk Behavior Survey (YRBS).",
+    "chapter": "TYPES OF STUDIES",
+    "section": "2.1 Surveys",
+    "page": "20-20"
   },
   "sample_key": "424"
 }

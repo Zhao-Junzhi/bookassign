@@ -3,23 +3,39 @@
   "task": [
     {
       "query": "Determine the risks of meconium staining in each group.",
-      "answer": "Estimates\n\n\\( \\hat{p}_1 = 1 / 111 = 0.0090 \\)\n\\( \\hat{p}_2 = 13 / 117 = 0.1111 \\)",
-      "method": "集中趋势测度"
+      "answer": "Estimates\n\n\\[\n\\begin{aligned}\n& \\hat{p}_1=1 / 111=0.0090 \\\\\n& \\hat{p}_2=13 / 117=0.1111\n\\end{aligned}\n\\]"
     },
     {
       "query": "Test the proportions for a difference with an exact procedure. Use a computer program such as WinPepi Compare2.exe Program B for calculations.",
-      "answer": "(a) Hypothesis test\nA. Hypotheses. \\( H_0: p_1 = p_2 \\) versus \\( H_a: p_1 \\neq p_2 \\)\nB. Test statistic. The test is based on these observed counts:\n\n\\[\n\\begin{array}{l|c|c|}\n& \\text{+} & \\text{-} \\\\\n\\text{Treatment group} & 1 & 110 \\\\\n\\hline \\text{Control group} & 13 & 104 \\\\\n\\hline\n\\end{array}\n\\]\n\nC. P-value. Here are the results calculated by WinPepi Compare2.exe (version 1.38):\nExact tests:\nFisher's P:\n\\[\n\\begin{aligned}\n& \\text{One-tailed: } P = 0.001 \\text{ [9.4E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [1.4E-3]} \\\\\n& \\text{Double one-tailed: } P = 0.002 \\text{ [1.9E-3]}\n\\end{aligned}\n\\]\n\nMid-P:\n\\[\n\\begin{aligned}\n& \\text{One-tailed: } P = 0.000 \\text{ [5.0E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [9.7E-4]} \\\\\n& \\text{Double one-tailed: } P = 0.001 \\text{ [9.9E-4]} \\\\\n& \\text{Overall's continuity-corrected } P: \\\\\n& \\text{One-tailed: } P = 0.000 \\text{ [4.9E-4]} \\text{ or } 1.000 \\\\\n& \\text{Two-tailed: } P = 0.001 \\text{ [7.2E-4]} \\\\\n& \\text{Double one-tailed: } P = 0.001 \\text{ [9.7E-4]}\n\\end{aligned}\n\\]\n\nD. Significance level. The evidence against \\( H_0 \\) is significant at \\( \\alpha = 0.01 \\).",
-      "method": "独立性检验"
+      "answer": "Hypothesis test\nA. Hypotheses. \\(H_0: p_1=p_2\\) versus \\(H_{\\mathrm{a}}: p_1 \\neq p_2\\)\n\nB. Test statistic. The test is based on these observed counts:\n\n\\[\n\\begin{tabular}{l|c|c|} \n& \\multicolumn{1}{c}{+} & - \\\\\n+ & 1 & 110 \\\\\n\\hline - & 13 & 104 \\\\\n\\hline\n\\end{tabular}\n\\]\n\nC. P-value. Here are the results calculated by WinPepi Compare2.exe (version 1.38):\n\nExact tests:\n\nFisher's P:\n\\[\n\\begin{tabular}{ll} \nOne-tailed: & \\(\\mathrm{P}=0.001[9.4 \\mathrm{E}-4]\\) or 1.000 \\\\\n\\hline Two-tailed: & \\(\\mathrm{P}=0.001[1.4 \\mathrm{E}-3]\\) \\\\\n\\hline Double one-tailed: & \\(\\mathrm{P}=0.002[1.9 \\mathrm{E}-3]\\)\n\\end{tabular}\n\\]\n\nMid-P:\n\\[\n\\begin{tabular}{ll}\n\\hline One-tailed: & \\(P=0.000 [5.0E-4]\\) or 1.000 \\\\\n\\hline Two-tailed: & \\(\\mathrm{P}=0.001 [9.7E-4]\\) \\\\\n\\hline Double one-tailed: & \\(\\mathrm{P}=0.001[9.9 \\mathrm{~F}-4]\\) \\\\\n\\hline Overall's continuity-corrected \\(P\\): & \\\\\n\\hline One-tailed: & \\(\\mathrm{P}=0.000[4.9 \\mathrm{E}-4]\\) or 1.000 \\\\\n\\hline Two-tailed: & \\(\\mathrm{P}=0.001 [7.2E-4]\\) \\\\\n\\hline Double one-tailed: & \\(\\mathrm{P}=0.001|9.7 \\mathrm{E}-4|\\) \\\\\n\\hline\n\\end{tabular}\n\\]\n\nD. Significance level. The evidence against \\(H_0\\) is significant at \\(\\alpha=0.01\\)."
     }
   ],
   "id": "134",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "17.7",
     "image": "",
     "caption": "Induction of labor and meconium staining.",
     "chapter": "COMPARING TWO PROPORTIONS",
     "section": "17.3 Hypothesis Test",
     "page": "389-389"
+  },
+  "token_usage": {
+    "completion_tokens": 1075,
+    "prompt_tokens": 1005,
+    "total_tokens": 2080,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

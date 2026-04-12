@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_081.json",
+  "input": {
+    "background": "A jury having heard the evidence in a criminal case, is debating whether to render a verdict of guilty or not guilty. Because it is worse to convict an innocent person of a crime they did not commit than let a guilty person go free, each case starts with a presumption of innocence. This is analogous to the presumption that H0 is true in a statistical hypothesis test. Other analogies exist.",
+    "data": "",
+    "question": "Fill in the cells of the following table with the labels: (a) Acquittal of an innocent person; (b) Conviction of an innocent person; (c) Acquittal of a guilty person; (d) Declaring a criminal guilty."
+  },
+  "output": {
+    "answer": "\\begin{tabular}{r|c|c|} \\multicolumn{2}{c}{ TRUTH } \\ DECISION OF JURY & \\multicolumn{1}{c|}{ Did not do crime } & Did crime \\ Not Guilty & (a) & (c) \\ Guilty & (b) & (d) \\ \\hline \\end{tabular}"
+  },
+  "meta_info": {
+    "index": "9.19",
+    "image": "",
+    "caption": "The criminal justice analogy.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "195-195"
+  },
+  "sample_key": "185",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1198,
+    "total_tokens": 1241,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1167,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1198,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1167,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

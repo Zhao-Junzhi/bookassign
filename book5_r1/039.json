@@ -3,18 +3,15 @@
   "task": [
     {
       "query": "The authors used Spearman's rank correlation to look for associations with survival time. Is this a valid analysis, bearing in mind that one of the survival times is censored?",
-      "answer": "Yes. The censored survival time was also the longest and thus gets the highest rank. The method cannot generally be used for survival data because the censored data mean that the order of survival times cannot be determined.",
-      "method": "相关系数（一维）"
+      "answer": "Yes. The censored survival time was also the longest and thus gets the highest rank. The method cannot generally be used for survival data because the censored data mean that the order of survival times cannot be determined."
     },
     {
       "query": "Would the use of Pearson's correlation coefficient be valid?",
-      "answer": "The Pearson correlation coefficient could be calculated but it would be severely inflated by the very long survival time (even ignoring the censoring). The distribution of survival times is highly skewed, so rank correlation is far preferable here.",
-      "method": "相关系数（一维）"
+      "answer": "The Pearson correlation coefficient could be calculated but it would be severely inflated by the very long survival time (even ignoring the censoring). The distribution of survival times is highly skewed, so rank correlation is far preferable here."
     },
     {
       "query": "Which variable has the strongest correlation with survival time?",
-      "answer": "The changes in lactate, bicarbonate and pH have Spearman rank correlation coefficients with survival time of 0.63, -0.67 and -0.42 respectively, so the strongest relation is with changes in bicarbonate. Note that bicarbonate and pH have negative associations with survival while for lactate the correlation is positive.",
-      "method": "相关系数（一维）"
+      "answer": "The changes in lactate, bicarbonate and pH have Spearman rank correlation coefficients with survival time of 0.63, -0.67 and -0.42 respectively, so the strongest relation is with changes in bicarbonate. Note that bicarbonate and pH have negative associations with survival while for lactate the correlation is positive."
     }
   ],
   "id": "039",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "321-322"
+  },
+  "token_usage": {
+    "completion_tokens": 338,
+    "prompt_tokens": 613,
+    "total_tokens": 951,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

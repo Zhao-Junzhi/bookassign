@@ -1,20 +1,17 @@
 {
-  "background": "The probability density function of the lifetime of an electric motor is given by $$f(t)=0.25 t e^{-0.5 t} \\quad t>0$$, where $t$ is in years.",
+  "background": "The probability density function of the lifetime of an electric motor is given by f(t)=0.25 t e^{-0.5 t}, where t > 0 and t is in years.",
   "task": [
     {
       "query": "What is the probability of failure during the first year?",
-      "answer": "$F(1)=0.0902$",
-      "method": "事件发生概率及独立性"
+      "answer": "F(1)=0.0902"
     },
     {
       "query": "What is the probability of the motor's lasting at least 3 years?",
-      "answer": "The probability of the motor's lasting at least 3 years: $R(t=3)=0.5578$.",
-      "method": "事件发生概率及独立性"
+      "answer": "The probability of the motor's lasting at least 3 years: R(t=3)=0.5578."
     },
     {
-      "query": "If no more than $3 \\%$ of the motors are to require warranty services, what is the maximum number of days for which the motor can be warranted?",
-      "answer": "The maximum number of days for which the motor can be warranted is 195.3 days.",
-      "method": "达到指定概率所需的最小样本量"
+      "query": "If no more than 3% of the motors are to require warranty services, what is the maximum number of days for which the motor can be warranted?",
+      "answer": "The maximum number of days for which the motor can be warranted is 195.3 days."
     }
   ],
   "id": "85",
@@ -28,5 +25,23 @@
     "section": "1.13 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "62-62"
+  },
+  "token_usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 476,
+    "total_tokens": 681,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

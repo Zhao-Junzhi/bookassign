@@ -3,18 +3,35 @@
   "task": [
     {
       "query": "Use an exact procedure to calculate a 95% confidence interval for p.",
-      "answer": "The 95% confidence interval for p by Fisher's method is 0.473 to 0.997. The 95% confidence interval for p by the Mid-P method is 0.520 to 0.994. Confidence intervals calculated with WinPepi describe.exe version 1.5.1.",
-      "method": "均值检验"
+      "answer": "The $95 \\%$ confidence interval for $p$ by Fisher's method is 0.473 to 0.997. The $95 \\%$ confidence interval for $p$ by the Mid-P method is 0.520 to 0.994. Confidence intervals calculated with WinPepi describe.exe version 1.5.1."
     }
   ],
   "id": "124",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "16.11",
     "image": "",
     "caption": "Patient preference.",
     "chapter": "INFERENCE ABOUT A PROPORTION",
     "section": "16.5 CONFIDENCE INTERVAL FOR A POPULATION PROPORTION",
     "page": "366-366"
+  },
+  "token_usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 403,
+    "total_tokens": 553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_340.json",
+  "input": {
+    "background": "We have established that the probability of cat ownership Pr(A)=0.35, the probability of dog ownership Pr(B)=0.30, and the probability of joint cat and dog ownership Pr(A and B)=0.15.",
+    "data": "",
+    "question": "What is the probability of owning a dog or a cat using the general rule of addition?"
+  },
+  "output": {
+    "answer": "By the general rule of addition, the probability of owning a dog or a cat Pr(A or B) = Pr(A) + Pr(B) - Pr(A and B) = 0.35 + 0.30 - 0.15 = 0.50."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "General rule of addition (Pet ownership).",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.5 MORE RULES AND PROPERTIES OF PROBABILITY",
+    "page": "108-108"
+  },
+  "sample_key": "482",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1123,
+    "total_tokens": 1166,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1032,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1123,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1032,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

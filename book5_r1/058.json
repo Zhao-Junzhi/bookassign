@@ -1,20 +1,17 @@
 {
-  "background": "In an open (unblinded) trial of the beta-blocker alprenolol given to patients after myocardial infarction, randomization to alprenolol or the standard treatment was at the time of admission to hospital. The start of medication was two weeks after admission, by which time 60% of the original 393 patients had been withdrawn from the trial. Reasons for withdrawal were mostly death, non-confirmation of myocardial infarction or contraindication for the beta-blocker. Of the 162 patients actually treated, 69 received alprenolol and 93 the control treatment.",
+  "background": "In an open (unblinded) trial of the beta-blocker alprenolol given to patients after myocardial infarction, randomization to alprenolol or the standard treatment was at the time of admission to hospital (Ahlmark and Saetre, 1976). The start of medication was two weeks after admission, by which time 60% of the original 393 patients had been withdrawn from the trial. Reasons for withdrawal were mostly death, non-confirmation of myocardial infarction or contraindication for the beta-blocker. Of the 162 patients actually treated, 69 received alprenolol and 93 the control treatment.",
   "task": [
     {
       "query": "Why might the numbers of withdrawals have been different in the two groups?",
-      "answer": "Only those allocated alprenolol would have been withdrawn because of contraindication for the beta-blocker. The two groups, apart from being of unequal size, would thus have been non-comparable, and the trial results would be unsound.",
-      "method": "实验设计"
+      "answer": "Only those allocated alprenolol would have been withdrawn because of contraindication for the beta-blocker. The two groups, apart from being of unequal size, would thus have been non-comparable, and the trial results would be unsound."
     },
     {
       "query": "Is a hypothesis test to compare the proportions withdrawn in the two groups of any value?",
-      "answer": "No.",
-      "method": "假设检验与区间估计"
+      "answer": "No."
     },
     {
       "query": "How could this problem have been avoided?",
-      "answer": "By not allocating treatments (randomizing) until immediately before starting treatment.",
-      "method": "实验设计"
+      "answer": "By not allocating treatments (randomizing) until immediately before starting treatment."
     }
   ],
   "id": "058",
@@ -28,5 +25,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "474-474"
+  },
+  "token_usage": {
+    "completion_tokens": 292,
+    "prompt_tokens": 549,
+    "total_tokens": 841,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

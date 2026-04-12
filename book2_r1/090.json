@@ -1,0 +1,47 @@
+{
+  "background": "Refer to Example 5.4 to calculate the standard deviations of the sampling distributions of the sample mean $\\bar{x}$ and the sample median $m$. Additionally, determine which statistic appears to be a better estimator of the population mean $\\mu$.",
+  "task": [
+    {
+      "query": "Find the variance and standard deviation of the sampling distribution of $\\bar{x}$.",
+      "answer": "The variance of the sampling distribution of $\\bar{x}$ is calculated as:\n$$\n\\sigma_{\\bar{x}}^2=E\\left[[\\bar{x}-E(\\bar{x})]^2\\right\\}=\\Sigma(\\bar{x}-\\mu)^2 p(\\bar{x})\n$$\nwhere, from Example 5.4,\n$$\nE(\\bar{x})=\\mu=.556\n$$\nThen,\n$$\n\\begin{aligned}\n\\sigma_X^2 & =(-5-.556)^2\\left(\\frac{1}{729}\\right)+(-3.33-.556)^2\\left(\\frac{18}{729}\\right)+\\cdots(5-.556)^2\\left(\\frac{8}{729}\\right) \\\\\n& =2.675\n\\end{aligned}\n$$\nand\n$$\n\\sigma_{\\bar{x}}=\\sqrt{2.675}=1.64\n$$"
+    },
+    {
+      "query": "Find the variance and standard deviation of the sampling distribution of $m$.",
+      "answer": "The variance of the sampling distribution of $m$ is calculated as:\n$$\n\\sigma_m^2=E\\left\\{[m-E(m)]^2\\right\\}\n$$\nwhere, from Example 5.4, the expected value of $m$ is $E(m)=.460$. Then,\n$$\n\\begin{aligned}\n\\sigma_m^2 & =E\\left\\{[m-E(m)]^2\\right\\}=\\Sigma[m-E(m)]^2 p(m) \\\\\n& =(-5-.460)\\left(\\frac{25}{729}\\right)+(0-.460)\\left(\\frac{612}{729}\\right)+(5-.460)\\left(\\frac{92}{729}\\right)=3.801\n\\end{aligned}\n$$\nand\n$$\n\\sigma_m=\\sqrt{3.801}=1.95\n$$"
+    },
+    {
+      "query": "Which statistic appears to be the better estimator for the population mean $\\mu$, the sample mean $\\bar{x}$ or the sample median $m$?",
+      "answer": "The sampling distribution of the sample median $m$ is biased (i.e., it is located to the left of the mean $\\mu$), and its standard deviation $\\sigma_m=1.95$ is larger than the standard deviation of the sampling distribution of $\\bar{x}, \\sigma_{\\bar{x}}=1.64$. Consequently, for the population in question, the sample mean $\\bar{x}$ would be a better estimator of the population mean $\\mu$ than the sample median $m$ would be."
+    }
+  ],
+  "id": "090",
+  "data": null,
+  "meta_info": {
+    "index": "5.5",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": "Variance of Estimators -Craps Application",
+    "chapter": "Sampling Distributions",
+    "section": "5.2 Properties of Sampling Distributions: Unbiasedness and Minimum Variance",
+    "book": "Statistics for Business and Economics",
+    "page": "174-175"
+  },
+  "token_usage": {
+    "completion_tokens": 707,
+    "prompt_tokens": 895,
+    "total_tokens": 1602,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

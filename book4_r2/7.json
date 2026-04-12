@@ -1,12 +1,11 @@
 {
   "case_id": "book4_r1\\002.json",
   "input": {
-    "background": "Identify whether the variables below are continuous or discrete.",
+    "background": "Determine whether the given variables are continuous or discrete based on their characteristics.",
     "data": null,
-    "question": "Number of people with an interest in environmental issues"
+    "question": "Is the variable 'Number of people with an interest in environmental issues' continuous or discrete?"
   },
   "output": {
-    "method": "集中趋势测度",
     "answer": "Discrete"
   },
   "meta_info": {

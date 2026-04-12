@@ -1,0 +1,49 @@
+{
+  "background": "Refer to the simple linear regression analysis of the advertising-sales data, Examples 11.1 and 11.2. The objective is to determine if sales revenue (y) is linearly related to advertising expenditure (x) using a hypothesis test at significance level α = 0.05.",
+  "task": [
+    {
+      "query": "What is the null hypothesis (H0) and alternative hypothesis (Ha) for this test?",
+      "answer": "The null hypothesis is $H_0: \\beta_1 = 0$, and the alternative hypothesis is $H_a: \\beta_1 \\neq 0$."
+    },
+    {
+      "query": "What is the rejection region for the test at α = 0.05?",
+      "answer": "The rejection region is $|t| > t_{.025} = 3.182$ for $n - 2 = 3$ degrees of freedom."
+    },
+    {
+      "query": "How is the test statistic calculated, and what is its value?",
+      "answer": "The test statistic is calculated as $t = \\frac{\\hat{\\beta}_1}{s / \\sqrt{\\mathrm{SS}_{xx}}} = \\frac{.7}{.61 / \\sqrt{10}} = \\frac{.7}{.19} = 3.7$."
+    },
+    {
+      "query": "What conclusion can be drawn from the test statistic and the rejection region?",
+      "answer": "Since the calculated $t$-value (3.7) falls into the upper-tail rejection region, we reject the null hypothesis and conclude that the slope $\\beta_1$ is not 0. This indicates that advertising expenditure $x$ contributes information for the production of sales revenue $y$ when a linear model is used."
+    },
+    {
+      "query": "How does the p-value from the computer printout support the conclusion?",
+      "answer": "The p-value from the computer printout is smaller than $\\alpha = 0.05$, which also leads to rejecting $H_0$. This supports the conclusion that advertising expenditure $x$ contributes to sales revenue $y$."
+    }
+  ],
+  "id": "150",
+  "data": null,
+  "meta_info": {
+    "index": "11.3",
+    "img_in_question": null
+  },
+  "token_usage": {
+    "completion_tokens": 471,
+    "prompt_tokens": 705,
+    "total_tokens": 1176,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
+  }
+}

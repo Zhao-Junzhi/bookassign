@@ -2,9 +2,8 @@
   "background": "The proportion of components produced by a manufacturing process from last year is as follows: 3% scrapped, 6% reworked, and 91% acceptable. This year, inspection of 500 units showed that 20 units must be scrapped and 25 units can be reworked.",
   "task": [
     {
-      "query": "Can we say that the results this year are consistent with the last year data at the 5% level of significance using the Chi-square test.",
-      "answer": "The results of current year are consistent with the results from last year at the 5% level of significance.",
-      "method": "独立性检验"
+      "query": "Can we say that the results this year are consistent with the last year data at the 5% level of significance using the Chi-square test?",
+      "answer": "The results of current year are consistent with the results from last year at the 5% level of significance."
     }
   ],
   "id": "119",
@@ -18,5 +17,23 @@
     "section": "3.16 Problems",
     "book": "Statistical Reliability Engineering",
     "page": "216-216"
+  },
+  "token_usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 412,
+    "total_tokens": 553,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

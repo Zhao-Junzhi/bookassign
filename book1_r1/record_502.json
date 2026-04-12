@@ -1,25 +1,41 @@
 {
-  "background": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple $(X \\sim b(3,0.25))$.",
+  "background": "Exercise 6.1 and 6.3 considered the random number of TaySachs cases in three pregnancies from a carrier couple (X ~ b(3, 0.25)).",
   "task": [
     {
       "query": "What is the expected value of this random variable?",
-      "answer": "\\mu=n p=(3)(0.25)=0.75",
-      "method": "期望"
+      "answer": "μ = n * p = (3)(0.25) = 0.75"
     },
     {
       "query": "What is the variance of this random variable?",
-      "answer": "\\sigma^2=n p q=(3)(0.25)(0.75)=0.5625",
-      "method": "分散程度测度"
+      "answer": "σ² = n * p * q = (3)(0.25)(0.75) = 0.5625"
     }
   ],
   "id": "502",
   "data": "",
-  "meta info": {
+  "meta_info": {
     "index": "6.7",
     "image": "",
     "caption": "Tay-Sachs.",
     "chapter": "6.5 Expected Value and Variance",
     "section": "BINOMIAL PROBABILITY DISTRIBUTIONS",
     "page": "124-124"
+  },
+  "token_usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 397,
+    "total_tokens": 565,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

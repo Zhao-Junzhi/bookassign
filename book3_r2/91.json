@@ -1,23 +1,22 @@
 {
-  "case_id": "book3_r1\\18.json",
+  "case_id": "book3_r1\\14.json",
   "input": {
-    "background": "A manufacturer has observed that over the course of 10 months, the numbers of products demanded were $T_1, T_2, \\ldots, T_{10}$, respectively. If we assume that these are i.i.d. observations of demand.",
+    "background": "The probability density function of a random variable $X$ is defined as follows: $$f(x)= \\begin{cases}2 x & 0 \\leq \\mathrm{x} \\leq 1 \\\\ 0 & \\text { otherwise. }\\end{cases}$$",
     "data": null,
-    "question": "Let $X_1, X_2, \\ldots, X_{\\mathrm{n}}$ and $X$ be random variables on a probability space. We say that $X_{\\mathrm{n}}$ converges in probability to $X$ if\n$$\n\\begin{aligned}\n&\\lim _{n \\rightarrow \\infty} P\\left(\\left|X_n-X\\right|<\\varepsilon\\right)=1 \\quad \\text { for every } \\varepsilon>0\\\\\n&\\text { Similarly, } X_{\\mathrm{n}} \\text { converges with probability } 1 \\text { (or almost surely) to } X \\text { if }\\\\\n&P\\left(\\lim _{n \\rightarrow \\infty} X_n=X\\right)=1 .\n\\end{aligned}\n$$"
+    "question": "Obtain the cumulative distribution function (CDF) of $X$."
   },
   "output": {
-    "method": "概率空间相关（如状态数）",
-    "answer": "The definitions of convergence in probability and almost sure convergence are provided in the question."
+    "answer": "The cdf of $X$ is given by $$F(x)= \\begin{cases}0 & \\mathrm{x}<0 \\\\ x^2 & 0 \\leq \\mathrm{x} \\leq 1 \\\\ 1 & x>1 .\\end{cases}$$"
   },
   "meta_info": {
-    "index": "1.41",
+    "index": "1.22",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
     "chapter": "Chapter 1: Basic Probability, Statistics, and Reliability",
-    "section": "1.11 Probability and Moment Inequalities",
+    "section": "1.3 Basic Statistics",
     "book": "Statistical Reliability Engineering",
-    "page": "53-54"
+    "page": "21-21"
   },
   "sample_key": "91"
 }

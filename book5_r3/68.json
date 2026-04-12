@@ -1,0 +1,46 @@
+{
+  "case_id": "book5_r1\\024.json",
+  "input": {
+    "background": "The table below shows concentrations of antibody to Type III Group B Streptococcus (GBS) in 20 volunteers before and after immunization (Baker et al., 1980).",
+    "data": "\\begin{tabular}{|l|l|l|}\n\\hline  & \\multicolumn{2}{|c|}{Antibodyconcentration to Type III GBS} \\\\\n\\hline & Before immunization & 4 weeks after immunization \\\\\n\\hline 1 & 0.4 & 0.4 \\\\\n\\hline 2 & 0.4 & 0.5 \\\\\n\\hline 3 & 0.4 & 0.5 \\\\\n\\hline 4 & 0.4 & 0.9 \\\\\n\\hline 5 & 0.5 & 0.5 \\\\\n\\hline 6 & 0.5 & 0.5 \\\\\n\\hline 7 & 0.5 & 0.5 \\\\\n\\hline 8 & 0.5 & 0.5 \\\\\n\\hline 9 & 0.5 & 0.5 \\\\\n\\hline\n\\end{tabular}\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{cont'd}\n\\begin{tabular}{|l|l|l|}\n\\hline  & \\multicolumn{2}{|l|}{Antibodyconcentration to Type III GBS} \\\\\n\\hline & Before immunization & 4 weeks after immunization \\\\\n\\hline 10 & 0.6 & 0.6 \\\\\n\\hline 11 & 0.6 & 12.2 \\\\\n\\hline 12 & 0.7 & 1.1 \\\\\n\\hline 13 & 0.7 & 1.2 \\\\\n\\hline 14 & 0.8 & 0.8 \\\\\n\\hline 15 & 0.9 & 1.2 \\\\\n\\hline 16 & 0.9 & 1.9 \\\\\n\\hline 17 & 1.0 & 0.9 \\\\\n\\hline 18 & 1.0 & 2.0 \\\\\n\\hline 19 & 1.6 & 8.1 \\\\\n\\hline 20 & 2.0 & 3.7 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "What method would be more appropriate to analyse these data? Analyse the data with the appropriate method and comment on the result."
+  },
+  "output": {
+    "answer": "Even after log transformation of the original data the differences between the log values have a skewed distribution. Although the paired t test gives t=2.77, P=0.01, it is better to use the Wilcoxon matched pairs signed ranks test, which gives z=2.91, P=0.004."
+  },
+  "meta_info": {
+    "index": "9.2",
+    "img_in_question": null,
+    "img_in_answer": null,
+    "caption": null,
+    "chapter": "Comparing groups – continuous data",
+    "section": "EXERCISES",
+    "book": "Practical statistics for medical research",
+    "page": "224-225"
+  },
+  "sample_key": "68",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1900,
+    "total_tokens": 1943,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1899,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1900,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1899,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

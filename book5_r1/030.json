@@ -1,15 +1,21 @@
 {
-  "background": "Compare the SI values in the two groups of patients shown in Exercise 3.1.",
+  "background": "What test could be used to compare the SI values in the two groups of patients shown in Exercise 3.1?",
   "task": [
     {
-      "query": "What test could be used to compare the SI values in the two groups of patients?",
-      "answer": "The Mann-Whitney test could be used. As it is a test based on ranks, the censored values recorded as $>80.0$ would all have the same rank. As there are so many ties at this value the adjustment for ties would be desirable. Also, the SI values clearly have a skewed distribution, indicating that a non-parametric method would be suitable.",
-      "method": "均值检验"
+      "query": "What statistical test could be used to compare the SI values in the two groups of patients?",
+      "answer": "The Mann-Whitney test could be used."
     },
     {
-      "query": "What alternative approach could be used to compare the SI values in the two groups of patients?",
-      "answer": "An alternative, but less satisfactory, approach would be to compare the proportions above a given cut-off using methods described in the next chapter.",
-      "method": "独立性检验"
+      "query": "Why is the Mann-Whitney test appropriate for this comparison?",
+      "answer": "As it is a test based on ranks, the censored values recorded as $>80.0$ would all have the same rank. As there are so many ties at this value, the adjustment for ties would be desirable."
+    },
+    {
+      "query": "What characteristic of the SI values supports the use of a non-parametric method?",
+      "answer": "The SI values clearly have a skewed distribution, indicating that a non-parametric method would be suitable."
+    },
+    {
+      "query": "What is an alternative approach to compare the SI values, and why is it less satisfactory?",
+      "answer": "An alternative approach would be to compare the proportions above a given cut-off using methods described in the next chapter. However, this approach is less satisfactory."
     }
   ],
   "id": "030",
@@ -23,5 +29,23 @@
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
     "page": "228-228"
+  },
+  "token_usage": {
+    "completion_tokens": 267,
+    "prompt_tokens": 426,
+    "total_tokens": 693,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

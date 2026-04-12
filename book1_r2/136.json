@@ -1,44 +1,20 @@
 {
-  "case_id": "book1_r1\\record_072.json",
+  "case_id": "book1_r1\\record_063.json",
   "input": {
-    "background": "Ten people are given a choice of two treatments. Let $p$ represent the proportion of patients in the patient population who prefer treatment A.",
+    "background": "An inmate on death row in the state of Illinois has a WAIS of 51. The task is to determine the percentage of people who have a score below this level.",
     "data": "",
-    "question": "Among the 10 patients asked, 7 preferred method A. Assuming there is no preference in the patient population (i.e., $p= 0.5)$, calculate $\\operatorname{Pr}(X \\geq 7)$."
+    "question": "What is the probability corresponding to the standardized z-score?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "We start by assuming $X \\sim \\mathrm{~b}(10,0.5)$. $$ \\begin{aligned} & \\operatorname{Pr}(X \\geq 7) \\\\ & =\\operatorname{Pr}(X=7)+\\operatorname{Pr}(X=8)+\\operatorname{Pr}(X=9)+\\operatorname{Pr}(X=10) \\\\ & =0.117188+0.043945+0.009766+0.000977 \\\\ & =0.1719 \\end{aligned} $$",
-    "variable": {
-      "number_of_patients": {
-        "id": "number_of_patients",
-        "value": 10,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The total number of patients surveyed."
-      },
-      "patients_preferring_A": {
-        "id": "patients_preferring_A",
-        "value": 7,
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The number of patients who preferred treatment A."
-      },
-      "proportion_p": {
-        "id": "proportion_p",
-        "value": 0.5,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The assumed proportion of the patient population that prefers treatment A."
-      }
-    }
+    "answer": "Using Table B, $\\operatorname{Pr}(Z \\leq-3.27)=0.0005$ (about $0.05 \\%$)."
   },
   "meta_info": {
-    "index": "8.15",
+    "index": "7.11",
     "image": "",
-    "caption": "Patient preference.",
-    "chapter": "INTRODUCTION TO STATISTICAL INFERENCE",
-    "section": "8.3 SAMPLING BEHAVIOR OF A COUNT AND PROPORTION",
-    "page": "173-173"
+    "caption": "Death row inmate.",
+    "chapter": "NORMAL PROBABILITY DISTRIBUTIONS",
+    "section": "7.3 FINDING VALUES THAT CORRESPOND",
+    "page": "147-147"
   },
   "sample_key": "136"
 }

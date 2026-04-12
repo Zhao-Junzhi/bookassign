@@ -1,39 +1,20 @@
 {
-  "case_id": "book1_r1\\record_320.json",
+  "case_id": "book1_r1\\record_138.json",
   "input": {
-    "background": "Recall the 'air samples' illustrative data presented earlier in this chapter. Table 4.2 lists data for particulate matter at two sampling sites.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
-    "question": "For site 1, calculate Q1, Q3, and IQR based on the ordered array of data: 22, 24, 28, 32, 36, 38, 42, 68."
+    "background": "The study described in Exercise 17.14 also kept tabs of whether leaving advanced messages increased the likelihood of ultimately completing the interview. Data for this outcome are tallied in Table 17.8.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 17.8 Data for Exercise 17.15. Response to telephone survey according to whether an advanced message was left.}\n\\begin{tabular}{lc|c|}\n\\hline & \\multicolumn{1}{c}{ Completed Survey } & \\multicolumn{1}{c}{ Did not complete survey }& \\multicolumn{1}{c}{Households } \\\n\\cline { 2 - 4 } Message & 134 & 157 & 291 \\\n\\cline { 2 - 4 } No message & 33 & 67 & 100 \\\n\\hline\n\\end{tabular}\n\\end{table}\n\nSource: same as Table 17.5.",
+    "question": "To what extent did the advanced messages increase the response rate?"
   },
   "output": {
-    "method": "分位数/百分位数",
-    "answer": "Q1 = 26 (average of 24 and 28), Q3 = 40 (average of 38 and 42), IQR = 14 (40 - 26).",
-    "variable": {
-      "site_1_data": {
-        "id": "site_1_data",
-        "value": [
-          22,
-          24,
-          28,
-          32,
-          36,
-          38,
-          42,
-          68
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Ordered array of particulate matter data for site 1."
-      }
-    }
+    "answer": "Hypothesis test\nA. Hypotheses. $H_0: p_1=p_2$ versus $H_2: p_1 \\neq p_2$\nB. Test statistic.\n\n$$\n\\begin{aligned}\n& \\bar{p}=0.4271 \\\\\n& S E=0.05734 \\\\\n& z_{\\text {stat }}=2.28\n\\end{aligned}\n$$\n\nC. $\\boldsymbol{P}$-value. $P=0.0226$ (significant evidence against the null hypothesis)\nD. Significance level (optional). The evidence against $H_0$ is significant at $\\alpha=$ 0.05 but is not significant at $\\alpha=0.01$.\n\nEffect size:\n\n$$\n\\hat{p}_1-\\hat{p}_2=0.4605-0.3300=0.1305 \\text { (about } 13 \\% \\text { ) }\n$$\n\nThe $95 \\%$ confidence interval for $p_1-p_2$ is 0.0196 to 0.2352, or about $2 \\%$ to $24 \\%$.\n\nTo what extent did the advanced messages increase the response rate? The $95 \\%$ confidence interval suggests that the response rate improved from between $2 \\%$ to $24 \\%$. A larger sample is needed to more precisely estimate the size of the effect."
   },
   "meta_info": {
-    "index": "",
+    "index": "17.15",
     "image": "",
-    "caption": "IQRs (Air samples data).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.5 SPREAD: QUARTILES ",
-    "page": "75-75"
+    "caption": "Telephone survey response rates.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "404-405"
   },
   "sample_key": "345"
 }

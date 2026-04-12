@@ -1,0 +1,44 @@
+{
+  "case_id": "book1_r1\\record_335.json",
+  "input": {
+    "background": "Table 5.1 lists the probability mass function (pmf) for the four patients illustrative pmf. The pmf satisfies the following properties: 1) All probabilities in the pmf are between 0 and 1. 2) Probabilities in the sample space sum to exactly 1. 3) The probability of a complement is equal to 1 minus the probability of the event.",
+    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 5.1 Probability model (probability mass function) for the Four patients illustrative example.}\n\\begin{tabular}{lccccc}\n\\hline No. of success & 0 & 1 & 2 & 3 & 4 \\\nProbability & 0.0039 & 0.0469 & 0.2109 & 0.4219 & 0.3164 \\\n\\hline\n\\end{tabular}\n\\end{table}",
+    "question": "Calculate the probability of $X=0$ or $X=1$, using the property that the probability of a union of disjoint events is the sum of their probabilities."
+  },
+  "output": {
+    "answer": "Therefore, $\\operatorname{Pr}(X=0$ or $X=1)=\\operatorname{Pr}(X=0)+\\operatorname{Pr}(X=1)=0.0039+0.0469=0.0508$."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Properties of probabilities.",
+    "chapter": "PROBABILITY CONCEPTS",
+    "section": "5.3  DISCRETE RANDOM VARIABLES",
+    "page": "95-95"
+  },
+  "sample_key": "475",
+  "token_usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 1373,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "text_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cached_creation_tokens": 1321,
+      "text_tokens": 0,
+      "image_tokens": 0
+    },
+    "usage_semantic": "openai",
+    "usage_source": "anthropic",
+    "input_tokens": 1373,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 1321,
+    "claude_cache_creation_1_h_tokens": 0
+  }
+}

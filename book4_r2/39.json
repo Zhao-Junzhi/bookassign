@@ -1,13 +1,12 @@
 {
   "case_id": "book4_r1\\013.json",
   "input": {
-    "background": "An investigation into the possible effects on non-smokers of allowing smoking in a shared office environment.",
+    "background": "An investigation is being conducted to study the possible effects on non-smokers of allowing smoking in a shared office environment. The goal is to determine which statistical test is most appropriate to identify differences in the central tendency of the samples collected under different scenarios.",
     "data": null,
-    "question": "Measured the lung capacity (in cubic metres) of non-smoking staff in an office where smoking was allowed and similarly of non-smoking staff in an adjacent office where smoking had been banned for a month?"
+    "question": "Which statistical test would you employ if the investigators had measured the lung capacity (in cubic metres) of the non-smokers before smoking was banned, and on the same staff a month after a ban on smoking had been enforced?"
   },
   "output": {
-    "method": "均值检验",
-    "answer": "Ideally a $t$ test would be employed (a Mann-Whitney $U$ test could be used, but is more conservative when data are likely to be normally distributed)."
+    "answer": "Ideally a paired $t$ test would be employed (a Wilcoxon test could be used, but is more conservative when data are likely to be normally distributed)."
   },
   "meta_info": {
     "index": "4.5",

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\059.json",
+  "case_id": "book5_r1\\050.json",
   "input": {
-    "background": "Thirteen patients with chronic skin disorders were studied in an open trial to assess the effect of aspirin on pruritis. No treatment was given on nights one or two, aspirin (900 mg) was given on the third and fourth nights, and no treatment was given on the fifth and sixth nights. On each night scratching was measured by a limb movement meter, and an assessment of itching was made by the patient the following morning using a 10 cm linear analogue scale. For each patient the data were averaged over each two day period. The results were presented in the paper (Daly and Shuster, 1986) as means (SE): The complete comment on this table was as follows: There was interindividual and intraindividual variation in itch and scratch throughout the study, but no consistent change in either measurement was recorded during aspirin treatment.",
-    "data": "\\begin{table}[ht]\n\\centering\n\\begin{tabular}{lccc}\n& Before treatment & During treatment & After treatment \\\nLinear analogue scale (cm) & 3.5 (0.5) & 3.3 (0.4) & 3.1 (0.5) \\\nNocturnal limb movements & 46.3 (10.0) & 38.8 (7.4) & 38.7 (5.5) \\\n\\end{tabular}\n\\end{table}",
-    "question": "What can you say about the distribution across patients of the nocturnal limb movements score?"
+    "background": "Exercise 11.2 included survival times of 29 patients with lactic acidosis, together with some possibly prognostic variables.",
+    "data": null,
+    "question": "Compare the results of Cox regression analyses using these variables as they are or each divided into three roughly equal groups."
   },
   "output": {
-    "method": "分布范围测度",
-    "answer": "The standard deviations are obtained as SE × √13, or 36.1, 26.7 and 19.8 for the three sets of observations. The data are thus skewed, especially before treatment, because the SD is more than half the mean."
+    "answer": "Cox regression models of each of the three variables treated either as continuous or split into three groups as in the previous analysis are summarized in the following table:\n\n|              | Continuous               | Grouped                 |\n|--------------|--------------------------|-------------------------|\n|              | b        | SE(b) | P     | b       | SE(b) | P     |\n| Lactate      | -0.071   | 0.019  | 0.001 | -0.061  | 0.022 | 0.01  |\n| Bicarbonate  | 0.186    | 0.051  | 0.001 | 0.087   | 0.022 | 0.0001|\n| pH           | 3.921    | 1.704  | 0.03  | 0.965   | 0.395 | 0.02  |\n\nThe regression coefficients, b, should not be directly compared for the two types of analysis. All three variables are significantly associated with survival by either method, but the level of significance differs. In general, the grouped analysis will give a very similar answer to the logrank test for trend. If the three variables are all entered into a Cox model together only bicarbonate is statistically significant."
   },
   "meta_info": {
-    "index": "15.3",
+    "index": "13.2",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Clinical trials",
+    "chapter": "Analysis of survival times",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "474-475"
+    "page": "394-395"
   },
   "sample_key": "144"
 }

@@ -1,23 +1,22 @@
 {
-  "case_id": "book5_r1\\019.json",
+  "case_id": "book5_r1\\014.json",
   "input": {
-    "background": "There are two hospitals in a town. On average 45 babies are born each day in the larger hospital, and 15 in the smaller. The probability of a baby being a boy is about 0.52, and the probability of twins is about 0.012.",
+    "background": "Halpern and Coren (1988) wished to investigate whether there was a difference in longevity between left-handed and right-handed people. They used a baseball encyclopaedia to record the dates of birth and death of 1472 right-handed and 236 left-handed players.",
     "data": null,
-    "question": "Which hospital is more likely to have more than 60% of babies being boys on any day?"
+    "question": "Was this a representative sample of the population?"
   },
   "output": {
-    "method": "事件发生概率及独立性",
-    "answer": "The day to day variation in the proportion of boys will be greater in the smaller hospital, so it is more likely to have more than 60% of babies being boys on any day."
+    "answer": "Baseball players are clearly not truly representative of the population, but it is impossible to assess whether it matters in this particular case. However, it appears that there might have been a higher proportion of left-handers (14%) than we would expect in the population."
   },
   "meta_info": {
-    "index": "8.1",
+    "index": "5.3",
     "img_in_question": null,
     "img_in_answer": null,
     "caption": null,
-    "chapter": "Principles of statistical analysis",
+    "chapter": "Designing research",
     "section": "EXERCISES",
     "book": "Practical statistics for medical research",
-    "page": "177-177"
+    "page": "105-106"
   },
   "sample_key": "43"
 }

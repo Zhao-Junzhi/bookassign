@@ -1,33 +1,20 @@
 {
-  "case_id": "book1_r1\\record_307.json",
+  "case_id": "book1_r1\\record_129.json",
   "input": {
-    "background": "In the WHI trial, the primary study factor was postmenopausal hormone use. The study was initially designed to address three treatments: unopposed estrogen, estrogen plus progestin, and an inert placebo. It was later discovered that unopposed estrogen was contraindicated in postmenopausal women with intact uteri, so the protocol was altered to include only two treatments: estrogen with progestin and a placebo. Treatments were then randomized to subjects in approximately equal proportions.",
+    "background": "According to an April 29, 1998, New York Times article, a nationwide telephone survey conducted for a managed alternative care company found that of 1500 adults interviewed, 660 said they would use alternative medicine if traditional medical care failed to produce the desired results.",
     "data": "",
-    "question": "What treatments were included after the protocol alteration?"
+    "question": "What is the 95% confidence interval for the proportion of adults who would use alternative medicine if traditional medical care failed?"
   },
   "output": {
-    "method": "实验设计",
-    "answer": "After the protocol alteration, the treatments included were estrogen with progestin and a placebo.",
-    "variable": {
-      "treatment": {
-        "id": "treatment",
-        "value": [
-          "estrogen with progestin",
-          "placebo"
-        ],
-        "class": "categorical",
-        "role": "NR",
-        "description": "The treatments included after the protocol alteration in the WHI trial."
-      }
-    }
+    "answer": "The 95% confidence interval for p by Wilson's (computed with WinPepi describe.exe 1.5.1) is 0.415 to 0.465."
   },
   "meta_info": {
-    "index": "",
+    "index": "16.21",
     "image": "",
-    "caption": "WHI postmenopausal hormone use trial.",
-    "chapter": "TYPES OF STUDIES",
-    "section": "2.2 Comparative Studies",
-    "page": "27-27"
+    "caption": "Alternative medicine.",
+    "chapter": "INFERENCE ABOUT A PROPORTION",
+    "section": "16.6 SAMPLE SIZE AND POWER",
+    "page": "371-371"
   },
   "sample_key": "324"
 }

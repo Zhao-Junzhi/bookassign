@@ -1,58 +1,20 @@
 {
-  "case_id": "book1_r1\\record_385.json",
+  "case_id": "book1_r1\\record_318.json",
   "input": {
-    "background": "The oat bran illustrative example calculated a 95% confidence interval for μ that had a margin of error of 0.2753 mmol/L.",
+    "background": "Consider this small ordered array (n=10): 5, 11, 21, 24, 27, 28, 30, 42, 50, 52. The positions of Q1, M, and Q3 are marked in the array.",
     "data": "",
-    "question": "How large a study is needed to achieve a margin of error 0.2 with 95% confidence? We will use the sample standard deviation from the study as our estimate of σ."
+    "question": "What is the high group and the value of Q3?"
   },
   "output": {
-    "method": "达到指定概率所需的最小样本量",
-    "answer": "n=(z_{1-\\frac{\\alpha}{2}} \\frac{\\sigma}{m})^2=(1.96 \\frac{0.4335}{0.2})^2=18.50. Round this up to the next integer, so n=19. Because this number is less than 30, apply adjustment factor f=(df+3) /(df+1)=(18+3) /(18+1)=1.105 to the final result. Therefore, use n=1.105 \\times 19=21.",
-    "variable": {
-      "margin_of_error_current": {
-        "id": "margin_of_error_current",
-        "value": 0.2753,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The margin of error for the current study's 95% confidence interval."
-      },
-      "margin_of_error_target": {
-        "id": "margin_of_error_target",
-        "value": 0.2,
-        "class": "numerical",
-        "role": "independent",
-        "description": "The target margin of error for the new study's 95% confidence interval."
-      },
-      "confidence_level": {
-        "id": "confidence_level",
-        "value": 0.95,
-        "class": "numerical",
-        "role": "NR",
-        "description": "The confidence level used to calculate the confidence interval."
-      },
-      "sample_standard_deviation": {
-        "id": "sample_standard_deviation",
-        "value": "σ (to be estimated from the current study)",
-        "class": "numerical",
-        "role": "independent",
-        "description": "The sample standard deviation, used as an estimate of the population standard deviation."
-      },
-      "sample_size": {
-        "id": "sample_size",
-        "value": "To be determined",
-        "class": "numerical",
-        "role": "dependent",
-        "description": "The required sample size to achieve the target margin of error with 95% confidence."
-      }
-    }
+    "answer": "The high group is {28, 30, 42, 50, 52}, so Q3 = 42."
   },
   "meta_info": {
     "index": "",
     "image": "",
-    "caption": "Sample size, confidence interval.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "226-226"
+    "caption": "Quartiles.",
+    "chapter": "SUMMARY STATISTICS",
+    "section": "4.5 SPREAD: QUARTILES",
+    "page": "73-73"
   },
   "sample_key": "453"
 }

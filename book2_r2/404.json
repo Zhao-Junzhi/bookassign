@@ -1,0 +1,16 @@
+{
+  "case_id": "book2_r1\\150.json",
+  "input": {
+    "background": "Refer to the simple linear regression analysis of the advertising-sales data, Examples 11.1 and 11.2. The objective is to determine if sales revenue (y) is linearly related to advertising expenditure (x) using a hypothesis test at significance level α = 0.05.",
+    "data": null,
+    "question": "How does the p-value from the computer printout support the conclusion?"
+  },
+  "output": {
+    "answer": "The p-value from the computer printout is smaller than $\\alpha = 0.05$, which also leads to rejecting $H_0$. This supports the conclusion that advertising expenditure $x$ contributes to sales revenue $y$."
+  },
+  "meta_info": {
+    "index": "11.3",
+    "img_in_question": null
+  },
+  "sample_key": "404"
+}

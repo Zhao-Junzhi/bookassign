@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_447.json",
+  "input": {
+    "background": "Ninety and 95 percent confidence intervals for the alcohol and esophageal cancer illustrative case-control data are calculated.",
+    "data": "",
+    "question": "What is the value of the estimated odds ratio (OR) and its natural logarithm (ln(OR))?"
+  },
+  "output": {
+    "answer": "We've established \\(\\widehat{O R}=5.640\\). Therefore, \\(\\ln \\widehat{O R}=\\ln(5.640)\\) = 1.7299 (by calculator)."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Confidence interval for the odds ratio (Alcohol and  esophageal cancer).",
+    "chapter": "CROSS-TABULATED COUNTS",
+    "section": "18.5 CASE-CONTROL SAMPLES",
+    "page": "439-439"
+  },
+  "sample_key": "747"
+}

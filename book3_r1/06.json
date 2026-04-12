@@ -3,13 +3,11 @@
   "task": [
     {
       "query": "In how many ways can such a committee be formed?",
-      "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$",
-      "method": "概率空间相关（如状态数）"
+      "answer": "In this case, the order in which the 3 people are drawn is not of importance. The solution is to obtain the number of combinations of 3 people out of 10 people, and is given by $$C(10,3)=\\frac{10!}{3!(10-3)!}=120$$."
     },
     {
-      "query": "In general, the number of ways in which $N$ distinct objects can be divided into $\\mathrm{n}_{\\mathrm{i}}$ of type i (objects) such that $\\sum_{i=1}^k n_i=N$ is given by $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$ This is also called the multinomial coefficients.",
-      "answer": "The solution is to calculate the multinomial coefficients using the formula $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$.",
-      "method": "概率空间相关（如状态数）"
+      "query": "What is the general formula for dividing N distinct objects into groups of specific sizes?",
+      "answer": "In general, the number of ways in which $N$ distinct objects can be divided into $\\mathrm{n}_{\\mathrm{i}}$ of type i (objects) such that $\\sum_{i=1}^k n_i=N$ is given by $$\\frac{N!}{n_{1}!n_{2}!\\ldots n_{k}!}$$. This is also called the multinomial coefficients."
     }
   ],
   "id": "06",
@@ -23,5 +21,23 @@
     "section": "1.2 Probability Axioms",
     "book": "Statistical Reliability Engineering",
     "page": "11-12"
+  },
+  "token_usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 474,
+    "total_tokens": 716,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null
   }
 }

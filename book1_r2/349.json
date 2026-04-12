@@ -1,39 +1,20 @@
 {
-  "case_id": "book1_r1\\record_321.json",
+  "case_id": "book1_r1\\record_140.json",
   "input": {
-    "background": "We propose to draw boxplots for the air sample data presented in prior illustrations (see Table 4.2).",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 4.2 Data for ",
-    "question": "Draw a boxplot for site 2 data: 32, 33, 34, 36, 36, 38, 39, 40."
+    "background": "A double-blind randomized trial compared cefaclor to amoxicillin in the treatment of acute otitis media in children. There was no difference in clinical failure rates (all but four children in each group had a good clinical response), but after 14 days, 59 (55.7%) of 106 cefaclor treated subjects had effusion-free ears compared to 40 of the 97 amoxicillin treated subjects.",
+    "data": "",
+    "question": "Determine whether the effusion-free rates differed significantly in the groups. State the null and alternative hypotheses."
   },
   "output": {
-    "method": "连续型变量分布",
-    "answer": "1. The five-point summary is 32, 33.5, 36, 38.5, 40. The box extends from 33.5 to 38.5. A line for the median is drawn inside the box at 36. 2. IQR=38.5-33.5=5. Fence Lower=33.5-(1.5)(5)=26. Fence Upper=38.5+(1.5)(5)=46. 3. There are no outside values in this group. 4. The lower inside value is 32. A whisker is drawn from Q1 to this lower inside value. The upper inside value is 42. A whisker is drawn from Q3 to this upper inside value.",
-    "variable": {
-      "site_2_data": {
-        "id": "site_2_data",
-        "value": [
-          32,
-          33,
-          34,
-          36,
-          36,
-          38,
-          39,
-          40
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Air sample data values for site 2 used to draw a boxplot."
-      }
-    }
+    "answer": "$H_0: p_1=p_2$ versus $H_a: p_1 \\neq p_2$"
   },
   "meta_info": {
-    "index": "",
+    "index": "17.19",
     "image": "",
-    "caption": "Boxplots (Air samples data).",
-    "chapter": "SUMMARY STATISTICS",
-    "section": "4.6 BOXPLOTS",
-    "page": "76-77"
+    "caption": "Acute otitis media.",
+    "chapter": "COMPARING TWO PROPORTIONS",
+    "section": "17.6 POWER AND SAMPLE SIZE",
+    "page": "405-405"
   },
   "sample_key": "349"
 }

@@ -1,71 +1,20 @@
 {
-  "case_id": "book1_r1\\record_095.json",
+  "case_id": "book1_r1\\record_079.json",
   "input": {
-    "background": "Eight junior high school students were taken to a shopping mall. The number of socially inappropriate behaviors (faux pas) by each student was counted. The students were then enrolled in a program designed to promote social skills. After completing the programs, the subjects were again taken to the shopping mall and the number of social faux pas was again counted.",
-    "data": "\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Table 11.3 Data for Exercise 11.23. Number of faux pas before and after an intervention.}\n\\begin{tabular}{|l|l|l|}\n\\hline Obs. & VISIT1 & VISIT2 \\\\\n\\hline 1 & 5 & 4 \\\\\n\\hline 2 & 13 & 11 \\\\\n\\hline 3 & 17 & 12 \\\\\n\\hline 4 & 3 & 3 \\\\\n\\hline 5 & 20 & 14 \\\\\n\\hline 6 & 18 & 14 \\\\\n\\hline 7 & 8 & 10 \\\\\n\\hline 8 & 15 & 9 \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nData are fictitious. Data file $=$ FAUXPAS.SAV.",
-    "question": "Plot the differences as a stemplot. Comment on the results."
+    "background": "The average annual salary of 20 female hospital administrators is 80,900. These administrators believe they make less than their male counterparts because of sex bias. Published results suggest that hospital administrators have an average salary of μ = 85,100 (σ = 10,000).",
+    "data": "",
+    "question": "Come up with four explanations for the lower-than-expected observed sample mean."
   },
   "output": {
-    "method": "stem-and-leaf plot",
-    "answer": "The stemplot is:\n\n-0 | 566\n-0 | 124\n0 | 02\n\n- Six of the eight students (75%) showed a decline in the number of faux pas.\n- Data range from -6 to 2 (spread).\n- The median is -3 (location).\n- The distribution is mound shaped with no apparent outliers, and shows no dramatic departures from Normality.",
-    "variable": {
-      "VISIT1": {
-        "id": "VISIT1",
-        "value": [
-          5,
-          13,
-          17,
-          3,
-          20,
-          18,
-          8,
-          15
-        ],
-        "class": "numerical",
-        "role": "independent",
-        "description": "Number of socially inappropriate behaviors (faux pas) by each student before the intervention."
-      },
-      "VISIT2": {
-        "id": "VISIT2",
-        "value": [
-          4,
-          11,
-          12,
-          3,
-          14,
-          14,
-          10,
-          9
-        ],
-        "class": "numerical",
-        "role": "dependent",
-        "description": "Number of socially inappropriate behaviors (faux pas) by each student after the intervention."
-      },
-      "DIFFERENCE": {
-        "id": "DIFFERENCE",
-        "value": [
-          1,
-          2,
-          5,
-          0,
-          6,
-          4,
-          -2,
-          6
-        ],
-        "class": "numerical",
-        "role": "NR",
-        "description": "Difference in the number of socially inappropriate behaviors (faux pas) before and after the intervention for each student."
-      }
-    }
+    "answer": "1) Chance (𝑃 = 0.0602)\n2) Selection bias: The sample is not an SRS of female executives.\n3) Confounding: An extraneous variable is lurking in the background. For example, these executives may be younger and/or less experienced on average than the population.\n4) Gender bias."
   },
   "meta_info": {
-    "index": "11.23",
+    "index": "9.15",
     "image": "",
-    "caption": "Faux pas.",
-    "chapter": "INFERENCE ABOUT A MEAN",
-    "section": "11.7 SAMPLE SIZE AND POWER",
-    "page": "230-230"
+    "caption": "Female administrators.",
+    "chapter": "BASICS OF HYPOTHESIS TESTING",
+    "section": "9.6 POWER AND SAMPLE SIZE",
+    "page": "194-194"
   },
   "sample_key": "180"
 }

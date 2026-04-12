@@ -1,0 +1,20 @@
+{
+  "case_id": "book1_r1\\record_410.json",
+  "input": {
+    "background": "For the illustrative data, we have established $\\bar{x}=603.64, \\bar{y}=20.55, s_X=378.451, s_Y=11.725$ and $r=0.737$.",
+    "data": "",
+    "question": "Calculate the slope coefficient $b$ using the formula $b=r \\frac{s_Y}{s_X}$."
+  },
+  "output": {
+    "answer": "The slope coefficient $b=r \\frac{s_Y}{s_X}=0.737 \\cdot \\frac{11.725}{378.451}=0.02284$."
+  },
+  "meta_info": {
+    "index": "",
+    "image": "",
+    "caption": "Regression coefficients.",
+    "chapter": "CORRELATION AND REGRESSION",
+    "section": "14.4 REGRESSION",
+    "page": "313-314"
+  },
+  "sample_key": "666"
+}
