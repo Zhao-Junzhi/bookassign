@@ -1,0 +1,47 @@
+{
+  "sample_key": "100",
+  "case_id": "book2_r1\\043.json",
+  "source_path": "book2_r3/100.json",
+  "round": 0,
+  "variables": {
+    "Income": {
+      "id": "Income",
+      "value": [
+        "<$25,000",
+        "$25,000-$50,000",
+        ">$50,000"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Income classification of respondents, column variable in the two-way table, used to define event A (Income > $50,000)."
+    },
+    "Age": {
+      "id": "Age",
+      "value": [
+        "<30 yrs",
+        "30-50 yrs",
+        ">50 yrs"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Age classification of respondents, row variable in the two-way table, used to define event B (Age ≥ 30)."
+    },
+    "Respondent_Percentage": {
+      "id": "Respondent_Percentage",
+      "value": {
+        "<30 yrs & <$25,000": "5%",
+        "<30 yrs & $25,000-$50,000": "12%",
+        "<30 yrs & >$50,000": "10%",
+        "30-50 yrs & <$25,000": "14%",
+        "30-50 yrs & $25,000-$50,000": "22%",
+        "30-50 yrs & >$50,000": "16%",
+        ">50 yrs & <$25,000": "8%",
+        ">50 yrs & $25,000-$50,000": "10%",
+        ">50 yrs & >$50,000": "3%"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of total respondents in each Age–Income cell of the two-way table, summed over appropriate cells to compute marginal probabilities P(A) and P(B)."
+    }
+  }
+}

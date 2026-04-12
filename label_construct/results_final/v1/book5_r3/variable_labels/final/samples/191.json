@@ -1,0 +1,42 @@
+{
+  "sample_key": "191",
+  "case_id": "book5_r1\\064.json",
+  "source_path": "book5_r3/191.json",
+  "round": 0,
+  "variables": {
+    "men_height": {
+      "id": "men_height",
+      "value": {
+        "mean": 179.1,
+        "SD": 5.84
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights (in cm) of adult men in the population, summarized by mean and standard deviation under a Normal distribution assumption. This variable and women_height describe the same population of adults split by sex."
+    },
+    "women_height": {
+      "id": "women_height",
+      "value": {
+        "mean": 171.7,
+        "SD": 5.75
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights (in cm) of adult women in the population, summarized by mean and standard deviation under a Normal distribution assumption. This variable and men_height describe the same population of adults split by sex."
+    },
+    "height_threshold": {
+      "id": "height_threshold",
+      "value": 182.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Height cutoff value (182.9 cm, i.e., six feet) used to compute the z-scores and tail probabilities for both men and women."
+    },
+    "proportion_female": {
+      "id": "proportion_female",
+      "value": 0.6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of adults in the population who are female (60%), used as the prior probability in the Bayes' theorem calculation."
+    }
+  }
+}

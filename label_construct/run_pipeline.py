@@ -20,12 +20,16 @@ from label_construct.io_utils import (
     copy_json_file,
     ensure_results_tree,
     get_final_samples_dir,
+    get_input_dir,
     get_runs_dir,
+    get_logs_dir,
     get_selected_sample_map,
+    get_suggest_model_results_root,
     get_variable_label_path,
     iter_sample_paths,
-    resolve_results_dir_for_model,
-    set_results_root_for_model,
+    resolve_final_results_dir,
+    set_input_dir,
+    set_results_root,
     to_project_relative,
     write_json,
 )
@@ -47,6 +51,32 @@ def parse_stages(raw: str) -> list[str]:
     if unknown:
         raise ValueError(f"不支持的 stage: {', '.join(unknown)}")
     return stages
+
+
+def parse_input_dirs(raw_values: list[str] | None) -> list[Path]:
+    if not raw_values:
+        return [get_input_dir()]
+
+    input_dirs: list[Path] = []
+    seen: set[Path] = set()
+    for raw_value in raw_values:
+        for part in raw_value.split(","):
+            candidate = part.strip()
+            if not candidate:
+                continue
+            path = Path(candidate)
+            if not path.is_absolute():
+                path = Path(__file__).resolve().parent.parent / path
+            resolved = path.resolve()
+            if not resolved.is_dir():
+                raise ValueError(f"输入目录不存在: {resolved}")
+            if resolved not in seen:
+                input_dirs.append(resolved)
+                seen.add(resolved)
+
+    if not input_dirs:
+        raise ValueError("至少需要一个输入目录")
+    return input_dirs
 
 
 async def verify_model_access(model: str, logger) -> None:
@@ -126,15 +156,17 @@ async def _run_round0_variable_extraction(
     model: str,
     force: bool,
     max_workers: int,
+    output_root: Path | None = None,
+    log_dir: Path | None = None,
 ) -> dict[str, Any]:
-    set_results_root_for_model(model, default_model=DEFAULT_MODEL)
-    ensure_results_tree()
     return await run_variable_extraction(
         sample_paths=sample_paths,
         model=model,
         round_index=0,
         force=force,
         max_workers=max_workers,
+        output_root=output_root,
+        log_dir=log_dir,
     )
 
 
@@ -171,8 +203,10 @@ def _copy_major_round0_to_final(sample_paths: list[Path], logger) -> dict[str, A
     }
 
 
-async def run_pipeline(args) -> dict[str, object]:
-    set_results_root_for_model(args.model_major, default_model=DEFAULT_MODEL)
+async def _run_pipeline_once(args, input_dir: Path) -> dict[str, object]:
+    set_input_dir(input_dir)
+    dataset_results_dir = resolve_final_results_dir(input_dir)
+    set_results_root(dataset_results_dir)
     ensure_results_tree()
     logger = build_logger("run_pipeline")
     stages = parse_stages(args.stages)
@@ -180,14 +214,19 @@ async def run_pipeline(args) -> dict[str, object]:
     selected_map = get_selected_sample_map(sample_paths)
     has_suggest_model = bool(args.model_suggest)
     effective_stages = [stage for stage in stages if has_suggest_model or stage != "variable_finalize"]
+    suggest_results_root = get_suggest_model_results_root(args.model_suggest) / "variable_labels" if has_suggest_model else None
 
     summary: dict[str, object] = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "input_dir": to_project_relative(input_dir),
         "model_major": args.model_major,
         "model_suggest": args.model_suggest,
-        "major_results_dir": to_project_relative(resolve_results_dir_for_model(args.model_major, DEFAULT_MODEL)),
+        "results_dir": to_project_relative(dataset_results_dir),
+        "logs_dir": to_project_relative(get_logs_dir()),
+        "runs_dir": to_project_relative(get_runs_dir()),
+        "major_results_dir": to_project_relative(dataset_results_dir),
         "suggest_results_dir": (
-            to_project_relative(resolve_results_dir_for_model(args.model_suggest, DEFAULT_MODEL))
+            to_project_relative(suggest_results_root.parent)
             if has_suggest_model
             else ""
         ),
@@ -199,7 +238,9 @@ async def run_pipeline(args) -> dict[str, object]:
     }
 
     logger.info(
-        "流水线开始: major=%s, suggest=%s, stages=%s, sample_count=%s, force=%s",
+        "流水线开始: input_dir=%s, output_dir=%s, major=%s, suggest=%s, stages=%s, sample_count=%s, force=%s",
+        to_project_relative(input_dir),
+        to_project_relative(dataset_results_dir),
         args.model_major,
         args.model_suggest,
         effective_stages,
@@ -216,7 +257,6 @@ async def run_pipeline(args) -> dict[str, object]:
                 await verify_model_access(args.model_suggest, logger)
 
         if "method_review" in effective_stages:
-            set_results_root_for_model(args.model_major, default_model=DEFAULT_MODEL)
             summary["method_review"] = await run_method_review(
                 sample_paths=sample_paths,
                 model=args.model_major,
@@ -239,20 +279,21 @@ async def run_pipeline(args) -> dict[str, object]:
                     model=args.model_suggest,
                     force=args.force,
                     max_workers=args.max_workers,
+                    output_root=suggest_results_root,
+                    log_dir=get_logs_dir(),
                 )
             summary["variable_extract"] = variable_extract_summary
 
         if "variable_finalize" in effective_stages:
-            set_results_root_for_model(args.model_major, default_model=DEFAULT_MODEL)
             summary["variable_finalize"] = await run_variable_finalize(
                 sample_paths=sample_paths,
                 major_model=args.model_major,
                 suggest_model=args.model_suggest,
                 force=args.force,
                 max_workers=args.max_workers,
+                suggest_results_root=suggest_results_root,
             )
         elif needs_variable_base and not has_suggest_model:
-            set_results_root_for_model(args.model_major, default_model=DEFAULT_MODEL)
             summary["final_outputs"] = _copy_major_round0_to_final(sample_paths, logger)
 
         summary["status"] = "completed"
@@ -261,7 +302,6 @@ async def run_pipeline(args) -> dict[str, object]:
         summary["error"] = str(exc)
         logger.exception("流水线执行失败: major=%s, suggest=%s", args.model_major, args.model_suggest)
     finally:
-        set_results_root_for_model(args.model_major, default_model=DEFAULT_MODEL)
         summary["token_usage"] = build_pipeline_token_usage(summary)
         summary_path = get_runs_dir() / "summary.json"
         write_json(summary_path, summary)
@@ -270,9 +310,33 @@ async def run_pipeline(args) -> dict[str, object]:
     return summary
 
 
+async def run_pipeline(args) -> dict[str, object]:
+    input_dirs = parse_input_dirs(getattr(args, "input_dirs", None))
+    run_summaries = [await _run_pipeline_once(args, input_dir) for input_dir in input_dirs]
+
+    if len(run_summaries) == 1:
+        return run_summaries[0]
+
+    return {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "model_major": args.model_major,
+        "model_suggest": args.model_suggest,
+        "stages": parse_stages(args.stages),
+        "run_count": len(run_summaries),
+        "runs": run_summaries,
+        "status": "completed" if all(run.get("status") == "completed" for run in run_summaries) else "failed",
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the label construction pipeline for book1_r2.")
     parser.add_argument("--limit", type=int, default=None, help="Only process the first N samples by numeric sample id.")
+    parser.add_argument(
+        "--input-dirs",
+        nargs="+",
+        default=None,
+        help="One or more sample directories to process, for example: book1_r3 book2_r3",
+    )
     parser.add_argument(
         "--stages",
         type=str,
@@ -286,7 +350,12 @@ def main() -> None:
     args = parser.parse_args()
 
     summary = asyncio.run(run_pipeline(args))
-    emit_pipeline_token_usage(summary)
+    if "runs" in summary:
+        for run_summary in summary["runs"]:
+            print(f"[{run_summary.get('input_dir', 'unknown')}]")
+            emit_pipeline_token_usage(run_summary)
+    else:
+        emit_pipeline_token_usage(summary)
     if summary.get("status") != "completed":
         raise SystemExit(1)
 

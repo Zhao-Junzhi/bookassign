@@ -1,0 +1,3 @@
+2026-04-12 17:57:46,666 - INFO - 流水线开始: input_dir=book5_r3, output_dir=label_construct/results_final/book5_r3, major=claude-opus-4-6, suggest=None, stages=['method_review', 'variable_extract'], sample_count=3, force=False
+2026-04-12 17:59:06,466 - INFO - 未提供 suggest 模型，已将 major round_0 结果复制到 final/samples: copied=3
+2026-04-12 17:59:06,467 - INFO - 流水线摘要已写入 label_construct/results_final/book5_r3/runs/summary.json

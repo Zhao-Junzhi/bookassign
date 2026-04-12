@@ -1,0 +1,35 @@
+{
+  "sample_key": "68",
+  "case_id": "book4_r1\\021.json",
+  "source_path": "book4_r3/68.json",
+  "round": 0,
+  "variables": {
+    "Region": {
+      "id": "Region",
+      "value": [
+        "Central America",
+        "South East Asia"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Geographic region of the country (Central America or South East Asia)"
+    },
+    "Location": {
+      "id": "Location",
+      "value": [
+        "Island",
+        "Mainland"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the country is an island nation or mainland nation"
+    },
+    "Transformed_forest_loss": {
+      "id": "Transformed_forest_loss",
+      "value": "Arcsine-transformed percentages of forest lost per year (no explicit values provided)",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year, used as the dependent variable in the line plot"
+    }
+  }
+}

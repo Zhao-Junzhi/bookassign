@@ -1,0 +1,26 @@
+{
+  "sample_key": "221",
+  "case_id": "book3_r1\\60.json",
+  "source_path": "book3_r3/221.json",
+  "round": 0,
+  "variables": {
+    "λ_R": {
+      "id": "λ_R",
+      "value": {
+        "failure_rate_per_hour": 0.005
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the receiving unit, given as 0.005 per hour, directly used in the exponential reliability formula."
+    },
+    "t": {
+      "id": "t",
+      "value": {
+        "mission_time_hours": 25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mission duration in hours, used as the time argument in the reliability calculation R_R(t)=e^{-λ_R·t}."
+    }
+  }
+}

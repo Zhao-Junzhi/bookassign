@@ -3,14 +3,28 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
+import sys
 import tempfile
 import unittest
+from types import ModuleType
+from types import SimpleNamespace
 from pathlib import Path
+from unittest.mock import patch
 
 from label_construct.client import extract_json_from_text
 from label_construct import io_utils
+
+prompts_stub = ModuleType("label_construct.prompts")
+prompts_stub.build_method_review_prompt = lambda sample: {}
+prompts_stub.build_variable_extract_prompt = lambda sample: {}
+prompts_stub.build_variable_extract_retry_prompt = lambda sample: {}
+prompts_stub.build_variable_finalize_prompt = lambda **kwargs: {}
+prompts_stub.build_variable_review_prompt = lambda *args, **kwargs: {}
+sys.modules.setdefault("label_construct.prompts", prompts_stub)
+
 import label_construct.run_pipeline as pipeline_module
 from label_construct.variable_review import build_fallback_review_row
 
@@ -168,6 +182,100 @@ class LabelConstructTests(unittest.TestCase):
         finally:
             io_utils.PROJECT_ROOT = old_project_root
             io_utils.VARIABLE_LABELS_DIR = old_variable_labels_dir
+
+    def test_parse_input_dirs_supports_multiple_inputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            temp_root = Path(tmpdir)
+            book1 = temp_root / "book1_r3"
+            book2 = temp_root / "book2_r3"
+            book1.mkdir()
+            book2.mkdir()
+
+            parsed = pipeline_module.parse_input_dirs([str(book1), f"{book2}, {book1}"])
+            self.assertEqual(parsed, [book1.resolve(), book2.resolve()])
+
+    def test_run_pipeline_writes_results_under_results_final_per_input_dir(self) -> None:
+        old_project_root = io_utils.PROJECT_ROOT
+        old_input_dir = io_utils.get_input_dir()
+        old_results_dir = io_utils.get_results_dir()
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                temp_root = Path(tmpdir)
+                io_utils.PROJECT_ROOT = temp_root
+
+                book1 = temp_root / "book1_r3"
+                book2 = temp_root / "book2_r3"
+                for folder in (book1, book2):
+                    folder.mkdir(parents=True, exist_ok=True)
+                    (folder / "1.json").write_text('{"sample_key":"1","case_id":"demo"}', encoding="utf-8")
+
+                async def fake_verify_model_access(model: str, logger) -> None:
+                    return None
+
+                async def fake_run_method_review(sample_paths, model, force=False, max_workers=5):
+                    output_path = io_utils.get_method_review_dir() / "method_review.csv"
+                    io_utils.write_csv(
+                        output_path,
+                        io_utils.METHOD_REVIEW_FIELDNAMES,
+                        [
+                            {
+                                "sample_key": sample_paths[0].stem,
+                                "case_id": "demo",
+                                "suggested_method": "regression",
+                                "proposed_new_category": "",
+                                "reason": "ok",
+                            }
+                        ],
+                    )
+                    return {"output_csv": io_utils.to_project_relative(output_path), "token_usage": {}}
+
+                async def fake_run_round0_variable_extraction(
+                    sample_paths,
+                    model,
+                    force,
+                    max_workers,
+                    output_root=None,
+                    log_dir=None,
+                ):
+                    sample_key = sample_paths[0].stem
+                    if output_root is None:
+                        output_path = io_utils.get_variable_label_path(sample_key, 0)
+                    else:
+                        output_path = Path(output_root) / "round_0" / "samples" / f"{sample_key}.json"
+                    io_utils.write_json(output_path, {"sample_key": sample_key, "variables": {}})
+                    return {"output_dir": io_utils.to_project_relative(output_path.parent), "token_usage": {}}
+
+                args = SimpleNamespace(
+                    input_dirs=[str(book1), str(book2)],
+                    limit=None,
+                    stages="method_review,variable_extract",
+                    model_major="gpt-4o",
+                    model_suggest=None,
+                    force=False,
+                    max_workers=1,
+                )
+
+                with patch.object(pipeline_module, "verify_model_access", fake_verify_model_access), patch.object(
+                    pipeline_module, "run_method_review", fake_run_method_review
+                ), patch.object(
+                    pipeline_module, "_run_round0_variable_extraction", fake_run_round0_variable_extraction
+                ):
+                    summary = asyncio.run(pipeline_module.run_pipeline(args))
+
+                self.assertEqual(summary["status"], "completed")
+                self.assertEqual(summary["run_count"], 2)
+
+                for folder_name in ("book1_r3", "book2_r3"):
+                    result_root = temp_root / "label_construct" / "results_final" / folder_name
+                    self.assertTrue((result_root / "method_review" / "method_review.csv").exists())
+                    self.assertTrue((result_root / "variable_labels" / "round_0" / "samples" / "1.json").exists())
+                    self.assertTrue((result_root / "logs" / "run_pipeline.log").exists())
+                    self.assertTrue((result_root / "runs" / "summary.json").exists())
+        finally:
+            io_utils.PROJECT_ROOT = old_project_root
+            io_utils.set_input_dir(old_input_dir)
+            io_utils.set_results_root(old_results_dir)
 
 
 if __name__ == "__main__":

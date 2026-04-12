@@ -1,0 +1,56 @@
+{
+  "sample_key": "61",
+  "case_id": "book4_r1\\019.json",
+  "source_path": "book4_r3/61.json",
+  "round": 0,
+  "variables": {
+    "Car_NO2": {
+      "id": "Car_NO2",
+      "value": [
+        69,
+        62,
+        73,
+        70,
+        68,
+        68,
+        64,
+        71
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "NO2 concentrations (ppb) in exhaust fumes of cars; its variance (12.982) is identified in the answer as the lowest variance used to compute F_max."
+    },
+    "Minibus_NO2": {
+      "id": "Minibus_NO2",
+      "value": [
+        51,
+        45,
+        59,
+        57,
+        58,
+        54,
+        46,
+        48
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "NO2 concentrations (ppb) in exhaust fumes of minibuses; its variance (30.786) is identified in the answer as the highest variance used to compute F_max."
+    },
+    "Bus_NO2": {
+      "id": "Bus_NO2",
+      "value": [
+        41,
+        48,
+        42,
+        39,
+        47,
+        49,
+        35,
+        41
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "NO2 concentrations (ppb) in exhaust fumes of buses; its variance is implicitly computed as part of the F_max test (k=3 confirms all three groups are included)."
+    }
+  }
+}

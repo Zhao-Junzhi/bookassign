@@ -1,0 +1,4 @@
+﻿sample_key,case_id,suggested_method,proposed_new_category,reason
+21,book4_r1\006.json,contingency table,,题目要求为秋季刺猬体重数据创建频数表（frequency table）。频数表本质上是将数据按类别或区间汇总频次的表格形式。虽然这里只涉及单个变量的频数分布，但在现有taxonomy中，'contingency table'类目定义涵盖了频数表（频数表、比例表等），是最接近的二级类目。尽管contingency table通常强调两个分类变量的联合分布，但其定义中明确包含'频数表'这一形式，因此选择该类目作为最贴切的匹配。
+61,book4_r1\019.json,假设检验,,本题要求使用 Hartley 的 F_max 检验来检查三组样本方差是否显著不同，即方差齐性检验（homogeneity of variances test）。这属于在进行方差分析（ANOVA）之前对等方差假设的正式统计检验。在现有 taxonomy 中，'模型诊断 > 假设检验'的定义明确包含'异方差检验'，且描述为'对模型前提假设是否成立进行正式统计检验的问题'。F_max 检验正是检验 ANOVA 模型的等方差前提假设是否成立的经典方法，因此最贴切地归入'模型诊断'下的'假设检验'二级类目。
+68,book4_r1\021.json,离散型-连续型变量关系,,题目要求绘制转换后数据的均值和标准误的线图（line plot of means and standard errors），本质上是展示连续型统计量（均值±标准误）在不同类别水平（岛屿国家 vs 大陆国家）下的中心差异与变异情况。这属于数据可视化中'离散型-连续型变量关系'类目，该类目明确包含'误差线图'这一图形形式，与本题所要求的带标准误的均值线图完全吻合。

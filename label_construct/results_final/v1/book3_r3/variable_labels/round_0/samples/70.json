@@ -1,0 +1,22 @@
+{
+  "sample_key": "70",
+  "case_id": "book3_r1\\129.json",
+  "source_path": "book3_r3/70.json",
+  "round": 0,
+  "variables": {
+    "inspection_result": {
+      "id": "inspection_result",
+      "value": [
+        "b",
+        "g",
+        "b",
+        "g",
+        "b",
+        "g"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Ordered sequence of inspection results where 'b' denotes a defective item and 'g' denotes a good item, drawn one observation at a time and used in the sequential testing plan to determine whether to accept or reject the lot."
+    }
+  }
+}

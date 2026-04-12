@@ -14,7 +14,8 @@ import random
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-INPUT_DIR = PROJECT_ROOT / "book1_r2"
+DEFAULT_INPUT_DIR = PROJECT_ROOT / "book1_r3"
+INPUT_DIR = DEFAULT_INPUT_DIR
 DEFAULT_RESULTS_DIR = PROJECT_ROOT / "label_construct" / "results"
 RESULTS_DIR = DEFAULT_RESULTS_DIR
 METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
@@ -91,10 +92,26 @@ def results_dir_name_for_model(model_name: str, default_model: str = "gpt-4o") -
     return f"results/{safe_name}"
 
 
-def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+def safe_model_name(model_name: str) -> str:
+    safe_name = re.sub(r"[^A-Za-z0-9._-]+", "_", model_name).strip("._-")
+    return safe_name or "custom_model"
+
+
+def set_input_dir(sample_dir: Path) -> Path:
+    global INPUT_DIR
+
+    INPUT_DIR = Path(sample_dir).resolve()
+    return INPUT_DIR
+
+
+def get_input_dir() -> Path:
+    return INPUT_DIR
+
+
+def set_results_root(results_dir: Path) -> Path:
     global RESULTS_DIR, METHOD_REVIEW_DIR, VARIABLE_LABELS_DIR, RUNS_DIR, LOGS_DIR
 
-    RESULTS_DIR = PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model)
+    RESULTS_DIR = Path(results_dir).resolve()
     METHOD_REVIEW_DIR = RESULTS_DIR / "method_review"
     VARIABLE_LABELS_DIR = RESULTS_DIR / "variable_labels"
     RUNS_DIR = RESULTS_DIR / "runs"
@@ -103,8 +120,20 @@ def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -
     return RESULTS_DIR
 
 
+def set_results_root_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
+    return set_results_root(PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model))
+
+
 def resolve_results_dir_for_model(model_name: str, default_model: str = "gpt-4o") -> Path:
     return PROJECT_ROOT / "label_construct" / results_dir_name_for_model(model_name, default_model)
+
+
+def resolve_final_results_dir(input_dir: Path) -> Path:
+    return PROJECT_ROOT / "label_construct" / "results_final" / Path(input_dir).resolve().name
+
+
+def get_suggest_model_results_root(model_name: str) -> Path:
+    return RESULTS_DIR / "_suggest_models" / safe_model_name(model_name)
 
 
 def get_results_dir() -> Path:
@@ -123,16 +152,21 @@ def get_logs_dir() -> Path:
     return LOGS_DIR
 
 
-def build_logger(name: str) -> logging.Logger:
+def build_logger(name: str, log_dir: Path | None = None) -> logging.Logger:
     ensure_results_tree()
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
+    for handler in logger.handlers:
+        handler.close()
     logger.handlers.clear()
     logger.propagate = False
 
     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 
-    file_handler = logging.FileHandler(LOGS_DIR / f"{name}.log", encoding="utf-8")
+    target_log_dir = Path(log_dir).resolve() if log_dir is not None else LOGS_DIR
+    target_log_dir.mkdir(parents=True, exist_ok=True)
+
+    file_handler = logging.FileHandler(target_log_dir / f"{name}.log", encoding="utf-8")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 

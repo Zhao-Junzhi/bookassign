@@ -1,0 +1,22 @@
+{
+  "sample_key": "222",
+  "case_id": "book3_r1\\60.json",
+  "source_path": "book3_r3/222.json",
+  "round": 0,
+  "variables": {
+    "λ_P": {
+      "id": "λ_P",
+      "value": 0.008,
+      "class": "numerical",
+      "role": "NR",
+      "description": "处理单元的恒定故障率（每小时），作为计算可靠性的输入数据"
+    },
+    "t": {
+      "id": "t",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "任务持续时间（小时），用于计算在该时间内的系统可靠性"
+    }
+  }
+}

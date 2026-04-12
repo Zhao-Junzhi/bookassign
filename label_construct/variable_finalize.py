@@ -107,6 +107,7 @@ async def run_variable_finalize(
     suggest_model: str,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
+    suggest_results_root: Path | None = None,
 ) -> dict[str, Any]:
     ensure_results_tree()
     logger = build_logger("variable_finalize")
@@ -125,7 +126,11 @@ async def run_variable_finalize(
     for sample_path in sample_paths:
         sample_key = sample_path.stem
         major_round0_path = get_variable_label_path(sample_key, 0)
-        suggest_round0_path = get_variable_label_path_for_model(suggest_model, sample_key, 0)
+        suggest_round0_path = (
+            Path(suggest_results_root).resolve() / "round_0" / "samples" / f"{sample_key}.json"
+            if suggest_results_root is not None
+            else get_variable_label_path_for_model(suggest_model, sample_key, 0)
+        )
         if not major_round0_path.exists():
             failures.append(
                 {

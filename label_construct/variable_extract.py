@@ -19,6 +19,7 @@ from label_construct.io_utils import (
     build_variable_label_record,
     ensure_results_tree,
     get_variable_label_path,
+    get_variable_round_samples_dir,
     iter_sample_paths,
     load_json,
     to_project_relative,
@@ -97,14 +98,27 @@ async def run_variable_extraction(
     round_index: int = 0,
     force: bool = False,
     max_workers: int = DEFAULT_MAX_WORKERS,
+    output_root: Path | None = None,
+    log_dir: Path | None = None,
 ) -> dict[str, Any]:
     ensure_results_tree()
-    logger = build_logger(f"variable_extract_round_{round_index}")
+    logger = build_logger(f"variable_extract_round_{round_index}", log_dir=log_dir)
+
+    if output_root is None:
+        def build_output_path(sample_key: str) -> Path:
+            return get_variable_label_path(sample_key, round_index)
+
+        output_dir = get_variable_round_samples_dir(round_index)
+    else:
+        output_dir = Path(output_root).resolve() / f"round_{round_index}" / "samples"
+
+        def build_output_path(sample_key: str) -> Path:
+            return output_dir / f"{sample_key}.json"
 
     cached_samples = 0
     pending_paths = []
     for sample_path in sample_paths:
-        output_path = get_variable_label_path(sample_path.stem, round_index)
+        output_path = build_output_path(sample_path.stem)
         if output_path.exists() and not force:
             cached_samples += 1
         else:
@@ -130,7 +144,7 @@ async def run_variable_extraction(
         for index, coro in enumerate(asyncio.as_completed(tasks), start=1):
             sample_key, record, error, usage = await coro
             if record is not None:
-                write_json(get_variable_label_path(sample_key, round_index), record)
+                write_json(build_output_path(sample_key), record)
                 successes += 1
                 usage_summary = merge_usage(usage_summary, usage)
             else:
@@ -139,7 +153,6 @@ async def run_variable_extraction(
             if index % 10 == 0 or index == len(tasks):
                 logger.info("变量抽取进度: round=%s, %s/%s", round_index, index, len(tasks))
 
-    output_dir = get_variable_label_path("dummy", round_index).parent
     logger.info("变量抽取结果目录: %s", to_project_relative(output_dir))
 
     return {

@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-04-12T17:57:46",
+  "input_dir": "book5_r3",
+  "model_major": "claude-opus-4-6",
+  "model_suggest": null,
+  "results_dir": "label_construct/results_final/book5_r3",
+  "logs_dir": "label_construct/results_final/book5_r3/logs",
+  "runs_dir": "label_construct/results_final/book5_r3/runs",
+  "major_results_dir": "label_construct/results_final/book5_r3",
+  "suggest_results_dir": "",
+  "stages": [
+    "method_review",
+    "variable_extract"
+  ],
+  "limit": 3,
+  "force": false,
+  "sample_count": 3,
+  "sample_keys": [
+    "30",
+    "120",
+    "191"
+  ],
+  "method_review": {
+    "output_csv": "label_construct/results_final/book5_r3/method_review/method_review.csv",
+    "selected_samples": 3,
+    "processed_samples": 3,
+    "cached_samples": 0,
+    "success_count": 3,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 29489,
+      "completion_tokens": 2716,
+      "total_tokens": 32205,
+      "request_count": 3
+    }
+  },
+  "variable_extract": {
+    "major": {
+      "round": 0,
+      "output_dir": "label_construct/results_final/book5_r3/variable_labels/round_0/samples",
+      "selected_samples": 3,
+      "processed_samples": 3,
+      "cached_samples": 0,
+      "success_count": 3,
+      "fallback_count": 0,
+      "fallback_samples": [],
+      "failed_count": 0,
+      "failures": [],
+      "token_usage": {
+        "prompt_tokens": 9154,
+        "completion_tokens": 4793,
+        "total_tokens": 13947,
+        "request_count": 3
+      }
+    }
+  },
+  "final_outputs": {
+    "mode": "copy_major_round0",
+    "output_dir": "label_construct/results_final/book5_r3/variable_labels/final",
+    "samples_dir": "label_construct/results_final/book5_r3/variable_labels/final/samples",
+    "copied_count": 3,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  },
+  "status": "completed",
+  "token_usage": {
+    "method_review": {
+      "prompt_tokens": 29489,
+      "completion_tokens": 2716,
+      "total_tokens": 32205,
+      "request_count": 3
+    },
+    "variable_extract_major_round_0": {
+      "prompt_tokens": 9154,
+      "completion_tokens": 4793,
+      "total_tokens": 13947,
+      "request_count": 3
+    },
+    "variable_extract_suggest_round_0": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_finalize": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "first_pass_total": {
+      "prompt_tokens": 38643,
+      "completion_tokens": 7509,
+      "total_tokens": 46152,
+      "request_count": 6
+    }
+  }
+}
