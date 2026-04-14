@@ -215,3 +215,45 @@ v1 目前已经能产出结构化结果，但质量仍存在明显问题。
 2. 尝试用多个模型进行审阅，以求降低漏检率
 3. 继续优化 prompt，针对高频错误类型建立专门规则
 4. 在 method 审阅结果更可靠之后，完善 method taxonomy
+
+# v2已完成工作梳理
+
+## 目标
+将标签构建流程从 case study 式的小规模试跑，扩展为可直接覆盖全部教材样本目录的稳定流水线，并把“方法标签”和“变量标签”都独立保存到 `label_construct/results_final/<目录名>/` 下，便于分书追踪、缓存复用和后续人工检查。
+
+## 主要思路
+
+### 1. 多目录批量运行
+- `label_construct/run_pipeline.py` 现在支持通过 `--input-dirs` 传入一个或多个样本目录，例如 `book1_r3 book2_r3 ...`
+- 流水线会对这些目录逐个串行处理，每个目录独立生成自己的结果目录、日志和摘要
+- 不同教材目录之间不共享最终结果路径，避免缓存和输出互相覆盖
+
+### 2. 方法标签改为独立 CSV 管理
+- 方法审阅结果统一写入 `label_construct/results_final/<目录名>/method_review/method_review.csv`
+- 每条记录包含 `sample_key`、`case_id`、`suggested_method`、`proposed_new_category`、`reason`
+- `suggested_method` 统一要求为 `一级类目名\二级类目名`
+- 对旧缓存中的仅二级类目结果，先根据 `METHOD_TAXONOMY_TEXT` 做自动补全；只有在二级类目唯一归属于某个一级类目时才自动改写
+- 方法审阅缓存规则支持两种模式：
+  - `--update_method true`：只把格式完整的 `一级\二级` 标签视为命中缓存
+  - `--update_method false`：只要 `sample_key` 已存在于 `method_review.csv` 就视为命中缓存
+
+### 3. 变量标签按“主模型抽取 + 可选建议模型 + 终审”组织
+- `variable_extract` 会先生成主模型的 `round_0` 变量标签
+- 如果提供 `model_suggest`，会额外生成 suggest 模型的 `round_0` 结果，供后续终审参考
+- `variable_finalize` 由主模型综合 major/suggest 两份结果，决定是否修改，并把最终版本写入 `variable_labels/final/`
+- 如果没有提供 `model_suggest`，则直接把 major 的 `round_0` 复制到 `final`
+
+### 4. 结果与日志按目录隔离
+- 每个输入目录都会生成独立的：
+  - `method_review/`
+  - `variable_labels/`
+  - `logs/`
+  - `runs/summary.json`
+- `summary.json` 中记录当前输入目录、模型、阶段、样本数、缓存情况和 token 使用量，方便后续统计
+- `logs/*.log` 用于定位具体样本的失败原因，例如 JSON 解析失败、标签格式错误、变量缺失等
+
+### 5. 当前版本工作流的整体特点
+- 不再回写原始样本 JSON，标签结果与原始数据分离
+- 以“目录级别批处理 + 样本级缓存 + 日志级溯源”为主线
+- 方法标签和变量标签都支持部分重跑与强制覆盖
+- 已能支撑 `book*_r3` 全量样本的初步打标与复查

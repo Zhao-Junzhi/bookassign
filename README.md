@@ -4,7 +4,7 @@
 
 ```
 bookassign/
-├── label_construct/    # v1 标签构建与审阅流水线
+├── label_construct/    # 标签构建与审阅流水线_v2
 ├── book1/              # 原始JSON文件目录
 ├── book1_r1/           # 处理后的JSON文件目录
 ├── book1_r2/           # 分割后的JSON文件目录
@@ -72,26 +72,116 @@ python judge_exercises.py
 python process_book1.py
 ```
 
-### 5. v1 标签构建与审阅流水线
+### 5. 标签构建与审阅流水线_v2
 
-对 `book1_r2` 中的样本运行方法审阅、变量抽取、变量审阅与多轮修正：
+当前版本的标签流水线代码位于 `label_construct/`，默认针对类似 `book1_r3`、`book2_r3` 这样的样本目录运行，并把结果统一写入 `label_construct/results_final/<目录名>/`。方法标签与变量标签不再回写到原始样本 JSON。
 
-```bash
-python3 label_construct/run_pipeline.py --limit 20
-```
+#### 5.1 完整运行
 
-只跑部分阶段：
+对单个目录运行方法审阅、变量抽取、变量终审：
 
 ```bash
-python3 label_construct/run_pipeline.py --stages method_review,variable_extract --limit 10
+python3 label_construct/run_pipeline.py \
+  --input-dirs book1_r3 \
+  --model_major claude-opus-4-6 \
+  --model_suggest gpt-5.4
 ```
 
-常用参数：
+对多个目录串行运行：
 
-- `--limit N`：按样本编号升序只处理前 `N` 条样本，适合小规模调试。
-- `--max-rounds 3`：变量修正最大轮数，默认 3。
-- `--stages ...`：可选 `method_review`、`variable_extract`、`variable_iterate`。
-- `--force`：忽略已有结果，强制重跑。
+```bash
+python3 label_construct/run_pipeline.py \
+  --input-dirs book1_r3 book2_r3 book3_r3 \
+  --model_major claude-opus-4-6 \
+  --model_suggest gpt-5.4
+```
+
+如果只想运行前两个阶段：
+
+```bash
+python3 label_construct/run_pipeline.py \
+  --input-dirs book1_r3 \
+  --model_major claude-opus-4-6 \
+  --stages method_review,variable_extract
+```
+
+#### 5.2 方法审阅的单独运行与缓存预处理
+
+只对某个目录做方法审阅：
+
+```bash
+python3 label_construct/method_review.py \
+  --input-dir book1_r3 \
+  --model claude-opus-4-6
+```
+
+只做 `method_review.csv` 的缓存预处理（将二级标题转化为“一级\二级”格式），不调用 LLM：
+
+```bash
+python3 label_construct/method_review.py \
+  --input-dir book1_r3 \
+  --normalize-cache-only
+```
+
+#### 5.3 常用参数
+
+- `--input-dirs ...`：`run_pipeline.py` 的输入目录列表，支持一个或多个样本目录。
+- `--input-dir ...`：`method_review.py` 的单目录入口。
+- `--model_major`：主模型，用于方法审阅、主变量抽取和变量终审。
+- `--model_suggest`：建议模型；提供后会额外生成一份 suggest 变量抽取结果，并进入 `variable_finalize`。
+- `--stages ...`：可选 `method_review`、`variable_extract`、`variable_finalize`。
+- `--limit N`：只处理当前目录中的前 `N` 条样本，适合调试。
+- `--force`：忽略已有缓存，强制重跑。
+- `--max-workers N`：控制并发请求数。
+- `--update_method true/false`：控制方法审阅的缓存命中规则。
+  - `true`：要求 `method_review.csv` 中 `suggested_method` 非空，且为 `一级类目名\二级类目名` 格式。
+  - `false`：只要 `sample_key` 已存在于 `method_review.csv` 就算命中缓存。
+
+#### 5.4 标签结果的保存方式、格式与路径
+
+当前版本有两类标签结果：方法标签与变量标签。它们都保存在 `label_construct/results_final/<目录名>/` 下。
+
+1. 方法标签
+
+- 路径：`label_construct/results_final/<目录名>/method_review/method_review.csv`
+- 格式：CSV
+- 字段：
+  - `sample_key`
+  - `case_id`
+  - `suggested_method`
+  - `proposed_new_category`
+  - `reason`
+- 说明：
+  - `suggested_method` 现要求为 `一级类目名\二级类目名`
+  - 若现有 taxonomy 不合适，则 `suggested_method` 为空，`proposed_new_category` 填建议新增类目
+
+2. 变量标签
+
+- 主路径：
+  - `label_construct/results_final/<目录名>/variable_labels/round_0/samples/*.json`
+  - `label_construct/results_final/<目录名>/variable_labels/final/samples/*.json`
+  - `label_construct/results_final/<目录名>/variable_labels/final/review.csv`
+- 格式：
+  - 样本级标签为 JSON
+  - 终审记录为 CSV
+- JSON 结构（样本级）：
+  - 顶层包含 `sample_key`、`case_id`、`source_path`、`round`、`variables`
+  - `variables` 是一个以变量 id 为 key 的对象，每个变量包含：
+    - `id`
+    - `value`
+    - `class`
+    - `role`
+    - `description`
+- `final/review.csv` 字段：
+  - `sample_key`
+  - `modify`
+  - `reason`
+
+3. 运行日志与摘要
+
+- 日志路径：`label_construct/results_final/<目录名>/logs/*.log`
+- 流水线摘要：`label_construct/results_final/<目录名>/runs/summary.json`
+- 当提供 `model_suggest` 时，suggest 模型的中间变量抽取结果也会写在该目录下的私有子目录中，不与其他教材目录混用
 
 ## 输出说明
 
@@ -110,12 +200,9 @@ python3 label_construct/run_pipeline.py --stages method_review,variable_extract 
 
 4. **处理报告**：生成各种处理报告，如 `variables_processing_report.txt` 和 `exercise_judgment_report.txt`
 
-5. **v1 标签流水线结果**：默认保存在 `label_construct/results/`，主要包括：
+5. **标签流水线 v2 结果**：默认保存在 `label_construct/results_final/<目录名>/`，主要包括：
    - `method_review/method_review.csv`
    - `variable_labels/round_0/samples/*.json`
-   - `variable_labels/round_0/review.csv`
-   - `variable_labels/round_1/samples/*.json`
-   - `variable_labels/round_1/review.csv`
    - `variable_labels/final/samples/*.json`
    - `variable_labels/final/review.csv`
    - `runs/summary.json`
