@@ -18,6 +18,10 @@ from label_construct.client import extract_json_from_text
 from label_construct import io_utils
 
 prompts_stub = ModuleType("label_construct.prompts")
+prompts_stub.METHOD_TAXONOMY_TEXT = """
+- “描述性统计量”部分包括：["集中趋势测度","似然比检验"]。
+- “模型比较（变量选择）”部分包括：["似然比检验"]。
+"""
 prompts_stub.build_method_review_prompt = lambda sample: {}
 prompts_stub.build_variable_extract_prompt = lambda sample: {}
 prompts_stub.build_variable_extract_retry_prompt = lambda sample: {}
@@ -39,6 +43,13 @@ class LabelConstructTests(unittest.TestCase):
         self.assertEqual(
             extract_json_from_text(content),
             {"is_consistent": 1, "reason": "ok"},
+        )
+
+    def test_extract_json_from_text_repairs_single_backslash_in_json_string(self) -> None:
+        content = '```json\n{"suggested_method":"数学计算\\事件发生概率及独立性","reason":"ok"}\n```'
+        self.assertEqual(
+            extract_json_from_text(content),
+            {"suggested_method": "数学计算\\事件发生概率及独立性", "reason": "ok"},
         )
 
     def test_iter_sample_paths_uses_numeric_sort(self) -> None:
@@ -254,6 +265,7 @@ class LabelConstructTests(unittest.TestCase):
                     model_suggest=None,
                     force=False,
                     max_workers=1,
+                    update_method=True,
                 )
 
                 with patch.object(pipeline_module, "verify_model_access", fake_verify_model_access), patch.object(
@@ -276,6 +288,247 @@ class LabelConstructTests(unittest.TestCase):
             io_utils.PROJECT_ROOT = old_project_root
             io_utils.set_input_dir(old_input_dir)
             io_utils.set_results_root(old_results_dir)
+
+    def test_method_review_cache_requires_non_empty_suggested_method(self) -> None:
+        from label_construct import method_review
+
+        self.assertTrue(method_review._has_cacheable_suggested_method({"suggested_method": "描述性统计量\\集中趋势测度"}))
+        self.assertTrue(method_review._has_cacheable_suggested_method({"suggested_method": "集中趋势测度"}))
+        self.assertFalse(method_review._has_cacheable_suggested_method({"suggested_method": ""}))
+        self.assertFalse(method_review._has_cacheable_suggested_method({"suggested_method": "   "}))
+        self.assertFalse(method_review._has_cacheable_suggested_method({"suggested_method": "似然比检验"}))
+
+    def test_method_review_update_method_false_uses_sample_key_only_cache(self) -> None:
+        from label_construct import method_review
+
+        old_results_dir = io_utils.get_results_dir()
+
+        class ExplodingClient:
+            def __init__(self, model: str, logger) -> None:
+                raise AssertionError("LLMClient should not be called when update_method=false and sample_key exists")
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                temp_root = Path(tmpdir)
+                io_utils.set_results_root(temp_root / "results")
+
+                sample_path = temp_root / "book1_r3" / "1.json"
+                sample_path.parent.mkdir(parents=True, exist_ok=True)
+                sample_path.write_text('{"sample_key":"1","case_id":"demo"}', encoding="utf-8")
+
+                output_path = io_utils.get_method_review_dir() / "method_review.csv"
+                io_utils.write_csv(
+                    output_path,
+                    io_utils.METHOD_REVIEW_FIELDNAMES,
+                    [
+                        {
+                            "sample_key": "1",
+                            "case_id": "demo",
+                            "suggested_method": "",
+                            "proposed_new_category": "old_category",
+                            "reason": "old reason",
+                        }
+                    ],
+                )
+
+                with patch.object(method_review, "LLMClient", ExplodingClient):
+                    summary = asyncio.run(
+                        method_review.run_method_review(
+                            sample_paths=[sample_path],
+                            model="gpt-4o",
+                            force=False,
+                            max_workers=1,
+                            update_method=False,
+                        )
+                    )
+
+                self.assertEqual(summary["cached_samples"], 1)
+                self.assertEqual(summary["processed_samples"], 0)
+                self.assertFalse(summary["update_method"])
+        finally:
+            io_utils.set_results_root(old_results_dir)
+
+    def test_method_review_normalizes_unique_secondary_method_path(self) -> None:
+        from label_construct import method_review
+
+        self.assertEqual(
+            method_review._normalize_suggested_method("集中趋势测度"),
+            "描述性统计量\\集中趋势测度",
+        )
+        self.assertEqual(
+            method_review._normalize_suggested_method("描述性统计量\\集中趋势测度"),
+            "描述性统计量\\集中趋势测度",
+        )
+        self.assertEqual(
+            method_review._normalize_suggested_method("似然比检验"),
+            "似然比检验",
+        )
+
+    def test_method_review_overwrites_existing_csv_row_for_missed_cache(self) -> None:
+        from label_construct import method_review
+
+        old_results_dir = io_utils.get_results_dir()
+
+        class FakeClient:
+            def __init__(self, model: str, logger) -> None:
+                self.model = model
+                self.logger = logger
+
+            async def generate_json_with_usage(self, prompt):
+                return (
+                    {
+                        "suggested_method": "描述性统计量\\集中趋势测度",
+                        "proposed_new_category": "",
+                        "reason": "new reason",
+                    },
+                    {"prompt_tokens": 1, "total_tokens": 2, "request_count": 1},
+                )
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                temp_root = Path(tmpdir)
+                io_utils.set_results_root(temp_root / "results")
+
+                sample_path = temp_root / "book1_r3" / "1.json"
+                sample_path.parent.mkdir(parents=True, exist_ok=True)
+                sample_path.write_text('{"sample_key":"1","case_id":"demo"}', encoding="utf-8")
+
+                output_path = io_utils.get_method_review_dir() / "method_review.csv"
+                io_utils.write_csv(
+                    output_path,
+                    io_utils.METHOD_REVIEW_FIELDNAMES,
+                    [
+                        {
+                            "sample_key": "1",
+                            "case_id": "demo",
+                            "suggested_method": "",
+                            "proposed_new_category": "old_category",
+                            "reason": "old reason",
+                        }
+                    ],
+                )
+
+                with patch.object(method_review, "LLMClient", FakeClient):
+                    summary = asyncio.run(
+                        method_review.run_method_review(
+                            sample_paths=[sample_path],
+                            model="gpt-4o",
+                            force=False,
+                            max_workers=1,
+                        )
+                    )
+
+                rows = io_utils.load_csv_rows(output_path)
+                self.assertEqual(summary["cached_samples"], 0)
+                self.assertEqual(summary["processed_samples"], 1)
+                self.assertEqual(len(rows), 1)
+                self.assertEqual(rows[0]["sample_key"], "1")
+                self.assertEqual(rows[0]["suggested_method"], "描述性统计量\\集中趋势测度")
+                self.assertEqual(rows[0]["proposed_new_category"], "")
+                self.assertEqual(rows[0]["reason"], "new reason")
+        finally:
+            io_utils.set_results_root(old_results_dir)
+
+    def test_method_review_fixes_existing_csv_method_path_before_cache_check(self) -> None:
+        from label_construct import method_review
+
+        old_results_dir = io_utils.get_results_dir()
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                temp_root = Path(tmpdir)
+                io_utils.set_results_root(temp_root / "results")
+
+                sample_path = temp_root / "book1_r3" / "1.json"
+                sample_path.parent.mkdir(parents=True, exist_ok=True)
+                sample_path.write_text('{"sample_key":"1","case_id":"demo"}', encoding="utf-8")
+
+                output_path = io_utils.get_method_review_dir() / "method_review.csv"
+                io_utils.write_csv(
+                    output_path,
+                    io_utils.METHOD_REVIEW_FIELDNAMES,
+                    [
+                        {
+                            "sample_key": "1",
+                            "case_id": "demo",
+                            "suggested_method": "集中趋势测度",
+                            "proposed_new_category": "",
+                            "reason": "old reason",
+                        }
+                    ],
+                )
+
+                summary = asyncio.run(
+                    method_review.run_method_review(
+                        sample_paths=[sample_path],
+                        model="gpt-4o",
+                        force=False,
+                        max_workers=1,
+                    )
+                )
+
+                rows = io_utils.load_csv_rows(output_path)
+                self.assertEqual(summary["cached_samples"], 1)
+                self.assertEqual(summary["processed_samples"], 0)
+                self.assertEqual(rows[0]["suggested_method"], "描述性统计量\\集中趋势测度")
+        finally:
+            io_utils.set_results_root(old_results_dir)
+
+    def test_build_method_review_prompt_requires_full_method_path(self) -> None:
+        prompt_file = (
+            Path("/Users/wangchen/文档/Research/repositories/bookassign/label_construct/prompts.py")
+            .read_text(encoding="utf-8")
+        )
+        self.assertIn("一级类目名\\二级类目名", prompt_file)
+
+    def test_normalize_method_review_cache_repairs_existing_csv(self) -> None:
+        from label_construct import method_review
+
+        old_results_dir = io_utils.get_results_dir()
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                temp_root = Path(tmpdir)
+                io_utils.set_results_root(temp_root / "results")
+
+                output_path = io_utils.get_method_review_dir() / "method_review.csv"
+                io_utils.write_csv(
+                    output_path,
+                    io_utils.METHOD_REVIEW_FIELDNAMES,
+                    [
+                        {
+                            "sample_key": "1",
+                            "case_id": "demo",
+                            "suggested_method": "集中趋势测度",
+                            "proposed_new_category": "",
+                            "reason": "old reason",
+                        },
+                        {
+                            "sample_key": "2",
+                            "case_id": "demo",
+                            "suggested_method": "似然比检验",
+                            "proposed_new_category": "",
+                            "reason": "ambiguous",
+                        },
+                    ],
+                )
+
+                summary = method_review.normalize_method_review_cache(force=False)
+                rows = io_utils.load_csv_rows(output_path)
+
+                self.assertEqual(summary["row_count"], 2)
+                self.assertEqual(summary["cacheable_count"], 1)
+                self.assertEqual(rows[0]["suggested_method"], "描述性统计量\\集中趋势测度")
+                self.assertEqual(rows[1]["suggested_method"], "似然比检验")
+        finally:
+            io_utils.set_results_root(old_results_dir)
+
+    def test_method_review_source_contains_normalize_cache_only_flag(self) -> None:
+        source = Path(
+            "/Users/wangchen/文档/Research/repositories/bookassign/label_construct/method_review.py"
+        ).read_text(encoding="utf-8")
+        self.assertIn("--normalize-cache-only", source)
+        self.assertIn("--update_method", source)
 
 
 if __name__ == "__main__":

@@ -199,8 +199,18 @@ def repair_json_like_text(text: str) -> str:
             continue
 
         if char == "\\":
-            chars.append(char)
-            escaped = True
+            next_char = repaired[index + 1] if index + 1 < len(repaired) else ""
+            if next_char in {"\"", "\\", "/", "b", "f", "n", "r", "t"}:
+                chars.append(char)
+                escaped = True
+                continue
+            if next_char == "u" and index + 5 < len(repaired):
+                hex_part = repaired[index + 2 : index + 6]
+                if re.fullmatch(r"[0-9a-fA-F]{4}", hex_part):
+                    chars.append(char)
+                    escaped = True
+                    continue
+            chars.append("\\\\")
             continue
 
         if char == "\"":

@@ -262,6 +262,7 @@ async def _run_pipeline_once(args, input_dir: Path) -> dict[str, object]:
                 model=args.model_major,
                 force=args.force,
                 max_workers=args.max_workers,
+                update_method=args.update_method,
             )
 
         if needs_variable_base:
@@ -347,6 +348,12 @@ def main() -> None:
     parser.add_argument("--model_suggest", type=str, default=None, help="Suggest model name. If omitted, skip variable finalize.")
     parser.add_argument("--force", action="store_true", help="Recompute outputs even if existing results are found.")
     parser.add_argument("--max-workers", type=int, default=5, help="Concurrent request count.")
+    parser.add_argument(
+        "--update_method",
+        type=lambda value: str(value).strip().lower() in {"1", "true", "yes", "y"},
+        default=True,
+        help="Whether method_review cache requires a non-empty 一级类目\\二级类目 suggested_method. Use false to cache by sample_key only.",
+    )
     args = parser.parse_args()
 
     summary = asyncio.run(run_pipeline(args))
