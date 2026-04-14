@@ -1,3 +1,0 @@
-2026-04-11 10:52:09,953 - INFO - 流水线开始: major=claude-opus-4-6, suggest=None, stages=['method_review', 'variable_extract'], sample_count=1, force=False
-2026-04-11 10:54:09,002 - INFO - 未提供 suggest 模型，已将 major round_0 结果复制到 final/samples: copied=1
-2026-04-11 10:54:09,004 - INFO - 流水线摘要已写入 label_construct/results/claude-opus-4-6/runs/summary.json

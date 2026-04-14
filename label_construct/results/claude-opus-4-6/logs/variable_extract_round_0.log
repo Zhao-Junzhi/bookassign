@@ -1,3 +1,0 @@
-2026-04-11 10:52:26,253 - INFO - 变量抽取开始: round=0, 样本=1, 缓存命中=0, 待处理=1
-2026-04-11 10:54:09,000 - INFO - 变量抽取进度: round=0, 1/1
-2026-04-11 10:54:09,001 - INFO - 变量抽取结果目录: label_construct/results/claude-opus-4-6/variable_labels/round_0/samples
