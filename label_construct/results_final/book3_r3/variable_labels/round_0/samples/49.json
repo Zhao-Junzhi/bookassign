@@ -1,0 +1,37 @@
+{
+  "sample_key": "49",
+  "case_id": "book3_r1\\119.json",
+  "source_path": "book3_r3/49.json",
+  "round": 0,
+  "variables": {
+    "observed_counts": {
+      "id": "observed_counts",
+      "value": {
+        "scrapped": 20,
+        "reworked": 25,
+        "acceptable": 455
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed counts from this year's inspection of 500 units: 20 scrapped, 25 reworked, and 455 acceptable (500 - 20 - 25)."
+    },
+    "expected_proportions": {
+      "id": "expected_proportions",
+      "value": {
+        "scrapped": 0.03,
+        "reworked": 0.06,
+        "acceptable": 0.91
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Expected proportions from last year's manufacturing process: 3% scrapped, 6% reworked, 91% acceptable, used to compute expected counts for the Chi-square test."
+    },
+    "n": {
+      "id": "n",
+      "value": 500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of units inspected this year, used to compute expected counts."
+    }
+  }
+}

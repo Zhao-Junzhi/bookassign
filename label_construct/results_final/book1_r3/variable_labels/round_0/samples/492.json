@@ -1,0 +1,29 @@
+{
+  "sample_key": "492",
+  "case_id": "book1_r1\\record_348.json",
+  "source_path": "book1_r3/492.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients (trials) in the binomial experiment, used as n in the binomial formula."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of success for each treatment; also used to derive q = 1 - p = 0.25 in the answer."
+    },
+    "x": {
+      "id": "x",
+      "value": 0,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes for which the binomial probability is being calculated (i.e., no successes)."
+    }
+  }
+}

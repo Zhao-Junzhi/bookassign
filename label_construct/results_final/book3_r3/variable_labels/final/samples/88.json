@@ -1,0 +1,36 @@
+{
+  "sample_key": "88",
+  "case_id": "book3_r1\\138.json",
+  "source_path": "book3_r3/88.json",
+  "round": 0,
+  "variables": {
+    "R_p": {
+      "id": "R_p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability of a single pump over the life span of the plant."
+    },
+    "num_cooling_loops": {
+      "id": "num_cooling_loops",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of identical cooling loops in the cooling system."
+    },
+    "min_loops_required": {
+      "id": "min_loops_required",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of cooling loops that must operate successfully for the system to function (k-out-of-n requirement)."
+    },
+    "pumps_per_loop": {
+      "id": "pumps_per_loop",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of identical pumps connected in parallel within each cooling loop."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sample_key": "193",
+  "case_id": "book1_r1\\record_083.json",
+  "source_path": "book1_r3/193.json",
+  "round": 0,
+  "variables": {
+    "birth_weight": {
+      "id": "birth_weight",
+      "value": {
+        "sample_mean": 5.8,
+        "population_std": 2,
+        "sample_size": 9
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Birth weights of full-term infants (in pounds). The population standard deviation is 2 pounds, with a sample of size n=9 and sample mean x̄=5.8 pounds, used to calculate the 95% confidence interval for the population mean μ."
+    }
+  }
+}

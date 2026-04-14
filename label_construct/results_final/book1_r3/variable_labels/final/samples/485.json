@@ -1,0 +1,36 @@
+{
+  "sample_key": "485",
+  "case_id": "book1_r1\\record_343.json",
+  "source_path": "book1_r3/485.json",
+  "round": 0,
+  "variables": {
+    "Pr(B|A)": {
+      "id": "Pr(B|A)",
+      "value": 0.4286,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Conditional probability of dog ownership given cat ownership, used directly in the total probability rule calculation."
+    },
+    "Pr(A)": {
+      "id": "Pr(A)",
+      "value": 0.35,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of cat ownership (event A), used in the total probability rule calculation."
+    },
+    "Pr(B|¬A)": {
+      "id": "Pr(B|¬A)",
+      "value": 0.2308,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Conditional probability of dog ownership given no cat ownership, derived in the background and used in the total probability rule calculation."
+    },
+    "Pr(¬A)": {
+      "id": "Pr(¬A)",
+      "value": 0.65,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of not owning a cat, complement of Pr(A), used in the total probability rule calculation."
+    }
+  }
+}

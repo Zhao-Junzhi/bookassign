@@ -1,0 +1,38 @@
+{
+  "sample_key": "388",
+  "case_id": "book1_r1\\record_154.json",
+  "source_path": "book1_r3/388.json",
+  "round": 0,
+  "variables": {
+    "Cases": {
+      "id": "Cases",
+      "value": {
+        "20+ g/day": 64,
+        "0-19 g/day": 136
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of esophageal cancer cases by tobacco use group. Together with Noncases, these form the 2x2 contingency table used to compute the odds ratio."
+    },
+    "Noncases": {
+      "id": "Noncases",
+      "value": {
+        "20+ g/day": 150,
+        "0-19 g/day": 625
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of noncases (controls) by tobacco use group. Together with Cases, these form the 2x2 contingency table used to compute the odds ratio."
+    },
+    "Tobacco": {
+      "id": "Tobacco",
+      "value": [
+        "20+ g/day",
+        "0-19 g/day"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Tobacco use dichotomized at 20 grams/day, serving as the exposure (risk factor) variable in the case-control study."
+    }
+  }
+}

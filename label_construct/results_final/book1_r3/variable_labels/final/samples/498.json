@@ -1,0 +1,36 @@
+{
+  "sample_key": "498",
+  "case_id": "book1_r1\\record_349.json",
+  "source_path": "book1_r3/498.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, the number of individuals in the simple random sample."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prevalence of asthma in the population, used as the probability of success in each trial."
+    },
+    "q": {
+      "id": "q",
+      "value": 0.96,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of not having asthma (1 - p), used as the probability of failure in each trial."
+    },
+    "x": {
+      "id": "x",
+      "value": 0,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of asthmatics observed in the sample, set to 0 for this problem asking the probability of observing no asthmatics."
+    }
+  }
+}

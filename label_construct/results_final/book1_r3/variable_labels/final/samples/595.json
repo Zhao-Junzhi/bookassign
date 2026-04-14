@@ -1,0 +1,20 @@
+{
+  "sample_key": "595",
+  "case_id": "book1_r1\\record_383.json",
+  "source_path": "book1_r3/595.json",
+  "round": 0,
+  "variables": {
+    "d": {
+      "id": "d",
+      "value": {
+        "n": 12,
+        "mean": 0.3808,
+        "sd": 0.4335,
+        "SE": 0.1251
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Paired differences from the oat bran illustrative data set; the answer uses the sample mean (x̄_d = 0.3808) and the standard error (SE = 0.1251, derived from s_d and n_d) to compute the 90% confidence interval for the population mean difference μ_d."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sample_key": "48",
+  "case_id": "book4_r1\\016.json",
+  "source_path": "book4_r3/48.json",
+  "round": 0,
+  "variables": {
+    "Engine_size": {
+      "id": "Engine_size",
+      "value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.1,
+        1.1,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.4,
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        1.8,
+        1.8
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Engine size in litres for each make of car, used as the independent variable in the regression analysis."
+    },
+    "Fuel_economy": {
+      "id": "Fuel_economy",
+      "value": [
+        14.3,
+        16.4,
+        16.7,
+        17.2,
+        17.6,
+        17.6,
+        18.2,
+        14.9,
+        14.9,
+        12.7,
+        12.8,
+        13.5,
+        13.9,
+        14.5,
+        15.2,
+        15.6,
+        12.0,
+        12.4,
+        12.5,
+        12.8,
+        13.9,
+        14.7,
+        11.5,
+        12.8
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Fuel economy in km per litre for each make of car, used as the dependent variable in the regression analysis."
+    }
+  }
+}

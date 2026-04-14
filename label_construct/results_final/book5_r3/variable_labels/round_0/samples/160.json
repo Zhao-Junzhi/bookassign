@@ -1,0 +1,49 @@
+{
+  "sample_key": "160",
+  "case_id": "book5_r1\\055.json",
+  "source_path": "book5_r3/160.json",
+  "round": 0,
+  "variables": {
+    "LRI_count": {
+      "id": "LRI_count",
+      "value": {
+        "0-30": 1,
+        "31-40": 4,
+        "41-50": 10,
+        "51-60": 41,
+        "61+": 86,
+        "Total": 142
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with lower respiratory tract infection (LRI) in each respiratory rate category. Used to calculate sensitivity and PPV at the >50 breaths/min cut-off."
+    },
+    "URI_count": {
+      "id": "URI_count",
+      "value": {
+        "0-30": 16,
+        "31-40": 77,
+        "41-50": 46,
+        "51-60": 9,
+        "61+": 3,
+        "Total": 151
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with upper respiratory tract infection (URI) in each respiratory rate category. Used to calculate the proportion of unnecessarily treated infants at the >50 breaths/min cut-off."
+    },
+    "respiratory_rate_group": {
+      "id": "respiratory_rate_group",
+      "value": [
+        "0-30",
+        "31-40",
+        "41-50",
+        "51-60",
+        "61+"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Respiratory rate categories (breaths/min) used as the diagnostic criterion. The cut-off of >50 breaths/min is applied to classify children as having LRI or URI."
+    }
+  }
+}

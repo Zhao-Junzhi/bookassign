@@ -1,0 +1,39 @@
+{
+  "sample_key": "556",
+  "case_id": "book1_r1\\record_370.json",
+  "source_path": "book1_r3/556.json",
+  "round": 0,
+  "variables": {
+    "intelligence_scores": {
+      "id": "intelligence_scores",
+      "value": [
+        116,
+        128,
+        125,
+        119,
+        89,
+        99,
+        105,
+        116,
+        118
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Intelligence test scores of the 9 sampled children from the community, with sample mean x̄=112.8, used to test whether the community's children have above-average intelligence."
+    },
+    "population_mean": {
+      "id": "population_mean",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population mean (μ=100) of the intelligence test scores under the null hypothesis."
+    },
+    "population_sd": {
+      "id": "population_sd",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population standard deviation (σ=15) of the intelligence test scores, used in computing the test statistic."
+    }
+  }
+}

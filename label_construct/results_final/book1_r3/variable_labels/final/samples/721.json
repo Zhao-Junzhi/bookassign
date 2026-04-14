@@ -1,0 +1,36 @@
+{
+  "sample_key": "721",
+  "case_id": "book1_r1\\record_429.json",
+  "source_path": "book1_r3/721.json",
+  "round": 0,
+  "variables": {
+    "Estrogen_plus_cases": {
+      "id": "Estrogen_plus_cases",
+      "value": 751,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of cases in the Estrogen+ group (used to compute p̂₁ = 751/8506 and the standard error of ln(RR))"
+    },
+    "Estrogen_plus_total": {
+      "id": "Estrogen_plus_total",
+      "value": 8506,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Total number of women in the Estrogen+ group (used to compute p̂₁ and the standard error of ln(RR))"
+    },
+    "Estrogen_minus_cases": {
+      "id": "Estrogen_minus_cases",
+      "value": 623,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of cases in the Estrogen- group (used to compute p̂₂ = 623/8102 and the standard error of ln(RR))"
+    },
+    "Estrogen_minus_total": {
+      "id": "Estrogen_minus_total",
+      "value": 8102,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Total number of women in the Estrogen- group (used to compute p̂₂ and the standard error of ln(RR))"
+    }
+  }
+}

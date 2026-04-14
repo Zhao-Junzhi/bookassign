@@ -1,0 +1,36 @@
+{
+  "sample_key": "21",
+  "case_id": "book4_r1\\006.json",
+  "source_path": "book4_r3/21.json",
+  "round": 0,
+  "variables": {
+    "Autumn_mass": {
+      "id": "Autumn_mass",
+      "value": [
+        0.91,
+        0.87,
+        0.97,
+        0.79,
+        1.09,
+        0.96,
+        0.98,
+        0.82,
+        0.84,
+        0.89,
+        1.01,
+        0.92,
+        0.7,
+        0.88,
+        0.91,
+        0.89,
+        0.79,
+        0.81,
+        0.99,
+        0.75
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mass (in kilograms) of 20 hedgehogs sampled in autumn (before hibernation). The answer constructs a frequency table solely from these values."
+    }
+  }
+}

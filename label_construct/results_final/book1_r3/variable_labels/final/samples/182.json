@@ -1,0 +1,36 @@
+{
+  "sample_key": "182",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r3/182.json",
+  "round": 0,
+  "variables": {
+    "sample_mean": {
+      "id": "sample_mean",
+      "value": 70,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Average height of the SRS of 18 male students at the university (sample mean, in inches)."
+    },
+    "population_mean": {
+      "id": "population_mean",
+      "value": 69,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Average height of men in the general population (hypothesized population mean, in inches)."
+    },
+    "n": {
+      "id": "n",
+      "value": 18,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of male students in the SRS."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 2.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known population standard deviation of male height (in inches)."
+    }
+  }
+}

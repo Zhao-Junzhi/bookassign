@@ -1,0 +1,22 @@
+{
+  "sample_key": "40",
+  "case_id": "book4_r1\\013.json",
+  "source_path": "book4_r3/40.json",
+  "round": 0,
+  "variables": {
+    "lung_capacity_smoking_allowed": {
+      "id": "lung_capacity_smoking_allowed",
+      "value": "Lung capacity scores (scale 1–5) of non-smoking staff in the office where smoking was allowed",
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lung capacity measured on a scale of 1 to 5 for non-smoking staff in the office where smoking was allowed. Compared with lung_capacity_smoking_banned to identify differences in central tendency."
+    },
+    "lung_capacity_smoking_banned": {
+      "id": "lung_capacity_smoking_banned",
+      "value": "Lung capacity scores (scale 1–5) of non-smoking staff in the adjacent office where smoking had been banned for a month",
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lung capacity measured on a scale of 1 to 5 for non-smoking staff in the adjacent office where smoking had been banned for a month. Compared with lung_capacity_smoking_allowed to identify differences in central tendency."
+    }
+  }
+}

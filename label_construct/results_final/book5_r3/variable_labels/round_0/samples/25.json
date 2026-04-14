@@ -1,0 +1,29 @@
+{
+  "sample_key": "25",
+  "case_id": "book5_r1\\009.json",
+  "source_path": "book5_r3/25.json",
+  "round": 0,
+  "variables": {
+    "mean_height_start": {
+      "id": "mean_height_start",
+      "value": 175.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean height of adult males at the beginning of the 25 year period (in cm)"
+    },
+    "standard_deviation": {
+      "id": "standard_deviation",
+      "value": 5.84,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation of adult male heights (in cm), constant over the 25 year period"
+    },
+    "minimum_height_requirement": {
+      "id": "minimum_height_requirement",
+      "value": 172,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum height requirement (in cm) for men to join the police force"
+    }
+  }
+}

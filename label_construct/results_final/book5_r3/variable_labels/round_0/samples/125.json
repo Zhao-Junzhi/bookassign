@@ -1,0 +1,73 @@
+{
+  "sample_key": "125",
+  "case_id": "book5_r1\\044.json",
+  "source_path": "book5_r3/125.json",
+  "round": 0,
+  "variables": {
+    "Before_meal_N": {
+      "id": "Before_meal_N",
+      "value": [
+        1.47,
+        1.42,
+        1.1,
+        0.84,
+        0.91
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Resting metabolic rate (kcal/min) before meal under Normal diet for subjects 1-5. Same subjects as Before_meal_O, After_meal_N, and After_meal_O."
+    },
+    "After_meal_N": {
+      "id": "After_meal_N",
+      "value": [
+        1.78,
+        1.68,
+        1.26,
+        1.11,
+        1.09
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Resting metabolic rate (kcal/min) after meal under Normal diet for subjects 1-5. Same subjects as Before_meal_N, Before_meal_O, and After_meal_O."
+    },
+    "Before_meal_O": {
+      "id": "Before_meal_O",
+      "value": [
+        1.72,
+        1.44,
+        1.11,
+        0.9,
+        1.0
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Resting metabolic rate (kcal/min) before meal under Overfed diet for subjects 1-5. Same subjects as Before_meal_N, After_meal_N, and After_meal_O."
+    },
+    "After_meal_O": {
+      "id": "After_meal_O",
+      "value": [
+        2.49,
+        1.87,
+        1.36,
+        1.29,
+        1.25
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Resting metabolic rate (kcal/min) after meal under Overfed diet for subjects 1-5. Same subjects as Before_meal_N, After_meal_N, and Before_meal_O."
+    },
+    "Subject": {
+      "id": "Subject",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Subject identifier used for pairing observations across the two diets in the paired t-test."
+    }
+  }
+}

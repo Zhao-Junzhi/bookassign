@@ -1,0 +1,28 @@
+{
+  "sample_key": "45",
+  "case_id": "book5_r1\\014.json",
+  "source_path": "book5_r3/45.json",
+  "round": 0,
+  "variables": {
+    "handedness": {
+      "id": "handedness",
+      "value": [
+        "right-handed",
+        "left-handed"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Handedness group of baseball players (right-handed or left-handed), used as the grouping variable for comparison."
+    },
+    "age_at_death": {
+      "id": "age_at_death",
+      "value": {
+        "right-handed_n": 1472,
+        "left-handed_n": 236
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Mean age at death of baseball players in each handedness group, the outcome variable being compared. Individual values are not provided; sample sizes per group are given."
+    }
+  }
+}

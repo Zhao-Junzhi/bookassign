@@ -1,0 +1,29 @@
+{
+  "sample_key": "19",
+  "case_id": "book3_r1\\101.json",
+  "source_path": "book3_r3/19.json",
+  "round": 0,
+  "variables": {
+    "call_rate": {
+      "id": "call_rate",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Rate of phone call arrivals, 0.5 calls per minute, used to compute the Poisson parameter λ for the given time period."
+    },
+    "time_period": {
+      "id": "time_period",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The length of the time period in minutes over which the probability is calculated."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum number of calls (not more than 3) used as the upper bound in the cumulative Poisson probability calculation."
+    }
+  }
+}

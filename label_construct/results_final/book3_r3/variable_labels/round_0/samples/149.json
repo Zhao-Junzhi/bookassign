@@ -1,0 +1,29 @@
+{
+  "sample_key": "149",
+  "case_id": "book3_r1\\35 (1).json",
+  "source_path": "book3_r3/149.json",
+  "round": 0,
+  "variables": {
+    "failure_time_mean": {
+      "id": "failure_time_mean",
+      "value": 2000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean (μ) of the normal distribution of component failure times, in hours."
+    },
+    "failure_time_std": {
+      "id": "failure_time_std",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation (σ) of the normal distribution of component failure times, in hours."
+    },
+    "t": {
+      "id": "t",
+      "value": 1900,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time point (in hours) at which the reliability of the component is to be evaluated."
+    }
+  }
+}

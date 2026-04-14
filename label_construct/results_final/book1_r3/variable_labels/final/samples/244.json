@@ -1,0 +1,30 @@
+{
+  "sample_key": "244",
+  "case_id": "book1_r1\\record_102.json",
+  "source_path": "book1_r3/244.json",
+  "round": 0,
+  "variables": {
+    "Site_1_particulate_matter": {
+      "id": "Site_1_particulate_matter",
+      "value": {
+        "n": 8,
+        "mean": 36.25,
+        "std_dev": 14.56
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Particulate matter in air samples (μgms/m³) at Site 1; summary statistics used in the two-sample t-test. Same measurement as Site_2_particulate_matter but from a different site."
+    },
+    "Site_2_particulate_matter": {
+      "id": "Site_2_particulate_matter",
+      "value": {
+        "n": 8,
+        "mean": 36.0,
+        "std_dev": 2.88
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Particulate matter in air samples (μgms/m³) at Site 2; summary statistics used in the two-sample t-test. Same measurement as Site_1_particulate_matter but from a different site."
+    }
+  }
+}

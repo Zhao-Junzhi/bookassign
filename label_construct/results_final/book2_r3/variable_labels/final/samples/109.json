@@ -1,0 +1,22 @@
+{
+  "sample_key": "109",
+  "case_id": "book2_r1\\047.json",
+  "source_path": "book2_r3/109.json",
+  "round": 0,
+  "variables": {
+    "P(A)": {
+      "id": "P(A)",
+      "value": 0.55,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that an executive had cheated at golf, i.e., P(A) = 0.55"
+    },
+    "P(A∩B)": {
+      "id": "P(A∩B)",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that an executive had both cheated at golf and lied in business, i.e., P(A ∩ B) = 0.20"
+    }
+  }
+}

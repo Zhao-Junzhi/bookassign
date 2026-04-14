@@ -1,0 +1,19 @@
+{
+  "sample_key": "192",
+  "case_id": "book1_r1\\record_083.json",
+  "source_path": "book1_r3/192.json",
+  "round": 0,
+  "variables": {
+    "birth_weight": {
+      "id": "birth_weight",
+      "value": {
+        "sample_mean": 7.0,
+        "population_sd": 2,
+        "sample_size": 36
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Birth weights of full-term infants sampled from the population; the answer uses the sample mean x̄=7.0 pounds, population standard deviation σ=2 pounds, and sample size n=36 to construct the 95% confidence interval."
+    }
+  }
+}

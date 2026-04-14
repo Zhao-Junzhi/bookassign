@@ -1,0 +1,62 @@
+{
+  "sample_key": "149",
+  "case_id": "book5_r1\\052.json",
+  "source_path": "book5_r3/149.json",
+  "round": 0,
+  "variables": {
+    "51Cr_volume": {
+      "id": "51Cr_volume",
+      "value": [
+        1267,
+        1710,
+        1882,
+        1914,
+        1940,
+        1976,
+        2033,
+        2039,
+        2077,
+        2087,
+        2102,
+        2139,
+        2184,
+        2192,
+        2393,
+        2425,
+        2554,
+        2600,
+        3420
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Red cell volume (ml) measured using the radioactive 51Cr cell label for each of the 19 patients. Paired with Biotin volume measurements on the same patients."
+    },
+    "Biotin_volume": {
+      "id": "Biotin_volume",
+      "value": [
+        1954,
+        1651,
+        1887,
+        2043,
+        2054,
+        2075,
+        1976,
+        2120,
+        2061,
+        2152,
+        1894,
+        1982,
+        2153,
+        2288,
+        2628,
+        2495,
+        2463,
+        3186,
+        3488
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Red cell volume (ml) measured using the non-radioactive biotin cell label for each of the 19 patients. Paired with 51Cr volume measurements on the same patients."
+    }
+  }
+}

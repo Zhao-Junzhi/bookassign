@@ -1,0 +1,58 @@
+{
+  "sample_key": "44",
+  "case_id": "book4_r1\\014.json",
+  "source_path": "book4_r3/44.json",
+  "round": 0,
+  "variables": {
+    "Number_of_physicians": {
+      "id": "Number_of_physicians",
+      "value": [
+        0.2,
+        0.5,
+        1.3,
+        0.1,
+        1.4,
+        1.2,
+        1.1,
+        0.4,
+        0.4,
+        0.8,
+        0.3,
+        1.3,
+        0.5,
+        0.7,
+        0.5,
+        0.8,
+        1.4
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of physicians per 10000 population for each African country, used in Pearson's product moment correlation analysis."
+    },
+    "Infant_mortality_rate": {
+      "id": "Infant_mortality_rate",
+      "value": [
+        126,
+        102,
+        65,
+        142,
+        121,
+        64,
+        79,
+        138,
+        159,
+        116,
+        124,
+        96,
+        117,
+        142,
+        107,
+        85,
+        71
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Infant mortality rate (number of deaths of infants less than one year old per 1000 live births) for each African country, used in Pearson's product moment correlation analysis."
+    }
+  }
+}

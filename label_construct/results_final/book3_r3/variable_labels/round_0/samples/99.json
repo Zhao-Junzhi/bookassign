@@ -1,0 +1,60 @@
+{
+  "sample_key": "99",
+  "case_id": "book3_r1\\141.json",
+  "source_path": "book3_r3/99.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Time points (in days) at which channel reliability is evaluated."
+    },
+    "sensor_failure_rate": {
+      "id": "sensor_failure_rate",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Failure rate of each individual sensor per day (lambda = 0.001/day)."
+    },
+    "common_cause_failure_rate": {
+      "id": "common_cause_failure_rate",
+      "value": 0.0005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Common-cause failure rate of all sensors in a channel per day (lambda_c = 0.0005/day)."
+    },
+    "num_sensors_per_channel": {
+      "id": "num_sensors_per_channel",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of identical sensors in each channel."
+    },
+    "sensor_voting_threshold": {
+      "id": "sensor_voting_threshold",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of sensors that must register dangerous radioactivity for the channel to register it (2-out-of-3 voting logic)."
+    },
+    "channel_reliability": {
+      "id": "channel_reliability",
+      "value": {
+        "t=10": 0.9947,
+        "t=20": 0.9889,
+        "t=30": 0.9826,
+        "t=40": 0.9758
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Computed channel reliability at various time points, representing the probability that the channel functions correctly."
+    }
+  }
+}

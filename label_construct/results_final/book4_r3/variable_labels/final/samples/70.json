@@ -1,0 +1,57 @@
+{
+  "sample_key": "70",
+  "case_id": "book4_r1\\022.json",
+  "source_path": "book4_r3/70.json",
+  "round": 0,
+  "variables": {
+    "Rivers": {
+      "id": "Rivers",
+      "value": [
+        28,
+        93,
+        17,
+        30,
+        42
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Amount of nitrogen (in kilotonnes per annum) entering UK coastal waters via rivers (fresh water inputs) for each of the five regions. This variable and 'Direct' represent the same regions measured under two different input routes."
+    },
+    "Direct": {
+      "id": "Direct",
+      "value": [
+        10,
+        77,
+        12,
+        11,
+        6
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Amount of nitrogen (in kilotonnes per annum) entering UK coastal waters directly into saline waters from point sources for each of the five regions. This variable and 'Rivers' represent the same regions measured under two different input routes."
+    },
+    "Route": {
+      "id": "Route",
+      "value": [
+        "Rivers",
+        "Direct"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Input route factor with two levels: Rivers (fresh water inputs) and Direct (point sources into saline waters)."
+    },
+    "Region": {
+      "id": "Region",
+      "value": [
+        "Atlantic",
+        "North Sea (East coast)",
+        "North Sea (Channel)",
+        "Celtic Sea",
+        "Irish Sea"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Geographic region factor with five levels representing different UK coastal water regions."
+    }
+  }
+}

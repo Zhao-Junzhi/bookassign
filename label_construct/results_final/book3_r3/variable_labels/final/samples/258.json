@@ -1,0 +1,43 @@
+{
+  "sample_key": "258",
+  "case_id": "book3_r1\\73.json",
+  "source_path": "book3_r3/258.json",
+  "round": 0,
+  "variables": {
+    "Car_TV": {
+      "id": "Car_TV",
+      "value": 115,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of families that have both a car and a TV set."
+    },
+    "Car_NoTV": {
+      "id": "Car_NoTV",
+      "value": 245,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of families that have a car but no TV set."
+    },
+    "NoCar_TV": {
+      "id": "NoCar_TV",
+      "value": 380,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of families that have a TV set but no car."
+    },
+    "NoCar_NoTV": {
+      "id": "NoCar_NoTV",
+      "value": 260,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of families that have neither a TV set nor a car."
+    },
+    "Total_families": {
+      "id": "Total_families",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of families surveyed in the community."
+    }
+  }
+}

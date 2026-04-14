@@ -1,0 +1,22 @@
+{
+  "sample_key": "221",
+  "case_id": "book3_r1\\60.json",
+  "source_path": "book3_r3/221.json",
+  "round": 0,
+  "variables": {
+    "λ_R": {
+      "id": "λ_R",
+      "value": 0.005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the receiving unit, in failures per hour."
+    },
+    "t": {
+      "id": "t",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mission duration in hours for which reliability is calculated."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "sample_key": "99",
+  "case_id": "book2_r1\\042.json",
+  "source_path": "book2_r3/99.json",
+  "round": 0,
+  "variables": {
+    "A": {
+      "id": "A",
+      "value": [
+        2,
+        4,
+        6
+      ],
+      "class": "categorical",
+      "role": "XY",
+      "description": "Event A: Toss an even number on a fair die."
+    },
+    "B": {
+      "id": "B",
+      "value": [
+        1,
+        2,
+        3
+      ],
+      "class": "categorical",
+      "role": "XY",
+      "description": "Event B: Toss a number less than or equal to 3 on a fair die."
+    },
+    "P_each_outcome": {
+      "id": "P_each_outcome",
+      "value": {
+        "P(1)": "1/6",
+        "P(2)": "1/6",
+        "P(3)": "1/6",
+        "P(4)": "1/6",
+        "P(5)": "1/6",
+        "P(6)": "1/6"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of each outcome for a fair die, used in the calculation of P(A ∪ B) and P(A ∩ B)."
+    }
+  }
+}

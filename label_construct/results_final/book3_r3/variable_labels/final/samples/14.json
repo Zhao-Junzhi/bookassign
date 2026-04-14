@@ -1,0 +1,40 @@
+{
+  "sample_key": "14",
+  "case_id": "book3_r1\\09.json",
+  "source_path": "book3_r3/14.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of units in the batch."
+    },
+    "K": {
+      "id": "K",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of bad units in the batch."
+    },
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size drawn without replacement from the batch."
+    },
+    "X": {
+      "id": "X",
+      "value": [
+        0,
+        1,
+        2
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable denoting the number of bad units in the sample, whose probability function is to be determined."
+    }
+  }
+}

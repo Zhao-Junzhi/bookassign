@@ -1,0 +1,22 @@
+{
+  "sample_key": "138",
+  "case_id": "book3_r1\\30.json",
+  "source_path": "book3_r3/138.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of failure of the medical device on each test."
+    },
+    "n": {
+      "id": "n",
+      "value": 14,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of tests threshold (less than 15 tests, so N ≤ 14) used in computing the cumulative probability of failure."
+    }
+  }
+}

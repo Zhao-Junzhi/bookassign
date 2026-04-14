@@ -1,0 +1,41 @@
+{
+  "sample_key": "398",
+  "case_id": "book2_r1\\149.json",
+  "source_path": "book2_r3/398.json",
+  "round": 0,
+  "variables": {
+    "Advertising_Expenditure_x": {
+      "id": "Advertising_Expenditure_x",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Advertising expenditure in $100s, the independent variable in the simple linear regression model. Required for computing SSE which the answer references as previously calculated."
+    },
+    "Sales_Revenue_y": {
+      "id": "Sales_Revenue_y",
+      "value": [
+        1,
+        1,
+        2,
+        2,
+        4
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Sales revenue in $1,000s, the dependent variable in the simple linear regression model. Required for computing SSE which the answer references as previously calculated."
+    },
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size (number of data points), explicitly used in the answer to compute degrees of freedom (n−2=3) for estimating σ²."
+    }
+  }
+}

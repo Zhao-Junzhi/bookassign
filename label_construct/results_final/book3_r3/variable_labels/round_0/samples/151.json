@@ -1,0 +1,29 @@
+{
+  "sample_key": "151",
+  "case_id": "book3_r1\\37.json",
+  "source_path": "book3_r3/151.json",
+  "round": 0,
+  "variables": {
+    "μ": {
+      "id": "μ",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean parameter of the log normal distribution for the component's failure time."
+    },
+    "σ": {
+      "id": "σ",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation parameter of the log normal distribution for the component's failure time."
+    },
+    "t": {
+      "id": "t",
+      "value": 50,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specified life time (in time units) for which reliability is to be computed."
+    }
+  }
+}

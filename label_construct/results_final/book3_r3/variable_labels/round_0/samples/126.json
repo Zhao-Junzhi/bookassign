@@ -1,0 +1,29 @@
+{
+  "sample_key": "126",
+  "case_id": "book3_r1\\24.json",
+  "source_path": "book3_r3/126.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of making a sale (success) on each call."
+    },
+    "r": {
+      "id": "r",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes (sales) needed to achieve the daily goal."
+    },
+    "n": {
+      "id": "n",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific trial number at which the fifth sale is achieved."
+    }
+  }
+}

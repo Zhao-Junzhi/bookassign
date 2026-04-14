@@ -1,0 +1,29 @@
+{
+  "sample_key": "204",
+  "case_id": "book2_r1\\083.json",
+  "source_path": "book2_r3/204.json",
+  "round": 0,
+  "variables": {
+    "thickness_lower_bound": {
+      "id": "thickness_lower_bound",
+      "value": 150,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lower bound (c) of the uniform distribution for steel sheet thickness, in millimeters."
+    },
+    "thickness_upper_bound": {
+      "id": "thickness_upper_bound",
+      "value": 200,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Upper bound (d) of the uniform distribution for steel sheet thickness, in millimeters."
+    },
+    "scrap_threshold": {
+      "id": "scrap_threshold",
+      "value": 160,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Thickness threshold below which steel sheets are considered unacceptable and must be scrapped, in millimeters."
+    }
+  }
+}

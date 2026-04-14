@@ -1,0 +1,32 @@
+{
+  "sample_key": "226",
+  "case_id": "book2_r1\\093.json",
+  "source_path": "book2_r3/226.json",
+  "round": 0,
+  "variables": {
+    "battery_life": {
+      "id": "battery_life",
+      "value": {
+        "population_mean": 54,
+        "population_standard_deviation": 6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The lengths of life (in months) of the manufacturer's best battery, with claimed population mean of 54 months and standard deviation of 6 months, both used in computing the z-score for the sampling distribution."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 50,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of batteries in the consumer group's sample, used to compute the standard error σ_x̄ = σ/√n."
+    },
+    "sample_mean_threshold": {
+      "id": "sample_mean_threshold",
+      "value": 52,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The sample mean value (52 months) for which the probability P(x̄ ≤ 52) is being calculated."
+    }
+  }
+}

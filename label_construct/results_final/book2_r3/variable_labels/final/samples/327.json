@@ -1,0 +1,28 @@
+{
+  "sample_key": "327",
+  "case_id": "book2_r1\\127.json",
+  "source_path": "book2_r3/327.json",
+  "round": 0,
+  "variables": {
+    "Model_1_repairs": {
+      "id": "Model_1_repairs",
+      "value": {
+        "sample_size": 400,
+        "major_repairs_count": 53
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Whether Model 1 cars needed major repairs (>$500) within 2 years of purchase; 53 out of 400 sampled owners reported major repairs. Compared with Model_2_repairs to test for a difference in proportions."
+    },
+    "Model_2_repairs": {
+      "id": "Model_2_repairs",
+      "value": {
+        "sample_size": 500,
+        "major_repairs_count": 78
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Whether Model 2 cars needed major repairs (>$500) within 2 years of purchase; 78 out of 500 sampled owners reported major repairs. Compared with Model_1_repairs to test for a difference in proportions."
+    }
+  }
+}

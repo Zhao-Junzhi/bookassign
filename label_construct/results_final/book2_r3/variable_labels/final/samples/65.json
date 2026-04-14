@@ -1,0 +1,25 @@
+{
+  "sample_key": "65",
+  "case_id": "book2_r1\\026.json",
+  "source_path": "book2_r3/65.json",
+  "round": 0,
+  "variables": {
+    "GMAT_scores": {
+      "id": "GMAT_scores",
+      "value": {
+        "mean": 540,
+        "standard_deviation": 100
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample GMAT scores of 2,000 students; summary statistics (mean and standard deviation) used in the z-score calculation."
+    },
+    "Kara_GMAT_score": {
+      "id": "Kara_GMAT_score",
+      "value": 440,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Kara Smith's individual GMAT score, the specific observation for which the sample z-score is computed."
+    }
+  }
+}

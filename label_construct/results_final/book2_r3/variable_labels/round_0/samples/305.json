@@ -1,0 +1,46 @@
+{
+  "sample_key": "305",
+  "case_id": "book2_r1\\121.json",
+  "source_path": "book2_r3/305.json",
+  "round": 0,
+  "variables": {
+    "μ₀": {
+      "id": "μ₀",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized population mean under the null hypothesis, the specified mean fill of the cereal boxes (in ounces)"
+    },
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of cereal boxes drawn for the quality-control test"
+    },
+    "s": {
+      "id": "s",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample standard deviation of the cereal box fill weights (in ounces)"
+    },
+    "μₐ": {
+      "id": "μₐ",
+      "value": 11.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Actual population mean under the alternative hypothesis, representing the machine underfilling by an average of 0.1 ounce (in ounces)"
+    },
+    "α": {
+      "id": "α",
+      "value": [
+        0.05,
+        0.01
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance levels corresponding to the two rejection regions for which the Type II error probability β is calculated"
+    }
+  }
+}

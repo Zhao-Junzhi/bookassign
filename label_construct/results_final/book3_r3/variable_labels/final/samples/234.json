@@ -1,0 +1,36 @@
+{
+  "sample_key": "234",
+  "case_id": "book3_r1\\62.json",
+  "source_path": "book3_r3/234.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "X",
+      "description": "Number of identical and independent components in the parallel system."
+    },
+    "lambda": {
+      "id": "lambda",
+      "value": "λ",
+      "class": "numerical",
+      "role": "X",
+      "description": "Constant failure rate of each identical component."
+    },
+    "t": {
+      "id": "t",
+      "value": "t",
+      "class": "numerical",
+      "role": "X",
+      "description": "Time variable over which system reliability is evaluated."
+    },
+    "R(t)": {
+      "id": "R(t)",
+      "value": "1-(1-e^{-λt})^n",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Reliability of the entire parallel system at time t."
+    }
+  }
+}

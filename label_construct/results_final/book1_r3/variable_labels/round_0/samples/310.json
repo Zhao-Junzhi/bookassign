@@ -1,0 +1,26 @@
+{
+  "sample_key": "310",
+  "case_id": "book1_r1\\record_123.json",
+  "source_path": "book1_r3/310.json",
+  "round": 0,
+  "variables": {
+    "reported_multiple_partners": {
+      "id": "reported_multiple_partners",
+      "value": {
+        "count": 170
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of heterosexual adults who reported two or more sexual partners in the past 12 months."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": {
+        "n": 2673
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of heterosexual adults in the sample."
+    }
+  }
+}

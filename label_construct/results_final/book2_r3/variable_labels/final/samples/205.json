@@ -1,0 +1,22 @@
+{
+  "sample_key": "205",
+  "case_id": "book2_r1\\084.json",
+  "source_path": "book2_r3/205.json",
+  "round": 0,
+  "variables": {
+    "θ": {
+      "id": "θ",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean parameter (θ) of the exponential distribution, representing the average time (in hours) between emergency arrivals at the hospital."
+    },
+    "a": {
+      "id": "a",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time threshold (in hours); the answer calculates the probability that the time between arrivals exceeds this value."
+    }
+  }
+}

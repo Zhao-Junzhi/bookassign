@@ -1,0 +1,36 @@
+{
+  "sample_key": "240",
+  "case_id": "book3_r1\\65.json",
+  "source_path": "book3_r3/240.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time point (in hours) at which the system reliability is evaluated."
+    },
+    "λ₀": {
+      "id": "λ₀",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate (per hour) of a unit when all three units are operational."
+    },
+    "λₕ": {
+      "id": "λₕ",
+      "value": 0.005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate (per hour) of each of the two surviving units sharing half of the total load."
+    },
+    "λf": {
+      "id": "λf",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate (per hour) of a unit operating at full load."
+    }
+  }
+}

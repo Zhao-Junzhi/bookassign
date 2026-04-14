@@ -1,0 +1,18 @@
+{
+  "sample_key": "245",
+  "case_id": "book2_r1\\101.json",
+  "source_path": "book2_r3/245.json",
+  "round": 0,
+  "variables": {
+    "consumer_preference": {
+      "id": "consumer_preference",
+      "value": {
+        "sample_size": 1000,
+        "number_preferring_company_brand": 313
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Consumer preference for breakfast cereal brand, indicating whether a consumer prefers the company's brand. The sample proportion 313/1000 = 0.313 is used as a point estimate for the true fraction of all consumers who prefer the company's cereal brand."
+    }
+  }
+}

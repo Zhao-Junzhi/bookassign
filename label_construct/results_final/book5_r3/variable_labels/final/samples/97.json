@@ -1,0 +1,32 @@
+{
+  "sample_key": "97",
+  "case_id": "book5_r1\\033.json",
+  "source_path": "book5_r3/97.json",
+  "round": 0,
+  "variables": {
+    "placebo_group": {
+      "id": "placebo_group",
+      "value": {
+        "sample_size": 73,
+        "discharged": 2,
+        "proportion": 0.03,
+        "CI_95": "-1% to 6%"
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Placebo group data: 73 children, 2 discharged at first examination (3%), with reported 95% CI of -1% to 6%. The answer critiques the impossible negative lower limit of this CI."
+    },
+    "prednisolone_group": {
+      "id": "prednisolone_group",
+      "value": {
+        "sample_size": 67,
+        "discharged": 20,
+        "proportion": 0.3,
+        "CI_95": "19% to 41%"
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Prednisolone group data: 67 children, 20 discharged at first examination (30%), with reported 95% CI of 19% to 41%. The answer uses both groups' proportions to compute the difference in proportions (16% to 39%)."
+    }
+  }
+}

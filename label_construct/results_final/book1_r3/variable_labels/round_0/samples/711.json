@@ -1,0 +1,22 @@
+{
+  "sample_key": "711",
+  "case_id": "book1_r1\\record_426.json",
+  "source_path": "book1_r3/711.json",
+  "round": 0,
+  "variables": {
+    "a_2": {
+      "id": "a_2",
+      "value": 623,
+      "class": "numerical",
+      "role": "NR",
+      "description": "控制组中的成功次数（事件数），用于计算调整后的 ã_a_2"
+    },
+    "n_2": {
+      "id": "n_2",
+      "value": 8102,
+      "class": "numerical",
+      "role": "NR",
+      "description": "控制组的样本量，用于计算调整后的 ã_n_2"
+    }
+  }
+}

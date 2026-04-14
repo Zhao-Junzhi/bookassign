@@ -1,0 +1,64 @@
+{
+  "sample_key": "34",
+  "case_id": "book4_r1\\010.json",
+  "source_path": "book4_r3/34.json",
+  "round": 0,
+  "variables": {
+    "Active_visibility": {
+      "id": "Active_visibility",
+      "value": [
+        1,
+        2,
+        4,
+        3,
+        2,
+        2,
+        1,
+        3,
+        5,
+        4,
+        5,
+        4,
+        4,
+        3,
+        5
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Visibility scores for active badger sets (ranked 1–6 based on visibility to the nearest public right of way). These scores and the Unused_visibility scores pertain to different sets grouped by set type (active vs. unused)."
+    },
+    "Unused_visibility": {
+      "id": "Unused_visibility",
+      "value": [
+        2,
+        3,
+        1,
+        2,
+        1,
+        2,
+        3,
+        3,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Visibility scores for unused badger sets (ranked 1–6 based on visibility to the nearest public right of way). These scores and the Active_visibility scores pertain to different sets grouped by set type (active vs. unused)."
+    },
+    "Set_type": {
+      "id": "Set_type",
+      "value": [
+        "Active",
+        "Unused"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Grouping variable indicating whether the badger set is active (regularly used by a badger social group) or unused (no recent signs of badger activity)."
+    }
+  }
+}

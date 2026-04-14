@@ -1,0 +1,36 @@
+{
+  "sample_key": "171",
+  "case_id": "book2_r1\\071.json",
+  "source_path": "book2_r3/171.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of applicants from which the selection is made"
+    },
+    "K": {
+      "id": "K",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of female applicants in the total pool (success group in the hypergeometric calculation)"
+    },
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of teaching assistants to be selected (sample size drawn)"
+    },
+    "x": {
+      "id": "x",
+      "value": 0,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of females hired; the specific outcome value for which the probability is computed"
+    }
+  }
+}

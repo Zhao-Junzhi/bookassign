@@ -1,0 +1,19 @@
+{
+  "sample_key": "549",
+  "case_id": "book1_r1\\record_368.json",
+  "source_path": "book1_r3/549.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "sample_mean": 173,
+        "sample_size": 64,
+        "population_sd": 40
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The weight measurement variable under study. The answer uses sample mean x̄ = 173 directly, and uses standard error SE = 5 which is derived from the known population standard deviation σ = 40 and sample size n = 64 (SE = σ/√n = 40/√64 = 5)."
+    }
+  }
+}

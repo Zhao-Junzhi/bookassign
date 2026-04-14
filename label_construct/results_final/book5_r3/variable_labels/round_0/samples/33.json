@@ -1,0 +1,29 @@
+{
+  "sample_key": "33",
+  "case_id": "book5_r1\\012.json",
+  "source_path": "book5_r3/33.json",
+  "round": 0,
+  "variables": {
+    "regular_drinkers_total": {
+      "id": "regular_drinkers_total",
+      "value": 676,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of 'regular drinkers' eligible for the follow-up survey in 1981–82."
+    },
+    "re_interviewed": {
+      "id": "re_interviewed",
+      "value": 463,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of regular drinkers successfully re-interviewed in the second survey."
+    },
+    "non_respondents": {
+      "id": "non_respondents",
+      "value": 213,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of regular drinkers who were not re-interviewed in the second survey due to various reasons (untraceable, left region, refusal, illness, death)."
+    }
+  }
+}

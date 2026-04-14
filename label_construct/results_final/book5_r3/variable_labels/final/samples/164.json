@@ -1,0 +1,112 @@
+{
+  "sample_key": "164",
+  "case_id": "book5_r1\\057.json",
+  "source_path": "book5_r3/164.json",
+  "round": 0,
+  "variables": {
+    "Sex": {
+      "id": "Sex",
+      "value": {
+        "Short-wave diathermy": "16F/18M",
+        "Osteopathy": "21F/20M",
+        "Placebo": "11F/23M"
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Sex distribution of patients in each treatment group, a baseline variable that might affect patient prognosis."
+    },
+    "Age": {
+      "id": "Age",
+      "value": {
+        "Short-wave diathermy": {
+          "mean": 35,
+          "SD": 16
+        },
+        "Osteopathy": {
+          "mean": 34,
+          "SD": 14
+        },
+        "Placebo": {
+          "mean": 40,
+          "SD": 16
+        }
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Mean age (with SD) of patients in each treatment group, a baseline variable that might affect patient prognosis."
+    },
+    "Duration_of_pain": {
+      "id": "Duration_of_pain",
+      "value": {
+        "Short-wave diathermy": {
+          "mean": 18,
+          "SD": 11
+        },
+        "Osteopathy": {
+          "mean": 16,
+          "SD": 14
+        },
+        "Placebo": {
+          "mean": 17,
+          "SD": 11
+        }
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Mean duration of pain in weeks (with SD) in each treatment group, a baseline variable that might affect patient prognosis."
+    },
+    "Pain_score": {
+      "id": "Pain_score",
+      "value": {
+        "Short-wave diathermy": {
+          "median": 45,
+          "range": "5-82"
+        },
+        "Osteopathy": {
+          "median": 35,
+          "range": "4-90"
+        },
+        "Placebo": {
+          "median": 48,
+          "range": "10-96"
+        }
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Median pain score at presentation (visual analogue scale, with range) in each treatment group, a baseline variable that might affect patient prognosis."
+    },
+    "Radiological_abnormalities": {
+      "id": "Radiological_abnormalities",
+      "value": {
+        "Short-wave diathermy": "12 (34%)",
+        "Osteopathy": "12 (29%)",
+        "Placebo": "11 (32%)"
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Number (percentage) of patients with radiological abnormalities of the spine in each treatment group, a baseline variable that might affect patient prognosis."
+    },
+    "Treatment_group": {
+      "id": "Treatment_group",
+      "value": [
+        "Short-wave diathermy",
+        "Osteopathy",
+        "Placebo"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment group assignment (Short-wave diathermy, Osteopathy, Placebo), the grouping factor for comparing baseline comparability."
+    },
+    "Number_of_patients": {
+      "id": "Number_of_patients",
+      "value": {
+        "Short-wave diathermy": 34,
+        "Osteopathy": 41,
+        "Placebo": 34
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients in each treatment group, used to contextualize the magnitude of baseline imbalances."
+    }
+  }
+}

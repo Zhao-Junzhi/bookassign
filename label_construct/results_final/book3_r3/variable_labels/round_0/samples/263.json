@@ -1,0 +1,29 @@
+{
+  "sample_key": "263",
+  "case_id": "book3_r1\\76.json",
+  "source_path": "book3_r3/263.json",
+  "round": 0,
+  "variables": {
+    "survival_probability_720": {
+      "id": "survival_probability_720",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that the fax machine survives for 720 hours without failure, used to determine the constant failure rate λ."
+    },
+    "t1": {
+      "id": "t1",
+      "value": 720,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time (in hours) at which the machine is known to be functioning (conditioning event T ≥ 720)."
+    },
+    "t2": {
+      "id": "t2",
+      "value": 900,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time (in hours) by which the probability of failure is to be computed (T ≤ 900)."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sample_key": "283",
+  "case_id": "book2_r1\\116.json",
+  "source_path": "book2_r3/283.json",
+  "round": 0,
+  "variables": {
+    "emission_level": {
+      "id": "emission_level",
+      "value": [
+        15.6,
+        16.2,
+        22.5,
+        20.5,
+        16.4,
+        19.4,
+        19.6,
+        17.9,
+        12.7,
+        14.9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Emission levels (in parts per million of carbon) for ten test engines, used to compute x̄, s, and n in the t-test statistic formula."
+    }
+  }
+}

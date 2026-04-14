@@ -1,0 +1,92 @@
+{
+  "sample_key": "68",
+  "case_id": "book4_r1\\021.json",
+  "source_path": "book4_r3/68.json",
+  "round": 0,
+  "variables": {
+    "Region": {
+      "id": "Region",
+      "value": [
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "The geographic region of each country (Central America or South East Asia). One of two grouping factors in the line plot."
+    },
+    "Location": {
+      "id": "Location",
+      "value": [
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Island"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the country is a mainland or island country. The second grouping factor in the line plot."
+    },
+    "Arcsine_transformed": {
+      "id": "Arcsine_transformed",
+      "value": [
+        0.177,
+        0.18,
+        0.142,
+        0.152,
+        0.165,
+        0.032,
+        0.078,
+        0.196,
+        0.174,
+        0.063,
+        0.1,
+        0.123,
+        0.159,
+        0.131,
+        0.045,
+        0.032,
+        0.032,
+        0.045,
+        0.123,
+        0.09
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year. Means and standard errors of this variable are plotted in the line plot."
+    }
+  }
+}

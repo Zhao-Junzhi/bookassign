@@ -1,0 +1,46 @@
+{
+  "sample_key": "554",
+  "case_id": "book1_r1\\record_370.json",
+  "source_path": "book1_r3/554.json",
+  "round": 0,
+  "variables": {
+    "intelligence_scores": {
+      "id": "intelligence_scores",
+      "value": [
+        116,
+        128,
+        125,
+        119,
+        89,
+        99,
+        105,
+        116,
+        118
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Intelligence test scores of the 9 sampled children, used to compute the sample mean x̄=112.8."
+    },
+    "population_mean": {
+      "id": "population_mean",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population mean (μ) of the intelligence test scores under the null hypothesis."
+    },
+    "population_std": {
+      "id": "population_std",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population standard deviation (σ) of the intelligence test scores."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of children in the sample (n=9), used to compute the standard error."
+    }
+  }
+}

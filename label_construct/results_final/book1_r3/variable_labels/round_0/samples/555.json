@@ -1,0 +1,25 @@
+{
+  "sample_key": "555",
+  "case_id": "book1_r1\\record_370.json",
+  "source_path": "book1_r3/555.json",
+  "round": 0,
+  "variables": {
+    "intelligence_scores": {
+      "id": "intelligence_scores",
+      "value": [
+        116,
+        128,
+        125,
+        119,
+        89,
+        99,
+        105,
+        116,
+        118
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Intelligence test scores of the 9 sampled children from the community (sample mean x̄=112.8, sample size n=9), used to conduct a one-sample z-test to determine whether community children's intelligence is above the population average."
+    }
+  }
+}

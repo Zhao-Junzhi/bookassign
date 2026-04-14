@@ -1,0 +1,71 @@
+{
+  "sample_key": "9",
+  "case_id": "book5_r1\\002.json",
+  "source_path": "book5_r3/9.json",
+  "round": 0,
+  "variables": {
+    "Occupation": {
+      "id": "Occupation",
+      "value": [
+        "Professional pilots",
+        "Lawyers",
+        "Farmers",
+        "Sales representatives",
+        "Physicians",
+        "Mechanics and repairmen",
+        "Policemen and detectives",
+        "Managers and administrators",
+        "Engineers",
+        "Teachers",
+        "Housewives",
+        "Academic students",
+        "Armed Forces Members"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Groups of pilots categorized by their primary occupation."
+    },
+    "Rate_per_1000": {
+      "id": "Rate_per_1000",
+      "value": [
+        15.9,
+        11.0,
+        10.1,
+        9.0,
+        8.7,
+        6.9,
+        6.6,
+        6.0,
+        4.7,
+        4.2,
+        3.7,
+        3.2,
+        1.6
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Aviation accident rate per 1,000 pilots in each occupation group; used to contrast with the rate per 100,000 hours to explain why the two sets of figures give different answers."
+    },
+    "Rate_per_100000_hr": {
+      "id": "Rate_per_100000_hr",
+      "value": [
+        0.2,
+        1.5,
+        1.3,
+        1.2,
+        1.8,
+        1.5,
+        1.8,
+        0.7,
+        1.1,
+        1.1,
+        3.2,
+        3.7,
+        0.7
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Aviation accident rate per 100,000 hours of flight time in each occupation group; used to identify that housewives and academic students had the highest accident risk when adjusted for flying hours."
+    }
+  }
+}

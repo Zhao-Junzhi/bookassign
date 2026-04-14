@@ -1,0 +1,36 @@
+{
+  "sample_key": "147",
+  "case_id": "book2_r1\\065.json",
+  "source_path": "book2_r3/147.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": "the number of the 3 bonds selected that lose value",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable representing the count of bonds (out of 3 selected) that lose value; the answer evaluates whether this variable follows a binomial distribution."
+    },
+    "total_bonds": {
+      "id": "total_bonds",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of bonds available for selection."
+    },
+    "bonds_lose_value": {
+      "id": "bonds_lose_value",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of bonds (out of 10) that will lose value due to a change in their ratings."
+    },
+    "bonds_selected": {
+      "id": "bonds_selected",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of bonds randomly selected for the investment portfolio (number of trials)."
+    }
+  }
+}

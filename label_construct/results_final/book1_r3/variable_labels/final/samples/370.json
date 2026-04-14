@@ -1,0 +1,40 @@
+{
+  "sample_key": "370",
+  "case_id": "book1_r1\\record_148.json",
+  "source_path": "book1_r3/370.json",
+  "round": 0,
+  "variables": {
+    "Smoke": {
+      "id": "Smoke",
+      "value": [
+        "+",
+        "-"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Smoking status (smoker '+' or non-smoker '-'), used as the exposure variable in the case-control study."
+    },
+    "Cases": {
+      "id": "Cases",
+      "value": {
+        "smokers": 647,
+        "non-smokers": 2,
+        "total": 649
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of lung cancer cases by smoking status. 647 of 649 cases were smokers, 2 were non-smokers."
+    },
+    "Controls": {
+      "id": "Controls",
+      "value": {
+        "smokers": 622,
+        "non-smokers": 27,
+        "total": 649
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of non-cases (controls) by smoking status. 622 of 649 controls were smokers, 27 were non-smokers."
+    }
+  }
+}

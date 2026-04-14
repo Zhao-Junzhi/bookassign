@@ -1,0 +1,22 @@
+{
+  "sample_key": "475",
+  "case_id": "book1_r1\\record_335.json",
+  "source_path": "book1_r3/475.json",
+  "round": 0,
+  "variables": {
+    "P(X=0)": {
+      "id": "P(X=0)",
+      "value": 0.0039,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the number of successes X equals 0, from the given pmf."
+    },
+    "P(X=1)": {
+      "id": "P(X=1)",
+      "value": 0.0469,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the number of successes X equals 1, from the given pmf."
+    }
+  }
+}

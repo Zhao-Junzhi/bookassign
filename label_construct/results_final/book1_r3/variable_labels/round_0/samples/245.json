@@ -1,0 +1,36 @@
+{
+  "sample_key": "245",
+  "case_id": "book1_r1\\record_103.json",
+  "source_path": "book1_r3/245.json",
+  "round": 0,
+  "variables": {
+    "mean_difference": {
+      "id": "mean_difference",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "待检测的两组均值之差"
+    },
+    "standard_deviation": {
+      "id": "standard_deviation",
+      "value": 0.67,
+      "class": "numerical",
+      "role": "NR",
+      "description": "所测量变量的标准差"
+    },
+    "power": {
+      "id": "power",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "期望的统计检验功效（90%），在answer中对应 z_β=1.28 代入公式"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "双侧显著性水平，在answer中对应 z_α/2=1.96 代入公式"
+    }
+  }
+}

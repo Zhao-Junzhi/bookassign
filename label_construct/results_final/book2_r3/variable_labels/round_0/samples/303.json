@@ -1,0 +1,26 @@
+{
+  "sample_key": "303",
+  "case_id": "book2_r1\\120.json",
+  "source_path": "book2_r3/303.json",
+  "round": 0,
+  "variables": {
+    "fill_weights": {
+      "id": "fill_weights",
+      "value": [
+        16.0,
+        16.06,
+        15.95,
+        16.04,
+        16.1,
+        16.05,
+        16.02,
+        16.03,
+        15.99,
+        16.02
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Fill weights (in ounces) of a sample of ten 16-ounce cans. The answer derives n = 10 and s = 0.0412 from this data to compute the chi-square test statistic."
+    }
+  }
+}

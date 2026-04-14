@@ -1,0 +1,22 @@
+{
+  "sample_key": "7",
+  "case_id": "book3_r1\\05.json",
+  "source_path": "book3_r3/7.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of spheres in the urn (white, black, red, green), used as the total set size in the permutation calculation P(n, r)."
+    },
+    "r": {
+      "id": "r",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of spheres drawn from the urn, used as the selection size in the permutation calculation P(n, r)."
+    }
+  }
+}

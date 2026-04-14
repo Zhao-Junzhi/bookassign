@@ -1,0 +1,77 @@
+{
+  "sample_key": "205",
+  "case_id": "book5_r1\\068.json",
+  "source_path": "book5_r3/205.json",
+  "round": 0,
+  "variables": {
+    "AMS_score": {
+      "id": "AMS_score",
+      "value": [
+        1,
+        1,
+        7,
+        9,
+        11,
+        11,
+        11,
+        13,
+        13,
+        14,
+        15,
+        17,
+        18,
+        23,
+        35
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Symptom score for acute mountain sickness (AMS); high values indicate worse symptoms."
+    },
+    "Plasma_aldosterone_Low_Day1": {
+      "id": "Plasma_aldosterone_Low_Day1",
+      "value": [
+        68,
+        153,
+        110,
+        238,
+        204,
+        141,
+        183,
+        119,
+        272,
+        166,
+        228,
+        77,
+        114,
+        91,
+        105
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Plasma aldosterone (mmol/l) measured at low altitude on Day 1. Used together with High Day 2 to compute the change in plasma aldosterone between days 1 and 2."
+    },
+    "Plasma_aldosterone_High_Day2": {
+      "id": "Plasma_aldosterone_High_Day2",
+      "value": [
+        151,
+        49,
+        141,
+        286,
+        242,
+        263,
+        233,
+        245,
+        275,
+        241,
+        109,
+        192,
+        46,
+        189,
+        254
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Plasma aldosterone (mmol/l) measured at high altitude (4300 m) on Day 2. Used together with Low Day 1 to compute the change in plasma aldosterone between days 1 and 2."
+    }
+  }
+}

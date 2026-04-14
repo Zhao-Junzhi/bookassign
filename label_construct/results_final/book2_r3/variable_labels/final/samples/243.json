@@ -1,0 +1,31 @@
+{
+  "sample_key": "243",
+  "case_id": "book2_r1\\100.json",
+  "source_path": "book2_r3/243.json",
+  "round": 0,
+  "variables": {
+    "characters_printed": {
+      "id": "characters_printed",
+      "value": [
+        1.13,
+        1.55,
+        1.43,
+        0.92,
+        1.25,
+        1.36,
+        1.32,
+        0.85,
+        1.07,
+        1.48,
+        1.2,
+        1.33,
+        1.18,
+        1.22,
+        1.29
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of characters (in millions) printed before printhead failure for each of n=15 randomly selected printheads. The answer uses summary statistics derived from this variable: sample size n=15, sample mean x̄=1.239, and sample standard deviation s=0.193 to construct a 99% confidence interval for the population mean."
+    }
+  }
+}

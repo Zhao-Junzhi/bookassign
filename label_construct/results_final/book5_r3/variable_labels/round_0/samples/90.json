@@ -1,0 +1,22 @@
+{
+  "sample_key": "90",
+  "case_id": "book5_r1\\032.json",
+  "source_path": "book5_r3/90.json",
+  "round": 0,
+  "variables": {
+    "voice_group": {
+      "id": "voice_group",
+      "value": "Voice groups of male singers (e.g., deep vs. higher voices)",
+      "class": "categorical",
+      "role": "X",
+      "description": "Categorization of male singers by voice type (deep or higher), used as one dimension in the Chi-squared test."
+    },
+    "sibling_sex_ratio": {
+      "id": "sibling_sex_ratio",
+      "value": "Sex ratio categories of siblings (brothers vs. sisters) for 195 singers",
+      "class": "categorical",
+      "role": "Y",
+      "description": "Sibling sex ratio categories for each singer, used as the other dimension in the Chi-squared test to examine association with voice group."
+    }
+  }
+}

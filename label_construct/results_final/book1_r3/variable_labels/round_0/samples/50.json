@@ -1,0 +1,41 @@
+{
+  "sample_key": "50",
+  "case_id": "book1_r1\\record_017.json",
+  "source_path": "book1_r3/50.json",
+  "round": 0,
+  "variables": {
+    "Duration_of_hospitalization": {
+      "id": "Duration_of_hospitalization",
+      "value": [
+        5,
+        10,
+        6,
+        11,
+        5,
+        14,
+        30,
+        11,
+        17,
+        3,
+        9,
+        3,
+        8,
+        8,
+        5,
+        5,
+        7,
+        4,
+        3,
+        7,
+        9,
+        11,
+        11,
+        9,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Duration of hospitalization in days for 25 patients, used to construct the frequency table with 5-day class intervals."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "269",
+  "case_id": "book2_r1\\111.json",
+  "source_path": "book2_r3/269.json",
+  "round": 0,
+  "variables": {
+    "μ₀": {
+      "id": "μ₀",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized population mean fill amount (ounces per box), used to set up the null hypothesis and determine the two-tailed nature of the test"
+    },
+    "α": {
+      "id": "α",
+      "value": 0.01,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level for the hypothesis test, directly used to compute α/2 = 0.005 in each tail and obtain the critical z-values ±2.576"
+    },
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of boxes randomly selected from today's production run, justifying the use of the z-distribution (large-sample test) for determining the rejection region"
+    }
+  }
+}

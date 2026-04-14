@@ -1,0 +1,43 @@
+{
+  "sample_key": "252",
+  "case_id": "book3_r1\\70.json",
+  "source_path": "book3_r3/252.json",
+  "round": 0,
+  "variables": {
+    "total_units": {
+      "id": "total_units",
+      "value": 120,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of units in the batch."
+    },
+    "oversized_units": {
+      "id": "oversized_units",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of oversized units in the batch."
+    },
+    "undersized_units": {
+      "id": "undersized_units",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of undersized units in the batch."
+    },
+    "conforming_units": {
+      "id": "conforming_units",
+      "value": 60,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of units conforming to specification in the batch."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of units drawn at random without replacement."
+    }
+  }
+}

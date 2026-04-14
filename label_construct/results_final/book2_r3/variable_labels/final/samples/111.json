@@ -1,0 +1,22 @@
+{
+  "sample_key": "111",
+  "case_id": "book2_r1\\048.json",
+  "source_path": "book2_r3/111.json",
+  "round": 0,
+  "variables": {
+    "P(B∩F)": {
+      "id": "P(B∩F)",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Joint probability that the prospect desires to buy (B) and is financially able to pay (F)."
+    },
+    "P(B^c∩F)": {
+      "id": "P(B^c∩F)",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Joint probability that the prospect does not desire to buy (B^c) and is financially able to pay (F)."
+    }
+  }
+}

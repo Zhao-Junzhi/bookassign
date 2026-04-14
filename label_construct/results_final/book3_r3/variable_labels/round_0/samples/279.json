@@ -1,0 +1,36 @@
+{
+  "sample_key": "279",
+  "case_id": "book3_r1\\83.json",
+  "source_path": "book3_r3/279.json",
+  "round": 0,
+  "variables": {
+    "num_women": {
+      "id": "num_women",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of women in the set from which the committee is chosen."
+    },
+    "num_men": {
+      "id": "num_men",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of men in the set from which the committee is chosen."
+    },
+    "committee_size": {
+      "id": "committee_size",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The required number of people on the committee."
+    },
+    "num_fixed_members": {
+      "id": "num_fixed_members",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of fixed members (Mr. Good) who must be on the committee."
+    }
+  }
+}

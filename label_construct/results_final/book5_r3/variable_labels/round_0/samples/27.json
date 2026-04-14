@@ -1,0 +1,36 @@
+{
+  "sample_key": "27",
+  "case_id": "book5_r1\\010.json",
+  "source_path": "book5_r3/27.json",
+  "round": 0,
+  "variables": {
+    "measurement_1": {
+      "id": "measurement_1",
+      "value": "first blood pressure measurement for a given subject",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The first blood pressure measurement taken from a subject; one of three equally likely orderings is considered."
+    },
+    "measurement_2": {
+      "id": "measurement_2",
+      "value": "second blood pressure measurement for a given subject",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The second blood pressure measurement taken from a subject; one of three equally likely orderings is considered."
+    },
+    "measurement_3": {
+      "id": "measurement_3",
+      "value": "third blood pressure measurement for a given subject",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The third blood pressure measurement taken from a subject; the measurement whose position relative to the other two determines whether it is discarded."
+    },
+    "number_of_measurements": {
+      "id": "number_of_measurements",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of measurements taken per subject. Used in the answer to reason that each measurement is equally likely to be the middle value, giving a probability of 2/3 that the third is not between the other two."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sample_key": "110",
+  "case_id": "book2_r1\\048.json",
+  "source_path": "book2_r3/110.json",
+  "round": 0,
+  "variables": {
+    "P(B∩F)": {
+      "id": "P(B∩F)",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Joint probability that the prospect has both the desire to buy (event B) and the financial ability to finance (event F), read directly from the contingency table in Table 3.5"
+    }
+  }
+}

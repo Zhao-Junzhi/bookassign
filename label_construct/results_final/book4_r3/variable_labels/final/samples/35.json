@@ -1,0 +1,36 @@
+{
+  "sample_key": "35",
+  "case_id": "book4_r1\\011.json",
+  "source_path": "book4_r3/35.json",
+  "round": 0,
+  "variables": {
+    "Humus": {
+      "id": "Humus",
+      "value": [
+        155,
+        48,
+        25,
+        24,
+        22,
+        15
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Copper concentration (μg/g) in the humus layer for each of six woodlands (A–F). Paired with Soil measurements from the same woodlands."
+    },
+    "Soil": {
+      "id": "Soil",
+      "value": [
+        150,
+        24,
+        19,
+        19,
+        15,
+        14
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Copper concentration (μg/g) in the soil layer for each of six woodlands (A–F). Paired with Humus measurements from the same woodlands."
+    }
+  }
+}

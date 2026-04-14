@@ -1,0 +1,63 @@
+{
+  "sample_key": "242",
+  "case_id": "book3_r1\\66 (1).json",
+  "source_path": "book3_r3/242.json",
+  "round": 0,
+  "variables": {
+    "λa": {
+      "id": "λa",
+      "value": "λa",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate per hour for each power supply when all eight are operating."
+    },
+    "λb": {
+      "id": "λb",
+      "value": "λb",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Failure rate per hour for each remaining power supply when one has already failed (λa ≤ λb)."
+    },
+    "μ": {
+      "id": "μ",
+      "value": "μ",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant repair rate per hour for a failed power supply."
+    },
+    "P0(t)": {
+      "id": "P0(t)",
+      "value": {
+        "initial_condition": "P0(0)=1"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the system is in State 0 (all 8 units working) at time t."
+    },
+    "P1(t)": {
+      "id": "P1(t)",
+      "value": {
+        "initial_condition": "P1(0)=0"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the system is in State 1 (7 units working, 1 failed) at time t."
+    },
+    "P2(t)": {
+      "id": "P2(t)",
+      "value": {
+        "initial_condition": "P2(0)=0"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the system is in State 2 (more than one unit failed, system down) at time t."
+    },
+    "number_of_power_supplies": {
+      "id": "number_of_power_supplies",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of identical active power supplies in the system, used to determine transition rates (8λa from State 0, 7λb from State 1)."
+    }
+  }
+}

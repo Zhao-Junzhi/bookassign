@@ -1,0 +1,29 @@
+{
+  "sample_key": "144",
+  "case_id": "book3_r1\\32.json",
+  "source_path": "book3_r3/144.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of production lines (independent trials in the binomial model)"
+    },
+    "k": {
+      "id": "k",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The exact number of lines that use more than 6 thousands, for which the probability is being computed"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.3679,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a single production line uses more than 6 thousands on a given day, derived from the exponential distribution with mean 6: P(X > 6) = e^(-1) ≈ 0.3679"
+    }
+  }
+}

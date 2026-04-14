@@ -1,0 +1,38 @@
+{
+  "sample_key": "142",
+  "case_id": "book3_r1\\31.json",
+  "source_path": "book3_r3/142.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of items in the lot."
+    },
+    "K": {
+      "id": "K",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective items in the lot (5% of 500)."
+    },
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size drawn from the lot without replacement."
+    },
+    "X": {
+      "id": "X",
+      "value": {
+        "acceptance_threshold": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective items in the sample; the lot is accepted if X ≤ 1. The answer computes P(X=0) and P(X=1) using the hypergeometric distribution."
+    }
+  }
+}

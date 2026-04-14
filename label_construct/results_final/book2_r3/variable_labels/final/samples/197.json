@@ -1,0 +1,29 @@
+{
+  "sample_key": "197",
+  "case_id": "book2_r1\\081.json",
+  "source_path": "book2_r3/197.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 200,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size — the number of stamped circuits chosen from the day's production. Used to compute the mean (μ = np = 12) and standard deviation (σ = √(np(1−p)) ≈ 3.36) for the normal approximation."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.06,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The acceptable defective rate (6%). Used together with n to compute the mean and standard deviation for the normal approximation to the binomial distribution."
+    },
+    "x": {
+      "id": "x",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold number of defective circuits. The answer computes P(x ≥ 20) using the normal approximation with a continuity correction (19.5)."
+    }
+  }
+}

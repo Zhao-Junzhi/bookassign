@@ -1,0 +1,56 @@
+{
+  "sample_key": "212",
+  "case_id": "book1_r1\\record_091.json",
+  "source_path": "book1_r3/212.json",
+  "round": 0,
+  "variables": {
+    "AFTER": {
+      "id": "AFTER",
+      "value": [
+        49.2,
+        30.0,
+        16.0,
+        47.8,
+        3.4,
+        16.8,
+        10.7,
+        5.7,
+        23.0,
+        17.0,
+        79.0,
+        66.0,
+        46.8,
+        84.9,
+        65.2,
+        52.0
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Cavity-free children per 100 in each of the 16 North American cities AFTER public water fluoridation. Paired with BEFORE on the same cities."
+    },
+    "BEFORE": {
+      "id": "BEFORE",
+      "value": [
+        18.2,
+        21.9,
+        5.2,
+        20.4,
+        2.8,
+        21.0,
+        11.3,
+        6.1,
+        25.0,
+        13.0,
+        76.0,
+        59.0,
+        25.6,
+        50.4,
+        41.2,
+        21.0
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Cavity-free children per 100 in each of the 16 North American cities BEFORE public water fluoridation. Paired with AFTER on the same cities."
+    }
+  }
+}

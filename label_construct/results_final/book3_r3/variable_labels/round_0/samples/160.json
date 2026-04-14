@@ -1,0 +1,29 @@
+{
+  "sample_key": "160",
+  "case_id": "book3_r1\\41.json",
+  "source_path": "book3_r3/160.json",
+  "round": 0,
+  "variables": {
+    "alpha": {
+      "id": "alpha",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Shape parameter of the gamma distribution for the component's time to failure. Used in the answer as the upper limit of the summation (sum from i=0 to alpha-1=2)."
+    },
+    "beta": {
+      "id": "beta",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Scale parameter of the gamma distribution for the component's time to failure. Used in the answer to compute the ratio t/beta."
+    },
+    "t": {
+      "id": "t",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time point (10 time-units) at which the reliability of the component is evaluated."
+    }
+  }
+}

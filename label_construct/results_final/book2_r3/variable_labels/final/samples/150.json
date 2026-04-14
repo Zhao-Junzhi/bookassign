@@ -1,0 +1,22 @@
+{
+  "sample_key": "150",
+  "case_id": "book2_r1\\066.json",
+  "source_path": "book2_r3/150.json",
+  "round": 0,
+  "variables": {
+    "P_laptop": {
+      "id": "P_laptop",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that a single online PC purchase is a laptop, given as 20% in the background and used directly in the answer's calculation."
+    },
+    "n_purchases": {
+      "id": "n_purchases",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of next online PC purchases considered in the probability calculation."
+    }
+  }
+}

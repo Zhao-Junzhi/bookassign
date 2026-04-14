@@ -1,0 +1,44 @@
+{
+  "sample_key": "368",
+  "case_id": "book1_r1\\record_147.json",
+  "source_path": "book1_r3/368.json",
+  "round": 0,
+  "variables": {
+    "tumor_type": {
+      "id": "tumor_type",
+      "value": [
+        "glioma",
+        "meningioma",
+        "acoustic neuroma",
+        "all tumor types combined"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Types of intracranial tumors examined in the study."
+    },
+    "odds_ratio": {
+      "id": "odds_ratio",
+      "value": [
+        0.9,
+        0.7,
+        1.4,
+        1.0
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Odds ratios for the association between cellular telephone use (>100 hours) and each tumor type."
+    },
+    "CI_95": {
+      "id": "CI_95",
+      "value": [
+        "(0.5, 1.6)",
+        "(0.3, 1.7)",
+        "(0.6, 3.5)",
+        "(0.6, 1.5)"
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "95% confidence intervals for the odds ratios corresponding to each tumor type, used to assess whether the association is statistically significant."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "254",
+  "case_id": "book3_r1\\72.json",
+  "source_path": "book3_r3/254.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of heads on a single toss of the fair coin."
+    },
+    "n": {
+      "id": "n",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Maximum number of tosses (the experiment must end on or before this toss)."
+    }
+  }
+}

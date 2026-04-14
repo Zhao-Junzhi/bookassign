@@ -1,0 +1,19 @@
+{
+  "sample_key": "197",
+  "case_id": "book3_r1\\54 (1).json",
+  "source_path": "book3_r3/197.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "sample_mean": 50,
+        "variance": 16,
+        "sample_size": 25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The new product measurement variable, with sample mean X̄=50, variance σ²=16, and sample size n=25, used to construct the 95% confidence interval for the population mean μ."
+    }
+  }
+}

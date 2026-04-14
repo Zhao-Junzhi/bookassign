@@ -1,0 +1,58 @@
+{
+  "sample_key": "141",
+  "case_id": "book3_r1\\31.json",
+  "source_path": "book3_r3/141.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of items in the lot."
+    },
+    "K": {
+      "id": "K",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective items in the lot (5% of 500)."
+    },
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size drawn from the lot without replacement."
+    },
+    "X": {
+      "id": "X",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective items in the sample of size 20, following a hypergeometric distribution."
+    }
+  }
+}

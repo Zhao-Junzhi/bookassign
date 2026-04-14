@@ -1,0 +1,67 @@
+{
+  "sample_key": "64",
+  "case_id": "book4_r1\\019.json",
+  "source_path": "book4_r3/64.json",
+  "round": 0,
+  "variables": {
+    "Car_NO2": {
+      "id": "Car_NO2",
+      "value": [
+        69,
+        62,
+        73,
+        70,
+        68,
+        68,
+        64,
+        71
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "NO2 concentrations (in parts per billion) in exhaust fumes of cars."
+    },
+    "Minibus_NO2": {
+      "id": "Minibus_NO2",
+      "value": [
+        51,
+        45,
+        59,
+        57,
+        58,
+        54,
+        46,
+        48
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "NO2 concentrations (in parts per billion) in exhaust fumes of minibuses."
+    },
+    "Bus_NO2": {
+      "id": "Bus_NO2",
+      "value": [
+        41,
+        48,
+        42,
+        39,
+        47,
+        49,
+        35,
+        41
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "NO2 concentrations (in parts per billion) in exhaust fumes of buses."
+    },
+    "Vehicle_Type": {
+      "id": "Vehicle_Type",
+      "value": [
+        "Car",
+        "Minibus",
+        "Bus"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Type of vehicle (Car, Minibus, Bus) used as grouping factor for the multiple comparison test."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "140",
+  "case_id": "book2_r1\\063.json",
+  "source_path": "book2_r3/140.json",
+  "round": 0,
+  "variables": {
+    "premium": {
+      "id": "premium",
+      "value": 290,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Annual premium charged for the $10,000 one-year term insurance policy; used directly as one possible gain value and to compute the other."
+    },
+    "policy_amount": {
+      "id": "policy_amount",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Face value of the one-year term insurance policy; used together with the premium to compute the company's loss upon the customer's death ($290 − $10,000 = −$9,710)."
+    },
+    "probability_of_death": {
+      "id": "probability_of_death",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the customer dies during the next year (from actuarial tables); used to assign probabilities to the gain values (0.001 for death, 0.999 = 1 − 0.001 for survival)."
+    }
+  }
+}

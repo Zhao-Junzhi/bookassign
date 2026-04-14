@@ -1,0 +1,29 @@
+{
+  "sample_key": "117",
+  "case_id": "book2_r1\\051.json",
+  "source_path": "book2_r3/117.json",
+  "round": 0,
+  "variables": {
+    "total_workers": {
+      "id": "total_workers",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of welfare workers employed by the agency, used as the population size in the probability calculation (denominator of P(A)=3/10)."
+    },
+    "illegal_workers": {
+      "id": "illegal_workers",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of workers who have regularly been giving illegal deductions, used as the count of 'success' items in the population (numerator of P(A)=3/10)."
+    },
+    "workers_selected": {
+      "id": "workers_selected",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of workers randomly selected by the supervisor for auditing, defining the two-step selection process in the multiplicative rule."
+    }
+  }
+}

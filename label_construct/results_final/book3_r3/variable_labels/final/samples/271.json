@@ -1,0 +1,29 @@
+{
+  "sample_key": "271",
+  "case_id": "book3_r1\\80.json",
+  "source_path": "book3_r3/271.json",
+  "round": 0,
+  "variables": {
+    "f_t": {
+      "id": "f_t",
+      "value": "f(t) = 2e^t / (e^t + 1)^2, t > 0",
+      "class": "others",
+      "role": "NR",
+      "description": "Probability density function of the lifetime (in hours) of a communication system unit, used to compute the probability of failure within the first hour."
+    },
+    "n": {
+      "id": "n",
+      "value": 30,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size: the number of units tested simultaneously starting at t=0."
+    },
+    "t_threshold": {
+      "id": "t_threshold",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time threshold (in hours) within which failures are counted; used to compute P(T ≤ 1)."
+    }
+  }
+}

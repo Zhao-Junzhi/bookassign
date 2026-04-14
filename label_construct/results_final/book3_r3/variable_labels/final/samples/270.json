@@ -1,0 +1,36 @@
+{
+  "sample_key": "270",
+  "case_id": "book3_r1\\79.json",
+  "source_path": "book3_r3/270.json",
+  "round": 0,
+  "variables": {
+    "T": {
+      "id": "T",
+      "value": "Time to failure of a car, with constant failure rate (exponential distribution)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable representing the time to failure of a new car, following an exponential distribution (constant failure rate)."
+    },
+    "guarantee_period": {
+      "id": "guarantee_period",
+      "value": 1.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The guarantee period of 18 months (1.5 years), used both as the conditioning threshold (T ≥ 1.5) and to determine the failure rate from the return rate assumption."
+    },
+    "max_return_rate": {
+      "id": "max_return_rate",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The assumed maximum proportion of new cars returned within the guarantee period, i.e., P(T ≤ 1.5) = 0.05, used to determine the failure rate λ."
+    },
+    "time_horizon": {
+      "id": "time_horizon",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time horizon of 3 years, used in the event T ≤ 3 for computing the conditional probability of failure."
+    }
+  }
+}

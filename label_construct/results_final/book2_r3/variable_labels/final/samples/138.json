@@ -1,0 +1,29 @@
+{
+  "sample_key": "138",
+  "case_id": "book2_r1\\062.json",
+  "source_path": "book2_r3/138.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of consecutive years that must be sampled until a dry (drought) year is observed; in this problem x=3."
+    },
+    "p_drought": {
+      "id": "p_drought",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of observing a drought year in any given year, used in the geometric distribution formula p(x)=(.3)(.7)^{x-1}."
+    },
+    "p_no_drought": {
+      "id": "p_no_drought",
+      "value": 0.7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of observing a non-drought year in any given year (complement of p_drought), used in the geometric distribution formula p(x)=(.3)(.7)^{x-1}."
+    }
+  }
+}

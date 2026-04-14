@@ -1,0 +1,54 @@
+{
+  "sample_key": "436",
+  "case_id": "book2_r1\\161.json",
+  "source_path": "book2_r3/436.json",
+  "round": 0,
+  "variables": {
+    "x_home_size": {
+      "id": "x_home_size",
+      "value": [
+        1290,
+        1350,
+        1470,
+        1600,
+        1710,
+        1840,
+        1980,
+        2230,
+        2400,
+        2710,
+        2930,
+        3000,
+        3210,
+        3240,
+        3520
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Size of the home in square feet (independent variable). The answer references its sampled range (minimum 1,290, maximum 3,520) to assess the meaningfulness of coefficient interpretations."
+    },
+    "y_monthly_usage": {
+      "id": "y_monthly_usage",
+      "value": [
+        1182,
+        1172,
+        1264,
+        1493,
+        1571,
+        1711,
+        1804,
+        1840,
+        1986,
+        2007,
+        1984,
+        1960,
+        2001,
+        1928,
+        1945
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Monthly electrical usage in kilowatt-hours (dependent variable). The answer interprets the estimated quadratic relationship between home size and this usage variable."
+    }
+  }
+}

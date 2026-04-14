@@ -1,0 +1,29 @@
+{
+  "sample_key": "241",
+  "case_id": "book3_r1\\65.json",
+  "source_path": "book3_r3/241.json",
+  "round": 0,
+  "variables": {
+    "λ₀": {
+      "id": "λ₀",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of a unit when all three units are operational in the shared-load parallel system."
+    },
+    "λₕ": {
+      "id": "λₕ",
+      "value": 0.005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of each of the two surviving units sharing half of the total load."
+    },
+    "λf": {
+      "id": "λf",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of a unit at full load (single surviving unit carrying the entire load)."
+    }
+  }
+}

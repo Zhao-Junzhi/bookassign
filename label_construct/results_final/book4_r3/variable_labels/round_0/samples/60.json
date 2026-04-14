@@ -1,0 +1,32 @@
+{
+  "sample_key": "60",
+  "case_id": "book4_r1\\018.json",
+  "source_path": "book4_r3/60.json",
+  "round": 0,
+  "variables": {
+    "lichen_orientation": {
+      "id": "lichen_orientation",
+      "value": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The quadrant orientation (north, east, south, west) on the tree where lichens were found."
+    },
+    "lichen_count": {
+      "id": "lichen_count",
+      "value": [
+        36,
+        50,
+        29,
+        45
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed number of lichens found on each quadrant (north=36, east=50, south=29, west=45), used in a goodness-of-fit test to assess whether the distribution departs from a uniform/random orientation."
+    }
+  }
+}

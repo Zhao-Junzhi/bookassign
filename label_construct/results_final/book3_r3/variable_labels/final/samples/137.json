@@ -1,0 +1,15 @@
+{
+  "sample_key": "137",
+  "case_id": "book3_r1\\29.json",
+  "source_path": "book3_r3/137.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a connection during busy time at the telephone exchange."
+    }
+  }
+}

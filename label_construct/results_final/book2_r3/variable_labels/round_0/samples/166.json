@@ -1,0 +1,17 @@
+{
+  "sample_key": "166",
+  "case_id": "book2_r1\\070.json",
+  "source_path": "book2_r3/166.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": {
+        "mean": 2.6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of a company's employees who are absent on Mondays, following a Poisson distribution with an average (λ) of 2.6."
+    }
+  }
+}

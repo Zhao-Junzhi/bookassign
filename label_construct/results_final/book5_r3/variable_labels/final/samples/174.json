@@ -1,0 +1,79 @@
+{
+  "sample_key": "174",
+  "case_id": "book5_r1\\059.json",
+  "source_path": "book5_r3/174.json",
+  "round": 0,
+  "variables": {
+    "Linear_analogue_scale_before": {
+      "id": "Linear_analogue_scale_before",
+      "value": {
+        "mean": 3.5,
+        "SE": 0.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, before treatment period, averaged over two days for 13 patients. This variable and Linear_analogue_scale_during and Linear_analogue_scale_after are repeated measures on the same subjects across different time periods."
+    },
+    "Linear_analogue_scale_during": {
+      "id": "Linear_analogue_scale_during",
+      "value": {
+        "mean": 3.3,
+        "SE": 0.4
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, during aspirin treatment period, averaged over two days for 13 patients. Same subjects as Linear_analogue_scale_before and Linear_analogue_scale_after."
+    },
+    "Linear_analogue_scale_after": {
+      "id": "Linear_analogue_scale_after",
+      "value": {
+        "mean": 3.1,
+        "SE": 0.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, after treatment period, averaged over two days for 13 patients. Same subjects as Linear_analogue_scale_before and Linear_analogue_scale_during."
+    },
+    "Nocturnal_limb_movements_before": {
+      "id": "Nocturnal_limb_movements_before",
+      "value": {
+        "mean": 46.3,
+        "SE": 10.0
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure), before treatment period, averaged over two days for 13 patients. Same subjects as Nocturnal_limb_movements_during and Nocturnal_limb_movements_after."
+    },
+    "Nocturnal_limb_movements_during": {
+      "id": "Nocturnal_limb_movements_during",
+      "value": {
+        "mean": 38.8,
+        "SE": 7.4
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure), during aspirin treatment period, averaged over two days for 13 patients. Same subjects as Nocturnal_limb_movements_before and Nocturnal_limb_movements_after."
+    },
+    "Nocturnal_limb_movements_after": {
+      "id": "Nocturnal_limb_movements_after",
+      "value": {
+        "mean": 38.7,
+        "SE": 5.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure), after treatment period, averaged over two days for 13 patients. Same subjects as Nocturnal_limb_movements_before and Nocturnal_limb_movements_during."
+    },
+    "Treatment_period": {
+      "id": "Treatment_period",
+      "value": [
+        "Before treatment",
+        "During treatment",
+        "After treatment"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Treatment period indicating the phase of the study: before aspirin treatment, during aspirin treatment (900 mg), and after aspirin treatment."
+    }
+  }
+}

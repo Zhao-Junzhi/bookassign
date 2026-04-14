@@ -1,0 +1,29 @@
+{
+  "sample_key": "321",
+  "case_id": "book1_r1\\record_127.json",
+  "source_path": "book1_r3/321.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of kidney cancer cases treated by the oncologist (sample size)."
+    },
+    "x": {
+      "id": "x",
+      "value": 16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of cases that survive at least 5 years (observed number of successes)."
+    },
+    "p0": {
+      "id": "p0",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Historical survival proportion (one in five), used as the null hypothesis value for the one-sample proportion test."
+    }
+  }
+}

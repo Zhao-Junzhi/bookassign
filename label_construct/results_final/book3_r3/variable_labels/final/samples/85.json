@@ -1,0 +1,29 @@
+{
+  "sample_key": "85",
+  "case_id": "book3_r1\\137.json",
+  "source_path": "book3_r3/85.json",
+  "round": 0,
+  "variables": {
+    "λ": {
+      "id": "λ",
+      "value": "λ (active failure rate of each component)",
+      "class": "numerical",
+      "role": "X",
+      "description": "The active failure rate of each identical component in the system, used in computing the system reliability function R(t) = (1+2λt)e^{-2λt}."
+    },
+    "t": {
+      "id": "t",
+      "value": "t (time)",
+      "class": "numerical",
+      "role": "X",
+      "description": "Time variable over which the system reliability is evaluated. Acts as the independent variable in the reliability function R(t)."
+    },
+    "R(t)": {
+      "id": "R(t)",
+      "value": "(1+2λt)e^{-2λt}",
+      "class": "numerical",
+      "role": "Y",
+      "description": "The reliability of the 2-out-of-3 standby redundant system as a function of time, which is the quantity to be found."
+    }
+  }
+}

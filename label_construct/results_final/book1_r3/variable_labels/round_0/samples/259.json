@@ -1,0 +1,45 @@
+{
+  "sample_key": "259",
+  "case_id": "book1_r1\\record_109.json",
+  "source_path": "book1_r3/259.json",
+  "round": 0,
+  "variables": {
+    "DELTA_treatment": {
+      "id": "DELTA_treatment",
+      "value": [
+        7,
+        -4,
+        18,
+        17,
+        -3,
+        -5,
+        1,
+        10,
+        11,
+        -2
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Change in systolic blood pressure (BEFORE − AFTER) for the calcium-supplementation treatment group (Group 1), in mm Hg."
+    },
+    "DELTA_placebo": {
+      "id": "DELTA_placebo",
+      "value": [
+        -1,
+        12,
+        -1,
+        -3,
+        3,
+        -5,
+        5,
+        2,
+        -11,
+        -1,
+        -3
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Change in systolic blood pressure (BEFORE − AFTER) for the placebo control group (Group 2), in mm Hg."
+    }
+  }
+}

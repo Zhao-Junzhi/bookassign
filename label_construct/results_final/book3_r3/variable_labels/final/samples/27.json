@@ -1,0 +1,50 @@
+{
+  "sample_key": "27",
+  "case_id": "book3_r1\\107.json",
+  "source_path": "book3_r3/27.json",
+  "round": 0,
+  "variables": {
+    "girls_count": {
+      "id": "girls_count",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of girls in the class, used to compute the combination C(10,3)."
+    },
+    "boys_count": {
+      "id": "boys_count",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of boys in the class, used to compute the combination C(12,3)."
+    },
+    "total_children": {
+      "id": "total_children",
+      "value": 22,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of children in the class (10+12=22), used to compute the combination C(22,6)."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of children selected at random by the teacher for group projects."
+    },
+    "girls_selected": {
+      "id": "girls_selected",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of girls to be chosen in the scenario of interest (3 girls and 3 boys)."
+    },
+    "boys_selected": {
+      "id": "boys_selected",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of boys to be chosen in the scenario of interest (3 girls and 3 boys)."
+    }
+  }
+}

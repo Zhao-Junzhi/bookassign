@@ -1,0 +1,26 @@
+{
+  "sample_key": "46",
+  "case_id": "book3_r1\\116.json",
+  "source_path": "book3_r3/46.json",
+  "round": 0,
+  "variables": {
+    "failure_time": {
+      "id": "failure_time",
+      "value": [
+        20,
+        23,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        35
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Failure time data (in days) assumed to follow a uniform distribution on [c-d, c+d], used to estimate parameters c and d via maximum likelihood estimation."
+    }
+  }
+}

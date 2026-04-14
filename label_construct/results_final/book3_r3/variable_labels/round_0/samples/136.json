@@ -1,0 +1,22 @@
+{
+  "sample_key": "136",
+  "case_id": "book3_r1\\29.json",
+  "source_path": "book3_r3/136.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a connection during busy time per attempt."
+    },
+    "X": {
+      "id": "X",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of attempts necessary for a successful call, set to 4 in this problem."
+    }
+  }
+}

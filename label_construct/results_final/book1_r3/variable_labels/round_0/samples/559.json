@@ -1,0 +1,22 @@
+{
+  "sample_key": "559",
+  "case_id": "book1_r1\\record_372.json",
+  "source_path": "book1_r3/559.json",
+  "round": 0,
+  "variables": {
+    "sigma": {
+      "id": "sigma",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known population standard deviation of the variable, used in the standard error formula."
+    },
+    "n": {
+      "id": "n",
+      "value": 42,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size used in the standard error formula."
+    }
+  }
+}

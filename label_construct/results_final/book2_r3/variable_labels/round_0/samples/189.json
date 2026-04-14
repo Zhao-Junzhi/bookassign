@@ -1,0 +1,15 @@
+{
+  "sample_key": "189",
+  "case_id": "book2_r1\\079.json",
+  "source_path": "book2_r3/189.json",
+  "round": 0,
+  "variables": {
+    "P": {
+      "id": "P",
+      "value": 0.95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "给定的概率值，表示标准正态分布中 z 值落在 -z_0 与 z_0 之间的概率，即 P(-z_0 ≤ z ≤ z_0) = 0.95。answer 中将其除以 2 得到 0.475 后查表求得 z_0。"
+    }
+  }
+}

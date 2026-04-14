@@ -1,0 +1,53 @@
+{
+  "sample_key": "5",
+  "case_id": "book5_r1\\001.json",
+  "source_path": "book5_r3/5.json",
+  "round": 0,
+  "variables": {
+    "Total_dose_of_SA_with_adverse_reactions": {
+      "id": "Total_dose_of_SA_with_adverse_reactions",
+      "value": [
+        360,
+        2010,
+        1390,
+        660,
+        1135,
+        510,
+        410,
+        910,
+        360,
+        1260,
+        560,
+        1135,
+        1410,
+        1110,
+        960,
+        1310,
+        910,
+        1235,
+        2950,
+        360,
+        1935,
+        1660,
+        435,
+        310,
+        310,
+        410,
+        690,
+        910,
+        1260,
+        1260,
+        1310,
+        1350,
+        1410,
+        1460,
+        1535,
+        1560,
+        2050
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total dose of sodium aurothiomalate (SA) in mg for the 37 patients with major adverse reactions. The median of this variable is computed in the answer."
+    }
+  }
+}

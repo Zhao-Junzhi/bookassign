@@ -1,0 +1,29 @@
+{
+  "sample_key": "110",
+  "case_id": "book3_r1\\16.json",
+  "source_path": "book3_r3/110.json",
+  "round": 0,
+  "variables": {
+    "failure_time_density_mean": {
+      "id": "failure_time_density_mean",
+      "value": 9000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean (θ) of the exponential failure time distribution, used as the parameter in the density function f(t) = (1/9000) * e^(-t/9000)."
+    },
+    "warranty_end_time": {
+      "id": "warranty_end_time",
+      "value": 4380,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lower bound of the time interval (six months = 4380 hours), representing the end of the warranty period."
+    },
+    "first_year_end_time": {
+      "id": "first_year_end_time",
+      "value": 8760,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Upper bound of the time interval (one year = 8760 hours), representing the end of the first year."
+    }
+  }
+}

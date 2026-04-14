@@ -1,0 +1,26 @@
+{
+  "sample_key": "328",
+  "case_id": "book1_r1\\record_131.json",
+  "source_path": "book1_r3/328.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": {
+        "sample_size": 75
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "追踪研究中的患者总数（样本量），answer 中用于 plus-four 方法计算调整后的样本量 n̄ = 75 + 4 = 79"
+    },
+    "x": {
+      "id": "x",
+      "value": {
+        "count": 20
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "在一个月内自发改善的患者人数（成功次数），answer 中用于 plus-four 方法计算调整后的成功次数 x̄ = 20 + 2 = 22"
+    }
+  }
+}

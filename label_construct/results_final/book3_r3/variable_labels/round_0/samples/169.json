@@ -1,0 +1,22 @@
+{
+  "sample_key": "169",
+  "case_id": "book3_r1\\44 (1).json",
+  "source_path": "book3_r3/169.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": 8760,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time duration in hours corresponding to one year, used to evaluate the reliability function."
+    },
+    "h_t": {
+      "id": "h_t",
+      "value": "h(t) = 0.5 × 10^(-8) t",
+      "class": "others",
+      "role": "NR",
+      "description": "Failure rate (hazard function) of the new tire, linearly increasing with time, used to compute the reliability function."
+    }
+  }
+}

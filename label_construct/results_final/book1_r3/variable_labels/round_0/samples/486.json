@@ -1,0 +1,29 @@
+{
+  "sample_key": "486",
+  "case_id": "book1_r1\\record_344.json",
+  "source_path": "book1_r3/486.json",
+  "round": 0,
+  "variables": {
+    "sensitivity": {
+      "id": "sensitivity",
+      "value": 0.98,
+      "class": "numerical",
+      "role": "NR",
+      "description": "筛查试验的灵敏度，即患病者检测结果为阳性的概率"
+    },
+    "false_positive_rate": {
+      "id": "false_positive_rate",
+      "value": 0.01,
+      "class": "numerical",
+      "role": "NR",
+      "description": "筛查试验的假阳性率，即未患病者检测结果为阳性的概率"
+    },
+    "prevalence": {
+      "id": "prevalence",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "人群中该疾病的患病率（流行率）"
+    }
+  }
+}

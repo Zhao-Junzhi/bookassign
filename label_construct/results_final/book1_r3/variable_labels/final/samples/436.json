@@ -1,0 +1,24 @@
+{
+  "sample_key": "436",
+  "case_id": "book1_r1\\record_312.json",
+  "source_path": "book1_r3/436.json",
+  "round": 0,
+  "variables": {
+    "data_points": {
+      "id": "data_points",
+      "value": [
+        1.47,
+        2.06,
+        2.36,
+        3.43,
+        3.74,
+        3.78,
+        3.94,
+        4.42
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The eight observed data values whose distributional location (median) is being computed in the answer."
+    }
+  }
+}

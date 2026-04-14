@@ -1,0 +1,50 @@
+{
+  "sample_key": "70",
+  "case_id": "book3_r1\\129.json",
+  "source_path": "book3_r3/70.json",
+  "round": 0,
+  "variables": {
+    "observations": {
+      "id": "observations",
+      "value": [
+        "b",
+        "g",
+        "b",
+        "g",
+        "b",
+        "g"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Sequentially drawn observations where 'b' denotes a defective item and 'g' denotes a good item, used in the sequential testing plan to determine acceptance or rejection of the lot."
+    },
+    "p0": {
+      "id": "p0",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of defective items under the null hypothesis H0."
+    },
+    "p1": {
+      "id": "p1",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of defective items under the alternative hypothesis H1."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of rejecting H0 when it is true (Type I error probability), used to determine the sequential test boundaries."
+    },
+    "beta": {
+      "id": "beta",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of accepting H0 when H1 is true (Type II error probability), used to determine the sequential test boundaries."
+    }
+  }
+}

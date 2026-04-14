@@ -1,0 +1,36 @@
+{
+  "sample_key": "154",
+  "case_id": "book2_r1\\067.json",
+  "source_path": "book2_r3/154.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective stampings out of 5 trials; the binomial random variable whose probability distribution is being computed."
+    },
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of trials (stampings tested), used as the parameter n in the binomial distribution."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of a defective stamping on each trial, used as the success probability in the binomial distribution."
+    }
+  }
+}

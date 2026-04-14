@@ -1,0 +1,32 @@
+{
+  "sample_key": "49",
+  "case_id": "book1_r1\\record_016.json",
+  "source_path": "book1_r3/49.json",
+  "round": 0,
+  "variables": {
+    "Group_1": {
+      "id": "Group_1",
+      "value": [
+        90,
+        70,
+        50,
+        30
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Data values for Group 1, used in the back-to-back stemplot and compared with Group 2 for location and spread."
+    },
+    "Group_2": {
+      "id": "Group_2",
+      "value": [
+        90,
+        80,
+        70,
+        60
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Data values for Group 2, used in the back-to-back stemplot and compared with Group 1 for location and spread."
+    }
+  }
+}

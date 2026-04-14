@@ -1,0 +1,36 @@
+{
+  "sample_key": "689",
+  "case_id": "book1_r1\\record_416.json",
+  "source_path": "book1_r3/689.json",
+  "round": 0,
+  "variables": {
+    "p0": {
+      "id": "p0",
+      "value": 0.21,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The prevalence of smoking in U.S. adults (population proportion under the null hypothesis), used as the reference value in the hypothesis test."
+    },
+    "n": {
+      "id": "n",
+      "value": 57,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of individuals from the particular community."
+    },
+    "p_hat": {
+      "id": "p_hat",
+      "value": 0.298,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample proportion of smokers in the community (17/57 ≈ 0.298, though the problem states 0.208; this is the observed sample proportion used in the test statistic calculation)."
+    },
+    "SE_p": {
+      "id": "SE_p",
+      "value": 0.05395,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard error of the sample proportion under the null hypothesis, used in the denominator of the test statistic."
+    }
+  }
+}

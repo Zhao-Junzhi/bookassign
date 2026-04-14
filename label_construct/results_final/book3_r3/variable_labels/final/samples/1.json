@@ -1,0 +1,43 @@
+{
+  "sample_key": "1",
+  "case_id": "book3_r1\\01.json",
+  "source_path": "book3_r3/1.json",
+  "round": 0,
+  "variables": {
+    "P(A)": {
+      "id": "P(A)",
+      "value": 0.95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the product is good (not defective), derived from the 5% defect rate."
+    },
+    "P(A_c)": {
+      "id": "P(A_c)",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the product is defective (5% failure rate from the assembly line)."
+    },
+    "P(B|A)": {
+      "id": "P(B|A)",
+      "value": 0.96,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the test indicates good given the product is actually good."
+    },
+    "P(B_c|A)": {
+      "id": "P(B_c|A)",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the test indicates defective given the product is actually good (complement of P(B|A) = 1 - 0.96)."
+    },
+    "P(B_c|A_c)": {
+      "id": "P(B_c|A_c)",
+      "value": 0.92,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the test indicates defective given the product is actually defective."
+    }
+  }
+}

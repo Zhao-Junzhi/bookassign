@@ -1,0 +1,28 @@
+{
+  "sample_key": "106",
+  "case_id": "book5_r1\\037.json",
+  "source_path": "book5_r3/106.json",
+  "round": 0,
+  "variables": {
+    "Hypertension_Aspirin": {
+      "id": "Hypertension_Aspirin",
+      "value": {
+        "n": 34,
+        "hypertension_cases": 4
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Hypertension outcome in the aspirin group (number of women developing hypertension out of total in aspirin group). This variable and Hypertension_Placebo represent the same outcome measure (hypertension status) for the same sample of 65 women, split by treatment group."
+    },
+    "Hypertension_Placebo": {
+      "id": "Hypertension_Placebo",
+      "value": {
+        "n": 31,
+        "hypertension_cases": 11
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Hypertension outcome in the placebo group (number of women developing hypertension out of total in placebo group). This variable and Hypertension_Aspirin represent the same outcome measure (hypertension status) for the same sample of 65 women, split by treatment group."
+    }
+  }
+}

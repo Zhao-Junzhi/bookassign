@@ -1,0 +1,22 @@
+{
+  "sample_key": "177",
+  "case_id": "book2_r1\\073.json",
+  "source_path": "book2_r3/177.json",
+  "round": 0,
+  "variables": {
+    "z": {
+      "id": "z",
+      "value": 1.64,
+      "class": "numerical",
+      "role": "NR",
+      "description": "标准正态随机变量的阈值，用于计算其右侧尾部概率 P(z > 1.64)。"
+    },
+    "A2": {
+      "id": "A2",
+      "value": 0.4495,
+      "class": "numerical",
+      "role": "NR",
+      "description": "标准正态分布中 z=0 到 z=1.64 之间的面积（即 P(0 < z < 1.64)），由标准正态分布表查得，answer 中直接用于计算 A1 = 0.5 − A2。"
+    }
+  }
+}

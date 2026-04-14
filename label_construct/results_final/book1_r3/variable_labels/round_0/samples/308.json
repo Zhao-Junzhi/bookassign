@@ -1,0 +1,18 @@
+{
+  "sample_key": "308",
+  "case_id": "book1_r1\\record_123.json",
+  "source_path": "book1_r3/308.json",
+  "round": 0,
+  "variables": {
+    "multiple_sexual_partners": {
+      "id": "multiple_sexual_partners",
+      "value": {
+        "sample_size": 2673,
+        "successes": 170
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Whether a heterosexual adult reported two or more sexual partners in the past 12 months. 170 out of 2,673 subjects reported this behavior. Used in the plus-four method to compute adjusted sample size (n~ = 2673 + 4 = 2677) and adjusted proportion (p~ = (170 + 2) / 2677 = 0.0643)."
+    }
+  }
+}

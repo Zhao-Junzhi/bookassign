@@ -1,0 +1,29 @@
+{
+  "sample_key": "318",
+  "case_id": "book1_r1\\record_126.json",
+  "source_path": "book1_r3/318.json",
+  "round": 0,
+  "variables": {
+    "observed_cancer_deaths": {
+      "id": "observed_cancer_deaths",
+      "value": 26,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed number of cancer deaths in the cohort of 556 insulation workers."
+    },
+    "n": {
+      "id": "n",
+      "value": 556,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The total number of insulation workers in the cohort (sample size)."
+    },
+    "expected_cases": {
+      "id": "expected_cases",
+      "value": 14.4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The expected number of cancer incident cases during the observation period based on national statistics, used to derive the null hypothesis proportion p_0 = 14.4/556 = 0.02590."
+    }
+  }
+}

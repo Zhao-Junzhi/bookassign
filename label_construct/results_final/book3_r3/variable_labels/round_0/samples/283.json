@@ -1,0 +1,22 @@
+{
+  "sample_key": "283",
+  "case_id": "book3_r1\\85.json",
+  "source_path": "book3_r3/283.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific time point (in years) at which the reliability/survival probability is evaluated; here t = 3 years representing the minimum desired lifetime of the electric motor."
+    },
+    "f(t)": {
+      "id": "f(t)",
+      "value": "0.25 t e^{-0.5 t}, t > 0",
+      "class": "others",
+      "role": "NR",
+      "description": "The probability density function (pdf) of the lifetime of the electric motor, used to compute the survival probability R(t) = P(T ≥ 3) by integrating from t=3 to infinity."
+    }
+  }
+}

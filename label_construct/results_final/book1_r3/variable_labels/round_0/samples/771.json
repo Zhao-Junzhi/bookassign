@@ -1,0 +1,36 @@
+{
+  "sample_key": "771",
+  "case_id": "book1_r1\\record_504.json",
+  "source_path": "book1_r3/771.json",
+  "round": 0,
+  "variables": {
+    "p1": {
+      "id": "p1",
+      "value": 0.4,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Prevalence of smoking among American Indians/Alaska Natives (U.S. adults, 1999-2000)."
+    },
+    "p2": {
+      "id": "p2",
+      "value": 0.12,
+      "class": "numerical",
+      "role": "XY",
+      "description": "Prevalence of smoking among Chinese-Americans (U.S. adults, 1999-2000)."
+    },
+    "n1": {
+      "id": "n1",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the SRS taken from the American Indians/Alaska Natives group."
+    },
+    "n2": {
+      "id": "n2",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the SRS taken from the Chinese-Americans group."
+    }
+  }
+}

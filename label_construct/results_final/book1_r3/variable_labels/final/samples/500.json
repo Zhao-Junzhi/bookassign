@@ -1,0 +1,29 @@
+{
+  "sample_key": "500",
+  "case_id": "book1_r1\\record_349.json",
+  "source_path": "book1_r3/500.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "简单随机样本的样本量，即从总体中抽取的人数"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体中哮喘的患病率（即每次抽样中个体为哮喘患者的概率）"
+    },
+    "x": {
+      "id": "x",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "所求概率对应的哮喘患者人数，即观察到的哮喘患者数目"
+    }
+  }
+}

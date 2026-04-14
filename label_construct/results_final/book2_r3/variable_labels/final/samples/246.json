@@ -1,0 +1,26 @@
+{
+  "sample_key": "246",
+  "case_id": "book2_r1\\102.json",
+  "source_path": "book2_r3/246.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": {
+        "sample_size": 484
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of consumers randomly sampled by BEBR."
+    },
+    "x": {
+      "id": "x",
+      "value": {
+        "number_optimistic": 157
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of sampled consumers who are optimistic about the state of the economy."
+    }
+  }
+}

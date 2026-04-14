@@ -1,0 +1,28 @@
+{
+  "sample_key": "324",
+  "case_id": "book2_r1\\127.json",
+  "source_path": "book2_r3/324.json",
+  "round": 0,
+  "variables": {
+    "model_1_major_repairs": {
+      "id": "model_1_major_repairs",
+      "value": {
+        "sample_size": 400,
+        "number_needing_major_repairs": 53
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Sample of two-year owners of automobile model 1; 53 out of 400 reported needing major repairs (>$500) within the first 2 years. This variable and model_2_major_repairs represent the same measurement (proportion needing major repairs) across two different automobile models."
+    },
+    "model_2_major_repairs": {
+      "id": "model_2_major_repairs",
+      "value": {
+        "sample_size": 500,
+        "number_needing_major_repairs": 78
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Sample of two-year owners of automobile model 2; 78 out of 500 reported needing major repairs (>$500) within the first 2 years. This variable and model_1_major_repairs represent the same measurement (proportion needing major repairs) across two different automobile models."
+    }
+  }
+}

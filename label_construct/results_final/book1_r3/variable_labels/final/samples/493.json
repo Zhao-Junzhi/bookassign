@@ -1,0 +1,36 @@
+{
+  "sample_key": "493",
+  "case_id": "book1_r1\\record_348.json",
+  "source_path": "book1_r3/493.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients (trials) in the binomial experiment, used as the n parameter in the binomial formula"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of success (treatment response) per trial, used as p^x in the binomial formula"
+    },
+    "q": {
+      "id": "q",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of failure per trial (1 - p), used as q^(n-x) in the binomial formula"
+    },
+    "x": {
+      "id": "x",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes for which the probability is being calculated"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "sample_key": "190",
+  "case_id": "book3_r1\\51 (1).json",
+  "source_path": "book3_r3/190.json",
+  "round": 0,
+  "variables": {
+    "Number_of_defective": {
+      "id": "Number_of_defective",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        "4 or more"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Number of defective items per observation (d), used as the discrete values at which F_n(x) and F_0(x) are evaluated."
+    },
+    "Observed_frequency": {
+      "id": "Observed_frequency",
+      "value": [
+        6,
+        8,
+        12,
+        4,
+        3
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Observed frequency (f_i) for each defective count category. Cumulated and divided by N=33 to compute the empirical CDF F_n(x)."
+    },
+    "N": {
+      "id": "N",
+      "value": 33,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total sample size (N=33), used as the denominator when computing the empirical cumulative distribution F_n(x)."
+    },
+    "lambda": {
+      "id": "lambda",
+      "value": 1.7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated Poisson parameter λ=1.7, used to compute the theoretical Poisson probabilities P(d) and hence the theoretical CDF F_0(x)."
+    }
+  }
+}

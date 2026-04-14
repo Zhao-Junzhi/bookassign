@@ -1,0 +1,25 @@
+{
+  "sample_key": "129",
+  "case_id": "book1_r1\\record_060.json",
+  "source_path": "book1_r3/129.json",
+  "round": 0,
+  "variables": {
+    "X_height": {
+      "id": "X_height",
+      "value": {
+        "μ": 138,
+        "σ": 7
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights of 10-year-old boys, following a Normal distribution with population mean μ=138 cm and population standard deviation σ=7 cm."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 150,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The cutoff value (150 cm) used in the answer to compute the proportion of the population below this height, directly substituted into the z-score formula z=(150−138)/7."
+    }
+  }
+}

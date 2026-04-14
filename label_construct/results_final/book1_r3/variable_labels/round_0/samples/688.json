@@ -1,0 +1,25 @@
+{
+  "sample_key": "688",
+  "case_id": "book1_r1\\record_416.json",
+  "source_path": "book1_r3/688.json",
+  "round": 0,
+  "variables": {
+    "community_smokers": {
+      "id": "community_smokers",
+      "value": {
+        "sample_size": 57,
+        "number_of_smokers": 17
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Smoking status of individuals in the community sample: 17 smokers identified from a simple random sample of 57 individuals"
+    },
+    "US_smoking_prevalence": {
+      "id": "US_smoking_prevalence",
+      "value": 0.21,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prevalence of smoking among U.S. adults according to the NCHS report, used as the hypothesized population proportion p₀ in the one-sample proportion test"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "43",
+  "case_id": "book3_r1\\114.json",
+  "source_path": "book3_r3/43.json",
+  "round": 0,
+  "variables": {
+    "limousine_capacity": {
+      "id": "limousine_capacity",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Maximum number of passengers the airport limousine can accommodate on any one trip."
+    },
+    "num_reservations": {
+      "id": "num_reservations",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of reservations made for the trip, serving as the number of Bernoulli trials (n) in the binomial model."
+    },
+    "no_show_probability": {
+      "id": "no_show_probability",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a person with a reservation does not appear for the trip (30%). The complement (0.70) is the probability of showing up, used as the success probability in the binomial calculation."
+    }
+  }
+}

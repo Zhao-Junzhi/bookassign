@@ -1,0 +1,36 @@
+{
+  "sample_key": "156",
+  "case_id": "book3_r1\\40.json",
+  "source_path": "book3_r3/156.json",
+  "round": 0,
+  "variables": {
+    "operating_time": {
+      "id": "operating_time",
+      "value": 1500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The operating time (in hours) for which the reliability of the component is to be calculated."
+    },
+    "mu": {
+      "id": "mu",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Location parameter (μ) of the Weibull distribution, used in the reliability formula as the shift parameter. Note: although the background states μ=2000, the answer actually uses μ=1000 in the substitution."
+    },
+    "beta": {
+      "id": "beta",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Shape parameter (β) of the Weibull distribution, used as the exponent in the reliability formula."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 2000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Scale parameter (σ) of the Weibull distribution, used as the denominator in the reliability formula. Note: the answer uses σ=2000 as the denominator in the substitution."
+    }
+  }
+}

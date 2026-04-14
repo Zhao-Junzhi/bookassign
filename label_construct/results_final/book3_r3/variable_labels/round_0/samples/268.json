@@ -1,0 +1,22 @@
+{
+  "sample_key": "268",
+  "case_id": "book3_r1\\78.json",
+  "source_path": "book3_r3/268.json",
+  "round": 0,
+  "variables": {
+    "h(t)": {
+      "id": "h(t)",
+      "value": "h(t) = t/(t+1), t > 0",
+      "class": "others",
+      "role": "NR",
+      "description": "The failure rate (hazard rate) function for the hydraulic component, defined as h(t) = t/(t+1) for t > 0, used to compute the MTTF."
+    },
+    "t": {
+      "id": "t",
+      "value": "t > 0 (continuous, in years)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time variable in years, serving as the argument of the hazard rate function and the variable of integration for computing MTTF."
+    }
+  }
+}

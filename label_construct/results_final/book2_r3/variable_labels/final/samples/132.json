@@ -1,0 +1,27 @@
+{
+  "sample_key": "132",
+  "case_id": "book2_r1\\057.json",
+  "source_path": "book2_r3/132.json",
+  "round": 0,
+  "variables": {
+    "number_of_experts": {
+      "id": "number_of_experts",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "评审专家的人数，answer中用于计算得分随机变量的最小值(0×10)和最大值(3×10)。"
+    },
+    "rating_values": {
+      "id": "rating_values",
+      "value": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "每位专家可给出的评分取值集合，answer中用其最小值0和最大值3来确定总得分的范围。"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "sample_key": "372",
+  "case_id": "book2_r1\\141.json",
+  "source_path": "book2_r3/372.json",
+  "round": 0,
+  "variables": {
+    "Brand_A": {
+      "id": "Brand_A",
+      "value": [
+        202.4,
+        242.0,
+        220.4,
+        230.0,
+        191.6,
+        247.7,
+        214.8,
+        245.4,
+        224.0,
+        252.2
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Driving distances (in yards) for Brand A golf balls, each measured by one of 10 golfers. Same golfers also hit Brand B, C, and D balls (blocking structure)."
+    },
+    "Brand_B": {
+      "id": "Brand_B",
+      "value": [
+        203.2,
+        248.7,
+        227.3,
+        243.1,
+        211.4,
+        253.0,
+        214.8,
+        243.6,
+        231.5,
+        255.2
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Driving distances (in yards) for Brand B golf balls, each measured by one of 10 golfers. Same golfers also hit Brand A, C, and D balls (blocking structure)."
+    },
+    "Brand_C": {
+      "id": "Brand_C",
+      "value": [
+        223.7,
+        259.8,
+        240.0,
+        247.7,
+        218.7,
+        268.1,
+        233.9,
+        257.8,
+        238.2,
+        265.4
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Driving distances (in yards) for Brand C golf balls, each measured by one of 10 golfers. Same golfers also hit Brand A, B, and D balls (blocking structure)."
+    },
+    "Brand_D": {
+      "id": "Brand_D",
+      "value": [
+        203.6,
+        240.7,
+        207.4,
+        226.9,
+        200.1,
+        244.0,
+        195.8,
+        227.9,
+        215.7,
+        245.2
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Driving distances (in yards) for Brand D golf balls, each measured by one of 10 golfers. Same golfers also hit Brand A, B, and C balls (blocking structure)."
+    },
+    "Golfer": {
+      "id": "Golfer",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Golfer identifier serving as the blocking factor (b=10 blocks) in the randomized block design. Each golfer hits one ball of each brand. Used in computing denominator df = n − k − b + 1 = 27."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "182",
+  "case_id": "book2_r1\\075.json",
+  "source_path": "book2_r3/182.json",
+  "round": 0,
+  "variables": {
+    "A_1": {
+      "id": "A_1",
+      "value": 0.025,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Upper tail probability P(z > 1.96) of the standard normal distribution, used as the first addend in the answer."
+    },
+    "A_2": {
+      "id": "A_2",
+      "value": 0.025,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lower tail probability P(z < -1.96) of the standard normal distribution, used as the second addend in the answer."
+    }
+  }
+}

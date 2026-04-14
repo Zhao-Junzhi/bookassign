@@ -1,0 +1,22 @@
+{
+  "sample_key": "497",
+  "case_id": "book1_r1\\record_348.json",
+  "source_path": "book1_r3/497.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients (trials) in the binomial experiment, n = 4."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of success (response to treatment) for each trial, p = 0.75."
+    }
+  }
+}

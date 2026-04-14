@@ -1,0 +1,29 @@
+{
+  "sample_key": "167",
+  "case_id": "book3_r1\\43.json",
+  "source_path": "book3_r3/167.json",
+  "round": 0,
+  "variables": {
+    "α": {
+      "id": "α",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Shape parameter of the gamma distribution, equal to the number of failed stations (10)."
+    },
+    "β": {
+      "id": "β",
+      "value": 19,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Rate parameter of the exponential (and gamma) distribution, representing the repair rate per hour for each station."
+    },
+    "T_threshold": {
+      "id": "T_threshold",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time threshold (45 minutes converted to 0.75 hours) used to compute the probability that communication failure lasts more than this duration."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sample_key": "185",
+  "case_id": "book1_r1\\record_081.json",
+  "source_path": "book1_r3/185.json",
+  "round": 0,
+  "variables": {
+    "Decision_of_Jury": {
+      "id": "Decision_of_Jury",
+      "value": [
+        "Not Guilty",
+        "Guilty"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The jury's verdict, serving as the row variable of the 2×2 decision table (analogous to the decision to reject or fail to reject H0 in hypothesis testing)."
+    },
+    "Truth": {
+      "id": "Truth",
+      "value": [
+        "Did not do crime",
+        "Did crime"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The actual truth about whether the defendant committed the crime, serving as the column variable of the 2×2 decision table (analogous to whether H0 is actually true or false)."
+    }
+  }
+}

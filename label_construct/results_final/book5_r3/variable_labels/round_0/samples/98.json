@@ -1,0 +1,56 @@
+{
+  "sample_key": "98",
+  "case_id": "book5_r1\\034.json",
+  "source_path": "book5_r3/98.json",
+  "round": 0,
+  "variables": {
+    "Boys": {
+      "id": "Boys",
+      "value": [
+        88,
+        109,
+        210,
+        324,
+        359,
+        313,
+        182,
+        85
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of 14-year-old boys in each time-spent-in-bed category (≤7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, >10.0 hours). Same samples as Girls but grouped by gender."
+    },
+    "Girls": {
+      "id": "Girls",
+      "value": [
+        92,
+        108,
+        217,
+        349,
+        436,
+        334,
+        198,
+        65
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of 14-year-old girls in each time-spent-in-bed category (≤7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, >10.0 hours). Same samples as Boys but grouped by gender."
+    },
+    "Time_spent_in_bed": {
+      "id": "Time_spent_in_bed",
+      "value": [
+        "≤7.0",
+        "7.5",
+        "8.0",
+        "8.5",
+        "9.0",
+        "9.5",
+        "10.0",
+        ">10.0"
+      ],
+      "class": "categorical",
+      "role": "XY",
+      "description": "Ordered categories of time spent in bed (hours), to which scores (e.g. 1 to 8) are assigned for the Mann-Whitney or Chi-squared test for trend."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_key": "204",
+  "case_id": "book5_r1\\068.json",
+  "source_path": "book5_r3/204.json",
+  "round": 0,
+  "variables": {
+    "Plasma_Aldosterone_Low_Day1": {
+      "id": "Plasma_Aldosterone_Low_Day1",
+      "value": [
+        68,
+        153,
+        110,
+        238,
+        204,
+        141,
+        183,
+        119,
+        272,
+        166,
+        228,
+        77,
+        114,
+        91,
+        105
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Plasma aldosterone measurements (mmol/l) taken at 09:00 at low altitude on Day 1 for each of the 15 subjects."
+    },
+    "Plasma_Aldosterone_High_Day2": {
+      "id": "Plasma_Aldosterone_High_Day2",
+      "value": [
+        151,
+        49,
+        141,
+        286,
+        242,
+        263,
+        233,
+        245,
+        275,
+        241,
+        109,
+        192,
+        46,
+        189,
+        254
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Plasma aldosterone measurements (mmol/l) taken at 09:00 at high altitude on Day 2 for each of the 15 subjects."
+    },
+    "Plasma_Aldosterone_High_Day3": {
+      "id": "Plasma_Aldosterone_High_Day3",
+      "value": [
+        188,
+        77,
+        95,
+        143,
+        84,
+        63,
+        121,
+        97,
+        115,
+        150,
+        76,
+        63,
+        43,
+        74,
+        283
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Plasma aldosterone measurements (mmol/l) taken at 09:00 at high altitude on Day 3 for each of the 15 subjects. Used in computing the residual SD for the repeated measures analysis."
+    }
+  }
+}

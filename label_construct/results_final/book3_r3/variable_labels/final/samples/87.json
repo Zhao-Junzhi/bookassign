@@ -1,0 +1,22 @@
+{
+  "sample_key": "87",
+  "case_id": "book3_r1\\137.json",
+  "source_path": "book3_r3/87.json",
+  "round": 0,
+  "variables": {
+    "lambda": {
+      "id": "lambda",
+      "value": 0.005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Active failure rate of each component, given as 0.005 per hour."
+    },
+    "t": {
+      "id": "t",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time duration in hours at which reliability is evaluated."
+    }
+  }
+}

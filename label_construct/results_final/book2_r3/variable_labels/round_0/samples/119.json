@@ -1,0 +1,37 @@
+{
+  "sample_key": "119",
+  "case_id": "book2_r1\\052.json",
+  "source_path": "book2_r3/119.json",
+  "round": 0,
+  "variables": {
+    "A": {
+      "id": "A",
+      "value": {
+        "outcomes": [
+          2,
+          4,
+          6
+        ],
+        "probability": "1/2"
+      },
+      "class": "others",
+      "role": "XY",
+      "description": "Event A: observing an even number when tossing a fair die. P(A) = 1/2."
+    },
+    "B": {
+      "id": "B",
+      "value": {
+        "outcomes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "probability": "2/3"
+      },
+      "class": "others",
+      "role": "XY",
+      "description": "Event B: observing a number less than or equal to 4 when tossing a fair die. P(B) = 2/3."
+    }
+  }
+}

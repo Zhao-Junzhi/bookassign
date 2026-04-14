@@ -1,0 +1,15 @@
+{
+  "sample_key": "14",
+  "case_id": "book5_r1\\004.json",
+  "source_path": "book5_r3/14.json",
+  "round": 0,
+  "variables": {
+    "z": {
+      "id": "z",
+      "value": 2.0,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of standard deviations above the mean (z = 2.00), used to look up the upper-tail probability in the standard normal distribution table."
+    }
+  }
+}

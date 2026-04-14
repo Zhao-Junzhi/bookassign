@@ -1,0 +1,47 @@
+{
+  "sample_key": "744",
+  "case_id": "book1_r1\\record_444.json",
+  "source_path": "book1_r3/744.json",
+  "round": 0,
+  "variables": {
+    "Improvement_Score": {
+      "id": "Improvement_Score",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Ordinal scores assigned to the five response-to-treatment categories: (1) Marked improvement, (2) Moderate improvement, (3) Slight improvement, (4) Stationary, (5) Worse. Used as the ordered outcome variable in the chi-square test for trend."
+    },
+    "High_Infiltration": {
+      "id": "High_Infiltration",
+      "value": [
+        7,
+        15,
+        16,
+        13,
+        1
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Number of patients with high skin infiltration in each of the five improvement score categories. Part of the 2×5 contingency table; paired with Low_Infiltration across the same improvement categories."
+    },
+    "Low_Infiltration": {
+      "id": "Low_Infiltration",
+      "value": [
+        11,
+        27,
+        42,
+        53,
+        11
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Number of patients with low skin infiltration in each of the five improvement score categories. Part of the 2×5 contingency table; paired with High_Infiltration across the same improvement categories."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sample_key": "149",
+  "case_id": "book2_r1\\065.json",
+  "source_path": "book2_r3/149.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": "the number of the 124 households (sampled via cluster sampling of 10 city blocks) that would use the television cable service",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable representing the count of households out of 124 that would use cable TV service. The answer evaluates whether x satisfies the binomial model conditions (specifically the independence of trials requirement) and concludes it does not due to within-block dependence introduced by cluster sampling."
+    }
+  }
+}

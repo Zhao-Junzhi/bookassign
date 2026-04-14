@@ -1,0 +1,29 @@
+{
+  "sample_key": "162",
+  "case_id": "book1_r1\\record_072.json",
+  "source_path": "book1_r3/162.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of trials (patients) in the binomial distribution b(10, 0.5)"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Assumed probability of a patient preferring treatment A under the null hypothesis of no preference"
+    },
+    "x": {
+      "id": "x",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed number of patients who preferred treatment A, used as the threshold for computing Pr(X ≥ 7)"
+    }
+  }
+}

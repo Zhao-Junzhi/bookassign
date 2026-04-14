@@ -1,0 +1,29 @@
+{
+  "sample_key": "81",
+  "case_id": "book3_r1\\135.json",
+  "source_path": "book3_r3/81.json",
+  "round": 0,
+  "variables": {
+    "k": {
+      "id": "k",
+      "value": "k",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of units in the instrument."
+    },
+    "p": {
+      "id": "p",
+      "value": "p",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability (probability of not failing) of each unit during time t."
+    },
+    "s": {
+      "id": "s",
+      "value": "s",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time needed by the technician to replace one failed unit; the problem asks for readiness within time 2s after stop."
+    }
+  }
+}

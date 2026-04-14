@@ -1,0 +1,44 @@
+{
+  "sample_key": "381",
+  "case_id": "book1_r1\\record_151.json",
+  "source_path": "book1_r3/381.json",
+  "round": 0,
+  "variables": {
+    "Case_exposed": {
+      "id": "Case_exposed",
+      "value": {
+        "Control_exposed": 2,
+        "Control_not_exposed": 44,
+        "Total": 46
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of matched pairs where the case was exposed to oral contraceptives, broken down by control exposure status. Used to reconstruct the unmatched 2-by-2 table."
+    },
+    "Case_not_exposed": {
+      "id": "Case_not_exposed",
+      "value": {
+        "Control_exposed": 5,
+        "Control_not_exposed": 55,
+        "Total": 60
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of matched pairs where the case was not exposed to oral contraceptives, broken down by control exposure status. Used to reconstruct the unmatched 2-by-2 table."
+    },
+    "Control_exposed_total": {
+      "id": "Control_exposed_total",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of matched pairs where the control was exposed to oral contraceptives. Used as the control exposed count in the unmatched table."
+    },
+    "Control_not_exposed_total": {
+      "id": "Control_not_exposed_total",
+      "value": 99,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of matched pairs where the control was not exposed to oral contraceptives. Used as the control not-exposed count in the unmatched table."
+    }
+  }
+}

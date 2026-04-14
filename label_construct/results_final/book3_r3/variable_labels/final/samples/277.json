@@ -1,0 +1,22 @@
+{
+  "sample_key": "277",
+  "case_id": "book3_r1\\83.json",
+  "source_path": "book3_r3/277.json",
+  "round": 0,
+  "variables": {
+    "women_count": {
+      "id": "women_count",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of women in the set from which the committee is chosen."
+    },
+    "men_count": {
+      "id": "men_count",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of men in the set from which the committee is chosen."
+    }
+  }
+}

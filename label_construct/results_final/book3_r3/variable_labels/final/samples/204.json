@@ -1,0 +1,29 @@
+{
+  "sample_key": "204",
+  "case_id": "book3_r1\\56.json",
+  "source_path": "book3_r3/204.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the observed data."
+    },
+    "successes": {
+      "id": "successes",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes observed in the sample (25 out of 100)."
+    },
+    "confidence_level": {
+      "id": "confidence_level",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The confidence level (80%) used to compute the two-sided confidence interval for the population proportion."
+    }
+  }
+}

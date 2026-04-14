@@ -1,0 +1,36 @@
+{
+  "sample_key": "608",
+  "case_id": "book1_r1\\record_389.json",
+  "source_path": "book1_r3/608.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，用于计算检验功效"
+    },
+    "mean_difference": {
+      "id": "mean_difference",
+      "value": 300,
+      "class": "numerical",
+      "role": "NR",
+      "description": "SIDS人群与一般人群出生体重的均值差异（克），即Δ"
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 720,
+      "class": "numerical",
+      "role": "NR",
+      "description": "出生体重的总体标准差σ"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "双侧显著性水平α，用于确定临界值z"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sample_key": "99",
+  "case_id": "book5_r1\\034.json",
+  "source_path": "book5_r3/99.json",
+  "round": 0,
+  "variables": {
+    "Boys": {
+      "id": "Boys",
+      "value": [
+        88,
+        109,
+        210,
+        324,
+        359,
+        313,
+        182,
+        85
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of 14-year-old boys in each category of time spent in bed (≤7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, >10.0 hours). This variable and 'Girls' represent frequency counts for the same time-in-bed categories, split by gender."
+    },
+    "Girls": {
+      "id": "Girls",
+      "value": [
+        92,
+        108,
+        217,
+        349,
+        436,
+        334,
+        198,
+        65
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Number of 14-year-old girls in each category of time spent in bed (≤7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, >10.0 hours). This variable and 'Boys' represent frequency counts for the same time-in-bed categories, split by gender."
+    }
+  }
+}

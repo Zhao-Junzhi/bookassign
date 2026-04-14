@@ -1,0 +1,29 @@
+{
+  "sample_key": "80",
+  "case_id": "book3_r1\\134.json",
+  "source_path": "book3_r3/80.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of water pumps in System XYZ."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.995,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability of each individual pump over a period of 100,000 hours."
+    },
+    "k": {
+      "id": "k",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of pumps that must function for the system to operate (k-out-of-n requirement)."
+    }
+  }
+}

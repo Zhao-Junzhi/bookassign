@@ -1,0 +1,36 @@
+{
+  "sample_key": "211",
+  "case_id": "book3_r1\\58.json",
+  "source_path": "book3_r3/211.json",
+  "round": 0,
+  "variables": {
+    "p0": {
+      "id": "p0",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized proportion of defective items under the null hypothesis H0."
+    },
+    "p1": {
+      "id": "p1",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized proportion of defective items under the alternative hypothesis H1."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of rejecting H0 when it is true (Type I error rate)."
+    },
+    "beta": {
+      "id": "beta",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of accepting H0 when H1 is true (Type II error rate)."
+    }
+  }
+}

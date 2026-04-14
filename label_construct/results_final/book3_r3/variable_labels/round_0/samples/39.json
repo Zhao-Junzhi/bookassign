@@ -1,0 +1,29 @@
+{
+  "sample_key": "39",
+  "case_id": "book3_r1\\111.json",
+  "source_path": "book3_r3/39.json",
+  "round": 0,
+  "variables": {
+    "k": {
+      "id": "k",
+      "value": "k",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of units in the instrument."
+    },
+    "p": {
+      "id": "p",
+      "value": "p",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability (probability of failure-free performance) of each unit during time t."
+    },
+    "s": {
+      "id": "s",
+      "value": "s",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time required by the technician to replace one failed unit. The available repair window is 2s, so at most 2 units can be replaced."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "sample_key": "59",
+  "case_id": "book4_r1\\018.json",
+  "source_path": "book4_r3/59.json",
+  "round": 0,
+  "variables": {
+    "lichen_count": {
+      "id": "lichen_count",
+      "value": [
+        36,
+        50,
+        29,
+        45
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of lichens found on each quadrant (north, east, south, west) of the trees, used in the chi-square goodness of fit test."
+    },
+    "quadrant": {
+      "id": "quadrant",
+      "value": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The four directional quadrants (north, east, south, west) on which lichens were recorded."
+    }
+  }
+}

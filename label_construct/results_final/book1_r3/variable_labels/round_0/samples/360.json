@@ -1,0 +1,50 @@
+{
+  "sample_key": "360",
+  "case_id": "book1_r1\\record_143.json",
+  "source_path": "book1_r3/360.json",
+  "round": 0,
+  "variables": {
+    "High_Marked_improvement": {
+      "id": "High_Marked_improvement",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with high skin infiltration showing marked improvement"
+    },
+    "High_Moderate_improvement": {
+      "id": "High_Moderate_improvement",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with high skin infiltration showing moderate improvement"
+    },
+    "High_Slight_improvement": {
+      "id": "High_Slight_improvement",
+      "value": 16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with high skin infiltration showing slight improvement"
+    },
+    "High_Stationary": {
+      "id": "High_Stationary",
+      "value": 13,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with high skin infiltration with stationary response"
+    },
+    "High_Worse": {
+      "id": "High_Worse",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with high skin infiltration showing worse response"
+    },
+    "High_Total": {
+      "id": "High_Total",
+      "value": 52,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of patients with high skin infiltration, used as the denominator for calculating conditional percentages"
+    }
+  }
+}

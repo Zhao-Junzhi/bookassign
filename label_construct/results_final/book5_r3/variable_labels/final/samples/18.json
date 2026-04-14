@@ -1,0 +1,43 @@
+{
+  "sample_key": "18",
+  "case_id": "book5_r1\\005.json",
+  "source_path": "book5_r3/18.json",
+  "round": 0,
+  "variables": {
+    "p_blood_group_B": {
+      "id": "p_blood_group_B",
+      "value": 0.08,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that a single donor has blood group B."
+    },
+    "n_donors": {
+      "id": "n_donors",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of unrelated blood donors (sample size), each providing one pint of blood."
+    },
+    "P_X_0": {
+      "id": "P_X_0",
+      "value": 0.00024,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of obtaining 0 pints of group B blood from 100 donors, used in the summation."
+    },
+    "P_X_1": {
+      "id": "P_X_1",
+      "value": 0.00208,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of obtaining 1 pint of group B blood from 100 donors, used in the summation."
+    },
+    "P_X_2": {
+      "id": "P_X_2",
+      "value": 0.00895,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of obtaining 2 pints of group B blood from 100 donors, used in the summation."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "sample_key": "173",
+  "case_id": "book5_r1\\059.json",
+  "source_path": "book5_r3/173.json",
+  "round": 0,
+  "variables": {
+    "linear_analogue_scale_before": {
+      "id": "linear_analogue_scale_before",
+      "value": {
+        "mean": 3.5,
+        "SE": 0.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, averaged over the two-day period before aspirin treatment. This variable and linear_analogue_scale_during and linear_analogue_scale_after are measurements of the same outcome on the same 13 patients across three time periods."
+    },
+    "linear_analogue_scale_during": {
+      "id": "linear_analogue_scale_during",
+      "value": {
+        "mean": 3.3,
+        "SE": 0.4
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, averaged over the two-day period during aspirin treatment. Same outcome as linear_analogue_scale_before and linear_analogue_scale_after, measured on the same 13 patients."
+    },
+    "linear_analogue_scale_after": {
+      "id": "linear_analogue_scale_after",
+      "value": {
+        "mean": 3.1,
+        "SE": 0.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Linear analogue scale (cm) for itching assessment, averaged over the two-day period after aspirin treatment. Same outcome as linear_analogue_scale_before and linear_analogue_scale_during, measured on the same 13 patients."
+    },
+    "nocturnal_limb_movements_before": {
+      "id": "nocturnal_limb_movements_before",
+      "value": {
+        "mean": 46.3,
+        "SE": 10.0
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure) averaged over the two-day period before aspirin treatment. This variable and nocturnal_limb_movements_during and nocturnal_limb_movements_after are measurements of the same outcome on the same 13 patients across three time periods."
+    },
+    "nocturnal_limb_movements_during": {
+      "id": "nocturnal_limb_movements_during",
+      "value": {
+        "mean": 38.8,
+        "SE": 7.4
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure) averaged over the two-day period during aspirin treatment. Same outcome as nocturnal_limb_movements_before and nocturnal_limb_movements_after, measured on the same 13 patients."
+    },
+    "nocturnal_limb_movements_after": {
+      "id": "nocturnal_limb_movements_after",
+      "value": {
+        "mean": 38.7,
+        "SE": 5.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements (scratching measure) averaged over the two-day period after aspirin treatment. Same outcome as nocturnal_limb_movements_before and nocturnal_limb_movements_during, measured on the same 13 patients."
+    },
+    "treatment_period": {
+      "id": "treatment_period",
+      "value": [
+        "Before treatment",
+        "During treatment",
+        "After treatment"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "The three time periods corresponding to no treatment (before), aspirin treatment (during), and no treatment (after), serving as the independent variable for paired comparisons or two-way ANOVA."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 13,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients with chronic skin disorders in the open trial."
+    }
+  }
+}

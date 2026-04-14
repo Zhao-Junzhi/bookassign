@@ -1,0 +1,42 @@
+{
+  "sample_key": "191",
+  "case_id": "book5_r1\\064.json",
+  "source_path": "book5_r3/191.json",
+  "round": 0,
+  "variables": {
+    "men_height": {
+      "id": "men_height",
+      "value": {
+        "mean": 179.1,
+        "SD": 5.84
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights of adult men in the population, normally distributed with given mean and standard deviation."
+    },
+    "women_height": {
+      "id": "women_height",
+      "value": {
+        "mean": 171.7,
+        "SD": 5.75
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights of adult women in the population, normally distributed with given mean and standard deviation."
+    },
+    "proportion_female": {
+      "id": "proportion_female",
+      "value": 0.6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of adults that are female, used in the Bayes' theorem calculation."
+    },
+    "height_threshold": {
+      "id": "height_threshold",
+      "value": 182.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Height threshold (182.9 cm / six feet) used to determine the proportion of adults taller than this value who are women."
+    }
+  }
+}

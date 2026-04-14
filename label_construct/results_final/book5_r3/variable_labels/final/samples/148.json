@@ -1,0 +1,22 @@
+{
+  "sample_key": "148",
+  "case_id": "book5_r1\\051.json",
+  "source_path": "book5_r3/148.json",
+  "round": 0,
+  "variables": {
+    "sample_size": {
+      "id": "sample_size",
+      "value": 37,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of patients in the bone marrow transplant study."
+    },
+    "number_of_deaths": {
+      "id": "number_of_deaths",
+      "value": 18,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of death events among the 37 patients, which determines the power of the Cox regression analysis."
+    }
+  }
+}

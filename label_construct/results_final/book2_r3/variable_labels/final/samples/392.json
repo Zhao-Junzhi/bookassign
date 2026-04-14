@@ -1,0 +1,60 @@
+{
+  "sample_key": "392",
+  "case_id": "book2_r1\\147.json",
+  "source_path": "book2_r3/392.json",
+  "round": 0,
+  "variables": {
+    "Broker_Rating": {
+      "id": "Broker_Rating",
+      "value": {
+        "Outstanding": {
+          "Under $30,000": 48,
+          "$30,000-$60,000": 64,
+          "Over $60,000": 41,
+          "Total": 153
+        },
+        "Average": {
+          "Under $30,000": 98,
+          "$30,000-$60,000": 120,
+          "Over $60,000": 50,
+          "Total": 268
+        },
+        "Poor": {
+          "Under $30,000": 30,
+          "$30,000-$60,000": 33,
+          "Over $60,000": 16,
+          "Total": 79
+        }
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Client's rating of their broker, categorized as Outstanding, Average, or Poor. Cross-tabulated with Client Income in a contingency table of 500 clients."
+    },
+    "Client_Income": {
+      "id": "Client_Income",
+      "value": {
+        "Under $30,000": {
+          "Outstanding": 48,
+          "Average": 98,
+          "Poor": 30,
+          "Total": 176
+        },
+        "$30,000-$60,000": {
+          "Outstanding": 64,
+          "Average": 120,
+          "Poor": 33,
+          "Total": 217
+        },
+        "Over $60,000": {
+          "Outstanding": 41,
+          "Average": 50,
+          "Poor": 16,
+          "Total": 107
+        }
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Client's income level, categorized as Under $30,000, $30,000-$60,000, or Over $60,000. Cross-tabulated with Broker Rating in a contingency table of 500 clients."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sample_key": "666",
+  "case_id": "book1_r1\\record_410.json",
+  "source_path": "book1_r3/666.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "s_X": 378.451
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Independent variable X; its standard deviation s_X = 378.451 is used in the slope calculation."
+    },
+    "Y": {
+      "id": "Y",
+      "value": {
+        "s_Y": 11.725
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dependent variable Y; its standard deviation s_Y = 11.725 is used in the slope calculation."
+    },
+    "r": {
+      "id": "r",
+      "value": 0.737,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pearson correlation coefficient between X and Y, directly used in computing the slope coefficient b."
+    }
+  }
+}

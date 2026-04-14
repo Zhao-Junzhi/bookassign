@@ -1,0 +1,15 @@
+{
+  "sample_key": "304",
+  "case_id": "book3_r1\\97.json",
+  "source_path": "book3_r3/304.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "F(x) = { 0 for x<0, x^3/3 for 0≤x<1, 1 - (1/2)(7/3 - x)(7/4 - 3x/4) for 1≤x<7/3, 1 for x≥7/3 }",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Completion time for a project, a continuous random variable with a piecewise cumulative distribution function (CDF). The expected value E(X) is computed from this CDF."
+    }
+  }
+}

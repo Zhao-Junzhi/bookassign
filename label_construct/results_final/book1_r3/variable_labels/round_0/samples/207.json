@@ -1,0 +1,32 @@
+{
+  "sample_key": "207",
+  "case_id": "book1_r1\\record_089.json",
+  "source_path": "book1_r3/207.json",
+  "round": 0,
+  "variables": {
+    "menstrual_cycle_length": {
+      "id": "menstrual_cycle_length",
+      "value": [
+        31,
+        28,
+        26,
+        24,
+        29,
+        33,
+        25,
+        26,
+        28
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Menstrual cycle lengths (in days) from an SRS of nine women, used as the sample data in the one-sample t-test."
+    },
+    "lunar_month": {
+      "id": "lunar_month",
+      "value": 29.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The hypothesized population mean (lunar month length in days) used as the null hypothesis value H₀: μ = 29.5."
+    }
+  }
+}

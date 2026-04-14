@@ -1,0 +1,36 @@
+{
+  "sample_key": "48",
+  "case_id": "book3_r1\\118.json",
+  "source_path": "book3_r3/48.json",
+  "round": 0,
+  "variables": {
+    "Face": {
+      "id": "Face",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The six faces of the die, serving as categories for the Chi-square goodness-of-fit test."
+    },
+    "Observed_Frequency": {
+      "id": "Observed_Frequency",
+      "value": [
+        15,
+        21,
+        20,
+        15,
+        26,
+        23
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed frequencies (n_i) for each face of the die over 120 rolls, used in the Chi-square goodness-of-fit test."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_key": "558",
+  "case_id": "book1_r1\\record_372.json",
+  "source_path": "book1_r3/558.json",
+  "round": 0,
+  "variables": {
+    "sigma": {
+      "id": "sigma",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known population standard deviation of the variable."
+    },
+    "mu_0": {
+      "id": "mu_0",
+      "value": 170,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population mean under the null hypothesis (μ₀). Used together with μₐ to construct the detectable difference Δ = μ₀ − μₐ = −20."
+    },
+    "mu_a": {
+      "id": "mu_a",
+      "value": 190,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population mean under the alternative hypothesis (μₐ). Used together with μ₀ to construct the detectable difference Δ = μ₀ − μₐ = −20."
+    },
+    "power": {
+      "id": "power",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Statistical power (1 − β) of the z test, from which z_{1−β} = 1.28 is derived."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Two-sided significance level of the z test, from which z_{1−α/2} = 1.96 is derived."
+    }
+  }
+}

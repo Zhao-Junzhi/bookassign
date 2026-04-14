@@ -1,0 +1,29 @@
+{
+  "sample_key": "692",
+  "case_id": "book1_r1\\record_417.json",
+  "source_path": "book1_r3/692.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of cups of tea (trials) in the experiment, used as the number of trials in the binomial calculation."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of correctly identifying the order by chance alone under the null hypothesis, used as the success probability in the binomial calculation."
+    },
+    "X_observed": {
+      "id": "X_observed",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed number of correct identifications by the heiress out of 8 cups, used as the threshold for computing P(X ≥ 6)."
+    }
+  }
+}

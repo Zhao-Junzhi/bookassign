@@ -1,0 +1,62 @@
+{
+  "sample_key": "140",
+  "case_id": "book5_r1\\049.json",
+  "source_path": "book5_r3/140.json",
+  "round": 0,
+  "variables": {
+    "Survival_time_Exp1": {
+      "id": "Survival_time_Exp1",
+      "value": [
+        30,
+        50,
+        "50*",
+        51,
+        "66*",
+        82,
+        92,
+        "120*",
+        "120*",
+        "120*"
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Survival time (in minutes) for each subject in Experiment 1 (vertical movement at 0.167 Hz, 0.111 G). Asterisk (*) denotes censored observations. Subjects 8–21 (14 subjects) all have 120* censored times. This variable and Survival_time_Exp2 are from different experiments (groups) being compared in the logrank test."
+    },
+    "Survival_time_Exp2": {
+      "id": "Survival_time_Exp2",
+      "value": [
+        5,
+        "6*",
+        11,
+        11,
+        13,
+        24,
+        63,
+        65,
+        69,
+        69,
+        79,
+        82,
+        82,
+        102,
+        115,
+        "120*",
+        "120*",
+        "120*"
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Survival time (in minutes) for each subject in Experiment 2 (vertical movement at 0.333 Hz, 0.222 G). Asterisk (*) denotes censored observations. Subjects 16–28 (13 subjects) all have 120* censored times. This variable and Survival_time_Exp1 are from different experiments (groups) being compared in the logrank test."
+    },
+    "Group": {
+      "id": "Group",
+      "value": [
+        "Experiment 1 (0.167 Hz, 0.111 G)",
+        "Experiment 2 (0.333 Hz, 0.222 G)"
+      ],
+      "class": "categorical",
+      "role": "XY",
+      "description": "Group indicator distinguishing the two experiments being compared in the logrank test. Experiment 1 has 21 subjects and Experiment 2 has 28 subjects."
+    }
+  }
+}

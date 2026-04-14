@@ -1,0 +1,20 @@
+{
+  "sample_key": "58",
+  "case_id": "book4_r1\\018.json",
+  "source_path": "book4_r3/58.json",
+  "round": 0,
+  "variables": {
+    "lichen_count": {
+      "id": "lichen_count",
+      "value": {
+        "North": 36,
+        "East": 50,
+        "South": 29,
+        "West": 45
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed number of lichens found on each quadrant (north, east, south, west) of the trees, used in the goodness of fit test."
+    }
+  }
+}

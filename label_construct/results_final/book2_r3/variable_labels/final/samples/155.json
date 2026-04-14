@@ -1,0 +1,29 @@
+{
+  "sample_key": "155",
+  "case_id": "book2_r1\\067.json",
+  "source_path": "book2_r3/155.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective stampings observed, used as the target count in the binomial probability formula."
+    },
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, i.e., the number of stampings tested."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of a single stamping being defective (10% defective rate)."
+    }
+  }
+}

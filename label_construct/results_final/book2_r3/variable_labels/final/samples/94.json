@@ -1,0 +1,36 @@
+{
+  "sample_key": "94",
+  "case_id": "book2_r1\\039.json",
+  "source_path": "book2_r3/94.json",
+  "round": 0,
+  "variables": {
+    "total_ventures": {
+      "id": "total_ventures",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of ventures available for investment"
+    },
+    "successful_ventures": {
+      "id": "successful_ventures",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of ventures that will eventually be successful (denoted S1 and S2 in the answer)"
+    },
+    "failing_ventures": {
+      "id": "failing_ventures",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of ventures that will eventually fail (denoted F1 and F2 in the answer)"
+    },
+    "ventures_selected": {
+      "id": "ventures_selected",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of ventures randomly selected for investment out of the total four"
+    }
+  }
+}

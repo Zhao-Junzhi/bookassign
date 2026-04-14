@@ -1,0 +1,22 @@
+{
+  "sample_key": "130",
+  "case_id": "book3_r1\\26.json",
+  "source_path": "book3_r3/130.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "Number of X-ray machine failures per week, following a Poisson distribution with λ=2",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The random variable representing the number of X-ray machine failures per week in the laboratory, which follows a Poisson distribution with parameter λ=2. The answer computes P(X ≥ 3) using this distribution."
+    },
+    "repair_capacity": {
+      "id": "repair_capacity",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum number of machines the laboratory can repair per week internally. Failures beyond this threshold (i.e., X ≥ 3) require an outside specialist contractor."
+    }
+  }
+}

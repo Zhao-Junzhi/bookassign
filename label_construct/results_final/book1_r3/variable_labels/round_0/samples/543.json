@@ -1,0 +1,22 @@
+{
+  "sample_key": "543",
+  "case_id": "book1_r1\\record_366.json",
+  "source_path": "book1_r3/543.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，从总体中抽取的简单随机样本的大小，用于计算吸烟者计数的分布参数μ和σ"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体中吸烟者的比例（20%），用于计算吸烟者计数的均值μ=np和标准差σ=√(npq)"
+    }
+  }
+}

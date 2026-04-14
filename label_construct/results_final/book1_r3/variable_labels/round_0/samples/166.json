@@ -1,0 +1,15 @@
+{
+  "sample_key": "166",
+  "case_id": "book1_r1\\record_074.json",
+  "source_path": "book1_r3/166.json",
+  "round": 0,
+  "variables": {
+    "z_stat": {
+      "id": "z_stat",
+      "value": -2.45,
+      "class": "numerical",
+      "role": "NR",
+      "description": "给定的 z 统计量值，answer 中直接用于查表（Table B）计算单侧 P 值 Pr(Z ≤ -2.45) = 0.0071。"
+    }
+  }
+}

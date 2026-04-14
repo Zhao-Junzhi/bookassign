@@ -1,0 +1,35 @@
+{
+  "sample_key": "79",
+  "case_id": "book2_r1\\033.json",
+  "source_path": "book2_r3/79.json",
+  "round": 0,
+  "variables": {
+    "children_suspended_twice": {
+      "id": "children_suspended_twice",
+      "value": {
+        "count": 1,
+        "reported_percentage": "33%"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number and reported percentage of children suspended exactly twice in census tract 22 in Columbia, South Carolina."
+    },
+    "children_suspended_three_or_more": {
+      "id": "children_suspended_three_or_more",
+      "value": {
+        "count": 2,
+        "reported_percentage": "67%"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number and reported percentage of children suspended three or more times in census tract 22 in Columbia, South Carolina."
+    },
+    "total_sample_size": {
+      "id": "total_sample_size",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of children found by CDF who had been suspended more than once in the entire census tract 22; the answer highlights this extremely small sample size as the key source of distortion."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sample_key": "74",
+  "case_id": "book3_r1\\131.json",
+  "source_path": "book3_r3/74.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": [
+        20,
+        16,
+        15,
+        18,
+        25
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random sample of service times (in some unit) for 5 customers, used to compute the sample mean for the method of moments estimator of λ."
+    }
+  }
+}

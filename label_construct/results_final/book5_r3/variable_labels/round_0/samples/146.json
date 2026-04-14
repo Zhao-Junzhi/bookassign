@@ -1,0 +1,30 @@
+{
+  "sample_key": "146",
+  "case_id": "book5_r1\\051.json",
+  "source_path": "book5_r3/146.json",
+  "round": 0,
+  "variables": {
+    "GvHD": {
+      "id": "GvHD",
+      "value": {
+        "regression_coefficient": 2.306,
+        "standard_error": 0.5898,
+        "coding": "0=No, 1=Yes"
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the patient had acute graft-versus-host disease (GvHD), coded as 0=No and 1=Yes, with its Cox regression coefficient used to calculate hazard ratios."
+    },
+    "CML": {
+      "id": "CML",
+      "value": {
+        "regression_coefficient": -2.508,
+        "standard_error": 0.8095,
+        "coding": "0=No, 1=Yes"
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the patient had CML diagnosis, coded as 0=No and 1=Yes, with its Cox regression coefficient used to calculate hazard ratios."
+    }
+  }
+}

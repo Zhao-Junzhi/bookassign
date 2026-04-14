@@ -1,0 +1,36 @@
+{
+  "sample_key": "83",
+  "case_id": "book3_r1\\136.json",
+  "source_path": "book3_r3/83.json",
+  "round": 0,
+  "variables": {
+    "m": {
+      "id": "m",
+      "value": "m",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of type I units in the device."
+    },
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of type II units in the device."
+    },
+    "p1": {
+      "id": "p1",
+      "value": "p1",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability (probability of operating for assigned time t) of each type I unit."
+    },
+    "p2": {
+      "id": "p2",
+      "value": "p2",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability (probability of operating for assigned time t) of each type II unit."
+    }
+  }
+}

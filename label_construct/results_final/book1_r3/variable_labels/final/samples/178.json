@@ -1,0 +1,36 @@
+{
+  "sample_key": "178",
+  "case_id": "book1_r1\\record_079.json",
+  "source_path": "book1_r3/178.json",
+  "round": 0,
+  "variables": {
+    "x_bar": {
+      "id": "x_bar",
+      "value": 80900,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed sample mean annual salary of 20 female hospital administrators, located on the horizontal axis of the sampling distribution."
+    },
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of the female hospital administrators, used to compute the standard error."
+    },
+    "mu": {
+      "id": "mu",
+      "value": 85100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Published population mean salary of hospital administrators, used as the center of the sampling distribution under the null hypothesis."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Published population standard deviation of hospital administrator salaries, used to compute the standard error."
+    }
+  }
+}

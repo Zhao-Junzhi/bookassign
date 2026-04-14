@@ -1,0 +1,36 @@
+{
+  "sample_key": "702",
+  "case_id": "book1_r1\\record_421.json",
+  "source_path": "book1_r3/702.json",
+  "round": 0,
+  "variables": {
+    "p_0": {
+      "id": "p_0",
+      "value": 0.21,
+      "class": "numerical",
+      "role": "NR",
+      "description": "零假设下的总体比例，来自先前的示例 H_0: p = 0.21"
+    },
+    "p_1": {
+      "id": "p_1",
+      "value": 0.31,
+      "class": "numerical",
+      "role": "NR",
+      "description": "希望检测到的备择假设下的总体比例"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "双侧检验的显著性水平 α，answer 中据此使用 z_{1-α/2}=1.96"
+    },
+    "power": {
+      "id": "power",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "检验功效（1-β=0.90），answer 中据此使用 z_{1-β}=1.28"
+    }
+  }
+}

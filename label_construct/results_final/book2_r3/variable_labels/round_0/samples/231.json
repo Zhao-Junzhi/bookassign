@@ -1,0 +1,19 @@
+{
+  "sample_key": "231",
+  "case_id": "book2_r1\\096.json",
+  "source_path": "book2_r3/231.json",
+  "round": 0,
+  "variables": {
+    "amount_owed": {
+      "id": "amount_owed",
+      "value": {
+        "sample_mean": 230,
+        "standard_deviation": 90,
+        "sample_size": 100
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The amount of money owed by delinquent debtors at the bank. Summary statistics include a sample mean of $230, a population standard deviation of $90, and a sample size of n=100. All three quantities are directly substituted into the confidence interval formula in the answer."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "122",
+  "case_id": "book3_r1\\21.json",
+  "source_path": "book3_r3/122.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 250,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of active flood insurance policies in the town, used as the number of trials in the binomial distribution."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.002,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated probability of a flood claim occurring for any single policy in the coming year."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold number of claims; the problem asks for the probability of receiving more than this number of claims."
+    }
+  }
+}

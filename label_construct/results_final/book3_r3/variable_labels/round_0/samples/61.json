@@ -1,0 +1,21 @@
+{
+  "sample_key": "61",
+  "case_id": "book3_r1\\123.json",
+  "source_path": "book3_r3/61.json",
+  "round": 0,
+  "variables": {
+    "customers_per_day": {
+      "id": "customers_per_day",
+      "value": [
+        48,
+        60,
+        78,
+        56,
+        73
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed number of customers who entered the printing shop on each of five consecutive days, used in the Chi-square goodness-of-fit test."
+    }
+  }
+}

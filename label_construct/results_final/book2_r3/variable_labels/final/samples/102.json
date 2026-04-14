@@ -1,0 +1,22 @@
+{
+  "sample_key": "102",
+  "case_id": "book2_r1\\043.json",
+  "source_path": "book2_r3/102.json",
+  "round": 0,
+  "variables": {
+    "P_30to50_over50k": {
+      "id": "P_30to50_over50k",
+      "value": 0.16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of total respondents aged 30–50 years with income > $50,000 (cell from the two-way table, lies in A ∩ B)"
+    },
+    "P_over50_over50k": {
+      "id": "P_over50_over50k",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of total respondents aged over 50 years with income > $50,000 (cell from the two-way table, lies in A ∩ B)"
+    }
+  }
+}

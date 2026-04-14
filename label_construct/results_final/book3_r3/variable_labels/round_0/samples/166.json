@@ -1,0 +1,29 @@
+{
+  "sample_key": "166",
+  "case_id": "book3_r1\\42.json",
+  "source_path": "book3_r3/166.json",
+  "round": 0,
+  "variables": {
+    "alpha": {
+      "id": "alpha",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Shape parameter of the gamma distribution for the system's time to failure."
+    },
+    "beta_inv": {
+      "id": "beta_inv",
+      "value": 120,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Scale parameter (1/β) of the gamma distribution, representing the mean time per event in hours."
+    },
+    "t": {
+      "id": "t",
+      "value": 280,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time point (in hours) at which the system reliability is evaluated."
+    }
+  }
+}

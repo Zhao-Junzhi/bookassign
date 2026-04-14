@@ -1,0 +1,29 @@
+{
+  "sample_key": "61",
+  "case_id": "book2_r1\\024.json",
+  "source_path": "book2_r3/61.json",
+  "round": 0,
+  "variables": {
+    "life_span_mean": {
+      "id": "life_span_mean",
+      "value": 60,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Claimed average life span of the grade A battery, in months."
+    },
+    "life_span_sd": {
+      "id": "life_span_sd",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known standard deviation of the battery life span, in months."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The life span threshold (in months) below which the percentage of batteries is to be determined."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_key": "100",
+  "case_id": "book2_r1\\043.json",
+  "source_path": "book2_r3/100.json",
+  "round": 0,
+  "variables": {
+    "Age_Income_Table": {
+      "id": "Age_Income_Table",
+      "value": {
+        "<30 yrs, <$25,000": "5%",
+        "<30 yrs, $25,000-$50,000": "12%",
+        "<30 yrs, >$50,000": "10%",
+        "30-50 yrs, <$25,000": "14%",
+        "30-50 yrs, $25,000-$50,000": "22%",
+        "30-50 yrs, >$50,000": "16%",
+        ">50 yrs, <$25,000": "8%",
+        ">50 yrs, $25,000-$50,000": "10%",
+        ">50 yrs, >$50,000": "3%"
+      },
+      "class": "others",
+      "role": "NR",
+      "description": "Two-way contingency table showing percentage of respondents in each age-income class."
+    }
+  }
+}

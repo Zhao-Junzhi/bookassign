@@ -1,0 +1,25 @@
+{
+  "sample_key": "143",
+  "case_id": "book3_r1\\32.json",
+  "source_path": "book3_r3/143.json",
+  "round": 0,
+  "variables": {
+    "T": {
+      "id": "T",
+      "value": {
+        "mean": 6,
+        "distribution": "exponential"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The amount of bulk product (in thousands) used by a given production line in one day, modeled as an exponential distribution with mean 6."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold value (6 thousands) against which the daily usage is compared to compute P(T > 6)."
+    }
+  }
+}

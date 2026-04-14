@@ -1,0 +1,36 @@
+{
+  "sample_key": "170",
+  "case_id": "book2_r1\\071.json",
+  "source_path": "book2_r3/170.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": null,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of females who are hired; this is the hypergeometric random variable whose mean and standard deviation are to be found."
+    },
+    "N": {
+      "id": "N",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of applicants (population size)."
+    },
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of teaching assistants selected (sample size drawn)."
+    },
+    "r": {
+      "id": "r",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of female students in the applicant pool (number of successes in the population)."
+    }
+  }
+}

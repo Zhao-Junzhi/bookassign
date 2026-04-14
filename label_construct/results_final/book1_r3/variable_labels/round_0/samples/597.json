@@ -1,0 +1,20 @@
+{
+  "sample_key": "597",
+  "case_id": "book1_r1\\record_383.json",
+  "source_path": "book1_r3/597.json",
+  "round": 0,
+  "variables": {
+    "d": {
+      "id": "d",
+      "value": {
+        "n": 12,
+        "mean": 0.3808,
+        "sd": 0.4335,
+        "SE": 0.1251
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Paired differences (oat bran illustrative data set) with sample size n_d=12, sample mean x̄_d=0.3808, standard deviation s_d=0.4335, and standard error SE_x̄_d=0.1251. The answer directly uses x̄_d and SE_x̄_d to compute the 99% confidence interval for μ_d."
+    }
+  }
+}

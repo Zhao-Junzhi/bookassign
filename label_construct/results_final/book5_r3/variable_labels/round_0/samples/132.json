@@ -1,0 +1,15 @@
+{
+  "sample_key": "132",
+  "case_id": "book5_r1\\047.json",
+  "source_path": "book5_r3/132.json",
+  "round": 0,
+  "variables": {
+    "regression_coefficient_family_history": {
+      "id": "regression_coefficient_family_history",
+      "value": 1.167,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Regression coefficient for a family history of ischaemic heart disease (coded 0 = No, 1 = Yes) from the multiple logistic regression model, used to calculate the estimated odds ratio."
+    }
+  }
+}

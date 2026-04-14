@@ -1,0 +1,28 @@
+{
+  "sample_key": "180",
+  "case_id": "book1_r1\\record_079.json",
+  "source_path": "book1_r3/180.json",
+  "round": 0,
+  "variables": {
+    "female_admin_salary": {
+      "id": "female_admin_salary",
+      "value": {
+        "n": 20,
+        "mean": 80900
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Annual salary of 20 female hospital administrators, summarized by sample size and sample mean."
+    },
+    "population_salary": {
+      "id": "population_salary",
+      "value": {
+        "mean": 85100,
+        "sd": 10000
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Published average salary and standard deviation for all hospital administrators, used as the population reference benchmark."
+    }
+  }
+}

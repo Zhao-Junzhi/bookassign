@@ -1,0 +1,28 @@
+{
+  "sample_key": "83",
+  "case_id": "book2_r1\\034.json",
+  "source_path": "book2_r3/83.json",
+  "round": 0,
+  "variables": {
+    "Coin1": {
+      "id": "Coin1",
+      "value": [
+        "H",
+        "T"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Outcome of the first tossed coin, with two possible results: H (Heads) or T (Tails). Used as the first branching level in the tree diagram."
+    },
+    "Coin2": {
+      "id": "Coin2",
+      "value": [
+        "H",
+        "T"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Outcome of the second tossed coin, with two possible results: H (Heads) or T (Tails). Used as the second branching level in the tree diagram."
+    }
+  }
+}

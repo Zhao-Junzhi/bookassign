@@ -1,0 +1,22 @@
+{
+  "sample_key": "108",
+  "case_id": "book2_r1\\046.json",
+  "source_path": "book2_r3/108.json",
+  "round": 0,
+  "variables": {
+    "P(B)": {
+      "id": "P(B)",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of observing exactly one head when tossing two balanced coins, used as a component in computing P(A)."
+    },
+    "P(C)": {
+      "id": "P(C)",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of observing exactly two heads when tossing two balanced coins, used as a component in computing P(A)."
+    }
+  }
+}

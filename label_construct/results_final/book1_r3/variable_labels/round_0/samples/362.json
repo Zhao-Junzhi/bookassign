@@ -1,0 +1,36 @@
+{
+  "sample_key": "362",
+  "case_id": "book1_r1\\record_143.json",
+  "source_path": "book1_r3/362.json",
+  "round": 0,
+  "variables": {
+    "Response_High_Infiltration": {
+      "id": "Response_High_Infiltration",
+      "value": {
+        "Marked improvement": 7,
+        "Moderate improvement": 15,
+        "Slight improvement": 16,
+        "Stationary": 13,
+        "Worse": 1,
+        "Total": 52
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Frequency distribution of treatment response categories for patients with high initial skin infiltration level. Grouped by skin infiltration level; counterpart group is Response_Low_Infiltration."
+    },
+    "Response_Low_Infiltration": {
+      "id": "Response_Low_Infiltration",
+      "value": {
+        "Marked improvement": 11,
+        "Moderate improvement": 27,
+        "Slight improvement": 42,
+        "Stationary": 53,
+        "Worse": 11,
+        "Total": 144
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Frequency distribution of treatment response categories for patients with low initial skin infiltration level. Grouped by skin infiltration level; counterpart group is Response_High_Infiltration."
+    }
+  }
+}

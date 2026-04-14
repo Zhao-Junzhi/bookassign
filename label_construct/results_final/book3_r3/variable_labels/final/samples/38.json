@@ -1,0 +1,36 @@
+{
+  "sample_key": "38",
+  "case_id": "book3_r1\\110.json",
+  "source_path": "book3_r3/38.json",
+  "round": 0,
+  "variables": {
+    "N_tripped": {
+      "id": "N_tripped",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of relays that have tripped simultaneously."
+    },
+    "lambda": {
+      "id": "lambda",
+      "value": 19,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate parameter (per hour) of the exponential distribution for repair time of each relay."
+    },
+    "t": {
+      "id": "t",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time threshold (3/4 hour) for which the probability of power failure lasting longer is calculated."
+    },
+    "n_repairman": {
+      "id": "n_repairman",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of repairmen available to perform repairs."
+    }
+  }
+}

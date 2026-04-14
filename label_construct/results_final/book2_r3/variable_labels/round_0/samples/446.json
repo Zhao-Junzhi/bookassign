@@ -1,0 +1,62 @@
+{
+  "sample_key": "446",
+  "case_id": "book2_r1\\163.json",
+  "source_path": "book2_r3/446.json",
+  "round": 0,
+  "variables": {
+    "Group_1_Lower_Class": {
+      "id": "Group_1_Lower_Class",
+      "value": [
+        148,
+        76,
+        393,
+        520,
+        236,
+        134,
+        55,
+        166,
+        415,
+        153
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers from the lower socioeconomic class (Group 1). This variable, along with Group_2_Middle_Class and Group_3_Upper_Class, represents the same measured outcome (dollars owed) split by the socioeconomic class grouping factor."
+    },
+    "Group_2_Middle_Class": {
+      "id": "Group_2_Middle_Class",
+      "value": [
+        513,
+        264,
+        433,
+        94,
+        535,
+        327,
+        214,
+        135,
+        280,
+        304
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers from the middle socioeconomic class (Group 2). This variable, along with Group_1_Lower_Class and Group_3_Upper_Class, represents the same measured outcome (dollars owed) split by the socioeconomic class grouping factor."
+    },
+    "Group_3_Upper_Class": {
+      "id": "Group_3_Upper_Class",
+      "value": [
+        335,
+        643,
+        216,
+        536,
+        128,
+        723,
+        258,
+        380,
+        594,
+        465
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers from the upper socioeconomic class (Group 3). This variable, along with Group_1_Lower_Class and Group_2_Middle_Class, represents the same measured outcome (dollars owed) split by the socioeconomic class grouping factor."
+    }
+  }
+}

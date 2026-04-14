@@ -1,0 +1,15 @@
+{
+  "sample_key": "30",
+  "case_id": "book5_r1\\011.json",
+  "source_path": "book5_r3/30.json",
+  "round": 0,
+  "variables": {
+    "probability_unaffected": {
+      "id": "probability_unaffected",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that a child of two heterozygous parents is unaffected by cystic fibrosis (3/4 chance), directly used in the answer as the final result."
+    }
+  }
+}

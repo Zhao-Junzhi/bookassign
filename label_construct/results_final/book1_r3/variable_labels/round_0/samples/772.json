@@ -1,0 +1,35 @@
+{
+  "sample_key": "772",
+  "case_id": "book1_r1\\record_504.json",
+  "source_path": "book1_r3/772.json",
+  "round": 0,
+  "variables": {
+    "smoking_AI_AN": {
+      "id": "smoking_AI_AN",
+      "value": {
+        "prevalence": 0.4,
+        "sample_size": 1000
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Smoking status of American Indians/Alaska Natives, with population prevalence p1=0.40 and SRS sample size n1=1000"
+    },
+    "smoking_Chinese": {
+      "id": "smoking_Chinese",
+      "value": {
+        "prevalence": 0.12,
+        "sample_size": 1000
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Smoking status of Chinese-Americans, with population prevalence p2=0.12 and SRS sample size n2=1000"
+    },
+    "threshold_difference": {
+      "id": "threshold_difference",
+      "value": 0.26,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The prevalence difference threshold (≤0.26) for which the probability is being calculated"
+    }
+  }
+}

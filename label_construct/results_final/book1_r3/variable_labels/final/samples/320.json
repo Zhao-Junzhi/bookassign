@@ -1,0 +1,25 @@
+{
+  "sample_key": "320",
+  "case_id": "book1_r1\\record_127.json",
+  "source_path": "book1_r3/320.json",
+  "round": 0,
+  "variables": {
+    "observed_survival": {
+      "id": "observed_survival",
+      "value": {
+        "sample_size": 40,
+        "number_of_successes": 16
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Observed survival data of 40 kidney cancer patients treated by the oncologist; 16 out of 40 cases survived at least 5 years. Used to compute the observed proportion p̂ = 16/40 = 0.4."
+    },
+    "historical_survival_proportion": {
+      "id": "historical_survival_proportion",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Historical expected proportion of kidney cancer cases surviving at least 5 years (one in five), serving as the reference benchmark (p₀) in the z test calculation."
+    }
+  }
+}

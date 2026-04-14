@@ -1,0 +1,37 @@
+{
+  "sample_key": "388",
+  "case_id": "book2_r1\\146.json",
+  "source_path": "book2_r3/388.json",
+  "round": 0,
+  "variables": {
+    "observed_frequencies": {
+      "id": "observed_frequencies",
+      "value": {
+        "None": 42,
+        "Standard": 365,
+        "Merit": 193
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed frequencies of employees in each pay increase category (None, Standard, Merit) from the sample, referenced as n_i in the chi-square test statistic formula."
+    },
+    "n": {
+      "id": "n",
+      "value": 600,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total sample size of employees analyzed, used directly in computing expected frequencies E_i = n · p_{i,0}."
+    },
+    "proposed_proportions": {
+      "id": "proposed_proportions",
+      "value": {
+        "None": 0.1,
+        "Standard": 0.65,
+        "Merit": 0.25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Firm's proposed (hypothesized) proportions for each pay increase category, used as p_{i,0} in computing expected frequencies E_i = n · p_{i,0}."
+    }
+  }
+}

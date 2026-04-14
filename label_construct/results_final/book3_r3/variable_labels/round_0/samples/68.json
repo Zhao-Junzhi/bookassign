@@ -1,0 +1,29 @@
+{
+  "sample_key": "68",
+  "case_id": "book3_r1\\127.json",
+  "source_path": "book3_r3/68.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of identical units put on test at time x=0."
+    },
+    "y": {
+      "id": "y",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of units still in operation (surviving) after 24 hours out of the 20 units tested."
+    },
+    "x": {
+      "id": "x",
+      "value": 24,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observation time (in hours) at which the manager returns and records the number of surviving units."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sample_key": "292",
+  "case_id": "book3_r1\\89.json",
+  "source_path": "book3_r3/292.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "distribution": "exponential",
+        "failure_rate_parameter": 0.001
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lifetime (in hours) of the first light bulb, exponentially distributed with λ=0.001 per hour."
+    },
+    "Y": {
+      "id": "Y",
+      "value": {
+        "distribution": "exponential",
+        "failure_rate_parameter": 0.001
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lifetime (in hours) of the second light bulb, exponentially distributed with λ=0.001 per hour, independent of X."
+    },
+    "t": {
+      "id": "t",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time threshold (1000 hours) used to evaluate the probability that each bulb lasts at most this many hours."
+    }
+  }
+}

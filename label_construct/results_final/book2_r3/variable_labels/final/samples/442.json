@@ -1,0 +1,29 @@
+{
+  "sample_key": "442",
+  "case_id": "book2_r1\\162.json",
+  "source_path": "book2_r3/442.json",
+  "round": 0,
+  "variables": {
+    "y": {
+      "id": "y",
+      "value": null,
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of hours worked per week (outside the home) by a married woman; the response variable E(y) in the second-order model."
+    },
+    "x1": {
+      "id": "x1",
+      "value": null,
+      "class": "numerical",
+      "role": "X",
+      "description": "Number of years of formal education completed by the married woman; used as the first predictor in the second-order model."
+    },
+    "x2": {
+      "id": "x2",
+      "value": null,
+      "class": "numerical",
+      "role": "X",
+      "description": "Number of children in the married woman's family; used as the second predictor in the second-order model."
+    }
+  }
+}

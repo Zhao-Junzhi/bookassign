@@ -1,0 +1,36 @@
+{
+  "sample_key": "606",
+  "case_id": "book1_r1\\record_387.json",
+  "source_path": "book1_r3/606.json",
+  "round": 0,
+  "variables": {
+    "mean_change": {
+      "id": "mean_change",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The mean change in cholesterol level (mmol/L) that the study aims to detect, used as the effect size in the sample size formula."
+    },
+    "standard_deviation": {
+      "id": "standard_deviation",
+      "value": 0.4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The assumed standard deviation (mmol/L) of the change in cholesterol level, used in the sample size calculation."
+    },
+    "power": {
+      "id": "power",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The desired statistical power (80%), corresponding to z₀.₈ = 0.84 used in the sample size formula."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The significance level (two-sided), corresponding to z₀.₉₇₅ = 1.96 used in the sample size formula."
+    }
+  }
+}

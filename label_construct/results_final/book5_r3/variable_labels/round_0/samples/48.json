@@ -1,0 +1,36 @@
+{
+  "sample_key": "48",
+  "case_id": "book5_r1\\016.json",
+  "source_path": "book5_r3/48.json",
+  "round": 0,
+  "variables": {
+    "T4_Hodgkins": {
+      "id": "T4_Hodgkins",
+      "value": [
+        171,
+        257,
+        288,
+        295,
+        396,
+        397,
+        431,
+        435,
+        554,
+        568,
+        795,
+        902,
+        958,
+        1004,
+        1104,
+        1212,
+        1283,
+        1378,
+        1621,
+        2415
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "T4 cell counts per mm³ in blood samples from 20 patients in remission from Hodgkin's disease. These values are used to compute log_e(T4), cumulative probabilities P, and Normal scores for constructing a Normal plot."
+    }
+  }
+}

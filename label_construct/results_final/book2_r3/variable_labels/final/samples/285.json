@@ -1,0 +1,26 @@
+{
+  "sample_key": "285",
+  "case_id": "book2_r1\\116.json",
+  "source_path": "book2_r3/285.json",
+  "round": 0,
+  "variables": {
+    "emission_levels": {
+      "id": "emission_levels",
+      "value": [
+        15.6,
+        16.2,
+        22.5,
+        20.5,
+        16.4,
+        19.4,
+        19.6,
+        17.9,
+        12.7,
+        14.9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Emission levels (parts per million of carbon) measured from ten test engines, used to compute the sample mean (x̄ = 17.57) and sample standard deviation (s = 2.95) for calculating the test statistic."
+    }
+  }
+}

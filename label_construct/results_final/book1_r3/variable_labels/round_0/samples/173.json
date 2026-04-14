@@ -1,0 +1,28 @@
+{
+  "sample_key": "173",
+  "case_id": "book1_r1\\record_077.json",
+  "source_path": "book1_r3/173.json",
+  "round": 0,
+  "variables": {
+    "gestation_length_African_American": {
+      "id": "gestation_length_African_American",
+      "value": {
+        "sample_size": 22,
+        "sample_mean": 38.5
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Gestational length (in weeks) from a sample of 22 middle-class African American women, with sample mean x̄ = 38.5 weeks. Used in the answer to compute SE and the z test statistic."
+    },
+    "gestation_length_general_population": {
+      "id": "gestation_length_general_population",
+      "value": {
+        "mean": 39,
+        "sd": 2
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Gestational length (in weeks) in the general population of uncomplicated pregnancies, with known population mean μ = 39 weeks and population standard deviation σ = 2 weeks. μ is used as the hypothesized value and σ is used to compute the standard error in the answer."
+    }
+  }
+}

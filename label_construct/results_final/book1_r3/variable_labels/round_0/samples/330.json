@@ -1,0 +1,28 @@
+{
+  "sample_key": "330",
+  "case_id": "book1_r1\\record_132.json",
+  "source_path": "book1_r3/330.json",
+  "round": 0,
+  "variables": {
+    "Restenosis_CMV_positive": {
+      "id": "Restenosis_CMV_positive",
+      "value": {
+        "sample_size": 49,
+        "restenosed": 21
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "CMV阳性组的再狭窄结局：共49名受试者，其中21人在6个月内发生再狭窄。该变量与Restenosis_CMV_negative是同一结局（再狭窄）按CMV感染状态分组后的两个子组。"
+    },
+    "Restenosis_CMV_negative": {
+      "id": "Restenosis_CMV_negative",
+      "value": {
+        "sample_size": 26,
+        "restenosed": 2
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "CMV阴性组的再狭窄结局：共26名受试者，其中2人在6个月内发生再狭窄。该变量与Restenosis_CMV_positive是同一结局（再狭窄）按CMV感染状态分组后的两个子组。"
+    }
+  }
+}

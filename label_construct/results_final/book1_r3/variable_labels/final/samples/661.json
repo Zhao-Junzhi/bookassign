@@ -1,0 +1,15 @@
+{
+  "sample_key": "661",
+  "case_id": "book1_r1\\record_409.json",
+  "source_path": "book1_r3/661.json",
+  "round": 0,
+  "variables": {
+    "t_critical": {
+      "id": "t_critical",
+      "value": 2.262,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The critical t value for 95% confidence with 9 degrees of freedom, i.e., t_{9,975}, used to compute t^2."
+    }
+  }
+}

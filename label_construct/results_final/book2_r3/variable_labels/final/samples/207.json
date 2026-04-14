@@ -1,0 +1,24 @@
+{
+  "sample_key": "207",
+  "case_id": "book2_r1\\085.json",
+  "source_path": "book2_r3/207.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": {
+        "mean": 6.25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Length of life (in years) of a magnetron tube, following an exponential distribution with mean θ = 6.25 years. The answer uses this mean value directly in the computation e^{-5/6.25}."
+    },
+    "warranty_period": {
+      "id": "warranty_period",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Warranty period (in years) attached to the magnetron tube, used as the threshold value a = 5 in the probability calculation P(x ≤ 5)."
+    }
+  }
+}

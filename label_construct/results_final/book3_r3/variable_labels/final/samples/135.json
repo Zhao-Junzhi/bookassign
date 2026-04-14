@@ -1,0 +1,44 @@
+{
+  "sample_key": "135",
+  "case_id": "book3_r1\\28.json",
+  "source_path": "book3_r3/135.json",
+  "round": 0,
+  "variables": {
+    "X1": {
+      "id": "X1",
+      "value": {
+        "expected_hospitalizations": 2
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of hospitalizations in October, following Poisson(2)."
+    },
+    "X2": {
+      "id": "X2",
+      "value": {
+        "expected_hospitalizations": 3
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of hospitalizations in November, following Poisson(3)."
+    },
+    "X3": {
+      "id": "X3",
+      "value": {
+        "expected_hospitalizations": 4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of hospitalizations in December, following Poisson(4)."
+    },
+    "X4": {
+      "id": "X4",
+      "value": {
+        "expected_hospitalizations": 6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of hospitalizations in January, following Poisson(6)."
+    }
+  }
+}

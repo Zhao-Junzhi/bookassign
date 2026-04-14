@@ -1,0 +1,71 @@
+{
+  "sample_key": "101",
+  "case_id": "book2_r1\\043.json",
+  "source_path": "book2_r3/101.json",
+  "round": 0,
+  "variables": {
+    "Income_lt_25k_Age_lt_30": {
+      "id": "Income_lt_25k_Age_lt_30",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income < $25,000 and age < 30 years. Part of the two-way table of age-income classes."
+    },
+    "Income_25k_50k_Age_lt_30": {
+      "id": "Income_25k_50k_Age_lt_30",
+      "value": 0.12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income $25,000–$50,000 and age < 30 years. Part of the two-way table of age-income classes."
+    },
+    "Income_gt_50k_Age_lt_30": {
+      "id": "Income_gt_50k_Age_lt_30",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income > $50,000 and age < 30 years. Part of the two-way table; falls in event A (third column)."
+    },
+    "Income_lt_25k_Age_30_50": {
+      "id": "Income_lt_25k_Age_30_50",
+      "value": 0.14,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income < $25,000 and age 30–50 years. Part of the two-way table; falls in event B (last two rows)."
+    },
+    "Income_25k_50k_Age_30_50": {
+      "id": "Income_25k_50k_Age_30_50",
+      "value": 0.22,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income $25,000–$50,000 and age 30–50 years. Part of the two-way table; falls in event B (last two rows)."
+    },
+    "Income_gt_50k_Age_30_50": {
+      "id": "Income_gt_50k_Age_30_50",
+      "value": 0.16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income > $50,000 and age 30–50 years. Part of the two-way table; falls in both events A and B."
+    },
+    "Income_lt_25k_Age_gt_50": {
+      "id": "Income_lt_25k_Age_gt_50",
+      "value": 0.08,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income < $25,000 and age > 50 years. Part of the two-way table; falls in event B (last two rows)."
+    },
+    "Income_25k_50k_Age_gt_50": {
+      "id": "Income_25k_50k_Age_gt_50",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income $25,000–$50,000 and age > 50 years. Part of the two-way table; falls in event B (last two rows)."
+    },
+    "Income_gt_50k_Age_gt_50": {
+      "id": "Income_gt_50k_Age_gt_50",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of respondents with income > $50,000 and age > 50 years. Part of the two-way table; falls in both events A and B."
+    }
+  }
+}

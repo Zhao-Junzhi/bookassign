@@ -1,0 +1,31 @@
+{
+  "sample_key": "272",
+  "case_id": "book3_r1\\80.json",
+  "source_path": "book3_r3/272.json",
+  "round": 0,
+  "variables": {
+    "T": {
+      "id": "T",
+      "value": {
+        "pdf": "f(t) = 2e^t / (e^t + 1)^2, t > 0"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lifetime of a communication system (in hours) with the given probability density function, used to compute the CDF values F(1) and F(2) in the conditional probability calculation."
+    },
+    "t1": {
+      "id": "t1",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The conditioning time point (1 hour), representing the time the unit has already survived; used to evaluate F(1) in the conditional probability formula."
+    },
+    "t2": {
+      "id": "t2",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The event time point (2 hours), representing the upper bound of the failure interval; used to evaluate F(2) in the conditional probability formula."
+    }
+  }
+}

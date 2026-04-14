@@ -1,0 +1,43 @@
+{
+  "sample_key": "28",
+  "case_id": "book3_r1\\107.json",
+  "source_path": "book3_r3/28.json",
+  "round": 0,
+  "variables": {
+    "girls_count": {
+      "id": "girls_count",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of girls in the class, used in the hypergeometric probability calculation as the size of the success group."
+    },
+    "boys_count": {
+      "id": "boys_count",
+      "value": 12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of boys in the class, used in the hypergeometric probability calculation as the size of the non-success group."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of children selected at random by the teacher for group projects (the sample drawn without replacement)."
+    },
+    "girls_selected": {
+      "id": "girls_selected",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of girls in the specific combination being evaluated (2 girls chosen out of 10)."
+    },
+    "boys_selected": {
+      "id": "boys_selected",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of boys in the specific combination being evaluated (4 boys chosen out of 12)."
+    }
+  }
+}

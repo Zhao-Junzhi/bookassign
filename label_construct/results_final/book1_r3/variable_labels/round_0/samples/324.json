@@ -1,0 +1,18 @@
+{
+  "sample_key": "324",
+  "case_id": "book1_r1\\record_129.json",
+  "source_path": "book1_r3/324.json",
+  "round": 0,
+  "variables": {
+    "adults_using_alternative_medicine": {
+      "id": "adults_using_alternative_medicine",
+      "value": {
+        "sample_size": 1500,
+        "count_yes": 660
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "Survey responses of 1500 adults on whether they would use alternative medicine if traditional medical care failed to produce the desired results; 660 out of 1500 said yes. Used to compute the 95% confidence interval for the population proportion via Wilson's method."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "150",
+  "case_id": "book3_r1\\36 (1).json",
+  "source_path": "book3_r3/150.json",
+  "round": 0,
+  "variables": {
+    "failure_time_mean": {
+      "id": "failure_time_mean",
+      "value": 40000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean (μ) of the normal distribution of failure times, in cycles."
+    },
+    "failure_time_std": {
+      "id": "failure_time_std",
+      "value": 2000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation (σ) of the normal distribution of failure times, in cycles."
+    },
+    "target_cycles": {
+      "id": "target_cycles",
+      "value": 38000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific number of cycles (38,000) at which the reliability of the part is evaluated."
+    }
+  }
+}

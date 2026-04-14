@@ -1,0 +1,25 @@
+{
+  "sample_key": "62",
+  "case_id": "book2_r1\\024.json",
+  "source_path": "book2_r3/62.json",
+  "round": 0,
+  "variables": {
+    "battery_life_span": {
+      "id": "battery_life_span",
+      "value": {
+        "mean": 60,
+        "standard_deviation": 10
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Grade A battery life span population variable with the manufacturer's claimed mean of 60 months and known standard deviation of 10 months; mound-shaped distribution assumed"
+    },
+    "observed_battery_life": {
+      "id": "observed_battery_life",
+      "value": 37,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed life span (in months) of the specific battery, used to evaluate the plausibility of the manufacturer's claim"
+    }
+  }
+}

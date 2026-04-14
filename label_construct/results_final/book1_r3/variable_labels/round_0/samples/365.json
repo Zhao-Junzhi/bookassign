@@ -1,0 +1,28 @@
+{
+  "sample_key": "365",
+  "case_id": "book1_r1\\record_145.json",
+  "source_path": "book1_r3/365.json",
+  "round": 0,
+  "variables": {
+    "CMV_positive_restenosis": {
+      "id": "CMV_positive_restenosis",
+      "value": {
+        "Restenosed": 21,
+        "Did_not_restenose": 28
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Observed frequency distribution of restenosis outcome (restenosed vs. did not restenose) for CMV seropositive (CMV+) patients. Part of a 2×2 contingency table used in the chi-square test of association with CMV_negative_restenosis."
+    },
+    "CMV_negative_restenosis": {
+      "id": "CMV_negative_restenosis",
+      "value": {
+        "Restenosed": 2,
+        "Did_not_restenose": 24
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Observed frequency distribution of restenosis outcome (restenosed vs. did not restenose) for CMV seronegative (CMV−) patients. Part of a 2×2 contingency table used in the chi-square test of association with CMV_positive_restenosis."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sample_key": "155",
+  "case_id": "book3_r1\\39 (1).json",
+  "source_path": "book3_r3/155.json",
+  "round": 0,
+  "variables": {
+    "T1": {
+      "id": "T1",
+      "value": {
+        "distribution": "chi-square",
+        "degrees_of_freedom": 3
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable with chi-square distribution with 3 degrees of freedom, one of the four variables summed."
+    },
+    "T2": {
+      "id": "T2",
+      "value": {
+        "distribution": "chi-square",
+        "degrees_of_freedom": 7
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable with chi-square distribution with 7 degrees of freedom, one of the four variables summed."
+    },
+    "T3": {
+      "id": "T3",
+      "value": {
+        "distribution": "chi-square",
+        "degrees_of_freedom": 9
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable with chi-square distribution with 9 degrees of freedom, one of the four variables summed."
+    },
+    "T4": {
+      "id": "T4",
+      "value": {
+        "distribution": "chi-square",
+        "degrees_of_freedom": 10
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable with chi-square distribution with 10 degrees of freedom, one of the four variables summed."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 19.77,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The value 19.77 against which the sum of the T_i variables is compared in the probability calculation."
+    }
+  }
+}

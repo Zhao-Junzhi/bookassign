@@ -1,0 +1,29 @@
+{
+  "sample_key": "323",
+  "case_id": "book1_r1\\record_128.json",
+  "source_path": "book1_r3/323.json",
+  "round": 0,
+  "variables": {
+    "p_star": {
+      "id": "p_star",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated population proportion used in the sample size calculation, assumed to be 0.50 since no prior estimate is available."
+    },
+    "confidence_level": {
+      "id": "confidence_level",
+      "value": 0.95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The confidence level for the estimation, corresponding to a z* value of 1.96."
+    },
+    "margin_of_error": {
+      "id": "margin_of_error",
+      "value": 0.06,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The desired margin of error of no greater than 6% for estimating the population proportion."
+    }
+  }
+}

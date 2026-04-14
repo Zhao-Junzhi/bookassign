@@ -1,0 +1,46 @@
+{
+  "sample_key": "181",
+  "case_id": "book3_r1\\48 (1).json",
+  "source_path": "book3_r3/181.json",
+  "round": 0,
+  "variables": {
+    "f_i": {
+      "id": "f_i",
+      "value": [
+        10,
+        9,
+        8,
+        8,
+        7,
+        6,
+        4,
+        4,
+        2,
+        1,
+        1
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed frequencies in each cell boundary from the sample data (N=60)."
+    },
+    "E_i": {
+      "id": "E_i",
+      "value": [
+        13.8755,
+        10.6667,
+        8.1999,
+        6.3036,
+        4.8458,
+        3.7253,
+        2.8637,
+        2.201,
+        1.6924,
+        1.301,
+        4.3247
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Expected frequencies in each cell boundary under the exponential distribution, computed as E_i = Q_i - Q_{i-1}."
+    }
+  }
+}

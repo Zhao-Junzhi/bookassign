@@ -1,0 +1,19 @@
+{
+  "sample_key": "15",
+  "case_id": "book3_r1\\09.json",
+  "source_path": "book3_r3/15.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "total_units": 15,
+        "bad_units": 2,
+        "sample_size": 3
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of bad units in a sample of 3 drawn without replacement from a batch of 15 units containing 2 bad units. The task is to determine its distribution function."
+    }
+  }
+}

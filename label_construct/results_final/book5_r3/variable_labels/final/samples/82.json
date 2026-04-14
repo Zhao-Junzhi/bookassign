@@ -1,0 +1,59 @@
+{
+  "sample_key": "82",
+  "case_id": "book5_r1\\029.json",
+  "source_path": "book5_r3/82.json",
+  "round": 0,
+  "variables": {
+    "Placebo_After": {
+      "id": "Placebo_After",
+      "value": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        3,
+        3,
+        5,
+        5,
+        5,
+        9,
+        1,
+        5,
+        4,
+        10,
+        12
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Post-treatment scores for patients in the placebo group. These scores are compared with the gestrinone group's post-treatment scores using the Mann-Whitney test."
+    },
+    "Gestrinone_After": {
+      "id": "Gestrinone_After",
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Post-treatment scores for patients in the gestrinone group. These scores are compared with the placebo group's post-treatment scores using the Mann-Whitney test."
+    }
+  }
+}

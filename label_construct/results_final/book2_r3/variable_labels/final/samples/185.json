@@ -1,0 +1,19 @@
+{
+  "sample_key": "185",
+  "case_id": "book2_r1\\077.json",
+  "source_path": "book2_r3/185.json",
+  "round": 0,
+  "variables": {
+    "in_city_mileage": {
+      "id": "in_city_mileage",
+      "value": {
+        "mean": 27,
+        "standard_deviation": 3,
+        "observed_value": "<20"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "In-city mileage (miles per gallon) of the new car model. The population is modeled as normal with advertised mean 27 mpg and standard deviation 3 mpg. The purchased car was observed to get less than 20 mpg. The answer computes P(X<20) under N(27,3) ≈ 1%, concluding the model is likely incorrect."
+    }
+  }
+}

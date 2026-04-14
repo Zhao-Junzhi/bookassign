@@ -1,0 +1,29 @@
+{
+  "sample_key": "496",
+  "case_id": "book1_r1\\record_348.json",
+  "source_path": "book1_r3/496.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients (trials) in the binomial experiment, used as the sample size parameter in the binomial probability formula"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of success (response to treatment) for each trial; also used to derive the failure probability q = 1 - p = 0.25 in the calculation"
+    },
+    "X": {
+      "id": "X",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific number of successes for which the probability is being calculated (i.e., all four patients responding)"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_key": "280",
+  "case_id": "book3_r1\\83.json",
+  "source_path": "book3_r3/280.json",
+  "round": 0,
+  "variables": {
+    "women_count": {
+      "id": "women_count",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of women in the set from which the committee is chosen."
+    },
+    "men_count": {
+      "id": "men_count",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of men in the set from which the committee is chosen."
+    },
+    "committee_size": {
+      "id": "committee_size",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Required size of the committee (4 people, two of each sex)."
+    },
+    "women_on_committee": {
+      "id": "women_on_committee",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of women required on the committee."
+    },
+    "men_on_committee": {
+      "id": "men_on_committee",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of men required on the committee."
+    },
+    "constraint_Mr_Mrs_Good": {
+      "id": "constraint_Mr_Mrs_Good",
+      "value": "Mr. and Mrs. Good cannot both be on the committee",
+      "class": "categorical",
+      "role": "NR",
+      "description": "Constraint that the married couple (one from women, one from men) cannot both serve on the committee simultaneously."
+    }
+  }
+}

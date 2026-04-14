@@ -1,0 +1,28 @@
+{
+  "sample_key": "174",
+  "case_id": "book1_r1\\record_077.json",
+  "source_path": "book1_r3/174.json",
+  "round": 0,
+  "variables": {
+    "gestation_length_sample": {
+      "id": "gestation_length_sample",
+      "value": {
+        "n": 22,
+        "x̄": 38.5
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "22名中产阶级非裔美国女性的妊娠时长样本，样本量n=22，样本均值x̄=38.5周"
+    },
+    "gestation_length_population": {
+      "id": "gestation_length_population",
+      "value": {
+        "μ": 39,
+        "σ": 2
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "一般人群妊娠时长的总体参数，总体均值μ=39周，总体标准差σ=2周，作为假设检验的参考值"
+    }
+  }
+}

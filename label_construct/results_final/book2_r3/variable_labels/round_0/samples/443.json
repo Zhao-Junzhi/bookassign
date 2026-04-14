@@ -1,0 +1,62 @@
+{
+  "sample_key": "443",
+  "case_id": "book2_r1\\163.json",
+  "source_path": "book2_r3/443.json",
+  "round": 0,
+  "variables": {
+    "Group_1_lower_class": {
+      "id": "Group_1_lower_class",
+      "value": [
+        148,
+        76,
+        393,
+        520,
+        236,
+        134,
+        55,
+        166,
+        415,
+        153
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers in the lower socioeconomic class (Group 1, chosen as the base level in the regression model). The grouping by socioeconomic class serves as the independent variable in the proposed regression model."
+    },
+    "Group_2_middle_class": {
+      "id": "Group_2_middle_class",
+      "value": [
+        513,
+        264,
+        433,
+        94,
+        535,
+        327,
+        214,
+        135,
+        280,
+        304
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers in the middle socioeconomic class (Group 2, represented by dummy variable x_1 in the regression model). The grouping by socioeconomic class serves as the independent variable."
+    },
+    "Group_3_upper_class": {
+      "id": "Group_3_upper_class",
+      "value": [
+        335,
+        643,
+        216,
+        536,
+        128,
+        723,
+        258,
+        380,
+        594,
+        465
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollar amounts owed by delinquent credit card customers in the upper socioeconomic class (Group 3, represented by dummy variable x_2 in the regression model). The grouping by socioeconomic class serves as the independent variable."
+    }
+  }
+}

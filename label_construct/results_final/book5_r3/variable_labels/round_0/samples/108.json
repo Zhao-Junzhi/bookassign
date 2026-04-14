@@ -1,0 +1,42 @@
+{
+  "sample_key": "108",
+  "case_id": "book5_r1\\038.json",
+  "source_path": "book5_r3/108.json",
+  "round": 0,
+  "variables": {
+    "paired_data": {
+      "id": "paired_data",
+      "value": {
+        "cases_exposed_controls_exposed": 38,
+        "cases_exposed_controls_unexposed": 20,
+        "cases_unexposed_controls_exposed": 8,
+        "cases_unexposed_controls_unexposed": 20
+      },
+      "class": "others",
+      "role": "NR",
+      "description": "2x2 table of matched case-control pairs classified by exposure to loud noise at work. The discordant pairs (20 with case exposed/control unexposed, 8 with control exposed/case unexposed) are the key quantities used in McNemar's test."
+    },
+    "exposure_cases": {
+      "id": "exposure_cases",
+      "value": {
+        "exposed": 58,
+        "unexposed": 28,
+        "total": 86
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Number of cases exposed and unexposed to loud noise at work. Used to compute the proportion of exposed cases (58/86 = 0.674)."
+    },
+    "exposure_controls": {
+      "id": "exposure_controls",
+      "value": {
+        "exposed": 46,
+        "unexposed": 40,
+        "total": 86
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Number of controls exposed and unexposed to loud noise at work. Used to compute the proportion of exposed controls (46/86 = 0.535)."
+    }
+  }
+}

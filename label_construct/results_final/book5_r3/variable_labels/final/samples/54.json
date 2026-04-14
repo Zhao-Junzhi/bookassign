@@ -1,0 +1,18 @@
+{
+  "sample_key": "54",
+  "case_id": "book5_r1\\018.json",
+  "source_path": "book5_r3/54.json",
+  "round": 0,
+  "variables": {
+    "final_digit": {
+      "id": "final_digit",
+      "value": {
+        "total_count": 60,
+        "count_ending_in_zero": 27
+      },
+      "class": "categorical",
+      "role": "NR",
+      "description": "The last (final) digit of each serum progesterone measurement from the data table. There are 60 values in total, and the analysis examines whether certain digits (especially zero) appear more frequently than expected (digit preference)."
+    }
+  }
+}

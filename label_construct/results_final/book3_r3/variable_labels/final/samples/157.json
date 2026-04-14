@@ -1,0 +1,36 @@
+{
+  "sample_key": "157",
+  "case_id": "book3_r1\\40.json",
+  "source_path": "book3_r3/157.json",
+  "round": 0,
+  "variables": {
+    "beta": {
+      "id": "beta",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Shape parameter (β) of the Weibull distribution, used in computing the hazard rate."
+    },
+    "mu": {
+      "id": "mu",
+      "value": 2000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Scale parameter (μ) of the Weibull distribution, used as the denominator base in the hazard function."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Location parameter (σ) of the Weibull distribution, subtracted from operating time in the hazard function (t - σ)."
+    },
+    "t": {
+      "id": "t",
+      "value": 1500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Operating time (in hours) at which the hazard rate is to be evaluated."
+    }
+  }
+}

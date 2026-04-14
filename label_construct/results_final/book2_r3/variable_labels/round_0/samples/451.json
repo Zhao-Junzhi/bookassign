@@ -1,0 +1,86 @@
+{
+  "sample_key": "451",
+  "case_id": "book2_r1\\165.json",
+  "source_path": "book2_r3/451.json",
+  "round": 0,
+  "variables": {
+    "productivity": {
+      "id": "productivity",
+      "value": [
+        1435,
+        1512,
+        1491,
+        1583,
+        1529,
+        1610,
+        1601,
+        1574,
+        1636,
+        1575,
+        1512,
+        1488,
+        1635,
+        1589,
+        1661,
+        1645,
+        1616,
+        1689
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of machined castings produced by a worker in a 4-week period (40 hours/week), serving as the dependent variable y in the model E(y) = β0 + β1x1 + β2x2 + β3x1x2."
+    },
+    "incentive": {
+      "id": "incentive",
+      "value": [
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        40,
+        40,
+        40,
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        40,
+        40,
+        40
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Bonus amount in cents per casting paid for all castings produced in excess of 1,000 per worker during the 4-week period. Used as x1 in the model."
+    },
+    "management_style": {
+      "id": "management_style",
+      "value": [
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Type of management practice at the manufacturing plant. Coded as x2 in the model: 1 if disciplined management style, 0 if traditional management style."
+    }
+  }
+}

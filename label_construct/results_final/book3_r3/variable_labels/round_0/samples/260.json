@@ -1,0 +1,36 @@
+{
+  "sample_key": "260",
+  "case_id": "book3_r1\\75.json",
+  "source_path": "book3_r3/260.json",
+  "round": 0,
+  "variables": {
+    "boys_count": {
+      "id": "boys_count",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of boys in the group, used in the combination calculation C(100,50)."
+    },
+    "girls_count": {
+      "id": "girls_count",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of girls in the group, used in the combination calculation C(100,50)."
+    },
+    "total_count": {
+      "id": "total_count",
+      "value": 200,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of children (boys + girls = 200), used in the combination calculation C(200,100)."
+    },
+    "group_size": {
+      "id": "group_size",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Size of each of the two equal groups (200/2 = 100), used as the selection size in C(200,100) and the equal split target (50 boys and 50 girls per group)."
+    }
+  }
+}

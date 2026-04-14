@@ -1,0 +1,36 @@
+{
+  "sample_key": "164",
+  "case_id": "book2_r1\\069.json",
+  "source_path": "book2_r3/164.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of employees polled, i.e., the number of trials in the binomial experiment"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that any given employee favors unionization (success probability in the binomial model)"
+    },
+    "P_x_leq_11": {
+      "id": "P_x_leq_11",
+      "value": 0.404,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Cumulative binomial probability P(x ≤ 11) read from Table I at n=20, p=0.60, k=11"
+    },
+    "P_x_leq_10": {
+      "id": "P_x_leq_10",
+      "value": 0.245,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Cumulative binomial probability P(x ≤ 10) read from Table I at n=20, p=0.60, k=10"
+    }
+  }
+}

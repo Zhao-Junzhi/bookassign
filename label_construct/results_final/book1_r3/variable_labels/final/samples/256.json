@@ -1,0 +1,30 @@
+{
+  "sample_key": "256",
+  "case_id": "book1_r1\\record_108.json",
+  "source_path": "book1_r3/256.json",
+  "round": 0,
+  "variables": {
+    "Echinacea_severity": {
+      "id": "Echinacea_severity",
+      "value": {
+        "mean": 6.0,
+        "sd": 2.3,
+        "n": 337
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Peak severity of symptoms (on a four-symptom scale) for the echinacea treatment group. Summary statistics used to compute the Welch t-statistic."
+    },
+    "Placebo_severity": {
+      "id": "Placebo_severity",
+      "value": {
+        "mean": 6.1,
+        "sd": 2.4,
+        "n": 370
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Peak severity of symptoms (on a four-symptom scale) for the placebo group. Summary statistics used to compute the Welch t-statistic."
+    }
+  }
+}

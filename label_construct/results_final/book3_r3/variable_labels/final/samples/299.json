@@ -1,0 +1,29 @@
+{
+  "sample_key": "299",
+  "case_id": "book3_r1\\94.json",
+  "source_path": "book3_r3/299.json",
+  "round": 0,
+  "variables": {
+    "Y": {
+      "id": "Y",
+      "value": "The number of trials required to obtain a successful experiment (geometric random variable with parameter p)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of trials required to obtain a successful result. Follows a geometric distribution with success probability p. Used to compute the expected cost via C(Y) = 25000Y + 5000(Y-1)."
+    },
+    "cost_per_trial": {
+      "id": "cost_per_trial",
+      "value": 25000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The cost of performing each experiment trial, $25,000, used in the cost function C(Y)."
+    },
+    "setup_cost_per_failure": {
+      "id": "setup_cost_per_failure",
+      "value": 5000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The cost to set up for the next trial after a failure, $5,000, used in the cost function C(Y)."
+    }
+  }
+}

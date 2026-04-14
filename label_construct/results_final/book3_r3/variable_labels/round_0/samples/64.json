@@ -1,0 +1,23 @@
+{
+  "sample_key": "64",
+  "case_id": "book3_r1\\125.json",
+  "source_path": "book3_r3/64.json",
+  "round": 0,
+  "variables": {
+    "waiting_times": {
+      "id": "waiting_times",
+      "value": [
+        4.5,
+        5.3,
+        1.2,
+        7.4,
+        3.6,
+        4.8,
+        2.9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed waiting times (x_1 through x_7) from a random sample of a uniform distribution on [0, θ], used to estimate θ via the method of moments."
+    }
+  }
+}

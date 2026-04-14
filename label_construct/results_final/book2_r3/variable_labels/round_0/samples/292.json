@@ -1,0 +1,36 @@
+{
+  "sample_key": "292",
+  "case_id": "book2_r1\\118.json",
+  "source_path": "book2_r3/292.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 300,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size: the number of batteries randomly selected from the shipment."
+    },
+    "defective_count": {
+      "id": "defective_count",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective batteries found in the sample of 300."
+    },
+    "p0": {
+      "id": "p0",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized population proportion of defective batteries (null hypothesis value)."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.01,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level used to determine the rejection region."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_key": "184",
+  "case_id": "book2_r1\\077.json",
+  "source_path": "book2_r3/184.json",
+  "round": 0,
+  "variables": {
+    "in_city_mileage": {
+      "id": "in_city_mileage",
+      "value": {
+        "mean": 27,
+        "standard_deviation": 3
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "In-city mileage of the new car model (miles per gallon), approximated by a normal distribution with mean 27 and standard deviation 3"
+    },
+    "x": {
+      "id": "x",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific mileage threshold value (20 mpg) for which P(x < 20) is computed in the answer"
+    }
+  }
+}

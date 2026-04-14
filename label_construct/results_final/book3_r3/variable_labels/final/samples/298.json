@@ -1,0 +1,25 @@
+{
+  "sample_key": "298",
+  "case_id": "book3_r1\\93.json",
+  "source_path": "book3_r3/298.json",
+  "round": 0,
+  "variables": {
+    "claim_amount": {
+      "id": "claim_amount",
+      "value": {
+        "pdf": "f(x) = 3e^(-3x) for x > 0",
+        "unit": "thousands of dollars"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Claim amounts for wind damage to insured homes, independent random variables following an exponential distribution with PDF f(x) = 3e^(-3x) for x > 0."
+    },
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of claims (sample size), used to compute the expected value of the smallest (minimum order statistic) of the four claims."
+    }
+  }
+}

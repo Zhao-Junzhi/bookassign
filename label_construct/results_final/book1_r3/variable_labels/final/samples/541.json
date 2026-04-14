@@ -1,0 +1,29 @@
+{
+  "sample_key": "541",
+  "case_id": "book1_r1\\record_365.json",
+  "source_path": "book1_r3/541.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，即从总体中抽取的简单随机样本的个体数"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体中吸烟者的比例，即二项分布的成功概率参数"
+    },
+    "x": {
+      "id": "x",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "需要判断是否令人惊讶的吸烟者人数阈值（五个或更多）"
+    }
+  }
+}

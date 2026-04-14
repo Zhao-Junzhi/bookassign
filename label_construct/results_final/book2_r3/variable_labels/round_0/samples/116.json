@@ -1,0 +1,22 @@
+{
+  "sample_key": "116",
+  "case_id": "book2_r1\\051.json",
+  "source_path": "book2_r3/116.json",
+  "round": 0,
+  "variables": {
+    "N_total": {
+      "id": "N_total",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of welfare workers employed by the county welfare agency. Used in the answer to determine the remaining sample space (10 − 1 = 9) after the first worker is selected."
+    },
+    "N_illegal": {
+      "id": "N_illegal",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of workers who have regularly been giving illegal deductions. Used in the answer to determine the remaining number of illegal-deduction workers (3 − 1 = 2) after the first selected worker is known to be one of them."
+    }
+  }
+}

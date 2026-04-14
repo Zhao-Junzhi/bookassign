@@ -1,0 +1,22 @@
+{
+  "sample_key": "257",
+  "case_id": "book3_r1\\73.json",
+  "source_path": "book3_r3/257.json",
+  "round": 0,
+  "variables": {
+    "TV_Car": {
+      "id": "TV_Car",
+      "value": 115,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of families that have both a TV set and a car."
+    },
+    "Total_families": {
+      "id": "Total_families",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of families surveyed in the community."
+    }
+  }
+}

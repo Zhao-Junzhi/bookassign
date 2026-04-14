@@ -1,0 +1,28 @@
+{
+  "sample_key": "96",
+  "case_id": "book5_r1\\033.json",
+  "source_path": "book5_r3/96.json",
+  "round": 0,
+  "variables": {
+    "placebo_group": {
+      "id": "placebo_group",
+      "value": {
+        "sample_size": 73,
+        "discharged_at_first_examination": 2
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Placebo group: 73 children total, 2 discharged at first examination. Used in answer to assess observed and expected frequencies for evaluating appropriateness of Fisher's exact test vs Chi squared test."
+    },
+    "prednisolone_group": {
+      "id": "prednisolone_group",
+      "value": {
+        "sample_size": 67,
+        "discharged_at_first_examination": 20
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prednisolone group: 67 children total, 20 discharged at first examination. Used in answer to assess observed and expected frequencies for evaluating appropriateness of Fisher's exact test vs Chi squared test."
+    }
+  }
+}

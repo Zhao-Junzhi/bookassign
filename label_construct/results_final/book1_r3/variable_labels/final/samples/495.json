@@ -1,0 +1,29 @@
+{
+  "sample_key": "495",
+  "case_id": "book1_r1\\record_348.json",
+  "source_path": "book1_r3/495.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients (trials) in the binomial experiment, used as the n parameter in the binomial probability formula."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of success (treatment response) for each trial, used directly in the binomial probability calculation (and its complement 0.25 is derived from it)."
+    },
+    "k": {
+      "id": "k",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific number of successes for which the probability Pr(X=3) is being computed."
+    }
+  }
+}

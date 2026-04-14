@@ -1,0 +1,29 @@
+{
+  "sample_key": "50",
+  "case_id": "book3_r1\\12 (1).json",
+  "source_path": "book3_r3/50.json",
+  "round": 0,
+  "variables": {
+    "mean_range": {
+      "id": "mean_range",
+      "value": 25.7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The mean range (w̄) given in the problem, used to estimate the standard deviation."
+    },
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The sample size (number in sample), used to look up the corresponding d_n value from Table A.5."
+    },
+    "d_n": {
+      "id": "d_n",
+      "value": 2.059,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The range value d_n corresponding to n=4 from Table A.5, used as the divisor to estimate the standard deviation."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sample_key": "224",
+  "case_id": "book3_r1\\61.json",
+  "source_path": "book3_r3/224.json",
+  "round": 0,
+  "variables": {
+    "T_i": {
+      "id": "T_i",
+      "value": "T_i for i = 1, 2, 3",
+      "class": "numerical",
+      "role": "X",
+      "description": "Failure time of the ith component in the parallel system, where i ranges from 1 to n (n=3). The system failure time T_P is determined as the maximum of all T_i."
+    }
+  }
+}

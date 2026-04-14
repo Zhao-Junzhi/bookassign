@@ -1,0 +1,29 @@
+{
+  "sample_key": "30",
+  "case_id": "book3_r1\\108.json",
+  "source_path": "book3_r3/30.json",
+  "round": 0,
+  "variables": {
+    "λ": {
+      "id": "λ",
+      "value": 0.0001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate parameter of the exponential distribution, in failures per hour."
+    },
+    "t_survived": {
+      "id": "t_survived",
+      "value": 3000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of hours the battery has already survived (given condition), used in the memoryless property calculation."
+    },
+    "t_target": {
+      "id": "t_target",
+      "value": 5000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The target number of hours for which the probability of the battery lasting is being calculated."
+    }
+  }
+}

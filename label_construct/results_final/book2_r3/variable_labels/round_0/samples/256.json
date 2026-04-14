@@ -1,0 +1,20 @@
+{
+  "sample_key": "256",
+  "case_id": "book2_r1\\106.json",
+  "source_path": "book2_r3/256.json",
+  "round": 0,
+  "variables": {
+    "foil_amount": {
+      "id": "foil_amount",
+      "value": {
+        "N": 1462,
+        "n": 100,
+        "sample_mean": 47.4,
+        "sample_std": 12.4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of square feet of foil on each roll. N is the population size (total rolls), n is the sample size, sample_mean and sample_std are the sample mean and standard deviation, all used to construct the 95% confidence interval with finite population correction."
+    }
+  }
+}

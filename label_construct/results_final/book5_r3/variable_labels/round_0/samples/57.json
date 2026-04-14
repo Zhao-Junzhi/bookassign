@@ -1,0 +1,29 @@
+{
+  "sample_key": "57",
+  "case_id": "book5_r1\\019.json",
+  "source_path": "book5_r3/57.json",
+  "round": 0,
+  "variables": {
+    "daily_births_larger_hospital": {
+      "id": "daily_births_larger_hospital",
+      "value": 45,
+      "class": "numerical",
+      "role": "X",
+      "description": "Average number of babies born each day in the larger hospital, used to assess variability in the proportion of boys."
+    },
+    "daily_births_smaller_hospital": {
+      "id": "daily_births_smaller_hospital",
+      "value": 15,
+      "class": "numerical",
+      "role": "X",
+      "description": "Average number of babies born each day in the smaller hospital, used to assess variability in the proportion of boys."
+    },
+    "probability_boy": {
+      "id": "probability_boy",
+      "value": 0.52,
+      "class": "numerical",
+      "role": "Y",
+      "description": "Probability of a baby being a boy, the baseline proportion against which the 60% threshold is compared."
+    }
+  }
+}

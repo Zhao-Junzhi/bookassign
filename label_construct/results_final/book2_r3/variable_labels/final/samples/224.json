@@ -1,0 +1,36 @@
+{
+  "sample_key": "224",
+  "case_id": "book2_r1\\092.json",
+  "source_path": "book2_r3/224.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 36,
+      "class": "numerical",
+      "role": "NR",
+      "description": "随机样本的样本量，用于计算标准误 σx̄ = σ/√n"
+    },
+    "mu": {
+      "id": "mu",
+      "value": 80,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体均值，用于计算 z 值时作为 x̄ 的期望均值 μx̄"
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体标准差，用于计算样本均值的标准误 σx̄ = σ/√n"
+    },
+    "x_bar_threshold": {
+      "id": "x_bar_threshold",
+      "value": 82,
+      "class": "numerical",
+      "role": "NR",
+      "description": "需要评估概率的样本均值阈值，即求 P(x̄ > 82)"
+    }
+  }
+}

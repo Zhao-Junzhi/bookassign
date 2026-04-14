@@ -1,0 +1,32 @@
+{
+  "sample_key": "117",
+  "case_id": "book3_r1\\18.json",
+  "source_path": "book3_r3/117.json",
+  "round": 0,
+  "variables": {
+    "T_bar": {
+      "id": "T_bar",
+      "value": {
+        "definition": "sample mean of 10 i.i.d. observations",
+        "formula": "\\bar{T}=\\frac{\\sum_{i=1}^{10} T_i}{10}"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample average of monthly product demands over 10 months, the variable whose deviation from the population mean μ is being bounded."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size (number of months of observed demand), used to compute the variance of the sample mean."
+    },
+    "k": {
+      "id": "k",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The multiplier of σ specifying the deviation threshold |T̄ − μ| ≥ 3σ, used in the Chebyshev bound calculation."
+    }
+  }
+}

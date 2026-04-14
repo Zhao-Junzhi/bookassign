@@ -1,0 +1,22 @@
+{
+  "sample_key": "29",
+  "case_id": "book5_r1\\011.json",
+  "source_path": "book5_r3/29.json",
+  "round": 0,
+  "variables": {
+    "P_unaffected": {
+      "id": "P_unaffected",
+      "value": 0.75,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that each child of two heterozygous parents is unaffected (not having cystic fibrosis), derived from Mendelian genetics (3/4)."
+    },
+    "n_children": {
+      "id": "n_children",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of unaffected children required in the probability calculation."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "378",
+  "case_id": "book1_r1\\record_150.json",
+  "source_path": "book1_r3/378.json",
+  "round": 0,
+  "variables": {
+    "discordant_pairs_case_exposed": {
+      "id": "discordant_pairs_case_exposed",
+      "value": 45,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of matched pairs in which the case but not the control reported low fruit and vegetable consumption (discordant pair count b), used in McNemar's test."
+    },
+    "discordant_pairs_control_exposed": {
+      "id": "discordant_pairs_control_exposed",
+      "value": 24,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of matched pairs in which the control but not the case reported low fruit and vegetable consumption (discordant pair count c), used in McNemar's test."
+    }
+  }
+}

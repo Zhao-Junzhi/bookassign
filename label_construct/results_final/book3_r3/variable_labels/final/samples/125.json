@@ -1,0 +1,29 @@
+{
+  "sample_key": "125",
+  "case_id": "book3_r1\\23.json",
+  "source_path": "book3_r3/125.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of cooling units in the shipment (sample size)."
+    },
+    "p_defective": {
+      "id": "p_defective",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that any given cooling unit is defective."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold number of defective units; the problem asks for the probability of more than this many defectives."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_key": "163",
+  "case_id": "book2_r1\\069.json",
+  "source_path": "book2_r3/163.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": {
+        "n": 20,
+        "p": 0.6
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of employees (out of 20 polled) who favor unionization, modeled as a binomial random variable with n=20 trials and success probability p=0.60"
+    },
+    "P_x_leq_12": {
+      "id": "P_x_leq_12",
+      "value": 0.584,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Cumulative binomial probability P(x ≤ 12) read from Table I at n=20, k=12, p=.60, used directly in the calculation P(x > 12) = 1 - 0.584 = 0.416"
+    }
+  }
+}

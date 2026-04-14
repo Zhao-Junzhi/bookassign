@@ -1,0 +1,46 @@
+{
+  "sample_key": "129",
+  "case_id": "book3_r1\\25.json",
+  "source_path": "book3_r3/129.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of independent repetitions of the experiment."
+    },
+    "m": {
+      "id": "m",
+      "value": "m",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of possible outcomes of the experiment."
+    },
+    "p": {
+      "id": "p",
+      "value": [
+        "p1",
+        "p2",
+        "…",
+        "pm"
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probabilities corresponding to each of the m possible outcomes."
+    },
+    "X": {
+      "id": "X",
+      "value": [
+        "X1",
+        "X2",
+        "…",
+        "Xm"
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The count of each outcome type si observed across the n independent repetitions, where Xi is the number of outcomes of type si."
+    }
+  }
+}

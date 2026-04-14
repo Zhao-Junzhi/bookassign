@@ -1,0 +1,22 @@
+{
+  "sample_key": "701",
+  "case_id": "book1_r1\\record_420.json",
+  "source_path": "book1_r3/701.json",
+  "round": 0,
+  "variables": {
+    "p_hat": {
+      "id": "p_hat",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated population proportion of smoking prevalence, used to calculate the required sample size."
+    },
+    "margin_of_error": {
+      "id": "margin_of_error",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Desired margin of error to which the sample size calculation aims to shrink."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_key": "317",
+  "case_id": "book2_r1\\125.json",
+  "source_path": "book2_r3/317.json",
+  "round": 0,
+  "variables": {
+    "Group_1_Success_Index": {
+      "id": "Group_1_Success_Index",
+      "value": [
+        65,
+        58,
+        78,
+        60,
+        68,
+        69,
+        66,
+        70,
+        53,
+        71,
+        63,
+        63
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Managerial success indexes (100-point scale) for Group 1 managers who engage in a high volume of interactions with people outside their work unit; n1 = 12. Compared with Group_2_Success_Index for estimating the mean difference."
+    },
+    "Group_2_Success_Index": {
+      "id": "Group_2_Success_Index",
+      "value": [
+        62,
+        53,
+        36,
+        34,
+        56,
+        50,
+        42,
+        57,
+        46,
+        68,
+        48,
+        42,
+        52,
+        53,
+        43
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Managerial success indexes (100-point scale) for Group 2 managers who rarely interact with people outside their work unit; n2 = 15. Compared with Group_1_Success_Index for estimating the mean difference."
+    }
+  }
+}

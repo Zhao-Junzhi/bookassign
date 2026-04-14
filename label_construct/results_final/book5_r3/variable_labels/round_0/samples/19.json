@@ -1,0 +1,26 @@
+{
+  "sample_key": "19",
+  "case_id": "book5_r1\\006.json",
+  "source_path": "book5_r3/19.json",
+  "round": 0,
+  "variables": {
+    "P_boy": {
+      "id": "P_boy",
+      "value": 0.52,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a baby being a boy, used to determine which sequence is most/least likely."
+    },
+    "Sequence": {
+      "id": "Sequence",
+      "value": [
+        "GBGBGB",
+        "BBBGGG",
+        "GBBBBB"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "The three candidate sequences of boys (B) and girls (G) for six consecutive births, among which the most and least likely are to be identified."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sample_key": "172",
+  "case_id": "book5_r1\\059.json",
+  "source_path": "book5_r3/172.json",
+  "round": 0,
+  "variables": {
+    "nocturnal_limb_movements_before": {
+      "id": "nocturnal_limb_movements_before",
+      "value": {
+        "mean": 46.3,
+        "SE": 10.0
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Nocturnal limb movements score before treatment, reported as mean (SE) across 13 patients."
+    },
+    "nocturnal_limb_movements_during": {
+      "id": "nocturnal_limb_movements_during",
+      "value": {
+        "mean": 38.8,
+        "SE": 7.4
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Nocturnal limb movements score during treatment, reported as mean (SE) across 13 patients."
+    },
+    "nocturnal_limb_movements_after": {
+      "id": "nocturnal_limb_movements_after",
+      "value": {
+        "mean": 38.7,
+        "SE": 5.5
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Nocturnal limb movements score after treatment, reported as mean (SE) across 13 patients."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 13,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients in the study, used to convert SE to SD (SD = SE × √13)."
+    }
+  }
+}

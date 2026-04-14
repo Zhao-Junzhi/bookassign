@@ -1,0 +1,29 @@
+{
+  "sample_key": "538",
+  "case_id": "book1_r1\\record_365.json",
+  "source_path": "book1_r3/538.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, the number of individuals in the simple random sample (SRS)."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population proportion of smokers (probability of success in each Bernoulli trial)."
+    },
+    "x": {
+      "id": "x",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of smokers (successes) observed in the sample for which the probability is being calculated."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "122",
+  "case_id": "book2_r1\\054.json",
+  "source_path": "book2_r3/122.json",
+  "round": 0,
+  "variables": {
+    "P(C1)": {
+      "id": "P(C1)",
+      "value": 0.38,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that firm 1 gives 'stay competitive' as the primary reason for using diversity training, based on the survey finding that 38% of U.S. firms use diversity training to stay competitive."
+    },
+    "P(C2)": {
+      "id": "P(C2)",
+      "value": 0.38,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that firm 2 gives 'stay competitive' as the primary reason for using diversity training, based on the survey finding that 38% of U.S. firms use diversity training to stay competitive."
+    }
+  }
+}

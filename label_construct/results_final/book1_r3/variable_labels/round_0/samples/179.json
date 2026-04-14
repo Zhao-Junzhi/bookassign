@@ -1,0 +1,36 @@
+{
+  "sample_key": "179",
+  "case_id": "book1_r1\\record_079.json",
+  "source_path": "book1_r3/179.json",
+  "round": 0,
+  "variables": {
+    "x_bar": {
+      "id": "x_bar",
+      "value": 80900,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed sample mean of annual salary for 20 female hospital administrators."
+    },
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size of female hospital administrators."
+    },
+    "mu": {
+      "id": "mu",
+      "value": 85100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Published population mean salary for hospital administrators."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Published population standard deviation of hospital administrator salaries."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "31",
+  "case_id": "book5_r1\\011.json",
+  "source_path": "book5_r3/31.json",
+  "round": 0,
+  "variables": {
+    "P_heterozygous": {
+      "id": "P_heterozygous",
+      "value": 0.04545,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a person is heterozygous for cystic fibrosis, approximately 1/22."
+    },
+    "P_child_affected_given_both_heterozygous": {
+      "id": "P_child_affected_given_both_heterozygous",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a child has cystic fibrosis given both parents are heterozygous (1 in 4)."
+    },
+    "annual_births": {
+      "id": "annual_births",
+      "value": 3500,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of births per year at the hospital."
+    }
+  }
+}

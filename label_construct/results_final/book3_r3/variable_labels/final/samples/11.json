@@ -1,0 +1,50 @@
+{
+  "sample_key": "11",
+  "case_id": "book3_r1\\07.json",
+  "source_path": "book3_r3/11.json",
+  "round": 0,
+  "variables": {
+    "红球数量": {
+      "id": "红球数量",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "罐中红球的数量，用于计算分子中C(5,1)"
+    },
+    "绿球数量": {
+      "id": "绿球数量",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "罐中绿球的数量，用于计算分子中C(7,1)"
+    },
+    "黑球数量": {
+      "id": "黑球数量",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "罐中黑球的数量，用于计算分子中C(2,1)"
+    },
+    "白球数量": {
+      "id": "白球数量",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "罐中白球的数量，用于计算分子中C(6,1)"
+    },
+    "总球数": {
+      "id": "总球数",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "罐中球的总数，用于计算分母中C(20,4)"
+    },
+    "抽取球数": {
+      "id": "抽取球数",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "不放回抽取的球数，用于计算分母中C(20,4)及确定每种颜色各取1个"
+    }
+  }
+}

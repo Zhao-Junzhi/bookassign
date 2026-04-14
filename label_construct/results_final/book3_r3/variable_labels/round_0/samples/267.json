@@ -1,0 +1,29 @@
+{
+  "sample_key": "267",
+  "case_id": "book3_r1\\78.json",
+  "source_path": "book3_r3/267.json",
+  "round": 0,
+  "variables": {
+    "h(t)": {
+      "id": "h(t)",
+      "value": "\\frac{t}{t+1}",
+      "class": "others",
+      "role": "X",
+      "description": "The failure rate (hazard function) for the hydraulic component, given as h(t) = t/(t+1) for t > 0, used to derive the reliability function R(t)."
+    },
+    "t": {
+      "id": "t",
+      "value": "t > 0",
+      "class": "numerical",
+      "role": "X",
+      "description": "Time variable in years, the independent variable over which the failure rate is defined and the reliability function is computed."
+    },
+    "R(t)": {
+      "id": "R(t)",
+      "value": "(t+1) e^{-t}",
+      "class": "others",
+      "role": "Y",
+      "description": "The reliability function to be determined, representing the probability that the component survives beyond time t."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "sample_key": "2",
+  "case_id": "book3_r1\\02.json",
+  "source_path": "book3_r3/2.json",
+  "round": 0,
+  "variables": {
+    "inventory_percentage": {
+      "id": "inventory_percentage",
+      "value": {
+        "A": 0.6,
+        "B": 0.2,
+        "C": 0.05,
+        "D": 0.15
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Respective percentages of total inventory from suppliers A, B, C, and D, used as prior probabilities in Bayes' rule."
+    },
+    "defect_rate": {
+      "id": "defect_rate",
+      "value": {
+        "A": 0.05,
+        "B": 0.03,
+        "C": 0.02,
+        "D": 0.08
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Defect rates for lots from suppliers A, B, C, and D, used as likelihoods in Bayes' rule."
+    }
+  }
+}

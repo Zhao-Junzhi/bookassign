@@ -1,0 +1,37 @@
+{
+  "sample_key": "390",
+  "case_id": "book2_r1\\146.json",
+  "source_path": "book2_r3/390.json",
+  "round": 0,
+  "variables": {
+    "Observed_counts": {
+      "id": "Observed_counts",
+      "value": {
+        "None": 42,
+        "Standard": 365,
+        "Merit": 193
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed frequencies of pay increase categories (None, Standard, Merit) from a random sample of 600 employees."
+    },
+    "Proposed_proportions": {
+      "id": "Proposed_proportions",
+      "value": {
+        "None": 0.1,
+        "Standard": 0.65,
+        "Merit": 0.25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The firm's proposed (expected) proportions for each pay increase category, used to compute expected frequencies."
+    },
+    "Sample_size": {
+      "id": "Sample_size",
+      "value": 600,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of employees in the random sample, used together with proposed proportions to compute expected frequencies (e.g., 600×0.10=60, 600×0.65=390, 600×0.25=150)."
+    }
+  }
+}

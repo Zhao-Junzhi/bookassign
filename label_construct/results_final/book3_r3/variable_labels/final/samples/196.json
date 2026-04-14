@@ -1,0 +1,24 @@
+{
+  "sample_key": "196",
+  "case_id": "book3_r1\\53.json",
+  "source_path": "book3_r3/196.json",
+  "round": 0,
+  "variables": {
+    "Interest_Age_Contingency_Table": {
+      "id": "Interest_Age_Contingency_Table",
+      "value": {
+        "Yes_15-20": 60,
+        "Yes_21-30": 54,
+        "Yes_31-40": 46,
+        "Yes_41-65": 41,
+        "No_15-20": 40,
+        "No_21-30": 44,
+        "No_31-40": 53,
+        "No_41-65": 57
+      },
+      "class": "others",
+      "role": "XY",
+      "description": "Observed counts from the contingency table cross-classifying interest in riding a bicycle (Variable A: Yes/No) by age group (Variable B: 15-20, 21-30, 31-40, 41-65). The answer uses these observed frequencies to compute expected values and the chi-square test statistic for independence."
+    }
+  }
+}

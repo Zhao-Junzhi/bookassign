@@ -1,0 +1,26 @@
+{
+  "sample_key": "216",
+  "case_id": "book2_r1\\089.json",
+  "source_path": "book2_r3/216.json",
+  "round": 0,
+  "variables": {
+    "x_population": {
+      "id": "x_population",
+      "value": {
+        "values": [
+          -5,
+          0,
+          5
+        ],
+        "probabilities": [
+          "1/9",
+          "6/9",
+          "2/9"
+        ]
+      },
+      "class": "others",
+      "role": "NR",
+      "description": "Population probability distribution of x (outcome of a $5 wager in craps), used to determine the population mean μ = 0.556"
+    }
+  }
+}

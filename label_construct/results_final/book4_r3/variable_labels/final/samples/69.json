@@ -1,0 +1,116 @@
+{
+  "sample_key": "69",
+  "case_id": "book4_r1\\021.json",
+  "source_path": "book4_r3/69.json",
+  "round": 0,
+  "variables": {
+    "CA_Mainland_arcsine": {
+      "id": "CA_Mainland_arcsine",
+      "value": [
+        0.177,
+        0.18,
+        0.142,
+        0.152,
+        0.165
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year for mainland countries in Central America. These are the same samples as CA_Mainland but measured/transformed differently; they share samples with CA_Island via the Central America region grouping and with SEA_Mainland via the Mainland location grouping."
+    },
+    "CA_Island_arcsine": {
+      "id": "CA_Island_arcsine",
+      "value": [
+        0.032,
+        0.078,
+        0.196,
+        0.174,
+        0.063
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year for island countries in Central America. Shares region grouping (Central America) with CA_Mainland_arcsine and location grouping (Island) with SEA_Island_arcsine."
+    },
+    "SEA_Mainland_arcsine": {
+      "id": "SEA_Mainland_arcsine",
+      "value": [
+        0.1,
+        0.123,
+        0.159,
+        0.131,
+        0.045
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year for mainland countries in South East Asia. Shares region grouping (South East Asia) with SEA_Island_arcsine and location grouping (Mainland) with CA_Mainland_arcsine."
+    },
+    "SEA_Island_arcsine": {
+      "id": "SEA_Island_arcsine",
+      "value": [
+        0.032,
+        0.032,
+        0.045,
+        0.123,
+        0.09
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Arcsine-transformed percentage of forest lost per year for island countries in South East Asia. Shares region grouping (South East Asia) with SEA_Mainland_arcsine and location grouping (Island) with CA_Island_arcsine."
+    },
+    "Region": {
+      "id": "Region",
+      "value": [
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "Central America",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia",
+        "South East Asia"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Region factor with two levels: Central America and South East Asia. Used as a factor in the two-way ANOVA and subsequent multiple comparisons."
+    },
+    "Location": {
+      "id": "Location",
+      "value": [
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Mainland",
+        "Island",
+        "Island",
+        "Island",
+        "Island",
+        "Island"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Location factor with two levels: Mainland and Island. Used as a factor in the two-way ANOVA and subsequent multiple comparisons."
+    }
+  }
+}

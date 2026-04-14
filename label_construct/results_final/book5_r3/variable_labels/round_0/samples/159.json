@@ -1,0 +1,54 @@
+{
+  "sample_key": "159",
+  "case_id": "book5_r1\\055.json",
+  "source_path": "book5_r3/159.json",
+  "round": 0,
+  "variables": {
+    "Respiratory_rate_cutoff": {
+      "id": "Respiratory_rate_cutoff",
+      "value": [
+        "0-30",
+        "31-40",
+        "41-50",
+        "51-60",
+        "61+"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Respiratory rate categories (breaths/min) used as potential cut-off points for diagnosing LRI vs URI."
+    },
+    "LRI_count": {
+      "id": "LRI_count",
+      "value": [
+        1,
+        4,
+        10,
+        41,
+        86
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with lower respiratory tract infection (LRI) in each respiratory rate category. Total = 142. These counts are used to compute sensitivity/specificity at each cut-off for PPV/NPV calculation."
+    },
+    "URI_count": {
+      "id": "URI_count",
+      "value": [
+        16,
+        77,
+        46,
+        9,
+        3
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with upper respiratory tract infection (URI) in each respiratory rate category. Total = 151. These counts are used to compute sensitivity/specificity at each cut-off for PPV/NPV calculation."
+    },
+    "Prevalence_LRI": {
+      "id": "Prevalence_LRI",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "X",
+      "description": "Prevalence of LRI among all infants with acute respiratory infection in a developing country (3%), used in the PPV and NPV formulae."
+    }
+  }
+}

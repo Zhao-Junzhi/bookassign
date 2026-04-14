@@ -1,0 +1,64 @@
+{
+  "sample_key": "25",
+  "case_id": "book4_r1\\007.json",
+  "source_path": "book4_r3/25.json",
+  "round": 0,
+  "variables": {
+    "Genetically_modified_food": {
+      "id": "Genetically_modified_food",
+      "value": [
+        5,
+        1,
+        1,
+        4,
+        3,
+        3,
+        4,
+        5,
+        2,
+        3,
+        5,
+        4,
+        3,
+        2,
+        1,
+        5,
+        1,
+        2,
+        2,
+        3
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Level of public concern regarding genetically modified food, scored on a scale from 1 (not concerned at all) to 5 (very concerned), for 20 respondents."
+    },
+    "Intensive_pesticide_use": {
+      "id": "Intensive_pesticide_use",
+      "value": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        3,
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Level of public concern regarding intensive pesticide use, scored on a scale from 1 (not concerned at all) to 5 (very concerned), for 20 respondents."
+    }
+  }
+}

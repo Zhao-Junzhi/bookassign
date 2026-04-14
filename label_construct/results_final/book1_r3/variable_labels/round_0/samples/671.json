@@ -1,0 +1,36 @@
+{
+  "sample_key": "671",
+  "case_id": "book1_r1\\record_411.json",
+  "source_path": "book1_r3/671.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 11,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size for the smoking and lung cancer example, used to determine degrees of freedom (n-2) for the t critical value."
+    },
+    "b": {
+      "id": "b",
+      "value": 0.02884,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated regression slope coefficient, the point estimate around which the confidence interval is constructed. Note: the background states 0.02284 but the answer uses 0.02884."
+    },
+    "s_Y|X": {
+      "id": "s_Y|X",
+      "value": 8.349,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard error of the estimate (residual standard deviation), used in computing the standard error of the slope."
+    },
+    "s_X": {
+      "id": "s_X",
+      "value": 378.451,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation of the independent variable X, used in computing the standard error of the slope."
+    }
+  }
+}

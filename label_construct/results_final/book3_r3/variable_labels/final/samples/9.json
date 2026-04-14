@@ -1,0 +1,22 @@
+{
+  "sample_key": "9",
+  "case_id": "book3_r1\\06.json",
+  "source_path": "book3_r3/9.json",
+  "round": 0,
+  "variables": {
+    "total_people": {
+      "id": "total_people",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of people from whom the committee is to be formed."
+    },
+    "committee_size": {
+      "id": "committee_size",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of people to be chosen to form the committee."
+    }
+  }
+}

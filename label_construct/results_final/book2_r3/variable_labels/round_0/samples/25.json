@@ -1,0 +1,22 @@
+{
+  "sample_key": "25",
+  "case_id": "book2_r1\\008.json",
+  "source_path": "book2_r3/25.json",
+  "round": 0,
+  "variables": {
+    "sample_size": {
+      "id": "sample_size",
+      "value": 1859,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of U.S. adults surveyed who had conducted at least one online transaction in the past year."
+    },
+    "technical_problems_count": {
+      "id": "technical_problems_count",
+      "value": 1655,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of respondents who experienced technical problems with an online transaction."
+    }
+  }
+}

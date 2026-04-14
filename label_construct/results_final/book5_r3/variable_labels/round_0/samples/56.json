@@ -1,0 +1,33 @@
+{
+  "sample_key": "56",
+  "case_id": "book5_r1\\019.json",
+  "source_path": "book5_r3/56.json",
+  "round": 0,
+  "variables": {
+    "births_larger_hospital": {
+      "id": "births_larger_hospital",
+      "value": {
+        "average_daily_births": 45
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Average number of babies born each day in the larger hospital."
+    },
+    "births_smaller_hospital": {
+      "id": "births_smaller_hospital",
+      "value": {
+        "average_daily_births": 15
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Average number of babies born each day in the smaller hospital."
+    },
+    "probability_of_twins": {
+      "id": "probability_of_twins",
+      "value": 0.012,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of a set of twins being delivered, used as the per-birth event probability."
+    }
+  }
+}

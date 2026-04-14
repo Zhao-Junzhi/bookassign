@@ -1,0 +1,34 @@
+{
+  "sample_key": "501",
+  "case_id": "book1_r1\\record_350.json",
+  "source_path": "book1_r3/501.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes (number of patients responding to treatment), possible values of the binomial random variable."
+    },
+    "Pr_X": {
+      "id": "Pr_X",
+      "value": [
+        0.0039,
+        0.0469,
+        0.2109,
+        0.4219,
+        0.3164
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability mass function values Pr(X=x) for each number of successes x in the binomial distribution b(4, 0.75). The answer uses the probabilities for x=0, 1, 2, and 3 to compute the cumulative probability."
+    }
+  }
+}

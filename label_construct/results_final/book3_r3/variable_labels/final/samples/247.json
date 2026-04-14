@@ -1,0 +1,22 @@
+{
+  "sample_key": "247",
+  "case_id": "book3_r1\\67.json",
+  "source_path": "book3_r3/247.json",
+  "round": 0,
+  "variables": {
+    "f(t)": {
+      "id": "f(t)",
+      "value": "λ^2 t e^(-λ t), t > 0, λ > 0",
+      "class": "others",
+      "role": "NR",
+      "description": "Failure time probability density function of the system, used to derive the reliability function R(t) and subsequently the system reliability under PM and MTTFF."
+    },
+    "T": {
+      "id": "T",
+      "value": "T (PM cycle interval length)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The fixed time interval at which the system is periodically restored to 'as good as new'. Used throughout the answer to define PM cycles and compute R_M(t) and MTTFF."
+    }
+  }
+}

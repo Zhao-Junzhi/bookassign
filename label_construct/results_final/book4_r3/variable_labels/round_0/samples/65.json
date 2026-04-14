@@ -1,0 +1,62 @@
+{
+  "sample_key": "65",
+  "case_id": "book4_r1\\020.json",
+  "source_path": "book4_r3/65.json",
+  "round": 0,
+  "variables": {
+    "Up_to_25": {
+      "id": "Up_to_25",
+      "value": [
+        3,
+        2,
+        4,
+        4,
+        5,
+        4,
+        3,
+        1,
+        5,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Enthusiasm scores (1-5) towards recycling for respondents aged up to 25 years."
+    },
+    "26_to_50": {
+      "id": "26_to_50",
+      "value": [
+        1,
+        2,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Enthusiasm scores (1-5) towards recycling for respondents aged 26 to 50 years."
+    },
+    "Over_51": {
+      "id": "Over_51",
+      "value": [
+        4,
+        3,
+        3,
+        5,
+        3,
+        1,
+        4,
+        4,
+        5,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Enthusiasm scores (1-5) towards recycling for respondents aged over 51 years."
+    }
+  }
+}

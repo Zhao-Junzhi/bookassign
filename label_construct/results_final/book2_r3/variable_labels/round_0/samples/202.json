@@ -1,0 +1,19 @@
+{
+  "sample_key": "202",
+  "case_id": "book2_r1\\083.json",
+  "source_path": "book2_r3/202.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": {
+        "lower_bound": 150,
+        "upper_bound": 200,
+        "distribution": "uniform"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Thickness of the steel sheets produced by the rolling machine, modeled as a uniform random variable between 150 and 200 millimeters."
+    }
+  }
+}

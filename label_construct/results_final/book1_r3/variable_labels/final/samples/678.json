@@ -1,0 +1,46 @@
+{
+  "sample_key": "678",
+  "case_id": "book1_r1\\record_413.json",
+  "source_path": "book1_r3/678.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": [
+        1300,
+        1100,
+        1100,
+        510,
+        500,
+        490,
+        480,
+        380,
+        300,
+        250,
+        230
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Per capita cigarette consumption for each country (independent variable in the regression/ANOVA)"
+    },
+    "Y": {
+      "id": "Y",
+      "value": [
+        20,
+        46,
+        35,
+        25,
+        15,
+        24,
+        18,
+        17,
+        11,
+        9,
+        6
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Lung cancer death rate per million for each country (dependent variable in the regression/ANOVA)"
+    }
+  }
+}

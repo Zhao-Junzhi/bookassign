@@ -1,0 +1,22 @@
+{
+  "sample_key": "39",
+  "case_id": "book2_r1\\016.json",
+  "source_path": "book2_r3/39.json",
+  "round": 0,
+  "variables": {
+    "measurements": {
+      "id": "measurements",
+      "value": [
+        5,
+        7,
+        4,
+        5,
+        20,
+        6
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The remaining n=6 measurements after eliminating the last measurement (2) from the original sample of 7, used to calculate the median."
+    }
+  }
+}

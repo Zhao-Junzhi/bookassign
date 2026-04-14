@@ -1,0 +1,22 @@
+{
+  "sample_key": "22",
+  "case_id": "book5_r1\\007.json",
+  "source_path": "book5_r3/22.json",
+  "round": 0,
+  "variables": {
+    "number_of_groups": {
+      "id": "number_of_groups",
+      "value": 20000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of groups of video display terminal users large enough for ten women to become pregnant in one year."
+    },
+    "probability_of_cluster": {
+      "id": "probability_of_cluster",
+      "value": 0.0013,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a 'cluster' (six or more miscarriages out of 10), calculated as P(r>=6) = 0.0012 + 0.0001 + 0.0000 + 0.0000 + 0.0000 = 0.0013 from the binomial distribution table."
+    }
+  }
+}

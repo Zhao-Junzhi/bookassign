@@ -1,0 +1,72 @@
+{
+  "sample_key": "177",
+  "case_id": "book5_r1\\060.json",
+  "source_path": "book5_r3/177.json",
+  "round": 0,
+  "variables": {
+    "Captopril_Baseline": {
+      "id": "Captopril_Baseline",
+      "value": [
+        147,
+        129,
+        158,
+        164,
+        134,
+        155,
+        151,
+        141,
+        153
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Systolic blood pressure at baseline for patients in the Captopril group. Used together with Captopril_After_1_week to compute the change in blood pressure. These values correspond to the same patients as Captopril_After_1_week."
+    },
+    "Captopril_After_1_week": {
+      "id": "Captopril_After_1_week",
+      "value": [
+        137,
+        120,
+        141,
+        137,
+        140,
+        144,
+        134,
+        123,
+        142
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Systolic blood pressure after 1 week of treatment for patients in the Captopril group. Used together with Captopril_Baseline to compute the change in blood pressure. These values correspond to the same patients as Captopril_Baseline."
+    },
+    "Placebo_Baseline": {
+      "id": "Placebo_Baseline",
+      "value": [
+        133,
+        129,
+        152,
+        161,
+        154,
+        141,
+        156
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Systolic blood pressure at baseline for patients in the Placebo group. Used together with Placebo_After_1_week to compute the change in blood pressure. These values correspond to the same patients as Placebo_After_1_week."
+    },
+    "Placebo_After_1_week": {
+      "id": "Placebo_After_1_week",
+      "value": [
+        139,
+        134,
+        136,
+        151,
+        147,
+        137,
+        149
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Systolic blood pressure after 1 week of treatment for patients in the Placebo group. Used together with Placebo_Baseline to compute the change in blood pressure. These values correspond to the same patients as Placebo_Baseline."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "673",
+  "case_id": "book1_r1\\record_412.json",
+  "source_path": "book1_r3/673.json",
+  "round": 0,
+  "variables": {
+    "b": {
+      "id": "b",
+      "value": 0.02284,
+      "class": "numerical",
+      "role": "NR",
+      "description": "回归斜率估计值，用于计算t检验统计量"
+    },
+    "SE_b": {
+      "id": "SE_b",
+      "value": 0.006976,
+      "class": "numerical",
+      "role": "NR",
+      "description": "回归斜率的标准误，用于计算t检验统计量"
+    },
+    "n": {
+      "id": "n",
+      "value": 11,
+      "class": "numerical",
+      "role": "NR",
+      "description": "双变量观测的样本量，用于计算自由度 df = n - 2"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sample_key": "48",
+  "case_id": "book2_r1\\020.json",
+  "source_path": "book2_r3/48.json",
+  "round": 0,
+  "variables": {
+    "sample": {
+      "id": "sample",
+      "value": [
+        2,
+        3,
+        3,
+        3,
+        4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The sample data from which the variance and standard deviation are calculated."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sample_key": "369",
+  "case_id": "book1_r1\\record_147.json",
+  "source_path": "book1_r3/369.json",
+  "round": 0,
+  "variables": {
+    "OR_glioma": {
+      "id": "OR_glioma",
+      "value": {
+        "odds_ratio": 0.9,
+        "CI_lower": 0.5,
+        "CI_upper": 1.6
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Odds ratio and 95% confidence interval for glioma associated with cellular telephone use (>100 hours)"
+    },
+    "OR_meningioma": {
+      "id": "OR_meningioma",
+      "value": {
+        "odds_ratio": 0.7,
+        "CI_lower": 0.3,
+        "CI_upper": 1.7
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Odds ratio and 95% confidence interval for meningioma associated with cellular telephone use (>100 hours)"
+    },
+    "OR_acoustic_neuroma": {
+      "id": "OR_acoustic_neuroma",
+      "value": {
+        "odds_ratio": 1.4,
+        "CI_lower": 0.6,
+        "CI_upper": 3.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Odds ratio and 95% confidence interval for acoustic neuroma associated with cellular telephone use (>100 hours)"
+    },
+    "OR_all_tumors": {
+      "id": "OR_all_tumors",
+      "value": {
+        "odds_ratio": 1.0,
+        "CI_lower": 0.6,
+        "CI_upper": 1.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Odds ratio and 95% confidence interval for all intracranial tumor types combined associated with cellular telephone use (>100 hours); the answer explicitly references this point estimate of 1.0 and notes all CIs include 1"
+    },
+    "cellular_telephone_use": {
+      "id": "cellular_telephone_use",
+      "value": "Exposed if reported cellular telephone use for more than 100 hours",
+      "class": "categorical",
+      "role": "X",
+      "description": "Exposure variable indicating whether the subject used a cellular telephone for more than 100 hours"
+    }
+  }
+}

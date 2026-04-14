@@ -1,0 +1,38 @@
+{
+  "sample_key": "19",
+  "case_id": "book4_r1\\005.json",
+  "source_path": "book4_r3/19.json",
+  "round": 0,
+  "variables": {
+    "carbon_monoxide_large_cars": {
+      "id": "carbon_monoxide_large_cars",
+      "value": {
+        "sample_size": 20,
+        "sampling_method": "a single reading from each of 20 different large cars"
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Carbon monoxide concentration readings from the exhausts of large cars, one reading per car from 20 different large cars."
+    },
+    "carbon_monoxide_small_cars": {
+      "id": "carbon_monoxide_small_cars",
+      "value": {
+        "sample_size": 20,
+        "sampling_method": "a single reading from each of 20 different small cars"
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Carbon monoxide concentration readings from the exhausts of small cars, one reading per car from 20 different small cars."
+    },
+    "car_size": {
+      "id": "car_size",
+      "value": [
+        "large",
+        "small"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Size category of the car (large or small), the grouping factor for comparing carbon monoxide emissions."
+    }
+  }
+}

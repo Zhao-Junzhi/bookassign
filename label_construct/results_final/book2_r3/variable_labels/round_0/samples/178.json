@@ -1,0 +1,29 @@
+{
+  "sample_key": "178",
+  "case_id": "book2_r1\\074.json",
+  "source_path": "book2_r3/178.json",
+  "round": 0,
+  "variables": {
+    "z": {
+      "id": "z",
+      "value": 0.67,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The value of the standard normal random variable for which the cumulative probability P(z < 0.67) is being calculated."
+    },
+    "A1": {
+      "id": "A1",
+      "value": 0.2486,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The area (probability) between z=0 and z=0.67, looked up from the standard normal table."
+    },
+    "A2": {
+      "id": "A2",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The area (probability) to the left of z=0, which is 0.5 due to the symmetry of the standard normal distribution."
+    }
+  }
+}

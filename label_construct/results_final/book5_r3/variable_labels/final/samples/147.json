@@ -1,0 +1,22 @@
+{
+  "sample_key": "147",
+  "case_id": "book5_r1\\051.json",
+  "source_path": "book5_r3/147.json",
+  "round": 0,
+  "variables": {
+    "GvHD_coefficient": {
+      "id": "GvHD_coefficient",
+      "value": 2.306,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Regression coefficient for GvHD from the backward stepwise Cox regression model."
+    },
+    "GvHD_SE": {
+      "id": "GvHD_SE",
+      "value": 0.5898,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard error of the regression coefficient for GvHD from the Cox regression model."
+    }
+  }
+}

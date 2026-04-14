@@ -1,0 +1,25 @@
+{
+  "sample_key": "205",
+  "case_id": "book1_r1\\record_089.json",
+  "source_path": "book1_r3/205.json",
+  "round": 0,
+  "variables": {
+    "menstrual_cycle_lengths": {
+      "id": "menstrual_cycle_lengths",
+      "value": [
+        31,
+        28,
+        26,
+        24,
+        29,
+        33,
+        25,
+        26,
+        28
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Menstrual cycle lengths (in days) for an SRS of nine women, used to compute the sample mean, standard deviation, and sample size for the hypothesis test."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_key": "544",
+  "case_id": "book1_r1\\record_366.json",
+  "source_path": "book1_r3/544.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "从总体中抽取的简单随机样本的样本量"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体中吸烟者的比例（总体比例），answer中同时使用了 q = 1 - p = 0.80 来计算标准差"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+2026-04-14 08:49:50,076 - INFO - 变量抽取开始: round=0, 样本=44, 缓存命中=0, 待处理=44
+2026-04-14 08:50:08,230 - INFO - 变量抽取进度: round=0, 10/44
+2026-04-14 08:50:22,840 - INFO - 变量抽取进度: round=0, 20/44
+2026-04-14 08:50:40,697 - INFO - 变量抽取进度: round=0, 30/44
+2026-04-14 08:50:55,041 - INFO - 变量抽取进度: round=0, 40/44
+2026-04-14 08:51:03,268 - INFO - 变量抽取进度: round=0, 44/44
+2026-04-14 08:51:03,269 - INFO - 变量抽取结果目录: label_construct/results_final/book4_r3/variable_labels/round_0/samples
+2026-04-14 09:23:20,653 - INFO - 变量抽取开始: round=0, 样本=44, 缓存命中=44, 待处理=0
+2026-04-14 09:23:20,653 - INFO - 变量抽取结果目录: label_construct/results_final/book4_r3/variable_labels/round_0/samples

@@ -1,0 +1,36 @@
+{
+  "sample_key": "300",
+  "case_id": "book3_r1\\94.json",
+  "source_path": "book3_r3/300.json",
+  "round": 0,
+  "variables": {
+    "p_success": {
+      "id": "p_success",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of success on a single trial."
+    },
+    "budget_max": {
+      "id": "budget_max",
+      "value": 500000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum budget available for the experimental work, in dollars."
+    },
+    "trial_cost": {
+      "id": "trial_cost",
+      "value": 25000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The cost of performing each trial, in dollars."
+    },
+    "setup_cost": {
+      "id": "setup_cost",
+      "value": 5000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The cost to set up for the next trial after a failure, in dollars."
+    }
+  }
+}

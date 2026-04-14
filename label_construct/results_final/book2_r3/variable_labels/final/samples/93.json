@@ -1,0 +1,43 @@
+{
+  "sample_key": "93",
+  "case_id": "book2_r1\\038.json",
+  "source_path": "book2_r3/93.json",
+  "round": 0,
+  "variables": {
+    "P(CPP)": {
+      "id": "P(CPP)",
+      "value": 0.07,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the primary reason for diversity training is to comply with personnel policies (CPP)."
+    },
+    "P(IP)": {
+      "id": "P(IP)",
+      "value": 0.47,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the primary reason for diversity training is to increase productivity (IP)."
+    },
+    "P(SC)": {
+      "id": "P(SC)",
+      "value": 0.38,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the primary reason for diversity training is to stay competitive (SC)."
+    },
+    "P(SR)": {
+      "id": "P(SR)",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the primary reason for diversity training is social responsibility (SR). Used to define the complementary event NSR."
+    },
+    "P(O)": {
+      "id": "P(O)",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the primary reason for diversity training is other (O)."
+    }
+  }
+}

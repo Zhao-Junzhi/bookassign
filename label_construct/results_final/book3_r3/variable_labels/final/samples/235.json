@@ -1,0 +1,29 @@
+{
+  "sample_key": "235",
+  "case_id": "book3_r1\\63.json",
+  "source_path": "book3_r3/235.json",
+  "round": 0,
+  "variables": {
+    "R_e": {
+      "id": "R_e",
+      "value": 0.997,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability of each individual engine for the duration of a mission."
+    },
+    "n_engines": {
+      "id": "n_engines",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of engines on the aircraft."
+    },
+    "min_engines_required": {
+      "id": "min_engines_required",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of functioning engines required for the aircraft to land successfully."
+    }
+  }
+}

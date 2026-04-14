@@ -1,0 +1,23 @@
+{
+  "sample_key": "38",
+  "case_id": "book2_r1\\016.json",
+  "source_path": "book2_r3/38.json",
+  "round": 0,
+  "variables": {
+    "measurements": {
+      "id": "measurements",
+      "value": [
+        5,
+        7,
+        4,
+        5,
+        20,
+        6,
+        2
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample of n=7 measurements whose median is to be calculated."
+    }
+  }
+}

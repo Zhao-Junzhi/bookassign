@@ -1,0 +1,74 @@
+{
+  "sample_key": "192",
+  "case_id": "book5_r1\\065.json",
+  "source_path": "book5_r3/192.json",
+  "round": 0,
+  "variables": {
+    "Age": {
+      "id": "Age",
+      "value": [
+        "<1",
+        "1-4",
+        "5-9",
+        "10-14",
+        "15-19",
+        "20-24",
+        "25-34",
+        "35-44",
+        "45-54",
+        "55-64",
+        "65-74",
+        "75-84",
+        "85+",
+        "All ages"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Age groups of females in England and Wales, used to illustrate how the age structure of the population affects the overall death rate."
+    },
+    "Death_rate_1931_5": {
+      "id": "Death_rate_1931_5",
+      "value": [
+        54,
+        6.2,
+        2.1,
+        1.4,
+        2.2,
+        2.8,
+        3.1,
+        4.3,
+        8.0,
+        17,
+        43,
+        109,
+        245,
+        11.4
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Annual death rates per 1000 females in 1931-5 for each age group and all ages combined. Compared with 1983 rates to show age-specific declines counterbalanced by changed age structure."
+    },
+    "Death_rate_1983": {
+      "id": "Death_rate_1983",
+      "value": [
+        9,
+        0.4,
+        0.2,
+        0.2,
+        0.3,
+        0.3,
+        0.5,
+        1.2,
+        3.6,
+        10,
+        24,
+        64,
+        176,
+        11.4
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Annual death rates per 1000 females in 1983 for each age group and all ages combined. Compared with 1931-5 rates to show age-specific declines counterbalanced by changed age structure."
+    }
+  }
+}

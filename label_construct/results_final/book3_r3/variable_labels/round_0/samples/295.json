@@ -1,0 +1,24 @@
+{
+  "sample_key": "295",
+  "case_id": "book3_r1\\90.json",
+  "source_path": "book3_r3/295.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "pdf": "f(x) = 3x^{-4} for x >= 1, 0 otherwise"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Claim amount (in thousands) for wind damage to insured homes, following the given probability density function f(x) = 3x^{-4} for x >= 1."
+    },
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of independent claims (sample size), used to determine the distribution of the minimum order statistic."
+    }
+  }
+}

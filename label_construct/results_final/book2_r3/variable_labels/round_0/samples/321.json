@@ -1,0 +1,44 @@
+{
+  "sample_key": "321",
+  "case_id": "book2_r1\\126.json",
+  "source_path": "book2_r3/321.json",
+  "round": 0,
+  "variables": {
+    "Male_salary": {
+      "id": "Male_salary",
+      "value": [
+        29300,
+        41500,
+        40400,
+        38500,
+        43500,
+        37800,
+        69500,
+        41200,
+        38400,
+        59200
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Starting annual salary of male college graduates (x_1), paired with female graduates by major and similar GPA."
+    },
+    "Female_salary": {
+      "id": "Female_salary",
+      "value": [
+        28800,
+        41600,
+        39800,
+        38500,
+        42600,
+        38000,
+        69200,
+        40100,
+        38200,
+        58500
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Starting annual salary of female college graduates (x_2), paired with male graduates by major and similar GPA."
+    }
+  }
+}

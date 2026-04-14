@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-04-14T09:22:33",
+  "input_dir": "book4_r3",
+  "model_major": "claude-opus-4-6",
+  "model_suggest": null,
+  "results_dir": "label_construct/results_final/book4_r3",
+  "logs_dir": "label_construct/results_final/book4_r3/logs",
+  "runs_dir": "label_construct/results_final/book4_r3/runs",
+  "major_results_dir": "label_construct/results_final/book4_r3",
+  "suggest_results_dir": "",
+  "stages": [
+    "method_review",
+    "variable_extract"
+  ],
+  "limit": null,
+  "force": false,
+  "sample_count": 44,
+  "sample_keys": [
+    "19",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "40",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72"
+  ],
+  "method_review": {
+    "output_csv": "label_construct/results_final/book4_r3/method_review/method_review.csv",
+    "selected_samples": 44,
+    "processed_samples": 4,
+    "cached_samples": 40,
+    "update_method": false,
+    "success_count": 44,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 75828,
+      "completion_tokens": 1474,
+      "total_tokens": 77302,
+      "request_count": 4
+    }
+  },
+  "variable_extract": {
+    "major": {
+      "round": 0,
+      "output_dir": "label_construct/results_final/book4_r3/variable_labels/round_0/samples",
+      "selected_samples": 44,
+      "processed_samples": 0,
+      "cached_samples": 44,
+      "success_count": 44,
+      "fallback_count": 0,
+      "fallback_samples": [],
+      "failed_count": 0,
+      "failures": [],
+      "token_usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "request_count": 0
+      }
+    }
+  },
+  "final_outputs": {
+    "mode": "copy_major_round0",
+    "output_dir": "label_construct/results_final/book4_r3/variable_labels/final",
+    "samples_dir": "label_construct/results_final/book4_r3/variable_labels/final/samples",
+    "copied_count": 44,
+    "failed_count": 0,
+    "failures": [],
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  },
+  "status": "completed",
+  "token_usage": {
+    "method_review": {
+      "prompt_tokens": 75828,
+      "completion_tokens": 1474,
+      "total_tokens": 77302,
+      "request_count": 4
+    },
+    "variable_extract_major_round_0": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_extract_suggest_round_0": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "variable_finalize": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    },
+    "first_pass_total": {
+      "prompt_tokens": 75828,
+      "completion_tokens": 1474,
+      "total_tokens": 77302,
+      "request_count": 4
+    }
+  }
+}

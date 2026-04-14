@@ -1,0 +1,29 @@
+{
+  "sample_key": "301",
+  "case_id": "book1_r1\\record_121.json",
+  "source_path": "book1_r3/301.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 2673,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of individuals surveyed in the early 1990s; used in the npq rule check and in the standard error calculation."
+    },
+    "x": {
+      "id": "x",
+      "value": 170,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of individuals who reported having two or more sexual partners in the prior 12 months; used together with n to compute the observed sample proportion (0.063598)."
+    },
+    "p_0": {
+      "id": "p_0",
+      "value": 0.075,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized population proportion of individuals with two or more sexual partners from the 1970s study; used in the npq rule check, the standard error formula, and as the reference value in the z-statistic numerator."
+    }
+  }
+}

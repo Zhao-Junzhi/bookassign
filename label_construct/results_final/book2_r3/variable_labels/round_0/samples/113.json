@@ -1,0 +1,22 @@
+{
+  "sample_key": "113",
+  "case_id": "book2_r1\\050.json",
+  "source_path": "book2_r3/113.json",
+  "round": 0,
+  "variables": {
+    "P(A)": {
+      "id": "P(A)",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a serious drought occurring."
+    },
+    "P(B|A)": {
+      "id": "P(B|A)",
+      "value": 0.01,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that wheat production will be profitable given a serious drought occurs."
+    }
+  }
+}

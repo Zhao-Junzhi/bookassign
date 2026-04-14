@@ -1,0 +1,29 @@
+{
+  "sample_key": "78",
+  "case_id": "book2_r1\\033.json",
+  "source_path": "book2_r3/78.json",
+  "round": 0,
+  "variables": {
+    "sample_size": {
+      "id": "sample_size",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of 16- and 17-year-old children surveyed in the Portland, Maine, Bayside East Housing Project."
+    },
+    "children_out_of_school": {
+      "id": "children_out_of_school",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of children found to be out of school among those surveyed."
+    },
+    "reported_percentage": {
+      "id": "reported_percentage",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The percentage (25%) reported by CDF as the proportion of 16- and 17-year-olds out of school, critiqued in the answer as misleading due to the small sample size."
+    }
+  }
+}

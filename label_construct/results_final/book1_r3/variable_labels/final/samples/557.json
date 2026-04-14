@@ -1,0 +1,43 @@
+{
+  "sample_key": "557",
+  "case_id": "book1_r1\\record_371.json",
+  "source_path": "book1_r3/557.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，用于功效计算公式中 √n 部分"
+    },
+    "mu_0": {
+      "id": "mu_0",
+      "value": 170,
+      "class": "numerical",
+      "role": "NR",
+      "description": "零假设下的总体均值 μ₀"
+    },
+    "mu_a": {
+      "id": "mu_a",
+      "value": 190,
+      "class": "numerical",
+      "role": "NR",
+      "description": "备择假设下的总体均值 μₐ，即需要检测到的目标均值"
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 40,
+      "class": "numerical",
+      "role": "NR",
+      "description": "基于先前研究得到的总体标准差 σ"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "双侧检验的显著性水平 α，用于确定临界值 z_{1-α/2}=1.96"
+    }
+  }
+}

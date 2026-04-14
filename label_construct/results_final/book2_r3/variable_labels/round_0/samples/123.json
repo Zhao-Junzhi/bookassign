@@ -1,0 +1,22 @@
+{
+  "sample_key": "123",
+  "case_id": "book2_r1\\054.json",
+  "source_path": "book2_r3/123.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.38,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that a single U.S. firm using diversity training states 'stay competitive' as its primary reason (38%)."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of firms in the sample that use diversity training."
+    }
+  }
+}

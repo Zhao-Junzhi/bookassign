@@ -1,0 +1,22 @@
+{
+  "sample_key": "380",
+  "case_id": "book1_r1\\record_151.json",
+  "source_path": "book1_r3/380.json",
+  "round": 0,
+  "variables": {
+    "case_exposed_control_unexposed": {
+      "id": "case_exposed_control_unexposed",
+      "value": 44,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of discordant matched pairs where the case was exposed to oral contraceptives and the matched control was not exposed (off-diagonal cell from the matched-pair table)."
+    },
+    "case_unexposed_control_exposed": {
+      "id": "case_unexposed_control_exposed",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of discordant matched pairs where the case was not exposed to oral contraceptives and the matched control was exposed (off-diagonal cell from the matched-pair table)."
+    }
+  }
+}

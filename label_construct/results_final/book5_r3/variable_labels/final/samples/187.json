@@ -1,0 +1,32 @@
+{
+  "sample_key": "187",
+  "case_id": "book5_r1\\063.json",
+  "source_path": "book5_r3/187.json",
+  "round": 0,
+  "variables": {
+    "study_size": {
+      "id": "study_size",
+      "value": null,
+      "class": "categorical",
+      "role": "X",
+      "description": "The size of the studies (large vs. small), which is the factor examined for its effect on observed effects and P-values."
+    },
+    "observed_effects": {
+      "id": "observed_effects",
+      "value": null,
+      "class": "numerical",
+      "role": "Y",
+      "description": "The observed effects from the studies, which tend to be closer together when studies are large and more variable when studies are small."
+    },
+    "P_values": {
+      "id": "P_values",
+      "value": [
+        "P < 0.001",
+        "P = 0.2"
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "The P-values obtained from the two identical studies, which vary as a function of study size. The large discrepancy between the two values is the phenomenon being explained."
+    }
+  }
+}

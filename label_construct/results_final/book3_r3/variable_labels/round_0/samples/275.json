@@ -1,0 +1,22 @@
+{
+  "sample_key": "275",
+  "case_id": "book3_r1\\82.json",
+  "source_path": "book3_r3/275.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The total number of candidates for the corporate chief executive position, used to calculate the total number of possible rankings (n!) and the number of favorable rankings ((n-1)!)."
+    },
+    "Mr_Best_placement": {
+      "id": "Mr_Best_placement",
+      "value": "second place",
+      "class": "categorical",
+      "role": "NR",
+      "description": "The specific placement (second place) of the fifth candidate, Mr. Best, whose probability of occurring under random ranking is being calculated."
+    }
+  }
+}

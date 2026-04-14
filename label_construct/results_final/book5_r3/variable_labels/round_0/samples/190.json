@@ -1,0 +1,28 @@
+{
+  "sample_key": "190",
+  "case_id": "book5_r1\\064.json",
+  "source_path": "book5_r3/190.json",
+  "round": 0,
+  "variables": {
+    "men_height": {
+      "id": "men_height",
+      "value": {
+        "mean": 179.1,
+        "SD": 5.84
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Heights of adult men in the population (in cm). The mean (179.1) is used as the threshold to determine the proportion of women above this value."
+    },
+    "women_height": {
+      "id": "women_height",
+      "value": {
+        "mean": 171.7,
+        "SD": 5.75
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Heights of adult women in the population (in cm). The mean and SD are used to compute the standardized deviate and determine the proportion of women above the average male height."
+    }
+  }
+}

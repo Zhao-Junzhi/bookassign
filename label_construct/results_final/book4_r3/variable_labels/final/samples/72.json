@@ -1,0 +1,100 @@
+{
+  "sample_key": "72",
+  "case_id": "book4_r1\\023.json",
+  "source_path": "book4_r3/72.json",
+  "round": 0,
+  "variables": {
+    "Positive_words_Beige_Before": {
+      "id": "Positive_words_Beige_Before",
+      "value": [
+        9,
+        11,
+        11,
+        7,
+        14,
+        12,
+        10,
+        8,
+        7,
+        8
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of positive words from Beige party MPs surveyed before the election. Same response variable as Positive_words_Grey_Before, Positive_words_Beige_After, and Positive_words_Grey_After, grouped by party (Beige) and timing (Before)."
+    },
+    "Positive_words_Grey_Before": {
+      "id": "Positive_words_Grey_Before",
+      "value": [
+        9,
+        9,
+        11,
+        12,
+        14,
+        11,
+        10,
+        7,
+        6,
+        9
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of positive words from Grey party MPs surveyed before the election. Same response variable as Positive_words_Beige_Before, Positive_words_Beige_After, and Positive_words_Grey_After, grouped by party (Grey) and timing (Before)."
+    },
+    "Positive_words_Beige_After": {
+      "id": "Positive_words_Beige_After",
+      "value": [
+        8,
+        6,
+        5,
+        8,
+        11,
+        9,
+        10,
+        8,
+        7,
+        7
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of positive words from Beige party MPs surveyed after the election. Same response variable as Positive_words_Beige_Before, Positive_words_Grey_Before, and Positive_words_Grey_After, grouped by party (Beige) and timing (After)."
+    },
+    "Positive_words_Grey_After": {
+      "id": "Positive_words_Grey_After",
+      "value": [
+        5,
+        6,
+        7,
+        4,
+        9,
+        10,
+        7,
+        5,
+        7,
+        6
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of positive words from Grey party MPs surveyed after the election. Same response variable as Positive_words_Beige_Before, Positive_words_Grey_Before, and Positive_words_Beige_After, grouped by party (Grey) and timing (After)."
+    },
+    "Party": {
+      "id": "Party",
+      "value": [
+        "Beige",
+        "Grey"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Political party factor with two levels: Beige and Grey. One of the two factors in the two-way ANOVA."
+    },
+    "Timing": {
+      "id": "Timing",
+      "value": [
+        "Before",
+        "After"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Timing factor indicating whether the survey was conducted before or after the general election. One of the two factors in the two-way ANOVA."
+    }
+  }
+}

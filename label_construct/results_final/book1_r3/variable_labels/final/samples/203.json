@@ -1,0 +1,22 @@
+{
+  "sample_key": "203",
+  "case_id": "book1_r1\\record_088.json",
+  "source_path": "book1_r3/203.json",
+  "round": 0,
+  "variables": {
+    "t_value": {
+      "id": "t_value",
+      "value": 2.65,
+      "class": "numerical",
+      "role": "NR",
+      "description": "需要求解上尾概率的 t 随机变量的观测值，即 P(T_8 > 2.65) 中的阈值。"
+    },
+    "degrees_of_freedom": {
+      "id": "degrees_of_freedom",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "t 分布的自由度，用于在 t 分布表中定位对应行以进行概率查找和区间夹逼。"
+    }
+  }
+}

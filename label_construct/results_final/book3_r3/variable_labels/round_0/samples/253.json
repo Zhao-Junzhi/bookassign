@@ -1,0 +1,22 @@
+{
+  "sample_key": "253",
+  "case_id": "book3_r1\\71.json",
+  "source_path": "book3_r3/253.json",
+  "round": 0,
+  "variables": {
+    "p_success": {
+      "id": "p_success",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of a successful launching of the special device in a single trial."
+    },
+    "p_target": {
+      "id": "p_target",
+      "value": 0.99,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The target minimum probability of at least one successful launching over n trials."
+    }
+  }
+}

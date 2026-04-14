@@ -1,0 +1,18 @@
+{
+  "sample_key": "195",
+  "case_id": "book2_r1\\080.json",
+  "source_path": "book2_r3/195.json",
+  "round": 0,
+  "variables": {
+    "daily_production": {
+      "id": "daily_production",
+      "value": {
+        "mean": 100000,
+        "standard_deviation": 10000
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Daily production of paint in gallons (denoted x), normally distributed. Its mean and standard deviation are used to compute the 90th percentile production level at which the incentive bonus should be paid."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sample_key": "175",
+  "case_id": "book5_r1\\059.json",
+  "source_path": "book5_r3/175.json",
+  "round": 0,
+  "variables": {
+    "linear_analogue_scale": {
+      "id": "linear_analogue_scale",
+      "value": {
+        "before_treatment_mean": 3.5,
+        "before_treatment_SE": 0.5,
+        "during_treatment_mean": 3.3,
+        "during_treatment_SE": 0.4,
+        "after_treatment_mean": 3.1,
+        "after_treatment_SE": 0.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Patient-reported itch assessment on a 10 cm linear analogue scale, averaged over each two-day period (before, during, and after aspirin treatment). The answer notes that the data show some improvement and discusses the width of confidence intervals."
+    },
+    "nocturnal_limb_movements": {
+      "id": "nocturnal_limb_movements",
+      "value": {
+        "before_treatment_mean": 46.3,
+        "before_treatment_SE": 10.0,
+        "during_treatment_mean": 38.8,
+        "during_treatment_SE": 7.4,
+        "after_treatment_mean": 38.7,
+        "after_treatment_SE": 5.5
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Nocturnal limb movements measured by a limb movement meter, averaged over each two-day period (before, during, and after aspirin treatment). The answer references the observed data showing some improvement and discusses the inadequacy of the sample size."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 13,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients in the study. The answer explicitly references this as a 'small study' to argue that the authors' conclusion of excluding an aspirin effect is incorrect."
+    }
+  }
+}

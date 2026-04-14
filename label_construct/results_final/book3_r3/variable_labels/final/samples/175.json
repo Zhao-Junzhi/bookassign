@@ -1,0 +1,29 @@
+{
+  "sample_key": "175",
+  "case_id": "book3_r1\\47.json",
+  "source_path": "book3_r3/175.json",
+  "round": 0,
+  "variables": {
+    "successes": {
+      "id": "successes",
+      "value": 19,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of successes observed in the 25 Bernoulli trials."
+    },
+    "failures": {
+      "id": "failures",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of failures observed in the 25 Bernoulli trials."
+    },
+    "n": {
+      "id": "n",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of Bernoulli trials conducted."
+    }
+  }
+}

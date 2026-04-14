@@ -1,0 +1,29 @@
+{
+  "sample_key": "18",
+  "case_id": "book3_r1\\100.json",
+  "source_path": "book3_r3/18.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of patients treated (sample size / number of trials in the binomial setting)."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the drug successfully lowers blood pressure in an individual patient (probability of success per trial)."
+    },
+    "k": {
+      "id": "k",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Threshold number of patients who respond successfully; the problem asks for P(X ≥ 8)."
+    }
+  }
+}

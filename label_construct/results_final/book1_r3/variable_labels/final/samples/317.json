@@ -1,0 +1,29 @@
+{
+  "sample_key": "317",
+  "case_id": "book1_r1\\record_126.json",
+  "source_path": "book1_r3/317.json",
+  "round": 0,
+  "variables": {
+    "observed_cancer_deaths": {
+      "id": "observed_cancer_deaths",
+      "value": 26,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of cancer deaths observed in the cohort of insulation workers. Used to compute the observed proportion p̂ = 26/556 = 0.0468."
+    },
+    "cohort_size": {
+      "id": "cohort_size",
+      "value": 556,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of insulation workers in the cohort (sample size n). Used in computing np₀q₀ for the Normal approximation check, the standard error, and both p₀ and p̂."
+    },
+    "expected_cases": {
+      "id": "expected_cases",
+      "value": 14.4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Expected number of cancer incident cases during the observation period based on national statistics. Used to derive the null hypothesis proportion p₀ = 14.4/556 = 0.02590."
+    }
+  }
+}

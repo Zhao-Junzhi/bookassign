@@ -1,0 +1,22 @@
+{
+  "sample_key": "700",
+  "case_id": "book1_r1\\record_420.json",
+  "source_path": "book1_r3/700.json",
+  "round": 0,
+  "variables": {
+    "p_star": {
+      "id": "p_star",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "由先前吸烟率研究 (n=57, x=17) 得到的总体比例估计值 p*，在样本量公式中直接使用"
+    },
+    "m": {
+      "id": "m",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "期望达到的误差限（margin of error），即题目要求的 ±0.05"
+    }
+  }
+}

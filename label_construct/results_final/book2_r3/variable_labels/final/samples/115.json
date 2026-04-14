@@ -1,0 +1,22 @@
+{
+  "sample_key": "115",
+  "case_id": "book2_r1\\051.json",
+  "source_path": "book2_r3/115.json",
+  "round": 0,
+  "variables": {
+    "total_workers": {
+      "id": "total_workers",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of welfare workers, defining the size of the sample space used in the probability calculation."
+    },
+    "illegal_workers": {
+      "id": "illegal_workers",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of workers who have regularly been giving illegal deductions (I₁, I₂, I₃), defining the event A in the probability calculation."
+    }
+  }
+}

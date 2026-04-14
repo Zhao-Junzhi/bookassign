@@ -1,0 +1,53 @@
+{
+  "sample_key": "339",
+  "case_id": "book2_r1\\131.json",
+  "source_path": "book2_r3/339.json",
+  "round": 0,
+  "variables": {
+    "Mill_1_Production": {
+      "id": "Mill_1_Production",
+      "value": [
+        34,
+        18,
+        28,
+        21,
+        40,
+        23,
+        29,
+        25,
+        10,
+        38,
+        32,
+        22,
+        22
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Daily production levels (in units) at Paper Mill 1, used to compute sample variance s1² = (8.36)²."
+    },
+    "Mill_2_Production": {
+      "id": "Mill_2_Production",
+      "value": [
+        31,
+        13,
+        27,
+        19,
+        22,
+        18,
+        23,
+        21,
+        18,
+        15,
+        24,
+        13,
+        19,
+        18,
+        23,
+        13
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Daily production levels (in units) at Paper Mill 2, used to compute sample variance s2² = (4.85)²."
+    }
+  }
+}

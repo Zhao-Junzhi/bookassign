@@ -1,0 +1,22 @@
+{
+  "sample_key": "491",
+  "case_id": "book1_r1\\record_347.json",
+  "source_path": "book1_r3/491.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of items to choose from."
+    },
+    "x": {
+      "id": "x",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of items to be chosen."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_key": "79",
+  "case_id": "book3_r1\\133.json",
+  "source_path": "book3_r3/79.json",
+  "round": 0,
+  "variables": {
+    "λ_A": {
+      "id": "λ_A",
+      "value": "λ_A",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of transmitter A when transmitter B is operating."
+    },
+    "λ_B": {
+      "id": "λ_B",
+      "value": "λ_B",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of transmitter B when transmitter A is operating."
+    },
+    "λ_A'": {
+      "id": "λ_A'",
+      "value": "λ_A'",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of transmitter A when transmitter B has failed (dependent/load-sharing rate)."
+    },
+    "λ_B'": {
+      "id": "λ_B'",
+      "value": "λ_B'",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of transmitter B when transmitter A has failed (dependent/load-sharing rate)."
+    },
+    "λ_P": {
+      "id": "λ_P",
+      "value": "λ_P",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the power supply."
+    },
+    "λ_C": {
+      "id": "λ_C",
+      "value": "λ_C",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of fault coverage (undetected fault causing system failure)."
+    }
+  }
+}

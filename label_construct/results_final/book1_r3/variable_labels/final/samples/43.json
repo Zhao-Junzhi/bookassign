@@ -1,0 +1,42 @@
+{
+  "sample_key": "43",
+  "case_id": "book1_r1\\record_015.json",
+  "source_path": "book1_r3/43.json",
+  "round": 0,
+  "variables": {
+    "poverty_percentage": {
+      "id": "poverty_percentage",
+      "value": [
+        14.6,
+        7.3,
+        9.9,
+        7.6,
+        10.2,
+        10.0,
+        9.8,
+        10.2,
+        11.9,
+        12.1,
+        15.5,
+        13.3,
+        12.6,
+        7.4,
+        10.1,
+        10.5,
+        8.1,
+        8.1,
+        8.2,
+        14.7,
+        15.8,
+        12.5,
+        13.2,
+        8.8,
+        9.8,
+        11.1
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Percentage of people living below the poverty line in each of the 26 states east of the Mississippi River for the year 2000, used to construct the stemplot."
+    }
+  }
+}

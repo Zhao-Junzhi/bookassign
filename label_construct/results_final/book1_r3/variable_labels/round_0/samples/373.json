@@ -1,0 +1,47 @@
+{
+  "sample_key": "373",
+  "case_id": "book1_r1\\record_149.json",
+  "source_path": "book1_r3/373.json",
+  "round": 0,
+  "variables": {
+    "Baldness": {
+      "id": "Baldness",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Self-assessed baldness level graded on a scale of 1 (no baldness) to 5 (extreme baldness)."
+    },
+    "Cases": {
+      "id": "Cases",
+      "value": [
+        251,
+        165,
+        195,
+        50,
+        2
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of case subjects (men hospitalized for heart attack) at each baldness level."
+    },
+    "Controls": {
+      "id": "Controls",
+      "value": [
+        331,
+        221,
+        185,
+        34,
+        1
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of control subjects (men with no history of heart disease) at each baldness level."
+    }
+  }
+}

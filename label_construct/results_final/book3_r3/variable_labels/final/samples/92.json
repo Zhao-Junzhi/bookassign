@@ -1,0 +1,15 @@
+{
+  "sample_key": "92",
+  "case_id": "book3_r1\\14.json",
+  "source_path": "book3_r3/92.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "f(x) = 2x for 0 ≤ x ≤ 1, 0 otherwise",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable X with the given probability density function f(x) = 2x on [0,1], used to find its median by solving F(m) = 1/2."
+    }
+  }
+}

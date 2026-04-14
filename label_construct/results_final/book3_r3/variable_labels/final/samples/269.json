@@ -1,0 +1,22 @@
+{
+  "sample_key": "269",
+  "case_id": "book3_r1\\79.json",
+  "source_path": "book3_r3/269.json",
+  "round": 0,
+  "variables": {
+    "guarantee_period": {
+      "id": "guarantee_period",
+      "value": 18,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The guarantee period for new cars, in months."
+    },
+    "max_return_rate": {
+      "id": "max_return_rate",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum allowable proportion of new cars that can be returned (fail within the guarantee period), i.e., 5%."
+    }
+  }
+}

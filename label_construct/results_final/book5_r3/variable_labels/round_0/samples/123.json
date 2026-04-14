@@ -1,0 +1,47 @@
+{
+  "sample_key": "123",
+  "case_id": "book5_r1\\044.json",
+  "source_path": "book5_r3/123.json",
+  "round": 0,
+  "variables": {
+    "Subject": {
+      "id": "Subject",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Subject identifier used for pairing observations across the two diet conditions."
+    },
+    "After_meal_Normal": {
+      "id": "After_meal_Normal",
+      "value": [
+        1.78,
+        1.68,
+        1.26,
+        1.11,
+        1.09
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Post-prandial (after meal) resting metabolic rate (kcal/min) under the Normal diet. These measurements are from the same subjects as After_meal_Overfed."
+    },
+    "After_meal_Overfed": {
+      "id": "After_meal_Overfed",
+      "value": [
+        2.49,
+        1.87,
+        1.36,
+        1.29,
+        1.25
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Post-prandial (after meal) resting metabolic rate (kcal/min) under the Overfed diet. These measurements are from the same subjects as After_meal_Normal."
+    }
+  }
+}

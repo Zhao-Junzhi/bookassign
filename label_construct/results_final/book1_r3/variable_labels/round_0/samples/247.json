@@ -1,0 +1,22 @@
+{
+  "sample_key": "247",
+  "case_id": "book1_r1\\record_104.json",
+  "source_path": "book1_r3/247.json",
+  "round": 0,
+  "variables": {
+    "Kit1_measurements": {
+      "id": "Kit1_measurements",
+      "value": "Ten concentration measurements taken with assay kit 1 on ten specimens",
+      "class": "numerical",
+      "role": "XY",
+      "description": "Concentration measurements of ten specimens using the first assay kit. These measurements are paired with Kit2_measurements as they are taken on the same ten specimens."
+    },
+    "Kit2_measurements": {
+      "id": "Kit2_measurements",
+      "value": "Ten concentration measurements taken with assay kit 2 on ten specimens",
+      "class": "numerical",
+      "role": "XY",
+      "description": "Concentration measurements of ten specimens using the second assay kit. These measurements are paired with Kit1_measurements as they are taken on the same ten specimens."
+    }
+  }
+}

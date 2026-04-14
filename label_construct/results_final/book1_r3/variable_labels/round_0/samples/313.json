@@ -1,0 +1,29 @@
+{
+  "sample_key": "313",
+  "case_id": "book1_r1\\record_125.json",
+  "source_path": "book1_r3/313.json",
+  "round": 0,
+  "variables": {
+    "success_count": {
+      "id": "success_count",
+      "value": 26,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of cases where tumors occurred on the same side of the head as cell phone use."
+    },
+    "sample_size": {
+      "id": "sample_size",
+      "value": 41,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of cases in the study."
+    },
+    "hypothesized_proportion": {
+      "id": "hypothesized_proportion",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The hypothesized population proportion under the null hypothesis, used in computing the standard error and test statistic."
+    }
+  }
+}

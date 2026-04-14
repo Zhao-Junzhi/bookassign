@@ -1,0 +1,25 @@
+{
+  "sample_key": "303",
+  "case_id": "book1_r1\\record_121.json",
+  "source_path": "book1_r3/303.json",
+  "round": 0,
+  "variables": {
+    "two_or_more_partners": {
+      "id": "two_or_more_partners",
+      "value": {
+        "successes": 170,
+        "sample_size": 2673
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Survey中报告过去12个月内有两个或以上性伴侣的人数（170）及总调查样本量（2673），用于计算样本比例并进行假设检验"
+    },
+    "hypothesized_proportion": {
+      "id": "hypothesized_proportion",
+      "value": 0.075,
+      "class": "numerical",
+      "role": "NR",
+      "description": "1970s早期研究中该属性的总体流行率（7.5%），作为零假设中的假设比例 p0"
+    }
+  }
+}

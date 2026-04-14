@@ -1,0 +1,22 @@
+{
+  "sample_key": "23",
+  "case_id": "book5_r1\\008.json",
+  "source_path": "book5_r3/23.json",
+  "round": 0,
+  "variables": {
+    "infection_rate": {
+      "id": "infection_rate",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that a child tests positive (infection spread rate), given as 10%. In the answer, the complement 0.9 (probability of a child being negative) is derived from this value."
+    },
+    "target_probability": {
+      "id": "target_probability",
+      "value": 0.95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The desired probability of detecting the infection if it is present. In the answer, the complement 0.05 (probability of all children testing negative) is used to solve for the required sample size."
+    }
+  }
+}

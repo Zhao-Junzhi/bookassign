@@ -1,0 +1,92 @@
+{
+  "sample_key": "47",
+  "case_id": "book5_r1\\015.json",
+  "source_path": "book5_r3/47.json",
+  "round": 0,
+  "variables": {
+    "Ejection_fraction": {
+      "id": "Ejection_fraction",
+      "value": [
+        28,
+        26,
+        42,
+        29,
+        16,
+        21,
+        25,
+        35,
+        30,
+        36,
+        37,
+        41,
+        20,
+        26,
+        38,
+        26,
+        10,
+        18,
+        10,
+        31
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Ejection fraction (%) for each of the 20 patients, a measure of left ventricular dysfunction, plotted on the scatter diagram to identify the outlier."
+    },
+    "Wedge_pressure": {
+      "id": "Wedge_pressure",
+      "value": [
+        15,
+        14,
+        15,
+        12,
+        37,
+        30,
+        7,
+        14,
+        28,
+        13,
+        5,
+        13,
+        24,
+        8,
+        13,
+        17,
+        27,
+        29,
+        8,
+        5
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Pulmonary arterial wedge pressure (mm Hg) for each of the 20 patients, plotted on the scatter diagram to identify the outlier."
+    },
+    "Patient": {
+      "id": "Patient",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Patient identifier used to label data points and identify which patient's data is most likely mistranscribed (patient 19)."
+    }
+  }
+}

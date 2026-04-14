@@ -1,0 +1,50 @@
+{
+  "sample_key": "165",
+  "case_id": "book2_r1\\069.json",
+  "source_path": "book2_r3/165.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size — number of employees polled in the company"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that any given employee favors unionization (60%)"
+    },
+    "CDF_n20_p60": {
+      "id": "CDF_n20_p60",
+      "value": {
+        "k=0": 0.0,
+        "k=1": 0.0,
+        "k=2": 0.0,
+        "k=3": 0.0,
+        "k=4": 0.0,
+        "k=5": 0.002,
+        "k=6": 0.006,
+        "k=7": 0.021,
+        "k=8": 0.057,
+        "k=9": 0.128,
+        "k=10": 0.245,
+        "k=11": 0.404,
+        "k=12": 0.584,
+        "k=13": 0.75,
+        "k=14": 0.874,
+        "k=15": 0.949,
+        "k=16": 0.984,
+        "k=17": 0.996,
+        "k=18": 0.999,
+        "k=19": 1.0
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Cumulative binomial probabilities P(x ≤ k) for n=20, p=0.60 from Table I(h), used to graph the probability distribution of x and to compute P(8 ≤ x ≤ 16) = P(x ≤ 16) − P(x ≤ 7) = .984 − .021 = .963"
+    }
+  }
+}

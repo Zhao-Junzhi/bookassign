@@ -1,0 +1,22 @@
+{
+  "sample_key": "56",
+  "case_id": "book3_r1\\121.json",
+  "source_path": "book3_r3/56.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": "t1, t2, ..., tn",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Failure times, independent observations from the population with PDF f(t) = (1+λ)t^λ for 0<t<1. The answer uses ln(ti) in the formula for the MLE."
+    },
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, i.e., the number of failure time observations. Used directly in the MLE formula λ̂ = -1 - n / Σ(ln(ti))."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sample_key": "375",
+  "case_id": "book1_r1\\record_149.json",
+  "source_path": "book1_r3/375.json",
+  "round": 0,
+  "variables": {
+    "Baldness": {
+      "id": "Baldness",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Self-assessed baldness grade on a scale of 1 (no baldness) to 5 (extreme baldness), used as the ordinal exposure variable in the test for trend."
+    },
+    "Cases": {
+      "id": "Cases",
+      "value": [
+        251,
+        165,
+        195,
+        50,
+        2
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of case subjects (men hospitalized for heart attack) in each baldness category."
+    },
+    "Controls": {
+      "id": "Controls",
+      "value": [
+        331,
+        221,
+        185,
+        34,
+        1
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of control subjects (men with no history of heart disease) in each baldness category."
+    }
+  }
+}

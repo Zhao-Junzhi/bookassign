@@ -1,0 +1,22 @@
+{
+  "sample_key": "92",
+  "case_id": "book2_r1\\038.json",
+  "source_path": "book2_r3/92.json",
+  "round": 0,
+  "variables": {
+    "P_IP": {
+      "id": "P_IP",
+      "value": 0.47,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample point probability for 'Increase productivity (IP)', used in computing the probability of the business-related event B."
+    },
+    "P_SC": {
+      "id": "P_SC",
+      "value": 0.38,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample point probability for 'Stay competitive (SC)', used in computing the probability of the business-related event B."
+    }
+  }
+}

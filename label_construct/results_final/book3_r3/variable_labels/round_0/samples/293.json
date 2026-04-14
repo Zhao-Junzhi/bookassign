@@ -1,0 +1,35 @@
+{
+  "sample_key": "293",
+  "case_id": "book3_r1\\89.json",
+  "source_path": "book3_r3/293.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "distribution": "exponential",
+        "failure_rate_parameter_lambda": 0.001
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lifetime of the first light bulb (in hours), exponentially distributed with λ=0.001."
+    },
+    "Y": {
+      "id": "Y",
+      "value": {
+        "distribution": "exponential",
+        "failure_rate_parameter_lambda": 0.001
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Lifetime of the second light bulb (in hours), exponentially distributed with λ=0.001. Independent of X."
+    },
+    "total_lifetime_threshold": {
+      "id": "total_lifetime_threshold",
+      "value": 2000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold (in hours) for the total lifetime of the two bulbs, used to compute P(X+Y ≤ 2000)."
+    }
+  }
+}

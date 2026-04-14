@@ -1,0 +1,29 @@
+{
+  "sample_key": "336",
+  "case_id": "book2_r1\\130.json",
+  "source_path": "book2_r3/336.json",
+  "round": 0,
+  "variables": {
+    "p_1": {
+      "id": "p_1",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Assumed proportion of defective items produced by machine 1, used in the sample size formula."
+    },
+    "p_2": {
+      "id": "p_2",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Assumed proportion of defective items produced by machine 2, used in the sample size formula."
+    },
+    "B": {
+      "id": "B",
+      "value": 0.005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Desired bound (margin of error) on the estimate of the difference in proportions, set to the right-hand side of the equation in the answer."
+    }
+  }
+}

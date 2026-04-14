@@ -1,0 +1,29 @@
+{
+  "sample_key": "674",
+  "case_id": "book1_r1\\record_412.json",
+  "source_path": "book1_r3/674.json",
+  "round": 0,
+  "variables": {
+    "b": {
+      "id": "b",
+      "value": 0.02284,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Estimated regression slope for the relationship between smoking and lung cancer, used to compute the test statistic for the significance test."
+    },
+    "SE_b": {
+      "id": "SE_b",
+      "value": 0.006976,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard error of the estimated regression slope, used to compute the test statistic for the significance test."
+    },
+    "n": {
+      "id": "n",
+      "value": 11,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of bivariate observations in the smoking and lung cancer data, used to determine degrees of freedom (df = n − 2) for the t-test."
+    }
+  }
+}

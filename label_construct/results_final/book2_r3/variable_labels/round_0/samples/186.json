@@ -1,0 +1,15 @@
+{
+  "sample_key": "186",
+  "case_id": "book2_r1\\078.json",
+  "source_path": "book2_r3/186.json",
+  "round": 0,
+  "variables": {
+    "P_z_geq_z0": {
+      "id": "P_z_geq_z0",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The given probability that z exceeds z_0, i.e., P(z ≥ z_0) = 0.10, used to determine the corresponding z-value in the standard normal distribution."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "sample_key": "94",
+  "case_id": "book5_r1\\032.json",
+  "source_path": "book5_r3/94.json",
+  "round": 0,
+  "variables": {
+    "voice_group": {
+      "id": "voice_group",
+      "value": [
+        "bass",
+        "baritone",
+        "tenor",
+        "counter-tenor"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Voice group classification of the male singers (deep to high singing voices)."
+    },
+    "sibling_sex": {
+      "id": "sibling_sex",
+      "value": [
+        "brothers",
+        "sisters"
+      ],
+      "class": "categorical",
+      "role": "Y",
+      "description": "Sex of the siblings reported by each singer, used to compute sibling sex ratios."
+    },
+    "number_of_singers": {
+      "id": "number_of_singers",
+      "value": 195,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of singers who reported having siblings; relevant because multiple siblings per singer violate the independence assumption of the Chi-squared test."
+    },
+    "number_of_siblings": {
+      "id": "number_of_siblings",
+      "value": 422,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of siblings reported across the 195 singers; these are the observational units in the Chi-squared table, but they are not independent because siblings are clustered within singers."
+    }
+  }
+}

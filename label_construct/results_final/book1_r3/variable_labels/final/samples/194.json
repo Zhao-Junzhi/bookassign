@@ -1,0 +1,19 @@
+{
+  "sample_key": "194",
+  "case_id": "book1_r1\\record_084.json",
+  "source_path": "book1_r3/194.json",
+  "round": 0,
+  "variables": {
+    "birth_weight": {
+      "id": "birth_weight",
+      "value": {
+        "sample_size": 49,
+        "mean": 2998,
+        "sigma": 800
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Birth weight (in grams) of sudden infant death syndrome (SIDS) cases. Sample size n=49, sample mean=2998g, with assumed population standard deviation σ=800g. Used to calculate the 95% confidence interval for the mean birth weight."
+    }
+  }
+}

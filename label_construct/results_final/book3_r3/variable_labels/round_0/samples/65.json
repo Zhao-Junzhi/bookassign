@@ -1,0 +1,23 @@
+{
+  "sample_key": "65",
+  "case_id": "book3_r1\\125.json",
+  "source_path": "book3_r3/65.json",
+  "round": 0,
+  "variables": {
+    "waiting_times": {
+      "id": "waiting_times",
+      "value": [
+        4.5,
+        5.3,
+        1.2,
+        7.4,
+        3.6,
+        4.8,
+        2.9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed waiting times for a train, drawn as a random sample from a uniform distribution on [0, θ]. The maximum likelihood estimate of θ is the maximum of these observations."
+    }
+  }
+}

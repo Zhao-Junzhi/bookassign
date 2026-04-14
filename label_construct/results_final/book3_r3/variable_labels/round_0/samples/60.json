@@ -1,0 +1,30 @@
+{
+  "sample_key": "60",
+  "case_id": "book3_r1\\122.json",
+  "source_path": "book3_r3/60.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": [
+        5.3,
+        3.2,
+        2.4,
+        3.8,
+        4.2,
+        3.4,
+        2.9
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Independent random variables X1 through X7, observations from the shifted exponential distribution f(x, α, β), used to compute the MLEs of α and β."
+    },
+    "n": {
+      "id": "n",
+      "value": 7,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, the number of independent observations."
+    }
+  }
+}

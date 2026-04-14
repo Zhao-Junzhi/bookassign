@@ -1,0 +1,40 @@
+{
+  "sample_key": "187",
+  "case_id": "book3_r1\\50 (1).json",
+  "source_path": "book3_r3/187.json",
+  "round": 0,
+  "variables": {
+    "f_i": {
+      "id": "f_i",
+      "value": [
+        7,
+        9,
+        17,
+        12,
+        18,
+        11,
+        12,
+        14
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed frequencies for each of the 8 intervals of failure times."
+    },
+    "E_i": {
+      "id": "E_i",
+      "value": [
+        6.1,
+        7.7,
+        12.6,
+        16.8,
+        18.1,
+        15.9,
+        11.4,
+        11.4
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Expected frequencies for each of the 8 intervals under the assumed normal distribution."
+    }
+  }
+}

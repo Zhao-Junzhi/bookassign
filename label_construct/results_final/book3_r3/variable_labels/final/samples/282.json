@@ -1,0 +1,24 @@
+{
+  "sample_key": "282",
+  "case_id": "book3_r1\\85.json",
+  "source_path": "book3_r3/282.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": {
+        "upper_limit": 1
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lifetime of an electric motor in years; the answer integrates the pdf from 0 to t=1 to find the probability of failure during the first year."
+    },
+    "f(t)": {
+      "id": "f(t)",
+      "value": "0.25 t e^{-0.5 t}",
+      "class": "others",
+      "role": "NR",
+      "description": "Probability density function of the electric motor's lifetime, used to compute the cumulative distribution function F(1)."
+    }
+  }
+}

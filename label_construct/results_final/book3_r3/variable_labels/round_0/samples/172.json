@@ -1,0 +1,28 @@
+{
+  "sample_key": "172",
+  "case_id": "book3_r1\\46.json",
+  "source_path": "book3_r3/172.json",
+  "round": 0,
+  "variables": {
+    "theta_1_hat": {
+      "id": "theta_1_hat",
+      "value": {
+        "E": "0.9*theta",
+        "var": 2
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Estimator 1 of parameter theta, with E(theta_1_hat)=0.9*theta and var(theta_1_hat)=2."
+    },
+    "theta_2_hat": {
+      "id": "theta_2_hat",
+      "value": {
+        "E": "theta",
+        "var": 3
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Estimator 2 of parameter theta, with E(theta_2_hat)=theta and var(theta_2_hat)=3."
+    }
+  }
+}

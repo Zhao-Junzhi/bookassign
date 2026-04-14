@@ -1,0 +1,30 @@
+{
+  "sample_key": "382",
+  "case_id": "book1_r1\\record_152.json",
+  "source_path": "book1_r3/382.json",
+  "round": 0,
+  "variables": {
+    "Treatment_Adverse_Event": {
+      "id": "Treatment_Adverse_Event",
+      "value": {
+        "Yes": 40,
+        "No": 280,
+        "Total": 320
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Adverse event outcome counts for the treatment group. This variable and Control_Adverse_Event represent the same outcome (adverse event: Yes/No) measured for different groups (treatment vs. control)."
+    },
+    "Control_Adverse_Event": {
+      "id": "Control_Adverse_Event",
+      "value": {
+        "Yes": 26,
+        "No": 310,
+        "Total": 336
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "Adverse event outcome counts for the control group. This variable and Treatment_Adverse_Event represent the same outcome (adverse event: Yes/No) measured for different groups (treatment vs. control)."
+    }
+  }
+}

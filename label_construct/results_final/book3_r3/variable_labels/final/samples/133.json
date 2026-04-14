@@ -1,0 +1,29 @@
+{
+  "sample_key": "133",
+  "case_id": "book3_r1\\27.json",
+  "source_path": "book3_r3/133.json",
+  "round": 0,
+  "variables": {
+    "mean_frequency_earthquakes": {
+      "id": "mean_frequency_earthquakes",
+      "value": "one every 50 years (rate = 1/50 = 0.02 per year)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean frequency of large earthquakes capable of damaging important plant structures, used to compute the Poisson rate parameter for earthquakes over the 10-year period (λ = 0.2)."
+    },
+    "mean_frequency_winds": {
+      "id": "mean_frequency_winds",
+      "value": "once in 25 years (rate = 1/25 = 0.04 per year)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean frequency of damaging high winds, used to compute the Poisson rate parameter for winds over the 10-year period (λ = 0.4)."
+    },
+    "time_period": {
+      "id": "time_period",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The 10-year period over which the probability of both strong winds and large earthquakes is calculated."
+    }
+  }
+}

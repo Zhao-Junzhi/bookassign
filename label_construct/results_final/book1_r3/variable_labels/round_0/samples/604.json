@@ -1,0 +1,36 @@
+{
+  "sample_key": "604",
+  "case_id": "book1_r1\\record_386.json",
+  "source_path": "book1_r3/604.json",
+  "round": 0,
+  "variables": {
+    "σ": {
+      "id": "σ",
+      "value": 720.0,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample standard deviation of birth weight, used as an estimate of the population standard deviation σ in the sample size formula."
+    },
+    "Δ": {
+      "id": "Δ",
+      "value": 300,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean difference in birth weight (grams) to be detected in the hypothesis test."
+    },
+    "power": {
+      "id": "power",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Desired statistical power of the test (90%), which determines z₀.₉ = 1.28 used in the formula."
+    },
+    "α": {
+      "id": "α",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level (two-sided) for the test, which determines z₀.₉₇₅ = 1.96 used in the formula."
+    }
+  }
+}

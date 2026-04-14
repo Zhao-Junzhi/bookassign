@@ -1,0 +1,50 @@
+{
+  "sample_key": "130",
+  "case_id": "book2_r1\\056.json",
+  "source_path": "book2_r3/130.json",
+  "round": 0,
+  "variables": {
+    "P(D)": {
+      "id": "P(D)",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prior probability that the wheelchair user intends to navigate through the door."
+    },
+    "P(S)": {
+      "id": "P(S)",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prior probability that the wheelchair user intends to proceed straight to the other side of the room."
+    },
+    "P(T)": {
+      "id": "P(T)",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prior probability that the wheelchair user intends to turn slightly right and stop at a table."
+    },
+    "P(J|D)": {
+      "id": "P(J|D)",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of the joystick being pointed straight given the user intends to go through the door."
+    },
+    "P(J|S)": {
+      "id": "P(J|S)",
+      "value": 0.4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of the joystick being pointed straight given the user intends to go straight."
+    },
+    "P(J|T)": {
+      "id": "P(J|T)",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of the joystick being pointed straight given the user intends to stop at the table."
+    }
+  }
+}

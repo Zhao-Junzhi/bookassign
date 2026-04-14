@@ -1,0 +1,32 @@
+{
+  "sample_key": "200",
+  "case_id": "book3_r1\\55.json",
+  "source_path": "book3_r3/200.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": [
+        16.16,
+        9.33,
+        12.96,
+        11.49,
+        12.31,
+        8.93,
+        6.02,
+        10.66,
+        7.75,
+        15.55,
+        3.58,
+        11.34,
+        11.38,
+        6.53,
+        9.75,
+        9.47
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "A random sample of size n=16 drawn from a normal distribution with unknown mean and standard deviation, used to compute the sample mean and sample variance."
+    }
+  }
+}

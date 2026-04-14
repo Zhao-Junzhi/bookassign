@@ -1,0 +1,19 @@
+{
+  "sample_key": "592",
+  "case_id": "book1_r1\\record_382.json",
+  "source_path": "book1_r3/592.json",
+  "round": 0,
+  "variables": {
+    "x_d": {
+      "id": "x_d",
+      "value": {
+        "n_d": 12,
+        "x_bar_d": 0.3808,
+        "s_d": 0.4335
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Paired differences for the oat bran data, summarized by sample size (n_d=12), mean (x̄_d=0.3808), and standard deviation (s_d=0.4335). All three summary statistics are used in the answer to compute SE and the t test statistic."
+    }
+  }
+}

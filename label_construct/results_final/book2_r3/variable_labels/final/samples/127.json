@@ -1,0 +1,29 @@
+{
+  "sample_key": "127",
+  "case_id": "book2_r1\\055.json",
+  "source_path": "book2_r3/127.json",
+  "round": 0,
+  "variables": {
+    "P(D)": {
+      "id": "P(D)",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The prior probability that the monitoring system detects an intruder."
+    },
+    "P(Rainy|D)": {
+      "id": "P(Rainy|D)",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The conditional probability that the weather was rainy given the intruder was detected (5% of the time when detected)."
+    },
+    "P(Rainy|D')": {
+      "id": "P(Rainy|D')",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The conditional probability that the weather was rainy given the system failed to detect the intruder (10% of the days when not detected)."
+    }
+  }
+}

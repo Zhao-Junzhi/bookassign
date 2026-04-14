@@ -1,0 +1,30 @@
+{
+  "sample_key": "307",
+  "case_id": "book2_r1\\122.json",
+  "source_path": "book2_r3/307.json",
+  "round": 0,
+  "variables": {
+    "US_retail_prices": {
+      "id": "US_retail_prices",
+      "value": {
+        "mean": 16596,
+        "sd": 1981,
+        "n": 50
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Retail prices (in dollars) of the Japanese automobile model from an independent random sample of 50 sales in the United States. Compared with Japan_retail_prices for the same model."
+    },
+    "Japan_retail_prices": {
+      "id": "Japan_retail_prices",
+      "value": {
+        "mean": 17236,
+        "sd": 1974,
+        "n": 50
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Retail prices (converted from yen to dollars) of the Japanese automobile model from an independent random sample of 50 sales in Japan. Compared with US_retail_prices for the same model."
+    }
+  }
+}

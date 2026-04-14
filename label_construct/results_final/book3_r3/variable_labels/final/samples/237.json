@@ -1,0 +1,22 @@
+{
+  "sample_key": "237",
+  "case_id": "book3_r1\\64.json",
+  "source_path": "book3_r3/237.json",
+  "round": 0,
+  "variables": {
+    "lambda": {
+      "id": "lambda",
+      "value": 1e-05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of each identical valve, in failures per hour."
+    },
+    "p_s": {
+      "id": "p_s",
+      "value": 0.995,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the switch S will successfully activate the standby valve."
+    }
+  }
+}

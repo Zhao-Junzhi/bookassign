@@ -1,0 +1,15 @@
+{
+  "sample_key": "305",
+  "case_id": "book3_r1\\98.json",
+  "source_path": "book3_r3/305.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "Claim amounts (in thousands) following density f(x) = 0.5 x^2 e^{-x} for x > 0",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Claim amounts for wind damage to insured homes, measured in thousands of dollars, with density function f(x) = 0.5 x^2 e^{-x} for x > 0. The expected value E[X] = ∫₀^∞ x · 0.5 x^2 e^{-x} dx = 3 is computed directly from this distribution."
+    }
+  }
+}

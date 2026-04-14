@@ -1,0 +1,25 @@
+{
+  "sample_key": "131",
+  "case_id": "book3_r1\\26.json",
+  "source_path": "book3_r3/131.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "distribution": "Poisson",
+        "lambda": 2
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "The number of X-ray machine failures per week, following a Poisson distribution with λ=2."
+    },
+    "repair_capacity": {
+      "id": "repair_capacity",
+      "value": 2,
+      "class": "numerical",
+      "role": "X",
+      "description": "The maximum number of machines the laboratory can repair per week internally (threshold value used to compute excess failures)."
+    }
+  }
+}

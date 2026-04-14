@@ -1,0 +1,22 @@
+{
+  "sample_key": "112",
+  "case_id": "book2_r1\\049.json",
+  "source_path": "book2_r3/112.json",
+  "round": 0,
+  "variables": {
+    "P_B": {
+      "id": "P_B",
+      "value": 0.63,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a complaint originated during the guarantee period, i.e., P(B) = 63%, obtained from the row total of 'During Guarantee Period' in the contingency table."
+    },
+    "P_A_intersect_B": {
+      "id": "P_A_intersect_B",
+      "value": 0.32,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Joint probability that the complaint was caused by product appearance AND originated during the guarantee period, i.e., P(A ∩ B) = 32%, obtained from the corresponding cell in the contingency table."
+    }
+  }
+}

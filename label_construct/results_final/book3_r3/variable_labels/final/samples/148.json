@@ -1,0 +1,22 @@
+{
+  "sample_key": "148",
+  "case_id": "book3_r1\\34 (1).json",
+  "source_path": "book3_r3/148.json",
+  "round": 0,
+  "variables": {
+    "failure_rate": {
+      "id": "failure_rate",
+      "value": 3e-06,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of ceramic capacitors, λ = 3 × 10^{-6} failures per hour."
+    },
+    "time": {
+      "id": "time",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time point (in hours) at which the reliability of the capacitor is evaluated, t = 1000 h."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "sample_key": "170",
+  "case_id": "book3_r1\\45.json",
+  "source_path": "book3_r3/170.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，即抽取的单位总数"
+    },
+    "q": {
+      "id": "q",
+      "value": 0.06,
+      "class": "numerical",
+      "role": "NR",
+      "description": "每个单位为次品的概率"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.94,
+      "class": "numerical",
+      "role": "NR",
+      "description": "每个单位为合格品的概率"
+    },
+    "X": {
+      "id": "X",
+      "value": {
+        "lower_bound": 50,
+        "upper_bound": 70
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "次品数量X，需要计算其落在50到70之间的概率"
+    }
+  }
+}

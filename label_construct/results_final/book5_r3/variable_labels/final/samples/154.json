@@ -1,0 +1,255 @@
+{
+  "sample_key": "154",
+  "case_id": "book5_r1\\053.json",
+  "source_path": "book5_r3/154.json",
+  "round": 0,
+  "variables": {
+    "time": {
+      "id": "time",
+      "value": [
+        0,
+        0.5,
+        1,
+        2,
+        4,
+        6,
+        8
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Time points (in hours) after clonixin administration at which serum levels were measured. The 0-hour value is assumed to be 0.0 as stated in the question."
+    },
+    "clonixin_levels_RA": {
+      "id": "clonixin_levels_RA",
+      "value": {
+        "Patient_1": [
+          0.0,
+          12.7,
+          32.2,
+          42.0,
+          19.8,
+          7.09,
+          2.1
+        ],
+        "Patient_2": [
+          0.0,
+          18.48,
+          40.24,
+          45.87,
+          15.61,
+          5.58,
+          3.25
+        ],
+        "Patient_3": [
+          0.0,
+          6.7,
+          20.6,
+          27.7,
+          11.49,
+          2.48,
+          0.56
+        ],
+        "Patient_4": [
+          0.0,
+          24.2,
+          16.2,
+          7.84,
+          5.3,
+          0.38,
+          0.0
+        ],
+        "Patient_5": [
+          0.0,
+          14.7,
+          28.3,
+          31.9,
+          16.08,
+          9.2,
+          3.6
+        ],
+        "Patient_6": [
+          0.0,
+          6.55,
+          29.17,
+          33.3,
+          15.17,
+          3.17,
+          0.0
+        ],
+        "Patient_7": [
+          0.0,
+          41.7,
+          29.4,
+          16.9,
+          7.04,
+          3.48,
+          2.56
+        ],
+        "Patient_8": [
+          0.0,
+          1.49,
+          47.26,
+          32.78,
+          15.89,
+          4.72,
+          2.61
+        ],
+        "Patient_9": [
+          0.0,
+          13.04,
+          19.08,
+          39.47,
+          12.42,
+          4.91,
+          2.86
+        ],
+        "Patient_10": [
+          0.0,
+          29.28,
+          44.94,
+          45.72,
+          12.71,
+          4.43,
+          1.67
+        ],
+        "Patient_11": [
+          0.0,
+          8.61,
+          20.34,
+          44.33,
+          6.74,
+          2.15,
+          1.11
+        ],
+        "Patient_12": [
+          0.0,
+          28.1,
+          56.1,
+          36.68,
+          19.1,
+          5.62,
+          1.82
+        ]
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Serum clonixin levels (μg/ml) over time for the 12 patients with rheumatoid arthritis. These are the same subjects as in clonixin_levels_RA, grouped under the rheumatoid arthritis condition."
+    },
+    "clonixin_levels_control": {
+      "id": "clonixin_levels_control",
+      "value": {
+        "Patient_13": [
+          0.0,
+          58.1,
+          65.9,
+          46.89,
+          17.5,
+          5.4,
+          1.67
+        ],
+        "Patient_14": [
+          0.0,
+          19.2,
+          22.2,
+          36.5,
+          10.7,
+          2.74,
+          0.94
+        ],
+        "Patient_15": [
+          0.0,
+          14.21,
+          22.35,
+          32.5,
+          16.49,
+          5.44,
+          2.42
+        ],
+        "Patient_16": [
+          0.0,
+          5.25,
+          11.13,
+          29.13,
+          7.84,
+          2.21,
+          1.19
+        ],
+        "Patient_17": [
+          0.0,
+          4.44,
+          43.74,
+          38.22,
+          12.1,
+          2.78,
+          0.02
+        ],
+        "Patient_18": [
+          0.0,
+          21.2,
+          41.2,
+          46.3,
+          21.7,
+          9.46,
+          4.31
+        ],
+        "Patient_19": [
+          0.0,
+          31.6,
+          32.8,
+          53.0,
+          39.5,
+          17.88,
+          6.9
+        ],
+        "Patient_20": [
+          0.0,
+          0.58,
+          2.68,
+          4.01,
+          51.9,
+          21.8,
+          7.64
+        ],
+        "Patient_21": [
+          0.0,
+          40.9,
+          49.0,
+          38.24,
+          11.09,
+          4.57,
+          0.8
+        ],
+        "Patient_22": [
+          0.0,
+          31.7,
+          44.2,
+          58.1,
+          24.1,
+          12.6,
+          5.3
+        ],
+        "Patient_23": [
+          0.0,
+          36.35,
+          47.12,
+          30.96,
+          7.45,
+          2.42,
+          1.75
+        ],
+        "Patient_24": [
+          0.0,
+          17.57,
+          34.01,
+          40.2,
+          23.8,
+          10.8,
+          7.8
+        ]
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Serum clonixin levels (μg/ml) over time for the 12 normal control subjects. These are the same subjects as in clonixin_levels_control, grouped under the control condition."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sample_key": "26",
+  "case_id": "book3_r1\\106.json",
+  "source_path": "book3_r3/26.json",
+  "round": 0,
+  "variables": {
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of making a sale on each call (probability of success per trial)."
+    },
+    "r": {
+      "id": "r",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of sales (successes) needed to achieve the daily goal, defining the 5th success in the negative binomial distribution."
+    },
+    "lower_bound": {
+      "id": "lower_bound",
+      "value": 15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Lower bound of the number of trials in the probability calculation P(15 ≤ Y ≤ 20)."
+    },
+    "upper_bound": {
+      "id": "upper_bound",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Upper bound of the number of trials in the probability calculation P(15 ≤ Y ≤ 20)."
+    }
+  }
+}

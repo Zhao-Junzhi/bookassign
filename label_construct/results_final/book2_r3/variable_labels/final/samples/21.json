@@ -1,0 +1,31 @@
+{
+  "sample_key": "21",
+  "case_id": "book2_r1\\007.json",
+  "source_path": "book2_r3/21.json",
+  "round": 0,
+  "variables": {
+    "physicians": {
+      "id": "physicians",
+      "value": {
+        "sample_size": 20
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of volunteer physicians to be randomly assigned into groups."
+    },
+    "treatment_group_size": {
+      "id": "treatment_group_size",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of physicians to be assigned to the treatment group (half of 20)."
+    },
+    "control_group_size": {
+      "id": "control_group_size",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of physicians to be assigned to the control group (half of 20)."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_key": "8",
+  "case_id": "book5_r1\\002.json",
+  "source_path": "book5_r3/8.json",
+  "round": 0,
+  "variables": {
+    "Occupation": {
+      "id": "Occupation",
+      "value": [
+        "Professional pilots",
+        "Lawyers",
+        "Farmers",
+        "Sales representatives",
+        "Physicians",
+        "Mechanics and repairmen",
+        "Policemen and detectives",
+        "Managers and administrators",
+        "Engineers",
+        "Teachers",
+        "Housewives",
+        "Academic students",
+        "Armed Forces Members"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Occupational group of pilots/individuals involved in aviation accidents."
+    },
+    "Number_of_accidents": {
+      "id": "Number_of_accidents",
+      "value": [
+        1302,
+        57,
+        166,
+        137,
+        76,
+        44,
+        48,
+        643,
+        125,
+        43,
+        29,
+        188,
+        111
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of aviation accidents for each occupational group. The answer references that Figure 3.1 shows more accidents involve professional pilots than any other group, relying on this count data."
+    }
+  }
+}

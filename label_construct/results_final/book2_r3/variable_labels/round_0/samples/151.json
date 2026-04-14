@@ -1,0 +1,36 @@
+{
+  "sample_key": "151",
+  "case_id": "book2_r1\\066.json",
+  "source_path": "book2_r3/151.json",
+  "round": 0,
+  "variables": {
+    "P_laptop": {
+      "id": "P_laptop",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that an online PC purchase is a laptop (20%)"
+    },
+    "P_desktop": {
+      "id": "P_desktop",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that an online PC purchase is a desktop (80%)"
+    },
+    "n": {
+      "id": "n",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of next online PC purchases considered"
+    },
+    "k": {
+      "id": "k",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Target number of laptop purchases among the next four purchases"
+    }
+  }
+}

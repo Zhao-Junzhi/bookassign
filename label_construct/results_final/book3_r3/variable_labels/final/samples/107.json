@@ -1,0 +1,22 @@
+{
+  "sample_key": "107",
+  "case_id": "book3_r1\\15.json",
+  "source_path": "book3_r3/107.json",
+  "round": 0,
+  "variables": {
+    "yearly_gross_income": {
+      "id": "yearly_gross_income",
+      "value": [
+        0.657,
+        0.664,
+        0.655,
+        0.653,
+        0.686,
+        0.661
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Yearly gross income (in $10^5) of six workers, used to compute the outlier ratio (mean = 0.6627, standard deviation = 0.0121) and test whether the 0.686 value is an outlier."
+    }
+  }
+}

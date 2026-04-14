@@ -1,0 +1,20 @@
+{
+  "sample_key": "596",
+  "case_id": "book1_r1\\record_383.json",
+  "source_path": "book1_r3/596.json",
+  "round": 0,
+  "variables": {
+    "d": {
+      "id": "d",
+      "value": {
+        "n": 12,
+        "mean": 0.3808,
+        "sd": 0.4335,
+        "SE": 0.1251
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Paired differences from the oat bran data set, with summary statistics (sample size, sample mean, standard deviation, and standard error) used to construct the 95% confidence interval for the population mean difference μ_d."
+    }
+  }
+}

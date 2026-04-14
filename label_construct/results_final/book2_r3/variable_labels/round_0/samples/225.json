@@ -1,0 +1,19 @@
+{
+  "sample_key": "225",
+  "case_id": "book2_r1\\093.json",
+  "source_path": "book2_r3/225.json",
+  "round": 0,
+  "variables": {
+    "battery_lifetime": {
+      "id": "battery_lifetime",
+      "value": {
+        "mean": 54,
+        "standard_deviation": 6,
+        "sample_size": 50
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The lifetime (in months) of automobile batteries. The manufacturer claims a population mean of 54 months and a standard deviation of 6 months. A sample of 50 batteries is used to derive the sampling distribution of the sample mean."
+    }
+  }
+}

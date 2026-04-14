@@ -1,0 +1,43 @@
+{
+  "sample_key": "101",
+  "case_id": "book3_r1\\142.json",
+  "source_path": "book3_r3/101.json",
+  "round": 0,
+  "variables": {
+    "n_total": {
+      "id": "n_total",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of identical active power supplies in the system."
+    },
+    "n_min": {
+      "id": "n_min",
+      "value": 19,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of power supplies required for the system to function."
+    },
+    "lambda_a": {
+      "id": "lambda_a",
+      "value": "λ_a",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate per hour of each power supply when all 20 are operating."
+    },
+    "lambda_b": {
+      "id": "lambda_b",
+      "value": "λ_b",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Failure rate per hour of each remaining power supply when one power supply has already failed (λ_a ≤ λ_b)."
+    },
+    "mu": {
+      "id": "mu",
+      "value": "μ",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant repair rate per hour for a failed power supply."
+    }
+  }
+}

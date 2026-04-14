@@ -1,0 +1,29 @@
+{
+  "sample_key": "539",
+  "case_id": "book1_r1\\record_365.json",
+  "source_path": "book1_r3/539.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本量，即从总体中抽取的简单随机样本的个体数"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "总体中吸烟者的比例（二项分布的成功概率参数）"
+    },
+    "x": {
+      "id": "x",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "样本中观察到的吸烟者人数，即需要计算其出现概率的成功次数"
+    }
+  }
+}

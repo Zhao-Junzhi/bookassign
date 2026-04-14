@@ -1,0 +1,29 @@
+{
+  "sample_key": "550",
+  "case_id": "book1_r1\\record_368.json",
+  "source_path": "book1_r3/550.json",
+  "round": 0,
+  "variables": {
+    "x_bar": {
+      "id": "x_bar",
+      "value": 185,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample mean of the simple random sample (n=64)"
+    },
+    "mu_0": {
+      "id": "mu_0",
+      "value": 170,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Hypothesized population mean under the null hypothesis H₀"
+    },
+    "SE_x_bar": {
+      "id": "SE_x_bar",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard error of the sample mean, derived from σ=40 and n=64 as σ/√n"
+    }
+  }
+}

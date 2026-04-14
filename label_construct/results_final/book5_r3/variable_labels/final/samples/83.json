@@ -1,0 +1,110 @@
+{
+  "sample_key": "83",
+  "case_id": "book5_r1\\029.json",
+  "source_path": "book5_r3/83.json",
+  "round": 0,
+  "variables": {
+    "Placebo_Before": {
+      "id": "Placebo_Before",
+      "value": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pre-treatment AFS scores for the placebo group. Used together with Placebo_After to compute change scores. These are scores from the same patients as Placebo_After."
+    },
+    "Placebo_After": {
+      "id": "Placebo_After",
+      "value": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        3,
+        3,
+        5,
+        5,
+        5,
+        9,
+        1,
+        5,
+        4,
+        10,
+        12
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Post-treatment AFS scores for the placebo group. Used together with Placebo_Before to compute change scores. These are scores from the same patients as Placebo_Before."
+    },
+    "Gestrinone_Before": {
+      "id": "Gestrinone_Before",
+      "value": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        5
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Pre-treatment AFS scores for the gestrinone group. Used together with Gestrinone_After to compute change scores. These are scores from the same patients as Gestrinone_After."
+    },
+    "Gestrinone_After": {
+      "id": "Gestrinone_After",
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Post-treatment AFS scores for the gestrinone group. Used together with Gestrinone_Before to compute change scores. These are scores from the same patients as Gestrinone_Before."
+    }
+  }
+}

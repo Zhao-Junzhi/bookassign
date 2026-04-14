@@ -1,0 +1,42 @@
+{
+  "sample_key": "114",
+  "case_id": "book3_r1\\17.json",
+  "source_path": "book3_r3/114.json",
+  "round": 0,
+  "variables": {
+    "failure_times": {
+      "id": "failure_times",
+      "value": [
+        5,
+        15,
+        20,
+        50,
+        68
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The times (in hours) at which each of the 5 failed units failed during the test period."
+    },
+    "num_surviving_units": {
+      "id": "num_surviving_units",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of units that survived (did not fail) through the entire 72-hour test period."
+    },
+    "test_duration": {
+      "id": "test_duration",
+      "value": 72,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The total duration of the test period in hours, used to calculate operating hours for surviving units."
+    },
+    "num_failures": {
+      "id": "num_failures",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The total number of units that failed during the test period, used as the numerator in the failure rate calculation."
+    }
+  }
+}

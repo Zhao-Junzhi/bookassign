@@ -1,0 +1,15 @@
+{
+  "sample_key": "3",
+  "case_id": "book3_r1\\03.json",
+  "source_path": "book3_r3/3.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of operations that can be performed in any sequence to produce the product."
+    }
+  }
+}

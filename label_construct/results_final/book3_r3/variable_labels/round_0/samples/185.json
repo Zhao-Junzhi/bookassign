@@ -1,0 +1,41 @@
+{
+  "sample_key": "185",
+  "case_id": "book3_r1\\49 (1).json",
+  "source_path": "book3_r3/185.json",
+  "round": 0,
+  "variables": {
+    "observed_frequency": {
+      "id": "observed_frequency",
+      "value": [
+        6,
+        8,
+        12,
+        4,
+        3
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed frequency (f_i) for each category of number of defective soldering points (0, 1, 2, 3, 4 or more) on circuit boards, N=33."
+    },
+    "expected_frequency": {
+      "id": "expected_frequency",
+      "value": [
+        6.04,
+        10.26,
+        8.71,
+        4.92,
+        3.07
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Expected frequency (E_i) under the Poisson distribution for each category of number of defective soldering points (0, 1, 2, 3, 4 or more)."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level given for the chi-squared goodness-of-fit test."
+    }
+  }
+}

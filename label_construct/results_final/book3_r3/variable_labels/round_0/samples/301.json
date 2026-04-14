@@ -1,0 +1,36 @@
+{
+  "sample_key": "301",
+  "case_id": "book3_r1\\95.json",
+  "source_path": "book3_r3/301.json",
+  "round": 0,
+  "variables": {
+    "P_defective": {
+      "id": "P_defective",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prior probability that a product from the assembly line is defective (5%)."
+    },
+    "P_good": {
+      "id": "P_good",
+      "value": 0.95,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prior probability that a product from the assembly line is good (95%), complement of P_defective."
+    },
+    "P_test_defective_given_defective": {
+      "id": "P_test_defective_given_defective",
+      "value": 0.92,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the diagnostic test indicates defective given that the product is actually defective (92%)."
+    },
+    "P_test_defective_given_good": {
+      "id": "P_test_defective_given_good",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the diagnostic test indicates defective given that the product is actually good (4%), derived from the test indicating good 96% of the time for good products."
+    }
+  }
+}

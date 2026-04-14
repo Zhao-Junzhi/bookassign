@@ -1,0 +1,36 @@
+{
+  "sample_key": "156",
+  "case_id": "book5_r1\\054.json",
+  "source_path": "book5_r3/156.json",
+  "round": 0,
+  "variables": {
+    "sensitivity": {
+      "id": "sensitivity",
+      "value": 0.76,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sensitivity of the polygraph (lie-detector), i.e., the probability of correctly detecting a liar. The answer uses 1 - sensitivity = 0.24 as the probability that a lying drug user passes the test."
+    },
+    "specificity": {
+      "id": "specificity",
+      "value": 0.63,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Specificity of the polygraph, i.e., the probability that a non-drug user (truth-teller) passes the test. Used directly in the denominator and numerator of the final proportion calculation."
+    },
+    "drug_user_prevalence": {
+      "id": "drug_user_prevalence",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of potential donors who use drugs (5%). Used in the calculation of the proportion of blood donations from drug users."
+    },
+    "proportion_lying": {
+      "id": "proportion_lying",
+      "value": 0.33,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of drug users who lie about their drug use (one third ≈ 0.33). Two thirds admit and are excluded; the remaining third undergo polygraph testing."
+    }
+  }
+}

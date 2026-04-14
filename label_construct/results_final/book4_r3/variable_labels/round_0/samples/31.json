@@ -1,0 +1,54 @@
+{
+  "sample_key": "31",
+  "case_id": "book4_r1\\009.json",
+  "source_path": "book4_r3/31.json",
+  "round": 0,
+  "variables": {
+    "Rural_sediment": {
+      "id": "Rural_sediment",
+      "value": [
+        82,
+        55,
+        50,
+        34,
+        50,
+        44,
+        29,
+        77,
+        60,
+        71
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Suspended sediment loads (mg per litre) measured in rural river sections. This and Urban_sediment are measurements of the same outcome variable (suspended sediment) from two independent groups."
+    },
+    "Urban_sediment": {
+      "id": "Urban_sediment",
+      "value": [
+        95,
+        111,
+        39,
+        78,
+        56,
+        62,
+        82,
+        93,
+        77,
+        62
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Suspended sediment loads (mg per litre) measured in urban river sections. This and Rural_sediment are measurements of the same outcome variable (suspended sediment) from two independent groups."
+    },
+    "Location_type": {
+      "id": "Location_type",
+      "value": [
+        "Rural",
+        "Urban"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Grouping variable indicating whether the river section is in a rural or urban area, used as the independent variable in the two-sample t-test."
+    }
+  }
+}

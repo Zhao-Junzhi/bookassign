@@ -1,0 +1,22 @@
+{
+  "sample_key": "196",
+  "case_id": "book2_r1\\081.json",
+  "source_path": "book2_r3/196.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 200,
+      "class": "numerical",
+      "role": "NR",
+      "description": "从当天生产中抽取的冲压电路样本量"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.06,
+      "class": "numerical",
+      "role": "NR",
+      "description": "电路的次品率（缺陷率），假设为6%"
+    }
+  }
+}

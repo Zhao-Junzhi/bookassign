@@ -1,0 +1,22 @@
+{
+  "sample_key": "109",
+  "case_id": "book5_r1\\038.json",
+  "source_path": "book5_r3/109.json",
+  "round": 0,
+  "variables": {
+    "discordant_pairs_case_exposed_control_not": {
+      "id": "discordant_pairs_case_exposed_control_not",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of discordant case-control pairs where the case was exposed to loud noise at work but the matched control was not."
+    },
+    "discordant_pairs_control_exposed_case_not": {
+      "id": "discordant_pairs_control_exposed_case_not",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of discordant case-control pairs where the matched control was exposed to loud noise at work but the case was not."
+    }
+  }
+}

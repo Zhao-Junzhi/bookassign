@@ -1,0 +1,22 @@
+{
+  "sample_key": "29",
+  "case_id": "book3_r1\\108.json",
+  "source_path": "book3_r3/29.json",
+  "round": 0,
+  "variables": {
+    "failure_rate": {
+      "id": "failure_rate",
+      "value": 0.0001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate parameter λ of the exponential distribution, in failures per hour."
+    },
+    "time_threshold": {
+      "id": "time_threshold",
+      "value": 5000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time threshold (in hours) for which the probability of the battery lasting more than this duration is calculated."
+    }
+  }
+}

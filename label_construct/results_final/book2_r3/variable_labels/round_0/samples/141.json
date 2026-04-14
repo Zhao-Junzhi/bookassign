@@ -1,0 +1,29 @@
+{
+  "sample_key": "141",
+  "case_id": "book2_r1\\063.json",
+  "source_path": "book2_r3/141.json",
+  "round": 0,
+  "variables": {
+    "premium": {
+      "id": "premium",
+      "value": 290,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Annual premium charged for the one-year term insurance policy ($290). Used directly in the expected gain calculation as the gain when the customer survives, and as part of computing the net loss when the customer dies."
+    },
+    "policy_amount": {
+      "id": "policy_amount",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Face value of the one-year term insurance policy ($10,000). Used together with the premium to derive the net loss of -$9,710 (= 290 − 10,000) in the event of the customer's death."
+    },
+    "prob_death": {
+      "id": "prob_death",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of the customer's death during the next year (0.001). Used directly in the expected gain calculation, and its complement (0.999) is also used as the probability of survival."
+    }
+  }
+}

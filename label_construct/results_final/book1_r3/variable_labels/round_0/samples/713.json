@@ -1,0 +1,28 @@
+{
+  "sample_key": "713",
+  "case_id": "book1_r1\\record_426.json",
+  "source_path": "book1_r3/713.json",
+  "round": 0,
+  "variables": {
+    "treatment_group": {
+      "id": "treatment_group",
+      "value": {
+        "a_1": 751,
+        "n_1": 8506
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Treatment group summary data: a_1=751 events (successes) out of n_1=8506 subjects. Used to compute p̂_1=0.08839. Same outcome measure as control_group but under treatment condition."
+    },
+    "control_group": {
+      "id": "control_group",
+      "value": {
+        "a_2": 623,
+        "n_2": 8102
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Control group summary data: a_2=623 events (successes) out of n_2=8102 subjects. Used to compute p̂_2=0.07700. Same outcome measure as treatment_group but under control condition."
+    }
+  }
+}

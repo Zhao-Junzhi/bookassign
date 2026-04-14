@@ -1,0 +1,22 @@
+{
+  "sample_key": "198",
+  "case_id": "book1_r1\\record_086.json",
+  "source_path": "book1_r3/198.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 21,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of observations on which the t test is based; used in the answer to compute degrees of freedom (df = 21 − 1 = 20)."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level for the one-tailed test; used in the answer to look up the critical t value corresponding to a one-sided P-value ≤ 0.05."
+    }
+  }
+}

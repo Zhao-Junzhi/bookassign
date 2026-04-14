@@ -1,0 +1,28 @@
+{
+  "sample_key": "38",
+  "case_id": "book1_r1\\record_011.json",
+  "source_path": "book1_r3/38.json",
+  "round": 0,
+  "variables": {
+    "City_Numbers": {
+      "id": "City_Numbers",
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Cities numbered 1 through 5 in the Stanford Five-City Project, from which two treatment cities are to be randomly selected."
+    },
+    "Random_Digits_Line17": {
+      "id": "Random_Digits_Line17",
+      "value": "50728 87768 16193 90514 58042 64398 18491 96407 97303 93459",
+      "class": "others",
+      "role": "NR",
+      "description": "Random digit sequence from line 17 of Table A, used to randomly select the two treatment cities."
+    }
+  }
+}

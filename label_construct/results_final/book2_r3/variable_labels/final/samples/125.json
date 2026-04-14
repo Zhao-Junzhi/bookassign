@@ -1,0 +1,29 @@
+{
+  "sample_key": "125",
+  "case_id": "book2_r1\\055.json",
+  "source_path": "book2_r3/125.json",
+  "round": 0,
+  "variables": {
+    "P(D)": {
+      "id": "P(D)",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that the monitoring system detects an intruder. P(D^c) = 0.10 is derived as 1 − P(D) and also used in the answer."
+    },
+    "P(Rainy|D)": {
+      "id": "P(Rainy|D)",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Conditional probability that the weather was rainy given the intruder was detected by the system."
+    },
+    "P(Rainy|D^c)": {
+      "id": "P(Rainy|D^c)",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Conditional probability that the weather was rainy given the system failed to detect the intruder."
+    }
+  }
+}

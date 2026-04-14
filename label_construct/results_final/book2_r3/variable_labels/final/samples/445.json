@@ -1,0 +1,62 @@
+{
+  "sample_key": "445",
+  "case_id": "book2_r1\\163.json",
+  "source_path": "book2_r3/445.json",
+  "round": 0,
+  "variables": {
+    "Group_1_Lower_Class": {
+      "id": "Group_1_Lower_Class",
+      "value": [
+        148,
+        76,
+        393,
+        520,
+        236,
+        134,
+        55,
+        166,
+        415,
+        153
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollars owed by delinquent credit card customers in the lower socioeconomic class (Group 1). Used to compute the group sample mean (229.6), which serves as the base level (β̂₀) in the least squares prediction equation."
+    },
+    "Group_2_Middle_Class": {
+      "id": "Group_2_Middle_Class",
+      "value": [
+        513,
+        264,
+        433,
+        94,
+        535,
+        327,
+        214,
+        135,
+        280,
+        304
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollars owed by delinquent credit card customers in the middle socioeconomic class (Group 2). Used to compute the group sample mean (309.9), whose difference from the lower-class mean yields β̂₁ = 80.3 in the prediction equation."
+    },
+    "Group_3_Upper_Class": {
+      "id": "Group_3_Upper_Class",
+      "value": [
+        335,
+        643,
+        216,
+        536,
+        128,
+        723,
+        258,
+        380,
+        594,
+        465
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Dollars owed by delinquent credit card customers in the upper socioeconomic class (Group 3). Used to compute the group sample mean (427.8), whose difference from the lower-class mean yields β̂₂ = 198.2 in the prediction equation."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sample_key": "361",
+  "case_id": "book2_r1\\137.json",
+  "source_path": "book2_r3/361.json",
+  "round": 0,
+  "variables": {
+    "Brand_A_Distance": {
+      "id": "Brand_A_Distance",
+      "value": [
+        251.2,
+        245.1,
+        248.0,
+        251.1,
+        260.5,
+        250.0,
+        253.9,
+        244.6,
+        254.6,
+        248.8
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Distances (in yards) for Brand A golf balls hit by Iron Byron. One of four brand groups compared in the one-way ANOVA; shares the same sample structure as Brand B, C, and D distances (different brand grouping of golf ball hits)."
+    },
+    "Brand_B_Distance": {
+      "id": "Brand_B_Distance",
+      "value": [
+        263.2,
+        262.9,
+        265.0,
+        254.5,
+        264.3,
+        257.0,
+        262.8,
+        264.4,
+        260.6,
+        255.9
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Distances (in yards) for Brand B golf balls hit by Iron Byron. One of four brand groups compared in the one-way ANOVA; shares the same sample structure as Brand A, C, and D distances (different brand grouping of golf ball hits)."
+    },
+    "Brand_C_Distance": {
+      "id": "Brand_C_Distance",
+      "value": [
+        269.7,
+        263.2,
+        277.5,
+        267.4,
+        270.5,
+        265.5,
+        270.7,
+        272.9,
+        275.6,
+        266.5
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Distances (in yards) for Brand C golf balls hit by Iron Byron. One of four brand groups compared in the one-way ANOVA; shares the same sample structure as Brand A, B, and D distances (different brand grouping of golf ball hits)."
+    },
+    "Brand_D_Distance": {
+      "id": "Brand_D_Distance",
+      "value": [
+        251.6,
+        248.6,
+        249.4,
+        242.0,
+        246.5,
+        251.3,
+        261.8,
+        249.0,
+        247.1,
+        245.9
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Distances (in yards) for Brand D golf balls hit by Iron Byron. One of four brand groups compared in the one-way ANOVA; shares the same sample structure as Brand A, B, and C distances (different brand grouping of golf ball hits)."
+    }
+  }
+}

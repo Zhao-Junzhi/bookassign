@@ -1,0 +1,29 @@
+{
+  "sample_key": "154",
+  "case_id": "book3_r1\\38 (1).json",
+  "source_path": "book3_r3/154.json",
+  "round": 0,
+  "variables": {
+    "t": {
+      "id": "t",
+      "value": 200,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specified life (time units) for which the part reliability is to be calculated."
+    },
+    "mu": {
+      "id": "mu",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The mean parameter (μ) of the log normal distribution for the failure time of the part."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The standard deviation parameter (σ) of the log normal distribution for the failure time of the part."
+    }
+  }
+}

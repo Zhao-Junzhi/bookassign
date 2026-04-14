@@ -1,0 +1,22 @@
+{
+  "sample_key": "285",
+  "case_id": "book3_r1\\86.json",
+  "source_path": "book3_r3/285.json",
+  "round": 0,
+  "variables": {
+    "claim_density": {
+      "id": "claim_density",
+      "value": "f(x) = 3x^{-4} for x > 1, 0 otherwise",
+      "class": "others",
+      "role": "NR",
+      "description": "Common probability density function of each individual claim amount (in thousands), used to derive the distribution of the order statistics."
+    },
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of independent claims made, determining the order statistic (maximum) to be computed."
+    }
+  }
+}

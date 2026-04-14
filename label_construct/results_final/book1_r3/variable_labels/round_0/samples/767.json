@@ -1,0 +1,22 @@
+{
+  "sample_key": "767",
+  "case_id": "book1_r1\\record_502.json",
+  "source_path": "book1_r3/767.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of pregnancies (trials) in the binomial setting, used directly in the variance formula σ² = n·p·q"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of a Tay-Sachs case in each pregnancy (probability of success), used directly in the variance formula σ² = n·p·q"
+    }
+  }
+}

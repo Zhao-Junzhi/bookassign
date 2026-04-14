@@ -1,0 +1,28 @@
+{
+  "sample_key": "251",
+  "case_id": "book1_r1\\record_106.json",
+  "source_path": "book1_r3/251.json",
+  "round": 0,
+  "variables": {
+    "IDX_survival_time": {
+      "id": "IDX_survival_time",
+      "value": {
+        "mean": 116,
+        "SE": 5.6
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Mean survival time and standard error for the IDX-treated group."
+    },
+    "Control_survival_time": {
+      "id": "Control_survival_time",
+      "value": {
+        "mean": 88.5,
+        "SE": 1.9
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Mean survival time and standard error for the control group."
+    }
+  }
+}

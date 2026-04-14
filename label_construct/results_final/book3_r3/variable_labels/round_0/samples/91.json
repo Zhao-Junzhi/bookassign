@@ -1,0 +1,15 @@
+{
+  "sample_key": "91",
+  "case_id": "book3_r1\\14.json",
+  "source_path": "book3_r3/91.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "f(x)= \\begin{cases}2 x & 0 \\leq x \\leq 1 \\\\ 0 & \\text{otherwise.}\\end{cases}",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random variable X with the given probability density function, used to derive its cumulative distribution function."
+    }
+  }
+}

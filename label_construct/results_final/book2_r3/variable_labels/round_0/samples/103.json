@@ -1,0 +1,22 @@
+{
+  "sample_key": "103",
+  "case_id": "book2_r1\\044.json",
+  "source_path": "book2_r3/103.json",
+  "round": 0,
+  "variables": {
+    "number_of_coins": {
+      "id": "number_of_coins",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of fair coins tossed in the experiment, used to determine the sample space of 4 equally likely outcomes"
+    },
+    "A": {
+      "id": "A",
+      "value": "Observing at least one head",
+      "class": "others",
+      "role": "NR",
+      "description": "The event of interest, defined as observing at least one head; its sample points {HH, HT, TH} are enumerated in the answer to compute the probability"
+    }
+  }
+}

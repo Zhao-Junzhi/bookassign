@@ -1,0 +1,36 @@
+{
+  "sample_key": "723",
+  "case_id": "book1_r1\\record_432.json",
+  "source_path": "book1_r3/723.json",
+  "round": 0,
+  "variables": {
+    "p1": {
+      "id": "p1",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population proportion for group 1, used directly in the sample size formula"
+    },
+    "p2": {
+      "id": "p2",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Population proportion for group 2, used directly in the sample size formula"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level (α) for the two-sided test, used to determine z_{1-α/2} = 1.96 in the sample size formula"
+    },
+    "power": {
+      "id": "power",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Statistical power (1-β) of the test, used to determine z_{1-β} = 1.282 in the sample size formula"
+    }
+  }
+}

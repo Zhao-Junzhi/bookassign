@@ -1,0 +1,36 @@
+{
+  "sample_key": "371",
+  "case_id": "book1_r1\\record_148.json",
+  "source_path": "book1_r3/371.json",
+  "round": 0,
+  "variables": {
+    "lung_cancer_smokers": {
+      "id": "lung_cancer_smokers",
+      "value": 647,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of lung cancer cases who were smokers (case group, exposed)."
+    },
+    "lung_cancer_nonsmokers": {
+      "id": "lung_cancer_nonsmokers",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of lung cancer cases who were nonsmokers (case group, unexposed). Calculated as 649 - 647 = 2."
+    },
+    "control_smokers": {
+      "id": "control_smokers",
+      "value": 622,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of controls who were smokers (control group, exposed)."
+    },
+    "control_nonsmokers": {
+      "id": "control_nonsmokers",
+      "value": 27,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of controls who were nonsmokers (control group, unexposed). Calculated as 649 - 622 = 27."
+    }
+  }
+}

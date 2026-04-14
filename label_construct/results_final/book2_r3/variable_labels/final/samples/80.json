@@ -1,0 +1,29 @@
+{
+  "sample_key": "80",
+  "case_id": "book2_r1\\033.json",
+  "source_path": "book2_r3/80.json",
+  "round": 0,
+  "variables": {
+    "suspended_children_count": {
+      "id": "suspended_children_count",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of secondary-school children who had been suspended more than once in the Portland Bayside East Housing Project."
+    },
+    "suspended_three_or_more": {
+      "id": "suspended_three_or_more",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of children (out of the two suspended) who had been suspended three or more times."
+    },
+    "reported_percentage": {
+      "id": "reported_percentage",
+      "value": 50,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The reported percentage (50%) of suspended children who had been suspended three or more times, derived from 1 out of 2 children."
+    }
+  }
+}

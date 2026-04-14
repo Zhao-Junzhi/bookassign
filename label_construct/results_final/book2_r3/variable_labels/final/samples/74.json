@@ -1,0 +1,22 @@
+{
+  "sample_key": "74",
+  "case_id": "book2_r1\\031.json",
+  "source_path": "book2_r3/74.json",
+  "round": 0,
+  "variables": {
+    "elongation_measurement": {
+      "id": "elongation_measurement",
+      "value": "Elongation measurements of 50 camera springs under a 20-gram pull, recorded in production order (specific values not provided)",
+      "class": "numerical",
+      "role": "Y",
+      "description": "The elongation measurement of each camera spring, which is the variable being predicted for the 51st spring. It is the dependent variable that changes over time."
+    },
+    "production_order": {
+      "id": "production_order",
+      "value": "Sequential order of production for springs 1 through 50",
+      "class": "numerical",
+      "role": "X",
+      "description": "The time/order in which the springs were produced. This serves as the independent variable (time axis) in the time series plot, capturing the decreasing trend in elongation measurements."
+    }
+  }
+}

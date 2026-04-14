@@ -1,0 +1,64 @@
+{
+  "sample_key": "69",
+  "case_id": "book3_r1\\128.json",
+  "source_path": "book3_r3/69.json",
+  "round": 0,
+  "variables": {
+    "observations": {
+      "id": "observations",
+      "value": [
+        "g",
+        "g",
+        "b",
+        "g",
+        "g",
+        "b",
+        "g",
+        "g",
+        "g",
+        "b",
+        "g",
+        "b",
+        "g",
+        "g",
+        "b",
+        "b",
+        "b",
+        "g",
+        "g",
+        "g"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Sequential observations drawn one at a time, where 'g' denotes a good item and 'b' denotes a defective item."
+    },
+    "p0": {
+      "id": "p0",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of defective items under the null hypothesis H0."
+    },
+    "p1": {
+      "id": "p1",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Proportion of defective items under the alternative hypothesis H1."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of rejecting H0 when it is true (Type I error probability)."
+    },
+    "beta": {
+      "id": "beta",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of accepting H0 when H1 is true (Type II error probability)."
+    }
+  }
+}

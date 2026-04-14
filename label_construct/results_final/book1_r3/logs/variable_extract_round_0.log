@@ -1,0 +1,29 @@
+2026-04-12 18:16:35,587 - INFO - 变量抽取开始: round=0, 样本=147, 缓存命中=0, 待处理=147
+2026-04-12 18:17:46,562 - INFO - 变量抽取进度: round=0, 10/147
+2026-04-12 18:19:03,095 - INFO - 变量抽取进度: round=0, 20/147
+2026-04-12 18:20:01,528 - INFO - 变量抽取进度: round=0, 30/147
+2026-04-12 18:20:56,739 - ERROR - API调用异常: Connection error.
+2026-04-12 18:22:31,760 - INFO - 变量抽取进度: round=0, 40/147
+2026-04-12 18:23:59,349 - ERROR - API调用异常: Request timed out.
+2026-04-12 18:25:24,913 - INFO - 变量抽取进度: round=0, 50/147
+2026-04-12 18:26:58,172 - ERROR - API调用异常: Connection error.
+2026-04-12 18:27:01,112 - ERROR - API调用异常: Request timed out.
+2026-04-12 18:27:30,815 - INFO - 变量抽取进度: round=0, 60/147
+2026-04-12 18:29:27,740 - INFO - 变量抽取进度: round=0, 70/147
+2026-04-12 18:30:03,734 - ERROR - API调用异常: Request timed out.
+2026-04-12 18:30:45,488 - INFO - 变量抽取进度: round=0, 80/147
+2026-04-12 18:32:08,768 - INFO - 变量抽取进度: round=0, 90/147
+2026-04-12 18:32:22,378 - ERROR - API调用异常: Connection error.
+2026-04-12 18:32:22,379 - WARNING - 变量抽取跳过样本 381.json: API调用失败: Connection error.
+2026-04-12 18:33:16,981 - INFO - 变量抽取进度: round=0, 100/147
+2026-04-12 18:34:09,739 - INFO - 变量抽取进度: round=0, 110/147
+2026-04-12 18:35:06,665 - INFO - 变量抽取进度: round=0, 120/147
+2026-04-12 18:36:36,112 - INFO - 变量抽取进度: round=0, 130/147
+2026-04-12 18:38:08,105 - INFO - 变量抽取进度: round=0, 140/147
+2026-04-12 18:39:18,610 - INFO - 变量抽取进度: round=0, 147/147
+2026-04-12 18:39:18,611 - INFO - 变量抽取结果目录: label_construct/results_final/book1_r3/variable_labels/round_0/samples
+2026-04-14 08:39:05,261 - INFO - 变量抽取开始: round=0, 样本=147, 缓存命中=146, 待处理=1
+2026-04-14 08:39:29,249 - INFO - 变量抽取进度: round=0, 1/1
+2026-04-14 08:39:29,250 - INFO - 变量抽取结果目录: label_construct/results_final/book1_r3/variable_labels/round_0/samples
+2026-04-14 09:21:19,521 - INFO - 变量抽取开始: round=0, 样本=147, 缓存命中=147, 待处理=0
+2026-04-14 09:21:19,521 - INFO - 变量抽取结果目录: label_construct/results_final/book1_r3/variable_labels/round_0/samples

@@ -1,0 +1,64 @@
+{
+  "sample_key": "46",
+  "case_id": "book4_r1\\015.json",
+  "source_path": "book4_r3/46.json",
+  "round": 0,
+  "variables": {
+    "Frequency_of_visit": {
+      "id": "Frequency_of_visit",
+      "value": [
+        3,
+        3,
+        2,
+        4,
+        2,
+        1,
+        6,
+        2,
+        3,
+        3,
+        4,
+        2,
+        1,
+        3,
+        4,
+        2,
+        5,
+        3,
+        4,
+        6
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Coded frequency of visiting the park for each of the 20 respondents (coded 1–6, where 6 = more than once a week and 1 = once a year or less)."
+    },
+    "Amount_prepared_to_pay": {
+      "id": "Amount_prepared_to_pay",
+      "value": [
+        5,
+        4,
+        9,
+        1,
+        2,
+        3,
+        1,
+        9,
+        5,
+        3,
+        3,
+        7,
+        8,
+        3,
+        6,
+        8,
+        1,
+        6,
+        5,
+        2
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Coded maximum amount each respondent would be prepared to pay to enter the park (coded 1–9, where 1 = 50p or less and 9 = £2.50 or more)."
+    }
+  }
+}

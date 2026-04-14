@@ -1,0 +1,47 @@
+{
+  "sample_key": "158",
+  "case_id": "book5_r1\\055.json",
+  "source_path": "book5_r3/158.json",
+  "round": 0,
+  "variables": {
+    "Respiratory_rate_category": {
+      "id": "Respiratory_rate_category",
+      "value": [
+        "0-30",
+        "31-40",
+        "41-50",
+        "51-60",
+        "61+"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Respiratory rate categories in breaths/min, used to define cut-off points (30, 40, 50, 60) for constructing 2×2 tables."
+    },
+    "LRI_count": {
+      "id": "LRI_count",
+      "value": [
+        1,
+        4,
+        10,
+        41,
+        86
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with lower respiratory tract infection (LRI) in each respiratory rate category. Used to compute sensitivity at each cut-off."
+    },
+    "URI_count": {
+      "id": "URI_count",
+      "value": [
+        16,
+        77,
+        46,
+        9,
+        3
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of children with upper respiratory tract infection (URI) in each respiratory rate category. Used to compute specificity at each cut-off."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sample_key": "71",
+  "case_id": "book2_r1\\029.json",
+  "source_path": "book2_r3/71.json",
+  "round": 0,
+  "variables": {
+    "male_salaries": {
+      "id": "male_salaries",
+      "value": {
+        "mean": 64000,
+        "standard_deviation": 2000
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Salaries of male counterparts in the banking business, summarized by mean ($64,000) and standard deviation ($2,000). Used as the reference distribution to compute the z-score."
+    },
+    "woman_salary": {
+      "id": "woman_salary",
+      "value": 57000,
+      "class": "numerical",
+      "role": "Y",
+      "description": "The female employee's salary ($57,000), evaluated against the male salary distribution to determine whether it is an outlier."
+    }
+  }
+}

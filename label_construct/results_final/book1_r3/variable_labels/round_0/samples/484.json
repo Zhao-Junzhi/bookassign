@@ -1,0 +1,22 @@
+{
+  "sample_key": "484",
+  "case_id": "book1_r1\\record_342.json",
+  "source_path": "book1_r3/484.json",
+  "round": 0,
+  "variables": {
+    "Pr(A)": {
+      "id": "Pr(A)",
+      "value": 0.35,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of cat ownership, used as a factor in the multiplication rule to compute the joint probability."
+    },
+    "Pr(B|A)": {
+      "id": "Pr(B|A)",
+      "value": 0.4286,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The conditional probability of dog ownership given cat ownership, used as a factor in the multiplication rule to compute the joint probability."
+    }
+  }
+}

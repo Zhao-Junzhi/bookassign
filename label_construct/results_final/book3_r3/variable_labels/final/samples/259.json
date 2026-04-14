@@ -1,0 +1,39 @@
+{
+  "sample_key": "259",
+  "case_id": "book3_r1\\74.json",
+  "source_path": "book3_r3/259.json",
+  "round": 0,
+  "variables": {
+    "coin_toss_outcome": {
+      "id": "coin_toss_outcome",
+      "value": [
+        "H",
+        "T"
+      ],
+      "class": "categorical",
+      "role": "NR",
+      "description": "Possible outcome of each fair coin toss (Head or Tail), with P(H) = P(T) = 0.5."
+    },
+    "number_of_tosses": {
+      "id": "number_of_tosses",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of successive coin tosses."
+    },
+    "condition_first_toss": {
+      "id": "condition_first_toss",
+      "value": "H",
+      "class": "categorical",
+      "role": "NR",
+      "description": "The given condition that the first toss resulted in a head."
+    },
+    "threshold_heads": {
+      "id": "threshold_heads",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The minimum number of heads (at least two) required for the event of interest."
+    }
+  }
+}

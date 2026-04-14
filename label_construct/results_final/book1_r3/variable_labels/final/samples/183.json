@@ -1,0 +1,32 @@
+{
+  "sample_key": "183",
+  "case_id": "book1_r1\\record_080.json",
+  "source_path": "book1_r3/183.json",
+  "round": 0,
+  "variables": {
+    "sample_heights": {
+      "id": "sample_heights",
+      "value": {
+        "sample_size": 18,
+        "mean": 70
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Heights (in inches) of an SRS of 18 male students at the university, summarized by sample size and sample mean"
+    },
+    "population_mean_height": {
+      "id": "population_mean_height",
+      "value": 69,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Average height (in inches) of men in the general population, used as the null hypothesis reference value"
+    },
+    "population_sd_height": {
+      "id": "population_sd_height",
+      "value": 2.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Known population standard deviation (in inches) of male height, assumed for the Normal distribution"
+    }
+  }
+}

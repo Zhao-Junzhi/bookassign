@@ -1,0 +1,26 @@
+{
+  "sample_key": "389",
+  "case_id": "book2_r1\\146.json",
+  "source_path": "book2_r3/389.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 600,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total sample size of employees analyzed, used to compute the expected frequencies for each pay increase category"
+    },
+    "proposed_proportions": {
+      "id": "proposed_proportions",
+      "value": {
+        "None": 0.1,
+        "Standard": 0.65,
+        "Merit": 0.25
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Firm's proposed (hypothesized) proportions for each pay increase category: 10% for no increase, 65% for standard increase, and 25% for merit increase; used together with n to compute expected frequencies E₁=60, E₂=390, E₃=150"
+    }
+  }
+}

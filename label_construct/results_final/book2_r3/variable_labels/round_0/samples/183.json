@@ -1,0 +1,20 @@
+{
+  "sample_key": "183",
+  "case_id": "book2_r1\\076.json",
+  "source_path": "book2_r3/183.json",
+  "round": 0,
+  "variables": {
+    "x": {
+      "id": "x",
+      "value": {
+        "mean": 10,
+        "standard_deviation": 1.5,
+        "lower_bound": 8,
+        "upper_bound": 12
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Length of time (in hours) between charges of a cellular phone, normally distributed. The answer uses the mean (μ=10) and standard deviation (σ=1.5) along with the interval bounds (8 and 12) in the z-score formula to compute P(8 ≤ x ≤ 12)."
+    }
+  }
+}

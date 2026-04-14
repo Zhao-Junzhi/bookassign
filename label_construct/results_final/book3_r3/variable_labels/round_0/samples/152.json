@@ -1,0 +1,29 @@
+{
+  "sample_key": "152",
+  "case_id": "book3_r1\\37.json",
+  "source_path": "book3_r3/152.json",
+  "round": 0,
+  "variables": {
+    "mu": {
+      "id": "mu",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean parameter (μ) of the log normal distribution for the component failure time."
+    },
+    "sigma": {
+      "id": "sigma",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Standard deviation parameter (σ) of the log normal distribution for the component failure time."
+    },
+    "t": {
+      "id": "t",
+      "value": 50,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The life time (in time units) at which the hazard rate is to be evaluated."
+    }
+  }
+}

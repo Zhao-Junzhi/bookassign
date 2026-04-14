@@ -1,0 +1,22 @@
+{
+  "sample_key": "31",
+  "case_id": "book3_r1\\109.json",
+  "source_path": "book3_r3/31.json",
+  "round": 0,
+  "variables": {
+    "p_failure": {
+      "id": "p_failure",
+      "value": 0.2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability of failure of the equipment on each test."
+    },
+    "n_tests_threshold": {
+      "id": "n_tests_threshold",
+      "value": 4,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold number of tests; we seek the probability that the first failure occurs in fewer than this many tests."
+    }
+  }
+}

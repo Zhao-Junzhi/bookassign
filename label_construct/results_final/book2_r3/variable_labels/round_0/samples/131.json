@@ -1,0 +1,30 @@
+{
+  "sample_key": "131",
+  "case_id": "book2_r1\\056.json",
+  "source_path": "book2_r3/131.json",
+  "round": 0,
+  "variables": {
+    "Destination_prior_probabilities": {
+      "id": "Destination_prior_probabilities",
+      "value": {
+        "P(D)": 0.5,
+        "P(S)": 0.2,
+        "P(T)": 0.3
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Prior probabilities of the wheelchair user's intended destination based on previous trips: D (door), S (straight), T (table)"
+    },
+    "Joystick_straight_likelihoods": {
+      "id": "Joystick_straight_likelihoods",
+      "value": {
+        "P(J|D)": 0.3,
+        "P(J|S)": 0.4,
+        "P(J|T)": 0.05
+      },
+      "class": "numerical",
+      "role": "X",
+      "description": "Conditional probabilities of the user pointing the joystick straight given each intended destination: P(J|D)=0.30 for door, P(J|S)=0.40 for straight, P(J|T)=0.05 for table"
+    }
+  }
+}

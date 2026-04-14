@@ -1,0 +1,74 @@
+{
+  "sample_key": "100",
+  "case_id": "book3_r1\\141.json",
+  "source_path": "book3_r3/100.json",
+  "round": 0,
+  "variables": {
+    "num_channels": {
+      "id": "num_channels",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of identical and statistically independent channels in the monitoring system"
+    },
+    "channel_threshold": {
+      "id": "channel_threshold",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of channels that must register dangerous radioactivity level for automatic reactor shutdown (k-out-of-n threshold for channels)"
+    },
+    "num_sensors_per_channel": {
+      "id": "num_sensors_per_channel",
+      "value": 3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of identical sensors in each channel"
+    },
+    "sensor_threshold": {
+      "id": "sensor_threshold",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of sensors that must register dangerous radioactivity level for the channel to register the dangerous level (k-out-of-n threshold for sensors)"
+    },
+    "sensor_failure_rate": {
+      "id": "sensor_failure_rate",
+      "value": 0.001,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Independent failure rate of each sensor in any channel, per day"
+    },
+    "common_cause_failure_rate": {
+      "id": "common_cause_failure_rate",
+      "value": 0.0005,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Common-cause failure rate of all sensors in a channel, per day"
+    },
+    "time_t": {
+      "id": "time_t",
+      "value": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Time points (in days) at which system reliability is evaluated"
+    },
+    "system_reliability": {
+      "id": "system_reliability",
+      "value": [
+        1.0,
+        1.0,
+        0.9999,
+        0.9999
+      ],
+      "class": "numerical",
+      "role": "Y",
+      "description": "System reliability computed at the corresponding time points"
+    }
+  }
+}

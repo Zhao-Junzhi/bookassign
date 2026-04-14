@@ -1,0 +1,36 @@
+{
+  "sample_key": "40",
+  "case_id": "book5_r1\\013.json",
+  "source_path": "book5_r3/40.json",
+  "round": 0,
+  "variables": {
+    "total_women_identified": {
+      "id": "total_women_identified",
+      "value": 132,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of women born in 1930 identified from the general practice's age-sex register."
+    },
+    "not_contactable": {
+      "id": "not_contactable",
+      "value": 21,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of women out of 132 who were not contactable, referenced in the answer to question the accuracy of the register."
+    },
+    "excluded_women": {
+      "id": "excluded_women",
+      "value": 101,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of women excluded from the study for various reasons, leaving the final sample."
+    },
+    "final_sample_size": {
+      "id": "final_sample_size",
+      "value": 31,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Final number of women actually studied after exclusions, whose representativeness is being assessed."
+    }
+  }
+}

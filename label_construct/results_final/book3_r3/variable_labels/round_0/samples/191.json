@@ -1,0 +1,34 @@
+{
+  "sample_key": "191",
+  "case_id": "book3_r1\\51 (1).json",
+  "source_path": "book3_r3/191.json",
+  "round": 0,
+  "variables": {
+    "Fn_x": {
+      "id": "Fn_x",
+      "value": [
+        0.182,
+        0.424,
+        0.788,
+        0.909,
+        1.0
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Cumulative observed relative frequency F_n(x) for each category of number of defectives (0, 1, 2, 3, 4 or more), computed from the observed frequencies."
+    },
+    "F0_x": {
+      "id": "F0_x",
+      "value": [
+        0.183,
+        0.494,
+        0.758,
+        0.907,
+        1.0
+      ],
+      "class": "numerical",
+      "role": "XY",
+      "description": "Cumulative theoretical (Poisson) distribution F_0(x) for each category of number of defectives (0, 1, 2, 3, 4 or more)."
+    }
+  }
+}

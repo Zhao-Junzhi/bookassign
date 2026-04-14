@@ -1,0 +1,37 @@
+{
+  "sample_key": "145",
+  "case_id": "book5_r1\\051.json",
+  "source_path": "book5_r3/145.json",
+  "round": 0,
+  "variables": {
+    "GvHD": {
+      "id": "GvHD",
+      "value": {
+        "regression_coefficient": 2.306,
+        "standard_error": 0.5898,
+        "coding": "0=No, 1=Yes"
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the patient had acute graft-versus-host disease (0=No, 1=Yes); a positive regression coefficient indicates that having GvHD is associated with worse survival."
+    },
+    "CML": {
+      "id": "CML",
+      "value": {
+        "regression_coefficient": -2.508,
+        "standard_error": 0.8095,
+        "coding": "0=No, 1=Yes"
+      },
+      "class": "categorical",
+      "role": "X",
+      "description": "Whether the patient's diagnosis was chronic myeloid leukemia (0=No, 1=Yes); a negative regression coefficient indicates that having CML is associated with better survival (i.e., non-CML patients have worse survival)."
+    },
+    "Survival": {
+      "id": "Survival",
+      "value": null,
+      "class": "others",
+      "role": "Y",
+      "description": "Survival outcome predicted by the Cox regression model; the dependent variable whose risk is being modeled."
+    }
+  }
+}

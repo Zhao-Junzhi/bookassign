@@ -1,0 +1,18 @@
+{
+  "sample_key": "250",
+  "case_id": "book2_r1\\104.json",
+  "source_path": "book2_r3/250.json",
+  "round": 0,
+  "variables": {
+    "inflation_pressure_range": {
+      "id": "inflation_pressure_range",
+      "value": {
+        "min": 13.3,
+        "max": 13.7
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "The observed range bounds (minimum and maximum) of football inflation pressures in pounds, used to compute the range R = 13.7 - 13.3 = 0.4 and then estimate the standard deviation σ ≈ R/4."
+    }
+  }
+}

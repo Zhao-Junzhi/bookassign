@@ -1,0 +1,98 @@
+{
+  "sample_key": "452",
+  "case_id": "book2_r1\\165.json",
+  "source_path": "book2_r3/452.json",
+  "round": 0,
+  "variables": {
+    "Productivity": {
+      "id": "Productivity",
+      "value": {
+        "Traditional_20": [
+          1435,
+          1512,
+          1491
+        ],
+        "Traditional_30": [
+          1583,
+          1529,
+          1610
+        ],
+        "Traditional_40": [
+          1601,
+          1574,
+          1636
+        ],
+        "Disciplined_20": [
+          1575,
+          1512,
+          1488
+        ],
+        "Disciplined_30": [
+          1635,
+          1589,
+          1661
+        ],
+        "Disciplined_40": [
+          1645,
+          1616,
+          1689
+        ]
+      },
+      "class": "numerical",
+      "role": "Y",
+      "description": "Number of machined castings produced by a worker in a 4-week period (40 hours/week). This is the dependent variable (ŷ) in the fitted regression model."
+    },
+    "Incentive": {
+      "id": "Incentive",
+      "value": [
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        40,
+        40,
+        40,
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        40,
+        40,
+        40
+      ],
+      "class": "numerical",
+      "role": "X",
+      "description": "Bonus amount in cents per casting paid for castings produced in excess of 1,000. Used as the quantitative independent variable x1 in the regression model."
+    },
+    "Management_Style": {
+      "id": "Management_Style",
+      "value": [
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Traditional",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined",
+        "Disciplined"
+      ],
+      "class": "categorical",
+      "role": "X",
+      "description": "Type of management practice at the manufacturing plant (Traditional or Disciplined). Coded as the dummy variable x2 (0 = Traditional, 1 = Disciplined) in the regression model."
+    }
+  }
+}

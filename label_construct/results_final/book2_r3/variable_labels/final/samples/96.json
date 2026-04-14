@@ -1,0 +1,22 @@
+{
+  "sample_key": "96",
+  "case_id": "book2_r1\\041.json",
+  "source_path": "book2_r3/96.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of business ventures available for selection."
+    },
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of ventures to be selected as a sample."
+    }
+  }
+}

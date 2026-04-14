@@ -1,0 +1,29 @@
+{
+  "sample_key": "90",
+  "case_id": "book3_r1\\139.json",
+  "source_path": "book3_r3/90.json",
+  "round": 0,
+  "variables": {
+    "Re": {
+      "id": "Re",
+      "value": 0.98,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Reliability of each individual engine for the duration of a flight mission."
+    },
+    "num_engines_per_wing": {
+      "id": "num_engines_per_wing",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of engines on each wing of the aircraft."
+    },
+    "min_functioning_engines_per_wing": {
+      "id": "min_functioning_engines_per_wing",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Minimum number of functioning engines required on each wing for a successful mission (at least one per wing)."
+    }
+  }
+}

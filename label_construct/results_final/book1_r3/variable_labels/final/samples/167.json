@@ -1,0 +1,22 @@
+{
+  "sample_key": "167",
+  "case_id": "book1_r1\\record_074.json",
+  "source_path": "book1_r3/167.json",
+  "round": 0,
+  "variables": {
+    "z_stat": {
+      "id": "z_stat",
+      "value": -2.45,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The given z statistic value from which the P-values are derived."
+    },
+    "one_sided_P_value": {
+      "id": "one_sided_P_value",
+      "value": 0.0071,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The one-sided P-value (obtained from z_stat = -2.45) directly used in the answer's calculation to compute the two-sided P-value."
+    }
+  }
+}

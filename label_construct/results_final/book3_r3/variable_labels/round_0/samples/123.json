@@ -1,0 +1,32 @@
+{
+  "sample_key": "123",
+  "case_id": "book3_r1\\22.json",
+  "source_path": "book3_r3/123.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of identical units placed on test at time t=0."
+    },
+    "MTTF": {
+      "id": "MTTF",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean time to failure (μ) for each unit's exponential life distribution, in hours."
+    },
+    "time_interval": {
+      "id": "time_interval",
+      "value": [
+        0,
+        1
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time interval [0, 1) in hours during which failures are counted."
+    }
+  }
+}

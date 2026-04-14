@@ -1,0 +1,22 @@
+{
+  "sample_key": "222",
+  "case_id": "book3_r1\\60.json",
+  "source_path": "book3_r3/222.json",
+  "round": 0,
+  "variables": {
+    "λ_P": {
+      "id": "λ_P",
+      "value": 0.008,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the processing unit, in failures per hour."
+    },
+    "t": {
+      "id": "t",
+      "value": 25,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mission duration in hours for which the reliability is calculated."
+    }
+  }
+}

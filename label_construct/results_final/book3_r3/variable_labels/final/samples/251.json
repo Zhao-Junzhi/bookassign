@@ -1,0 +1,44 @@
+{
+  "sample_key": "251",
+  "case_id": "book3_r1\\69.json",
+  "source_path": "book3_r3/251.json",
+  "round": 0,
+  "variables": {
+    "A": {
+      "id": "A",
+      "value": {
+        "P(A)": "1/2"
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Event that the first toss is odd; probability P{A} = 1/2, used in checking independence."
+    },
+    "B": {
+      "id": "B",
+      "value": {
+        "P(B)": "1/2"
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Event that the second toss is even; probability P{B} = 1/2, used in checking independence."
+    },
+    "C": {
+      "id": "C",
+      "value": {
+        "P(C)": "1/6"
+      },
+      "class": "categorical",
+      "role": "XY",
+      "description": "Event that the total number of spots equals seven; probability P{C} = 1/6, used in checking independence."
+    },
+    "A_intersect_B_intersect_C": {
+      "id": "A_intersect_B_intersect_C",
+      "value": {
+        "P(A ∩ B ∩ C)": "1/12"
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Joint probability of events A, B, and C occurring simultaneously; P{A ∩ B ∩ C} = 1/12, compared with P{A}·P{B}·P{C} to check independence."
+    }
+  }
+}

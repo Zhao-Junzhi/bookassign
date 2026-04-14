@@ -1,0 +1,22 @@
+{
+  "sample_key": "77",
+  "case_id": "book5_r1\\027.json",
+  "source_path": "book5_r3/77.json",
+  "round": 0,
+  "variables": {
+    "number_of_cigarettes": {
+      "id": "number_of_cigarettes",
+      "value": "Number of cigarettes smoked by the smokers living with the nonsmokers (groups as given in Matsukura et al., 1984 table)",
+      "class": "categorical",
+      "role": "X",
+      "description": "Grouping variable representing the number of cigarettes smoked by the cohabitant smoker; used as the independent/trend variable in the analysis of trend."
+    },
+    "urinary_cotinine_levels": {
+      "id": "urinary_cotinine_levels",
+      "value": "Urinary cotinine excretion levels measured in nonsmokers (summary statistics as given in Matsukura et al., 1984 table)",
+      "class": "numerical",
+      "role": "Y",
+      "description": "Urinary cotinine excretion measured in nonsmokers who lived with smokers; the dependent variable examined for a systematic relation with number of cigarettes."
+    }
+  }
+}

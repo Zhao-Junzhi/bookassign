@@ -1,0 +1,22 @@
+{
+  "sample_key": "196",
+  "case_id": "book1_r1\\record_085.json",
+  "source_path": "book1_r3/196.json",
+  "round": 0,
+  "variables": {
+    "degrees_of_freedom": {
+      "id": "degrees_of_freedom",
+      "value": 22,
+      "class": "numerical",
+      "role": "NR",
+      "description": "t分布的自由度，用于在Table C中定位对应的行（t_{22}分布）。"
+    },
+    "confidence_level": {
+      "id": "confidence_level",
+      "value": "95%",
+      "class": "numerical",
+      "role": "NR",
+      "description": "所需捕获的曲线下中间区域面积百分比，用于在Table C中定位对应的列（Confidence level = 95%，即累积概率0.975）。"
+    }
+  }
+}

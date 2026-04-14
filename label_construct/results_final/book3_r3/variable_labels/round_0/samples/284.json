@@ -1,0 +1,22 @@
+{
+  "sample_key": "284",
+  "case_id": "book3_r1\\85.json",
+  "source_path": "book3_r3/284.json",
+  "round": 0,
+  "variables": {
+    "T": {
+      "id": "T",
+      "value": "Lifetime of an electric motor (in years), with pdf f(t) = 0.25 t e^{-0.5 t}, t > 0",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The random variable representing the lifetime of an electric motor, whose probability density function is f(t) = 0.25 t e^{-0.5 t} for t > 0. The answer integrates this pdf to find the warranty period."
+    },
+    "warranty_failure_probability": {
+      "id": "warranty_failure_probability",
+      "value": 0.03,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum proportion of motors allowed to require warranty services (3%), used as the threshold probability in solving for the warranty period."
+    }
+  }
+}

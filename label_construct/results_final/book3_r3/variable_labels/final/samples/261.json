@@ -1,0 +1,22 @@
+{
+  "sample_key": "261",
+  "case_id": "book3_r1\\76.json",
+  "source_path": "book3_r3/261.json",
+  "round": 0,
+  "variables": {
+    "survival_time": {
+      "id": "survival_time",
+      "value": 720,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time period (in hours) during which the fax machine survives without failure."
+    },
+    "survival_probability": {
+      "id": "survival_probability",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that the fax machine survives the given time period without failure."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "41",
+  "case_id": "book3_r1\\112.json",
+  "source_path": "book3_r3/41.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 1000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of coin tosses performed in the statistical test."
+    },
+    "p_fair": {
+      "id": "p_fair",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of heads for the fair coin (assumed true probability under the null hypothesis)."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 525,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Decision threshold: if heads ≥ 525, conclude biased coin; otherwise conclude fair coin."
+    }
+  }
+}

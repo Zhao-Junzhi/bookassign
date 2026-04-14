@@ -1,0 +1,43 @@
+{
+  "sample_key": "134",
+  "case_id": "book3_r1\\27.json",
+  "source_path": "book3_r3/134.json",
+  "round": 0,
+  "variables": {
+    "earthquake_frequency": {
+      "id": "earthquake_frequency",
+      "value": "one every 50 years (λ = 1/50 per year)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean frequency of large earthquakes capable of damaging important plant structures, used to compute P(earthquakes in 10 years) = 1 - e^{-0.2}."
+    },
+    "wind_frequency": {
+      "id": "wind_frequency",
+      "value": "once in 25 years (λ = 1/25 per year)",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Mean frequency of damaging high winds, used to compute P(wind in 10 years) = 1 - e^{-0.4}."
+    },
+    "P_damage_given_earthquake": {
+      "id": "P_damage_given_earthquake",
+      "value": 0.1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of structure damage during a strong earthquake, directly used in the damage probability calculation."
+    },
+    "P_damage_given_wind": {
+      "id": "P_damage_given_wind",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of structure damage during high winds, directly used in the damage probability calculation."
+    },
+    "time_period": {
+      "id": "time_period",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The 10-year period over which the probability of building damage is being evaluated, used to compute Poisson occurrence probabilities."
+    }
+  }
+}

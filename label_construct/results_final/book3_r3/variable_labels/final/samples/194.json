@@ -1,0 +1,49 @@
+{
+  "sample_key": "194",
+  "case_id": "book3_r1\\52 (1).json",
+  "source_path": "book3_r3/194.json",
+  "round": 0,
+  "variables": {
+    "|F_n(x)-F_0(x)|": {
+      "id": "|F_n(x)-F_0(x)|",
+      "value": [
+        0.0048,
+        0.0289,
+        0.0047,
+        0.2015,
+        0.2048,
+        0.2061,
+        0.1776,
+        0.0903,
+        0.0503,
+        0.0165
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Absolute differences between the empirical CDF F_n(x) and theoretical CDF F_0(x) at each failure time, from Table 3.8. The maximum of these values gives D_n."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size (number of failure times), used to look up the critical value in Table A.4."
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Significance level (5%) used to determine the critical value d_{n,alpha} from Table A.4."
+    },
+    "d_n_alpha_table": {
+      "id": "d_n_alpha_table",
+      "value": {
+        "n=10, alpha=0.05": 0.409
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Critical value from Table A.4 for n=10 and alpha=0.05 in the KS test."
+    }
+  }
+}

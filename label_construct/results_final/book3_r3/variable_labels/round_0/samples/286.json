@@ -1,0 +1,22 @@
+{
+  "sample_key": "286",
+  "case_id": "book3_r1\\87.json",
+  "source_path": "book3_r3/286.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "f(x) = 5(1-x)^4 for 0<x<1, 0 otherwise",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Weekly volume of sales in thousands of gallons, a random variable with the given probability density function f(x) = 5(1-x)^4 for 0 < x < 1."
+    },
+    "probability_threshold": {
+      "id": "probability_threshold",
+      "value": 0.01,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The maximum allowable probability that the supplies are completely used up in a given week."
+    }
+  }
+}

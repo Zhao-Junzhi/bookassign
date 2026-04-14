@@ -1,0 +1,22 @@
+{
+  "sample_key": "174",
+  "case_id": "book2_r1\\072.json",
+  "source_path": "book2_r3/174.json",
+  "round": 0,
+  "variables": {
+    "z_lower": {
+      "id": "z_lower",
+      "value": -1.33,
+      "class": "numerical",
+      "role": "NR",
+      "description": "标准正态随机变量z的下界值"
+    },
+    "z_upper": {
+      "id": "z_upper",
+      "value": 1.33,
+      "class": "numerical",
+      "role": "NR",
+      "description": "标准正态随机变量z的上界值"
+    }
+  }
+}

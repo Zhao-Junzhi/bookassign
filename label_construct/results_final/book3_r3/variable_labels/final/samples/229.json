@@ -1,0 +1,36 @@
+{
+  "sample_key": "229",
+  "case_id": "book3_r1\\61.json",
+  "source_path": "book3_r3/229.json",
+  "round": 0,
+  "variables": {
+    "lambda_i": {
+      "id": "lambda_i",
+      "value": "λ_i for i = 1, 2, ..., n",
+      "class": "numerical",
+      "role": "X",
+      "description": "Constant failure rate of each independent component i in the parallel system, used as a parameter in the exponential failure time distribution."
+    },
+    "t": {
+      "id": "t",
+      "value": "t",
+      "class": "numerical",
+      "role": "X",
+      "description": "Time variable representing the operating time in the reliability function R(t)."
+    },
+    "R(t)": {
+      "id": "R(t)",
+      "value": "1 - ∏_{i=1}^{n}(1 - e^{-λ_i t})",
+      "class": "numerical",
+      "role": "Y",
+      "description": "System reliability function of the parallel system, representing the probability that the system is operational at time t."
+    },
+    "n": {
+      "id": "n",
+      "value": "n",
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of independent components in the parallel system; in the specific background example n=3."
+    }
+  }
+}

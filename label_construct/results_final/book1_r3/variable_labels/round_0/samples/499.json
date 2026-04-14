@@ -1,0 +1,29 @@
+{
+  "sample_key": "499",
+  "case_id": "book1_r1\\record_349.json",
+  "source_path": "book1_r3/499.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Simple random sample size drawn from the population, used as the number of trials in the binomial formula."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.04,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Prevalence of asthma in the population, used as the probability of success in the binomial formula. Also used to derive q = 1 − p = 0.96."
+    },
+    "x": {
+      "id": "x",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The specific number of asthmatics whose probability of being observed is being calculated (Pr(X=1))."
+    }
+  }
+}

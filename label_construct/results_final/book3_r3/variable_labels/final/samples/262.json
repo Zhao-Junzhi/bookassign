@@ -1,0 +1,45 @@
+{
+  "sample_key": "262",
+  "case_id": "book3_r1\\76.json",
+  "source_path": "book3_r3/262.json",
+  "round": 0,
+  "variables": {
+    "failure_rate_lambda": {
+      "id": "failure_rate_lambda",
+      "value": {
+        "derived_from": "P(T > 720) = 0.80"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate λ of the fax machine, determined from the condition that the probability of surviving 720 hours without failure is 0.80."
+    },
+    "survival_time_T": {
+      "id": "survival_time_T",
+      "value": null,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The random variable representing the time (in hours) until the fax machine fails, following an exponential distribution with constant failure rate λ."
+    },
+    "survival_probability_720": {
+      "id": "survival_probability_720",
+      "value": 0.8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that the machine survives for 720 hours without failure, P(T > 720) = 0.80, used to determine λ."
+    },
+    "conditioning_time": {
+      "id": "conditioning_time",
+      "value": 600,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time (in hours) at which the machine is known to still be functioning, used as the conditioning event T > 600."
+    },
+    "target_time": {
+      "id": "target_time",
+      "value": 800,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time (in hours) for which we want to determine the probability of the machine still functioning, i.e., P(T > 800 | T > 600)."
+    }
+  }
+}

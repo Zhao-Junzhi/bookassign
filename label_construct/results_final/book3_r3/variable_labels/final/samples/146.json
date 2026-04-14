@@ -1,0 +1,22 @@
+{
+  "sample_key": "146",
+  "case_id": "book3_r1\\33.json",
+  "source_path": "book3_r3/146.json",
+  "round": 0,
+  "variables": {
+    "λ": {
+      "id": "λ",
+      "value": 8e-05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the security alarm system, in failures per hour."
+    },
+    "t": {
+      "id": "t",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time duration (in hours) for which the system is required to last, used in the exponential survival probability calculation."
+    }
+  }
+}

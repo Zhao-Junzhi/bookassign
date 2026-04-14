@@ -1,0 +1,32 @@
+{
+  "sample_key": "202",
+  "case_id": "book3_r1\\55.json",
+  "source_path": "book3_r3/202.json",
+  "round": 0,
+  "variables": {
+    "X_sample": {
+      "id": "X_sample",
+      "value": [
+        16.16,
+        9.33,
+        12.96,
+        11.49,
+        12.31,
+        8.93,
+        6.02,
+        10.66,
+        7.75,
+        15.55,
+        3.58,
+        11.34,
+        11.38,
+        6.53,
+        9.75,
+        9.47
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Random sample of size n=16 drawn from a normal distribution with unknown mean μ and unknown standard deviation σ. The answer uses the sample mean (10.20), sample standard deviation (3.313), and sample size (16) computed from these values to construct the 95% confidence interval for μ."
+    }
+  }
+}

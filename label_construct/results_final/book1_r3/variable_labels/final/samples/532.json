@@ -1,0 +1,25 @@
+{
+  "sample_key": "532",
+  "case_id": "book1_r1\\record_363.json",
+  "source_path": "book1_r3/532.json",
+  "round": 0,
+  "variables": {
+    "WAIS_scores": {
+      "id": "WAIS_scores",
+      "value": {
+        "mean": 100,
+        "standard_deviation": 15
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "WAIS scores from the population, following a Normal distribution with μ=100 and σ=15. Compared with the sampling distribution of x̄'s."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size used to construct the sampling distribution of x̄'s."
+    }
+  }
+}

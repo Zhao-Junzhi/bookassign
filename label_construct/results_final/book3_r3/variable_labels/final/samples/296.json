@@ -1,0 +1,24 @@
+{
+  "sample_key": "296",
+  "case_id": "book3_r1\\91.json",
+  "source_path": "book3_r3/296.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": {
+        "pdf": "f(x) = 3x^{-4} for x >= 1, 0 otherwise"
+      },
+      "class": "numerical",
+      "role": "NR",
+      "description": "Claim amount (in thousands) for wind damage to insured homes, following a Pareto-type distribution with PDF f(x) = 3x^{-4} for x ≥ 1."
+    },
+    "n": {
+      "id": "n",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of independent claims to be made, used to determine the distribution of the minimum order statistic."
+    }
+  }
+}

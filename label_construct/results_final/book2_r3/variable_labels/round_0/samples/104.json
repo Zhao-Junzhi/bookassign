@@ -1,0 +1,22 @@
+{
+  "sample_key": "104",
+  "case_id": "book2_r1\\044.json",
+  "source_path": "book2_r3/104.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of fair coins tossed in the experiment, used to determine the total number of sample points (2^10 = 1024)."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of heads on each fair coin toss, used to assign equal probabilities to all sample points."
+    }
+  }
+}

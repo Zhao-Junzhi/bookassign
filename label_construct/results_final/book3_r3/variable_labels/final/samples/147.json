@@ -1,0 +1,29 @@
+{
+  "sample_key": "147",
+  "case_id": "book3_r1\\33.json",
+  "source_path": "book3_r3/147.json",
+  "round": 0,
+  "variables": {
+    "λ": {
+      "id": "λ",
+      "value": 8e-05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Constant failure rate of the exponential distribution, in failures per hour."
+    },
+    "T_condition": {
+      "id": "T_condition",
+      "value": 5000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The time (in hours) the system has already survived, used as the given condition in the conditional probability calculation."
+    },
+    "T_target": {
+      "id": "T_target",
+      "value": 10000,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The target time (in hours) for which the system is required to last, used in the conditional probability calculation."
+    }
+  }
+}

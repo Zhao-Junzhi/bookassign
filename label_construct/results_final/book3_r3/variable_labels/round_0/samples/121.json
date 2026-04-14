@@ -1,0 +1,29 @@
+{
+  "sample_key": "121",
+  "case_id": "book3_r1\\20.json",
+  "source_path": "book3_r3/121.json",
+  "round": 0,
+  "variables": {
+    "p_good": {
+      "id": "p_good",
+      "value": 0.9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a lightbulb is good (90%)."
+    },
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size, the number of lightbulbs in the random sample."
+    },
+    "x_threshold": {
+      "id": "x_threshold",
+      "value": 18,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold number of good lightbulbs for which the probability of obtaining at least this many is calculated."
+    }
+  }
+}

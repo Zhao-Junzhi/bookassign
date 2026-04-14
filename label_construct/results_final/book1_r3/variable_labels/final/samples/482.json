@@ -1,0 +1,29 @@
+{
+  "sample_key": "482",
+  "case_id": "book1_r1\\record_340.json",
+  "source_path": "book1_r3/482.json",
+  "round": 0,
+  "variables": {
+    "Pr(A)": {
+      "id": "Pr(A)",
+      "value": 0.35,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of cat ownership, used in the general rule of addition to compute Pr(A or B)."
+    },
+    "Pr(B)": {
+      "id": "Pr(B)",
+      "value": 0.3,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of dog ownership, used in the general rule of addition to compute Pr(A or B)."
+    },
+    "Pr(A and B)": {
+      "id": "Pr(A and B)",
+      "value": 0.15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of joint cat and dog ownership, subtracted in the general rule of addition to avoid double-counting when computing Pr(A or B)."
+    }
+  }
+}

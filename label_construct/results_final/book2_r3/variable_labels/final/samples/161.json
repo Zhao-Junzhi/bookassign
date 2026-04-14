@@ -1,0 +1,22 @@
+{
+  "sample_key": "161",
+  "case_id": "book2_r1\\069.json",
+  "source_path": "book2_r3/161.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 20,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The number of employees polled, used as the sample size (number of trials) for the binomial random variable x."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The probability that an individual employee favors unionization (60% of all employees favor unionization), used as the success probability in the binomial distribution."
+    }
+  }
+}

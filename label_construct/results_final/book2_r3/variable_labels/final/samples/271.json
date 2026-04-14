@@ -1,0 +1,22 @@
+{
+  "sample_key": "271",
+  "case_id": "book2_r1\\112.json",
+  "source_path": "book2_r3/271.json",
+  "round": 0,
+  "variables": {
+    "z_statistic": {
+      "id": "z_statistic",
+      "value": 1.44,
+      "class": "numerical",
+      "role": "NR",
+      "description": "题目给定的检验统计量 z 值，answer 中用于计算 p-value = P(z > 1.44) = 1 - 0.925 = 0.075"
+    },
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "题目给定的显著性水平，answer 中用于确定拒绝域 z > 1.645 并与 p-value 比较以得出结论"
+    }
+  }
+}

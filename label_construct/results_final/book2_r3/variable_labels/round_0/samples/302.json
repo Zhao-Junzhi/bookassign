@@ -1,0 +1,22 @@
+{
+  "sample_key": "302",
+  "case_id": "book2_r1\\120.json",
+  "source_path": "book2_r3/302.json",
+  "round": 0,
+  "variables": {
+    "alpha": {
+      "id": "alpha",
+      "value": 0.05,
+      "class": "numerical",
+      "role": "NR",
+      "description": "显著性水平，用于确定拒绝域的临界值"
+    },
+    "degrees_of_freedom": {
+      "id": "degrees_of_freedom",
+      "value": 9,
+      "class": "numerical",
+      "role": "NR",
+      "description": "自由度 (n-1)=9，用于查表确定卡方分布的临界值"
+    }
+  }
+}

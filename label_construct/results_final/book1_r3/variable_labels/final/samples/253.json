@@ -1,0 +1,30 @@
+{
+  "sample_key": "253",
+  "case_id": "book1_r1\\record_107.json",
+  "source_path": "book1_r3/253.json",
+  "round": 0,
+  "variables": {
+    "bone_mineral_content_smokers": {
+      "id": "bone_mineral_content_smokers",
+      "value": {
+        "mean": 0.098,
+        "standard_deviation": 0.026,
+        "sample_size": 77
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Bone mineral content (g/cm^3) of infants whose mothers smoked."
+    },
+    "bone_mineral_content_nonsmokers": {
+      "id": "bone_mineral_content_nonsmokers",
+      "value": {
+        "mean": 0.095,
+        "standard_deviation": 0.025,
+        "sample_size": 161
+      },
+      "class": "numerical",
+      "role": "XY",
+      "description": "Bone mineral content (g/cm^3) of infants whose mothers did not smoke."
+    }
+  }
+}

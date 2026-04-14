@@ -1,0 +1,36 @@
+{
+  "sample_key": "42",
+  "case_id": "book3_r1\\113.json",
+  "source_path": "book3_r3/42.json",
+  "round": 0,
+  "variables": {
+    "N": {
+      "id": "N",
+      "value": 100,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of items in the lot (population size)."
+    },
+    "K": {
+      "id": "K",
+      "value": 2,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of defective items in the lot, derived from the claim that 2% of 100 items are defective."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Sample size drawn from the lot without replacement."
+    },
+    "acceptance_threshold": {
+      "id": "acceptance_threshold",
+      "value": 1,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Maximum number of defective items allowed in the sample for the lot to be accepted (at most 1)."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_key": "691",
+  "case_id": "book1_r1\\record_417.json",
+  "source_path": "book1_r3/691.json",
+  "round": 0,
+  "variables": {
+    "n": {
+      "id": "n",
+      "value": 8,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Total number of cups (trials) in the tea-tasting experiment"
+    },
+    "p": {
+      "id": "p",
+      "value": 0.5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of correctly identifying the order by chance alone under the null hypothesis"
+    },
+    "x": {
+      "id": "x",
+      "value": 6,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Observed number of successes (correct identifications out of 8 cups), which serves as the test statistic for the exact binomial test"
+    }
+  }
+}

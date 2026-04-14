@@ -1,0 +1,29 @@
+{
+  "sample_key": "107",
+  "case_id": "book2_r1\\045.json",
+  "source_path": "book2_r3/107.json",
+  "round": 0,
+  "variables": {
+    "P(A)": {
+      "id": "P(A)",
+      "value": 0.12,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a patient is admitted for surgical treatment."
+    },
+    "P(B)": {
+      "id": "P(B)",
+      "value": 0.16,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a patient is admitted for obstetrics treatment."
+    },
+    "P(A∩B)": {
+      "id": "P(A∩B)",
+      "value": 0.02,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability that a patient receives both surgical and obstetrics treatment."
+    }
+  }
+}

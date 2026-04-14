@@ -1,0 +1,22 @@
+{
+  "sample_key": "297",
+  "case_id": "book3_r1\\92.json",
+  "source_path": "book3_r3/297.json",
+  "round": 0,
+  "variables": {
+    "X": {
+      "id": "X",
+      "value": "Continuous random variable with density f(x) = C * x * e^(-x/2) for x > 0",
+      "class": "numerical",
+      "role": "NR",
+      "description": "The random amount of time (in months) that the system functions, with the given density function f(x) = C * x * e^(-x/2) for x > 0."
+    },
+    "threshold": {
+      "id": "threshold",
+      "value": 5,
+      "class": "numerical",
+      "role": "NR",
+      "description": "The threshold value (5 months) used to compute the probability P(X ≥ 5)."
+    }
+  }
+}

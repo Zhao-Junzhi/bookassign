@@ -1,0 +1,60 @@
+{
+  "sample_key": "21",
+  "case_id": "book5_r1\\007.json",
+  "source_path": "book5_r3/21.json",
+  "round": 0,
+  "variables": {
+    "r": {
+      "id": "r",
+      "value": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of miscarriages out of 10 pregnant women (possible values of the binomial random variable)."
+    },
+    "Probability": {
+      "id": "Probability",
+      "value": [
+        0.1969,
+        0.3474,
+        0.2759,
+        0.1298,
+        0.0401,
+        0.0085,
+        0.0012,
+        0.0001,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "class": "numerical",
+      "role": "NR",
+      "description": "Binomial probabilities P(r) for each value of r with n=10 and p=0.15. The answer sums P(r) for r=6 through r=10 to find the probability that more than half (i.e., more than 5) have a miscarriage."
+    },
+    "p": {
+      "id": "p",
+      "value": 0.15,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Probability of miscarriage for any single pregnancy (binomial parameter p)."
+    },
+    "n": {
+      "id": "n",
+      "value": 10,
+      "class": "numerical",
+      "role": "NR",
+      "description": "Number of pregnant women in the group (binomial parameter n), used to define 'more than half' as more than 5."
+    }
+  }
+}

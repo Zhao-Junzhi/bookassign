@@ -1,0 +1,28 @@
+{
+  "sample_key": "329",
+  "case_id": "book1_r1\\record_132.json",
+  "source_path": "book1_r3/329.json",
+  "round": 0,
+  "variables": {
+    "Restenosis_CMV_positive": {
+      "id": "Restenosis_CMV_positive",
+      "value": {
+        "sample_size": 49,
+        "restenosis_count": 21
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "CMV+组中的再狭窄结局：49名有CMV感染血清学证据的受试者中，21人在动脉粥样硬化切除术后6个月内发生再狭窄。与Restenosis_CMV_negative为按CMV感染状态分组的同一结局变量。"
+    },
+    "Restenosis_CMV_negative": {
+      "id": "Restenosis_CMV_negative",
+      "value": {
+        "sample_size": 26,
+        "restenosis_count": 2
+      },
+      "class": "categorical",
+      "role": "Y",
+      "description": "CMV−组中的再狭窄结局：26名无CMV感染血清学证据的受试者中，2人在动脉粥样硬化切除术后6个月内发生再狭窄。与Restenosis_CMV_positive为按CMV感染状态分组的同一结局变量。"
+    }
+  }
+}
