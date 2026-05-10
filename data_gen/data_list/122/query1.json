@@ -1,0 +1,56 @@
+{
+  "task_overview": {
+    "background": "在中国的宏观经济分析中，经济增长与失业率的关系一直是一个重要的研究课题。奥肯定律提出经济增长与失业率之间存在反向关系。本任务旨在通过数据分析探索奥肯定律在中国的适用性，通过对失业率与GDP数据进行时间序列分析，验证其相关性及影响。",
+    "data_description": "本任务使用的数据集包括失业率数据（unemployment.csv）和GDP数据（gdp.csv）。失业率数据包含变量'ur'，代表失业率；GDP数据包含变量'gdp'，代表国内生产总值。数据来源于国家统计局的经济年度报告，时间范围从1978年到2022年。"
+  },
+  "analysis_questions": [
+    {
+      "question": "失业率和对数GDP呈现了什么趋势？",
+      "answer": "绘制失业率和对数GDP的时序图，结果显示2000年之前失业率波动幅度较大，而2000年之后失业率维持在一个较稳定的水平；对数GDP则呈现明显的上升趋势，表明经济在持续增长。",
+      "var": {
+        "unemployment.pkl": [
+          "year",
+          "ur"
+        ],
+        "gdp.pkl": [
+          "year",
+          "gdp"
+        ]
+      },
+      "method_category": "时间序列"
+    },
+    {
+      "question": "失业率和对数GDP随时间变化的平稳性结果如何？",
+      "answer": "使用ADF单位根检验对失业率和对数GDP进行分析，结果显示两者均为非平稳序列，而经过一阶差分后，均变为平稳时间序列，因此我们可以认为它们都是一阶单整序列I(1)。",
+      "var": {
+        "unemployment.pkl": [
+          "ur"
+        ],
+        "gdp.pkl": [
+          "gdp"
+        ]
+      },
+      "method_category": "平稳性分析"
+    },
+    {
+      "question": "如何检验GDP与失业率之间的协整关系？",
+      "answer": "首先建立OLS模型进行回归，得到的残差序列进行单位根检验，结果显示残差序列为平稳序列，说明GDP与失业率之间存在协整关系，进一步探讨了两者之间的长期关系。",
+      "var": {
+        "unemployment.pkl": [
+          "ur"
+        ],
+        "gdp.pkl": [
+          "gdp"
+        ]
+      },
+      "method_category": "假设检验"
+    }
+  ],
+  "quality_check_iterations": 1,
+  "quality_check_passed": true,
+  "token_usage": {
+    "prompt_tokens": 1922,
+    "completion_tokens": 870,
+    "total_tokens": 2792
+  }
+}

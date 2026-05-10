@@ -1,0 +1,108 @@
+import os
+import json
+from pathlib import Path
+from bs4 import BeautifulSoup
+from openai import OpenAI
+from prompt import Prompt_question_1
+
+
+def extract_text_from_html(html_file_path):
+    """从HTML文件中提取文本内容"""
+    with open(html_file_path, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    text = soup.get_text(separator='\n', strip=True)
+    return text
+
+
+def call_openai_api_with_tokens(report_content, dataset_description=None, api_key=None, model="gpt-4o"):
+    """
+    调用OpenAI API并返回结果和token使用信息
+    
+    参数:
+        report_content: HTML报告内容
+        dataset_description: 数据集描述
+        api_key: API密钥
+        model: 模型名称
+    
+    返回:
+        (result_json, usage_info) 元组
+    """
+    if api_key is None:
+        api_key = os.getenv('OPENAI_API_KEY')
+    
+    if not api_key:
+        raise ValueError("OpenAI API key not provided. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
+    
+    client = OpenAI(api_key=api_key, base_url="https://toollearning.cn/v1")
+    
+    # 构建用户内容
+    user_content = Prompt_question_1 + "\n\n数据分析报告内容：\n" + report_content
+    
+    # 添加案例所需数据集情况部分
+    if dataset_description:
+        user_content += "\n\n案例所需数据集情况：\n" + dataset_description
+    else:
+        user_content += "\n\n该案例未提供JSON格式的所需数据集情况。"
+    
+    messages = [
+        {
+            "role": "system",
+            "content": "你是一位经验丰富的统计学教师，擅长设计数据分析任务。"
+        },
+        {
+            "role": "user",
+            "content": user_content
+        }
+    ]
+    
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            temperature=0.7,
+            response_format={"type": "json_object"}
+        )
+        
+        result_text = response.choices[0].message.content
+        result_json = json.loads(result_text)
+        
+        # 获取token使用信息
+        usage_info = {
+            "prompt_tokens": response.usage.prompt_tokens,
+            "completion_tokens": response.usage.completion_tokens,
+            "total_tokens": response.usage.total_tokens
+        }
+        
+        return result_json, usage_info
+    
+    except json.JSONDecodeError as e:
+        print(f"JSON解析错误: {e}")
+        print(f"返回内容: {result_text}")
+        raise
+    except Exception as e:
+        print(f"API调用错误: {e}")
+        raise
+
+
+def process_html_file(html_file_path, dataset_description=None, api_key=None, model="gpt-4o"):
+    """
+    处理单个HTML文件
+    
+    参数:
+        html_file_path: HTML文件路径
+        dataset_description: 数据集描述
+        api_key: API密钥
+        model: 模型名称
+    
+    返回:
+        (result_json, usage_info, report_content) 元组
+    """
+    # 提取HTML文本
+    report_content = extract_text_from_html(html_file_path)
+    
+    # 调用OpenAI API并获取token使用信息
+    result, usage_info = call_openai_api_with_tokens(report_content, dataset_description, api_key, model)
+    
+    return result, usage_info, report_content

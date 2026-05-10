@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "country.pkl",
+    "type": "<class 'pandas.DataFrame'>",
+    "shape": "(150, 15)",
+    "columns": [
+      "country",
+      "ChineseCountryName",
+      "Continent",
+      "MajorLanguage",
+      " Density ",
+      " LandArea ",
+      "MajorReligion",
+      "District",
+      "IncomeLevel",
+      "GDP",
+      "GDPpercapita",
+      "population",
+      "PopulationGrowthRate",
+      "PopulationSexRation",
+      "HumanCapitalIndex"
+    ],
+    "sample": "   country ChineseCountryName  ... PopulationSexRation HumanCapitalIndex\n0  Albania              阿尔巴尼亚  ...                1.02             58.22\n1  Algeria              阿尔及利亚  ...                1.02             51.51\n2   Angola                安哥拉  ...                0.96               NaN\n\n[3 rows x 15 columns]"
+  },
+  {
+    "filename": "gggr.pkl",
+    "type": "<class 'pandas.DataFrame'>",
+    "shape": "(8170, 5)",
+    "columns": [
+      "year",
+      "country",
+      "IndexName",
+      "value",
+      "rank"
+    ],
+    "sample": "   year country                               IndexName  value  rank\n0  2017   World                            Global Index   0.68   NaN\n1  2017   World  Economic Participation and Opportunity   0.58   NaN\n2  2017   World                    Education Attainment   0.95   NaN"
+  }
+]
